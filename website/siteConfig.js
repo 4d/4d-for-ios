@@ -24,10 +24,10 @@ const siteConfig = {
   title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
   url: 'https://4D.github.io' /* your website url */,
-  baseUrl: '/4D-for-iOS/' /* base url for your project */,
+  baseUrl: '/4d-for-ios/' /* base url for your project */,
 
   // Used for publishing and more
-  projectName: '4D-for-iOS',
+  projectName: '4d-for-ios',
   organizationName: '4D',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
