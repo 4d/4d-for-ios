@@ -1,0 +1,75 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+#whiteBloc {
+
+    background: white;
+    text-align: center;
+}
+
+#greyBloc {
+
+    margin-top: -20px;
+    text-align: center;
+    background: #f9f9f9;
+
+
+}
+
+#footerBloc {
+
+    padding-top: 20px;
+    text-align: center;
+    background: white;
+
+}
+
+.objectives{
+padding: 20px;
+margin-top: 22px;
+background-color: #ebf1de;
+color:#333333;
+}
+
+.caution{	
+padding: 20px;
+margin-top: 22px;
+margin-bottom: 22px;
+background-color: #fdc2c2;
+color:#333333;
+}
+
+.prerequisites{	
+padding: 20px;
+margin-top: 22px;
+margin-bottom: 22px;
+background-color: #c7daf0;
+color:#333333;
+}
+
+.tips {
+padding: 20px;
+margin-top: 22px;
+margin-bottom: 22px;
+background-color: #f2f2f2;
+}
+
+#legalFooter {
+
+	text-align: center;
+}
+
