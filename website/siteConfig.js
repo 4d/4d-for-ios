@@ -49,7 +49,7 @@ const siteConfig = {
 
 algolia: {
     apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
-    indexName: 'dazancot',
+    indexName: 'davaz4d',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 
