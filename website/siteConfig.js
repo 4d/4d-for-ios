@@ -11,7 +11,7 @@
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
-    caption: 'dazancot',
+    //caption: 'dazancot',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: 'img/logo4DforiOS.png',
@@ -23,15 +23,12 @@ const users = [
 const siteConfig = {
   title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
-  url: 'https://dazancot.github.io' /* your website url */,
-  baseUrl: '/doc/' /* base url for your project */,
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  url: 'https://4D.github.io' /* your website url */,
+  baseUrl: '/4D-for-iOS/' /* base url for your project */,
 
   // Used for publishing and more
-  projectName: 'doc',
-  organizationName: 'dazancot',
+  projectName: '4D-for-iOS',
+  organizationName: '4D',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -70,7 +67,7 @@ algolia: {
     secondaryColor: '#0f949b',
   },
 
-    editUrl: 'https://github.com/dazancot/doc/edit/master/docs/',
+  editUrl: 'https://github.com/4D/4D-for-iOS/edit/17R2/docs/',
 
 
   /* custom fonts for website */
