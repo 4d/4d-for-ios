@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>How to install my App on my device</title>
+
+ <style type="text/css">
+.mainContainer {
+	height: 100%;
+	width:100%;
+	margin-left: 0px;
+	left: 0px;
+	right: 0px;
+	margin-right: 0px;
+	position: relative;
+}
+
+.headerTitleFont {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.headerTitleFontSub {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 47px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.blocTitleFont {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 38px;
+	text-align: right;
+	margin-right: 15px;
+	letter-spacing: 1px;
+}
+
+.blocTitleFontSub {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26px;
+	text-align: right;
+	margin-right: 15px;
+	margin-top: -20px;
+	letter-spacing: 1px;
+}
+
+.blocSectionTitleLeft {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 28px;
+	width: 100%;
+	text-align: right; 
+	top:-60px;
+	margin-top:0px;
+	margin-left: 15px;
+	letter-spacing: 1px;
+}
+
+.blocSectionTextLeft {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 24px;
+	width: 90%;
+	margin-top:20px;
+	margin-left: 15px;
+	letter-spacing: 1px;
+	}
+
+
+.blocSectionTitleRight {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 28px;
+	width: 100%;
+	text-align: left;
+	margin-left: -15px;
+	letter-spacing: 1px;
+}
+
+.blocSectionTextRight {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 24px;
+	margin-left: 50%;
+	margin-top:20px;
+	margin-left: 40px;
+	width: 80%;
+	letter-spacing: 1px;
+}
+
+.bloc1 {
+    color: white;
+    border-radius: 15px 15px 4px 4px;
+    background: #DC4939;
+    width: 100%;
+    height: 138px; 
+    margin-bottom: 10px;
+    padding-top: 40px;
+} 
+
+.bloc2 {
+    color: white;
+	border-radius: 4px 4px 4px 4px;
+    background: #ECA92E;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding-top: 40px;
+} 
+
+.bloc3 {
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    background: #52B3AA;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding-top: 40px;
+} 
+
+.bloc4 {
+    color: white;
+    border-radius: 4px 4px 15px 15px;
+    background: #439AB7;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding-top: 40px;
+} 
+
+ .oval {
+   	width: 6px;
+  	height: 6px;
+   	background: white;
+   	border-radius: 50%;
+  	position: relative;
+    margin-bottom: 3px;
+    margin-left: 5px;
+ }
+
+ .bigOval {
+   	width: 17px;
+   	height: 17px;
+   	background: white;
+  	border-radius: 50%;
+  	position: absolute;
+    margin-bottom: 3px;
+    margin-top: -8px;
+ }
+
+ .rectangleLeft {
+    color: white;
+    background: white;
+    width: 100%;
+    height: 3px; 
+    position: relative;
+    margin-top: -10px;
+    left: 0px;
+    right:10px
+} 
+
+ .rectangleRight {
+    color: white;
+    background: white;
+    width: 100%;
+    height: 3px; 
+    position: relative;
+    margin-top: -10px;
+    left: 10px;
+    right:0px;
+} 
+
+.ovalBloc2 {
+   	width: 8px;
+   	height: 8px;
+   	background: #ECA92E;
+   	border-radius: 50%;
+  	position: absolute;
+    margin-bottom: 3px;
+    margin-left: 4.5px;
+    margin-top: -4px;
+ }
+
+ .ovalBloc3 {
+   	width: 8px;
+   	height: 8px;
+   	background: #52B3AA;
+   	border-radius: 50%;
+  	position: absolute;
+    margin-bottom: 3px;
+    margin-left: 4.5px;
+    margin-top: -4px;
+ }
+
+ .ovalBloc4 {
+   	width: 8px;
+   	height: 8px;
+   	background: #439AB7;
+   	border-radius: 50%;
+  	position: absolute;
+    margin-bottom: 3px;
+    margin-left: 4.5px;
+    margin-top: -4px;
+ }
+
+.lineDots {
+    border-left: 5px dotted white;
+    left: 50%;
+    margin-left: 6px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+</style>
+
+</head>
+ 
+	<body>
+
+<div class="mainContainer">
+<!--BLOC 1-->
+<div class=bloc1> 
+		<div class=headerTitleFont>HOW TO INSTALL MY APP</div>
+		<div class=headerTitleFontSub>ON MY DEVICE</div>
+</div>
+<!--BLOC 2-->
+<div class=bloc2 style="position: relative;"> 
+
+		<div class="lineDots" style="height: 75%;"></div>
+		<div class=blocTitleFont>ACCOUNT CREATION</div>
+		<div class=blocTitleFontSub><p>ONLY ONE TIME</p></div>
+
+<!--LeftSectionBloc2-->
+		<div style="left: 0px;position: relative; width: 50%">
+			<div style="left: 0px;position: relative; margin-right: 25px">
+			<div class="blocSectionTitleLeft"><p>APPLE ID</p></div>
+		</div>
+			<div class="rectangleLeft"></div>
+			<div style="position: absolute;margin-left: 100%">
+			<div class="bigOval"></div>
+		    <div class="ovalBloc2"></div>
+		</div>
+		    <div class="blocSectionTextLeft"> ● To create your Apple ID, go to <a href="https://appleid.apple.com/account#!&page=create" style="text-decoration:none" target="_blank"><font color="8a6014">Apple Website</font></a></div>
+		</div>
+
+<!--RightSection2Bloc2-->
+			<div style="left: 50%;position: relative; width: 50%;margin-top:20px;">
+				<div style="left: 0px;position: relative; margin-left: 40px">
+				<div class="blocSectionTitleRight"><p>DEVELOPER ACCOUNT</p></div>
+			</div>
+				<div class="rectangleRight"></div>
+				<div style="position: absolute;margin-left: 0%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc2"></div>
+		    </div>
+		        <div class="blocSectionTextRight"> ● Choose an Apple Developer Program for Organizations or an Apple Developer Program for Individuals for <a href="https://developer.apple.com/programs/enroll/" style="text-decoration:none" target="_blank"><font color="8a6014">App Store deployment</font></a></div>
+		        <div class="blocSectionTextRight"> ● Choose an Apple Developer Entreprise Program for <a href="https://developer.apple.com/programs/enterprise/enroll/" style="text-decoration:none" target="_blank"><font color="8a6014">in-house deployment</font></a></div>
+			</div>
+			
+<!--LeftSectionBloc2-->
+				<div style="left: 0px;position: relative; width: 50%;margin-top: -120px;">
+				<div style="left: 0px;position: relative; margin-right: 25px">
+				<div class="blocSectionTitleLeft"><p>XCODE</p></div>
+			</div>
+				<div class="rectangleLeft"></div>
+				<div style="position: absolute;margin-left: 100%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc2"></div>
+		    </div>
+		        <div class="blocSectionTextLeft"> ● Go to the App Store, download and install <a href="https://itunes.apple.com/fr/app/xcode/id497799835" style="text-decoration:none" target="_blank"><font color="8a6014">Xcode</font></a></div>
+			</div>
+
+
+<!--RightSection2Bloc2-->
+				<div style="left: 50%;position: relative; width: 50%;margin-top:40px;">
+				<div style="left: 0px;position: relative; margin-left: 40px">
+				<div class="blocSectionTitleRight"><p>APPLE CONFIGURATOR 2</p></div>
+			</div>
+				<div class="rectangleRight"></div>
+				<div style="position: absolute;margin-left: 0%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc2"></div>
+		    </div>
+		        <div class="blocSectionTextRight" style="margin-bottom: 100px"> ● Go to the App Store, download and install <a href="https://itunes.apple.com/fr/app/apple-configurator-2/id1037126344" style="text-decoration:none" target="_blank"><font color="8a6014">Apple configurator 2</font></a></div>
+			</div>
+</div>
+<!--BLOC 3-->
+<div class=bloc3 style="position: relative;"> 
+
+		<div class="lineDots" style="height: 60%;"></div>
+		<div class=blocTitleFont>XCODE CONFIGURATION</div>
+		<div class=blocTitleFontSub><p>ONLY ONE TIME</p></div>
+
+<!--LeftSectionBloc3-->
+				<div style="left: 0px;position: relative; width: 50%">
+				<div style="left: 0px;position: relative; margin-right: 25px">
+				<div class="blocSectionTitleLeft"><p>ADD YOUR ACCOUNT</p></div>
+			</div>
+				<div class="rectangleLeft"></div>				
+				<div style="position: absolute;margin-left: 100%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc3"></div>
+		    </div>
+		        <div class="blocSectionTextLeft"> ● Go to Xcode > Preferences > Accounts</div>
+		        <div class="blocSectionTextLeft"> ● Add your account</div>
+			</div>
+
+<!--RightSectionBloc3-->
+				<div style="left: 50%;position: relative; width: 50%;margin-top:-60px;">
+				<div style="left: 0px;position: relative; margin-left: 40px">
+				<div class="blocSectionTitleRight"><p>TEAM ID</p></div>
+			</div>
+				<div class="rectangleRight"></div>
+				<div style="position: absolute;margin-left: 0%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc3"></div>
+		    </div>
+		        <div class="blocSectionTextRight"> ● Go <a href="https://developer.apple.com/account/#/membership/" style="text-decoration:none" target="_blank"><font color="096960">here</font></a> to get your Team ID</div>
+		        <div class="blocSectionTextRight"> ● Copy your team ID</div>
+			</div>
+
+<!--LeftSectionBloc3-->
+				<div style="left: 0px;position: relative; width: 50%;margin-top: -80px;">
+				<div style="left: 0px;position: relative; margin-right: 25px">
+				<div class="blocSectionTitleLeft"><p>4D FOR IOS</p></div>
+			</div>
+				<div class="rectangleLeft"></div>
+				<div style="position: absolute;margin-left: 100%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc3"></div>
+		    </div>
+		        <div class="blocSectionTextLeft"> ● Launch 4D for iOS</div>
+				<div class="blocSectionTextLeft" style="margin-bottom: 100px;"> ● Go to General Section and paste your Team ID reference in the Team field</div>
+			</div>
+</div>
+<!--BLOC 4-->
+<div class=bloc4 style="position: relative;"> 
+		
+		<div class="lineDots" style="height: 60%;"></div>
+		<div class=blocTitleFont>APP INSTALL</div>
+		<div class=blocTitleFontSub><p>EACH INSTALL</p></div>
+
+<!--LeftSectionBloc4-->
+				<div style="left: 0px;position: relative; width: 50%">			
+				<div style="left: 0px;position: relative; margin-right: 25px">
+				<div class="blocSectionTitleLeft"><p>4D FOR IOS</p></div>
+			</div>
+				<div class="rectangleLeft"></div>				
+				<div style="position: absolute;margin-left: 100%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc4"></div>
+		    </div>
+		        <div class="blocSectionTextLeft"> ● Go to BUILD tab</div>
+		        <div class="blocSectionTextLeft"> ● Connect your device</div>
+			</div>
+
+<!--RightSectionBloc4-->
+				<div style="left: 50%;position: relative; width: 50%;margin-top:-40px;">			
+				<div style="left: 0px;position: relative; margin-left: 40px">
+				<div class="blocSectionTitleRight"><p>INSTALL</p></div>
+			</div>
+				<div class="rectangleRight"></div>
+				<div style="position: absolute;margin-left: 0%">
+				<div class="bigOval"></div>
+		        <div class="ovalBloc4"></div>
+		    </div>
+		        <div class="blocSectionTextRight"> ● From the BUILD tab click on Install Button</div>
+		        <div class="blocSectionTextRight" style="margin-bottom: 100px;"> ● Wait for the app to be installed on your device</div>
+			</div>
+	</div>
+</div>
+
+</body>
+</html>
