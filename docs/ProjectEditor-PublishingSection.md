@@ -18,15 +18,15 @@ This is where you define or create your app's:
  <div markdown="1" class = "tips">
 <b>NOTE</b>
 
-* The Simulator works in localhost (127.0.0.1 or localhost)
-* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP Address is used.
+* The Simulator works locally (127.0.0.1 or localhost).
+* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
 * If both HTTP and HTTPS are activated, HTTP is used.
 </div>
 
 
-* Activate and define your HTTPS and/or HTTP port, if you haven't already done so. You can do this by clicking on the <b>Edit</b> button.
+* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the <b>Edit</b> button.
 
-* Activating the HTTPS port requires certificate installation to work properly. You can also create certificates with 4D, but strictly for test purposes.
+* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 
 ## Authentication
@@ -52,13 +52,13 @@ You can customize this method according to your needs!
 
 
 
-### Session management
+### Session Management
 
-A session file is created and stored next to the current data file in the MobileApps folder when a user opens the app for the first time. 
+When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder. 
 
-They are then organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create app folder names.
+The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
 
-Here is an example of a 4D for iOS generated session file:
+Here is an example of a 4D for iOS-generated session file:
 
 ```json
 {
@@ -93,42 +93,43 @@ Here is an example of a 4D for iOS generated session file:
 
 ```
 
-### Mobile Session management Component
+### Mobile Session Management Component
 
-You can download the MOBILE SESSION MANAGEMENT component to manage easily mobile sessions.
+Sessions can be managed by the <b>MOBILE SESSION MANAGEMENT</b>:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 </div>
 
-* Create a <b>Components</b> Folder next to data
-* Put the <b>MOBILE SESSION MANAGEMENT</b> component in it
-* From 4D click on the <b>Execute</b> button and execute the MOBILE APP SESSION MANAGEMENT Method
-* A new window will appear 
+* Create a <b>Components</b> folder next to the 4D database with the app's data. 
+* Place the <b>MOBILE SESSION MANAGEMENT</b> component in the newly created <b>Components</b> folder.
+* Restart 4D.  
+* In the 4D Methods Explorer, select the <b>MOBILE SESSION MANAGEMENT</b> method and click on the <b>Execute</b> button. 
+* The Apps window will appear displaying all of your apps: 
 
 ![alt-text](assets/session-management/Mobile-App-Session-Management.png)
 
-* The Apps menu displays all your available apps with your Team ID and app bundle ID
-* You can change and define the status for each device : accepted or pending
-* Right click on a session to reveal the session file in the Finder or delete it
+* Right click on a session to reveal the session file in the Finder or delete it.
+* You can change and define the session status for each device: accepted or pending
+
 
 ![alt-text](assets/session-management/Mobile-App-Session-Management-selected.png)
 
-* The <b>Push</b> button will allow 4D to update the session in memory
-* The <b>Refresh</b> button updates the session list 
+* The <b>Push</b> button will update the session in memory.
+* The <b>Refresh</b> button updates the session list. 
 
 
 
 ## How it looks on a device
 
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (<i>i.e.</i>, your application has more than four tables).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (<i>i.e.</i>, your app has more than four tables).
 
 Settings allows you to:
 * Reload data
 * Define your server URL
-* Log out (if connected as an Authorized User).
+* Log out (if connected as an Authorized User)
 
 ![alt-text](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
