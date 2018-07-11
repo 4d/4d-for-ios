@@ -38,7 +38,6 @@ const siteConfig = {
     {doc: 'overview', label: 'Docs'},
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'faq', label: 'FAQ'},
-    {href: "http://www.4d.com", label: '4D'},
 
 
    // {doc: 'docindex', label: 'API'},
@@ -59,7 +58,7 @@ algolia: {
   /* path to images for header/footer */
   headerIcon: '',
   footerIcon: '',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {

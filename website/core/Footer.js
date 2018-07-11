@@ -74,8 +74,8 @@ class Footer extends React.Component {
           </div>
 
           <div>
-            <h5>More</h5>
-  
+            <h5>About</h5>
+            <a href="http://www.4d.com">4D</a>
             <a href="http://www.4d.com/legal.html">Legal</a>
 
             <a href="https://github.com/DavAz4D/doc">GitHub</a>
