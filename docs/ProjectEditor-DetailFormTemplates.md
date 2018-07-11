@@ -5,35 +5,35 @@ sidebar_label: Detail Forms templates
 ---
 
 
-![alt-text](assets/templates/Simple-List-Detail-form.gif)
+![Simple List](assets/templates/Simple-List-Detail-form.gif)
 
-![alt-text](assets/templates/Cards-Detail-form.gif)
+![Cards](assets/templates/Cards-Detail-form.gif)
 
-![alt-text](assets/templates/Simple-Header-Detail-form.gif)
+![Simple Header](assets/templates/Simple-Header-Detail-form.gif)
 
-![alt-text](assets/templates/Sliding-Header-Detail-form.gif)
+![Sliding Header](assets/templates/Sliding-Header-Detail-form.gif)
 
-![alt-text](assets/templates/Tasks-Detail-form.gif)
+![Tasks](assets/templates/Tasks-Detail-form.gif)
 
-![alt-text](assets/templates/Tasks-Plus-Detail-form.gif)
+![Tasks Plus](assets/templates/Tasks-Plus-Detail-form.gif)
 
-![alt-text](assets/templates/Numbers-Detail-form.gif)
+![Numbers](assets/templates/Numbers-Detail-form.gif)
 
-![alt-text](assets/templates/Circle-Detail-form.gif)
+![Circle](assets/templates/Circle-Detail-form.gif)
 
-![alt-text](assets/templates/Triple-Circle-Detail-form.gif)
+![Triple Circle](assets/templates/Triple-Circle-Detail-form.gif)
 
-![alt-text](assets/templates/Dashboard-Detail-form.gif)
+![Dashboard](assets/templates/Dashboard-Detail-form.gif)
 
-![alt-text](assets/templates/Simple-Contact-Detail-form.gif)
+![Simple Contact](assets/templates/Simple-Contact-Detail-form.gif)
 
-![alt-text](assets/templates/Visual-Contact-Detail-form.gif)
+![Visual Contact](assets/templates/Visual-Contact-Detail-form.gif)
 
-![alt-text](assets/templates/Left-Cut-Header-Detail-form.gif)
+![Left Cut Header](assets/templates/Left-Cut-Header-Detail-form.gif)
 
-![alt-text](assets/templates/Parallax-Detail-form.gif)
+![Parallax](assets/templates/Parallax-Detail-form.gif)
 
-![alt-text](assets/templates/Right-Cut-Header-Detail-form.gif)
+![Right Cut Header](assets/templates/Right-Cut-Header-Detail-form.gif)
 
 
 

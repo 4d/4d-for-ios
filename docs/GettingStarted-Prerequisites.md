@@ -22,16 +22,16 @@ Install this software if you want to automate app installation on your physical 
 
 ## Configuration
 
-* In the 4D Database Settings, display the Web/4D Mobile page and check <b>Activate 4D Mobile service</b>.
+* In the 4D Database Settings, display the Web/4D Mobile page and check **Activate 4D Mobile service**.
 
-![alt-text](assets/prerequisites/4D-Mobile-services.png)
+![4D Mobile services](assets/prerequisites/4D-Mobile-services.png)
 
-* Tables and fields must be <b>exposed with 4D Mobile Service</b>. Display the Table Inspector in the Structure Editor and select the table to modify. By default, <b>Expose with 4D Mobile Service</b> is enabled.
+* Tables and fields must be **exposed with 4D Mobile Service**. Display the Table Inspector in the Structure Editor and select the table to modify. By default, **Expose with 4D Mobile Service** is enabled.
 
-![alt-text](assets/prerequisites/Expose-table-fields-4D-mobile.png)
+![Expose table fields](assets/prerequisites/Expose-table-fields-4D-mobile.png)
 
 * Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for  4D for iOS deployment.
 
 * Your Web Server must be started. It's available from the Run menu:
 
-![alt-text](assets/prerequisites/Start-web-server.png)
+![Start web server](assets/prerequisites/Start-web-server.png)

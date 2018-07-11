@@ -9,14 +9,15 @@ This is where you define or create your app's:
 * Authentication Mode 
 * Authentication Method
 
-![alt-text](assets/project-editor/Publishing-section-4D-for-iOS.png)
+![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
 
 ## Web Server Settings
 
 
  <div markdown="1" class = "tips">
-<b>NOTE</b>
+
+**NOTE**
 
 * The Simulator works locally (127.0.0.1 or localhost).
 * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
@@ -24,16 +25,16 @@ This is where you define or create your app's:
 </div>
 
 
-* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the <b>Edit</b> button.
+* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
 
 * Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 
 ## Authentication
 
-<b>Authorized User:</b> Check the <b>Requires an email to connect</b> option to display a login form when the app starts.
+**Authorized User:** Check the **Requires an email to connect** option to display a login form when the app starts.
 
-<b>Guest:</b> Leave the <b>Requires an email to connect</b> option unchecked. No login form will appear when the app starts.
+**Guest:** Leave the **Requires an email to connect** option unchecked. No login form will appear when the app starts.
 
 
 ## Authentication Method
@@ -41,11 +42,11 @@ This is where you define or create your app's:
 
 ### On Mobile App Authentication Database Method
 
-* <b>Development</b>: The authentication method allows you to use the app locally. 
-* <b>Deployment</b>: You must create/edit the <i>On Mobile App Authentication</i> database method to authorize specific emails or devices, even when in Guest mode.
+* **Development**: The authentication method allows you to use the app locally. 
+* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even when in Guest mode.
 
 A template is available which will:
-* Grant access (<i>i.e.</i>, email to specific domains) 
+* Grant access (*i.e.*, email to specific domains) 
 * Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 You can customize this method according to your needs! 
@@ -95,42 +96,42 @@ Here is an example of a 4D for iOS-generated session file:
 
 ### Mobile Session Management Component
 
-Sessions can be managed by the <b>MOBILE SESSION MANAGEMENT</b>:
+Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 </div>
 
-* Create a <b>Components</b> folder next to the 4D database with the app's data. 
-* Place the <b>MOBILE SESSION MANAGEMENT</b> component in the newly created <b>Components</b> folder.
+* Create a **Components** folder next to the 4D database with the app's data. 
+* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
 * Restart 4D.  
-* In the 4D Methods Explorer, select the <b>MOBILE SESSION MANAGEMENT</b> method and click on the <b>Execute</b> button. 
+* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
 * The Apps window will appear displaying all of your apps: 
 
-![alt-text](assets/session-management/Mobile-App-Session-Management.png)
+![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
 
 * Right click on a session to reveal the session file in the Finder or delete it.
 * You can change and define the session status for each device: accepted or pending
 
 
-![alt-text](assets/session-management/Mobile-App-Session-Management-selected.png)
+![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
 
-* The <b>Push</b> button will update the session in memory.
-* The <b>Refresh</b> button updates the session list. 
+* The **Push** button will update the session in memory.
+* The **Refresh** button updates the session list. 
 
 
 
 ## How it looks on a device
 
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (<i>i.e.</i>, your app has more than four tables).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Settings allows you to:
 * Reload data
 * Define your server URL
 * Log out (if connected as an Authorized User)
 
-![alt-text](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
+![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 

@@ -6,15 +6,17 @@ sidebar_label: New Project
 
 
 <div markdown="1" class = "objectives">
-<b>OBJECTIVES</b>
+
+**OBJECTIVES**
 
 * Get familiar with the Project Editor
 </div>
 
 <div markdown="1" class = "prerequisites">
-<b>PREREQUISITES</b>
 
-* Tables and fields must be <b>exposed with 4D Mobile Service</b>
+**PREREQUISITES**
+
+* Tables and fields must be **exposed with 4D Mobile Service**
 * Your HTTP and HTTPS ports must be well-configured
 * Your Web Server must be started
 * 4D Developer Pro v17 R2 64-bit (Development)
@@ -26,11 +28,11 @@ sidebar_label: New Project
 
 Let's take a look at how 4D for iOS works. 
 
-Start your 4D application, open your current database, and go to <b>New > Mobile Project</b>.
+Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the <b>Do not show again</b> option and this dialog will no longer be displayed. Click <b>Continue</b>.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
-![alt-text](assets/project-editor/Welcome-Screen-4D-for-iOS.png)
+![Welcome Screen](assets/project-editor/Welcome-Screen-4D-for-iOS.png)
 
 Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 

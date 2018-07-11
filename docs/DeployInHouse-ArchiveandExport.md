@@ -5,14 +5,16 @@ sidebar_label: Archive and export your Project
 ---
 
 <div markdown="1" class = "objectives">
-<b>OBJECTIVES</b>
+
+**OBJECTIVES**
 
 * Archive and export your 4D for iOS project
 * Generate .ipa and manifest files
 </div>
 
 <div markdown="1" class = "prerequisites">
-<b>PREREQUISITES</b>
+
+**PREREQUISITES**
 
 * A secured web server
 * 57 x 57 px icon
@@ -30,7 +32,7 @@ Xcode will automatically install required provisioning and certificates.
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
-![alt-text](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## STEP 3. 4D for iOS configuration
 
@@ -40,7 +42,7 @@ Xcode will automatically install required provisioning and certificates.
 
 	* General: Enter your Team ID.
 	
-	![alt-text](assets/deploy-in-house/Enterprise-Team-ID.png)
+	![Enterprise-Team-ID](assets/deploy-in-house/Enterprise-Team-ID.png)
 
 	* Publishing: Enter your production URL (HTTPS is mandatory for deployment).
 
@@ -51,53 +53,53 @@ Xcode will automatically install required provisioning and certificates.
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
-![alt-text](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![pen your project with Xcode ](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## STEP 5. Archive your project from Xcode
 
-* From Xcode, go to the simulator Menu and select <b>Generic iOS Device</b>
+* From Xcode, go to the simulator Menu and select **Generic iOS Device**
 
-![alt-text](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
+![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select <b>Archive</b>
+* Then from the menu, click on Product and select **Archive**
 
-![alt-text](assets/deploy-in-house/Archive-your-Project.png)
+![Archive your Project](assets/deploy-in-house/Archive-your-Project.png)
 
 ## STEP 6. Export your project
 
 * At the end of the archive process, the Organizer window appears with the archive you just created
 
-* Click <b>Export</b>. 
+* Click **Export**. 
 
-![alt-text](assets/deploy-in-house/Organizer-window-archive.png)
+![Export your project](assets/deploy-in-house/Organizer-window-archive.png)
 
 ## STEP 7. Select your distribution method
 
-* Select <b>Enterprise</b> and click <b>Next</b>.
+* Select **Enterprise** and click **Next**.
 
-![alt-text](assets/deploy-in-house/Distribution-Method-selection.png)
+![Distribution Method](assets/deploy-in-house/Distribution-Method-selection.png)
 
 ## STEP 8. Select your Enterprise distribution options
 
 * You can leave all option boxes checked.
 
-![alt-text](assets/deploy-in-house/Enterprise-distribution-options.png)
+![Enterprise distribution options](assets/deploy-in-house/Enterprise-distribution-options.png)
 
 * You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
 
-* Click <b>Next</b>.
+* Click **Next**.
 
 
 ####What is a manifest?
 
 The manifest is an XML-based property list and should contain:
 
-* <b>URL</b> : URL pointing to the .ipa file.
-* <b>display-image</b>: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
-* <b>full-size-image</b>: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
-* <b>bundle-identifier</b>: Your app identifier string. You can get it from your app's .plist file.
-* <b>bundle-version</b>: Your app's current bundle version string. You can get it from your app's .plist file.
-* <b>title</b>: Your app's name.
+* **URL** : URL pointing to the .ipa file.
+* **display-image**: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
+* **full-size-image**: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
+* **bundle-identifier**: Your app identifier string. You can get it from your app's .plist file.
+* **bundle-version**: Your app's current bundle version string. You can get it from your app's .plist file.
+* **title**: Your app's name.
 
 Here is an example of a manifest.plist file :
 
@@ -152,26 +154,26 @@ Here is an example of a manifest.plist file :
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
 
-![alt-text](assets/deploy-in-house/Distribution-manifest-information.png)
+![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
 
-* Click <b>Next</b>. 
+* Click **Next**. 
 
 
 ## STEP 10. Re-sign your application
 
-* Let Xcode manage the <b>Automatically manage signing</b> option.
+* Let Xcode manage the **Automatically manage signing** option.
 
-![alt-text](assets/deploy-in-house/Re-sign-your-application.png)
+![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
 
-* Click <b>Next</b>.
+* Click **Next**.
 
 ## STEP 11. Review your app.ipa content
 
 * Here you can verify that your application identifier is correct as well as your Team ID.
 
-![alt-text](assets/deploy-in-house/Review-ipa-content.png)
+![Review your app.ipa content](assets/deploy-in-house/Review-ipa-content.png)
 
-* Click on <b>Export</b> and select where to save your app folder on your computer.
+* Click on **Export** and select where to save your app folder on your computer.
 
 
 

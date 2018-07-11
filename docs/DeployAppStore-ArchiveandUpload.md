@@ -5,7 +5,8 @@ sidebar_label: Archive and upload your Project
 ---
 
 <div markdown="1" class = "objectives">
-<b>OBJECTIVES</b>
+
+**OBJECTIVES**
 
 * Archive and upload your project to App Store Connect
 </div>
@@ -21,7 +22,7 @@ sidebar_label: Archive and upload your Project
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
-![alt-text](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## STEP 3. 4D for iOS configuration
 
@@ -29,101 +30,101 @@ sidebar_label: Archive and upload your Project
 
 * On the SECTIONS tab:
 
-<b>General: Enter your Team ID</b>
+**General: Enter your Team ID**
 
-![alt-text](assets/deploy-app-store/Team-ID.png)
+![Team ID](assets/deploy-app-store/Team-ID.png)
 
-<b>Publishing: Enter your production URL</b> 
+**Publishing: Enter your production URL** 
 
 (HTTPS is mandatory for deployment).
 
 
-![alt-text](assets/deploy-app-store/Publishing.png)
+![Publishing](assets/deploy-app-store/Publishing.png)
  
 * On the BUILD tab:
 
-<b>Build and Run: Build your Project</b>
+**Build and Run: Build your Project**
 
-![alt-text](assets/deploy-app-store/BuildTab.png)
+![BuildTab](assets/deploy-app-store/BuildTab.png)
 
 
 ## STEP 4. Open your project with Xcode 
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
-![alt-text](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## STEP 5. Archive your project from Xcode
 
-* From Xcode go to the simulator Menu and select <b>Generic iOS Device</b>.
+* From Xcode go to the simulator Menu and select **Generic iOS Device**.
 
-![alt-text](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
+![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select <b>Archive</b>
+* Then from the menu, click on Product and select **Archive**
 
-![alt-text](assets/deploy-in-house/Archive-your-Project.png)
+![Archive your project from Xcode](assets/deploy-in-house/Archive-your-Project.png)
 
 ## STEP 6. Validate your project
 
 * At the end of the archive process, the Organizer window appears with the archive you have just created.
 
-* Click on the <b>Validate</b> button to start the validation process.
+* Click on the **Validate** button to start the validation process.
 
-![alt-text](assets/deploy-app-store/Organizer-Project-Validation.png)
+![Validate your project](assets/deploy-app-store/Organizer-Project-Validation.png)
 
 * The first step is selecting the App Store distribution options.
 
-![alt-text](assets/deploy-app-store/App-Store-Distribution-options.png)
+![App Store distribution options](assets/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by  checking the <b>Automatically manage signing</b> option.
+* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
 
-![alt-text](assets/deploy-app-store/Re-sign-your-App.png)
+![Re-sign your app](assets/deploy-app-store/Re-sign-your-App.png)
 
 * Review your app's content.
 
-![alt-text](assets/deploy-app-store/Review-App.png)
+![App review](assets/deploy-app-store/Review-App.png)
 
 * If your project passes the validation process, you should see this message:
 
-![alt-text](assets/deploy-app-store/Archive-validation-complete.png)
+![Validation](assets/deploy-app-store/Archive-validation-complete.png)
 
 If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
 
-* Click <b>Done</b>. This will return you to the Organizer window.
+* Click **Done**. This will return you to the Organizer window.
 
 
 ## STEP 7. Upload to App Store
 
 Once the validation process has been completed, you're ready to add your app to the App Store.   
 
-* Click the <b>Upload to App Store</b> button.
+* Click the **Upload to App Store** button.
 
-![alt-text](assets/deploy-app-store/Upload-to-AppStore.png)
+![Upload to App Store](assets/deploy-app-store/Upload-to-AppStore.png)
 
 * When your project has been successfully uploaded, you'll see this window:
 
-![alt-text](assets/deploy-app-store/upload-Successful.png)
+![Upload successful](assets/deploy-app-store/upload-Successful.png)
 
 
 ## STEP 8. Select the build for the App Store 
 
-* From App Store Connect > App Store > iOS App, select your app and click the <b>+</b> button that appears in the Build section
+* From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
 
-![alt-text](assets/deploy-app-store/Add-build-app-store-connect.png)
+![Add build](assets/deploy-app-store/Add-build-app-store-connect.png)
 
-* Select the build you want to submit and click <b>Done</b>.
+* Select the build you want to submit and click **Done**.
 
-![alt-text](assets/deploy-app-store/Select-build-app-store-connect.png)
+![Build selection](assets/deploy-app-store/Select-build-app-store-connect.png)
 
-* Finally, click on the <b>Submit for Review</b> button.
+* Finally, click on the **Submit for Review** button.
 
 
 ## STEP 9. Submit for Review
 
 * The final step to submitting your app for review is answering a few quick questions about your app. 
 
-![alt-text](assets/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
+![Submit for Review](assets/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* When you've finished with the questions, click <b>Submit</b>.
+* When you've finished with the questions, click **Submit**.
 
 * The average App Store review time is around two days!
