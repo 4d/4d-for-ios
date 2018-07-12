@@ -14,26 +14,96 @@ The mobile project editor has been designed in such a way that you can use 4D fo
 
 </details>
 
-
-<details>
-<summary>
-**Do I need a 4D Server to work with my app?**
-</summary>
-
-4D Server is required to use 4D for iOS, 4D Desktop (Single User) is not supported.
-
-</details>
-
-
 <details>
 <summary>
 **Are there any prerequisites to use 4D for iOS?**
 </summary>
 
 To use 4D for iOS you'll need to install the latest version of Xcode on your Mac.
+
 See the prerequisites list [here](prerequisites.html).
 
 </details>
+
+
+
+<details>
+<summary>
+**Is there a test or evaluation license available?**
+</summary>
+
+If you already own 4D Developer Pro or 4D Server for 4D v17 R2 or newer, it is included in your license.
+
+If you are not a 4D Partner or not share the 4D Maintenance program, you need to wait for 4D v18.
+
+</details>
+
+
+<details>
+<summary>
+**What 4D license do I need to develop with 4D for iOS?**
+</summary>
+
+4D Developer Pro v17 R2 on macOS.
+
+</details>
+
+
+<details>
+<summary>
+**Do I need additional software to develop?**
+</summary>
+
+Yes, Apple XCode. For full usage you also need to enroll in the Apple Developer Program.
+
+</details>
+
+
+<details>
+<summary>
+**Can I use Windows OS to develop with 4D for iOS?**
+</summary>
+
+No. It needs to be on macOS, as we need XCode to compile the final application and to run the iPhone emulator.
+
+</details>
+
+
+<details>
+<summary>
+**What 4D license do I need to deploy apps created with 4D for iOS?**
+</summary>
+
+4D Server v17 R2 or newer (macOS or Windows).
+
+There is no additional license needed, your developed apps on the iPhone will share the licenses used for 4D Remote (Client).
+
+A customer can freely decide to use as client a Mac, a Windows PC or an iPhone, as long as the total amount of concurrent users are covered by the 4D Server license.
+
+Note: you are not allowed to install your application on more devices (to be synced with the same server) as the totally licensed client connections for this 4D Server.
+
+</details>
+
+
+<details>
+<summary>
+**I have a 4D Server plus a 2 Clients Expansion (in summary 4 Clients), how many mobile devices can I use?**
+</summary>
+
+You can use 4 mobile devices.
+
+</details>
+
+
+<details>
+<summary>
+**Do I need a 4D Webserver to run 4D for iOS?**
+</summary>
+
+No –  4D for iOS is included in 4D Server.
+
+</details>
+
 
 
 <details>
