@@ -58,7 +58,7 @@ algolia: {
   /* path to images for header/footer */
   headerIcon: '',
   footerIcon: '',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   /* colors for website */
   colors: {

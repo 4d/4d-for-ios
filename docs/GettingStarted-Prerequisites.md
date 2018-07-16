@@ -9,7 +9,7 @@ sidebar_label: Prerequisites
 
 * 4D Developer Pro v17 R2 64-bit (Development)
 * 4D Server v17 R2 64-bit (Deployment) 
-* macOS version 10.13 (or later)
+* macOS version 10.13 (or later according to Xcode version)
 * Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac. It is necessary to open Xcode and install essential components prior to using 4D for iOS.
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
 Install this software if you want to automate app installation on your physical device.
@@ -22,6 +22,12 @@ Install this software if you want to automate app installation on your physical 
 
 ## Configuration
 
+* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+
+![Use object notation](assets/prerequisites/Use-object-notation.png)
+
+*Unicode mode: Used to enable or disable the Unicode mode for the current database.*
+
 * In the 4D Database Settings, display the Web/4D Mobile page and check **Activate 4D Mobile service**.
 
 ![4D Mobile services](assets/prerequisites/4D-Mobile-services.png)
@@ -31,6 +37,8 @@ Install this software if you want to automate app installation on your physical 
 ![Expose table fields](assets/prerequisites/Expose-table-fields-4D-mobile.png)
 
 * Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for  4D for iOS deployment.
+
+![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
 * Your Web Server must be started. It's available from the Run menu:
 

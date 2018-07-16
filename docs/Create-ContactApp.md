@@ -15,10 +15,8 @@ sidebar_label: Contact App
 
 **PREREQUISITES**
 
-* 4D Server / 4D Developer v17 R2
-* macOS version 10.13 (or later)
-* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
-* (optional - to automate app installation on your device) [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac
+* Click [here](prerequisites.html) to see what you'll need to get started!
+
 </div>
 
 

@@ -16,7 +16,6 @@ sidebar_label: Installing on your iOS device
 **PREREQUISITES**
 
 * Apple Developer Program
-* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)
 
 </div>
@@ -47,7 +46,7 @@ Let's go through the process...
 
 ## STEP 4. Team ID for Free account
 
-###Let Xcode generate your provisioning profile and certificate  
+### Let Xcode generate your provisioning profile and certificate  
 
 * Open your current project from the BUILD tab.
 

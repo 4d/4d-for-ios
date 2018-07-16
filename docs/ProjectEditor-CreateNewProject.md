@@ -16,19 +16,18 @@ sidebar_label: New Project
 
 **PREREQUISITES**
 
-* Tables and fields must be **exposed with 4D Mobile Service**
-* Your HTTP and HTTPS ports must be well-configured
-* Your Web Server must be started
-* 4D Developer Pro v17 R2 64-bit (Development)
-* 4D Server v17 R2 64-bit (Deployment) 
-* macOS version 10.13 (or later)
-* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
+* Click [here](prerequisites.html) to see what you'll need to get started!
+
 </div>
 
 
 Let's take a look at how 4D for iOS works. 
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
+
+Give your project a name and click **Create**.
+
+![Project Name](assets/project-editor/Project-creation-4D-for-iOS.png)
 
 The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
