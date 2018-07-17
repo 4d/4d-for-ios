@@ -90,7 +90,7 @@ Xcode will automatically install required provisioning and certificates.
 * Click **Next**.
 
 
-####What is a manifest?
+#### What is a manifest?
 
 The manifest is an XML-based property list and should contain:
 
