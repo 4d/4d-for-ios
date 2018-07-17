@@ -16,7 +16,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 <div markdown="1" class = "tips">
 
-**NOTE:**
+**NOTE**
 
 Help links are available for the Name and Identifier fields.
 </div>
@@ -31,7 +31,7 @@ Help links are available for the Name and Identifier fields.
 
 <div markdown="1" class = "tips">
 
-**TIPS:**
+**TIPS**
 
 * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area. 
 

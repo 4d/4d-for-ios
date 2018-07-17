@@ -68,7 +68,7 @@ Let's go through the process...
 
 ![Select your Team ID](assets/test-build/Team-ID-General-Section-4D-for-iOS.png) 
 
-* Go to STEP 6 to run your project on your device from the Project Editor.
+* Go to [step 6](#step-6-build) to run your project on your device from the Project Editor.
 
 
 ## STEP 5. Team ID for paid subscription account
