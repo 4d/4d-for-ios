@@ -78,12 +78,13 @@ class Footer extends React.Component {
             <a href="http://www.4d.com">4D</a>
             <a href="http://www.4d.com/legal.html">Legal</a>
 
-            <a href="https://github.com/DavAz4D/doc">GitHub</a>
+            <a href="https://github.com/4D/4d-for-ios>GitHub</a>
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href="https://github.com/4D/4d-for-ios"
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/4D/4d-for-ios/stargazers"
+              data-count-api="/repos/4D/4d-for-ios#stargazers_count"
               data-show-count={true}
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
