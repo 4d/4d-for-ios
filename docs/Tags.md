@@ -3,6 +3,9 @@
 
 Tags are used to inject useful information during the project creation process.
 
+Projects files, storyboards and swift code files are managed by this process.
+
+
 ## File and folder name
 
 |Tags|Description|
@@ -39,49 +42,55 @@ In any swift file you could find in header basic information after the file name
 
 |Tags|Description|
 |---|---|
-|`___SEARCHABLE_FIELD___`| |
-|`___SECTION_FIELD___`| |
-|`___SHOW_SECTION___`| |
-|`___SORT_FIELD___`| |
+|`___SEARCHABLE_FIELD___`| Field name used to search data in list form. (optional) |
+|`___SECTION_FIELD___`| Field name used to categorize record using sections. (optional)|
+|`___SHOW_SECTION___`| Show or not a section index.  |
+|`___SORT_FIELD___`| Field name used to sort displayed data. |
 			
 			
-#### Table definitions
+### Table definitions
+
+Information defined in Structure panel.
+
 |Tags|Description|
 |---|---|
-|`___TABLE_LABEL___`| |
-|`___TABLE_SHORT_LABEL___"`| |
-|`___TABLE_ICON___"`| |
+|`___TABLE_LABEL___`| Label of the table|
+|`___TABLE_SHORT_LABEL___"`| A shorted label for the table|
+|`___TABLE_ICON___"`| Icon name if any |
 
 ### Fields
 
-#### Normal fields
-|Tags|Description|
-|---|---|
-|`___FIELD___`|xxx|
-|`___FIELD_LABEL___`|xxx|
-|`___FIELD_SHORT_LABEL___`|xxx|
-|`___FIELD_TYPE___`|xxx|
-|`___FIELD_ICON___`|xxx|
-|`___FIELD_LABEL_ALIGNMENT___`|xxx|
+Fields are displayed on ListForm and DetailsForm
 
 #### Positioned fields
 
-N position of the fields
+N position of the fields, as defined when assigning fields to form.
 
 |Tags|Description|
 |---|---|
-|`___FIELD_N___`|xxx|
-|`___FIELD_N_LABEL___`|xxx|
-|`___FIELD_N_SHORT_LABEL___`|xxx|
-|`___FIELD_N_TYPE___`|xxx|
-|`___FIELD_N_ICON___`|xxx|
-|`___FIELD_N_LABEL_ALIGNMENT___`|xxx|
+|`___FIELD_N_LABEL___`|Label of the field|
+|`___FIELD_N_SHORT_LABEL___`|A shorted label for the field|
+|`___FIELD_N_TYPE___`|ype used to bind data into iOS graphical component|
+|`___FIELD_N_ICON___`|Icon name if any|
+|`___FIELD_N_LABEL_ALIGNMENT___`|If there is icon label could be left aligned, else could be centered|
 
-### Storyboard ID
+#### Duplicated fields
+
+Storyboard XML  node element could be duplicated to have finally an "infinite" number of fields.
+In this case there is no position in tag and XML.
+
+|Tags|Description|
+|---|---|
+|`___FIELD_LABEL___`|Label of the field |
+|`___FIELD_SHORT_LABEL___`|A shorted label for the field|
+|`___FIELD_TYPE___`|Type used to bind data into iOS graphical component|
+|`___FIELD_ICON___`|Icon name if any|
+|`___FIELD_LABEL_ALIGNMENT___`|If there is icon label could be left aligned, else could be centered|
+
+##### Storyboard ID
 
 Each elements of storyboard have a specific xml id and each must be different.
-
-When duplicating XML nodes, we need to inject different random id.
+When duplicating XML nodes, we need to inject different random id to prevend duplicate id.
 
 To do so an element, which can be duplicated, must defined its id as follow: 
 
@@ -91,3 +100,6 @@ To do so an element, which can be duplicated, must defined its id as follow:
 
 The `NNN` numbers used by nodes must be consecutive and start by 1.
 
+:warning: Xcode do not allow to edit directly this id.
+* You could only visualize it in "Identity Inspector", Document, Object ID
+* To edit it you must use your preferred text or xml editor.
