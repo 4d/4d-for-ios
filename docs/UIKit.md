@@ -12,7 +12,7 @@ The UIKit is the framework provides the graphical user interface components for 
 
 🔗 [Apple documentation](https://developer.apple.com/documentation/uikit)
 
-### What is a framework?
+:bulb: **What is a framework?**
 
 A framework is a modular and reusable set of code that is used as the building blocks of higher-level pieces of software.
 
