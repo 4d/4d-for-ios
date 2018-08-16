@@ -23,7 +23,7 @@ To simplify 4D for iOS use only one application screen by storyboard.
 
 So one storyboard could be equivalent to a 4D form.
 
-### Format of storyboards
+### Storyboards format
 
 Storyboards are XML files.
 
