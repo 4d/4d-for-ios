@@ -1,0 +1,45 @@
+---
+id: xcode
+title: Xcode
+sidebar_label: What is Xcode?
+---
+
+## What is Xcode?
+
+Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.
+
+## Download
+
+To download the lastest version of Xcode go to the App Store.
+
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
+</div>
+
+Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
+
+🔗 https://developer.apple.com/xcode/
+
+## Version comparison table
+
+|Xcode| Swift | iOS |
+|---|---|
+|10.0|4.2|iOS 12|
+|9.4|4.1.2|iOS 11.4|
+|9.3.1|4.1|iOS 11.3|
+
+### Compatibility
+
+Frameworks compiled with one version of Xcode could not be used with another version.
+
+Rest assured, the next release of swift, swift 5, have for primary focus the ABI stability.
+
+https://swift.org/abi-stability/
+
+This will enables the distribution of frameworks in a binary format.
+
+<div markdown="1" class="tips">
+ABI: Application Binary Interface, a contract between pieces of binary code defined by the compiler.
+
+🔗 https://en.wikipedia.org/wiki/Application_binary_interface
+</div>
