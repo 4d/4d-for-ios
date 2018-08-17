@@ -68,6 +68,7 @@ N position of the fields, as defined when assigning fields to form.
 
 |Tags|Description|
 |---|---|
+|`___FIELD_N___`|swift name of the field (no space, start with lowercase character) |
 |`___FIELD_N_LABEL___`|Label of the field|
 |`___FIELD_N_SHORT_LABEL___`|A shorted label for the field|
 |`___FIELD_N_TYPE___`|ype used to bind data into iOS graphical component|
@@ -81,6 +82,7 @@ In this case there is no position in tag and XML.
 
 |Tags|Description|
 |---|---|
+|`___FIELD___`|swift name of the field (no space, start with lowercase character) |
 |`___FIELD_LABEL___`|Label of the field |
 |`___FIELD_SHORT_LABEL___`|A shorted label for the field|
 |`___FIELD_TYPE___`|Type used to bind data into iOS graphical component|
