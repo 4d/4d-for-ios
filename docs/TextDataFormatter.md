@@ -9,7 +9,7 @@
 {
 	"name": "yesOrNo",
 	"bindingType" :"localized",
-	"valueType" : "boolean”,
+	"valueType" : "boolean",
 	"choiceList": [ "No", "Yes"]
 	}
 }
