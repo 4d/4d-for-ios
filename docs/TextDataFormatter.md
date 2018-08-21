@@ -28,7 +28,7 @@
 ```
 
 
-### Strings files
+## Strings files
 
 An unique ".strings” file is generated in project.
 
@@ -52,9 +52,9 @@ The possible values are prefixed with formatter name.
 "genderEmoji_2" = "🧑";
 ```
 
-:bulb: For a boolean, 0 means `False` and 1 means `True`.
+💡 For a boolean, 0 means `False` and 1 means `True`.
 
-### Storyboard binding
+## Storyboard binding
 
 In user defined runtime attributes on label.
 
