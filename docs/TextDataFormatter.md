@@ -3,11 +3,11 @@
 
 ## Define a localized formatter
 
-### yesOrNo.json
+### noOrYes.json
 
 ```json
 {
-	"name": "yesOrNo",
+	"name": "noOrYes",
 	"bindingType" :"localized",
 	"valueType" : "boolean",
 	"choiceList": [ "No", "Yes"]
@@ -34,11 +34,11 @@ An unique ".strings” file is generated in project.
 
 The possible values are prefixed with formatter name.
 
-### yesOrNo
+### noOrYes
 
 ```strings
-"yesOrNo_0" = "No";
-"yesOrNo_1" = "Yes";
+"noOrYes_0" = "No";
+"noOrYes_1" = "Yes";
 ```
 
 ### genderEmoji
@@ -58,11 +58,11 @@ The possible values are prefixed with formatter name.
 
 In user defined runtime attributes on label.
 
-### yesOrNo
+### noOrYes
 
 | Key path  |  Type |  Value |
 |----------|:-------------:|------:|
-| bindTo.record.field name,yesOrNo |  String | localized |
+| bindTo.record.field name,noOrYes |  String | localized |
 
 
 ### genderEmoji
