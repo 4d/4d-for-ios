@@ -8,7 +8,6 @@
 	"name": "activity",
 	"bindingType " :"imageNamed",
 	"valueType" : ["boolean","real", "integer"],
-	"valueType" :"integer",
 	"choiceList": {
 	  "1": "activity_green_idle.png", 
 	  "2": "activity_green.png", 
