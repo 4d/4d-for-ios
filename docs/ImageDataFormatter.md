@@ -46,5 +46,5 @@ In user defined runtime attributes on label.
 
 | Key path  |  Type |  Value |
 |----------|:-------------:|------:|
-| bindTo.record.field name,activity |  String | imageNamed |
+| bindTo.record.field name |  String | imageNamed,activity |
 
