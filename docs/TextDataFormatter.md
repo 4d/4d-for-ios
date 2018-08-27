@@ -62,11 +62,11 @@ In user defined runtime attributes on label.
 
 | Key path  |  Type |  Value |
 |----------|:-------------:|------:|
-| bindTo.record.field name,noOrYes |  String | localized |
+| bindTo.record.field name |  String | localized,noOrYes |
 
 
 ### genderEmoji
 
 | Key path  |  Type | Value |
 |----------|:-------------:|------:|
-| bindTo.record.field name,genderEmoji |  String | localized |
+| bindTo.record.field name |  String | localized,genderEmoji |
