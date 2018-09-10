@@ -1,5 +1,5 @@
 ---
-id: creating-custom-listform
+id: creating-listform
 title: List forms
 sidebar_label: List forms
 ---
@@ -52,9 +52,9 @@ Finally, in the **Forms section** of the project editor, you'll see that your li
 ![Forms section](assets/custom-listform/custom-listform-template.png)
 
 
-Now let's focus on the contents of the **Custom list form** folder.
+Now let's focus on the contents of the **List form** folder.
 
-## Custom template content
+## Template content
 
 In this folder, you'll find:
 * **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template)
