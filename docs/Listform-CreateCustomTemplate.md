@@ -33,7 +33,7 @@ Before we begin, be sure to download the **Starter Project** which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/custom-listform/CustomListFormStarterProject.zip">CUSTOM LISTFORM STARTER PROJECT</a>
+href="../assets/custom-listform/CustomListFormStarterProject.zip">LISTFORM STARTER PROJECT</a>
 </div>
 
 
