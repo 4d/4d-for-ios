@@ -20,7 +20,7 @@ sidebar_label: List forms
 </div>
 
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title** and a **subtitle** for each cell.
+In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
 ![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
