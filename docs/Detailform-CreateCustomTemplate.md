@@ -1,7 +1,7 @@
 ---
 id: creating-custom-detailform
-title: Getting started
-sidebar_label: Getting started
+title: Custom Detail forms
+sidebar_label: Custom Detail forms
 ---
 
 <div markdown="1" class = "objectives">

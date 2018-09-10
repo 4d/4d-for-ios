@@ -15,7 +15,7 @@
     "Customizing with Xcode" : ["open-xcode","xcode-overview","4d-for-ios-project-organization","customize-your-ios-app"],
     "Creating custom List Forms" : ["creating-custom-listform","icon-custom-listform-template","manifest-custom-listform-template","svg-file-custom-listform-template","storyboard-custom-listform-template"],
     "Creating custom Detail Forms" : ["creating-custom-detailform","icon-custom-detailform-template","manifest-custom-detailform-template","svg-file-custom-detailform-template","storyboard-custom-detailform-template"],
-    "Using custom icons" : ["labels-&-icons-custom-icons"],
-    "Data formatter" : ["data-formatter"]
+    "Using custom icons" : ["using-custom-icons","create-custom-icons","include-custom-icons","select-custom-icons"],
+    "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run"]
   }
 }

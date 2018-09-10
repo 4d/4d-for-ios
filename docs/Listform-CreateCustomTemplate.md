@@ -1,7 +1,7 @@
 ---
 id: creating-custom-listform
-title: Getting started
-sidebar_label: Getting started
+title: Custom List forms
+sidebar_label: Custom List forms
 ---
 
 <div markdown="1" class = "objectives">
