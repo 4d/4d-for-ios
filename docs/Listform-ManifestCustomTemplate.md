@@ -1,11 +1,11 @@
 ---
-id: manifest-custom-listform-template
+id: manifest-listform-template
 title: Manifest.json
 sidebar_label: Manifest.json
 ---
 
 
-The manifest file includes information about your custom list form template such as the:
+The manifest file includes information about your list form template, such as the:
 * Storyboard type (list form or detail form)
 * Name 
 * Number of fields per cell
@@ -17,7 +17,7 @@ The manifest file includes information about your custom list form template such
   "type": "listform",
 
 //2
-  "name": "Custom list form",
+  "name": "List form",
 
 //3
   "fields": {
@@ -28,6 +28,6 @@ The manifest file includes information about your custom list form template such
 
 
 For example, the manifest file for the list form template below includes the following information:
-1. listform template
-2.  **Custom list form**
-3. three fields in each cell (a profile image, a title, and subtitle)
+1. List form template
+2.  **List form**
+3. Three fields in each cell (profile image, title, and subtitle)
