@@ -12,7 +12,7 @@ Here's a finished version:
 ![Template svg file](assets/custom-listform/template-svg-file.png)
 
 
-Open this file with your favorite code editor.
+Open the template.svg file with your favorite code editor.
 
 Let’s focus on the different parts of your svg file and what you'll need to edit.
 
@@ -30,12 +30,12 @@ Add the title for your template here.
 ```
 
 Inclues IDs which define your form areas:
-- **search ID**: Refers to search field area. This will allow you to drag and drop a field that will be the search criteria in your list form (optional).
--  **section ID**: Refers to the section field area. This will allow you drag and drop a field that will be the sort criteria in your list form (optional).
--  **f1, f2 and f3 IDs**: Refer to fields to display in each cell of your list form. This will allow you to drag and drop fields that will appear in your list form cells.
+- **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
+-  **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
+-  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
 
-## Areas position, height, width and type
-You'll be able to define position, height and width for:
+## Area position, height, width and type
+You'll be able to define the position, height and width for:
 * Searchfield
 * Sectionfield
 * Other general fields that will be displayed in each table cell
