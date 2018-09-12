@@ -14,7 +14,7 @@ Here's a finished version:
 
 Open the template.svg file with your favorite code editor.
 
-Let’s focus on the different parts of your svg file and what you'll need to edit.
+Let’s focus on the different parts of your SVG file and what you'll need to edit.
 
 ## Title
 ```
