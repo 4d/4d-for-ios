@@ -125,7 +125,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 ## How to get data into your cells
 
 ### Image View
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **plus button** to add a row.
+Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
