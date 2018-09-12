@@ -1,23 +1,23 @@
 ---
-id: select-custom-icons
-title: Select your custom icons
-sidebar_label: Select your custom icons
+id: select-icons
+title: Select your icons
+sidebar_label: Select your icons
 ---
 
-Open you project and go straight to the Labels & Icons section.
+Open your project and go to Labels & Icons in Sections.
 
-Clic on the contact table icon. As you can see all icons that dragged are available.
+Click on the contact table icon. All available icons are displayed.
 
-Select the contact icon :
+Select the contact icon:
 
 ![Contact icon](assets/custom-icons/contact-icon.png)
 
-Select adapted icons for your fields :
+Select icons adapted for your fields:
 
 ![Contact icon](assets/custom-icons/field-icons.png)
 
 
-Here is the final result :
+Here's the final result :
 ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
 
 
