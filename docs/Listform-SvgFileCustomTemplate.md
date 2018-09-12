@@ -67,7 +67,7 @@ You can define the position, height and width for:
 2. Area background position, height, and width
 3. Icon to display a magnifying glass icon into the searchable field
 4. Define the text area position and width 
-5. Define the droppable field position, height and width as well as accepted **field types**
+5. Define the droppable field position, height, and width, as well as accepted **field types**
 5. Define a cancel button that will be displayed to delete the current content
 
 The searchable field is optional.
