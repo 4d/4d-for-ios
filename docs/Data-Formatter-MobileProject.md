@@ -6,15 +6,15 @@ sidebar_label: Open mobile project
 
 ## Open mobile project
 
-Go straight to the Labels & Icons section. You will see that a new Formatters column is available in the Field Properties :
+Go to Labels & Icons in Sections, you'll see that a new Formatters column is available in the Field Properties:
 
 ![Data formatter labels icons](assets/data-formatter/data-formatter-labels-icons.png)
 
-From there you can select specific formats depeding on your needs. Let define set Available Credit as a Currency :
+From here, you can select specific formats depeding on your needs. Let's define the Available Credit field as a Currency:
 
 ![Available credit currency](assets/data-formatter/available-credit-currency.png)
 
-Let's so the same for all other fields :
+Let's do the same process for all of the other fields:
 
 * Set Current Balance as a **Currency $**
 * Set Percent Used as a **Percentage**
