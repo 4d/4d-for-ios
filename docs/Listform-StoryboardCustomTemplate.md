@@ -4,7 +4,7 @@ title: Storyboard
 sidebar_label: Storyboard
 ---
 
-Now it's time to create your iOS interface with Xcode!
+Now it's time to create your iOS list form interface with Xcode!
 
 Here's the result we want to achieve:
 
