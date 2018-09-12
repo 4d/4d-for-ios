@@ -1,6 +1,6 @@
 ---
-id: using-custom-icons
-title: Custom icons
+id: using-icons
+title: Icons
 sidebar_label: Custom icons
 ---
 
@@ -21,13 +21,13 @@ sidebar_label: Custom icons
 </div>
 
 
-4D for iOS already provides number of icons from the Labels & Icons section for your Tables and Fields.
+4D for iOS already provides a number of icons in the Labels & Icons section for your tables and fields.
 
 ![Icon library](assets/custom-icons/icon-library.png)
 
-We want you to have the best app creation experience with 4D for iOS so now you can create and use you own icons in your iOS projects.
+We want you to have the best app creation experience with 4D for iOS, so now you can create and use you own icons in your iOS projects.
 
-Let see how to make that !
+Let see how to make them!
 
 
 
