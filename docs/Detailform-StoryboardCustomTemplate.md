@@ -102,7 +102,7 @@ In the **Size inspector panel** (on the right side of the Interface Builder wind
 
 ![Image View position height and width](assets/custom-detailform/imageview-position-height-width.png)
 
-Next, add a leading space constraint by clicking on the **Add New Constraints button**. Add width and height constraints too, as shown below:
+Next, add a leading space constraint by clicking on the **Add New Constraints button** (at the bottom of the Interface Builder window). Add width and height constraints too, as shown below:
 
 ![Image View constraints](assets/custom-detailform/imageview-constraints.png)
 
@@ -225,24 +225,24 @@ Both labels have constraints that we need to tag, too:
 
 ![Tag constraints](assets/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
 
-Go straight to your project editor select your Custom detail template from the Forms section and Build.
+Go to your project editor and select your detail template from the Forms section, then click on Build.
 
 ![Custom detail template forms](assets/custom-detailform/custom-detail-template-forms.png)
 
-Pretty good for a first try :)
+Not bad for a first attempt! :)
 
 ![iPhone Demo](assets/custom-detailform/iphone-demo.png)
 
 
-The Field View 2 is well duplicated ! Let's see if we can make this app a little bit more sexy!
+Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
 
 ### Customize your app
 
-We are going to add corner radius to the Image View as well as the Field View 2.
+We're going to add a corner radius to the Image View, as well as Field View 2.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes :
+Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
 * **Type**: ```Number``` 
@@ -257,7 +257,7 @@ and
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
 
 
-Then select the Field View 2 and add the following line :
+Next, select Field View 2 and add the following:
 
 * **Key Path**: ```cornerRadius```
 * **Type**: ```Number``` 
@@ -265,15 +265,15 @@ Then select the Field View 2 and add the following line :
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)
 
-You can finally build your project from the project editor!
+You can now build your project from the project editor!
 
 ![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
 
 
 ## Where to go from here?
 
-In this tutorial, we've covered the basics for creating custom list form templates. You should now be able to create simple templates on your own using the starter project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build custom detail form templates!
-Click on **Final Project** below to download the completed custom template list folder.
+In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. But wait - there’s more! In the next tutorial, you’ll learn how to build list form templates!
+Click on **Final Project** below to download the completed template list folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
