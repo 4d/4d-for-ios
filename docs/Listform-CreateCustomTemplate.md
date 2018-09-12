@@ -8,7 +8,7 @@ sidebar_label: List forms
 
 **OBJECTIVES**
 
-* Create your first list form
+* Create your first list form template
 </div>
 
 <div markdown="1" class = "prerequisites">
@@ -60,6 +60,6 @@ In this folder, you'll find:
 * **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template)
 * **a manifest.json file** (includes a basic description of the template)
 * **a template.svg file** (the visual representation of your template displayed when you define your list form content)
-* Source folder including the **storyboard** (graphical interface) and **swift** file (code for the form)
+* Source folder including the **storyboard** (graphical interface) and **Swift** file (code for the form)
 
 What are these files? What are they used for? How can you customize them?
