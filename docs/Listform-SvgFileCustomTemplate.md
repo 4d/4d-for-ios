@@ -35,7 +35,7 @@ Inclues IDs which define your form areas:
 -  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
 
 ## Area position, height, width and type
-You'll be able to define the position, height and width for:
+You can define the position, height and width for:
 * Searchfield
 * Sectionfield
 * Other general fields that will be displayed in each table cell
