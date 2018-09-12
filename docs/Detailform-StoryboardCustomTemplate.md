@@ -192,38 +192,40 @@ The process is a little bit tricky... Let's begin by opening the storyboard file
 
 ### Field View 2
 
-* Select the **Field View 2** and get Object ID from the Identity inspector of your Storyboard. In my project, the Field View 2 ID is : **SiX-3H-lNB**.
+* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
 
-* Search for it and replace by **TAG-FD-001** each time it appears in the storyboard xml code. As you can see this Object ID is mentionned several times so be careful not to forget any Object ID.
+* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. As you can see, this Object ID is mentioned several times so be careful! 
 
 ![Storyboard xml](assets/custom-detailform/storyboard-xml.png)
 
-Save the storyboard xml file. The Field View 2 Object ID has changed in your Storyboard in Xcode :
+Save the storyboard xml file. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
 
 ![Field View 2 Object ID](assets/custom-detailform/field-view-2-object-id.png)
 
 
 ### First label
 
-* Now get the **first label** Object ID from the Identity inspector of your Storyboard and replace it by **TAG-FD-002** each time it appears in the storyboard xml code.
+* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
 
 ![Label 1 Object ID](assets/custom-detailform/label1-object-id.png)
 
-Last step for the first label to include icons
+Done with the first label!
 
 ### Second label
 
-* Finally get the **second label** Oject ID from the Identity inspector of your Storyboard and replace it by **TAG-FD-003** each time it appears in the storyboard xml code.
+* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
 
 ![Label 2 Object ID](assets/custom-detailform/label2-object-id.png)
 
+Voilà!
+
 ### Constraints
 
-Both labels have constraints that we need to tag as well :
+Both labels have constraints that we need to tag, too:
 
 ![Tag constraints](assets/custom-detailform/duplicated-constraints.png)
 
-As for View Field 2 and label get all **7 Constraints** Object ID from the Identity inspector of your Storyboard and replace it by **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
 
 Go straight to your project editor select your Custom detail template from the Forms section and Build.
 
