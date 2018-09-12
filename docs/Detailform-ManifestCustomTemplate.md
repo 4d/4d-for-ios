@@ -38,9 +38,9 @@ The manifest file includes information about your custom detail form template su
 ```
 
 
-For example, the manifest file for the list form template below includes the following information:
+For example, the manifest file for the detail form template below includes the following information:
 1. detailform template
-2. **Custom detail form**
+2. **Detail form**
 3. One static field and 0 for infinite duplicated fields (a profile image, and duplicated fields)
 4. Icon size definition
 
