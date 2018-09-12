@@ -1,32 +1,32 @@
 ---
-id: svg-file-custom-detailform-template
+id: svg-file-detailform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
 
 
-The template.svg file is a basic template representation. In this svg file you will have to define areas for you to be able to add fields to your custom list form from the project editor.
+The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
 
 
-Here what we want to get :
+Here's a finished version:
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-This template has the particularity to have dynamic field number : this means that this template a will allow you to add an **image** as well as between **0 and 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, an new empty field appears below the previous one, for you to add a new field:
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and **0 - 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
 
-Open this file with your favorite code editor.
+Open the template.svg file with your favorite code editor.
 
-Let’s focus on the different parts of your svg file and what you'll need to edit.
+Let’s focus on the different parts of your SVG file and what you'll need to edit.
 
 ## Title
 ```
 <title>Custom Detail form</title>
 ```
 
-Add your template title here.
+Add the title for your template here.
 
 ## ios:values
 
@@ -34,10 +34,10 @@ Add your template title here.
 ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 ```
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs** refer to avaiblable fields to be displayed in your detail form : will allow you to drag and drop as many fields as you defined.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
 
 ## Areas position, height and width and type
-You will be able to define position, height and width for all your fields like for the [Custom list view tutorial](creating-custom-listform.html).
+You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Duplicated field properties
 
@@ -59,11 +59,11 @@ You will be able to define position, height and width for all your fields like f
 </g>
 ```
 
-1. Entire area y position
-2. Area background position, height and width
+1. Entire area Y position
+2. Area background position, height, and width
 3. Define the text area position and width 
-4. Define the droppable field position, height and width as well as accepted fields types (all types are accepted here)
-5. Define a cancel button that will be displayed to delete current content
+4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted here)
+5. Define a cancel button that will be displayed to the delete current content
 
 <div markdown="1" class = "tips">
 
@@ -76,7 +76,7 @@ You will be able to define position, height and width for all your fields like f
 
 **TIP**
 
-* To make field type definition easier, 4D for iOS allows your to include field types with **positive values** and also exclude field types with **negative values**. For example ```ios:type=“-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type=“-3,-4"``` will allow you to drag and drop every field exept images and dates.
 
 </div>
 
@@ -104,12 +104,12 @@ You will be able to define position, height and width for all your fields like f
 </g>
 ```
 
-1. Entire area y position
-2. Area background position, height and width
+1. Entire area Y position
+2. Area background position, height, and width
 3. Icon to display an image in the imageField
 4. Define the text area position and width 
-5. Define the droppable field position, height and width as well as accepted fields types (here 3 is an image)
-6. Define a cancel button that will be displayed to delete current content
+5. Define the droppable field position, height, and width, as well as accepted fields types 
+6. Define a cancel button that will be displayed to delete the current content
 
 
 ### Field to be duplicated
@@ -136,14 +136,14 @@ You will be able to define position, height and width for all your fields like f
 </g>
 ```
 
-1. Mulitvaluated ID to for the field to be duplicated
-2. Entire area y position
-3. Area background position, height and width
+1. Multivaluated ID to for the field to be duplicated
+2. Entire area Y position
+3. Area background position, height, and width
 4. Define the text area position and width 
-5. Define the droppable field position, height and width as well as accepted fields types (all types are accepted here)
-6. Define a cancel button that will be displayed to delete current content
+5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
+6. Define a cancel button that will be displayed to delete the current content
 
 
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file and your **svg file** let's move to the fun part with Xcode !
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
