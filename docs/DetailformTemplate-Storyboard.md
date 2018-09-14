@@ -180,7 +180,7 @@ Select the **second label** and add a row in the Defined Runtime Attributes:
 
 Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
 
-Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identify inspector**, you'll see its Object ID:
+Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![Object ID Storyboard](assets/custom-detailform/object-id-storyboard.png)
 
