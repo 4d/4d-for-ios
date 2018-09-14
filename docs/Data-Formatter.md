@@ -11,7 +11,7 @@ You can now choose pre-packaged formats from Labels & Icons in Sections.
 
 <div markdown="1" class = "tips">
 
-Available formats :
+Available formats:
 * **Text**: Text
 *  **Date**: Date, Short date, Long date, Full date
 *  **Time**: Time, Short time, Durtation, Integer number

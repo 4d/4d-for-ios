@@ -19,8 +19,7 @@ sidebar_label: Detail form templates
 
 </div>
 
-
-In this tutorial we will guide you through the creation steps of a detail form template that will display an **image header**, as well as a **title field** and a **content field** that will be duplicated in the generated iOS app.
+In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
 ![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
 
