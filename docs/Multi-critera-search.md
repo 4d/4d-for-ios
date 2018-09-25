@@ -12,32 +12,36 @@ sidebar_label: Multi-criteria search
 * Acticating the multi-criteria search in your existing templates
 </div>
 
-
-To activate the multi-criteria search you have to change the class of your search bar in your template svg file :
+This feature is activated by default in all 4D for iOS templates.
 
 
 ## Template svg file
 
-
-* To activate this feature on your existing templates, you have to modify the following class 
+* To activate this feature on your existing templates, you have to modify the following lines in your template.svg file:
 
 ```
-class="droppable field optional"
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
 ```
 
 Into
 
 ```
-class="droppable field optional multi-criteria"
+<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
 ```
+
+As you can notice, the class is the only thing you have to change for the multi search criteria to be active.
 
 ## Project editor
 
-You can then go to the project editor and drop several fields into the list form search area.
+You can then go to the project editor and drop several fields into the list form Search area.
 
 ![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Click on the search field delete button to modifiy the associated field list. A menu will appear to allow you **remove specific fields** or **remove all fields** depending on which criteria you want to base your search on.
+Click on the search field delete button to modifiy the associated field list. 
+
+A menu will appear to allow you **remove specific fields** or **remove all fields** depending on which criteria you want to base your search on.
 
 ![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
