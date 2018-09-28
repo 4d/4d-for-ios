@@ -37,7 +37,7 @@ You are now ready to create your first formatter !
 
 ## Create the formatters folder
 
-First, create a .../Resources/Mobile/formatters folder next to the Contact.4dbase data.
+First, create a .../Resources/Mobile/formatters folder next to the Task Management.4dbase data.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
