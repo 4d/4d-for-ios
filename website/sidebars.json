@@ -16,7 +16,7 @@
     "Creating List form templates" : ["creating-listform-templates","icon-listform-template","manifest-listform-template","svg-file-listform-template","storyboard-listform-template"],
     "Creating Detail form templates" : ["creating-detailform-templates","icon-detailform-template","manifest-detailform-template","svg-file-detailform-template","storyboard-detailform-template"],
     "Using icons" : ["using-icons","create-icons","include-icons","select-icons"],
-    "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run"],
+    "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run","creating-data-formatter"],
     "Multi-criteria search" : ["multi-criteria-search"]
 
   }
