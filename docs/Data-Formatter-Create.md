@@ -1,0 +1,225 @@
+---
+id: creating-data-formatter
+title: Create data formatter
+sidebar_label: Create data formatter
+---
+
+<div markdown="1" class = "objectives">
+
+**OBJECTIVES**
+
+* Create your first data formatters
+</div>
+
+<div markdown="1" class = "prerequisites">
+
+**PREREQUISITES**
+
+* Click [here](prerequisites.html) to see what you'll need to get started!
+
+</div>
+
+In this tutorial, we'll guide you through the creation of various formatter examples.
+
+## Download the Starter Project
+
+To begin, download the **Starter Project**, which includes:
+* A images folder that contains **integerToImage_Images** and **textToImage_Images** folder to use later for formatters that include images
+* A **Task Management.4dbase** file (with a ready to use mobile app project)
+
+
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button"
+href="../assets/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+</div>
+
+You are now ready to create your first formatter !
+
+## Create the formatters folder
+
+First, create a .../Resources/Mobile/formatters folder next to the Contact.4dbase data.
+
+![Formatter folder](assets/custom-formatter/formatter-folder.png)
+
+
+## Integer formatters
+
+### Integer to string
+
+* Create a **integerToString** folder in the formatters folder you've just created.
+
+* Then create and put a **manifest.json** file in the **integerToString** folder.
+
+![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
+
+* Let's see what to put in this **manifest.json** file:
+
+
+```
+{
+	// 1
+	"name": "integerToString",
+
+  	// 2
+   "type": ["integer"],
+
+   // 3
+   "binding": "localizedText",
+
+   // 4
+   "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
+}
+```
+
+1. **name**: formatter name
+2. **type**: 4D type you want to format
+3. **binding**: it can be **localized text** for strings or **imageNamed** for images
+4. **choiceList**: mapped values
+
+
+### Integer to image
+
+* Create a **integerToImage** folder in the **formatters** folder you've created.
+
+* Create and put a **manifest.json** file in the **integerToImage** folder.
+
+![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
+
+* Then create an **Images** folder in the **integerToImage** folder where you can put the images from the **integerToImage_Images** in the StarterProject.zip.
+
+ ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+
+* Let's see what to put in the **manifest.json** file:
+
+
+```
+{
+	// 1
+	"name": "integerToImage",
+
+	// 2
+   "type": ["integer"],
+
+	// 3
+   "binding": "imageNamed",
+
+	// 4 
+   "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
+   
+	// 5
+   "assets": {
+  "size": {
+   "width": 40, "height": 40
+		}
+	}
+}
+```
+1. **name**: formatter name
+2. **type** : 4D type you want to format
+3. **binding** : it can be localized text for strings and imageNamed for images
+4. **choiceList** : mapped values
+5. **assets** : adjust the display size (width and height)
+
+## Text formatters
+
+### Text to string
+
+* Create a **textToString** folder in the formatters folder you've juste created.
+
+* Create and put a **manifest.json** file in the **textToString** folder.
+
+![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
+
+* Let's see what to put in the **manifest.json** file:
+
+
+
+```
+{
+	// 1
+	"name": "integerToImage",
+
+  	// 2
+   "type": ["text"],
+
+   // 3
+   "binding": "localizedText",
+
+   // 4
+   "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
+}
+```
+
+1. **name**: formatter name
+2. **type** : 4D type you want to format
+3. **binding** : it can be localized text for strings and imageNamed for images
+4. **choiceList** : mapped values
+
+
+### Text to image
+
+* Create a **textToImage** folder in the formatters folder you've juste created.
+
+* Create and put a **manifest.json** file in the **integerToImage** folder.
+
+![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
+
+* Then create an **Images** folder in the **textToImage** folder where you can put the images from the **textToImage_Images** in the StarterProject.zip.
+
+![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
+
+
+Let's see what to put in the **manifest.json** file:
+
+
+```
+{
+	// 1
+	"name": "textToImage",
+
+	// 2
+   "type": ["integer"],
+
+   // 3
+   "binding": "imageNamed",
+
+   // 4
+   "choiceList": ["image1.png","image2.png","image3.png"],
+   
+	// 5
+   "assets": {
+  "size": {
+   "width": 40, "height": 40
+		}
+	}
+}
+```
+
+
+## Open mobile project 
+
+Open the Task Management.4dbase with 4D. and go to File > open > Mobile Project... to open the **Tasks** 
+
+Finally go to the **Labels & Icons section** in the project editor. All your formatters are available for the different field types you defined previously in the different formatter manifest.json files:
+
+* Select the **integerToString** formatter for the **Job field**
+* Select the **textToString** formatter for the **Country field**
+* Select the **integerToImage** formatter for the **Task Status**
+* Select the **textToImage** formatter for the **Manager**
+
+
+![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
+
+
+## Build your iOS app
+
+Build your iOS app and you will see that your custom data formatter is well used depending on the Credit limit
+
+![Text formatter](assets/custom-formatter/formatters-final-result.png)
+
+Click on **FORMATTER FINAL** below to download the completed template folder.
+
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button"
+href="../assets/custom-formatter/CustomFormattersFinalProject">FORMATTER FINAL</a>
+</div>
