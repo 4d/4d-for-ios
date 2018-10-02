@@ -18,6 +18,7 @@ To download the lastest version of Xcode go to the App Store.
 
 Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
 
+🔗 https://developer.apple.com/download/more/
 🔗 https://developer.apple.com/xcode/
 
 ## Version comparison table
