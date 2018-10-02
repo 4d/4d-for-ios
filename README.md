@@ -21,7 +21,8 @@
 * 4D Developer Pro v17 R2 64-bit (Development)
 * 4D Server v17 R2 64-bit (Deployment)
 * macOS version 10.13 (or later)
-* Latest Xcode version installed on your Mac. It is necessary to open Xcode and install essential components prior to using 4D for iOS.
+* 4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
+* The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
 * Apple configurator 2 installed on your Mac (optional). Install this software if you want to automate app installation on your physical device.
 
 
