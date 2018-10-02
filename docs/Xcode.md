@@ -22,11 +22,11 @@ Registered developers can download preview releases and prior versions of the su
 
 ## Version comparison table
 
-|Xcode| Swift | iOS |
-|---|---|
-|10.0|4.2|iOS 12|
-|9.4|4.1.2|iOS 11.4|
-|9.3.1|4.1|iOS 11.3|
+| Xcode | Swift | iOS | 4D |
+|---|---|---|---|
+| 10.0 | 4.2 | iOS 12 | 17R3 |
+| 9.4| 4.1.2| iOS 11.4 | 17R2 |
+| 9.3.1| 4.1| iOS 11.3 | 17R2 |
 
 ### Compatibility
 
