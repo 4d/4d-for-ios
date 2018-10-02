@@ -221,5 +221,5 @@ Click on **FORMATTER FINAL** below to download the completed template folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/custom-formatter/CustomFormattersFinalProject">FORMATTER FINAL</a>
+href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
 </div>
