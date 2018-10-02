@@ -9,7 +9,7 @@ sidebar_label: Multi-criteria search
 
 **OBJECTIVES**
 
-* Acticating the multi-criteria search in your existing templates
+* Activating the multi-criteria search in your existing templates
 </div>
 
 This feature is activated by default in all 4D for iOS templates.
