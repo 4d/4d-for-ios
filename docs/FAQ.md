@@ -21,7 +21,13 @@ The mobile project editor has been designed so that you can use 4D for iOS witho
 **Are there any prerequisites for 4D for iOS?**
 </summary>
 
-To use 4D for iOS, you'll need to install the latest version of Xcode on your Mac.
+4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
+
+The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
+
+In case you already upgraded to Xcode 10, you can download Xcode 9.4.1 here: https://developer.apple.com/download/more/
+
+Only registered developers can download preview releases through the Apple Developer website.
 
 See the prerequisites list [here](prerequisites.html).
 
