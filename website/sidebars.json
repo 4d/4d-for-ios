@@ -2,7 +2,7 @@
 
 "Getting started":{
     "Getting started": ["overview","prerequisites"],
-    "Project Editor": ["create-new-project","general","structure","labels-and-icons","main-menu","forms","list-form-templates","detail-form-templates","publishing","build-panel"],
+    "Project Editor": ["create-new-project","general","structure","data","labels-and-icons","main-menu","forms","list-form-templates","detail-form-templates","publishing","build-panel"],
     "Testing and Building": ["simulator","install-device","free-developer-account"],
     "Deploying In-House": ["deployment","register-apple-developer-enterprise-program","deploy-in-house-archive-and-export","deploy-in-house-distribution"],
     "Deploying on App Store": ["register-apple-developer-program-organization","register-apple-developer-program-individual","deploy-app-store-app-store-connect","deploy-app-store-archive-and-upload"]
