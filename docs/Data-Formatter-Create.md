@@ -24,7 +24,7 @@ In this tutorial, we'll guide you through the creation of various formatter exam
 ## Download the Starter Project
 
 To begin, download the **Starter Project**, which includes:
-* A images folder that contains **integerToImage_Images** and **textToImage_Images** folder to use later for formatters that include images
+* An images folder containing **integerToImage_Images** and **textToImage_Images** folders (to use later for formatters that include images)
 * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 
@@ -33,11 +33,11 @@ To begin, download the **Starter Project**, which includes:
 href="../assets/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
 </div>
 
-You are now ready to create your first formatter !
+You're now ready to create your first formatters!
 
 ## Create the formatters folder
 
-First, create a .../Resources/Mobile/formatters folder next to the Task Management.4dbase data.
+First, create a .../Resources/Mobile/formatters folder at the same level as the Task Management.4dbase data.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
@@ -46,13 +46,13 @@ First, create a .../Resources/Mobile/formatters folder next to the Task Manageme
 
 ### Integer to string
 
-* Create a **integerToString** folder in the formatters folder you've just created.
+* Create an **integerToString** folder in the formatters folder you've just created.
 
-* Then create and put a **manifest.json** file in the **integerToString** folder.
+* Then create a **manifest.json** file in the **integerToString** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* Let's see what to put in this **manifest.json** file:
+* Let's look at the contents of the **manifest.json** file:
 
 
 ```
@@ -71,25 +71,25 @@ First, create a .../Resources/Mobile/formatters folder next to the Task Manageme
 }
 ```
 
-1. **name**: formatter name
-2. **type**: 4D type you want to format
-3. **binding**: it can be **localized text** for strings or **imageNamed** for images
+1. **name**: the name of the formatter
+2. **type**: the 4D format type you want to use
+3. **binding**: can be **localized text** for strings or **imageNamed** for images
 4. **choiceList**: mapped values
 
 
 ### Integer to image
 
-* Create a **integerToImage** folder in the **formatters** folder you've created.
+* Create an **integerToImage** folder in the **formatters** folder you've created.
 
-* Create and put a **manifest.json** file in the **integerToImage** folder.
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder where you can put the images from the **integerToImage_Images** in the StarterProject.zip.
+* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
 
  ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-* Let's see what to put in the **manifest.json** file:
+* Let's look at the contents of the **manifest.json** file:
 
 
 ```
@@ -114,23 +114,23 @@ First, create a .../Resources/Mobile/formatters folder next to the Task Manageme
 	}
 }
 ```
-1. **name**: formatter name
-2. **type** : 4D type you want to format
-3. **binding** : it can be localized text for strings and imageNamed for images
-4. **choiceList** : mapped values
-5. **assets** : adjust the display size (width and height)
+1. **name**: the name of the formatter
+2. **type** : the 4D format type you want to use 
+3. **binding**: can be **localized text** for strings or **imageNamed** for images
+4. **choiceList**: mapped values
+5. **assets**: adjust the display size (width and height)
 
 ## Text formatters
 
 ### Text to string
 
-* Create a **textToString** folder in the formatters folder you've juste created.
+* Create a **textToString** folder in the formatters folder you've just created.
 
-* Create and put a **manifest.json** file in the **textToString** folder.
+* Create a **manifest.json** file in the **textToString** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* Let's see what to put in the **manifest.json** file:
+* Let's look at the contents of the **manifest.json** file:
 
 
 
@@ -150,26 +150,26 @@ First, create a .../Resources/Mobile/formatters folder next to the Task Manageme
 }
 ```
 
-1. **name**: formatter name
-2. **type** : 4D type you want to format
-3. **binding** : it can be localized text for strings and imageNamed for images
-4. **choiceList** : mapped values
+1. **name**: the name of the formatter
+2. **type**: the 4D format type you want to use
+3. **binding**: can be **localized text** for strings or **imageNamed** for images
+4. **choiceList**: mapped values
 
 
 ### Text to image
 
-* Create a **textToImage** folder in the formatters folder you've juste created.
+* Create a **textToImage** folder in the formatters folder you've just created.
 
-* Create and put a **manifest.json** file in the **integerToImage** folder.
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder where you can put the images from the **textToImage_Images** in the StarterProject.zip.
+* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
 
 ![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
 
 
-Let's see what to put in the **manifest.json** file:
+Let's look at the contents of the **manifest.json** file:
 
 
 ```
@@ -198,9 +198,9 @@ Let's see what to put in the **manifest.json** file:
 
 ## Open mobile project 
 
-Open the Task Management.4dbase with 4D. and go to File > open > Mobile Project... to open the **Tasks** 
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks** 
 
-Finally go to the **Labels & Icons section** in the project editor. All your formatters are available for the different field types you defined previously in the different formatter manifest.json files:
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you  previously defined in the different formatter manifest.json files:
 
 * Select the **integerToString** formatter for the **Job field**
 * Select the **textToString** formatter for the **Country field**
@@ -211,13 +211,13 @@ Finally go to the **Labels & Icons section** in the project editor. All your for
 ![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
 
 
-## Build your iOS app
+## Build your 4D for iOS app
 
-Build your iOS app and you will see that your custom data formatter is well used depending on the Credit limit
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
 ![Text formatter](assets/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed template folder.
+Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
