@@ -12,15 +12,16 @@ This section allows you to:
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
 
-## Integrated data source panel
+## Data source panel
+
+![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
+
 
 This panel allows you to define your **data source**. Then you can choose to get data from the **Current data file** or getting data from a **Production server**.
 
-To secure the access to the production server, a **key file** needs to be generated from the production server and physically communicated to the developer. Then the developer have to select this key file.
+To secure the production server access, a **key file** needs to be generated from the production server and physically communicated to the developer. Then the developer can select this key file from the project editor in order to access to the production server data.
 
-The production url needs to be filled from the **Publishing section** if you choose to get data from your production server. 
-
-
+The **Production URL** needs to be filled from the **Publishing section** if you choose to get data from your production server. 
 
 Here you can also check if the server is available and activate it if it's off.
 
@@ -37,54 +38,63 @@ Here you can also check if the server is available and activate it if it's off.
 
 In this panel you can also define if you want to **Regenerate data systematically** at each build of not. 
 
-When the **Do not regenerate data at each build** option is checked, this will enable you to save a considerable amount of time when you build your app. And you can still Generate manually your data clicking on the **Regenerate button** when the Regenerate data.
+When the **Do not regenerate data at each build** option is checked, this will enable you to save a considerable amount of time when you build your app. And you can still Generate manually your data clicking on the **Regenerate button**.
 
 
 ## Properties panel
 
-There you will be able to define all the filter you want for each table based on **defined filter queries** or based on **user's parameters**.
+![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
+
+In this Properties panel, you will be able to define all the filter you want for each table based on **defined filter queries** or based on **user's parameters**.
 
 ### Filtering with query filters
 
-Here you can define filter per table defining depending on field values.
+Here you can define filters per table depending on field values:
 
-First click on the empty field to enter your first filter query
+* First enter your query in the dedicated field typing it directly in the query field. You can also compose your query using fields, comparators and orperators that are available just above the query field when it is focused. That can be helpfull defining your query
+
+* You have to validate your query each time you modify it (a query that have been edited and not validated is in red in the project editor)
+
+* Check the Embed data into the built application to embed data into the built application or leave it unckecked if not.
+
+When a query filter is valid an funnel icon appears to indicate that the defined filter is based on a defined filter query.
+
+<div markdown="1" class = "tips">
+
+**EXAMPLE** 
+
+FirstName = 'David' & LastName = 'Azancot'
+
+*This query allows you to display only the records that includes David as FirstName and Azancot as LastName*
+
+</div>
 
 
-**Example:** FieldName = 'David'
+### Filtering with user's information filters
 
-This query allows you to display only the records which include Davd as FieldName
+Here you will be able to define filters you want depending on user informations you define in the Mobile App Authentication method:
 
-For all those query filters you can decide to embed data into your app or loading them after a first reload.
+* As for query filters you have to first define your query in the dedicated field
+
+* To specify that the this query depends on user informations just add ":" before the critera you want to define as a filter
+
+* As for query filster, you have to validate your query each time you modify it
+
+* Once it is validated a buttons appears to allow you to adding information about users in the Mobile App Authentication method.
 
 
+When a query filter is valid an user icon appears to indicate that the defined filter is based on user's informations
 
-### Filtering with user information filters
-
-There you have to define the user info you want in the Mobile App Authentication method in the Publishing section
-
-When a filter query is defined a button appear to allow you add missing information in the On Mobile app Authentication method.
-
-When your filter is define for a user, a user icons appear next to the table that have been 
 
 
 <div markdown="1" class = "tips">
 
-**NOTE**
+**EXAMPLE:** 
 
-You can access directly to your database method from this panel if your define user information based filter 
-</div>
+CityName = :'Paris'
 
-**Example:** CityName = :Paris
-
-This query allows you to display only the records which include Paris as CityName
-
-<div markdown="1" class = "tips">
-
-**NOTE**
-
-To help you identify your filers,
-Icons are helping you identify if a basic query or user informations based filters are use for each table.
-
+*This query allows you to display only the records which include Paris as CityName*
 
 </div>
+
+
