@@ -63,6 +63,8 @@ When a query filter is valid an funnel icon appears to indicate that the defined
 
 **EXAMPLE** 
 
+In the Filter query field enter:
+
 FirstName = 'David' & LastName = 'Azancot'
 
 *This query allows you to display only the records that includes David as FirstName and Azancot as LastName*
@@ -89,9 +91,16 @@ When a query filter is valid an user icon appears to indicate that the defined f
 
 <div markdown="1" class = "tips">
 
-**EXAMPLE:** 
+**EXAMPLE:**
 
-CityName = :'Paris'
+In the Filter query field enter:
+
+CityName = :'city'
+
+In the On Mobile App Authentication database method, enter :
+
+$response.userInfo:=New object("city";"Paris")
+
 
 *This query allows you to display only the records which include Paris as CityName*
 
