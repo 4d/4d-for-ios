@@ -65,9 +65,9 @@ When a query filter is valid an funnel icon appears to indicate that the defined
 
 In the Filter query field enter:
 
-FirstName = 'David' & LastName = 'Azancot'
+FirstName = 'Lisa' & LastName = 'Hart'
 
-*This query allows you to display only the records that includes David as FirstName and Azancot as LastName*
+*This query allows you to display only the records that includes Lisa as FirstName and Hart as LastName*
 
 </div>
 
@@ -95,7 +95,7 @@ When a query filter is valid an user icon appears to indicate that the defined f
 
 In the Filter query field enter:
 
-CityName = :'city'
+CityName = :city
 
 In the On Mobile App Authentication database method, enter :
 
