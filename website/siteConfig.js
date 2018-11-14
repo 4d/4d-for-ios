@@ -94,6 +94,7 @@ algolia: {
 
   // Add custom scripts here that would be placed in <script> tags
   scripts: ['https://buttons.github.io/buttons.js'],
+  gaTrackingId: 'UA-129154982-1',
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
