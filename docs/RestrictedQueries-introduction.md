@@ -1,14 +1,14 @@
 ---
 id: filter-query-introduction
-title: Introduction
-sidebar_label: Introduction
+title: Restricted queries
+sidebar_label: Restricted queries
 ---
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Create basic and user's informatio based query filters in 4D for iOS
+* Defining basic and user's information based query filters to display filtered content in the generated iOS app
 </div>
 
 <div markdown="1" class = "prerequisites">
@@ -20,9 +20,9 @@ sidebar_label: Introduction
 </div>
 
 
-In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you have account managers and you want them to be able to consult their in progress contracts by connecting with their email address.
+In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you are an account managers and you want to consult your in progress contracts simply by connecting with your email address.
 
-First, from the Data section we are going to filter the app content to display only contracts in progress. The we are going to apply a **user's information based filter** depending on the Account manager email.
+First, from the Data section we are going define a **basic filter query** to only display contracts in progress. Then we are going to apply a **user's information based filter** depending on the Account manager email.
 
 
 ## Download the Starter Project
@@ -41,6 +41,14 @@ The database includes :
 * **AccountManager table** that includes basic Account manager informations (email and name)
 
 ![CRM database](assets/restricted-queries/CRMDatabase.png)
+
+<div markdown="1" class = "tips">
+
+**NOTE**
+
+* This project use [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
+
+</div>
 
 You are now ready to define your first restricted query!
 

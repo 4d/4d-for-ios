@@ -94,8 +94,8 @@
     "Structure": "Structure",
     "define-filter-query": "Define a filter query",
     "Define a filter query": "Define a filter query",
-    "filter-query-introduction": "Introduction",
-    "Introduction": "Introduction",
+    "filter-query-introduction": "Restricted queries",
+    "Restricted queries": "Restricted queries",
     "user-information-query": "User information query",
     "User information query": "User information query",
     "free-developer-account": "Free Apple Developer account",
@@ -117,8 +117,7 @@
     "Creating your iOS App": "Creating your iOS App",
     "Customizing with Xcode": "Customizing with Xcode",
     "Creating List form templates": "Creating List form templates",
-    "Creating Detail form templates": "Creating Detail form templates",
-    "Restricted queries": "Restricted queries"
+    "Creating Detail form templates": "Creating Detail form templates"
   },
   "pages-strings": {
     "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
