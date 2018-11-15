@@ -66,7 +66,7 @@ algolia: {
     secondaryColor: '#0f949b',
   },
 
-  editUrl: 'https://github.com/4D/4D-for-iOS/edit/17R2/docs/',
+  editUrl: 'https://github.com/4D/4D-for-iOS/edit/develop/docs/',
 
 
   /* custom fonts for website */
