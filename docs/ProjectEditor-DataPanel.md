@@ -65,7 +65,7 @@ When a query filter is valid an funnel icon appears to indicate that the defined
 
 In the Filter query field enter:
 
-FirstName = 'Lisa' & LastName = 'Hart'
+```FirstName = 'Lisa' & LastName = 'Hart'```
 
 *This query allows you to display only the records that includes Lisa as FirstName and Hart as LastName*
 
@@ -80,7 +80,7 @@ Here you will be able to define filters you want depending on user informations 
 
 * To specify that the this query depends on user informations just add ":" before the critera you want to define as a filter
 
-* As for query filster, you have to validate your query each time you modify it
+* As for query filter, you have to validate your query each time you modify it
 
 * Once it is validated a buttons appears to allow you to adding information about users in the Mobile App Authentication method.
 
@@ -97,12 +97,20 @@ In the Filter query field enter:
 
 CityName = :city
 
-In the On Mobile App Authentication database method, enter :
+In the [On Mobile App Authentication database method](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), enter :
 
-$response.userInfo:=New object("city";"Paris")
+```$response.userInfo:=New object("city";"Paris")```
 
 
 *This query allows you to display only the records which include Paris as CityName*
+
+</div>
+
+<div markdown="1" class = "tips">
+
+**NOTE:**
+
+You will find all rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html)
 
 </div>
 

@@ -12,7 +12,7 @@ Now let's filter our app content depending on the account manager login email (u
 * Now define which user information you want to get from the database method **:email** 
 
 ```
-Status = 'In progress' & manager.Email= :email 
+Status = 'In progress' & manager.Email = :email 
 ```
 
 * Remember to validate the query clicking on the **Validate Button**. If not you will not be able to build your app.
