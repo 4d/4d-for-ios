@@ -20,9 +20,9 @@ sidebar_label: Restricted queries
 </div>
 
 
-In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *in progress* contracts simply by connecting to your app with your email address.
+In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
-First, from the Data section we're going define a **basic filter query** to only display *in progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
+First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
 
 
 ## Download the Starter Project
