@@ -5,9 +5,9 @@ sidebar_label: Data
 ---
 
 This section allows you to:
-* define which data you want to include in your app (**Current data file** or **Production server data file**)
-* **regenerate data** automatically each time you build your app or generate it manually
-* filter data that you want to vizualise in your app depending on **general filter queries** or **user's informations** 
+* define the data to include in your app (**Current data file** or **Production server data file**),
+* automatically **regenerate data** each time you build your app or generate it manually, and
+* filter data to vizualize in your app depending on **general filter queries** or **user information**. 
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -17,75 +17,74 @@ This section allows you to:
 ![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
 
 
-This panel allows you to define your **data source**. Then you can choose to get data from the **Current data file** or getting data from a **Production server**.
+This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
 
-To secure the production server access, a **key file** needs to be generated from the production server and physically communicated to the developer. Then the developer can select this key file from the project editor in order to access to the production server data.
+To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. Then the developer can select this key file from the project editor to access to the production server data.
 
-The **Production URL** needs to be filled from the **Publishing section** if you choose to get data from your production server. 
+The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server. 
 
-Here you can also check if the server is available and activate it if it's off.
+Here, you can also check if the server is available and activate it if necessary.
 
 <div markdown="1" class = "tips">
 
 **NOTE**
 
-* Tips are there to help you and tell you what is missing for the server to work correctly.
-* You can access directly to Publishing panel to define your production url.
-* Then to access the production server data, a key file is required for the communications to be secured.
+* Tips are available to help you ensure the server works correctly.
+* You can directly access the Publishing panel to define your production URL.
+* To access production server data, a key file is required for secure communications.
 
 </div>
 
+You can also define whether or not you want to **Regenerate data systematically** at each build. 
 
-In this panel you can also define if you want to **Regenerate data systematically** at each build of not. 
-
-When the **Do not regenerate data at each build** option is checked, this will enable you to save a considerable amount of time when you build your app. And you can still Generate manually your data clicking on the **Regenerate button**.
+When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate button**.
 
 
 ## Properties panel
 
 ![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
 
-In this Properties panel, you will be able to define all the filter you want for each table based on **defined filter queries** or based on **user's parameters**.
+In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
 
 ### Filtering with query filters
 
-Here you can define filters per table depending on field values:
+You can define filters per table which depend on field values:
 
-* First enter your query in the dedicated field typing it directly in the query field. You can also compose your query using fields, comparators and orperators that are available just above the query field when it is focused. That can be helpfull defining your query
+* First, enter your query in the dedicated field by typing it directly in the query field. You can also compose your query using fields, comparators, and operators which are available just above the query field when it's in focus. This can be helpfull defining your query
 
-* You have to validate your query each time you modify it (a query that have been edited and not validated is in red in the project editor)
+* Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
 
-* Check the Embed data into the built application to embed data into the built application or leave it unckecked if not.
+* Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Leave unchecked if you don't want the data embedded.
 
-When a query filter is valid an funnel icon appears to indicate that the defined filter is based on a defined filter query.
+When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.
 
 <div markdown="1" class = "tips">
 
 **EXAMPLE** 
 
-In the Filter query field enter:
+In the **Filter query** field enter:
 
 ```FirstName = 'Lisa' & LastName = 'Hart'```
 
-*This query allows you to display only the records that includes Lisa as FirstName and Hart as LastName*
+*This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName*
 
 </div>
 
 
-### Filtering with user's information filters
+### Filtering with user information filters
 
-Here you will be able to define filters you want depending on user informations you define in the Mobile App Authentication method:
+You can define filters depending on user information which you define in the Mobile App Authentication method:
 
-* As for query filters you have to first define your query in the dedicated field
+* As with query filters, you first need to define your query in the appropriate field.
 
-* To specify that the this query depends on user informations just add ":" before the critera you want to define as a filter
+* To specify that the query depends on user information, just add ":" before the filter critera 
 
-* As for query filter, you have to validate your query each time you modify it
+* Then, validate your query. This must be done each time you modify it.
 
-* Once it is validated a buttons appears to allow you to adding information about users in the Mobile App Authentication method.
+* Once your query filter is validated, a button appears to allow you to add information about users in the Mobile App Authentication method.
 
 
-When a query filter is valid an user icon appears to indicate that the defined filter is based on user's informations
+When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
 
 
 
@@ -93,16 +92,16 @@ When a query filter is valid an user icon appears to indicate that the defined f
 
 **EXAMPLE:**
 
-In the Filter query field enter:
+In the **Filter query** field enter:
 
 CityName = :city
 
-In the [On Mobile App Authentication database method](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), enter :
+In the [On Mobile App Authentication database method](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), enter:
 
 ```$response.userInfo:=New object("city";"Paris")```
 
 
-*This query allows you to display only the records which include Paris as CityName*
+*This query allows you to display only the records which include "Paris" as CityName*
 
 </div>
 
@@ -110,7 +109,7 @@ In the [On Mobile App Authentication database method](http://doc.4d.com/4Dv17R3/
 
 **NOTE:**
 
-You will find all rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html)
+You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
 
 </div>
 
