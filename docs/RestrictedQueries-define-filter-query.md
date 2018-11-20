@@ -4,7 +4,7 @@ title: Define a filter query
 sidebar_label: Define a filter query
 ---
 
-For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and status** (*Closed* and *In Progress*).
+For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
 
 ![iOS app without queries](assets/restricted-queries/ios-app-without-queries.png)
 
