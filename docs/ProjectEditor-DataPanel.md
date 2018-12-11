@@ -77,7 +77,7 @@ You can define filters depending on user information which you define in the Mob
 
 * As with query filters, you first need to define your query in the appropriate field.
 
-* To specify that the query depends on user information, just add ":" before the filter critera 
+* To specify that the query depends on user information, just add ":" and the userinfo object key.
 
 * Then, validate your query. This must be done each time you modify it.
 
