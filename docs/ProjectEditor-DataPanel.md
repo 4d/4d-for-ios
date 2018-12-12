@@ -77,11 +77,11 @@ You can define filters depending on user information which you define in the Mob
 
 * As with query filters, you first need to define your query in the appropriate field.
 
-* To specify that the query depends on user information, just add ":" and the userinfo object key.
+* To specify that the query depends on user information, just add ":" and the `userinfo` object key.
 
 * Then, validate your query. This must be done each time you modify it.
 
-* Once your query filter is validated, a button appears to allow you to add information about users in the Mobile App Authentication method.
+* Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
 
 
 When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
@@ -96,7 +96,7 @@ In the **Filter query** field enter:
 
 CityName = :city
 
-In the [On Mobile App Authentication database method](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), enter:
+In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
 
 ```$response.userInfo:=New object("city";"Paris")```
 
