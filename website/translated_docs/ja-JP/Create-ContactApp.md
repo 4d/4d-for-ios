@@ -13,7 +13,7 @@ sidebar_label: Contact App
 
 * Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
-This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
+This tutorial will let you dive right into 4D for iOS development. \[#table] Propriété[#tab/] Type[#tab/] Description from[#tab/] Texte | Objet | Collection(*) [#tab/] Adresse(s) d'origine (**) cc[#tab/] Texte | Objet | Collection(*)[#tab/] Copie Carbone (CC). Destinataire(s) supplémentaire(s) de l'e-mail bcc[#tab/] Texte | Objet | Collection(*)[#tab/] Copie Carbone invisible (CCi). Destinataire(s) caché(s) de l'e-mail to[#tab/] Texte | Objet | Collection(*)[#tab/] Destinataire(s) principal(aux) sender[#tab/] Texte | Objet | Collection(*)[#tab/] Adresse(s) e-mail source (**) replyTo[#tab/] Texte | Objet | Collection(*)[#tab/] Adresse(s) des destinataires en cas de réponse à l'e-mail subject[#tab/] Texte [#tab/] Description du sujet textBody[#tab/] Texte [#tab/] Texte brut de l'e-mail (l'encodage par défaut est UTF-8) (***) htmlBody[#tab/] Texte [#tab/] Représentation HTML de l'e-mail (l'encodage par défaut est UTF-8) (***) sendAt[#tab/] Texte[#tab/] Horodatage de l'e-mail (Date TUC) attachments[#tab/] Collection[#tab/] Collection d'objet(s) attachments, voir [#cmd id="1644"/\] \[#/table\]
 
 *Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
 
