@@ -19,7 +19,7 @@ This tutorial will let you dive right into 4D for iOS development. It will allow
 
 We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
 
-## 手順 1 Getting started
+## ステップ 1 - Getting started
 
 Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
 
@@ -33,7 +33,7 @@ href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
   </p>
 </div>
 
-## 手順 2 プロジェクトの作成
+## ステップ 2 - プロジェクトの作成
 
 Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
 
@@ -41,15 +41,15 @@ Give your project a name and click **Create**.
 
 ![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## 手順 3 プロジェクト エディターを開く
+## ステップ 3 - プロジェクト エディターを開く
 
 Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+**Continue** をクリックします。
 
-## STEP 4. Sections - General
+## ステップ 4 - Sections - General
 
 Here, you'll configure your app's primary information:
 
