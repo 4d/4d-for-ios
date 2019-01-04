@@ -74,17 +74,17 @@ Dans notre exemple, sélectionnez **ID**, **Prénom**, **Nom**, **Fonction**, **
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. Sections - Icons & Labels
+## ÉTAPE 6. Sections - Icônes & Étiquettes
 
-Now it's time to define some labels and icons for the selected tables and fields.
+Définissons maintenant certaines étiquettes et icônes pour les tables et champs sélectionnés.
 
-**Table Properties:** * Define a short and a long label for your Contact table * Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
+**Propriétés de la talbe:** * Définissez une courte et une longue étiquette pour votre table Contact * Cliquez sur le champ icône. La bibliothèque d’icônes s’affiche et vous pouvez sélectionner une icône pour illustrer la table Contacts. Vous pouvez également choisir de laisser le champ icône vide. 4D for iOS génèrera pour vous une icône par défaut !
 
-**Field Properties:** * Define a short and a long label for your selected fields. * Click on the icon field and select icons for each field. There are several options for field icons: * You can select an icon for each field, * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you * You can simply leave them empty to not display any field icons.
+**Propriétés de la table:** * Définissez une courte et une longue étiquette pour les champs sélectionnés. * Cliquez sur le champ icône et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champ : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour ne pas afficher d'icônes de champ.
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## STEP 7. Sections - Main Menu
+## ÉTAPE 7. Sections - Menu principal
 
 Next up is defining the order of the tables in the app's main menu.
 
