@@ -21,7 +21,7 @@ Nous allons créer une application iPhone de répertoire pour rechercher des nom
 
 ## ÉTAPE 1. Prise en main
 
-Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
+Téléchargez notre projet de prise en main qui contient un fichier de base de données et une icône du projet, mais pas encore de projet mobile.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -33,23 +33,23 @@ href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
   </p>
 </div>
 
-## STEP 2. Creating the project
+## ÉTAPE 2. Création du projet
 
-Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
+Commençons par une structure très simple à l’aide d’une seule table. Dans 4D, allez à **Nouveau > Projet mobile**.
 
-Give your project a name and click **Create**.
+Nommez votre projet puis cliquez sur **Créer**.
 
 ![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## STEP 3. Opening the Project Editor
+## ÉTAPE 3. Ouvrir l’éditeur de projet
 
-Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'applications de ce superbe outil. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+Cliquez sur **Continuer**.
 
-## STEP 4. Sections - General
+## ÉTAPE 4. Sections - Général
 
 Here, you'll configure your app's primary information:
 
