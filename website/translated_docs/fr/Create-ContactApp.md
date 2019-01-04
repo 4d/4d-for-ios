@@ -13,7 +13,7 @@ sidebar_label: Contact App
 
 * Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
+Ce tutoriel vous permettra de vous plonger directement dans le développement de 4D for iOS. Il vous permettra de créer rapidement et facilement votre première application.
 
 *Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
 
