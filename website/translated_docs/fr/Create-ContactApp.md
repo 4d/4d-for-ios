@@ -103,19 +103,19 @@ Nous avons presque terminé, mais il faut tout d’abord décider de la mise en 
 
 À ce stade, le bas de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Glissez et déposez les champs que vous souhaitez afficher sur le modèle, *soit*, Nom de famille dans le champ de recherche et le champ Titre. Les champs Recherche et Section sont facultatifs. Pour le moment, laissez le champ Section vide.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form. * Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+Enfin, nous allons définir le formulaire Détail. * Sélectionnez le modèle qui convient le mieux à votre application. Pour notre application Contact, nous allons utiliser le modèle **Contact Visuel**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the appropriate places on the detail form template, *i.e.*, First Name, Last Name, and Photo.
+* Glissez et déposez le contenu dans les endroits appropriés sur le modèle de formulaire Détail, *soit*, Prénom, Nom et Photo.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. Build the app
+## ÉTAPE 9. Construire l’application
 
 Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
 
