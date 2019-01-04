@@ -66,11 +66,11 @@ Vous pourrez configurer ici les informations primaires de votre application :
 
 C’est ici que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données ) à présenter aux appareils mobiles.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
+Dans notre exemple, sélectionnez **ID**, **Prénom**, **Nom**, **Fonction**, **Société**, **Téléphone**, **Notes** et **Photo**.<div class = "tips"> 
 
 **NOTE**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+* Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
