@@ -28,7 +28,7 @@ Téléchargez notre projet de prise en main qui contient un fichier de base de d
     
 
 <a class="button"
-href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/contact-app/ContactStarter.zip">PROJET PRISE EN MAIN</a>
 
   </p>
 </div>
@@ -115,13 +115,13 @@ Enfin, nous allons définir le formulaire Détail. * Sélectionnez le modèle qu
 
 ![Contenu du formulaire Détail](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## ÉTAPE 9. Construire l’application
+## ÉTAPE 9. Créer l’application
 
 Et maintenant, la partie amusante ! Il est temps de construire votre application et de la tester sur le Simulateur pour voir le résultat final !
 
-* Cliquez sur l’onglet **Construire**.
+* Cliquez sur l’onglet **Créer**.
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton appareil.
-* Cliquez sur **Créer et Lancer**.
+* Cliquez sur **Créer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
 ![Créer et Lancer](assets/contact-app/Build-the-app-simulator.png)
