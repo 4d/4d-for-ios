@@ -95,13 +95,13 @@ Définissons ensuite l'ordre des tables dans le menu principal de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+Nous avons presque terminé, mais il faut tout d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des formulaires Liste et Détails.
 
-* Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
+* Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contact, nous allons utiliser le modèle **Profil**.
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-At this point, the bottom of the configuration window has changed from template selection to content definition.
+À ce stade, le bas de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
 
 * Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
