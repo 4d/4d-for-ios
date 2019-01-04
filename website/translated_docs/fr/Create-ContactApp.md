@@ -89,11 +89,11 @@ Définissons maintenant certaines étiquettes et icônes pour les tables et cham
 Définissons ensuite l'ordre des tables dans le menu principal de l'application.
 
 * **Tableaux Disponibles :** Affiche la ou les tables à utiliser.
-* **Tables Sélectionnées :** Affiche les éléments de menu de votre application. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Tables Sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. Sections - Forms
+## ÉTAPE 8. Sections - Formulaires
 
 We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
 
