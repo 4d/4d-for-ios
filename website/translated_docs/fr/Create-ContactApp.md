@@ -51,10 +51,10 @@ Cliquez sur **Continuer**.
 
 ## ÉTAPE 4. Sections - Général
 
-Here, you'll configure your app's primary information:
+Vous pourrez configurer ici les informations primaires de votre application :
 
-* **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
-* **Product:** Enter your app's name. Let’s call this one "Contact".
+* **Organisation:** Entrez le nom de votre société ainsi que l'identificateur de l’application (ex. « Ma société » et com.MaSociete).
+* **Produit :** Entrez le nom de votre application. Appelons-le « Contact ».
 * **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
 * **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
 * **Icons:** Drag and drop an icon for your app into the icon area.
