@@ -55,16 +55,16 @@ Vous pourrez configurer ici les informations primaires de votre application :
 
 * **Organisation:** Entrez le nom de votre société ainsi que l'identificateur de l’application (ex. « Ma société » et com.MaSociete).
 * **Produit :** Entrez le nom de votre application. Appelons-le « Contact ».
-* **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
-* **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
-* **Icons:** Drag and drop an icon for your app into the icon area.
-* **Developer:** This is automatically filled from the user name on your computer. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
+* **ID:** (Bundle ID) est généré automatiquement comme une composition de l’identificateur de votre société et du nom de votre produit.
+* **Version :** Laissez la version 1.0 et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
+* **Icônes:** Glissez et déposez une icône pour votre application dans la zone de l’icône.
+* **Développeur :** Ceci est renseigné automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez/collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ Équipe. Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-## STEP 5. Sections - Structure
+## ÉTAPE 5. Sections - Structure
 
-This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
+C’est ici que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données ) à présenter aux appareils mobiles.
 
 For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
 
