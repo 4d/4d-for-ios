@@ -15,11 +15,11 @@ sidebar_label: Contact App
 
 Ce tutoriel vous permettra de vous plonger directement dans le développement de 4D for iOS. Il vous permettra de créer rapidement et facilement votre première application.
 
-*Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
+*Scénario : Vous êtes un directeur commercial et vous souhaitez consulter vos coordonnées durant vos déplacements.*
 
-We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
+Nous allons créer une application iPhone de répertoire pour rechercher des noms de contact dans la liste puis afficher les détails de chaque contact. Nous l’appellerons « Contact ».
 
-## STEP 1. Getting started
+## ÉTAPE 1. Prise en main
 
 Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
 
