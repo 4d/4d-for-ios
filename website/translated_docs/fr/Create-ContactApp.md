@@ -39,13 +39,13 @@ Commençons par une structure très simple à l’aide d’une seule table. Dans
 
 Nommez votre projet puis cliquez sur **Créer**.
 
-![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
+![Création d’un projet](assets/contact-app/Project-creation-4D-for-iOS.png)
 
 ## ÉTAPE 3. Ouvrir l’éditeur de projet
 
 Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'applications de ce superbe outil. 🙂
 
-![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
+![Écran de bienvenue](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
 Cliquez sur **Continuer**.
 
@@ -60,7 +60,7 @@ Vous pourrez configurer ici les informations primaires de votre application :
 * **Icônes:** Glissez et déposez une icône pour votre application dans la zone de l’icône.
 * **Développeur :** Ceci est renseigné automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez/collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ Équipe. Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
-![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
+![Général](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
 ## ÉTAPE 5. Sections - Structure
 
@@ -82,7 +82,7 @@ Définissons maintenant certaines étiquettes et icônes pour les tables et cham
 
 **Propriétés de la table:** * Définissez une courte et une longue étiquette pour les champs sélectionnés. * Cliquez sur le champ icône et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champ : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour ne pas afficher d'icônes de champ.
 
-![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
+![Icônes & Étiquettes](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
 ## ÉTAPE 7. Sections - Menu principal
 
@@ -91,7 +91,7 @@ Définissons ensuite l'ordre des tables dans le menu principal de l'application.
 * **Tableaux Disponibles :** Affiche la ou les tables à utiliser.
 * **Tables Sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
-![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
+![Menu principal](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## ÉTAPE 8. Sections - Formulaires
 
@@ -99,43 +99,43 @@ Nous avons presque terminé, mais il faut tout d’abord décider de la mise en 
 
 * Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contact, nous allons utiliser le modèle **Profil**.
 
-![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
+![Modèle de formulaire Liste](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
 À ce stade, le bas de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
 
 * Glissez et déposez les champs que vous souhaitez afficher sur le modèle, *soit*, Nom de famille dans le champ de recherche et le champ Titre. Les champs Recherche et Section sont facultatifs. Pour le moment, laissez le champ Section vide.
 
-![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
+![Contenu du formulaire Liste](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
 Enfin, nous allons définir le formulaire Détail. * Sélectionnez le modèle qui convient le mieux à votre application. Pour notre application Contact, nous allons utiliser le modèle **Contact Visuel**.
 
-![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
+![Modèle de formulaire Détail](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
 * Glissez et déposez le contenu dans les endroits appropriés sur le modèle de formulaire Détail, *soit*, Prénom, Nom et Photo.
 
-![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
+![Contenu du formulaire Détail](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
 ## ÉTAPE 9. Construire l’application
 
-Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
+Et maintenant, la partie amusante ! Il est temps de construire votre application et de la tester sur le Simulateur pour voir le résultat final !
 
-* Click the **Build** tab.
-* Select a device to use as a Simulator by clicking on the device button.
-* Click **Build and Run**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Cliquez sur l’onglet **Construire**.
+* Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton appareil.
+* Cliquez sur **Créer et Lancer**.
+* Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
-![Build and Run](assets/contact-app/Build-the-app-simulator.png)
+![Créer et Lancer](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Where to go from here?
+## ÉTAPE 10. Que faire ensuite ?
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
+Nous avons fait le tour des bases de la création d’applications dans ce tutoriel, vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez comment construire une application encore plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger l’application Contact finale.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/contact-app/ContactFinal.zip">FINAL PROJECT</a>
+href="../assets/contact-app/ContactFinal.zip">PROJET FINAL</a>
 
   </p>
 </div>
