@@ -86,10 +86,10 @@ Définissons maintenant certaines étiquettes et icônes pour les tables et cham
 
 ## ÉTAPE 7. Sections - Menu principal
 
-Next up is defining the order of the tables in the app's main menu.
+Définissons ensuite l'ordre des tables dans le menu principal de l'application.
 
-* **Available Tables:** Displays the table(s) to be used.
-* **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Tableaux Disponibles :** Affiche la ou les tables à utiliser.
+* **Tables Sélectionnées :** Affiche les éléments de menu de votre application. Even though our example has only one item, you can drag and drop your items to reorder them.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
