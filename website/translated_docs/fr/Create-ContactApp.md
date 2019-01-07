@@ -17,11 +17,11 @@ Ce tutoriel vous permettra de vous lancer directement dans le développement de 
 
 *Scénario : Vous êtes un directeur commercial et vous souhaitez consulter votre liste de contacts durant vos déplacements.*
 
-Nous allons créer une application de répertoire pour iPhone afin de rechercher des contacts dans la liste et d'afficher leurs coordonnées. Nous l’appellerons « Contacts ».
+Nous allons créer une application de répertoire pour iPhone afin de rechercher des contacts dans une liste et d'afficher leurs coordonnées. Nous l’appellerons « Contacts ».
 
 ## ÉTAPE 1. Prise en main
 
-Téléchargez notre projet de prise en main qui contient un fichier de base de données et une icône du projet, mais pas encore de projet mobile.
+Téléchargez notre projet Prise en main qui contient un fichier de base de données et l'icône du projet, mais qui n'inclut pas encore de projet mobile.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
