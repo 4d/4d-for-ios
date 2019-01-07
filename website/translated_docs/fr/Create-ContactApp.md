@@ -64,7 +64,7 @@ Vous pourrez configurer ici les informations primaires de votre application :
 
 ## ÉTAPE 5. Sections - Structure
 
-C’est ici que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données ) à présenter aux appareils mobiles.
+C’est dans cette section que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données) à présenter aux appareils mobiles.
 
 Dans notre exemple, sélectionnez **ID**, **Prénom**, **Nom**, **Fonction**, **Société**, **Téléphone**, **Notes** et **Photo**.<div class = "tips"> 
 
