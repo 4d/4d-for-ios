@@ -41,7 +41,7 @@ Nommez votre projet puis cliquez sur **Créer**.
 
 ![Création d’un projet](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## ÉTAPE 3. Ouvrir l’éditeur de projet
+## ÉTAPE 3. L’éditeur de projet
 
 Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'applications de ce superbe outil. 🙂
 
