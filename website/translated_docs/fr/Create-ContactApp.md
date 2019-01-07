@@ -53,11 +53,11 @@ Cliquez sur **Continuer**.
 
 Vous pourrez configurer ici les informations primaires de votre application :
 
-* **Organisation:** Entrez le nom de votre société ainsi que l'identificateur de l’application (ex. « Ma société » et com.MaSociete).
-* **Produit :** Entrez le nom de votre application. Appelons-le « Contact ».
-* **ID:** (Bundle ID) est généré automatiquement comme une composition de l’identificateur de votre société et du nom de votre produit.
-* **Version :** Laissez la version 1.0 et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
-* **Icônes:** Glissez et déposez une icône pour votre application dans la zone de l’icône.
+* **Organisation:** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et com.MonEntreprise).
+* **Produit :** Entrez le nom de votre application. Appelons-la « Contacts ».
+* **ID:** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
+* **Version :** Laissez la version 1.0 inchangée et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
+* **Icônes:** Glissez et déposez une icône pour votre application dans la zone consacrée.
 * **Développeur :** Ceci est renseigné automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez/collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ Équipe. Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
 ![Général](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
