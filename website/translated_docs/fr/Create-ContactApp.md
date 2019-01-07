@@ -78,32 +78,32 @@ Dans notre exemple, sélectionnez **ID**, **FirstName**, **Last Name**, **Job**,
 
 Définissons maintenant certains libellés et icônes pour les tables et champs sélectionnés.
 
-**Propriétés de la talbe:** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ icône vide. 4D for iOS génèrera pour vous une icône par défaut !
+**Propriétés des tables :** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ "Icônes" vide. 4D for iOS génèrera pour vous une icône par défaut !
 
-**Propriétés de la table:** * Définissez une courte et une longue étiquette pour les champs sélectionnés. * Cliquez sur le champ icône et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champ : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour ne pas afficher d'icônes de champ.
+**Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
 
 ![Icônes & Étiquettes](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## ÉTAPE 7. Sections - Menu principal
+## ÉTAPE 7. Sections - Menu
 
-Définissons ensuite l'ordre des tables dans le menu principal de l'application.
+Définissons ensuite l'ordre des tables dans le menu de l'application.
 
-* **Tableaux Disponibles :** Affiche la ou les tables à utiliser.
-* **Tables Sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
+* **Tables disponibles :** Affiche la ou les tables à utiliser.
+* **Tables sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
 ![Menu principal](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## ÉTAPE 8. Sections - Formulaires
 
-Nous avons presque terminé, mais il faut tout d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des formulaires Liste et Détails.
+Nous avons presque terminé, mais il faut d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des formulaires liste et des Formulaires détail.
 
-* Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contact, nous allons utiliser le modèle **Profil**.
+* Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
 ![Modèle de formulaire Liste](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-À ce stade, le bas de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
+À ce stade, la partie inférieure de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
 
-* Glissez et déposez les champs que vous souhaitez afficher sur le modèle, *soit*, Nom de famille dans le champ de recherche et le champ Titre. Les champs Recherche et Section sont facultatifs. Pour le moment, laissez le champ Section vide.
+* Glissez et déposez les champs que vous souhaitez afficher sur le modèle, à savoir, Nom de famille dans le "Champ à utiliser pour la recherche" et le champ "Titre". Le "champ à utiliser pour la recherche" et le "champ à utiliser en tant que section" sont facultatifs. Pour le moment, laissez le "champ à utiliser en tant que section" vide.
 
 ![Contenu du formulaire Liste](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
