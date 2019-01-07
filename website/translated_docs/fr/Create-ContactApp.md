@@ -74,7 +74,7 @@ Dans notre exemple, sélectionnez **ID**, **FirstName**, **Last Name**, **Job**,
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## ÉTAPE 6. Sections - Icônes & Étiquettes
+## ÉTAPE 6. Sections - Libellés et icônes
 
 Définissons maintenant certaines étiquettes et icônes pour les tables et champs sélectionnés.
 
