@@ -76,9 +76,9 @@ Dans notre exemple, sélectionnez **ID**, **FirstName**, **Last Name**, **Job**,
 
 ## ÉTAPE 6. Sections - Libellés et icônes
 
-Définissons maintenant certaines étiquettes et icônes pour les tables et champs sélectionnés.
+Définissons maintenant certains libellés et icônes pour les tables et champs sélectionnés.
 
-**Propriétés de la talbe:** * Définissez une courte et une longue étiquette pour votre table Contact * Cliquez sur le champ icône. La bibliothèque d’icônes s’affiche et vous pouvez sélectionner une icône pour illustrer la table Contacts. Vous pouvez également choisir de laisser le champ icône vide. 4D for iOS génèrera pour vous une icône par défaut !
+**Propriétés de la talbe:** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ icône vide. 4D for iOS génèrera pour vous une icône par défaut !
 
 **Propriétés de la table:** * Définissez une courte et une longue étiquette pour les champs sélectionnés. * Cliquez sur le champ icône et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champ : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour ne pas afficher d'icônes de champ.
 
