@@ -66,7 +66,7 @@ Vous pourrez configurer ici les informations primaires de votre application :
 
 C’est dans cette section que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données) à présenter aux appareils mobiles.
 
-Dans notre exemple, sélectionnez **ID**, **Prénom**, **Nom**, **Fonction**, **Société**, **Téléphone**, **Notes** et **Photo**.<div class = "tips"> 
+Dans notre exemple, sélectionnez **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.<div class = "tips"> 
 
 **NOTE**
 
