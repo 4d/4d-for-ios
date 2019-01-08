@@ -1,7 +1,7 @@
 ---
 id: data-formatter-build-and-run
-title: Build and Run your project
-sidebar_label: Build and Run your project
+title: Générez et exécutez votre projet
+sidebar_label: Générez et exécutez votre projet
 ---
 Here is the final result in your iOS app with a Tasks list form and a Numbers detail form selected.
 
