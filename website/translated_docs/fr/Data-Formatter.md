@@ -7,16 +7,16 @@ sidebar_label: Format des données
 
 Vous pouvez désormais choisir des formats prédéfinis à partir de Sections, Libellés et icônes.<div class = "tips"> 
 
-Available formats: * **Text**: Text * **Date**: Date, Short date, Long date, Full date * **Time**: Time, Short time, Durtation, Integer number * **Boolean**: "No" or "Yes", "False" or "True" * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
+Formats disponibles : * **Texte**: texte * **Date**: Date, date longue, date courte et date complète * **Heure**: Heure, Courte durée, Durée, Nombre entier * **Boolean**: « Oui » ou « Non » , « Vrai » ou « Faux» * **Nombre entier**: nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres</div> 
 
-Let's get started by downloading the Starter Project:
+Commençons par télécharger le Projet de Prise en main :
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="../assets/data-formatter/BankingApp.zip">PROJET DE PRISE EN MAIN DES FORMATS PERSONNALISÉS</a>
 
   </p>
 </div>
