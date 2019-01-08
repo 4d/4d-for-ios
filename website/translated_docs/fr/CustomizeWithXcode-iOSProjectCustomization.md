@@ -1,7 +1,7 @@
 ---
 id: customize-your-ios-app
-title: Customize your 4D for iOS App
-sidebar_label: Customize your 4D for iOS App
+title: Personnalisez votre application 4D for iOS
+sidebar_label: Personnalisez votre application 4D for iOS
 ---
 Nous allons apporter quelques modifications au Storyboard... du simple au plus complexe.
 
