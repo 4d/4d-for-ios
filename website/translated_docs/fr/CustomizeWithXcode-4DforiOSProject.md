@@ -3,11 +3,11 @@ id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 sidebar_label: 4D for iOS project organization
 ---
-From the Navigation tab, go to Sources.
+Dans l’onglet Navigation, accédez aux Sources.
 
-Here you'll find the Structure and Forms folders. They contain all of the files for your defined database structures and forms, including:
+Vous trouverez ici les dossiers Structure et Formulaires. Ils contiennent tous les fichiers pour les structures et les formulaires de base de données définies, notamment :
 
-* Launch screen - Appears when the app is launched.
+* Écran de lancement - apparaît lorsque l’application est lancée.
 * Login screen - Appears when authentication is activated.
 * Settings screen - Includes the reload and logout buttons.
 * All published tables - Files for the authorized data. They exist in pairs, with the exception of the Launch screen file. 
