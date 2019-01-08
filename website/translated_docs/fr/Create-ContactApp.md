@@ -119,7 +119,7 @@ Enfin, nous allons définir le formulaire détail. * Sélectionnez le modèle de
 
 Et maintenant, la partie amusante ! Il est temps de créer votre application et de la tester sur le Simulateur pour voir le résultat final !
 
-* Cliquez sur l’onglet **Créer**.
+* Cliquez sur l’onglet **Build**.
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton appareil.
 * Cliquez sur **Créer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
