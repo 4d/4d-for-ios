@@ -9,11 +9,11 @@ sidebar_label: Créer le formateur de données
 
 * Créer votre premiers formulaires de données</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-In this tutorial, we'll guide you through the creation of various formatter examples.
+Dans ce didacticiel, nous vous guiderons à travers la création de divers exemples de formateur.
 
 ## Download the Starter Project
 
