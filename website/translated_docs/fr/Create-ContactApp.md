@@ -82,7 +82,7 @@ Définissons maintenant certains libellés et icônes pour les tables et champs 
 
 **Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
 
-![Icônes & Étiquettes](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
+![Libellés et icônes ](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
 ## ÉTAPE 7. Sections - Menu
 
@@ -91,7 +91,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 * **Tables disponibles :** Affiche la ou les tables à utiliser.
 * **Tables sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
-![Menu principal](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
+![Menu ](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## ÉTAPE 8. Sections - Formulaires
 
