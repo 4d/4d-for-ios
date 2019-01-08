@@ -3,8 +3,8 @@ id: data-formatter-build-and-run
 title: Générez et exécutez votre projet
 sidebar_label: Générez et exécutez votre projet
 ---
-Here is the final result in your iOS app with a Tasks list form and a Numbers detail form selected.
+Voici le résultat final dans votre application iOS avec un formulaire liste Tâches et un formulaire détail Numéros sélectionnés.
 
-![Result data formatter iphone](assets/data-formatter/result-data-formatter-iphone.png)
+![iPhone formateur de données](assets/data-formatter/result-data-formatter-iphone.png)
 
-You're done! Your fields are well formatted according to its defined type in Labels & Icons.
+Vous avez terminé ! Vos champs sont bien formatés selon leur type défini dans Libellés et icônes.
