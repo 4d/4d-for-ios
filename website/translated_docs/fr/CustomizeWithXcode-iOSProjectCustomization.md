@@ -3,16 +3,16 @@ id: customize-your-ios-app
 title: Customize your 4D for iOS App
 sidebar_label: Customize your 4D for iOS App
 ---
-Let's do some storyboard modification ... from simple to complex.
+Nous allons apporter quelques modifications au Storyboard... du simple au plus complexe.
 
 ![Final result](assets/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
-## STEP 1. Simple label modification
+## ÉTAPE 1. Modification simple du libellé
 
-We'll start by modifying a label's font and color:
+Nous allons commencer par modifier la police et la couleur du libellé :
 
-* Open the *ContactDetailsForm.storyboard* file from the Navigation tab. 
-* Click on the First Name label (you can also select it from the interface builder or the left pane).
+* Ouvrez le fichier *ContactDetailsForm.storyboard* à partir de l’onglet Navigation. 
+* Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis le générateur d’interface ou le volet de gauche).
 * Select the Attributes inspector pane from the Utility area.
 
 ![Attributes inspector](assets/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
