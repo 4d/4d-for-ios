@@ -25,7 +25,7 @@ Nous allons commencer par modifier la police et la couleur du libellé :
 
 ![Attributes inspector color](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
-## ÉTAPE 2. Modifiez l'emplacement de la photo de profil 
+## ÉTAPE 2. Modification de l'emplacement de la photo de profil
 
 Tous les modèles de 4D for iOS présentent des contraintes d’utilisation pour les éléments de l’application afin d'être affichés correctement sur tous les appareils.
 
@@ -37,15 +37,15 @@ Nous allons faire en sorte de les faire apparaitre comme suit :
 
 Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.
 
-Next, select the image and go to the Size attributes pane from the Utility area. Change the X value from 161.67 to 40.67 and the Y value from 28 to 79.
+Sélectionnez ensuite l’image et accédez au volet attributs de taille depuis la zone Utility. Remplacez la valeur X de 161.67 par 40,67 et la valeur Y de 28 par 79.
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-As you can see, the position has changed but Xcode is displaying yellow lines...why? Thse yellow lines represent contraints which are no longer valid.
+Comme vous pouvez le voir, l'emplacement a changé mais le Xcode affiche des lignes jaunes. Pourquoi ? Ces lignes jaunes représentent des contraintes qui ne sont plus valides.
 
-## STEP 3. Update profile picture constraints
+## ÉTAPE 3. Mise à jour des contraintes de la photo de profil
 
-To vertically align the picture in the center in the Superview (the view which contains it), we need to delete the existing constraints and add new ones.
+Pour aligner verticalement l’image au centre dans le Superview (l’affichage qui la contient), nous devons supprimer les contraintes existantes et ajouter de nouvelles contraintes.
 
 The image currently has the following constraints: * Width Equals: A fixed width of 78 pixels. * Height Equals: A fixed height of 78 pixels. * Align Center X: Centers the image on a previously defined horizontal axis. * Top Space: A fixed amount of space from the top of the image to the top of the view. * Bottom space to <first name>: The previously defined space between the First Name label and the image.
 
