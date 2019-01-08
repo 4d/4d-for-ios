@@ -1,13 +1,13 @@
 ---
 id: creating-data-formatter
-title: Create data formatter
-sidebar_label: Create data formatter
+title: Créer le formateur de données
+sidebar_label: Créer le formateur de données
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Create your first data formatters</div> <div class = "prerequisites"> 
+* Créer votre premiers formulaires de données</div> <div class = "prerequisites"> 
 
 **PREREQUISITES**
 
