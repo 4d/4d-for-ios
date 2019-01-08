@@ -13,21 +13,21 @@ Nous allons commencer par modifier la police et la couleur du libellé :
 
 * Ouvrez le fichier *ContactDetailsForm.storyboard* à partir de l’onglet Navigation. 
 * Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis le générateur d’interface ou le volet de gauche).
-* Select the Attributes inspector pane from the Utility area.
+* Sélectionnez le volet Inspecteur d'attributs dans la zone Utility.
 
 ![Attributes inspector](assets/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* Change the font from Helvetica Neue Bold to Futura Bold. 
+* Remplacez la police Helvetica Neue Bold par Futura Bold. 
 
 ![Attributes inspector font](assets/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
-* You can also change the color of the font from the same pane.
+* Vous pouvez également modifier la couleur de la police dans le même volet.
 
 ![Attributes inspector color](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
-## STEP 2. Change profile picture position
+## ÉTAPE 2. Modifiez l'emplacement de la photo de profil 
 
-All 4D for iOS templates use constraints for the app's elements to they'll display well on all devices.
+Tous les modèles de 4D for iOS présentent des contraintes d’utilisation pour les éléments de l’application afin d'être affichés correctement sur tous les appareils.
 
 In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
 
