@@ -29,13 +29,13 @@ Nous allons commencer par modifier la police et la couleur du libellé :
 
 Tous les modèles de 4D for iOS présentent des contraintes d’utilisation pour les éléments de l’application afin d'être affichés correctement sur tous les appareils.
 
-In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
+Dans le fichier *ContactDetailsForm.storyboard*, les libellés Photo, First Name et Last Name les sont actuellement centrés.
 
-Let's change it to appear like this:
+Nous allons faire en sorte de les faire apparaitre comme suit :
 
 ![Simulator result](assets/customize-with-xcode/Simlator-Final-Xcode-4D-for-iOS.png)
 
-First, vertically align the picture and drag the First Name and Last Name labels to the right of the picture.
+Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.
 
 Next, select the image and go to the Size attributes pane from the Utility area. Change the X value from 161.67 to 40.67 and the Y value from 28 to 79.
 
