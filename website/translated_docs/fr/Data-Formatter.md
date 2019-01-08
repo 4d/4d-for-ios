@@ -1,11 +1,11 @@
 ---
 id: data-formatter
-title: Data formatter
-sidebar_label: Data formatter
+title: Format des données
+sidebar_label: Format des données
 ---
-4D v17 R3 includes a new concept: Data formatting!
+44 v17 R3 inclut un nouveau concept : le format des données !
 
-You can now choose pre-packaged formats from Labels & Icons in Sections.<div class = "tips"> 
+Vous pouvez désormais choisir des formats prédéfinis à partir de Sections, Libellés et icônes.<div class = "tips"> 
 
 Available formats: * **Text**: Text * **Date**: Date, Short date, Long date, Full date * **Time**: Time, Short time, Durtation, Integer number * **Boolean**: "No" or "Yes", "False" or "True" * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
 
