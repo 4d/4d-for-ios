@@ -3,7 +3,7 @@ id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 sidebar_label: 4D for iOS project organization
 ---
-Dans l’onglet Navigation, accédez aux Sources.
+Accédez aux Sources à partir de l'onglet Navigation.
 
 Vous trouverez ici les dossiers Structure et Formulaires. Ils contiennent tous les fichiers des structures et des formulaires de base de données définies, notamment :
 
