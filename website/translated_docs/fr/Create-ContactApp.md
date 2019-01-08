@@ -121,7 +121,7 @@ Et maintenant, la partie amusante ! Il est temps de créer votre application et 
 
 * Cliquez sur l’onglet **Génération**.
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton appareil.
-* Cliquez sur **Créer et exécuter**.
+* Cliquez sur **Générer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
 ![Créer et Lancer](assets/contact-app/Build-the-app-simulator.png)
