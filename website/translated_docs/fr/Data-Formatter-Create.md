@@ -35,7 +35,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau que les données Task Management.4dbase.
 
-![Formatter folder](assets/custom-formatter/formatter-folder.png)
+![Dossier format](assets/custom-formatter/formatter-folder.png)
 
 ## Formats entiers
 
@@ -45,7 +45,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
 
 * Créez ensuite un fichier **manifest.json** dans le dossier </strong> integerToString **.</p></li> </ul> 
     
-    ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
+    ![Dossier format](assets/custom-formatter/formatter-folder-integertostring.png)
     
     * Regardons le contenu du fichier **manifest.json** :
     
@@ -75,7 +75,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
-    ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
+    ![Dossier format](assets/custom-formatter/formatter-folder-integertoimage.png)
     
     * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images depuis **integerToImage_Images** du StarterProject.zip vers ce nouveau dossier.
         
@@ -181,31 +181,31 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     ## Ouvrir un projet mobile
     
-    Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+    Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > ouvrir > Projet mobile pour ouvrir **Tasks**
     
-    Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+    Allez ensuite dans la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles pour les différents types de champs définis précédemment dans les fichiers de format manifest.json :
     
-    * Select the **integerToString** formatter for the **Job field**
-    * Select the **textToString** formatter for the **Country field**
-    * Select the **integerToImage** formatter for the **Task Status**
-    * Select the **textToImage** formatter for the **Manager**
+    * Sélectionnez le format **integerToString** pour **Job field**
+    * Sélectionnez le format **textToString** pour **Country field**
+    * Sélectionnez le format **integerToImage** pour **Task Status**
+    * Sélectionnez le format **textToImage** pour **Manager**
     
     ![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
     
-    ## Build your 4D for iOS app
+    ## Créer votre application 4D for iOS
     
-    Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+    Créez votre application 4D for iOS et vous constaterez que vos formats de données s'appliquent correctement en fonction du "credit limit".
     
     ![Text formatter](assets/custom-formatter/formatters-final-result.png)
     
-    Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+    Cliquez sur **FORMATTER FINAL** ci-dessous pour télécharger le dossier définitif de modèles de formats.
     
     <div style="text-align: center; margin-top: 20px">
       <p>
         
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
 
       </p>
     </div>
