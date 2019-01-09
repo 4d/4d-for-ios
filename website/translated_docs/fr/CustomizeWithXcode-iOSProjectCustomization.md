@@ -37,7 +37,7 @@ Nous allons faire en sorte de les faire apparaitre comme suit :
 
 Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.
 
-Sélectionnez ensuite l’image et accédez au volet attributs de taille depuis la zone Utility. Remplacez la valeur X de 161.67 par 40,67 et la valeur Y de 28 par 79.
+Sélectionnez ensuite l’image et accédez au volet attributs de taille depuis la zone Utility. Remplacez la valeur 161.67 de X par 40,67 et la valeur 28 de Y par 79.
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
@@ -45,13 +45,13 @@ Comme vous pouvez le voir, l'emplacement a changé mais le Xcode affiche des lig
 
 ## ÉTAPE 3. Mise à jour des contraintes de la photo de profil
 
-Pour aligner verticalement l’image au centre dans le Superview (l’affichage qui la contient), nous devons supprimer les contraintes existantes et ajouter de nouvelles contraintes.
+Pour aligner verticalement l’image au centre dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes existantes et ajouter de nouvelles contraintes.
 
 L’image présente actuellement les contraintes suivantes : * Width Equals : une largeur fixe de 78 pixels. * Height Equals : une hauteur fixe de 78 pixels. * Align Center X : centre l’image sur un axe horizontal défini précédemment. * Top Space : une quantité d’espace fixe entre le haut de l’image et le haut de la vue. * Bottom space to <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
 
 ![Profil picture constraints](assets/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
-Delete all of the constraints except Width and Height (you'll modify these later from the Size inspector in the Constraints section). The picture outline should be now in red because the constraints are missing.
+Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir de l’inspecteur de taille dans la section des contraintes). Le contour de l’image devrait maintenant être en rouge parce que les contraintes ne sont pas renseignées.
 
 Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
 
