@@ -1,15 +1,15 @@
 ---
 id: deploy-app-store-archive-and-upload
-title: Archive and upload your Project
-sidebar_label: Archive and upload your Project
+title: Archivez et téléchargez votre projet
+sidebar_label: Archivez et téléchargez votre projet
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Archive and upload your project to App Store Connect</div> 
+* Archivez et publiez votre projet App Store Connect</div> 
 
-## STEP 1. Xcode configuration
+## ÉTAPE 1. Configuration de Xcode
 
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
 * If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.
