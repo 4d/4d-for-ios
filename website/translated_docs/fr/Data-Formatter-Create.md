@@ -15,7 +15,7 @@ sidebar_label: Créer le formateur de données
 
 Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de formats.
 
-## Téléchargez le projet Starter
+## Télécharger le projet Starter
 
 Pour commencer, télécharger le **Projet Prise en main**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
 
@@ -31,7 +31,7 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJET START
 
 Vous êtes maintenant prêt à créer vos premiers formats !
 
-## Créez le fichier formats
+## Créer le fichier formats
 
 Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau que les données Task Management.4dbase.
 
@@ -117,11 +117,11 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     * Créez un dossier **integerToString** dans le dossier de formats que vous venez de créer.
     
-    * Create a **manifest.json** file in the **textToString** folder.
+    * Créez un fichier **manifest.json** dans le dossier **textToString**.
     
     ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
     
-    * Let's look at the contents of the **manifest.json** file:
+    * Regardons le contenu du fichier **manifest.json** :
     
         {
             // 1
@@ -138,24 +138,24 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    1. **name**: the name of the formatter
-    2. **type**: the 4D format type you want to use
-    3. **binding**: can be **localized text** for strings or **imageNamed** for images
-    4. **choiceList**: mapped values
+    1. **name**: le nom du format
+    2. **type**: le type de format 4D que vous souhaitez utiliser
+    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
+    4. **choiceList**: valeurs mappées
     
-    ### Text to image
+    ### Texte vers image
     
-    * Create a **textToImage** folder in the formatters folder you've just created.
+    * Créez un dossier **textToImage** dans le dossier de formats que vous venez de créer.
     
-    * Create a **manifest.json** file in the **integerToImage** folder.
+    * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
     ![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
     
-    * Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+    * Créez ensuite un dossier **Images** dans le dossier **textToImage**. Vous pouvez ajouter les images depuis **textToImage_Images** du StarterProject.zip vers ce nouveau dossier.
     
     ![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
     
-    Let's look at the contents of the **manifest.json** file:
+    Regardons le contenu du fichier **manifest.json** :
     
         {
             // 1
@@ -179,7 +179,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    ## Open mobile project
+    ## Ouvrir un projet mobile
     
     Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
     
