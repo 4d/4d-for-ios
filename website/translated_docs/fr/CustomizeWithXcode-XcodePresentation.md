@@ -1,11 +1,11 @@
 ---
 id: xcode-overview
-title: Xcode Overview
-sidebar_label: Xcode Overview
+title: Présentation de Xcode
+sidebar_label: Présentation de Xcode
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
 * Ensure a basic understanding of working with Xcode.</div> 
 
