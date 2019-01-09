@@ -7,9 +7,9 @@ sidebar_label: Présentation de Xcode
 
 **OBJECTIFS**
 
-* Ensure a basic understanding of working with Xcode.</div> 
+* Travailler avec Xcode</div> 
 
-Xcode displays various areas that we're going to review:
+Xcode affiche plusieurs zones que nous allons examiner :
 
 ![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
