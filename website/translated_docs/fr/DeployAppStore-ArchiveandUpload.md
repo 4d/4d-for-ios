@@ -112,12 +112,12 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 * Enfin, cliquez sur le bouton **Submit for Review**.
 
-## ÉTAPE 9. Submit for Review
+## ÉTAPE 9. Envoyer pour révision
 
-* The final step to submitting your app for review is answering a few quick questions about your app. 
+* La dernière étape consiste à répondre à quelques questions sur votre application. 
 
 ![Submit for Review](assets/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* When you've finished with the questions, click **Submit**.
+* Une fois l'étape des réponses aux questions terminée, cliquez sur **Submit**.
 
-* The average App Store review time is around two days!
+* En moyenne, la durée de révision d'App Store est de deux jours !
