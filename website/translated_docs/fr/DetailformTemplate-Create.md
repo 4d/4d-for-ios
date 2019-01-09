@@ -1,23 +1,23 @@
 ---
 id: creating-detailform-templates
-title: Detail form templates
-sidebar_label: Detail form templates
+title: Modèles de formulaires détaillés
+sidebar_label: Modèles de formulaires détaillés
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Create your first list form template</div> <div class = "prerequisites"> 
+* Créez votre premier modèle de formulaire Liste</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
+Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Il affichera une **image header**, ainsi que **title and content fields** qui seront dupliqués dans l’application iOS générée.
 
 ![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
 
-## Download the Starter Project
+## Téléchargez le projet Starter
 
 To begin, download the **Starter Project**, which includes: * A **Custom Detail form** folder (custom Detail form template folder) * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
