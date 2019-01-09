@@ -1,13 +1,13 @@
 ---
 id: open-xcode
-title: Working with Xcode
-sidebar_label: Working with Xcode
+title: Travailler avec Xcode
+sidebar_label: Travailler avec Xcode
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Open a 4D for iOS project from the Project Editor.
+* Ouvrez un projet 4D for iOS depuis l’éditeur de projet.
 * Customize the generated 4D for iOS app.</div> 
 
 4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
