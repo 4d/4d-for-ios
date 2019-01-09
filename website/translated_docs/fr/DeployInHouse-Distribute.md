@@ -7,49 +7,49 @@ sidebar_label: Distribuez votre application interne
 
 **OBJECTIFS**
 
-* Upload your app to a secured server</div> 
+* Téléchargez votre application sur un serveur sécurisé</div> 
 
-## STEP 1. Upload your app<div class = "tips"> 
+## ÉTAPE 1. Téléchargez votre application<div class = "tips"> 
 
-**TIP**
+**CONSEILS**
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).</div> 
+Vous pouvez utiliser n’importe quel service de stockage cloud pour distribuer votre application dès qu’elle est sécurisée (Dropbox, Google Drive, etc.).</div> 
 
-Upload your app files to a secured server:
+Téléchargez votre application sur un serveur sécurisé:
 
-* assets (display-image and full-size-image)
-* manifest.plist file
-* .ipa file<div class = "tips"> 
+* Ressources (image d'affichage et image en taille réelle)
+* Fichier manifest.plist
+* Fichier .ipa<div class = "tips"> 
 
 **NOTE**
 
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
+Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.</div> 
 
-## STEP 2. Create the installation link
+## ÉTAPE 2. Créez le lien d’installation
 
-* Create an ITMS Serices link (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+* Créez un lien de Services ITMS (iTUnes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifeste :
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-* This link can be used when sending emails, embedded in an html page, or even within a QR code.
+* Ce lien peut être utilisé pour l’envoi d’e-mails, incorporé dans une page html, ou même dans un code QR.
 
-Here is a simple example:
+Voici un exemple simple :
 
 ![Contact demo app install](assets/deploy-in-house/Contact-demo-app-install.png)
 
-*The QR Code used for this documentation is not active.*
+*Le QR Code utilisé pour cette documentation n’est pas actif.*
 
-## STEP 3. Install your enterprise app on iOS
+## ÉTAPE 3. Installez votre application d'entreprise sur iOS
 
-* Install the app by clicking on the link or scanning a QR Code
+* Installez l’application en cliquant sur le lien ou en scannant un Code QR
 
 ![Scan and install](assets/deploy-in-house/Scan-and-install.png)
 
-* When you first open an enterprise app that you've manually installed, a notification will be displayed stating that the developer of the app isn't trusted on your device.
+* Lorsque vous ouvrez une application d’entreprise installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignore this message and click **Cancel**.
+* Ignorez ce message et cliquez sur **Cancel**.
 
 * In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
