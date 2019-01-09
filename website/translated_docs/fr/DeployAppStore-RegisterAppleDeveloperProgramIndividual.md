@@ -5,7 +5,7 @@ sidebar_label: Apple Developer Program as an Individual
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
 * Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 
