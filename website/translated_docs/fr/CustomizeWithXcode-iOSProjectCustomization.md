@@ -53,27 +53,27 @@ L’image présente actuellement les contraintes suivantes : * Width Equals : 
 
 Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir de l’inspecteur de taille dans la section des contraintes). Le contour de l’image devrait maintenant être en rouge parce que les contraintes ne sont pas renseignées.
 
-Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
+Cliquez sur le bouton Align (dans la partie inférieure de la fenêtre Interface Builder) et cochez la case **Vertically in Container**.
 
 ![Profil picture Align](assets/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png)
 
-Next, click on the **Add New Constraints** button and add a leading space constraint (the left constraint).
+Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte d'espace (la contrainte de gauche).
 
 ![Profil picture new constraints](assets/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png)
 
-At this point, all the profile picture constraints should be blue.
+À ce stade, toutes les contraintes de photo de profil doivent être en bleu.
 
-Congratulations! Your profile picture is now well postioned with the correct constraints.<div class = "tips"> 
+Félicitations ! Votre photo de profil est maintenant bien placée, en prenant bien compte des contraintes.<div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
+* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste d'éventuelles contraintes.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* Vous pouvez supprimer des contraintes en les sélectionnant depuis l’inspecteur de taille ou bien depuis l’Interface Builder.</div> 
 
-## STEP 4. Update label positions and constraints
+## ÉTAPE 4. Mise à jour de l'emplacement et des contraintes des libellés
 
-#### Now, let's work on the First Name label.
+#### Nous allons travailler maintenant sur le libellé First Name.
 
 We'll begin by changing the position and width: * Select the First Name label from the Interface Builder. * Next, change the Width from 386 to 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
 
