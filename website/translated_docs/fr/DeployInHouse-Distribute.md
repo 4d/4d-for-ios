@@ -55,10 +55,10 @@ Voici un exemple simple :
 
 ![Untrust developer](assets/deploy-in-house/Untrust-developer.png)
 
-* Tap the name of the developer profile to establish trust for this developer.
+* Tapez le nom du profil développeur pour que ce dernier soit reconnu comme fiable.
 
 ![Trust-confirmation](assets/deploy-in-house/Trust-confirmation.png)
 
-* You can then go to your app and open it.
+* Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Congratulations ... you can now distribute your first app in-house!
+Félicitations  ... vous pouvez désormais distribuer votre première application interne !
