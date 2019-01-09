@@ -66,7 +66,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     1. **name**: le nom du format
     2. **type**: le type de format 4D que vous souhaitez utiliser
-    3. **binding** : peut être du **localized text** pour les chaînes ou **imageNamed** pour les images
+    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
     4. **choiceList**: valeurs mappées
     
     ### Nombre entier vers image
@@ -77,11 +77,11 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
     
-    * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+    * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images depuis **integerToImage_Images** du StarterProject.zip vers ce nouveau dossier.
         
         ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
     
-    * Let's look at the contents of the **manifest.json** file:
+    * Regardons le contenu du fichier **manifest.json** :
     
         {
             // 1
@@ -105,17 +105,17 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    1. **name**: the name of the formatter
-    2. **type** : the 4D format type you want to use 
-    3. **binding**: can be **localized text** for strings or **imageNamed** for images
-    4. **choiceList**: mapped values
-    5. **assets**: adjust the display size (width and height)
+    1. **name**: le nom du format
+    2. **type**: le type de format 4D que vous souhaitez utiliser 
+    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
+    4. **choiceList**: valeurs mappées
+    5. **assets**: ajuster la taille d'affichage (largeur et hauteur)
     
     ## Text formatters
     
-    ### Text to string
+    ### Texte vers chaîne
     
-    * Create a **textToString** folder in the formatters folder you've just created.
+    * Créez un dossier **integerToString** dans le dossier de formats que vous venez de créer.
     
     * Create a **manifest.json** file in the **textToString** folder.
     
