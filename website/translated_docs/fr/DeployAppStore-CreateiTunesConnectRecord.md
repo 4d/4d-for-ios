@@ -1,16 +1,16 @@
 ---
 id: deploy-app-store-app-store-connect
-title: Create App Store record
-sidebar_label: Create App Store record
+title: Créez un enregistrement App Store
+sidebar_label: Créez un enregistrement App Store
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Create an App ID on your Developer Account
-* Create your app in App Store Connect</div> 
+* Créez un ID d’application sur votre compte développeur
+* Créez votre application dans l’App Store Connect</div> 
 
-## STEP 1. Create an App ID
+## ÉTAPE 1. Create an App ID
 
 #### What is an App ID ?
 
