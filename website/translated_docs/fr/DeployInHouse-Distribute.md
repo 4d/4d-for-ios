@@ -51,7 +51,7 @@ Voici un exemple simple :
 
 * Ignorez ce message et cliquez sur **Annuler**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* Dans Paramètres > Général > Profils ou Profils & Gestion de l'appareil, dans la rubrique « App d'Entreprise », le profil du développeur est répertorié.
 
 ![Untrust developer](assets/deploy-in-house/Untrust-developer.png)
 
