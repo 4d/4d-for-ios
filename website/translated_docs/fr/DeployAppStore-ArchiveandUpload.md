@@ -11,24 +11,24 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ## ÉTAPE 1. Configuration de Xcode
 
-* If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
-* If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.
-* When your account is accessible, add it to Xcode in Preferences > Accounts.
-* Xcode will automatically install the necessary provisioning and certificates. 
+* Si vous avez choisi un compte de développeur Apple, votre compte est immédiatement disponible. 
+* Si vos avez choisi un compte de développeur Apple en tant qu’organisation, vous devez attendre la validation d’Apple.
+* Lorsque votre compte est accessible, ajoutez-le à Xcode dans Préférences > Comptes.
+* Xcode installera automatiquement les certificats et les éléments de mise à disposition nécessaires. 
 
-## STEP 2. Get your Team ID
+## ÉTAPE 2. Obtenir l'ID de votre équipe
 
-* Log into your Apple Developer Account. You can find your Team ID in Membership.
+* Connectez-vous à votre compte de développeur Apple. Vous pouvez trouver votre ID d’équipe dans Membership.
 
 ![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## STEP 3. 4D for iOS configuration
+## ÉTAPE 3. Configurez 4D for iOS
 
-* Launch 4D for iOS
+* Lancez 4D for iOS
 
-* On the SECTIONS tab:
+* Dans l’onglet SECTIONS :
 
-**General: Enter your Team ID**
+**Général : Entrez votre ID d’équipe**
 
 ![Team ID](assets/deploy-app-store/Team-ID.png)
 
