@@ -19,39 +19,39 @@ Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formu
 
 ## Téléchargez le projet Starter
 
-To begin, download the **Starter Project**, which includes: * A **Custom Detail form** folder (custom Detail form template folder) * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
+Pour commencer, téléchargez le **Starter Project**, qui comprend : * Un dossier **Custom Detail form** (dossier modèle de formulaire détaillé personnalisé) * Un fichier **Contact.4dbase** (base de données Contact de démonstration et un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-detailform/CustomDetailFormStarterProject.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="../assets/custom-detailform/CustomDetailFormStarterProject.zip">PROJET STARTER - FORMAT DÉTAILLÉ PERSONNALISÉ</a>
 
   </p>
 </div>
 
-You are now ready to create your first detail form template !
+Vous êtes maintenant prêt à créer votre premier modèle de formulaire détaillé !
 
-## Add a detail form template to your mobile project
+## Ajoutez un modèle de formulaire détaillé à votre projet mobile
 
-First, create a .../Resources/Mobile/form/detail folder next to the Contact.4dbase data and drag and drop the **Custom Detail form** folder in it.
+Créez d'abord un dossier .../Resources/Mobile/form/detail à côté des données Contact.4dbase, où vous glisserez et déposerez le dossier **Custom Detail form**.
 
 ![Mobile folder custom template](assets/custom-detailform/mobile-folder-custom-template.png)
 
-Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... to open the **Contact Demo App**
+Ouvrez ensuite Contact.4dbase avec 4D. et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Contact Demo App**
 
-Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
+Enfin, allez dans **Forms section** dans l’éditeur de projet. Vous verrez que le modèle de formulaire détaillé personnalisé a été correctement ajouté à la liste de modèles de formulaire détaillé !
 
 ![Forms section](assets/custom-detailform/custom-detailform-template.png)
 
-Now let's focus on the **Custom Detail form** folder content.
+Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 
-## Detail form template folder content
+## Contenu du dossier Modèle de formulaire détaillé
 
-* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
-* **a manifest.json** file that includes a basic description of the template
-* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* L'icône **a layoutIconx2.png** de taille 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnez votre modèle personnalisé
+* Le fichier **a manifest.json**, qui comprend une description simple du modèle
+* Le fichier **a template.svg** qui représentera votre modèle et qui s'affichera lorsque vous définissez le contenu de votre Formulaire Liste et où vous glisserez-déposerez vos champs
+* Dossier Source qui inclut le fichier **storyboard** (interface graphique) et **swift** (code pour le formulaire)
 
-What are those files, what it is used for and how to customize it ?
+Quels sont ces fichiers, à quoi servent-ils et comment les personnaliser ?
