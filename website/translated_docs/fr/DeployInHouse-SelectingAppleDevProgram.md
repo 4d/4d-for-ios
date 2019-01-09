@@ -22,6 +22,6 @@ Les différences majeures entre les deux programmes sont :
 
 **A des fins de test**, vous pouvez utiliser un [Programme Développeur iOS gratuit](free-developer-account.html).
 
-Here is a chart comparing the different levels of developer membership:
+Voici un tableau comparant les différentes catégories d’adhésion Développeur :
 
 ![Developer membership levels](assets/test-build/FreeTestingAppleDeveloperAccount.png)
