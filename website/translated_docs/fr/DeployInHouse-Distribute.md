@@ -49,7 +49,7 @@ Voici un exemple simple :
 
 * Lorsque vous ouvrez une application d’entreprise installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignorez ce message et cliquez sur **Cancel**.
+* Ignorez ce message et cliquez sur **Annuler**.
 
 * In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
