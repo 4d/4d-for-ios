@@ -75,11 +75,11 @@ Félicitations ! Votre photo de profil est maintenant bien placée, en prenant 
 
 #### Nous allons travailler maintenant sur le libellé First Name.
 
-We'll begin by changing the position and width: * Select the First Name label from the Interface Builder. * Next, change the Width from 386 to 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
+Nous allons commencer par changer la position et la largeur : * Sélectionnez le libellé First Name dans l’Interface Builder. * Ensuite, remplacez la largeur de 386 pixels par 267 pixels. * Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
 
 ![First Name Label position](assets/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modify the remaining constraints: * Delete the leading and the bottom space constraints from the Size inspector. * Add a leading space constraint by clicking on the **Add New Constraints** button to position the First Name label to the right of the Profile picture. * Press Ctrl and drag the First Name label to the Profile picture. Select the top constraint in the menu to top align both elements.
+Modifiez les contraintes suivantes : * Supprimez les contraintes d'espace principal et d'espace inférieur dans l'inspecteur de taille. * Ajoutez une contrainte d'espace principal en cliquant sur le bouton **Add New Constraints** pour placer le libellé First Name à droite de la photo de profil. * Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.
 
 ![First Name Label top constraint](assets/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
