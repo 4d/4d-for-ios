@@ -22,7 +22,7 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## ÉTAPE 3. Configurez 4D for iOS
+## ÉTAPE 3. Configurer 4D for iOS
 
 * Lancez 4D for iOS
 
@@ -32,25 +32,25 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ![Team ID](assets/deploy-app-store/Team-ID.png)
 
-**Publishing: Enter your production URL**
+**Publication : Entrez votre URL de production**
 
-(HTTPS is mandatory for deployment).
+(HTTPS est obligatoire pour le déploiement).
 
 ![Publishing](assets/deploy-app-store/Publishing.png)
 
-* On the BUILD tab:
+* Dans l’onglet BUILD :
 
-**Build and Run: Build your Project**
+**Créer et exécuter : Créez votre projet**
 
 ![BuildTab](assets/deploy-app-store/BuildTab.png)
 
-## STEP 4. Open your project with Xcode
+## ÉTAPE 4. Ouvrir votre projet avec Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* À partir de l’onglet BUILD de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## STEP 5. Archive your project from Xcode
+## ÉTAPE 5. Archiver votre projet à partir de Xcode
 
 * From Xcode go to the simulator Menu and select **Generic iOS Device**.
 
