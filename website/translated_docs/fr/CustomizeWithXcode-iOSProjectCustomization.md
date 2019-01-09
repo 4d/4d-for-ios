@@ -71,9 +71,9 @@ Félicitations ! Votre photo de profil est maintenant bien placée, en prenant 
 
 * Vous pouvez supprimer des contraintes en les sélectionnant depuis l’inspecteur de taille ou bien depuis l’Interface Builder.</div> 
 
-## ÉTAPE 4. Mise à jour de l'emplacement et des contraintes des libellés
+## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
-#### Nous allons travailler maintenant sur le libellé First Name.
+#### Nous allons nous pencher sur le libellé First Name.
 
 Nous allons commencer par changer la position et la largeur : * Sélectionnez le libellé First Name dans l’Interface Builder. * Ensuite, remplacez la largeur de 386 pixels par 267 pixels. * Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
 
@@ -83,9 +83,9 @@ Modifiez les contraintes suivantes : * Supprimez les contraintes d'espace princi
 
 ![First Name Label top constraint](assets/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
-#### Finally, we'll work on the Last Name label.
+#### Pour finir, nous allons traiter le libellé Last Name.
 
-Change the position and width: * Select the Last Name label from the Interface Builder. * Change the width from 386 to 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 144.33 to 118.33 pixels.
+Nous allons changer la position et la largeur : * Sélectionnez le libellé Last Name dans l’Interface Builder. * Remplacez la valeur 386 pixels de la largeur par 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 144.33 to 118.33 pixels.
 
 ![Last Name Label position](assets/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
