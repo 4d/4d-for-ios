@@ -7,41 +7,41 @@ sidebar_label: Créer le formateur de données
 
 **OBJECTIFS**
 
-* Créer votre premiers formulaires de données</div> <div class = "prerequisites"> 
+* Créer vos premiers formats de données</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
 * Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Dans ce didacticiel, nous vous guiderons à travers la création de divers exemples de formateur.
+Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de formats.
 
-## Téléchargez le projet Prise en main
+## Téléchargez le projet Starter
 
-Pour commencer, télécharger le **Projet Prise en main**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formateurs qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
+Pour commencer, télécharger le **Projet Prise en main**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJET DE PRISE EN MAIN DE FORMATEUR PERSONNALISÉ</a>
+href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 
   </p>
 </div>
 
-Vous êtes maintenant prêt à créer vos premiers formateurs !
+Vous êtes maintenant prêt à créer vos premiers formats !
 
-## Créez le fichier formateurs
+## Créez le fichier formats
 
-Premièrement, créez un dossier .../Resources/Mobile/formateurs au même niveau que les données Task Management.4dbase.
+Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau que les données Task Management.4dbase.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
-## Formateurs entiers
+## Formats entiers
 
 ### Nombre entier vers chaîne
 
-* Créez un dossier **integerToString** dans le dossier de formateurs que vous venez de créer.
+* Créez un dossier **integerToString** dans le dossier de formats que vous venez de créer.
 
 * Créez ensuite un fichier **manifest.json** dans le dossier </strong> integerToString **.</p></li> </ul> 
     
@@ -64,20 +64,20 @@ Premièrement, créez un dossier .../Resources/Mobile/formateurs au même niveau
         }
         
     
-    1. **name**: the name of the formatter
-    2. **type**: the 4D format type you want to use
-    3. **binding**: can be **localized text** for strings or **imageNamed** for images
-    4. **choiceList**: mapped values
+    1. **name**: le nom du format
+    2. **type**: le type de format 4D que vous souhaitez utiliser
+    3. **binding** : peut être du **localized text** pour les chaînes ou **imageNamed** pour les images
+    4. **choiceList**: valeurs mappées
     
-    ### Integer to image
+    ### Nombre entier vers image
     
-    * Create an **integerToImage** folder in the **formatters** folder you've created.
+    * Créez un dossier **integerToString** dans le dossier **formatters** que vous venez de créer.
     
-    * Create a **manifest.json** file in the **integerToImage** folder.
+    * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
     ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
     
-    * Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+    * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
         
         ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
     
