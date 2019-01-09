@@ -100,19 +100,19 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ![Upload successful](assets/deploy-app-store/upload-Successful.png)
 
-## STEP 8. Select the build for the App Store
+## ÉTAPE 8. Sélectionner la version destinée à l’App Store
 
-* From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
+* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **+** qui apparaît dans la section Build
 
 ![Add build](assets/deploy-app-store/Add-build-app-store-connect.png)
 
-* Select the build you want to submit and click **Done**.
+* Sélectionnez la version que vous souhaitez envoyer et cliquez sur **Done**.
 
 ![Build selection](assets/deploy-app-store/Select-build-app-store-connect.png)
 
-* Finally, click on the **Submit for Review** button.
+* Enfin, cliquez sur le bouton **Submit for Review**.
 
-## STEP 9. Submit for Review
+## ÉTAPE 9. Submit for Review
 
 * The final step to submitting your app for review is answering a few quick questions about your app. 
 
