@@ -64,29 +64,29 @@ sidebar_label: Archivez et téléchargez votre projet
 
 * À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer.
 
-* Click on the **Validate** button to start the validation process.
+* Cliquez sur le bouton **Validate** pour démarrer le processus de validation.
 
 ![Validate your project](assets/deploy-app-store/Organizer-Project-Validation.png)
 
-* The first step is selecting the App Store distribution options.
+* La première étape consiste à sélectionner les options de distribution de l'App Store.
 
 ![App Store distribution options](assets/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by checking the **Automatically manage signing** option.
+* Ensuite, vous devez re-signer votre application. Laisser Xcode gérer cela en cochant l'option **Automatically manage signing**.
 
 ![Re-sign your app](assets/deploy-app-store/Re-sign-your-App.png)
 
-* Review your app's content.
+* Revoyez le contenu de votre application.
 
 ![App review](assets/deploy-app-store/Review-App.png)
 
-* If your project passes the validation process, you should see this message:
+* Si votre projet réussit le processus de validation, le message suivant devrait s'afficher :
 
 ![Validation](assets/deploy-app-store/Archive-validation-complete.png)
 
-If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
+Si une erreur se produit, un message s’affichera. Ces erreurs doivent être résolues avant de recommencer le processus de validation.
 
-* Click **Done**. This will return you to the Organizer window.
+* Cliquez sur **Done**. This will return you to the Organizer window.
 
 ## STEP 7. Upload to App Store
 
