@@ -86,17 +86,17 @@ sidebar_label: Archivez et téléchargez votre projet
 
 Si une erreur se produit, un message s’affichera. Ces erreurs doivent être résolues avant de recommencer le processus de validation.
 
-* Cliquez sur **Done**. This will return you to the Organizer window.
+* Cliquez sur **Done**. Cela vous renverra à la fenêtre de l’organisateur.
 
-## STEP 7. Upload to App Store
+## ÉTAPE 7. Télécharger sur l’App Store
 
-Once the validation process has been completed, you're ready to add your app to the App Store.
+Une fois la validation terminée, vous êtes prêt à ajouter votre application à l’App Store.
 
-* Click the **Upload to App Store** button.
+* Cliquez sur le bouton **Upload to App Store**.
 
 ![Upload to App Store](assets/deploy-app-store/Upload-to-AppStore.png)
 
-* When your project has been successfully uploaded, you'll see this window:
+* Lorsque votre projet a été téléchargé avec succès, vous verrez cette fenêtre s'afficher :
 
 ![Upload successful](assets/deploy-app-store/upload-Successful.png)
 
