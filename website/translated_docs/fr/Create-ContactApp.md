@@ -28,7 +28,7 @@ Téléchargez notre projet Prise en main qui contient un fichier de base de donn
     
 
 <a class="button"
-href="../assets/contact-app/ContactStarter.zip">PROJET PRISE EN MAIN</a>
+href="../assets/contact-app/ContactStarter.zip">PROJET STARTER</a>
 
   </p>
 </div>
