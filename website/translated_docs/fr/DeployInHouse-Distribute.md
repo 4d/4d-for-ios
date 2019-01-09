@@ -1,11 +1,11 @@
 ---
 id: deploy-in-house-distribution
-title: Distribute your app in-House
-sidebar_label: Distribute your app in-House
+title: Distribuez votre application interne
+sidebar_label: Distribuez votre application interne
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
 * Upload your app to a secured server</div> 
 
