@@ -52,17 +52,17 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ## ÉTAPE 5. Archiver votre projet à partir de Xcode
 
-* From Xcode go to the simulator Menu and select **Generic iOS Device**.
+* A partir de Xcode, allez dans le Menu du simulateur et sélectionnez **Generic iOS Device**.
 
 ![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
 
 ![Archive your project from Xcode](assets/deploy-in-house/Archive-your-Project.png)
 
-## STEP 6. Validate your project
+## ÉTAPE 6. Valider votre projet
 
-* At the end of the archive process, the Organizer window appears with the archive you have just created.
+* À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer.
 
 * Click on the **Validate** button to start the validation process.
 
