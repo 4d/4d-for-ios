@@ -43,15 +43,15 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 ![Request a D-U-N-S Number](assets/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
-* Complete the form.
-* Click **Continue**.
-* Check your email for the D-U-N-S Number.
+* Remplissez le formulaire.
+* Cliquez sur **Continue**.
+* Vérifiez votre e-mail pour obtenir le numéro D-U-N-S.
 
 ![D-U-N-S Number](assets/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## STEP 5. Register as a developer
+## ÉTAPE 5. Inscrivez-vous en tant que développeur
 
-You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/). * Click on the **Start your Enrollment** button. * Read and accept the Apple Developer Agreement. * Click **Submit**.
+Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur. * Click on the **Start your Enrollment** button. * Read and accept the Apple Developer Agreement. * Click **Submit**.
 
 ![Register as a developer](assets/deploy-in-house/Register-developer-4D-for-iOS.png)
 
