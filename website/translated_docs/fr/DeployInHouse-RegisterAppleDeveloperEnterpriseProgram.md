@@ -20,7 +20,7 @@ sidebar_label: Apple Developer Enterprise Program
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+Cliquez sur la [Page de création de l'identifiant Apple](https://appleid.apple.com/).
 
 ![Create your Apple ID](assets/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
