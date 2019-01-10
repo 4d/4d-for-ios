@@ -14,13 +14,13 @@ sidebar_label: Créez un enregistrement App Store
 
 #### Qu'est-ce qu'un identifiant Apple ?
 
-*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID search string, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
+*Un identifiant Apple est une chaîne composée de 2 parties servant à identifier une ou plusieurs application depuis une seule équipe de développement. La chaîne est constituée d’une chaîne de recherche des Team ID et Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*<div class = "tips"> 
 
 **NOTE**
 
-* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
+* Si vous avez choisi un compte de développeur Apple en tant que particulier, votre compte est immédiatement disponible et vous permet de créer votre identifiant Apple.
 
-* If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
+* Si vous avez choisi un compte de développeur Apple en tant qu’organisation, vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant.</div> 
 
 * To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
