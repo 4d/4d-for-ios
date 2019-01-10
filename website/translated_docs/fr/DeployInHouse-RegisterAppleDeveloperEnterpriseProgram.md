@@ -5,11 +5,11 @@ sidebar_label: Apple Developer Enterprise Program
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> 
+* Inscrivez-vous au Programme de développeur Enterprise d'Apple pour déployer votre application **interne**.</div> 
 
-## STEP 1. Apple ID
+## ÉTAPE 1. Identifiant Apple
 
 * If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
 * If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).<div class = "tips"> 
