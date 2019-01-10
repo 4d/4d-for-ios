@@ -24,22 +24,22 @@ Cliquez sur la [Page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Create your Apple ID](assets/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* Remplissez le formulaire et répondez aux questions de sécurité.
+* Vous recevrez un code de vérification par e-mail.
+* Entrez le code de vérification pour valider la création de votre compte.
 
 ![Register developer program](assets/deploy-in-house/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Une fois que vous avez obtenu votre identifiant Apple, passez à l’Étape 3.
 
-## STEP 3. D-U-N-S Number
+## ÉTAPE 3. Numéro D-U-N-S
 
-* If you don’t have a D-U-N-S Number, go to [Step 4](#step-4-request-a-d-u-n-s-number).
-* If you already have a D-U-N-S Number, go to [Step 5](#step-5-register-as-a-developer).
+* Si vous n’avez pas de numéro D-U-N-S, passez à l'[étape 4](#step-4-request-a-d-u-n-s-number).
+* Si vous possédez déjà un numéro D-U-N-S, passez à l'[étape 5](#step-5-register-as-a-developer).
 
-## STEP 4. Request a D-U-N-S Number
+## ÉTAPE 4. Demandez un numéro D-U-N-S
 
-Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search).
+Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numéro D-U-N-S .
 
 ![Request a D-U-N-S Number](assets/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
