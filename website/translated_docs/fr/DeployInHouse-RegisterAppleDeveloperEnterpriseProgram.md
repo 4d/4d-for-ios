@@ -11,14 +11,14 @@ sidebar_label: Apple Developer Enterprise Program
 
 ## ÉTAPE 1. Identifiant Apple
 
-* If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).<div class = "tips"> 
+* Si vous n’avez pas d'identifiant Apple, allez à l'[Étape 2](#step-2-create-your-apple-id).
+* Si vous possédez déjà un identifiant Apple, allez à l'[Étape 3](#step-3.-d-u-n-s-number).<div class = "tips"> 
 
 **NOTE**
 
-* To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+* Pour vous inscrire au Apple Developer Enterprise Program, votre identifiant Apple doit être associé à une adresse e-mail en utilisant le nom de domaine de votre entreprise.</div> 
 
-## STEP 2. Create your Apple ID
+## ÉTAPE 2. Créez votre identifiant Apple
 
 Go the the [Apple ID creation page](https://appleid.apple.com/).
 
