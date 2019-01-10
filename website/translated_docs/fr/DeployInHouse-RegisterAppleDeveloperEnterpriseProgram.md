@@ -64,22 +64,22 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Apple Developer Enterprise Program](assets/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
-* Complete the form. 
-* Click **Continue**.
+* Remplissez le formulaire. 
+* Cliquez sur **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 7. Apple verification
+## ÉTAPE 7. Vérification d’Apple
 
-* Apple has an internal verification process that usually takes up to six working days. Once Apple receives the enrollment request, they verify that you have the authority to bind your organization to the Apple Developer Program's legal agreements.
-* Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
-* You'll then receive another email inviting you to complete the enrollment process.
+* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois qu'Apple reçoit la demande d’inscription, on s'assure que le développeur a le pouvoir de lier son organisation aux accords juridiques relatifs au Apple Developer Program.
+* Généralement, Apple appelle pour vérifier que le contact principal existe et qu'il a demandé à être inscrit au Apple Developer Enterprise Program.
+* Vous recevrez ensuite un autre e-mail vous invitant à compléter le processus d’inscription.
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## STEP 8. Complete your purchase
+## ÉTAPE 8. Finalisez votre achat
 
-* Once your enrollment request has been accepted, you can then proceed to payment.
-* When you have completed your purchase, you'll receive an email confirming your membership in the program.
+* Une fois que votre demande d’inscription a été acceptée, vous pouvez alors procéder au paiement.
+* Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de conformation de votre adhésion au programme.
 
-Congratulations ... you're now ready to deploy your application in-house!
+Félicitations  ... vous êtes maintenant prêt à déployer votre application interne !
