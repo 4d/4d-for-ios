@@ -32,38 +32,38 @@ Cliquez sur [Page de création identifiant Apple](https://appleid.apple.com/)
 
 * Vous pouvez vous inscrire [ici](https://developer.apple.com/account/) en tant que développeur .
 
-* Read and accept the Apple Developer Agreement.
+* Lisez et acceptez le contrat de développeur Apple.
 
-* Click **Submit**.
+* Cliquez sur **Submit**.
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## STEP 4. Join the Apple Developer Program
+## ÉTAPE 4. Rejoignez le programme de développeur Apple
 
-* Click on **Join the Apple Developer Program** at the bottom of the page.
+* Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
 ![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 5. Enroll as an individual
+## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
-* Click on the **Start your Enrollment** button.
-* Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
-* Click **Continue**.
+* Cliquez sur le bouton **Start your Enrollment**.
+* Sélectionnez **Individuals / Sole Proprietor / Single Person Business** dans la liste déroulante Entity Type.
+* Cliquez sur **Continue**.
 
 ![Start your Enrollment](assets/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
-* Complete the form
-* Read and accept the Apple Developer Program License Agreement.
-* Click **Continue**.
+* Remplissez le formulaire
+* Lisez et acceptez le contrat de licence du programme de développeur d'Apple.
+* Cliquez sur **Continue**.
 
 ![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 6. Complete your purchase
+## ÉTAPE 6. Finalisez votre achat
 
-* Click **Purchase** and make payment to complete your enrollment.
+* Cliquez sur **Purchase** et procédez au paiement pour finaliser votre inscription.
 
 ![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* When you have completed your purchase, you'll receive an email confirming your membership in the program.
+* Lorsque vous avez terminé votre achat, vous recevrez un e-mail de conformation de votre adhésion au programme.
 
-Congratulations! You are now ready to publish apps to the App Store!
+Félicitations ! Vous êtes maintenant prêt à publier des applications sur l’App Store !
