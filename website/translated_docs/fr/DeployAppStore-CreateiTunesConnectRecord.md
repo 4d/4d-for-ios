@@ -10,9 +10,9 @@ sidebar_label: Créez un enregistrement App Store
 * Créez un ID d’application sur votre compte développeur
 * Créez votre application dans l’App Store Connect</div> 
 
-## ÉTAPE 1. Create an App ID
+## ÉTAPE 1. Créez votre identifiant Apple
 
-#### What is an App ID ?
+#### Qu'est-ce qu'un identifiant Apple ?
 
 *An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID search string, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
 
