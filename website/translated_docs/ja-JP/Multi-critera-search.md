@@ -1,6 +1,6 @@
 ---
 id: multi-criteria-search
-title: Multi-criteria search
+title: 複数条件検索
 sidebar_label: Multi-criteria search
 ---
 <div class = "objectives"> 
