@@ -38,7 +38,7 @@ Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## ÉTAPE 4. Rejoignez le programme de développeur Apple
+## ÉTAPE 4. Rejoignez le programme "Apple Developer Program"
 
 * Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
@@ -47,13 +47,13 @@ Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
 ## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
 * Cliquez sur le bouton **Start your Enrollment**.
-* Sélectionnez **Individuals / Sole Proprietor / Single Person Business** dans la liste déroulante Entity Type.
+* Sélectionnez **Individuals / Sole Proprietor / Single Person Business** dans la liste déroulante "Entity Type".
 * Cliquez sur **Continue**.
 
 ![Start your Enrollment](assets/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
 * Remplissez le formulaire
-* Lisez et acceptez le contrat de licence du programme de développeur d'Apple.
+* Lisez et acceptez le contrat de licence "Apple Developer Program License Agreement".
 * Cliquez sur **Continue**.
 
 ![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
@@ -64,6 +64,6 @@ Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
 
 ![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* Lorsque vous avez terminé votre achat, vous recevrez un e-mail de conformation de votre adhésion au programme.
+* Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
 Félicitations ! Vous êtes maintenant prêt à publier des applications sur l’App Store !
