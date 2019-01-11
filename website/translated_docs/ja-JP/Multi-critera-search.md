@@ -5,38 +5,38 @@ sidebar_label: Multi-criteria search
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
-* Activate the multi-criteria search in your own templates</div> 
+* 自分のテンプレート内で不空条件検索を有効化すること</div> 
 
-This feature is activated by default in all 4D for iOS-generated templates.
+この機能は4D for iOSで生成されたテンプレートでは全てデフォルトで有効化されています。
 
-## Template svg file
+## テンプレートのsvgファイル
 
-* To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
+* 自分のテンプレートにおいてこの機能を有効化するためには、以下の場所にあるtemplate.svg ファイル内の次の行を編集する必要があります
 
     <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
     
     
 
-to:
+以下のように書き換えて下さい
 
     <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
     
     
 
-There you go! The class is the only thing you need to modify for the multi-search criteria to be active.
+以上です！ このクラスさえ書き換えれば複数条件検索が有効になります。
 
-## Project editor
+## プロジェクトエディター
 
-Next, you can go to the project editor and drop several fields into the list form search area.
+次に、プロジェクトエディターにおいて複数のフィールドを検索エリアからリストへとドロップします。
 
-![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
+![プロジェクトエディター内で複数条件検索](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Click on the search field's delete button to modifiy the associated field list.
+検索フィールドの削除ボタンをクリックして関連づけられたフィールドのリストを編集します。
 
-A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
+メニューが表示され、検索がどの条件に基づいているかに応じて、**特定のフィールドを削除する**か、あるいは**全てのフィールドを削除する**かを選択できます。
 
-![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
+![複数条件検索フィールドを編集する](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Congratulations! You can now base your search(es) on multiple fields in your 4D for iOS app!
+これで完了です！ これで自分の4D for iOS アプリ内において複数のフィールドに基づいて検索ができるようになります。
