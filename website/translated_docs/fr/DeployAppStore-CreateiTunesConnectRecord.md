@@ -95,21 +95,21 @@ Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > Ne
 
 * Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (c'est ce que les utilisateurs visualiseront dans l'App Store).
 
-* You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
+* Vous pouvez partager des mises à jour de votre application, notamment de nouvelles offres ou des achats intégrés dans l'application, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements dans votre application et ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
 
-* Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
+* Entrez un **Support URL** qui inclut des informations de support pour votre application. Cet URL sera visible sur l’App Store.
 
-* **Marketing URL** is optional. This can direct users to a marketing website for your app.
+* **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application.
 
-In the **iOS App section**:
+Dans la section **iOS App**:
 
 ![iOS App section](assets/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Locate your build versions in **Build**.
+Localisez vos versions de génération dans **Build**.
 
-* In **General App Information** area, enter the Copyright, Version, and Trade Representative Contact Information for your app.
+* Dans la zone **General App Information**, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.
 
-* Your app icon is included in the generated 4D for iOS project.
+* L'icône de votre application est incluse dans le projet 4D for iOS généré.
 
 * Rating is a required property used by the App Store's parental controls. Click Edit and select the appropriate age category for your app.
 
