@@ -111,13 +111,13 @@ Localisez vos versions de génération dans **Build**.
 
 * L'icône de votre application est incluse dans le projet 4D for iOS généré.
 
-* L'évaluation est une propriété requise pour le contrôle parental de l'App Store. Click Edit and select the appropriate age category for your app.
+* L'évaluation est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
 
-The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
+Les sectiond **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
 
 ![App Review Information](assets/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information**: Confidential contact and security information. 
-* **Version Release**: Specifies an automatic or manual publication.
+* **App Review Information** : Coordonnées et informations de sécurité confidentielles. 
+* **Version Release** : Indique une publication automatique ou manuelle.
 
-* Finally, click **Save**.
+* Enfin, cliquez sur **Save**.
