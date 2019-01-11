@@ -5,17 +5,17 @@ sidebar_label: Create data formatter
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
-* Create your first data formatters</div> <div class = "prerequisites"> 
+* 最初のデータフォーマッターを作成すること</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
 
-In this tutorial, we'll guide you through the creation of various formatter examples.
+このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
 
-## Download the Starter Project
+## スタータープロジェクトをダウンロードする
 
 To begin, download the **Starter Project**, which includes: * An images folder containing **integerToImage_Images** and **textToImage_Images** folders (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
