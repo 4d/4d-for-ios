@@ -74,7 +74,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Enroll as an organization](assets/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
-* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Once Apple receives the enrollment request, they verify that you have the authority to bind your organization to the Apple Developer Program's legal agreements.
+* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois qu'Apple reçoit la demande d’inscription, on s'assure que le développeur a le pouvoir de lier son organisation aux accords juridiques relatifs au "Apple Developer Program".
 * Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
 * You'll then receive another email inviting you to complete the enrollment process.
 
