@@ -83,17 +83,17 @@ Vous pouvez appliquer des remises limitées dans le temps en précisant les date
 
 ## ÉTAPE 6. Préparation à l'inscription
 
-Add all of the assets for your app to appear in the App Store in **Version Information**:
+Renseignez l'ensemble des atouts de votre applications que vous souhaitez faire apparaître dans l’App Store dans **Version Information** :
 
 ![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
-* Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).<div class = "tips"> 
+* Ajoutez les captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display and iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).<div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
+Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).</div> 
 
-* Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
+* Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (c'est ce que les utilisateurs visualiseront dans l'App Store).
 
 * You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
 
