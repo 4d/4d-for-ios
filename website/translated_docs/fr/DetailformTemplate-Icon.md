@@ -1,7 +1,7 @@
 ---
 id: icon-detailform-template
-title: Detail form icon
-sidebar_label: Detail form icon
+title: Icône de formulaire détaillé
+sidebar_label: Icône de formulaire détaillé
 ---
 Vous pouvez créer votre propre icône de modèle.
 
