@@ -38,7 +38,7 @@ sidebar_label: Créez un enregistrement App Store
 
 ![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
 
-## ÉTAPE 2. Identifiez-vous sur l' ''App Store Connect"
+## ÉTAPE 2. Identifiez-vous sur l'App Store Connect
 
 * Connectez-vous à votre [compte App Store Connect](https://appstoreconnect.apple.com)
 
@@ -63,25 +63,25 @@ Ajoutez les informations suivantes :
 
 **NOTE**
 
-Si votre Bundle ID n’est pas disponible, il peut déjà être utilisé par une autre application disponible dans l’App Store. You'll need to change yours in your Xcode project.</div> 
+Si votre Bundle ID n’est pas disponible, il peut déjà être utilisé par une autre application disponible dans l’App Store. Vous devrez changer le vôtre dans votre projet Xcode.</div> 
 
 ![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
-## STEP 4. App information
+## ÉTAPE 4. Informations sur l’application
 
-From App Store Connect > App Information: * Define your app's Privacy Policy URL (optional). * Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11. * Select a primary and secondary (optional) category for your app to appear in.
+Depuis l’App Store Connect > App information : * définissez l'URL "Privacy Policy URL" de votre application (facultatif). * Entrez un sous-titre pour votre application. Celui-ci apparaîtra sous le nom de votre application dans l’App Store d'iOS 11. * Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.
 
 ![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
 
-## STEP 5. Pricing and Availability
+## ÉTAPE 5. Prix et disponibilité
 
-This is where you define the price for your app.<div class = "tips"> 
+C’est ici que vous pourrez définir le prix de votre application.<div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-You can define limited-time discounts by specifying start and end dates.</div> 
+Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.</div> 
 
-## STEP 6. Prepare for Submission
+## ÉTAPE 6. Préparation à l'inscription
 
 Add all of the assets for your app to appear in the App Store in **Version Information**:
 
