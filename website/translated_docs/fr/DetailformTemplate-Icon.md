@@ -5,9 +5,9 @@ sidebar_label: Icône de formulaire détaillé
 ---
 Vous pouvez créer votre propre icône de modèle.
 
-It must be 160x160px and must be named **layoutIconx2.png**
+L'icône doit avoir une résolution de 160x160px et doit être nommée **layoutIconx2.png**
 
-The icon will be used: * above the table name when the template has been selected, and * in the template selector window in the **Forms section**
+L’icône sera utilisée : * au-dessus du nom de la table lorsque le modèle a été sélectionné, et * dans la fenêtre du sélecteur de modèle dans la section **Formulaires **
 
 ![Custom detailform template](assets/custom-detailform/custom-detailform-template.png)
 
