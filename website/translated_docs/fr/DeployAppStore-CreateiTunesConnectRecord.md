@@ -24,23 +24,23 @@ sidebar_label: Créez un enregistrement App Store
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
-* Click the + sign next to *Register iOS App IDs* to add a new App ID.
+* Cliquez sur le signe "+" situé près de *Register iOS App IDs* pour ajouter un nouvel identifiant d’application.
 
-* Define your app's Name and Bundle ID.
+* Définissez le nom et le Bundle ID de votre application.
 
 ![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
 
-* Define the App Services to include in your app
+* Définissez les Services d’application ("App Services") à inclure dans votre application
 
 ![App Services](assets/deploy-app-store/App-Services-to-include.png)
 
-* Confirm your App ID by clicking **Register**.
+* Confirmez votre identifiant d'application en cliquant sur **Register**.
 
 ![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
 
-## STEP 2. Sign in to App Store Connect
+## ÉTAPE 2. Identifiez-vous sur l' ''App Store Connect"
 
-* Sign in to your [App Store Connect Account](https://appstoreconnect.apple.com)
+* Connectez-vous à votre [compte App Store Connect](https://appstoreconnect.apple.com)
 
 * Click on **My Apps**.
 
