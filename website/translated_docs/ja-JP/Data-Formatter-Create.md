@@ -1,6 +1,6 @@
 ---
 id: creating-data-formatter
-title: Create data formatter
+title: カスタムのデータフォーマッター
 sidebar_label: Create data formatter
 ---
 <div class = "objectives"> 
@@ -17,7 +17,7 @@ sidebar_label: Create data formatter
 
 ## スタータープロジェクトをダウンロードする
 
-To begin, download the **Starter Project**, which includes: * An images folder containing **integerToImage_Images** and **textToImage_Images** folders (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
+まず初めに、**スタータープロジェクト**をダウンロードして下さい。これには次のものが含まれています: * **integerToImage_Images**および**textToImage_Images** フォルダを格納しているimages フォルダ(後ほど画像を含むフォーマッターに対して使用します) * **Task Management.4dbase** ファイル(および既に使用可能なモバイルアプリプロジェクト)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
