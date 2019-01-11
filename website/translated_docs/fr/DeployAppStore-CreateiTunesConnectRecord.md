@@ -111,7 +111,7 @@ Localisez vos versions de génération dans **Build**.
 
 * L'icône de votre application est incluse dans le projet 4D for iOS généré.
 
-* Rating is a required property used by the App Store's parental controls. Click Edit and select the appropriate age category for your app.
+* L'évaluation est une propriété requise pour le contrôle parental de l'App Store. Click Edit and select the appropriate age category for your app.
 
 The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
 
