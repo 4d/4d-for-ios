@@ -7,7 +7,7 @@ sidebar_label: Créez un enregistrement App Store
 
 **OBJECTIFS**
 
-* Créez un identifiant d’application sur votre compte développeur
+* Créez un identifiant d’application sur votre compte développeur ("Developer")
 * Créez votre application dans l’App Store Connect</div> 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
@@ -18,9 +18,9 @@ sidebar_label: Créez un enregistrement App Store
 
 **NOTE**
 
-* Si vous avez choisi un compte de développeur Apple en tant que particulier, votre compte est immédiatement disponible et vous permet de créer votre identifiant Apple.
+* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
 
-* Si vous avez choisi un compte de développeur Apple en tant qu’organisation, vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant.</div> 
+* Si vous avez choisi un compte de développeur Apple en tant qu’organisation ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
