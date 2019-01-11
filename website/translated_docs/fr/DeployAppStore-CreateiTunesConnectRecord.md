@@ -48,22 +48,22 @@ sidebar_label: Créez un enregistrement App Store
 
 ## ÉTAPE 3. Créez une nouvelle application iOS
 
-Click the **+** sign in the top left corner to create a new iOS App.
+Cliquez sur le signe **+** dans la partie supérieur gauche pour créer une nouvelle application iOS.
 
 ![Create a new iOS App](assets/deploy-app-store/Create-new-iOS-App.png)
 
-Add the following information:
+Ajoutez les informations suivantes :
 
-* **Platforms**: Select iOS.
-* **Name**: The name of your app.
-* **Primary language**: The main language for your app.
-* **Bundle ID**: Select your App Bundle ID from the dropdown list.
-* **SKU**: A unique ID for your app (this stays private and is not seen by users)
-* **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.<div class = "tips"> 
+* **Platforms**: sélectionnez iOS.
+* **Name**: Le nom de de votre application.
+* **Primary language**: La langue principale de votre application.
+* **Bundle ID**: Sélectionnez le Bundle ID de votre application à partir de la liste déroulante.
+* **SKU**: Un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
+* **Limit User Access (optionnel)**: Vous permet de limiter l'accès de application aux utilisateurs grâce à App Manager, Developer, Marketer, ou Sales.<div class = "tips"> 
 
 **NOTE**
 
-If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.</div> 
+Si votre Bundle ID n’est pas disponible, il peut déjà être utilisé par une autre application disponible dans l’App Store. You'll need to change yours in your Xcode project.</div> 
 
 ![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
