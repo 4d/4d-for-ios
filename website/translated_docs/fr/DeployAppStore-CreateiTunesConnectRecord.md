@@ -46,7 +46,7 @@ sidebar_label: Créez un enregistrement App Store
 
 ![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
 
-## STEP 3. Create a new iOS App
+## ÉTAPE 3. Créez une nouvelle application iOS
 
 Click the **+** sign in the top left corner to create a new iOS App.
 
