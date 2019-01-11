@@ -3,7 +3,7 @@ id: icon-detailform-template
 title: Detail form icon
 sidebar_label: Detail form icon
 ---
-You can create your own template icon.
+Vous pouvez créer votre propre icône de modèle.
 
 It must be 160x160px and must be named **layoutIconx2.png**
 
