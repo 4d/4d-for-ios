@@ -7,32 +7,32 @@ sidebar_label: Apple Developer Program as an Individual
 
 **OBJECTIFS**
 
-* Inscrivez-vous au Programme Developer Enterprise d'Apple en tant que particulier pour déployer votre application interne.</div> 
+* Inscrivez-vous au programme "Apple Developer Enterprise Program" en tant que particulier pour déployer votre application interne.</div> 
 
-## ÉTAPE 1. ID Apple
+## ÉTAPE 1. Identifiant Apple
 
-* Si vous n’avez aucun identifiant Apple, allez à l'[Etape 2](#step-2-create-your-apple-id)
-* Si vous possédez déjà un identifiant Apple, allez à l'[Étape 3](#step-3-register-as-a-developer)
+* Si vous n’avez aucun identifiant Apple, passez à l'[Etape 2](#step-2-create-your-apple-id)
+* Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-register-as-a-developer)
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
-Cliquez sur [Page de création identifiant Apple](https://appleid.apple.com/)
+Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
 
 ![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Répondez aux questions sur le formulaire et la sécurité.
+* Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
 * Entrez le code de vérification pour valider la création de votre compte.
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Une fois que vous avez votre identifiant Apple, vous pouvez poursuivre à l’Étape 3.
+* Une fois que vous avez votre identifiant Apple, vous pouvez passer à l’Étape 3.
 
 ## ÉTAPE 3. Inscrivez-vous en tant que développeur
 
 * Vous pouvez vous inscrire [ici](https://developer.apple.com/account/) en tant que développeur .
 
-* Lisez et acceptez le contrat de développeur Apple.
+* Lisez et acceptez le contrat "Apple Developer Agreement".
 
 * Cliquez sur **Submit**.
 
