@@ -22,7 +22,7 @@ sidebar_label: Apple Developer Program as an Organization
 
 Cliquez sur la [Page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Créez votre identifiant Apple](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -75,17 +75,17 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 ![Enroll as an organization](assets/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
 * Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois qu'Apple reçoit la demande d’inscription, on s'assure que le développeur a le pouvoir de lier son organisation aux accords juridiques relatifs au "Apple Developer Program".
-* Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
-* You'll then receive another email inviting you to complete the enrollment process.
+* Généralement, Apple appelle pour vérifier que le contact principal existe et qu'il a demandé s'inscrire au "Apple Developer Enterprise Program".
+* Vous recevrez ensuite un autre e-mail vous invitant à compléter l’inscription.
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## STEP 8. Complete your purchase
+## ÉTAPE 8. Finalisez votre achat
 
-* Once your enrollment request has been accepted, you can then proceed to payment.
+* Une fois que votre demande d’inscription a été acceptée, vous pouvez procéder au paiement.
 
 ![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* When you have completed your purchase, you'll receive an email confirming your membership in the program.
+* Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de conformation de votre adhésion au programme.
 
-Congratulations! You are now ready to publish applications to the App Store!
+Félicitations ! Vous êtes maintenant prêt à publier des applications sur l’App Store !
