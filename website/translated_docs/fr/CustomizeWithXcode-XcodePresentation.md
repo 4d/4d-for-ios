@@ -83,9 +83,9 @@ Cette zone affiche la sortie et l’état de différentes variables lors de l’
 
 Plusieurs onglets sont inclus ici, dont les plus importants sont :
 
-* **Navigation tab**: Lists and provides access to all files necessary for your application to work properly. ![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
+* **L'onglet Navigation** : répertorie et donne accès à tous les fichiers nécessaires pour que votre application fonctionne correctement. ![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **Search navigator tab**: Allows searching all files in the project. ![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
+* **L'onglet Navigateur de recherche** : permet de rechercher tous les fichiers du projet. ![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
 * **Issue navigator tab**: Displays all errors in an iOS project.
     
