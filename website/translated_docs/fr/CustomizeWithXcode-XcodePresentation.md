@@ -17,15 +17,15 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
+* Le menu déroulant situé à côté du bouton **Stop**indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
-* On the right side of the toolbar, you'll find buttons to change the display. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
+* Sur le côté droit de la barre d’outils, vous trouverez des boutons vous permettant de modifier l’affichage. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
 ## Zone d’édition
 
 ![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+C’est ici que se fait le codage lorsqu’un fichier Swift est sélectionné. When a Storyboard file is selected, the view changes and the Interface Builder appears.
 
 ## Zone de génération
 
