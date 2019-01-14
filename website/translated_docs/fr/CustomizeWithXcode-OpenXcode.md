@@ -43,8 +43,8 @@ Dans l’onglet BUILD de l'éditeur de projet : * Sélectionnez l'appareil qui s
 
 A partir de l'onglet BUILD de l'éditeur de projet :
 
-* Cliquez sur Projet > Ouvrir le projet avec Xcode
+* Cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![Ouvrez votre projet avec Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-Vous êtes maintenant prêt à travailler sur votre projet 4D for iOS dans Xcode, poursuivez la lecture pour en savoir plus !
+Vous êtes maintenant prêt à travailler sur votre projet 4D for iOS dans Xcode. Poursuivez la lecture pour en savoir plus !
