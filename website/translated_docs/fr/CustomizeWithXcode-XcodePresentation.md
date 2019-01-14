@@ -15,7 +15,7 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 ## Barre d’outils
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+* Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
@@ -27,13 +27,13 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
 
-## Interface Builder Area
+## Zone de génération
 
 ![Interface Builder Area](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
 
-## Utility Area
+## Zone de fonctionnalités
 
 The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
 
@@ -75,11 +75,11 @@ From left-to-right, these tabs are:
 
 **Media files**: This library contains all your graphics, icons, and sound files. To use one, drag it directly to your storyboard in the Interface Builder editor.
 
-## Debug Area
+## Zone de débogage
 
 This area displays the output and the state of various variables when running your app.
 
-## Navigation Area
+## Zone de navigation
 
 Several tabs are included here, the most important of which are:
 
