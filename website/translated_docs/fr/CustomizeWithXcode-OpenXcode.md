@@ -7,10 +7,10 @@ sidebar_label: Travailler avec Xcode
 
 **OBJECTIFS**
 
-* Ouvrez un projet 4D for iOS depuis l’éditeur de projet.
-* Personnalisez l’applicationla 4D for iOS qui est générée.</div> 
+* Ouvrir un projet 4D for iOS depuis l’éditeur de projet.
+* Personnaliser l’application 4D for iOS qui est générée.</div> 
 
-4D for iOS vous génère une application iOS native que modifiable et personnalisable avec Xcode. Jeter un œil au processus !<div class = "tips"> 
+4D for iOS vous génère une application iOS native modifiable et personnalisable avec Xcode. Jetons un œil au processus !<div class = "tips"> 
 
 **NOTE**
 
