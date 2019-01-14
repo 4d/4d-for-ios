@@ -87,11 +87,11 @@ Plusieurs onglets sont inclus ici, dont les plus importants sont :
 
 * **L'onglet Navigateur de recherche** : permet de rechercher tous les fichiers du projet. ![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **Issue navigator tab**: Displays all errors in an iOS project.
+* **L'onglet Navigateur d'alertes** : affiche toutes les erreurs issues d'un projet iOS.
     
-    * Errors in red are critical issues that need to be corrected in order to build your application. 
-    * Errors in yellow are warnings about issues which have the potential to cause problems but do not block the building of the application. 
+    * Les erreurs affichées en rouge sont des questions cruciales qui doivent être corrigées afin de générer votre application. 
+    * Les erreurs affichées en jaune sont des avertissements au sujet d'alertes susceptibles de causer des problèmes, mais qui ne bloquent pas la génération de l’application. 
 
-You can click on errors and warnings to visualize them in the project. ![Issue Navigator](assets/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
+Vous pouvez cliquer sur les erreurs et les avertissements pour les visualiser dans le projet. ![Issue Navigator](assets/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
+Nous allons ensuite mettre l’accent sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".
