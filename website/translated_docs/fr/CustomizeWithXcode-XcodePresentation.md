@@ -13,7 +13,7 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 ![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
-## Toolbar
+## Barre d’outils
 
 * **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
@@ -21,7 +21,7 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 * On the right side of the toolbar, you'll find buttons to change the display. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
-## Editor Area
+## Zone d’édition
 
 ![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
