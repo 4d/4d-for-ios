@@ -35,17 +35,17 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 ## Zone de fonctionnalités
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+La zone de fonctionnalités d'Xcode comporte deux volets : le volet "Inspector" et le volet "Library".
 
 ![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
-### Inspector pane
+### Volet "Inspector"
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dans la section "Properties", il existe six différents onglets d'Inspector, comme illustré ci-dessous :
 
 ![Inspector pane](assets/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+De gauche à droite, ces onglets correspondent à :
 
 **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
 
@@ -77,11 +77,11 @@ From left-to-right, these tabs are:
 
 ## Zone de débogage
 
-This area displays the output and the state of various variables when running your app.
+Cette zone affiche la sortie et l’état de différentes variables lors de l’exécution de votre application.
 
 ## Zone de navigation
 
-Several tabs are included here, the most important of which are:
+Plusieurs onglets sont inclus ici, dont les plus importants sont :
 
 * **Navigation tab**: Lists and provides access to all files necessary for your application to work properly. ![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
