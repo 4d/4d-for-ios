@@ -12,8 +12,8 @@ Nous allons apporter quelques modifications au Storyboard... du plus simple au p
 Nous allons commencer par modifier la police et la couleur du libellé :
 
 * Ouvrez le fichier *ContactDetailsForm.storyboard* à partir de l’onglet Navigation. 
-* Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis le générateur d’interface ou le volet de gauche).
-* Sélectionnez le volet Inspecteur d'attributs dans la zone Utility.
+* Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis l'Interface Builder ou le volet de gauche).
+* Sélectionnez le volet Attributes inspector (Inspecteur d'attributs) dans Utility area (la zone de fonctionnalités).
 
 ![Attributes inspector](assets/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
@@ -27,23 +27,23 @@ Nous allons commencer par modifier la police et la couleur du libellé :
 
 ## ÉTAPE 2. Modification de l'emplacement de la photo de profil
 
-Tous les modèles de 4D for iOS présentent des contraintes d’utilisation pour les éléments de l’application afin d'être affichés correctement sur tous les appareils.
+Tous les modèles de 4D for iOS présentent des contraintes d’utilisation afin que les éléments de l'application s'affichent correctement sur tous les appareils.
 
-Dans le fichier *ContactDetailsForm.storyboard*, les libellés Photo, First Name et Last Name les sont actuellement centrés.
+Dans le fichier *ContactDetailsForm.storyboard*, les libellés Photo, First Name et Last Name sont actuellement centrés.
 
-Nous allons faire en sorte de les faire apparaitre comme suit :
+Nous allons apporter quelques modifications de façon à les afficher comme suit :
 
 ![Simulator result](assets/customize-with-xcode/Simlator-Final-Xcode-4D-for-iOS.png)
 
 Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.
 
-Sélectionnez ensuite l’image et accédez au volet attributs de taille depuis la zone Utility. Remplacez la valeur 161.67 de X par 40,67 et la valeur 28 de Y par 79.
+Sélectionnez ensuite l’image et accédez au volet Size attributes (attributs des dimensions) depuis la Utility zone (la zone de fonctionnalités). Remplacez la valeur 161.67 de X par la valeur 40,67 et la valeur 28 de Y par la valeur 79.
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-Comme vous pouvez le voir, l'emplacement a changé mais le Xcode affiche des lignes jaunes. Pourquoi ? Ces lignes jaunes représentent des contraintes qui ne sont plus valides.
+Comme vous pouvez le voir, l'emplacement a changé mais Xcode affiche des lignes jaunes. Pourquoi ? Ces lignes jaunes représentent des contraintes qui ne sont plus valables.
 
-## ÉTAPE 3. Mise à jour des contraintes de la photo de profil
+## ÉTAPE 3. Mise à jour des contraintes liées à la photo de profil
 
 Pour aligner verticalement l’image au centre dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes existantes et ajouter de nouvelles contraintes.
 
