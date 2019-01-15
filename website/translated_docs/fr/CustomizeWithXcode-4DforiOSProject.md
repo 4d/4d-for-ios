@@ -12,7 +12,7 @@ Vous trouverez ici les dossiers "Structure" et "Forms". Ils contiennent tous les
 * "Settings screen" (écran de paramètres) - inclut les boutons "reload" et "logout".
 * Toutes les tables publiées - fichiers correspondant aux données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
 
-Au lieu de cela, vous trouverez un fichier Swift et un fichier Storyboard. Ces fichiers sont décrits ci-dessous.
+En règle générale, vous trouverez un fichier Swift et un fichier Storyboard. Ces fichiers sont décrits ci-dessous.
 
 ### Le fichier Swift - peut être utilisé pour ajouter du code personnalisé.
 
