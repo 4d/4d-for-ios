@@ -35,11 +35,11 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 ## Utility Area (Zone de fonctionnalités)
 
-La zone de fonctionnalités d'Xcode comporte deux volets : l'inspecteur et la bibliothèque.
+La zone de fonctionnalités d'Xcode comporte deux volets : "Inspector" (l'inspecteur) et "Library" (la bibliothèque).
 
 ![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
-### L'inspecteur
+### "Inspector"
 
 Dans la section des propriétés, il existe six différents onglets d'inspecteur, comme illustré ci-dessous :
 
@@ -83,11 +83,11 @@ Cette zone affiche la sortie et l’état de différentes variables lors de l’
 
 Plusieurs onglets sont inclus ici, dont les plus importants sont :
 
-* **L'onglet Navigation** : répertorie et donne accès à tous les fichiers nécessaires pour que votre application fonctionne correctement. ![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
+* **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires pour que votre application fonctionne correctement. ![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **L'onglet Navigateur de recherche** : permet de rechercher tous les fichiers du projet. ![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
+* **L'onglet "Search navigator" (navigateur de recherche)** : permet de rechercher tous les fichiers du projet. ![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **L'onglet Navigateur d'alertes** : affiche toutes les erreurs issues d'un projet iOS.
+* **L'onglet "Issue navigator" (navigateur d'alertes)** : affiche toutes les erreurs issues d'un projet iOS.
     
     * Les erreurs affichées en rouge sont des questions cruciales qui doivent être corrigées afin de générer votre application. 
     * Les erreurs affichées en jaune sont des avertissements au sujet d'alertes susceptibles de causer des problèmes, mais qui ne bloquent pas la génération de l’application. 
