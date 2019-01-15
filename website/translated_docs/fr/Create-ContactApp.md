@@ -1,7 +1,7 @@
 ---
 id: contact-app
-title: Contact App
-sidebar_label: Contact App
+title: Application Contacts
+sidebar_label: Application Contacts
 ---
 <div class = "objectives"> 
 
@@ -21,7 +21,7 @@ Nous allons créer une application de répertoire pour iPhone afin de rechercher
 
 ## ÉTAPE 1. Prise en main
 
-Téléchargez notre projet Prise en main qui contient un fichier de base de données et l'icône du projet, mais qui n'inclut pas encore de projet mobile.
+Téléchargez notre projet Starter (de prise en main) qui contient un fichier de base de données et l'icône du projet, mais qui n'inclut pas encore de projet mobile.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -35,7 +35,7 @@ href="../assets/contact-app/ContactStarter.zip">PROJET STARTER</a>
 
 ## ÉTAPE 2. Création du projet
 
-Commençons par une structure très simple à l’aide d’une seule table. Dans 4D, allez à **Nouveau > Projet mobile**.
+Commençons par une structure très simple à l’aide d’une seule table. Dans 4D, cliquez sur **Nouveau > Projet mobile**.
 
 Nommez votre projet puis cliquez sur **Créer**.
 
@@ -51,13 +51,13 @@ Cliquez sur **Continuer**.
 
 ## ÉTAPE 4. Sections - Général
 
-Vous pourrez configurer ici les informations primaires de votre application :
+Vous pourrez configurer ici les informations basiques de votre application :
 
-* **Organisation:** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et com.MonEntreprise).
+* **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et com.MonEntreprise).
 * **Produit :** Entrez le nom de votre application. Appelons-la « Contacts ».
-* **ID:** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
+* **ID :** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
 * **Version :** Laissez la version 1.0 inchangée et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
-* **Icônes:** Glissez et déposez une icône pour votre application dans la zone consacrée.
+* **Icônes :** Glissez et déposez une icône pour votre application dans la zone consacrée.
 * **Développeur :** Cette sous-section est renseignée automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez/collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ "Team". Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
 ![Général](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
@@ -66,7 +66,7 @@ Vous pourrez configurer ici les informations primaires de votre application :
 
 C’est dans cette section que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données) à présenter aux appareils mobiles.
 
-Dans notre exemple, sélectionnez **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.<div class = "tips"> 
+Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.<div class = "tips"> 
 
 **NOTE**
 
