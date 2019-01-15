@@ -1,7 +1,7 @@
 ---
 id: xcode-overview
-title: Présentation de Xcode
-sidebar_label: Présentation de Xcode
+title: Présentation d'Xcode
+sidebar_label: Présentation d'Xcode
 ---
 <div class = "objectives"> 
 
@@ -39,7 +39,7 @@ La zone de fonctionnalités d'Xcode comporte deux volets : le volet "Inspector" 
 
 ![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
-### Volet "Inspector"
+### L'inspecteur
 
 Dans la section "Properties", il existe six différents onglets d'Inspector, comme illustré ci-dessous :
 
@@ -59,7 +59,7 @@ De gauche à droite, ces onglets correspondent à :
 
 **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
 
-### Library pane
+### La bibliothèque
 
 Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
 
