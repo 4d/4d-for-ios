@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>User information query · 4D for iOS Preview</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Now let&#x27;s filter our app content depending on the account manager&#x27;s login email address (user information):&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="User information query · 4D for iOS Preview"/><meta property="og:type" content="website"/><meta property="og:url" content="https://4D.github.io/4d-for-ios/index.html"/><meta property="og:description" content="&lt;p&gt;Now let&#x27;s filter our app content depending on the account manager&#x27;s login email address (user information):&lt;/p&gt;
+"/><meta property="og:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dark.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/en"><h2 class="headerTitle">4D for iOS Preview</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/en/faq.html" target="_self">FAQ</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Restricted queries</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Creating your iOS App</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/contact-app.html">Contact App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Customizing with Xcode</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/open-xcode.html">Working with Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/xcode-overview.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/4d-for-ios-project-organization.html">4D for iOS project organization</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Creating List form templates</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-listform-templates.html">List form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-listform-template.html">List form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Creating Detail form templates</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-detailform-template.html">Detail form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Using icons</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/using-icons.html">Using icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/create-icons.html">Create icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/include-icons.html">Include icons in the project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/select-icons.html">Select your icons</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Data formatter</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter.html">Data formatter</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-mobile-project.html">Open mobile project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-build-and-run.html">Build and Run your project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-data-formatter.html">Create data formatter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Multi-criteria search</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/multi-criteria-search.html">Multi-criteria search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Restricted queries</h3><ul><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/filter-query-introduction.html">Restricted queries</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/define-filter-query.html">Define a filter query</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/docs/en/user-information-query.html">User information query</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/RestrictedQueries-userinformationquery.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">User information query</h1></header><article><div><span><p>Now let's filter our app content depending on the account manager's login email address (user information):</p>
+<ul>
+<li>Go to the <strong>Data section</strong>.</li>
+<li>Right-click in the <strong>Filter query</strong> field to make <strong>Field, Comparators and Operators buttons</strong> appear.</li>
+<li>Click on the <strong>Operators</strong> button and select <strong>AND</strong>.</li>
+<li>Now define the user information you want to get from the database method, <strong>:email</strong> .</li>
+</ul>
+<pre><code class="hljs"><span class="hljs-attr">Status</span> = <span class="hljs-string">'In Progress'</span> &amp; manager.Email = :email 
+</code></pre>
+<ul>
+<li>Remember to validate the query by clicking on the <strong>Validate</strong> button. If not, you won't be able to build your app.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/restricted-queries/user-information-query.png" alt="User information query"></p>
+<p>The query will filter data depending on the <strong>In Progress</strong> status AND the <strong>Account manager's email address</strong> (accessible from the AccountManager table thanks to the <em>Many-to-One</em> relation on the manager's name).</p>
+<div markdown="1" class = "tips">
+<p><strong>NOTE</strong></p>
+<ul>
+<li>A <strong>user icon</strong> is displayed on the right of each table when a user information filter is applied to it.</li>
+<li>As soon as a query is based on user information and validated, you need to edit the <strong>Mobile app authentication method</strong>. To do so, right-click on the <strong>Edit authentication method</strong> button to open the database method edition window.</li>
+</ul>
+</div>
+<p>Add the following line in the database method:</p>
+<pre><code class="hljs">$response.userInfo:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"email"</span>;$request.email)
+</code></pre>
+<p>This will allow retrieving the manager's login email address and displaying data depending on that criteria.</p>
+<p><img src="/4d-for-ios/docs/assets/restricted-queries/database-method-user-information-query.png" alt="User information query"></p>
+<p>Now if you build your app and enter &quot;<a href="mailto:michelle.simpson@mail.com">michelle.simpson@mail.com</a>&quot; as login email, you'll find all of Michelle Simpson's <em>&quot;In progress&quot;</em> contracts.</p>
+<p><img src="/4d-for-ios/docs/assets/restricted-queries/restricted-queries-final-result.png" alt="Final result"></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/en/define-filter-query.html"><span class="arrow-prev">← </span><span>Define a filter query</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
