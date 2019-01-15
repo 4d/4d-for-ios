@@ -45,7 +45,7 @@ Comme vous pouvez le voir, l'emplacement a changé mais Xcode affiche des lignes
 
 ## ÉTAPE 3. Mise à jour des contraintes liées à la photo de profil
 
-Pour aligner verticalement l’image au centre dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes existantes et ajouter de nouvelles contraintes.
+Pour aligner verticalement l’image au centre, dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes existantes et en ajouter de nouvelles.
 
 L’image présente actuellement les contraintes suivantes : * Width Equals : une largeur fixe de 78 pixels. * Height Equals : une hauteur fixe de 78 pixels. * Align Center X : centre l’image sur un axe horizontal défini précédemment. * Top Space : une quantité d’espace fixe entre le haut de l’image et le haut de la vue. * Bottom space to <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
 
