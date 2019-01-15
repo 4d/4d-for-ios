@@ -5,12 +5,12 @@ sidebar_label: Organiser un projet 4D for iOS
 ---
 Accédez aux Sources à partir de l'onglet Navigation.
 
-Vous trouverez ici les dossiers "Structure" et "Forms". Ils contiennent tous les fichiers de structure et de formulaires de base de données que vous avez définis, notamment :
+Vous trouverez ici les dossiers "Structure" et "Forms". Ils contiennent tous les fichiers nécessaires à la structure et aux formulaires de votre base de données, notamment :
 
 * "Launch screen" (écran de lancement) - apparaît lorsque l’application est lancée.
 * "Login screen" (écran de connexion) - s’affiche lorsque l’authentification est activée.
-* "Settings screen" (écran de paramètres) - inclut les boutons de "reload" et de déconnexion.
-* Toutes les tables publiées - fichiers de données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
+* "Settings screen" (écran de paramètres) - inclut les boutons "reload" et "logout".
+* Toutes les tables publiées - fichiers correspondant aux données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
 
 Au lieu de cela, vous trouverez un fichier Swift et un fichier Storyboard. Ces fichiers sont décrits ci-dessous.
 
