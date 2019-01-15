@@ -53,11 +53,11 @@ De gauche à droite, ces onglets correspondent à :
 
 **Identity inspector (Inspecteur d'identité)**: pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son étiquette.
 
-**Attributes inspector**: For configuring the attributes specific to the selected interface object. For example, some text field attributes include text alignment and color, border type, and editability.
+**Attributes inspecteur (inspecteur d'attributs)** : pour configurer les attributs spécifiques à l’objet sélectionné. Par exemple, certains attributs d'un champ texte incluent un alignement et une couleur, un type de bordure et des paramètres de modification.
 
-**Size inspector**: For specifying characteristics such as the size and position of an interface object.
+**Size inspector (inspecteur de dimensions)** : pour préciser des caractéristiques telles que la taille et la position d’un objet.
 
-**Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
+**Connections inspector (inspecteur de connexions)** : visualiser les points de vente d'un objet, établir de nouvelles connexions et supprimer des connexions existantes.
 
 ### Library (Bibliothèque)
 
