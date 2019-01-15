@@ -67,12 +67,36 @@ Let's go through the process...
 
 * Go to STEP 6 to run your project on your device.
 
-## STEP 6. Build
+## STEP 6. Installation
+
+### Install automatically with Apple Configurator 2
 
 * When your app is ready, open the BUILD tab.
 * Connect your device to your computer with a USB cable.
 * From the BUILD tab, click on **Install**.
 
 ![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png)
+
+* The app is being installed on your device!
+
+### Install manually using Xcode
+
+* When your app is ready, open the BUILD tab.
+* Connect your device to your computer with a USB cable.
+* From the BUILD tab, click on **Install**.
+
+![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png)
+
+* An archive of your project is created
+
+![Archive creation](assets/test-build/Archive-creation.png)
+
+* Reveal the generated archive in Finder
+
+![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
+
+* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in Installed Apps section.
+
+![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
 * The app is being installed on your device!
