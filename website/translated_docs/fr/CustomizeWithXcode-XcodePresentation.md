@@ -47,11 +47,11 @@ Dans la section des propriétés, Inspector se divise en six onglets, comme illu
 
 De gauche à droite, ces onglets correspondent à :
 
-**File inspector (Inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
+**File inspector (inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
-**Quick Help (Aide rapide)** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
+**Quick Help (aide rapide)** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
 
-**Identity inspector (Inspecteur d'identité)**: pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son étiquette.
+**Identity inspector (inspecteur d'identité)** : pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son étiquette.
 
 **Attributes inspecteur (inspecteur d'attributs)** : pour configurer les attributs spécifiques à l’objet sélectionné. Par exemple, certains attributs d'un champ texte incluent un alignement et une couleur, un type de bordure et des paramètres de modification.
 
