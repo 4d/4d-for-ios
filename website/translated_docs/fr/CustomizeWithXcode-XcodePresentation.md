@@ -47,9 +47,9 @@ Dans la section "Properties", il existe six différents onglets d'Inspector, com
 
 De gauche à droite, ces onglets correspondent à :
 
-**File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
+**Inspecteur de fichier** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
-**Quick Help**: For viewing details about what has been selected in an editor.
+**Aide rapide** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
 
 **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
 
