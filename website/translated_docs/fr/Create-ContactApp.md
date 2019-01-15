@@ -103,15 +103,15 @@ Nous avons presque terminé, mais il faut d’abord décider de la mise en page 
 
 À ce stade, la partie inférieure de la fenêtre de configuration a changé, en passant de la sélection du modèle à la définition du contenu.
 
-* Glissez et déposez les champs que vous souhaitez afficher sur le modèle, à savoir, Nom de famille dans le "Champ à utiliser pour la recherche" et le champ "Titre". Le "champ à utiliser pour la recherche" et le "champ à utiliser en tant que section" sont facultatifs. Pour le moment, laissez le "champ à utiliser en tant que section" vide.
+* Glissez et déposez les champs que vous souhaitez afficher sur le modèle, à savoir, "Last Name" dans le champ "à utiliser pour la recherche" et le champ "Titre". Le "champ à utiliser pour la recherche" et le "champ à utiliser en tant que section" sont facultatifs. Pour le moment, laissez le "champ à utiliser en tant que section" vide.
 
 ![Contenu du formulaire Liste](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-Enfin, nous allons définir le formulaire détail. * Sélectionnez le modèle de formulaire qui convient le mieux à votre application. Pour notre application Contacts, nous allons utiliser le modèle **Visual Contact**.
+Enfin, nous allons définir le formulaire détaillé. * Sélectionnez le modèle de formulaire qui convient le mieux à votre application. Pour notre application Contacts, nous allons utiliser le modèle **Visual Contact**.
 
 ![Modèle de formulaire Détail](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Glissez et déposez le contenu dans les endroits appropriés sur le modèle de formulaire Détail, à savoir, First Name, Last Name et Photo.
+* Glissez et déposez le contenu dans les endroits appropriés sur le modèle du formulaire détaillé, à savoir, First Name, Last Name et Photo.
 
 ![Contenu du formulaire Détail](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
@@ -128,7 +128,7 @@ Et maintenant, la partie amusante ! Il est temps de créer votre application et 
 
 ## ÉTAPE 10. Que faire ensuite ?
 
-Nous avons fait le tour des bases de la création d’applications dans ce tutoriel, vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez comment construire une application encore plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger l’application Contact finale.
+Nous avons fait le tour des bases de la création d’applications dans ce tutoriel, vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez comment créer une application plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger l’application Contact finale.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
