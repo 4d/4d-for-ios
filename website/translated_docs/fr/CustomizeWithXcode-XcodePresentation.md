@@ -25,9 +25,9 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-C’est ici que se fait le codage lorsqu’un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et la zone de génération apparaît.
+C’est ici que se fait le codage lorsqu’un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'interface Builder apparaît.
 
-## Zone de génération
+## Zone "Interface Builder"
 
 ![Interface Builder Area](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
