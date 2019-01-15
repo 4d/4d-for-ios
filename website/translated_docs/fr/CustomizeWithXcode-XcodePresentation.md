@@ -35,23 +35,23 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 ## Utility Area (Zone de fonctionnalités)
 
-La zone de fonctionnalités d'Xcode comporte deux volets : "Inspector" (l'inspecteur) et "Library" (la bibliothèque).
+La zone de fonctionnalités d'Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
 
 ![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
-### "Inspector"
+### Inspector (Inspecteur)
 
-Dans la section des propriétés, il existe six différents onglets d'inspecteur, comme illustré ci-dessous :
+Dans la section des propriétés, Inspector se divise en six onglets, comme illustré ci-dessous :
 
 ![Inspector pane](assets/customize-with-xcode/Xcode-Inspector-pane.png)
 
 De gauche à droite, ces onglets correspondent à :
 
-**Inspecteur de fichier** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
+**File inspector (Inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
-**Aide rapide** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
+**Quick Help (Aide rapide)** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
 
-**Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
+**Identity inspector (Inspecteur d'identité)**: pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son étiquette.
 
 **Attributes inspector**: For configuring the attributes specific to the selected interface object. For example, some text field attributes include text alignment and color, border type, and editability.
 
@@ -59,11 +59,11 @@ De gauche à droite, ces onglets correspondent à :
 
 **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
 
-### La bibliothèque
+### Library (Bibliothèque)
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dans la section des propriétés, Library se divise en quatre onglets, comme illustré ci-dessous :
 
-From left-to-right, these tabs are:
+De gauche à droite, ces onglets correspondent à :
 
 ![Library pane](assets/customize-with-xcode/Xcode-Library-pane.png)
 
