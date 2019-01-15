@@ -64,7 +64,7 @@ Vous pourrez configurer ici les informations basiques de votre application :
 
 ## ÉTAPE 5. Sections - Structure
 
-C’est dans cette section que vous définirez un sous-ensemble de vos données (les tables et champs de la base de données) à présenter aux appareils mobiles.
+C’est dans cette section que vous définirez un sous-ensemble de vos données (tables et champs de la base) à afficher dans l'application.
 
 Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.<div class = "tips"> 
 
@@ -80,7 +80,7 @@ Définissons maintenant certains libellés et icônes pour les tables et champs 
 
 **Propriétés des tables :** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ "Icônes" vide. 4D for iOS génèrera pour vous une icône par défaut !
 
-**Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
+**Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
 
 ![Libellés et icônes ](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -95,7 +95,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-Nous avons presque terminé, mais il faut d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des formulaires liste et des Formulaires détail.
+Nous avons presque terminé, mais il faut d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
 
 * Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
