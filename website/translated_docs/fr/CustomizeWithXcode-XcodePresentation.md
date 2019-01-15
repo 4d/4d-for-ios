@@ -71,9 +71,9 @@ De gauche à droite, ces onglets correspondent à :
 
 **Code snippets (extraits de code)** : il s'agit d'extraits de code source destinés à être utilisés dans votre application. Pour en utiliser un, faites-le glisser directement dans votre fichier de code source.
 
-**Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. To add one to a view, drag it directly into your storyboard in the Interface Builder editor.
+**Objects (objets)** : cette bibliothèque contient les types d’objets d’interface que vous êtes susceptibles de choisir pour constituer votre interface utilisateur. Pour en ajouter un à une vue, faites-le glisser directement dans votre Storyboard dans l’éditeur d’Interface Builder.
 
-**Media files**: This library contains all your graphics, icons, and sound files. To use one, drag it directly to your storyboard in the Interface Builder editor.
+**Media files (les fichiers multimédia)** : cette bibliothèque contient tous vos graphiques, icônes et fichiers audio. Pour en utiliser un, faites-le glisser directement à votre Storyboard dans l’éditeur d’Interface Builder.
 
 ## Debug Area (Zone de débogage)
 
