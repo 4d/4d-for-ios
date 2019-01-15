@@ -64,12 +64,12 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
     }
     
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: フォーマッターの名前
+2. **type**: 使用したい4D フォーマット型
+3. **binding**: 文字列なら**localized text** 、あるいは画像なら**imageNamed**
+4. **choiceList**: マップされた値
 
-### Integer to image
+### 整数から画像へ
 
 * Create an **integerToImage** folder in the **formatters** folder you've created.
 
