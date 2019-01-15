@@ -67,9 +67,9 @@ De gauche à droite, ces onglets correspondent à :
 
 ![Library pane](assets/customize-with-xcode/Xcode-Library-pane.png)
 
-**File templates**: These templates are for the common types of files listed as choices in the New File menu.
+**File templates (modèles de fichiers)** : Ces modèles s'appliquent aux types de fichier courants figurant dans la liste du menu "New File".
 
-**Code snippets**: These are short pieces of source code for use in your application. To use one, drag it directly into your source code file.
+**Code snippets (extraits de code)** : il s'agit d'extraits de code source destinés à être utilisés dans votre application. Pour en utiliser un, faites-le glisser directement dans votre fichier de code source.
 
 **Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. To add one to a view, drag it directly into your storyboard in the Interface Builder editor.
 
