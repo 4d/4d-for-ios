@@ -71,17 +71,17 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ### 整数から画像へ
 
-* Create an **integerToImage** folder in the **formatters** folder you've created.
+* 作成した**formatters** フォルダ内に**integerToImage** フォルダを作成します。
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* 次に、**integerToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+* 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
     
     ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-* Let's look at the contents of the **manifest.json** file:
+* **manifest.json** ファイルの中身を見てみましょう:
 
     {
         // 1
