@@ -110,7 +110,7 @@ Let's go through the process...
 
 ![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png) 
 
-* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in Installed Apps section.
+* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
 
 ![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png) 
 
