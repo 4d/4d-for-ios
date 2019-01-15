@@ -9,7 +9,7 @@ sidebar_label: Présentation de Xcode
 
 * Travailler avec Xcode</div> 
 
-Xcode affiche plusieurs zones que nous allons examiner :
+Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
@@ -17,7 +17,7 @@ Xcode affiche plusieurs zones que nous allons examiner :
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* Le menu déroulant situé à côté du bouton **Stop**indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
+* Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
 * Sur le côté droit de la barre d’outils, vous trouverez des boutons vous permettant de modifier l’affichage. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
