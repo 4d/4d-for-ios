@@ -24,30 +24,30 @@ sidebar_label: Create data formatter
     
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
 
   </p>
 </div>
 
-You're now ready to create your first formatters!
+これでフォーマッターを作成する準備が整いました！
 
-## Create the formatters folder
+## formatters フォルダを作成
 
-First, create a .../Resources/Mobile/formatters folder at the same level as the Task Management.4dbase data.
+まず、Task Management.4dbase のデータと同じ階層に .../Resources/Mobile/formatters フォルダを作成します。
 
 ![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
-## Integer formatters
+## 整数用フォーマッター
 
-### Integer to string
+### 整数から文字列へ
 
-* Create an **integerToString** folder in the formatters folder you've just created.
+* 作成したformatters フォルダ内に**integerToString** フォルダを作成します。
 
-* Then create a **manifest.json** file in the **integerToString** folder.
+* 次に、**integerToString** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+* ここで**manifest.json** ファイルの中身を見てみましょう:
 
     {
         // 1
