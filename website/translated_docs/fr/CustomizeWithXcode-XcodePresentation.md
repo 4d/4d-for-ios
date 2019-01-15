@@ -13,7 +13,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
-## Barre d’outils
+## Toolbar (Barre d’outils)
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
@@ -21,7 +21,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 * Sur le côté droit de la barre d’outils, vous trouverez des boutons vous permettant de modifier l’affichage. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
-## Zone d’édition
+## Editor Area (Zone d’édition)
 
 ![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
@@ -33,15 +33,15 @@ C’est ici que se fait le codage lorsqu’un fichier Swift est sélectionné. L
 
 Il s’agit d’une interface graphique qui vous permet de générer un fichier Storyboard ou XIB. Toutes vos "scènes" sont accessibles sur le côté gauche.
 
-## Zone de fonctionnalités
+## Utility Area (Zone de fonctionnalités)
 
-La zone de fonctionnalités d'Xcode comporte deux volets : le volet "Inspector" et le volet "Library".
+La zone de fonctionnalités d'Xcode comporte deux volets : l'inspecteur et la bibliothèque.
 
 ![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### L'inspecteur
 
-Dans la section "Properties", il existe six différents onglets d'Inspector, comme illustré ci-dessous :
+Dans la section des propriétés, il existe six différents onglets d'inspecteur, comme illustré ci-dessous :
 
 ![Inspector pane](assets/customize-with-xcode/Xcode-Inspector-pane.png)
 
@@ -75,11 +75,11 @@ From left-to-right, these tabs are:
 
 **Media files**: This library contains all your graphics, icons, and sound files. To use one, drag it directly to your storyboard in the Interface Builder editor.
 
-## Zone de débogage
+## Debug Area (Zone de débogage)
 
 Cette zone affiche la sortie et l’état de différentes variables lors de l’exécution de votre application.
 
-## Zone de navigation
+## Navigation Area (Zone de navigation)
 
 Plusieurs onglets sont inclus ici, dont les plus importants sont :
 
