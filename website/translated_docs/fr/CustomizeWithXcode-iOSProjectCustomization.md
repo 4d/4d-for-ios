@@ -47,11 +47,11 @@ Comme vous pouvez le voir, l'emplacement a changé mais Xcode affiche des lignes
 
 Pour aligner verticalement l’image au centre, dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes existantes et en ajouter de nouvelles.
 
-L’image présente actuellement les contraintes suivantes : * Width Equals : une largeur fixe de 78 pixels. * Height Equals : une hauteur fixe de 78 pixels. * Align Center X : centre l’image sur un axe horizontal défini précédemment. * Top Space : une quantité d’espace fixe entre le haut de l’image et le haut de la vue. * Bottom space to <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
+L’image présente actuellement les contraintes suivantes : * Width Equals : une largeur fixe de 78 pixels. * Height Equals : une hauteur fixe de 78 pixels. * Align Center X : un centrage de l’image sur un axe horizontal défini précédemment. * Top Space : un espace fixe entre le haut de l’image et le haut de la vue. * Bottom space to <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
 
 ![Profil picture constraints](assets/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
-Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir de l’inspecteur de taille dans la section des contraintes). Le contour de l’image devrait maintenant être en rouge parce que les contraintes ne sont pas renseignées.
+Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir du Size inspector (l'inspecteur de dimensions) dans la section "Constraints" consacrée aux contraintes). Le contour de l’image devrait maintenant être en rouge car les contraintes ne sont pas renseignées.
 
 Cliquez sur le bouton Align (dans la partie inférieure de la fenêtre Interface Builder) et cochez la case **Vertically in Container**.
 
@@ -63,19 +63,19 @@ Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte 
 
 À ce stade, toutes les contraintes de photo de profil doivent être en bleu.
 
-Félicitations ! Votre photo de profil est maintenant bien placée, en prenant bien compte des contraintes.<div class = "tips"> 
+Félicitations ! Votre photo de profil est maintenant bien placée, avec les contraintes adéquates.<div class = "tips"> 
 
 **CONSEILS**
 
-* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste d'éventuelles contraintes.
+* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
 
-* Vous pouvez supprimer des contraintes en les sélectionnant depuis l’inspecteur de taille ou bien depuis l’Interface Builder.</div> 
+* Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.</div> 
 
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
 #### Nous allons nous pencher sur le libellé First Name.
 
-Nous allons commencer par changer la position et la largeur : * Sélectionnez le libellé First Name dans l’Interface Builder. * Ensuite, remplacez la largeur de 386 pixels par 267 pixels. * Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
+Nous allons commencer par modifier son emplacement et sa largeur : * Sélectionnez le libellé First Name dans l’Interface Builder. * Remplacez ensuite la valeur 386 pixels de la largeur par 267 pixels. * Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
 
 ![First Name Label position](assets/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
