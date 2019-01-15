@@ -13,7 +13,7 @@ This section allows you to: * define the data to include in your app (**Current 
 
 This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
 
-To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. Then the developer can select this key file from the project editor to access to the production server data.
+To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This key file key.mobileapp is available next to data in the MobileApps folder. Then the developer can select this key file from the project editor to access to the production server data.
 
 The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
 
