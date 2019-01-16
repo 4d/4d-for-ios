@@ -1,23 +1,23 @@
 ---
 id: creating-listform-templates
-title: List form templates
-sidebar_label: List form templates
+title: Modèles de formulaire Liste
+sidebar_label: Modèles de formulaire Liste
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Create your first list form template</div> <div class = "prerequisites"> 
+* Créer son premier modèle de formulaire Liste</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre**et un **sous-titre** pour chaque cellule.
 
 ![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
-## Download the Starter Project
+## Téléchargez le projet Starter
 
 Before we begin, be sure to download the **Starter Project** which includes: * A **List form** folder * A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
 
