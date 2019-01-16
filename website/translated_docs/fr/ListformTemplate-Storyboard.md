@@ -83,7 +83,7 @@ Répétez l’opération pour le deuxième libellé.
 
 ## Personnaliser le libellé
 
-From the attribute inspector (on the right side of the Interface Builder window), you can customize your label's font colors. Let's make the second label **Dark Grey Color** :
+A partir de l’attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Let's make the second label **Dark Grey Color** :
 
 ![Label color dark grey](assets/custom-listform/label-color-dark-grey.png)
 
@@ -105,7 +105,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
 
-## How to get data into your cells
+## Comment entrer des données dans vos cellules
 
 ### Image View
 
@@ -143,9 +143,9 @@ Here is the simulator result :
 
 ![Simulator result](assets/custom-listform/simulator-result.png)
 
-## Customize your app
+## Personnaliser votre application
 
-The last step is adding a corner radius to the Image View to have a better design.
+La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour améliorer la conception.
 
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
@@ -167,14 +167,14 @@ You can now build your project from the project editor!
 
 ## Que faire ensuite ?
 
-Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-listform/CustomListFormFinalTemplate.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="../assets/custom-listform/CustomListFormFinalTemplate.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 
   </p>
 </div>
