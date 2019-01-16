@@ -19,7 +19,7 @@ Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formu
 
 ## Télécharger le projet Starter
 
-Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Un dossier **Custom Detail form** (dossier contenant un modèle de formulaire détaillé personnalisé) * Un dossier **Contact.4dbase** (base de données Contact de démonstration et un projet d’application mobile prêt à l’emploi)
+Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Un dossier **Custom Detail form** (dossier contenant un modèle de formulaire détaillé personnalisé) * Un fichier **Contact.4dbase** (base de données Contact de démonstration et un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -41,17 +41,17 @@ Créez d'abord un dossier .../Resources/Mobile/form/detail à côté des donnée
 
 Ouvrez ensuite Contact.4dbase avec 4D, puis cliquez sur Fichier > Ouvrir > Projet mobile... pour ouvrir **Contact Demo App**
 
-Enfin, allez dans **Forms section** dans l’éditeur de projet. Vous verrez que le modèle de formulaire détaillé personnalisé a été correctement ajouté à la liste de modèles de formulaire détaillé !
+Enfin, cliquez sur la **section Formulaires** dans l’éditeur de projet. Vous verrez que le modèle de formulaire détaillé personnalisé a été correctement ajouté à la liste de modèles !
 
 ![Forms section](assets/custom-detailform/custom-detailform-template.png)
 
 Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 
-## Contenu du dossier Modèle de formulaire détaillé
+## Le dossier du modèle de formulaire détaillé et son contenu
 
-* L'icône **layoutIconx2.png** de taille 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnez votre modèle personnalisé
-* Le fichier **manifest.json**, qui comprend une description simple du modèle
-* Le fichier **template.svg** qui représentera votre modèle et qui s'affichera lorsque vous définissez le contenu de votre Formulaire Liste et où vous glisserez-déposerez vos champs
-* Dossier Source qui inclut le fichier **storyboard** (interface graphique) et **swift** (code pour le formulaire)
+* Une icône **layoutIconx2.png** d'une résolution de 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle personnalisé
+* Un fichier **manifest.json**, qui comprend une description simple du modèle
+* Un fichier **template.svg** qui représentera votre modèle, qui s'affichera lorsque vous définirez le contenu de votre Formulaire Liste, et où vous glisserez-déposerez vos champs
+* Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **swift** (code pour le formulaire)
 
-Quels sont ces fichiers, à quoi servent-ils et comment les personnaliser ?
+A quoi correspondent ces fichiers, à quoi servent-ils et comment les personnaliser ?
