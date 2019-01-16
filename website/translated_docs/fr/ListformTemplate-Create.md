@@ -49,6 +49,6 @@ Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List f
 
 ## Contenu du modèle de formulaire Liste
 
-In this folder, you'll find: * **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template) * **a manifest.json file** (includes a basic description of the template) * **a template.svg file** (the visual representation of your template displayed when you define your list form content) * Source folder including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+Ce dossier contient : * Une icône **layoutIconx2.png** d'une résolution de 160x160px (elle apparait dans l'éditeur de projet lorsque vous sélectionnez votre modèle) * Un fichier **manifest.json** (comprend une description basique du modèle) * Un fichier **template.svg** (la représentation visuelle de votre modèle apparait lorsque vous définissez le contenu de votre formulaire Liste) * Un dossier "Sources" contenant un fichier **storyboard** (interface graphique) et un fichier **Swift** (code pour le formulaire)
 
-What are these files? What are they used for? How can you customize them?
+A quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
