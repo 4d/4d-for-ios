@@ -91,17 +91,17 @@ Vous pouvez également sélectionner la couleur principale de votre application 
 
 ![Label color background color](assets/custom-listform/label-color-background-color.png)
 
-A partir de l’Attribute inspector, vous pouvez également personnaliser la police. Select both labels and select Font > Custom > **Helvetica Neue**:
+A partir de l’Attribute inspector, vous pouvez également personnaliser la police. Sélectionnez les deux libellés et sélectionnez Font > Custom > **Helvetica Neue** :
 
 ![Label font custom](assets/custom-listform/label-font-custom.png)
 
-To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. This allows the number of lines to be unlimited.
+Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans la fenêtre Inspector, **entrez la valeur 0 dans Lines**. Ainsi, le nombre de lignes peut être illimité.
 
 ![Label lines number](assets/custom-listform/label-lines-number.png)<div class = "tips"> 
 
 **NOTE**
 
-* The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+* Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
 
