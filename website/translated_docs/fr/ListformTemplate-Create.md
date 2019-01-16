@@ -13,33 +13,33 @@ sidebar_label: Modèles de formulaire Liste
 
 * Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre**et un **sous-titre** pour chaque cellule.
+Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
 ![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
 ## Téléchargez le projet Starter
 
-Before we begin, be sure to download the **Starter Project** which includes: * A **List form** folder * A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
+Avant de commencer, assurez-vous d'avoir téléchargé le **Projet Starter **, qui comprend : * Un dossier **List form (formulaire Liste)** * Un fichier **Contact.4dbase** (une base de données de démonstration et un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-listform/CustomListFormStarterProject.zip">LISTFORM STARTER PROJECT</a>
+href="../assets/custom-listform/CustomListFormStarterProject.zip">PROJET STARTER LISTFORM</a>
 
   </p>
 </div>
 
-You are now ready to create your first list form template!
+Vous êtes maintenant prêt à créer votre premier modèle de formulaire Liste !
 
-## Add a list form template to your mobile project
+## Ajoutez un modèle de formulaire Liste à votre projet mobile
 
-The first thing you'll need to do is create a .../Resources/Mobile/form/list folder next to the Contact.4dbase file. Then drag and drop your **list form** folder into it.
+Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list à côté du fichier Contact.4dbase. Ensuite, faites-y glisser et déposer votre dossier **list form**.
 
 ![Mobile folder list form template](assets/custom-listform/mobile-folder-custom-template.png)
 
-Next, open the Contact.4dbase file with 4D. (File > open > Mobile Project > **Contact Demo App**)
+Ouvrez ensuite le fichier Contact.4dbase avec 4D. (File > open > Mobile Project > **Contact Demo App**)
 
 Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
 
