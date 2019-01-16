@@ -9,29 +9,29 @@ Voici une version finale :
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and **0 - 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
+Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et **0 - 8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
-Open the template.svg file with your favorite code editor.
+Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que vous aurez besoin de modifier.
 
-## Title
+## Titre
 
     <title>Custom Detail form</title>
     
 
-Add the title for your template here.
+Ajoutez ici le titre de votre modèle.
 
 ## ios:values
 
     ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
     
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs** : en référence aux champs disponibles pouvant être affichés dans votre formulaire détaillé. Cela vous permettra de glisser-déposer autant de champs définis.
 
-## Areas position, height and width and type
+## Emplacement, hauteur, largeur et type de la zone
 
 You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
 
@@ -54,9 +54,9 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Define the text area position and width 
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+3. Définir l'emplacement et la largeur de la zone de texte 
 4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted here)
 5. Define a cancel button that will be displayed to the delete current content<div class = "tips"> 
 
