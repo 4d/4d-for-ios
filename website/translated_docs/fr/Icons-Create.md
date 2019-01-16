@@ -1,18 +1,18 @@
 ---
 id: create-icons
-title: Create icons
-sidebar_label: Create icons
+title: Créer des icônes
+sidebar_label: Créer des icônes
 ---
-You can use any icon format (SVG or PNG is recommended to preserve transparency) and size you want and include it in your project.
+Vous pouvez utiliser tout type de format d'icône (SVG ou PNG sont recommandés pour des raisons de transparence) de la taille de votre choix et intégrez-la à votre projet.
 
-It's highly recommended having color versions of black icons to better visualize them in the project editor. For this tutorial, you can download the following icons:
+Il est fortement recommandé de disposer d'icônes de couleur noire afin de mieux les visualiser dans l'éditeur de projet. Pour ce tutoriel, vous pourrez télécharger les icônes suivantes :
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
+href="../assets/custom-icons/Custom-Icons.zip">ICÔNES PERSONNALISÉES</a>
 
   </p>
 </div>
