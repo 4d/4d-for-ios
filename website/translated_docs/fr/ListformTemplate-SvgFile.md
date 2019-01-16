@@ -3,7 +3,7 @@ id: svg-file-listform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
-The template.svg file is a basic visual representation of a template. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
+Le fichier template.svg est une représentation visuelle basique d’un modèle. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
 
 Here's a finished version:
 
