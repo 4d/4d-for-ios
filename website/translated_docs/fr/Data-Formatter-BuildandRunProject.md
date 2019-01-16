@@ -1,10 +1,10 @@
 ---
 id: data-formatter-build-and-run
-title: Générez et exécutez votre projet
-sidebar_label: Générez et exécutez votre projet
+title: Générer et exécuter votre projet
+sidebar_label: Générer et exécuter votre projet
 ---
-Voici le résultat final dans votre application iOS avec un formulaire liste Tâches et un formulaire détail Numéros sélectionnés.
+Voici le résultat final qui s'affiche dans votre application iOS à l'aide d'un formulaire liste "Task" et d'un formulaire détaillé "Numbers".
 
 ![iPhone formateur de données](assets/data-formatter/result-data-formatter-iphone.png)
 
-Vous avez terminé ! Vos champs sont bien formatés selon leur type défini dans Libellés et icônes.
+Vous avez terminé ! Vos champs sont bien formatés selon le type défini dans Libellés et icônes.
