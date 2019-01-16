@@ -25,7 +25,7 @@ Ajoutez ici le titre de votre modèle.
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID**: fait référence à la zone de champ de recherche. This will allow you to drag and drop a field as the search criteria in your list form (optional). - **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional). - **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID** : en référence à la zone de champ recherche. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif). - **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif). - **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
 
 ## Area position, height, width and type
 
