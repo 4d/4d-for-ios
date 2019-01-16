@@ -3,29 +3,29 @@ id: svg-file-listform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
-Le fichier template.svg est une représentation visuelle basique d’un modèle. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
+Le fichier template.svg est une représentation visuelle basique d’un modèle. Dans ce fichier, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire Liste depuis l’éditeur de projet.
 
-Here's a finished version:
+Voici une version finale :
 
 ![Template svg file](assets/custom-listform/template-svg-file.png)
 
-Open the template.svg file with your favorite code editor.
+Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que vous aurez besoin de modifier.
 
-## Title
+## Titre
 
     <title>Custom List form</title>
     
 
-Add the title for your template here.
+Ajoutez ici le titre de votre modèle.
 
 ## ios:values
 
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclues IDs which define your form areas: - **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional). - **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional). - **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID**: fait référence à la zone de champ de recherche. This will allow you to drag and drop a field as the search criteria in your list form (optional). - **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional). - **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
 
 ## Area position, height, width and type
 
