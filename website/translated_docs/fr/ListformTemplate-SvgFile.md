@@ -55,8 +55,8 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de : * Searchfield 
 
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Icon to display a magnifying glass icon into the searchable field
-4. Define the text area position and width 
+3. Image affichant l'icône loupe dans le "searchable field" (champ de recherche)
+4. Définir l'emplacement de la zone de texte et la largeur 
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Define a cancel button that will be displayed to delete the current content
 
