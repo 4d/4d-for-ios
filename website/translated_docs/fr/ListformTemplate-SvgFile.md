@@ -179,4 +179,4 @@ Le "section field" (champ de section) est facultatif.
 4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... nous allons passer à la partie amusante avec Xcode !
