@@ -183,7 +183,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
     
     Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
     
-    Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles pour les différents types de champs définis précédemment dans les fichiers de format manifest.json :
+    Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :
     
     * Sélectionnez le format **integerToString** pour **Job field**
     * Sélectionnez le format **textToString** pour **Country field**
