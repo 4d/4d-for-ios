@@ -3,21 +3,21 @@ id: storyboard-listform-template
 title: Storyboard
 sidebar_label: Storyboard
 ---
-Now it's time to create your iOS list form interface with Xcode!
+Il est temps de créer votre interface iOS de formulaire Liste avec Xcode !
 
-Here's the result we want to achieve:
+Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom listform](assets/custom-listform/storyboard-custom-listform.png)
 
-For each cell, we're going to add a: * Profile image * Title * Subtitle
+Nous ajouterons à chaque cellule : * Une photo de profil * Un titre * Un sous-titre
 
-## Open the storyboard file with Xcode
+## Ouvrir le fichier storyboard avec Xcode
 
-First, open your storyboard file in Xcode.
+Dans un premier temps, ouvrez votre fichier storyboard dans Xcode.
 
 ![Empty storyboard custom template](assets/custom-listform/empty-storyboard-custom-template.png)
 
-It's quite empty, so let's add some content!
+Il est assez vide, nous allons donc y ajouter du contenu !
 
 ## Add an Image View
 
