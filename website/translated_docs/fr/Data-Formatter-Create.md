@@ -17,7 +17,7 @@ Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de
 
 ## Télécharger le projet Starter
 
-Pour commencer, télécharger le **Projet Prise en main**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
+Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -183,7 +183,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > ouvrir > Projet mobile pour ouvrir **Tasks**
     
-    Allez ensuite dans la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles pour les différents types de champs définis précédemment dans les fichiers de format manifest.json :
+    Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles pour les différents types de champs définis précédemment dans les fichiers de format manifest.json :
     
     * Sélectionnez le format **integerToString** pour **Job field**
     * Sélectionnez le format **textToString** pour **Country field**
