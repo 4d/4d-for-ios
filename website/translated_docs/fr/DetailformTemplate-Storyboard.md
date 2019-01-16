@@ -3,21 +3,21 @@ id: storyboard-detailform-template
 title: Storyboard
 sidebar_label: Storyboard
 ---
-Now it's time to create your iOS detail form interface with Xcode!
+Il est temps de créer votre interface iOS de formulaire détaillé avec Xcode !
 
-Here's the result we want to achieve:
+Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom detailform](assets/custom-detailform/storyboard-custom-detailform.png)
 
-For each cell, we're going to add a: * Profile header image * A field to be duplicated
+Nous ajouterons à chaque cellule : * Une photo de profil en en-tête * Un champ à dupliquer
 
-## Open the storyboard file with Xcode
+## Ouvrir le fichier storyboard avec Xcode
 
-First, open your storyboard file in Xcode.
+Dans un premier temps, ouvrez votre fichier storyboard dans Xcode.
 
 ![Empty storyboard custom template](assets/custom-detailform/empty-storyboard-custom-detailform-template.png)
 
-It's quite empty, so let's add some content!
+Il est assez vide, nous allons donc y ajouter du contenu !
 
 ## Add a Scroll View
 
