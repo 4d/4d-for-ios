@@ -115,31 +115,31 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 * **Key Path**: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
 * **Type**: Toujours ```Chaîne``` 
-* **Value**: Le nom de l’attribut. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
 
 ### Libellés
 
-Select the first label and add a row in the Defined Runtime Attributes:
+Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path**: ```bindTo.record.___FIELD_2___```
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path**: ```bindTo.record.___FIELD_3___```
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility: * Double-click the first label to edit it and enter ```___FIELD_2_LABEL___``` * Double-click the second label to edit it and enter ```___FIELD_3_LABEL___```
+Pour une meilleure visibilité, vous avez la possibilité de modifier les **libellés d'affichage du storyboard** : * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___``` * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
-Here is the simulator result :
+Voici le résultat du simulateur :
 
 ![Simulator result](assets/custom-listform/simulator-result.png)
 
