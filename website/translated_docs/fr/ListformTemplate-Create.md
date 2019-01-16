@@ -39,15 +39,15 @@ Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list 
 
 ![Mobile folder list form template](assets/custom-listform/mobile-folder-custom-template.png)
 
-Ouvrez ensuite le fichier Contact.4dbase avec 4D. (File > open > Mobile Project > **Contact Demo App**)
+Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>ouvrir>Projet mobile> **Appli demo Contacts**)
 
-Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
+Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
 ![Forms section](assets/custom-listform/custom-listform-template.png)
 
-Now let's focus on the contents of the **Custom List form** folder.
+Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List form**.
 
-## List form template content
+## Contenu du modèle de formulaire Liste
 
 In this folder, you'll find: * **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template) * **a manifest.json file** (includes a basic description of the template) * **a template.svg file** (the visual representation of your template displayed when you define your list form content) * Source folder including the **storyboard** (graphical interface) and **Swift** file (code for the form)
 
