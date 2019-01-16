@@ -33,9 +33,9 @@ Ajoutez ici le titre de votre modèle.
 
 ## Emplacement, hauteur, largeur et type de la zone
 
-You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
+Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
 
-### Duplicated field properties
+### Propriétés de champs dupliqués
 
     //1
     <g id="f" visibility="hidden" ios:dy="35">
@@ -57,26 +57,26 @@ You can define position, height, and width for all of your fields like we did fo
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
 3. Définir l'emplacement et la largeur de la zone de texte 
-4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted here)
-5. Define a cancel button that will be displayed to the delete current content<div class = "tips"> 
+4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
+5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant<div class = "tips"> 
 
 **NOTE**
 
-* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
+* Tous les types sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
 
 <
 
 div markdown="1" class = "tips">
 
-**TIP**
+**CONSEILS**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-* To include all types, just type ```ios:type="all"```.
+* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
 
 </div>
 
-### Image field area
+### Zone ImageField 
 
     //1
     <g transform="translate(0,60)">
@@ -98,14 +98,14 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width, as well as accepted fields types 
-6. Define a cancel button that will be displayed to delete the current content
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+3. Icône affichant une image dans imageField
+4. Définir l'emplacement et la largeur de la zone de texte 
+5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés 
+6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-### Field to be duplicated
+### Champ à dupliquer
 
     //1
     <g id="multivalued">
@@ -128,11 +128,11 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Multivaluated ID to for the field to be duplicated
-2. Entire area Y position
-3. Area background position, height, and width
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
-6. Define a cancel button that will be displayed to delete the current content
+1. Identifiants multiévalués du champs à dupliquer
+2. Emplacement de toute la zone Y
+3. Emplacement, hauteur et largeur de la zone d'arrière-plan
+4. Définir l'emplacement et la largeur de la zone de texte 
+5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
+6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... passons à la partie amusante avec Xcode !
