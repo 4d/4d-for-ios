@@ -140,12 +140,12 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
     
     1. **name** : le nom du format
     2. **type** : le type de format 4D que vous souhaitez utiliser
-    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
-    4. **choiceList**: valeurs mappées
+    3. **binding** : soit **localized text** pour les chaînes soit **imageNamed** pour les images
+    4. **choiceList** : valeurs mappées
     
     ### Texte vers image
     
-    * Créez un dossier **textToImage** dans le dossier de formats que vous venez de créer.
+    * Créez un dossier **textToImage** dans le dossier Formats que vous venez de créer.
     
     * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
@@ -181,7 +181,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
     
     ## Ouvrir un projet mobile
     
-    Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > ouvrir > Projet mobile pour ouvrir **Tasks**
+    Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
     
     Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles pour les différents types de champs définis précédemment dans les fichiers de format manifest.json :
     
