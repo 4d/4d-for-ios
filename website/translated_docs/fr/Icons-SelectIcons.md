@@ -1,18 +1,18 @@
 ---
 id: select-icons
-title: Select your icons
-sidebar_label: Select your icons
+title: Sélectionner vos icônes
+sidebar_label: Sélectionner vos icônes
 ---
-Open your project and go to Labels & Icons in Sections.
+Ouvrez votre projet et cliquez sur la section Libellés & icônes.
 
-Click on the contact table icon. All available icons are displayed.
+Cliquez sur l’icône de la table Contact. Toutes les icônes disponibles s'affichent.
 
-Select the contact icon:
+Sélectionnez l’icône contact :
 
 ![Contact icon](assets/custom-icons/contact-icon.png)
 
-Select icons adapted for your fields:
+Sélectionnez les icônes adaptées pour vos champs :
 
 ![Contact icon](assets/custom-icons/field-icons.png)
 
-Here's the final result : ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
+Voici le résultat final : ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
