@@ -19,7 +19,7 @@ Dans un premier temps, ouvrez votre fichier storyboard dans Xcode.
 
 Il est assez vide, nous allons donc y ajouter du contenu !
 
-## Add an Image View
+## Ajouter une vue image
 
 From the **Object library**, drag and drop an **Image View** into a cell. You can search for "Image View" in the search bar at the bottom of the Object Library.
 
