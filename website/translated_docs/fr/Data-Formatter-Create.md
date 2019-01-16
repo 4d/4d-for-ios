@@ -33,7 +33,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 ## Créer le dossier Formats
 
-Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau que les données Task Management.4dbase.
+Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau que les données Task Management.4dbase.
 
 ![Dossier format](assets/custom-formatter/formatter-folder.png)
 
@@ -71,13 +71,13 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     ### Nombre entier vers image
     
-    * Créez un dossier **integerToString** dans le dossier **formatters** que vous venez de créer.
+    * Créez un dossier **integerToImage** dans le dossier **Formats** que vous venez de créer.
     
     * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
     ![Dossier format](assets/custom-formatter/formatter-folder-integertoimage.png)
     
-    * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images depuis **integerToImage_Images** du StarterProject.zip vers ce nouveau dossier.
+    * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images depuis **integerToImage_Images** (dans StarterProject.zip) vers ce nouveau dossier.
         
         ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
     
@@ -105,17 +105,17 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    1. **name**: le nom du format
-    2. **type**: le type de format 4D que vous souhaitez utiliser 
-    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
-    4. **choiceList**: valeurs mappées
-    5. **assets**: ajuster la taille d'affichage (largeur et hauteur)
+    1. **name** : le nom du format
+    2. **type** : le type de format 4D que vous souhaitez utiliser 
+    3. **binding** : soit **localized text** pour les chaînes soit **imageNamed** pour les images
+    4. **choiceList** : valeurs mappées
+    5. **assets** : ajuster la taille d'affichage (largeur et hauteur)
     
     ## Formats texte
     
     ### Texte vers chaîne
     
-    * Créez un dossier **integerToString** dans le dossier de formats que vous venez de créer.
+    * Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
     
     * Créez un fichier **manifest.json** dans le dossier **textToString**.
     
@@ -138,8 +138,8 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    1. **name**: le nom du format
-    2. **type**: le type de format 4D que vous souhaitez utiliser
+    1. **name** : le nom du format
+    2. **type** : le type de format 4D que vous souhaitez utiliser
     3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
     4. **choiceList**: valeurs mappées
     
