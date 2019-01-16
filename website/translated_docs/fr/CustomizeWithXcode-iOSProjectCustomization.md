@@ -79,7 +79,7 @@ Nous allons commencer par modifier son emplacement et sa largeur : * Sélection
 
 ![First Name Label position](assets/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modifiez les contraintes suivantes : * Supprimez les contraintes d'espace principal et d'espace inférieur dans le Size inspector. * Ajoutez une contrainte d'espace principal en cliquant sur le bouton **Add New Constraints** pour placer le libellé First Name à droite de la photo de profil. * Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.
+Modifiez les contraintes suivantes : * Supprimez les contraintes de leading space et de bottom space dans le Size inspector. * Ajoutez une contrainte de leading space en cliquant sur le bouton **Add New Constraints** pour placer le libellé First Name à droite de la photo de profil. * Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.
 
 ![First Name Label top constraint](assets/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
@@ -89,7 +89,7 @@ Nous allons changer la position et la largeur : * Sélectionnez le libellé Las
 
 ![Last Name Label position](assets/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modifiez les contraintes restantes : * Supprimez les contraintes d'espace principal dans l'inspecteur de taille. * Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints.
+Modifiez les contraintes restantes : * Supprimez les contraintes de leading space dans le Size inspector. * Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints.
 
 ![Last Name Label constraint](assets/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
