@@ -63,7 +63,7 @@ Glissez et déposez un libellé dans le "View" que vous venez d’ajouter à par
 
 A partir du **Size inspector**, définissez la largeur du libellé View sur 269 et sa valeur de hauteur sur 32. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
 
-**Duplicate the label** and in the **Size inspector panel**, set the X value to 8 and the Y value to 48.
+**Dupliquez le libellé** et, dans le **Size inspector**, définissez la valeur de X sur 8 et la valeur de Y sur 48.
 
 ![Duplicate the label](assets/custom-listform/duplicated-label-storyboard.png)
 
