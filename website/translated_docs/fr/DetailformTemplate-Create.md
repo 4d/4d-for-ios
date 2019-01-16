@@ -7,7 +7,7 @@ sidebar_label: Modèles de formulaires détaillés
 
 **OBJECTIFS**
 
-* Créez votre premier modèle de formulaire Liste</div> <div class = "prerequisites"> 
+* Créer votre premier modèle de formulaire Liste</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
