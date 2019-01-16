@@ -83,15 +83,15 @@ Répétez l’opération pour le deuxième libellé.
 
 ## Personnaliser le libellé
 
-A partir de l’Attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Let's make the second label **Dark Grey Color** :
+A partir de l’Attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Appliquons la couleur **Dark Grey Color** au deuxième libellé :
 
 ![Label color dark grey](assets/custom-listform/label-color-dark-grey.png)
 
-You can also select the dominant color for your app:
+Vous pouvez également sélectionner la couleur principale de votre application :
 
 ![Label color background color](assets/custom-listform/label-color-background-color.png)
 
-From the attribute inspector, you can also customize the font. Select both labels and select Font > Custom > **Helvetica Neue**:
+A partir de l’Attribute inspector, vous pouvez également personnaliser la police. Select both labels and select Font > Custom > **Helvetica Neue**:
 
 ![Label font custom](assets/custom-listform/label-font-custom.png)
 
