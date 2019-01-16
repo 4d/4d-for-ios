@@ -67,21 +67,21 @@ A partir du **Size inspector**, définissez la largeur du libellé View sur 269 
 
 ![Duplicate the label](assets/custom-listform/duplicated-label-storyboard.png)
 
-Select both labels add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) as shown:
+Sélectionnez les deux labels et ajoutez quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) comme suit :
 
 ![Labels contraints storyboard](assets/custom-listform/labels-contraints-storyboard.png)
 
-With a label selected, double-click on the **Height constraint** to edit it.
+Avec un libellé sélectionné, double-cliquez sur **Height constraint** pour le modifier.
 
 ![Label height constraint edition](assets/custom-listform/label-height-constraint-edition.png)
 
-Change the relation from Equal to **Greater Than or Equal** so it can have a variable height (to handle multiline labels).
+Remplacez la relation "Equal" par **Greater Than or Equal** afin que sa hauteur soit variable (pour gérer des libellés multilignes).
 
 ![Change relation label height constraint](assets/custom-listform/change-relation-label-height-constraint.png)
 
-Repeat the process for the second label.
+Répétez l’opération pour le deuxième libellé.
 
-## Label customization
+## Personnaliser le libellé
 
 From the attribute inspector (on the right side of the Interface Builder window), you can customize your label's font colors. Let's make the second label **Dark Grey Color** :
 
@@ -165,9 +165,9 @@ You can now build your project from the project editor!
 
 ![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
-## Where to go from here?
+## Que faire ensuite ?
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
