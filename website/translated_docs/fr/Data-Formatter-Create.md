@@ -1,7 +1,7 @@
 ---
 id: creating-data-formatter
-title: Créer le formateur de données
-sidebar_label: Créer le formateur de données
+title: Créer le format de données
+sidebar_label: Créer le format de données
 ---
 <div class = "objectives"> 
 
@@ -111,7 +111,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     4. **choiceList**: valeurs mappées
     5. **assets**: ajuster la taille d'affichage (largeur et hauteur)
     
-    ## Text formatters
+    ## Formats texte
     
     ### Texte vers chaîne
     
@@ -198,7 +198,7 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
     
     ![Text formatter](assets/custom-formatter/formatters-final-result.png)
     
-    Cliquez sur **FORMATTER FINAL** ci-dessous pour télécharger le dossier définitif de modèles de formats.
+    Cliquez sur le **FORMAT FINAL** ci-dessous pour télécharger le dossier définitif des modèles de formats.
     
     <div style="text-align: center; margin-top: 20px">
       <p>
