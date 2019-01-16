@@ -95,12 +95,12 @@ div markdown="1" class = "tips">
 
 1. Emplacement, hauteur et largeur de la zone d'arrière-plan
 2. Définir l'emplacement de la zone de texte et la largeur 
-3. Définir l'emplacement du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
+3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-The section field is optional.
+Le "section field" (champ de section) est facultatif.
 
-### ImageField area:
+### Zone ImageField :
 
     //1
     <g transform="translate(0,162)">
@@ -122,14 +122,14 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width 
-5. Define the droppable field position, height and width as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+3. Icône affichant une image dans imageField (le champ image)
+4. Définir l'emplacement et la largeur de la zone de texte 
+5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-### Title Field area:
+### Zone Title Field :
 
     //1
     <g transform="translate(0,162)”>
@@ -148,13 +148,13 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width 
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+3. Définir l'emplacement et la largeur de la zone de texte 
+4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-### Subtitle Field area:
+### Zone Subtitle Field :
 
     //1
     <g transform="translate(0,198)”>
@@ -173,10 +173,10 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width 
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+3. Définir l'emplacement et la largeur de la zone de texte 
+4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
