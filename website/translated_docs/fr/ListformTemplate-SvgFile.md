@@ -57,28 +57,28 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de : * Searchfield 
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
 3. Image affichant l'icône loupe dans le "searchable field" (champ de recherche)
 4. Définir l'emplacement de la zone de texte et la largeur 
-5. Define the droppable field position, height, and width, as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+5. Définir l'emplacement du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
+6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-The searchable field is optional.<div class = "tips"> 
+Le "searchable field" (champ de recherche) est facultatif.<div class = "tips"> 
 
 **NOTE**
 
-* All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
+* Tous les types de champ et de variables sont disponible [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
 
 <
 
 div markdown="1" class = "tips">
 
-**TIP**
+**CONSEILS**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* Pour faciliter la définition des type de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-* To include all types, just type ```ios:type="all"```.
+* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
 
 </div>
 
-### SectionField area:
+### Zone SectionField :
 
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
@@ -93,10 +93,10 @@ div markdown="1" class = "tips">
     <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
     
 
-1. Area background position, height and width
-2. Define the text area position and width 
-3. Define the droppable field position, height and width as well as accepted **field types**
-4. Define a cancel button that will be displayed to delete the current content
+1. Emplacement, hauteur et largeur de la zone d'arrière-plan
+2. Définir l'emplacement de la zone de texte et la largeur 
+3. Définir l'emplacement du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
+4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 The section field is optional.
 
