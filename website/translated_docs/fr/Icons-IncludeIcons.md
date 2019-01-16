@@ -7,4 +7,4 @@ Créez d'abord un dossier .../Resources/Mobile/form/detail à côté des donnée
 
 ![Mobile folder custom icons](assets/custom-icons/mobile-folder-custom-icons.png)
 
-We used a blue color to differentiate between embedded and our own icons in the icon library.
+Nous avons utilisé une couleur bleue pour différencier les icônes intégrés et nos propres icônes dans la bibliothèque d’icônes.
