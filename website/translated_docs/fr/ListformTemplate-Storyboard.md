@@ -21,47 +21,47 @@ Il est assez vide, nous allons donc y ajouter du contenu !
 
 ## Ajouter une vue image
 
-From the **Object library**, drag and drop an **Image View** into a cell. You can search for "Image View" in the search bar at the bottom of the Object Library.
+A partir de l'**Object library** (la bibiliothèque d'objets), glissez et déposez un **Image View** (une vue d'image) dans une cellule. Vous pouvez rechercher une « Image View » dans la barre de recherche en bas de la bibliothèque d’objets.
 
 ![Add Image View storyboard](assets/custom-listform/add-imageview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 110 and the Height value to 110. Then set the X value to 8 and the Y value to 3.
+A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la vue de l’image à 110 et la valeur de sa hauteur à 110. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 3.
 
 ![Image View position height and width](assets/custom-listform/imageview-position-height-width.png)
 
-Next, add a constraint (Leading: 8) by clicking on the **Add New Constraints button** (at the bottom of the Interface Builder window). Add width and height constraints too, as shown:
+Puis, ajoutez une contrainte (Leading : 8) en cliquant sur **Add New Constraints** (en bas de l’Interface Builder). Ajoutez également des contraintes de largeur et hauteur, comme suit :
 
 ![Image View leading space width height](assets/custom-listform/imageview-leading-space-width-height.png)
 
-Finally, click on the **Align button** (at the bottom of the Interface Builder window) and check the "Vertically in Container" checkbox.
+Enfin, cliquez sur le bouton **Align** (dans la partie inférieure de l'nterface Builder) et cochez la case "Vertically in Container".
 
 ![Image View align vertically](assets/custom-listform/imageview-align-vertically.png)
 
-Your Image View is now well positioned!
+Votre vue d'image est maintenant bien placée !
 
 ![Image View final](assets/custom-listform/imageview-final.png)
 
-Now let's work on the cell's labels.
+Nous allons nous pencher maintenant sur les libellés de cellules.
 
-## Add title and subtitle labels
+## Ajouter des libellés de titre et de sous-titre
 
-Let's begin by **adding a View**. Search for "View" in the **Object library** and drag it into the cell container.
+Nous allons commencer par **ajouter une vue**. Vous pouvez rechercher le terme « View » dans la **bibliothèque d'objets** et faire glisser la vue vers la cellule.
 
 ![Add View Storyboard](assets/custom-listform/add-view-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the View Width value to 277 and the Height value to 94. Then set the X value to 126 and the Y value to 10.
+A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la vue de l’image sur 277 et la valeur de sa hauteur sur 94. Définissez ensuite la valeur de X sur126 et la valeur de Y sur 10.
 
 ![View position height and width](assets/custom-listform/view-position-height-width.png)
 
-For the Image View, add four constraints by clicking on the **Add New Constraints button** (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) for the view to be well positioned, as shown:
+Concernant la vue d'image, ajoutez quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) pour la positionner correctement, comme suit :
 
 ![View contraints Storyboard](assets/custom-listform/view-constraints-storyboard.png)
 
-Drag and drop a label into the View you just added from the Object Library.
+Glissez et déposez un libellé dans le "View" que vous venez d’ajouter à partir de la bibliothèque d’objets.
 
 ![Add label Storyboard](assets/custom-listform/add-label-storyboard.png)
 
-From the **Size inspector panel**, set the Label View Width value to 269 and the Height value to 32. Then set the X value to 8 and the Y value to 8.
+A partir du **Size inspector**, définissez la largeur du libellé View sur 269 et sa valeur de hauteur sur 32. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
 
 **Duplicate the label** and in the **Size inspector panel**, set the X value to 8 and the Y value to 48.
 
