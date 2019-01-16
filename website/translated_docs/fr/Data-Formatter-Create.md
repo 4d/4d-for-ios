@@ -17,7 +17,7 @@ Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de
 
 ## Télécharger le projet Starter
 
-Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Un dossier d’images contenant les dossiers **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
+Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Deux dossiers d’images **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -31,19 +31,19 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJET START
 
 Vous êtes maintenant prêt à créer vos premiers formats !
 
-## Créer le fichier formats
+## Créer le dossier Formats
 
 Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau que les données Task Management.4dbase.
 
 ![Dossier format](assets/custom-formatter/formatter-folder.png)
 
-## Formats entiers
+## Formats des entiers
 
 ### Nombre entier vers chaîne
 
-* Créez un dossier **integerToString** dans le dossier de formats que vous venez de créer.
+* Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
 
-* Créez ensuite un fichier **manifest.json** dans le dossier </strong> integerToString **.</p></li> </ul> 
+* Créez ensuite un fichier **manifest.json** dans le dossier </strong> integerToString**.</p></li> </ul> 
     
     ![Dossier format](assets/custom-formatter/formatter-folder-integertostring.png)
     
@@ -64,10 +64,10 @@ Premièrement, créez un dossier .../Resources/Mobile/formatters au même niveau
         }
         
     
-    1. **name**: le nom du format
-    2. **type**: le type de format 4D que vous souhaitez utiliser
-    3. **binding** : peut être **localized text** pour les chaînes ou **imageNamed** pour les images
-    4. **choiceList**: valeurs mappées
+    1. **name** : le nom du format
+    2. **type** : le type de format 4D que vous souhaitez utiliser
+    3. **binding** : soit **localized text** pour les chaînes soit **imageNamed** pour les images
+    4. **choiceList** : valeurs mappées
     
     ### Nombre entier vers image
     
