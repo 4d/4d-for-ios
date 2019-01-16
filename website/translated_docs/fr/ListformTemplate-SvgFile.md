@@ -27,11 +27,11 @@ Ajoutez ici le titre de votre modèle.
 
 Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID** : en référence à la zone de champ recherche. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif). - **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif). - **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
 
-## Area position, height, width and type
+## Emplacement, hauteur, largeur et type de la zone
 
-You can define the position, height and width for: * Searchfield * Sectionfield * Other general fields that will be displayed in each table cell
+Vous pouvez définir l'emplacement, la hauteur et la largeur de : * Searchfield * Sectionfield * d'autres champs à afficher dans chaque cellule d'une table
 
-### SearchableField area:
+### Zone SearchableField :
 
     //1
     <g transform="translate(0,60)”>
@@ -53,8 +53,8 @@ You can define the position, height and width for: * Searchfield * Sectionfield 
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
+1. Emplacement de toute la zone Y
+2. Emplacement, hauteur et largeur de la zone d'arrière-plan
 3. Icon to display a magnifying glass icon into the searchable field
 4. Define the text area position and width 
 5. Define the droppable field position, height, and width, as well as accepted **field types**
