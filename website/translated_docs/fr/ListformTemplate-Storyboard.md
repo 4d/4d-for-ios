@@ -83,7 +83,7 @@ Répétez l’opération pour le deuxième libellé.
 
 ## Personnaliser le libellé
 
-A partir de l’attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Let's make the second label **Dark Grey Color** :
+A partir de l’Attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Let's make the second label **Dark Grey Color** :
 
 ![Label color dark grey](assets/custom-listform/label-color-dark-grey.png)
 
@@ -109,17 +109,17 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
-* **Type**: Always ```String``` 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Key Path**: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Type**: Toujours ```Chaîne``` 
+* **Value**: Le nom de l’attribut. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
 
-### Labels
+### Libellés
 
 Select the first label and add a row in the Defined Runtime Attributes:
 
@@ -147,21 +147,21 @@ Here is the simulator result :
 
 La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour améliorer la conception.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
 * **Key Path**: ```cornerRadius```
 * **Type**: ```Number``` 
 * **Value**: ```12```
 
-and
+et
 
 * **Key Path**: ```layer.masksToBounds```
 * **Type**: ```Boolean``` 
-* **Value**: Check the box
+* **Value** : Cochez la case
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
 
-You can now build your project from the project editor!
+Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 ![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
