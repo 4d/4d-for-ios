@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Program as an Organization
 
 **OBJECTIFS**
 
-* Inscrivez-vous au Apple Developer Program en tant qu'organisation pour publier votre application dans l'**App Store**.</div> 
+* Inscrivez-vous au programme "Apple Developer Program" en tant qu'organisation pour publier votre application dans l'**App Store**.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
