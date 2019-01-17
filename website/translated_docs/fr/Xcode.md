@@ -3,13 +3,13 @@ id: xcode
 title: Xcode
 sidebar_label: What is Xcode?
 ---
-## What is Xcode?
+## Qu'est-ce que Xcode ?
 
-Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.
+Xcode est un IDE et un ensemble d’outils de développeur pour macOS qui permet de créer des applications Mac, iPod, iPhone et iPad.
 
-## Download
+## Télécharger
 
-To download the lastest version of Xcode go to the App Store.
+Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -24,7 +24,7 @@ Registered developers can download preview releases and prior versions of the su
 
 🔗 https://developer.apple.com/download/more/ 🔗 https://developer.apple.com/xcode/
 
-## Version comparison table
+## Tableau de comparaison de version
 
 | Xcode | Swift | iOS      | 4D   |
 | ----- | ----- | -------- | ---- |
@@ -32,7 +32,7 @@ Registered developers can download preview releases and prior versions of the su
 | 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
 
-### Compatibility
+### Compatibilité
 
 Frameworks compiled with one version of Xcode could not be used with another version.
 
