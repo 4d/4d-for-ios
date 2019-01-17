@@ -7,7 +7,7 @@ sidebar_label: Archivez et téléchargez votre projet
 
 **OBJECTIFS**
 
-* Archivez et publiez votre projet App Store Connect</div> 
+* Archiver et publier votre projet App Store Connect</div> 
 
 ## ÉTAPE 1. Configuration de Xcode
 
