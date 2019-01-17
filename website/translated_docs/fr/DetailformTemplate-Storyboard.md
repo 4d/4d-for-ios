@@ -19,9 +19,9 @@ Dans un premier temps, ouvrez votre fichier storyboard dans Xcode.
 
 Il est assez vide, nous allons donc y ajouter du contenu !
 
-## Add a Scroll View
+## Ajouter une "Scroll View"
 
-For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
+Pour que notre formulaire détaillé soit déroulant, la première étape consiste à faire glisser et déposer une « Scroll View » (vue de défilement) depuis la **Bibliothèque d'objets**.
 
 ![Add Scroll View Storyboard](assets/custom-detailform/add-scrollview-storyboard.png)
 
