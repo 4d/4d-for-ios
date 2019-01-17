@@ -17,27 +17,27 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 <details>
 <summary>
-<strong>Are there any prerequisites for 4D for iOS?</strong>
+<strong>Y a-t-il des conditions préalables à l'utilisation de 4D for iOS ?</strong>
 </summary>
 
-4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
+4D for iOS en v17 R2 est conçu et certifié pour Xcode 9.4.1.
 
-The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
+La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (requiert un macOS 10.13.6 ou 10.14)
 
-In case you already upgraded to Xcode 10, you can download Xcode 9.4.1 here: https://developer.apple.com/download/more/
+Dans le cas où vous êtes déjà passé à Xcode 10, vous pouvez télécharger Xcode 9.4.1 ici : https://developer.apple.com/download/more/
 
-Only registered developers can download preview releases through the Apple Developer website.
+Seuls les développeurs enregistrés peuvent télécharger des démonstrations de versions via le site web Apple Developer.
 
-See the prerequisites list [here](prerequisites.html).
+Veuillez consulter la liste des conditions préalables [ici](prerequisites.html).
 
 </details>
 
 <details>
 <summary>
-<strong>Can I use Windows to develop with 4D for iOS?</strong>
+<strong>Puis-je utiliser Windows pour développer avec 4D for iOS ?</strong>
 </summary>
 
-No. You must develop on macOS, as we need XCode to compile the final application and to run the Simulator.
+Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide d'Xcode.
 
 </details>
 
@@ -79,20 +79,20 @@ Vous avez besoin d’une licence 4D Developer Pro v17 R2 (macOS) pour développe
 
 Vous avez besoin d’une licence 4D Server (macOS ou Windows) v17 R2 ou d'une licence plus récente pour déployer des applications 4D for iOS.
 
-There's no additional license needed. Your 4D for iOS apps will share the same licenses as those for 4D Remote (client).
+Aucune autre licence n'est nécessaire. Vos applications 4D for iOS partageront les mêmes licences que celles de 4D Remote (client).
 
-Clients can connect on Macs, Windows PCs, or iPhones, as long as the total amount of concurrent users are covered by the 4D Server license.
+Les clients peuvent se connecter sur des PC Mac, Windows ou sur des mobiles iPhone, tant que l'ensemble des utilisateurs simultanés sont couverts par la licence 4D Server.
 
-Please note that you're not allowed to install your mobile app on more devices than the total amount of the 4D Server's remote (client) licenses.
+Veuillez noter que vous n’êtes pas autorisé à installer votre application mobile sur un nombre d'appareils supérieur à celui des licences 4D Server clients.
 
 </details>
 
 <details>
 <summary>
-<strong>I have a 4D Server plus an expansion for two clients (in total, four clients), how many mobile devices can I use?</strong>
+<strong>J’ai un 4D Server et une extension pour deux clients (quatre clients au total), combien d'appareils mobiles puis-je utiliser ?</strong>
 </summary>
 
-You can use up to four mobile devices.
+Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 </details>
 
@@ -100,10 +100,10 @@ You can use up to four mobile devices.
 
 <details>
 <summary>
-<strong>I have an application with a lot of data, can I embed all of it on my iOS device?</strong>
+<strong>J’ai une application contenant un grand nombre de données, puis-je les intégrer toutes à mon appareil iOS ?</strong>
 </summary>
 
-4D for iOs allows you to embed a maximum of 10,000 records in your app.
+4D for iOs vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
 
 For now, the best way to deal with large amounts of data is to create an intermediate table and filter the results you want to display.
 
