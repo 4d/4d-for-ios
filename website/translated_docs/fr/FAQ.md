@@ -167,16 +167,16 @@ Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les 
 
 Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser pour garantir la meilleure expérience utilisateur.
 
-4D for iOS offers a variety of [list form](list-form-templates.html) and [detail form](detail-form-templates.html) templates. With or without images, with charts...
+4D for iOS offre une variété de modèles de [formulaire Liste](list-form-templates.html) et de [formulaire détaillé](detail-form-templates.html). Avec sou sans images, avec graphiques, etc...
 
 </details>
 
 <details>
 <summary>
-<strong>Do I need to create an icon for my iOS app?</strong>
+<strong>Dois-je créer une icône pour mon application iOS ?</strong>
 </summary>
 
-It's highly recommended to have an icon for your 4D for iOS app. If you don't have one, the default icon (the 4D logo) will be displayed.
+Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si n'en avez pas, l'icône par défaut (le logo 4D) sera affiché.
 
 If you already have an icon for your 4D Desktop application, you can drag and drop it directly into the icon area on the [General](general.html) section of the project editor.
 
