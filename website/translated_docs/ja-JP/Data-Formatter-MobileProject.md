@@ -1,13 +1,13 @@
 ---
 id: data-formatter-mobile-project
-title: Open mobile project
-sidebar_label: Open mobile project
+title: モバイルプロジェクトを開く
+sidebar_label: モバイルプロジェクトを開く
 ---
-Go to Labels & Icons in Sections, you'll see that a new Formatters column is available in the Field Properties:
+セクション内のラベル & アイコンを見ると、フィールドプロパティにおいて、新しくフォーマッターカラムが追加されているのが分かります:
 
 ![Data formatter labels icons](assets/data-formatter/data-formatter-labels-icons.png)
 
-From here, you can select specific formats depeding on your needs. Let's define the Available Credit field as a Currency:
+ここから、必要に応じて適切なフォーマットを選択することができます。 Let's define the Available Credit field as a Currency:
 
 ![Available credit currency](assets/data-formatter/available-credit-currency.png)
 
