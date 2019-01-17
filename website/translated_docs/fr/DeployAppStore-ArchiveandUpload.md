@@ -38,7 +38,7 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ![Publishing](assets/deploy-app-store/Publishing.png)
 
-* Dans l’onglet BUILD :
+* Dans l’onglet GÉNÉRATION :
 
 **Créer et exécuter : Créez votre projet**
 
@@ -46,13 +46,13 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ## ÉTAPE 4. Ouvrir votre projet avec Xcode
 
-* À partir de l’onglet BUILD de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
+* À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## ÉTAPE 5. Archiver votre projet à partir de Xcode
 
-* A partir de Xcode, allez dans le Menu du simulateur et sélectionnez **Generic iOS Device**.
+* A partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**.
 
 ![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
