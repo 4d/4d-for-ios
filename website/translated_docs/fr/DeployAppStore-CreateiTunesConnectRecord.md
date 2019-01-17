@@ -18,7 +18,7 @@ sidebar_label: Créez un enregistrement App Store
 
 **NOTE**
 
-* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
+* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
 
 * Si vous avez choisi un compte de développeur Apple en tant qu’organisation ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
 
@@ -30,7 +30,7 @@ sidebar_label: Créez un enregistrement App Store
 
 ![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
 
-* Définissez les Services d’application ("App Services") à inclure dans votre application
+* Définissez les services d’application ("App Services") à inclure dans votre application
 
 ![App Services](assets/deploy-app-store/App-Services-to-include.png)
 
@@ -42,7 +42,7 @@ sidebar_label: Créez un enregistrement App Store
 
 * Connectez-vous à votre [compte App Store Connect](https://appstoreconnect.apple.com)
 
-* Click on **My Apps**.
+* Cliquez sur **My Apps**.
 
 ![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
 
@@ -54,22 +54,22 @@ Cliquez sur le signe **+** dans la partie supérieur gauche pour créer une nouv
 
 Ajoutez les informations suivantes :
 
-* **Platforms**: sélectionnez iOS.
-* **Name**: Le nom de de votre application.
-* **Primary language**: La langue principale de votre application.
-* **Bundle ID**: Sélectionnez le Bundle ID de votre application à partir de la liste déroulante.
-* **SKU**: Un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
-* **Limit User Access (optionnel)**: Vous permet de limiter l'accès de application aux utilisateurs grâce à App Manager, Developer, Marketer, ou Sales.<div class = "tips"> 
+* **Platforms** : sélectionnez iOS.
+* **Name** : le nom de de votre application.
+* **Primary language** : la langue principale de votre application.
+* **Bundle ID** : sélectionnez le Bundle ID de votre application à partir de la liste déroulante.
+* **SKU** : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
+* **Limit User Access (optionnel)** : vous permet de limiter aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.<div class = "tips"> 
 
 **NOTE**
 
-Si votre Bundle ID n’est pas disponible, il peut déjà être utilisé par une autre application disponible dans l’App Store. Vous devrez changer le vôtre dans votre projet Xcode.</div> 
+Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application disponible dans l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</div> 
 
 ![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
 ## ÉTAPE 4. Informations sur l’application
 
-Depuis l’App Store Connect > App information : * définissez l'URL "Privacy Policy URL" de votre application (facultatif). * Entrez un sous-titre pour votre application. Celui-ci apparaîtra sous le nom de votre application dans l’App Store d'iOS 11. * Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.
+Depuis l’App Store Connect > App information : * définissez l'URL "Privacy Policy URL" de votre application (facultatif). * Entrez un sous-titre pour votre application. Celui-ci apparaîtra en-dessous du nom de votre application dans l’App Store d'iOS 11. * Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.
 
 ![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
 
@@ -83,11 +83,11 @@ Vous pouvez appliquer des remises limitées dans le temps en précisant les date
 
 ## ÉTAPE 6. Préparation à l'inscription
 
-Renseignez l'ensemble des atouts de votre applications que vous souhaitez faire apparaître dans l’App Store dans **Version Information** :
+Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez voir apparaître dans l’App Store :
 
 ![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
-* Ajoutez les captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display and iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).<div class = "tips"> 
+* Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).<div class = "tips"> 
 
 **CONSEILS**
 
@@ -101,11 +101,11 @@ Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > Ne
 
 * **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application.
 
-Dans la section **iOS App**:
+Dans la section **iOS App** :
 
 ![iOS App section](assets/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Localisez vos versions de génération dans **Build**.
+Localisez les versions de votre produit dans **Génération**.
 
 * Dans la zone **General App Information**, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.
 
@@ -113,11 +113,11 @@ Localisez vos versions de génération dans **Build**.
 
 * L'évaluation est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
 
-Les sectiond **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
+Les sections **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
 
 ![App Review Information](assets/deploy-app-store/Prepare-for-submission-review-information.png)
 
 * **App Review Information** : Coordonnées et informations de sécurité confidentielles. 
-* **Version Release** : Indique une publication automatique ou manuelle.
+* **Version Release** : Indique s'il s'agit d'une publication automatique ou manuelle.
 
 * Enfin, cliquez sur **Save**.
