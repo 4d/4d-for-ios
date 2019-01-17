@@ -1,7 +1,7 @@
 ---
 id: creating-data-formatter
 title: カスタムのデータフォーマッター
-sidebar_label: Create data formatter
+sidebar_label: カスタムのデータフォーマッター
 ---
 <div class = "objectives"> 
 
@@ -111,17 +111,17 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 4. **choiceList**: マップされた値
 5. **assets**: ディスプレイサイズの調整(幅と高さ)
 
-## Text formatters
+## テキストフォーマッター
 
-### Text to string
+### テキストから文字列へ
 
-* Create a **textToString** folder in the formatters folder you've just created.
+* 作成したformatters フォルダ内に**textToString** フォルダを作成します。
 
-* Create a **manifest.json** file in the **textToString** folder.
+* 次に、**textToString** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+* **manifest.json** ファイルの中身を見てみましょう:
 
     {
         // 1
@@ -138,24 +138,24 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
     }
     
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: フォーマッターの名前
+2. **type**: 使用したい4D フォーマット型
+3. **binding**: 文字列なら**localized text** 、あるいは画像なら**imageNamed**
+4. **choiceList**: マップされた値
 
-### Text to image
+### テキストから画像へ
 
-* Create a **textToImage** folder in the formatters folder you've just created.
+* 作成したformatters フォルダ内に**textToImage** フォルダを作成します。
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* 次に、**textToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+* 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
 
 ![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
 
-Let's look at the contents of the **manifest.json** file:
+**manifest.json** ファイルの中身を見てみましょう:
 
     {
         // 1
@@ -179,7 +179,7 @@ Let's look at the contents of the **manifest.json** file:
     }
     
 
-## Open mobile project
+## モバイルプロジェクトを開く
 
 Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
