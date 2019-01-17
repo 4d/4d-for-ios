@@ -2,16 +2,16 @@
 id: faq
 title: FAQ
 ---
-## Prerequisites
+## Conditions préalables
 
 <details>
 <summary>
-    <strong>Do I need specific expertise to use 4D for iOS?</strong>
+    <strong>Ai-je besoin d’avoir des connaissances spécialisées pour utiliser 4D for iOS ?</strong>
 </summary>
 
-With 4D for iOS, you can easily create mobile projects directly from 4D, without needing any prior expertise building native iOS apps!
+Avec 4D for iOS, vous pouvez facilement créer de nouveaux projets mobile directement depuis 4D, sans avoir besoin d’aucune connaissance préalable dans la création d’applications iOS natives !
 
-The mobile project editor has been designed so that you can use 4D for iOS without any specific knowledge in mobile app developement.
+L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit utilisé sans aucune connaissance spécifique en développement d’applications mobile.
 
 </details>
 
@@ -41,11 +41,11 @@ No. You must develop on macOS, as we need XCode to compile the final application
 
 </details>
 
-## License
+## Licence
 
 <details>
 <summary>
-<strong>Do I need a 4D Web Server to run 4D for iOS?</strong>
+<strong>Ai-je besoin d'un Web Server 4D pour exécuter 4D for iOS ?</strong>
 </summary>
 
 No – 4D for iOS is included in 4D Server v17 R2 and up.
