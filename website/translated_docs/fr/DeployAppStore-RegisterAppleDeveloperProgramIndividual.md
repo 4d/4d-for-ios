@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Program as an Individual
 
 **OBJECTIFS**
 
-* Inscrivez-vous au programme "Apple Developer Enterprise Program" en tant que particulier pour déployer votre application interne.</div> 
+* Inscrivez-vous à l'Apple Developer Enterprise Program en tant que particulier pour déployer votre application interne.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -16,7 +16,7 @@ sidebar_label: Apple Developer Program as an Individual
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
-Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
+Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/)
 
 ![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
@@ -38,7 +38,7 @@ Cliquez sur la [page de création identifiant Apple](https://appleid.apple.com/)
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## ÉTAPE 4. Rejoignez le programme "Apple Developer Program"
+## ÉTAPE 4. Rejoignez l'Apple Developer Program
 
 * Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
