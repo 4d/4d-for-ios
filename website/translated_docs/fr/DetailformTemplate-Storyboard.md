@@ -25,15 +25,15 @@ Pour que notre formulaire détaillé soit déroulant, la première étape consis
 
 ![Add Scroll View Storyboard](assets/custom-detailform/add-scrollview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
+A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la Scroll vue à 359 et la valeur de sa hauteur à 667. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 0.
 
 ![Scroll View position height and width](assets/custom-detailform/scrollview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
+Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 8, Leading: 8, Top: 0, et Bottom: Multiple) comme suit :
 
 ![Scrollview Constraints](assets/custom-detailform/scrollview-constraints.png)
 
-## Add a Vertical Stack View
+## Ajouter une "Vertical Stack View"
 
 Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
 
