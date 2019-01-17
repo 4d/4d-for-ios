@@ -123,7 +123,7 @@ Sélectionnez les deux libellés Contenu et Titre et ajoutez quatre contraintes 
 
 ![Title and Content labels constraints](assets/custom-detailform/titlelabel-contentlabel-contraints.png)
 
-La partie sur les éléments graphiques est terminée ! All of your constraints are well defined :)
+La partie sur les éléments graphiques est terminée ! Toutes vos contraintes sont maintenant bien définies :)
 
 ## Comment entrer des données dans vos cellules
 
