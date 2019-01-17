@@ -7,11 +7,11 @@ sidebar_label: Restricted queries
 
 **OBJECTIFS**
 
-* Defining basic and user information-based query filters to display filtered content in the generated iOS app</div> <div class = "prerequisites"> 
+* Définir des filtres de recherche fondés sur des informations de base et sur l’utilisateur pour afficher le contenu filtré dans l’application iOS générée</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -26,7 +26,7 @@ Before we begin, be sure to download the **Starter Project** which includes: * A
     
 
 <a class="button"
-href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">STARTER PROJECT</a>
+href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">PROJET STARTER</a>
 
   </p>
 </div>
