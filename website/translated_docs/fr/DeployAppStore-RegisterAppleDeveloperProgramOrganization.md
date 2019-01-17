@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Program as an Organization
 
 **OBJECTIFS**
 
-* Inscrivez-vous au programme "Apple Developer Program" en tant qu'organisation pour publier votre application dans l'**App Store**.</div> 
+* Inscrivez-vous à l'Apple Developer Program en tant qu'organisation pour publier votre application dans l'**App Store**.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -57,7 +57,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ## ÉTAPE 6. Rejoignez l'Apple Developer Program
 
-* Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) au "Apple Developer Program". 
+* Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Program. 
 
 ![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
@@ -74,9 +74,9 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Enroll as an organization](assets/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
-* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que le développeur est habilité à lier son organisation aux accords juridiques relatifs au "Apple Developer Program".
-* Généralement, Apple appelle pour vérifier que le contact principal existe et qu'il a demandé à s'inscrire au "Apple Developer Enterprise Program".
-* Vous recevrez ensuite un autre e-mail vous invitant à compléter l’inscription.
+* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que le développeur est habilité à lier son organisation aux accords juridiques relatifs à l'Apple Developer Program.
+* Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à s'inscrire à l'Apple Developer Enterprise Program.
+* Vous recevrez ensuite un autre e-mail vous invitant à finaliser l’inscription.
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
