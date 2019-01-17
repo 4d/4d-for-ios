@@ -5,7 +5,7 @@ sidebar_label: Restricted queries
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
 * Defining basic and user information-based query filters to display filtered content in the generated iOS app</div> <div class = "prerequisites"> 
 
