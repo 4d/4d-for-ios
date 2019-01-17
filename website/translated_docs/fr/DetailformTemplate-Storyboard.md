@@ -129,31 +129,31 @@ You're done with graphical elements! All of your constraints are well defined :)
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et accédez à la zone User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
-* **Type**: Always ```String``` 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Type **: Toujours ```String``` 
+* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-detailform/identity-inspector-storyboard.png)
 
-### Labels
+### Libellés
 
-For the **first label** we are going to add several lines mainly to display icons:
+Pour le **premier libellé**, nous allons ajouter plusieurs lignes, principalement pour afficher des icônes : 
 
 ![Label1 User Defined Runtime Attributes](assets/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to ```IconLabel``` and check the **Inherit Module From Target** checkbox as we can see below:
+Vous devez également définir la Classe sur ```IconLabel``` et cocher la case **Inherit Module From Target**, tel qu'illustré ci-dessous :
 
 ![Label1 Custom Class](assets/custom-detailform/label1-custom-class.png)
 
-Select the **second label** and add a row in the Defined Runtime Attributes:
+Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD___```
-* **Type**: ```String``` 
-* **Value**: ```___FIELD_BINDING_TYPE___```
+* **Key Path **: ```bindTo.record.___FIELD___```
+* **Type** : ```String``` 
+* **Value** : ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -215,46 +215,46 @@ Not bad for a first attempt! :)
 
 Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
 
-### Customize your app
+### Personnaliser votre application
 
-We're going to add a corner radius to the Image View, as well as Field View 2.
+Nous allons ajouter un rayon de bec à l'Image View et à Field View 2.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
-* **Value**: ```12```
+* **Key Path** : ```cornerRadius```
+* **Type** : ```Number``` 
+* **Value **: ```12```
 
-and
+et
 
-* **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
-* **Value**: Check the box
+* **Key Path** : ```layer.masksToBounds```
+* **Type** : ```Boolean``` 
+* **Value** : Cochez la case
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
 
-Next, select Field View 2 and add the following:
+Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
 
-* **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
-* **Value**: ```12```
+* **Key Path** : ```cornerRadius```
+* **Type **: ```Number``` 
+* **Value** : ```12```
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)
 
-You can now build your project from the project editor!
+Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 ![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
 
-## Where to go from here?
+## Que faire ensuite ?
 
-In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
+Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires détaillés. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-detailform/CustomDetailFormFinalTemplate.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
+href="../assets/custom-detailform/CustomDetailFormFinalTemplate.zip">MODÈLE FINAL DE FORMULAIRE DÉTAILLÉ PERSONNALISÉ</a>
 
   </p>
 </div>
