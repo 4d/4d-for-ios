@@ -35,7 +35,7 @@ Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constrain
 
 ## Ajouter une "Vertical Stack View"
 
-Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
+Glissez et déposez un "Vertical Stack View" depuis la **bibliothèque d'objets** vers la "Scroll view". Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
 
 ![Add stackview Storyboard](assets/custom-detailform/add-vertical-stackview-storyboard.png)
 
