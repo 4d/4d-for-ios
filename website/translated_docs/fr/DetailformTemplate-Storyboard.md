@@ -159,7 +159,7 @@ Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defin
 
 ## Ajouter des TAGS aux cellules dupliquées
 
-Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
+Champ de vue 2 inclut des éléments qui seront dupliqués, pour vous permettre d'avoir autant de champs que d'éléments définis dans l’éditeur de projet.
 
 Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si vous sélectionnez Field View 2 et que vous accédez au **Identity inspector**, vous visualiserez ses identifiants d'objets :
 
@@ -203,9 +203,9 @@ Les deux libellés contiennent des contraintes que nous devons également identi
 
 ![Tag constraints](assets/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Tout comme pour View Field 2 et le champ, obtenez tous les identifiants d'objets des **7 Contraintes** depuis l’Identity Inspector et remplacez-les par : **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
 
-Go to your project editor and select your detail template from the Forms section, then click on Build.
+Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire détaillé depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
 ![Custom detail template forms](assets/custom-detailform/custom-detail-template-forms.png)
 
