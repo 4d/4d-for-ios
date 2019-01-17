@@ -101,11 +101,11 @@ Dans le **Size inspector**, remplacez la valeur **Default** de l'Intrinsic Size 
 
 ### Libellé Titre
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
+Dans la **bibliothèque d'objets**, glissez-déposez un **Libellé** dans Field View 2 et définissez la largeur sur 342 et la hauteur sur 22. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
 
 ![Add label](assets/custom-detailform/add-label1-storyboard.png)
 
-Double-cliquez sur le libellé et nommez-le "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Double-cliquez sur le libellé et nommez-le "```___FIELD_LABEL___```". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 18.0** et la couleur **BackgroundColor** :
 
 ![Title label font and color](assets/custom-detailform/title-label-font-and-color.png)
 
@@ -115,7 +115,7 @@ Dupliquez le libellé Titre et définissez la largeur du libellé dupliqué sur 
 
 ![Add label](assets/custom-detailform/add-label2-storyboard.png)
 
-Double-cliquez sur le libellé et nommez-le "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Double-cliquez sur le libellé et nommez-le "```<___FIELD_LABEL___>```". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 20.0** et la couleur **Black Color** :
 
 ![Content label font and color](assets/custom-detailform/content-label-font-and-color.png)
 
@@ -161,7 +161,7 @@ Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defin
 
 Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
 
-Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si vous sélectionnez Field View 2 et que vous accédez au **Identity inspector**, vous visualiserez ses identifiants d'objets :
 
 ![Object ID Storyboard](assets/custom-detailform/object-id-storyboard.png)
 
@@ -209,11 +209,11 @@ Go to your project editor and select your detail template from the Forms section
 
 ![Custom detail template forms](assets/custom-detailform/custom-detail-template-forms.png)
 
-Not bad for a first attempt! :)
+Ce n'est pas si mal pour un premier essai ! :)
 
 ![iPhone Demo](assets/custom-detailform/iphone-demo.png)
 
-Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
+Field View 2 a bien été dupliqué ! Let's see if we can make this app a bit more interesting!
 
 ### Personnaliser votre application
 
