@@ -1,33 +1,33 @@
 ---
 id: multi-criteria-search
-title: Multi-criteria search
-sidebar_label: Multi-criteria search
+title: Recherche multicritères
+sidebar_label: Recherche multicritères
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Activate the multi-criteria search in your own templates</div> 
+* Activer la recherche multicritères dans vos propres modèles</div> 
 
-This feature is activated by default in all 4D for iOS-generated templates.
+Cette fonctionnalité est activée par défaut dans tous les modèles générés par 4D for iOS.
 
-## Template svg file
+## Fichier Template svg
 
-* To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
+* Pour activer cette fonctionnalité dans vos propres modèles, vous devez remplacer les lignes suivantes de votre fichier template.svg :
 
     <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
     
     
 
-to:
+par :
 
     <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
     
     
 
-There you go! The class is the only thing you need to modify for the multi-search criteria to be active.
+Et voilà ! La classe est la seule chose que vous devez modifier pour activer la recherche multicritères.
 
-## Project editor
+## Éditeur de projet
 
 Next, you can go to the project editor and drop several fields into the list form search area.
 
