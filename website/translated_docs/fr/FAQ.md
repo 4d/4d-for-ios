@@ -105,67 +105,67 @@ Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 4D for iOs vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
 
-For now, the best way to deal with large amounts of data is to create an intermediate table and filter the results you want to display.
+Pour l’instant, la meilleure façon de traiter de grandes quantités de données consiste à créer une table intermédiaire et de filtrer les résultats que vous souhaitez afficher.
 
-Future versions of 4D for iOS will include a way to apply filters so only the required information is displays.
-
-</details>
-
-<details>
-<summary>
-<strong>Can I modify and update data from my iOS app?</strong>
-</summary>
-
-For now, 4D for iOS allows you to build read-only apps.
-
-Future versions will allow you to add and modify your records right from your iOS app and synchronize your data with the server.
+Les prochaines versions de 4D for iOS incluront un moyen d’appliquer des filtres afin que seule l’information requise s'affiche.
 
 </details>
 
 <details>
 <summary>
-<strong>Can I reload only the records that have been modified?</strong>
+<strong>Puis-je modifier et mettre à jour les données de mon application iOS ?</strong>
 </summary>
 
-When you reload data, all your data is downloaded to replace the existing data.
+Pour l’instant, 4D for iOS vous permet de créer des applications en lecture seule.
 
-Incremental synchronization is planned for a future release.
+Les prochaines versions vous permettront d’ajouter, de modifier vos enregistrements directement à partir de votre application iOS et de synchroniser vos données avec le serveur.
 
 </details>
 
 <details>
 <summary>
-<strong>Where is my data actually stored?</strong>
+<strong>Puis-je recharger uniquement les enregistrements qui ont été modifiés ?</strong>
 </summary>
 
-Your data is stored locally on your iOS device. This allows you to access your data in offline mode.
+Lorsque vous rechargez vos données, toutes vos données sont téléchargées pour remplacer les données existantes.
+
+La synchronisation incrémentielle sera prévue dans une prochaine version.
 
 </details>
 
 <details>
 <summary>
-<strong>Can I use related tables in 4D for iOS?</strong>
+<strong>Où sont stockées mes données ?</strong>
 </summary>
 
-We know that you use a lot related tables for your business applications and we're working on accessing related tables for a future 4D for iOS release.
+Vos données sont stockées localement sur vos appareils iOS. Cela vous permettra d'accéder à vos donnée en mode hors ligne.
 
 </details>
 
 <details>
 <summary>
-<strong>Can I use calculated fields in 4D for iOS?</strong>
+<strong>Puis-je des tables reliées dans 4D for iOS ?</strong>
 </summary>
 
-You can create pre-calculated fields in 4D and publish them from the [Structure section](structure.html) of the 4D for iOS project editor.
+Conscients que vous utilisez souvent des tables reliées pour vos applications commerciales, nous travaillons sur l'accessibilité des tables reliées pour une prochaine sortie de 4D for iOS.
 
 </details>
 
 <details>
 <summary>
-<strong>Do I need to have images in my database?</strong>
+<strong>Puis-je utiliser des champs calculés dans 4D for iOS ?</strong>
 </summary>
 
-Images are not mandatory, but we highly recommend that you use images to offer the best user experience.
+Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les publier depuis la [section Structure](structure.html) de l'éditeur de projet de 4D for iOS.
+
+</details>
+
+<details>
+<summary>
+<strong>Ai-je besoin d'avoir des images dans ma base de données ?</strong>
+</summary>
+
+Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser pour garantir la meilleure expérience utilisateur.
 
 4D for iOS offers a variety of [list form](list-form-templates.html) and [detail form](detail-form-templates.html) templates. With or without images, with charts...
 
