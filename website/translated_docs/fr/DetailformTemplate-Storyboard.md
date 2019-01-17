@@ -171,13 +171,13 @@ The process is a little bit tricky... Let's begin by opening the storyboard file
 
 ### Field View 2
 
-* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
+* Sélectionnez **Field View 2** et obtenez ses identifiants d'objet à partir de l'Identity Inspector (à droite de l'Interface Builder). Dans notre projet, l'identifiant de Field View 2 est le suivant : **SiX-3H-lNB**.
 
-* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. As you can see, this Object ID is mentioned several times so be careful!
+* Recherchez cet identifiant dans le code xml du storyboard et remplacez-le par **TAG-FD-001** à chaque fois qu'il apparait. Soyez prudent, car, comme vous pouvez le voir, l'identifiant de cet objet est mentionné plusieurs fois !
 
 ![Storyboard xml](assets/custom-detailform/storyboard-xml.png)
 
-Save the storyboard xml file. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
+Sauvegardez le fichier xml du storyboard. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
 
 ![Field View 2 Object ID](assets/custom-detailform/field-view-2-object-id.png)
 
@@ -213,7 +213,7 @@ Ce n'est pas si mal pour un premier essai ! :)
 
 ![iPhone Demo](assets/custom-detailform/iphone-demo.png)
 
-Field View 2 a bien été dupliqué ! Let's see if we can make this app a bit more interesting!
+Field View 2 a bien été dupliqué ! Voyons comment rendre cette application un peu plus intéressante !
 
 ### Personnaliser votre application
 
