@@ -51,11 +51,11 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 ## ÉTAPE 5. Inscrivez-vous en tant que développeur
 
-Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur. * Cliquez sur le bouton **Start your Enrollment**. * Lisez et acceptez le contrat "Apple Developer Agreement". * Cliquez sur **Submit**.
+Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur. * Cliquez sur le bouton **Start your Enrollment**. * Lisez et acceptez les termes du contrat "Apple Developer Agreement". * Cliquez sur **Submit**.
 
 ![Register as a developer](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## ÉTAPE 6. Rejoignez le programme "Apple Developer Program"
+## ÉTAPE 6. Rejoignez l'Apple Developer Program
 
 * Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) au "Apple Developer Program". 
 
@@ -74,7 +74,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Enroll as an organization](assets/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
-* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois qu'Apple reçoit la demande d’inscription, on s'assure que le développeur est habilité à lier son organisation aux accords juridiques relatifs au "Apple Developer Program".
+* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que le développeur est habilité à lier son organisation aux accords juridiques relatifs au "Apple Developer Program".
 * Généralement, Apple appelle pour vérifier que le contact principal existe et qu'il a demandé à s'inscrire au "Apple Developer Enterprise Program".
 * Vous recevrez ensuite un autre e-mail vous invitant à compléter l’inscription.
 
