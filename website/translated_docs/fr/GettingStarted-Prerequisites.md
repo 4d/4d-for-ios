@@ -1,9 +1,9 @@
 ---
 id: prerequisites
-title: Prerequisites
-sidebar_label: Prerequisites
+title: Conditions préalables
+sidebar_label: Conditions préalables
 ---
-## Software requirements
+## Configuration logicielle requise
 
 * 4D Developer Pro v17 R2 64-bit (Development)
 * 4D Server v17 R2 64-bit (Deployment) 
