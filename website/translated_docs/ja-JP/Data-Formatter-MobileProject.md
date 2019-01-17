@@ -5,17 +5,17 @@ sidebar_label: モバイルプロジェクトを開く
 ---
 セクション内のラベル & アイコンを見ると、フィールドプロパティにおいて、新しくフォーマッターカラムが追加されているのが分かります:
 
-![Data formatter labels icons](assets/data-formatter/data-formatter-labels-icons.png)
+![データフォーマッターラベルアイコン](assets/data-formatter/data-formatter-labels-icons.png)
 
-ここから、必要に応じて適切なフォーマットを選択することができます。 Let's define the Available Credit field as a Currency:
+ここから、必要に応じて適切なフォーマットを選択することができます。 Available Credit フィールドを、通貨として定義してみましょう:
 
-![Available credit currency](assets/data-formatter/available-credit-currency.png)
+![利用可能なクレジットの通貨](assets/data-formatter/available-credit-currency.png)
 
-Let's do the same process for all of the other fields:
+他のフィールドに対しても、同じように処理してみましょう:
 
-* Set Current Balance as a **Currency $**
-* Set Percent Used as a **Percentage**
-* Set Credit Limit as a **No or Yes**
-* Set Credit Date as a **Short Date**
+* Current Balance を**Currency $** に設定
+* Percent Used を**Percentage** に設定
+* Credit Limit を**No or Yes** に設定
+* Credit Date を**Short Date** に設定
 
-![Select field formatters](assets/data-formatter/select-field-formatters.png)
+![フィールドフォーマッターを選択](assets/data-formatter/select-field-formatters.png)
