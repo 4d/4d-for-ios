@@ -48,36 +48,36 @@ No. You must develop on macOS, as we need XCode to compile the final application
 <strong>Ai-je besoin d'un Web Server 4D pour exécuter 4D for iOS ?</strong>
 </summary>
 
-No – 4D for iOS is included in 4D Server v17 R2 and up.
+Non – 4D for iOS est inclus dans 4D Server v17 R2 et dans les versions plus récentes.
 
 </details>
 
 <details>
 <summary>
-<strong>Is there a test or evaluation license available?</strong>
+<strong>Existe-t-il une licence de test ou d’évaluation ?</strong>
 </summary>
 
-If you already have a 4D Developer Pro or 4D Server license for 4D v17 R2 or newer, 4D for iOS is included.
+Si vous avez déjà une licence 4D Developer Pro ou 4D Server de 4D v17 R2 ou de versions plus récentes, 4D for iOS est inclus.
 
-If you're not a 4D Partner or don't participate in the 4D Maintenance program, you have to wait for 4D v18.
+Si vous n’êtes pas un partenaire 4D ou si vous ne participez pas au programme 4D Maintenance, vous devez attendre la sortie de 4D v18.
 
 </details>
 
 <details>
 <summary>
-<strong>What 4D license do I need to develop with 4D for iOS?</strong>
+<strong>Quelle licence 4D dois-je utiliser avec 4D for iOS ?</strong>
 </summary>
 
-You need a 4D Developer Pro v17 R2 (macOS) license to develop 4D for iOS apps.
+Vous avez besoin d’une licence 4D Developer Pro v17 R2 (macOS) pour développer des applications 4D for iOS.
 
 </details>
 
 <details>
 <summary>
-<strong>What 4D license do I need to deploy apps created with 4D for iOS?</strong>
+<strong>Quelle licence 4D dois-je utiliser pour déployer des applications créées avec 4D for iOS ?</strong>
 </summary>
 
-You need a 4D Server (macOS or Windows) v17 R2 or newer license to deploy 4D for iOS apps.
+Vous avez besoin d’une licence 4D Server (macOS ou Windows) v17 R2 ou d'une licence plus récente pour déployer des applications 4D for iOS.
 
 There's no additional license needed. Your 4D for iOS apps will share the same licenses as those for 4D Remote (client).
 
