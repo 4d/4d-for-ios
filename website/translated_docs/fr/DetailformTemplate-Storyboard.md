@@ -157,7 +157,7 @@ Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defin
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
 
-## Add TAGS to the cells to be duplicated
+## Ajouter des TAGS aux cellules dupliquées
 
 Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
 
@@ -165,9 +165,9 @@ Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si 
 
 ![Object ID Storyboard](assets/custom-detailform/object-id-storyboard.png)
 
-In order to tell the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
+Pour informer l'éditeur de projet que tous les éléments compris dans cette vue seront dupliqués, nous devons ajouter TAG à chaque élément et à chaque contrainte.
 
-The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
+Le processus est un peu délicat... Nous allons commencer par ouvrir le fichier storyboard avec l'éditeur de code de votre choix !
 
 ### Field View 2
 
@@ -177,29 +177,29 @@ The process is a little bit tricky... Let's begin by opening the storyboard file
 
 ![Storyboard xml](assets/custom-detailform/storyboard-xml.png)
 
-Sauvegardez le fichier xml du storyboard. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
+Sauvegardez le fichier xml du storyboard. Comme vous pouvez le voir, l'identifiant d'objet de Field View 2 a été modifié dans le storyboard dans Xcode :
 
 ![Field View 2 Object ID](assets/custom-detailform/field-view-2-object-id.png)
 
-### First label
+### Premier libellé
 
-* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
+* Obtenez l'identifiant d'objet du **premier libellé** à partir de l'Identity Inspector et remplacez-le par **TAG-FD-002** chaque fois qu’il apparaît dans le code xml du storyboard.
 
 ![Label 1 Object ID](assets/custom-detailform/label1-object-id.png)
 
-Done with the first label!
+C'est terminé pour le premier libellé !
 
-### Second label
+### Deuxième libellé
 
-* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
+* Obtenez ensuite l'identifiant d'objet du **deuxième libellé** à partir de l'Identity Inspector et remplacez-le par **TAG-FD-003** chaque fois qu’il apparaît dans le code xml du storyboard.
 
 ![Label 2 Object ID](assets/custom-detailform/label2-object-id.png)
 
-Voilà!
+Et voilà !
 
-### Constraints
+### Contraintes
 
-Both labels have constraints that we need to tag, too:
+Les deux libellés contiennent des contraintes que nous devons également identifier :
 
 ![Tag constraints](assets/custom-detailform/duplicated-constraints.png)
 
