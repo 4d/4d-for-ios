@@ -55,75 +55,75 @@ Pour ajouter des espaces entre les vues, sélectionnez votre Stack View et affec
 
 ![Stackview spacing](assets/custom-detailform/stackview-spacing.png)
 
-Select both **Field View 1** and **Field View 2** and in the **Size inspector panel** (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.
+Sélectionnez **Field View 1** et **Field View 2** et définissez, dans le **Size inspector** (à droite de l'Interface Builder), la valeur de la largeur sur 359 et celle de la hauteur à 97.
 
 ![views position height and width](assets/custom-detailform/views-position-height-width-storyboard.png)
 
-Select **Field View 1** add three constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, and Top: 0):
+Sélectionnez **Field View 1** et ajoutez trois contraintes en cliquant sur le bouton **Add New Constraints button** (Trailing: 0, Leading: 0, et Top: 0) :
 
 ![Field Views constraints](assets/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a contraint:
+Pour que Stack View et Scroll View soient de la même largeur, vous devez ajouter une contrainte :
 
-* Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+* Appuyez sur Ctrl et glissez la Stack View vers la Scroll View. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles. Sélectionnez "Equal Width" !
 
 ![Stack View Equal Width](assets/custom-detailform/stackview-equal-width-scrollview.png)
 
-Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
+Ajoutez ensuite quatre contraintes avec la Stack View en cliquant sur le bouton **Add New Constraints** (Trailing: 0, Leading: 0, Top: 8, et Bottom: 0) comme suit :
 
 ![Stackview constraints](assets/custom-detailform/stackview-constraints.png)
 
-Here's what you'll see when constraints have been added :
+Voilà ce qui s'affichera lorsque les contraintes auront été ajoutées : 
 
 ![Stackview final constraints](assets/custom-detailform/stackview-constraints-final.png)
 
-Now that you have two views in your Stack View and you've defined constraints, let's focus on Field View 1.
+Maintenant que vous disposez de deux vies dans votre Stack View et que vous avez défini les contraintes, concentrons-nous sur Field View 1.
 
-## Add an Image View to Field View 1
+## Ajoutez une Image View au Field View 1
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+A partir de l'**Object library** (la bibiliothèque d'objets), glissez-déposez une **Image View** (une vue d'image) dans Field View 1.
 
 ![Add Image View storyboard](assets/custom-detailform/add-imageview-storyboard.png)
 
-In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. Then set the X value to 0 and the Y value to 0.
+A partir du **Size inspector** (à droite de l’Interface Builder), définissez la largeur de l'Image View sur 359 et la valeur de sa hauteur sur 97. Définissez ensuite la valeur de X sur 0 et la valeur de Y sur 0.
 
 ![Image View position height and width](assets/custom-detailform/imageview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
+Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 0, Leading: 0, Top: 0, et Bottom: 0) comme suit :
 
 ![Image View constraints](assets/custom-detailform/imageview-constraints.png)
 
-In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
+Dans le **Size inspector**, remplacez la valeur **Default** de l'Intrinsic Size par **Placeholder**.
 
 ![Intrinsic size Image View](assets/custom-detailform/intrinsic-size-imageview.png)
 
-## Add Labels to Field View 2
+## Ajouter des libellés au Field View 2
 
-### Title label
+### Libellé Titre
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
+In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
 
 ![Add label](assets/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Double-cliquez sur le libellé et nommez-le "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
 
 ![Title label font and color](assets/custom-detailform/title-label-font-and-color.png)
 
-### Content label
+### Libellé Contenu
 
-Duplicate the Title label and set the duplicate's Width value to 339 and the Height value to 44. Then set the X value to 12 and the Y value to 37.
+Dupliquez le libellé Titre et définissez la largeur du libellé dupliqué sur 339 et sa hauteur sur 44. Définissez ensuite la valeur de X sur 12 et la valeur de Y sur 37.
 
 ![Add label](assets/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Double-cliquez sur le libellé et nommez-le "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
 
 ![Content label font and color](assets/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four contraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Sélectionnez les deux libellés Contenu et Titre et ajoutez quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 8, Leading: Multiple, Top: Multiple, et Bottom: Multiple) comme suit :
 
 ![Title and Content labels constraints](assets/custom-detailform/titlelabel-contentlabel-contraints.png)
 
-You're done with graphical elements! All of your constraints are well defined :)
+La partie sur les éléments graphiques est terminée ! All of your constraints are well defined :)
 
 ## Comment entrer des données dans vos cellules
 
