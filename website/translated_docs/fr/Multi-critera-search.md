@@ -29,14 +29,14 @@ Et voilà ! La classe est la seule chose que vous devez modifier pour activer l
 
 ## Éditeur de projet
 
-Next, you can go to the project editor and drop several fields into the list form search area.
+Vous pouvez allez ensuite dans l’éditeur de projet et déposer plusieurs champs dans la zone de recherche du formulaire liste.
 
 ![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Click on the search field's delete button to modifiy the associated field list.
+Cliquez sur le bouton "delete" du champ de recherche pour modifier la liste des champs associés.
 
-A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
+Un menu s’affichera pour vous permettre de **retirez champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
 
 ![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Congratulations! You can now base your search(es) on multiple fields in your 4D for iOS app!
+Félicitations ! Vous pouvez maintenant baser votre ou vos recherche(s) sur plusieurs champs dans votre application 4D for iOS !
