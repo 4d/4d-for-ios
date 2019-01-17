@@ -35,23 +35,23 @@ Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constrain
 
 ## Ajouter une "Vertical Stack View"
 
-Glissez et déposez un "Vertical Stack View" depuis la **bibliothèque d'objets** vers la "Scroll view". Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
+Glissez et déposez un "Vertical Stack View" depuis la **bibliothèque d'objets** vers la "Scroll view". A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez ensuite la largeur de la vue sur 359 et la valeur de la hauteur sur 202. Enfin, définissez la valeur de X sur 0 et la valeur de Y sur 8.
 
 ![Add stackview Storyboard](assets/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and contraints later.
+La hauteur et la largeur de Stack View étant définies par les éléments qu'elle contient, nous allons configurer les dimensions et les contraintes plus tard.
 
-## Add Views to the Stack Views
+## Ajouter des vues au Stack Views
 
-Drag and drop a view from the **Object library** to the Stack View you've just added to your storyboard. Let's name it **Field View 1**.
+Glissez et déposez une vue depuis la **bibliothèque d'objets** vers la Stack View que vous venez d’ajouter à votre Storyboard. Nommons-la **Field View 1**.
 
 ![Add Field View 1](assets/custom-detailform/add-view1-storyboard.png)
 
-Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
+Faites ensuite glisser directement une autre vue depuis la **bibliothèque d'objets** et déposez-la dans le Document Outline au même niveau que Field View 1 (pour l’intégrer à la Stack View) et nommez-la **Field View 2**.
 
 ![Add Field View 2](assets/custom-detailform/add-view2-storyboard.png)
 
-To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
+Pour ajouter des espaces entre les vues, sélectionnez votre Stack View et affectez-lui une valeur d’espacement de 8 (dans l’Attributes Inspector).
 
 ![Stackview spacing](assets/custom-detailform/stackview-spacing.png)
 
@@ -125,7 +125,7 @@ Select the Content and Title labels and add four contraints by clicking on the *
 
 You're done with graphical elements! All of your constraints are well defined :)
 
-## How to get data into your cells
+## Comment entrer des données dans vos cellules
 
 ### Image View
 
