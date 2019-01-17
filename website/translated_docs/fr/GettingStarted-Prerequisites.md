@@ -5,36 +5,36 @@ sidebar_label: Conditions préalables
 ---
 ## Configuration logicielle requise
 
-* 4D Developer Pro v17 R2 64-bit (Development)
-* 4D Server v17 R2 64-bit (Deployment) 
-* 4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
-* The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). Install this software if you want to automate app installation on your physical device.
+* 4D Developer Pro v17 R2 64 bits (développement)
+* 4D Server v17 R2 64 bits (déploiement) 
+* 4D for iOS en R2 v17 est conçu et certifié pour Xcode 9.4.1.
+* La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (nécessitant un macOS 10.13.6 ou 10.14)
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
 
-## Hardware requirements
+## Configuration matérielle requise
 
-* 8GB of RAM (Minimum recommended)
+* 8 Go de RAM (Minimum recommandé)
 
 ## Configuration
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
 
 ![Use object notation](assets/prerequisites/Use-object-notation.png)
 
-*Unicode mode: Used to enable or disable the Unicode mode for the current database.*
+*Mode Unicode : permet d’activer ou de désactiver le mode Unicode pour la base de données courante.*
 
-* In the 4D Database Settings, display the Web/4D Mobile page and check **Activate 4D Mobile service**.
+* Dans les Propriétés de la base 4D, affichez la page Web/4D Mobile et cochez la case **Activer le service 4D Mobile**.
 
 ![4D Mobile services](assets/prerequisites/4D-Mobile-services.png)
 
-* Tables and fields must be **exposed with 4D Mobile Service**. Display the Table Inspector in the Structure Editor and select the table to modify. By default, **Expose with 4D Mobile Service** is enabled.
+* Les tables et les champs doivent être **Exposé[s] avec le service 4D Mobile**. Affichez l'Inspecteur de table dans l’éditeur de structure et sélectionnez la table à modifier. Par défaut, l'option **Exposer avec le service 4D Mobile** est cochée.
 
 ![Expose table fields](assets/prerequisites/Expose-table-fields-4D-mobile.png)
 
-* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
+* Les ports HTTP et HTTPS doivent être correctement configurés. HTTPS est obligatoire pour le déploiement de 4D for iOS.
 
 ![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
-* Your Web Server must be started. It's available from the Run menu:
+* Votre serveur Web doit être lancé au démarrage. Il est accessible depuis le menu Exécution :
 
 ![Start web server](assets/prerequisites/Start-web-server.png)
