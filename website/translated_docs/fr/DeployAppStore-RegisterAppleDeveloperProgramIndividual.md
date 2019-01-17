@@ -32,7 +32,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Vous pouvez vous inscrire [ici](https://developer.apple.com/account/) en tant que développeur .
 
-* Lisez et acceptez le contrat "Apple Developer Agreement".
+* Lisez et acceptez les terme du contrat "Apple Developer Agreement".
 
 * Cliquez sur **Submit**.
 
@@ -53,7 +53,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 ![Start your Enrollment](assets/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
 * Remplissez le formulaire
-* Lisez et acceptez le contrat de licence "Apple Developer Program License Agreement".
+* Lisez et acceptez les termes du contrat de licence "Apple Developer Program License Agreement".
 * Cliquez sur **Continue**.
 
 ![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
