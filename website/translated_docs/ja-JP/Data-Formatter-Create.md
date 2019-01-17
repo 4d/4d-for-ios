@@ -181,9 +181,9 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ## モバイルプロジェクトを開く
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Task Management.4dbase を4D 開き、メニューから ファイル > 開く > モバイルプロジェクト... を選択し、 **Tasks** を開きます。
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+次に、プロジェクトエディター内の**ラベル & アイコンセクション** を開きます。 All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
 * Select the **integerToString** formatter for the **Job field**
 * Select the **textToString** formatter for the **Country field**
