@@ -9,14 +9,14 @@ Regardons de plus près les options de l'onglet Génération :
 
 * **Créer et exécuter :** Lance l'application dans le Simulateur.
 
-* **iPhone X:** Le simulator par défaut. Clicking here will reveal a dropdown list with all available simulators.
+* **iPhone X:** Le simulator par défaut. En cliquant ici vous afficherez une liste déroulante des simulateurs disponibles.
 
-* **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
+* **Projet :** Affiche une liste déroulante vous permettant d' **ouvrir le dossier du projet** ou le **dossier produit**, ou **d'ouvrir le produit avec Xcode**.
 
-* **Install:** Installs the application on a connected device.
+* **Installer :** Installe l’application sur un appareil connecté.
 
-Select a Simulator on which to build and test your app, and press the **Build and Run** button.
+Sélectionnez un simulateur dans lequel vous générerez et testerez votre application, puis cliquez sur le bouton **Créer et exécuter**.
 
 ![BuildTab](assets/project-editor/Build-Tab-4D-for-iOS.png)
 
-You're now ready to explore 4D for iOS on your own and build your own iOS project!
+Vous êtes maintenant prêt à explorer vous-même 4D for iOS et à créer votre propre projet iOS !
