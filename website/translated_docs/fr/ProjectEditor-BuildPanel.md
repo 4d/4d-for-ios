@@ -1,7 +1,7 @@
 ---
 id: build-panel
-title: Build Panel
-sidebar_label: Build Panel
+title: Onglet Génération
+sidebar_label: Onglet Génération
 ---
 When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
 
