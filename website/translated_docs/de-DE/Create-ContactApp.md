@@ -54,7 +54,7 @@ Klicken Sie auf **Continue**.
 Hier konfigurieren Sie die Grundinformationen zu Ihrer App:
 
 * **Organization:** Geben Sie den Namen Ihrer Firma und die Kennung der Anwendung ein (z. B. “My Company” und "com.MyCompany").
-* **Product:** Geben Sie den Namen Ihrer app. ein. Wir nennen dieses einen "Kontakt".
+* **Product:** Geben Sie den Namen Ihrer app. ein. Wir nennen sie "Contact".
 * **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
 * **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
 * **Icons:** Drag and drop an icon for your app into the icon area.
