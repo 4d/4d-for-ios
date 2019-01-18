@@ -35,7 +35,7 @@ href="../assets/contact-app/ContactStarter.zip">STARTER-PROJEKT</a>
 
 ## SCHRITT 2. Projekt erstellen
 
-Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
+Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. From 4D, go to **New > Mobile project**.
 
 Give your project a name and click **Create**.
 
