@@ -1,7 +1,7 @@
 ---
 id: xcode
 title: Xcode
-sidebar_label: What is Xcode?
+sidebar_label: Qu'est-ce que Xcode ?
 ---
 ## Qu'est-ce que Xcode ?
 
@@ -15,12 +15,12 @@ Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store
   <p>
     
 
-<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Afficher dans Mac App Store </a>
 
   </p>
 </div>
 
-Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
+Les développeurs enregistrés peuvent télécharger des aperçu des sorties ainsi que les versions antérieures de la suite 4D via le site Web d'Apple Developer.
 
 🔗 https://developer.apple.com/download/more/ 🔗 https://developer.apple.com/xcode/
 
