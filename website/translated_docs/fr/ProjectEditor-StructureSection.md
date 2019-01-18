@@ -3,7 +3,7 @@ id: structure
 title: Structure
 sidebar_label: Structure
 ---
-This section displays all of your database tables and fields exposed by 4D Mobile Service.
+Cette section affiche tous les champs et tables de votre base de données exposés par 4D Mobile Service.
 
 ![Structure section](assets/project-editor/Structure-section-4D-for-iOS.png)
 
