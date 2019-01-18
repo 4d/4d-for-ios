@@ -55,32 +55,32 @@ In the **Filter query** field enter:
 
 *This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName*</div> 
 
-### Filtering with user information filters
+### Filtrer à l'aide d'informations utilisateur
 
-You can define filters depending on user information which you define in the Mobile App Authentication method:
+Vous pouvez établir des filtres en fonction de l'information utilisateur que vous définissez dans la méthode Mobile App Authentication :
 
-* As with query filters, you first need to define your query in the appropriate field.
+* Concernant les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
-* To specify that the query depends on user information, just add ":" and the `userinfo` object key.
+* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" et la clé de l'objet `userinfo`.
 
-* Then, validate your query. This must be done each time you modify it.
+* Validez ensuite votre recherche. This must be done each time you modify it.
 
 * Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
 
 When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div class = "tips"> 
 
-**EXAMPLE:**
+**EXEMPLE :**
 
-In the **Filter query** field enter:
+Dans le champ **Filtre de recherche**, entrez :
 
 CityName = :city
 
-In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
+Dans la méthode de base de données [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) , entrez :
 
     $response.userInfo:=New object("city";"Paris")
 
-*This query allows you to display only the records which include "Paris" as CityName*</div> <div class = "tips"> 
+*Cette requête vous permet d’afficher uniquement les enregistrements incluant « Paris » dans la catégorie CityName recherchée*</div> <div class = "tips"> 
 
-**NOTE:**
+**NOTE :**
 
-You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+Vous trouverez toutes les règles de syntaxe de recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
