@@ -3,7 +3,7 @@ id: data
 title: Données
 sidebar_label: Données
 ---
-This section allows you to: * define the data to include in your app (**Current data file** or **Production server data file**), * automatically **regenerate data** each time you build your app or generate it manually, and * filter data to vizualize in your app depending on **general filter queries** or **user information**.
+Cette section vous permet : * de définir les données à inclure dans votre application (**fichier de données courant** ou **Fichier de données du serveur de production(**), * de **regénérer automatiquement les données** chaque fois que vous générez votre application ou que vous la générez manuellement, et * de filtrer des données à visualiser dans votre application selon les **filtres de recherche** ou les **informations utilisateur**.
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -13,21 +13,21 @@ This section allows you to: * define the data to include in your app (**Current 
 
 Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
-To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This key file key.mobileapp is available next to data in the MobileApps folder. Then the developer can select this key file from the project editor to access to the production server data.
+Pour sécuriser l'accès au serveur de production, un **fichier clé** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier clé key.mobileapp est disponible dans le dossier MobileApps. Le développeur peut ensuite sélectionnez ce fichier clé dans l’éditeur de projet pour accéder aux données du serveur de production.
 
-The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
+L'**URL de production** doit être saisi depuis la **section Publication** si vous choisissez d’obtenir des données à partir de votre serveur de production.
 
-Here, you can also check if the server is available and activate it if necessary.<div class = "tips"> 
+Ici, vous pouvez également vérifier si le serveur est disponible et l’activer si nécessaire.<div class = "tips"> 
 
 **NOTE**
 
-* Tips are available to help you ensure the server works correctly.
-* You can directly access the Publishing panel to define your production URL.
-* To access production server data, a key file is required for secure communications.</div> 
+* Il existe des astuces pour vous assurer que le serveur fonctionne correctement.
+* Vous pouvez accéder directement panneau Publication pour définir votre URL de production.
+* Pour accéder aux données du serveur de production, un fichier clé est requis pour sécuriser les communications.</div> 
 
-You can also define whether or not you want to **Regenerate data systematically** at each build.
+Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate button**.
+Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable dans la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le **bouton Regénérer**.
 
 ## Panneau des propriétés
 
