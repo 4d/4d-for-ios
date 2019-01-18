@@ -3,13 +3,13 @@ id: build-panel
 title: Onglet Génération
 sidebar_label: Onglet Génération
 ---
-When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
+Lorsque votre application est prête, vous pouvez la lancer dans le Simulateur pour la tester.
 
-Let’s take a closer look at the Build tab options:
+Regardons de plus près les options de l'onglet Génération :
 
-* **Build and Run:** Launches the app in the Simulator.
+* **Créer et exécuter :** Lance l'application dans le Simulateur.
 
-* **iPhone X:** The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
+* **iPhone X:** Le simulator par défaut. Clicking here will reveal a dropdown list with all available simulators.
 
 * **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
 
