@@ -7,7 +7,7 @@ sidebar_label: Distribuez votre application interne
 
 **OBJECTIFS**
 
-* Téléchargez votre application sur un serveur sécurisé</div> 
+* Télécharger votre application sur un serveur sécurisé</div> 
 
 ## ÉTAPE 1. Téléchargez votre application<div class = "tips"> 
 
@@ -15,7 +15,7 @@ sidebar_label: Distribuez votre application interne
 
 Vous pouvez utiliser n’importe quel service de stockage cloud pour distribuer votre application dès qu’elle est sécurisée (Dropbox, Google Drive, etc.).</div> 
 
-Téléchargez votre application sur un serveur sécurisé:
+Téléchargez votre application sur un serveur sécurisé :
 
 * Ressources (image d'affichage et image en taille réelle)
 * Fichier manifest.plist
