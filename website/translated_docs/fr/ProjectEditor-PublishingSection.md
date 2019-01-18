@@ -1,21 +1,21 @@
 ---
 id: publishing
-title: Publishing
-sidebar_label: Publishing
+title: Publication
+sidebar_label: Publication
 ---
-This is where you define or create your app's: * Web Server Settings * Authentication Mode * Authentication Method
+C’est ici que votre application est définie et créée : * Paramètres du serveur Web * Mode d'authentification * Méthode d’authentification
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
-## Web Server Settings<div class = "tips"> 
+## Paramètres du serveur Web<div class = "tips"> 
 
 **NOTE**
 
-* The Simulator works locally (127.0.0.1 or localhost).
-* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-* If both HTTP and HTTPS are activated, HTTP is used.</div> 
+* Le simulateur fonctionne localement (127.0.0.1 ou localhost).
+* Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
+* Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.</div> 
 
-* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+* Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
 
 * Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
