@@ -64,17 +64,17 @@ Hier konfigurieren Sie die Grundinformationen zu Ihrer App:
 
 ## SCHRITT 5. Sections - Structure
 
-This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
+Hier definieren Sie eine Teilmenge Ihrer Daten (die Tabellen und Felder der Datenbank) zur Bereitstellung auf mobilen Geräten.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
+Für unser Beispiel wählen Sie **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** und **Photo**.<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+* Wir empfehlen dringend, Ihre Primärschlüssel zu veröffentlichen, um jeden Datensatz der Datenbank zu identifizieren.</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. Sections - Icons & Labels
+## SCHRITT 6. Sections - Icons & Labels
 
 Now it's time to define some labels and icons for the selected tables and fields.
 
