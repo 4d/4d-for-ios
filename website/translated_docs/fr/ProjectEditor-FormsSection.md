@@ -5,11 +5,11 @@ sidebar_label: Formulaires
 ---
 La section Formulaires vous permet de sélectionner des modèles de formulaire liste et de formulaires détaillés pour chaque table.
 
-4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.
+4D for iOS fournit différents modèles avec des effets de transition personnalisés pour générer des applications iOS modernes.
 
-Here's the breakdown of this screen, from top to bottom:
+Voici la répartition des éléments de cet écran, de haut en bas :
 
-* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Formulaires Liste et Formulaires détaillés :** permettent de basculer entre les formulaires liste et les formulaires détaillés pour chaque table.
 * **Published tables:** Displays all tables published in the Structure section. 
 * **Available Forms:** Allows switching between template selection and content definition.
 
