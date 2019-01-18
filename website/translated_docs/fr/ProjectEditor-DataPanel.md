@@ -1,7 +1,7 @@
 ---
 id: data
-title: Data
-sidebar_label: Data
+title: Données
+sidebar_label: Données
 ---
 This section allows you to: * define the data to include in your app (**Current data file** or **Production server data file**), * automatically **regenerate data** each time you build your app or generate it manually, and * filter data to vizualize in your app depending on **general filter queries** or **user information**.
 
