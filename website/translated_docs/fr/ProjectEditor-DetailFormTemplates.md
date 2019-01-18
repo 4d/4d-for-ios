@@ -1,7 +1,7 @@
 ---
 id: detail-form-templates
-title: Detail Forms templates
-sidebar_label: Detail Forms templates
+title: Modèles de formulaires détaillés
+sidebar_label: Modèles de formulaires détaillés
 ---
 ![Simple List](assets/templates/Simple-List-Detail-form.gif)
 
