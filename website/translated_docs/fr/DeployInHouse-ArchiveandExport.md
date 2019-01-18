@@ -14,67 +14,67 @@ sidebar_label: Archiver et télécharger votre projet
 
 * Un serveur Web sécurisé
 * Une icône de résolution 57 x 57 px
-* 512 x 512 px icon</div> 
+* Une icône de résolution 512 x 512 px</div> 
 
-## STEP 1. Xcode configuration
+## ÉTAPE 1. Configurez Xcode
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
 Xcode will automatically install required provisioning and certificates.
 
-## STEP 2. Get your Team ID
+## ÉTAPE 2. Obtenez votre Team ID
 
-* Log into your Apple Developer Account. You can find your Team ID in Membership.
+* Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
 ![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## STEP 3. 4D for iOS configuration
+## ÉTAPE 3. Configurez 4D for iOS
 
-* Launch 4D for iOS
+* Lancez 4D for iOS
 
-* On the SECTIONS tab:
+* Dans l’onglet SECTIONS :
     
-    * General: Enter your Team ID.
+    * Général : Entrez votre Team ID.
     
     ![Enterprise-Team-ID](assets/deploy-in-house/Enterprise-Team-ID.png)
     
-    * Publishing: Enter your production URL (HTTPS is mandatory for deployment).
+    * Publication : Entrez votre URL de production (HTTP est obligatoire pour le déploiement).
 
-* On the BUILD tab:
+* Dans l’onglet GÉNÉRATION :
     
-    * Build and Run: Build your project.
+    * Créer et exécuter : Créez votre projet.
 
-## STEP 4. Open your project with Xcode
+## ÉTAPE 4. Ouvrez votre projet avec Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![pen your project with Xcode ](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## STEP 5. Archive your project from Xcode
+## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
-* From Xcode, go to the simulator Menu and select **Generic iOS Device**
+* A partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**
 
 ![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
 
 ![Archive your Project](assets/deploy-in-house/Archive-your-Project.png)
 
-## STEP 6. Export your project
+## ÉTAPE 6. Exportez votre projet
 
-* At the end of the archive process, the Organizer window appears with the archive you just created
+* À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer
 
-* Click **Export**.
+* Cliquez sur **Export**.
 
 ![Export your project](assets/deploy-in-house/Organizer-window-archive.png)
 
-## STEP 7. Select your distribution method
+## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
-* Select **Enterprise** and click **Next**.
+* Sélectionnez **Enterprise** et cliquez sur **Next**.
 
 ![Distribution Method](assets/deploy-in-house/Distribution-Method-selection.png)
 
-## STEP 8. Select your Enterprise distribution options
+## ÉTAPE 8. Sélectionnez les options de distribution de votre entreprise
 
 * You can leave all option boxes checked.
 
@@ -82,7 +82,7 @@ Xcode will automatically install required provisioning and certificates.
 
 * You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
 
-* Click **Next**.
+* Cliquez sur **Next**.
 
 #### What is a manifest?
 
@@ -142,7 +142,7 @@ Here is an example of a manifest.plist file :
     </plist>
     
 
-## STEP 9. Distribution manifest information
+## ÉTAPE 9. Distribution manifest information
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
 
@@ -150,15 +150,15 @@ Here is an example of a manifest.plist file :
 
 * Click **Next**. 
 
-## STEP 10. Re-sign your application
+## ÉTAPE 10. Re-sign your application
 
 * Let Xcode manage the **Automatically manage signing** option.
 
 ![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
 
-* Click **Next**.
+* Cliquez sur **Next**.
 
-## STEP 11. Review your app.ipa content
+## ÉTAPE 11. Revoyez le contenu de votre application .ipa
 
 * Here you can verify that your application identifier is correct as well as your Team ID.
 
