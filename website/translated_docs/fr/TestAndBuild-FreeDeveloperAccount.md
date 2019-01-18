@@ -1,7 +1,7 @@
 ---
 id: free-developer-account
-title: Free Apple Developer account
-sidebar_label: Free Apple Developer account
+title: Compte Apple Developer gratuit
+sidebar_label: Compte Apple Developer gratuit
 ---
 Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
 
