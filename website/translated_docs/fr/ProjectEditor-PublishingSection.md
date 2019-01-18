@@ -86,12 +86,12 @@ Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
     
 
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant de GESTION DE SESSION MOBILE</a>
 
   </p>
 </div>
 
-* Create a **Components** folder next to the 4D database with the app's data. 
+* Créer un dossier **Components**à côté de la base de données 4D avec les données de l’application. 
 * Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
 * Restart 4D. 
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
@@ -107,10 +107,10 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION
 * The **Push** button will update the session in memory.
 * The **Refresh** button updates the session list. 
 
-## How it looks on a device
+## Aperçu sur l'appareil
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
+Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
-Settings allows you to: * Reload data * Define your server URL * Log out (if connected as an Authorized User)
+Les paramètres vous permettent de : * Recharger des données * Définir votre URL de serveur * Vous déconnecter (si vous êtes connecté en tant qu’utilisateur autorisé)
 
 ![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
