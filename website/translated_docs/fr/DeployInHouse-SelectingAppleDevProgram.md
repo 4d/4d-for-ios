@@ -1,7 +1,7 @@
 ---
 id: deployment
-title: Sélectionnez votre programme "Apple Developer Program"
-sidebar_label: Sélectionnez votre programme "Apple Developer Program"
+title: Sélectionnez votre Apple Developer Program
+sidebar_label: Sélectionnez votre Apple Developer Program
 ---
 <div class = "objectives"> 
 
@@ -9,7 +9,7 @@ sidebar_label: Sélectionnez votre programme "Apple Developer Program"
 
 * Choisissez le programme "Apple Developer Program" qui vous convient.</div> 
 
-Votre compte Apple Developer doit être valide pour **distribuer une application iOS**. Apple propose deux programmes de développeur :
+Pour **distribuer une application iOS**, votre compte Apple Developer doit être valide. Apple propose deux programmes de développeur :
 
 * [Apple Developer Program for organization](register-apple-developer-program-organization.html) ou [for individual](register-apple-developer-program-individual.html) – 99 $/an 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) – 299$/an
