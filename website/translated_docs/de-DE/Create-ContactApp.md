@@ -74,11 +74,11 @@ Für unser Beispiel wählen Sie **ID**, **First Name**, **Last Name**, **Job**, 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## SCHRITT 6. Sections - Icons & Labels
+## SCHRITT 6. Sections - Labels & Icons
 
-Now it's time to define some labels and icons for the selected tables and fields.
+Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabellen und Felder zu definieren.
 
-**Table Properties:** * Define a short and a long label for your Contact table * Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
+**Table Properties:** * Definieren Sie eine kurze und eine lange Bezeichnung für Ihre Tabelle Contact * Klicken Sie in den Bereich Icons. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
 
 **Field Properties:** * Define a short and a long label for your selected fields. * Click on the icon field and select icons for each field. There are several options for field icons: * You can select an icon for each field, * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you * You can simply leave them empty to not display any field icons.
 
