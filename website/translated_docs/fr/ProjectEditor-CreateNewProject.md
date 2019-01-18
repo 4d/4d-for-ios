@@ -42,9 +42,9 @@ Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la c
 
 ## Génération
 
-The Build tab has four options:
+L’onglet Génération dispose de quatre options :
 
-* Build and Run 
-* Simulator selection
-* Project and product browser
-* Install
+* Créer & exécuter 
+* Sélection du simulateur
+* Navigateur de projet et de produit
+* Installer
