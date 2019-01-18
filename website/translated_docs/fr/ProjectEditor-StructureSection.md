@@ -7,17 +7,17 @@ Cette section affiche tous les champs et tables de votre base de données expos�
 
 ![Structure section](assets/project-editor/Structure-section-4D-for-iOS.png)
 
-Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
+Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques. 
 
-* tables will be automatically added to the tabs of your app.
-* fields will be available later when it's time to define your list and detail forms.<div class = "tips"> 
+* les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
+* les champs sélectionnés seront disponibles plus tard lorsque vous définirez vos formulaires liste et vos formulaires détaillés.<div class = "tips"> 
 
 **NOTE**
 
-* We recommend publishing your primary key in order to identify each record of your database.</div> 
+* Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
 
-To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres et un moteur de recherche sont disponibles pour faciliter la sélection de vos tables et de vos champs.<div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div>
+Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div>
