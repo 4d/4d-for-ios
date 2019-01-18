@@ -7,11 +7,11 @@ This section allows you to: * define the data to include in your app (**Current 
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
-## Data source panel
+## Panneau Source de données
 
 ![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
 
-This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
+Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
 To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This key file key.mobileapp is available next to data in the MobileApps folder. Then the developer can select this key file from the project editor to access to the production server data.
 
