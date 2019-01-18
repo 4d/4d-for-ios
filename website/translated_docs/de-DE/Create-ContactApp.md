@@ -35,7 +35,7 @@ href="../assets/contact-app/ContactStarter.zip">STARTER-PROJEKT</a>
 
 ## SCHRITT 2. Projekt erstellen
 
-Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D und gehen in der Toolbar am oberen Rand auf **Neu > Mobiles Projekt**.
+Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D auf macOS und wählen in der Toolbar am oberen Rand**Neu > Mobiles Projekt**.
 
 Geben Sie Ihrem Projekt einen Namen und klicken auf den Button **Create**.
 
@@ -43,15 +43,15 @@ Geben Sie Ihrem Projekt einen Namen und klicken auf den Button **Create**.
 
 ## SCHRITT 3. Den Projekt-Editor öffnen
 
-Willkommen bei 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+Willkommen bei 4D for iOS! Der Willkommensdialog zeigt die wichtigsten Phasen zur App-Erstellung mit diesem großartigen Tool. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+Klicken Sie auf **Continue**.
 
-## STEP 4. Sections - General
+## SCHRITT 4. Sections - General
 
-Here, you'll configure your app's primary information:
+Hier konfigurieren Sie die Grundinformationen zu Ihrer App:
 
 * **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
 * **Product:** Enter your app's name. Let’s call this one "Contact".
