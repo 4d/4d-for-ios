@@ -17,7 +17,7 @@ Mit dieser Anleitung können Sie direkt in die Entwicklung mit 4D for iOS einste
 
 *Szenario: Sie sind kaufmännischer Geschäftsführer und möchten Ihre Kontaktdaten unterwegs einsehen.*
 
-We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
+Wir werden eine iPhone Verzeichnis-App erstellen, um nach Kontaktnamen aus einer Liste zu suchen und dann die Details der einzelnen Kontakte anzuzeigen. Wir nennen es "Kontakt".
 
 ## STEP 1. Getting started
 
