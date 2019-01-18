@@ -58,11 +58,11 @@ Hier konfigurieren Sie die Grundinformationen zu Ihrer App:
 * **ID:** (Bundle ID) Wird automatisch generiert, zusammengesetzt aus der Kennung Ihrer Firma und dem Produktnamen.
 * **Version:** Lassen Sie die Version 1.0 und definieren das Copyright Ihrer App. Es wird dringend empfohlen, die von 4D for iOS zur Verfügung gestellten Formate zu verwenden.
 * **Icons:** Ziehen Sie per Drag-and-Drop einen Icon für Ihre App in den Bereich Icons.
-* **-Entwickler:** dies automatisch, vom Benutzernamen auf Ihrem Computer ausgefüllt wird. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
+* **Developer:** Wird automatisch aus dem Benutzernamen auf Ihrem Computer ausgefüllt. Setzen Sie die Referenz des Entwicklerteams (aus Ihrem Developer Account) per Copy/Paste in das Feld Team ein. Sie können es auch leer lassen, um Ihre Anwendung nur auf dem Simulator zu erstellen.
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-## STEP 5. Sections - Structure
+## SCHRITT 5. Sections - Structure
 
 This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
 
