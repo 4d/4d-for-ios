@@ -1,19 +1,19 @@
 ---
 id: deploy-in-house-archive-and-export
-title: Archive and export your Project
-sidebar_label: Archive and export your Project
+title: Archiver et télécharger votre projet
+sidebar_label: Archiver et télécharger votre projet
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div class = "prerequisites"> 
+* Archiver et télécharger votre projet
+* Générer des fichiers .ipa des manifest</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* A secured web server
-* 57 x 57 px icon
+* Un serveur Web sécurisé
+* Une icône de résolution 57 x 57 px
 * 512 x 512 px icon</div> 
 
 ## STEP 1. Xcode configuration
