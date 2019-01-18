@@ -34,17 +34,17 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ### Compatibilité
 
-Frameworks compiled with one version of Xcode could not be used with another version.
+Les cadres compilés avec une version de Xcode peuvent être incompatibles avec une autre version.
 
-Rest assured, the next release of swift, swift 5, have for primary focus the ABI stability.
+Rassurez-vous, la stabilité de l’ABI sera l'objectif principal de la prochaine version de swift : swift 5.
 
 https://swift.org/abi-stability/
 
-This will enables the distribution of frameworks in a binary format.
+Cela garantira la répartition des cadres dans un format binaire.
 
 <div class="tips">
   <p>
-    ABI: Application Binary Interface, a contract between pieces of binary code defined by the compiler.
+    ABI : Application Binary Interface, un contrat qui lie les extraits de code binaire définis par le compilateur.
   </p>
   
   <p>
