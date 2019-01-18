@@ -17,9 +17,9 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 * Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
 
-* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
+* L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
 
-## Authentication
+## Authentification
 
 **Authorized User:** Check the **Requires an email to connect** option to display a login form when the app starts.
 
