@@ -1,9 +1,9 @@
 ---
 id: list-form-templates
-title: List Forms templates
-sidebar_label: List Forms templates
+title: Modèles de formulaire Liste
+sidebar_label: Modèles de formulaire Liste
 ---
-![Simple Table](assets/templates/Simple-Table-List-form.gif)
+![Table simple](assets/templates/Simple-Table-List-form.gif)
 
 ![Smooth Table](assets/templates/Smooth-Table-List-form.gif)
 
