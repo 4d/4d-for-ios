@@ -15,7 +15,7 @@ sidebar_label: Contact App
 
 Mit dieser Anleitung können Sie direkt in die Entwicklung mit 4D for iOS einsteigen und schnell und einfach Ihre erste App erstellen.
 
-*Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
+*Szenario: Sie sind kaufmännischer Geschäftsführer und möchten Ihre Kontaktdaten unterwegs einsehen.*
 
 We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
 
