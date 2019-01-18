@@ -21,20 +21,20 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ## Authentification
 
-**Authorized User:** Check the **Requires an email to connect** option to display a login form when the app starts.
+**Authorized User :** Cochez l'option **Connexion requise** pour afficher un formulaire de connexion au démarrage de l'application.
 
-**Guest:** Leave the **Requires an email to connect** option unchecked. No login form will appear when the app starts.
+**Guest :** Laisser l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
 
-## Authentication Method
+## Méthode d’authentification
 
 ### On Mobile App Authentication Database Method
 
-* **Development**: The authentication method allows you to use the app locally. 
-* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even when in Guest mode.
+* **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
+* **Déploiement** : vous devez créer/modifier la méthode de base de données *On Mobile App Authentication* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
-A template is available which will: * Grant access (*i.e.*, email to specific domains) * Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
+Un modèle disponible permettra : * d'accorder un accès (*ex :*, e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
 
-You can customize this method according to your needs!
+Vous pouvez personnaliser cette méthode selon vos besoins !
 
 ### Gestion de la session
 
