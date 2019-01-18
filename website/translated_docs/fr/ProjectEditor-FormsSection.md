@@ -1,9 +1,9 @@
 ---
 id: forms
-title: Forms
-sidebar_label: Forms
+title: Formulaires
+sidebar_label: Formulaires
 ---
-The Forms section allows you to select both list and detail form templates for each table.
+La section Formulaires vous permet de sélectionner des modèles de formulaire liste et de formulaires détaillés pour chaque table.
 
 4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.
 
