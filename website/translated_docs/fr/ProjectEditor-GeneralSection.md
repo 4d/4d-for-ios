@@ -8,9 +8,9 @@ Cette section vous permet de définir les principales informations sur votre app
 ![General section](assets/project-editor/General-section-4D-for-iOS.png)
 
 * **Organisation :**Saisissez soit votre nom soit celui de votre entreprise.
-* **Identifiant :** Saisissez l'identifiant Bundle de votre entreprise. Il servira à identifier votre application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
+* **Identifiant :** Saisissez l'identifiant Bundle de votre entreprise. Il servira à identifier votre application. Le nom de produit que vous entrez est concaténé afin de créer la valeur par défaut du « Bundle ID » à l'aide de la notation inversée du service de nom de domaine. Ce bundle ID doit être unique et propre à votre application.
 
-For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.<div class = "tips"> 
+Par exemple, si le nom de votre entreprise est « MaSociété » et le nom de votre application est « MonAppli », vous pouvez nommer l'identifiant de votre entreprise « com.MaSociété » et le bundle ID de votre application serait « com.MaSociété.MonAppli ».<div class = "tips"> 
 
 **NOTE**
 
