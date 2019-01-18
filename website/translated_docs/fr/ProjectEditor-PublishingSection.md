@@ -36,13 +36,13 @@ A template is available which will: * Grant access (*i.e.*, email to specific do
 
 You can customize this method according to your needs!
 
-### Session Management
+### Gestion de la session
 
-When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.
+Lorsqu'un utilisateur ouvre l'application pour la première fois, un fichier session est créé et stocké près du fichier de données courant dans le dossier MobileApps.
 
-The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
+Les fichiers de session sont organisés et groupés par dossier d'application. Les Team ID et bundle ID de l'application sont concaténés pour créer des noms de dossiers d'application.
 
-Here is an example of a 4D for iOS-generated session file:
+Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```json
 {
@@ -79,7 +79,7 @@ Here is an example of a 4D for iOS-generated session file:
 
 ### Mobile Session Management Component
 
-Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
+Les sessions peuvent être gérées par **MOBILE SESSION MANAGEMENT** :
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -92,20 +92,20 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant de G
 </div>
 
 * Créer un dossier **Components**à côté de la base de données 4D avec les données de l’application. 
-* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
-* Restart 4D. 
-* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
-* The Apps window will appear displaying all of your apps: 
+* Placer le composant **MOBILE SESSION MANAGEMENT** dans le dossier nouvellement créé **Components**.
+* Redémarrer 4D. 
+* Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
+* La fenêtre d'applications apparaitra et affichera toutes vos applications : 
 
 ![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
 
-* Right click on a session to reveal the session file in the Finder or delete it.
-* You can change and define the session status for each device: accepted or pending
+* Faites un clic droit sur la session pour afficher le fichier session dans le Finder our bien supprimez-le.
+* Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
 
 ![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
 
-* The **Push** button will update the session in memory.
-* The **Refresh** button updates the session list. 
+* Le bouton **Push** met à jour la session en mémoire.
+* Le bouton **Refresh** met à jour la liste de session. 
 
 ## Aperçu sur l'appareil
 
