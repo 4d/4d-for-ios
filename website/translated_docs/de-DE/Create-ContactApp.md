@@ -19,21 +19,21 @@ Mit dieser Anleitung können Sie direkt in die Entwicklung mit 4D for iOS einste
 
 Wir werden eine iPhone Verzeichnis-App erstellen, um nach Kontaktnamen aus einer Liste zu suchen und dann die Details der einzelnen Kontakte anzuzeigen. Wir nennen es "Kontakt".
 
-## STEP 1. Getting started
+## SCHRITT 1. Einsteigen
 
-Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
+Laden Sie unser Starter-Projekt herunter, das eine Datei der Datenbank und ein Projekt-Icon enthält, aber noch kein mobiles Projekt.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/contact-app/ContactStarter.zip">STARTER-PROJEKT</a>
 
   </p>
 </div>
 
-## STEP 2. Creating the project
+## SCHRITT 2. Projekt erstellen
 
 Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
 
