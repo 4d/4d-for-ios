@@ -35,6 +35,6 @@ Félicitations ! Vous êtes maintenant prêt à utiliser votre identifiant Appl
 
 Pour distribuer une application iOS, vous devez avoir un compte Apple Developer valide.
 
-Here is a chart that compares the different levels of developer membership:
+Voici un tableau comparatif des différentes catégories d’adhésion en tant que développeur :
 
 ![Free Testing](assets/test-build/FreeTestingAppleDeveloperAccount.png)
