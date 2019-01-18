@@ -1,14 +1,14 @@
 ---
 id: general
-title: General
-sidebar_label: General
+title: Général
+sidebar_label: Général
 ---
-This section allows you to define your app's main information.
+Cette section vous permet de définir les principales informations sur votre application.
 
 ![General section](assets/project-editor/General-section-4D-for-iOS.png)
 
-* **Organization:** Enter either your or your company’s name.
-* **Identifier:** Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
+* **Organisation :**Saisissez soit votre nom soit celui de votre entreprise.
+* **Identifiant :** Saisissez l'identifiant Bundle de votre entreprise. Il servira à identifier votre application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
 
 For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.<div class = "tips"> 
 
