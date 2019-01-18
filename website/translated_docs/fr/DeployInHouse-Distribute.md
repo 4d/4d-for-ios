@@ -27,13 +27,13 @@ Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre 
 
 ## ÉTAPE 2. Créez le lien d’installation
 
-* Créez un lien de Services ITMS (iTUnes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifeste :
+* Créez un lien de Services ITMS (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-* Ce lien peut être utilisé pour l’envoi d’e-mails, incorporé dans une page html, ou même dans un code QR.
+* Ce lien peut être utilisé pour l’envoi d’e-mails, intégré dans une page html, ou même dans un code QR.
 
 Voici un exemple simple :
 
