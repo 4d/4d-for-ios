@@ -3,30 +3,30 @@ id: define-filter-query
 title: Définir un filtre de recherche
 sidebar_label: Définir un filtre de recherche
 ---
-For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
+Pour le moment, si vous générez l'application du projet Starter et que vous entrez « michelle.simpson@mail.com » comme e-mail de connexion (l'un des chargés de clientèle), vous pourrez visualiser **tous les contrats et statuts des chargés de clientèle** (*Closed* and *In Progress*).
 
 ![iOS app without queries](assets/restricted-queries/ios-app-without-queries.png)
 
-As we discussed earlier, we want the account managers to access their *In Progress* contracts by logging into their mobile app with their email. To do this:
+Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle puissent consulter leurs contrats de *en cours* en se connectant à leur application mobile via leur e-mail. Pour ce faire :
 
-* Go to the **Data section**
-* Right-click in the **Filter query** field to make the **Field, Comparators and Operators buttons** appear.
-* Click on the **Fields** button and select **Status**.
-* Click on the **Comparators** button and select **Equal to**.
-* Because you want to display *open* contracts, enter **In progress**.
+* Accédez à la **section "Données"**
+* Faites un clic droit dans le champ **filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
+* Cliquez sur le bouton **Champs**et sélectionnez **Status**.
+* Cliquez sur le bouton **Comparators** et sélectionnez **Equal to**.
+* Si vous souhaitez afficher les contrats *ouverts*, tapez **In progress**.
 
     Status = 'In Progress'
     
 
-* Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
+* N’oubliez pas de valider votre recherche en cliquant sur le bouton **Validate**, sinon vous ne serez pas en mesure de créer votre application.
 
-You should have this result:
+Vous devriez avoir ce résultat :
 
 ![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
 
 **NOTE**
 
-* A **filter** icon is displayed at the right of each table when a basic filter is applied to it.
+* Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
 * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
 * Size will be calculated at the first build for you to visualize the **size of your data**.</div> 
 
