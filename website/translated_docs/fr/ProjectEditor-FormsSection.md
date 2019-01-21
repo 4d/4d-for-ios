@@ -15,15 +15,15 @@ Voici la répartition des éléments de cet écran, de haut en bas :
 
 ![Sélection du modèle de formulaire Liste](assets/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
-## Définir le formulaire Liste
+## Le formulaire Liste
 
-Des modèles simples et vides sont utilisés par défaut pour les formulaires liste et formulaires détaillés d'une application.
+Des modèles simples et vides sont utilisés par défaut pour les formulaires liste et les formulaires détaillés d'une application.
 
 Sélectionnez un modèle pour votre première table et faire ainsi apparaitre l’écran de définition du contenu. Vous pouvez ensuite faire glisser et déposer les champs de la liste Champs directement dans le modèle affiché sur la droite. La plupart des formulaires liste comprennent des champs facultatifs Recherche et Section.
 
 ![List form content definition](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-## Définir le formulaire détaillé
+## Le formulaire détaillé
 
 ![Detail form template selection](assets/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
