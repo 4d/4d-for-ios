@@ -41,15 +41,15 @@ C'est parti !
 
 ![Build tab](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
-* Verify that the **Automatically manage signing** option is checked and select the account you added [here](free-developer-account.html) from the Team dropdown list.
+* Vérifiez que l'option**Automatically manage signing** est cochée, puis sélectionnez le compte que vous avez ajouté [ici](free-developer-account.html) à partir de la liste déroulante "Team".
 
 ![Account-Selection](assets/test-build/account-Selection-Free-Account.png)
 
-* Connect your device to your computer and select it from the top menu in Xcode.
+* Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu dans le menu supérieur d'Xcode.
 
 ![Select your device](assets/test-build/select-device-Free-Account.png)
 
-* Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
+* Xcode génère automatiquement les profils et les certificats de mise à disposition nécessaires que vous aurez besoin pour créer votre application.
 
 ### Choisir votre Team ID
 
@@ -61,42 +61,42 @@ C'est parti !
 
 ## ÉTAPE 5. Team ID pour un compte payant
 
-* **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
+* **Team ID** : Cliquez sur Developer Account > Membership et obtenez votre Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
 
-* **4D for iOS**: Launch 4D for iOS in Sections > General and enter your Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* 4D **for iOS** : lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
-* Go to STEP 6 to run your project on your device.
+* Passez à l’étape 6 pour exécuter votre projet sur votre appareil.
 
-## STEP 6. Installation
+## ÉTAPE 6. Installation
 
-### Install automatically with Apple Configurator 2
+### Installation automatique avec Apple Configurator 2
 
-* When your app is ready, open the BUILD tab.
-* Connect your device to your computer with a USB cable.
-* From the BUILD tab, click on **Install**.
+* Lorsque votre application est prête, cliquez sur l’onglet GÉNÉRATION.
+* Connectez votre appareil à votre ordinateur avec un câble USB.
+* Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
 
 ![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* L’application est installée sur votre appareil !
 
-### Install manually using Xcode
+### Installation manuelle avec Xcode
 
-* When your app is ready, open the BUILD tab.
-* Connect your device to your computer with a USB cable.
-* From the BUILD tab, click on **Install**.
+* Lorsque votre application est prête, cliquez sur l’onglet GÉNÉRATION.
+* Connectez votre appareil à votre ordinateur avec un câble USB.
+* Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
 
 ![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png)
 
-* An archive of your project is created
+* Une archive de votre projet est créée
 
 ![Archive creation](assets/test-build/Archive-creation.png)
 
-* Reveal the generated archive in Finder
+* Indiquez l'archive générée dans Finder
 
 ![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
 
-* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
+* Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section nstalled Apps.
 
 ![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* L’application est installée sur votre appareil !
