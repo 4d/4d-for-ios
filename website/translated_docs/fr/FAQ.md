@@ -28,7 +28,7 @@ Dans le cas où vous êtes déjà passé à Xcode 10, vous pouvez télécharger 
 
 Seuls les développeurs enregistrés peuvent télécharger des démonstrations de versions via le site web Apple Developer.
 
-Veuillez consulter la liste des conditions préalables [ici](prerequisites.html).
+Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables.
 
 </details>
 
@@ -45,7 +45,7 @@ Non. Vous devez développer sur macOS, puisque la compilation de l’application
 
 <details>
 <summary>
-<strong>Ai-je besoin d'un Web Server 4D pour exécuter 4D for iOS ?</strong>
+<strong>Ai-je besoin d'un Serveur Web 4D pour exécuter 4D for iOS ?</strong>
 </summary>
 
 Non – 4D for iOS est inclus dans 4D Server v17 R2 et dans les versions plus récentes.
@@ -57,9 +57,9 @@ Non – 4D for iOS est inclus dans 4D Server v17 R2 et dans les versions plus r�
 <strong>Existe-t-il une licence de test ou d’évaluation ?</strong>
 </summary>
 
-Si vous avez déjà une licence 4D Developer Pro ou 4D Server de 4D v17 R2 ou de versions plus récentes, 4D for iOS est inclus.
+Si vous avez déjà une licence 4D Developer Pro ou 4D Server de 4D v17 R2 ou de versions plus récentes, 4D for iOS y est inclus.
 
-Si vous n’êtes pas un partenaire 4D ou si vous ne participez pas au programme 4D Maintenance, vous devez attendre la sortie de 4D v18.
+Si vous n’êtes pas un partenaire 4D ou si vous ne participez pas au programme de maintenance de 4D, vous devez attendre la sortie de 4D v18.
 
 </details>
 
@@ -68,7 +68,7 @@ Si vous n’êtes pas un partenaire 4D ou si vous ne participez pas au programme
 <strong>Quelle licence 4D dois-je utiliser avec 4D for iOS ?</strong>
 </summary>
 
-Vous avez besoin d’une licence 4D Developer Pro v17 R2 (macOS) pour développer des applications 4D for iOS.
+Pour développer des applications 4D for iOS, vous avez besoin d’une licence 4D Developer Pro v17 R2 (macOS).
 
 </details>
 
@@ -89,7 +89,7 @@ Veuillez noter que vous n’êtes pas autorisé à installer votre application m
 
 <details>
 <summary>
-<strong>J’ai un 4D Server et une extension pour deux clients (quatre clients au total), combien d'appareils mobiles puis-je utiliser ?</strong>
+<strong>J’ai un 4D Server et une extension pour deux clients (quatre clients au total). Combien d'appareils mobiles puis-je utiliser ?</strong>
 </summary>
 
 Vous pouvez utiliser jusqu'à quatre appareils mobiles.
@@ -105,7 +105,7 @@ Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 4D for iOs vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
 
-Pour l’instant, la meilleure façon de traiter de grandes quantités de données consiste à créer une table intermédiaire et de filtrer les résultats que vous souhaitez afficher.
+Pour l’instant, la meilleure façon de traiter de grandes quantités de données consiste à créer une table intermédiaire et à filtrer les résultats que vous souhaitez afficher.
 
 Les prochaines versions de 4D for iOS incluront un moyen d’appliquer des filtres afin que seule l’information requise s'affiche.
 
