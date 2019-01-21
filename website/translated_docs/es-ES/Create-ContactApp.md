@@ -66,15 +66,15 @@ Aquí, podrá configurar la información principal de la aplicación:
 
 Es en esta sección que define un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
+Para nuestro ejemplo, seleccione **ID**, **Nombre** **Apellido**, **Cargo**, **Empresa**, **Teléfono**, **Notas** y **Foto**.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+* Recomendamos publicar su llave primaria para identificar cada registro de su base.</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. Sections - Icons & Labels
+## PASO 6. Sections - Icons & Labels
 
 Now it's time to define some labels and icons for the selected tables and fields.
 
