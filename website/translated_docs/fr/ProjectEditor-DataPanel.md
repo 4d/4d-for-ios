@@ -27,7 +27,7 @@ Ici, vous pouvez également vérifier si le serveur est disponible et l’active
 
 Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
 
-Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le **bouton Regénérer**.
+Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
 
 ## Propriétés
 
@@ -57,11 +57,11 @@ Dans le champ **Filtre de recherche**, entrez :
 
 ### Filtrer à l'aide d'informations utilisateur
 
-Vous pouvez établir des filtres en fonction de l'information utilisateur que vous définissez dans la méthode Mobile App Authentication :
+Vous pouvez établir des filtres en fonction des informations utilisateur que vous définissez dans la méthode Mobile App Authentication :
 
 * Concernant les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
-* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" et la clé de l'objet `userinfo`.
+* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" ainsi que la clé de l'objet `userinfo`.
 
 * Validez ensuite votre recherche. Cela doit être effectué à chaque modification que vous y apportez.
 
@@ -79,8 +79,8 @@ Dans la méthode de base de données [On Mobile App Authentication](http://doc.4
 
     $response.userInfo:=New object("city";"Paris")
 
-*Cette requête vous permet d’afficher uniquement les enregistrements incluant « Paris » dans la catégorie CityName recherchée*</div> <div class = "tips"> 
+*Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris »*</div> <div class = "tips"> 
 
 **NOTE :**
 
-Vous trouverez toutes les règles de syntaxe de recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
