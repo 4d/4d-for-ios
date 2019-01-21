@@ -23,7 +23,7 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 **Authorized User :** Cochez l'option **Connexion requise** pour afficher un formulaire de connexion au démarrage de l'application.
 
-**Guest :** Laisser l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
+**Guest :** Laissez l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
@@ -32,13 +32,13 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
 * **Déploiement** : vous devez créer/modifier la méthode de base de données *On Mobile App Authentication* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
-Un modèle disponible permettra : * d'accorder un accès (*ex :*, e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
+Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
 
 Vous pouvez personnaliser cette méthode selon vos besoins !
 
 ### Gestion de la session
 
-Lorsqu'un utilisateur ouvre l'application pour la première fois, un fichier session est créé et stocké près du fichier de données courant dans le dossier MobileApps.
+Lorsqu'un utilisateur ouvre l'application pour la première fois, un fichier session est créé et stocké avec le fichier de données courant dans le dossier MobileApps.
 
 Les fichiers de session sont organisés et groupés par dossier d'application. Les Team ID et bundle ID de l'application sont concaténés pour créer des noms de dossiers d'application.
 
