@@ -18,9 +18,9 @@ sidebar_label: Archiver et télécharger votre projet
 
 ## ÉTAPE 1. Configurez Xcode
 
-Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
+Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates.
+Xcode installera automatiquement les certificats et les éléments de mise à disposition nécessaires.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
@@ -76,26 +76,26 @@ Xcode will automatically install required provisioning and certificates.
 
 ## ÉTAPE 8. Sélectionnez les options de distribution de votre entreprise
 
-* You can leave all option boxes checked.
+* Vous pouvez laisser toutes les options cochées.
 
 ![Enterprise distribution options](assets/deploy-in-house/Enterprise-distribution-options.png)
 
-* You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
+* Vous pouvez laisser Xcode vous générer un fichier manifest.plist ou bien le générer manuellement.
 
 * Cliquez sur **Next**.
 
-#### What is a manifest?
+#### Qu'est-ce qu'un manifest ?
 
-The manifest is an XML-based property list and should contain:
+Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 
-* **URL** : URL pointing to the .ipa file.
-* **display-image**: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
-* **full-size-image**: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
-* **bundle-identifier**: Your app identifier string. You can get it from your app's .plist file.
-* **bundle-version**: Your app's current bundle version string. You can get it from your app's .plist file.
-* **title**: Your app's name.
+* **URL** : un URL pointant vers le fichier .ipa.
+* **display-image**: un URL pointant vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilsée lors du téléchargement et de l'installation.
+* **full-size-image**: un URL pointant vers une image PNG 512 x 512 px représentant l'application iTunes.
+* **bundle-identifier**: La chaîne d'identification de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **bundle-version**: La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **title**: Le nom de votre application.
 
-Here is an example of a manifest.plist file :
+Voici un exemple de fichier manifest.plist :
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
