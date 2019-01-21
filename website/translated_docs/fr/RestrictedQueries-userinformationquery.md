@@ -8,12 +8,12 @@ Nous allons maintenant filtrer le contenu de notre application en fonction de l'
 * Accédez à la **section "Données"**. 
 * Faites un clic droit dans le champ **Filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
 * Cliquez sur le bouton **Operators** et sélectionnez **AND**.
-* Now define the user information you want to get from the database method, **:email** .
+* Définissez maintenant les informations utilisateur que vous souhaitez obtenir à partir de la méthode de base de données **: email**.
 
     Status = 'In Progress' & manager.Email = :email 
     
 
-* Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
+* Souvenez-vous de valiser la recherche en cliquant sur le bouton **Validate**. Sinon, vous ne pourrez plus créer votre application.
 
 ![User information query](assets/restricted-queries/user-information-query.png)
 
