@@ -35,6 +35,6 @@ Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires liste.<
 
 **CONSEILS**
 
-Vous souhaitez modifier le modèle de votre formulaire de liste ou détaillé ?
+Vous souhaitez modifier le modèle de votre formulaire de liste ou de votre formulaire détaillé ?
 
-Les types des champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (en fonction des types de modèles et de champs) lorsque vous modifiez des modèles.</div>
+Les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (en fonction des types de modèles et de champs) lorsque vous modifiez des modèles.</div>
