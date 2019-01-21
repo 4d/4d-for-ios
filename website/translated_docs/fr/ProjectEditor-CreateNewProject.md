@@ -15,7 +15,7 @@ sidebar_label: Nouveau projet
 
 Jetons un œil au fonctionnement de 4D for iOS.
 
-Démarrez votre application 4D, ouvrez votre base, et cliquez sur **Nouveau > Projet mobile**.
+Démarrez votre application 4D, ouvrez votre base et cliquez sur **Nouveau > Projet mobile**.
 
 Nommez votre projet puis cliquez sur **Créer**.
 
