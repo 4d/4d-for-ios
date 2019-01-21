@@ -3,17 +3,17 @@ id: data
 title: Données
 sidebar_label: Données
 ---
-Cette section vous permet : * de définir les données à inclure dans votre application (**fichier de données courant** ou **Fichier de données du serveur de production(**), * de **regénérer automatiquement les données** chaque fois que vous générez votre application ou que vous la générez manuellement, et * de filtrer des données à visualiser dans votre application selon les **filtres de recherche** ou les **informations utilisateur**.
+Cette section vous permet : * de définir les données à inclure dans votre application (**Fichier de données courant** ou **Fichier de données du serveur de production**), * de **regénérer automatiquement les données** à chaque génération (manuelle ou pas) de votre application, et * de filtrer des données à visualiser dans votre application selon les **filtres de recherche** ou les **informations utilisateur**.
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
-## Panneau Source de données
+## Source des données
 
 ![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
 
 Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
-Pour sécuriser l'accès au serveur de production, un **fichier clé** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier clé key.mobileapp est disponible dans le dossier MobileApps. Le développeur peut ensuite sélectionnez ce fichier clé dans l’éditeur de projet pour accéder aux données du serveur de production.
+Pour sécuriser l'accès au serveur de production, un **fichier clé** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier clé key.mobileapp est disponible dans le dossier MobileApps. Le développeur peut ensuite sélectionner ce fichier clé dans l’éditeur de projet pour accéder aux données du serveur de production.
 
 L'**URL de production** doit être saisi depuis la **section Publication** si vous choisissez d’obtenir des données à partir de votre serveur de production.
 
@@ -29,7 +29,7 @@ Vous pouvez également définir si vous souhaitez **Regénérer les données** �
 
 Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable dans la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le **bouton Regénérer**.
 
-## Panneau des propriétés
+## Propriétés
 
 ![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
 
