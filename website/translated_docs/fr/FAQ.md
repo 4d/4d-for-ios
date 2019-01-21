@@ -138,16 +138,16 @@ La synchronisation incrémentielle sera prévue dans une prochaine version.
 <strong>Où sont stockées mes données ?</strong>
 </summary>
 
-Vos données sont stockées localement sur vos appareils iOS. Cela vous permettra d'accéder à vos donnée en mode hors ligne.
+Vos données sont stockées localement sur vos appareils iOS. Cela vous permettra d'accéder à vos données en mode hors ligne.
 
 </details>
 
 <details>
 <summary>
-<strong>Puis-je des tables reliées dans 4D for iOS ?</strong>
+<strong>Puis-je utiliser des tables reliées dans 4D for iOS ?</strong>
 </summary>
 
-Conscients que vous utilisez souvent des tables reliées pour vos applications commerciales, nous travaillons sur l'accessibilité des tables reliées pour une prochaine sortie de 4D for iOS.
+Conscients que vous utilisez souvent des tables reliées pour vos applications commerciales, nous travaillons sur l'accessibilité des tables reliées dans une prochaine version de 4D for iOS.
 
 </details>
 
@@ -156,18 +156,18 @@ Conscients que vous utilisez souvent des tables reliées pour vos applications c
 <strong>Puis-je utiliser des champs calculés dans 4D for iOS ?</strong>
 </summary>
 
-Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les publier depuis la [section Structure](structure.html) de l'éditeur de projet de 4D for iOS.
+Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les publier depuis la [section Structure](structure.html) dans l'éditeur de projet de 4D for iOS.
 
 </details>
 
 <details>
 <summary>
-<strong>Ai-je besoin d'avoir des images dans ma base de données ?</strong>
+<strong>Ai-je besoin d'images dans ma base de données ?</strong>
 </summary>
 
 Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser pour garantir la meilleure expérience utilisateur.
 
-4D for iOS offre une variété de modèles de [formulaire Liste](list-form-templates.html) et de [formulaire détaillé](detail-form-templates.html). Avec sou sans images, avec graphiques, etc...
+4D for iOS offre une variété de modèles de [formulaires Liste](list-form-templates.html) et de [formulaires détaillés](detail-form-templates.html). Avec sou sans images, avec graphiques, etc.
 
 </details>
 
@@ -176,7 +176,7 @@ Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser p
 <strong>Dois-je créer une icône pour mon application iOS ?</strong>
 </summary>
 
-Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si n'en avez pas, l'icône par défaut (le logo 4D) sera affiché.
+Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affiché.
 
 Si vous possédez déjà une icône pour votre application 4D Desktop, vous pouvez la glisser-déposer directement dans la zone consacrée à l'icône dans la section [Général](general.html) de l'éditeur de projet.
 
