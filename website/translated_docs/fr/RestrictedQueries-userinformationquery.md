@@ -1,13 +1,13 @@
 ---
 id: user-information-query
-title: User information query
-sidebar_label: User information query
+title: Filtre de recherche utilisateur
+sidebar_label: Filtre de recherche utilisateur
 ---
-Now let's filter our app content depending on the account manager's login email address (user information):
+Nous allons maintenant filtrer le contenu de notre application en fonction de l'adresse e-mail de connexion du chargé de clientèle (information utilisateur) :
 
-* Go to the **Data section**. 
-* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
-* Click on the **Operators** button and select **AND**.
+* Accédez à la **section "Données"**. 
+* Faites un clic droit dans le champ **Filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
+* Cliquez sur le bouton **Operators** et sélectionnez **AND**.
 * Now define the user information you want to get from the database method, **:email** .
 
     Status = 'In Progress' & manager.Email = :email 
