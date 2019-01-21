@@ -8,7 +8,7 @@ sidebar_label: Conditions préalables
 * 4D Developer Pro v17 R2 64 bits (développement)
 * 4D Server v17 R2 64 bits (déploiement) 
 * 4D for iOS en R2 v17 est conçu et certifié pour Xcode 9.4.1.
-* La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (nécessitant un macOS 10.13.6 ou 10.14)
+* La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (un macOS 10.13.6 ou 10.14 est requis)
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
 
 ## Configuration matérielle requise
@@ -35,6 +35,6 @@ sidebar_label: Conditions préalables
 
 ![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
-* Votre serveur Web doit être lancé au démarrage. Il est accessible depuis le menu Exécution :
+* Votre serveur Web doit être lancé. Il est accessible depuis le menu Exécution :
 
 ![Start web server](assets/prerequisites/Start-web-server.png)
