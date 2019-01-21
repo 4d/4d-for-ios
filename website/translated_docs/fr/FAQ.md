@@ -118,7 +118,7 @@ Les prochaines versions de 4D for iOS incluront un moyen d’appliquer des filtr
 
 Pour l’instant, 4D for iOS vous permet de créer des applications en lecture seule.
 
-Les prochaines versions vous permettront d’ajouter, de modifier vos enregistrements directement à partir de votre application iOS et de synchroniser vos données avec le serveur.
+Les prochaines versions vous permettront d’ajouter et de modifier vos enregistrements directement à partir de votre application iOS et de synchroniser vos données avec le serveur.
 
 </details>
 
