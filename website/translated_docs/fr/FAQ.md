@@ -22,7 +22,7 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 4D for iOS en v17 R2 est conçu et certifié pour Xcode 9.4.1.
 
-La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (requiert un macOS 10.13.6 ou 10.14)
+La prochaine version (4D v17 R3) sera certifiée pour Xcode 10/Swift 4.2 (un macOS 10.13.6 ou 10.14 est requis)
 
 Dans le cas où vous êtes déjà passé à Xcode 10, vous pouvez télécharger Xcode 9.4.1 ici : https://developer.apple.com/download/more/
 
