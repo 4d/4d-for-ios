@@ -22,24 +22,24 @@ Ici, vous pouvez également vérifier si le serveur est disponible et l’active
 **NOTE**
 
 * Il existe des astuces pour vous assurer que le serveur fonctionne correctement.
-* Vous pouvez accéder directement panneau Publication pour définir votre URL de production.
+* Vous pouvez accéder directement au panneau Publication pour définir votre URL de production.
 * Pour accéder aux données du serveur de production, un fichier clé est requis pour sécuriser les communications.</div> 
 
 Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
 
-Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable dans la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le **bouton Regénérer**.
+Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le **bouton Regénérer**.
 
 ## Propriétés
 
 ![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
 
-Dans ce panneau, vous pouvez définir tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur** .
+Dans ce panneau, vous pouvez définir tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
-### Filtrer avec des filtres de recherche
+### Les filtres de recherche
 
 Vous pouvez définir des filtres par table en fonction des valeurs de champ :
 
-* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également composer votre requête de champs, de comparateurs et d'opérateurs qui sont disponibles juste au-dessus du champ de recherche lorsqu’elle est mise au point. Cela peut être utile pour définir votre recherche
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également composer votre recherche de champs, de comparateurs et d'opérateurs qui sont disponibles juste au-dessus du champ de recherche lorsqu’elle est mise au point. Cela peut être utile pour affiner votre recherche
 
 * Vous devez ensuite valider votre recherche. Cela doit être fait chaque fois que vous y apportez des modifications (une recherche qui a été modifiée et non validée apparaît en rouge dans l’éditeur de projet).
 
@@ -65,7 +65,7 @@ Vous pouvez établir des filtres en fonction de l'information utilisateur que vo
 
 * Validez ensuite votre recherche. Cela doit être effectué à chaque modification que vous y apportez.
 
-* Une fois que votre filtre de requête est validée, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la méthode [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
+* Une fois que votre filtre de recherche est validé, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la méthode [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu des informations utilisateur.<div class = "tips"> 
 
