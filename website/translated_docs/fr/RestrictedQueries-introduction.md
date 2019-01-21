@@ -13,7 +13,7 @@ sidebar_label: Restricted queries
 
 * Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Dans ce tutoriel, nous allons couvrir des **requêtes limitées** avec un cas d’utilisation simple : imaginez que vous êtes un chargé de clientèle. Vous souhaitez consulter vos contrats *en cours* simplement en vous connectant à votre application avec votre adresse e-mail.
+Dans ce tutoriel, nous allons couvrir des **requêtes limitées** avec un cas d’utilisation simple : imaginez que vous êtes un chargé de clientèle. Vous souhaitez consulter vos contrats *en cours* simplement en vous connectant à votre application avec votre adresse mail.
 
 Tout d’abord, depuis la section Données, nous allons définir un **filtre de recherche basique** pour afficher uniquement les contrats qui sont *en cours*. Nous allons ensuite appliquer un **filtre basé sur les informations de l’utilisateur** et qui dépendra de l'e-mail du chargé de clientèle.
 
