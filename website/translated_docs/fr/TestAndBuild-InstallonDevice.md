@@ -31,13 +31,13 @@ C'est parti !
 ## ÉTAPE 3. Obtention de votre Team ID
 
 * Si vous utilisez un [Free Apple Developer Program](free-developer-account.html), passez à [l'étape 4](#step-4-team-id-for-free-account).
-* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-4-select-your-team-id).
+* Si vous utilisez un [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) ou un[Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) passez à [l'étape 5](#step-4-select-your-team-id).
 
-## STEP 4. Team ID for Free account
+## ÉTAPE 4. Team ID pour un compte gratuit
 
-### Let Xcode generate your provisioning profile and certificate
+### Laissez Xcode vous fournir votre profil et votre certificat
 
-* Open your current project from the BUILD tab.
+* Ouvrez votre projet actuel depuis l’onglet GÉNÉRATION.
 
 ![Build tab](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
@@ -51,15 +51,15 @@ C'est parti !
 
 * Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
 
-### Select your Team ID
+### Choisir votre Team ID
 
-* Reopen 4D for iOS in Sections > General and select your new Team ID in the Team popup.
+* Rouvrez 4D for iOS dans Sections > Général puis sélectionnez votre nouveu Team ID dans le pop-up Team.
 
 ![Select your Team ID](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
-* Go to [step 6](#step-6-build) to run your project on your device from the Project Editor.
+* Passez à [l'étape 6](#step-6-build) pour exécuter votre projet dans l'appareil sélectionné dans l’éditeur de projet.
 
-## STEP 5. Team ID for paid subscription account
+## ÉTAPE 5. Team ID pour un compte payant
 
 * **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
 
