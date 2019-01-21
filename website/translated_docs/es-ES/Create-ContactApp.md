@@ -21,37 +21,37 @@ Vamos a crear una aplicación de directorio para iPhone para buscar los nombres 
 
 ## PASO 1. Comencemos
 
-Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
+Descargue nuestro proyecto Starter, que contiene un archivo de base de datos y el icono de proyecto, pero no todavía el proyecto móvil.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/contact-app/ContactStarter.zip">PROYECTO STARTER</a>
 
   </p>
 </div>
 
-## STEP 2. Creating the project
+## PASO 2. Creación del proyecto
 
-Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
+Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D, ir a **Nuevo > Proyecto móvil**.
 
-Give your project a name and click **Create**.
+De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## STEP 3. Opening the Project Editor
+## PASO 3. Abrir el editor de proyectos
 
-Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+¡Bienvenido a 4D for iOS! La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+Haga clic en **Continuar**.
 
-## STEP 4. Sections - General
+## PASO 4. Secciones - General
 
-Here, you'll configure your app's primary information:
+Aquí, podrá configurar la información principal de la aplicación:
 
 * **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
 * **Product:** Enter your app's name. Let’s call this one "Contact".
