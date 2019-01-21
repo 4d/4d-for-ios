@@ -42,7 +42,7 @@ Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la c
 
 ## Génération
 
-L’onglet Génération dispose de quatre options :
+L’onglet Génération comprend quatre options :
 
 * Créer & exécuter 
 * Sélection du simulateur
