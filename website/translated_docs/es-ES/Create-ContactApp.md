@@ -58,13 +58,13 @@ Aquí, podrá configurar la información principal de la aplicación:
 * **ID:** (Paquete ID) se genera automáticamente y se compone del identificador de su empresa y del nombre de su producto.
 * **Versión:**deje la versión 1.0 y defina los derechos de autor de su aplicación. Es muy recomendable utilizar los formatos ofrecidos por 4D for iOS.
 * **Iconos:**arrastre y suelte un icono para su aplicación en el área del icono.
-* **Developer:** This is automatically filled from the user name on your computer. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
+* **Desarrollador:**esta sub sección se rellena automáticamente a partir del nombre de usuario en su ordenador. Copie/pegue la referencia de su equipo de desarrolladores (desde su cuenta desarrollador) en el campo Equipo. También puede dejar vacío para generar su aplicación únicamente en el simulador.
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-## STEP 5. Sections - Structure
+## PASO 5. Secciones - Estructura
 
-This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
+Es en esta sección que define un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.
 
 For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
 
