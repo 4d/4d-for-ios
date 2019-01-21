@@ -83,7 +83,7 @@ Aucune autre licence n'est nécessaire. Vos applications 4D for iOS partageront 
 
 Les clients peuvent se connecter sur des PC Mac, Windows ou sur des mobiles iPhone, tant que l'ensemble des utilisateurs simultanés sont couverts par la licence 4D Server.
 
-Veuillez noter que vous n’êtes pas autorisé à installer votre application mobile sur un nombre d'appareils supérieur à celui des licences 4D Server clients.
+Veuillez noter que vous n’êtes pas autorisé à installer votre application mobile sur un nombre d'appareils supérieur à celui des licences distantes (clientes) de 4D Server.
 
 </details>
 
@@ -147,7 +147,7 @@ Vos données sont stockées localement sur vos appareils iOS. Cela vous permettr
 <strong>Puis-je utiliser des tables reliées dans 4D for iOS ?</strong>
 </summary>
 
-Conscients que vous utilisez souvent des tables reliées pour vos applications commerciales, nous travaillons sur l'accessibilité des tables reliées dans une prochaine version de 4D for iOS.
+Conscients de votre utilisation fréquente des tables reliées pour vos applications commerciales, nous travaillons sur l'accessibilité des tables reliées pour une prochaine version de 4D for iOS.
 
 </details>
 
@@ -176,7 +176,7 @@ Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser p
 <strong>Dois-je créer une icône pour mon application iOS ?</strong>
 </summary>
 
-Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affiché.
+Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affichée.
 
 Si vous possédez déjà une icône pour votre application 4D Desktop, vous pouvez la glisser-déposer directement dans la zone consacrée à l'icône dans la section [Général](general.html) de l'éditeur de projet.
 
