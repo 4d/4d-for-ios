@@ -1,36 +1,36 @@
 ---
 id: install-device
-title: Installing on your iOS device
-sidebar_label: Installing on your iOS device
+title: Installer votre appareil iOS
+sidebar_label: Installer votre appareil iOS
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
+* Installer une application 4D for iOS sur un appareil connecté</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
 * Apple Developer Program
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)</div> 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour automatiser l'installation de votre application (facultatif)</div> 
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following: * [Free Apple Developer Program](free-developer-account.html): For testing only * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
+En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l'un des programmes suivants d'Apple : * [Free Apple Developer Program](free-developer-account.html): A des fins de test uniquement * [Apple Developer Program for organization](register-apple-developer-program-organization.html) ou [individual](register-apple-developer-program-individual.html): Pour déployer sur App Store * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): Pour déployer votre application interne
 
-Let's go through the process...
+C'est parti !
 
-## STEP 1. Account creation
+## ÉTAPE 1. Création d'un compte
 
-* **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
+* **Identifiant Apple ** : Créez votre identifiant Apple. Si vous n'en possédez pas un, cliquez [ici](https://appleid.apple.com/account#!&page=create).
 
-* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
+* **Developer Account** : Choisissez un Apple Developer Program (for organizations ou bien for individuals) si vous souhaiter déployer votre application sur l'App Store ou bien depuis l'Apple Developer Enterprise Program (pour un déploiement interne).
 
-## STEP 2. Xcode configuration
+## ÉTAPE 2. Configuration d'Xcode
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account** : In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
-## STEP 3. Get your Team ID
+## ÉTAPE 3. Obtention de votre Team ID
 
-* If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
+* Si vous utilisez un [Free Apple Developer Program](free-developer-account.html), passez à [l'étape 4](#step-4-team-id-for-free-account).
 * If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-4-select-your-team-id).
 
 ## STEP 4. Team ID for Free account
