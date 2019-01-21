@@ -53,11 +53,11 @@ Haga clic en **Continuar**.
 
 Aquí, podrá configurar la información principal de la aplicación:
 
-* **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
-* **Product:** Enter your app's name. Let’s call this one "Contact".
-* **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
-* **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
-* **Icons:** Drag and drop an icon for your app into the icon area.
+* **Organización:**Escriba el nombre de su empresa y el identificador de aplicación (ej. "Mi empresa" y com.MiEmpresa).
+* **Producto:**introduzca el nombre de su aplicación. Llamémosla "Contact".
+* **ID:** (Paquete ID) se genera automáticamente y se compone del identificador de su empresa y del nombre de su producto.
+* **Versión:**deje la versión 1.0 y defina los derechos de autor de su aplicación. Es muy recomendable utilizar los formatos ofrecidos por 4D for iOS.
+* **Iconos:**arrastre y suelte un icono para su aplicación en el área del icono.
 * **Developer:** This is automatically filled from the user name on your computer. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
