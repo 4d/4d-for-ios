@@ -142,15 +142,15 @@ Voici un exemple de fichier manifest.plist :
     </plist>
     
 
-## ÉTAPE 9. Distribution manifest information
+## ÉTAPE 9. Informations de distribution du manifest
 
-* We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
+* Nous vous recommandons de laisser Xcode entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
 
 ![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
 
 * Cliquez sur **Next**. 
 
-## ÉTAPE 10. Re-sign your application
+## ÉTAPE 10. Re-signez votre application
 
 * Laissez Xcode gérer l'option **Automatically manage signing**.
 
@@ -160,8 +160,8 @@ Voici un exemple de fichier manifest.plist :
 
 ## ÉTAPE 11. Revoyez le contenu de votre application .ipa
 
-* Here you can verify that your application identifier is correct as well as your Team ID.
+* Ici, vous pouvez vérifier que l'identifiant de votre application et que votre Team ID sont corrects.
 
 ![Review your app.ipa content](assets/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Cliquez sur **Export** et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.
