@@ -148,11 +148,11 @@ Voici un exemple de fichier manifest.plist :
 
 ![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
 
-* Click **Next**. 
+* Cliquez sur **Next**. 
 
 ## ÉTAPE 10. Re-sign your application
 
-* Let Xcode manage the **Automatically manage signing** option.
+* Laissez Xcode gérer l'option **Automatically manage signing**.
 
 ![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
 
