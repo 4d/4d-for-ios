@@ -26,12 +26,12 @@ C'est parti !
 
 ## ÉTAPE 2. Configuration d'Xcode
 
-* **Developer Account** : In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account** : Dans Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
 ## ÉTAPE 3. Obtention de votre Team ID
 
 * Si vous utilisez un [Free Apple Developer Program](free-developer-account.html), passez à [l'étape 4](#step-4-team-id-for-free-account).
-* Si vous utilisez un [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) ou un[Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) passez à [l'étape 5](#step-4-select-your-team-id).
+* Si vous utilisez un [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) ou un [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) passez à [l'étape 5](#step-4-select-your-team-id).
 
 ## ÉTAPE 4. Team ID pour un compte gratuit
 
@@ -57,7 +57,7 @@ C'est parti !
 
 ![Select your Team ID](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
-* Passez à [l'étape 6](#step-6-build) pour exécuter votre projet dans l'appareil sélectionné dans l’éditeur de projet.
+* Passez à [l'étape 6](#step-6-build) pour exécuter votre projet sur l'appareil sélectionné dans l’éditeur de projet.
 
 ## ÉTAPE 5. Team ID pour un compte payant
 
