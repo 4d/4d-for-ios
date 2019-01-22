@@ -9,7 +9,7 @@ sidebar_label: Utiliser le simulateur
 
 * Testez votre application dans le simulateur.</div> 
 
-Avez-vous terminé le développement votre application et souhaitez la tester ?
+Vous avez finir de développer votre application et souhaitez la tester ?
 
 ## ÉTAPE 1. Sélectionnez votre appareil
 
@@ -17,13 +17,13 @@ Avez-vous terminé le développement votre application et souhaitez la tester ?
 
 ![Device selection](assets/test-build/device-selection-4D-for-ios.png)
 
-## ÉTAPE 2. Créer et exécuter
+## ÉTAPE 2. Créez et exécutez
 
 * Cliquez sur le bouton **Créer et exécuter**.
 
 ![Build and Run](assets/test-build/build-and-run-4D-for-iOS.png)
 
-## ÉTAPE 3. Tester votre application
+## ÉTAPE 3. Testez votre application
 
 * Testez la navigation entre les formulaires liste et les formulaires détaillés dans votre application.
 
