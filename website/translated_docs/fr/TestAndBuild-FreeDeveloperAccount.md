@@ -24,14 +24,14 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
-## ÉTAPE 3. Ouvrir Xcode
+## ÉTAPE 3. Ouvrez Xcode
 
 * Lancez Xcode > Preferences > Account
 * Ajoutez votre identifiant Apple et connectez-vous 
 
 ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png)
 
-Félicitations ! Vous êtes maintenant prêt à utiliser votre identifiant Apple gratuit pour fournir et déployer des appareils iOS à l’aide de Xcode.
+Félicitations ! Vous êtes maintenant prêt à utiliser votre identifiant Apple gratuit pour fournir et déployer des appareils iOS à l’aide d'Xcode.
 
 Pour distribuer une application iOS, vous devez avoir un compte Apple Developer valide.
 
