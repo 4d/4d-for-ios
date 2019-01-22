@@ -9,11 +9,11 @@ sidebar_label: Archivez et téléchargez votre projet
 
 * Archiver et publier votre projet App Store Connect</div> 
 
-## ÉTAPE 1. Configuration de Xcode
+## ÉTAPE 1. Configurer Xcode
 
-* Si vous avez choisi un compte de développeur Apple, votre compte est immédiatement disponible. 
+* Si vous avez choisi un compte Apple Developer, celui-ci est immédiatement disponible. 
 * Si vos avez choisi un compte de développeur Apple en tant qu’organisation, vous devez attendre la validation d’Apple.
-* Lorsque votre compte est accessible, ajoutez-le à Xcode dans Préférences > Comptes.
+* Lorsque votre compte est accessible, ajoutez-le à Xcode dans Preferences > Accounts.
 * Xcode installera automatiquement les certificats et les éléments de mise à disposition nécessaires. 
 
 ## ÉTAPE 2. Obtenir l'ID de votre équipe
