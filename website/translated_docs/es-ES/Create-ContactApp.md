@@ -119,7 +119,7 @@ Y por último, definimos el formulario detallado. * Seleccione una plantilla que
 
 ¡Ahora la parte divertida! Es hora de crear su aplicación y probarla en el simulador para ver el resultado final.
 
-* Click the **Build** tab.
+* Haga clic en la pestaña**Generar**.
 * Select a device to use as a Simulator by clicking on the device button.
 * Click **Build and Run**.
 * Wait a few seconds and …. voila! Your iOS app is alive!
