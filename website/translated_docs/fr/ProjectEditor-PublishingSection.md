@@ -91,7 +91,7 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant de G
   </p>
 </div>
 
-* Créer un dossier **Components**à côté de la base de données 4D avec les données de l’application. 
+* Créer un dossier **Components** à côté de la base de données 4D avec les données de l’application. 
 * Placer le composant **MOBILE SESSION MANAGEMENT** dans le dossier nouvellement créé **Components**.
 * Redémarrer 4D. 
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
