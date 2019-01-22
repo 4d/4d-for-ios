@@ -103,21 +103,21 @@ Ya casi terminamos, pero primero tenemos que decidir el diseño de la aplicació
 
 En este punto, la parte inferior de la ventana de configuración ha cambiado de selección de plantilla a definición de contenido.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. Los campos Búsqueda y Sección son opcionales, por el momento, deje en blanco el campo Section.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form. * Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+Y por último, definimos el formulario detallado. * Seleccione una plantilla que sea la más adecuada para su aplicación. Para nuestra aplicación Contact, vamos a utilizar la plantilla **Visual Contact**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the appropriate places on the detail form template, *i.e.*, First Name, Last Name, and Photo.
+* Arrastre y suelte el contenido en los lugares adecuados en la plantilla de formulario detallado, *es decir*, Nombre, Apellido y foto.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. Build the app
+## PASO 9. Creación de la aplicación
 
-Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
+¡Ahora la parte divertida! Es hora de crear su aplicación y probarla en el simulador para ver el resultado final.
 
 * Click the **Build** tab.
 * Select a device to use as a Simulator by clicking on the device button.
