@@ -9,9 +9,9 @@ Regardons de plus près les options de l'onglet Génération :
 
 * **Créer et exécuter :** Lance l'application dans le Simulateur.
 
-* **iPhone X:** Le simulator par défaut. En cliquant ici vous afficherez une liste déroulante des simulateurs disponibles.
+* **iPhone X :** Le simulator par défaut. En cliquant ici vous afficherez une liste déroulante des simulateurs disponibles.
 
-* **Projet :** Affiche une liste déroulante vous permettant d' **ouvrir le dossier du projet** ou le **dossier produit**, ou **d'ouvrir le produit avec Xcode**.
+* **Projet :** Affiche une liste déroulante vous permettant d'**ouvrir le dossier du projet** ou le **dossier produit**, ou **d'ouvrir le produit avec Xcode**.
 
 * **Installer :** Installe l’application sur un appareil connecté.
 
