@@ -13,7 +13,7 @@ sidebar_label: Distribuez votre application interne
 
 **CONSEILS**
 
-Vous pouvez utiliser n’importe quel service de stockage cloud pour distribuer votre application dès qu’elle est sécurisée (Dropbox, Google Drive, etc.).</div> 
+Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application dès qu’elle est sécurisée (Dropbox, Google Drive, etc.).</div> 
 
 Téléchargez votre application sur un serveur sécurisé :
 
