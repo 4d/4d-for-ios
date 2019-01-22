@@ -5,7 +5,7 @@ sidebar_label: Qu'est-ce que Xcode ?
 ---
 ## Qu'est-ce que Xcode ?
 
-Xcode est un IDE et un ensemble d’outils de développeur pour macOS qui permet de créer des applications Mac, iPod, iPhone et iPad.
+Xcode est un environnement de développement intégré (IDE) et un ensemble d’outils de développeur pour macOS qui permet de créer des applications Mac, iPod, iPhone et iPad.
 
 ## Télécharger
 
@@ -34,7 +34,7 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ### Compatibilité
 
-Les cadres compilés avec une version de Xcode peuvent être incompatibles avec une autre version.
+Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version.
 
 Rassurez-vous, la stabilité de l’ABI sera l'objectif principal de la prochaine version de swift : swift 5.
 
