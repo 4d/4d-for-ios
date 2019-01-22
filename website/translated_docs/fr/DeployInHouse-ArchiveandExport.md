@@ -8,7 +8,7 @@ sidebar_label: Archiver et télécharger votre projet
 **OBJECTIFS**
 
 * Archiver et télécharger votre projet
-* Générer des fichiers .ipa des manifest</div> <div class = "prerequisites"> 
+* Générer des fichiers .ipa des fichiers manifest</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
