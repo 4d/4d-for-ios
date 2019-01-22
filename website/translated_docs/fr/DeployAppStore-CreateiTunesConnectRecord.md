@@ -14,7 +14,7 @@ sidebar_label: Créez un enregistrement App Store
 
 #### Qu'est-ce qu'un identifiant d'application ?
 
-*Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications depuis une seule équipe de développement. La chaîne est constituée d’une chaîne de recherche des Team ID et Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*<div class = "tips"> 
+*Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications à partir d'une seule équipe de développement. La chaîne est constituée d’une chaîne de recherche des Team ID et Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*<div class = "tips"> 
 
 **NOTE**
 
