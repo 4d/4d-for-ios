@@ -86,22 +86,22 @@ Ahora es el momento para definir algunas etiquetas e iconos para los campos y ta
 
 ## PASO 7. Secciones - menú principal
 
-Next up is defining the order of the tables in the app's main menu.
+Lo siguiente es definir el orden de las tablas en el menú principal de la aplicación.
 
-* **Available Tables:** Displays the table(s) to be used.
-* **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Tablas disponibles:** muestra las tablas a utilizar.
+* **Tablas seleccionadas:** muestra los elementos de menú de su aplicación. Aunque nuestro ejemplo solo tiene un elemento, puede arrastrar y soltar los elementos para reordenarlos.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. Sections - Forms
+## PASO 8. Secciones - Formularios
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+Ya casi terminamos, pero primero tenemos que decidir el diseño de la aplicación. Hay formularios listados y formularios detallados para elegir.
 
-* Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
+* Seleccione un modelo de formulario listado para mostrar su tabla como una lista. Para nuestra aplicación Contact, utilicemos la plantilla **Profile**.
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-At this point, the bottom of the configuration window has changed from template selection to content definition.
+En este punto, la parte inferior de la ventana de configuración ha cambiado de selección de plantilla a definición de contenido.
 
 * Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
