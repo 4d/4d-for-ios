@@ -95,7 +95,7 @@ C'est parti !
 
 ![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
 
-* Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section nstalled Apps.
+* Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section Installed Apps.
 
 ![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
