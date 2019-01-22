@@ -178,7 +178,7 @@ Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser p
 
 Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affichée.
 
-Si vous possédez déjà une icône pour votre application 4D Desktop, vous pouvez la glisser-déposer directement dans la zone consacrée à l'icône dans la section [Général](general.html) de l'éditeur de projet.
+Si vous possédez déjà une icône pour votre application 4D, vous pouvez la glisser-déposer directement dans la zone consacrée à l'icône dans la section [Général](general.html) de l'éditeur de projet.
 
 </details>
 
