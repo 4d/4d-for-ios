@@ -88,12 +88,12 @@ Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabelle
 
 Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
-* **Available Tables:** Displays the table(s) to be used.
-* **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Available Tables:** Zeigt die verfügbaren Tabellen.
+* **Selected Tables:** Zeigt die Menüeinträge Ihrer App. Unser Beispiel hat nur ein Element. Bei mehreren Elemente können Sie diese per Drag-and-Drop anders anordnen.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. Sections - Forms
+## SCHRITT 8. Sections - Forms
 
 We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
 
