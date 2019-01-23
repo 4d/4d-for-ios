@@ -93,25 +93,25 @@ Veuillez noter que vous n’êtes pas autorisé à installer votre application m
 
 <details>
 <summary>
-<strong>I have a 4D Server plus an expansion for two clients (in total, four clients), how many mobile devices can I use?</strong>
+<strong>J’ai un 4D Server et une extension pour deux clients (quatre clients au total). Combien d'appareils mobiles puis-je utiliser ?</strong>
 </summary>
 
-You can use up to four mobile devices.
+Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 </details>
 
-## MISC
+## Questions diverses
 
 <details>
 <summary>
-<strong>I have an application with a lot of data, can I embed all of it on my iOS device?</strong>
+<strong>J’ai une application contenant un grand nombre de données, puis-je les intégrer toutes à mon appareil iOS ?</strong>
 </summary>
 
-4D for iOs allows you to embed a maximum of 10,000 records in your app.
+4D for iOs vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
 
-For now, the best way to deal with large amounts of data is to create an intermediate table and filter the results you want to display.
+Pour l’instant, la meilleure façon de traiter de grandes quantités de données consiste à créer une table intermédiaire et à filtrer les résultats que vous souhaitez afficher.
 
-Future versions of 4D for iOS will include a way to apply filters so only the required information is displays.
+Les prochaines versions de 4D for iOS incluront un moyen d’appliquer des filtres afin que seule l’information requise s'affiche.
 
 </details>
 
