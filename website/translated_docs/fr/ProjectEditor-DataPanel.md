@@ -13,7 +13,7 @@ Cette section vous permet : * de définir les données à inclure dans votre app
 
 Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
-Pour sécuriser l'accès au serveur de production, un **fichier clé** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier clé key.mobileapp est disponible dans le dossier MobileApps. Le développeur peut ensuite sélectionner ce fichier clé dans l’éditeur de projet pour accéder aux données du serveur de production.
+Pour sécuriser l'accès au serveur de production, un **fichier key.mobileapp** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier key.mobileapp est disponible dans le dossier MobileApps. Le développeur peut ensuite sélectionner ce fichier dans l’éditeur de projet pour accéder aux données du serveur de production.
 
 L'**URL de production** doit être saisi depuis la **section Publication** si vous choisissez d’obtenir des données à partir de votre serveur de production.
 
@@ -23,7 +23,7 @@ Ici, vous pouvez également vérifier si le serveur est disponible et l’active
 
 * Il existe des astuces pour vous assurer que le serveur fonctionne correctement.
 * Vous pouvez accéder directement au panneau Publication pour définir votre URL de production.
-* Pour accéder aux données du serveur de production, un fichier clé est requis pour sécuriser les communications.</div> 
+* Pour accéder aux données du serveur de production, un fichier key.mobileapp est requis pour sécuriser les échanges.</div> 
 
 Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
 
@@ -39,7 +39,7 @@ Dans ce panneau, vous pouvez définir tous les filtres de chaque table, en vous 
 
 Vous pouvez définir des filtres par table en fonction des valeurs de champ :
 
-* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également composer votre recherche de champs, de comparateurs et d'opérateurs qui sont disponibles juste au-dessus du champ de recherche lorsqu’elle est mise au point. Cela peut être utile pour affiner votre recherche
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également composer votre recherche de Champs, de Comparateurs et d'Opérateurs qui sont disponibles juste au-dessus du champ de recherche lorsqu’elle est mise au point. Cela peut être utile pour affiner votre recherche
 
 * Vous devez ensuite valider votre recherche. Cela doit être fait chaque fois que vous y apportez des modifications (une recherche qui a été modifiée et non validée apparaît en rouge dans l’éditeur de projet).
 
@@ -61,7 +61,7 @@ Vous pouvez établir des filtres en fonction des informations utilisateur que vo
 
 * Concernant les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
-* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" ainsi que la clé de l'objet `userinfo`.
+* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" ainsi que la clé objet `userinfo`.
 
 * Validez ensuite votre recherche. Cela doit être effectué à chaque modification que vous y apportez.
 
@@ -75,7 +75,7 @@ Dans le champ **Filtre de recherche**, entrez :
 
 CityName = :city
 
-Dans la méthode de base de données [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) , entrez :
+Dans la [Méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
 
     $response.userInfo:=New object("city";"Paris")
 
