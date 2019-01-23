@@ -12,6 +12,14 @@ sidebar_label: Create App Store record
 * Create your app in App Store Connect
 </div>
 
+<div markdown="1" class = "prerequisites">
+	
+**PREREQUISITES**
+
+[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)
+
+</div>
+
 
 ## STEP 1. Create an App ID
 

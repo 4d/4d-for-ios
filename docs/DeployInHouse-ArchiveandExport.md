@@ -16,6 +16,7 @@ sidebar_label: Archive and export your Project
 
 **PREREQUISITES**
 
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server
 * 57 x 57 px icon
 * 512 x 512 px icon
