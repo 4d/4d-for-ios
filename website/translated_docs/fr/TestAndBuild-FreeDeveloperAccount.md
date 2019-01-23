@@ -31,4 +31,4 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png)
 
-Félicitations ! You're now ready to use your free Apple ID!
+Félicitations ! Vous êtes désormais prêt à utiliser votre identifiant Apple gratuit !
