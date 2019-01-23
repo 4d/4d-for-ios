@@ -78,7 +78,7 @@ Für unser Beispiel wählen Sie **ID**, **First Name**, **Last Name**, **Job**, 
 
 Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabellen und Felder zu definieren.
 
-**Table Properties:** * Definieren Sie eine kurze und eine lange Bezeichnung für Ihre Tabelle Contact * Klicken Sie in den Bereich Icons. Die Icon-Bibliothek erscheint und Sie können ein Icon auswählen, um die Tabelle Contacts zu illustrieren. Sie können den Bereich Icons auch leer lassen. 4D foür iOS generiert ein Standardsymbol für Sie!
+**Table Properties:** * Definieren Sie eine kurze und eine lange Bezeichnung für Ihre Tabelle Contact * Klicken Sie in den Bereich Icons. Die Icon-Bibliothek erscheint und Sie können ein Icon auswählen, um die Tabelle Contacts zu illustrieren. Sie können den Bereich Icons auch leer lassen. 4D for iOS generiert ein Standardsymbol für Sie!
 
 **Field Properties:** * Define a short and a long label for your selected fields. * Click on the icon field and select icons for each field. There are several options for field icons: * You can select an icon for each field, * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you * You can simply leave them empty to not display any field icons.
 
