@@ -103,11 +103,11 @@ Wir sind fast fertig, wir müssen noch das Layout für die App festlegen. Für F
 
 An dieser Stelle hat sich der untere Teil des Konfigurationsfensters von der Auswahl der Vorlagen zur Definition der Inhalte geändert.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Ziehen Sie die gewünschten Felder per Drag-and-Drop auf die Vorlage, *z.B.* LastName in die Felder Search und Title. Die Felder Search und Section sind optional, lassen Sie das Feld Section für den Moment leer.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form. * Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+Und zu guter Letzt definieren wir das Detailformular. * Wählen Sie eine Vorlage, die für Ihre Anwendung am besten geeignet ist. Für unsere App Contact verwenden wir die Vorlage **Visual Contact**Vorlage.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
