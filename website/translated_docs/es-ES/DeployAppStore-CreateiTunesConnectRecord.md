@@ -8,7 +8,11 @@ sidebar_label: Create App Store record
 **OBJECTIVES**
 
 * Create an App ID on your Developer Account
-* Create your app in App Store Connect</div> 
+* Create your app in App Store Connect</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 
 ## STEP 1. Create an App ID
 
