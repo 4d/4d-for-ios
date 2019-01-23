@@ -111,22 +111,22 @@ Und zu guter Letzt definieren wir das Detailformular. * Wählen Sie eine Vorlage
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the appropriate places on the detail form template, *i.e.*, First Name, Last Name, and Photo.
+* Ziehen Sie den Inhalt per Drag & Drop an die entsprechenden Stellen auf der Detailformular-Vorlage: *z.B.*, First Name, Last Name und Photo.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. Build the app
+## SCHRITT 9. Die App erstellen
 
-Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
+Jetzt zum lustigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Simulator zu testen, um das Endergebnis zu sehen!
 
-* Click the **Build** tab.
-* Select a device to use as a Simulator by clicking on the device button.
-* Click **Build and Run**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Klicken Sie auf die Registerkarte **Build**.
+* Wählen Sie ein Gerät aus, das als Simulator dienen soll. Dazu klicken Sie auf die Schaltfläche device.
+* Klicken Sie auf **Build and Run**.
+* Warten Sie ein paar Sekunden und …. siehe da! Ihre iOS App ist live!
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Where to go from here?
+## STEP 10. Wie geht es weiter?
 
 We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
 
