@@ -17,7 +17,7 @@ Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de
 
 ## Télécharger le projet Starter
 
-Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Deux dossiers d’images **integerToImage_Images** et **textToImage_Images** (à utiliser ultérieurement pour les formats qui incluent des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
+To begin, download the **Starter Project**, which includes: * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
