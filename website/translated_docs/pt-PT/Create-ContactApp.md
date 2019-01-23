@@ -5,23 +5,23 @@ sidebar_label: Contact App
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Clique aqui em [](prerequisites.html), para ver o que você precisa para começar!</div> 
 
-This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
+Este tutorial vai deixar você mergulhardireto em 4D para o desenvolvimento do iOS. Isso permitirá que você crie rapidamente e facilmente sua primeira aplicação.
 
-*Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
+*Cenário: Você é um gerente de negócios e quer consultar suas informações de contato em qualquer lugar.*
 
-We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
+Vamos criar um app diretório de iPhone para procurar nomes de contato de uma lista e em seguida, exibir os detalhes de cada contato. Vamos chamá-lo "Contato".
 
-## STEP 1. Getting started
+## PASSO 1. Começando
 
-Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
+Baixe nosso projeto de Starter, que contém um arquivo de banco de dados e o ícone de projeto, mas nenhum projeto móvel ainda.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -33,48 +33,48 @@ href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
   </p>
 </div>
 
-## STEP 2. Creating the project
+## PASSO 2. Criando o projeto
 
-Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
+Vamos começar com uma estrutura muito simples usando uma única tabela. Em 4D, vá para **New > Mobile project**.
 
-Give your project a name and click **Create**.
+Dê um nome a seu projeto e clique em **criar**.
 
 ![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## STEP 3. Opening the Project Editor
+## PASSO 3. Abrir o Editor de projeto
 
-Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+Bem-vindo ao 4D para iOS! A tela de boas vindas exibe as fases principais de criação de app desta magnífica ferramenta. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+Clique **continuar**.
 
-## STEP 4. Sections - General
+## PASSO 4. Seções - geral
 
-Here, you'll configure your app's primary information:
+Aqui, você vai configurar informações principais do seu aplicativo:
 
-* **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
-* **Product:** Enter your app's name. Let’s call this one "Contact".
-* **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
-* **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
-* **Icons:** Drag and drop an icon for your app into the icon area.
-* **Developer:** This is automatically filled from the user name on your computer. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
+* **Organização:** digite o nome da sua empresa e o identificador da aplicação (ex. "Minha empresa" e com.Minhaempresa).
+* **Produto:** digite o nome da sua aplicação. Vamos chamar este um "contato".
+* **ID:** (Bundle ID) é gerado automaticamente como uma composição de seu identificador de organização e nome de produto.
+* **Versão:** Deixe a versão como 1.0 e defina o copyright do app. É automaticamente recomendado usar os formatos oferecidos por 4D para iOS.
+* **Icons:** Arraste e solte um ícone para seu app na área de ícone.
+* **Desenvolvedor:** É automaticamente preenchido a partir do nome de usuário em seu computador. Copie/cole sua referência de time desenvolvedor (da sua conta de desenvolvedor) no campo Time. Também pode deixar o campo vazio para construir sua aplicação apenas no Simulador.
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-## STEP 5. Sections - Structure
+## PASSO 5. Seções - Estrutura
 
-This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
+Aqui é onde vai definir um subconjunto de seus dados (as tabelas de banco de dados e campos) para expor os aparelhos móveis.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
+Em nosso exemplo, selecione **ID**, ** Nome**, **Sobrenome**, **Cargo**, **Empresa**, **Telefone**, **Notas** e **Foto**.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+* Recomendamos fortemente que publique sua chave primária para identificar cada registro em seu banco de dados.</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. Sections - Icons & Labels
+## PASSO 6. Sections - Icons & Labels
 
 Now it's time to define some labels and icons for the selected tables and fields.
 
