@@ -128,7 +128,7 @@ Jetzt zum lustigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Si
 
 ## STEP 10. Wie geht es weiter?
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
+Wir haben in diesem Tutorial die Grundlagen zum Erstellen von Apps behandelt, und Sie sollten nun in der Lage sein, einfache Apps selbst zu erstellen. Aber halt - es gibt noch mehr! Im nächsten Tutorial erfahren Sie, wie Sie eine komplexere App erstellen können. Klicken Sie unten auf **Final Project**, um die fertige App Contact herunterzuladen.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
