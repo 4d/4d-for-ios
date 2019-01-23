@@ -95,7 +95,7 @@ Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 ## SCHRITT 8. Sections - Forms
 
-Wir sind fast fertig, aber wir müssen noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
+Wir sind fast fertig, wir müssen nur noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
 
 * Wählen Sie eine Formularvorlage Liste, um Ihre Tabelle als Liste anzuzeigen. Für unsere App Contact verwenden wir die Vorlage **Profil**.
 
