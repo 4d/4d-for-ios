@@ -8,7 +8,11 @@ sidebar_label: Créez un enregistrement App Store
 **OBJECTIFS**
 
 * Créez un identifiant d’application sur votre compte développeur ("Developer")
-* Créez votre application dans l’App Store Connect</div> 
+* Créez votre application dans l’App Store Connect</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
 
@@ -18,9 +22,9 @@ sidebar_label: Créez un enregistrement App Store
 
 **NOTE**
 
-* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
+* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 
-* Si vous avez choisi un compte de développeur Apple en tant qu’organisation ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
+* If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
@@ -63,7 +67,7 @@ Ajoutez les informations suivantes :
 
 **NOTE**
 
-Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application disponible dans l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</div> 
+If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.</div> 
 
 ![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
@@ -79,7 +83,7 @@ C’est ici que vous pourrez définir le prix de votre application.<div class = 
 
 **CONSEILS**
 
-Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.</div> 
+You can define limited-time discounts by specifying start and end dates.</div> 
 
 ## ÉTAPE 6. Préparation à l'inscription
 
@@ -89,9 +93,9 @@ Dans **Version Information**, renseignez tous les atouts de votre application qu
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).<div class = "tips"> 
 
-**CONSEILS**
+**TIPS**
 
-Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).</div> 
+You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
 
 * Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (c'est ce que les utilisateurs visualiseront dans l'App Store).
 
