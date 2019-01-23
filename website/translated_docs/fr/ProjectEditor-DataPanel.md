@@ -27,7 +27,7 @@ Ici, vous pouvez également vérifier si le serveur est disponible et l’active
 
 Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
 
-Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
+When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 ## Propriétés
 
