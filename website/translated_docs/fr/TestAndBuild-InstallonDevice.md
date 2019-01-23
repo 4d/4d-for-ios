@@ -57,7 +57,7 @@ C'est parti !
 
 * Cliquez sur le bouton Créer et exécuter depuis Xcode !
 
-![Build and Run](assets/test-build/Build-Run-Free-Account.png)
+![Créer et exécuter](assets/test-build/Build-Run-Free-Account.png)
 
 ## ÉTAPE 5. Team ID pour un compte payant
 
@@ -77,26 +77,26 @@ C'est parti !
 
 ![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* L’application est installée sur votre appareil !
 
 ### Installation manuelle avec Xcode
 
-* When your app is ready, open the BUILD tab.
-* Connect your device to your computer with a USB cable.
-* From the BUILD tab, click on **Install**.
+* Lorsque votre application est prête, cliquez sur l’onglet GÉNÉRATION.
+* Connectez votre appareil à votre ordinateur avec un câble USB.
+* Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
 
 ![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png)
 
-* An archive of your project is created
+* Une archive de votre projet est créée
 
 ![Archive creation](assets/test-build/Archive-creation.png)
 
-* Reveal the generated archive in Finder
+* Indiquez l'archive générée dans Finder
 
 ![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
 
-* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
+* Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section Installed Apps.
 
 ![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* L’application est installée sur votre appareil !
