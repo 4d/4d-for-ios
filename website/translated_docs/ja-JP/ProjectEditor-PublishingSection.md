@@ -21,16 +21,16 @@ This is where you define or create your app's: * Web Server Settings * Authentic
 
 ## Authentication
 
-**Authorized User:** Check the **Requires an email to connect** option to display a login form when the app starts.
+**Authorized User:** Check the **Login required** option to display a login form when the app starts.
 
-**Guest:** Leave the **Requires an email to connect** option unchecked. No login form will appear when the app starts.
+**Guest:** Leave the **Login required** option unchecked. No login form will appear when the app starts.
 
 ## Authentication Method
 
 ### On Mobile App Authentication Database Method
 
 * **Development**: The authentication method allows you to use the app locally. 
-* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even when in Guest mode.
+* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
 
 A template is available which will: * Grant access (*i.e.*, email to specific domains) * Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
