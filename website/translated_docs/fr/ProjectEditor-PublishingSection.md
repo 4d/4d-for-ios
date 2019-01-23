@@ -21,9 +21,9 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ## Authentification
 
-**Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher un formulaire de connexion au démarrage de l'application.
+**Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
 
-**Invité :** Laissez l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
+**Invité :** Laissez l'option **Connexion requise** décochée. Aucun écran de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
