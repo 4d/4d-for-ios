@@ -9,15 +9,16 @@ sidebar_label: Conditions préalables
 * 4D Server v17 R2 64 bits (déploiement) 
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). 
 
-Apple configurator 2 nécessite macOS 10.14 ou une version plus récente. Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
+Apple configurator 2 requires **macOS 10.14** or later. Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
 
 ## Tableau de comparaison de version
 
 | Xcode | Swift | iOS      | 4D    |
 | ----- | ----- | -------- | ----- |
-| 10.0  | 4.2   | iOS 12   | 17 R3 |
+| 10.1  | 4.2.1 | iOS 12   | 17R4  |
+| 10.0  | 4.2   | iOS 12   | 17R3  |
 | 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
-| 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
+| 9.3.1 | 4.1   | iOS 11.3 | 17R2  |
 
 ## Configuration logicielle requise
 
