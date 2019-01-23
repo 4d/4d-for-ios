@@ -5,7 +5,7 @@ sidebar_label: Créer des icônes
 ---
 Vous pouvez utiliser tout type de format d'icône (SVG ou PNG sont recommandés pour des raisons de transparence) de la taille de votre choix et intégrez-la à votre projet.
 
-Il est fortement recommandé de disposer d'icônes de couleur noire afin de mieux les visualiser dans l'éditeur de projet. Pour ce tutoriel, vous pourrez télécharger les icônes suivantes :
+It's highly recommended having colored versions of your custom icons to better visualize them in the project editor. Pour ce tutoriel, vous pourrez télécharger les icônes suivantes :
 
 <div style="text-align: center; margin-top: 20px">
   <p>
