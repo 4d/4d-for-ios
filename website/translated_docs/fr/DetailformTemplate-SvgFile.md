@@ -9,7 +9,7 @@ Voici une version finale :
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et **0 - 8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -57,7 +57,7 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
 3. Définir l'emplacement et la largeur de la zone de texte 
-4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
+4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant<div class = "tips"> 
 
 **NOTE**
@@ -128,7 +128,7 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Identifiants multiévalués du champs à dupliquer
+1. Multivaluated ID for the field to be duplicated
 2. Emplacement de toute la zone Y
 3. Emplacement, hauteur et largeur de la zone d'arrière-plan
 4. Définir l'emplacement et la largeur de la zone de texte 
