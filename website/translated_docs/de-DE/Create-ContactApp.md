@@ -95,13 +95,13 @@ Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 ## SCHRITT 8. Sections - Forms
 
-Wir sind fast fertig, wir müssen nur noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
+Wir sind fast fertig, wir müssen noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
 
 * Wählen Sie eine Formularvorlage Liste, um Ihre Tabelle als Liste anzuzeigen. Für unsere App Contact verwenden wir die Vorlage **Profil**.
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-At this point, the bottom of the configuration window has changed from template selection to content definition.
+An dieser Stelle hat sich der untere Teil des Konfigurationsfensters von der Auswahl der Vorlagen zur Definition der Inhalte geändert.
 
 * Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
