@@ -57,7 +57,7 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
 3. Définir l'emplacement et la largeur de la zone de texte 
-4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
+4. Définir l'emplacement du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant<div class = "tips"> 
 
 **NOTE**
@@ -128,7 +128,7 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Multivaluated ID for the field to be duplicated
+1. Identifiant "Multivaluated" pour le champ à dupliquer
 2. Emplacement de toute la zone Y
 3. Emplacement, hauteur et largeur de la zone d'arrière-plan
 4. Définir l'emplacement et la largeur de la zone de texte 
