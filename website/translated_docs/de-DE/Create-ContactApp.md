@@ -84,9 +84,9 @@ Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabelle
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## STEP 7. Sections - Main Menu
+## SCHRITT 7. Sections - Main Menu
 
-Next up is defining the order of the tables in the app's main menu.
+Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 * **Available Tables:** Displays the table(s) to be used.
 * **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
