@@ -21,9 +21,9 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ## Authentification
 
-**Authorized User:** Check the **Login required** option to display a login form when the app starts.
+**Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher un formulaire de connexion au démarrage de l'application.
 
-**Guest:** Leave the **Login required** option unchecked. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
+**Invité :** Laissez l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
