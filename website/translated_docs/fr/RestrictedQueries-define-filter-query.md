@@ -30,7 +30,7 @@ Vous devriez avoir ce résultat :
 * Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Embed data into the built application**.
 * La taille sera calculée lors de la première génération pour visualiser la **taille de vos données**.</div> 
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
+Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 
 ![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 
