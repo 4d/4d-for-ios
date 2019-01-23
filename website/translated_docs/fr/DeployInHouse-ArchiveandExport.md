@@ -12,10 +12,10 @@ sidebar_label: Archiver et télécharger votre projet
 
 **CONDITIONS PRÉALABLES**
 
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* A secured web server
-* 57 x 57 px icon
-* 512 x 512 px icon</div> 
+* [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
+* Un serveur Web sécurisé
+* Une icône de résolution 57 x 57 px
+* Une icône de résolution 512 x 512 px</div> 
 
 ## ÉTAPE 1. Configurez Xcode
 
