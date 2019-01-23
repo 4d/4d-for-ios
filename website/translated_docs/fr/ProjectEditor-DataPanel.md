@@ -13,7 +13,7 @@ Cette section vous permet : * de définir les données à inclure dans votre app
 
 Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
-Pour sécuriser l'accès au serveur de production, un **fichier key.mobileapp** doit être généré depuis le serveur de production et communiqué physiquement au développeur. This **key.mobileapp** file is available next to data in the MobileApps folder. Then the developer can select it from the project editor to access to the production server data.
+Pour sécuriser l'accès au serveur de production, un **fichier key.mobileapp** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier **key.mobileapp** est disponible dans le dossier MobileApps, qui contient également les données. Le développeur peut ensuite sélectionner ce fichier dans l’éditeur de projet pour accéder aux données du serveur de production.
 
 L'**URL de production** doit être saisi depuis la **section Publication** si vous choisissez d’obtenir des données à partir de votre serveur de production.
 
