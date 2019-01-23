@@ -30,7 +30,7 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 ### On Mobile App Authentication Database Method
 
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
+* **Déploiement** : vous devez créer/modifier la méthode de base de données *On Mobile App Authentication* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
 Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
 
