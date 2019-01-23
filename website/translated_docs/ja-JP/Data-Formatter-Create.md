@@ -17,7 +17,7 @@ sidebar_label: カスタムのデータフォーマッター
 
 ## スタータープロジェクトをダウンロードする
 
-まず初めに、**スタータープロジェクト**をダウンロードして下さい。これには次のものが含まれています: * **integerToImage_Images**および**textToImage_Images** フォルダを格納しているimages フォルダ(後ほど画像を含むフォーマッターに対して使用します) * **Task Management.4dbase** ファイル(および既に使用可能なモバイルアプリプロジェクト)
+To begin, download the **Starter Project**, which includes: * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
