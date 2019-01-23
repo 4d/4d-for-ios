@@ -37,7 +37,7 @@ Here, you can also check if the server is available and activate it if necessary
 
 You can also define whether or not you want to **Regenerate data systematically** at each build. 
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate button**.
+When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 
 ## Properties panel

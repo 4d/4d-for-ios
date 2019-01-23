@@ -12,7 +12,7 @@ Here's a finished version:
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and **0 - 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -62,7 +62,7 @@ You can define position, height, and width for all of your fields like  we did f
 1. Entire area Y position
 2. Area background position, height, and width
 3. Define the text area position and width 
-4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted here)
+4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
 5. Define a cancel button that will be displayed to the delete current content
 
 <div markdown="1" class = "tips">
@@ -138,7 +138,7 @@ You can define position, height, and width for all of your fields like  we did f
 </g>
 ```
 
-1. Multivaluated ID to for the field to be duplicated
+1. Multivaluated ID for the field to be duplicated
 2. Entire area Y position
 3. Area background position, height, and width
 4. Define the text area position and width 

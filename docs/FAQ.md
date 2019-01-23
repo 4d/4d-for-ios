@@ -21,13 +21,17 @@ The mobile project editor has been designed so that you can use 4D for iOS witho
 **Are there any prerequisites for 4D for iOS?**
 </summary>
 
-4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
+## Version comparison table
 
-The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
+| Xcode | Swift | iOS | 4D |
+|---|---|---|---|
+| 10.0 | 4.2 | iOS 12 | 17R3 |
+| 9.4| 4.1.2| iOS 11.4 | 17R2 |
+| 9.3.1| 4.1| iOS 11.3 | 17R2 |
 
-In case you already upgraded to Xcode 10, you can download Xcode 9.4.1 here: https://developer.apple.com/download/more/
+In case you need an older Xcode version you can download it here: https://developer.apple.com/download/more/
 
-Only registered developers can download preview releases through the Apple Developer website.
+=> Only registered developers can download preview releases through the Apple Developer website.
 
 See the prerequisites list [here](prerequisites.html).
 
@@ -204,7 +208,9 @@ If you already have an icon for your 4D Desktop application, you can drag and dr
 **How can I test my app?**
 </summary>
 
-4D for iOS allows you to test your apps in the [Simulator](simulator.html) and/or right on your iOS [device](install-device.html) (iPhone and iPad).
+4D for iOS allows you to test your apps in the [Simulator](simulator.html). To test your app on your iOS device you need to have a **paying Apple developer account** (install-device.html) (iPhone and iPad).
+
+**Note:** to intall your app with a **free developer account**, you can open your generated iOS project and install your app using Xcode.
 
 </details>
 
@@ -225,7 +231,7 @@ All of templates available in 4D for iOS are optimized for the iPhone. They also
 	 **Do I need an Apple Developer Account?**
 </summary>
 
-To test your app on an iOS device, you'll need to create at least a [free Apple Developer account](free-developer-account.html).
+To test your app, you'll need to create at least a [free Apple Developer account](free-developer-account.html).
 
 To deploy a 4D for iOS app, you'll need to enroll in the [Apple Developer Enterprise Program](register-apple-developer-enterprise-program.html) (for an in-house deployment) or in the [Apple Developer Program](register-apple-developer-program-organization.html) (for an App Store deployment).
 

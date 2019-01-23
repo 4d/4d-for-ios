@@ -24,7 +24,7 @@ In this tutorial, we'll guide you through the creation of various formatter exam
 ## Download the Starter Project
 
 To begin, download the **Starter Project**, which includes:
-* An images folder containing **integerToImage_Images** and **textToImage_Images** folders (to use later for formatters that include images)
+* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
 * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 
