@@ -9,7 +9,7 @@ Voici une version finale :
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
+Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et jusqu'à **8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
