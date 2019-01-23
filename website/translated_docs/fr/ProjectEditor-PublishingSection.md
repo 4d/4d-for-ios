@@ -21,16 +21,16 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ## Authentification
 
-**Authorized User :** Cochez l'option **Connexion requise** pour afficher un formulaire de connexion au démarrage de l'application.
+**Authorized User:** Check the **Login required** option to display a login form when the app starts.
 
-**Guest :** Laissez l'option **Connexion requise** décochée. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
+**Guest:** Leave the **Login required** option unchecked. Aucun formulaire de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
 ### On Mobile App Authentication Database Method
 
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Déploiement** : vous devez créer/modifier la méthode de base de données *On Mobile App Authentication* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
+* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
 
 Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
 
