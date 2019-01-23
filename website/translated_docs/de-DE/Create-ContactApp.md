@@ -89,7 +89,7 @@ Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabelle
 Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 * **Available Tables:** Zeigt die verfügbaren Tabellen.
-* **Selected Tables:** Zeigt die Menüeinträge Ihrer App. Unser Beispiel hat nur ein Element. Bei mehreren Elemente können Sie diese per Drag-and-Drop anders anordnen.
+* **Selected Tables:** Zeigt die Menüeinträge Ihrer App. Unser Beispiel hat nur ein Element. Bei mehreren Elementen können Sie diese per Drag-and-Drop anders anordnen.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
