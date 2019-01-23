@@ -27,10 +27,10 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ## Méthode d’authentification
 
-### On Mobile App Authentication Database Method
+### Méthode base Sur authentification app mobile
 
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Déploiement** : vous devez créer/modifier la méthode de base de données *On Mobile App Authentication* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
+* **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
 
 Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
 
@@ -77,22 +77,22 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
-### Mobile Session Management Component
+### Composant Mobile Session Management
 
-Les sessions peuvent être gérées par **MOBILE SESSION MANAGEMENT** :
+Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT** :
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant de GESTION DE SESSION MOBILE</a>
+href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
 
   </p>
 </div>
 
-* Créez un dossier **Components** contenant les données de l’application au même emplacement que la base de données 4D. 
-* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier nouvellement créé **Components**.
+* Créez un dossier **Composants** contenant les données de l’application au même emplacement que la base de données 4D. 
+* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé .
 * Redémarrez 4D. 
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
 * La fenêtre d'applications apparaitra et affichera toutes vos applications : 
