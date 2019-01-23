@@ -17,6 +17,6 @@ sidebar_label: Utiliser des icônes
 
 ![Icon library](assets/custom-icons/icon-library.png)
 
-Pour faciliter votre expérience de création d'application avec 4D for iOS, nous vous proposons de créer et d'utiliser vos propres icônes dans vos projets iOS.
+We want you to have the best app creation experience with 4D for iOS, so now you can create and use your own icons in your iOS projects.
 
-Voyons comment les créer!
+Let's see how to make them!
