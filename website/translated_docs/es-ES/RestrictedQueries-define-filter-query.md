@@ -30,7 +30,7 @@ You should have this result:
 * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
 * Size will be calculated at the first build for you to visualize the **size of your data**.</div> 
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contacts *In Progress* are displayed in the Simulator!
+If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
 ![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 
