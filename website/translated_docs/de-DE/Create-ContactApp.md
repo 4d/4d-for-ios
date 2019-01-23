@@ -95,7 +95,7 @@ Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 ## SCHRITT 8. Sections - Forms
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+Wir sind fast fertig, aber wir müssen noch das Layout für die App festlegen. There are both List and Details forms to choose from.
 
 * Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
 
