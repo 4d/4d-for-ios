@@ -74,17 +74,17 @@ Em nosso exemplo, selecione **ID**, ** Nome**, **Sobrenome**, **Cargo**, **Empre
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## PASSO 6. Sections - Icons & Labels
+## PASSO 6. Seções - Ícones & Etiquetas
 
-Now it's time to define some labels and icons for the selected tables and fields.
+Agora vamos definir algumas etiquetas e ícones para as tabelas e campos selecionados.
 
-**Table Properties:** * Define a short and a long label for your Contact table * Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
+**Propriedades de Tabela:** * Define uma etiqueta curta e uma longa para sua tabela de Contatos * Clique no campo ícone. A biblioteca ícone vai aparecer e pode selecionar um ícone para ilustrar a tabela de Contatos. Pode também optar por manter o campo ícone vazio. 4D para iOS vai gerar um ícone padrão para você!
 
-**Field Properties:** * Define a short and a long label for your selected fields. * Click on the icon field and select icons for each field. There are several options for field icons: * You can select an icon for each field, * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you * You can simply leave them empty to not display any field icons.
+**Propriedades de Campo:** * Define uma etiqueta curta e uma longa para seus campos selecionados. * Clique no campo ícone e ícones selecionados para cada campo. Há várias opções para campos ícones: * Pode selecionar um ícone para cada campo, * Se pelo menos um ícone foi definido e outros campos foram deixados vazios, 4D para iOS vai gerar ícones padrão para você * Também pode deixar os campos vazios para que não exibam ícones.
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## STEP 7. Sections - Main Menu
+## PASSO 7. Sections - Main Menu
 
 Next up is defining the order of the tables in the app's main menu.
 
