@@ -31,10 +31,4 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png)
 
-Félicitations ! Vous êtes maintenant prêt à utiliser votre identifiant Apple gratuit pour fournir et déployer des appareils iOS à l’aide d'Xcode.
-
-Pour distribuer une application iOS, vous devez avoir un compte Apple Developer valide.
-
-Voici un tableau comparatif des différentes catégories d’adhésion en tant que développeur :
-
-![Free Testing](assets/test-build/FreeTestingAppleDeveloperAccount.png)
+Félicitations ! You're now ready to use your free Apple ID!
