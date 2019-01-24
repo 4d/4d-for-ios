@@ -1,30 +1,30 @@
 ---
 id: xcode
 title: Xcode
-sidebar_label: Qu'est-ce que Xcode ?
+sidebar_label: What is Xcode?
 ---
-## Qu'est-ce que Xcode ?
+## What is Xcode?
 
-Xcode est un environnement de développement intégré (IDE) et un ensemble d’outils de développeur pour macOS qui permet de créer des applications Mac, iPod, iPhone et iPad.
+Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.
 
-## Télécharger
+## Download
 
-Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
+To download the lastest version of Xcode go to the App Store.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
-<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Afficher dans Mac App Store </a>
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
 
   </p>
 </div>
 
-Les développeurs enregistrés peuvent télécharger des aperçu des sorties ainsi que les versions antérieures de la suite 4D via le site Web d'Apple Developer.
+Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
 
 🔗 https://developer.apple.com/download/more/ 🔗 https://developer.apple.com/xcode/
 
-## Tableau de comparaison de version
+## Version comparison table
 
 | Xcode | Swift | iOS      | 4D   |
 | ----- | ----- | -------- | ---- |
@@ -32,19 +32,19 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 | 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
 
-### Compatibilité
+### Compatibility
 
-Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version.
+Frameworks compiled with one version of Xcode could not be used with another version.
 
-Rassurez-vous, la stabilité de l’ABI sera l'objectif principal de la prochaine version de swift : swift 5.
+Rest assured, the next release of swift, swift 5, have for primary focus the ABI stability.
 
 https://swift.org/abi-stability/
 
-Cela garantira la répartition des cadres dans un format binaire.
+This will enables the distribution of frameworks in a binary format.
 
 <div class="tips">
   <p>
-    ABI : Application Binary Interface, un contrat qui lie les extraits de code binaire définis par le compilateur.
+    ABI: Application Binary Interface, a contract between pieces of binary code defined by the compiler.
   </p>
   
   <p>
