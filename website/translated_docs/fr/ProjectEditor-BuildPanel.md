@@ -1,22 +1,22 @@
 ---
 id: build-panel
-title: Onglet Génération
-sidebar_label: Onglet Génération
+title: Build Panel
+sidebar_label: Build Panel
 ---
-Lorsque votre application est prête, vous pouvez la lancer dans le Simulateur pour la tester.
+When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
 
-Regardons de plus près les options de l'onglet Génération :
+Let’s take a closer look at the Build tab options:
 
-* **Créer et exécuter :** Lance l'application dans le Simulateur.
+* **Build and Run:** Launches the app in the Simulator.
 
-* **iPhone X :** Le simulator par défaut. En cliquant ici vous afficherez une liste déroulante des simulateurs disponibles.
+* **iPhone X:** The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
 
-* **Projet :** Affiche une liste déroulante vous permettant d'**ouvrir le dossier du projet** ou le **dossier produit**, ou **d'ouvrir le produit avec Xcode**.
+* **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
 
-* **Installer :** Installe l’application sur un appareil connecté.
+* **Install:** Installs the application on a connected device.
 
-Sélectionnez un simulateur dans lequel vous générerez et testerez votre application, puis cliquez sur le bouton **Créer et exécuter**.
+Select a Simulator on which to build and test your app, and press the **Build and Run** button.
 
 ![BuildTab](assets/project-editor/Build-Tab-4D-for-iOS.png)
 
-Vous êtes maintenant prêt à explorer vous-même 4D for iOS et à créer votre propre projet iOS !
+You're now ready to explore 4D for iOS on your own and build your own iOS project!
