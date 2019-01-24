@@ -1,39 +1,39 @@
 ---
 id: prerequisites
-title: Conditions préalables
-sidebar_label: Conditions préalables
+title: Prerequisites
+sidebar_label: Prerequisites
 ---
-## Configuration logicielle requise
+## Software requirements
 
-* 4D Developer Pro v17 R2 64 bits (développement)
-* 4D Server v17 R2 64 bits (déploiement) 
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). 
+* 4D Developer Pro v17 R2 64-bit (Development)
+* 4D Server v17 R2 64-bit (Deployment) 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
 
-Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
+Apple configurator 2 requires **macOS 10.14** or later. Install this software if you want to automate app installation on your physical device.
 
-## Tableau de comparaison de version
+## Version comparison table
 
-| Xcode | Swift | iOS      | 4D    |
-| ----- | ----- | -------- | ----- |
-| 10.1  | 4.2.1 | iOS 12   | 17 R4 |
-| 10.0  | 4.2   | iOS 12   | 17 R3 |
-| 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
-| 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
+| Xcode | Swift | iOS      | 4D   |
+| ----- | ----- | -------- | ---- |
+| 10.1  | 4.2.1 | iOS 12   | 17R4 |
+| 10.0  | 4.2   | iOS 12   | 17R3 |
+| 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
+| 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
 
-## Configuration logicielle requise
+## Hardware requirements
 
-* 8 Go de RAM (Minimum recommandé)
+* 8GB of RAM (Minimum recommended)
 
 ## Configuration
 
-* Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
+* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
 
-![Utiliser la notation objet](assets/prerequisites/Use-object-notation.png)
+![Use object notation](assets/prerequisites/Use-object-notation.png)
 
-* Les ports HTTP et HTTPS doivent être correctement configurés. HTTPS est obligatoire pour le déploiement de 4D for iOS.
+* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
 
-![Configuration Web](assets/prerequisites/Web-Configuration.png)
+![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
-* Votre serveur Web doit être lancé. Il est accessible depuis le menu Exécution :
+* Your Web Server must be started. It's available from the Run menu:
 
-![Lancer le serveur Web](assets/prerequisites/Start-web-server.png)
+![Start web server](assets/prerequisites/Start-web-server.png)
