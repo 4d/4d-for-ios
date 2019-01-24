@@ -109,11 +109,11 @@ Nous avons presque terminé, mais il faut d’abord décider de la mise en page 
 
 Enfin, nous allons définir le formulaire détaillé. * Sélectionnez le modèle de formulaire qui convient le mieux à votre application. Pour notre application Contacts, nous allons utiliser le modèle **Visual Contact**.
 
-![Modèle de formulaire Détail](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
+![Modèle de formulaire détaillé](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
 * Glissez et déposez le contenu dans les endroits appropriés sur le modèle du formulaire détaillé, à savoir, First Name, Last Name et Photo.
 
-![Contenu du formulaire Détail](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
+![Contenu du formulaire détaillé](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
 ## ÉTAPE 9. Création de l’application
 
@@ -124,7 +124,7 @@ Et maintenant, la partie amusante ! Il est temps de créer votre application et 
 * Cliquez sur **Générer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
-![Créer et Lancer](assets/contact-app/Build-the-app-simulator.png)
+![Créer & exécuter](assets/contact-app/Build-the-app-simulator.png)
 
 ## ÉTAPE 10. Que faire ensuite ?
 
