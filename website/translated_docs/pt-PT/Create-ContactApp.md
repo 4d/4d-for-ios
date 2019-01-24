@@ -7,7 +7,7 @@ sidebar_label: Contact App
 
 **OBJETIVOS**
 
-* Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
+* Criar seu primeiro app com 4D for iOS</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
@@ -122,20 +122,20 @@ Agora a parte divertida! Agora vamos construir seu app e testar no Simulador par
 * Clique na aba **Build**.
 * Selecione um aparelho a usar como um Simulador clicando no botão do aparelho.
 * Clique **Construir e Executar**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Espere alguns segundos e…. voila! Seu app iOS está pronto!
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Where to go from here?
+## PASSO 10. O que fazer agora?
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
+Nós cobrimos o básico da criação de apps nesse tutorial, e agora você pode criar apps simples sozinho. Mas espere - ainda há mais! No próximo tutorial você vai aprender a construir um app mais complexo. Clique em **Final Projeto** abaixo para baixar o app final Contato.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/contact-app/ContactFinal.zip">FINAL PROJECT</a>
+href="../assets/contact-app/ContactFinal.zip">PROJETO FINAL</a>
 
   </p>
 </div>
