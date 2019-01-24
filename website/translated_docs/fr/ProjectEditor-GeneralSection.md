@@ -1,31 +1,31 @@
 ---
 id: general
-title: Général
-sidebar_label: Général
+title: General
+sidebar_label: General
 ---
-Cette section vous permet de définir les principales informations sur votre application.
+This section allows you to define your app's main information.
 
 ![General section](assets/project-editor/General-section-4D-for-iOS.png)
 
-* **Organisation : **Saisissez soit votre nom soit celui de votre entreprise.
-* **Identifiant :** Saisissez l'identifiant Bundle de votre entreprise. Il servira à identifier votre application. Le nom de produit que vous entrez est concaténé afin de créer la valeur par défaut du « Bundle ID » à l'aide de la notation inversée du nom de domaine. Ce bundle ID doit être unique et propre à votre application.
+* **Organization:** Enter either your or your company’s name.
+* **Identifier:** Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
 
-Par exemple, si le nom de votre entreprise est « MaSociété » et le nom de votre application est « MonAppli », vous pouvez nommer l'identifiant de votre entreprise « com.MaSociété ». Ainsi, le bundle ID de votre application serait « com.MaSociété.MonAppli ».<div class = "tips"> 
+For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.<div class = "tips"> 
 
 **NOTE**
 
-Des liens d’aide sont disponibles pour les champs "Nom" et "Identifiant".</div> 
+Help links are available for the Name and Identifier fields.</div> 
 
-* **Nom du produit :** Nom de votre application. Comme indiqué ci-dessus, le nom du produit est utilisé pour créer l'identifiant bundle. Ce "Bundle ID" doit être identique au Bundle ID que vous avez créé dans votre compte Apple Development.
-* **Version :** Le numéro de version de votre application. Ajoutez des numéros dans un ordre séquentiel croissant à partir de 1.0.
-* **Copyright :** Les droits d’auteur de votre application. 4D for iOS propose un format de droit d’auteur, mais vous pouvez également créer votre propre format.
-* **Icônes :** Pour vos applications, 4D for iOS vous permet de créer, de diverses manières, des icônes conformes aux directives d’Apple, notamment par un glisser/déposer de vos icônes depuis votre ordinateur vers la zone consacrée à l’icône. 4D for iOS génèrera pour vous tous les formats requis !<div class = "tips"> 
+* **Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
+* **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
+* **Copyright:** Your app's copyright. 4D for iOS suggests a copyright format but you can create your own.
+* **Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!<div class = "tips"> 
 
-**CONSEILS**
+**TIPS**
 
-* Si vous avez déjà une icône pour votre application de bureau, vous pouvez la glisser et la déposer directement dans la zone consacrée à l’icône.
+* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
 
-* **Magique ! ** 4D for iOS détermine automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !</div> 
+* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!</div> 
 
-* **Développeur : **Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
-* **Team :** "Team ID" de votre compte Developer.
+* **Developer:** This field is automatically filled with your user account name.
+* **Team:** Your Developer Account Team ID.
