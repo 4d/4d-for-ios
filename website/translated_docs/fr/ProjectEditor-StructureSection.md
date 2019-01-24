@@ -3,21 +3,21 @@ id: structure
 title: Structure
 sidebar_label: Structure
 ---
-Cette section affiche tous les champs et les tables de votre base de données exposés par 4D Mobile Service.
+This section displays all of your database tables and fields exposed by 4D Mobile Service.
 
 ![Structure section](assets/project-editor/Structure-section-4D-for-iOS.png)
 
-Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques. 
+Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
 
-* les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
-* les champs sélectionnés seront disponibles plus tard, lorsque vous définirez vos formulaires liste et vos formulaires détaillés.<div class = "tips"> 
+* tables will be automatically added to the tabs of your app.
+* fields will be available later when it's time to define your list and detail forms.<div class = "tips"> 
 
 **NOTE**
 
-* Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
+* We recommend publishing your primary key in order to identify each record of your database.</div> 
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres et un moteur de recherche sont disponibles pour faciliter la sélection de vos tables et de vos champs.<div class = "tips"> 
+To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
 
-**CONSEILS**
+**TIPS**
 
-Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div>
+You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div>
