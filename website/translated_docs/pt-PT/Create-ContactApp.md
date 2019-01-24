@@ -84,44 +84,44 @@ Agora vamos definir algumas etiquetas e ícones para as tabelas e campos selecio
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## PASSO 7. Sections - Main Menu
+## PASSO 7. Seções - Menu principal
 
-Next up is defining the order of the tables in the app's main menu.
+Em seguida defina a ordem das tabelas no menu principal do aplicativo.
 
-* **Available Tables:** Displays the table(s) to be used.
-* **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Tabelas disponíveis:** Exibe as tabelas a serem usadas.
+* **Tabelas selecionadas:** exibe itens de menu do seu aplicativo. Apesar de nosso exemplo tem apenas um item, você pode arrastar e soltar seus itens para reordená-los.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. Sections - Forms
+## PASSO 8. Seções - formulários
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+Estamos quase terminando, mas primeiro precisamos decidir como vai ser o layout do aplicativo. Existem formulários Lista e Detalhes para escolher.
 
-* Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
+* Selecione um modelo de formulário de lista para exibir sua tabela como uma lista. Para nosso aplicativo de contato, vamos usar o modelo de **perfil**.
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-At this point, the bottom of the configuration window has changed from template selection to content definition.
+Neste ponto, a parte inferior da janela de configuração foi alterada a partir da seleção de modelo para definição de conteúdo.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Arraste e solte os campos que você deseja que seja exibido para o modelo, * ou seja*, Sobrenome nos campos pesquisa e Título. Os campos de pesquisa e seção são opcionais, deixe o campo seção vazio no momento.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form. * Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+E finalmente, definiremos o formulário detalhe. * Selecione um modelo que seja mais adequado para seu aplicativo. Para nosso aplicativo de contato, vamos usar o modelo de **contato Visual**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the appropriate places on the detail form template, *i.e.*, First Name, Last Name, and Photo.
+* Arraste e solte o conteúdo para os locais apropriados no modelo de formulário de detalhe, *ou seja,*, primeiro nome, sobrenome e foto.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. Build the app
+## PASSO 9. Construa o app
 
-Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
+Agora a parte divertida! Agora vamos construir seu app e testar no Simulador para ver o resultado final!
 
-* Click the **Build** tab.
-* Select a device to use as a Simulator by clicking on the device button.
-* Click **Build and Run**.
+* Clique na aba **Build**.
+* Selecione um aparelho a usar como um Simulador clicando no botão do aparelho.
+* Clique **Construir e Executar**.
 * Wait a few seconds and …. voila! Your iOS app is alive!
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
