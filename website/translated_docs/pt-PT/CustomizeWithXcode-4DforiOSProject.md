@@ -3,18 +3,18 @@ id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 sidebar_label: 4D for iOS project organization
 ---
-From the Navigation tab, go to Sources.
+A partir da guia de Navegação, vá para Fontes (sources).
 
-Here you'll find the Structure and Forms folders. They contain all of the files for your defined database structures and forms, including:
+Aqui você vai encontrar as pastas de estrutura e formulários. Eles contêm todos os arquivos para seu banco de dados estruturas e formulários definidos, incluindo:
 
-* Launch screen - Appears when the app is launched.
-* Login screen - Appears when authentication is activated.
-* Settings screen - Includes the reload and logout buttons.
-* All published tables - Files for the authorized data. They exist in pairs, with the exception of the Launch screen file. 
+* Tela de lançamento - aparece quando o aplicativo é iniciado.
+* Tela de login - aparece quando a autenticação é ativada.
+* Tela de configurações - inclui os botões de recarregar e logout.
+* Todas as tabelas publicadas - Arquivos para os dados autorizados. Existem em pares, com a exceção do arquivo tela de Lançamento. 
 
-Instead, you'll find a Swift file and a Storyboard file. These files are described below.
+Você vai encontrar um arquivo Swift e um arquivo Storyboard. Estes arquivos estão descritos abaixo.
 
-### A Swift file - which can be used to add custom code.
+### Um arquivo Swift - o qual pode ser usado para adicionar um código personalizado.
 
 ![Swift file](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
