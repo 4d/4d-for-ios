@@ -39,13 +39,13 @@ Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D,
 
 De un nombre a su proyecto y haga clic en **Crear**.
 
-![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
+![Creación de un proyecto](assets/contact-app/Project-creation-4D-for-iOS.png)
 
 ## PASO 3. Abrir el editor de proyectos
 
 ¡Bienvenido a 4D for iOS! La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂
 
-![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
+![Pantalla de bienvenida](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
 Haga clic en **Continuar**.
 
@@ -72,7 +72,7 @@ Para nuestro ejemplo, seleccione **ID**, **Nombre** **Apellido**, **Cargo**, **E
 
 * Recomendamos publicar su llave primaria para identificar cada registro de su base.</div> 
 
-![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
+![Estructura](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## PASO 6. Secciones - Iconos y etiquetas
 
@@ -103,7 +103,7 @@ Ya casi terminamos, pero primero tenemos que decidir el diseño de la aplicació
 
 En este punto, la parte inferior de la ventana de configuración ha cambiado de selección de plantilla a definición de contenido.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. Los campos Búsqueda y Sección son opcionales, por el momento, deje en blanco el campo Section.
+* Arrastre y suelte los campos que desee mostrar en la plantilla, *es decir*, Last Name en los campos de título y búsqueda. Los campos Búsqueda y Sección son opcionales, por el momento, deje en blanco el campo Section.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
@@ -119,23 +119,23 @@ Y por último, definimos el formulario detallado. * Seleccione una plantilla que
 
 ¡Ahora la parte divertida! Es hora de crear su aplicación y probarla en el simulador para ver el resultado final.
 
-* Haga clic en la pestaña**Generar**.
-* Select a device to use as a Simulator by clicking on the device button.
-* Click **Build and Run**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Haga clic en la pestaña **Generar**.
+* Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.
+* Haga clic en **Generar y ejecutar**.
+* Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Where to go from here?
+## PASO 10. ¿Qué hacer ahora?
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
+Hemos cubierto la creación básica de la aplicación de este tutorial, y ahora debe poder crear aplicaciones simples por sí mismo. Espere, ¡Hay más! En el siguiente tutorial, aprenderá cómo crear una aplicación aún más compleja. Haga clic en **Final Project** a continuación para descargar la aplicación Contact final.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/contact-app/ContactFinal.zip">FINAL PROJECT</a>
+href="../assets/contact-app/ContactFinal.zip">PROYECTO FINAL</a>
 
   </p>
 </div>
