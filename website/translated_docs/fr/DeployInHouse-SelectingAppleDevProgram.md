@@ -1,27 +1,27 @@
 ---
 id: deployment
-title: Sélectionnez votre Apple Developer Program
-sidebar_label: Sélectionnez votre Apple Developer Program
+title: Selecting your Apple Developer Program
+sidebar_label: Selecting your Apple Developer Program
 ---
 <div class = "objectives"> 
 
-**OBJECTIFS**
+**OBJECTIVES**
 
-* Choisissez le programme "Apple Developer Program" qui vous convient.</div> 
+* Choose the appropriate Apple Developer Program.</div> 
 
-Pour **distribuer une application iOS**, votre compte Apple Developer doit être valide. Apple propose deux programmes de développeur :
+You must have a valid Apple Developer account to **distribute an iOS app**. Apple offers two developer programs:
 
-* [Apple Developer Program for organization](register-apple-developer-program-organization.html) ou [for individual](register-apple-developer-program-individual.html) – 99 $/an 
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) – 299$/an
+* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [for individual](register-apple-developer-program-individual.html) – $99/year 
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) – $299/year
 
-Les différences majeures entre les deux programmes sont :
+The main difference between the two programs is:
 
-* **Apple Developer Program (for organization ou individual)** : vous permet de distribuer une ou plusieurs applications **sur l'App Store**.
+* **Apple Developer Program (for organization or individual)**: Allows you to distribute app(s) **on the App Store**.
 
-* **Apple Developer Enterprise Program** : fournit des ressources aux employés UNIQUEMENT pour le développement et la distribution d'**applications propriétaires ou internes**.
+* **Apple Developer Enterprise Program**: Provides resources ONLY for developing and distributing **proprietary, in-house apps** to employees.
 
-**A des fins de test**, vous pouvez utiliser un [Free Apple Developer Program](free-developer-account.html).
+For **test purposes** you can use a [Free Apple Developer Program](free-developer-account.html).
 
-Voici un tableau comparatif des différentes catégories d’adhésion en tant que développeur :
+Here is a chart comparing the different levels of developer membership:
 
 ![Developer membership levels](assets/test-build/FreeTestingAppleDeveloperAccount.png)
