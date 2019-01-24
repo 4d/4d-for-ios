@@ -1,102 +1,102 @@
 ---
 id: install-device
-title: Installer votre appareil iOS
-sidebar_label: Installer votre appareil iOS
+title: Installing on your iOS device
+sidebar_label: Installing on your iOS device
 ---
 <div class = "objectives"> 
 
-**OBJECTIFS**
+**OBJECTIVES**
 
-* Installer une application 4D for iOS sur un appareil connecté</div> <div class = "prerequisites"> 
+* Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
 
-**CONDITIONS PRÉALABLES**
+**PREREQUISITES**
 
 * Apple Developer Program
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour automatiser l'installation de votre application (facultatif)
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)
 
-**Note :** Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente</div> 
+**Note:** Apple configurator 2 requires **macOS 10.14** or later</div> 
 
-En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l'un des programmes suivants d'Apple : * [Free Apple Developer Program](free-developer-account.html): A des fins de test uniquement * [Apple Developer Program for organization](register-apple-developer-program-organization.html) ou [individual](register-apple-developer-program-individual.html): Pour déployer votre application sur App Store * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): Pour déployer votre application interne
+Depending on your objectives and preferences, you can choose to enroll in one of the following: * [Free Apple Developer Program](free-developer-account.html): For testing only * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
 
-C'est parti !
+Let's go through the process...
 
-## ÉTAPE 1. Création d'un compte
+## STEP 1. Account creation
 
-* **Identifiant Apple ** : Créez votre identifiant Apple. Si vous n'en possédez pas un, cliquez [ici](https://appleid.apple.com/account#!&page=create).
+* **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
 
-* **Developer Account** : Choisissez un Apple Developer Program (for organizations ou bien for individuals) si vous souhaiter déployer votre application sur l'App Store ou bien depuis l'Apple Developer Enterprise Program (pour un déploiement interne).
+* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
 
-## ÉTAPE 2. Configuration d'Xcode
+## STEP 2. Xcode configuration
 
-* **Developer Account** : Dans Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
-## ÉTAPE 3. Obtention de votre Team ID
+## STEP 3. Get your Team ID
 
-* Si vous utilisez un [Free Apple Developer Program](free-developer-account.html), passez à [l'étape 4](#step-4-team-id-for-free-account).
-* Si vous utilisez un [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) ou un [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) passez à [l'étape 5](#step-5-team-id-for-paid-subscription-account).
+* If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
+* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
 
-## ÉTAPE 4. Team ID pour un compte gratuit
+## STEP 4. Team ID for Free account
 
-### Laissez Xcode vous fournir votre profil et votre certificat
+### Let Xcode generate your provisioning profile and certificate
 
-* Ouvrez votre projet actuel depuis l’onglet GÉNÉRATION.
+* Open your current project from the BUILD tab.
 
 ![Build tab](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
-* Vérifiez que l'option**Automatically manage signing** est cochée, puis sélectionnez le compte que vous avez ajouté [ici](free-developer-account.html) à partir de la liste déroulante "Team".
+* Verify that the **Automatically manage signing** option is checked and select the account you added [here](free-developer-account.html) from the Team dropdown list.
 
 ![Account-Selection](assets/test-build/account-Selection-Free-Account.png)
 
-* Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu dans le menu supérieur d'Xcode.
+* Connect your device to your computer and select it from the top menu in Xcode.
 
 ![Select your device](assets/test-build/select-device-Free-Account.png)
 
-* Xcode génère automatiquement les profils et les certificats de mise à disposition nécessaires que vous aurez besoin pour créer votre application.
+* Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
 
-### Créez votre projet avec Xcode à l'aide de votre compte gratuit
+### Build your project from Xcode using your Free Account
 
-* Cliquez sur le bouton Créer et exécuter depuis Xcode !
+* Press the Build and run Button from Xcode !
 
-![Créer et exécuter](assets/test-build/Build-Run-Free-Account.png)
+![Build and Run](assets/test-build/Build-Run-Free-Account.png)
 
-## ÉTAPE 5. Team ID pour un compte payant
+## STEP 5. Team ID for paid subscription account
 
-* **Team ID** : Cliquez sur Developer Account > Membership et obtenez votre Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
+* **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
 
-* 4D **for iOS** : lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* **4D for iOS**: Launch 4D for iOS in Sections > General and enter your Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
-* Passez à l’étape 6 pour exécuter votre projet sur votre appareil.
+* Go to STEP 6 to run your project on your device.
 
-## ÉTAPE 6. Installation
+## STEP 6. Installation
 
-### Installation automatique avec Apple Configurator 2
+### Install automatically with Apple Configurator 2
 
-* Lorsque votre application est prête, cliquez sur l’onglet GÉNÉRATION.
-* Connectez votre appareil à votre ordinateur avec un câble USB.
-* Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
+* When your app is ready, open the BUILD tab.
+* Connect your device to your computer with a USB cable.
+* From the BUILD tab, click on **Install**.
 
 ![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png)
 
-* L’application est installée sur votre appareil !
+* The app is being installed on your device!
 
-### Installation manuelle avec Xcode
+### Install manually using Xcode
 
-* Lorsque votre application est prête, cliquez sur l’onglet GÉNÉRATION.
-* Connectez votre appareil à votre ordinateur avec un câble USB.
-* Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
+* When your app is ready, open the BUILD tab.
+* Connect your device to your computer with a USB cable.
+* From the BUILD tab, click on **Install**.
 
 ![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png)
 
-* Une archive de votre projet est créée
+* An archive of your project is created
 
 ![Archive creation](assets/test-build/Archive-creation.png)
 
-* Indiquez l'archive générée dans Finder
+* Reveal the generated archive in Finder
 
 ![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
 
-* Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section Installed Apps.
+* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
 
 ![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
-* L’application est installée sur votre appareil !
+* The app is being installed on your device!
