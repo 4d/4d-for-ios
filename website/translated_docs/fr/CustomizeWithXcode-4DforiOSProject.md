@@ -1,25 +1,25 @@
 ---
 id: 4d-for-ios-project-organization
-title: Organiser un projet 4D for iOS
-sidebar_label: Organiser un projet 4D for iOS
+title: 4D for iOS project organization
+sidebar_label: 4D for iOS project organization
 ---
-Accédez aux Sources à partir de l'onglet Navigation.
+From the Navigation tab, go to Sources.
 
-Vous trouverez ici les dossiers "Structure" et "Forms". Ils contiennent tous les fichiers nécessaires à la structure et aux formulaires de votre base de données, notamment :
+Here you'll find the Structure and Forms folders. They contain all of the files for your defined database structures and forms, including:
 
-* "Launch screen" (écran de lancement) - apparaît lorsque l’application est lancée.
-* "Login screen" (écran de connexion) - s’affiche lorsque l’authentification est activée.
-* "Settings screen" (écran de paramètres) - inclut les boutons "reload" et "logout".
-* Toutes les tables publiées - fichiers correspondant aux données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
+* Launch screen - Appears when the app is launched.
+* Login screen - Appears when authentication is activated.
+* Settings screen - Includes the reload and logout buttons.
+* All published tables - Files for the authorized data. They exist in pairs, with the exception of the Launch screen file. 
 
-En règle générale, vous trouverez un fichier Swift et un fichier Storyboard. Ces fichiers sont décrits ci-dessous.
+Instead, you'll find a Swift file and a Storyboard file. These files are described below.
 
-### Le fichier Swift - peut être utilisé pour ajouter du code personnalisé.
+### A Swift file - which can be used to add custom code.
 
-![Fichiers Swift](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
+![Swift file](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
-### Le fichier Storyboard - permet de personnaliser la conception de votre application.
+### Storyboard file - Allows customizing your app design.
 
-![Fichier Storyboard](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
+![Storyboard file](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
-Voyons ensuite comment personnaliser la vue détaillée de l'application Contacts !
+Next, let's look at how to customize the Contacts application detail view!
