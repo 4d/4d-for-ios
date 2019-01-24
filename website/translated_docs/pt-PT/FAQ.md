@@ -20,10 +20,11 @@ The mobile project editor has been designed so that you can use 4D for iOS witho
 <strong>Are there any prerequisites for 4D for iOS?</strong>
 </summary>
 
-## Version comparison table
+### Version comparison table
 
 | Xcode | Swift | iOS      | 4D   |
 | ----- | ----- | -------- | ---- |
+| 10.1  | 4.2.1 | iOS 12   | 17R4 |
 | 10.0  | 4.2   | iOS 12   | 17R3 |
 | 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
