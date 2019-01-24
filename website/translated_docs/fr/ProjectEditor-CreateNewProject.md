@@ -1,50 +1,50 @@
 ---
 id: create-new-project
-title: Nouveau projet
-sidebar_label: Nouveau projet
+title: New Project
+sidebar_label: New Project
 ---
 <div class = "objectives"> 
 
-**OBJECTIFS**
+**OBJECTIVES**
 
-* Se familiariser avec l’éditeur de projet</div> <div class = "prerequisites"> 
+* Get familiar with the Project Editor</div> <div class = "prerequisites"> 
 
-**CONDITIONS PRÉALABLES**
+**PREREQUISITES**
 
-* Cliquez [ici](prerequisites.html) pour commencer !</div> 
+* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
-Jetons un œil au fonctionnement de 4D for iOS.
+Let's take a look at how 4D for iOS works.
 
-Démarrez votre application 4D, ouvrez votre base et cliquez sur **Nouveau > Projet mobile**.
+Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-Nommez votre projet puis cliquez sur **Créer**.
+Give your project a name and click **Create**.
 
 ![Project Name](assets/project-editor/Project-creation-4D-for-iOS.png)
 
-L'écran de bienvenue s’affiche automatiquement pour vous aider à comprendre les concepts de base de 4D for iOS. Vous pouvez cocher l'option **Ne plus afficher** si vous souhaitez que cette boîte de dialogue ne s'affiche plus. Cliquez sur **Continuer**.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
 ![Welcome Screen](assets/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Nous y sommes ! Il est maintenant temps de découvrir l'architecture et l'interface de 4D for iOS.
+Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 
-La fenêtre principale se compose de deux onglets :
+The main window consists of two tabs:
 
 ## Sections
 
-Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la création de votre application 4D for iOS :
+In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
-* Général
+* General
 * Structure
-* Libellés et icônes
-* Menu
-* Formulaires
-* Publication
+* Labels & Icons
+* Main Menu
+* Forms
+* Publishing
 
-## Génération
+## Build
 
-L’onglet Génération comprend quatre options :
+The Build tab has four options:
 
-* Créer & exécuter 
-* Sélection du simulateur
-* Navigateur de projet et de produit
-* Installer
+* Build and Run 
+* Simulator selection
+* Project and product browser
+* Install
