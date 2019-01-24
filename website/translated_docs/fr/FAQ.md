@@ -20,14 +20,14 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 <strong>Y a-t-il des conditions préalables à l'utilisation de 4D for iOS ?</strong>
 </summary>
 
-### Version comparison table
+### Tableau de comparaison de version
 
 | Xcode | Swift | iOS      | 4D    |
 | ----- | ----- | -------- | ----- |
-| 10.1  | 4.2.1 | iOS 12   | 17R4  |
-| 10.0  | 4.2   | iOS 12   | 17R3  |
+| 10.1  | 4.2.1 | iOS 12   | 17 R4 |
+| 10.0  | 4.2   | iOS 12   | 17 R3 |
 | 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
-| 9.3.1 | 4.1   | iOS 11.3 | 17R2  |
+| 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
 
 Dans le cas où vous avez besoin d'une version antérieure d'Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
 
@@ -46,7 +46,7 @@ Non. You must develop on macOS, as we need XCode to compile the final applicatio
 
 </details>
 
-## License
+## Licence
 
 <details>
 <summary>
@@ -101,7 +101,7 @@ Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 </details>
 
-## MISC
+## Questions diverses
 
 <details>
 <summary>
