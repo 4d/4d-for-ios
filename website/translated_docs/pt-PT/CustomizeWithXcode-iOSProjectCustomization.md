@@ -3,35 +3,35 @@ id: customize-your-ios-app
 title: Customize your 4D for iOS App
 sidebar_label: Customize your 4D for iOS App
 ---
-Vamos fazer algumas modificações de storyboard... do simples ao complexo.
+Let's do some storyboard modification ... from simple to complex.
 
 ![Final result](assets/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
-## PASSO 1. Modificação de etiqueta simples
+## STEP 1. Simple label modification
 
-Vamos começar modificando a fonte e cor de uma etiqueta:
+We'll start by modifying a label's font and color:
 
-* Abra o arquivo *ContactDetailsForm.storyboard* da guia de navegação. 
-* Clique na etiqueta do primeiro nome (você pode também selecionar o construtor de interfaces no painel esquerdo).
-* Selecione o painel Inspetor de atributos da área de utilitário.
+* Open the *ContactDetailsForm.storyboard* file from the Navigation tab. 
+* Click on the First Name label (you can also select it from the interface builder or the left pane).
+* Select the Attributes inspector pane from the Utility area.
 
 ![Attributes inspector](assets/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* Altere a fonte da Helvetica Neue bold para Futura bold. 
+* Change the font from Helvetica Neue Bold to Futura Bold. 
 
 ![Attributes inspector font](assets/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
-* Você também pode alterar a cor da fonte no mesmo painel.
+* You can also change the color of the font from the same pane.
 
 ![Attributes inspector color](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
-## PASSO 2. Mudar a posição de imagem de perfil
+## STEP 2. Change profile picture position
 
-Todos os modelos 4D para iOS usam restrições para elementos do aplicativo para que se exibam bem em todos os dispositivos.
+All 4D for iOS templates use constraints for the app's elements to they'll display well on all devices.
 
-No arquivo *ContactDetailsForm.storyboard*, as etiquetas de imagem, nome e sobrenome são todos atualmente alinhados ao centro.
+In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
 
-Vamos mudá-lo para aparecer assim:
+Let's change it to appear like this:
 
 ![Simulator result](assets/customize-with-xcode/Simlator-Final-Xcode-4D-for-iOS.png)
 
