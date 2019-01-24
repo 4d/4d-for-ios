@@ -6,6 +6,8 @@
  */
 
 const React = require('react');
+const translate = require('../../server/translate.js').translate;
+
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
@@ -110,28 +112,28 @@ const Features = props =>
 
     {[
       {
-        content: 'Define a subset of your physical structure to replicate.',
+        content: '<translate>Define a subset of your physical structure to replicate.</translate>',
         image: imgUrl('structure.png'),
         imageAlign: 'top',
-        title: 'Structure',
+        title: '<translate>Structure</translate>',
       },
       {
-        content: 'Choose the layouts and style of your application in just a few, short steps.',
+        content: '<translate>Choose the layouts and style of your application in just a few, short steps.</translate>',
         image: imgUrl('design.png'),
         imageAlign: 'top',
-        title: 'Design',
+        title: '<translate>Design</translate>',
       },
       {
-        content: 'Create an Xcode project in one click and run your application on any iPhone.',
+        content: '<translate>Create an Xcode project in one click and run your application on any iPhone.</translate>',
         image: imgUrl('generateTest.png'),
         imageAlign: 'top',
-        title: 'Generate & Test',
+        title: '<translate>Generate & Test</translate>',
       },
       {
-        content: 'Choose an in-house or App Store deployment model to distribute your application.',
+        content: '<translate>Choose an in-house or App Store deployment model to distribute your application.</translate>',
         image: imgUrl('deploy.png'),
         imageAlign: 'top',
-        title: 'Deploy',
+        title: '<translate>Deploy</translate>',
       },
     ]}
 
@@ -162,8 +164,8 @@ const BuildYourApp = props => (
       {
         image: imgUrl('Create-iOS-app-from-scratch.png'),
         imageAlign: 'left',
-        content: 'Create various applications depending on your needs.<br>Discover multiple tutorials to quickly build your first application.',
-        title: 'Create your 4D for iOS application',
+        content: '<translate>Create various applications depending on your needs.<br>Discover multiple tutorials to quickly build your first application.</translate>',
+        title: '<translate>Create your 4D for iOS application</translate>',
       },
     ]}
 
@@ -191,8 +193,8 @@ const TestYourApp = props => (
       {
         image: imgUrl('simulator.png'),
         imageAlign: 'right',
-        content: 'Test your application in the Simulator or your own device.',
-        title: 'Testing',
+        content: '<translate>Test your application in the Simulator or your own device.</translate>',
+        title: '<translate>Testing</translate>',
       },
     ]}
 
@@ -219,10 +221,10 @@ const Deploy = props => (
 
     {[
       {
-        content: 'Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the process.',
+        content: '<translate>Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the process.</translate>',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
-        title: 'Deploy your App',
+        title: '<translate>Deploy your App</translate>',
       },
     ]}
   </Block>
