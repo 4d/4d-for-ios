@@ -1,10 +1,10 @@
 ---
 id: data-formatter-build-and-run
-title: プロジェクトをビルドして実行
+title: Build and Run your project
 sidebar_label: Build and Run your project
 ---
-こちらが、選択したNumbers詳細フォームとTasksリストフォームの、iOSアプリ内での最終的な結果です。
+Here is the final result in your iOS app with a Tasks list form and a Numbers detail form selected.
 
-![でータフォーマッターの結果/iPhone](assets/data-formatter/result-data-formatter-iphone.png)
+![Result data formatter iphone](assets/data-formatter/result-data-formatter-iphone.png)
 
-以上です！ フィールドはラベル& アイコンで定義されたタイプに沿ってよくフォーマットされています。
+You're done! Your fields are well formatted according to its defined type in Labels & Icons.
