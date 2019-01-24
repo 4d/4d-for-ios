@@ -1,34 +1,34 @@
 ---
 id: free-developer-account
-title: Compte Apple Developer gratuit
-sidebar_label: Compte Apple Developer gratuit
+title: Free Apple Developer account
+sidebar_label: Free Apple Developer account
 ---
-Même si vous ne souhaitez pas payer 99 $ par an pour adhérer au Apple Developer Program, vous pouvez toujours créer un identifiant Apple gratuit et l'utiliser pour accéder à un ensemble limité de privilèges destinés aux développeurs.
+Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
 
-## ÉTAPE 1. Identifiant Apple
+## STEP 1. Apple ID
 
-* Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id)
-* Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-open-xcode)
+* If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+* If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
 
-## ÉTAPE 2. Créez votre identifiant Apple
+## STEP 2. Create your Apple ID
 
-Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
+Go the the [Apple ID creation page](https://appleid.apple.com/).
 
 ![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Remplissez le formulaire et répondez aux questions de sécurité.
-* Vous recevrez un code de vérification par e-mail.
-* Entrez le code de vérification pour valider la création de votre compte.
+* Complete the form and security questions.
+* You'll receive a verification code by email.
+* Enter the verification code to validate your account creation.
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
+* Once you have your Apple ID, you can continue to Step 3.
 
-## ÉTAPE 3. Ouvrez Xcode
+## STEP 3. Open Xcode
 
-* Lancez Xcode > Preferences > Account
-* Ajoutez votre identifiant Apple et connectez-vous 
+* Launch Xcode > Preferences > Accounts
+* Add your Apple ID and sign in 
 
 ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png)
 
-Félicitations ! Vous êtes désormais prêt à utiliser votre identifiant Apple gratuit !
+Congratulations! You're now ready to use your free Apple ID!
