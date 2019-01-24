@@ -4,121 +4,240 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Easily create and deploy custom native iOS apps",
-    "contact-app": "Contact App",
-    "Contact App": "Contact App",
-    "4d-for-ios-project-organization": "4D for iOS project organization",
-    "4D for iOS project organization": "4D for iOS project organization",
-    "customize-your-ios-app": "Customize your 4D for iOS App",
-    "Customize your 4D for iOS App": "Customize your 4D for iOS App",
-    "open-xcode": "Working with Xcode",
-    "Working with Xcode": "Working with Xcode",
-    "xcode-overview": "Xcode Overview",
-    "Xcode Overview": "Xcode Overview",
-    "data-formatter-build-and-run": "Build and Run your project",
-    "Build and Run your project": "Build and Run your project",
-    "creating-data-formatter": "Create data formatter",
-    "Create data formatter": "Create data formatter",
-    "data-formatter-mobile-project": "Open mobile project",
-    "Open mobile project": "Open mobile project",
-    "data-formatter": "Data formatter",
-    "Data formatter": "Data formatter",
-    "deploy-app-store-archive-and-upload": "Archive and upload your Project",
-    "Archive and upload your Project": "Archive and upload your Project",
-    "deploy-app-store-app-store-connect": "Create App Store record",
-    "Create App Store record": "Create App Store record",
-    "register-apple-developer-program-individual": "Apple Developer Program as an Individual",
-    "Apple Developer Program as an Individual": "Apple Developer Program as an Individual",
-    "register-apple-developer-program-organization": "Apple Developer Program as an Organization",
-    "Apple Developer Program as an Organization": "Apple Developer Program as an Organization",
-    "deploy-in-house-archive-and-export": "Archive and export your Project",
-    "Archive and export your Project": "Archive and export your Project",
-    "deploy-in-house-distribution": "Distribute your app in-House",
-    "Distribute your app in-House": "Distribute your app in-House",
-    "register-apple-developer-enterprise-program": "Apple Developer Enterprise Program",
-    "Apple Developer Enterprise Program": "Apple Developer Enterprise Program",
-    "deployment": "Selecting your Apple Developer Program",
-    "Selecting your Apple Developer Program": "Selecting your Apple Developer Program",
-    "creating-detailform-templates": "Detail form templates",
-    "Detail form templates": "Detail form templates",
-    "icon-detailform-template": "Detail form icon",
-    "Detail form icon": "Detail form icon",
-    "manifest-detailform-template": "Manifest.json",
-    "Manifest.json": "Manifest.json",
-    "storyboard-detailform-template": "Storyboard",
-    "Storyboard": "Storyboard",
-    "svg-file-detailform-template": "Template.svg",
-    "Template.svg": "Template.svg",
-    "faq": "FAQ",
-    "overview": "Overview",
-    "Overview": "Overview",
-    "prerequisites": "Prerequisites",
-    "Prerequisites": "Prerequisites",
-    "create-icons": "Create icons",
-    "Create icons": "Create icons",
-    "using-icons": "Using icons",
-    "Using icons": "Using icons",
-    "include-icons": "Include icons in the project",
-    "Include icons in the project": "Include icons in the project",
-    "select-icons": "Select your icons",
-    "Select your icons": "Select your icons",
-    "creating-listform-templates": "List form templates",
-    "List form templates": "List form templates",
-    "manifest-listform-template": "Manifest.json",
-    "storyboard-listform-template": "Storyboard",
-    "svg-file-listform-template": "Template.svg",
-    "icon-listform-template": "List form icon",
-    "List form icon": "List form icon",
-    "multi-criteria-search": "Multi-criteria search",
-    "Multi-criteria search": "Multi-criteria search",
-    "build-panel": "Build Panel",
-    "Build Panel": "Build Panel",
-    "create-new-project": "New Project",
-    "New Project": "New Project",
-    "data": "Data",
-    "Data": "Data",
-    "detail-form-templates": "Detail Forms templates",
-    "Detail Forms templates": "Detail Forms templates",
-    "forms": "Forms",
-    "Forms": "Forms",
-    "general": "General",
-    "General": "General",
-    "labels-and-icons": "Labels & Icons",
-    "Labels & Icons": "Labels & Icons",
-    "list-form-templates": "List Forms templates",
-    "List Forms templates": "List Forms templates",
-    "main-menu": "Main Menu",
-    "Main Menu": "Main Menu",
-    "publishing": "Publishing",
-    "Publishing": "Publishing",
-    "structure": "Structure",
-    "Structure": "Structure",
-    "define-filter-query": "Define a filter query",
-    "Define a filter query": "Define a filter query",
-    "filter-query-introduction": "Restricted queries",
-    "Restricted queries": "Restricted queries",
-    "user-information-query": "User information query",
-    "User information query": "User information query",
-    "free-developer-account": "Free Apple Developer account",
-    "Free Apple Developer account": "Free Apple Developer account",
-    "install-device": "Installing on your iOS device",
-    "Installing on your iOS device": "Installing on your iOS device",
-    "simulator": "Using the Simulator",
-    "Using the Simulator": "Using the Simulator",
-    "xcode": "Xcode",
-    "What is Xcode?": "What is Xcode?",
-    "Docs": "Docs",
-    "Tutorials": "Tutorials",
-    "FAQ": "FAQ",
-    "Getting started": "Getting started",
-    "Project Editor": "Project Editor",
-    "Selecting your Developer Program": "Selecting your Developer Program",
-    "Testing and Building": "Testing and Building",
-    "Deploying In-House": "Deploying In-House",
-    "Deploying on App Store": "Deploying on App Store",
-    "Creating your iOS App": "Creating your iOS App",
-    "Customizing with Xcode": "Customizing with Xcode",
-    "Creating List form templates": "Creating List form templates",
-    "Creating Detail form templates": "Creating Detail form templates"
+    "docs": {
+      "contact-app": {
+        "title": "Contact App",
+        "sidebar_label": "Contact App"
+      },
+      "4d-for-ios-project-organization": {
+        "title": "4D for iOS project organization",
+        "sidebar_label": "4D for iOS project organization"
+      },
+      "customize-your-ios-app": {
+        "title": "Customize your 4D for iOS App",
+        "sidebar_label": "Customize your 4D for iOS App"
+      },
+      "open-xcode": {
+        "title": "Working with Xcode",
+        "sidebar_label": "Working with Xcode"
+      },
+      "xcode-overview": {
+        "title": "Xcode Overview",
+        "sidebar_label": "Xcode Overview"
+      },
+      "data-formatter-build-and-run": {
+        "title": "Build and Run your project",
+        "sidebar_label": "Build and Run your project"
+      },
+      "creating-data-formatter": {
+        "title": "Create data formatter",
+        "sidebar_label": "Create data formatter"
+      },
+      "data-formatter-mobile-project": {
+        "title": "Open mobile project",
+        "sidebar_label": "Open mobile project"
+      },
+      "data-formatter": {
+        "title": "Data formatter",
+        "sidebar_label": "Data formatter"
+      },
+      "deploy-app-store-archive-and-upload": {
+        "title": "Archive and upload your Project",
+        "sidebar_label": "Archive and upload your Project"
+      },
+      "deploy-app-store-app-store-connect": {
+        "title": "Create App Store record",
+        "sidebar_label": "Create App Store record"
+      },
+      "register-apple-developer-program-individual": {
+        "title": "Apple Developer Program as an Individual",
+        "sidebar_label": "Apple Developer Program as an Individual"
+      },
+      "register-apple-developer-program-organization": {
+        "title": "Apple Developer Program as an Organization",
+        "sidebar_label": "Apple Developer Program as an Organization"
+      },
+      "deploy-in-house-archive-and-export": {
+        "title": "Archive and export your Project",
+        "sidebar_label": "Archive and export your Project"
+      },
+      "deploy-in-house-distribution": {
+        "title": "Distribute your app in-House",
+        "sidebar_label": "Distribute your app in-House"
+      },
+      "register-apple-developer-enterprise-program": {
+        "title": "Apple Developer Enterprise Program",
+        "sidebar_label": "Apple Developer Enterprise Program"
+      },
+      "deployment": {
+        "title": "Selecting your Apple Developer Program",
+        "sidebar_label": "Selecting your Apple Developer Program"
+      },
+      "creating-detailform-templates": {
+        "title": "Detail form templates",
+        "sidebar_label": "Detail form templates"
+      },
+      "icon-detailform-template": {
+        "title": "Detail form icon",
+        "sidebar_label": "Detail form icon"
+      },
+      "manifest-detailform-template": {
+        "title": "Manifest.json",
+        "sidebar_label": "Manifest.json"
+      },
+      "storyboard-detailform-template": {
+        "title": "Storyboard",
+        "sidebar_label": "Storyboard"
+      },
+      "svg-file-detailform-template": {
+        "title": "Template.svg",
+        "sidebar_label": "Template.svg"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "prerequisites": {
+        "title": "Prerequisites",
+        "sidebar_label": "Prerequisites"
+      },
+      "create-icons": {
+        "title": "Create icons",
+        "sidebar_label": "Create icons"
+      },
+      "using-icons": {
+        "title": "Using icons",
+        "sidebar_label": "Using icons"
+      },
+      "include-icons": {
+        "title": "Include icons in the project",
+        "sidebar_label": "Include icons in the project"
+      },
+      "select-icons": {
+        "title": "Select your icons",
+        "sidebar_label": "Select your icons"
+      },
+      "creating-listform-templates": {
+        "title": "List form templates",
+        "sidebar_label": "List form templates"
+      },
+      "manifest-listform-template": {
+        "title": "Manifest.json",
+        "sidebar_label": "Manifest.json"
+      },
+      "storyboard-listform-template": {
+        "title": "Storyboard",
+        "sidebar_label": "Storyboard"
+      },
+      "svg-file-listform-template": {
+        "title": "Template.svg",
+        "sidebar_label": "Template.svg"
+      },
+      "icon-listform-template": {
+        "title": "List form icon",
+        "sidebar_label": "List form icon"
+      },
+      "multi-criteria-search": {
+        "title": "Multi-criteria search",
+        "sidebar_label": "Multi-criteria search"
+      },
+      "build-panel": {
+        "title": "Build Panel",
+        "sidebar_label": "Build Panel"
+      },
+      "create-new-project": {
+        "title": "New Project",
+        "sidebar_label": "New Project"
+      },
+      "data": {
+        "title": "Data",
+        "sidebar_label": "Data"
+      },
+      "detail-form-templates": {
+        "title": "Detail Forms templates",
+        "sidebar_label": "Detail Forms templates"
+      },
+      "forms": {
+        "title": "Forms",
+        "sidebar_label": "Forms"
+      },
+      "general": {
+        "title": "General",
+        "sidebar_label": "General"
+      },
+      "labels-and-icons": {
+        "title": "Labels & Icons",
+        "sidebar_label": "Labels & Icons"
+      },
+      "list-form-templates": {
+        "title": "List Forms templates",
+        "sidebar_label": "List Forms templates"
+      },
+      "main-menu": {
+        "title": "Main Menu",
+        "sidebar_label": "Main Menu"
+      },
+      "publishing": {
+        "title": "Publishing",
+        "sidebar_label": "Publishing"
+      },
+      "structure": {
+        "title": "Structure",
+        "sidebar_label": "Structure"
+      },
+      "define-filter-query": {
+        "title": "Define a filter query",
+        "sidebar_label": "Define a filter query"
+      },
+      "filter-query-introduction": {
+        "title": "Restricted queries",
+        "sidebar_label": "Restricted queries"
+      },
+      "user-information-query": {
+        "title": "User information query",
+        "sidebar_label": "User information query"
+      },
+      "free-developer-account": {
+        "title": "Free Apple Developer account",
+        "sidebar_label": "Free Apple Developer account"
+      },
+      "install-device": {
+        "title": "Installing on your iOS device",
+        "sidebar_label": "Installing on your iOS device"
+      },
+      "simulator": {
+        "title": "Using the Simulator",
+        "sidebar_label": "Using the Simulator"
+      },
+      "xcode": {
+        "title": "Xcode",
+        "sidebar_label": "What is Xcode?"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "Tutorials": "Tutorials",
+      "FAQ": "FAQ"
+    },
+    "categories": {
+      "Getting started": "Getting started",
+      "Project Editor": "Project Editor",
+      "Selecting your Developer Program": "Selecting your Developer Program",
+      "Testing and Building": "Testing and Building",
+      "Deploying In-House": "Deploying In-House",
+      "Deploying on App Store": "Deploying on App Store",
+      "Creating your iOS App": "Creating your iOS App",
+      "Customizing with Xcode": "Customizing with Xcode",
+      "Creating List form templates": "Creating List form templates",
+      "Creating Detail form templates": "Creating Detail form templates",
+      "Using icons": "Using icons",
+      "Data formatter": "Data formatter",
+      "Multi-criteria search": "Multi-criteria search",
+      "Restricted queries": "Restricted queries"
+    }
   },
   "pages-strings": {
     "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
