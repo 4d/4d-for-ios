@@ -70,7 +70,7 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 **NOTE**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+* Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
