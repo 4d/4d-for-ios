@@ -24,7 +24,7 @@ sidebar_label: Create App Store record
 
 * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 
-* If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
+* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 * To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
