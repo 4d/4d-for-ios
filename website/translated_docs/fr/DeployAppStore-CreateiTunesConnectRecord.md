@@ -24,7 +24,7 @@ sidebar_label: Créez un enregistrement App Store
 
 * Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
 
-* Si vous avez choisi un compte de développeur Apple en tant qu’organisation, vous devez attendre la validation d’Apple pour créer votre identifiant d'application.</div> 
+* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
