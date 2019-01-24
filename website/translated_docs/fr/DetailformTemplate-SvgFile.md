@@ -3,39 +3,39 @@ id: svg-file-detailform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
-Le fichier template.svg est une représentation basique du modèle. Dans ce fichier svg, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire détaillé depuis l’éditeur de projet.
+The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
 
-Voici une version finale :
+Here's a finished version:
 
 ![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
 
-Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et jusqu'à **8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
 
-Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
+Open the template.svg file with your favorite code editor.
 
-Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que vous aurez besoin de modifier.
+Let’s focus on the different parts of your SVG file and what you'll need to edit.
 
-## Titre
+## Title
 
     <title>Custom Detail form</title>
     
 
-Ajoutez ici le titre de votre modèle.
+Add the title for your template here.
 
 ## ios:values
 
     ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
     
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs** : en référence aux champs disponibles pouvant être affichés dans votre formulaire détaillé. Cela vous permettra de glisser-déposer autant de champs définis.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
 
-## Emplacement, hauteur, largeur et type de la zone
+## Areas position, height and width and type
 
-Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
+You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
 
-### Propriétés de champs dupliqués
+### Duplicated field properties
 
     //1
     <g id="f" visibility="hidden" ios:dy="35">
@@ -54,29 +54,29 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement et la largeur de la zone de texte 
-4. Définir l'emplacement du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
-5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant<div class = "tips"> 
+1. Entire area Y position
+2. Area background position, height, and width
+3. Define the text area position and width 
+4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
+5. Define a cancel button that will be displayed to the delete current content<div class = "tips"> 
 
 **NOTE**
 
-* Tous les types sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
+* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
 
 <
 
 div markdown="1" class = "tips">
 
-**CONSEILS**
+**TIP**
 
-* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
+* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
 
-* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
+* To include all types, just type ```ios:type="all"```.
 
 </div>
 
-### Zone ImageField 
+### Image field area
 
     //1
     <g transform="translate(0,60)">
@@ -98,14 +98,14 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Icône affichant une image dans imageField
-4. Définir l'emplacement et la largeur de la zone de texte 
-5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés 
-6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
+1. Entire area Y position
+2. Area background position, height, and width
+3. Icon to display an image in the imageField
+4. Define the text area position and width 
+5. Define the droppable field position, height, and width, as well as accepted fields types 
+6. Define a cancel button that will be displayed to delete the current content
 
-### Champ à dupliquer
+### Field to be duplicated
 
     //1
     <g id="multivalued">
@@ -128,11 +128,11 @@ div markdown="1" class = "tips">
     </g>
     
 
-1. Identifiant "Multivaluated" pour le champ à dupliquer
-2. Emplacement de toute la zone Y
-3. Emplacement, hauteur et largeur de la zone d'arrière-plan
-4. Définir l'emplacement et la largeur de la zone de texte 
-5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
-6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
+1. Multivaluated ID for the field to be duplicated
+2. Entire area Y position
+3. Area background position, height, and width
+4. Define the text area position and width 
+5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
+6. Define a cancel button that will be displayed to delete the current content
 
-Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... passons à la partie amusante avec Xcode !
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
