@@ -17,7 +17,7 @@ sidebar_label: Archiver et télécharger votre projet
 * Une icône de résolution 57 x 57 px
 * Une icône de résolution 512 x 512 px</div> 
 
-## ÉTAPE 1. Configurez Xcode
+## ÉTAPE 1. Configurer Xcode
 
 Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
 
