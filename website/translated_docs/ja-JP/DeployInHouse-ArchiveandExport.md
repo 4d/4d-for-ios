@@ -5,25 +5,25 @@ sidebar_label: Archive and export your Project
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Archive and export your 4D for iOS project
 * Generate .ipa and manifest files</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server
 * 57 x 57 px icon
 * 512 x 512 px icon</div> 
 
-## STEP 1. Xcode configuration
+## ステップ 1 - Xcode configuration
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
 Xcode will automatically install required provisioning and certificates.
 
-## STEP 2. Get your Team ID
+## ステップ 2 - Get your Team ID
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
@@ -45,7 +45,7 @@ Xcode will automatically install required provisioning and certificates.
     
     * Build and Run: Build your project.
 
-## STEP 4. Open your project with Xcode
+## ステップ 4 - Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
