@@ -5,13 +5,13 @@ sidebar_label: Using icons
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**Zielsetzung**
 
 * Use your own icons in 4D for iOS projects</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**Voraussetzungen**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
 
 4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 
