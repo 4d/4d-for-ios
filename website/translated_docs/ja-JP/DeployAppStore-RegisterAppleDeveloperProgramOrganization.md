@@ -5,11 +5,11 @@ sidebar_label: Apple Developer Program as an Organization
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> 
 
-## STEP 1. Apple ID
+## ステップ 1 - Apple ID
 
 * If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 * If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).<div class = "tips"> 
@@ -18,7 +18,7 @@ sidebar_label: Apple Developer Program as an Organization
 
 * To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
-## STEP 2. Create your Apple ID
+## ステップ 2 - Create your Apple ID
 
 Go the the [Apple ID creation page](https://appleid.apple.com/).
 
@@ -32,12 +32,12 @@ Go the the [Apple ID creation page](https://appleid.apple.com/).
 
 * Once you have your Apple ID, you can continue to Step 3.
 
-## STEP 3. D-U-N-S Number
+## ステップ 3 - D-U-N-S Number
 
 * If you don’t have a D-U-N-S Number, go to [Step 4](#step-4-request-a-d-u-n-s-number).
 * If you already have a D-U-N-S Number, go to [Step 5](#step-5-register-as-a-developer).
 
-## STEP 4. Request a D-U-N-S Number
+## ステップ 4 - Request a D-U-N-S Number
 
 Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
 
