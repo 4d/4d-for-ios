@@ -5,16 +5,16 @@ sidebar_label: Create App Store record
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Create an App ID on your Developer Account
 * Create your app in App Store Connect</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
 [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 
-## STEP 1. Create an App ID
+## ステップ 1 - Create an App ID
 
 #### What is an App ID ?
 
@@ -42,7 +42,7 @@ sidebar_label: Create App Store record
 
 ![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
 
-## STEP 2. Sign in to App Store Connect
+## ステップ 2 - Sign in to App Store Connect
 
 * Sign in to your [App Store Connect Account](https://appstoreconnect.apple.com)
 
@@ -50,7 +50,7 @@ sidebar_label: Create App Store record
 
 ![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
 
-## STEP 3. Create a new iOS App
+## ステップ 3 - Create a new iOS App
 
 Click the **+** sign in the top left corner to create a new iOS App.
 
@@ -71,7 +71,7 @@ If your Bundle ID is not available, it may already be used by another app in the
 
 ![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
-## STEP 4. App information
+## ステップ 4 - App information
 
 From App Store Connect > App Information: * Define your app's Privacy Policy URL (optional). * Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11. * Select a primary and secondary (optional) category for your app to appear in.
 
