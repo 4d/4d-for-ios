@@ -5,18 +5,18 @@ sidebar_label: Archive and upload your Project
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Archive and upload your project to App Store Connect</div> 
 
-## STEP 1. Xcode configuration
+## ステップ 1 - Xcode configuration
 
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
 * If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.
 * When your account is accessible, add it to Xcode in Preferences > Accounts.
 * Xcode will automatically install the necessary provisioning and certificates. 
 
-## STEP 2. Get your Team ID
+## ステップ 2 - Get your Team ID
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
@@ -44,7 +44,7 @@ sidebar_label: Archive and upload your Project
 
 ![BuildTab](assets/deploy-app-store/BuildTab.png)
 
-## STEP 4. Open your project with Xcode
+## ステップ 4 - Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
