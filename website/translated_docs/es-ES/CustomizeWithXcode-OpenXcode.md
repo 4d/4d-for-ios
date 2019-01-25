@@ -5,7 +5,7 @@ sidebar_label: Working with Xcode
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Open a 4D for iOS project from the Project Editor.
 * Customize the generated 4D for iOS app.</div> 
@@ -23,23 +23,23 @@ We'll use the Contact application we created [here](contact-app.html). Download 
     
 
 <a class="button"
-href="../assets/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/customize-with-xcode/ContactStarter.zip">PROYECTO STARTER</a>
 
   </p>
 </div>
 
-## STEP 1. Generate your iOS Project
+## PASO 1. Generate your iOS Project
 
 * If your haven't built your project yet, go to step 2.
 * If you've already built your project, go to step 3.
 
-## STEP 2. Build your Project
+## PASO 2. Build your Project
 
 From the Project Editor BUILD tab: * Select the device to use as a Simulator by clicking on the device button. * Click the **Build and Run** button.
 
 ![Build and Run](assets/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
-## STEP 3. Open your Project with Xcode
+## PASO 3. Open your Project with Xcode
 
 From the Project Editor BUILD tab:
 
