@@ -5,19 +5,19 @@ sidebar_label: List form templates
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Create your first list form template</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
 ![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
-## Download the Starter Project
+## スタータープロジェクトをダウンロードする
 
 Before we begin, be sure to download the **Starter Project** which includes: * A **List form** folder * A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
 
