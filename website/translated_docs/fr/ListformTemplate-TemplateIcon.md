@@ -7,7 +7,7 @@ Vous avez la possibilité de créer votre propre icône pour le modèle de formu
 
 L'icône doit avoir une résolution de 160x160px et doit être nommée **layoutIconx2.png**.
 
-L’icône sera utilisée : * au-dessus du nom de la table une fois que le modèle sera sélectionné, et * dans la fenêtre du sélection du modèle dans la **section Formulaires**
+L’icône sera utilisée : * au-dessus du nom de la table lorsque le modèle sera sélectionné, et * dans la fenêtre du sélecteur de modèle dans la section **Formulaires **
 
 ![Custom listform template](assets/custom-listform/custom-listform-template.png)
 
