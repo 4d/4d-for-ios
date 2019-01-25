@@ -5,7 +5,7 @@ sidebar_label: Selecting your Apple Developer Program
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**Zielsetzung**
 
 * Choose the appropriate Apple Developer Program.</div> 
 
