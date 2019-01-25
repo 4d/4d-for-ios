@@ -1,19 +1,19 @@
 ---
 id: create-new-project
-title: Nouveau projet
-sidebar_label: Nouveau projet
+title: New Project
+sidebar_label: New Project
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Se familiariser avec l’éditeur de projet</div> <div class = "prerequisites"> 
+* Se familiariser avec l’Editeur de projet</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
 * Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Jetons un œil au fonctionnement de 4D for iOS.
+Voyons le fonctionnement de 4D for iOS.
 
 Démarrez votre application 4D, ouvrez votre base et cliquez sur **Nouveau > Projet mobile**.
 
@@ -33,18 +33,18 @@ La fenêtre principale se compose de deux onglets :
 
 Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la création de votre application 4D for iOS :
 
-* Général
+* General
 * Structure
-* Libellés et icônes
-* Menu
-* Formulaires
-* Publication
+* Labels & Icons
+* Main Menu
+* Forms
+* Publishing
 
-## Génération
+## Build
 
 L’onglet Génération comprend quatre options :
 
-* Créer & exécuter 
-* Sélection du simulateur
-* Navigateur de projet et de produit
-* Installer
+* Build and Run 
+* Simulator selection
+* Project and product browser
+* Install
