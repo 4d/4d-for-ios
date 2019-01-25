@@ -15,7 +15,7 @@ sidebar_label: Créer le format de données
 
 Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de formats.
 
-## Télécharger le projet Starter
+## Téléchargez le projet Starter
 
 Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Deux dossiers **integerToImage_Images** et **textToImage_Images** qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
 

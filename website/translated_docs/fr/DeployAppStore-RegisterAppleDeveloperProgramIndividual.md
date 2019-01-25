@@ -11,14 +11,14 @@ sidebar_label: Apple Developer Program as an Individual
 
 ## ÉTAPE 1. Identifiant Apple
 
-* Si vous n’avez aucun identifiant Apple, passez à l'[Etape 2](#step-2-create-your-apple-id)
+* Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id)
 * Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-register-as-a-developer)
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/)
 
-![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Créez votre identifiant Apple](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -26,7 +26,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Une fois que vous avez votre identifiant Apple, vous pouvez passer à l’Étape 3.
+* Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
 ## ÉTAPE 3. Inscrivez-vous en tant que développeur
 

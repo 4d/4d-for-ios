@@ -5,13 +5,13 @@ sidebar_label: Restricted queries
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Defining basic and user information-based query filters to display filtered content in the generated iOS app</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Clique aqui em [](prerequisites.html), para ver o que você precisa para começar!</div> 
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -35,7 +35,7 @@ The database includes a: * **CRM table** with all the data we want to display in
 
 ![CRM database](assets/restricted-queries/CRMDatabase.png)<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
 * This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
 

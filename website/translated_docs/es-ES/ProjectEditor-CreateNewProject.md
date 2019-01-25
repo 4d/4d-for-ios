@@ -5,13 +5,13 @@ sidebar_label: New Project
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-* Get familiar with the Project Editor</div> <div class = "prerequisites"> 
+* Familiarizarse con el Editor de proyectos</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRERREQUISITOS**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar</div> 
 
 Let's take a look at how 4D for iOS works.
 

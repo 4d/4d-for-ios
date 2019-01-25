@@ -5,18 +5,18 @@ sidebar_label: Archive and upload your Project
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Archive and upload your project to App Store Connect</div> 
 
-## STEP 1. Xcode configuration
+## PASO 1. Xcode configuration
 
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
 * If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.
 * When your account is accessible, add it to Xcode in Preferences > Accounts.
 * Xcode will automatically install the necessary provisioning and certificates. 
 
-## STEP 2. Get your Team ID
+## PASO 2. Get your Team ID
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
@@ -44,13 +44,13 @@ sidebar_label: Archive and upload your Project
 
 ![BuildTab](assets/deploy-app-store/BuildTab.png)
 
-## STEP 4. Open your project with Xcode
+## PASO 4. Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
 ![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## STEP 5. Archive your project from Xcode
+## PASO 5. Archive your project from Xcode
 
 * From Xcode go to the simulator Menu and select **Generic iOS Device**.
 
@@ -60,7 +60,7 @@ sidebar_label: Archive and upload your Project
 
 ![Archive your project from Xcode](assets/deploy-in-house/Archive-your-Project.png)
 
-## STEP 6. Validate your project
+## PASO 6. Validate your project
 
 * At the end of the archive process, the Organizer window appears with the archive you have just created.
 
@@ -88,7 +88,7 @@ If an error occurs a message will be displayed. These errors must be resolved be
 
 * Click **Done**. This will return you to the Organizer window.
 
-## STEP 7. Upload to App Store
+## PASO 7. Upload to App Store
 
 Once the validation process has been completed, you're ready to add your app to the App Store.
 
@@ -100,7 +100,7 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ![Upload successful](assets/deploy-app-store/upload-Successful.png)
 
-## STEP 8. Select the build for the App Store
+## PASO 8. Select the build for the App Store
 
 * From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
 
@@ -112,7 +112,7 @@ Once the validation process has been completed, you're ready to add your app to 
 
 * Finally, click on the **Submit for Review** button.
 
-## STEP 9. Submit for Review
+## PASO 9. Submit for Review
 
 * The final step to submitting your app for review is answering a few quick questions about your app. 
 

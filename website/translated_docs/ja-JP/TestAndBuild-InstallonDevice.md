@@ -5,11 +5,11 @@ sidebar_label: Installing on your iOS device
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
 * Apple Developer Program
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)
@@ -20,22 +20,22 @@ Depending on your objectives and preferences, you can choose to enroll in one of
 
 Let's go through the process...
 
-## STEP 1. Account creation
+## ステップ 1 - Account creation
 
 * **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
 
 * **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
 
-## STEP 2. Xcode configuration
+## ステップ 2 - Xcode configuration
 
 * **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
-## STEP 3. Get your Team ID
+## ステップ 3 - Get your Team ID
 
 * If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
 * If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
 
-## STEP 4. Team ID for Free account
+## ステップ 4 - Team ID for Free account
 
 ### Let Xcode generate your provisioning profile and certificate
 

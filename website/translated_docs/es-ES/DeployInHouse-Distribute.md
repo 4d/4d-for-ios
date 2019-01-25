@@ -5,11 +5,11 @@ sidebar_label: Distribute your app in-House
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Upload your app to a secured server</div> 
 
-## STEP 1. Upload your app<div class = "tips"> 
+## PASO 1. Upload your app<div class = "tips"> 
 
 **TIP**
 
@@ -25,7 +25,7 @@ Upload your app files to a secured server:
 
 Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
 
-## STEP 2. Create the installation link
+## PASO 2. Create the installation link
 
 * Create an ITMS Serices link (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
@@ -41,7 +41,7 @@ Here is a simple example:
 
 *The QR Code used for this documentation is not active.*
 
-## STEP 3. Install your enterprise app on iOS
+## PASO 3. Install your enterprise app on iOS
 
 * Install the app by clicking on the link or scanning a QR Code
 

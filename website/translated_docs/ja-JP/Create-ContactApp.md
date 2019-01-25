@@ -5,13 +5,13 @@ sidebar_label: Contact App
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**目的**
 
 * Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**必要条件**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 

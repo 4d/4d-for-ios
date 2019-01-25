@@ -7,7 +7,7 @@ Let's do some storyboard modification ... from simple to complex.
 
 ![Final result](assets/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
-## STEP 1. Simple label modification
+## PASO 1. Simple label modification
 
 We'll start by modifying a label's font and color:
 
@@ -25,7 +25,7 @@ We'll start by modifying a label's font and color:
 
 ![Attributes inspector color](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
-## STEP 2. Change profile picture position
+## PASO 2. Change profile picture position
 
 All 4D for iOS templates use constraints for the app's elements to they'll display well on all devices.
 
@@ -43,7 +43,7 @@ Next, select the image and go to the Size attributes pane from the Utility area.
 
 As you can see, the position has changed but Xcode is displaying yellow lines...why? Thse yellow lines represent contraints which are no longer valid.
 
-## STEP 3. Update profile picture constraints
+## PASO 3. Update profile picture constraints
 
 To vertically align the picture in the center in the Superview (the view which contains it), we need to delete the existing constraints and add new ones.
 
@@ -71,7 +71,7 @@ Congratulations! Your profile picture is now well postioned with the correct con
 
 * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
 
-## STEP 4. Update label positions and constraints
+## PASO 4. Update label positions and constraints
 
 #### Now, let's work on the First Name label.
 

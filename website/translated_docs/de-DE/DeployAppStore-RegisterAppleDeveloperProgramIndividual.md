@@ -5,16 +5,16 @@ sidebar_label: Apple Developer Program as an Individual
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**Zielsetzung**
 
 * Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 
-## STEP 1. Apple ID
+## SCHRITT 1. Apple ID
 
 * If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
 * If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
-## STEP 2. Create your Apple ID
+## SCHRITT 2. Create your Apple ID
 
 Go the the [Apple ID creation page](https://appleid.apple.com/)
 
@@ -28,7 +28,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * Once you have your Apple ID, you can continue to Step 3.
 
-## STEP 3. Register as a developer
+## SCHRITT 3. Register as a developer
 
 * You can register as a developer [here](https://developer.apple.com/account/).
 
@@ -38,13 +38,13 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Register Developer Program](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## STEP 4. Join the Apple Developer Program
+## SCHRITT 4. Join the Apple Developer Program
 
 * Click on **Join the Apple Developer Program** at the bottom of the page.
 
 ![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 5. Enroll as an individual
+## SCHRITT 5. Enroll as an individual
 
 * Click on the **Start your Enrollment** button.
 * Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
@@ -58,7 +58,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 6. Complete your purchase
+## SCHRITT 6. Complete your purchase
 
 * Click **Purchase** and make payment to complete your enrollment.
 

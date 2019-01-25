@@ -43,7 +43,7 @@ Next, select the image and go to the Size attributes pane from the Utility area.
 
 As you can see, the position has changed but Xcode is displaying yellow lines...why? Thse yellow lines represent contraints which are no longer valid.
 
-## STEP 3. Update profile picture constraints
+## PASSO 3. Update profile picture constraints
 
 To vertically align the picture in the center in the Superview (the view which contains it), we need to delete the existing constraints and add new ones.
 
@@ -71,7 +71,7 @@ Congratulations! Your profile picture is now well postioned with the correct con
 
 * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
 
-## STEP 4. Update label positions and constraints
+## PASSO 4. Update label positions and constraints
 
 #### Now, let's work on the First Name label.
 
