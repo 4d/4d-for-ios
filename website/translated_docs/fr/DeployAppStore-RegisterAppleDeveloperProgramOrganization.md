@@ -30,7 +30,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Register developer program](assets/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Une fois que vous avez obtenu votre identifiant Apple, passez à l’Étape 3.
+* Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
 ## ÉTAPE 3. Numéro D-U-N-S
 
