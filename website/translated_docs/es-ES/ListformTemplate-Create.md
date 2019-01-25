@@ -5,13 +5,13 @@ sidebar_label: List form templates
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Create your first list form template</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRERREQUISITOS**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar</div> 
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
