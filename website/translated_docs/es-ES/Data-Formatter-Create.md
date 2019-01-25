@@ -5,13 +5,13 @@ sidebar_label: Create data formatter
 ---
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Create your first data formatters</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRERREQUISITOS**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+* Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar</div> 
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
