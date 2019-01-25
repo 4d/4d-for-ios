@@ -16,13 +16,13 @@ sidebar_label: Archivez et téléchargez votre projet
 * Lorsque votre compte est accessible, ajoutez-le à Xcode dans Preferences > Accounts.
 * Xcode installera automatiquement les certificats et les éléments de mise à disposition nécessaires. 
 
-## ÉTAPE 2. Obtenir l'ID de votre équipe
+## ÉTAPE 2. Obtenez votre Team ID
 
 * Connectez-vous à votre compte de développeur Apple. Vous pouvez trouver votre ID d’équipe dans Membership.
 
 ![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## ÉTAPE 3. Configurer 4D for iOS
+## ÉTAPE 3. Configurez 4D for iOS
 
 * Lancez 4D for iOS
 
@@ -44,13 +44,13 @@ sidebar_label: Archivez et téléchargez votre projet
 
 ![BuildTab](assets/deploy-app-store/BuildTab.png)
 
-## ÉTAPE 4. Ouvrir votre projet avec Xcode
+## ÉTAPE 4. Ouvrez votre projet avec Xcode
 
 * À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## ÉTAPE 5. Archiver votre projet à partir de Xcode
+## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
 * A partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**.
 
