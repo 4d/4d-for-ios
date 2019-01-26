@@ -3,83 +3,83 @@
   "localized-strings": {
     "next": "Suivant",
     "previous": "Précédent",
-    "tagline": "Créez et déployez facilement des applications iOS natives personnalisées",
+    "tagline": "Créez et déployez des applications iOS natives personnalisées en toute facilité",
     "docs": {
       "contact-app": {
-        "title": "Contact App",
-        "sidebar_label": "Contact App"
+        "title": "Application Contacts",
+        "sidebar_label": "Application Contacts"
       },
       "4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization",
-        "sidebar_label": "4D for iOS project organization"
+        "title": "Organiser un projet 4D for iOS",
+        "sidebar_label": "Organiser un projet 4D for iOS"
       },
       "customize-your-ios-app": {
-        "title": "Customize your 4D for iOS App",
-        "sidebar_label": "Customize your 4D for iOS App"
+        "title": "Personnaliser une application 4D for iOS",
+        "sidebar_label": "Personnaliser une application 4D for iOS"
       },
       "open-xcode": {
-        "title": "Working with Xcode",
-        "sidebar_label": "Working with Xcode"
+        "title": "Travailler avec Xcode",
+        "sidebar_label": "Travailler avec Xcode"
       },
       "xcode-overview": {
-        "title": "Xcode Overview",
-        "sidebar_label": "Xcode Overview"
+        "title": "Présentation d'Xcode",
+        "sidebar_label": "Présentation d'Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Build and Run your project",
-        "sidebar_label": "Build and Run your project"
+        "title": "Créer et exécuter un projet",
+        "sidebar_label": "Créer et exécuter un projet"
       },
       "creating-data-formatter": {
-        "title": "Create data formatter",
-        "sidebar_label": "Create data formatter"
+        "title": "Créer un format de données",
+        "sidebar_label": "Créer un format de données"
       },
       "data-formatter-mobile-project": {
-        "title": "Open mobile project",
-        "sidebar_label": "Open mobile project"
+        "title": "Ouvrir un projet mobile",
+        "sidebar_label": "Ouvrir un projet mobile"
       },
       "data-formatter": {
-        "title": "Data formatter",
-        "sidebar_label": "Data formatter"
+        "title": "Format des données",
+        "sidebar_label": "Format des données"
       },
       "deploy-app-store-archive-and-upload": {
-        "title": "Archive and upload your Project",
-        "sidebar_label": "Archive and upload your Project"
+        "title": "Archiver et télécharger un projet",
+        "sidebar_label": "Archiver et télécharger un projet"
       },
       "deploy-app-store-app-store-connect": {
-        "title": "Create App Store record",
-        "sidebar_label": "Create App Store record"
+        "title": "Créer une fiche sur App Store",
+        "sidebar_label": "Créer une fiche sur App Store"
       },
       "register-apple-developer-program-individual": {
-        "title": "Apple Developer Program as an Individual",
-        "sidebar_label": "Apple Developer Program as an Individual"
+        "title": "Apple Developer Program pour les particuliers",
+        "sidebar_label": "Apple Developer Program pour les particuliers"
       },
       "register-apple-developer-program-organization": {
-        "title": "Apple Developer Program as an Organization",
-        "sidebar_label": "Apple Developer Program as an Organization"
+        "title": "Apple Developer Program pour les entreprises",
+        "sidebar_label": "Apple Developer Program pour les entreprises"
       },
       "deploy-in-house-archive-and-export": {
-        "title": "Archive and export your Project",
-        "sidebar_label": "Archive and export your Project"
+        "title": "Archiver et télécharger un projet",
+        "sidebar_label": "Archiver et télécharger un projet"
       },
       "deploy-in-house-distribution": {
-        "title": "Distribute your app in-House",
-        "sidebar_label": "Distribute your app in-House"
+        "title": "Distribuer une application interne",
+        "sidebar_label": "Distribuer une application interne"
       },
       "register-apple-developer-enterprise-program": {
         "title": "Apple Developer Enterprise Program",
         "sidebar_label": "Apple Developer Enterprise Program"
       },
       "deployment": {
-        "title": "Selecting your Apple Developer Program",
-        "sidebar_label": "Selecting your Apple Developer Program"
+        "title": "Choisir un Apple Developer Program",
+        "sidebar_label": "Choisir un Apple Developer Program"
       },
       "creating-detailform-templates": {
-        "title": "Detail form templates",
-        "sidebar_label": "Detail form templates"
+        "title": "Modèles de formulaires détaillés",
+        "sidebar_label": "Modèles de formulaires détaillés"
       },
       "icon-detailform-template": {
-        "title": "Detail form icon",
-        "sidebar_label": "Detail form icon"
+        "title": "Icônes des formulaires détaillés",
+        "sidebar_label": "Icônes des formulaires détaillés"
       },
       "manifest-detailform-template": {
         "title": "Manifest.json",
@@ -97,32 +97,32 @@
         "title": "FAQ"
       },
       "overview": {
-        "title": "Overview",
-        "sidebar_label": "Overview"
+        "title": "Présentation",
+        "sidebar_label": "Présentation"
       },
       "prerequisites": {
-        "title": "Prerequisites",
-        "sidebar_label": "Prerequisites"
+        "title": "Conditions préalables",
+        "sidebar_label": "Conditions préalables"
       },
       "create-icons": {
-        "title": "Create icons",
-        "sidebar_label": "Create icons"
+        "title": "Créer des icônes",
+        "sidebar_label": "Créer des icônes"
       },
       "using-icons": {
-        "title": "Using icons",
-        "sidebar_label": "Using icons"
+        "title": "Utiliser des icônes",
+        "sidebar_label": "Utiliser des icônes"
       },
       "include-icons": {
-        "title": "Include icons in the project",
-        "sidebar_label": "Include icons in the project"
+        "title": "Inclure des icônes dans le projet",
+        "sidebar_label": "Inclure des icônes dans le projet"
       },
       "select-icons": {
-        "title": "Select your icons",
-        "sidebar_label": "Select your icons"
+        "title": "Choisir des icônes",
+        "sidebar_label": "Choisir des icônes"
       },
       "creating-listform-templates": {
-        "title": "List form templates",
-        "sidebar_label": "List form templates"
+        "title": "Modèles de formulaires Liste",
+        "sidebar_label": "Modèles de formulaires Liste"
       },
       "manifest-listform-template": {
         "title": "Manifest.json",
@@ -137,119 +137,119 @@
         "sidebar_label": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "List form icon",
-        "sidebar_label": "List form icon"
+        "title": "Icônes des formulaires Liste",
+        "sidebar_label": "Icônes des formulaires Liste"
       },
       "multi-criteria-search": {
-        "title": "Multi-criteria search",
-        "sidebar_label": "Multi-criteria search"
+        "title": "Recherche multicritères",
+        "sidebar_label": "Recherche multicritères"
       },
       "build-panel": {
-        "title": "Build Panel",
-        "sidebar_label": "Build Panel"
+        "title": "Onglet Génération",
+        "sidebar_label": "Onglet Génération"
       },
       "create-new-project": {
-        "title": "New Project",
+        "title": "Nouveau projet",
         "sidebar_label": "New Project"
       },
       "data": {
-        "title": "Data",
-        "sidebar_label": "Data"
+        "title": "Données",
+        "sidebar_label": "Données"
       },
       "detail-form-templates": {
-        "title": "Detail Forms templates",
-        "sidebar_label": "Detail Forms templates"
+        "title": "Modèles de formulaires détaillés",
+        "sidebar_label": "Modèles de formulaires détaillés"
       },
       "forms": {
-        "title": "Forms",
-        "sidebar_label": "Forms"
+        "title": "Formulaires",
+        "sidebar_label": "Formulaires"
       },
       "general": {
-        "title": "General",
-        "sidebar_label": "General"
+        "title": "Général",
+        "sidebar_label": "Général"
       },
       "labels-and-icons": {
-        "title": "Labels & Icons",
-        "sidebar_label": "Labels & Icons"
+        "title": "Libellés et icônes",
+        "sidebar_label": "Libellés et icônes"
       },
       "list-form-templates": {
-        "title": "List Forms templates",
-        "sidebar_label": "List Forms templates"
+        "title": "Modèles de formulaires Liste",
+        "sidebar_label": "Modèles de formulaires Liste"
       },
       "main-menu": {
-        "title": "Main Menu",
-        "sidebar_label": "Main Menu"
+        "title": "Menu",
+        "sidebar_label": "Menu"
       },
       "publishing": {
-        "title": "Publishing",
-        "sidebar_label": "Publishing"
+        "title": "Publication",
+        "sidebar_label": "Publication"
       },
       "structure": {
         "title": "Structure",
         "sidebar_label": "Structure"
       },
       "define-filter-query": {
-        "title": "Define a filter query",
-        "sidebar_label": "Define a filter query"
+        "title": "Définir un filtre de recherche",
+        "sidebar_label": "Définir un filtre de recherche"
       },
       "filter-query-introduction": {
-        "title": "Restricted queries",
-        "sidebar_label": "Restricted queries"
+        "title": "Recherche restreinte",
+        "sidebar_label": "Recherche restreinte"
       },
       "user-information-query": {
-        "title": "User information query",
-        "sidebar_label": "User information query"
+        "title": "Filtre de recherche - informations utilisateur",
+        "sidebar_label": "Filtre de recherche - informations utilisateur"
       },
       "free-developer-account": {
-        "title": "Free Apple Developer account",
-        "sidebar_label": "Free Apple Developer account"
+        "title": "Compte Apple Developer gratuit",
+        "sidebar_label": "Compte Apple Developer gratuit"
       },
       "install-device": {
-        "title": "Installing on your iOS device",
-        "sidebar_label": "Installing on your iOS device"
+        "title": "Installation sur votre appareil iOS",
+        "sidebar_label": "Installation sur votre appareil iOS"
       },
       "simulator": {
-        "title": "Using the Simulator",
-        "sidebar_label": "Using the Simulator"
+        "title": "Utilisation du simulateur",
+        "sidebar_label": "Utilisation du simulateur"
       },
       "xcode": {
         "title": "Xcode",
-        "sidebar_label": "What is Xcode?"
+        "sidebar_label": "Qu'est-ce que Xcode ?"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "Tutorials": "Tutorials",
+      "Docs": "Documentation",
+      "Tutorials": "Tutoriels",
       "FAQ": "FAQ"
     },
     "categories": {
-      "Getting started": "Getting started",
-      "Project Editor": "Project Editor",
-      "Selecting your Developer Program": "Selecting your Developer Program",
-      "Testing and Building": "Testing and Building",
-      "Deploying In-House": "Deploying In-House",
-      "Deploying on App Store": "Deploying on App Store",
-      "Creating your iOS App": "Creating your iOS App",
-      "Customizing with Xcode": "Customizing with Xcode",
-      "Creating List form templates": "Creating List form templates",
-      "Creating Detail form templates": "Creating Detail form templates",
-      "Using icons": "Using icons",
-      "Data formatter": "Data formatter",
-      "Multi-criteria search": "Multi-criteria search",
-      "Restricted queries": "Restricted queries"
+      "Getting started": "Prise en main",
+      "Project Editor": "Éditeur de projet",
+      "Selecting your Developer Program": "Choisir un Apple Developer Program",
+      "Testing and Building": "Test et Génération",
+      "Deploying In-House": "Déploiement interne",
+      "Deploying on App Store": "Déploiement sur App Store",
+      "Creating your iOS App": "Créer une application iOS",
+      "Customizing with Xcode": "Personnaliser avec Xcode",
+      "Creating List form templates": "Créer des modèles de formulaires Liste",
+      "Creating Detail form templates": "Créer des modèles de formulaires détaillés",
+      "Using icons": "Utiliser des icônes",
+      "Data formatter": "Format des données",
+      "Multi-criteria search": "Recherche multicritères",
+      "Restricted queries": "Recherche restreinte"
     }
   },
   "pages-strings": {
-    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
-    "Browse Docs|no description given": "Browse Docs",
-    "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
-    "Join the community|no description given": "Join the community",
-    "Find out what's new with this project|no description given": "Find out what's new with this project",
-    "Stay up to date|no description given": "Stay up to date",
-    "Need help?|no description given": "Need help?",
-    "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "En savoir plus à l’aide de la [documentation sur ce site.] (/ test-site/docs/en/doc1.html)",
+    "Browse Docs|no description given": "Parcourir la Documentation",
+    "Ask questions about the documentation and project|no description given": "Poser des questions sur le projet et la documentation",
+    "Join the community|no description given": "Rejoindre la communauté",
+    "Find out what's new with this project|no description given": "Découvrir les nouveautés de ce projet",
+    "Stay up to date|no description given": "Être à jour",
+    "Need help?|no description given": "Besoin d’aide ?",
+    "This project is maintained by a dedicated group of people.|statement made to reader": "Ce projet est soutenu par un groupe de personnes dévouées.",
+    "Help Translate|recruit community translators for your project": "Aider à traduire",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Modifier",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traduire"
   }
 }
