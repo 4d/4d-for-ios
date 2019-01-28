@@ -19,7 +19,7 @@
     "Using icons" : ["using-icons","create-icons","include-icons","select-icons"],
     "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run","creating-data-formatter"],
     "Multi-criteria search" : ["multi-criteria-search"],
-    "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"]
-
+    "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
+    "Relations" :["n-to-one-relations"]
   }
 }
