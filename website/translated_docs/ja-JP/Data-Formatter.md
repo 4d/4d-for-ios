@@ -1,22 +1,22 @@
 ---
 id: data-formatter
-title: Data formatter
-sidebar_label: Data formatter
+title: データフォーマッター
+sidebar_label: データフォーマッター
 ---
-4D v17 R3 includes a new concept: Data formatting!
+4D v17 R3 では新しい概念: データフォーマットが導入されました！
 
-You can now choose pre-packaged formats from Labels & Icons in Sections.<div class = "tips"> 
+セクション内のラベル & アイコンから既にパッケージになっているフォーマットをを選択することができます。<div class = "tips"> 
 
-Available formats: * **Text**: Text * **Date**: Date, Short date, Long date, Full date * **Time**: Time, Short time, Durtation, Integer number * **Boolean**: "No" or "Yes", "False" or "True" * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
+利用可能なフォーマット: * **Text**: Text * **Date**: Date, Short date, Long date, Full date * **Time**: Time, Short time, Durtation, Integer number * **Boolean**: "No" または "Yes", "False" または "True" * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
 
-Let's get started by downloading the Starter Project:
+以下のスタータープロジェクトをダウンロードして始めてみましょう。
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="../assets/data-formatter/BankingApp.zip">データフォーマッタースタータープロジェクト</a>
 
   </p>
 </div>
