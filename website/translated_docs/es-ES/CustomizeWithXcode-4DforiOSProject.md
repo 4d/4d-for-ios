@@ -3,23 +3,23 @@ id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 sidebar_label: 4D for iOS project organization
 ---
-From the Navigation tab, go to Sources.
+Desde la pestaña Navegation, ir a Sources.
 
-Here you'll find the Structure and Forms folders. They contain all of the files for your defined database structures and forms, including:
+Aquí encontrará las carpetas Structure y Forms. Contienen todos los archivos necesarios para la estructura y los formularios de su base de datos, incluyendo:
 
-* Launch screen - Appears when the app is launched.
-* Login screen - Appears when authentication is activated.
-* Settings screen - Includes the reload and logout buttons.
-* All published tables - Files for the authorized data. They exist in pairs, with the exception of the Launch screen file. 
+* Launch screen - aparece cuando se inicia la aplicación.
+* Login screen - aparece cuando se activa la autenticación.
+* Settings screen - incluye los botones reload y logout.
+* Todas las publicadas tablas - archivos correspondientes a los datos autorizados. Existen en pares, excepto el archivo de Launch screen (pantalla de inicio). 
 
-Instead, you'll find a Swift file and a Storyboard file. These files are described below.
+En su lugar, encontrará un archivo Swift y un archivo Storyboard. Estos archivos se describen a continuación.
 
-### A Swift file - which can be used to add custom code.
+### El archivo Swift - que se puede utilizar para agregar código personalizado.
 
-![Swift file](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
+![Archivo Swift](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
-### Storyboard file - Allows customizing your app design.
+### El archivo Storyboard - permite personalizar el diseño de su aplicación.
 
-![Storyboard file](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
+![Archivo Storyboard](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
-Next, let's look at how to customize the Contacts application detail view!
+A continuación, demos un vistazo a cómo personalizar la vista de detalle de aplicación Contacts.
