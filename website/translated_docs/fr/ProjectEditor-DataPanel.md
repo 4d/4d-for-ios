@@ -11,21 +11,21 @@ Cette section vous permet : * de définir les données à inclure dans votre app
 
 ![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
 
-Ce panneau vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
+Cette partie vous permet de définir vos **sources de données**. Vous pouvez choisir de lire les données à partir du **Fichier de données courant** ou bien du **Fichier de données du serveur de production**.
 
-Pour sécuriser l'accès au serveur de production, un **fichier key.mobileapp** doit être généré depuis le serveur de production et communiqué physiquement au développeur. Ce fichier **key.mobileapp** est disponible dans le dossier MobileApps, qui contient également les données. Le développeur peut ensuite sélectionner ce fichier dans l’éditeur de projet pour accéder aux données du serveur de production.
+Pour sécuriser l'accès au serveur de production, un **fichier key. mobileapp** doit être généré depuis le serveur de production et communiqué au développeur. Ce fichier **key.mobileapp** est disponible dans le dossier MobileApps, qui contient également les données. Le développeur peut ensuite sélectionner ce fichier dans l’éditeur de projet pour accéder aux données du serveur de production.
 
-L'**URL de production** doit être saisi depuis la **section Publication** si vous choisissez d’obtenir des données à partir de votre serveur de production.
+Si vous choisissez d’obtenir des données à partir de votre serveur de production, l'**URL de production** doit être saisi depuis la **section Publication**.
 
 Ici, vous pouvez également vérifier si le serveur est disponible et l’activer si nécessaire.<div class = "tips"> 
 
 **NOTE**
 
 * Il existe des astuces pour vous assurer que le serveur fonctionne correctement.
-* Vous pouvez accéder directement au panneau Publication pour définir votre URL de production.
+* Vous pouvez accéder directement à la partie Publication pour définir votre URL de production.
 * Pour accéder aux données du serveur de production, un fichier key.mobileapp est requis pour sécuriser les échanges.</div> 
 
-Vous pouvez également définir si vous souhaitez **Regénérer les données** à chaque génération.
+Vous pouvez également préciser si vous souhaitez **regénérer les données** à chaque génération.
 
 Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
 
@@ -33,13 +33,13 @@ Lorsque l'option **Ne pas regénérer les données à chaque génération** est 
 
 ![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
 
-Dans ce panneau, vous pouvez définir tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
+Dans cette partie, vous pouvez définir tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
 ### Les filtres de recherche
 
 Vous pouvez définir des filtres par table en fonction des valeurs de champ :
 
-* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également composer votre recherche de Champs, de Comparateurs et d'Opérateurs qui sont disponibles juste au-dessus du champ de recherche lorsqu’elle est mise au point. Cela peut être utile pour affiner votre recherche
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également effectuer votre recherche à l'aide de Champs, de Comparateurs et d'Opérateurs, disponibles juste au-dessus du filtre de recherche. Cela peut être utile pour affiner votre recherche
 
 * Vous devez ensuite valider votre recherche. Cela doit être fait chaque fois que vous y apportez des modifications (une recherche qui a été modifiée et non validée apparaît en rouge dans l’éditeur de projet).
 
@@ -47,17 +47,17 @@ Vous pouvez définir des filtres par table en fonction des valeurs de champ :
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu d'un filtre de recherche défini.<div class = "tips"> 
 
-**EXEMPLE **
+**EXEMPLE**
 
 Dans le champ **Filtre de recherche**, entrez :
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-*Cette recherche vous permet d'afficher uniquement les enregistrements comprenant respectivement "Lisa" et "Hart" dans les catégories FirstName et LastName*</div> 
+*Cette recherche vous permet d'afficher uniquement les enregistrements comprenant respectivement "Lisa" et "Hart" dans les champs FirstName et LastName*</div> 
 
 ### Filtrer à l'aide d'informations utilisateur
 
-Vous pouvez établir des filtres en fonction des informations utilisateur que vous définissez dans la méthode Mobile App Authentication :
+Vous pouvez établir des filtres en fonction des informations utilisateur que vous définissez dans la méthode base Sur authentification app mobile :
 
 * Concernant les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
