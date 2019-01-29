@@ -10,7 +10,13 @@ This section displays all of your database tables and fields exposed by 4D Mobil
 Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
 
 * tables will be automatically added to the tabs of your app.
-* fields will be available later when it's time to define your list and detail forms.<div class = "tips"> 
+* fields will be available later when it's time to define your list and detail forms.
+
+**N to 1 relations**
+
+* 4D 17R5 allows you to visualize table links and select related fields clicking on the link. Then when your related fields are published, they can be used like any other field in the app creation process.
+
+![Publish related tables](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)<div class = "tips"> 
 
 **NOTE**
 
