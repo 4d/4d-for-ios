@@ -1,9 +1,9 @@
 ---
 id: prerequisites
-title: Prerequisites
-sidebar_label: Prerequisites
+title: Conditions préalables
+sidebar_label: Conditions préalables
 ---
-## Configuration logicielle requise
+## Configuration logicielle préalable
 
 * 4D Developer Pro v17 R2 64 bits (développement)
 * 4D Server v17 R2 64 bits (déploiement) 
@@ -11,7 +11,7 @@ sidebar_label: Prerequisites
 
 Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. Installez ce logiciel si vous souhaitez automatiser l’installation de l’application sur votre appareil.
 
-## Tableau de comparaison de version
+## Tableau de comparaison des versions
 
 | Xcode | Swift | iOS      | 4D    |
 | ----- | ----- | -------- | ----- |
@@ -20,7 +20,7 @@ Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. In
 | 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
 
-## Configuration logicielle requise
+## Configuration logicielle préalable
 
 * 8 Go de RAM (Minimum recommandé)
 
@@ -28,12 +28,12 @@ Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. In
 
 * Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
 
-![Utiliser la notation objet](assets/prerequisites/Use-object-notation.png)
+![Use object notation](assets/prerequisites/Use-object-notation.png)
 
 * Les ports HTTP et HTTPS doivent être correctement configurés. HTTPS est obligatoire pour le déploiement de 4D for iOS.
 
-![Configuration Web](assets/prerequisites/Web-Configuration.png)
+![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
 * Votre serveur Web doit être lancé. Il est accessible depuis le menu Exécution :
 
-![Lancer le serveur Web](assets/prerequisites/Start-web-server.png)
+![Start web server](assets/prerequisites/Start-web-server.png)
