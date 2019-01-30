@@ -9,7 +9,10 @@ Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom detailform](assets/custom-detailform/storyboard-custom-detailform.png)
 
-Nous ajouterons à chaque cellule : * Une photo de profil en en-tête * Un champ à dupliquer
+For each cell, we're going to add a:
+
+* Profile header image 
+* A field to be duplicated
 
 ## Ouvrir le fichier storyboard avec Xcode
 
@@ -65,7 +68,7 @@ Sélectionnez **Field View 1** et ajoutez trois contraintes en cliquant sur le b
 
 Pour que Stack View et Scroll View soient de la même largeur, vous devez ajouter une contrainte :
 
-* Appuyez sur Ctrl et glissez la Stack View vers la Scroll View. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles. Sélectionnez "Equal Width" !
+* Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
 
 ![Stack View Equal Width](assets/custom-detailform/stackview-equal-width-scrollview.png)
 
@@ -133,9 +136,9 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et accédez à
 
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
-* **Type **: Toujours ```String``` 
-* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Key Path **: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Type**: Always ```String``` 
+* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-detailform/identity-inspector-storyboard.png)
 
@@ -151,7 +154,7 @@ Vous devez également définir la Classe sur ```IconLabel``` et cocher la case *
 
 Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD___```
+* **Key Path**: ```bindTo.record.___FIELD___```
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_BINDING_TYPE___```
 
@@ -171,9 +174,9 @@ Le processus est un peu délicat... Nous allons commencer par ouvrir le fichier 
 
 ### Field View 2
 
-* Sélectionnez **Field View 2** et obtenez ses identifiants d'objet à partir de l'Identity Inspector (à droite de l'Interface Builder). Dans notre projet, l'identifiant de Field View 2 est le suivant : **SiX-3H-lNB**.
+* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
 
-* Recherchez cet identifiant dans le code xml du storyboard et remplacez-le par **TAG-FD-001** à chaque fois qu'il apparait. Soyez prudent, car, comme vous pouvez le voir, l'identifiant de cet objet est mentionné plusieurs fois !
+* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. As you can see, this Object ID is mentioned several times so be careful!
 
 ![Storyboard xml](assets/custom-detailform/storyboard-xml.png)
 
@@ -183,7 +186,7 @@ Sauvegardez le fichier xml du storyboard. Comme vous pouvez le voir, l'identifia
 
 ### Premier libellé
 
-* Obtenez l'identifiant d'objet du **premier libellé** à partir de l'Identity Inspector et remplacez-le par **TAG-FD-002** chaque fois qu’il apparaît dans le code xml du storyboard.
+* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
 
 ![Label 1 Object ID](assets/custom-detailform/label1-object-id.png)
 
@@ -191,7 +194,7 @@ C'est terminé pour le premier libellé !
 
 ### Deuxième libellé
 
-* Obtenez ensuite l'identifiant d'objet du **deuxième libellé** à partir de l'Identity Inspector et remplacez-le par **TAG-FD-003** chaque fois qu’il apparaît dans le code xml du storyboard.
+* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
 
 ![Label 2 Object ID](assets/custom-detailform/label2-object-id.png)
 
@@ -223,20 +226,20 @@ Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone 
 
 * **Key Path**: ```cornerRadius```
 * **Type**: ```Number``` 
-* **Value **: ```12```
+* **Value**: ```12```
 
 et
 
-* **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
-* **Value** : Cochez la case
+* **Key Path** : ```layer.masksToBounds```
+* **Type **: ```Boolean``` 
+* **Value**: Check the box
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
 
 Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
 
 * **Key Path**: ```cornerRadius```
-* **Type **: ```Number``` 
+* **Type**: ```Number``` 
 * **Value**: ```12```
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)
