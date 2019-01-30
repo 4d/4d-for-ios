@@ -12,17 +12,17 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 * les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
 * les champs sélectionnés seront disponibles plus tard, lorsque vous définirez vos formulaires Liste et vos formulaires détaillés.
 
-**N to 1 relations**
+**Relation N vers 1**
 
-* 4D 17R5 allows you to visualize table links and select related fields clicking on the link. Then when your related fields are published, they can be used like any other field in the app creation process.
+* 4D v17 R5 vous permet de visualiser les liens des tables et de sélectionnes les champs liés en cliquant sur le lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs dans le processus de création d’une application.
 
-![Publish related tables](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)<div class = "tips"> 
+![Publier des tables liées](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)<div class = "tips"> 
 
 **NOTE**
 
 * Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner facilement vos tables et vos champs.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
 
 **CONSEILS**
 
