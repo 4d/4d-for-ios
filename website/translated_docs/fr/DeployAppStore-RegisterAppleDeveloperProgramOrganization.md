@@ -1,13 +1,13 @@
 ---
 id: register-apple-developer-program-organization
-title: Apple Developer Program as an Organization
-sidebar_label: Apple Developer Program as an Organization
+title: Apple Developer Program pour les entreprises
+sidebar_label: Apple Developer Program pour les entreprises
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Inscrivez-vous à l'Apple Developer Program en tant qu'organisation pour publier votre application dans l'**App Store**.</div> 
+* S'inscrire à l'Apple Developer Program en tant qu'entreprise pour publier son application dans l'**App Store**.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -22,7 +22,7 @@ sidebar_label: Apple Developer Program as an Organization
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Créez votre identifiant Apple](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -61,7 +61,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## ÉTAPE 7. Inscrivez-vous en tant qu’organisation
+## ÉTAPE 7. Inscrivez-vous en tant qu’entreprise
 
 * Cliquez sur le bouton **Start your Enrollment**.
 * Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
@@ -80,7 +80,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## ÉTAPE 8. Finalisez votre achat
+## ÉTAPE 8. Finalisez votre inscription
 
 * Une fois que votre demande d’inscription a été acceptée, vous pouvez procéder au paiement.
 
