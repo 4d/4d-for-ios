@@ -1,13 +1,13 @@
 ---
 id: deploy-in-house-archive-and-export
-title: Archiver et télécharger votre projet
-sidebar_label: Archiver et télécharger votre projet
+title: Archiver et exporter un projet
+sidebar_label: Archiver et exporter un projet
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Archiver et télécharger votre projet
+* Archiver et exporter un projet 4D for iOS
 * Générer des fichiers .ipa des fichiers manifest</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
@@ -17,11 +17,11 @@ sidebar_label: Archiver et télécharger votre projet
 * Une icône de résolution 57 x 57 px
 * Une icône de résolution 512 x 512 px</div> 
 
-## ÉTAPE 1. Configurer Xcode
+## ÉTAPE 1. Configurez Xcode
 
 Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
 
-Xcode installera automatiquement les certificats et les éléments de mise à disposition nécessaires.
+Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
@@ -53,7 +53,7 @@ Xcode installera automatiquement les certificats et les éléments de mise à di
 
 ## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
-* A partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**
+* À partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**
 
 ![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
@@ -90,11 +90,11 @@ Xcode installera automatiquement les certificats et les éléments de mise à di
 Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 
 * **URL** : un URL pointant vers le fichier .ipa.
-* **display-image**: un URL pointant vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilsée lors du téléchargement et de l'installation.
-* **full-size-image**: un URL pointant vers une image PNG 512 x 512 px représentant l'application iTunes.
-* **bundle-identifier**: La chaîne d'identification de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
-* **bundle-version**: La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
-* **title**: Le nom de votre application.
+* **display-image** : un URL pointant vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilisée lors du téléchargement et de l'installation.
+* **full-size-image** : un URL pointant vers une image PNG 512 x 512 px représentant l'application iTunes.
+* **bundle-identifier** : La chaîne d'identification de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **bundle-version** : La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **title** : Le nom de votre application.
 
 Voici un exemple de fichier manifest.plist :
 
@@ -145,7 +145,7 @@ Voici un exemple de fichier manifest.plist :
 
 ## ÉTAPE 9. Informations de distribution du manifest
 
-* Nous vous recommandons de laisser Xcode entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
+* Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
 
 ![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
 
@@ -153,7 +153,7 @@ Voici un exemple de fichier manifest.plist :
 
 ## ÉTAPE 10. Re-signez votre application
 
-* Laissez Xcode gérer l'option **Automatically manage signing**.
+* Laissez à Xcode le soin de gérer l'option **Automatically manage signing**.
 
 ![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
 
@@ -161,7 +161,7 @@ Voici un exemple de fichier manifest.plist :
 
 ## ÉTAPE 11. Revoyez le contenu de votre application .ipa
 
-* Ici, vous pouvez vérifier que l'identifiant de votre application et que votre Team ID sont corrects.
+* Vous pouvez vérifier ici l'exactitude de l'identifiant de votre application et de votre Team ID.
 
 ![Review your app.ipa content](assets/deploy-in-house/Review-ipa-content.png)
 
