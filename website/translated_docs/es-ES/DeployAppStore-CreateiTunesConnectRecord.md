@@ -27,10 +27,8 @@ sidebar_label: Create App Store record
 * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 * To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
-
-* Click the + sign next to *Register iOS App IDs* to add a new App ID.
-
-* Define your app's Name and Bundle ID.
+* Click the + sign next to *Register iOS App IDs* to add a new App ID. 
+* Define your app's Name and Bundle ID. 
 
 ![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
 
@@ -45,7 +43,6 @@ sidebar_label: Create App Store record
 ## PASO 2. Sign in to App Store Connect
 
 * Sign in to your [App Store Connect Account](https://appstoreconnect.apple.com)
-
 * Click on **My Apps**.
 
 ![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
@@ -73,7 +70,11 @@ If your Bundle ID is not available, it may already be used by another app in the
 
 ## PASO 4. App information
 
-From App Store Connect > App Information: * Define your app's Privacy Policy URL (optional). * Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11. * Select a primary and secondary (optional) category for your app to appear in.
+From App Store Connect > App Information:
+
+* Define your app's Privacy Policy URL (optional).
+* Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
+* Select a primary and secondary (optional) category for your app to appear in.
 
 ![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
 
@@ -98,12 +99,9 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
 
 * Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
-
 * You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
-
 * Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
-
-* **Marketing URL** is optional. This can direct users to a marketing website for your app.
+* **Marketing URL** is optional. This can direct users to a marketing website for your app. 
 
 In the **iOS App section**:
 
@@ -112,9 +110,7 @@ In the **iOS App section**:
 Locate your build versions in **Build**.
 
 * In **General App Information** area, enter the Copyright, Version, and Trade Representative Contact Information for your app.
-
 * Your app icon is included in the generated 4D for iOS project.
-
 * Rating is a required property used by the App Store's parental controls. Click Edit and select the appropriate age category for your app.
 
 The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
@@ -123,5 +119,4 @@ The **App Review Information** and **Version Release** sections include informat
 
 * **App Review Information**: Confidential contact and security information. 
 * **Version Release**: Specifies an automatic or manual publication.
-
 * Finally, click **Save**.
