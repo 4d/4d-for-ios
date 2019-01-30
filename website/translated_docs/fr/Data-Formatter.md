@@ -7,7 +7,13 @@ sidebar_label: Format des données
 
 Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.<div class = "tips"> 
 
-Formats disponibles : * **Texte** : texte * **Date** : Date, date longue, date courte et date complète * **Heure** : Heure, Courte durée, Durée, Nombre entier * **Booléen** : « Oui » ou « Non » , « Vrai » ou « Faux» * **Nombre entier** : nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres</div> 
+Available formats:
+
+* **Text**: Text
+* **Date**: Date, Short date, Long date, Full date
+* **Time**: Time, Short time, Durtation, Integer number
+* **Boolean**: "No" or "Yes", "False" or "True"
+* **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
 
 Commençons par télécharger le Projet Starter :
 
