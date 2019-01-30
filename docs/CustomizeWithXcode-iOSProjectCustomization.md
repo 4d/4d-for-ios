@@ -31,7 +31,7 @@ We'll start by modifying a label's font and color:
 ## STEP 2. Change profile picture position
 
 
-All 4D for iOS templates use constraints for the app's elements to they'll  display well on all devices.
+All 4D for iOS templates use constraints for the app's elements to be well displayed on all devices.
 
 In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned. 
 
@@ -46,7 +46,7 @@ Next, select the image and go to the Size attributes pane from the Utility area.
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
 As you can see, the position has changed but Xcode is displaying yellow lines...why?
-Thse yellow lines represent contraints which are no longer valid.
+These yellow lines represent constraints which are no longer valid.
 
 
 ## STEP 3. Update profile picture constraints
@@ -77,7 +77,7 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 At this point, all the profile picture constraints should be blue.
 
-Congratulations! Your profile picture is now well postioned with the correct constraints. 
+Congratulations! Your profile picture is now well positioned with the correct constraints. 
 
 
 
