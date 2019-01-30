@@ -7,7 +7,7 @@ sidebar_label: Application Contacts
 
 **OBJECTIFS**
 
-* Créez votre première application avec 4D for iOS</div> <div class = "prerequisites"> 
+* Créer sa première application avec 4D for iOS</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
@@ -43,7 +43,7 @@ Nommez votre projet puis cliquez sur **Créer**.
 
 ## ÉTAPE 3. L’éditeur de projet
 
-Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'applications de ce superbe outil. 🙂
+Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'une application proposées dans ce superbe outil. 🙂
 
 ![Écran de bienvenue](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
@@ -51,14 +51,14 @@ Cliquez sur **Continuer**.
 
 ## ÉTAPE 4. Sections - Général
 
-Vous pourrez configurer ici les informations basiques de votre application :
+Vous pourrez configurer ici les principales informations de votre application :
 
-* **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et com.MonEntreprise).
+* **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et « com.MonEntreprise »).
 * **Produit :** Entrez le nom de votre application. Appelons-la « Contacts ».
 * **ID :** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
 * **Version :** Laissez la version 1.0 inchangée et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
 * **Icônes :** Glissez et déposez une icône pour votre application dans la zone consacrée.
-* **Développeur :** Cette sous-section est renseignée automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez/collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ "Team". Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
+* **Développeur :** Cette sous-section est renseignée automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez-collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ "Team". Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
 ![Général](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
@@ -78,9 +78,9 @@ Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**
 
 Définissons maintenant certains libellés et icônes pour les tables et champs sélectionnés.
 
-**Propriétés des tables :** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ "Icônes" vide. 4D for iOS génèrera pour vous une icône par défaut !
+**Propriétés des tables :** * Définissez un libellé court et un libellé long pour votre table Contact * Cliquez sur le champ "Icônes". La bibliothèque d’icônes s’affiche et vous pouvez y sélectionner une icône pour illustrer la table Contact. Vous pouvez également choisir de laisser le champ "Icônes" vide. 4D for iOS vous génèrera une icône par défaut !
 
-**Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont vides, 4D for iOS génèrera pour vous des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
+**Propriétés des champs :** * Définissez un libellé court et un libellé long pour les champs sélectionnés. * Cliquez sur le champ "Icônes" et sélectionnez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champs : * Vous pouvez choisir une icône pour chaque champ, * Si au moins une icône a été définie et si les autres champs sont vides, 4D for iOS vous génèrera des icônes par défaut * Vous pouvez simplement les laisser vides pour qu'aucune icône de champ ne soit affichée.
 
 ![Libellés et icônes ](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -95,9 +95,9 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-Nous avons presque terminé, mais il faut d’abord décider de la mise en page de l’application. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
+Nous avons presque terminé, mais il faut d’abord configurer la mise en page de l’application. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
 
-* Sélectionnez un modèle de formulaire liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
+* Sélectionnez un modèle de formulaire Liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
 ![Modèle de formulaire Liste](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
@@ -111,16 +111,16 @@ Enfin, nous allons définir le formulaire détaillé. * Sélectionnez le modèle
 
 ![Modèle de formulaire détaillé](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Glissez et déposez le contenu dans les endroits appropriés sur le modèle du formulaire détaillé, à savoir, First Name, Last Name et Photo.
+* Glissez et déposez le contenu dans les sections appropriées du modèle de formulaire détaillé, à savoir, First Name, Last Name et Photo.
 
 ![Contenu du formulaire détaillé](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
 ## ÉTAPE 9. Création de l’application
 
-Et maintenant, la partie amusante ! Il est temps de créer votre application et de la tester sur le Simulateur pour voir le résultat final !
+Passons maintenant à la phase la plus amusante ! Il est temps de créer votre application et de la tester sur le Simulateur pour voir le résultat final !
 
 * Cliquez sur l’onglet **Génération**.
-* Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton appareil.
+* Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
 * Cliquez sur **Générer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
@@ -128,7 +128,7 @@ Et maintenant, la partie amusante ! Il est temps de créer votre application et 
 
 ## ÉTAPE 10. Que faire ensuite ?
 
-Nous avons fait le tour des bases de la création d’applications dans ce tutoriel. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez comment créer une application plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger l’application Contact finale.
+Nous avons fait le tour des bases de la création d’une application dans ce tutoriel. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous saurez créer une application plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger la version finale de l’application Contacts.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
