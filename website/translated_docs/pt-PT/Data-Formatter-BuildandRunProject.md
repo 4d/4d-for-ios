@@ -7,4 +7,4 @@ Aqui está o resultado final em sua app iOS com um formulário de lista de taref
 
 ![Result data formatter iphone](assets/data-formatter/result-data-formatter-iphone.png)
 
-Tudo feito! Seus campos estão bem formatados de acordo com seu tipo definido em Labes & ícones.
+Tudo pronto! Seus campos estão bem formatados de acordo com seu tipo definido em Labes & ícones.
