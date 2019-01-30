@@ -41,41 +41,41 @@ A continuación, seleccione la imagen y vaya al panel de atributos Size desde el
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-As you can see, the position has changed but Xcode is displaying yellow lines...why? Thse yellow lines represent contraints which are no longer valid.
+Como se puede ver, la posición ha cambiado pero Xcode muestra las líneas amarilla... ¿por qué? Estas líneas amarillas representan las restricciones que no son válidas.
 
-## PASO 3. Update profile picture constraints
+## PASO 3. Actualizar las limitaciones de foto de perfil
 
-To vertically align the picture in the center in the Superview (the view which contains it), we need to delete the existing constraints and add new ones.
+Para alinear verticalmente la imagen al centro en el Superview (la visiualización contiene la imagen), tenemos que eliminar las restricciones existentes y añadir nuevas.
 
-The image currently has the following constraints: * Width Equals: A fixed width of 78 pixels. * Height Equals: A fixed height of 78 pixels. * Align Center X: Centers the image on a previously defined horizontal axis. * Top Space: A fixed amount of space from the top of the image to the top of the view. * Bottom space to <first name>: The previously defined space between the First Name label and the image.
+La imagen tiene actualmente las siguientes restricciones: * Width Equals: un ancho fijo de 78 píxeles. * Height Equals: una altura fija de 78 píxeles. * Align Center X: centra la imagen en un eje horizontal previamente definido. * Top Space: un espacio fijo entre la parte superior de la imagen hasta la parte superior de la vista. * Bottom space to <first name>: El espacio anteriormente definido entre la etiqueta de nombre y la imagen.
 
 ![Profil picture constraints](assets/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
-Delete all of the constraints except Width and Height (you'll modify these later from the Size inspector in the Constraints section). The picture outline should be now in red because the constraints are missing.
+Elimine todas las restricciones excepto Width y Height (se modificarán más tarde desde el inspector Size (de tamaño) en la sección Constraints (restricciones). El contorno de la imagen debe estar ahora en rojo porque faltan las restricciones.
 
-Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
+Haga clic en el botón Align (en la parte inferior de la ventana Interface Builder) y marque la casilla **Vertically in Container**.
 
 ![Profil picture Align](assets/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png)
 
-Next, click on the **Add New Constraints** button and add a leading space constraint (the left constraint).
+A continuación, haga clic en el botón **Add New Constraints** y añada una nueva restricción de espacio principal (la restricción de la izquierda).
 
 ![Profil picture new constraints](assets/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png)
 
-At this point, all the profile picture constraints should be blue.
+En este punto, todas las restricciones de la foto de perfil deben ser azules.
 
-Congratulations! Your profile picture is now well postioned with the correct constraints.<div class = "tips"> 
+¡Felicidades! Su foto de perfil está ahora bien posicionada con las restricciones correctas.<div class = "tips"> 
 
-**TIPS**
+**CONSEJOS**
 
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
+* Para crear una restricción entre dos vistas, presione Ctrl y arrastre una de las vistas a la otra. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder.</div> 
 
-## PASO 4. Update label positions and constraints
+## PASO 4. Actualizar la posición y las restricciones de etiquetas
 
-#### Now, let's work on the First Name label.
+#### Ahora, vamos a trabajar en la etiqueta de nombre First Name.
 
-We'll begin by changing the position and width: * Select the First Name label from the Interface Builder. * Next, change the Width from 386 to 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
+Empezaremos cambiando la posición y el ancho: * Seleccione la etiqueta First Name del Interface Builder. * Next, change the Width from 386 to 267 pixels. * Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
 
 ![First Name Label position](assets/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
