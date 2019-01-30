@@ -7,7 +7,10 @@ Vous pouvez créer votre propre icône pour votre modèle.
 
 L'icône doit avoir une résolution de 160x160px et doit être nommée **layoutIconx2.png**
 
-L’icône sera utilisée : * au-dessus du nom de la table lorsque le modèle sera sélectionné, et * dans la fenêtre du sélecteur de modèle dans la section **Formulaires **
+The icon will be used:
+
+* above the table name when the template has been selected, and
+* in the template selector window in the **Forms section**
 
 ![Custom detailform template](assets/custom-detailform/custom-detailform-template.png)
 
