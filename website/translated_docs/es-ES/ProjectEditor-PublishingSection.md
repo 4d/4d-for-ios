@@ -3,7 +3,11 @@ id: publishing
 title: Publishing
 sidebar_label: Publishing
 ---
-This is where you define or create your app's: * Web Server Settings * Authentication Mode * Authentication Method
+This is where you define or create your app's:
+
+* Web Server Settings
+* Authentication Mode 
+* Authentication Method
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
@@ -16,7 +20,6 @@ This is where you define or create your app's: * Web Server Settings * Authentic
 * If both HTTP and HTTPS are activated, HTTP is used.</div> 
 
 * Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
-
 * Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
@@ -32,7 +35,10 @@ This is where you define or create your app's: * Web Server Settings * Authentic
 * **Development**: The authentication method allows you to use the app locally. 
 * **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
 
-A template is available which will: * Grant access (*i.e.*, email to specific domains) * Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
+A template is available which will:
+
+* Grant access (*i.e.*, email to specific domains) 
+* Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 You can customize this method according to your needs!
 
@@ -111,6 +117,10 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION
 
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
-Settings allows you to: * Reload data * Define your server URL * Log out (if connected as an Authorized User)
+Settings allows you to:
+
+* Reload data
+* Define your server URL
+* Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
