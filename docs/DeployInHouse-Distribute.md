@@ -18,6 +18,7 @@ sidebar_label: Distribute your app in-House
 **TIP**
 
 You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
+
 </div>
 
 Upload your app files to a secured server:
@@ -31,6 +32,7 @@ Upload your app files to a secured server:
 **NOTE**
 
 Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
+
 </div>
 
 

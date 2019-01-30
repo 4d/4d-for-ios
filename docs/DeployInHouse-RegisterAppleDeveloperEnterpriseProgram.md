@@ -21,6 +21,7 @@ sidebar_label: Apple Developer Enterprise Program
 **NOTE**
 
 * To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
+
 </div>
 
 

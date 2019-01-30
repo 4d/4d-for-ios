@@ -30,12 +30,14 @@ Add the title for your template here.
 ```
 
 Inclues IDs which define your form areas:
-- **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
--  **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
--  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+
+* **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
+*  **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
+*  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
 
 ## Area position, height, width and type
 You can define the position, height and width for:
+
 * Searchfield
 * Sectionfield
 * Other general fields that will be displayed in each table cell
@@ -68,7 +70,7 @@ You can define the position, height and width for:
 3. Icon to display a magnifying glass icon into the searchable field
 4. Define the text area position and width 
 5. Define the droppable field position, height, and width, as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+6. Define a cancel button that will be displayed to delete the current content
 
 The searchable field is optional.
 

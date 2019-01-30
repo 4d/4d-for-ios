@@ -23,6 +23,7 @@ sidebar_label: Installing on your iOS device
 </div>
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
+
 * [Free Apple Developer Program](free-developer-account.html): For testing only
 * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house

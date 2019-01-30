@@ -70,6 +70,7 @@ You can define position, height, and width for all of your fields like  we did f
 **NOTE**
 
 * All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)
+
 </div>
 
 <div markdown="1" class = "tips">

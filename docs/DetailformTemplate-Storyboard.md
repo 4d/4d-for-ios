@@ -11,6 +11,7 @@ Here's the result we want to achieve:
 ![Storyboard custom detailform](assets/custom-detailform/storyboard-custom-detailform.png)
 
 For each cell, we're going to add a:
+
 * Profile header image 
 * A field to be duplicated
 

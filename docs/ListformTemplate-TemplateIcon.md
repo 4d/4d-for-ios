@@ -9,6 +9,7 @@ You can create your own icon for a list form template.
 It must be 160px x 160px and must be named **layoutIconx2.png**.
 
 The icon will be used:
+
 * above the table name when the template has been selected, and
 * in the template selector window in the **Forms section**
 
