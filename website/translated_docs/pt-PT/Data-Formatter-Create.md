@@ -7,39 +7,42 @@ sidebar_label: Create data formatter
 
 **OBJETIVOS**
 
-* Create your first data formatters</div> <div class = "prerequisites"> 
+* Criar seus primeiros formatadores de dados</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-* Clique aqui em [](prerequisites.html), para ver o que você precisa para começar!</div> 
+* Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
 
-In this tutorial, we'll guide you through the creation of various formatter examples.
+Neste tutorial, vamos guiá-lo através da criação de vários exemplos de formatador.
 
-## Download the Starter Project
+## Baixe o Starter Project
 
-To begin, download the **Starter Project**, which includes: * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
+To begin, download the **Starter Project**, which includes:
+
+* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
+* A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJETO PERSONALIZADO FORMATTER STARTER</a>
 
   </p>
 </div>
 
-You're now ready to create your first formatters!
+Agora você já está pronto para criar seus primeiros formatadores!
 
-## Create the formatters folder
+## Crie a pasta formatadores
 
-First, create a .../Resources/Mobile/formatters folder at the same level as the Task Management.4dbase data.
+Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os dados de Task Management.4dbase.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
-## Integer formatters
+## Formatadores de inteiros
 
-### Integer to string
+### Número inteiro para string
 
 * Create an **integerToString** folder in the formatters folder you've just created.
 
@@ -64,12 +67,12 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
     }
     
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **nome**: o nome do formatador
+2. **tipo**: o tipo de formatador 4D você deseja usar
+3. **binding**: pode ser **texto localizado** para cadeias de caracteres ou **imageNamed** para imagens
+4. **choiceList**: mapeado valores
 
-### Integer to image
+### Inteiro para imagem
 
 * Create an **integerToImage** folder in the **formatters** folder you've created.
 
@@ -157,7 +160,7 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
+    <br />{
         // 1
         "name": "textToImage",
     
@@ -177,6 +180,7 @@ Let's look at the contents of the **manifest.json** file:
             }
         }
     }
+    
     
 
 ## Open mobile project
