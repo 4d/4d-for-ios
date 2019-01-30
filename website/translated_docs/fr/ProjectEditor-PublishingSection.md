@@ -3,7 +3,11 @@ id: publishing
 title: Publication
 sidebar_label: Publication
 ---
-C’est ici que votre application est définie et créée : * Paramètres du serveur Web * Mode d'authentification * Méthode d’authentification 
+This is where you define or create your app's:
+
+* Web Server Settings
+* Authentication Mode 
+* Authentication Method
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
@@ -15,9 +19,8 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 * Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
 * Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.</div> 
 
-* Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
-
-* L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
+* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentification
 
@@ -29,10 +32,13 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 
 ### Méthode base Sur authentification app mobile
 
-* **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
+* **Development**: The authentication method allows you to use the app locally. 
+* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
 
-Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil utilisé, Team ID, etc.)
+A template is available which will:
+
+* Grant access (*i.e.*, email to specific domains) 
+* Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 Vous pouvez personnaliser cette méthode selon vos besoins !
 
@@ -91,26 +97,30 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
   </p>
 </div>
 
-* Créez un dossier **Composants** contenant les données de l’application au même emplacement que la base de données 4D. 
-* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
-* Redémarrez 4D. 
-* Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
-* La fenêtre d'applications apparaitra et affichera toutes vos applications : 
+* Create a **Components** folder next to the 4D database with the app's data. 
+* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
+* Restart 4D. 
+* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
+* The Apps window will appear displaying all of your apps: 
 
 ![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
 
-* Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
-* Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
+* Right click on a session to reveal the session file in the Finder or delete it.
+* You can change and define the session status for each device: accepted or pending
 
 ![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
 
-* Le bouton **Push** met à jour la session dans la mémoire.
-* Le bouton **Refresh** met à jour la liste de sessions. 
+* The **Push** button will update the session in memory.
+* The **Refresh** button updates the session list. 
 
 ## Aperçu sur l'appareil
 
 Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
-Les paramètres vous permettent de : * Recharger des données * Définir votre URL de serveur * Vous déconnecter (si vous êtes connecté en tant qu’utilisateur autorisé)
+Settings allows you to:
+
+* Reload data
+* Define your server URL
+* Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
