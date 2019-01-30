@@ -115,7 +115,7 @@ Next up is defining the order of the tables in the app's main menu.
 
 ## STEP 8. Sections - Forms
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+We're almost done, but first we need to decide on the app's layout. There are both List and Details forms to choose from.
 
 * Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
 
