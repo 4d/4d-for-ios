@@ -7,10 +7,10 @@ sidebar_label: Working with Xcode
 
 **OBJETIVOS**
 
-* Abra um projeto 4D para iOS no Editor de projeto.
-* Personalize o 4D gerado para iOS app.</div> 
+* Abra um projeto 4D for iOS no Editor de projeto.
+* Personalize o app gerado 4D for iOS.</div> 
 
-4D para iOS gera um app nativo do iOS para você que pode ser modificado e personalizado com o Xcode. Vamos dar uma olhada no processo!<div class = "tips"> 
+4D for iOS gera um app nativo do iOS para você que pode ser modificado e personalizado com o Xcode. Vamos dar uma olhada no processo!<div class = "tips"> 
 
 **NOTA**
 
@@ -47,4 +47,4 @@ Na aba BUILD do Editor de projeto:
 
 ![Open your Project with Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-Agora você está pronto para começar a trabalhar no seu projeto 4D para iOS no Xcode, continue lendo para aprender como!
+Agora você está pronto para começar a trabalhar no seu projeto 4D for iOS no Xcode, continue lendo para aprender como!
