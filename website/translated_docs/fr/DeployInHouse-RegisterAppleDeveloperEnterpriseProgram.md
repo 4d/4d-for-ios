@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Enterprise Program
 
 **OBJECTIFS**
 
-* Inscrivez-vous à l'Apple Developer Enterprise Program pour déployer votre application **interne**.</div> 
+* S'inscrire à l'Apple Developer Enterprise Program pour déployer son application **interne**.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -77,9 +77,9 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## ÉTAPE 8. Finalisez votre achat
+## ÉTAPE 8. Finalisez votre inscription
 
 * Une fois que votre demande d’inscription a été acceptée, vous pouvez procéder au paiement.
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
-Félicitations  ... vous êtes maintenant prêt à déployer votre application interne !
+Félicitations  ! Vous êtes maintenant prêt à déployer votre application interne !
