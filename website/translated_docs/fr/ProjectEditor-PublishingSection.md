@@ -3,7 +3,7 @@ id: publishing
 title: Publication
 sidebar_label: Publication
 ---
-C’est ici que votre application est définie et créée : * Paramètres du serveur Web * Mode d'authentification * Méthode d’authentification
+C’est ici que votre application est définie et créée : * Paramètres du serveur Web * Mode d'authentification * Méthode d’authentification 
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
@@ -32,7 +32,7 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
 * **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
 
-Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil, Team ID, etc.)
+Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil utilisé, Team ID, etc.)
 
 Vous pouvez personnaliser cette méthode selon vos besoins !
 
@@ -92,20 +92,20 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
 </div>
 
 * Créez un dossier **Composants** contenant les données de l’application au même emplacement que la base de données 4D. 
-* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé .
+* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D. 
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
 * La fenêtre d'applications apparaitra et affichera toutes vos applications : 
 
 ![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
 
-* Faites un clic droit sur la session pour afficher le fichier session dans le Finder our bien supprimez-le.
+* Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
 * Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
 
 ![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
 
-* Le bouton **Push** met à jour la session en mémoire.
-* Le bouton **Refresh** met à jour la liste de session. 
+* Le bouton **Push** met à jour la session dans la mémoire.
+* Le bouton **Refresh** met à jour la liste de sessions. 
 
 ## Aperçu sur l'appareil
 
