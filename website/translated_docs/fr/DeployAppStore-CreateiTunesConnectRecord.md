@@ -1,18 +1,18 @@
 ---
 id: deploy-app-store-app-store-connect
-title: Créez un enregistrement App Store
-sidebar_label: Créez un enregistrement App Store
+title: Créer une fiche sur App Store
+sidebar_label: Créer une fiche sur App Store
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Créez un identifiant d’application sur votre compte développeur ("Developer")
-* Créez votre application dans l’App Store Connect</div> <div class = "prerequisites"> 
+* Créer un identifiant d’application sur son compte développeur ("Developer")
+* Créer son application dans l’App Store Connect</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-[Apple Developer Program pour entreprises](register-apple-developer-program-organization.html) ou [pour particuliers](register-apple-developer-program-individual.html) – $/an</div> 
+[Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html) – $/an</div> 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
 
@@ -24,7 +24,7 @@ sidebar_label: Créez un enregistrement App Store
 
 * Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
 
-* Si vous avez choisi un compte de développeur Apple en tant qu’organisation ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
+* Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
@@ -52,7 +52,7 @@ sidebar_label: Créez un enregistrement App Store
 
 ## ÉTAPE 3. Créez une nouvelle application iOS
 
-Cliquez sur le signe **+** dans la partie supérieur gauche pour créer une nouvelle application iOS.
+Cliquez sur le signe **"+"** dans la partie supérieur gauche pour créer une nouvelle application iOS.
 
 ![Create a new iOS App](assets/deploy-app-store/Create-new-iOS-App.png)
 
@@ -63,7 +63,7 @@ Ajoutez les informations suivantes :
 * **Primary language** : la langue principale de votre application.
 * **Bundle ID** : sélectionnez le Bundle ID de votre application à partir de la liste déroulante.
 * **SKU** : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
-* **Limit User Access (optionnel)** : vous permet de limiter aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.<div class = "tips"> 
+* **Limit User Access (optionnel)** : limitez aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.<div class = "tips"> 
 
 **NOTE**
 
@@ -87,7 +87,7 @@ Vous pouvez appliquer des remises limitées dans le temps en précisant les date
 
 ## ÉTAPE 6. Préparation à l'inscription
 
-Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez voir apparaître dans l’App Store :
+Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :
 
 ![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
@@ -109,13 +109,13 @@ Dans la section **iOS App** :
 
 ![iOS App section](assets/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Localisez les versions de votre produit dans **Génération**.
+Localisez les versions de votre produit dans **Build**.
 
 * Dans la zone **General App Information**, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.
 
 * L'icône de votre application est incluse dans le projet 4D for iOS généré.
 
-* L'évaluation est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
+* L'évaluation ("rating") est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
 
 Les sections **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
 
