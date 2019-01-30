@@ -27,7 +27,7 @@ Ici, vous pouvez également vérifier si le serveur est disponible et l’active
 
 Vous pouvez également préciser si vous souhaitez **regénérer les données** à chaque génération.
 
-Lorsque l'option **Ne pas regénérer les données à chaque génération** est cochée, vous pouvez gagner un temps considérable lors de la création de votre application. Vous pouvez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
+Si vous cochez l'option **Ne pas regénérer les données à chaque génération**, vous pouvez gagner un temps considérable dans la création de votre application. Vous pourrez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
 
 ## Propriétés
 
@@ -55,7 +55,7 @@ Dans le champ **Filtre de recherche**, entrez :
 
 *Cette recherche vous permet d'afficher uniquement les enregistrements comprenant respectivement "Lisa" et "Hart" dans les champs FirstName et LastName*</div> 
 
-### Filtrer à l'aide d'informations utilisateur
+### Les filtres d'informations utilisateur
 
 Vous pouvez établir des filtres en fonction des informations utilisateur que vous définissez dans la méthode base Sur authentification app mobile :
 
@@ -75,12 +75,12 @@ Dans le champ **Filtre de recherche**, entrez :
 
 CityName = :city
 
-Dans la [Méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
+Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
 
     $response.userInfo:=New object("city";"Paris")
 
 *Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris »*</div> <div class = "tips"> 
 
-**NOTE :**
+**NOTE**
 
 Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
