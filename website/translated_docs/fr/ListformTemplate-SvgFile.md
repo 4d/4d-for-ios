@@ -25,11 +25,19 @@ Ajoutez ici le titre de votre modèle.
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID** : en référence à la zone de champ recherche. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif). - **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif). - **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
+Inclues IDs which define your form areas:
+
+* **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
+* **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
+* **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
 
 ## Emplacement, hauteur, largeur et type de la zone
 
-Vous pouvez définir l'emplacement, la hauteur et la largeur de : * Searchfield * Sectionfield * d'autres champs à afficher dans chaque cellule d'une table
+You can define the position, height and width for:
+
+* Searchfield
+* Sectionfield
+* Other general fields that will be displayed in each table cell
 
 ### Zone SearchableField :
 
@@ -72,9 +80,9 @@ div markdown="1" class = "tips">
 
 **CONSEILS**
 
-* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
+* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
 
-* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
+* To include all types, just type ```ios:type="all"```.
 
 </div>
 
