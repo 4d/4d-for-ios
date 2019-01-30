@@ -1,19 +1,19 @@
 ---
 id: deploy-in-house-distribution
-title: Distribuez votre application interne
-sidebar_label: Distribuez votre application interne
+title: Distribuer une application interne
+sidebar_label: Distribuer une application interne
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Télécharger votre application sur un serveur sécurisé</div> 
+* Télécharger une application sur un serveur sécurisé</div> 
 
 ## ÉTAPE 1. Téléchargez votre application<div class = "tips"> 
 
 **CONSEILS**
 
-Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application dès qu’elle est sécurisée (Dropbox, Google Drive, etc.).</div> 
+Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).</div> 
 
 Téléchargez votre application sur un serveur sécurisé :
 
@@ -39,19 +39,19 @@ Voici un exemple simple :
 
 ![Contact demo app install](assets/deploy-in-house/Contact-demo-app-install.png)
 
-*Le QR Code utilisé pour cette documentation n’est pas actif.*
+*Le Code QR utilisé pour cette documentation n’est pas actif.*
 
-## ÉTAPE 3. Installez votre application d'entreprise sur iOS
+## ÉTAPE 3. Installez votre application sur iOS
 
 * Installez l’application en cliquant sur le lien ou en scannant un Code QR
 
 ![Scan and install](assets/deploy-in-house/Scan-and-install.png)
 
-* Lorsque vous ouvrez une application d’entreprise installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
+* Lorsque vous ouvrez une application installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
 * Ignorez ce message et cliquez sur **Annuler**.
 
-* Dans Paramètres > Général > Profils ou Profils & Gestion de l'appareil, dans la rubrique « App d'Entreprise », le profil du développeur est répertorié.
+* Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
 
 ![Untrust developer](assets/deploy-in-house/Untrust-developer.png)
 
@@ -61,4 +61,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ... vous pouvez désormais distribuer votre première application interne !
+Félicitations  ! vous pouvez désormais distribuer votre première application interne !
