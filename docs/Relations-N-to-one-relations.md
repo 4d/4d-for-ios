@@ -57,5 +57,6 @@ Then go right to your Structure section and select the **Task table**.
 
 * You should see your related field in your app detail form !
 
+![Related field in Forms section](assets/relations/final-result-n-to-one-relations.png)
 
 

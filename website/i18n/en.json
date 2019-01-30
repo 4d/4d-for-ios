@@ -188,6 +188,10 @@
         "title": "Structure",
         "sidebar_label": "Structure"
       },
+      "n-to-one-relations": {
+        "title": "N to one relations",
+        "sidebar_label": "N to one relations"
+      },
       "define-filter-query": {
         "title": "Define a filter query",
         "sidebar_label": "Define a filter query"
@@ -236,7 +240,8 @@
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Multi-criteria search": "Multi-criteria search",
-      "Restricted queries": "Restricted queries"
+      "Restricted queries": "Restricted queries",
+      "Relations": "Relations"
     }
   },
   "pages-strings": {
