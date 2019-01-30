@@ -9,7 +9,11 @@ Here's the result we want to achieve:
 
 ![Storyboard custom listform](assets/custom-listform/storyboard-custom-listform.png)
 
-For each cell, we're going to add a: * Profile image * Title * Subtitle
+For each cell, we're going to add a:
+
+* Profile image
+* Title 
+* Subtitle
 
 ## Open the storyboard file with Xcode
 
@@ -133,7 +137,10 @@ Select the second label and add a row in the Defined Runtime Attributes:
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility: * Double-click the first label to edit it and enter ```___FIELD_2_LABEL___``` * Double-click the second label to edit it and enter ```___FIELD_3_LABEL___```
+You can change the **storyboard display labels** to have better visibility:
+
+* Double-click the first label to edit it and enter ```___FIELD_2_LABEL___```
+* Double-click the second label to edit it and enter ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
 
