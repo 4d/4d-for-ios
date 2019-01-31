@@ -5,7 +5,7 @@ sidebar_label: Structure
 ---
 Cette section affiche tous les champs et les tables de votre base de données exposés par 4D Mobile Service.
 
-![Structure section](assets/project-editor/Structure-section-4D-for-iOS.png)
+![Section Structure](assets/project-editor/Structure-section-4D-for-iOS.png)
 
 Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques. 
 
