@@ -7,27 +7,27 @@ sidebar_label: Xcode Overview
 
 **OBJETIVOS**
 
-* Ensure a basic understanding of working with Xcode.</div> 
+* Garantizar una comprensión básica del funcionamiento de Xcode.</div> 
 
-Xcode displays various areas that we're going to review:
+Xcode muestra las diferentes áreas que vamos a revisar:
 
 ![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
-## Toolbar
+## Toolbar (Barra de herramientas)
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+* Los botones **Run** y **Stop** se ubican a la izquierda de la barra de herramientas. El botón **Run** permite crear, ejecutar y lanzar su aplicación en el simulador iOS seleccionado. ![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
+* El menú desplegable junto al botón **Stop** indica los elementos que desea ejecutar y qué simulador se está utilizando. ![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
-* On the right side of the toolbar, you'll find buttons to change the display. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
+* En el lado derecho de la barra de herramientas, encontrará botones para cambiar la visualización. ![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
-## Editor Area
+## Editor Area (Área de edición)
 
 ![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+Aquí es donde ocurre la codificación cuando se selecciona un archivo Swift. Cuando se selecciona un archivo Storyboard, la vista cambia y aparece el Interface Builder.
 
-## Interface Builder Area
+## Área "Interface Builder"
 
 ![Interface Builder Area](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
