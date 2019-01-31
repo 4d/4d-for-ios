@@ -81,12 +81,12 @@ Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabelle
 **Table Properties:**
 
 * Define a short and a long label for your Contact table
-* Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
+* Click on the icon field. Die Icon-Bibliothek erscheint und Sie können ein Icon auswählen, um die Tabelle Contacts zu illustrieren. Sie können den Bereich Icons auch leer lassen. 4D for iOS generiert ein Standardsymbol für Sie!
 
 **Field Properties:**
 
 * Define a short and a long label for your selected fields.
-* Click on the icon field and select icons for each field. There are several options for field icons: 
+* Klicken Sie in die Spalte Icon und wählen Icons für jedes Feld. There are several options for field icons: 
     * You can select an icon for each field,
     * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you
     * You can simply leave them empty to not display any field icons. 
@@ -97,8 +97,8 @@ Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabelle
 
 Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
-* **Available Tables:** Displays the table(s) to be used.
-* **Selected Tables:** Displays your app's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
+* **Available Tables:** Zeigt die verfügbaren Tabellen.
+* **Selected Tables:** Zeigt die Menüeinträge Ihrer App. Unser Beispiel hat nur ein Element. Bei mehreren Elementen können Sie diese per Drag-and-Drop anders anordnen.
 
 ![Main Menu](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
@@ -106,23 +106,23 @@ Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 Wir sind fast fertig, wir müssen noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
 
-* Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
+* Wählen Sie eine Formularvorlage Liste, um Ihre Tabelle als Liste anzuzeigen. Für unsere App Contact verwenden wir die Vorlage **Profil**.
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
 An dieser Stelle hat sich der untere Teil des Konfigurationsfensters von der Auswahl der Vorlagen zur Definition der Inhalte geändert.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Ziehen Sie die gewünschten Felder per Drag-and-Drop auf die Vorlage, *z.B.* LastName in die Felder Search und Title. Die Felder Search und Section sind optional, lassen Sie das Feld Section für den Moment leer.
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form.
+Und zu guter Letzt definieren wir das Detailformular.
 
-* Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+* Wählen Sie eine Vorlage, die für Ihre Anwendung am besten geeignet ist. Für unsere App Contact verwenden wir die Vorlage **Visual Contact**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the appropriate places on the detail form template, *i.e.*, First Name, Last Name, and Photo.
+* Ziehen Sie den Inhalt per Drag & Drop an die entsprechenden Stellen auf der Detailformular-Vorlage: *z.B.* First Name, Last Name und Photo.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
@@ -130,14 +130,14 @@ And finally, we'll define the detail form.
 
 Jetzt kommen wir zum spaßigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Simulator zu testen, um das Endergebnis zu sehen!
 
-* Click the **Build** tab.
-* Select a device to use as a Simulator by clicking on the device button.
-* Click **Build and Run**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Klicken Sie auf die Registerkarte **Build**.
+* Wählen Sie ein Gerät aus, das als Simulator dienen soll. Dazu klicken Sie auf die Schaltfläche device.
+* Klicken Sie auf **Build and Run**.
+* Warten Sie ein paar Sekunden und …. siehe da! Ihre iOS App ist live!
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Wie geht es weiter?
+## SCHRITT 10. Wie geht es weiter?
 
 Wir haben in diesem Tutorial die Grundlagen zum Erstellen von Apps behandelt, und Sie sollten nun in der Lage sein, einfache Apps selbst zu erstellen. Aber halt - es gibt noch mehr! Im nächsten Tutorial erfahren Sie, wie Sie eine komplexere App erstellen können. Klicken Sie unten auf **Final Project**, um die fertige App Contact herunterzuladen.
 
