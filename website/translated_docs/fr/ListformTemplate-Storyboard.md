@@ -12,7 +12,7 @@ Voici le résultat que nous souhaitons obtenir :
 For each cell, we're going to add a:
 
 * Profile image
-* Title 
+* Titre 
 * Subtitle
 
 ## Ouvrir le fichier storyboard avec Xcode
@@ -117,9 +117,9 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
-* **Type **: Always ```String``` 
-* **Value **: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Key Path**: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Type **: Toujours ```String``` 
+* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
 
@@ -140,7 +140,7 @@ Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined R
 You can change the **storyboard display labels** to have better visibility:
 
 * Double-click the first label to edit it and enter ```___FIELD_2_LABEL___```
-* Double-click the second label to edit it and enter ```___FIELD_3_LABEL___```
+* Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
 
@@ -157,14 +157,14 @@ La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour a
 Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
 * **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
+* **Type **: ```Number``` 
 * **Value**: ```12```
 
 et
 
 * **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
-* **Value**: Check the box
+* **Type **: ```Boolean``` 
+* **Value** : Cochez la case
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
 
