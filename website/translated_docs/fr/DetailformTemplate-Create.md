@@ -52,9 +52,9 @@ Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 
 ## Le dossier du modèle de formulaire détaillé et son contenu
 
-* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
-* **a manifest.json** file that includes a basic description of the template
-* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* Une icône **layoutIconx2.png** d'une résolution de 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle personnalisé
+* Un fichier **manifest.json**, qui comprend une description simple du modèle
+* Un fichier **template.svg** qui représentera votre modèle, qui s'affichera lorsque vous définirez le contenu de votre Formulaire Liste, et où vous glisserez-déposerez vos champs
+* Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **swift** (code pour le formulaire)
 
 A quoi correspondent ces fichiers, à quoi servent-ils et comment les personnaliser ?
