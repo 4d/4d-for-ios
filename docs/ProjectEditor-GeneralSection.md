@@ -16,9 +16,11 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 <div markdown="1" class = "tips">
 
-**NOTE**
+<strong>Note</strong>
 
-Help links are available for the Name and Identifier fields.
+<br><br>
+
+<p>Help links are available for the Name and Identifier fields.</p>
 
 </div>
 
@@ -32,13 +34,15 @@ Help links are available for the Name and Identifier fields.
 
 <div markdown="1" class = "tips">
 
-**TIPS**
+<strong>TIPS</strong>
 
-* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area. 
-
-* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
-
+<br><br>
+<ul>
+<li>If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.</li>
+<li><strong>Here's the magic trick:</strong> 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!</li>
+</ul>
 </div>
+
 
 
 * **Developer:** This field is automatically filled with your user account name.

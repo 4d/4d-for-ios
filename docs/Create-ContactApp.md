@@ -5,17 +5,18 @@ sidebar_label: Contact App
 ---
 
 <div markdown="1" class = "objectives">
-
-**OBJECTIVES**
-
-* Create your first app with 4D for iOS
+<strong>OBJECTIVES</strong>
+<br><br>
+<ul>
+<li>Create your first app with 4D for iOS</li>
+</ul>
 </div>
 
 <div markdown="1" class = "prerequisites">
 
-**PREREQUISITES**
-
-* Click [here](prerequisites.html) to see what you'll need to get started!
+<strong>PREREQUISITES</strong>
+<br><br>
+<li>Click [here](prerequisites.html) to see what you'll need to get started!</li>
 
 </div>
 
@@ -77,9 +78,12 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 <div markdown="1" class = "tips">
 
-**NOTE**
+<strong>NOTE</strong>
 
-* We highly recommend publishing your primary key in order to identify each record of your database.
+<br><br>
+<ul>
+<li>We highly recommend publishing your primary key in order to identify each record of your database.</li>
+</ul>
 </div>
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
@@ -158,7 +162,7 @@ We've covered basic app creation in this tutorial, and you should now be able to
 Click on **Final Project** below to download the final Contact app.
 
 
-<div markdown="1" style="text-align: center; margin-top: 20px">
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/contact-app/ContactFinal.zip">FINAL PROJECT</a>
 </div>
