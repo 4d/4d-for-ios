@@ -1,7 +1,7 @@
 ---
 id: general
-title: Général
-sidebar_label: Général
+title: General
+sidebar_label: General
 ---
 Cette section vous permet de définir les principales informations de votre application.
 
@@ -27,6 +27,6 @@ Des liens d’aide sont disponibles pour les champs Nom et Identifier.</div>
 
 * **Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !</div> 
 
-* **Developer:** This field is automatically filled with your user account name.
+* **Développeur :**Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
 
-* **Team:** Your Developer Account Team ID.
+* **Team :** "Team ID" de votre compte Developer.
