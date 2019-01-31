@@ -23,8 +23,8 @@ The manifest file includes information about your list form template, such as th
     }
     
 
-For example, the manifest file for the list form template below includes the following information:
+Par exemple, le fichier manifest du modèle de formulaire Liste ci-dessous inclut les informations suivantes :
 
-1. **Storyboard type:** listform
-2. **Template Name:** Custom List form
-3. **Field number:** Three fields in each cell (profile image, title, and subtitle)
+1. **type (de Storyboard) :** listform
+2. **Nom du modèle :** Custom List form
+3. **Nombre de champs :** Trois champs par cellule (photo de profil, titre et sous-titre)
