@@ -21,7 +21,7 @@ Nommez votre projet puis cliquez sur **Créer**.
 
 ![Project Name](assets/project-editor/Project-creation-4D-for-iOS.png)
 
-L'écran de bienvenue s’affiche automatiquement pour vous aider à comprendre les concepts de base de 4D for iOS. Vous pouvez cocher l'option **Ne plus afficher** si vous souhaitez que cette boîte de dialogue ne s'affiche plus. Cliquez sur **Continuer**.
+L'écran de bienvenue s’affiche automatiquement pour vous aider à comprendre les concepts de base de 4D for iOS. Vous pouvez cocher l'option **Ne plus afficher** si vous souhaitez que cette boîte de dialogue ne s'affiche plus. Cliquez sur **Continue**.
 
 ![Welcome Screen](assets/project-editor/Welcome-Screen-4D-for-iOS.png)
 
