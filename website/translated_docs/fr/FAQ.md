@@ -2,7 +2,7 @@
 id: faq
 title: FAQ
 ---
-## Conditions préalables
+## Conditions requises
 
 <details>
 <summary>
@@ -42,7 +42,7 @@ Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables
 <strong>Puis-je utiliser Windows pour développer avec 4D for iOS ?</strong>
 </summary>
 
-Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font via Xcode.
+Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide d'Xcode.
 
 </details>
 
