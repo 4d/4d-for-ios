@@ -12,8 +12,8 @@ sidebar_label: N to one relations
 
 **NOTE**
 
-In this tutorial, we will use the link names between your tables.
-Giving descriptive link names can make your project structure definition easier.
+In this tutorial, we will use the relation names between your tables.
+Giving descriptive relation names can make your project structure definition easier.
 
 </div>
 
@@ -32,9 +32,9 @@ Then go right to your Structure section and select the **Task table**.
 
 ### Structure section
 
-* You can notice that the **TaskCategory link** is underlined
+* You can notice that the **TaskCategory relation** is underlined
 
-* Clicking on it will display available fields through this link
+* Clicking on it will display available fields through this relation
 
 * Select the **Name field**
 
@@ -43,7 +43,7 @@ Then go right to your Structure section and select the **Task table**.
 
 * This field will operate as any other field for the rest of the app creation process
 
-* You can then select an icon as well as formatters and define short and long labels from the Labels and Icons section
+* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
 ![Related field from Labels and Icons section](assets/relations/related-field-from-labels-icons.png)
 
