@@ -7,9 +7,9 @@ sidebar_label: Format des données
 
 Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.<div class = "tips"> 
 
-Available formats:
+Formats disponibles :
 
-* **Text**: Text
+* **Text** : Texte
 * **Date**: Date, Short date, Long date, Full date
 * **Time**: Time, Short time, Durtation, Integer number
 * **Boolean**: "No" or "Yes", "False" or "True"
