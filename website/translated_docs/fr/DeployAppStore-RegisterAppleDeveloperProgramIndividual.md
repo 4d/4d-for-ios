@@ -1,7 +1,7 @@
 ---
 id: register-apple-developer-program-individual
 title: Apple Developer Program pour les particuliers
-sidebar_label: Apple Developer Program pour les particuliers
+sidebar_label: Apple Developer Program as an Individual
 ---
 <div class = "objectives"> 
 
@@ -18,7 +18,7 @@ sidebar_label: Apple Developer Program pour les particuliers
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/)
 
-![Créez votre identifiant Apple](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -42,7 +42,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
-![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![Rejoignez l'Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
@@ -54,15 +54,15 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Remplissez le formulaire
 * Lisez et acceptez les termes du contrat de licence "Apple Developer Program License Agreement".
-* Cliquez sur **Continue**.
+* Cliquez sur **Continuer**.
 
-![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
+![Inscrivez-vous en tant que particulier](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 6. Finalisez votre inscription
 
 * Cliquez sur **Purchase** et procédez au paiement pour finaliser votre inscription.
 
-![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![Finalisez votre inscription](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
