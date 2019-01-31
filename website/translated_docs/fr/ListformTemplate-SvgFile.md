@@ -7,7 +7,7 @@ Le fichier template.svg est une représentation visuelle basique d’un modèle.
 
 Voici une version finale :
 
-![Template svg file](assets/custom-listform/template-svg-file.png)
+![Fichier Template svg](assets/custom-listform/template-svg-file.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
@@ -27,9 +27,9 @@ Ajoutez ici le titre de votre modèle.
 
 Inclues IDs which define your form areas:
 
-* **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
-* **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
-* **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+* **search ID**: Refers to the search field area. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
+* **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
+* **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
 
 ## Emplacement, hauteur, largeur et type de la zone
 
@@ -80,9 +80,9 @@ div markdown="1" class = "tips">
 
 **CONSEILS**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-* To include all types, just type ```ios:type="all"```.
+* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
 
 </div>
 
@@ -102,7 +102,7 @@ div markdown="1" class = "tips">
     
 
 1. Emplacement, hauteur et largeur de la zone d'arrière-plan
-2. Définir l'emplacement de la zone de texte et la largeur 
+2. Définir l'emplacement et la largeur de la zone de texte 
 3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -158,7 +158,7 @@ Le "section field" (champ de section) est facultatif.
 
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement et la largeur de la zone de texte 
+3. Définir l'emplacement de la zone de texte et la largeur 
 4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
