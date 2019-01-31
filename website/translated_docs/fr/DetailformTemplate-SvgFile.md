@@ -7,11 +7,11 @@ Le fichier template.svg est une représentation basique du modèle. Dans ce fich
 
 Voici une version finale :
 
-![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
+![Fichier Template svg](assets/custom-detailform/detailform-template-svg-file.png)
 
 Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et jusqu'à **8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
-![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
+![Fichier Template svg](assets/custom-detailform/detailform-dynamic-field-number.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
@@ -56,7 +56,7 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
 
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement et la largeur de la zone de texte 
+3. Définir l'emplacement de la zone de texte et la largeur 
 4. Définir l'emplacement du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant<div class = "tips"> 
 
@@ -131,7 +131,7 @@ div markdown="1" class = "tips">
 1. Identifiant "Multivaluated" pour le champ à dupliquer
 2. Emplacement de toute la zone Y
 3. Emplacement, hauteur et largeur de la zone d'arrière-plan
-4. Définir l'emplacement et la largeur de la zone de texte 
+4. Définir l'emplacement de la zone de texte et la largeur 
 5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
