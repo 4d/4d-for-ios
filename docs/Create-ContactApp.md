@@ -5,18 +5,17 @@ sidebar_label: Contact App
 ---
 
 <div markdown="1" class = "objectives">
-<strong>OBJECTIVES</strong>
-<br><br>
-<ul>
-<li>Create your first app with 4D for iOS</li>
-</ul>
+**OBJECTIVES**
+
+* Create your first app with 4D for iOS
+
 </div>
 
 <div markdown="1" class = "prerequisites">
 
-<strong>PREREQUISITES</strong>
-<br><br>
-<li>Click [here](prerequisites.html) to see what you'll need to get started!</li>
+**PREREQUISITES**
+
+*Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
 
@@ -31,8 +30,10 @@ We're going to create an iPhone directory app to search for contact names from a
 Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
+
 <a class="button"
 href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
+
 </div>
 
 
@@ -78,12 +79,10 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 <div markdown="1" class = "tips">
 
-<strong>NOTE</strong>
+**NOTE**
 
-<br><br>
-<ul>
-<li>We highly recommend publishing your primary key in order to identify each record of your database.</li>
-</ul>
+* We highly recommend publishing your primary key in order to identify each record of your database
+
 </div>
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
