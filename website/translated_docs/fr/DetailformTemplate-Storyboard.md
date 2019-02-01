@@ -9,7 +9,10 @@ Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom detailform](assets/custom-detailform/storyboard-custom-detailform.png)
 
-Nous ajouterons à chaque cellule : * Une photo de profil en en-tête * Un champ à dupliquer
+For each cell, we're going to add a:
+
+* Profile header image 
+* A field to be duplicated
 
 ## Ouvrir le fichier storyboard avec Xcode
 
@@ -133,9 +136,9 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et accédez à
 
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
-* **Type **: Toujours ```String``` 
-* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Key Path ** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Type**: Toujours ```String``` 
+* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-detailform/identity-inspector-storyboard.png)
 
@@ -151,9 +154,9 @@ Vous devez également définir la Classe sur ```IconLabel``` et cocher la case *
 
 Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD___```
+* **Key Path**: ```bindTo.record.___FIELD___```
 * **Type**: ```String``` 
-* **Value**: ```___FIELD_BINDING_TYPE___```
+* **Value **: ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -227,8 +230,8 @@ Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone 
 
 et
 
-* **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
+* **Key Path** : ```layer.masksToBounds```
+* **Type **: ```Boolean``` 
 * **Value** : Cochez la case
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
@@ -236,7 +239,7 @@ et
 Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
 
 * **Key Path**: ```cornerRadius```
-* **Type **: ```Number``` 
+* **Type**: ```Number``` 
 * **Value**: ```12```
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)

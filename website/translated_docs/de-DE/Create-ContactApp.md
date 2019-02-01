@@ -17,7 +17,7 @@ Mit dieser Anleitung können Sie direkt in die Entwicklung mit 4D for iOS einste
 
 *Szenario: Sie sind kaufmännischer Geschäftsführer und möchten Ihre Kontaktdaten unterwegs einsehen.*
 
-Wir werden eine iPhone Verzeichnis-App erstellen, um nach Kontaktnamen aus einer Liste zu suchen und dann die Details der einzelnen Kontakte anzuzeigen. Wir nennen es "Kontakt".
+Wir werden eine iPhone Verzeichnis-App erstellen, um nach Kontaktnamen aus einer Liste zu suchen und dann die Details der einzelnen Kontakte anzuzeigen. Wir nennen es "Contact".
 
 ## SCHRITT 1. Einsteigen
 
@@ -35,7 +35,7 @@ href="../assets/contact-app/ContactStarter.zip">STARTER-PROJEKT</a>
 
 ## SCHRITT 2. Projekt erstellen
 
-Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D auf macOS und wählen in der Toolbar am oberen Rand**Neu > Mobiles Projekt**.
+Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D auf macOS und wählen in der Toolbar am oberen Rand **Neu > Mobiles Projekt**.
 
 Geben Sie Ihrem Projekt einen Namen und klicken auf den Button **Create**.
 
@@ -78,9 +78,18 @@ Für unser Beispiel wählen Sie **ID**, **First Name**, **Last Name**, **Job**, 
 
 Jetzt ist es Zeit, einige Bezeichnungen und Icons für die ausgewählten Tabellen und Felder zu definieren.
 
-**Table Properties:** * Definieren Sie eine kurze und eine lange Bezeichnung für Ihre Tabelle Contact * Klicken Sie in den Bereich Icons. Die Icon-Bibliothek erscheint und Sie können ein Icon auswählen, um die Tabelle Contacts zu illustrieren. Sie können den Bereich Icons auch leer lassen. 4D for iOS generiert ein Standardsymbol für Sie!
+**Table Properties:**
 
-**Field Properties:** * Define a short and a long label for your selected fields. * Click on the icon field and select icons for each field. There are several options for field icons: * You can select an icon for each field, * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you * You can simply leave them empty to not display any field icons.
+* Define a short and a long label for your Contact table
+* Click on the icon field. Die Icon-Bibliothek erscheint und Sie können ein Icon auswählen, um die Tabelle Contacts zu illustrieren. Sie können den Bereich Icons auch leer lassen. 4D for iOS generiert ein Standardsymbol für Sie!
+
+**Field Properties:**
+
+* Define a short and a long label for your selected fields.
+* Klicken Sie in die Spalte Icon und wählen Icons für jedes Feld. There are several options for field icons: 
+    * You can select an icon for each field,
+    * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you
+    * You can simply leave them empty to not display any field icons. 
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -107,17 +116,19 @@ An dieser Stelle hat sich der untere Teil des Konfigurationsfensters von der Aus
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-Und zu guter Letzt definieren wir das Detailformular. * Wählen Sie eine Vorlage, die für Ihre Anwendung am besten geeignet ist. Für unsere App Contact verwenden wir die Vorlage **Visual Contact**Vorlage.
+Und zu guter Letzt definieren wir das Detailformular.
+
+* Wählen Sie eine Vorlage, die für Ihre Anwendung am besten geeignet ist. Für unsere App Contact verwenden wir die Vorlage **Visual Contact**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Ziehen Sie den Inhalt per Drag & Drop an die entsprechenden Stellen auf der Detailformular-Vorlage: *z.B.*, First Name, Last Name und Photo.
+* Ziehen Sie den Inhalt per Drag & Drop an die entsprechenden Stellen auf der Detailformular-Vorlage: *z.B.* First Name, Last Name und Photo.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
 ## SCHRITT 9. Die App erstellen
 
-Jetzt zum lustigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Simulator zu testen, um das Endergebnis zu sehen!
+Jetzt kommen wir zum spaßigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Simulator zu testen, um das Endergebnis zu sehen!
 
 * Klicken Sie auf die Registerkarte **Build**.
 * Wählen Sie ein Gerät aus, das als Simulator dienen soll. Dazu klicken Sie auf die Schaltfläche device.
@@ -126,7 +137,7 @@ Jetzt zum lustigen Teil! Es ist an der Zeit, Ihre App zu erstellen und sie im Si
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-## STEP 10. Wie geht es weiter?
+## SCHRITT 10. Wie geht es weiter?
 
 Wir haben in diesem Tutorial die Grundlagen zum Erstellen von Apps behandelt, und Sie sollten nun in der Lage sein, einfache Apps selbst zu erstellen. Aber halt - es gibt noch mehr! Im nächsten Tutorial erfahren Sie, wie Sie eine komplexere App erstellen können. Klicken Sie unten auf **Final Project**, um die fertige App Contact herunterzuladen.
 

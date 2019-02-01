@@ -1,7 +1,7 @@
 ---
 id: labels-and-icons
-title: Libellés et icônes
-sidebar_label: Libellés et icônes
+title: Labels & Icons
+sidebar_label: Labels & Icons
 ---
 C'est dans cette sous-section que vous définirez les libellés longs et courts ainsi que les icônes de vos champs et tables.
 

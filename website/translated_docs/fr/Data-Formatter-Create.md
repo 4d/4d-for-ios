@@ -17,7 +17,10 @@ Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de
 
 ## Téléchargez le projet Starter
 
-Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Deux dossiers **integerToImage_Images** et **textToImage_Images** qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images) * Un fichier **Task Management.4dbase** (avec un projet d’application mobile prêt à l’emploi)
+Pour commencer, téléchargez le **Projet Starter**, qui comprend :
+
+* Les dossiers **integerToImage_Images** et **textToImage_Images**, qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images)
+* Un fichier **Task Management.4dbase** (accompagné d'une application de projet mobile prêt à l'emploi)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -35,7 +38,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau que les données Task Management.4dbase.
 
-![Dossier format](assets/custom-formatter/formatter-folder.png)
+![Formatter folder](assets/custom-formatter/formatter-folder.png)
 
 ## Formats des entiers
 
@@ -45,7 +48,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
 
 * Créez ensuite un fichier **manifest.json** dans le dossier </strong> integerToString**.</p></li> </ul> 
     
-    ![Dossier format](assets/custom-formatter/formatter-folder-integertostring.png)
+    ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
     
     * Regardons le contenu du fichier **manifest.json** :
     
@@ -75,7 +78,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
     
     * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
     
-    ![Dossier format](assets/custom-formatter/formatter-folder-integertoimage.png)
+    ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
     
     * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images depuis **integerToImage_Images** (dans StarterProject.zip) vers ce nouveau dossier.
         
@@ -157,7 +160,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
     
     Regardons le contenu du fichier **manifest.json** :
     
-        {
+        <br />{
             // 1
             "name": "textToImage",
         
@@ -177,6 +180,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
                 }
             }
         }
+        
         
     
     ## Ouvrir un projet mobile

@@ -78,9 +78,18 @@ Para nuestro ejemplo, seleccione **ID**, **Nombre** **Apellido**, **Cargo**, **E
 
 Ahora es el momento para definir algunas etiquetas e iconos para los campos y tablas seleccionados.
 
-**Propiedades de las tablas:** * Defina una etiqueta corta y una etiqueta larga para su tabla Contact * Haga clic en el campo icon. La librería icono aparecerá y usted puede seleccionar un icono para ilustrar la tabla de contactos. También puede optar por dejar vacío el campo icon. 4D for iOS generará un icono predeterminado
+**Table Properties:**
 
-**Propiedades de las tablas:** * Defina una etiqueta corta y una etiqueta larga para su tabla Contact * Haga clic en el campo icon. * Haga clic en el campo de icono y seleccione los iconos para cada campo. Hay varias opciones para los iconos de campo: * puede seleccionar un icono para cada campo, * si se ha definido al menos un icono y otros campos quedan vacíos, 4D for iOS va a generar los iconos por defecto * puede simplemente dejarlos vacíos para no mostrar los iconos de campo.
+* Define a short and a long label for your Contact table
+* Click on the icon field. La librería icono aparecerá y usted puede seleccionar un icono para ilustrar la tabla de contactos. También puede optar por dejar vacío el campo icon. 4D for iOS generará un icono predeterminado
+
+**Field Properties:**
+
+* Define a short and a long label for your selected fields.
+* Haga clic en el campo de icono y seleccione los iconos para cada campo. There are several options for field icons: 
+    * You can select an icon for each field,
+    * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you
+    * You can simply leave them empty to not display any field icons. 
 
 ![Iconos y Etiquetas](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -107,7 +116,9 @@ En este punto, la parte inferior de la ventana de configuración ha cambiado de 
 
 ![Contenido del formulario listado](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-Y por último, definimos el formulario detallado. * Seleccione una plantilla que sea la más adecuada para su aplicación. Para nuestra aplicación Contact, vamos a utilizar la plantilla **Visual Contact**.
+Y por último, definimos el formulario detallado.
+
+* Seleccione una plantilla que sea la más adecuada para su aplicación. Para nuestra aplicación Contact, vamos a utilizar la plantilla **Visual Contact**.
 
 ![Plantilla de formulario listado](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 

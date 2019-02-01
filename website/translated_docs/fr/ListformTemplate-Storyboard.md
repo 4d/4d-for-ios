@@ -9,7 +9,11 @@ Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom listform](assets/custom-listform/storyboard-custom-listform.png)
 
-Nous ajouterons à chaque cellule : * Une photo de profil * Un titre * Un sous-titre
+For each cell, we're going to add a:
+
+* Profile image
+* Titre 
+* Subtitle
 
 ## Ouvrir le fichier storyboard avec Xcode
 
@@ -114,8 +118,8 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
 * **Key Path**: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
-* **Type**: Toujours ```Chaîne``` 
-* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Type **: Toujours ```String``` 
+* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
 
@@ -123,17 +127,20 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_2___```
-* **Type **: ```String``` 
-* **Value **: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
+* **Key Path **: ```bindTo.record.___FIELD_2___```
+* **Type**: ```String``` 
+* **Value**: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
 Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD_3___```
+* **Key Path**: ```bindTo.record.___FIELD_3___```
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
-Pour une meilleure visibilité, vous avez la possibilité de modifier les **libellés d'affichage du storyboard** : * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___``` * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
+You can change the **storyboard display labels** to have better visibility:
+
+* Double-click the first label to edit it and enter ```___FIELD_2_LABEL___```
+* Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
 
@@ -150,13 +157,13 @@ La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour a
 Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
 * **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
+* **Type **: ```Number``` 
 * **Value**: ```12```
 
 et
 
 * **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
+* **Type **: ```Boolean``` 
 * **Value** : Cochez la case
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)

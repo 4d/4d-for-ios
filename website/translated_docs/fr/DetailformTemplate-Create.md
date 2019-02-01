@@ -19,7 +19,10 @@ Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formu
 
 ## Téléchargez le projet Starter
 
-Pour commencer, téléchargez le **Projet Starter**, qui comprend : * Un dossier **Custom Detail form** (dossier contenant un modèle de formulaire détaillé personnalisé) * Un fichier **Contact.4dbase** (base de données Contact de démonstration et un projet d’application mobile prêt à l’emploi)
+To begin, download the **Starter Project**, which includes:
+
+* A **Custom Detail form** folder (custom Detail form template folder)
+* A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>

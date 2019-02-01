@@ -16,7 +16,12 @@ sidebar_label: Installer votre appareil iOS
 
 **Note :** Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente</div> 
 
-En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l'un des programmes suivants d'Apple : * [Free Apple Developer Program](free-developer-account.html) : A des fins de test uniquement * [Apple Developer Program for organization](register-apple-developer-program-organization.html) ou [individual](register-apple-developer-program-individual.html) : Pour déployer votre application sur App Store * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) : Pour déployer votre application interne
+Depending on your objectives and preferences, you can choose to enroll in one of the following:
+
+* [Free Apple Developer Program](free-developer-account.html): For testing only
+* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
+
 
 C'est parti !
 
@@ -49,7 +54,7 @@ C'est parti !
 
 * Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu supérieur d'Xcode.
 
-![Select your device](assets/test-build/select-device-Free-Account.png)
+![Sélectionnez votre appareil](assets/test-build/select-device-Free-Account.png)
 
 * Xcode génère automatiquement les profils et les certificats de provisioning nécessaires dont vous aurez besoin pour créer votre application.
 

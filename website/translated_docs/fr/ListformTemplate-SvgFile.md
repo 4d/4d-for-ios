@@ -7,7 +7,7 @@ Le fichier template.svg est une représentation visuelle basique d’un modèle.
 
 Voici une version finale :
 
-![Template svg file](assets/custom-listform/template-svg-file.png)
+![Fichier Template svg](assets/custom-listform/template-svg-file.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
@@ -25,11 +25,19 @@ Ajoutez ici le titre de votre modèle.
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclut les identifiants qui définissent les zones de votre formulaire : - **search ID** : en référence à la zone de champ recherche. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif). - **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif). - **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
+Inclues IDs which define your form areas:
+
+* **search ID**: Refers to the search field area. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
+* **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
+* **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
 
 ## Emplacement, hauteur, largeur et type de la zone
 
-Vous pouvez définir l'emplacement, la hauteur et la largeur de : * Searchfield * Sectionfield * d'autres champs à afficher dans chaque cellule d'une table
+You can define the position, height and width for:
+
+* Searchfield
+* Sectionfield
+* Other general fields that will be displayed in each table cell
 
 ### Zone SearchableField :
 
@@ -94,7 +102,7 @@ div markdown="1" class = "tips">
     
 
 1. Emplacement, hauteur et largeur de la zone d'arrière-plan
-2. Définir l'emplacement de la zone de texte et la largeur 
+2. Définir l'emplacement et la largeur de la zone de texte 
 3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -150,7 +158,7 @@ Le "section field" (champ de section) est facultatif.
 
 1. Emplacement de toute la zone Y
 2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement et la largeur de la zone de texte 
+3. Définir l'emplacement de la zone de texte et la largeur 
 4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 

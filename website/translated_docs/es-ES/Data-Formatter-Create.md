@@ -17,7 +17,10 @@ In this tutorial, we'll guide you through the creation of various formatter exam
 
 ## Download the Starter Project
 
-To begin, download the **Starter Project**, which includes: * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
+To begin, download the **Starter Project**, which includes:
+
+* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
+* A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -157,7 +160,7 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
+    <br />{
         // 1
         "name": "textToImage",
     
@@ -177,6 +180,7 @@ Let's look at the contents of the **manifest.json** file:
             }
         }
     }
+    
     
 
 ## Open mobile project

@@ -1,9 +1,13 @@
 ---
 id: publishing
 title: Publication
-sidebar_label: Publication
+sidebar_label: Publishing
 ---
-C’est ici que votre application est définie et créée : * Paramètres du serveur Web * Mode d'authentification * Méthode d’authentification 
+This is where you define or create your app's:
+
+* Paramètres du serveur Web
+* Authentication Mode 
+* Méthode d’authentification
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
@@ -16,7 +20,6 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 * Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.</div> 
 
 * Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
-
 * L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
 
 ## Authentification
@@ -32,7 +35,10 @@ C’est ici que votre application est définie et créée : * Paramètres du se
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
 * **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
 
-Un modèle disponible permettra : * d'accorder un accès (*ex :* e-mail à des domaines spécifiques) * d'obtenir toutes les informations nécessaires sur la session et l'utilisateur (adresse e-mail, renseignements sur l'application, appareil utilisé, Team ID, etc.)
+A template is available which will:
+
+* Grant access (*i.e.*, email to specific domains) 
+* Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 Vous pouvez personnaliser cette méthode selon vos besoins !
 
@@ -111,6 +117,10 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
 
 Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
-Les paramètres vous permettent de : * Recharger des données * Définir votre URL de serveur * Vous déconnecter (si vous êtes connecté en tant qu’utilisateur autorisé)
+Settings allows you to:
+
+* Reload data
+* Define your server URL
+* Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)

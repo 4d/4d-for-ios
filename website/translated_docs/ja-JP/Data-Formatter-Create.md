@@ -17,7 +17,10 @@ sidebar_label: カスタムのデータフォーマッター
 
 ## スタータープロジェクトをダウンロードする
 
-To begin, download the **Starter Project**, which includes: * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images) * A **Task Management.4dbase** file (with a ready to use mobile app project)
+To begin, download the **Starter Project**, which includes:
+
+* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
+* A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -41,13 +44,13 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ### 整数から文字列へ
 
-* 作成したformatters フォルダ内に**integerToString** フォルダを作成します。
+* Create an **integerToString** folder in the formatters folder you've just created.
 
-* 次に、**integerToString** フォルダ内に**manifest.json** ファイルを作成します。
+* Then create a **manifest.json** file in the **integerToString** folder.
 
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* ここで**manifest.json** ファイルの中身を見てみましょう:
+* Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -71,17 +74,17 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ### 整数から画像へ
 
-* 作成した**formatters** フォルダ内に**integerToImage** フォルダを作成します。
+* Create an **integerToImage** folder in the **formatters** folder you've created.
 
-* 次に、**integerToImage** フォルダ内に**manifest.json** ファイルを作成します。
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-integertoimage.png)
 
-* 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
+* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
     
-    ![フォーマッター画像](assets/custom-formatter/formatter-images-integertoimage.png)
+    ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-* **manifest.json** ファイルの中身を見てみましょう:
+* Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -115,13 +118,13 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ### テキストから文字列へ
 
-* 作成したformatters フォルダ内に**textToString** フォルダを作成します。
+* Create a **textToString** folder in the formatters folder you've just created.
 
-* 次に、**textToString** フォルダ内に**manifest.json** ファイルを作成します。
+* Create a **manifest.json** file in the **textToString** folder.
 
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* **manifest.json** ファイルの中身を見てみましょう:
+* Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -145,19 +148,19 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ### テキストから画像へ
 
-* 作成したformatters フォルダ内に**textToImage** フォルダを作成します。
+* Create a **textToImage** folder in the formatters folder you've just created.
 
-* 次に、**textToImage** フォルダ内に**manifest.json** ファイルを作成します。
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-textToImage.png)
 
-* 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
+* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
 
 ![フォーマッター画像](assets/custom-formatter/formatter-images-textToImage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
-    {
+    <br />{
         // 1
         "name": "textToImage",
     
@@ -178,6 +181,7 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
         }
     }
     
+    
 
 ## モバイルプロジェクトを開く
 
@@ -185,10 +189,10 @@ Task Management.4dbase を4D 開き、メニューから ファイル > 開く >
 
 次に、プロジェクトエディター内の**ラベル & アイコンセクション** を開きます。 それぞれのmanifest.json ファイル内で事前に定義したフィールド型に対する全てのフォーマッターが利用可能です:
 
-* **Job field** に対しては**integerToString** フォーマッターを選択します。
-* **Country field** に対しては**textToString** フォーマッターを選択します。
-* **Task Status** に対しては**integerToImage** フォーマッターを選択します。
-* **Manager** に対しては**textToImage** フォーマッターを選択します。
+* Select the **integerToString** formatter for the **Job field**
+* Select the **textToString** formatter for the **Country field**
+* Select the **integerToImage** formatter for the **Task Status**
+* Select the **textToImage** formatter for the **Manager**
 
 ![テキストフォーマッター](assets/custom-formatter/formatters-icons-&-labels.png)
 

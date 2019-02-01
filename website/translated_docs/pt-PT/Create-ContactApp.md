@@ -11,7 +11,7 @@ sidebar_label: Contact App
 
 **PRÉ-REQUISITOS**
 
-* Clique aqui em [](prerequisites.html), para ver o que você precisa para começar!</div> 
+* Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
 
 Este tutorial vai deixar você mergulhardireto em 4D para o desenvolvimento do iOS. Isso permitirá que você crie rapidamente e facilmente sua primeira aplicação.
 
@@ -78,9 +78,18 @@ Em nosso exemplo, selecione **ID**, ** Nome**, **Sobrenome**, **Cargo**, **Empre
 
 Agora vamos definir algumas etiquetas e ícones para as tabelas e campos selecionados.
 
-**Propriedades de Tabela:** * Define uma etiqueta curta e uma longa para sua tabela de Contatos * Clique no campo ícone. A biblioteca ícone vai aparecer e pode selecionar um ícone para ilustrar a tabela de Contatos. Pode também optar por manter o campo ícone vazio. 4D para iOS vai gerar um ícone padrão para você!
+**Table Properties:**
 
-**Propriedades de Campo:** * Define uma etiqueta curta e uma longa para seus campos selecionados. * Clique no campo ícone e ícones selecionados para cada campo. Há várias opções para campos ícones: * Pode selecionar um ícone para cada campo, * Se pelo menos um ícone foi definido e outros campos foram deixados vazios, 4D para iOS vai gerar ícones padrão para você * Também pode deixar os campos vazios para que não exibam ícones.
+* Define a short and a long label for your Contact table
+* Click on the icon field. A biblioteca ícone vai aparecer e pode selecionar um ícone para ilustrar a tabela de Contatos. Pode também optar por manter o campo ícone vazio. 4D para iOS vai gerar um ícone padrão para você!
+
+**Field Properties:**
+
+* Define a short and a long label for your selected fields.
+* Clique no campo ícone e ícones selecionados para cada campo. There are several options for field icons: 
+    * You can select an icon for each field,
+    * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you
+    * You can simply leave them empty to not display any field icons. 
 
 ![Icons & Labels](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -107,7 +116,9 @@ Neste ponto, a parte inferior da janela de configuração foi alterada a partir 
 
 ![List form content](assets/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-E finalmente, definiremos o formulário detalhe. * Selecione um modelo que seja mais adequado para seu aplicativo. Para nosso aplicativo de contato, vamos usar o modelo de **contato Visual**.
+E finalmente, definiremos o formulário detalhe.
+
+* Selecione um modelo que seja mais adequado para seu aplicativo. Para nosso aplicativo de contato, vamos usar o modelo de **contato Visual**.
 
 ![Detail form template](assets/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 

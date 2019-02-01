@@ -29,7 +29,7 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 | Xcode | Swift | iOS      | 4D    |
 | ----- | ----- | -------- | ----- |
 | 10.0  | 4.2   | iOS 12   | 17 R3 |
-| 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
+| 9.4   | 4.1.2 | iOS 11.4 | 17R2  |
 | 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
 
 ### Compatibilité

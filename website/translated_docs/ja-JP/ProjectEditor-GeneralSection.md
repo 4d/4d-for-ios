@@ -28,4 +28,5 @@ Help links are available for the Name and Identifier fields.</div>
 * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!</div> 
 
 * **Developer:** This field is automatically filled with your user account name.
+
 * **Team:** Your Developer Account Team ID.

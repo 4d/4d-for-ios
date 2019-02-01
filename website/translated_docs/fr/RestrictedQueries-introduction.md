@@ -1,7 +1,7 @@
 ---
 id: filter-query-introduction
-title: Restricted queries
-sidebar_label: Restricted queries
+title: Recherche restreinte
+sidebar_label: Recherche restreinte
 ---
 <div class = "objectives"> 
 

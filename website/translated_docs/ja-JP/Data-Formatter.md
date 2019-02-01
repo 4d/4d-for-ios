@@ -7,7 +7,13 @@ sidebar_label: データフォーマッター
 
 セクション内のラベル & アイコンから既にパッケージになっているフォーマットをを選択することができます。<div class = "tips"> 
 
-利用可能なフォーマット: * **Text**: Text * **Date**: Date, Short date, Long date, Full date * **Time**: Time, Short time, Durtation, Integer number * **Boolean**: "No" または "Yes", "False" または "True" * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
+Available formats:
+
+* **Text**: Text
+* **Date**: Date, Short date, Long date, Full date
+* **Time**: Time, Short time, Durtation, Integer number
+* **Boolean**: "No" or "Yes", "False" or "True"
+* **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
 
 以下のスタータープロジェクトをダウンロードして始めてみましょう。
 
