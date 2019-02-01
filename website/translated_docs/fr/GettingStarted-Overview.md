@@ -1,7 +1,7 @@
 ---
-id: vue d’ensemble
+id: overview
 title: Aperçu
-sidebar_label: Présentation
+sidebar_label: Aperçu
 ---
 ## Qu'est-ce que 4D for iOS ?
 

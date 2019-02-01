@@ -36,7 +36,7 @@ You should have this result:
 
 </div>
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contacts *In Progress* are displayed in the Simulator!
+If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
 ![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 

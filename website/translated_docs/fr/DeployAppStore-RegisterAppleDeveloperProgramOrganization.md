@@ -1,7 +1,7 @@
 ---
 id: register-apple-developer-program-organization
 title: Apple Developer Program pour les entreprises
-sidebar_label: Apple Developer Program as an Organization
+sidebar_label: Apple Developer Program pour les entreprises
 ---
 <div class = "objectives"> 
 

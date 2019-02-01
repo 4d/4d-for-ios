@@ -24,7 +24,8 @@ In this tutorial, we'll guide you through the creation of various formatter exam
 ## Download the Starter Project
 
 To begin, download the **Starter Project**, which includes:
-* An images folder containing **integerToImage_Images** and **textToImage_Images** folders (to use later for formatters that include images)
+
+* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
 * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
 
@@ -173,6 +174,7 @@ Let's look at the contents of the **manifest.json** file:
 
 
 ```
+
 {
 	// 1
 	"name": "textToImage",
@@ -193,6 +195,7 @@ Let's look at the contents of the **manifest.json** file:
 		}
 	}
 }
+
 ```
 
 
@@ -220,6 +223,8 @@ Build your 4D of iOS app and you'll see that your data formatter is well applied
 Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
+
 <a class="button"
 href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+
 </div>

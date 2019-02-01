@@ -43,7 +43,6 @@ Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables
 </summary>
 
 Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide d'Xcode.
-
 </details>
 
 ## Licence

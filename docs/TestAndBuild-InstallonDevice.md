@@ -18,9 +18,12 @@ sidebar_label: Installing on your iOS device
 * Apple Developer Program
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)
 
+**Note:** Apple configurator 2 requires **macOS 10.14** or later
+
 </div>
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
+
 * [Free Apple Developer Program](free-developer-account.html): For testing only
 * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
@@ -42,7 +45,7 @@ Let's go through the process...
 ## STEP 3. Get your Team ID
 
 * If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
-* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-4-select-your-team-id).
+* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
 
 ## STEP 4. Team ID for Free account
 
@@ -62,13 +65,11 @@ Let's go through the process...
 
 * Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
 
-### Select your Team ID
+### Build your project from Xcode using your Free Account
 
-* Reopen 4D for iOS in Sections > General and select your new Team ID in the Team popup.
+* Press the Build and run Button from Xcode !
 
-![Select your Team ID](assets/test-build/Team-ID-General-Section-4D-for-iOS.png) 
-
-* Go to [step 6](#step-6-build) to run your project on your device from the Project Editor.
+![Build and Run](assets/test-build/Build-Run-Free-Account.png) 
 
 
 ## STEP 5. Team ID for paid subscription account
@@ -82,7 +83,9 @@ Let's go through the process...
 * Go to STEP 6 to run your project on your device.
 
 
-## STEP 6. Build
+## STEP 6. Installation
+
+### Install automatically with Apple Configurator 2
 
 * When your app is ready, open the BUILD tab.
 * Connect your device to your computer with a USB cable.
@@ -91,5 +94,30 @@ Let's go through the process...
 ![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png) 
 
 * The app is being installed on your device!
+
+### Install manually using Xcode
+
+* When your app is ready, open the BUILD tab.
+* Connect your device to your computer with a USB cable.
+* From the BUILD tab, click on **Install**.
+
+![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png) 
+
+* An archive of your project is created
+
+![Archive creation](assets/test-build/Archive-creation.png) 
+
+* Reveal the generated archive in Finder
+
+![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png) 
+
+* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
+
+![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png) 
+
+* The app is being installed on your device!
+
+
+
 
 
