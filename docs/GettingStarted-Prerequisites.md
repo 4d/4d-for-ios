@@ -1,9 +1,7 @@
 ---
 id: prerequisites
 title: Prerequisites
-sidebar_label: Prerequisites
 ---
-
 
 ## Software requirements
 
@@ -23,11 +21,9 @@ Install this software if you want to automate app installation on your physical 
 | 9.4| 4.1.2| iOS 11.4 | 17R2 |
 | 9.3.1| 4.1| iOS 11.3 | 17R2 |
 
-
 ## Hardware requirements
 
 * 8GB of RAM (Minimum recommended)
-
 
 ## Configuration
 

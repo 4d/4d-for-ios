@@ -1,25 +1,22 @@
 ---
 id: create-new-project
 title: New Project
-sidebar_label: New Project
 ---
-
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Get familiar with the Project Editor
+Get familiar with the Project Editor.
 </div>
 
 <div markdown="1" class = "prerequisites">
 
 **PREREQUISITES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!
+Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
-
 
 Let's take a look at how 4D for iOS works. 
 
@@ -36,7 +33,6 @@ The Welcome screen automatically appears to help you understand the basic concep
 Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 
 The main window consists of two tabs:
-
 
 ## Sections
 

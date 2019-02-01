@@ -1,7 +1,6 @@
 ---
 id: list-form-templates
 title: List Forms templates
-sidebar_label: List Forms templates
 ---
 
 
@@ -34,4 +33,3 @@ sidebar_label: List Forms templates
 ![Cube](assets/templates/Cube-List-form.gif)
 
 ![Parallax](assets/templates/Parallax-List-form.gif)
-

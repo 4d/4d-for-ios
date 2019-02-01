@@ -1,13 +1,13 @@
 ---
 id: contact-app
 title: Contact App
-sidebar_label: Contact App
 ---
 
 <div markdown="1" class = "objectives">
+
 **OBJECTIVES**
 
-* Create your first app with 4D for iOS
+Create your first app with 4D for iOS
 
 </div>
 
@@ -15,10 +15,9 @@ sidebar_label: Contact App
 
 **PREREQUISITES**
 
-*Click [here](prerequisites.html) to see what you'll need to get started!
+Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
-
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
@@ -36,9 +35,6 @@ href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
 
 </div>
 
-
- 
-
 ## STEP 2. Creating the project
 
 Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
@@ -47,7 +43,6 @@ Give your project a name and click **Create**.
 
 ![Project Creation](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-
 ## STEP 3. Opening the Project Editor
 
 Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
@@ -55,7 +50,6 @@ Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
 Click **Continue**.
-
 
 ## STEP 4. Sections - General
 
@@ -70,7 +64,6 @@ Here, you'll configure your app's primary information:
 
 ![General](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-
 ## STEP 5. Sections - Structure
 
 This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
@@ -81,7 +74,7 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 **NOTE**
 
-* We highly recommend publishing your primary key in order to identify each record of your database
+We highly recommend publishing your primary key in order to identify each record of your database
 
 </div>
 
@@ -124,7 +117,6 @@ We're almost done, but first we need to decide on the app's layout. There are bo
 
 ![List form template](assets/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
- 
 At this point, the bottom of the configuration window has changed from template selection to content definition.
  
 * Drag and drop the fields you want displayed onto the template, <i>i.e.</i>, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
@@ -142,7 +134,6 @@ And finally, we'll define the detail form.
 
 ![Detail form content](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-
 ## STEP 9. Build the app
 
 Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
@@ -154,15 +145,12 @@ Now the fun part! It's time to build your app and test it on the Simulator to se
 
 ![Build and Run](assets/contact-app/Build-the-app-simulator.png)
 
-
 ## STEP 10. Where to go from here?
 
 We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app.
 Click on **Final Project** below to download the final Contact app.
 
-
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/contact-app/ContactFinal.zip">FINAL PROJECT</a>
 </div>
-

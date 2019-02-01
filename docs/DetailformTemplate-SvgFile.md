@@ -4,9 +4,7 @@ title: Template.svg
 sidebar_label: Template.svg
 ---
 
-
 The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
-
 
 Here's a finished version:
 
@@ -15,7 +13,6 @@ Here's a finished version:
 This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
 ![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
-
 
 Open the template.svg file with your favorite code editor.
 
@@ -64,25 +61,6 @@ You can define position, height, and width for all of your fields like  we did f
 3. Define the text area position and width 
 4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
 5. Define a cancel button that will be displayed to the delete current content
-
-<div markdown="1" class = "tips">
-
-**NOTE**
-
-* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)
-
-</div>
-
-<div markdown="1" class = "tips">
-
-**TIP**
-
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
-
-* To include all types, just type ```ios:type="all"```.
-
-</div>
-
 
 ### Image field area
 
@@ -146,7 +124,22 @@ You can define position, height, and width for all of your fields like  we did f
 5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
 6. Define a cancel button that will be displayed to delete the current content
 
-
-
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
+<div markdown="1" class = "tips">
+
+**NOTE**
+
+* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+
+</div>
+
+<div markdown="1" class = "tips">
+
+**TIP**
+
+* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+
+* To include all types, just type ```ios:type="all"```.
+
+</div>

@@ -1,7 +1,6 @@
 ---
 id: register-apple-developer-program-individual
 title: Apple Developer Program as an Individual
-sidebar_label: Apple Developer Program as an Individual
 ---
 
 <div markdown="1" class = "objectives">
@@ -10,7 +9,6 @@ sidebar_label: Apple Developer Program as an Individual
 
 * Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.
 </div>
-
 
 ## STEP 1. Apple ID
 
@@ -68,5 +66,4 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * When you have completed your purchase, you'll receive an email confirming your membership in the program.
  
-
 Congratulations! You are now ready to publish apps to the App Store!

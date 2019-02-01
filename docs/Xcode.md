@@ -1,7 +1,6 @@
 ---
 id: xcode
 title: Xcode
-sidebar_label: What is Xcode?
 ---
 
 ## What is Xcode?
@@ -12,7 +11,7 @@ Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod
 
 To download the lastest version of Xcode go to the App Store.
 
-<div markdown="1" style="text-align: center; margin-top: 20px">
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
 </div>
 

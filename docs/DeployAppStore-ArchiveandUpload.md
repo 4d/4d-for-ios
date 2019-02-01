@@ -1,16 +1,15 @@
 ---
 id: deploy-app-store-archive-and-upload
 title: Archive and upload your Project
-sidebar_label: Archive and upload your Project
 ---
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Archive and upload your project to App Store Connect
-</div>
+Archive and upload your project to App Store Connect.
 
+</div>
 
 ## STEP 1. Xcode configuration
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
@@ -27,7 +26,6 @@ sidebar_label: Archive and upload your Project
 ## STEP 3. 4D for iOS configuration
 
 * Launch 4D for iOS
-
 * On the SECTIONS tab:
 
 **General: Enter your Team ID**
@@ -38,7 +36,6 @@ sidebar_label: Archive and upload your Project
 
 (HTTPS is mandatory for deployment).
 
-
 ![Publishing](assets/deploy-app-store/Publishing.png)
  
 * On the BUILD tab:
@@ -46,7 +43,6 @@ sidebar_label: Archive and upload your Project
 **Build and Run: Build your Project**
 
 ![BuildTab](assets/deploy-app-store/BuildTab.png)
-
 
 ## STEP 4. Open your project with Xcode 
 
@@ -92,7 +88,6 @@ If an error occurs a message will be displayed. These errors must be resolved be
 
 * Click **Done**. This will return you to the Organizer window.
 
-
 ## STEP 7. Upload to App Store
 
 Once the validation process has been completed, you're ready to add your app to the App Store.   
@@ -105,7 +100,6 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ![Upload successful](assets/deploy-app-store/upload-Successful.png)
 
-
 ## STEP 8. Select the build for the App Store 
 
 * From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
@@ -117,7 +111,6 @@ Once the validation process has been completed, you're ready to add your app to 
 ![Build selection](assets/deploy-app-store/Select-build-app-store-connect.png)
 
 * Finally, click on the **Submit for Review** button.
-
 
 ## STEP 9. Submit for Review
 

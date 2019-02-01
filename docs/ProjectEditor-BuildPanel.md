@@ -1,7 +1,6 @@
 ---
 id: build-panel
 title: Build Panel
-sidebar_label: Build Panel
 ---
 
 When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
@@ -15,7 +14,6 @@ Let’s take a closer look at the Build tab options:
 * **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
 
 * **Install:** Installs the application on a connected device.
- 
 
 Select a Simulator on which to build and test your app, and press the **Build and Run** button.
 

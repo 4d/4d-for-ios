@@ -1,9 +1,7 @@
 ---
 id: create-icons
 title: Create icons
-sidebar_label: Create icons
 ---
-
 
 You can use any icon format (SVG or PNG is recommended to preserve transparency) and size you want and include it in your project. 
 

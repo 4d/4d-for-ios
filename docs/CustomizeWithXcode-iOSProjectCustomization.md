@@ -1,9 +1,7 @@
 ---
 id: customize-your-ios-app
 title: Customize your 4D for iOS App
-sidebar_label: Customize your 4D for iOS App
 ---
-
 
 Let's do some storyboard modification ... from simple to complex.
 
@@ -27,9 +25,7 @@ We'll start by modifying a label's font and color:
 
 ![Attributes inspector color](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
-
 ## STEP 2. Change profile picture position
-
 
 All 4D for iOS templates use constraints for the app's elements to be well displayed on all devices.
 
@@ -48,9 +44,7 @@ Next, select the image and go to the Size attributes pane from the Utility area.
 As you can see, the position has changed but Xcode is displaying yellow lines...why?
 These yellow lines represent constraints which are no longer valid.
 
-
 ## STEP 3. Update profile picture constraints
-
 
 To vertically align the picture in the center in the Superview (the view which contains it), we need to delete the existing constraints and add new ones.
 
@@ -64,7 +58,6 @@ The image currently has the following constraints:
 
 ![Profil picture constraints](assets/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
-
 Delete all of the constraints except Width and Height (you'll modify these later from the Size inspector in the Constraints section). The picture outline should be now in red because the constraints are missing.
 
 Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
@@ -77,9 +70,7 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 At this point, all the profile picture constraints should be blue.
 
-Congratulations! Your profile picture is now well positioned with the correct constraints. 
-
-
+Congratulations! Your profile picture is now well positioned with the correct constraints.
 
 <div markdown="1" class = "tips">
 
@@ -88,11 +79,10 @@ Congratulations! Your profile picture is now well positioned with the correct co
 * To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
 
 * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
+
 </div>
 
-
 ## STEP 4. Update label positions and constraints
-
 
 #### Now, let's work on the First Name label.
 
@@ -112,7 +102,6 @@ Modify the remaining constraints:
 
 ![First Name Label top constraint](assets/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
-
 #### Finally, we'll work on the Last Name label.
 
 Change the position and width:
@@ -123,15 +112,12 @@ Change the position and width:
 
 ![Last Name Label position](assets/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
-
 Modify the remaining constraints:
 
 * Delete the leading space constraints from the Size inspector.
 * Add a leading space and top constraints by clicking on the Add New Constraints button. 
 
-
 ![Last Name Label constraint](assets/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
-
 
 Both of your name labels are now repostioned. 
 
@@ -139,10 +125,10 @@ Let's see the results in the Simulator !
 
 ![Simulator result](assets/customize-with-xcode/Simulator-Xcode-4D-for-iOS.png)
 
-
 Hmmmm. That's not exactly the result we wanted ...
 
 * Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+
 ![Labels Alignment](assets/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
 * Next, select the Profile picture and double click on the leading space constraint.
@@ -150,13 +136,6 @@ Hmmmm. That's not exactly the result we wanted ...
 
 ![Constraints adjustments](assets/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
-
 Much better! Now all constraints are working and the labels aren't breaking other constraints.
 
 As you can see, customizing your app is very simple!
-
-
-
-
-
-

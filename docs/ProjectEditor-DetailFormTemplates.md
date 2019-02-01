@@ -1,9 +1,7 @@
 ---
 id: detail-form-templates
 title: Detail Forms templates
-sidebar_label: Detail Forms templates
 ---
-
 
 ![Simple List](assets/templates/Simple-List-Detail-form.gif)
 
@@ -34,7 +32,3 @@ sidebar_label: Detail Forms templates
 ![Parallax](assets/templates/Parallax-Detail-form.gif)
 
 ![Right Cut Header](assets/templates/Right-Cut-Header-Detail-form.gif)
-
-
-
-

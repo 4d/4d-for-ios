@@ -1,7 +1,6 @@
 ---
 id: user-information-query
 title: User information query
-sidebar_label: User information query
 ---
 
 Now let's filter our app content depending on the account manager's login email address (user information):
@@ -9,16 +8,14 @@ Now let's filter our app content depending on the account manager's login email 
 * Go to the **Data section**. 
 * Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
 * Click on the **Operators** button and select **AND**.
-* Now define the user information you want to get from the database method, **:email** .
-
-```
-Status = 'In Progress' & manager.Email = :email 
-```
-
+* Now define the user information you want to get from the database method, **:email**.
 * Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
 
 ![User information query](assets/restricted-queries/user-information-query.png)
 
+```
+Status = 'In Progress' & manager.Email = :email 
+```
 
 The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
 

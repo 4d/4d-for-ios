@@ -1,24 +1,30 @@
 ---
 id: install-device
 title: Installing on your iOS device
-sidebar_label: Installing on your iOS device
 ---
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Install a 4D for iOS application on a connected device
+Install a 4D for iOS application on a connected device
+
 </div>
 
 <div markdown="1" class = "prerequisites">
 
 **PREREQUISITES**
 
-* Apple Developer Program
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional)
+* Apple Developer Program.
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).
 
-**Note:** Apple configurator 2 requires **macOS 10.14** or later
+</div>
+
+<div markdown="1" class = "tips">
+
+**NOTE**
+
+Apple configurator 2 requires **macOS 10.14** or later.
 
 </div>
 
@@ -35,7 +41,6 @@ Let's go through the process...
 * **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).  
 
 * **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
-
 
 ## STEP 2. Xcode configuration
 
@@ -71,7 +76,6 @@ Let's go through the process...
 
 ![Build and Run](assets/test-build/Build-Run-Free-Account.png) 
 
-
 ## STEP 5. Team ID for paid subscription account
 
 * **Team ID**: Go to Developer Account > Membership and get your Team ID.
@@ -81,7 +85,6 @@ Let's go through the process...
 ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png) 
 
 * Go to STEP 6 to run your project on your device.
-
 
 ## STEP 6. Installation
 

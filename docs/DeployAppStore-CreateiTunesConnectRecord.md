@@ -1,7 +1,6 @@
 ---
 id: deploy-app-store-app-store-connect
 title: Create App Store record
-sidebar_label: Create App Store record
 ---
 
 <div markdown="1" class = "objectives">
@@ -10,6 +9,7 @@ sidebar_label: Create App Store record
 
 * Create an App ID on your Developer Account
 * Create your app in App Store Connect
+
 </div>
 
 <div markdown="1" class = "prerequisites">
@@ -32,7 +32,6 @@ sidebar_label: Create App Store record
 **NOTE**
  
 * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
-
 * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
 
 </div>
@@ -43,7 +42,6 @@ sidebar_label: Create App Store record
 
 ![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
 
-
 * Define the App Services to include in your app
 
 ![App Services](assets/deploy-app-store/App-Services-to-include.png)
@@ -51,7 +49,6 @@ sidebar_label: Create App Store record
 * Confirm your App ID by clicking **Register**.
 
 ![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
-
 
 ## STEP 2. Sign in to App Store Connect
 
@@ -66,7 +63,6 @@ Click the **+** sign in the top left corner to create a new iOS App.
 
 ![Create a new iOS App](assets/deploy-app-store/Create-new-iOS-App.png)
 
-
 Add the following information:
 
 * **Platforms**: Select iOS.
@@ -76,16 +72,14 @@ Add the following information:
 * **SKU**: A unique ID for your app (this stays private and is not seen by users)
 * **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
 
+![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
+
 <div markdown="1" class = "tips">
 
 **NOTE**
 
 If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.
-
 </div>
-
-![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)
-
 
 ## STEP 4. App information
 
@@ -95,13 +89,11 @@ From App Store Connect > App Information:
 * Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
 * Select a primary and secondary (optional) category for your app to appear in.
 
-
 ![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## STEP 5. Pricing and Availability
 
 This is where you define the price for your app.
-
 
 <div markdown="1" class = "tips">
 
@@ -115,10 +107,6 @@ You can define limited-time discounts by specifying start and end dates.
 
 Add all of the assets for your app to appear in the App Store in **Version Information**:
 
-![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
-
-* Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
-
 <div markdown="1" class = "tips">
 
 **TIPS**
@@ -127,12 +115,14 @@ You can generate all of your screenshots in Simulator (File > New Screen Shot).
 
 </div>
 
+![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+
+* Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
 * Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
 * You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
 * Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
 * **Marketing URL** is optional. This can direct users to a marketing website for your app.	
-
 
 In the **iOS App section**:
 
@@ -151,9 +141,3 @@ The **App Review Information** and **Version Release** sections include informat
 * **App Review Information**: Confidential contact and security information. 
 * **Version Release**: Specifies an automatic or manual publication.
 * Finally, click **Save**.
-
-
-
-
-
-

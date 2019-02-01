@@ -1,7 +1,6 @@
 ---
 id: register-apple-developer-program-organization
 title: Apple Developer Program as an Organization
-sidebar_label: Apple Developer Program as an Organization
 ---
 
 <div markdown="1" class = "objectives">
@@ -12,19 +11,18 @@ sidebar_label: Apple Developer Program as an Organization
 
 </div>
 
-
 ## STEP 1. Apple ID
-
-* If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 <div markdown="1" class = "tips">
 
 **NOTE**
 
-* To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.
+To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.
 
 </div>
+
+* If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
+* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 
 ## STEP 2. Create your Apple ID
@@ -58,7 +56,6 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 ![D-U-N-S Number](assets/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-
 ## STEP 5. Register as a developer
 
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
@@ -72,7 +69,6 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 ## STEP 6. Join the Apple Developer Program
 
 * You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/). 
-
 
 ![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
@@ -99,10 +95,8 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 * Once your enrollment request has been accepted, you can then proceed to payment.
 
-
 ![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * When you have completed your purchase, you'll receive an email confirming your membership in the program.
  
-
 Congratulations! You are now ready to publish applications to the App Store!

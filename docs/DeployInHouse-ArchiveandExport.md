@@ -1,7 +1,6 @@
 ---
 id: deploy-in-house-archive-and-export
 title: Archive and export your Project
-sidebar_label: Archive and export your Project
 ---
 
 <div markdown="1" class = "objectives">
@@ -89,7 +88,6 @@ Xcode will automatically install required provisioning and certificates.
 * You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
 
 * Click **Next**.
-
 
 #### What is a manifest?
 

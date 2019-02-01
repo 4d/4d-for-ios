@@ -1,7 +1,6 @@
 ---
 id: forms
 title: Forms
-sidebar_label: Forms
 ---
 
 The Forms section allows you to select both list and detail form templates for each table.
@@ -36,7 +35,6 @@ As with the List Form definition, select a template and drag and drop your field
 ![Detail form content definition](assets/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
 You can add as few as 2 or as many as 10 fields for most of the List Forms.
-
 
 <div markdown="1" class = "tips">
 

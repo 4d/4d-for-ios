@@ -1,21 +1,21 @@
 ---
 id: creating-detailform-templates
 title: Detail form templates
-sidebar_label: Detail form templates
 ---
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Create your first list form template
+Create your first list form template.
+
 </div>
 
 <div markdown="1" class = "prerequisites">
 
 **PREREQUISITES**
 
-* Click [here](prerequisites.html) to see what you'll need to get started!
+Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
 
@@ -30,12 +30,10 @@ To begin, download the **Starter Project**, which includes:
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
-
-<div markdown="1" style="text-align: center; margin-top: 20px">
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/custom-detailform/CustomDetailFormStarterProject.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
 </div>
-
 
 You are now ready to create your first detail form template !
 
@@ -50,7 +48,6 @@ Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... 
 Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
 
 ![Forms section](assets/custom-detailform/custom-detailform-template.png)
-
 
 Now let's focus on the **Custom Detail form** folder content.
 

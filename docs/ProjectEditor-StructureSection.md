@@ -1,14 +1,11 @@
 ---
 id: structure
 title: Structure
-sidebar_label: Structure
 ---
 
 This section displays all of your database tables and fields exposed by 4D Mobile Service.
 
-
 ![Structure section](assets/project-editor/Structure-section-4D-for-iOS.png)
-
 
 Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
 
@@ -21,12 +18,12 @@ Here, you can define a subset of your physical structure to replicate for mobile
 
 ![Publish related tables](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
- 
- <div markdown="1" class = "tips">
+<div markdown="1" class = "tips">
 
 **NOTE**
 
-* We recommend publishing your primary key in order to identify each record of your database.
+We recommend publishing your primary key in order to identify each record of your database.
+
 </div>
 
 To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.
@@ -36,4 +33,5 @@ To help you define your app's structure, multiple filters and a search engine ar
 **TIPS**
 
 You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
+
 </div>

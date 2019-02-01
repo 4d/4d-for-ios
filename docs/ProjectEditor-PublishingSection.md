@@ -1,7 +1,6 @@
 ---
 id: publishing
 title: Publishing
-sidebar_label: Publishing
 ---
 
 This is where you define or create your app's:
@@ -12,11 +11,9 @@ This is where you define or create your app's:
 
 ![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
-
 ## Web Server Settings
 
-
- <div markdown="1" class = "tips">
+<div markdown="1" class = "tips">
 
 **NOTE**
 
@@ -27,18 +24,16 @@ This is where you define or create your app's:
 </div>
 
 * Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
-* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
+* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
 
-**Authorized User:** Check the **Login required** option to display a login form when the app starts.
+* **Authorized User:** Check the **Login required** option to display a login form when the app starts.
 
-**Guest:** Leave the **Login required** option unchecked. No login form will appear when the app starts.
-
+* **Guest:** Leave the **Login required** option unchecked. No login form will appear when the app starts.
 
 ## Authentication Method
-
 
 ### On Mobile App Authentication Database Method
 
@@ -51,8 +46,6 @@ A template is available which will:
 * Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 You can customize this method according to your needs! 
-
-
 
 ### Session Management
 
@@ -99,7 +92,7 @@ Here is an example of a 4D for iOS-generated session file:
 
 Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
-<div markdown="1" style="text-align: center; margin-top: 20px">
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 </div>
@@ -120,10 +113,7 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION
 * The **Push** button will update the session in memory.
 * The **Refresh** button updates the session list. 
 
-
-
 ## How it looks on a device
-
 
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 

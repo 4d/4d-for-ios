@@ -1,14 +1,14 @@
 ---
 id: deploy-in-house-distribution
 title: Distribute your app in-House
-sidebar_label: Distribute your app in-House
 ---
 
 <div markdown="1" class = "objectives">
 
 **OBJECTIVES**
 
-* Upload your app to a secured server
+Upload your app to a secured server.
+
 </div>
 
 ## STEP 1. Upload your app
@@ -35,22 +35,20 @@ Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
 
 </div>
 
-
 ## STEP 2. Create the installation link
 
-* Create an ITMS Serices link (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
 ```
 itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
 
 ```
 
-* This link can be used when sending emails, embedded in an html page, or even within a QR code.
+This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
 Here is a simple example:
 
 ![Contact demo app install](assets/deploy-in-house/Contact-demo-app-install.png)
-
 
 *The QR Code used for this documentation is not active.*
 

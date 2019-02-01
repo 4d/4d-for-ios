@@ -1,7 +1,6 @@
 ---
 id: storyboard-listform-template
 title: Storyboard
-sidebar_label: Storyboard
 ---
 
 Now it's time to create your iOS list form interface with Xcode!
@@ -23,7 +22,6 @@ First, open your storyboard file in Xcode.
 ![Empty storyboard custom template](assets/custom-listform/empty-storyboard-custom-template.png)
 
 It's quite empty, so let's add some content!
-
 
 ## Add an Image View
 
@@ -47,9 +45,7 @@ Your Image View is now well positioned!
 
 ![Image View final](assets/custom-listform/imageview-final.png)
 
-
 Now let's work on the cell's labels.
-
 
 ## Add title and subtitle labels
 
@@ -61,9 +57,7 @@ From the **Size inspector panel** (on the right side of the Interface Builder wi
 
 ![View position height and width](assets/custom-listform/view-position-height-width.png)
 
-
 For the Image View, add four constraints by clicking on the **Add New Constraints button** (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) for the view to be well positioned, as shown:
-
 
 ![View contraints Storyboard](assets/custom-listform/view-constraints-storyboard.png)
 
@@ -77,7 +71,6 @@ From the **Size inspector panel**, set the Label View Width value to 269 and the
 
 ![Duplicate the label](assets/custom-listform/duplicated-label-storyboard.png)
 
-
 Select both labels add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) as shown:
 
 ![Labels contraints storyboard](assets/custom-listform/labels-contraints-storyboard.png)
@@ -88,11 +81,9 @@ With a label selected, double-click on the **Height constraint** to edit it.
 
 Change the relation from Equal to **Greater Than or Equal** so it can have a variable height (to handle multiline labels). 
 
-
 ![Change relation label height constraint](assets/custom-listform/change-relation-label-height-constraint.png)
 
 Repeat the process for the second label.
-
 
 ## Label customization
 
@@ -103,7 +94,6 @@ From the attribute inspector (on the right side of the Interface Builder window)
 You can also select the dominant color for your app:
 
 ![Label color background color](assets/custom-listform/label-color-background-color.png)
-
 
 From the attribute inspector, you can also customize the font. Select both labels and select Font > Custom > **Helvetica Neue**:
 
@@ -117,12 +107,11 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 **NOTE**
 
-* The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)
 
 </div>
-
 
 ## How to get data into your cells
 
@@ -130,7 +119,6 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
-
 
 * **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
 * **Type**: Always ```String``` 
@@ -147,14 +135,12 @@ Select the first label and add a row in the Defined Runtime Attributes:
 * **Value**: ```___FIELD_2_BINDING_TYPE___```
 ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
-
 Select the second label and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD_3___```
 * **Type**: ```String``` 
 * **Value**: ```___FIELD_3_BINDING_TYPE___```
 ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
-
 
 You can change the **storyboard display labels** to have better visibility: 
 
@@ -168,8 +154,6 @@ Go to your project editor, select your list form template from the Forms section
 Here is the simulator result :
 
 ![Simulator result](assets/custom-listform/simulator-result.png)
-
-
 
 ## Customize your app
 
@@ -189,12 +173,9 @@ and
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
 
-
 You can now build your project from the project editor!
 
 ![Custom template final result](assets/custom-listform/custom-template-final-result.png)
-
-
 
 ## Where to go from here?
 

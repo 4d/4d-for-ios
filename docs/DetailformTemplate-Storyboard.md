@@ -1,7 +1,6 @@
 ---
 id: storyboard-detailform-template
 title: Storyboard 
-sidebar_label: Storyboard 
 ---
 
 Now it's time to create your iOS detail form interface with Xcode!
@@ -23,9 +22,6 @@ First, open your storyboard file in Xcode.
 
 It's quite empty, so let's add some content!
 
-
-
-
 ## Add a Scroll View
 
 For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
@@ -41,7 +37,6 @@ From the **Size inspector panel** (on the right side of the Interface Builder wi
 Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
 
 ![Scrollview Constraints](assets/custom-detailform/scrollview-constraints.png)
-
 
 ## Add a Vertical Stack View
 
@@ -74,13 +69,11 @@ Select **Field View 1** add three constraints by clicking on the **Add New Const
 
 ![Field Views constraints](assets/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-
 For the Stack View to have the same width as the Scroll View, you need to add a contraint:
 
-* Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
 
 ![Stack View Equal Width](assets/custom-detailform/stackview-equal-width-scrollview.png)
-
 
 Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
 
@@ -91,7 +84,6 @@ Here's what you'll see when constraints have been added :
 ![Stackview final constraints](assets/custom-detailform/stackview-constraints-final.png)
 
 Now that you have two views in your Stack View and you've defined constraints, let's focus on Field View 1.
-
 
 ## Add an Image View to Field View 1
 
@@ -107,12 +99,9 @@ Next, add four constraints by clicking on the **Add New Constraints button** (Tr
 
 ![Image View constraints](assets/custom-detailform/imageview-constraints.png)
 
-
 In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
 
-
 ![Intrinsic size Image View](assets/custom-detailform/intrinsic-size-imageview.png)
-
 
 ## Add Labels to Field View 2
 
@@ -142,14 +131,12 @@ Select the Content and Title labels and add four contraints by clicking on the *
 
 You're done with graphical elements! All of your constraints are well defined :)
 
-
 ## How to get data into your cells
 
 ### Image View
 Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
-
 
 * **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
 * **Type**: Always ```String``` 
@@ -167,7 +154,6 @@ You also need to set the Class to ```IconLabel``` and check the **Inherit Module
 
 ![Label1 Custom Class](assets/custom-detailform/label1-custom-class.png)
 
-
 Select the **second label** and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD___```
@@ -175,7 +161,6 @@ Select the **second label** and add a row in the Defined Runtime Attributes:
 * **Value**: ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
-
 
 ## Add TAGS to the cells to be duplicated
 
@@ -185,11 +170,9 @@ Each storyboard element has a Object ID. For example, if you select Field View 2
 
 ![Object ID Storyboard](assets/custom-detailform/object-id-storyboard.png)
 
-
 In order to tell the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
 
 The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
-
 
 ### Field View 2
 
@@ -202,7 +185,6 @@ The process is a little bit tricky... Let's begin by opening the storyboard file
 Save the storyboard xml file. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
 
 ![Field View 2 Object ID](assets/custom-detailform/field-view-2-object-id.png)
-
 
 ### First label
 
@@ -236,7 +218,6 @@ Not bad for a first attempt! :)
 
 ![iPhone Demo](assets/custom-detailform/iphone-demo.png)
 
-
 Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
 
 ### Customize your app
@@ -257,7 +238,6 @@ and
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
 
-
 Next, select Field View 2 and add the following:
 
 * **Key Path**: ```cornerRadius```
@@ -269,7 +249,6 @@ Next, select Field View 2 and add the following:
 You can now build your project from the project editor!
 
 ![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
-
 
 ## Where to go from here?
 

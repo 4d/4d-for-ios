@@ -1,21 +1,19 @@
 ---
 id: data
 title: Data
-sidebar_label: Data
 ---
 
 This section allows you to:
+
 * define the data to include in your app (**Current data file** or **Production server data file**),
 * automatically **regenerate data** each time you build your app or generate it manually, and
 * filter data to vizualize in your app depending on **general filter queries** or **user information**. 
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
-
 ## Data source panel
 
 ![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
-
 
 This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
 
@@ -66,7 +64,7 @@ In the **Filter query** field enter:
 
 ```FirstName = 'Lisa' & LastName = 'Hart'```
 
-*This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName*
+This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.
 
 </div>
 
@@ -83,14 +81,11 @@ You can define filters depending on user information which you define in the Mob
 
 * Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
 
-
 When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
-
-
 
 <div markdown="1" class = "tips">
 
-**EXAMPLE:**
+**EXAMPLE**
 
 In the **Filter query** field enter:
 
@@ -100,14 +95,13 @@ In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobi
 
 ```$response.userInfo:=New object("city";"Paris")```
 
-
-*This query allows you to display only the records which include "Paris" as CityName*
+This query allows you to display only the records which include "Paris" as CityName.
 
 </div>
 
 <div markdown="1" class = "tips">
 
-**NOTE:**
+**NOTE**
 
 You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
 
