@@ -1,7 +1,6 @@
 ---
 id: data-formatter-mobile-project
 title: Open mobile project
-sidebar_label: Open mobile project
 ---
 Go to Labels & Icons in Sections, you'll see that a new Formatters column is available in the Field Properties:
 
