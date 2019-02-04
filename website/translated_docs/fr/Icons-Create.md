@@ -1,7 +1,6 @@
 ---
 id: create-icons
 title: Créer des icônes
-sidebar_label: Créer des icônes
 ---
 Vous pouvez utiliser tout type de format d'icône (SVG ou PNG sont recommandés pour des raisons de transparence) de la taille de votre choix et intégrez-la à votre projet.
 
