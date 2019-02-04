@@ -1,13 +1,12 @@
 ---
 id: deploy-app-store-archive-and-upload
 title: Archive and upload your Project
-sidebar_label: Archive and upload your Project
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Archive and upload your project to App Store Connect</div> 
+Archive and upload your project to App Store Connect.</div> 
 
 ## PASO 1. Xcode configuration
 
@@ -25,7 +24,6 @@ sidebar_label: Archive and upload your Project
 ## STEP 3. 4D for iOS configuration
 
 * Launch 4D for iOS
-
 * On the SECTIONS tab:
 
 **General: Enter your Team ID**
