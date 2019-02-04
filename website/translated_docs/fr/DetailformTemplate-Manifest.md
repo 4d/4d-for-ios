@@ -1,14 +1,8 @@
 ---
 id: manifest-detailform-template
 title: Manifest.json
-sidebar_label: Manifest.json
 ---
-The manifest file includes information about your detail form template such as the:
-
-* Storyboard type (list form or detail form)
-* Name 
-* Number of static fields
-* Icon properties
+The manifest file includes information about your detail form template such as the **Storyboard type** (list form or detail form), **name**, **number of static fields** and **Icon properties**.
 
     {
     //1
