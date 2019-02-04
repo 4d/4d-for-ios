@@ -1,7 +1,6 @@
 ---
 id: deploy-in-house-archive-and-export
 title: Archiver et exporter un projet
-sidebar_label: Archiver et exporter un projet
 ---
 <div class = "objectives"> 
 
@@ -27,7 +26,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
-![Obtenez votre Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
@@ -67,7 +66,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Cliquez sur **Export**.
 
-![Exportez votre projet](assets/deploy-in-house/Organizer-window-archive.png)
+![Export your project](assets/deploy-in-house/Organizer-window-archive.png)
 
 ## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
@@ -147,7 +146,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
 
-![Informations de distribution du manifest](assets/deploy-in-house/Distribution-manifest-information.png)
+![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
 
 * Cliquez sur **Next**. 
 
@@ -155,7 +154,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Laissez à Xcode le soin de gérer l'option **Automatically manage signing**.
 
-![Re-signez votre application](assets/deploy-in-house/Re-sign-your-application.png)
+![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
 
 * Cliquez sur **Next**.
 
@@ -163,6 +162,6 @@ Voici un exemple de fichier manifest.plist :
 
 * Vous pouvez vérifier ici l'exactitude de l'identifiant de votre application et de votre Team ID.
 
-![Revoyez le contenu de votre application .ipa](assets/deploy-in-house/Review-ipa-content.png)
+![Review your app.ipa content](assets/deploy-in-house/Review-ipa-content.png)
 
 * Cliquez sur **Export** et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.
