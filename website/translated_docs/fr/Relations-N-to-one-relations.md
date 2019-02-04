@@ -1,51 +1,51 @@
 ---
 id: n-to-one-relations
-title: N to one relations
+title: Liens N vers 1
 ---
-4D v17 R5 includes a new concept: N to 1 relations<div class = "tips"> 
+4 D v17 R5 comprend un nouveau concept : les liens N vers 1<div class = "tips"> 
 
 **NOTE**
 
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de lien descriptifs, vous simplifierez la structure de votre projet.</div> 
 
-Let's get started by downloading the Starter Project:
+Commençons par télécharger le Projet Starter :
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/relations/Tasks.4dbase.zip">PROJET STARTER N VERS UN</a>
 
   </p>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+Nous souhaitons afficher ici la catégorie de chaque tâche dans le formulaire détaillé de votre application. Pour ce faire, ouvrez le **StarteriOSProject** à partir de **Ouvrir > Projet mobile...**
 
-Then go right to your Structure section and select the **Task table**.
+Accédez directement à la section Structure, puis sélectionnez la **table Tasks**.
 
-### Structure section
+### Section Structure
 
-* You can notice that the **TaskCategory relation** is underlined
+* Vous pouvez constater que le **lien TaskCategory** est souligné
 
-* Clicking on it will display available fields through this relation
+* En cliquant dessus, vous afficherez les champs disponibles à travers ce lien
 
-* Select the **Name field**
+* Sélectionnez le **champ Name**
 
 ![Select link from structure section](assets/relations/select-link-from-structure.png)
 
-* This field will operate as any other field for the rest of the app creation process
+* Ce champ aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Vous pouvez ensuite sélectionner une **icône** et des **formats** et définir des **libellés courts et longs** dans la section Libellés et icônes
 
 ![Related field from Labels and Icons section](assets/relations/related-field-from-labels-icons.png)
 
-* Go to the the Forms section and drag the field on the Task Detail form
+* Cliquez sur la section Formulaires et faites glisser le champ dans le formulaire détaillé Tasks
 
 ![Related field in Forms section](assets/relations/related-field-forms.png)
 
-* Build and Run
+* Créer & exécuter
 
-You should see your related field in your app detail form !
+Votre champ lié devrait apparaitre dans le formulaire détaillé de votre application !
 
 ![Related field in Forms section](assets/relations/final-result-n-to-one-relations.png)
