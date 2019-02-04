@@ -1,7 +1,6 @@
 ---
 id: 4d-for-ios-project-organization
 title: Organiser un projet 4D for iOS
-sidebar_label: Organiser un projet 4D for iOS
 ---
 Accédez aux Sources à partir de l'onglet Navigation.
 
