@@ -1,7 +1,6 @@
 ---
 id: data-formatter-mobile-project
 title: Ouvrir un projet mobile
-sidebar_label: Ouvrir un projet mobile
 ---
 Dans Sections, cliquez sur Libellés et icônes. Vous verrez qu’une nouvelle colonne Formats est disponible dans les Propriétés des champs :
 
