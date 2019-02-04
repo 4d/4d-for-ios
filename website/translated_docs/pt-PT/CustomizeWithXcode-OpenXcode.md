@@ -1,7 +1,6 @@
 ---
 id: open-xcode
 title: Working with Xcode
-sidebar_label: Working with Xcode
 ---
 <div class = "objectives"> 
 
@@ -14,7 +13,7 @@ sidebar_label: Working with Xcode
 
 **NOTA**
 
-* Se você personalizar o seu projeto no Xcode e reconstruí-lo no Editor do projeto, todas as modificações serão perdidas!</div> 
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
 
 Nós vamos usar o aplicativo de contato que criamos [aqui](contact-app.html). Baixe o Starter Project!
 
