@@ -1,7 +1,7 @@
 ---
 id: register-apple-developer-program-individual
 title: Apple Developer Program pour les particuliers
-sidebar_label: Apple Developer Program pour les particuliers
+sidebar_label: Apple Developer Program as an Individual
 ---
 <div class = "objectives"> 
 
