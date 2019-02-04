@@ -1,13 +1,12 @@
 ---
 id: svg-file-listform-template
 title: Template.svg
-sidebar_label: Template.svg
 ---
 Le fichier template.svg est une représentation visuelle basique d’un modèle. Dans ce fichier, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire Liste depuis l’éditeur de projet.
 
 Voici une version finale :
 
-![Fichier Template svg](assets/custom-listform/template-svg-file.png)
+![Template svg file](assets/custom-listform/template-svg-file.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
@@ -25,19 +24,19 @@ Ajoutez ici le titre de votre modèle.
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclues IDs which define your form areas:
+Cette partie inclut les identifiants qui permettent de définir les zones de votre formulaire :
 
-* **search ID**: Refers to the search field area. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
+* **search ID** : en référence à la zone du champ. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
 * **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
 * **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
 
 ## Emplacement, hauteur, largeur et type de la zone
 
-You can define the position, height and width for:
+Vous avez la possibilité de définir l'emplacement, la hauteur et la largeur de :
 
 * Searchfield
 * Sectionfield
-* Other general fields that will be displayed in each table cell
+* D'autres champs qui seront affichés dans chaque cellule
 
 ### Zone SearchableField :
 
@@ -72,7 +71,7 @@ Le "searchable field" (champ de recherche) est facultatif.<div class = "tips">
 
 **NOTE**
 
-* Tous les types de champ et de variables sont disponible [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
 <
 
