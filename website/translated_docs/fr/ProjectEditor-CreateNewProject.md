@@ -6,11 +6,11 @@ title: Nouveau projet
 
 **OBJECTIFS**
 
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+Se familiariser avec l’éditeur de projet.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Jetons un œil au fonctionnement de 4D for iOS.
 
