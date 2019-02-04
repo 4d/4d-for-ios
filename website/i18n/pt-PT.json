@@ -6,48 +6,37 @@
     "tagline": "Easily create and deploy custom native iOS apps",
     "docs": {
       "contact-app": {
-        "title": "Contact App",
-        "sidebar_label": "Contact App"
+        "title": "Contact App"
       },
       "4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization",
-        "sidebar_label": "4D for iOS project organization"
+        "title": "4D for iOS project organization"
       },
       "customize-your-ios-app": {
-        "title": "Customize your 4D for iOS App",
-        "sidebar_label": "Customize your 4D for iOS App"
+        "title": "Customize your 4D for iOS App"
       },
       "open-xcode": {
-        "title": "Working with Xcode",
-        "sidebar_label": "Working with Xcode"
+        "title": "Working with Xcode"
       },
       "xcode-overview": {
-        "title": "Xcode Overview",
-        "sidebar_label": "Xcode Overview"
+        "title": "Xcode Overview"
       },
       "data-formatter-build-and-run": {
-        "title": "Build and Run your project",
-        "sidebar_label": "Build and Run your project"
+        "title": "Build and Run your project"
       },
       "creating-data-formatter": {
-        "title": "Create data formatter",
-        "sidebar_label": "Create data formatter"
+        "title": "Create data formatter"
       },
       "data-formatter-mobile-project": {
-        "title": "Open mobile project",
-        "sidebar_label": "Open mobile project"
+        "title": "Open mobile project"
       },
       "data-formatter": {
-        "title": "Data formatter",
-        "sidebar_label": "Data formatter"
+        "title": "Data formatter"
       },
       "deploy-app-store-archive-and-upload": {
-        "title": "Archive and upload your Project",
-        "sidebar_label": "Archive and upload your Project"
+        "title": "Archive and upload your Project"
       },
       "deploy-app-store-app-store-connect": {
-        "title": "Create App Store record",
-        "sidebar_label": "Create App Store record"
+        "title": "Create App Store record"
       },
       "register-apple-developer-program-individual": {
         "title": "Apple Developer Program as an Individual",
@@ -188,6 +177,10 @@
         "title": "Structure",
         "sidebar_label": "Structure"
       },
+      "n-to-one-relations": {
+        "title": "N to one relations",
+        "sidebar_label": "N to one relations"
+      },
       "define-filter-query": {
         "title": "Define a filter query",
         "sidebar_label": "Define a filter query"
@@ -236,7 +229,8 @@
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Multi-criteria search": "Multi-criteria search",
-      "Restricted queries": "Restricted queries"
+      "Restricted queries": "Restricted queries",
+      "Relations": "Relations"
     }
   },
   "pages-strings": {
