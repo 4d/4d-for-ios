@@ -1,13 +1,8 @@
 ---
 id: manifest-listform-template
 title: Manifest.json
-sidebar_label: Manifest.json
 ---
-The manifest file includes information about your list form template, such as the:
-
-* Storyboard type (list form or detail form)
-* Name 
-* Number of fields per cell
+The manifest file includes information about your list form template, such as the **Storyboard type** (list form or detail form), **name** and **number of fields per cell**.
 
     {
     //1
@@ -21,6 +16,7 @@ The manifest file includes information about your list form template, such as th
         "count": 3
       }
     }
+    
     
 
 Par exemple, le fichier manifest du modèle de formulaire Liste ci-dessous inclut les informations suivantes :
