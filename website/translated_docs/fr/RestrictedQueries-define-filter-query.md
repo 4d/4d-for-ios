@@ -1,7 +1,6 @@
 ---
 id: define-filter-query
 title: Définir un filtre de recherche
-sidebar_label: Définir un filtre de recherche
 ---
 Pour le moment, si vous générez l'application du projet Starter et que vous entrez « michelle.simpson@mail.com » comme e-mail de connexion (l'un des chargés de clientèle), vous pourrez visualiser **tous les contrats et statuts des chargés de clientèle** (*Closed* and *In Progress*).
 
@@ -13,16 +12,15 @@ Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle
 * Faites un clic droit dans le champ **filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
 * Cliquez sur le bouton **Champs**et sélectionnez **Status**.
 * Cliquez sur le bouton **Comparators** et sélectionnez **Equal to**.
-* Si vous souhaitez afficher les contrats *ouverts*, tapez **In progress**.
-
-    Status = 'In Progress'
-    
-
-* N’oubliez pas de valider votre recherche en cliquant sur le bouton **Validate**, sinon vous ne serez pas en mesure de créer votre application.
+* Because you want to display *open* contracts, enter **In progress**
+* Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
 
 Vous devriez avoir ce résultat :
 
-![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
+![CRM database](assets/restricted-queries/filterquery.png)
+
+    Status = 'In Progress'
+    <div class = "tips"> 
 
 **NOTE**
 
