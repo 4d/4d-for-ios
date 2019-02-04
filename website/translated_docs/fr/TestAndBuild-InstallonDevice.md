@@ -1,26 +1,27 @@
 ---
 id: install-device
 title: Installer votre appareil iOS
-sidebar_label: Installer votre appareil iOS
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Installer une application 4D for iOS sur un appareil connecté</div> <div class = "prerequisites"> 
+Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-* Apple Developer Program
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour automatiser l'installation de votre application (facultatif)
+* Apple Developer Program.
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
 
-**Note :** Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente</div> 
+**NOTE**
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+Apple configurator 2 requires **macOS 10.14** or later.</div> 
 
-* [Free Apple Developer Program](free-developer-account.html): For testing only
-* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
+En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l’un des programmes suivants :
+
+* [Apple Developer Program gratuit](free-developer-account.html) : à des fins de test uniquement
+* [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [pour les particuliers](register-apple-developer-program-individual.html) : à des fin de déploiement sur l'App Store
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) : à des fins de déploiement interne de votre application
 
 C'est parti !
 
