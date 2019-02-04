@@ -1,7 +1,6 @@
 ---
 id: storyboard-listform-template
 title: Storyboard
-sidebar_label: Storyboard
 ---
 Now it's time to create your iOS list form interface with Xcode!
 
@@ -105,7 +104,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 **NOTE**
 
-* The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
 
