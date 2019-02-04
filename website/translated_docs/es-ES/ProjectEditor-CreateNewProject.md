@@ -1,17 +1,16 @@
 ---
 id: create-new-project
 title: New Project
-sidebar_label: New Project
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Familiarizarse con el Editor de proyectos</div> <div class = "prerequisites"> 
+Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-* Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Let's take a look at how 4D for iOS works.
 
