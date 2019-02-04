@@ -17,6 +17,6 @@ Si cette icône ne figure pas dans votre dossier de modèles de formulaire Liste
 
 ![Missing listform icon custom template](assets/custom-listform/missing-listform-icon-custom-template.png)
 
-We've used Photoshop to create the list form template icon in our example, but you can use any image software.
+Dans notre exemple, nous avons utilisé le logiciel Photoshop pour créer l’icône du modèle de formulaire Liste, mais vous pouvez utiliser le logiciel d’image de votre choix.
 
 ![Custom listform template icon](assets/custom-listform/custom-list-form-icon.png)
