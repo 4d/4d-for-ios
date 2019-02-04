@@ -30,7 +30,10 @@ href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">STARTER-PROJEKT</
   </p>
 </div>
 
-The database includes a: * **CRM table** with all the data we want to display in the generated iOS app * **AccountManager table** with basic information about the account managers (email and name).
+The database includes a:
+
+* **CRM table** with all the data we want to display in the generated iOS app
+* **AccountManager table** with basic information about the account managers (email and name).
 
 ![CRM database](assets/restricted-queries/CRMDatabase.png)<div class = "tips"> 
 
