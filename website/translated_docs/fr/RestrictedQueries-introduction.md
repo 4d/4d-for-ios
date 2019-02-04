@@ -6,11 +6,11 @@ title: Recherche limitée
 
 **OBJECTIFS**
 
-Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div class = "prerequisites"> 
+Définir des filtres de recherche fondés sur des informations de base et sur les informations utilisateur pour afficher un contenu filtré dans l’application iOS générée.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Dans ce tutoriel, nous allons couvrir des **requêtes limitées** avec un cas d’utilisation simple : imaginez que vous êtes un chargé de clientèle. Vous souhaitez consulter vos contrats *en cours* simplement en vous connectant à votre application avec votre adresse mail.
 
@@ -18,7 +18,7 @@ Tout d’abord, depuis la section Données, nous allons définir un **filtre de 
 
 ## Téléchargez le projet Starter
 
-Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
+Avant de commencer, assurez-vous d'avoir téléchargé le **Projet Starter**, qui comprend un fichier **4DforiOSQueries.4dbase** (une base de données de démonstration et un projet d’application mobile prêt à l’emploi)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -30,13 +30,16 @@ href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">PROJET STARTER</a
   </p>
 </div>
 
-The database includes a: * **CRM table** with all the data we want to display in the generated iOS app * **AccountManager table** with basic information about the account managers (email and name).
+La base de données contient :
+
+* **La table CRM** qui comprend l'ensemble des données que nous souhaitons afficher dans l'application iOS générée
+* **La table AccountManager** qui comprend les informations de base sur les chargés de clientèle (nom et e-mail).
 
 ![CRM database](assets/restricted-queries/CRMDatabase.png)<div class = "tips"> 
 
 **NOTE**
 
-This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
+Ce projet utilise des [modèles personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), des [icônes personnalisées](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) et des [formats de données personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
 
 Vous êtes maintenant prêt à définir votre première recherche limitée !
 
