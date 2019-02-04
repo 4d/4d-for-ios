@@ -1,7 +1,6 @@
 ---
 id: select-icons
 title: Select your icons
-sidebar_label: Select your icons
 ---
 Open your project and go to Labels & Icons in Sections.
 
@@ -15,4 +14,6 @@ Select icons adapted for your fields:
 
 ![Contact icon](assets/custom-icons/field-icons.png)
 
-Here's the final result : ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
+Here's the final result :
+
+![Contact icon](assets/custom-icons/custom-icons-final-result.png)
