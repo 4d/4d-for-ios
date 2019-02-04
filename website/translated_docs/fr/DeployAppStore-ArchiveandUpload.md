@@ -1,13 +1,12 @@
 ---
 id: deploy-app-store-archive-and-upload
 title: Archiver et télécharger un projet
-sidebar_label: Archiver et télécharger un projet
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Archiver et publier votre projet sur l'App Store Connect</div> 
+Archive and upload your project to App Store Connect.</div> 
 
 ## ÉTAPE 1. Configurez Xcode
 
@@ -20,13 +19,12 @@ sidebar_label: Archiver et télécharger un projet
 
 * Connectez-vous à votre compte de développeur Apple. Vous trouverez votre Team ID dans Membership.
 
-![Obtenez votre Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
-* Lancez 4D for iOS
-
-* Dans l’onglet SECTIONS :
+* Launch 4D for iOS
+* On the SECTIONS tab:
 
 **Général : Entrez votre Team ID**
 
@@ -48,7 +46,7 @@ sidebar_label: Archiver et télécharger un projet
 
 * À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
-![Ouvrez votre projet avec Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![Open your project with Xcode](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
@@ -58,7 +56,7 @@ sidebar_label: Archiver et télécharger un projet
 
 * Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
 
-![Archivez votre projet à partir de Xcode](assets/deploy-in-house/Archive-your-Project.png)
+![Archive your project from Xcode](assets/deploy-in-house/Archive-your-Project.png)
 
 ## ÉTAPE 6. Validez votre projet
 
@@ -66,7 +64,7 @@ sidebar_label: Archiver et télécharger un projet
 
 * Cliquez sur le bouton **Validate** pour démarrer le processus de validation.
 
-![Validez votre projet](assets/deploy-app-store/Organizer-Project-Validation.png)
+![Validate your project](assets/deploy-app-store/Organizer-Project-Validation.png)
 
 * La première étape consiste à sélectionner les options de distribution de l'App Store.
 
@@ -94,7 +92,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 * Cliquez sur le bouton **Upload to App Store**.
 
-![Téléchargez sur l’App Store](assets/deploy-app-store/Upload-to-AppStore.png)
+![Upload to App Store](assets/deploy-app-store/Upload-to-AppStore.png)
 
 * Lorsque votre projet a été téléchargé avec succès, vous verrez cette fenêtre s'afficher :
 
@@ -116,7 +114,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 * La dernière étape consiste à répondre à quelques questions relatives à votre application. 
 
-![Envoyez pour révision](assets/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
+![Submit for Review](assets/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
 * Une fois l'étape des réponses aux questions terminée, cliquez sur **Submit**.
 
