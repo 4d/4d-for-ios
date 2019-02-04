@@ -1,7 +1,6 @@
 ---
 id: xcode
 title: Xcode
-sidebar_label: Qu'est-ce que Xcode ?
 ---
 ## Qu'est-ce que Xcode ?
 
@@ -11,7 +10,7 @@ Xcode est un environnement de développement intégré (IDE) et un ensemble d’
 
 Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
