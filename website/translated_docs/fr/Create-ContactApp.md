@@ -6,11 +6,11 @@ title: Application Contacts
 
 **OBJECTIFS**
 
-Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
+Créer sa première application avec 4D for iOS</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Ce tutoriel vous permettra de vous lancer directement dans le développement de 4D for iOS. Il vous permettra de créer, rapidement et facilement, votre première application.
 
@@ -69,7 +69,7 @@ Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**
 
 **NOTE**
 
-We highly recommend publishing your primary key in order to identify each record of your database</div> 
+Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -103,7 +103,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-We're almost done, but first we need to decide on the app's layout. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
+Nous avons presque terminé, mais il faut d’abord configurer la mise en page de l’application. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
 
 * Sélectionnez un modèle de formulaire Liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
