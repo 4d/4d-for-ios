@@ -1,17 +1,16 @@
 ---
 id: creating-data-formatter
 title: カスタムのデータフォーマッター
-sidebar_label: カスタムのデータフォーマッター
 ---
 <div class = "objectives"> 
 
 **目的**
 
-* 最初のデータフォーマッターを作成すること</div> <div class = "prerequisites"> 
+Create your first data formatters.</div> <div class = "prerequisites"> 
 
 **必要条件**
 
-* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
 
@@ -22,7 +21,7 @@ To begin, download the **Starter Project**, which includes:
 * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
 * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
@@ -45,12 +44,11 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 ### 整数から文字列へ
 
 * Create an **integerToString** folder in the formatters folder you've just created.
-
 * Then create a **manifest.json** file in the **integerToString** folder.
 
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -81,10 +79,10 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 ![Formatter フォルダ](assets/custom-formatter/formatter-folder-integertoimage.png)
 
 * Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
-    
-    ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-* Let's look at the contents of the **manifest.json** file:
+![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -122,9 +120,9 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 * Create a **manifest.json** file in the **textToString** folder.
 
-![Formatter フォルダ](assets/custom-formatter/formatter-folder-texttostring.png)
+![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -152,13 +150,13 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 * Create a **manifest.json** file in the **integerToImage** folder.
 
-![Formatter フォルダ](assets/custom-formatter/formatter-folder-textToImage.png)
+![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
 
 * Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
 
-![フォーマッター画像](assets/custom-formatter/formatter-images-textToImage.png)
+![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
 
-**manifest.json** ファイルの中身を見てみましょう:
+Let's look at the contents of the **manifest.json** file:
 
     <br />{
         // 1
@@ -185,24 +183,24 @@ href="../assets/custom-formatter/CustomFormatterStarterProject.zip">カスタム
 
 ## モバイルプロジェクトを開く
 
-Task Management.4dbase を4D 開き、メニューから ファイル > 開く > モバイルプロジェクト... を選択し、 **Tasks** を開きます。
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
-次に、プロジェクトエディター内の**ラベル & アイコンセクション** を開きます。 それぞれのmanifest.json ファイル内で事前に定義したフィールド型に対する全てのフォーマッターが利用可能です:
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
 * Select the **integerToString** formatter for the **Job field**
 * Select the **textToString** formatter for the **Country field**
 * Select the **integerToImage** formatter for the **Task Status**
 * Select the **textToImage** formatter for the **Manager**
 
-![テキストフォーマッター](assets/custom-formatter/formatters-icons-&-labels.png)
+![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
 
 ## 自分の4D for iOS アプリをビルドする
 
-4D for iOS アプリをビルドすると、クレジットの限度額に応じてデータフォーマッターが適切に適用されているのが分かります。
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
-![テキストフォーマッター](assets/custom-formatter/formatters-final-result.png)
+![Text formatter](assets/custom-formatter/formatters-final-result.png)
 
-以下の**FORMATTER FINAL** をクリックして、完成されたフォーマッターテンプレートのフォルダをダウンロードして下さい。
+Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
