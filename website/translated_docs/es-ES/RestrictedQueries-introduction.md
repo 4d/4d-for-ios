@@ -1,17 +1,16 @@
 ---
 id: filter-query-introduction
 title: Restricted queries
-sidebar_label: Restricted queries
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Defining basic and user information-based query filters to display filtered content in the generated iOS app</div> <div class = "prerequisites"> 
+Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-* Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -19,9 +18,9 @@ First, from the Data section we're going define a **basic filter query** to only
 
 ## Download the Starter Project
 
-Before we begin, be sure to download the **Starter Project** which includes: * A **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
+Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
@@ -31,13 +30,13 @@ href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">PROYECTO STARTER<
   </p>
 </div>
 
-The database includes a: * **CRM table** with all the data we want to display in the generated iOS app, and a * **AccountManager table** with basic information about the account managers (email and name).
+The database includes a: * **CRM table** with all the data we want to display in the generated iOS app * **AccountManager table** with basic information about the account managers (email and name).
 
 ![CRM database](assets/restricted-queries/CRMDatabase.png)<div class = "tips"> 
 
 **NOTA**
 
-* This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
+This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
 
 You're now ready to define your first restricted query!
 
