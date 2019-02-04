@@ -1,7 +1,6 @@
 ---
 id: forms
 title: Formulaires
-sidebar_label: Formulaires
 ---
 La section Formulaires vous permet de sélectionner des modèles de formulaire Liste et de formulaires détaillés pour chaque table.
 
