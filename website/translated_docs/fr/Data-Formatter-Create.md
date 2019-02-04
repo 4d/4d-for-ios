@@ -6,11 +6,11 @@ title: Créer le format de données
 
 **OBJECTIFS**
 
-Create your first data formatters.</div> <div class = "prerequisites"> 
+Créer vos premiers formats de données.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de formats.
 
@@ -43,12 +43,12 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
 
 ### Nombre entier vers chaîne
 
-* Create an **integerToString** folder in the formatters folder you've just created.
-* Then create a **manifest.json** file in the **integerToString** folder.
+* Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
+* Créez ensuite un fichier **manifest.json** dans le dossier **integerToString**.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Regardons le contenu du fichier **manifest.json** :
 
     {
         // 1
@@ -72,17 +72,17 @@ Let's look at the contents of the **manifest.json** file:
 
 ### Nombre entier vers image
 
-* Create an **integerToImage** folder in the **formatters** folder you've created.
+* Créez un dossier **integerToImage** dans le dossier **Formats** que vous venez de créer.
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* Créez un fichier **manifest.json** dans le dossier **integerToImage**.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+* Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images de **integerToImage_Images** (dans StarterProject.zip) dans ce nouveau dossier.
 
 ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Regardons le contenu du fichier **manifest.json** :
 
     {
         // 1
@@ -116,13 +116,13 @@ Let's look at the contents of the **manifest.json** file:
 
 ### Texte vers chaîne
 
-* Create a **textToString** folder in the formatters folder you've just created.
+* Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
 
-* Create a **manifest.json** file in the **textToString** folder.
+* Créez un fichier **manifest.json** dans le dossier **textToString**.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Regardons le contenu du fichier **manifest.json** :
 
     {
         // 1
@@ -146,17 +146,17 @@ Let's look at the contents of the **manifest.json** file:
 
 ### Texte vers image
 
-* Create a **textToImage** folder in the formatters folder you've just created.
+* Créez un dossier **textToImage** dans le dossier Formats que vous venez de créer.
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* Créez un fichier **manifest.json** dans le dossier **integerToImage**.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+* Créez ensuite un dossier **Images** dans le dossier **textToImage**. Vous pouvez ajouter les images de **textToImage_Images** (dans StarterProject.zip) dans ce nouveau dossier.
 
 ![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Regardons le contenu du fichier **manifest.json** :
 
     <br />{
         // 1
@@ -183,24 +183,24 @@ Let's look at the contents of the **manifest.json** file:
 
 ## Ouvrir un projet mobile
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :
 
-* Select the **integerToString** formatter for the **Job field**
-* Select the **textToString** formatter for the **Country field**
-* Select the **integerToImage** formatter for the **Task Status**
-* Select the **textToImage** formatter for the **Manager**
+* Sélectionnez le format **integerToString** pour **Job field**
+* Sélectionnez le format **textToString** pour **Country field**
+* Sélectionnez le format **integerToImage** pour **Task Status**
+* Sélectionnez le format **textToImage** pour **Manager**
 
 ![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
 
 ## Créer votre application 4D for iOS
 
-Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+Créez votre application 4D for iOS et vous constaterez que vos formats de données s'appliquent correctement en fonction du "credit limit".
 
 ![Text formatter](assets/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+Cliquez sur le **FORMAT FINAL** ci-dessous pour télécharger le dossier définitif des modèles de formats.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
