@@ -1,17 +1,16 @@
 ---
 id: contact-app
 title: Application Contacts
-sidebar_label: Application Contacts
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Créer sa première application avec 4D for iOS</div> <div class = "prerequisites"> 
+Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-* Cliquez [ici](prerequisites.html) pour commencer !</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Ce tutoriel vous permettra de vous lancer directement dans le développement de 4D for iOS. Il vous permettra de créer, rapidement et facilement, votre première application.
 
@@ -70,7 +69,7 @@ Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**
 
 **NOTE**
 
-* Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base.</div> 
+We highly recommend publishing your primary key in order to identify each record of your database</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -104,7 +103,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-Nous avons presque terminé, mais il faut d’abord configurer la mise en page de l’application. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
+We're almost done, but first we need to decide on the app's layout. Il s'agit de faire un choix à partir des Formulaires liste et des Formulaires détaillés.
 
 * Sélectionnez un modèle de formulaire Liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
@@ -141,7 +140,7 @@ Passons maintenant à la phase la plus amusante ! Il est temps de créer votre a
 
 Nous avons fait le tour des bases de la création d’une application dans ce tutoriel. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous saurez créer une application plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger la version finale de l’application Contacts.
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
