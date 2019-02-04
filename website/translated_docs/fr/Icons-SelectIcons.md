@@ -14,6 +14,6 @@ Sélectionnez les icônes adaptées pour vos champs :
 
 ![Contact icon](assets/custom-icons/field-icons.png)
 
-Here's the final result :
+Voici le résultat final :
 
 ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
