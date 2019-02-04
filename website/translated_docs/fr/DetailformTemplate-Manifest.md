@@ -2,7 +2,7 @@
 id: manifest-detailform-template
 title: Manifest.json
 ---
-The manifest file includes information about your detail form template such as the **Storyboard type** (list form or detail form), **name**, **number of static fields** and **Icon properties**.
+Le fichier manifest contient des informations sur votre modèle de formulaire détaillé, telles que le **type de Storyboard** (formulaire liste ou formulaire détaillé), **le nom**, **le nombre de champs statiques** et **les propriétés d'icônes**.
 
     {
     //1
