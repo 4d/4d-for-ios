@@ -1,17 +1,16 @@
 ---
 id: creating-data-formatter
 title: Create data formatter
-sidebar_label: Create data formatter
 ---
 <div class = "objectives"> 
 
 **Zielsetzung**
 
-* Create your first data formatters</div> <div class = "prerequisites"> 
+Create your first data formatters.</div> <div class = "prerequisites"> 
 
 **Voraussetzungen**
 
-* Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
@@ -22,7 +21,7 @@ To begin, download the **Starter Project**, which includes:
 * **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
 * A **Task Management.4dbase** file (with a ready to use mobile app project)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
@@ -45,12 +44,11 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 ### Integer to string
 
 * Create an **integerToString** folder in the formatters folder you've just created.
-
 * Then create a **manifest.json** file in the **integerToString** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -81,10 +79,10 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
 
 * Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
-    
-    ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
 
-* Let's look at the contents of the **manifest.json** file:
+![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -124,7 +122,7 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* Let's look at the contents of the **manifest.json** file:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
