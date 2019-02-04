@@ -1,17 +1,16 @@
 ---
 id: contact-app
 title: Contact App
-sidebar_label: Contact App
 ---
 <div class = "objectives"> 
 
 **Zielsetzung**
 
-* Erstellen Sie Ihre erste App mit 4D for iOS</div> <div class = "prerequisites"> 
+Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
 **Voraussetzungen**
 
-* Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Mit dieser Anleitung können Sie direkt in die Entwicklung mit 4D for iOS einsteigen und schnell und einfach Ihre erste App erstellen.
 
@@ -70,7 +69,7 @@ Für unser Beispiel wählen Sie **ID**, **First Name**, **Last Name**, **Job**, 
 
 **HINWEIS**
 
-* Wir empfehlen dringend, Ihre Primärschlüssel zu veröffentlichen, um jeden Datensatz der Datenbank zu identifizieren.</div> 
+We highly recommend publishing your primary key in order to identify each record of your database</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -104,7 +103,7 @@ Als nächstes definieren wir die Reihenfolge der Tabellen im Hauptmenü der App.
 
 ## SCHRITT 8. Sections - Forms
 
-Wir sind fast fertig, wir müssen noch das Layout für die App festlegen. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
+We're almost done, but first we need to decide on the app's layout. Für Formulare gibt es Listen- und Detailansichten zur Auswahl.
 
 * Wählen Sie eine Formularvorlage Liste, um Ihre Tabelle als Liste anzuzeigen. Für unsere App Contact verwenden wir die Vorlage **Profil**.
 
@@ -141,7 +140,7 @@ Jetzt kommen wir zum spaßigen Teil! Es ist an der Zeit, Ihre App zu erstellen u
 
 Wir haben in diesem Tutorial die Grundlagen zum Erstellen von Apps behandelt, und Sie sollten nun in der Lage sein, einfache Apps selbst zu erstellen. Aber halt - es gibt noch mehr! Im nächsten Tutorial erfahren Sie, wie Sie eine komplexere App erstellen können. Klicken Sie unten auf **Final Project**, um die fertige App Contact herunterzuladen.
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
