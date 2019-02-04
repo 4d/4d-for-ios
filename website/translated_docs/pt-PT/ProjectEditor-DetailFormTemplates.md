@@ -1,7 +1,6 @@
 ---
 id: detail-form-templates
 title: Detail Forms templates
-sidebar_label: Detail Forms templates
 ---
 ![Simple List](assets/templates/Simple-List-Detail-form.gif)
 
