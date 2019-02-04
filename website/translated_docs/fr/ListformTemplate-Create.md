@@ -1,17 +1,16 @@
 ---
 id: creating-listform-templates
 title: Modèles de formulaire Liste
-sidebar_label: Modèles de formulaire Liste
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-* Créer votre premier modèle de formulaire Liste</div> <div class = "prerequisites"> 
+Create your first list form template.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-* Cliquez [ici](prerequisites.html) pour commencer !</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
@@ -19,12 +18,12 @@ Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d�
 
 ## Téléchargez le projet Starter
 
-Before we begin, be sure to download the **Starter Project** which includes:
+Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
-* A **List form** folder 
-* A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
+* Un dossier **List form** 
+* Un fichier **Contact.4dbase** (base de démo avec un projet d'application mobile prêt à l'emploi)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
@@ -52,11 +51,11 @@ Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List f
 
 ## Contenu du modèle de formulaire Liste
 
-In this folder, you'll find:
+Dans ce dossier, vous trouverez :
 
-* **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template)
-* **a manifest.json file** (includes a basic description of the template)
-* **a template.svg file** (the visual representation of your template displayed when you define your list form content)
-* Source folder including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+* Une icône **layoutIconx2.png** d'une résolution de 160x160px (qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle)
+* **Un fichier manifest.json** (qui comprend une description simple du modèle)
+* **Un fichier template.svg** (le visuel de votre modèle qui s'affichera au moment de définir le contenu de votre formulaire liste)
+* Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **Swift** (code du formulaire)
 
 A quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
