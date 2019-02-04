@@ -1,7 +1,6 @@
 ---
 id: define-filter-query
 title: Define a filter query
-sidebar_label: Define a filter query
 ---
 For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
 
@@ -13,16 +12,15 @@ As we discussed earlier, we want the account managers to access their *In Progre
 * Right-click in the **Filter query** field to make the **Field, Comparators and Operators buttons** appear.
 * Click on the **Fields** button and select **Status**.
 * Click on the **Comparators** button and select **Equal to**.
-* Because you want to display *open* contracts, enter **In progress**.
-
-    Status = 'In Progress'
-    
-
+* Because you want to display *open* contracts, enter **In progress**
 * Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
 
 You should have this result:
 
-![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
+![CRM database](assets/restricted-queries/filterquery.png)
+
+    Status = 'In Progress'
+    <div class = "tips"> 
 
 **NOTE**
 
