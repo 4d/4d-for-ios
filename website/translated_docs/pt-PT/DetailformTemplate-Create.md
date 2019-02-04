@@ -1,17 +1,16 @@
 ---
 id: creating-detailform-templates
 title: Detail form templates
-sidebar_label: Detail form templates
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Create your first list form template</div> <div class = "prerequisites"> 
+Create your first list form template.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-* Clique aqui em [](prerequisites.html), para ver o que você precisa para começar!</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
@@ -24,7 +23,7 @@ To begin, download the **Starter Project**, which includes:
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
