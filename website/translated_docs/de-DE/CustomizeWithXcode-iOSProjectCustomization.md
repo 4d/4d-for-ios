@@ -1,7 +1,6 @@
 ---
 id: customize-your-ios-app
 title: Customize your 4D for iOS App
-sidebar_label: Customize your 4D for iOS App
 ---
 Let's do some storyboard modification ... from simple to complex.
 
@@ -27,7 +26,7 @@ We'll start by modifying a label's font and color:
 
 ## SCHRITT 2. Change profile picture position
 
-All 4D for iOS templates use constraints for the app's elements to they'll display well on all devices.
+All 4D for iOS templates use constraints for the app's elements to be well displayed on all devices.
 
 In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
 
@@ -41,7 +40,7 @@ Next, select the image and go to the Size attributes pane from the Utility area.
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-As you can see, the position has changed but Xcode is displaying yellow lines...why? Thse yellow lines represent contraints which are no longer valid.
+As you can see, the position has changed but Xcode is displaying yellow lines...why? These yellow lines represent constraints which are no longer valid.
 
 ## SCHRITT 3. Update profile picture constraints
 
@@ -69,7 +68,7 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 At this point, all the profile picture constraints should be blue.
 
-Congratulations! Your profile picture is now well postioned with the correct constraints.<div class = "tips"> 
+Congratulations! Your profile picture is now well positioned with the correct constraints.<div class = "tips"> 
 
 **TIPS**
 
@@ -122,10 +121,11 @@ Let's see the results in the Simulator !
 
 Hmmmm. That's not exactly the result we wanted ...
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. ![Labels Alignment](assets/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
+* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+
+![Labels Alignment](assets/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
 * Next, select the Profile picture and double click on the leading space constraint.
-
 * Change the Constant value from 40.67 to 80 pixels.
 
 ![Constraints adjustments](assets/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
