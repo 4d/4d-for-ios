@@ -21,8 +21,8 @@ title: Créer une fiche sur App Store
 
 **NOTE**
 
-* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
-* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
+* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
+* Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
 
 * Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 * Cliquez sur le signe "+" situé près de *Register iOS App IDs* pour ajouter un nouvel identifiant d’application. 
@@ -94,13 +94,13 @@ Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > Ne
 
 ![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
-* Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
+* Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
-* Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
+* Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (c'est ce que les utilisateurs visualiseront dans l'App Store).
 
-* You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
-* Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
-* **Marketing URL** is optional. This can direct users to a marketing website for your app. 
+* Vous pouvez partager des mises à jour de votre application, notamment de nouvelles offres ou des achats intégrés dans l'application, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements dans votre application et ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
+* Entrez un **Support URL** qui inclut des informations de support pour votre application. Cet URL sera visible sur l’App Store.
+* **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application. 
 
 Dans la section **iOS App** :
 
@@ -108,14 +108,14 @@ Dans la section **iOS App** :
 
 Localisez les versions de votre produit dans **Build**.
 
-* In **General App Information** area, enter the Copyright, Version, and Trade Representative Contact Information for your app.
-* Your app icon is included in the generated 4D for iOS project.
-* Rating is a required property used by the App Store's parental controls. Click Edit and select the appropriate age category for your app.
+* Dans la zone **General App Information**, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.
+* L'icône de votre application est incluse dans le projet 4D for iOS généré.
+* L'évaluation ("rating") est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
 
 Les sections **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
 
 ![App Review Information](assets/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information**: Confidential contact and security information. 
-* **Version Release**: Specifies an automatic or manual publication.
-* Finally, click **Save**.
+* **App Review Information** : Coordonnées et informations de sécurité confidentielles. 
+* **Version Release** : Indique s'il s'agit d'une publication automatique ou manuelle.
+* Enfin, cliquez sur **Save**.
