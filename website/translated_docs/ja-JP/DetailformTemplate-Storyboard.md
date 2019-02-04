@@ -1,7 +1,6 @@
 ---
 id: storyboard-detailform-template
 title: Storyboard
-sidebar_label: Storyboard
 ---
 Now it's time to create your iOS detail form interface with Xcode!
 
@@ -68,7 +67,7 @@ Select **Field View 1** add three constraints by clicking on the **Add New Const
 
 For the Stack View to have the same width as the Scroll View, you need to add a contraint:
 
-* Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
 
 ![Stack View Equal Width](assets/custom-detailform/stackview-equal-width-scrollview.png)
 
