@@ -1,7 +1,6 @@
 ---
 id: customize-your-ios-app
 title: Personalizar su aplicación 4D for iOS
-sidebar_label: Personalizar su aplicación 4D for iOS
 ---
 Vamos a hacer alguna modificación al Storyboard... de simples a complejos.
 
@@ -27,7 +26,7 @@ Comenzaremos por modificar la fuente y el color de una etiqueta:
 
 ## PASO 2. Cambiar la posición de la foto de perfil
 
-Todas las plantillas de 4D for iOS tienen restricciones de uso para que los elementos de la aplicación se muestren correctamente en todos los dispositivos.
+All 4D for iOS templates use constraints for the app's elements to be well displayed on all devices.
 
 En el archivo *ContactDetailsForm.storyboard*, las etiquetas First Name, y Last Name están todas actualmente alineadas al centro.
 
@@ -41,7 +40,7 @@ A continuación, seleccione la imagen y vaya al panel de atributos Size desde el
 
 ![Profil picture position](assets/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-Como se puede ver, la posición ha cambiado pero Xcode muestra las líneas amarilla... ¿por qué? Estas líneas amarillas representan las restricciones que no son válidas.
+Como se puede ver, la posición ha cambiado pero Xcode muestra las líneas amarilla... ¿por qué? These yellow lines represent constraints which are no longer valid.
 
 ## PASO 3. Actualizar las limitaciones de foto de perfil
 
@@ -69,7 +68,7 @@ A continuación, haga clic en el botón **Add New Constraints** y añada una nue
 
 En este punto, todas las restricciones de la foto de perfil deben ser azules.
 
-¡Felicidades! Su foto de perfil está ahora bien posicionada con las restricciones correctas.<div class = "tips"> 
+¡Felicidades! Your profile picture is now well positioned with the correct constraints.<div class = "tips"> 
 
 **CONSEJOS**
 
@@ -122,14 +121,15 @@ Ahora sus dos etiquetas de nombre son reposicionadas.
 
 Hmmmm. No es exactamente lo que queríamos...
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. ![Labels Alignment](assets/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
+* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+
+![Labels Alignment](assets/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
 * Next, select the Profile picture and double click on the leading space constraint.
-
 * Change the Constant value from 40.67 to 80 pixels.
 
 ![Constraints adjustments](assets/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
-¡Mucho mejor! Ahora todas las restricciones están funcionando y las etiquetas no están rompiendo otras restricciones.
+Much better! Now all constraints are working and the labels aren't breaking other constraints.
 
-Como puede ver, ¡Personalizar su aplicación es muy simple!
+As you can see, customizing your app is very simple!
