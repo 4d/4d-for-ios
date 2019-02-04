@@ -1,7 +1,6 @@
 ---
 id: open-xcode
 title: Travailler avec Xcode
-sidebar_label: Travailler avec Xcode
 ---
 <div class = "objectives"> 
 
@@ -14,7 +13,7 @@ sidebar_label: Travailler avec Xcode
 
 **NOTE**
 
-* Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !</div> 
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
 
 Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Téléchargez le projet Starter !
 
@@ -45,6 +44,6 @@ Dans l’onglet "Génération" de l'éditeur de projet : * Sélectionnez l'appar
 
 * Cliquez sur Projet > Ouvrir le produit avec Xcode
 
-![Ouvrez votre projet avec Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![Open your Project with Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
 Vous êtes maintenant prêt à travailler sur votre projet 4D for iOS dans Xcode. Poursuivez la lecture pour en savoir plus !
