@@ -1,7 +1,6 @@
 ---
 id: data-formatter
 title: データフォーマッター
-sidebar_label: データフォーマッター
 ---
 4D v17 R3 では新しい概念: データフォーマットが導入されました！
 
