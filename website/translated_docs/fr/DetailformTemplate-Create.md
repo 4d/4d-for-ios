@@ -6,11 +6,11 @@ title: Modèles de formulaires détaillés
 
 **OBJECTIFS**
 
-Create your first list form template.</div> <div class = "prerequisites"> 
+Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Il affichera un **en-tête d'image**, ainsi que **des champs titre et contenu** qui seront dupliqués dans l’application iOS qui sera générée.
 
