@@ -13,7 +13,7 @@ title: Travailler avec Xcode
 
 **NOTE**
 
-If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
+Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !</div> 
 
 Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Téléchargez le projet Starter !
 
