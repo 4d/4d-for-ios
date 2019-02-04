@@ -1,7 +1,6 @@
 ---
 id: icon-listform-template
 title: List form icon
-sidebar_label: List form icon
 ---
 You can create your own icon for a list form template.
 
@@ -14,7 +13,9 @@ The icon will be used:
 
 ![Custom listform template](assets/custom-listform/custom-listform-template.png)
 
-If this icon is missing from your list form template folder, the **template.svg** file (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon. ![Missing listform icon custom template](assets/custom-listform/missing-listform-icon-custom-template.png)
+If this icon is missing from your list form template folder, the **template.svg** file (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon.
+
+![Missing listform icon custom template](assets/custom-listform/missing-listform-icon-custom-template.png)
 
 We've used Photoshop to create the list form template icon in our example, but you can use any image software.
 
