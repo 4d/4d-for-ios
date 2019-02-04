@@ -104,7 +104,7 @@ Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans 
 
 **NOTE**
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
 
