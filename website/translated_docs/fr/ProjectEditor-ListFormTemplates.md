@@ -1,7 +1,6 @@
 ---
 id: list-form-templates
 title: Modèles de formulaire Liste
-sidebar_label: Modèles de formulaire Liste
 ---
 ![Table simple](assets/templates/Simple-Table-List-form.gif)
 
