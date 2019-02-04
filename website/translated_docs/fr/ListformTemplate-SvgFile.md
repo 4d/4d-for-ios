@@ -71,7 +71,7 @@ Le "searchable field" (champ de recherche) est facultatif.<div class = "tips">
 
 **NOTE**
 
-All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
+Tous les types de champ et de variables sont disponible [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
 <
 
