@@ -1,7 +1,6 @@
 ---
 id: icon-detailform-template
 title: Detail form icon
-sidebar_label: Detail form icon
 ---
 You can create your own template icon.
 
