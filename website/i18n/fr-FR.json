@@ -39,44 +39,34 @@
         "title": "Créer une fiche sur App Store"
       },
       "register-apple-developer-program-individual": {
-        "title": "Apple Developer Program pour les particuliers",
-        "sidebar_label": "Apple Developer Program pour les particuliers"
+        "title": "Apple Developer Program pour les particuliers"
       },
       "register-apple-developer-program-organization": {
-        "title": "Apple Developer Program pour les entreprises",
-        "sidebar_label": "Apple Developer Program pour les entreprises"
+        "title": "Apple Developer Program pour les entreprises"
       },
       "deploy-in-house-archive-and-export": {
-        "title": "Archiver et télécharger un projet",
-        "sidebar_label": "Archiver et télécharger un projet"
+        "title": "Archiver et télécharger un projet"
       },
       "deploy-in-house-distribution": {
-        "title": "Distribuer une application interne",
-        "sidebar_label": "Distribuer une application interne"
+        "title": "Distribuer une application interne"
       },
       "register-apple-developer-enterprise-program": {
-        "title": "Apple Developer Enterprise Program",
-        "sidebar_label": "Apple Developer Enterprise Program"
+        "title": "Apple Developer Enterprise Program"
       },
       "deployment": {
-        "title": "Choisir un Apple Developer Program",
-        "sidebar_label": "Choisir un Apple Developer Program"
+        "title": "Choisir un Apple Developer Program"
       },
       "creating-detailform-templates": {
-        "title": "Modèles de formulaires détaillés",
-        "sidebar_label": "Modèles de formulaires détaillés"
+        "title": "Modèles de formulaires détaillés"
       },
       "icon-detailform-template": {
-        "title": "Icônes des formulaires détaillés",
-        "sidebar_label": "Icônes des formulaires détaillés"
+        "title": "Icônes des formulaires détaillés"
       },
       "manifest-detailform-template": {
-        "title": "Manifest.json",
-        "sidebar_label": "Manifest.json"
+        "title": "Manifest.json"
       },
       "storyboard-detailform-template": {
-        "title": "Storyboard",
-        "sidebar_label": "Storyboard"
+        "title": "Storyboard"
       },
       "svg-file-detailform-template": {
         "title": "Template.svg",
@@ -86,128 +76,97 @@
         "title": "FAQ"
       },
       "overview": {
-        "title": "Présentation",
-        "sidebar_label": "Présentation"
+        "title": "Présentation"
       },
       "prerequisites": {
-        "title": "Conditions préalables",
-        "sidebar_label": "Conditions préalables"
+        "title": "Conditions préalables"
       },
       "create-icons": {
-        "title": "Créer des icônes",
-        "sidebar_label": "Créer des icônes"
+        "title": "Créer des icônes"
       },
       "using-icons": {
-        "title": "Utiliser des icônes",
-        "sidebar_label": "Utiliser des icônes"
+        "title": "Utiliser des icônes"
       },
       "include-icons": {
-        "title": "Inclure des icônes dans le projet",
-        "sidebar_label": "Inclure des icônes dans le projet"
+        "title": "Inclure des icônes dans le projet"
       },
       "select-icons": {
-        "title": "Choisir des icônes",
-        "sidebar_label": "Choisir des icônes"
+        "title": "Choisir des icônes"
       },
       "creating-listform-templates": {
-        "title": "Modèles de formulaires Liste",
-        "sidebar_label": "Modèles de formulaires Liste"
+        "title": "Modèles de formulaires Liste"
       },
       "manifest-listform-template": {
-        "title": "Manifest.json",
-        "sidebar_label": "Manifest.json"
+        "title": "Manifest.json"
       },
       "storyboard-listform-template": {
-        "title": "Storyboard",
-        "sidebar_label": "Storyboard"
+        "title": "Storyboard"
       },
       "svg-file-listform-template": {
-        "title": "Template.svg",
-        "sidebar_label": "Template.svg"
+        "title": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "Icônes des formulaires Liste",
-        "sidebar_label": "Icônes des formulaires Liste"
+        "title": "Icônes des formulaires Liste"
       },
       "multi-criteria-search": {
-        "title": "Recherche multicritères",
-        "sidebar_label": "Recherche multicritères"
+        "title": "Recherche multicritères"
       },
       "build-panel": {
-        "title": "Onglet Génération",
-        "sidebar_label": "Onglet Génération"
+        "title": "Onglet Génération"
       },
       "create-new-project": {
-        "title": "Nouveau projet",
-        "sidebar_label": "New Project"
+        "title": "Nouveau projet"
       },
       "data": {
-        "title": "Données",
-        "sidebar_label": "Données"
+        "title": "Données"
       },
       "detail-form-templates": {
-        "title": "Modèles de formulaires détaillés",
-        "sidebar_label": "Modèles de formulaires détaillés"
+        "title": "Modèles de formulaires détaillés"
       },
       "forms": {
-        "title": "Formulaires",
-        "sidebar_label": "Formulaires"
+        "title": "Formulaires"
       },
       "general": {
-        "title": "Général",
-        "sidebar_label": "Général"
+        "title": "Général"
       },
       "labels-and-icons": {
-        "title": "Libellés et icônes",
-        "sidebar_label": "Libellés et icônes"
+        "title": "Libellés et icônes"
       },
       "list-form-templates": {
-        "title": "Modèles de formulaires Liste",
-        "sidebar_label": "Modèles de formulaires Liste"
+        "title": "Modèles de formulaires Liste"
       },
       "main-menu": {
-        "title": "Menu",
-        "sidebar_label": "Menu"
+        "title": "Menu"
       },
       "publishing": {
-        "title": "Publication",
-        "sidebar_label": "Publication"
+        "title": "Publication"
       },
       "structure": {
-        "title": "Structure",
-        "sidebar_label": "Structure"
+        "title": "Structure"
       },
       "n-to-one-relations": {
-        "title": "N to one relations",
-        "sidebar_label": "N to one relations"
+        "title": "Relation N vers 1"
       },
       "define-filter-query": {
-        "title": "Définir un filtre de recherche",
-        "sidebar_label": "Définir un filtre de recherche"
+        "title": "Définir un filtre de recherche"
       },
       "filter-query-introduction": {
-        "title": "Recherche restreinte",
-        "sidebar_label": "Recherche restreinte"
+        "title": "Recherche restreinte"
       },
       "user-information-query": {
-        "title": "Filtre de recherche - informations utilisateur",
-        "sidebar_label": "Filtre de recherche - informations utilisateur"
+        "title": "Filtre de recherche - informations utilisateur"
       },
       "free-developer-account": {
-        "title": "Compte Apple Developer gratuit",
-        "sidebar_label": "Compte Apple Developer gratuit"
+        "title": "Compte Apple Developer gratuit"
       },
       "install-device": {
-        "title": "Installation sur votre appareil iOS",
-        "sidebar_label": "Installation sur votre appareil iOS"
+        "title": "Installation sur votre appareil iOS"
       },
       "simulator": {
-        "title": "Utilisation du simulateur",
-        "sidebar_label": "Utilisation du simulateur"
+        "title": "Utilisation du simulateur"
       },
       "xcode": {
-        "title": "Xcode",
-        "sidebar_label": "Qu'est-ce que Xcode ?"
+        "title": "Xcode"
       }
     },
     "links": {
