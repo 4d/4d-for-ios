@@ -1,7 +1,6 @@
 ---
 id: select-icons
 title: Sélectionner vos icônes
-sidebar_label: Sélectionner vos icônes
 ---
 Ouvrez votre projet et cliquez sur la section Libellés & icônes.
 
@@ -15,4 +14,6 @@ Sélectionnez les icônes adaptées pour vos champs :
 
 ![Contact icon](assets/custom-icons/field-icons.png)
 
-Voici le résultat final : ![Contact icon](assets/custom-icons/custom-icons-final-result.png)
+Here's the final result :
+
+![Contact icon](assets/custom-icons/custom-icons-final-result.png)
