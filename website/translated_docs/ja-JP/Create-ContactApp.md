@@ -1,17 +1,16 @@
 ---
 id: contact-app
 title: Contact App
-sidebar_label: Contact App
 ---
 <div class = "objectives"> 
 
 **目的**
 
-* Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
+Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
 **必要条件**
 
-* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
@@ -70,7 +69,7 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 **NOTE**
 
-* We highly recommend publishing your primary key in order to identify each record of your database.</div> 
+We highly recommend publishing your primary key in order to identify each record of your database</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -104,7 +103,7 @@ Next up is defining the order of the tables in the app's main menu.
 
 ## STEP 8. Sections - Forms
 
-We're almost done, but first we need to decide how the app's layout. There are both List and Details forms to choose from.
+We're almost done, but first we need to decide on the app's layout. There are both List and Details forms to choose from.
 
 * Select a list form template to display your table as a list. For our Contact app, let’s use the **Profile** template.
 
@@ -141,7 +140,7 @@ Now the fun part! It's time to build your app and test it on the Simulator to se
 
 We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
