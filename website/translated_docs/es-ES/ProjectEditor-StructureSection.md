@@ -1,7 +1,6 @@
 ---
 id: structure
 title: Structure
-sidebar_label: Structure
 ---
 This section displays all of your database tables and fields exposed by 4D Mobile Service.
 
@@ -14,13 +13,13 @@ Here, you can define a subset of your physical structure to replicate for mobile
 
 **N to 1 relations**
 
-* 4D 17R5 allows you to visualize table links and select related fields clicking on the link. Then when your related fields are published, they can be used like any other field in the app creation process.
+* 4D 17R5 allows you to visualize table relations and select related fields clicking on a relation. Then when your related fields are published, they can be used like any other field in the app creation process.
 
 ![Publish related tables](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)<div class = "tips"> 
 
 **NOTE**
 
-* We recommend publishing your primary key in order to identify each record of your database.</div> 
+We recommend publishing your primary key in order to identify each record of your database.</div> 
 
 To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
 
