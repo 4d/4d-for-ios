@@ -111,7 +111,6 @@ Localisez les versions de votre produit dans **Build**.
 
 * Dans la zone **General App Information**, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.
 * L'icône de votre application est incluse dans le projet 4D for iOS généré.
-
 * L'évaluation ("rating") est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur "Edit" et sélectionnez la catégorie d'âge adaptée à votre application.
 
 Les sections **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
