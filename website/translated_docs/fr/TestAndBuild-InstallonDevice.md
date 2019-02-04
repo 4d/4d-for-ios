@@ -22,7 +22,6 @@ Depending on your objectives and preferences, you can choose to enroll in one of
 * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
 
-
 C'est parti !
 
 ## ÉTAPE 1. Création d'un compte
@@ -54,7 +53,7 @@ C'est parti !
 
 * Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu supérieur d'Xcode.
 
-![Sélectionnez votre appareil](assets/test-build/select-device-Free-Account.png)
+![Select your device](assets/test-build/select-device-Free-Account.png)
 
 * Xcode génère automatiquement les profils et les certificats de provisioning nécessaires dont vous aurez besoin pour créer votre application.
 
@@ -68,7 +67,7 @@ C'est parti !
 
 * **Team ID** : Cliquez sur Developer Account > Membership et obtenez votre Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
 
-* **4D for iOS** : lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* 4D **for iOS** : lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
 * Passez à l’étape 6 pour exécuter votre projet sur votre appareil.
 
