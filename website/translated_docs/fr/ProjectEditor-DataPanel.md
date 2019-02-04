@@ -2,11 +2,11 @@
 id: data
 title: Données
 ---
-This section allows you to:
+Cette section vous permet :
 
-* define the data to include in your app (**Current data file** or **Production server data file**),
-* automatically **regenerate data** each time you build your app or generate it manually, and
-* filter data to vizualize in your app depending on **general filter queries** or **user information**. 
+* de définir les données que vous souhaitez intégrer dans votre application (**Fichier de données courant** ou **Fichier de données du serveur de production**),
+* d'effectuer une **regénération automatique des données** à chaque génération de votre application ou une génération manuelle, et
+* de filtrer les données à faire figurer dans votre application en fonction des **filtres de recherche généraux** ou des **informations utilisateur**. 
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -42,11 +42,11 @@ Dans cette partie, vous pouvez définir tous les filtres de chaque table, en vou
 
 Vous pouvez définir des filtres par table en fonction des valeurs de champ :
 
-* First, enter your query in the dedicated field by typing it directly in the query field. You can also compose your query using fields, comparators, and operators which are available just above the query field when it's in focus. This can be helpfull defining your query
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche. Vous pouvez également effectuer votre recherche à l'aide de Champs, de Comparateurs et d'Opérateurs, disponibles juste au-dessus du filtre de recherche. Cela peut être utile pour affiner votre recherche
 
-* Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
+* Vous devez ensuite valider votre recherche. Cela doit être fait chaque fois que vous y apportez des modifications (une recherche qui a été modifiée et non validée apparaît en rouge dans l’éditeur de projet).
 
-* Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Leave unchecked if you don't want the data embedded.
+* Enfin, vérifiez l'option **Intégrer les données dans l'application** pour intégrer les données dans l’application lors de sa création. Laissez-la non cochée si vous ne souhaitez pas intégrer les données.
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu d'un filtre de recherche défini.<div class = "tips"> 
 
@@ -56,23 +56,23 @@ Dans le champ **Filtre de recherche**, entrez :
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div> 
+Cette recherche vous permet d'afficher uniquement les enregistrements comprenant respectivement "Lisa" et "Hart" dans les champs FirstName et LastName.</div> 
 
 ### Les filtres d'informations utilisateur
 
 Vous pouvez établir des filtres en fonction des informations utilisateur que vous définissez dans la méthode base Sur authentification app mobile :
 
-* As with query filters, you first need to define your query in the appropriate field.
+* Concernant les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
-* To specify that the query depends on user information, just add ":" and the `userinfo` object key.
+* Pour préciser que la recherche dépend des informations utilisateur, ajoutez simplement ":" ainsi que la clé objet `userinfo`.
 
-* Then, validate your query. This must be done each time you modify it.
+* Validez ensuite votre recherche. Cela doit être effectué à chaque modification que vous y apportez.
 
-* Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
+* Une fois que votre filtre de recherche est validé, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu des informations utilisateur.<div class = "tips"> 
 
-**EXAMPLE**
+**EXEMPLE**
 
 Dans le champ **Filtre de recherche**, entrez :
 
@@ -82,7 +82,7 @@ Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R
 
     $response.userInfo:=New object("city";"Paris")
 
-This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips"> 
+Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris »</div> <div class = "tips"> 
 
 **NOTE**
 
