@@ -1,9 +1,12 @@
 ---
 id: data
 title: Data
-sidebar_label: Data
 ---
-This section allows you to: * define the data to include in your app (**Current data file** or **Production server data file**), * automatically **regenerate data** each time you build your app or generate it manually, and * filter data to vizualize in your app depending on **general filter queries** or **user information**.
+This section allows you to:
+
+* define the data to include in your app (**Current data file** or **Production server data file**),
+* automatically **regenerate data** each time you build your app or generate it manually, and
+* filter data to vizualize in your app depending on **general filter queries** or **user information**. 
 
 ![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -53,7 +56,7 @@ In the **Filter query** field enter:
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-*This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName*</div> 
+This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div> 
 
 ### Filtering with user information filters
 
@@ -69,7 +72,7 @@ You can define filters depending on user information which you define in the Mob
 
 When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div class = "tips"> 
 
-**EXAMPLE:**
+**EXAMPLE**
 
 In the **Filter query** field enter:
 
@@ -79,8 +82,8 @@ In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobi
 
     $response.userInfo:=New object("city";"Paris")
 
-*This query allows you to display only the records which include "Paris" as CityName*</div> <div class = "tips"> 
+This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips"> 
 
-**NOTE:**
+**NOTE**
 
 You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
