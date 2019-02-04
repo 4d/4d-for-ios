@@ -1,17 +1,16 @@
 ---
 id: creating-data-formatter
 title: Create data formatter
-sidebar_label: Create data formatter
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Criar seus primeiros formatadores de dados</div> <div class = "prerequisites"> 
+Create your first data formatters.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-* Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Neste tutorial, vamos guiá-lo através da criação de vários exemplos de formatador.
 
@@ -22,7 +21,7 @@ Para começar, baixe o **Starter Project**, que inclui:
 * Pastas**integerToImage_Images** e **textToImage_Images** que contêm imagens (para usar mais tarde para formatadores que incluem imagens)
 * Um arquivo de **Task Management.4dbase** (com um projeto de app móvel pronto para usar)
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
@@ -44,13 +43,12 @@ Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os 
 
 ### Número inteiro para string
 
-* Crie uma pasta ** integerToString **na pasta formatadores, que você acabou de criar.
-
-* Em seguida, crie um arquivo **manifest.json ** na pasta **integerToString**.
+* Create an **integerToString** folder in the formatters folder you've just created.
+* Then create a **manifest.json** file in the **integerToString** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
 
-* Vamos olhar o conteúdo do arquivo de**manifest.json **:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -74,17 +72,17 @@ Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os 
 
 ### Inteiro para imagem
 
-* Crie uma pasta ** integerToString **na pasta **formatadores **, que você acabou de criar.
+* Create an **integerToImage** folder in the **formatters** folder you've created.
 
-* Em seguida, crie um arquivo de**manifest.json ** na pasta **integerToString**.
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
 
-* Em seguida, crie um arquivo de** Imagens** na pasta **ToImage**. Pode adicionar as imagens de **IntegerToImage_Images ** em StarterProject.zip para a nova pasta.
-    
-    ![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
 
-* Vamos olhar o conteúdo do arquivo de**manifest.json **:
+![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -118,13 +116,13 @@ Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os 
 
 ### Texto para string
 
-* Crie uma pasta ** textToString **na pasta formatadores, que você acabou de criar.
+* Create a **textToString** folder in the formatters folder you've just created.
 
-* Em seguida, crie um arquivo de**manifest.json ** na pasta **textToString**.
+* Create a **manifest.json** file in the **textToString** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
 
-* Vamos olhar o conteúdo do arquivo de**manifest.json **:
+Let's look at the contents of the **manifest.json** file:
 
     {
         // 1
@@ -148,17 +146,17 @@ Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os 
 
 ### Texto para Imagem
 
-* Crie uma pasta ** textToImage **na pasta formatadores, que você acabou de criar.
+* Create a **textToImage** folder in the formatters folder you've just created.
 
-* Em seguida, crie um arquivo de**manifest.json ** na pasta **integerToImage**.
+* Create a **manifest.json** file in the **integerToImage** folder.
 
 ![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
 
-* Em seguida, crie um arquivo de** Imagens** na pasta **ToImage**. Pode adicionar as imagens de **textToImage_Images ** em StarterProject.zip para a nova pasta.
+* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
 
 ![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
 
-Vamos olhar o conteúdo do arquivo de**manifest.json **:
+Let's look at the contents of the **manifest.json** file:
 
     <br />{
         // 1
@@ -185,24 +183,24 @@ Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
 ## Abrir projeto móvel
 
-Abra o Task Management.4dbase com 4D e vá para Arquivo>abrir>Projeto Móvel.... para abrir **Tasks**
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
-Agora, vá para a seção **Labels & Icons** no editor de projetos. Todos os formatadores estão disponíveis para os tipos de campo diferentes que você definir previamente nos arquivos manifest.json de diferentes formatadores:
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
-* Selecione o formatador de**integerToString ** para o **campo Job**
-* Selecione o formatador de** textToString** para o **campo Country**
+* Select the **integerToString** formatter for the **Job field**
+* Select the **textToString** formatter for the **Country field**
 * Select the **integerToImage** formatter for the **Task Status**
-* Selecione o formatador de** textToImage** para o **campo Manager**
+* Select the **textToImage** formatter for the **Manager**
 
 ![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
 
 ## Construa seu app 4D for iOS
 
-Construa seu app 4D de iOS e você verá que o formatador de dados é bem aplicado dependendo do limite de crédito.
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
 ![Text formatter](assets/custom-formatter/formatters-final-result.png)
 
-Clique em **FORMATADOR FINAL** abaixo para baixar a pasta de modelo concluído formatador.
+Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
