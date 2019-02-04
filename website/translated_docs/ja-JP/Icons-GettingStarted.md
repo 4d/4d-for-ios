@@ -1,17 +1,16 @@
 ---
 id: using-icons
 title: Using icons
-sidebar_label: Using icons
 ---
 <div class = "objectives"> 
 
 **目的**
 
-* Use your own icons in 4D for iOS projects</div> <div class = "prerequisites"> 
+Use your own icons in 4D for iOS projects.</div> <div class = "prerequisites"> 
 
 **必要条件**
 
-* 始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 
