@@ -1,7 +1,6 @@
 ---
 id: build-panel
 title: Build Panel
-sidebar_label: Build Panel
 ---
 When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
 
