@@ -6,7 +6,7 @@ title: Archiver et télécharger un projet
 
 **OBJECTIFS**
 
-Archive and upload your project to App Store Connect.</div> 
+Archiver et publier un projet sur l'App Store Connect.</div> 
 
 ## ÉTAPE 1. Configurez Xcode
 
@@ -23,8 +23,8 @@ Archive and upload your project to App Store Connect.</div>
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
-* Launch 4D for iOS
-* On the SECTIONS tab:
+* Lancez 4D for iOS
+* Dans l’onglet SECTIONS :
 
 **Général : Entrez votre Team ID**
 
