@@ -1,7 +1,6 @@
 ---
 id: free-developer-account
 title: Compte Apple Developer gratuit
-sidebar_label: Compte Apple Developer gratuit
 ---
 Même si vous ne souhaitez pas payer 99 $ par an pour adhérer au Apple Developer Program, vous pouvez toujours créer un identifiant Apple gratuit et l'utiliser pour accéder à un ensemble limité de privilèges destinés aux développeurs.
 
@@ -14,7 +13,7 @@ Même si vous ne souhaitez pas payer 99 $ par an pour adhérer au Apple Develope
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Créez votre identifiant Apple](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
