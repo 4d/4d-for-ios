@@ -1,7 +1,6 @@
 ---
 id: storyboard-listform-template
 title: Storyboard
-sidebar_label: Storyboard
 ---
 Il est temps de créer votre interface iOS de formulaire Liste avec Xcode !
 
@@ -9,11 +8,11 @@ Voici le résultat que nous souhaitons obtenir :
 
 ![Storyboard custom listform](assets/custom-listform/storyboard-custom-listform.png)
 
-For each cell, we're going to add a:
+Pour chaque cellule, nous allons ajouter :
 
-* Profile image
-* Titre 
-* Subtitle
+* Une photo de profil
+* Un titre 
+* Un sous-titre
 
 ## Ouvrir le fichier storyboard avec Xcode
 
@@ -105,7 +104,7 @@ Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans 
 
 **NOTE**
 
-* Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
+The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
 ![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
 
@@ -128,18 +127,18 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path **: ```bindTo.record.___FIELD_2___```
-* **Type**: ```String``` 
-* **Value**: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
+* **Type **: ```String``` 
+* **Value **: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
 Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_3___```
-* **Type**: ```String``` 
-* **Value**: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
+* **Key Path **: ```bindTo.record.___FIELD_3___```
+* **Type **: ```String``` 
+* **Value **: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
 
-* Double-click the first label to edit it and enter ```___FIELD_2_LABEL___```
+* Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
 * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
@@ -156,13 +155,13 @@ La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour a
 
 Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
-* **Key Path**: ```cornerRadius```
+* **Key Path **: ```cornerRadius```
 * **Type **: ```Number``` 
-* **Value**: ```12```
+* **Value **: ```12```
 
 et
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path **: ```layer.masksToBounds```
 * **Type **: ```Boolean``` 
 * **Value** : Cochez la case
 
