@@ -1,7 +1,6 @@
 ---
 id: deployment
 title: Sélectionnez votre Apple Developer Program
-sidebar_label: Sélectionnez votre Apple Developer Program
 ---
 <div class = "objectives"> 
 
