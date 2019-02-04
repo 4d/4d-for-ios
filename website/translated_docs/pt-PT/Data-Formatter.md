@@ -1,7 +1,6 @@
 ---
 id: data-formatter
 title: Data formatter
-sidebar_label: Data formatter
 ---
 4D v17 R3 includes a new concept: Data formatting!
 
