@@ -1,7 +1,6 @@
 ---
 id: deploy-in-house-archive-and-export
 title: Archive and export your Project
-sidebar_label: Archive and export your Project
 ---
 <div class = "objectives"> 
 
