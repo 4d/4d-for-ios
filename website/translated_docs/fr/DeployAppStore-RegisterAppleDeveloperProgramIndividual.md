@@ -1,7 +1,6 @@
 ---
 id: register-apple-developer-program-individual
 title: Apple Developer Program pour les particuliers
-sidebar_label: Apple Developer Program as an Individual
 ---
 <div class = "objectives"> 
 
@@ -42,7 +41,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
-![Rejoignez l'Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![Join the Apple Developer Program](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
@@ -56,13 +55,13 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 * Lisez et acceptez les termes du contrat de licence "Apple Developer Program License Agreement".
 * Cliquez sur **Continuer**.
 
-![Inscrivez-vous en tant que particulier](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
+![Enroll as an individual](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 6. Finalisez votre inscription
 
 * Cliquez sur **Purchase** et procédez au paiement pour finaliser votre inscription.
 
-![Finalisez votre inscription](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![Complete your purchase](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
