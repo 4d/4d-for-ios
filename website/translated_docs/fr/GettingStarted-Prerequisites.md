@@ -1,7 +1,6 @@
 ---
 id: prerequisites
 title: Conditions préalables
-sidebar_label: Conditions préalables
 ---
 ## Configuration logicielle préalable
 
