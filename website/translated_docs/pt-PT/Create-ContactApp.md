@@ -1,17 +1,16 @@
 ---
 id: contact-app
 title: Contact App
-sidebar_label: Contact App
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Criar seu primeiro app com 4D for iOS</div> <div class = "prerequisites"> 
+Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-* Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Este tutorial vai deixar você mergulhardireto em 4D para o desenvolvimento do iOS. Isso permitirá que você crie rapidamente e facilmente sua primeira aplicação.
 
@@ -70,7 +69,7 @@ Em nosso exemplo, selecione **ID**, ** Nome**, **Sobrenome**, **Cargo**, **Empre
 
 **NOTA**
 
-* Recomendamos fortemente que publique sua chave primária para identificar cada registro em seu banco de dados.</div> 
+We highly recommend publishing your primary key in order to identify each record of your database</div> 
 
 ![Structure](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -104,7 +103,7 @@ Em seguida defina a ordem das tabelas no menu principal do aplicativo.
 
 ## PASSO 8. Seções - formulários
 
-Estamos quase terminando, mas primeiro precisamos decidir como vai ser o layout do aplicativo. Existem formulários Lista e Detalhes para escolher.
+We're almost done, but first we need to decide on the app's layout. Existem formulários Lista e Detalhes para escolher.
 
 * Selecione um modelo de formulário de lista para exibir sua tabela como uma lista. Para nosso aplicativo de contato, vamos usar o modelo de **perfil**.
 
@@ -141,7 +140,7 @@ Agora a parte divertida! Agora vamos construir seu app e testar no Simulador par
 
 Nós cobrimos o básico da criação de apps nesse tutorial, e agora você pode criar apps simples sozinho. Mas espere - ainda há mais! No próximo tutorial você vai aprender a construir um app mais complexo. Clique em **Final Projeto** abaixo para baixar o app final Contato.
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
