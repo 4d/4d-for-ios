@@ -119,14 +119,14 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
 5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips"> 
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... passons à la partie amusante avec Xcode !<div class = "tips"> 
 
 **NOTE**
 
-* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
+* Tous les types de champ et de variables sont disponible [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 
-**TIP**
+**CONSEILS**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-* To include all types, just type ```ios:type="all"```.</div>
+* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.</div>
