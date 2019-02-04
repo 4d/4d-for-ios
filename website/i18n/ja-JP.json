@@ -39,44 +39,34 @@
         "title": "Create App Store record"
       },
       "register-apple-developer-program-individual": {
-        "title": "Apple Developer Program as an Individual",
-        "sidebar_label": "Apple Developer Program as an Individual"
+        "title": "Apple Developer Program as an Individual"
       },
       "register-apple-developer-program-organization": {
-        "title": "Apple Developer Program as an Organization",
-        "sidebar_label": "Apple Developer Program as an Organization"
+        "title": "Apple Developer Program as an Organization"
       },
       "deploy-in-house-archive-and-export": {
-        "title": "Archive and export your Project",
-        "sidebar_label": "Archive and export your Project"
+        "title": "Archive and export your Project"
       },
       "deploy-in-house-distribution": {
-        "title": "Distribute your app in-House",
-        "sidebar_label": "Distribute your app in-House"
+        "title": "Distribute your app in-House"
       },
       "register-apple-developer-enterprise-program": {
-        "title": "Apple Developer Enterprise Program",
-        "sidebar_label": "Apple Developer Enterprise Program"
+        "title": "Apple Developer Enterprise Program"
       },
       "deployment": {
-        "title": "Selecting your Apple Developer Program",
-        "sidebar_label": "Selecting your Apple Developer Program"
+        "title": "Selecting your Apple Developer Program"
       },
       "creating-detailform-templates": {
-        "title": "Detail form templates",
-        "sidebar_label": "Detail form templates"
+        "title": "Detail form templates"
       },
       "icon-detailform-template": {
-        "title": "Detail form icon",
-        "sidebar_label": "Detail form icon"
+        "title": "Detail form icon"
       },
       "manifest-detailform-template": {
-        "title": "Manifest.json",
-        "sidebar_label": "Manifest.json"
+        "title": "Manifest.json"
       },
       "storyboard-detailform-template": {
-        "title": "Storyboard",
-        "sidebar_label": "Storyboard"
+        "title": "Storyboard"
       },
       "svg-file-detailform-template": {
         "title": "Template.svg",
@@ -86,128 +76,97 @@
         "title": "FAQ"
       },
       "overview": {
-        "title": "Overview",
-        "sidebar_label": "Overview"
+        "title": "Overview"
       },
       "prerequisites": {
-        "title": "Prerequisites",
-        "sidebar_label": "Prerequisites"
+        "title": "Prerequisites"
       },
       "create-icons": {
-        "title": "Create icons",
-        "sidebar_label": "Create icons"
+        "title": "Create icons"
       },
       "using-icons": {
-        "title": "Using icons",
-        "sidebar_label": "Using icons"
+        "title": "Using icons"
       },
       "include-icons": {
-        "title": "Include icons in the project",
-        "sidebar_label": "Include icons in the project"
+        "title": "Include icons in the project"
       },
       "select-icons": {
-        "title": "Select your icons",
-        "sidebar_label": "Select your icons"
+        "title": "Select your icons"
       },
       "creating-listform-templates": {
-        "title": "List form templates",
-        "sidebar_label": "List form templates"
+        "title": "List form templates"
       },
       "manifest-listform-template": {
-        "title": "Manifest.json",
-        "sidebar_label": "Manifest.json"
+        "title": "Manifest.json"
       },
       "storyboard-listform-template": {
-        "title": "Storyboard",
-        "sidebar_label": "Storyboard"
+        "title": "Storyboard"
       },
       "svg-file-listform-template": {
-        "title": "Template.svg",
-        "sidebar_label": "Template.svg"
+        "title": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "List form icon",
-        "sidebar_label": "List form icon"
+        "title": "List form icon"
       },
       "multi-criteria-search": {
-        "title": "Multi-criteria search",
-        "sidebar_label": "Multi-criteria search"
+        "title": "Multi-criteria search"
       },
       "build-panel": {
-        "title": "Build Panel",
-        "sidebar_label": "Build Panel"
+        "title": "Build Panel"
       },
       "create-new-project": {
-        "title": "New Project",
-        "sidebar_label": "New Project"
+        "title": "New Project"
       },
       "data": {
-        "title": "Data",
-        "sidebar_label": "Data"
+        "title": "Data"
       },
       "detail-form-templates": {
-        "title": "Detail Forms templates",
-        "sidebar_label": "Detail Forms templates"
+        "title": "Detail Forms templates"
       },
       "forms": {
-        "title": "Forms",
-        "sidebar_label": "Forms"
+        "title": "Forms"
       },
       "general": {
-        "title": "General",
-        "sidebar_label": "General"
+        "title": "General"
       },
       "labels-and-icons": {
-        "title": "Labels & Icons",
-        "sidebar_label": "Labels & Icons"
+        "title": "Labels & Icons"
       },
       "list-form-templates": {
-        "title": "List Forms templates",
-        "sidebar_label": "List Forms templates"
+        "title": "List Forms templates"
       },
       "main-menu": {
-        "title": "Main Menu",
-        "sidebar_label": "Main Menu"
+        "title": "Main Menu"
       },
       "publishing": {
-        "title": "Publishing",
-        "sidebar_label": "Publishing"
+        "title": "Publishing"
       },
       "structure": {
-        "title": "Structure",
-        "sidebar_label": "Structure"
+        "title": "Structure"
       },
       "n-to-one-relations": {
-        "title": "N to one relations",
-        "sidebar_label": "N to one relations"
+        "title": "N to one relations"
       },
       "define-filter-query": {
-        "title": "Define a filter query",
-        "sidebar_label": "Define a filter query"
+        "title": "Define a filter query"
       },
       "filter-query-introduction": {
-        "title": "Restricted queries",
-        "sidebar_label": "Restricted queries"
+        "title": "Restricted queries"
       },
       "user-information-query": {
-        "title": "User information query",
-        "sidebar_label": "User information query"
+        "title": "User information query"
       },
       "free-developer-account": {
-        "title": "Free Apple Developer account",
-        "sidebar_label": "Free Apple Developer account"
+        "title": "Free Apple Developer account"
       },
       "install-device": {
-        "title": "Installing on your iOS device",
-        "sidebar_label": "Installing on your iOS device"
+        "title": "Installing on your iOS device"
       },
       "simulator": {
-        "title": "Using the Simulator",
-        "sidebar_label": "Using the Simulator"
+        "title": "Using the Simulator"
       },
       "xcode": {
-        "title": "Xcode",
-        "sidebar_label": "What is Xcode?"
+        "title": "Xcode"
       }
     },
     "links": {
