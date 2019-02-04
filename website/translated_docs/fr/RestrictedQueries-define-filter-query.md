@@ -12,8 +12,8 @@ Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle
 * Faites un clic droit dans le champ **filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
 * Cliquez sur le bouton **Champs**et sélectionnez **Status**.
 * Cliquez sur le bouton **Comparators** et sélectionnez **Equal to**.
-* Because you want to display *open* contracts, enter **In progress**
-* Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
+* Si vous souhaitez afficher les contrats *ouverts*, tapez **In progress**
+* N’oubliez pas de valider votre recherche en cliquant sur le bouton **Validate**, sinon vous ne serez pas en mesure de créer votre application.
 
 Vous devriez avoir ce résultat :
 
