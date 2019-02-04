@@ -1,7 +1,6 @@
 ---
 id: list-form-templates
 title: List Forms templates
-sidebar_label: List Forms templates
 ---
 ![Simple Table](assets/templates/Simple-Table-List-form.gif)
 
