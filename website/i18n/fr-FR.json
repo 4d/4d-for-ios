@@ -6,48 +6,37 @@
     "tagline": "Créez et déployez des applications iOS natives personnalisées en toute facilité",
     "docs": {
       "contact-app": {
-        "title": "Application Contacts",
-        "sidebar_label": "Application Contacts"
+        "title": "Application Contacts"
       },
       "4d-for-ios-project-organization": {
-        "title": "Organiser un projet 4D for iOS",
-        "sidebar_label": "Organiser un projet 4D for iOS"
+        "title": "Organiser un projet 4D for iOS"
       },
       "customize-your-ios-app": {
-        "title": "Personnaliser une application 4D for iOS",
-        "sidebar_label": "Personnaliser une application 4D for iOS"
+        "title": "Personnaliser une application 4D for iOS"
       },
       "open-xcode": {
-        "title": "Travailler avec Xcode",
-        "sidebar_label": "Travailler avec Xcode"
+        "title": "Travailler avec Xcode"
       },
       "xcode-overview": {
-        "title": "Présentation d'Xcode",
-        "sidebar_label": "Présentation d'Xcode"
+        "title": "Présentation d'Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Créer et exécuter un projet",
-        "sidebar_label": "Créer et exécuter un projet"
+        "title": "Créer et exécuter un projet"
       },
       "creating-data-formatter": {
-        "title": "Créer un format de données",
-        "sidebar_label": "Créer un format de données"
+        "title": "Créer un format de données"
       },
       "data-formatter-mobile-project": {
-        "title": "Ouvrir un projet mobile",
-        "sidebar_label": "Ouvrir un projet mobile"
+        "title": "Ouvrir un projet mobile"
       },
       "data-formatter": {
-        "title": "Format des données",
-        "sidebar_label": "Format des données"
+        "title": "Format des données"
       },
       "deploy-app-store-archive-and-upload": {
-        "title": "Archiver et télécharger un projet",
-        "sidebar_label": "Archiver et télécharger un projet"
+        "title": "Archiver et télécharger un projet"
       },
       "deploy-app-store-app-store-connect": {
-        "title": "Créer une fiche sur App Store",
-        "sidebar_label": "Créer une fiche sur App Store"
+        "title": "Créer une fiche sur App Store"
       },
       "register-apple-developer-program-individual": {
         "title": "Apple Developer Program pour les particuliers",
@@ -188,6 +177,10 @@
         "title": "Structure",
         "sidebar_label": "Structure"
       },
+      "n-to-one-relations": {
+        "title": "N to one relations",
+        "sidebar_label": "N to one relations"
+      },
       "define-filter-query": {
         "title": "Définir un filtre de recherche",
         "sidebar_label": "Définir un filtre de recherche"
@@ -236,7 +229,8 @@
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
       "Multi-criteria search": "Recherche multicritères",
-      "Restricted queries": "Recherche restreinte"
+      "Restricted queries": "Recherche restreinte",
+      "Relations": "Relations"
     }
   },
   "pages-strings": {
