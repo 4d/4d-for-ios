@@ -1,7 +1,6 @@
 ---
 id: publishing
 title: Publishing
-sidebar_label: Publishing
 ---
 This is where you define or create your app's:
 
@@ -20,13 +19,14 @@ This is where you define or create your app's:
 * If both HTTP and HTTPS are activated, HTTP is used.</div> 
 
 * Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+
 * Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
 
-**Authorized User:** Check the **Login required** option to display a login form when the app starts.
+* **Authorized User:** Check the **Login required** option to display a login form when the app starts.
 
-**Guest:** Leave the **Login required** option unchecked. No login form will appear when the app starts.
+* **Guest:** Leave the **Login required** option unchecked. No login form will appear when the app starts.
 
 ## Authentication Method
 
@@ -87,7 +87,7 @@ Here is an example of a 4D for iOS-generated session file:
 
 Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
-<div style="text-align: center; margin-top: 20px">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
