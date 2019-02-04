@@ -1,7 +1,6 @@
 ---
 id: svg-file-listform-template
 title: Template.svg
-sidebar_label: Template.svg
 ---
 The template.svg file is a basic visual representation of a template. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
 
@@ -72,7 +71,7 @@ The searchable field is optional.<div class = "tips">
 
 **NOTE**
 
-* All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html)</div> 
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
 <
 
