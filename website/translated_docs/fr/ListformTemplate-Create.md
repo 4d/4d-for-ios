@@ -6,11 +6,11 @@ title: Modèles de formulaire Liste
 
 **OBJECTIFS**
 
-Create your first list form template.</div> <div class = "prerequisites"> 
+Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
 Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
