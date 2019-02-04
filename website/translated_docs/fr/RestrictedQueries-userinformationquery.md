@@ -1,21 +1,19 @@
 ---
 id: user-information-query
 title: Filtre de recherche utilisateur
-sidebar_label: Filtre de recherche utilisateur
 ---
 Nous allons maintenant filtrer le contenu de notre application en fonction de l'adresse mail de connexion du chargé de clientèle (information utilisateur) :
 
 * Accédez à la **section "Données"**. 
 * Faites un clic droit dans le champ **Filtre de recherche** pour faire apparaitre les **boutons Field, Comparators et Operators**.
 * Cliquez sur le bouton **Operators** et sélectionnez **AND**.
-* Définissez maintenant les informations utilisateur que vous souhaitez obtenir à partir de la méthode de base de données **: email**.
+* Now define the user information you want to get from the database method, **:email**.
+* Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
+
+![User information query](assets/restricted-queries/user-information-query.png)
 
     Status = 'In Progress' & manager.Email = :email 
     
-
-* Souvenez-vous de valiser la recherche en cliquant sur le bouton **Validate**. Sinon, vous ne pourrez plus créer votre application.
-
-![Filtre de recherche utilisateur](assets/restricted-queries/user-information-query.png)
 
 La recherche filtrera les données en fonction du statut **In Progress** ET de **l'adresse e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce à la relation *Many-to-One* figurant dans le nom du chargé de clientèle).<div class = "tips"> 
 
@@ -31,7 +29,7 @@ Ajoutez la ligne suivante dans la méthode de base de données :
 
 Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.
 
-![Filtre de recherche utilisateur](assets/restricted-queries/database-method-user-information-query.png)
+![User information query](assets/restricted-queries/database-method-user-information-query.png)
 
 Maintenant, si vous générez votre application et que vous entrez « michelle.simpson@mail.com » en tant qu'e-mail de connexion, vous trouverez tous les contrats *"In progress"* de Michelle Simpson.
 
