@@ -1,7 +1,6 @@
 ---
 id: forms
 title: Forms
-sidebar_label: Forms
 ---
 The Forms section allows you to select both list and detail form templates for each table.
 
