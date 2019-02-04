@@ -1,7 +1,6 @@
 ---
 id: build-panel
 title: Onglet Génération
-sidebar_label: Onglet Génération
 ---
 Lorsque votre application est prête, vous pouvez la lancer dans le Simulateur pour la tester.
 
