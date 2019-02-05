@@ -10,8 +10,9 @@ title: Apple Developer Program as an Individual
 
 ## ステップ 1 - Apple ID
 
-* If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
-* If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
+If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+
+If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
 ## ステップ 2 - Create your Apple ID
 
@@ -65,4 +66,4 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * When you have completed your purchase, you'll receive an email confirming your membership in the program.
 
-これで完了です！ You are now ready to publish apps to the App Store!
+Congratulations! You are now ready to publish apps to the App Store!
