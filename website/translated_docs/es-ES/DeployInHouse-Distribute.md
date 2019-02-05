@@ -8,17 +8,15 @@ title: Distribute your app in-House
 
 Upload your app to a secured server.</div> 
 
-## PASO 1. Upload your app<div class = "tips"> 
-
-**TIP**
-
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).</div> 
+## PASO 1. Upload your app
 
 Upload your app files to a secured server:
 
 * assets (display-image and full-size-image)
 * manifest.plist file
-* .ipa file<div class = "tips"> 
+* .ipa file
+
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
 **NOTE**
 
