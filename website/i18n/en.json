@@ -201,8 +201,27 @@
     "Stay up to date|no description given": "Stay up to date",
     "Need help?|no description given": "Need help?",
     "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+
+    "Overview|no description given": "Overview",
+    "Create|no description given": "Create",
+    "Test|no description given": "Test",
+    "Deploy|no description given": "Deploy",
+    "Create your app|no description given": "Create your app",
+    "Test your app|no description given": "Test your app",
+    "Structure|no description given": "Structure",
+    "Define a subset of your physical structure to replicate.|no description given": "Define a subset of your physical structure to replicate.",
+    "Design|no description given": "Design",
+    "Choose the layouts and style of your application in just a few, short steps.|no description given": "Choose the layouts and style of your application in just a few, short steps.",
+    "Generate & Test|no description given": "Generate & Test",
+    "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Create an Xcode project in one click and run your application on any iPhone.",
+    "Choose an in-house or App Store deployment model to distribute your application.|no description given": "Choose an in-house or App Store deployment model to distribute your application.",
+    "Create various applications depending on your needs. Discover multiple tutorials to quickly build your first application.|no description given": "Create various applications depending on your needs. Discover multiple tutorials to quickly build your first application.",
+    "Create your 4D for iOS application|no description given": "Create your 4D for iOS application",
+    "Test your application in the Simulator or your own device.|no description given": "Test your application in the Simulator or your own device.",
+    "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.",
+    "Deploy your App|no description given": "Deploy your App",
+    "Testing|no description given": "Testing",
+    "Easily create and deploy custom native iOS apps|no description given": "Easily create and deploy custom native iOS apps"
+
   }
 }

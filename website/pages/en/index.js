@@ -61,7 +61,7 @@ const Logo = props => (
 const ProjectTitle = props => (
   <h2 className="projectTitle">
     {siteConfig.title}
-    <small>{siteConfig.tagline}</small>
+    <small><translate>Easily create and deploy custom native iOS apps</translate></small>
   </h2>
 );
 
@@ -82,10 +82,10 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('overview.html', language)}>Overview</Button>
-            <Button href={docUrl('create-new-project.html', language)}>Create</Button>
-            <Button href={docUrl('simulator.html', language)}>Test</Button>
-            <Button href={docUrl('deployment.html', language)}>Deploy</Button>
+            <Button href={docUrl('overview.html', language)}><translate>Overview</translate></Button>
+            <Button href={docUrl('create-new-project.html', language)}><translate>Create</translate></Button>
+            <Button href={docUrl('simulator.html', language)}><translate>Test</translate></Button>
+            <Button href={docUrl('deployment.html', language)}><translate>Deploy</translate></Button>
 
           </PromoSection>
         </div>
@@ -112,28 +112,28 @@ const Features = props =>
 
     {[
       {
-        content: 'Define a subset of your physical structure to replicate.',
+        content: <translate>Define a subset of your physical structure to replicate.</translate>,
         image: imgUrl('structure.png'),
         imageAlign: 'top',
-        title: 'Structure',
+        title: <translate>Structure</translate>,
       },
       {
-        content: 'Choose the layouts and style of your application in just a few, short steps.',
+        content: <translate>Choose the layouts and style of your application in just a few, short steps.</translate>,
         image: imgUrl('design.png'),
         imageAlign: 'top',
-        title: 'Design',
+        title: <translate>Design</translate>,
       },
       {
-        content: 'Create an Xcode project in one click and run your application on any iPhone.',
+        content: <translate>Create an Xcode project in one click and run your application on any iPhone.</translate>,
         image: imgUrl('generateTest.png'),
         imageAlign: 'top',
-        title: 'Generate & Test',
+        title: <translate>Generate & Test</translate>,
       },
       {
-        content: 'Choose an in-house or App Store deployment model to distribute your application.',
+        content: <translate>Choose an in-house or App Store deployment model to distribute your application.</translate>,
         image: imgUrl('deploy.png'),
         imageAlign: 'top',
-        title: 'Deploy',
+        title: <translate>Deploy</translate>,
       },
     ]}
 
@@ -149,7 +149,7 @@ const FeatureCallout = props => (
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <a className="button" href={docUrl('en/overview.html', props.language)}>
-          OVERVIEW
+          <translate>Overview</translate>
         </a>
 
   </div>
@@ -164,8 +164,8 @@ const BuildYourApp = props => (
       {
         image: imgUrl('Create-iOS-app-from-scratch.png'),
         imageAlign: 'left',
-        content: 'Create various applications depending on your needs.<br>Discover multiple tutorials to quickly build your first application.',
-        title: 'Create your 4D for iOS application',
+        content: <translate>Create various applications depending on your needs. Discover multiple tutorials to quickly build your first application.</translate>,
+        title: <translate>Create your 4D for iOS application</translate>,
       },
     ]}
 
@@ -179,7 +179,7 @@ const BuildYourAppCallout = props => (
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <a className="button" href={docUrl('en/create-new-project.html', props.language)}>
-          CREATE YOUR APP
+          <translate>Create your app</translate>
         </a>
 
   </div>
@@ -193,8 +193,8 @@ const TestYourApp = props => (
       {
         image: imgUrl('simulator.png'),
         imageAlign: 'right',
-        content: 'Test your application in the Simulator or your own device.',
-        title: 'Testing',
+        content: <translate>Test your application in the Simulator or your own device.</translate>,
+        title: <translate>Testing</translate>,
       },
     ]}
 
@@ -208,7 +208,7 @@ const TestYourAppCallout = props => (
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <a className="button" href={docUrl('en/simulator.html', props.language)}>
-          TEST YOUR APP
+    <translate>Test your app</translate>
         </a>
 
   </div>
@@ -221,10 +221,10 @@ const Deploy = props => (
 
     {[
       {
-        content: 'Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the process.',
+        content: <translate>Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.</translate>,
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
-        title: 'Deploy your App',
+        title: <translate>Deploy your App</translate>,
       },
     ]}
   </Block>
@@ -236,7 +236,7 @@ const DeployCallout = props => (
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <a className="button" href={docUrl('en/deployment.html', props.language)}>
-        DEPLOY YOUR APP
+        <translate>Deploy your App</translate>
         </a>
 
   </div>
