@@ -36,8 +36,10 @@ title: Create App Store record
 
 </div>
 
-* To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
+To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
+
 * Click the + sign next to *Register iOS App IDs* to add a new App ID. 
+
 * Define your app's Name and Bundle ID. 
 
 ![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
