@@ -6,13 +6,13 @@ title: Apple Developer Enterprise Program
 
 **目的**
 
-Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> 
-
-## ステップ 1 - Apple ID<div class = "tips"> 
+Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
 
 **NOTE**
 
 To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+
+## ステップ 1 - Apple ID
 
 If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
 
