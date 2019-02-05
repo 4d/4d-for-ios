@@ -14,8 +14,9 @@ Register for the Apple Developer Enterprise Program to deploy your app **in-hous
 
 To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
-* If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
+
+If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 ## PASO 2. Create your Apple ID
 
