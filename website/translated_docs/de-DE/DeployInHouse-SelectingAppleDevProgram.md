@@ -6,7 +6,7 @@ title: Selecting your Apple Developer Program
 
 **Zielsetzung**
 
-* Choose the appropriate Apple Developer Program.</div> 
+Choose the appropriate Apple Developer Program.</div> 
 
 You must have a valid Apple Developer account to **distribute an iOS app**. Apple offers two developer programs:
 
