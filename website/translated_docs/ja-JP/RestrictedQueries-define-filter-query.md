@@ -17,10 +17,7 @@ As we discussed earlier, we want the account managers to access their *In Progre
 
 You should have this result:
 
-![CRM database](assets/restricted-queries/filterquery.png)
-
-    Status = 'In Progress'
-    <div class = "tips"> 
+![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
 
 **NOTE**
 
