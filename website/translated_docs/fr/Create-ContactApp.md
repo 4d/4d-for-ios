@@ -42,7 +42,7 @@ Nommez votre projet puis cliquez sur **Créer**.
 
 ## ÉTAPE 3. L’éditeur de projet
 
-Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'une application proposées dans ce superbe outil. 🙂
+Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'une application qui sont proposées dans ce superbe outil. 🙂
 
 ![Welcome Screen](assets/contact-app/Welcome-Screen-4D-for-iOS.png)
 
