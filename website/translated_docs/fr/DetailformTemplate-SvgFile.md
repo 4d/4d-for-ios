@@ -123,7 +123,7 @@ Maintenant que vous avez une **icône**, la **description basique d'un modèle**
 
 **NOTE**
 
-* Tous les types de champ et de variables sont disponible [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
+Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 
 **CONSEILS**
 
