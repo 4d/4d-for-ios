@@ -14,8 +14,9 @@ title: Apple Developer Program as an Organization
 
 To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
-* If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
+
+If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 ## PASSO 2. Create your Apple ID
 
