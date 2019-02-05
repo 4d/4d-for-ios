@@ -14,8 +14,9 @@ S'inscrire à l'Apple Developer Enterprise Program pour déployer son applicatio
 
 Pour vous inscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et associé à une adresse e-mail.</div> 
 
-* Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
-* Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
+Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
+
+Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
@@ -59,7 +60,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 * Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program. 
 * Cliquez sur le bouton **Start your Enrollment**.
 * Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
-* Cliquez sur **Continuer**.
+* Cliquez sur **Continue**.
 
 ![Apple Developer Enterprise Program](assets/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
