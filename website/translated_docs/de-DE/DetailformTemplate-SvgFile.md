@@ -123,7 +123,7 @@ Now that you have an **icon**, a **basic template description** in the manifest.
 
 **NOTE**
 
-* All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
+All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 
 **TIP**
 
