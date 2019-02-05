@@ -6,8 +6,9 @@ Even if you don’t wish to pay $99 a year to join the Apple Developer Program, 
 
 ## PASSO 1. Apple ID
 
-* If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
-* If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
+If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+
+If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
 
 ## PASSO 2. Create your Apple ID
 
