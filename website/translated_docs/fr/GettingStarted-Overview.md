@@ -4,16 +4,16 @@ title: Aperçu
 ---
 ## Qu'est-ce que 4D for iOS ?
 
-4D for iOS est un composant intégré à 4D qui vous permet de concevoir, configurer, créer et déployer une application native iOS à partir de votre base de données 4D.
+4D for iOS est un composant intégré à 4D. Il vous permet de concevoir, configurer, créer et déployer une application native iOS à partir de votre base de données 4D.
 
-## Intégration complète à 4D
+## Intégration totale dans 4D
 
 Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directement depuis 4D, sans que qu'aucune connaissance préalables soit nécessaire dans la création d’applications iOS natives.
 
 ## Création d'applications natives
 
-* 4D gère et génère - en toute transparence - la complexité d'un projet Xcode en pur Swift avec des UI/UX optimisées.
-* L'un des points forts de 4D for iOS est de vous donner la possibilité de créer un nombre d'applications illimité à partir des différents sous-ensembles de votre base de données... selon vos besoins et vos objectifs.
+* 4D gère la complexité d'un projet Xcode et le génère - en toute transparence - en pur Swift avec des UI/UX optimisées.
+* L'un des points forts de 4D for iOS est de vous donner la possibilité de créer un nombre illimité d'applications, à partir des différents sous-ensembles de votre base de données... selon vos besoins et vos objectifs.
 
 ## Mode hors connexion
 
@@ -22,4 +22,4 @@ Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directem
 ## Solution ouverte
 
 * 4D for iOS génère un véritable projet Xcode. Vous pouvez le rouvrir avec Xcode et y poursuivre votre travail.
-* Toutes les tables et tous les formulaires sont intégrés dans l’application générée et sont modifiables.
+* Toutes les tables et tous les formulaires sont intégrés dans l’application et sont modifiables.
