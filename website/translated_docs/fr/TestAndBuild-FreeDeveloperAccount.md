@@ -6,8 +6,9 @@ Même si vous ne souhaitez pas payer 99 $ par an pour adhérer au Apple Develope
 
 ## ÉTAPE 1. Identifiant Apple
 
-* Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id)
-* Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-open-xcode)
+Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id)
+
+Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-open-xcode)
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
