@@ -8,17 +8,15 @@ title: Distribuer une application interne
 
 Télécharger une application sur un serveur sécurisé.</div> 
 
-## ÉTAPE 1. Téléchargez votre application<div class = "tips"> 
-
-**CONSEILS**
-
-Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).</div> 
+## ÉTAPE 1. Téléchargez votre application
 
 Téléchargez votre application sur un serveur sécurisé :
 
 * Ressources (image d'affichage et image en taille réelle)
 * Fichier manifest.plist
-* Fichier .ipa<div class = "tips"> 
+* Fichier .ipa
+
+Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
 **NOTE**
 
