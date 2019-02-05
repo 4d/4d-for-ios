@@ -38,5 +38,7 @@ Help links are available for the Name and Identifier fields.
 
 </div>
 
-* **Developer:** This field is automatically filled with your user account name.
-* **Team:** Your Developer Account Team ID.
+
+**Developer:** This field is automatically filled with your user account name.
+
+**Team:** Your Developer Account Team ID.

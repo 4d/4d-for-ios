@@ -11,8 +11,6 @@ Register for the Apple Developer Enterprise Program to deploy your app <b>in-hou
 
 </div>
 
-## STEP 1. Apple ID
-
 <div markdown="1" class = "tips">
 
 **NOTE**
@@ -20,6 +18,8 @@ Register for the Apple Developer Enterprise Program to deploy your app <b>in-hou
 To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
 
 </div>
+
+## STEP 1. Apple ID
 
 If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
 

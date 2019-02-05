@@ -11,8 +11,6 @@ title: Apple Developer Program as an Organization
 
 </div>
 
-## STEP 1. Apple ID
-
 <div markdown="1" class = "tips">
 
 **NOTE**
@@ -20,6 +18,8 @@ title: Apple Developer Program as an Organization
 To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.
 
 </div>
+
+## STEP 1. Apple ID
 
 If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 

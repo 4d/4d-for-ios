@@ -148,7 +148,7 @@ const FeatureCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/overview.html', props.language)}>
+    <a className="button" href={docUrl('fr/overview.html', props.language)}>
           Présentation
         </a>
 
@@ -178,7 +178,7 @@ const BuildYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/create-new-project.html', props.language)}>
+    <a className="button" href={docUrl('fr/create-new-project.html', props.language)}>
           CRÉEZ VOTRE APP
         </a>
 
@@ -207,7 +207,7 @@ const TestYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/simulator.html', props.language)}>
+    <a className="button" href={docUrl('fr/simulator.html', props.language)}>
           TESTEZ VOTRE APP
         </a>
 
@@ -235,8 +235,8 @@ const DeployCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/deployment.html', props.language)}>
-        DEPLOYEZ YOUR APP
+    <a className="button" href={docUrl('fr/deployment.html', props.language)}>
+        DEPLOYEZ VOTRE APP
         </a>
 
   </div>
