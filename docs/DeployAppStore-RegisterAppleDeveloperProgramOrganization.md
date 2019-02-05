@@ -21,8 +21,9 @@ To enroll in the Apple Developer Program as an organization, your Apple ID must 
 
 </div>
 
-* If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
+
+If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 
 ## STEP 2. Create your Apple ID

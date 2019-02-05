@@ -23,9 +23,9 @@ This is where you define or create your app's:
 
 </div>
 
-* Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
 
-* Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
+Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
 

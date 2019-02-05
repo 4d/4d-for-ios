@@ -13,19 +13,13 @@ Upload your app to a secured server.
 
 ## STEP 1. Upload your app
 
-<div markdown="1" class = "tips">
-
-**TIP**
-
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
-
-</div>
-
 Upload your app files to a secured server:
 
 * assets (display-image and full-size-image)
 * manifest.plist file
 * .ipa file
+
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
 
 <div markdown="1" class = "tips">
 

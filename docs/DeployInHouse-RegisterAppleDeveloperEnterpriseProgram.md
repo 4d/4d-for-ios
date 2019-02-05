@@ -21,8 +21,9 @@ To enroll in the Apple Developer Enterprise Program, your Apple ID must be assoc
 
 </div>
 
-* If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
-* If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
+
+If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 ## STEP 2. Create your Apple ID
 

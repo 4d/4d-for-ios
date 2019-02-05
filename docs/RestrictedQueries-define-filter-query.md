@@ -20,10 +20,6 @@ You should have this result:
 
 ![CRM database](assets/restricted-queries/filterquery.png)
 
-```
-Status = 'In Progress'
-```
-
 <div markdown="1" class = "tips">
 
 **NOTE**

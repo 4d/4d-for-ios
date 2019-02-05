@@ -12,8 +12,9 @@ title: Apple Developer Program as an Individual
 
 ## STEP 1. Apple ID
 
-* If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
-* If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
+If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+
+If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
 ## STEP 2. Create your Apple ID
 
