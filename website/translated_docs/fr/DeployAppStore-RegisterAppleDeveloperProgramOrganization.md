@@ -14,8 +14,9 @@ title: Apple Developer Program pour les entreprises
 
 Pour vous inscrire au programme "Apple Developer Enterprise Program", votre identifiant Apple doit être associé à une adresse e-mail en utilisant le nom de domaine de votre entreprise.</div> 
 
-* Si vous n’avez aucun identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
-* Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
+Si vous n’avez aucun identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
+
+Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
 
 ## ÉTAPE 2. Créez votre identifiant Apple
 
@@ -73,11 +74,11 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 ![Apple Developer Program](assets/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Cliquez sur **Continuer**. 
+* Cliquez sur **Continue**. 
 
 ![Enroll as an organization](assets/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
-* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que vous êtes habilité à lier votre organisation aux accords juridiques de l'Apple Developer Program.
+* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que le développeur est habilité à lier son organisation aux accords juridiques relatifs à l'Apple Developer Program.
 * Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à s'inscrire à l'Apple Developer Enterprise Program.
 * Vous recevrez ensuite un autre e-mail vous invitant à finaliser l’inscription.
 
