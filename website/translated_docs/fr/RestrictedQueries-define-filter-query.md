@@ -17,10 +17,7 @@ Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle
 
 Vous devriez avoir ce résultat :
 
-![CRM database](assets/restricted-queries/filterquery.png)
-
-    Status = 'In Progress'
-    <div class = "tips"> 
+![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
 
 **NOTE**
 
