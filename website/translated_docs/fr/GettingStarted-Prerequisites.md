@@ -8,7 +8,7 @@ title: Conditions préalables
 * 4D Server v17 R2 64 bits (déploiement) 
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). 
 
-Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. Installez ce logiciel si vous souhaitez rendre automatique l’installation de l’application sur votre appareil.
+Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. Installez ce logiciel si vous souhaitez installer votre application automatiquement sur votre appareil.
 
 ## Tableau de comparaison des versions
 
@@ -23,13 +23,13 @@ Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. In
 
 * 8 Go de RAM (Minimum recommandé)
 
-## Configuration
+## Configuration 4D
 
 * Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
 
 ![Use object notation](assets/prerequisites/Use-object-notation.png)
 
-* Les ports HTTP et HTTPS doivent être correctement configurés. HTTPS est obligatoire pour le déploiement de 4D for iOS.
+* Les ports HTTP et HTTPS doivent être correctement configurés. Le port HTTPS est obligatoire pour le déploiement de 4D for iOS.
 
 ![Web Configuration](assets/prerequisites/Web-Configuration.png)
 
