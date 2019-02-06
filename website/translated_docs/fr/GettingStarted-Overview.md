@@ -8,7 +8,7 @@ title: Aperçu
 
 ## Intégration totale dans 4D
 
-Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directement depuis 4D, sans que qu'aucune connaissance préalables soit nécessaire dans la création d’applications iOS natives.
+Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directement avec 4D, sans aucune connaissance préalable dans la création d’applications iOS natives.
 
 ## Création d'applications natives
 
