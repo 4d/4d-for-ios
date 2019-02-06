@@ -8,9 +8,9 @@ Cette section vous permet de définir les principales informations de votre appl
 
 **Organisation :** Saisissez votre nom ou celui de votre entreprise.
 
-**Identifiant :** Saisissez le « Bundle ID » de votre entreprise. Cela servira à identifier votre application. Le nom de produit que vous entrez est concaténé pour créer la valeur par défaut du « Bundle ID » en utilisant la notation inversée du nom de domaine. Ce « Bundle ID » doit être unique à votre application.
+**Identifiant :** Saisissez le « Bundle ID » de votre entreprise, qui servira à identifier votre application. Le nom de produit que vous entrez est concaténé pour créer la valeur par défaut du « Bundle ID » en utilisant la notation inversée du nom de domaine. Ce « Bundle ID » doit être unique à votre application.
 
-Par exemple, si le nom de votre société est « MaSociété » et si le nom de votre application est « MyApp », l'identifiant de votre entreprise pourrait être « com.MaSociété » et le « bundle ID » de votre application serait « com.MyCompany.MyApp ».<div class = "tips"> 
+Par exemple, si le nom de votre société est « MonEntreprise » et si le nom de votre application est « MonApplication », l'identifiant de votre entreprise pourrait être « com.MonEntreprise » et le « bundle ID » de votre application serait alors « com.MonEntreprise.MonApplication ».<div class = "tips"> 
 
 **NOTE**
 
@@ -31,4 +31,4 @@ Des liens d’aide sont disponibles pour les champs Nom et Identifiant.</div>
 
 **Développeur :** Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
 
-**Team :** « Team ID » de votre compte Developer.
+**Team :** « Team ID » de votre compte « Developer ».
