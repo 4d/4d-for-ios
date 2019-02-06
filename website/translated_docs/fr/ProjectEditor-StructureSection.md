@@ -13,11 +13,11 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 **Relation N vers 1**
 
-* 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionnes les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs dans le [processus de création d’une application](n-to-one-relations.html).
+* 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
 
 ![Publish related tables](assets/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour vous permettre de sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
 
 **CONSEILS**
 
