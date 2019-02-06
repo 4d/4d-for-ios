@@ -6,7 +6,7 @@ title: Apple Developer Program as an Individual
 
 **目的**
 
-* Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 
 ## ステップ 1 - Apple ID
 
