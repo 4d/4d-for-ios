@@ -6,7 +6,7 @@ title: Apple Developer Program as an Organization
 
 **Zielsetzung**
 
-* Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
+Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
 
 **NOTE**
 
