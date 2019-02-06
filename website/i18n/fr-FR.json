@@ -76,7 +76,7 @@
         "title": "FAQ"
       },
       "overview": {
-        "title": "Présentation"
+        "title": "Aperçu"
       },
       "prerequisites": {
         "title": "Conditions préalables"
@@ -220,6 +220,6 @@
     "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribuez votre application en interne ou sur l’App Store. Plusieurs tutoriels sont à votre disposition pour vous guider tout au long du processus.",
     "Deploy your App|no description given": "Déployez votre application",
     "Testing|no description given": "Test",
-    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives personnalisées"
+    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives"
   }
 }
