@@ -34,7 +34,10 @@ href="../assets/customize-with-xcode/ContactStarter.zip">スターター プロ�
 
 ## ステップ 2 - Build your Project
 
-From the Project Editor BUILD tab: * Select the device to use as a Simulator by clicking on the device button. * Click the **Build and Run** button.
+From the Project Editor BUILD tab:
+
+* Select the device to use as a Simulator by clicking on the device button.
+* Click the **Build and Run** button.
 
 ![Build and Run](assets/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
