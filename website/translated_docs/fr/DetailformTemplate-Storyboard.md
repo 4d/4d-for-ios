@@ -135,9 +135,11 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
-* **Type **: Toujours ```String``` 
-* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+
+* **Type**: Always ```String```
+
+* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-detailform/identity-inspector-storyboard.png)
 
@@ -154,8 +156,10 @@ Vous devez également définir la Classe sur ```IconLabel``` et cocher la case *
 Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path**: ```bindTo.record.___FIELD___```
-* **Type **: ```String``` 
-* **Value **: ```___FIELD_BINDING_TYPE___```
+
+* **Type**: ```String```
+
+* **Value**: ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -223,22 +227,28 @@ Nous allons ajouter un rayon de bec à l'Image View et à Field View 2.
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path **: ```cornerRadius```
-* **Type **: ```Number``` 
-* **Value **: ```12```
+* **Key Path**: ```cornerRadius```
+
+* **Type**: ```Number```
+
+* **Value**: ```12```
 
 et
 
-* **Key Path **: ```layer.masksToBounds```
-* **Type **: ```Boolean``` 
-* **Value** : Cochez la case
+* **Key Path**: ```layer.masksToBounds```
+
+* **Type**: ```Boolean```
+
+* **Value**: Check the box
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
 
 Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
 
-* **Key Path** : ```cornerRadius```
-* **Type **: ```Number``` 
+* **Key Path**: ```cornerRadius```
+
+* **Type**: ```Number```
+
 * **Value**: ```12```
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)
