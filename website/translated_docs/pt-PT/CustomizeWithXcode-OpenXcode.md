@@ -34,7 +34,10 @@ href="../assets/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
 
 ## PASSO 2. Crie seu projeto
 
-Na aba BUILD do Editor de projeto: * selecione o dispositivo para usar como um Simulador clicando no botão do aparelho. * Clique o botão **Construir e Executar**.
+From the Project Editor BUILD tab:
+
+* Select the device to use as a Simulator by clicking on the device button.
+* Click the **Build and Run** button.
 
 ![Build and Run](assets/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
@@ -42,7 +45,7 @@ Na aba BUILD do Editor de projeto: * selecione o dispositivo para usar como um S
 
 Na aba BUILD do Editor de projeto:
 
-* Clique em projeto > abrir o projeto com o Xcode
+* Click on Project > Open the project with Xcode
 
 ![Open your Project with Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
