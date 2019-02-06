@@ -136,7 +136,9 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 ![User defined runtime attributes](assets/custom-detailform/user-defined-runtime-attributes.png)
 
 * **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
-* **Type**: Always ```String``` 
+
+* **Type**: Always ```String```
+
 * **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-detailform/identity-inspector-storyboard.png)
@@ -154,7 +156,9 @@ You also need to set the Class to ```IconLabel``` and check the **Inherit Module
 Select the **second label** and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD___```
-* **Type**: ```String``` 
+
+* **Type**: ```String```
+
 * **Value**: ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/custom-detailform/label2-user-defined-runtime-attributes.png)
@@ -224,13 +228,17 @@ We're going to add a corner radius to the Image View, as well as Field View 2.
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
+
+* **Type**: ```Number```
+
 * **Value**: ```12```
 
 and
 
 * **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
+
+* **Type**: ```Boolean```
+
 * **Value**: Check the box
 
 ![iPhone Demo](assets/custom-detailform/imageview-corner-radius.png)
@@ -238,7 +246,9 @@ and
 Next, select Field View 2 and add the following:
 
 * **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
+
+* **Type**: ```Number```
+
 * **Value**: ```12```
 
 ![iPhone Demo](assets/custom-detailform/fieldview2-corner-radius.png)
