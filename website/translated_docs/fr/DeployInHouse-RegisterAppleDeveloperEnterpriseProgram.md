@@ -51,35 +51,39 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 ## ÉTAPE 5. Inscrivez-vous en tant que développeur
 
-Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur. * Cliquez sur le bouton **Start your Enrollment**. * Lisez et acceptez les termes du contrat "Apple Developer Agreement". * Cliquez sur **Submit**.
+You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
+
+* Click on the **Start your Enrollment** button.
+* Read and accept the Apple Developer Agreement. 
+* Click **Submit**.
 
 ![Register as a developer](assets/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 6. Inscrivez-vous à l'Apple Developer Enterprise Program
 
-* Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program. 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
-* Cliquez sur **Continue**.
+* You can sign up for the Apple Developer Enterprise Program [here](https://developer.apple.com/enroll/enterprise/). 
+* Click on the **Start your Enrollment** button.
+* Select **Company / Organization** from the Entity Type dropdown list.
+* Click **Continue**.
 
 ![Apple Developer Enterprise Program](assets/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
-* Remplissez le formulaire. 
-* Cliquez sur **Continuer**.
+* Complete the form. 
+* Click **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 7. Vérification d’Apple
 
-* Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que vous êtes habilité à lier votre organisation aux accords juridiques de l'Apple Developer Program.
-* Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à s'inscrire à l'Apple Developer Enterprise Program.
-* Vous recevrez ensuite un autre e-mail vous invitant à finaliser l’inscription.
+* Apple has an internal verification process that usually takes up to six working days. Once Apple receives the enrollment request, they verify that you have the authority to bind your organization to the Apple Developer Program's legal agreements.
+* Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
+* You'll then receive another email inviting you to complete the enrollment process.
 
 ![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
 ## ÉTAPE 8. Finalisez votre inscription
 
-* Une fois que votre demande d’inscription a été acceptée, vous pouvez procéder au paiement.
-* Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
+* Once your enrollment request has been accepted, you can then proceed to payment.
+* When you have completed your purchase, you'll receive an email confirming your membership in the program.
 
 Félicitations  ! Vous êtes maintenant prêt à déployer votre application interne !
