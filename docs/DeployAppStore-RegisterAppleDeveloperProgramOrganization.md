@@ -7,7 +7,7 @@ title: Apple Developer Program as an Organization
 
 **OBJECTIVES**
 
-* Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
+Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
 
 </div>
 

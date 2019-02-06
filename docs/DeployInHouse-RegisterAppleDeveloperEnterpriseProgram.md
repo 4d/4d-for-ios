@@ -59,6 +59,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 ## STEP 5. Register as a developer
 
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
+
 * Click on the **Start your Enrollment** button.
 * Read and accept the Apple Developer Agreement. 
 * Click **Submit**.

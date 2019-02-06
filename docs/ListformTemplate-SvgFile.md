@@ -76,7 +76,6 @@ The searchable field is optional.
 **NOTE**
 
 All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
-
 </div>
 
 <div markdown="1" class = "tips">
@@ -85,8 +84,7 @@ All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/
 
 To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
 
-To include all types, just type ```ios:type="all"```.
-
+To include all types, just type ios:type="all".
 </div>
 
 ### SectionField area:
