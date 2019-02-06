@@ -6,7 +6,7 @@ title: Apple Developer Program pour les entreprises
 
 **OBJECTIFS**
 
-* S'inscrire à l'Apple Developer Program en tant qu'entreprise pour publier son application dans l'**App Store**.</div> <div class = "tips"> 
+Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
 
 **NOTE**
 
