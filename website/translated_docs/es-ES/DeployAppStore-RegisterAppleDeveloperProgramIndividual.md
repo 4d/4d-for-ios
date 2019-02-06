@@ -6,7 +6,7 @@ title: Apple Developer Program as an Individual
 
 **OBJETIVOS**
 
-* Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 
 ## PASO 1. Apple ID
 
