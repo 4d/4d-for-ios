@@ -26,7 +26,7 @@ L'écran de bienvenue s’affiche automatiquement pour vous aider à comprendre 
 
 Nous y sommes ! Découvrons maintenant l'architecture et l'interface de 4D for iOS.
 
-La fenêtre principale se compose de deux onglets :
+La fenêtre principale est composée de deux onglets :
 
 ## Sections
 
