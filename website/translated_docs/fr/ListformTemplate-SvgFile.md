@@ -81,9 +81,7 @@ div markdown="1" class = "tips">
 
 Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
-
-</div>
+To include all types, just type ios:type="all". </div>
 
 ### Zone SectionField :
 
@@ -105,7 +103,7 @@ Pour inclure tous les types, il suffit de taper ```ios:type="all"```.
 3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Le "section field" (champ de section) est facultatif.
+The section field is optional.
 
 ### Zone ImageField :
 
@@ -186,4 +184,4 @@ Le "section field" (champ de section) est facultatif.
 4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, nous allons passer à la partie amusante avec Xcode !
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
