@@ -117,7 +117,9 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
 * **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
-* **Type**: Always ```String``` 
+
+* **Type**: Always ```String```
+
 * **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
@@ -127,14 +129,22 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 Select the first label and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD_2___```
-* **Type**: ```String``` 
-* **Value**: ```___FIELD_2_BINDING_TYPE___``` ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
+
+* **Type**: ```String```
+
+* **Value**: ```___FIELD_2_BINDING_TYPE___```
+
+![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
 Select the second label and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD_3___```
-* **Type**: ```String``` 
-* **Value**: ```___FIELD_3_BINDING_TYPE___``` ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
+
+* **Type**: ```String```
+
+* **Value**: ```___FIELD_3_BINDING_TYPE___```
+
+![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
 You can change the **storyboard display labels** to have better visibility:
 
@@ -156,13 +166,17 @@ The last step is adding a corner radius to the Image View to have a better desig
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
-* **Type**: ```Number``` 
+
+* **Type**: ```Number```
+
 * **Value**: ```12```
 
 and
 
 * **Key Path**: ```layer.masksToBounds```
-* **Type**: ```Boolean``` 
+
+* **Type**: ```Boolean```
+
 * **Value**: Check the box
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
