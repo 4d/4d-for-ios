@@ -14,7 +14,7 @@ Cliquez [ici](prerequisites.html) pour commencer !</div>
 
 Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
-![List form template final result](assets/custom-listform/custom-template-final-result.png)
+![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
 ## Téléchargez le projet Starter
 
@@ -28,7 +28,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
     
 
 <a class="button"
-href="../assets/custom-listform/CustomListFormStarterProject.zip">PROJET STARTER LISTFORM</a>
+href="../assets/en/custom-listform/CustomListFormStarterProject.zip">PROJET STARTER LISTFORM</a>
 
   </p>
 </div>
@@ -39,13 +39,13 @@ Vous êtes maintenant prêt à créer votre premier modèle de formulaire Liste 
 
 Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list à côté du fichier Contact.4dbase. Ensuite, faites-y glisser et déposer votre dossier **list form**.
 
-![Mobile folder list form template](assets/custom-listform/mobile-folder-custom-template.png)
+![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
 Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>ouvrir>Projet mobile> **Appli demo Contacts**)
 
 Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
-![Forms section](assets/custom-listform/custom-listform-template.png)
+![Forms section](assets/en/custom-listform/custom-listform-template.png)
 
 Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List form**.
 
