@@ -10,31 +10,31 @@ Comprendre le fonctionnement d'Xcode.</div>
 
 Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
-![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
+![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
 ## Toolbar (Barre d’outils)
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné.
 
-![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé.
 
-![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
+![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
 * Sur le côté droit de la barre d’outils, vous trouverez des boutons vous permettant de modifier l’affichage.
 
-![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
+![Toolbar View buttons](assets/en/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
 ## Editor Area (Zone d’édition)
 
-![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
 C’est ici que s'effectue le codage lors de la sélection d’un fichier Swift. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
 
 ## Zone "Interface Builder"
 
-![Interface Builder Area](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 Il s’agit d’une interface graphique qui vous permet de générer un fichier Storyboard ou XIB. Toutes vos "scènes" sont visibles sur le côté gauche.
 
@@ -42,13 +42,13 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 La zone de fonctionnalités d'Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
 
-![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Inspector (Inspecteur)
 
 Dans la section des propriétés, Inspector se divise en six onglets, comme illustré ci-dessous :
 
-![Inspector pane](assets/customize-with-xcode/Xcode-Inspector-pane.png)
+![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
 De gauche à droite, ces onglets correspondent à :
 
@@ -70,7 +70,7 @@ Dans la section des propriétés, Library se divise en quatre onglets, comme ill
 
 De gauche à droite, ces onglets correspondent à :
 
-![Library pane](assets/customize-with-xcode/Xcode-Library-pane.png)
+![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **File templates (modèles de fichiers)** : Ces modèles s'appliquent aux types de fichier courants figurant dans la liste du menu "New File".
 
@@ -90,11 +90,11 @@ Plusieurs onglets sont inclus ici, notamment :
 
 * **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires pour que votre application fonctionne correctement.
 
-![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
+![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
 * **L'onglet "Search navigator" (navigateur de recherche)** : permet de rechercher tous les fichiers du projet.
 
-![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
+![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
 * **L'onglet "Issue navigator" (navigateur d'alertes)** : affiche toutes les erreurs issues d'un projet iOS.
     
@@ -103,6 +103,6 @@ Plusieurs onglets sont inclus ici, notamment :
 
 Vous pouvez cliquer sur les erreurs et les avertissements pour les visualiser dans le projet.
 
-![Issue Navigator](assets/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
+![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
 Nous allons ensuite mettre l’accent sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".
