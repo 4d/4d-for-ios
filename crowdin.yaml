@@ -9,8 +9,8 @@ files:
       locale:
         es-ES: es-ES
         fr: fr
-  - source: /docs/assets/**/*.png
-    translation: /website/translated_docs/%two_letters_code%/assets/**/%original_file_name%
+  - source: /docs/assets/en/**/*.png
+    translation: /docs/assets/%two_letters_code%/**/%original_file_name%
   - &ref_languages_mapping
     source: /website/i18n/en.json
     translation: /website/i18n/%locale%.json
