@@ -4,7 +4,7 @@ title: General
 ---
 Cette section vous permet de définir les principales informations de votre application.
 
-![General section](assets/project-editor/General-section-4D-for-iOS.png)
+![General section](assets/en/project-editor/General-section-4D-for-iOS.png)
 
 **Organisation :** Saisissez votre nom ou celui de votre entreprise.
 
