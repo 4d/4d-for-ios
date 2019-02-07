@@ -6,7 +6,7 @@ title: Apple Developer Program pour les particuliers
 
 **OBJECTIFS**
 
-Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+S'inscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
