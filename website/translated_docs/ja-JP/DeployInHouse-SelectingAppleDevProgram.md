@@ -23,4 +23,4 @@ For **test purposes** you can use a [Free Apple Developer Program](free-develope
 
 Here is a chart comparing the different levels of developer membership:
 
-![Developer membership levels](assets/test-build/FreeTestingAppleDeveloperAccount.png)
+![Developer membership levels](assets/en/test-build/FreeTestingAppleDeveloperAccount.png)
