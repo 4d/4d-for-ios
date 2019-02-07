@@ -4,7 +4,7 @@ title: Définir un filtre de recherche
 ---
 Pour le moment, si vous générez l'application du projet Starter et que vous entrez « michelle.simpson@mail.com » comme e-mail de connexion (l'un des chargés de clientèle), vous pourrez visualiser **tous les contrats et statuts des chargés de clientèle** (*Closed* and *In Progress*).
 
-![iOS app without queries](assets/restricted-queries/ios-app-without-queries.png)
+![iOS app without queries](assets/en/restricted-queries/ios-app-without-queries.png)
 
 Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle puissent consulter leurs contrats de *en cours* en se connectant à leur application mobile via leur e-mail. Pour ce faire :
 
@@ -17,7 +17,7 @@ Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle
 
 Vous devriez avoir ce résultat :
 
-![CRM database](assets/restricted-queries/filterquery.png)<div class = "tips"> 
+![CRM database](assets/en/restricted-queries/filterquery.png)<div class = "tips"> 
 
 **NOTE**
 
@@ -27,6 +27,6 @@ Vous devriez avoir ce résultat :
 
 Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 
-![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
+![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
 
 Cela ne correspond pas tout à fait à ce que nous avions prévu ! A présent, nous souhaitons visualiser uniquement les contrats *In Progress* de chaque chargé de clientèle. Finalisons donc notre recherche !
