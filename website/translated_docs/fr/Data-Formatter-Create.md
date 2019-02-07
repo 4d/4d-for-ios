@@ -26,7 +26,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
     
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormatterStarterProject.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
+href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 
   </p>
 </div>
@@ -37,7 +37,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau que les données Task Management.4dbase.
 
-![Formatter folder](assets/custom-formatter/formatter-folder.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
 ## Formats des entiers
 
@@ -46,7 +46,7 @@ Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau qu
 * Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
 * Créez ensuite un fichier **manifest.json** dans le dossier **integerToString**.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
 Regardons le contenu du fichier **manifest.json** :
 
@@ -76,11 +76,11 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
 * Créez ensuite un dossier **Images** dans le dossier **integerToImage**. Vous pouvez ajouter les images de **integerToImage_Images** (dans StarterProject.zip) dans ce nouveau dossier.
 
-![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
 Regardons le contenu du fichier **manifest.json** :
 
@@ -120,7 +120,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un fichier **manifest.json** dans le dossier **textToString**.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
 Regardons le contenu du fichier **manifest.json** :
 
@@ -150,11 +150,11 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un fichier **manifest.json** dans le dossier **integerToImage**.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
 * Créez ensuite un dossier **Images** dans le dossier **textToImage**. Vous pouvez ajouter les images de **textToImage_Images** (dans StarterProject.zip) dans ce nouveau dossier.
 
-![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
 Regardons le contenu du fichier **manifest.json** :
 
@@ -192,13 +192,13 @@ Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de proje
 * Sélectionnez le format **integerToImage** pour **Task Status**
 * Sélectionnez le format **textToImage** pour **Manager**
 
-![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
+![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## Créer votre application 4D for iOS
 
 Créez votre application 4D for iOS et vous constaterez que vos formats de données s'appliquent correctement en fonction du "credit limit".
 
-![Text formatter](assets/custom-formatter/formatters-final-result.png)
+![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
 Cliquez sur le **FORMAT FINAL** ci-dessous pour télécharger le dossier définitif des modèles de formats.
 
@@ -207,7 +207,7 @@ Cliquez sur le **FORMAT FINAL** ci-dessous pour télécharger le dossier défini
     
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
+href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
 
   </p>
 </div>
