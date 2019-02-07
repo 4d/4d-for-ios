@@ -21,10 +21,16 @@ function imgUrl(img) {
 }
 
 function docUrl(doc, language) {
+  if (language == undefined) {
+    language = languageFix;
+  }
   return siteConfig.baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
 }
 
 function pageUrl(page, language) {
+  if (language == undefined) {
+    language = languageFix;
+  }
   return siteConfig.baseUrl + (language ? language + '/' : '') + page;
 }
 
@@ -99,12 +105,12 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
+    <GridBlock contents={props.children} layout={props.layout} />
 
   </Container>
 );
 
-const Features = props => 
+const Features = props =>
 
  (
   <Block layout="fourColumn">
@@ -148,7 +154,7 @@ const FeatureCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/overview.html', props.language)}>
+    <a className="button" href={docUrl('overview.html', props.language)}>
           <translate>Overview</translate>
         </a>
 
@@ -159,7 +165,7 @@ const FeatureCallout = props => (
 const BuildYourApp = props => (
 
   <Block id="whiteBloc">
- 
+
     {[
       {
         image: imgUrl('Create-iOS-app-from-scratch.png'),
@@ -178,7 +184,7 @@ const BuildYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/create-new-project.html', props.language)}>
+    <a className="button" href={docUrl('create-new-project.html', props.language)}>
           <translate>Create your app</translate>
         </a>
 
@@ -188,7 +194,7 @@ const BuildYourAppCallout = props => (
 const TestYourApp = props => (
 
   <Block id="greyBloc">
- 
+
     {[
       {
         image: imgUrl('simulator.png'),
@@ -207,9 +213,9 @@ const TestYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/simulator.html', props.language)}>
+    <a className="button" href={docUrl('simulator.html', props.language)}>
     <translate>Test your app</translate>
-        </a>
+    </a>
 
   </div>
 );
@@ -235,7 +241,7 @@ const DeployCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/deployment.html', props.language)}>
+    <a className="button" href={docUrl('deployment.html', props.language)}>
         <translate>Deploy your App</translate>
         </a>
 
@@ -244,12 +250,12 @@ const DeployCallout = props => (
 
 
 
-
+var languageFix = undefined; // keep globally the language to fix issue with prop not defined
 
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
-
+    languageFix = language;
     return (
       <div>
         <HomeSplash language={language} />
