@@ -5,10 +5,10 @@ title: Publication
 C’est ici que vous pourrez définir ou créer votre application :
 
 * Paramètres du serveur Web
-* Mpde d’authentification 
+* Mode d’authentification 
 * Méthode d’authentification
 
-![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
+![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
 
 ## Paramètres du serveur Web<div class = "tips"> 
 
@@ -92,7 +92,7 @@ Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT
     
 
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
 
   </p>
 </div>
@@ -103,12 +103,12 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
 * La fenêtre d'applications apparaitra et affichera toutes vos applications : 
 
-![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
+![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
 * Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
 * Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
 
-![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
+![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
 * Le bouton **Push** met à jour la session dans la mémoire.
 * Le bouton **Refresh** met à jour la liste de sessions. 
@@ -123,4 +123,4 @@ Les paramètres vous permettent :
 * de définir votre URL de serveur
 * de vous déconnecter (si vous étiez connecté en tant qu'utilisateur autorisé)
 
-![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
+![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
