@@ -8,11 +8,11 @@ Cette section vous permet :
 * d'effectuer une **regénération** automatique **des données** à chaque génération de votre application ou d'effectuer une génération manuelle, et
 * de filtrer les données à faire figurer dans votre application en fonction des **filtres de recherche généraux** ou des **informations utilisateur**. 
 
-![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
 ## Source des données
 
-![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
 Cette partie vous permet de définir vos **sources de données**. Vous pouvez lire les données à partir du **Fichier de données courant** ou bien à partir du **Fichier de données du serveur de production**.
 
@@ -34,7 +34,7 @@ Si vous cochez l'option **Ne pas regénérer les données à chaque génération
 
 ## Propriétés
 
-![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
 Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
@@ -42,7 +42,7 @@ Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table,
 
 Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
-* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche". Vous pouvez également affiner votre recherche à l'aide des onglets Champs, Comparateurs et Opérateurs, situés juste au-dessus du filtre de recherche (qui apparaissent à la suite d'un clic dans le champ Filtre de recherche). 
 
 * Vous devez ensuite valider votre recherche. La validation doit être effectuée chaque fois que vous modifiez le filtre de recherche (une recherche modifiée et non validée apparaîtra en rouge dans l’éditeur de projet).
 
