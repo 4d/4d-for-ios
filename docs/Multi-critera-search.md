@@ -36,12 +36,12 @@ There you go! The class is the only thing you need to modify for the multi-searc
 
 Next, you can go to the project editor and drop several fields into the list form search area.
 
-![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
+![Multi-criteria search in the project editor](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
 
 Click on the search field's delete button to modifiy the associated field list. 
 
 A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on. 
 
-![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
+![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
 Congratulations! You can now base your search(es) on multiple fields in your 4D for iOS app!

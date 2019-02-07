@@ -21,7 +21,7 @@ Click [here](prerequisites.html) to see what you'll need to get started!
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
-![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
+![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
 ## Download the Starter Project
 
@@ -32,7 +32,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/custom-detailform/CustomDetailFormStarterProject.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="../assets/en/custom-detailform/CustomDetailFormStarterProject.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first detail form template !
@@ -41,13 +41,13 @@ You are now ready to create your first detail form template !
 
 First, create a .../Resources/Mobile/form/detail folder next to the Contact.4dbase data and drag and drop the **Custom Detail form** folder in it.
 
-![Mobile folder custom template](assets/custom-detailform/mobile-folder-custom-template.png)
+![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
 Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... to open the **Contact Demo App** 
 
 Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
 
-![Forms section](assets/custom-detailform/custom-detailform-template.png)
+![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
 
 Now let's focus on the **Custom Detail form** folder content.
 

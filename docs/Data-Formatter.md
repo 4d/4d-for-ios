@@ -23,6 +23,6 @@ Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="../assets/en/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
 </div>
 

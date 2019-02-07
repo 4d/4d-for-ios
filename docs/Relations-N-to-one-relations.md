@@ -18,7 +18,7 @@ Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
 </div>
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
@@ -33,22 +33,22 @@ Then go right to your Structure section and select the **Task table**.
 
 * Select the **Name field**
 
-![Select link from structure section](assets/relations/select-link-from-structure.png)
+![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
 * This field will operate as any other field for the rest of the app creation process
 
 * You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
-![Related field from Labels and Icons section](assets/relations/related-field-from-labels-icons.png)
+![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
 * Go to the the Forms section and drag the field on the Task Detail form
 
-![Related field in Forms section](assets/relations/related-field-forms.png)
+![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
 * Build and Run
 
 You should see your related field in your app detail form !
 
-![Related field in Forms section](assets/relations/final-result-n-to-one-relations.png)
+![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)
 
 

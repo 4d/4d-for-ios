@@ -9,7 +9,7 @@ This is where you'll define long and short labels, as well as icons, for your ta
 * **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for commerce, finance, education, government, health, industry, real estate, services, etc.
 * **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
 
-![Labels & Icons section](assets/project-editor/Labels-icons-section-4D-for-iOS.png)
+![Labels & Icons section](assets/en/project-editor/Labels-icons-section-4D-for-iOS.png)
 
 <div markdown="1" class = "tips">
 

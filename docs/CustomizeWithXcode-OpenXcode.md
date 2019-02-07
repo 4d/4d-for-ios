@@ -27,7 +27,7 @@ Download the Starter Project!
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/en/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 
 ## STEP 1. Generate your iOS Project
@@ -42,7 +42,7 @@ From the Project Editor BUILD tab:
 * Select the device to use as a Simulator by clicking on the device button.
 * Click the **Build and Run** button.
 
-![Build and Run](assets/customize-with-xcode/build-and-run-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
 ## STEP 3. Open your Project with Xcode
 
@@ -50,6 +50,6 @@ From the Project Editor BUILD tab:
 
 * Click on Project > Open the project with Xcode
 
-![Open your Project with Xcode](assets/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![Open your Project with Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
 Now you're ready to start working on your 4D for iOS project in Xcode, keep reading to learn how!

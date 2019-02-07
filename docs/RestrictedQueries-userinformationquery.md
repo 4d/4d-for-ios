@@ -11,7 +11,7 @@ Now let's filter our app content depending on the account manager's login email 
 * Now define the user information you want to get from the database method, **:email**.
 * Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
 
-![User information query](assets/restricted-queries/user-information-query.png)
+![User information query](assets/en/restricted-queries/user-information-query.png)
 
 ```
 Status = 'In Progress' & manager.Email = :email 
@@ -36,11 +36,11 @@ $response.userInfo:=New object("email";$request.email)
 
 This will allow retrieving the manager's login email address and displaying data depending on that criteria.
 
-![User information query](assets/restricted-queries/database-method-user-information-query.png)
+![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
 
 Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
-![Final result](assets/restricted-queries/restricted-queries-final-result.png)
+![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
 
 
 

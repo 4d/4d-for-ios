@@ -29,7 +29,7 @@ Before we begin, be sure to download the **Starter Project** which includes a **
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">STARTER PROJECT</a>
+href="../assets/en/restricted-queries/4DforiOSQueries.4dbase.zip">STARTER PROJECT</a>
 </div>
 
 The database includes a:
@@ -37,7 +37,7 @@ The database includes a:
 * **CRM table** with all the data we want to display in the generated iOS app
 * **AccountManager table** with basic information about the account managers (email and name).
 
-![CRM database](assets/restricted-queries/CRMDatabase.png)
+![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
 <div markdown="1" class = "tips">
 

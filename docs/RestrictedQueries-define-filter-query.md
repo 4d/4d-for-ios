@@ -5,7 +5,7 @@ title: Define a filter query
 
 For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
 
-![iOS app without queries](assets/restricted-queries/ios-app-without-queries.png)
+![iOS app without queries](assets/en/restricted-queries/ios-app-without-queries.png)
 
 As we discussed earlier, we want the account managers to access their *In Progress* contracts by logging into their mobile app with their email. To do this:
 
@@ -18,7 +18,7 @@ As we discussed earlier, we want the account managers to access their *In Progre
 
 You should have this result:
 
-![CRM database](assets/restricted-queries/filterquery.png)
+![CRM database](assets/en/restricted-queries/filterquery.png)
 
 <div markdown="1" class = "tips">
 
@@ -32,7 +32,7 @@ You should have this result:
 
 If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
-![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
+![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
 
 Not exactly what we expected! What we want now is for each account manager to visualize only their own *In Progress* contracts, so let's complete our query!
 

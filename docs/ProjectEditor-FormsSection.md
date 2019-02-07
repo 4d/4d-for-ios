@@ -13,7 +13,7 @@ Here's the breakdown of this screen, from top to bottom:
 * **Published tables:** Displays all tables published in the Structure section. 
 * **Available Forms:** Allows switching between template selection and content definition.
 
-![List form template selection](assets/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
+![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
 ## List Form definition
 
@@ -24,15 +24,15 @@ Once done, the content definition screen appears.
 You can then drag and drop the fields from the Fields list directly onto the Model displayed on the right.
 Most of the list forms include optional Search and Section fields.
 
-![List form content definition](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
+![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
 ## Detail Form definition
 
-![Detail form template selection](assets/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
+![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
 As with the List Form definition, select a template and drag and drop your fields onto your detail form.
 
-![Detail form content definition](assets/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
+![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
 You can add as few as 2 or as many as 10 fields for most of the List Forms.
 

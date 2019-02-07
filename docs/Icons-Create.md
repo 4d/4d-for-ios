@@ -10,6 +10,6 @@ For this tutorial, you can download the following icons:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
+href="../assets/en/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
 </div>
 

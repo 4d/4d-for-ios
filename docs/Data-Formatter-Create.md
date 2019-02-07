@@ -30,7 +30,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
 </div>
 
 You're now ready to create your first formatters!
@@ -39,7 +39,7 @@ You're now ready to create your first formatters!
 
 First, create a .../Resources/Mobile/formatters folder at the same level as the Task Management.4dbase data.
 
-![Formatter folder](assets/custom-formatter/formatter-folder.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
 ## Integer formatters
 
@@ -48,7 +48,7 @@ First, create a .../Resources/Mobile/formatters folder at the same level as the 
 * Create an **integerToString** folder in the formatters folder you've just created.
 * Then create a **manifest.json** file in the **integerToString** folder.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-integertostring.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
 Let's look at the contents of the **manifest.json** file:
 
@@ -79,11 +79,11 @@ Let's look at the contents of the **manifest.json** file:
 
 * Create a **manifest.json** file in the **integerToImage** folder.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-integertoimage.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
 * Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
 
-![Formatter images](assets/custom-formatter/formatter-images-integertoimage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
 Let's look at the contents of the **manifest.json** file:
 
@@ -124,7 +124,7 @@ Let's look at the contents of the **manifest.json** file:
 
 * Create a **manifest.json** file in the **textToString** folder.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-texttostring.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
 Let's look at the contents of the **manifest.json** file:
 
@@ -155,11 +155,11 @@ Let's look at the contents of the **manifest.json** file:
 
 * Create a **manifest.json** file in the **integerToImage** folder.
 
-![Formatter folder](assets/custom-formatter/formatter-folder-textToImage.png)
+![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
 * Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
 
-![Formatter images](assets/custom-formatter/formatter-images-textToImage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
 Let's look at the contents of the **manifest.json** file:
 
@@ -199,18 +199,18 @@ Next, go to the **Labels & Icons section** in the project editor. All of your fo
 * Select the **integerToImage** formatter for the **Task Status**
 * Select the **textToImage** formatter for the **Manager**
 
-![Text formatter](assets/custom-formatter/formatters-icons-&-labels.png)
+![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## Build your 4D for iOS app
 
 Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
-![Text formatter](assets/custom-formatter/formatters-final-result.png)
+![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
 Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="../assets/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
 </div>
