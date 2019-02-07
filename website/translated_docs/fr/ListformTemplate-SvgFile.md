@@ -6,7 +6,7 @@ Le fichier template.svg est une représentation visuelle basique d’un modèle.
 
 Voici une version finale :
 
-![Template svg file](assets/custom-listform/template-svg-file.png)
+![Template svg file](assets/en/custom-listform/template-svg-file.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
