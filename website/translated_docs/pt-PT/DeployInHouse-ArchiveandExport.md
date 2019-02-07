@@ -26,7 +26,7 @@ Xcode will automatically install required provisioning and certificates.
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
-![Get your Team ID](assets/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## STEP 3. 4D for iOS configuration
 
@@ -36,7 +36,7 @@ Xcode will automatically install required provisioning and certificates.
     
     * General: Enter your Team ID.
     
-    ![Enterprise-Team-ID](assets/deploy-in-house/Enterprise-Team-ID.png)
+    ![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
     
     * Publishing: Enter your production URL (HTTPS is mandatory for deployment).
 
@@ -48,17 +48,17 @@ Xcode will automatically install required provisioning and certificates.
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
-![pen your project with Xcode ](assets/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## PASSO 5. Archive your project from Xcode
 
 * From Xcode, go to the simulator Menu and select **Generic iOS Device**
 
-![Generic iOS Device](assets/deploy-in-house/Deployment-Generic-iOS-Device.png)
+![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
 * Then from the menu, click on Product and select **Archive**
 
-![Archive your Project](assets/deploy-in-house/Archive-your-Project.png)
+![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
 ## PASSO 6. Export your project
 
@@ -66,19 +66,19 @@ Xcode will automatically install required provisioning and certificates.
 
 * Click **Export**.
 
-![Export your project](assets/deploy-in-house/Organizer-window-archive.png)
+![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## PASSO 7. Select your distribution method
 
 * Select **Enterprise** and click **Next**.
 
-![Distribution Method](assets/deploy-in-house/Distribution-Method-selection.png)
+![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
 ## PASSO 8. Select your Enterprise distribution options
 
 * You can leave all option boxes checked.
 
-![Enterprise distribution options](assets/deploy-in-house/Enterprise-distribution-options.png)
+![Enterprise distribution options](assets/en/deploy-in-house/Enterprise-distribution-options.png)
 
 * You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
 
@@ -146,7 +146,7 @@ Here is an example of a manifest.plist file :
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
 
-![Distribution manifest information](assets/deploy-in-house/Distribution-manifest-information.png)
+![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Click **Next**. 
 
@@ -154,7 +154,7 @@ Here is an example of a manifest.plist file :
 
 * Let Xcode manage the **Automatically manage signing** option.
 
-![Re-sign your application](assets/deploy-in-house/Re-sign-your-application.png)
+![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
 
 * Click **Next**.
 
@@ -162,6 +162,6 @@ Here is an example of a manifest.plist file :
 
 * Here you can verify that your application identifier is correct as well as your Team ID.
 
-![Review your app.ipa content](assets/deploy-in-house/Review-ipa-content.png)
+![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Click on **Export** and select where to save your app folder on your computer.
