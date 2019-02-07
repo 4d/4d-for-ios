@@ -116,11 +116,11 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 ![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path **: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
 
-* **Type**: Always ```String```
+* **Type **: Toujours ```String```
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
 
@@ -128,66 +128,66 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_2___```
+* **Key Path **: ```bindTo.record.___FIELD_2___```
 
-* **Type**: ```String```
+* **Type **: ```String```
 
-* **Value**: ```___FIELD_2_BINDING_TYPE___```
+* **Value **: ```___FIELD_2_BINDING_TYPE___```
 
 ![Field 2 Binding](assets/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_3___```
+* **Key Path **: ```bindTo.record.___FIELD_3___```
 
-* **Type**: ```String```
+* **Type **: ```String```
 
-* **Value**: ```___FIELD_3_BINDING_TYPE___```
+* **Value **: ```___FIELD_3_BINDING_TYPE___```
 
 ![Field 3 Binding](assets/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
 
 * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
 * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
-Here is the simulator result :
+Voici le résultat du simulateur :
 
 ![Simulator result](assets/custom-listform/simulator-result.png)
 
 ## Personnaliser votre application
 
-The last step is adding a corner radius to the Image View to have a better design.
+La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour améliorer la conception.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
-* **Key Path**: ```cornerRadius```
+* **Key Path **: ```cornerRadius```
 
-* **Type**: ```Number```
+* **Type **: ```Number```
 
-* **Value**: ```12```
+* **Value **: ```12```
 
-and
+et
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path **: ```layer.masksToBounds```
 
-* **Type**: ```Boolean```
+* **Type **: ```Boolean```
 
-* **Value**: Check the box
+* **Value** : Cochez la case
 
 ![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
 
-You can now build your project from the project editor!
+Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 ![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
 ## Que faire ensuite ?
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
