@@ -11,7 +11,7 @@ Il est fortement recommandé de disposer d'icônes colorées (autres que la coul
     
 
 <a class="button"
-href="../assets/custom-icons/Custom-Icons.zip">ICÔNES PERSONNALISÉES</a>
+href="../assets/en/custom-icons/Custom-Icons.zip">ICÔNES PERSONNALISÉES</a>
 
   </p>
 </div>
