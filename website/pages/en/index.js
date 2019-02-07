@@ -105,6 +105,16 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
+    <GridBlock align="center" contents={props.children} layout={props.layout} />
+
+  </Container>
+);
+
+const BlockNoAlign = props => (
+  <Container
+    padding={['bottom', 'top']}
+    id={props.id}
+    background={props.background}>
     <GridBlock contents={props.children} layout={props.layout} />
 
   </Container>
@@ -164,7 +174,7 @@ const FeatureCallout = props => (
 
 const BuildYourApp = props => (
 
-  <Block id="whiteBloc">
+  <BlockNoAlign id="whiteBloc">
 
     {[
       {
@@ -175,7 +185,7 @@ const BuildYourApp = props => (
       },
     ]}
 
-  </Block>
+  </BlockNoAlign>
 
 );
 
@@ -193,7 +203,7 @@ const BuildYourAppCallout = props => (
 
 const TestYourApp = props => (
 
-  <Block id="greyBloc">
+  <BlockNoAlign id="greyBloc">
 
     {[
       {
@@ -204,7 +214,7 @@ const TestYourApp = props => (
       },
     ]}
 
-  </Block>
+  </BlockNoAlign>
 
 );
 
@@ -223,7 +233,7 @@ const TestYourAppCallout = props => (
 
 
 const Deploy = props => (
-  <Block id="whiteBloc">
+  <BlockNoAlign id="whiteBloc">
 
     {[
       {
@@ -233,7 +243,7 @@ const Deploy = props => (
         title: <translate>Deploy your App</translate>,
       },
     ]}
-  </Block>
+  </BlockNoAlign>
 );
 
 const DeployCallout = props => (
