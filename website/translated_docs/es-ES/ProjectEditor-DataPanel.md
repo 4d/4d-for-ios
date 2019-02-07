@@ -42,7 +42,7 @@ In this panel, you can define all the filters for each table based on **defined 
 
 You can define filters per table which depend on field values:
 
-* First, enter your query in the dedicated field by typing it directly in the query field. You can also compose your query using fields, comparators, and operators which are available just above the query field when it's in focus. This can be helpfull defining your query
+* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
 
 * Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
 
