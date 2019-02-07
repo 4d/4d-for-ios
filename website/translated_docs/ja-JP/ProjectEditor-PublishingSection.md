@@ -8,7 +8,7 @@ This is where you define or create your app's:
 * Authentication Mode 
 * Authentication Method
 
-![Publishing section](assets/project-editor/Publishing-section-4D-for-iOS.png)
+![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
 
 ## Web Server Settings<div class = "tips"> 
 
@@ -92,7 +92,7 @@ Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
     
 
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 
   </p>
 </div>
@@ -103,12 +103,12 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
 * The Apps window will appear displaying all of your apps: 
 
-![Mobile App Session Management](assets/session-management/Mobile-App-Session-Management.png)
+![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
 * Right click on a session to reveal the session file in the Finder or delete it.
 * You can change and define the session status for each device: accepted or pending
 
-![Mobile App Session selection](assets/session-management/Mobile-App-Session-Management-selected.png)
+![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
 * The **Push** button will update the session in memory.
 * The **Refresh** button updates the session list. 
@@ -123,4 +123,4 @@ Settings allows you to:
 * Define your server URL
 * Log out (if connected as an Authorized User)
 
-![Login & Settings screen](assets/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
+![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
