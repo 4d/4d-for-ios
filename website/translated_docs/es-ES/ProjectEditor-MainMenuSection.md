@@ -6,4 +6,4 @@ title: Main Menu
 
 * By default, all selected tables from the Structure section will be added to your app’s menu. You can then drag and drop them to add, delete, and reorder them.
 
-![Main menu section](assets/project-editor/Main-menu-section-4D-for-iOS.png)
+![Main menu section](assets/en/project-editor/Main-menu-section-4D-for-iOS.png)
