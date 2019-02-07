@@ -8,11 +8,11 @@ This section allows you to:
 * automatically **regenerate data** each time you build your app or generate it manually, and
 * filter data to vizualize in your app depending on **general filter queries** or **user information**. 
 
-![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
 ## Data source panel
 
-![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
 This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
 
@@ -34,7 +34,7 @@ When the **Do not regenerate data at each build** option is checked, you can sav
 
 ## Properties panel
 
-![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
 In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
 
