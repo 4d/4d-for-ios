@@ -30,28 +30,28 @@ Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & 
 
 * Définissez le nom et le Bundle ID de votre application.
 
-![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
+![App ID](assets/en/deploy-app-store/Developer-account-App-ID.png)
 
 * Définissez les services d’application ("App Services") à inclure dans votre application
 
-![App Services](assets/deploy-app-store/App-Services-to-include.png)
+![App Services](assets/en/deploy-app-store/App-Services-to-include.png)
 
 * Confirmez votre identifiant d'application en cliquant sur **Register**.
 
-![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
+![Confirm App ID](assets/en/deploy-app-store/Confirm-App-ID.png)
 
 ## ÉTAPE 2. Identifiez-vous sur l'App Store Connect
 
 * Connectez-vous à votre [compte App Store Connect](https://appstoreconnect.apple.com)
 * Cliquez sur **My Apps**.
 
-![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
+![App Store Connect](assets/en/deploy-app-store/App-Store-Connect-home-page.png)
 
 ## ÉTAPE 3. Créez une nouvelle application iOS
 
 Cliquez sur le signe **"+"** dans la partie supérieur gauche pour créer une nouvelle application iOS.
 
-![Create a new iOS App](assets/deploy-app-store/Create-new-iOS-App.png)
+![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
 Ajoutez les informations suivantes :
 
@@ -62,7 +62,7 @@ Ajoutez les informations suivantes :
 * **SKU** : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
 * **Limit User Access (optionnel)** : limitez aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.
 
-![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
+![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
 
 **NOTE**
 
@@ -76,7 +76,7 @@ Dans App Store Connect > App Information :
 * Entrez un sous-titre pour votre application. Celui-ci apparaîtra en-dessous du nom de votre application dans l’App Store d'iOS 11.
 * Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.
 
-![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
+![App information](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## ÉTAPE 5. Prix et disponibilité
 
@@ -94,7 +94,7 @@ Dans **Version Information**, renseignez tous les atouts de votre application qu
 
 Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).</div> 
 
-![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
@@ -106,7 +106,7 @@ Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > Ne
 
 Dans la section **iOS App** :
 
-![iOS App section](assets/deploy-app-store/Prepare-for-submission-build-icon.png)
+![iOS App section](assets/en/deploy-app-store/Prepare-for-submission-build-icon.png)
 
 Localisez les versions de votre produit dans **Build**.
 
@@ -116,7 +116,7 @@ Localisez les versions de votre produit dans **Build**.
 
 Les sections **App Review Information** et **Version Release** contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.
 
-![App Review Information](assets/deploy-app-store/Prepare-for-submission-review-information.png)
+![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
 * **App Review Information** : Coordonnées et informations de sécurité confidentielles. 
 * **Version Release** : Indique s'il s'agit d'une publication automatique ou manuelle.
