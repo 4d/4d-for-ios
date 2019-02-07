@@ -10,7 +10,7 @@ Nous allons maintenant filtrer le contenu de notre application en fonction de l'
 * Définissez maintenant les informations utilisateur (**: email**) que vous souhaitez obtenir à partir de la méthode de base de données.
 * Souvenez-vous de valiser la recherche en cliquant sur le bouton **Validate**. Sinon, vous ne pourrez plus créer votre application.
 
-![User information query](assets/restricted-queries/user-information-query.png)
+![User information query](assets/en/restricted-queries/user-information-query.png)
 
     Status = 'In Progress' & manager.Email = :email 
     
@@ -29,8 +29,8 @@ Ajoutez la ligne suivante dans la méthode de base de données :
 
 Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.
 
-![User information query](assets/restricted-queries/database-method-user-information-query.png)
+![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
 
 Maintenant, si vous générez votre application et que vous entrez « michelle.simpson@mail.com » en tant qu'e-mail de connexion, vous trouverez tous les contrats *"In progress"* de Michelle Simpson.
 
-![Final result](assets/restricted-queries/restricted-queries-final-result.png)
+![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
