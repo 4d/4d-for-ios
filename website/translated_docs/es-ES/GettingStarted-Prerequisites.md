@@ -27,12 +27,12 @@ Apple configurator 2 requires **macOS 10.14** or later. Install this software if
 
 * In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
 
-![Use object notation](assets/prerequisites/Use-object-notation.png)
+![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
 * Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
 
-![Web Configuration](assets/prerequisites/Web-Configuration.png)
+![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
 
 * Your Web Server must be started. It's available from the Run menu:
 
-![Start web server](assets/prerequisites/Start-web-server.png)
+![Start web server](assets/en/prerequisites/Start-web-server.png)
