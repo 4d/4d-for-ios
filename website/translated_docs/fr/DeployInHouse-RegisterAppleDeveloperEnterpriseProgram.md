@@ -22,13 +22,13 @@ Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
 * Entrez le code de vérification pour valider la création de votre compte.
 
-![Register developer program](assets/deploy-in-house/Register-developer-program-4D-for-iOS.png)
+![Register developer program](assets/en/deploy-in-house/Register-developer-program-4D-for-iOS.png)
 
 * Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
@@ -41,13 +41,13 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numéro D-U-N-S.
 
-![Request a D-U-N-S Number](assets/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
+![Request a D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Remplissez le formulaire.
 * Cliquez sur **Continue**.
 * Vérifiez votre e-mail pour obtenir le numéro D-U-N-S.
 
-![D-U-N-S Number](assets/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
+![D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
 ## ÉTAPE 5. Inscrivez-vous en tant que développeur
 
@@ -57,7 +57,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 * Lisez et acceptez les termes du contrat "Apple Developer Agreement". 
 * Cliquez sur **Submit**.
 
-![Register as a developer](assets/deploy-in-house/Register-developer-4D-for-iOS.png)
+![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 6. Inscrivez-vous à l'Apple Developer Enterprise Program
 
@@ -66,12 +66,12 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 * Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
 * Cliquez sur **Continue**.
 
-![Apple Developer Enterprise Program](assets/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
+![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
 * Remplissez le formulaire. 
 * Cliquez sur **Continue**.
 
-![Apple Developer Enterprise Program Enrollment](assets/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
+![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 7. Vérification d’Apple
 
@@ -79,7 +79,7 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 * Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à s'inscrire à l'Apple Developer Enterprise Program.
 * Vous recevrez ensuite un autre e-mail vous invitant à finaliser l’inscription.
 
-![Apple verification](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
+![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
 ## ÉTAPE 8. Finalisez votre inscription
 
