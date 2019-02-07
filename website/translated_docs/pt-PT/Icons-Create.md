@@ -11,7 +11,7 @@ It's highly recommended having colored versions of your custom icons to better v
     
 
 <a class="button"
-href="../assets/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
+href="../assets/en/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
 
   </p>
 </div>
