@@ -42,7 +42,7 @@ Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table,
 
 Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
-* Tout d’abord, effectuez une recherche en la saisissant directement dans le champ "Filtre de recherche". Vous pouvez également affiner votre recherche à l'aide des onglets Champs, Comparateurs et Opérateurs, situés juste au-dessus du filtre de recherche (qui apparaissent à la suite d'un clic dans le champ Filtre de recherche). 
+* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
 
 * Vous devez ensuite valider votre recherche. La validation doit être effectuée chaque fois que vous modifiez le filtre de recherche (une recherche modifiée et non validée apparaîtra en rouge dans l’éditeur de projet).
 
