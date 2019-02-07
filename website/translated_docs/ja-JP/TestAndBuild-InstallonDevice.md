@@ -33,7 +33,7 @@ Let's go through the process...
 
 ## ステップ 2 - Xcode configuration
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
 ## ステップ 3 - Get your Team ID
 
@@ -46,15 +46,15 @@ Let's go through the process...
 
 * Open your current project from the BUILD tab.
 
-![Build tab](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png)
+![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
 * Verify that the **Automatically manage signing** option is checked and select the account you added [here](free-developer-account.html) from the Team dropdown list.
 
-![Account-Selection](assets/test-build/account-Selection-Free-Account.png)
+![Account-Selection](assets/en/test-build/account-Selection-Free-Account.png)
 
 * Connect your device to your computer and select it from the top menu in Xcode.
 
-![Select your device](assets/test-build/select-device-Free-Account.png)
+![Select your device](assets/en/test-build/select-device-Free-Account.png)
 
 * Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
 
@@ -62,13 +62,13 @@ Let's go through the process...
 
 * Press the Build and run Button from Xcode !
 
-![Build and Run](assets/test-build/Build-Run-Free-Account.png)
+![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## STEP 5. Team ID for paid subscription account
 
-* **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/test-build/Team-ID-4D-for-iOS.png)
+* **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/en/test-build/Team-ID-4D-for-iOS.png)
 
-* **4D for iOS**: Launch 4D for iOS in Sections > General and enter your Team ID. ![General section](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* **4D for iOS**: Launch 4D for iOS in Sections > General and enter your Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
 * Go to STEP 6 to run your project on your device.
 
@@ -80,7 +80,7 @@ Let's go through the process...
 * Connect your device to your computer with a USB cable.
 * From the BUILD tab, click on **Install**.
 
-![Install button](assets/test-build/Install-button-build-tab-4D-for-iOS.png)
+![Install button](assets/en/test-build/Install-button-build-tab-4D-for-iOS.png)
 
 * The app is being installed on your device!
 
@@ -90,18 +90,18 @@ Let's go through the process...
 * Connect your device to your computer with a USB cable.
 * From the BUILD tab, click on **Install**.
 
-![Manual installation](assets/test-build/Manual-installation-4D-for-iOS.png)
+![Manual installation](assets/en/test-build/Manual-installation-4D-for-iOS.png)
 
 * An archive of your project is created
 
-![Archive creation](assets/test-build/Archive-creation.png)
+![Archive creation](assets/en/test-build/Archive-creation.png)
 
 * Reveal the generated archive in Finder
 
-![Reveal archive in Finder](assets/test-build/Reveal-archive-in-Finder.png)
+![Reveal archive in Finder](assets/en/test-build/Reveal-archive-in-Finder.png)
 
 * Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
 
-![Devices and Simulators](assets/test-build/Devices-and-Simulators-4D-for-iOS.png)
+![Devices and Simulators](assets/en/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
 * The app is being installed on your device!
