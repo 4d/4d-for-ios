@@ -30,12 +30,12 @@ Et voilà ! La classe est la seule chose que vous devez modifier pour activer l
 
 Vous pouvez allez ensuite dans l’éditeur de projet et déposer plusieurs champs dans la zone de recherche du formulaire liste.
 
-![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
+![Multi-criteria search in the project editor](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
 
 Cliquez sur le bouton "delete" du champ de recherche pour modifier la liste des champs associés.
 
 Un menu s’affichera pour vous permettre de **retirez champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
 
-![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
+![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
 Félicitations ! Vous pouvez maintenant baser votre ou vos recherche(s) sur plusieurs champs dans votre application 4D for iOS !
