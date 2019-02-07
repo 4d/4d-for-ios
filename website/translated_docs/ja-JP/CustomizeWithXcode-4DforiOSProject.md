@@ -15,10 +15,10 @@ Instead, you'll find a Swift file and a Storyboard file. These files are describ
 
 ### A Swift file - which can be used to add custom code.
 
-![Swift file](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
+![Swift file](assets/en/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
 ### Storyboard file - Allows customizing your app design.
 
-![Storyboard file](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
+![Storyboard file](assets/en/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
 Next, let's look at how to customize the Contacts application detail view!
