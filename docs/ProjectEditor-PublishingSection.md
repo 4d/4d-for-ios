@@ -13,6 +13,10 @@ This is where you define or create your app's:
 
 ## Web Server Settings
 
+Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+
+Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
+
 <div markdown="1" class = "tips">
 
 **NOTE**
@@ -22,10 +26,6 @@ This is where you define or create your app's:
 * If both HTTP and HTTPS are activated, HTTP is used.
 
 </div>
-
-Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
-
-Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
 
