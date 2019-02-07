@@ -23,4 +23,4 @@ Les différences majeures entre les deux programmes sont :
 
 Voici un tableau comparatif des différentes catégories d’adhésion en tant que développeur :
 
-![Developer membership levels](assets/test-build/FreeTestingAppleDeveloperAccount.png)
+![Developer membership levels](assets/en/test-build/FreeTestingAppleDeveloperAccount.png)
