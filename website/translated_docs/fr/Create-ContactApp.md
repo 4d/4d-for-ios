@@ -138,7 +138,7 @@ Passons maintenant à la phase la plus amusante ! Il est temps de créer votre a
 
 ## ÉTAPE 10. Que faire ensuite ?
 
-Nous avons fait le tour des bases de la création d’une application dans ce tutoriel. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous allez apprendre à créer une application plus complexe. Cliquez sur **Projet Final** ci-dessous pour télécharger la version finale de l’application Contacts.
+Dans ce tutoriel, nous avons fait le tour des étapes de création d’une application basique. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous allez apprendre à créer une application plus complexe. Cliquez sur le bouton **Projet Final** ci-dessous pour télécharger la version finale de l’application Contacts.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
