@@ -66,7 +66,7 @@ Ajoutez les informations suivantes :
 
 **NOTE**
 
-Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application disponible dans l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</div> 
+Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</div> 
 
 ## ÉTAPE 4. Informations sur l’application
 
@@ -98,9 +98,9 @@ Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > Ne
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
-* Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (c'est ce que les utilisateurs visualiseront dans l'App Store).
+* Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (ce que les utilisateurs visualiseront dans l'App Store).
 
-* Vous pouvez partager des mises à jour de votre application, notamment de nouvelles offres ou des achats intégrés dans l'application, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements dans votre application et ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
+* Vous pouvez partager des mises à jour de votre application, y compris de nouvelles offres promotionnelles, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements intégrés dans votre application. Vous pouvez également ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
 * Entrez un **Support URL** qui inclut des informations de support pour votre application. Cet URL sera visible sur l’App Store.
 * **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application. 
 
