@@ -10,17 +10,17 @@ This is where you define or create your app's:
 
 ![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
 
-## Web Server Settings<div class = "tips"> 
+## Web Server Settings
+
+Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+
+Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.<div class = "tips"> 
 
 **NOTE**
 
 * The Simulator works locally (127.0.0.1 or localhost).
 * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
 * If both HTTP and HTTPS are activated, HTTP is used.</div> 
-
-Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
-
-Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 ## Authentication
 
