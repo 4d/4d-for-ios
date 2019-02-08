@@ -40,11 +40,11 @@ Voici un exemple simple :
 
 ## ÉTAPE 3. Installez votre application sur iOS
 
-* Installez l’application en cliquant sur le lien ou en scannant un Code QR
+* Installez l’application en cliquant sur le lien ou en scannant un Code QR.
 
 ![Scan and install](assets/en/deploy-in-house/Scan-and-install.png)
 
-* Lorsque vous ouvrez une application installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
+* Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
 * Ignorez ce message et cliquez sur **Annuler**.
 
@@ -58,4 +58,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! vous pouvez désormais distribuer votre première application interne !
+Félicitations  ! Vous pouvez désormais distribuer votre première application interne !
