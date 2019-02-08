@@ -30,7 +30,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-C’est ici que s'effectue le codage lors de la sélection d’un fichier Swift. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
+C’est ici que le code est inséré lorsqu'un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
 
 ## Zone "Interface Builder"
 
