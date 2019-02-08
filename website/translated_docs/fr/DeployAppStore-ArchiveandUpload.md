@@ -38,7 +38,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * Dans l’onglet GÉNÉRATION :
 
-**Créer et exécuter : Créez votre projet**
+**Créer & exécuter : Créez votre projet**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
@@ -74,7 +74,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
-* Revoyez le contenu de votre application.
+* Vérifiez le contenu de votre application.
 
 ![App review](assets/en/deploy-app-store/Review-App.png)
 
@@ -100,7 +100,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 8. Sélectionnez la version destinée à l’App Store
 
-* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **+** qui apparaît dans la section Build
+* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **é"+"** qui apparaît dans la section Build.
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
@@ -112,7 +112,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 9. Envoyez pour révision
 
-* La dernière étape consiste à répondre à quelques questions relatives à votre application. 
+* La dernière étape consiste à répondre à quelques questions sur votre application. 
 
 ![Submit for Review](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
