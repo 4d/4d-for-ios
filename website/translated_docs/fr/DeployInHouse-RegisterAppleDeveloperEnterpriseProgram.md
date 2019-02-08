@@ -6,11 +6,11 @@ title: Apple Developer Enterprise Program
 
 **OBJECTIFS**
 
-S'inscrire à l'Apple Developer Enterprise Program pour déployer son application **interne**.</div> <div class = "tips"> 
+Souscrire à l'Apple Developer Enterprise Program pour déployer son application en **interne**.</div> <div class = "tips"> 
 
 **NOTE**
 
-Pour vous inscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et associé à une adresse e-mail.</div> 
+Pour souscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et doit être associé à une adresse e-mail.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -49,9 +49,9 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 ![D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## ÉTAPE 5. Inscrivez-vous en tant que développeur
+## ÉTAPE 5. Souscrivez en tant que développeur
 
-Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
+Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
 
 * Cliquez sur le bouton **Start your Enrollment**.
 * Lisez et acceptez les termes du contrat "Apple Developer Agreement". 
@@ -59,9 +59,9 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
-## ÉTAPE 6. Inscrivez-vous à l'Apple Developer Enterprise Program
+## ÉTAPE 6. Souscrivez à l'Apple Developer Enterprise Program
 
-* Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program. 
+* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program. 
 * Cliquez sur le bouton **Start your Enrollment**.
 * Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
 * Cliquez sur **Continue**.
@@ -76,14 +76,14 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 ## ÉTAPE 7. Vérification d’Apple
 
 * Apple procède à une vérification interne qui peut prendre habituellement jusqu'à six jours ouvrables. Une fois la demande d’inscription reçue, Apple s'assure que vous êtes habilité à lier votre organisation aux accords juridiques de l'Apple Developer Program.
-* Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à s'inscrire à l'Apple Developer Enterprise Program.
-* Vous recevrez ensuite un autre e-mail vous invitant à finaliser l’inscription.
+* Généralement, Apple vous appelle pour vérifier que le contact principal existe et que ce dernier a demandé à souscrire à l'Apple Developer Enterprise Program.
+* Vous recevrez ensuite un autre e-mail vous invitant à finaliser la souscription.
 
 ![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## ÉTAPE 8. Finalisez votre inscription
+## ÉTAPE 8. Finalisez votre souscription
 
-* Une fois que votre demande d’inscription est acceptée, vous pouvez procéder au paiement.
+* Une fois que votre demande de souscription est acceptée, vous pouvez procéder au paiement.
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
 Félicitations  ! Vous êtes maintenant prêt à déployer votre application interne !
