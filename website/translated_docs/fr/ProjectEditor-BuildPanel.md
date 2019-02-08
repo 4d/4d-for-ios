@@ -6,7 +6,7 @@ Lorsque votre application est prête, vous pouvez la lancer dans le Simulateur p
 
 Voici les options de l'onglet Génération :
 
-* **Créer et exécuter :** Lance l'application dans le simulateur.
+* **Créer & exécuter :** Lance l'application dans le simulateur.
 
 * **iPhone X :** Le simulateur par défaut. En cliquant ici, vous afficherez une liste déroulante des simulateurs disponibles.
 
@@ -18,4 +18,4 @@ Sélectionnez un simulateur dans lequel vous générerez et testerez votre appli
 
 ![BuildTab](assets/en/project-editor/Build-Tab-4D-for-iOS.png)
 
-Vous êtes maintenant prêt à explorer vous-même 4D for iOS et à créer votre propre projet iOS !
+Vous êtes maintenant prêt à explorer 4D for iOS par vous-même et à créer votre propre projet iOS !
