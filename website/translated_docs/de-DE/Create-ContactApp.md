@@ -34,7 +34,9 @@ href="../assets/en/contact-app/ContactStarter.zip">STARTER-PROJEKT</a>
 
 ## SCHRITT 2. Projekt erstellen
 
-Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D auf macOS und wählen in der Toolbar am oberen Rand **Neu > Mobiles Projekt**. assets/en/en/ Give your project a name and click **Create**.
+Wir beginnen mit einer sehr einfachen Struktur mit einer einzigen Tabelle. Starten Sie 4D auf macOS und wählen in der Toolbar am oberen Rand **Neu > Mobiles Projekt**.
+
+Give your project a name and click **Create**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
