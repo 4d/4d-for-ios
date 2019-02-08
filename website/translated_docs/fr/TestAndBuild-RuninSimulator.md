@@ -6,7 +6,7 @@ title: Utilisation du simulateur
 
 **OBJECTIFS**
 
-Tester son application avec le simulateur.</div> 
+Tester une application avec le simulateur.</div> 
 
 Vous avez fini de développer votre application et souhaitez la tester ?
 
@@ -18,7 +18,7 @@ Vous avez fini de développer votre application et souhaitez la tester ?
 
 ## ÉTAPE 2. Créez et exécutez
 
-Cliquez sur le bouton **Créer et exécuter**.
+Cliquez sur le bouton **Créer & exécuter**.
 
 ![Build and Run](assets/en/test-build/build-and-run-4D-for-iOS.png)
 
