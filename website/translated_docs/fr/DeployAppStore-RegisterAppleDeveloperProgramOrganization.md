@@ -6,7 +6,7 @@ title: Apple Developer Program pour les entreprises
 
 **OBJECTIFS**
 
-S'inscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.</div> <div class = "tips"> 
+Souscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.</div> <div class = "tips"> 
 
 **NOTE**
 
@@ -14,7 +14,7 @@ Pour vous inscrire au programme "Apple Developer Enterprise Program", votre iden
 
 ## ÉTAPE 1. Identifiant Apple
 
-Si vous n’avez aucun identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
+Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
 
 Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
 
@@ -39,7 +39,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ## ÉTAPE 4. Demandez un numéro D-U-N-S
 
-Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numéro D-U-N-S
+Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numéro D-U-N-S.
 
 ![Request a D-U-N-S Number](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
@@ -49,23 +49,23 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 ![D-U-N-S Number](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## ÉTAPE 5. Inscrivez-vous en tant que développeur
+## ÉTAPE 5. Souscrivez en tant que développeur
 
-Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
+Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
 
 * Cliquez sur le bouton **Start your Enrollment**.
-* Lisez et acceptez les terme du contrat "Apple Developer Agreement". 
+* Lisez et acceptez les termes du contrat "Apple Developer Agreement". 
 * Cliquez sur **Submit**.
 
 ![Register as a developer](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 6. Rejoignez l'Apple Developer Program
 
-* Vous pouvez vous inscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Program. 
+* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Program. 
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## ÉTAPE 7. Inscrivez-vous en tant qu’entreprise
+## ÉTAPE 7. Souscrire en tant qu’entreprise
 
 * Cliquez sur le bouton **Start your Enrollment**.
 * Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
@@ -84,9 +84,9 @@ Vous pouvez vous inscrire [ici](https://developer.apple.com/programs/enterprise/
 
 ![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## ÉTAPE 8. Finalisez votre inscription
+## ÉTAPE 8. Finalisez votre souscription
 
-* Une fois que votre demande d’inscription a été acceptée, vous pouvez procéder au paiement.
+* Une fois que votre demande de souscription est acceptée, vous pouvez procéder au paiement.
 
 ![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
