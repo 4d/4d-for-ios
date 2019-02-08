@@ -15,7 +15,7 @@ title: Travailler avec Xcode
 
 Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !</div> 
 
-Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Téléchargez le projet Starter !
+Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Pensez à télécharger le projet Starter !
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -34,7 +34,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 
 ## ÉTAPE 2. Générez votre projet
 
-À partir de l'onglet "Génération" de l'éditeur de projet :
+À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
 * Cliquez sur le bouton **Créer & exécuter**.
@@ -43,7 +43,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 
 ## ÉTAPE 3. Ouvrez votre projet avec Xcode
 
-À partir de l'onglet "Génération" de l'éditeur de projet :
+À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
 * Cliquez sur Projet > Ouvrir le produit avec Xcode
 
