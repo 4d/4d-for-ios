@@ -34,28 +34,28 @@ Ce lien peut être utilisé pour l’envoi d’e-mails, intégré dans une page 
 
 Voici un exemple simple :
 
-![Contact demo app install](assets/deploy-in-house/Contact-demo-app-install.png)
+![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
 *Le Code QR utilisé pour cette documentation n’est pas actif.*
 
 ## ÉTAPE 3. Installez votre application sur iOS
 
-* Installez l’application en cliquant sur le lien ou en scannant un Code QR
+* Installez l’application en cliquant sur le lien ou en scannant un Code QR.
 
-![Scan and install](assets/deploy-in-house/Scan-and-install.png)
+![Scan and install](assets/en/deploy-in-house/Scan-and-install.png)
 
-* Lorsque vous ouvrez une application installée manuellement, une notification s’affichera indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
+* Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
 * Ignorez ce message et cliquez sur **Annuler**.
 
 * Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
 
-![Untrust developer](assets/deploy-in-house/Untrust-developer.png)
+![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
 * Tapez le nom du profil développeur pour que ce dernier soit reconnu comme fiable.
 
-![Trust-confirmation](assets/deploy-in-house/Trust-confirmation.png)
+![Trust-confirmation](assets/en/deploy-in-house/Trust-confirmation.png)
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! vous pouvez désormais distribuer votre première application interne !
+Félicitations  ! Vous pouvez désormais distribuer votre première application interne !

@@ -14,7 +14,7 @@ Cliquez [ici](prerequisites.html) pour commencer !</div>
 
 Dans ce didacticiel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Il affichera un **en-tête d'image**, ainsi que **des champs titre et contenu** qui seront dupliqués dans l’application iOS qui sera générée.
 
-![Custom template final result](assets/custom-detailform/custom-template-final-result.png)
+![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
 ## Téléchargez le projet Starter
 
@@ -28,7 +28,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
     
 
 <a class="button"
-href="../assets/custom-detailform/CustomDetailFormStarterProject.zip">PROJET STARTER - FORMAT DÉTAILLÉ PERSONNALISÉ</a>
+href="../assets/en/custom-detailform/CustomDetailFormStarterProject.zip">PROJET STARTER - FORMAT DÉTAILLÉ PERSONNALISÉ</a>
 
   </p>
 </div>
@@ -39,13 +39,13 @@ Vous êtes maintenant prêt à créer votre premier modèle de formulaire détai
 
 Créez d'abord un dossier .../Resources/Mobile/form/detail à côté des données Contact.4dbase, où vous glisserez et déposerez le dossier **Custom Detail form**.
 
-![Mobile folder custom template](assets/custom-detailform/mobile-folder-custom-template.png)
+![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
 Ouvrez ensuite Contact.4dbase avec 4D, puis cliquez sur Fichier > Ouvrir > Projet mobile... pour ouvrir **Contact Demo App**
 
 Enfin, cliquez sur la **section Formulaires** dans l’éditeur de projet. Vous verrez que le modèle de formulaire détaillé personnalisé a été correctement ajouté à la liste de modèles !
 
-![Forms section](assets/custom-detailform/custom-detailform-template.png)
+![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
 
 Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 

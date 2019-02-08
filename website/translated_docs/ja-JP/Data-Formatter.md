@@ -21,7 +21,7 @@ Available formats:
     
 
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">データフォーマッタースタータープロジェクト</a>
+href="../assets/en/data-formatter/BankingApp.zip">データフォーマッタースタータープロジェクト</a>
 
   </p>
 </div>

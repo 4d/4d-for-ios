@@ -21,7 +21,7 @@ Let's get started by downloading the Starter Project:
     
 
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="../assets/en/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
 
   </p>
 </div>

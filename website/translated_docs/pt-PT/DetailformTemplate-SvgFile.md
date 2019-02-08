@@ -7,11 +7,11 @@ The template.svg file is a basic template representation. In this svg file, you'
 
 Here's a finished version:
 
-![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
+![Template svg file](assets/en/custom-detailform/detailform-template-svg-file.png)
 
 This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
-![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
+![Template svg file](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
 Open the template.svg file with your favorite code editor.
 

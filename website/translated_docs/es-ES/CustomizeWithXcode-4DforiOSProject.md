@@ -15,10 +15,10 @@ En su lugar, encontrará un archivo Swift y un archivo Storyboard. Estos archivo
 
 ### El archivo Swift - que se puede utilizar para agregar código personalizado.
 
-![Archivo Swift](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
+![Archivo Swift](assets/en/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
 ### El archivo Storyboard - permite personalizar el diseño de su aplicación.
 
-![Archivo Storyboard](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
+![Archivo Storyboard](assets/en/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
 A continuación, demos un vistazo a cómo personalizar la vista de detalle de aplicación Contacts.

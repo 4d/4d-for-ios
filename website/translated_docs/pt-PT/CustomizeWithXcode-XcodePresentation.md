@@ -10,31 +10,31 @@ Ensure a basic understanding of working with Xcode.</div>
 
 Xcode exibe várias áreas que nós vamos rever:
 
-![Xcode](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
+![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
 ## Barra de ferramentas
 
 * **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
 
-![Build and Run](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
 
-![Toolbar Target](assets/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
+![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
 * On the right side of the toolbar, you'll find buttons to change the display.
 
-![Toolbar View buttons](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
+![Toolbar View buttons](assets/en/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
 ## Área do editor
 
-![Editor Area](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
 This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
 
 ## Área de interface Builder
 
-![Interface Builder Area](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
 
@@ -42,13 +42,13 @@ This is a graphical interface which allows you to build a Storyboard or XIB file
 
 The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
 
-![Utility Area](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Painel Inspetor
 
 Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
 
-![Inspector pane](assets/customize-with-xcode/Xcode-Inspector-pane.png)
+![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
 From left-to-right, these tabs are:
 
@@ -70,7 +70,7 @@ Within the Properties section, there are four different Library Tabs, as shown i
 
 From left-to-right, these tabs are:
 
-![Library pane](assets/customize-with-xcode/Xcode-Library-pane.png)
+![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **File templates**: These templates are for the common types of files listed as choices in the New File menu.
 
@@ -90,11 +90,11 @@ Several tabs are included here, the most important of which are:
 
 * **Navigation tab**: Lists and provides access to all files necessary for your application to work properly.
 
-![Navigation tab](assets/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
+![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
 * **Search navigator tab**: Allows searching all files in the project.
 
-![Search navigator tab](assets/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
+![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
 * **Issue navigator tab**: Displays all errors in an iOS project.
     
@@ -103,6 +103,6 @@ Several tabs are included here, the most important of which are:
 
 You can click on errors and warnings to visualize them in the project.
 
-![Issue Navigator](assets/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
+![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
 Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.

@@ -30,28 +30,28 @@ To create your App ID, go to your developer account and select [Certificates, ID
 
 * Define your app's Name and Bundle ID.
 
-![App ID](assets/deploy-app-store/Developer-account-App-ID.png)
+![App ID](assets/en/deploy-app-store/Developer-account-App-ID.png)
 
 * Define the App Services to include in your app
 
-![App Services](assets/deploy-app-store/App-Services-to-include.png)
+![App Services](assets/en/deploy-app-store/App-Services-to-include.png)
 
 * Confirm your App ID by clicking **Register**.
 
-![Confirm App ID](assets/deploy-app-store/Confirm-App-ID.png)
+![Confirm App ID](assets/en/deploy-app-store/Confirm-App-ID.png)
 
 ## PASSO 2. Sign in to App Store Connect
 
 * Sign in to your [App Store Connect Account](https://appstoreconnect.apple.com)
 * Click on **My Apps**.
 
-![App Store Connect](assets/deploy-app-store/App-Store-Connect-home-page.png)
+![App Store Connect](assets/en/deploy-app-store/App-Store-Connect-home-page.png)
 
 ## PASSO 3. Create a new iOS App
 
 Click the **+** sign in the top left corner to create a new iOS App.
 
-![Create a new iOS App](assets/deploy-app-store/Create-new-iOS-App.png)
+![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
 Add the following information:
 
@@ -62,7 +62,7 @@ Add the following information:
 * **SKU**: A unique ID for your app (this stays private and is not seen by users)
 * **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
 
-![Change BundleID](assets/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
+![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
 
 **NOTA**
 
@@ -76,7 +76,7 @@ From App Store Connect > App Information:
 * Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
 * Select a primary and secondary (optional) category for your app to appear in.
 
-![App information](assets/deploy-app-store/App-Store-Connect-app-information.png)
+![App information](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## PASSO 5. Pricing and Availability
 
@@ -94,7 +94,7 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
 
-![Prepare for Submission](assets/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
@@ -106,7 +106,7 @@ You can generate all of your screenshots in Simulator (File > New Screen Shot).<
 
 In the **iOS App section**:
 
-![iOS App section](assets/deploy-app-store/Prepare-for-submission-build-icon.png)
+![iOS App section](assets/en/deploy-app-store/Prepare-for-submission-build-icon.png)
 
 Locate your build versions in **Build**.
 
@@ -116,7 +116,7 @@ Locate your build versions in **Build**.
 
 The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
 
-![App Review Information](assets/deploy-app-store/Prepare-for-submission-review-information.png)
+![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
 * **App Review Information**: Confidential contact and security information. 
 * **Version Release**: Specifies an automatic or manual publication.

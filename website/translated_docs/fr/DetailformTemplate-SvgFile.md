@@ -7,11 +7,11 @@ Le fichier template.svg est une représentation basique du modèle. Dans ce fich
 
 Voici une version finale :
 
-![Template svg file](assets/custom-detailform/detailform-template-svg-file.png)
+![Template svg file](assets/en/custom-detailform/detailform-template-svg-file.png)
 
 Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et jusqu'à **8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
-![Template svg file](assets/custom-detailform/detailform-dynamic-field-number.png)
+![Template svg file](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 

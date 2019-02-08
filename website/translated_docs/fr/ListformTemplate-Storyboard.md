@@ -6,7 +6,7 @@ Il est temps de créer votre interface iOS de formulaire Liste avec Xcode !
 
 Voici le résultat que nous souhaitons obtenir :
 
-![Storyboard custom listform](assets/custom-listform/storyboard-custom-listform.png)
+![Storyboard custom listform](assets/en/custom-listform/storyboard-custom-listform.png)
 
 Pour chaque cellule, nous allons ajouter :
 
@@ -18,7 +18,7 @@ Pour chaque cellule, nous allons ajouter :
 
 Dans un premier temps, ouvrez votre fichier storyboard dans Xcode.
 
-![Empty storyboard custom template](assets/custom-listform/empty-storyboard-custom-template.png)
+![Empty storyboard custom template](assets/en/custom-listform/empty-storyboard-custom-template.png)
 
 Il est assez vide, nous allons donc y ajouter du contenu !
 
@@ -26,23 +26,23 @@ Il est assez vide, nous allons donc y ajouter du contenu !
 
 A partir de l'**Object library** (la bibiliothèque d'objets), glissez et déposez un **Image View** (une vue d'image) dans une cellule. Vous pouvez rechercher une « Image View » dans la barre de recherche en bas de la bibliothèque d’objets.
 
-![Add Image View storyboard](assets/custom-listform/add-imageview-storyboard.png)
+![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
 A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la vue de l’image à 110 et la valeur de sa hauteur à 110. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 3.
 
-![Image View position height and width](assets/custom-listform/imageview-position-height-width.png)
+![Image View position height and width](assets/en/custom-listform/imageview-position-height-width.png)
 
 Puis, ajoutez une contrainte (Leading : 8) en cliquant sur **Add New Constraints** (en bas de l’Interface Builder). Ajoutez également des contraintes de largeur et hauteur, comme suit :
 
-![Image View leading space width height](assets/custom-listform/imageview-leading-space-width-height.png)
+![Image View leading space width height](assets/en/custom-listform/imageview-leading-space-width-height.png)
 
 Enfin, cliquez sur le bouton **Align** (dans la partie inférieure de l'nterface Builder) et cochez la case "Vertically in Container".
 
-![Image View align vertically](assets/custom-listform/imageview-align-vertically.png)
+![Image View align vertically](assets/en/custom-listform/imageview-align-vertically.png)
 
 Votre vue d'image est maintenant bien placée !
 
-![Image View final](assets/custom-listform/imageview-final.png)
+![Image View final](assets/en/custom-listform/imageview-final.png)
 
 Nous allons nous pencher maintenant sur les libellés de cellules.
 
@@ -50,37 +50,37 @@ Nous allons nous pencher maintenant sur les libellés de cellules.
 
 Nous allons commencer par **ajouter une vue**. Vous pouvez rechercher le terme « View » dans la **bibliothèque d'objets** et faire glisser la vue vers la cellule.
 
-![Add View Storyboard](assets/custom-listform/add-view-storyboard.png)
+![Add View Storyboard](assets/en/custom-listform/add-view-storyboard.png)
 
 A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la vue de l’image sur 277 et la valeur de sa hauteur sur 94. Définissez ensuite la valeur de X sur126 et la valeur de Y sur 10.
 
-![View position height and width](assets/custom-listform/view-position-height-width.png)
+![View position height and width](assets/en/custom-listform/view-position-height-width.png)
 
 Concernant la vue d'image, ajoutez quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) pour la positionner correctement, comme suit :
 
-![View contraints Storyboard](assets/custom-listform/view-constraints-storyboard.png)
+![View contraints Storyboard](assets/en/custom-listform/view-constraints-storyboard.png)
 
 Glissez et déposez un libellé dans le "View" que vous venez d’ajouter à partir de la bibliothèque d’objets.
 
-![Add label Storyboard](assets/custom-listform/add-label-storyboard.png)
+![Add label Storyboard](assets/en/custom-listform/add-label-storyboard.png)
 
 A partir du **Size inspector**, définissez la largeur du libellé View sur 269 et sa valeur de hauteur sur 32. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 8.
 
 **Dupliquez le libellé** et, dans le **Size inspector**, définissez la valeur de X sur 8 et la valeur de Y sur 48.
 
-![Duplicate the label](assets/custom-listform/duplicated-label-storyboard.png)
+![Duplicate the label](assets/en/custom-listform/duplicated-label-storyboard.png)
 
 Sélectionnez les deux labels et ajoutez quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) comme suit :
 
-![Labels contraints storyboard](assets/custom-listform/labels-contraints-storyboard.png)
+![Labels contraints storyboard](assets/en/custom-listform/labels-contraints-storyboard.png)
 
 Avec un libellé sélectionné, double-cliquez sur **Height constraint** pour le modifier.
 
-![Label height constraint edition](assets/custom-listform/label-height-constraint-edition.png)
+![Label height constraint edition](assets/en/custom-listform/label-height-constraint-edition.png)
 
 Remplacez la relation "Equal" par **Greater Than or Equal** afin que sa hauteur soit variable (pour gérer des libellés multilignes).
 
-![Change relation label height constraint](assets/custom-listform/change-relation-label-height-constraint.png)
+![Change relation label height constraint](assets/en/custom-listform/change-relation-label-height-constraint.png)
 
 Répétez l’opération pour le deuxième libellé.
 
@@ -88,25 +88,25 @@ Répétez l’opération pour le deuxième libellé.
 
 A partir de l’Attribute inspector (sur le côté droit de l’Interface Builder), vous pouvez personnaliser les couleurs de police du libellé. Appliquons la couleur **Dark Grey Color** au deuxième libellé :
 
-![Label color dark grey](assets/custom-listform/label-color-dark-grey.png)
+![Label color dark grey](assets/en/custom-listform/label-color-dark-grey.png)
 
 Vous pouvez également sélectionner la couleur principale de votre application :
 
-![Label color background color](assets/custom-listform/label-color-background-color.png)
+![Label color background color](assets/en/custom-listform/label-color-background-color.png)
 
 A partir de l’Attribute inspector, vous pouvez également personnaliser la police. Sélectionnez les deux libellés et sélectionnez Font > Custom > **Helvetica Neue** :
 
-![Label font custom](assets/custom-listform/label-font-custom.png)
+![Label font custom](assets/en/custom-listform/label-font-custom.png)
 
 Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans la fenêtre Inspector, **entrez la valeur 0 dans Lines**. Ainsi, le nombre de lignes peut être illimité.
 
-![Label lines number](assets/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
 
 **NOTE**
 
 Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
 
-![Row height tableview cell](assets/custom-listform/row-height-tableview-cell.png)</div> 
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
 
 ## Comment entrer des données dans vos cellules
 
@@ -114,87 +114,87 @@ Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cel
 
 Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
-![User defined runtime attributes](assets/custom-listform/user-defined-runtime-attributes.png)
+![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path **: Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
 
-* **Type**: Always ```String```
+* **Type **: Toujours ```String```
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
-![Identity inspector storyboard](assets/custom-listform/identity-inspector-storyboard.png)
+![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
 ### Libellés
 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_2___```
+* **Key Path **: ```bindTo.record.___FIELD_2___```
 
-* **Type**: ```String```
+* **Type **: ```String```
 
-* **Value**: ```___FIELD_2_BINDING_TYPE___```
+* **Value **: ```___FIELD_2_BINDING_TYPE___```
 
-![Field 2 Binding](assets/custom-listform/field-2-binding.png)
+![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path**: ```bindTo.record.___FIELD_3___```
+* **Key Path **: ```bindTo.record.___FIELD_3___```
 
-* **Type**: ```String```
+* **Type **: ```String```
 
-* **Value**: ```___FIELD_3_BINDING_TYPE___```
+* **Value **: ```___FIELD_3_BINDING_TYPE___```
 
-![Field 3 Binding](assets/custom-listform/field-3-binding.png)
+![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
 
 * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
 * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
-![Storyboard label display names](assets/custom-listform/storyboard-label-display-name.png)
+![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
-Here is the simulator result :
+Voici le résultat du simulateur :
 
-![Simulator result](assets/custom-listform/simulator-result.png)
+![Simulator result](assets/en/custom-listform/simulator-result.png)
 
 ## Personnaliser votre application
 
-The last step is adding a corner radius to the Image View to have a better design.
+La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour améliorer la conception.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Sélectionnez votre Vue Image et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
-* **Key Path**: ```cornerRadius```
+* **Key Path **: ```cornerRadius```
 
-* **Type**: ```Number```
+* **Type **: ```Number```
 
-* **Value**: ```12```
+* **Value **: ```12```
 
-and
+et
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path **: ```layer.masksToBounds```
 
-* **Type**: ```Boolean```
+* **Type **: ```Boolean```
 
-* **Value**: Check the box
+* **Value** : Cochez la case
 
-![ImageView corner Radius](assets/custom-listform/imageview-corner-radius.png)
+![ImageView corner Radius](assets/en/custom-listform/imageview-corner-radius.png)
 
-You can now build your project from the project editor!
+Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
-![Custom template final result](assets/custom-listform/custom-template-final-result.png)
+![Custom template final result](assets/en/custom-listform/custom-template-final-result.png)
 
 ## Que faire ensuite ?
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/custom-listform/CustomListFormFinalTemplate.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+href="../assets/en/custom-listform/CustomListFormFinalTemplate.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 
   </p>
 </div>

@@ -8,7 +8,7 @@ C'est dans cette sous-section que vous définirez les libellés longs et courts 
 * **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
 * **Formats :** Ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
-![Labels & Icons section](assets/project-editor/Labels-icons-section-4D-for-iOS.png)<div class = "tips"> 
+![Labels & Icons section](assets/en/project-editor/Labels-icons-section-4D-for-iOS.png)<div class = "tips"> 
 
 **CONSEILS**
 

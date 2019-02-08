@@ -25,7 +25,7 @@ Avant de commencer, assurez-vous d'avoir téléchargé le **Projet Starter**, qu
     
 
 <a class="button"
-href="../assets/restricted-queries/4DforiOSQueries.4dbase.zip">PROJET STARTER</a>
+href="../assets/en/restricted-queries/4DforiOSQueries.4dbase.zip">PROJET STARTER</a>
 
   </p>
 </div>
@@ -35,7 +35,7 @@ La base de données contient :
 * **La table CRM** qui comprend l'ensemble des données que nous souhaitons afficher dans l'application iOS générée
 * **La table AccountManager** qui comprend les informations de base sur les chargés de clientèle (nom et e-mail).
 
-![CRM database](assets/restricted-queries/CRMDatabase.png)<div class = "tips"> 
+![CRM database](assets/en/restricted-queries/CRMDatabase.png)<div class = "tips"> 
 
 **NOTE**
 

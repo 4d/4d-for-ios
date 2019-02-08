@@ -8,12 +8,12 @@ Cliquez sur l’icône de la table Contact. Toutes les icônes disponibles s'aff
 
 Sélectionnez l’icône contact :
 
-![Contact icon](assets/custom-icons/contact-icon.png)
+![Contact icon](assets/en/custom-icons/contact-icon.png)
 
 Sélectionnez les icônes adaptées pour vos champs :
 
-![Contact icon](assets/custom-icons/field-icons.png)
+![Contact icon](assets/en/custom-icons/field-icons.png)
 
 Voici le résultat final :
 
-![Contact icon](assets/custom-icons/custom-icons-final-result.png)
+![Contact icon](assets/en/custom-icons/custom-icons-final-result.png)

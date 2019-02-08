@@ -15,7 +15,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/relations/Tasks.4dbase.zip">PROJET STARTER N VERS UN</a>
+href="../assets/en/relations/Tasks.4dbase.zip">PROJET STARTER N VERS UN</a>
 
   </p>
 </div>
@@ -32,20 +32,20 @@ Accédez directement à la section Structure, puis sélectionnez la **table Task
 
 * Sélectionnez le **champ Name**
 
-![Select link from structure section](assets/relations/select-link-from-structure.png)
+![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
 * Ce champ aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application
 
 * Vous pouvez ensuite sélectionner une **icône** et des **formats** et définir des **libellés courts et longs** dans la section Libellés et icônes
 
-![Related field from Labels and Icons section](assets/relations/related-field-from-labels-icons.png)
+![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
 * Cliquez sur la section Formulaires et faites glisser le champ dans le formulaire détaillé Tasks
 
-![Related field in Forms section](assets/relations/related-field-forms.png)
+![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
 * Créer & exécuter
 
 Votre champ lié devrait apparaitre dans le formulaire détaillé de votre application !
 
-![Related field in Forms section](assets/relations/final-result-n-to-one-relations.png)
+![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)

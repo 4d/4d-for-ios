@@ -6,7 +6,7 @@ Le fichier template.svg est une représentation visuelle basique d’un modèle.
 
 Voici une version finale :
 
-![Template svg file](assets/custom-listform/template-svg-file.png)
+![Template svg file](assets/en/custom-listform/template-svg-file.png)
 
 Ouvrez le fichier template.svg avec l'éditeur de code de votre choix.
 
@@ -81,7 +81,7 @@ div markdown="1" class = "tips">
 
 Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-To include all types, just type ios:type="all". </div>
+Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
 
 ### Zone SectionField :
 
@@ -103,7 +103,7 @@ To include all types, just type ios:type="all". </div>
 3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-The section field is optional.
+Le "section field" (champ de section) est facultatif.
 
 ### Zone ImageField :
 
@@ -184,4 +184,4 @@ The section field is optional.
 4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, une **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... nous allons passer à la partie amusante, avec Xcode !

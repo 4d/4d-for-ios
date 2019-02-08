@@ -8,11 +8,11 @@ This section allows you to:
 * automatically **regenerate data** each time you build your app or generate it manually, and
 * filter data to vizualize in your app depending on **general filter queries** or **user information**. 
 
-![Data section](assets/project-editor/Data-tab-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
 ## Data source panel
 
-![Data section](assets/project-editor/Data-source-panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
 This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
 
@@ -34,7 +34,7 @@ When the **Do not regenerate data at each build** option is checked, you can sav
 
 ## Properties panel
 
-![Data section](assets/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
 In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
 
@@ -42,7 +42,7 @@ In this panel, you can define all the filters for each table based on **defined 
 
 You can define filters per table which depend on field values:
 
-* First, enter your query in the dedicated field by typing it directly in the query field. You can also compose your query using fields, comparators, and operators which are available just above the query field when it's in focus. This can be helpfull defining your query
+* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
 
 * Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
 

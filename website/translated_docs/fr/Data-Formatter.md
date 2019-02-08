@@ -21,7 +21,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/data-formatter/BankingApp.zip">PROJET STARTER DES FORMATS PERSONNALISÉS</a>
+href="../assets/en/data-formatter/BankingApp.zip">PROJET STARTER DES FORMATS PERSONNALISÉS</a>
 
   </p>
 </div>
