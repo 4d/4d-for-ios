@@ -1,12 +1,12 @@
 ---
 id: xcode-overview
-title: Présentation d'Xcode
+title: Présentation de Xcode
 ---
 <div class = "objectives"> 
 
 **OBJECTIFS**
 
-Comprendre le fonctionnement d'Xcode.</div> 
+Comprendre le fonctionnement de Xcode.</div> 
 
 Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
