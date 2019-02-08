@@ -34,7 +34,9 @@ href="../assets/en/contact-app/ContactStarter.zip">STARTER PROJECT</a>
 
 ## PASSO 2. Criando o projeto
 
-Vamos começar com uma estrutura muito simples usando uma única tabela. Em 4D, vá para **New > Mobile project**. assets/en/en/ Give your project a name and click **Create**.
+Vamos começar com uma estrutura muito simples usando uma única tabela. Em 4D, vá para **New > Mobile project**.
+
+Give your project a name and click **Create**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
