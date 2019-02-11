@@ -12,7 +12,7 @@ Voici la répartition de cet écran, de haut en bas :
 * **Les tables publiées :** affichent toutes les tables publiées dans la section Structure. 
 * **Les formulaires disponibles :** permettent de basculer entre la sélection du modèle et la définition du contenu.
 
-![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
+![List form template selection](assets/fr/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
 ## Les formulaires Liste
 
@@ -20,15 +20,15 @@ Des modèles simples et vierges sont utilisés par défaut pour les formulaires 
 
 Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’écran vous permettant de définir le contenu du formulaire. Vous pouvez ensuite faire glisser et déposer les champs de la liste directement sur le modèle affiché sur la droite. La plupart des formulaires Liste comprennent des champs facultatifs Recherche et Section.
 
-![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
+![List form content definition](assets/fr/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
 ## Les formulaires détaillés
 
-![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
+![Detail form template selection](assets/fr/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
 Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-déposez vos champs sur votre formulaire détaillé.
 
-![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
+![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.<div class = "tips"> 
 

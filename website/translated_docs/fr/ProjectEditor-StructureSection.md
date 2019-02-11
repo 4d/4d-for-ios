@@ -4,7 +4,7 @@ title: Structure
 ---
 Cette section affiche tous les champs et les tables de votre base de données exposés par 4D Mobile Service.
 
-![Structure section](assets/en/project-editor/Structure-section-4D-for-iOS.png)
+![Structure section](assets/fr/project-editor/Structure-section-4D-for-iOS.png)
 
 Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques. 
 
@@ -15,7 +15,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 * 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
 
-![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
+![Publish related tables](assets/fr/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
 Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour vous permettre de sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
 
