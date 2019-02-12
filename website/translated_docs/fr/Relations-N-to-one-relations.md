@@ -2,11 +2,11 @@
 id: n-to-one-relations
 title: Liens N vers 1
 ---
-4 D v17 R5 comprend un nouveau concept : les liens N vers 1<div class = "tips"> 
+4D v17 R5 lance un nouveau concept : les liens N vers 1<div class = "tips"> 
 
 **NOTE**
 
-Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de lien descriptifs, vous simplifierez la structure de votre projet.</div> 
+Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div> 
 
 Commençons par télécharger le Projet Starter :
 
