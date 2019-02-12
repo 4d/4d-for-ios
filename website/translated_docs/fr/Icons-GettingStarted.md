@@ -12,7 +12,7 @@ Utiliser vos propres icônes dans vos projets 4D for iOS.</div> <div class = "pr
 
 Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-4D for iOS fournit déjà un certain nombre d’icônes dans la section **Libellés & icônes** pour vos tables et vos champs.
+4D for iOS fournit déjà un certain nombre d’icônes dans la section **Libellés et icônes** pour vos tables et vos champs.
 
 ![Icon library](assets/en/custom-icons/icon-library.png)
 
