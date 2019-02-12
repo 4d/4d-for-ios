@@ -51,9 +51,9 @@ Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 
 ## Le dossier du modèle de formulaire détaillé et son contenu
 
-* Une icône **layoutIconx2.png** d'une résolution de 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle personnalisé
-* Un fichier **manifest.json**, qui contient une description simple du modèle
-* Un fichier **template.svg** qui représentera votre modèle, qui s'affichera lorsque vous définirez le contenu de votre Formulaire Liste, et où vous glisserez-déposerez vos champs
-* Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **swift** (code pour le formulaire)
+* Une icône **layoutIconx2.png** d'une résolution de 160x160px, qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle personnalisé.
+* Un fichier **manifest.json**, qui contient une description simple du modèle.
+* Un fichier **template.svg** qui représentera votre modèle, qui s'affichera lorsque vous définirez le contenu de votre Formulaire Liste, et où vous glisserez-déposerez vos champs.
+* Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **swift** (code pour le formulaire).
 
-A quoi correspondent ces fichiers, à quoi servent-ils et comment les personnaliser ?
+À quoi correspondent ces fichiers, à quoi servent-ils et comment les personnaliser ?

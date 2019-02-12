@@ -3,7 +3,7 @@ id: svg-file-detailform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
-Le fichier template.svg est une représentation basique du modèle. Dans ce fichier svg, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire détaillé depuis l’éditeur de projet.
+Le fichier template.svg est une simple représentation du modèle. Dans ce fichier svg, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire détaillé depuis l’éditeur de projet.
 
 Voici une version finale :
 
@@ -31,9 +31,9 @@ Ajoutez ici le titre de votre modèle.
 
 **f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs** : en référence aux champs disponibles pouvant être affichés dans votre formulaire détaillé. Cela vous permettra de glisser-déposer autant de champs définis.
 
-## Emplacement, hauteur, largeur et type de la zone
+## Position, hauteur, largeur et type de la zone
 
-Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
+Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
 
 ### Propriétés de champs dupliqués
 
@@ -54,10 +54,10 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement de la zone de texte et la largeur 
-4. Définir l'emplacement du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
+3. Définir la position de la zone de texte et la largeur 
+4. Définir la position du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Zone ImageField 
@@ -82,11 +82,11 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Icône affichant une image dans imageField
-4. Définir l'emplacement et la largeur de la zone de texte 
-5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés 
+4. Définir la position et la largeur de la zone de texte 
+5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés 
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Champ à dupliquer
@@ -113,13 +113,13 @@ Vous pouvez définir l'emplacement, la hauteur et la largeur de tous vos champs,
     
 
 1. Identifiant "Multivaluated" pour le champ à dupliquer
-2. Emplacement de toute la zone Y
-3. Emplacement, hauteur et largeur de la zone d'arrière-plan
-4. Définir l'emplacement de la zone de texte et la largeur 
-5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
+2. Position de toute la zone Y
+3. Position, hauteur et largeur de la zone d'arrière-plan
+4. Définir la position de la zone de texte et la largeur 
+5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... passons à la partie amusante avec Xcode !<div class = "tips"> 
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !<div class = "tips"> 
 
 **NOTE**
 
@@ -127,6 +127,6 @@ Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.co
 
 **CONSEILS**
 
-* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
+* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-* Pour inclure tous les types, il suffit de taper ```ios:type="all"```.</div>
+* Pour inclure tous les types de champs, il suffit de taper ```ios:type="all"```.</div>

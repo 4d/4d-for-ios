@@ -27,7 +27,7 @@ Pour que notre formulaire détaillé soit déroulant, la première étape consis
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
-A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la Scroll vue à 359 et la valeur de sa hauteur à 667. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 0.
+À partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la Scroll vue à 359 et la valeur de sa hauteur à 667. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
 
@@ -37,11 +37,11 @@ Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constrain
 
 ## Ajouter une "Vertical Stack View"
 
-Glissez et déposez un "Vertical Stack View" depuis la **bibliothèque d'objets** vers la "Scroll view". A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez ensuite la largeur de la vue sur 359 et la valeur de la hauteur sur 202. Enfin, définissez la valeur de X sur 0 et la valeur de Y sur 8.
+Glissez et déposez une "Vertical Stack View" depuis la **bibliothèque d'objets** vers la "Scroll view". A partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez ensuite la largeur de la vue sur 359 et sa hauteur sur 202. Enfin, définissez la valeur de X sur 0 et la valeur de Y sur 8.
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-La hauteur et la largeur de Stack View étant définies par les éléments qu'elle contient, nous allons configurer les dimensions et les contraintes plus tard.
+La hauteur et la largeur de la "Stack View" étant définies par les éléments qu'elle contient, nous allons configurer les dimensions et les contraintes plus tard.
 
 ## Ajouter des vues au Stack Views
 
@@ -49,11 +49,11 @@ Glissez et déposez une vue depuis la **bibliothèque d'objets** vers la Stack V
 
 ![Add Field View 1](assets/en/custom-detailform/add-view1-storyboard.png)
 
-Faites ensuite glisser directement une autre vue depuis la **bibliothèque d'objets** et déposez-la dans le Document Outline au même niveau que Field View 1 (pour l’intégrer à la Stack View) et nommez-la **Field View 2**.
+Faites ensuite glisser directement une autre vue depuis la **bibliothèque d'objets** et déposez-la dans le "Document Outline" au même niveau que Field View 1 (pour l’intégrer à la Stack View) et nommez-la **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
 
-Pour ajouter des espaces entre les vues, sélectionnez votre Stack View et affectez-lui une valeur d’espacement de 8 (dans l’Attributes Inspector).
+Pour ajouter des espaces entre les vues, sélectionnez votre "Stack View" et affectez-lui une valeur d’espacement de 8 (dans l’Attributes Inspector).
 
 ![Stackview spacing](assets/en/custom-detailform/stackview-spacing.png)
 
@@ -61,13 +61,13 @@ Sélectionnez **Field View 1** et **Field View 2** et définissez, dans le **Siz
 
 ![views position height and width](assets/en/custom-detailform/views-position-height-width-storyboard.png)
 
-Sélectionnez **Field View 1** et ajoutez trois contraintes en cliquant sur le bouton **Add New Constraints button** (Trailing: 0, Leading: 0, et Top: 0) :
+Sélectionnez **Field View 1** et ajoutez trois contraintes en cliquant sur le bouton **Add New Constraints button** (Trailing: 0, Leading: 0 et Top: 0) :
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-Pour que Stack View et Scroll View soient de la même largeur, vous devez ajouter une contrainte :
+Pour que les "Stack View" et "Scroll View" soient de la même largeur, vous devez ajouter une contrainte :
 
-Appuyez sur Ctrl et glissez la Stack View vers la Scroll View. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles. Sélectionnez "Equal Width" !
+Appuyez sur Ctrl et glissez la "Stack View" vers la "Scroll View". Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles. Sélectionnez "Equal Width" !
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
@@ -79,15 +79,15 @@ Voilà ce qui s'affichera lorsque les contraintes auront été ajoutées :
 
 ![Stackview final constraints](assets/en/custom-detailform/stackview-constraints-final.png)
 
-Maintenant que vous disposez de deux vies dans votre Stack View et que vous avez défini les contraintes, concentrons-nous sur Field View 1.
+Maintenant que vous disposez de deux vues dans votre Stack View et que vous avez défini les contraintes, concentrons-nous sur Field View 1.
 
 ## Ajoutez une Image View au Field View 1
 
-A partir de l'**Object library** (la bibiliothèque d'objets), glissez-déposez une **Image View** (une vue d'image) dans Field View 1.
+À partir de l'**Object library** (la bibiliothèque d'objets), glissez-déposez une **Image View** (une vue d'image) dans Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
-A partir du **Size inspector** (à droite de l’Interface Builder), définissez la largeur de l'Image View sur 359 et la valeur de sa hauteur sur 97. Définissez ensuite la valeur de X sur 0 et la valeur de Y sur 0.
+À partir du **Size inspector** (à droite de l’Interface Builder), définissez la largeur de l'Image View sur 359 et sa hauteur sur 97. Définissez ensuite la valeur de X sur 0 et la valeur de Y sur 0.
 
 ![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
 
@@ -135,11 +135,11 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path ** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
 
-* **Type **: Toujours ```String```
+* **Type**: Toujours ```String```
 
-* **Value **: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
@@ -155,17 +155,17 @@ Vous devez également définir la Classe sur ```IconLabel``` et cocher la case *
 
 Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD___```
+* **Key Path** : ```bindTo.record.___FIELD___```
 
-* **Type **: ```String```
+* **Type** : ```String```
 
-* **Value **: ```___FIELD_BINDING_TYPE___```
+* **Value** : ```___FIELD_BINDING_TYPE___```
 
 ![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
 ## Ajouter des TAGS aux cellules dupliquées
 
-Champ de vue 2 inclut des éléments qui seront dupliqués, pour vous permettre d'avoir autant de champs que d'éléments définis dans l’éditeur de projet.
+Field View 2 inclut des éléments qui seront dupliqués, pour vous permettre d'avoir autant de champs que d'éléments définis dans l’éditeur de projet.
 
 Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si vous sélectionnez Field View 2 et que vous accédez au **Identity inspector**, vous visualiserez ses identifiants d'objets :
 
@@ -209,7 +209,7 @@ Les deux libellés contiennent des contraintes que nous devons également identi
 
 ![Tag constraints](assets/en/custom-detailform/duplicated-constraints.png)
 
-Tout comme pour View Field 2 et le champ, obtenez tous les identifiants d'objets des **7 Contraintes** depuis l’Identity Inspector et remplacez-les par : **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Tout comme pour View Field 2 et le libellé, obtenez tous les identifiants d'objets des **7 Contraintes** depuis l’Identity Inspector et remplacez-les par : **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
 
 Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire détaillé depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
@@ -227,17 +227,17 @@ Nous allons ajouter un rayon de bec à l'Image View et à Field View 2.
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path **: ```cornerRadius```
+* **Key Path** : ```cornerRadius```
 
-* **Type **: ```Number```
+* **Type** : ```Number```
 
-* **Value **: ```12```
+* **Value** : ```12```
 
 et
 
-* **Key Path **: ```layer.masksToBounds```
+* **Key Path** : ```layer.masksToBounds```
 
-* **Type **: ```Boolean```
+* **Type** : ```Boolean```
 
 * **Value** : Cochez la case
 
@@ -245,11 +245,11 @@ et
 
 Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
 
-* **Key Path **: ```cornerRadius```
+* **Key Path** : ```cornerRadius```
 
-* **Type **: ```Number```
+* **Type** : ```Number```
 
-* **Value **: ```12```
+* **Value** : ```12```
 
 ![iPhone Demo](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
@@ -259,7 +259,7 @@ Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 ## Que faire ensuite ?
 
-Dans ce tutoriel, nous avons fait le tour des bases de la création de modèles de formulaires détaillés. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
+Dans ce tutoriel, nous avons fait le tour des fondamentaux de la création de modèles de formulaires détaillés. Vous êtes maintenant en mesure de créer vous-même de simples modèles à l'aide des ressources du projet Starter. Cliquez sur le bouton **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
