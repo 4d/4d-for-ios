@@ -40,10 +40,7 @@ Activating the HTTPS port requires certificate installation to work properly. Yo
 * **Development**: The authentication method allows you to use the app locally. 
 * **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
 
-A template is available which will:
-
-* Grant access (*i.e.*, email to specific domains) 
-* Obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
+A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
 You can customize this method according to your needs! 
 
