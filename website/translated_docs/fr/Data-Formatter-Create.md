@@ -12,7 +12,7 @@ Créer vos premiers formats de données.</div> <div class = "prerequisites">
 
 Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Dans ce didacticiel, nous vous guiderons dans la création de divers exemples de formats.
+Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 
 ## Téléchargez le projet Starter
 
@@ -33,7 +33,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROJET ST
 
 Vous êtes maintenant prêt à créer vos premiers formats !
 
-## Créer le dossier Formats
+## Créez le dossier Formats
 
 Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau que les données Task Management.4dbase.
 
@@ -181,7 +181,7 @@ Regardons le contenu du fichier **manifest.json** :
     
     
 
-## Ouvrir un projet mobile
+## Ouvrez un projet mobile
 
 Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
 
@@ -194,13 +194,13 @@ Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de proje
 
 ![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
-## Créer votre application 4D for iOS
+## Générez votre application 4D for iOS
 
-Créez votre application 4D for iOS et vous constaterez que vos formats de données s'appliquent correctement en fonction du "credit limit".
+Générez votre application 4D for iOS. Vous constatez que vos formats de données s'appliquent correctement en fonction du "credit limit".
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Cliquez sur le **FORMAT FINAL** ci-dessous pour télécharger le dossier définitif des modèles de formats.
+Cliquez sur le bouton **FORMAT FINAL** ci-dessous pour télécharger le dossier final des modèles de formats.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
