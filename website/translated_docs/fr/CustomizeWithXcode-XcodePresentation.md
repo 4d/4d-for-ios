@@ -40,7 +40,7 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 ## Utility Area (Zone de fonctionnalités)
 
-La zone de fonctionnalités d'Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
+La zone de fonctionnalités de Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
 
 ![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
@@ -72,11 +72,11 @@ De gauche à droite, ces onglets correspondent à :
 
 ![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
-* **File templates (modèles de fichiers)** : Ces modèles s'appliquent aux types de fichier courants figurant dans la liste du menu "New File".
+* **File templates (modèles de fichiers)** : ces modèles s'appliquent aux types de fichiers courants figurant dans la liste du menu "New File".
 
 * **Code snippets (extraits de code)** : il s'agit d'extraits de code source destinés à être utilisés dans votre application. Pour en utiliser un, faites-le glisser directement dans votre fichier de code source.
 
-* **Objects (objets)** : cette bibliothèque contient les types d’objets d’interface que vous êtes susceptibles de choisir pour constituer votre interface utilisateur. Pour en ajouter un dans une vue, faites-le glisser directement dans votre Storyboard, dans l’éditeur d’Interface Builder.
+* **Objects (objets)** : cette bibliothèque contient les types d’objets d’interface que vous pouvez choisir pour constituer votre interface utilisateur. Pour ajouter un objet dans une vue, faites-le glisser directement dans votre Storyboard, dans l’éditeur d’Interface Builder.
 
 * **Media files (les fichiers multimédia)** : cette bibliothèque contient tous vos graphiques, icônes et fichiers audio. Pour les utiliser, faites-les glisser directement vers votre Storyboard, dans l’éditeur d’Interface Builder.
 
@@ -88,7 +88,7 @@ Cette zone affiche le résultat et l’état de différentes variables lors de l
 
 Plusieurs onglets sont inclus ici, notamment :
 
-* **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires pour que votre application fonctionne correctement.
+* **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires au bon fonctionnement de votre application.
 
 ![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
@@ -99,10 +99,10 @@ Plusieurs onglets sont inclus ici, notamment :
 * **L'onglet "Issue navigator" (navigateur d'alertes)** : affiche toutes les erreurs issues d'un projet iOS.
     
     * Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application. 
-    * Les erreurs affichées en jaune correspondent à des avertissements relatifs à des alertes susceptibles de causer des problèmes, mais qui ne bloquent pas la génération de l’application. 
+    * Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application. 
 
-Vous pouvez cliquer sur les erreurs et les avertissements pour les visualiser dans le projet.
+Vous pouvez cliquer sur les erreurs et les alertes pour les visualiser dans le projet.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Nous allons ensuite mettre l’accent sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".
+Nous allons ensuite nous pencher sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".

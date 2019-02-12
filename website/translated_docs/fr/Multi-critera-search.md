@@ -24,7 +24,7 @@ par :
     
     
 
-Et voilà ! La classe est la seule chose que vous devez modifier pour activer la recherche multicritères.
+Et voilà ! L'élément "class" est le seul que vous devez modifier pour activer la recherche multicritères.
 
 ## Éditeur de projet
 
@@ -38,4 +38,4 @@ Un menu s’affichera pour vous permettre de **retirez champs spécifiques** ou 
 
 ![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Félicitations ! Vous pouvez maintenant baser votre ou vos recherche(s) sur plusieurs champs dans votre application 4D for iOS !
+Félicitations ! Vos recherches peuvent maintenant être fondées sur plusieurs champs dans votre application 4D for iOS !

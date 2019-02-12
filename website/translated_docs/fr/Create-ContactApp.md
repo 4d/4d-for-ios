@@ -6,7 +6,7 @@ title: Application Contacts
 
 **OBJECTIFS**
 
-Créer sa première application avec 4D for iOS</div> <div class = "prerequisites"> 
+Créer une toute première application avec 4D for iOS</div> <div class = "prerequisites"> 
 
 **CONDITIONS PRÉALABLES**
 
@@ -79,14 +79,14 @@ Définissons maintenant certains libellés et icônes pour les tables et champs 
 
 **Propriétés du tableau :**
 
-* Définissez un libellé court et un libellé long pour votre table Contact
+* Définissez un libellé court et un libellé long pour votre table Contact.
 * Cliquez sur le champ icône. La bibliothèque d’icônes s’affiche. Vous pouvez choisir une icône pour illustrer la table Contact, comme vous pouvez aussi laisser le champ "Icônes" vide. 4D for iOS vous génèrera une icône par défaut !
 
 **Propriétés du champ :**
 
 * Définissez un court et un long libellé pour les champs que vous avez sélectionnés.
-* Cliquez sur le champ "Icônes" et choisissez des icônes pour chaque champ. Il existe plusieurs options pour les icônes de champ : 
-    * Vous pouvez sélectionner une icône pour chaque champ,
+* Cliquez sur le champ "Icônes" et choisissez des icônes pour chaque champ. Plusieurs options sont possibles : 
+    * Vous pouvez sélectionner une icône pour chaque champ.
     * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS vous génèrera des icônes par défaut.
     * Vous pouvez simplement les laisser vides pour n'afficher aucune icône de champ. 
 

@@ -12,7 +12,7 @@ Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequ
 
 Cliquez [ici](prerequisites.html) pour commencer !</div> 
 
-Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste tel que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
+Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste, tels que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
 ![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
@@ -37,11 +37,11 @@ Vous êtes maintenant prêt à créer votre premier modèle de formulaire Liste 
 
 ## Ajoutez un modèle de formulaire Liste à votre projet mobile
 
-Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list à côté du fichier Contact.4dbase. Ensuite, faites-y glisser et déposer votre dossier **list form**.
+Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list à côté du fichier Contact.4dbase. Puis, faites-y glisser-déposer votre dossier **list form**.
 
 ![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
-Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>ouvrir>Projet mobile> **Appli demo Contacts**)
+Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>Ouvrir>Projet mobile> **Appli demo Contacts**)
 
 Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
@@ -58,4 +58,4 @@ Dans ce dossier, vous trouverez :
 * **Un fichier template.svg** (le visuel de votre modèle qui s'affichera au moment de définir le contenu de votre formulaire liste)
 * Un dossier "Sources" qui inclut les fichiers **storyboard** (interface graphique) et **Swift** (code du formulaire)
 
-A quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
+À quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
