@@ -6,4 +6,4 @@ Créez d'abord un **dossier .../Resources/Mobile/medias/icons** à côté des do
 
 ![Mobile folder custom icons](assets/en/custom-icons/mobile-folder-custom-icons.png)
 
-Nous avons utilisé une couleur bleue pour différencier les icônes intégrés et nos propres icônes dans la bibliothèque d’icônes.
+Nous avons choisi d'utiliser une couleur bleue pour différencier les icônes intégrées et nos propres icônes, dans la bibliothèque d’icônes.
