@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Suivant",
     "previous": "Précédent",
-    "tagline": "Créez et déployez des applications iOS natives personnalisées en toute facilité",
+    "tagline": "Créez et déployez des applications iOS natives en toute facilité",
     "docs": {
       "contact-app": {
         "title": "Application Contacts"
@@ -18,10 +18,10 @@
         "title": "Travailler avec Xcode"
       },
       "xcode-overview": {
-        "title": "Présentation d'Xcode"
+        "title": "Présentation de Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Créer et exécuter un projet"
+        "title": "Générer et exécuter un projet"
       },
       "creating-data-formatter": {
         "title": "Créer un format de données"
@@ -145,7 +145,7 @@
         "title": "Structure"
       },
       "n-to-one-relations": {
-        "title": "Relation N vers 1"
+        "title": "Liens N vers 1"
       },
       "define-filter-query": {
         "title": "Définir un filtre de recherche"
