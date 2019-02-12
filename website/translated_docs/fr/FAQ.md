@@ -6,7 +6,7 @@ title: FAQ
 
 <details>
 <summary>
-    <strong>Ai-je besoin d’avoir des connaissances spécialisées pour utiliser 4D for iOS ?</strong>
+    <strong>Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS ?</strong>
 </summary>
 
 Avec 4D for iOS, vous pouvez facilement créer de nouveaux projets mobiles directement depuis 4D, sans qu'une connaissance préalable dans la création d’applications iOS natives soit nécessaire !
@@ -29,7 +29,7 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 | 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
 
-Si vous souhaitez une version antérieure d'Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
+Si vous souhaitez une version antérieure de Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
 
 => Seuls les développeurs inscrits peuvent télécharger des versions antérieures sur le site web Apple Developer.
 
@@ -42,7 +42,7 @@ Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables
 <strong>Puis-je utiliser Windows pour développer avec 4D for iOS ?</strong>
 </summary>
 
-Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide d'Xcode.
+Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide de Xcode.
 
 </details>
 
@@ -105,10 +105,10 @@ Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 <details>
 <summary>
-<strong>Mon une application contient un grand nombre de données, puis-je les intégrer à mon appareil iOS ?</strong>
+<strong>Mon application contient un grand nombre de données, puis-je les intégrer à mon appareil iOS ?</strong>
 </summary>
 
-4D for iOs vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
+4D for iOS vous permet d’intégrer un maximum de 10 000 enregistrements dans votre application.
 
 Pour l’instant, la meilleure façon de traiter de grandes quantités de données consiste à créer une table intermédiaire et à filtrer les résultats que vous souhaitez afficher.
 
@@ -132,7 +132,7 @@ Les prochaines versions vous permettront d’ajouter et de modifier vos enregist
 <strong>Puis-je recharger uniquement les enregistrements qui ont été modifiés ?</strong>
 </summary>
 
-Lorsque vous rechargez vos données, elles sont toutes téléchargées pour remplacer les données existantes.
+Lorsque vous rechargez des données, elles sont téléchargées dans leur intégralité pour remplacer les données existantes.
 
 La synchronisation incrémentielle sera prévue dans une prochaine version.
 
@@ -170,7 +170,7 @@ Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les 
 <strong>Ai-je besoin d'images dans ma base de données ?</strong>
 </summary>
 
-Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser pour garantir la meilleure expérience utilisateur.
+Les images ne sont pas obligatoires, mais nous vous recommandons d'en avoir pour garantir la meilleure expérience utilisateur.
 
 4D for iOS offre une variété de modèles de [formulaires Liste](list-form-templates.html) et de [formulaires détaillés](detail-form-templates.html). Avec ou sans images, avec des graphiques, etc.
 
