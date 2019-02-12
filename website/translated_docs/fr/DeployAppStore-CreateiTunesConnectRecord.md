@@ -11,7 +11,7 @@ title: Créer une fiche sur App Store
 
 **CONDITIONS PRÉALABLES**
 
-[Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html) – $/an</div> 
+[Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)</div> 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
 
