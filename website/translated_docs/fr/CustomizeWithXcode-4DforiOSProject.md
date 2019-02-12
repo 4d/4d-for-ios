@@ -6,7 +6,7 @@ Accédez aux Sources à partir de l'onglet Navigation.
 
 Vous trouverez ici les dossiers Structure et Formulaires. Ils contiennent tous les fichiers nécessaires à la structure et aux formulaires de votre base de données, notamment :
 
-* Launch screen</0> (écran de lancement) - apparaît lorsque l’application est lancée.
+* Launch screen (écran de lancement) - apparaît lorsque l’application est lancée.
 * Login screen (écran de connexion) - s’affiche lorsque l’authentification est activée.
 * Settings screen (écran de paramètres) - inclut les boutons "reload" et "logout".
 * Toutes les tables publiées - fichiers correspondant aux données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
