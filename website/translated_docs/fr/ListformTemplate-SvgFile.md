@@ -2,7 +2,7 @@
 id: svg-file-listform-template
 title: Template.svg
 ---
-Le fichier template.svg est une représentation visuelle basique d’un modèle. Dans ce fichier, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire Liste depuis l’éditeur de projet.
+Le fichier template.svg est une représentation visuelle basique d’un modèle. Dans ce fichier, vous définirez des sections afin d'ajouter des champs à votre modèle de formulaire Liste depuis l’éditeur de projet.
 
 Voici une version finale :
 
@@ -26,13 +26,13 @@ Ajoutez ici le titre de votre modèle.
 
 Cette partie inclut les identifiants qui permettent de définir les zones de votre formulaire :
 
-* **search ID** : en référence à la zone du champ. Cela vous permettra de glisser et déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
-* **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser et déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
-* **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire Liste. Cela vous permettra de glisser et déposer les champs à faire apparaitre dans les cellules de votre formulaire Liste.
+* **search ID** : en référence à la zone du champ recherche. Cela vous permettra de glisser-déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
+* **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser-déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
+* **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire. Cela vous permettra de glisser-déposer les champs à faire apparaître dans les cellules de votre formulaire Liste.
 
-## Emplacement, hauteur, largeur et type de la zone
+## Position, hauteur, largeur et type de la zone
 
-Vous avez la possibilité de définir l'emplacement, la hauteur et la largeur de :
+Vous avez la possibilité de définir la position, la hauteur et la largeur de :
 
 * Searchfield
 * Sectionfield
@@ -60,11 +60,11 @@ Vous avez la possibilité de définir l'emplacement, la hauteur et la largeur de
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Image affichant l'icône loupe dans le "searchable field" (champ de recherche)
-4. Définir l'emplacement de la zone de texte et la largeur 
-5. Définir l'emplacement du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
+4. Définir la position de la zone de texte et la largeur 
+5. Définir la position du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Le "searchable field" (champ de recherche) est facultatif.<div class = "tips"> 
@@ -73,13 +73,13 @@ Le "searchable field" (champ de recherche) est facultatif.<div class = "tips">
 
 Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
-<
 
-div markdown="1" class = "tips">
+
+<div markdown="1" class = "tips">
 
 **CONSEILS**
 
-Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'exclure des types de champs avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
+Pour définir plus facilement les types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et de les exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
 Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
 
@@ -98,9 +98,9 @@ Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
     <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
     
 
-1. Emplacement, hauteur et largeur de la zone d'arrière-plan
-2. Définir l'emplacement et la largeur de la zone de texte 
-3. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+1. Position, hauteur et largeur de la zone d'arrière-plan
+2. Définir la position et la largeur de la zone de texte 
+3. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Le "section field" (champ de section) est facultatif.
@@ -127,11 +127,11 @@ Le "section field" (champ de section) est facultatif.
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Icône affichant une image dans imageField (le champ image)
-4. Définir l'emplacement et la largeur de la zone de texte 
-5. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+4. Définir la position et la largeur de la zone de texte 
+5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Zone Title Field :
@@ -153,10 +153,10 @@ Le "section field" (champ de section) est facultatif.
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement de la zone de texte et la largeur 
-4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
+3. Définir la position de la zone de texte et la largeur 
+4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Zone Subtitle Field :
@@ -178,10 +178,10 @@ Le "section field" (champ de section) est facultatif.
     </g>
     
 
-1. Emplacement de toute la zone Y
-2. Emplacement, hauteur et largeur de la zone d'arrière-plan
-3. Définir l'emplacement et la largeur de la zone de texte 
-4. Définir l'emplacement du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
+1. Position de toute la zone Y
+2. Position, hauteur et largeur de la zone d'arrière-plan
+3. Définir la position et la largeur de la zone de texte 
+4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Maintenant que vous avez une **icône**, une **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg** ... nous allons passer à la partie amusante, avec Xcode !
+Maintenant que vous avez une **icône**, une **description basique d'un modèle** dans le fichier manifest.json, et votre fichier **svg**, nous allons passer à la partie amusante, avec Xcode !
