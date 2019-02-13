@@ -31,7 +31,7 @@ Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. In
 
 * Les ports HTTP et HTTPS doivent être correctement configurés. Le port HTTPS est obligatoire pour le déploiement de 4D for iOS.
 
-![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
+![Web Configuration](assets/fr/prerequisites/Web-Configuration.png)
 
 * Votre serveur Web doit être lancé. Il est accessible depuis le menu Exécution :
 
