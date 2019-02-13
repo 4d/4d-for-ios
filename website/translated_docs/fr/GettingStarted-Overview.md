@@ -21,5 +21,5 @@ Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directem
 
 ## Solution ouverte
 
-* 4D for iOS génère un véritable projet Xcode. Vous pouvez le rouvrir avec Xcode et y poursuivre votre travail.
+* 4D for iOS génère un véritable projet Xcode que vous pouvez rouvrir et enrichir à souhait.
 * Toutes les tables et tous les formulaires sont intégrés dans l’application et sont modifiables.
