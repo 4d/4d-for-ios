@@ -9,7 +9,7 @@ Vous trouverez ici les dossiers Structure et Formulaires. Ils contiennent tous l
 * Launch screen (écran de lancement) - apparaît lorsque l’application est lancée.
 * Login screen (écran de connexion) - s’affiche lorsque l’authentification est activée.
 * Settings screen (écran de paramètres) - inclut les boutons "reload" et "logout".
-* Toutes les tables publiées - fichiers correspondant aux données autorisées. Ils sont présentés par paires, à l’exception du fichier de "Launch screen" (écran de lancement). 
+* Toutes les tables publiées - fichiers correspondant aux données autorisées.
 
 En règle générale, vous trouverez un fichier Swift et un fichier Storyboard. Ces fichiers sont décrits ci-dessous.
 
