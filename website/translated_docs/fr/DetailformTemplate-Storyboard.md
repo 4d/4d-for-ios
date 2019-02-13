@@ -223,7 +223,7 @@ Field View 2 a bien été dupliqué ! Voyons comment rendre cette application un
 
 ### Personnaliser votre application
 
-Nous allons ajouter un rayon de bec à l'Image View et à Field View 2.
+Nous allons ajouter un bord arrondi à l'Image View et à Field View 2.
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
