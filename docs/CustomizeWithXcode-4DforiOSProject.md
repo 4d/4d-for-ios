@@ -10,7 +10,7 @@ Here you'll find the Structure and Forms folders. They contain all of the files 
 * Launch screen - Appears when the app is launched.
 * Login screen - Appears when authentication is activated.
 * Settings screen - Includes the reload and logout buttons.
-* All published tables - Files for the authorized data. They exist in pairs, with the exception of the Launch screen file. 
+* All published tables - Files for the authorized data.
 
 Instead, you'll find a Swift file and a Storyboard file. These files are described below. 
 
