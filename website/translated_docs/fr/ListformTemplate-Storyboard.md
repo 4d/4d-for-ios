@@ -161,7 +161,7 @@ Voici le résultat du simulateur :
 
 ## Personnaliser l'application
 
-La dernière étape consiste à ajouter un rayon de bec à la vue d'image pour améliorer la conception.
+La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour améliorer la conception.
 
 Sélectionnez votre "Image View" et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
 
