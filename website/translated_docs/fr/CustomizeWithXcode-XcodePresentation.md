@@ -56,13 +56,13 @@ De gauche à droite, ces onglets correspondent à :
 
 * **Quick Help (aide rapide)** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
 
-* **Identity inspector (inspecteur d'identité)** : pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son étiquette.
+* **Identity inspector (inspecteur d'identité)** : pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son "label".
 
 * **Attributes inspecteur (inspecteur d'attributs)** : pour configurer les attributs spécifiques à l’objet sélectionné. Par exemple, certains attributs d'un champ texte incluent un alignement et une couleur, un type de bordure et des paramètres de modification.
 
 * **Size inspector (inspecteur de dimensions)** : pour préciser des caractéristiques telles que la taille et la position d’un objet.
 
-* **Connections inspector (inspecteur de connexions)** : pour visualiser les points de vente d'un objet, établir de nouvelles connexions et supprimer des connexions existantes.
+* **Connections inspector (inspecteur de connexions)** : pour visualiser les "outlets" d'un objet, établir de nouvelles connexions et supprimer des connexions existantes.
 
 ### Library (Bibliothèque)
 
