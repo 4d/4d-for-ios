@@ -9,7 +9,7 @@ Aqui você vai encontrar as pastas de estrutura e formulários. Eles contêm tod
 * Tela de lançamento - aparece quando o aplicativo é iniciado.
 * Tela de login - aparece quando a autenticação é ativada.
 * Tela de configurações - inclui os botões de recarregar e logout.
-* Todas as tabelas publicadas - Arquivos para os dados autorizados. Existem em pares, com a exceção do arquivo tela de Lançamento. 
+* All published tables - Files for the authorized data.
 
 Você vai encontrar um arquivo Swift e um arquivo Storyboard. Estes arquivos estão descritos abaixo.
 
