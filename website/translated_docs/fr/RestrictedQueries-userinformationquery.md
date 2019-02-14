@@ -15,7 +15,7 @@ Nous allons filtrer maintenant le contenu de notre application en fonction de l'
     Status = 'In Progress' & manager.Email = :email 
     
 
-La recherche filtrera les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce à la relation *Many-to-One* figurant dans le nom du chargé de clientèle).<div class = "tips"> 
+La recherche permettra de filtrer les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce au lien *N vers 1* qui figure dans le nom du chargé de clientèle).<div class = "tips"> 
 
 **NOTE**
 
