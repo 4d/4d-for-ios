@@ -31,5 +31,5 @@ For example, the manifest file for the detail form template below includes the f
 
 1. **Storyboard type:** detailform
 2. **Template Name:** Custom Detail form
-3. **Field number:** One static field and 0 for infinite duplicated fields (a header image, and duplicated fields)
+3. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
 4. **Icon properties:** Icon width and height
