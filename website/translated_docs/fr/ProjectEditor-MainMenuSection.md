@@ -6,4 +6,4 @@ title: Main Menu
 
 * Par défaut, toutes les tables sélectionnées dans la section Structure s’ajouteront au menu de votre application. Vous pouvez ensuite les glisser-déposer pour les ajouter, les supprimer et les réorganiser.
 
-![Main menu section](assets/en/project-editor/Main-menu-section-4D-for-iOS.png)
+![Main menu section](assets/fr/project-editor/Main-menu-section-4D-for-iOS.png)
