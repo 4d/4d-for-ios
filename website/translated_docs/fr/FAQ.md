@@ -31,7 +31,7 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 Si vous souhaitez une version antérieure de Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
 
-=> Seuls les développeurs inscrits peuvent télécharger des versions antérieures sur le site web Apple Developer.
+=> Seuls les développeurs ayant souscrit au Apple Developer Program peuvent télécharger des versions antérieures sur le site web Apple Developer.
 
 Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables.
 
