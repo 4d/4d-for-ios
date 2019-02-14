@@ -32,9 +32,9 @@ Vous pouvez allez ensuite dans l’éditeur de projet et déposer plusieurs cham
 
 ![Multi-criteria search in the project editor](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Cliquez sur la croix située à droite du champ de recherche pour modifier la liste des champs associés.
+Cliquez sur la croix située à droite du champ de recherche pour supprimer le champ associé et modifier la liste de tous les champs associés.
 
-Un menu s’affichera pour vous permettre de **retirez champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
+Un menu s’affichera pour vous permettre de **retirer des champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
 
 ![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
