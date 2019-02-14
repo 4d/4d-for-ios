@@ -9,7 +9,7 @@ Aquí encontrará las carpetas Structure y Forms. Contienen todos los archivos n
 * Launch screen - aparece cuando se inicia la aplicación.
 * Login screen - aparece cuando se activa la autenticación.
 * Settings screen - incluye los botones reload y logout.
-* Todas las publicadas tablas - archivos correspondientes a los datos autorizados. Existen en pares, excepto el archivo de Launch screen (pantalla de inicio). 
+* All published tables - Files for the authorized data.
 
 En su lugar, encontrará un archivo Swift y un archivo Storyboard. Estos archivos se describen a continuación.
 

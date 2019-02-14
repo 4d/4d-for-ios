@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Suivant",
     "previous": "Précédent",
-    "tagline": "Créez et déployez des applications iOS natives en toute facilité",
+    "tagline": "Créez et déployez des Apps iOS natives en toute facilité",
     "docs": {
       "contact-app": {
         "title": "Application Contacts"
@@ -21,7 +21,7 @@
         "title": "Présentation de Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Générer et exécuter un projet"
+        "title": "Créer et exécuter un projet"
       },
       "creating-data-formatter": {
         "title": "Créer un format de données"
@@ -45,7 +45,7 @@
         "title": "Apple Developer Program pour les entreprises"
       },
       "deploy-in-house-archive-and-export": {
-        "title": "Archiver et télécharger un projet"
+        "title": "Archiver et exporter un projet"
       },
       "deploy-in-house-distribution": {
         "title": "Distribuer une application interne"
@@ -208,9 +208,9 @@
     "Create your app|no description given": "Créez votre application",
     "Test your app|no description given": "Testez votre application",
     "Structure|no description given": "Structure",
-    "Define a subset of your physical structure to replicate.|no description given": "Définissez un sous-ensemble de votre structure pour le reproduire.",
+    "Define a subset of your physical structure to replicate.|no description given": "Définissez un sous-ensemble de votre structure.",
     "Design|no description given": "Conception",
-    "Choose the layouts and style of your application in just a few, short steps.|no description given": "Choisissez les mises en page et le style de votre application en seulement quelques étapes.",
+    "Choose the layouts and style of your application in just a few, short steps.|no description given": "Choisissez la présentation et le style de votre application en seulement quelques étapes.",
     "Generate & Test|no description given": "Générer & tester",
     "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Créez un projet Xcode en un seul clic et exécutez votre application sur n’importe quel iPhone.",
     "Choose an in-house or App Store deployment model to distribute your application.|no description given": "Pour distribuer votre application, vous pouvez la déployer en interne ou sur l'App Store.",

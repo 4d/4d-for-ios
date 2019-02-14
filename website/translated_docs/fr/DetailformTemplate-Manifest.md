@@ -31,5 +31,5 @@ Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous 
 
 1. **Type de Storyboard :** detailform
 2. **Nom du modèle :** Custom Detail form
-3. **Nombre de champs :** un champ statique et 0 pour les champs dupliqués infinis (une image d'en-tête et des champs dupliqués)
+3. **Nombre de champs :** 1 champ statique (on entrera la valeur 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
 4. **Propriétés de l'icône :** largeur et hauteur de l'icône

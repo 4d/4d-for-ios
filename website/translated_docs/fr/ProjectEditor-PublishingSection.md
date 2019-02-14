@@ -35,10 +35,7 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
 * **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
 
-Un modèle disponible permettra :
-
-* D'accorder un accès (c'est-à-dire, via un e-mail à des domaines spécifiques) 
-* D'obtenir toutes les informations nécessaires sur la session, ainsi que les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.)
+Un modèle permet d'obtenir toutes les informations nécessaires sur la session et les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.).
 
 Vous pouvez personnaliser cette méthode selon vos besoins !
 
@@ -97,7 +94,7 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
   </p>
 </div>
 
-* Créez un dossier **Composants** qui contiendra les données de l'application, au même emplacement que la base de données 4D. 
+* Créez un dossier **Composants** contenant les données de l’application au même emplacement que la base de données 4D. 
 * Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D. 
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
@@ -105,7 +102,7 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
-* Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
+* Right click on a session to reveal the session file in the Finder or delete it.
 * Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
