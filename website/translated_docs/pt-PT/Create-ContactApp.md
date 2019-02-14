@@ -6,13 +6,13 @@ title: Contact App
 
 **OBJETIVOS**
 
-Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
+Crie seu primeiro aplicativo com 4D para iOS</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
-Este tutorial vai deixar você mergulhardireto em 4D para o desenvolvimento do iOS. Isso permitirá que você crie rapidamente e facilmente sua primeira aplicação.
+Este tutorial vai deixar você mergulhar direto em 4D para o desenvolvimento do iOS. Isso permitirá que você crie rapidamente e facilmente sua primeira aplicação.
 
 *Cenário: Você é um gerente de negócios e quer consultar suas informações de contato em qualquer lugar.*
 
