@@ -8,11 +8,11 @@ Cette section vous permet :
 * d'effectuer une **regénération** automatique **des données** à chaque génération de votre application ou d'effectuer une génération manuelle, et
 * de filtrer les données à faire figurer dans votre application en fonction des **filtres de recherche généraux** ou des **informations utilisateur**. 
 
-![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
+![Data section](assets/fr/project-editor/Data-tab-4D-for-iOS.png)
 
 ## Source des données
 
-![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
+![Data section](assets/fr/project-editor/Data-source-panel-4D-for-iOS.png)
 
 Cette partie vous permet de définir vos **sources de données**. Vous pouvez lire les données à partir du **Fichier de données courant** ou bien à partir du **Fichier de données du serveur de production**.
 
