@@ -37,6 +37,10 @@ Then go right to your Structure section and select the **Task table**.
 
 * This field will operate as any other field for the rest of the app creation process
 
+* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
+
+ ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
+
 * You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
