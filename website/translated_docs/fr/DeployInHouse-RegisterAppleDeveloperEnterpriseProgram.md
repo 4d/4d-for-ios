@@ -22,13 +22,13 @@ Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/fr/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
 * Entrez le code de vérification pour valider la création de votre compte.
 
-![Register developer program](assets/en/deploy-in-house/Register-developer-program-4D-for-iOS.png)
+![Register developer program](assets/fr/deploy-in-house/Register-developer-program-4D-for-iOS.png)
 
 * Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
