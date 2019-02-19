@@ -16,6 +16,6 @@ Voici les options de l'onglet Génération :
 
 Sélectionnez un simulateur dans lequel vous générerez et testerez votre application, puis cliquez sur le bouton **Créer et exécuter**.
 
-![BuildTab](assets/en/project-editor/Build-Tab-4D-for-iOS.png)
+![BuildTab](assets/fr/project-editor/Build-Tab-4D-for-iOS.png)
 
 Vous êtes maintenant prêt à explorer 4D for iOS par vous-même et à créer votre propre projet iOS !
