@@ -1,6 +1,6 @@
 ---
 id: deployment
-title: Sélectionnez votre Apple Developer Program
+title: Choisir un Apple Developer Program
 ---
 <div class = "objectives"> 
 
