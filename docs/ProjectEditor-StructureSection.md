@@ -37,13 +37,12 @@ In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new,
 To do so, 4D for iOS needs to make stucture optimizations and create:
 
 * A ```__DeletedRecords``` table to store deleted records
-* ```__Stamp``` fields for each table to store stamps 
+* ```__Stamp``` fields for each table to store modification stamps 
 
 All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update. 
 
-Once authorized you will fully benefit from all the advantages of incrememental reload.
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
-No need to worry about stamp or deleted records anymore, 4d for iOS will do all the work for you.
 
 ### Pull to refresh!
 
