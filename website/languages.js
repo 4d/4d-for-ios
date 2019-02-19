@@ -12,7 +12,7 @@ const languages = [
     tag: 'en',
   },
   {
-    enabled: false,
+    enabled: true,
     name: '日本語',
     tag: 'ja',
   },
@@ -42,7 +42,7 @@ const languages = [
     tag: 'da',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Deutsch',
     tag: 'de',
   },
@@ -52,7 +52,7 @@ const languages = [
     tag: 'el',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Español',
     tag: 'es-ES',
   },
@@ -122,7 +122,7 @@ const languages = [
     tag: 'pl',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Português',
     tag: 'pt-PT',
   },
