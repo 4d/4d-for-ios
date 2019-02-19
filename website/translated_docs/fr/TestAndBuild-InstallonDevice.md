@@ -1,6 +1,6 @@
 ---
 id: install-device
-title: Installer votre appareil iOS
+title: Installation sur votre appareil iOS
 ---
 <div class = "objectives"> 
 
@@ -46,15 +46,15 @@ C'est parti !
 
 * Ouvrez votre projet actuel depuis l’onglet GÉNÉRATION.
 
-![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
+![Build tab](assets/fr/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
 * Vérifiez que l'option **Automatically manage signing** est cochée, puis sélectionnez le compte que vous avez ajouté [ici](free-developer-account.html) à partir de la liste déroulante "Team".
 
-![Account-Selection](assets/en/test-build/account-Selection-Free-Account.png)
+![Account-Selection](assets/fr/test-build/account-Selection-Free-Account.png)
 
-* Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu supérieur d'Xcode.
+* Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu supérieur de Xcode.
 
-![Select your device](assets/en/test-build/select-device-Free-Account.png)
+![Select your device](assets/fr/test-build/select-device-Free-Account.png)
 
 * Xcode génère automatiquement les profils et les certificats de provisioning nécessaires dont vous aurez besoin pour créer votre application.
 
@@ -90,7 +90,7 @@ C'est parti !
 * Connectez votre appareil à votre ordinateur avec un câble USB.
 * Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
 
-![Manual installation](assets/en/test-build/Manual-installation-4D-for-iOS.png)
+![Manual installation](assets/fr/test-build/Manual-installation-4D-for-iOS.png)
 
 * Une archive de votre projet est créée.
 
