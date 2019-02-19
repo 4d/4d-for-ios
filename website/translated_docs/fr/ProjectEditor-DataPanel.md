@@ -34,7 +34,7 @@ Si vous cochez l'option **Ne pas regénérer les données à chaque génération
 
 ## Propriétés
 
-![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/fr/project-editor/Properties-Panel-4D-for-iOS.png)
 
 Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
