@@ -32,23 +32,23 @@ You can publish a selection of fields by pressing the spacebar rather than selec
 
 ### Enable structure adjustments
 
-In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, updated or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
 
 To do so, 4D for iOS needs to make stucture optimizations and create:
 
 * A ```__DeletedRecords``` table to store deleted records
 * ```__Stamp``` fields for each table to store stamps 
 
-All you need to do is to enable 4D for iOS to make the necessary structure adjustments for an optimised mobile data update. 
+All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update. 
 
 Once authorized you will fully benefit from all the advantages of incrememental reload.
 
-No need to worry about stamp or deleted records anymore, 4d for iOS will do all work for you.
+No need to worry about stamp or deleted records anymore, 4d for iOS will do all the work for you.
 
 ### Pull to refresh!
 
-iOS app side, your app is updated each time you launch your app and each time your app goes foreground for you to always have up-to-date data. 
+iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
 
 In normal use, simply swipe down from any listform to reload your data.
 
-From iPhone settings, you can now reset your app data and find informations about your app. 
+From iPhone settings, you can now reset your app data and find information about your app. 
