@@ -32,7 +32,7 @@ You can publish a selection of fields by pressing the spacebar rather than selec
 
 ### Enable structure adjustments
 
-In 4D 17R5, the 4D for iOS becomes incremental. This means that only new, updated or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, updated or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
 
 To do so, 4D for iOS needs to make stucture optimizations and create:
 
