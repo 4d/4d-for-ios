@@ -7,8 +7,12 @@ files:
     translation: /website/translated_docs/%locale%/%original_file_name%
     languages_mapping:
       locale:
+        ja: ja
+        de: de
         es-ES: es-ES
         fr: fr
+        pt-PT: pt-PT
+
   - source: /docs/assets/en/**/*.png
     translation: /docs/assets/%two_letters_code%/**/%original_file_name%
   - &ref_languages_mapping
