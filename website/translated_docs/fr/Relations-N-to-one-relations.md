@@ -36,7 +36,11 @@ Accédez directement à la section Structure, puis sélectionnez la **table Task
 
 * Ce champ aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application
 
-* Vous pouvez ensuite sélectionner une **icône** et des **formats** et définir des **libellés courts et longs** dans la section Libellés et icônes
+* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
+    
+    ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
+
+* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
