@@ -14,19 +14,19 @@ Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-op
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/fr/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
 * Entrez le code de vérification pour valider la création de votre compte.
 
-![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
+![Register Developer Program](assets/fr/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
 * Une fois que vous obtenez votre identifiant Apple, passez à l’Étape 3.
 
 ## ÉTAPE 3. Ouvrez Xcode
 
-* Lancez Xcode > Preferences > Account
+* Lancez Xcode > Preferences > Accounts
 * Ajoutez votre identifiant Apple et connectez-vous 
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
