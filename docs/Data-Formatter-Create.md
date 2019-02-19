@@ -153,7 +153,7 @@ Let's look at the contents of the **manifest.json** file:
 
 * Create a **textToImage** folder in the formatters folder you've just created.
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* Create a **manifest.json** file in the **textToImage** folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
