@@ -59,7 +59,7 @@ Vous pourrez configurer ici les principales informations de votre application :
 * **Icônes :** Glissez et déposez une icône pour votre application dans la zone consacrée.
 * **Développeur :** Cette sous-section est renseignée automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez-collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ "Team". Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
-![General](assets/en/contact-app/Contact-app-general-section-4D-for-iOS.png)
+![General](assets/fr/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
 ## ÉTAPE 5. Sections - Structure
 
@@ -71,7 +71,7 @@ Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**
 
 Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base</div> 
 
-![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
+![Structure](assets/fr/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## ÉTAPE 6. Sections - Libellés et icônes
 
@@ -90,7 +90,7 @@ Définissons maintenant certains libellés et icônes pour les tables et champs 
     * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS vous génèrera des icônes par défaut.
     * Vous pouvez simplement les laisser vides pour n'afficher aucune icône de champ. 
 
-![Icons & Labels](assets/en/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
+![Icons & Labels](assets/fr/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
 ## ÉTAPE 7. Sections - Menu
 
@@ -99,7 +99,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 * **Tables disponibles :** Affiche la ou les tables à utiliser.
 * **Tables sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
-![Main Menu](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
+![Main Menu](assets/fr/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## ÉTAPE 8. Sections - Formulaires
 

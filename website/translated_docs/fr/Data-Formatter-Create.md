@@ -116,7 +116,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 ### Texte vers chaîne
 
-* Créez un dossier **integerToString** dans le dossier Formats que vous venez de créer.
+* Créez un dossier **textToString** dans le dossier Formats que vous venez de créer.
 
 * Créez un fichier **manifest.json** dans le dossier **textToString**.
 
@@ -148,7 +148,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un dossier **textToImage** dans le dossier Formats que vous venez de créer.
 
-* Créez un fichier **manifest.json** dans le dossier **integerToImage**.
+* Create a **manifest.json** file in the **textToImage** folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 

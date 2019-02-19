@@ -28,13 +28,13 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 **Général : Entrez votre Team ID**
 
-![Team ID](assets/en/deploy-app-store/Team-ID.png)
+![Team ID](assets/fr/deploy-app-store/Team-ID.png)
 
 **Publication : Entrez votre URL de production**
 
 (HTTPS est obligatoire pour le déploiement).
 
-![Publishing](assets/en/deploy-app-store/Publishing.png)
+![Publishing](assets/fr/deploy-app-store/Publishing.png)
 
 * Dans l’onglet GÉNÉRATION :
 
@@ -100,7 +100,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 8. Sélectionnez la version destinée à l’App Store
 
-* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **é"+"** qui apparaît dans la section Build.
+* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **"+"** qui apparaît dans la section Build.
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
