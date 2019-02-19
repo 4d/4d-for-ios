@@ -8,7 +8,7 @@ C’est ici que vous pourrez définir ou créer votre application :
 * Mode d’authentification 
 * Méthode d’authentification
 
-![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
+![Publishing section](assets/fr/project-editor/Publishing-section-4D-for-iOS.png)
 
 ## Paramètres du serveur Web
 
