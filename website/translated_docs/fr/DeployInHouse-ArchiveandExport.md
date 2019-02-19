@@ -36,7 +36,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
     
     * Général : Saisissez votre Team ID.
     
-    ![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
+    ![Enterprise-Team-ID](assets/fr/deploy-in-house/Enterprise-Team-ID.png)
     
     * Publication : Entrez votre URL de production (HTTP est obligatoire pour le déploiement).
 
@@ -66,7 +66,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Cliquez sur **Export**.
 
-![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
+![Export your project](assets/fr/deploy-in-house/Organizer-window-archive.png)
 
 ## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
