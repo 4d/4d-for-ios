@@ -39,7 +39,7 @@ You are now ready to create your first list form template!
 
 ## Add a list form template to your mobile project
 
-The first thing you'll need to do is create a .../Resources/Mobile/form/list folder next to the Contact.4dbase file. Then drag and drop your **list form** folder into it.
+The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
 
 ![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 

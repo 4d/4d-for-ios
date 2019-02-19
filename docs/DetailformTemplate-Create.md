@@ -39,7 +39,7 @@ You are now ready to create your first detail form template !
 
 ## Add a detail form template to your mobile project
 
-First, create a .../Resources/Mobile/form/detail folder next to the Contact.4dbase data and drag and drop the **Custom Detail form** folder in it.
+First, create a *Contact.4dbase/Resources/Mobile/form/detail* folder and drag and drop the **Custom Detail form** folder in it.
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
