@@ -37,7 +37,7 @@ Vous êtes maintenant prêt à créer votre premier modèle de formulaire détai
 
 ## Ajoutez un modèle de formulaire détaillé à votre projet mobile
 
-Créez d'abord un dossier .../Resources/Mobile/form/detail à côté des données Contact.4dbase, où vous glisserez et déposerez le dossier **Custom Detail form**.
+First, create a *Contact.4dbase/Resources/Mobile/form/detail* folder and drag and drop the **Custom Detail form** folder in it.
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
