@@ -37,7 +37,7 @@ You are now ready to create your first list form template!
 
 ## Add a list form template to your mobile project
 
-The first thing you'll need to do is create a .../Resources/Mobile/form/list folder next to the Contact.4dbase file. Then drag and drop your **list form** folder into it.
+The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
 
 ![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
@@ -53,9 +53,9 @@ Now let's focus on the contents of the **Custom List form** folder.
 
 In this folder, you'll find:
 
-* **a layoutIconx2.png** icon in 160x160px (it'll be displayed in the project editor when you select your template)
-* **a manifest.json file** (includes a basic description of the template)
-* **a template.svg file** (the visual representation of your template displayed when you define your list form content)
-* Source folder including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+* **a layoutIconx2.png** icon in 160x160px : it'll be displayed in the project editor when you select your template
+* **a manifest.json file** : includes a basic description of the template
+* **a template.svg file** : the visual representation of your template displayed when you define your list form content.
+* Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
 
 What are these files? What are they used for? How can you customize them?
