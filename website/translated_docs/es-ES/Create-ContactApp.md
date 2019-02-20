@@ -6,11 +6,11 @@ title: Contact App
 
 **OBJETIVOS**
 
-Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
+Cree su primera aplicación con 4D for iOS</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic en [aquí](prerequisites.html) para ver lo que necesitará para comenzar!</div> 
 
 Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.
 
@@ -36,21 +36,21 @@ href="../assets/en/contact-app/ContactStarter.zip">PROYECTO STARTER</a>
 
 Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D, ir a **Nuevo > Proyecto móvil**.
 
-Give your project a name and click **Create**.
+De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
 ## PASO 3. Abrir el editor de proyectos
 
-Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+¡Bienvenido a 4D for iOS! La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂
 
 ![Welcome Screen](assets/en/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Click **Continue**.
+Haga clic en **Continuar**.
 
 ## PASO 4. Secciones - General
 
-Here, you'll configure your app's primary information:
+Aquí, podrá configurar la información principal de la aplicación:
 
 * **Organización:**Escriba el nombre de su empresa y el identificador de aplicación (ej. "Mi empresa" y com.MiEmpresa).
 * **Producto:**introduzca el nombre de su aplicación. Llamémosla "Contact".
@@ -63,38 +63,38 @@ Here, you'll configure your app's primary information:
 
 ## PASO 5. Secciones - Estructura
 
-This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
+Es en esta sección donde definirá un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips"> 
+Para nuestro ejemplo, seleccione **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** y **Photo**.<div class = "tips"> 
 
 **NOTA**
 
-We highly recommend publishing your primary key in order to identify each record of your database</div> 
+Recomendamos publicar su llave primaria para identificar cada registro de su base</div> 
 
 ![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## PASO 6. Secciones - Iconos y etiquetas
 
-Now it's time to define some labels and icons for the selected tables and fields.
+Ahora es el momento de definir algunas etiquetas e iconos para los campos y tablas seleccionados.
 
-**Table Properties:**
+**Propriedades de tabla:**
 
-* Define a short and a long label for your Contact table
-* Click on the icon field. La librería icono aparecerá y usted puede seleccionar un icono para ilustrar la tabla de contactos. También puede optar por dejar vacío el campo icon. 4D for iOS generará un icono predeterminado
+* Define una etiqueta corta y una larga para su tabla Contact
+* Haga clic en el campo icono. La librería icono aparecerá y usted puede seleccionar un icono para ilustrar la tabla de contactos. También puede optar por dejar vacío el campo icon. 4D for iOS generará un icono predeterminado
 
-**Field Properties:**
+**Propriedades de campo:**
 
-* Define a short and a long label for your selected fields.
-* Haga clic en el campo de icono y seleccione los iconos para cada campo. There are several options for field icons: 
-    * You can select an icon for each field,
-    * If at least one icon has been defined and other fields are left empty, 4D for iOS will generate default icons for you
-    * You can simply leave them empty to not display any field icons. 
+* Define una etiqueta corta y una larga para sus campos seleccionados.
+* Haga clic en el campo de icono y seleccione los iconos para cada campo. Hay varias opciones posibles: 
+    * Puede seleccionar un icono para cada campo,
+    * Si al menos un icono se ha definido y otros campos se dejan vacíos, 4D for iOS generará los iconos predeterminados
+    * Simplemente puede dejarlos vacíos para no mostrar ningún icono de campo. 
 
 ![Icons & Labels](assets/en/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
 ## PASO 7. Secciones - menú principal
 
-Next up is defining the order of the tables in the app's main menu.
+Lo siguiente es definir el orden de las tablas en el menú principal de la aplicación.
 
 * **Tablas disponibles:** muestra las tablas a utilizar.
 * **Tablas seleccionadas:** muestra los elementos de menú de su aplicación. Aunque nuestro ejemplo solo tiene un elemento, puede arrastrar y soltar los elementos para reordenarlos.
@@ -103,19 +103,19 @@ Next up is defining the order of the tables in the app's main menu.
 
 ## PASO 8. Secciones - Formularios
 
-We're almost done, but first we need to decide on the app's layout. There are both List and Details forms to choose from.
+Ya casi terminamos, pero primero tenemos que decidir el diseño de la aplicación. Hay formularios listados y formularios detallados para elegir.
 
 * Seleccione un modelo de formulario listado para mostrar su tabla como una lista. Para nuestra aplicación Contact, utilicemos la plantilla **Profile**.
 
 ![List form template](assets/en/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
-At this point, the bottom of the configuration window has changed from template selection to content definition.
+En este punto, la parte inferior de la ventana de configuración ha cambiado de selección de plantilla a definición del contenido.
 
 * Arrastre y suelte los campos que desee mostrar en la plantilla, *es decir*, Last Name en los campos de título y búsqueda. Los campos Búsqueda y Sección son opcionales, por el momento, deje en blanco el campo Section.
 
 ![List form content](assets/en/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
-And finally, we'll define the detail form.
+Y por último, definimos el formulario detallado.
 
 * Seleccione una plantilla que sea la más adecuada para su aplicación. Para nuestra aplicación Contact, vamos a utilizar la plantilla **Visual Contact**.
 
@@ -127,7 +127,7 @@ And finally, we'll define the detail form.
 
 ## PASO 9. Creación de la aplicación
 
-Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
+¡Ahora la parte divertida! Es hora de crear su aplicación y probarla en el simulador para ver el resultado final.
 
 * Haga clic en la pestaña **Generar**.
 * Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.
@@ -138,7 +138,7 @@ Now the fun part! It's time to build your app and test it on the Simulator to se
 
 ## PASO 10. ¿Qué hacer ahora?
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
+Hemos cubierto la creación de una aplicación básica en este tutorial, y ahora debe poder crear aplicaciones simples por sí mismo. Espere, ¡Hay más! En el siguiente tutorial, aprenderá cómo crear una aplicación aún más compleja. Haga clic en **Final Project** a continuación para descargar la versión final de la aplicación Contacts.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
