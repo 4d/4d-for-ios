@@ -11,7 +11,7 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your app.
 * fields will be available later when it's time to define your list and detail forms.
 
-**N to 1 relations**
+## N to 1 relations
 
 * 4D 17R5 allows you to visualize table relations and select related fields clicking on a relation. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
 
@@ -21,4 +21,27 @@ To help you define your app's structure, multiple filters and a search engine ar
 
 **TIPS**
 
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div>
+You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+
+## Incremental reload
+
+### Enable structure adjustments
+
+In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+
+To do so, 4D for iOS needs to make stucture optimizations and create:
+
+* A ```__DeletedRecords``` table to store deleted records
+*     __Stamp fields for each table to store modification stamps 
+
+All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
+
+### Pull to refresh!
+
+iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
+
+In normal use, simply swipe down from any listform to reload your data.
+
+From iPhone settings, you can now reset your app data and find information about your app.
