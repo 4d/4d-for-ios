@@ -13,7 +13,7 @@ title: Trabajar con Xcode
 
 **NOTA**
 
-If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
+Si personaliza su proyecto en Xcode y lo reconstruye desde el Editor de proyecto, todas sus modificaciones se perderán.</div> 
 
 Vamos a utilizar la aplicación Contact que hemos creado [aquí](contact-app.html). ¡Descargue el proyecto Starter!
 
@@ -34,10 +34,10 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROYECTO STARTER</a>
 
 ## PASO 2. Cree su proyecto
 
-From the Project Editor BUILD tab:
+En la pestaña GENERACION del editor de proyectos:
 
-* Select the device to use as a Simulator by clicking on the device button.
-* Click the **Build and Run** button.
+* Seleccione el dispositivo a utilizar como Simulador haciendo clic en el botón del dispositivo.
+* Haga clic en el botón **Crear y ejecutar**.
 
 ![Crear y ejecutar](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
@@ -45,7 +45,7 @@ From the Project Editor BUILD tab:
 
 En la pestaña BUILD del Editor de proyectos:
 
-* Click on Project > Open the project with Xcode
+* Haga clic en Proyecto > Abrir el proyecto con Xcode
 
 ![Abra su proyecto con Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 

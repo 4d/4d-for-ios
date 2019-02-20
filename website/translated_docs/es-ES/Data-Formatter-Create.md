@@ -35,7 +35,7 @@ You're now ready to create your first formatters!
 
 ## Create the formatters folder
 
-First, create a .../Resources/Mobile/formatters folder at the same level as the Task Management.4dbase data.
+First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 

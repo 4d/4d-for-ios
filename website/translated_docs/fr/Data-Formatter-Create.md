@@ -35,7 +35,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 ## Créez le dossier Formats
 
-Premièrement, créez un dossier .../Resources/Mobile/Formats au même niveau que les données Task Management.4dbase.
+First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
@@ -148,7 +148,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un dossier **textToImage** dans le dossier Formats que vous venez de créer.
 
-* Create a **manifest.json** file in the **textToImage** folder.
+* Créez un fichier **manifest.json** dans le dossier **textToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
