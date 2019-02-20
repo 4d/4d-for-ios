@@ -35,7 +35,7 @@ Agora você já está pronto para criar seus primeiros formatadores!
 
 ## Crie a pasta formatadores
 
-Primeiro, crie uma pasta .../Resources/Mobile/formatters no mesmo nível que os dados de Task Management.4dbase.
+First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
