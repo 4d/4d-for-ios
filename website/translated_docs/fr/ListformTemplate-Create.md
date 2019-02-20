@@ -37,7 +37,7 @@ Vous êtes maintenant prêt à créer votre premier modèle de formulaire Liste 
 
 ## Ajoutez un modèle de formulaire Liste à votre projet mobile
 
-Avant toute chose, vous devrez créer un dossier .../Resources/Mobile/form/list à côté du fichier Contact.4dbase. Puis, faites-y glisser-déposer votre dossier **list form**.
+The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Puis, faites-y glisser-déposer votre dossier **list form**.
 
 ![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
@@ -53,9 +53,9 @@ Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List f
 
 Dans ce dossier, vous trouverez :
 
-* Une icône **layoutIconx2.png** d'une résolution de 160x160px : qui sera affichée dans l'éditeur de projet lorsque vous sélectionnerez votre modèle.
-* **Un fichier manifest.json** : qui comprend une description simple du modèle.
-* **Un fichier template.svg** : le visuel de votre modèle qui s'affichera au moment de définir le contenu de votre formulaire liste.
-* Un dossier "Sources" : qui inclut les fichiers **storyboard** (interface graphique) et **Swift** (code du formulaire).
+* **a layoutIconx2.png** icon in 160x160px : it'll be displayed in the project editor when you select your template
+* **a manifest.json file** : includes a basic description of the template
+* **a template.svg file** : the visual representation of your template displayed when you define your list form content.
+* Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
 
 À quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
