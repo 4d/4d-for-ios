@@ -26,7 +26,7 @@ Vamos começar modificando a fonte e cor de uma etiqueta:
 
 ## PASSO 2. Mudar a posição de imagem de perfil
 
-All 4D for iOS templates use constraints for the app's elements to be well displayed on all devices.
+Todos os modelos 4D for iOS usam restrições para alementos do aplicativo para serem bem exibidos em todos os aparelhos.
 
 No arquivo *ContactDetailsForm.storyboard*, as etiquetas de imagem, nome e sobrenome são todos atualmente alinhados ao centro.
 
@@ -40,19 +40,19 @@ Em seguida, selecione a imagem e vá para o painel de atributos de tamanho da á
 
 ![Profil picture position](assets/en/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-Como você pode ver, a posição foi alterada, mas o Xcode está exibindo linhas amarelas... por quê? These yellow lines represent constraints which are no longer valid.
+Como você pode ver, a posição foi alterada, mas o Xcode está exibindo linhas amarelas... por quê? Estas linhas amarelas representam restrições que não são mais válidas.
 
 ## PASSO 3. Atualizar as restrições de imagens de perfil
 
 Para alinhar verticalmente a imagem no centro no Superview (a visão que a contém), precisamos eliminar as restrições existentes e adicionar novas.
 
-The image currently has the following constraints:
+A imagem possui atualmente as seguintes restrições:
 
-* Width Equals: A width of 78 pixels.
-* Height Equals: A height of 78 pixels.
-* Align Center X: Centers the image on a previously defined horizontal axis.
-* Top Space: An amount of space from the top of the image to the top of the view.
-* Bottom space to <first name>: The previously defined space between the First Name label and the image.
+* Width Equals: uma largura de 78 pixels.
+* Heigh Equals: Uma altura fixa de 78 pixels.
+* Align Center x: centra a imagem em um eixo horizontal definido anteriormente.
+* Top Space: Uma quantia fixa de espaço da parte superior da imagem até o topo da vista.
+* Bottom space to <first name>: O espaço anteriormente definido entre a etiqueta Nome e a Imagem.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
@@ -68,7 +68,7 @@ Depois clique no botão **Adicione Novas Restrições** e adicione uma restriç�
 
 Nesse ponto, todas as restrições de imagem de perfil devem estar em azul.
 
-Parabéns! Your profile picture is now well positioned with the correct constraints.<div class = "tips"> 
+Parabéns! Sua foto do perfil está agora bem posicionada com as restrições corretas.<div class = "tips"> 
 
 **DICAS**
 
@@ -80,36 +80,36 @@ Parabéns! Your profile picture is now well positioned with the correct constrai
 
 #### Agora, vamos trabalhar na etiqueta Nome.
 
-We'll begin by changing the position and width:
+Começamos mudando a posição e largura:
 
-* Select the First Name label from the Interface Builder.
-* Next, change the Width from 386 to 267 pixels.
-* Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
+* Selecione a etiqueta Nome do Interface Builder.
+* Agora mude a Width (largura) de 386 a 267 pixels
+* Mude o valor X de 8 a 127 e o valor Y de 28 a 79 pixels.
 
 ![First Name Label position](assets/en/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modify the remaining constraints:
+Modifique o resto das restrições:
 
-* Delete the leading and the bottom space constraints from the Size inspector.
-* Add a leading space constraint by clicking on the **Add New Constraints** button to position the First Name label to the right of the Profile picture.
-* Press Ctrl and drag the First Name label to the Profile picture. Select the top constraint in the menu to top align both elements.
+* Apague as restrições de espaço anterior e fundo do Size inspector.
+* Adicione uma restrição de espaço anterior, clicando no botão de **adicionar novas restrições** para posicionar a etiqueta Nome à direita da foto do perfil.
+* Pressione Ctrl e arraste a etiqueta de nome para a foto do perfil. Selecione a restrição superior no menu para alinhar com o topo os dois elementos.
 
 ![First Name Label top constraint](assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
 #### Finalmente, vamos trabalhar na etiqueta do sobrenome.
 
-Change the position and width:
+Mude a posição e largura:
 
-* Select the Last Name label from the Interface Builder.
-* Change the width from 386 to 267 pixels.
-* Change the X value from 8 to 127 pixels and the Y value from 144.33 to 118.33 pixels.
+* Selecione a etiqueta Nome do Interface Builder.
+* Altere a largura de 386 para 267 pixels.
+* Altere o valor de X de 8 a 127 pixels e o valor de Y de 144.33 a 118.33 pixels.
 
 ![Last Name Label position](assets/en/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modify the remaining constraints:
+Modifique o resto das restrições:
 
-* Delete the leading space constraints from the Size inspector.
-* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
+* Apague as restrições de espaço anterior e fundo do Size inspector.
+* Adicione restrições de espaço à esquerda e superior clicando no botão de adicionar novas restrições. 
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
@@ -121,15 +121,15 @@ Vamos ver os resultados no simulador!
 
 Hmmmm. Não é exatamente o resultado que queríamos...
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+* Selecione as etiquetas Nome e Sobrenome e mude o alinhamento do centro para a esquerda no Inspetor de atributos. 
 
 ![Labels Alignment](assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
-* Next, select the Profile picture and double click on the leading space constraint.
-* Change the Constant value from 40.67 to 80 pixels.
+* Em seguida, selecione a foto do perfil e clique duas vezes sobre a restrição de espaço anterior.
+* Altere o valor da constante de 40.67 para 80 pixels.
 
 ![Constraints adjustments](assets/en/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
-Much better! Now all constraints are working and the labels aren't breaking other constraints.
+Muito melhor! Agora todas as restrições estão funcionando e as etiquetas não estão quebrando outras restrições.
 
-As you can see, customizing your app is very simple!
+Como você pode ver, personalizar seu app é muito simples!
