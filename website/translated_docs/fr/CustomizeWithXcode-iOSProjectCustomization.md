@@ -48,10 +48,10 @@ Pour aligner verticalement l’image au centre, dans le Superview (l’affichage
 
 L’image présente actuellement les contraintes suivantes :
 
-* Width Equals : une largeur de 78 pixels.
-* Height Equals : une hauteur de 78 pixels.
+* Width Equals: A width of 78 pixels.
+* Height Equals: A height of 78 pixels.
 * Align Center X : un centrage de l’image sur un axe horizontal défini précédemment.
-* Top Space : un espace entre le haut de l’image et le haut de la vue.
+* Top Space: An amount of space from the top of the image to the top of the view.
 * Bottom space <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
@@ -109,7 +109,7 @@ Modifiez l'emplacement et la largeur :
 Modifiez les contraintes restantes :
 
 * Supprimez les contraintes de leading space à partir du Size inspector.
-* Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints. 
+* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 

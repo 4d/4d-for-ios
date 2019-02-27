@@ -48,10 +48,10 @@ Para alinhar verticalmente a imagem no centro no Superview (a vis√£o que a cont√
 
 The image currently has the following constraints:
 
-* Width Equals: A fixed width of 78 pixels.
-* Height Equals: A fixed height of 78 pixels.
+* Width Equals: A width of 78 pixels.
+* Height Equals: A height of 78 pixels.
 * Align Center X: Centers the image on a previously defined horizontal axis.
-* Top Space: A fixed amount of space from the top of the image to the top of the view.
+* Top Space: An amount of space from the top of the image to the top of the view.
 * Bottom space to <first name>: The previously defined space between the First Name label and the image.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
@@ -109,7 +109,7 @@ Change the position and width:
 Modify the remaining constraints:
 
 * Delete the leading space constraints from the Size inspector.
-* Add a leading space and top constraints by clicking on the Add New Constraints button. 
+* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
