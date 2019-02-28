@@ -93,6 +93,9 @@
       "select-icons": {
         "title": "Select your icons"
       },
+      "licenses": {
+        "title": "Licenses"
+      },
       "creating-listform-templates": {
         "title": "List form templates"
       },
@@ -181,6 +184,7 @@
       "Testing and Building": "Testing and Building",
       "Deploying In-House": "Deploying In-House",
       "Deploying on App Store": "Deploying on App Store",
+      "Frameworks": "Frameworks",
       "Creating your iOS App": "Creating your iOS App",
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List form templates": "Creating List form templates",
