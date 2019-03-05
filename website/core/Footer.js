@@ -78,7 +78,7 @@ class Footer extends React.Component {
             <h5>About</h5>
             <a href="http://www.4d.com">4D</a>
             <a href="http://www.4d.com/legal.html">Legal</a>
-                <a href={this.docUrl('licenses', this.props.language)}>
+                <a href={this.docUrl('licenses.html', this.props.language)}>
               Licenses
             </a>
             <a href="https://github.com/4D/4d-for-ios">GitHub</a>
