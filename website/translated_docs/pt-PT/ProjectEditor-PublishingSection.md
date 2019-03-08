@@ -33,7 +33,7 @@ Activating the HTTPS port requires certificate installation to work properly. Yo
 ### On Mobile App Authentication Database Method
 
 * **Development**: The authentication method allows you to use the app locally. 
-* **Deployment**: You must create/edit the *On Mobile App Authentication* database method to authorize specific emails or devices, even in Guest mode.
+* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
 
 A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
@@ -79,6 +79,8 @@ Here is an example of a 4D for iOS-generated session file:
 }
 
 ```
+
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
 
 ### Mobile Session Management Component
 
