@@ -33,7 +33,7 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 ### Méthode base Sur authentification app mobile
 
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Déploiement** : vous devez créer/modifier la *méthode base Sur authentification app mobile* pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité, à utiliser l'application.
+* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
 
 Un modèle permet d'obtenir toutes les informations nécessaires sur la session et les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.).
 
@@ -80,9 +80,11 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+
 ### Composant Mobile Session Management
 
-Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT** :
+Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -112,9 +114,9 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 
 ## Aperçu sur l'appareil
 
-Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
-Les paramètres vous permettent :
+Settings allows you to:
 
 * de recharger des données
 * de définir votre URL de serveur
