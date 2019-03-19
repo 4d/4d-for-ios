@@ -11,37 +11,37 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 * les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
 * les champs sélectionnés seront disponibles plus tard, lorsque vous définirez vos formulaires Liste et vos formulaires détaillés.
 
-## N to 1 relations
+## Liens N vers 1
 
 * 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
 
 **CONSEILS**
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
 
-## Incremental reload
+## Rechargement incrémentiel
 
-### Enable structure adjustments
+### Autoriser les modifications de la structure
 
-In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémentiel. Cela signifie que seules les données de la base qui sont nouvelles, modifiées ou supprimées seront actualisées. Il s'agit là d'une excellente optimisation en termes de temps de chargement !
 
-To do so, 4D for iOS needs to make structure optimizations and create:
+Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
 * Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés
-* and ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
+* et des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
 
-All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
+Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches nécessaires, et vous profiterez pleinement des avantages du rechargement des données incrémentielles.
 
-### Pull to refresh!
+### Tirer pour rafraîchir !
 
-iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
+Du côté d'iOS, vos données sont mises à jour chaque fois que vous lancez votre application et chaque fois que votre application se met au premier plan, pour disposer de données continuellement mises à jour.
 
-In normal use, simply swipe down from any listform to reload your data.
+En utilisation normale, glissez simplement vers le bas n’importe quel formulaire liste pour recharger vos données.
 
-From iPhone settings, you can now reset your app data and find information about your app.
+À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations sur votre application.
