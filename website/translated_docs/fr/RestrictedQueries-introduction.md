@@ -1,6 +1,6 @@
 ---
 id: filter-query-introduction
-title: Recherche limitée
+title: Requêtes limitées
 ---
 <div class = "objectives"> 
 
@@ -41,6 +41,6 @@ La base de données contient :
 
 Ce projet utilise des [modèles personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), des [icônes personnalisées](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) et des [formats de données personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
 
-Vous êtes maintenant prêt à définir votre première recherche limitée !
+Vous êtes maintenant prêt à définir votre première requête limitée !
 
 Ouvrez le projet mobile en cliquant sur Ouvrir > Projet mobile... et sélectionnez CRM app > **project.4dmobileapp**.
