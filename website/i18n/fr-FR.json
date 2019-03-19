@@ -94,7 +94,7 @@
         "title": "Choisir des icônes"
       },
       "licenses": {
-        "title": "Licenses"
+        "title": "Licences"
       },
       "creating-listform-templates": {
         "title": "Modèles de formulaires Liste"
@@ -216,8 +216,8 @@
     "Test your app|no description given": "Testez votre application",
     "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribuez votre application en interne ou sur l’App Store. Plusieurs tutoriels sont à votre disposition pour vous guider tout au long du processus.",
     "Deploy your App|no description given": "Déployez votre application",
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+    "Help Translate|recruit community translators for your project": "Aidez-nous à traduire",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Modifier",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traduire"
   }
 }
