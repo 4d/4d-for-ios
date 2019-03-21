@@ -6,9 +6,9 @@ title: Licenses
 
 Alamofire Software Foundation (c) 2014-2018 (http://alamofire.org/)
 
-Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), d'utiliser le Logiciel sans restriction, ainsi que, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et permettre aux personnes à qui le Logiciel est fourni de faire de même, en étant sujet aux conditions suivantes :
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), le droit d'utiliser le Logiciel sans restriction, ainsi que, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de faire de même, en étant sujet aux conditions suivantes :
 
-La notification du droit d'auteur ci-dessus et cette notification de permission doit être inclues dans toutes les copies ou des portions substantielles du Logiciel.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
 *THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
 
