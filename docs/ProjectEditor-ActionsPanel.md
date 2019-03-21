@@ -7,14 +7,14 @@ This section allows you to define actions names, icons and context for each tabl
 
 ## Project editor Side
 
-* **Names:** Add a new actions clicking on Plus button.
-* **Icons:** Select an icon for your action from your icon library. You can also add your following this [tutorial](using-icons.html).
+* **Names:** Add a new action by clicking on the Plus button.
+* **Icons:** Select an icon for your action from your icon library. You can also add your icon following this [tutorial](using-icons.html).
 * **Table:** Select the table to apply the action on.
 * **Scope:** Select if you want to apply the action on the Listform (list or for a specfific cell) or Detail form.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](www.google.fr) is available to call your all your Actions.
+A new database method [On Mobile App Action](www.google.fr) is available to call all your Actions.
 
 ## iOS app Side
 
@@ -32,7 +32,7 @@ In your iOS app, your action will be available in different ways in your Listfor
 
 ### Collection List forms
 
-* **Entity action for cell:** depending on the template, actions will be displayed clicking on a button or maintaing the clic on a cell.
+* **Entity action for cell:** depending on the template, actions will be displayed by clicking on a button or maintaing the clic on a cell.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
