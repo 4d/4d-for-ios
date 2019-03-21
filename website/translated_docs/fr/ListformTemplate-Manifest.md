@@ -19,7 +19,7 @@ Le fichier manifest contient des informations sur votre modèle de formulaire Li
     
     
 
-For example, the manifest file for the above list form template includes the following information:
+Par exemple, le fichier manifest du modèle de formulaire Liste ci-dessous inclut les informations suivantes :
 
 1. **type (de Storyboard) :** listform
 2. **Nom du modèle :** Custom List form

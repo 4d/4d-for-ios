@@ -35,7 +35,7 @@ Vous êtes maintenant prêt à créer vos premiers formats !
 
 ## Créez le dossier Formats
 
-First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
+Créez d'abord un dossuer *Task Management.4dbase/Resources/Mobile/formatters*.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 

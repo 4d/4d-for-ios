@@ -33,7 +33,7 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 ### Méthode base Sur authentification app mobile
 
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
-* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
+* **Déploiement** : vous devez créer/modifier la méthode base de données [*Sur authentification app mobile *](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
 Un modèle permet d'obtenir toutes les informations nécessaires sur la session et les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.).
 
@@ -80,11 +80,11 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
-If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+Si vous souhaitez valider manuellement la première connexion pour chaque session utilisateur, vous devez remplacer le statut par défaut « accepté » par « en suspens » en ajoutant ```$response.verify:=True``` dans la méthode base[ *Sur authentification app mobile*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 ### Composant Mobile Session Management
 
-Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
+Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT** :
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -104,7 +104,7 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
-* Right click on a session to reveal the session file in the Finder or delete it.
+* Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
 * Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
@@ -114,9 +114,9 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 
 ## Aperçu sur l'appareil
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
+Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
-Settings allows you to:
+Les paramètres vous permettent :
 
 * de recharger des données
 * de définir votre URL de serveur

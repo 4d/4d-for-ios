@@ -6,11 +6,11 @@ title: Create data formatter
 
 **OBJETIVOS**
 
-Create your first data formatters.</div> <div class = "prerequisites"> 
+Criar seus primeiros formatadores de dados.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
 
 Neste tutorial, vamos guiá-lo através da criação de vários exemplos de formatador.
 
@@ -35,7 +35,7 @@ Agora você já está pronto para criar seus primeiros formatadores!
 
 ## Crie a pasta formatadores
 
-First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
+Primeiro, crie uma pasta *Task Management.4dbase/Resources/Mobile/formatters *.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
@@ -43,12 +43,12 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ### Número inteiro para string
 
-* Create an **integerToString** folder in the formatters folder you've just created.
-* Then create a **manifest.json** file in the **integerToString** folder.
+* Crie uma pasta ** integerToString **na pasta formatadores, que você acabou de criar.
+* Em seguida, crie um arquivo de**manifest.json ** na pasta **integerToString**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
     {
         // 1
@@ -74,15 +74,15 @@ Let's look at the contents of the **manifest.json** file:
 
 * Create an **integerToImage** folder in the **formatters** folder you've created.
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* Em seguida, crie um arquivo de**manifest.json ** na pasta **integerToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+* Em seguida, crie uma pasta** Imagens** na pasta **IntegerToImage**. Pode adicionar as imagens de **integerToImage_Images ** em StarterProject.zip para a nova pasta.
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
     {
         // 1
@@ -116,13 +116,13 @@ Let's look at the contents of the **manifest.json** file:
 
 ### Texto para string
 
-* Create a **textToString** folder in the formatters folder you've just created.
+* Crie uma pasta ** textToString **na pasta formatadores, que você acabou de criar.
 
-* Create a **manifest.json** file in the **textToString** folder.
+* Crie um arquivo de **manifest.json ** na pasta **textToString**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Vamos olhar o conteúdo do arquivo **manifest.json **:
 
     {
         // 1
@@ -146,17 +146,17 @@ Let's look at the contents of the **manifest.json** file:
 
 ### Texto para Imagem
 
-* Create a **textToImage** folder in the formatters folder you've just created.
+* Crie uma pasta ** textToImage **na pasta formatadores, que você acabou de criar.
 
-* Create a **manifest.json** file in the **textToImage** folder.
+* Crie um arquivo de**manifest.json ** na pasta **textToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+* Em seguida, crie um arquivo de** Imagens** na pasta **textToImage**. Pode adicionar as imagens de **textToImage_Images ** em StarterProject.zip para a nova pasta.
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
     <br />{
         // 1
@@ -183,24 +183,24 @@ Let's look at the contents of the **manifest.json** file:
 
 ## Abrir projeto móvel
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Abra o Task Management.4dbase com 4D e vá para Arquivo>abrir>Projeto Móvel... para abrir **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+Agora, vá para a seção **Labels & Icons** no editor de projetos. Todos os formatadores estão disponíveis para os tipos de campo diferentes que você definiu previamente nos arquivos manifest.json de diferentes formatadores:
 
-* Select the **integerToString** formatter for the **Job field**
-* Select the **textToString** formatter for the **Country field**
-* Select the **integerToImage** formatter for the **Task Status**
-* Select the **textToImage** formatter for the **Manager**
+* Selecione o formatador de**integerToString ** para o **campo Job**
+* Selecione o formatador ** textToString** para o **campo Country**
+* Selecione o formatador ** integerToImage** para o **Task Status**
+* Selecione o formatador ** textToImage** para o **Manager**
 
 ![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## Construa seu app 4D for iOS
 
-Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+Construa seu app 4D for iOS e você verá que o formatador de dados é bem aplicado dependendo do limite de crédito.
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+Clique em **FORMATADOR FINAL** abaixo para baixar a pasta de modelo formatador concluído.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
