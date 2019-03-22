@@ -1,16 +1,16 @@
 ---
 id: licenses
-title: Licenses
+title: Licences
 ---
 ## Alamofire
 
 Alamofire Software Foundation (c) 2014-2018 (http://alamofire.org/)
 
-Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), le droit d'utiliser le Logiciel sans restriction, ainsi que, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de faire de même, en étant sujet aux conditions suivantes :
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
 La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## BrightFutures
 
@@ -18,160 +18,160 @@ Licence MIT
 
 Thomas Visser (c) 2014
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## CallbackURLKit
 
-MIT License
+Licence MIT
 
-Copyright (c) 2015 Eric Marchand (phimage)
+Eric Marchand (phimage) (c) 2015
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## DeviceKit
 
-Copyright (c) 2015 Dennis Weissmann
+Dennis Weissmann (c) 2015
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## FileKit
 
-MIT License
+Licence MIT
 
-Copyright (c) 2015-2016 Nikolai Vazquez
+Nikolai Vazquez (c) 2015-2016
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## Guitar
 
-MIT License
+Licence MIT
 
-Copyright (c) 2016 Arthur Ariel Sabintsev
+Arthur Ariel Sabintsev (c) 2016
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## IBAnimatable
 
-MIT License
+Licence MIT
 
-Copyright (c) 2015 IBAnimatable
+IBAnimatable (c) 2015
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## Kingfisher
 
-MIT License
+Licence MIT
 
-Copyright (c) 2018 Wei Wang
+Wei Wang (c) 2018
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## Prephirences
 
-MIT License
+Licence MIT
 
-Copyright (c) 2017 Eric Marchand (phimage)
+Eric Marchand (phimage) (c) 2017
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## Result
 
-MIT License
+Licence MIT
 
-Copyright (c) 2014 Rob Rix
+Rob Rix (c) 2014
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## SwiftMessages
 
-Copyright (c) 2016 SwiftKick Mobile LLC
+SwiftKick Mobile LLC (c) 2016
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## SwiftyJSON
 
-MIT License
+Licence MIT
 
-Copyright (c) 2017 Ruoyu Fu
+Ruoyu Fu (c) 2017
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## ValueTransformerKit
 
-MIT License
+Licence MIT
 
-Copyright (c) 2017 Eric Marchand (phimage)
+Eric Marchand (phimage) (c) 2017
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## XCGLogger
 
-MIT License
+Licence MIT
 
-Copyright (c) 2014 Dave Wood, Cerebral Gardens http://www.cerebralgardens.com/
+Dave Wood, Cerebral Gardens http://www.cerebralgardens.com/ (c) 2014
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
 
 ## ZIPFoundation
 
-MIT License
+Licence MIT
 
-Copyright (c) 2017 Thomas Zoechling
+Thomas Zoechling (c) 2017
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente est accordée, sans charge, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associée (le « Logiciel »), sans restriction et sans limitation, le droit d'utiliser, reproduire, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies du Logiciel, et de permettre à des tiers à qui le Logiciel est fourni de faire de même, selon les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+La notification du droit d'auteur ci-dessus et cette notification de permission doivent être inclues dans toutes les copies ou portions substantielles du Logiciel.
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*LE LOGICIEL EST FOURNI « EN L'ETAT » SANS AUCUNE AUTRE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION A UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE SAURAIENT ETRE TENUS RESPONSABLES POUR TOUT DÉFAUT, DEMANDE OU AUTRE DOMMAGE, SOIT DANS UNE ACTION CONTRACTUELLE OU DÉLICTUELLE, EN LIEN DIRECT OU INDIRECT AVEC CE LOGICIEL OU D'AUTRES MANIPULATIONS DU LOGICIEL.*
