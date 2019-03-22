@@ -44,4 +44,8 @@ iOS app side, your data is updated each time you launch your app and each time y
 
 In normal use, simply swipe down from any listform to reload your data.
 
-From iPhone settings, you can now reset your app data and find information about your app.
+From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
+
+**NOTE**
+
+As soon as the admin do an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required : Recover by tag / Restoration / Compaction</div>
