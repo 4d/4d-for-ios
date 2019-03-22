@@ -45,7 +45,7 @@ In your iOS app, actions are be available in different ways in your Listforms an
 
 As for Table actions in List forms, a generic actions button is available in the navigation bar to display all your entity actions in a list. 
 
-![Entity Detailform](assets/en/actions/Detailform.png)
+![Entity Detailform](assets/en/actions/Detailform-final.png)
 
 ## Where to Go From Here?
 
