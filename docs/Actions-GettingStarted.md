@@ -7,7 +7,7 @@ title: Getting started
 
 **OBJECTIVES**
 
-Add actions to custom Listform and Detailform templates
+Use actions in the generated iOS app.
 
 </div>
 
@@ -27,4 +27,4 @@ From here, when you build your app from the Project Editor using actions, you ca
 
 * **your own custom templates** you developed. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates. 
 
-Now it's time to play building a **Tasks app** that work using 4D for iOS actions.
+Now it's time to play building a **Tasks app** that works using 4D for iOS actions.
