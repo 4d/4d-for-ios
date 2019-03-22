@@ -29,6 +29,13 @@ To begin, download the Starter Project, which includes:
 * 1 Detail custom form template (TasksDetail)
 * a Tasks.4dbase file
 
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
+href="../assets/en/actions/TasksCustomStarter.zip">STARTER PROJECT</a>
+
+</div>
+
 ## STEP 2. Add custom templates to 4D for iOS Project
 
 First, drop:
@@ -137,4 +144,10 @@ Congratulations, your Tasks iOS app is complete including action in List form an
 
 ![Template ressources](assets/en/actions/ListForm-entity-action-tableview.png)
 
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
+href="../assets/en/actions/TasksCustomFinal.zip">FINAL PROJECT</a>
+
+</div>
 

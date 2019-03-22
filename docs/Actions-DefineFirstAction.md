@@ -14,7 +14,7 @@ Download the **Starter project** and go right to the **Actions section**.
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="../assets/en/#">STARTER PROJECT</a>
+href="../assets/en/actions/TasksActionStarter.zip">STARTER PROJECT</a>
 
 </div>
 
@@ -149,7 +149,7 @@ You can download the **Final project** that includes various actions:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="../assets/en/#">FINAL PROJECT</a>
+href="../assets/en/actions/TasksActionFinal.zip">FINAL PROJECT</a>
 
 </div>
 
