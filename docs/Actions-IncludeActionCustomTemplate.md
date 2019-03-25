@@ -25,8 +25,8 @@ In this tutorial, we are going to see how it is easy to **add actions to custom 
 
 To begin, download the Starter Project, which includes:
 
-* 2 List custom form templates (TasksList and TasksCollection)
-* 1 Detail custom form template (TasksDetail)
+* 2 custom List form templates (TasksList and TasksCollection)
+* 1 custom Detail form template (TasksDetail)
 * a Tasks.4dbase file
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -130,7 +130,7 @@ Open it, select the button at bottom right and add this line in the **User Defin
 
 * Key Path: ```actions```
 * Type: ```String```
-* Value: ```___ENTITY_ACTIONS___``
+* Value: ```___ENTITY_ACTIONS___```
 
 ![Add detailform entity action tag custom action button](assets/en/actions/Detail-form-action-custom-action-Button.png)
 
