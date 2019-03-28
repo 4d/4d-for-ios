@@ -43,6 +43,13 @@ All you need to do is enabling 4D for iOS to make the necessary structure adjust
 
 Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
+<div markdown="1" class = "tips">
+
+**NOTE**
+
+Those optimization are required for both local database and server database.
+
+</div>
 
 ### Pull to refresh!
 

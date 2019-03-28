@@ -19,7 +19,7 @@ Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
 
-In R5, you can [define actions](actions.html) directly from the Project Editor. 
+In R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 
 From here, when you build your app from the Project Editor using actions, you can decide to use:
 

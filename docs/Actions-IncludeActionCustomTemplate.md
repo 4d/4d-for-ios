@@ -77,7 +77,11 @@ Select the Animatable Table View and add this line in the **User Defined Runtime
 
 ![Add entity action tag](assets/en/actions/Add-entity-tag-taskslist.png)
 
-Your custom template is ready to display actions!
+Your custom template is ready to display actions! 
+
+You can select the TaskList custom template from the **Forms section** and add the following fields:
+
+![Taskslist Forms section](assets/en/actions/listform-taskslist-forms-section.png)
 
 Now let's add action tags to the TasksCollection custom template
 
@@ -101,7 +105,7 @@ Select the **List form Controller** and add this line in the **User Defined Runt
 
 For entity, the way you display actions is quite different as for TableView: swipe action are not really adapted to CollectionViews.
 
-So with collection views, the best way to display actions is to use a **long pressure** gesture on cells you want to interact with!
+So with collection views, the best way to display actions is to use a **long pressure** gesture on cells you want to interact with.
 
 For that, select the collectionView cell and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
@@ -110,6 +114,16 @@ For that, select the collectionView cell and add this line in the **User Defined
 * Value: ```___ENTITY_ACTIONS___```
 
 ![Add collection entity action tag](assets/en/actions/Add-collection-entity-tag-taskslist.png)
+
+To optimize the interaction rendering, you can add a scale effect with an haptic feedback adding the following line in the **User Defined Runtime Attributes** (Identity inspector):
+
+* Key Path: ```touch.zoomScale```
+* Type: ```Number```
+* Value: ```0,96``` (adapt the scale ratio depending on the result you want to get)
+
+You can select the TasksCollection custom template from the **Forms section** and add the following fields:
+
+![TasksCollection Forms section](assets/en/actions/listform-taskscollection-forms-section.png)
 
 
 ## STEP 4. Add actions in Detail forms
@@ -139,6 +153,10 @@ As you can see few button visuals are missing in the Storyboard file. You can ac
 For example for the **moreButton.imageset**:
 
 ![Template ressources](assets/en/actions/Template-Ressources.png)
+
+You can select the TasksDetail custom template from the **Forms section** and add the following fields:
+
+![TasksDetail Forms section](assets/en/actions/detailform-forms-section.png)
 
 Congratulations, your Tasks iOS app is complete including action in List form and Detail form !
 
