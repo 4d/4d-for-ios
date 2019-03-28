@@ -5,6 +5,15 @@
     "previous": "Previous",
     "tagline": "Easily create and deploy custom native iOS apps",
     "docs": {
+      "define-first-action": {
+        "title": "Defining your first action"
+      },
+      "actions-getting-started": {
+        "title": "Getting started"
+      },
+      "action-custom-template": {
+        "title": "Adding actions in templates"
+      },
       "contact-app": {
         "title": "Contact App"
       },
@@ -114,6 +123,9 @@
       "multi-criteria-search": {
         "title": "Multi-criteria search"
       },
+      "actions": {
+        "title": "Actions"
+      },
       "build-panel": {
         "title": "Build Panel"
       },
@@ -190,6 +202,7 @@
       "Creating Detail form templates": "Creating Detail form templates",
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
+      "Actions": "Actions",
       "Multi-criteria search": "Multi-criteria search",
       "Restricted queries": "Restricted queries",
       "Relations": "Relations"

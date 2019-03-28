@@ -5,6 +5,15 @@
     "previous": "Précédent",
     "tagline": "Créez et déployez des Apps iOS natives en toute facilité",
     "docs": {
+      "define-first-action": {
+        "title": "Définir une première action"
+      },
+      "actions-getting-started": {
+        "title": "Initiation"
+      },
+      "action-custom-template": {
+        "title": "Ajouter des actions aux modèles"
+      },
       "contact-app": {
         "title": "Application Contacts"
       },
@@ -114,6 +123,9 @@
       "multi-criteria-search": {
         "title": "Recherche multicritères"
       },
+      "actions": {
+        "title": "Actions"
+      },
       "build-panel": {
         "title": "Onglet Génération"
       },
@@ -190,6 +202,7 @@
       "Creating Detail form templates": "Créer des modèles de formulaires détaillés",
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
+      "Actions": "Actions",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
       "Relations": "Relations"

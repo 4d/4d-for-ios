@@ -1,12 +1,12 @@
 ---
 id: xcode-overview
-title: Xcode Overview
+title: Presentación de Xcode
 ---
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Ensure a basic understanding of working with Xcode.</div> 
+Garantizar una comprensión básica del funcionamiento de Xcode.</div> 
 
 Xcode muestra las diferentes áreas que vamos a revisar:
 
@@ -14,15 +14,15 @@ Xcode muestra las diferentes áreas que vamos a revisar:
 
 ## Toolbar (Barra de herramientas)
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
+* Los botones **Run** y **Stop** se ubican a la izquierda de la barra de herramientas. El botón **Run** permite crear, ejecutar y lanzar su aplicación en el simulador iOS seleccionado.
 
 ![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
+* El menú desplegable junto al botón **Stop** indica los elementos que desea ejecutar y qué simulador se está utilizando.
 
 ![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
-* On the right side of the toolbar, you'll find buttons to change the display.
+* En el lado derecho de la barra de herramientas, encontrará botones para cambiar la visualización.
 
 ![Toolbar View buttons](assets/en/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
@@ -30,79 +30,79 @@ Xcode muestra las diferentes áreas que vamos a revisar:
 
 ![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+Aquí es donde ocurre la codificación cuando se selecciona un archivo Swift. Cuando se selecciona un archivo Storyboard, la vista cambia y aparece el Interface Builder.
 
 ## Área "Interface Builder"
 
 ![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
+Esta es una interfaz gráfica que le permite crear un archivo Storyboard o XIB. Todas tus escenas son accesibles en el lado izquierdo.
 
-## Utility Area
+## Utility Area (Área de funcionalidades)
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+El área de funcionalidades de Xcode tiene dos paneles: el panel Inspector y el panel Library (biblioteca).
 
 ![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
-### Inspector pane
+### Panel Inspector
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dentro de la sección Propiedades, hay seis diferentes pestañas del Inspector, como se muestra en la siguiente ilustración:
 
 ![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+De izquierda a derecha, estas pestañas son:
 
-* **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
+* **File inspector (inspector de archivo)**: para ver y administrar los metadatos de un archivo, tales como el nombre, el tipo y la ruta del de archivo.
 
-* **Quick Help**: For viewing details about what has been selected in an editor.
+* **Quick Help (ayuda rápida)**: para ver detalles sobre lo que ha sido seleccionado en un editor.
 
-* **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
+* **Identity inspector (inspector de identidad)**: para la visualización de los metadatos del objeto tales como la clase de un objeto, el tiempo de ejecución de sus atributos, de la etiqueta.
 
-* **Attributes inspector**: For configuring the attributes specific to the selected interface object. For example, some text field attributes include text alignment and color, border type, and editability.
+* **Attributes inspector (inspector de atributos)**: para configurar los atributos específicos del objeto de la interfaz seleccionado. Por ejemplo, algunos atributos de un campo texto incluyen la alineación del texto y un color, el tipo de borde y los parámetros de modificación.
 
-* **Size inspector**: For specifying characteristics such as the size and position of an interface object.
+* **Size inspector (inspector de dimensiones)**: para especificar las características tales como el tamaño y la posición de un objeto.
 
-* **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
+* **Conexiones inspector (inspector de conexiones)**: para ver los "outlets" de un objeto, establecer nuevas conexiones y borrar las conexiones existentes.
 
-### Library pane
+### Library (Biblioteca)
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dentro de la sección Propiedades, Library tiene cuatro diferentes pestañas, como se muestra en la siguiente ilustración:
 
-From left-to-right, these tabs are:
+De izquierda a derecha, estas pestañas son:
 
 ![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
-* **File templates**: These templates are for the common types of files listed as choices in the New File menu.
+* **File templates (plantillas de archivos)**: estas plantillas son para los tipos de archivos comunes que aparecen como opciones en el menú New File".
 
-* **Code snippets**: These are short pieces of source code for use in your application. To use one, drag it directly into your source code file.
+* **Code snippets (fragmentos de código)**: estas son piezas cortas de código fuente para su uso en la aplicación. Para utilizar uno, arrastre directamente en su archivo de código fuente.
 
-* **Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. To add one to a view, drag it directly into your storyboard in the Interface Builder editor.
+* **Objetos**: esta biblioteca contiene los tipos de objetos de la interfaz que puede utilizar para hacer su interfaz de usuario. Para agregar un objeto en una vista, arrastre directamente su Storyboard, en el editor Interface Builder.
 
-* **Media files**: This library contains all your graphics, icons, and sound files. To use one, drag it directly to your storyboard in the Interface Builder editor.
+* **Media files (archivos multimedia)**: esta biblioteca contiene su gráficos, iconos y archivos de audio. Para utilizarlos, arrastre directamente a su Storyboard, en el editor Interface Builder.
 
-## Debug Area
+## Debug Area (Área de depuración)
 
-This area displays the output and the state of various variables when running your app.
+Esta área muestra el resultado y el estado de diferentes variables cuando se ejecuta su aplicación.
 
-## Navigation Area
+## Área de navegación
 
-Several tabs are included here, the most important of which are:
+Varias pestañas se incluyen aquí, las más importantes son:
 
-* **Navigation tab**: Lists and provides access to all files necessary for your application to work properly.
+* **Pestaña "Navigation"**: listas y da acceso a todos los archivos necesarios para que su aplicación funcione correctamente.
 
 ![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **Search navigator tab**: Allows searching all files in the project.
+* **Search navigator tab (navegador de búsqueda)**: permite buscar todos los archivos del proyecto.
 
 ![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **Issue navigator tab**: Displays all errors in an iOS project.
+* **Pestaña Issue navigator**: muestra todos los errores en un proyecto iOS.
     
-    * Errors in red are critical issues that need to be corrected in order to build your application. 
-    * Errors in yellow are warnings about issues which have the potential to cause problems but do not block the building of the application. 
+    * Los errores en rojo corresponden a problemas críticos que deben ser corregidos para poder generar su aplicación. 
+    * Los errores en amarillo son alertas que tienen el potencial de causar problemas, pero que no bloquean la generación de la aplicación. 
 
-You can click on errors and warnings to visualize them in the project.
+Puede hacer clic en los errores y las alertas para visualizarlas en el proyecto.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
+A continuación, vamos a concentrarnos en los archivos incluidos en su aplicación 4D for iOS de la pestaña "Project navigation".

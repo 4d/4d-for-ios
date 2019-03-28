@@ -44,4 +44,8 @@ Du côté d'iOS, vos données sont mises à jour chaque fois que vous lancez vot
 
 En utilisation normale, glissez simplement vers le bas n’importe quel formulaire liste pour recharger vos données.
 
-À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations sur votre application.
+À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations sur votre application.<div class = "tips"> 
+
+**NOTE**
+
+Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
