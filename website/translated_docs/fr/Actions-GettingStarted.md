@@ -12,7 +12,7 @@ Use actions in the generated iOS app.</div> <div class = "prerequisites">
 
 Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
-En R5, vous pouvez [définir des actions](actions.html) directement à partir de l’Éditeur de projet.
+In R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 
 Dans cette section, lorsque vous générez votre application à partir de l’éditeur de projet à l'aide des actions, vous pouvez décider d'utiliser :
 
