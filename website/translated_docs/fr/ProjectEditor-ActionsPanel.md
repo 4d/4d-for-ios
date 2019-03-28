@@ -7,13 +7,13 @@ Cette section vous permet de définir des noms d'actions, d'icônes et de contex
 ## Éditeur de projet
 
 * **Names :** Ajouter une nouvelle action en cliquant sur le bouton Plus.
-* **Icons :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre icône à l'aide de ce [tutoriel](using-icons.html).
+* **Icons :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. You can also add yours following this [tutorial](using-icons.html).
 * **Table:** Select the table you want to apply the action on.
 * **Scope:** Select if you want to apply the action on an **entity** or on a **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](www.google.fr) is available to call your all your 4D methods.
+A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call your all your 4D methods.
 
 ## Application iOS
 
