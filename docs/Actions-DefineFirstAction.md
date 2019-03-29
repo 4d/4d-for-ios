@@ -32,7 +32,7 @@ Let's focus first on Entity actions!
 
 In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
 
-The action section is quite empty when you open it for the first time, so click the **Plus button** at the bottom left to add your first action!
+The action section is quite empty when you open it for the first time, so click on the **Plus button** at the bottom left to add your first action!
 
 ![Create action](assets/en/actions/Create-action.png)
 
@@ -57,7 +57,34 @@ Do to so, click on **Create button** at the bottom right of the action table and
 
 ```
 
-C_OBJECT($0)C_OBJECT($1)C_OBJECT($o;$params;$request;$result)$request:=$1  // Informations provided by mobile application$params:=$request.parametersCase of 			: ($request.action="taskDone")				$o:=New object(\		"dataClass";$params.dataClass;\		"ID";$params.entity.primaryKey;\		"CompletePercentage";100)				$result:=modifyStatus ($o)			Else 				  // Unknown request		$result:=New object("success";False)		End case $0:=$result  // Informations returned to mobile application
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($o;$params;$request;$result)
+
+$request:=$1  // Informations provided by mobile application
+
+$params:=$request.parameters
+
+Case of 
+		
+	: ($request.action="taskDone")
+		
+		$o:=New object(\
+		"dataClass";$params.dataClass;\
+		"ID";$params.entity.primaryKey;\
+		"CompletePercentage";100)
+		
+		$result:=modifyStatus ($o)
+		
+	Else 
+		
+		  // Unknown request
+		$result:=New object("success";False)
+		
+End case 
+
+$0:=$result  // Informations returned to mobile application
 
 ```
 
@@ -66,15 +93,51 @@ C_OBJECT($0)C_OBJECT($1)C_OBJECT($o;$params;$request;$result)$request:=$1  
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
 ```
-C_OBJECT($0)C_OBJECT($1)C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)$in:=$1$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))If ($selection.length=1)	$entity:=$selection[0]	$entity.CompletePercentage:=$in.CompletePercentage
-	$entity.Status:=3	$status:=$entity.save()	$out:=New object	If ($status.success)		$out.success:=True  // notify App that action success		$out.dataSynchro:=True  // notify App to refresh this entity	Else 
-		$out:=$status  // return status to the App		End if Else 	$out.success:=False  // notify App that action failedEnd if 
-$0:=$out
+
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+
+$in:=$1
+
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
+
+If ($selection.length=1)
+
+	$entity:=$selection[0]
+
+	$entity.CompletePercentage:=$in.CompletePercentage
+
+	$entity.Status:=3
+
+	$status:=$entity.save()
+
+	$out:=New object
+
+	If ($status.success)
+
+		$out.success:=True  // notify App that action success
+		$out.dataSynchro:=True  // notify App to refresh this entity
+
+	Else 
+
+		$out:=$status  // return status to the App
+	
+	End if 
+
+Else 
+
+	$out.success:=False  // notify App that action failed
+
+End if 
+
+$0:=$out
 
 
 ```
 
-Build and Run you app and voila! Your **Done action** is available when you swipe left a cell in Listform as well as when you click on the **generic action button** in the navigation bar of the Detail form.
+Build and Run you app and there you go! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
@@ -97,12 +160,45 @@ Let's define this action from the Action section:
 
 ### STEP 2. Edit the Action method
 
-Clic on **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
+Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
 ```
-C_OBJECT($0)C_OBJECT($1)C_OBJECT($o;$params;$request;$result)$request:=$1  // Informations provided by mobile application$params:=$request.parametersCase of 			: ($request.action="taskDone")				$o:=New object(\		"dataClass";$params.dataClass;\		"ID";$params.entity.primaryKey;\		"CompletePercentage";100)				$result:=modifyStatus ($o)
 
-	: ($request.action="postponeAll")				$o:=New object(\		"dataClass";$params.dataClass;\		"Status";4)				$result:= postponeAll ($o)			Else 				  // Unknown request		$result:=New object("success";False)		End case $0:=$result  // Informations returned to mobile application
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($o;$params;$request;$result)
+
+$request:=$1  // Informations provided by mobile application
+
+$params:=$request.parameters
+
+Case of 
+		
+	: ($request.action="taskDone")
+		
+		$o:=New object(\
+		"dataClass";$params.dataClass;\
+		"ID";$params.entity.primaryKey;\
+		"CompletePercentage";100)
+		
+		$result:=modifyStatus ($o)
+
+	: ($request.action="postponeAll")
+		
+		$o:=New object(\
+		"dataClass";$params.dataClass;\
+		"Status";4)
+		
+		$result:= postponeAll ($o)		
+	Else 
+		
+		  // Unknown request
+		$result:=New object("success";False)
+		
+End case 
+
+$0:=$result  // Informations returned to mobile application
 
 
 ```
@@ -114,11 +210,38 @@ As you create the **modifyStatus** Method, follow the same process and create a 
 
 ```
 
-C_OBJECT($0)C_OBJECT($1)C_OBJECT($entity;$in;$out)$in:=$1$out:=New object("success";False)If ($in.dataClass#Null)		For each ($entity;ds[$in.dataClass].all())				$entity.Status:=$in.Status		$entity.save()			End for each 		$out.success:=True  // notify App that action success	$out.dataSynchro:=True  // notify App to refresh the selection	Else 		$out.errors:=New collection("No Selection")	End if $0:=$out
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($entity;$in;$out)
+
+$in:=$1
+
+$out:=New object("success";False)
+
+If ($in.dataClass#Null)
+	
+	For each ($entity;ds[$in.dataClass].all())
+		
+		$entity.Status:=$in.Status
+		$entity.save()
+		
+	End for each 
+	
+	$out.success:=True  // notify App that action success
+	$out.dataSynchro:=True  // notify App to refresh the selection
+	
+Else 
+	
+	$out.errors:=New collection("No Selection")
+	
+End if 
+
+$0:=$out
 
 ```
 
-Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Clic on it to trigger the **Postpone All** action.
+Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
