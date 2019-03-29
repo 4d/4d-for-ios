@@ -2,13 +2,13 @@
 id: actions
 title: Actions
 ---
-Cette section vous permet de définir des noms d'actions, d'icônes et de contexte pour chaque table.
+This section allows you to define actions names, icons and scope for each table.
 
 ## Éditeur de projet
 
-* **Names :** Ajouter une nouvelle action en cliquant sur le bouton Plus.
-* **Icons :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. You can also add yours following this [tutorial](using-icons.html).
-* **Table:** Select the table you want to apply the action on.
+* **Names:** Add a new action by clicking on the Plus button.
+* **Icons :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. You can also add your own icon by following this [tutorial](using-icons.html).
+* **Table:** Select the table on which you want to apply the action.
 * **Scope:** Select if you want to apply the action on an **entity** or on a **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
@@ -17,11 +17,11 @@ A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-
 
 ## Application iOS
 
-In your iOS app, actions are be available in different ways in your Listforms and Detailforms depending on the templates that you select in the form section.
+In your iOS app, actions are available in different ways in your Listforms and Detailforms, depending on the templates you select in the form section.
 
 ### Formulaires Liste table
 
-* **Entity action:** swipe left on a cell to display available actions in a List form. A more button is displayed if you define more that 3 actions for an entity.
+* **Entity action:** swipe left on a cell to display available actions in a List form. A "+" button is displayed if you define more than 3 actions per entity.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
@@ -31,17 +31,17 @@ In your iOS app, actions are be available in different ways in your Listforms an
 
 ### Formulaires de Liste collection
 
-* **Entity action:** depending on the template, actions are displayed clicking on a generic button or maintaing the pressure on a cell.
+* **Entity action:** depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** as for Table List forms, a generic actions button is available in the navigation bar to display a list of table actions.
+* **Table actions:** as for Table List forms, a generic Actions button is available in the navigation bar to display a list of table actions.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Formulaires détaillés
 
-As for Table actions in List forms, a generic actions button is available in the navigation bar to display all your entity actions in a list.
+As for Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
