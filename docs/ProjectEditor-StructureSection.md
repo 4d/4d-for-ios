@@ -47,7 +47,7 @@ Once authorized, 4D for iOS will do all the work for you, and you will fully ben
 
 **NOTE**
 
-These optimizations are required for both local and server database.
+These optimizations are required for both local and server databases.
 
 </div>
 
