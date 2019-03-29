@@ -7,13 +7,13 @@ This section allows you to define actions names, icons and context for each tabl
 ## Project editor Side
 
 * **Names:** Add a new actions clicking on Plus button.
-* **Icons:** Select an icon for your action from your icon library. You can also add your following this [tutorial](using-icons.html).
+* **Icons:** Select an icon for your action from your icon library. You can also add yours following this [tutorial](using-icons.html).
 * **Table:** Select the table you want to apply the action on.
 * **Scope:** Select if you want to apply the action on an **entity** or on a **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](www.google.fr) is available to call your all your 4D methods.
+A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call your all your 4D methods.
 
 ## iOS app Side
 

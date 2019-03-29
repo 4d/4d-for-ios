@@ -36,7 +36,11 @@ To do so, 4D for iOS needs to make structure optimizations and create:
 
 All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
+
+**NOTE**
+
+These optimizations are required for both local and server database.</div> 
 
 ### Pull to refresh!
 

@@ -36,7 +36,11 @@ Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
 Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
-Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches nécessaires, et vous profiterez pleinement des avantages du rechargement des données incrémentielles.
+Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches nécessaires, et vous profiterez pleinement des avantages du rechargement des données incrémentielles.<div class = "tips"> 
+
+**NOTE**
+
+These optimizations are required for both local and server database.</div> 
 
 ### Tirer pour rafraîchir !
 
@@ -48,4 +52,4 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 **NOTE**
 
-Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
+As soon as the admin do an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required : Recover by tag / Restoration / Compaction</div>
