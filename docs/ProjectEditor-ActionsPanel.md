@@ -3,7 +3,7 @@ id: actions
 title: Actions
 ---
 
-This section allows you to define action names, icons and context for each table.
+This section allows you to define actions names, icons and scope for each table.
 
 ## Project editor Side
 
