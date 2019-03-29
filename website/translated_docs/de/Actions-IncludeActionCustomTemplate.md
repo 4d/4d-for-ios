@@ -12,7 +12,7 @@ Add actions to custom List and Detail forms templates.</div> <div class = "prere
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
-In this tutorial, we are going to see how it is easy to **add actions to custom templates**.
+In this tutorial, we are going to see easy it can be to **add actions to custom templates**.
 
 ## STEP 1. Download the Starter Project
 
@@ -86,7 +86,7 @@ To do so, open the ```list/TasksCollection/Sources/Forms/Tables/___TABLE___/___T
 
 #### A. Add Table action Tag
 
-The process is quite similar as for TasksList custom template.
+The process is quite as similar as TasksList custom template's process.
 
 Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
@@ -98,9 +98,9 @@ Select the **List form Controller** and add this line in the **User Defined Runt
 
 #### B. Add Entity action Tag
 
-For entity, the way you display actions is quite different as for TableView: swipe action are not really adapted to CollectionViews.
+For entity, the way you display actions is quite different than TableView: swipe action are not really adapted to CollectionViews.
 
-So with collection views, the best way to display actions is to use a **long pressure** gesture on cells you want to interact with.
+So with collection views, the best way to display actions is to use a **long pressure** gesture on the cells you want to interact with.
 
 For that, select the collectionView cell and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
@@ -110,7 +110,7 @@ For that, select the collectionView cell and add this line in the **User Defined
 
 ![Add collection entity action tag](assets/en/actions/Add-collection-entity-tag-taskslist.png)
 
-To optimize the interaction rendering, you can add a scale effect with an haptic feedback adding the following line in the **User Defined Runtime Attributes** (Identity inspector):
+To optimize the interaction rendering, you can add a scale effect with a haptic feedback adding the following line in the **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: ```touch.zoomScale```
 * Type: ```Number```
@@ -122,9 +122,9 @@ You can select the TasksCollection custom template from the **Forms section** an
 
 ## STEP 4. Add actions in Detail forms
 
-In Detail forms you can use the **generic button** in the navigation bar or **create easily you own custom action button**. In both case you have to add tags.
+In Detail forms, you can use the **generic button** in the navigation bar or **create easily your own custom action button**. In both cases, you have to add tags.
 
-For generic button embeded in navigation bar, select the Controller and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+For generic button embedded in the navigation bar, select the Controller and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: ```actions```
 * Type: ```String```
@@ -142,7 +142,7 @@ Open it, select the button at bottom right and add this line in the **User Defin
 
 ![Add detailform entity action tag custom action button](assets/en/actions/Detail-form-action-custom-action-Button.png)
 
-As you can see few button visuals are missing in the Storyboard file. You can actually find those visuals in the template **Resources folder**. They will be included in the project during the build process.
+As you can see, a few visual buttons are missing in the Storyboard file. You can actually find those visuals in the **Resources folder** template. They will be included in the project during the build process.
 
 For example for the **moreButton.imageset**:
 
@@ -152,7 +152,7 @@ You can select the TasksDetail custom template from the **Forms section** and ad
 
 ![TasksDetail Forms section](assets/en/actions/detailform-forms-section.png)
 
-Congratulations, your Tasks iOS app is complete including action in List form and Detail form !
+Congratulations, your Tasks iOS app is now complete and includes actions in List form and Detail form !
 
 ![Template ressources](assets/en/actions/ListForm-entity-action-tableview.png)
 
