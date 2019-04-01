@@ -40,7 +40,7 @@ Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches
 
 **NOTE**
 
-These optimizations are required for both local and server database.</div> 
+These optimizations are required for both local and server databases.</div> 
 
 ### Tirer pour rafraîchir !
 

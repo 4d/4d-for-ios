@@ -33,7 +33,7 @@ Let's focus first on Entity actions!
 
 In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
 
-The action section is quite empty when you open it for the first time, so click the **Plus button** at the bottom left to add your first action!
+The action section is quite empty when you open it for the first time, so click on the **Plus button** at the bottom left to add your first action!
 
 ![Create action](assets/en/actions/Create-action.png)
 
@@ -134,7 +134,7 @@ Once your database method has been edited, you have to create a **modifyStatus**
     
     
 
-Build and Run you app and voila! Your **Done action** is available when you swipe left a cell in Listform as well as when you click on the **generic action button** in the navigation bar of the Detail form.
+Build and Run you app and there you go! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
@@ -157,7 +157,7 @@ Let's define this action from the Action section:
 
 ### STEP 2. Edit the Action method
 
-Clic on **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
+Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
@@ -233,7 +233,7 @@ As you create the **modifyStatus** Method, follow the same process and create a 
     
     
 
-Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Clic on it to trigger the **Postpone All** action.
+Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
