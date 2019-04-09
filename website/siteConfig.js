@@ -37,7 +37,9 @@ const siteConfig = {
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
     {doc: 'contact-app', label: 'Tutorials'},
+    {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
+
 
 
    // {doc: 'docindex', label: 'API'},
@@ -99,6 +101,7 @@ algolia: {
   '/4d-for-ios/js/code-block-buttons.js',
 ],
   stylesheets: ['/css/code-block-buttons.css'],
+  docsSideNavCollapsible: true,
 
   gaTrackingId: 'UA-129154982-1',
 
