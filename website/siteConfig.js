@@ -37,7 +37,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
     {doc: 'contact-app', label: 'Tutorials'},
-    {doc: 'template', label: 'Templates & Formatters'}, 
+    //{doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
 
 
