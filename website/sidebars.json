@@ -22,5 +22,9 @@
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
     "Relations" :["n-to-one-relations"]
+  },
+
+    "Templates&Formatters": {
+    "Templates & Formatters" : ["custom-listform-templates","custom-detailform-templates","custom-data-formatters"]
   }
 }

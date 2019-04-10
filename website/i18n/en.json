@@ -162,6 +162,15 @@
       "n-to-one-relations": {
         "title": "N to one relations"
       },
+      "custom-data-formatters": {
+        "title": "Data Formatters"
+      },
+      "custom-detailform-templates": {
+        "title": "Detail Form Templates"
+      },
+      "custom-listform-templates": {
+        "title": "List Forms Templates"
+      },
       "define-filter-query": {
         "title": "Define a filter query"
       },
@@ -170,6 +179,9 @@
       },
       "user-information-query": {
         "title": "User information query"
+      },
+      "template": {
+        "title": "Templates & Formatters"
       },
       "free-developer-account": {
         "title": "Free Apple Developer account"
@@ -187,6 +199,7 @@
     "links": {
       "Docs": "Docs",
       "Tutorials": "Tutorials",
+      "Templates & Formatters": "Templates & Formatters",
       "FAQ": "FAQ"
     },
     "categories": {
@@ -198,14 +211,15 @@
       "Deploying on App Store": "Deploying on App Store",
       "Creating your iOS App": "Creating your iOS App",
       "Customizing with Xcode": "Customizing with Xcode",
-      "Creating List form templates": "Creating List form templates",
-      "Creating Detail form templates": "Creating Detail form templates",
+      "Creating List forms": "Creating List forms",
+      "Creating Detail forms": "Creating Detail forms",
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Actions": "Actions",
       "Multi-criteria search": "Multi-criteria search",
       "Restricted queries": "Restricted queries",
-      "Relations": "Relations"
+      "Relations": "Relations",
+      "Templates & Formatters": "Templates & Formatters"
     }
   },
   "pages-strings": {

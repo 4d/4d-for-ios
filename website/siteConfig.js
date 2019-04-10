@@ -37,7 +37,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
     {doc: 'contact-app', label: 'Tutorials'},
-    //{doc: 'template', label: 'Templates & Formatters'}, 
+    {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
 
 
@@ -100,7 +100,6 @@ algolia: {
   'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
   '/4d-for-ios/js/code-block-buttons.js',
 ],
-  stylesheets: ['/css/code-block-buttons.css'],
   docsSideNavCollapsible: true,
 
   gaTrackingId: 'UA-129154982-1',
