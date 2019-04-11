@@ -50,7 +50,7 @@ title: Detail Form Templates
           <li><strong>Image required:</strong> yes</li></ul>
 
 <div markdown="1" style="text-align: center; margin-top: 40px;">
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DOWNLOAD</a></div>
+<a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a></div>
             </td>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
     <img style="max-height: 750px"src="../assets/en/template-formatters/Detailform-ParallaxDetail.gif" alt="" />
