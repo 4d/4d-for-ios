@@ -1,14 +1,14 @@
 ---
 id: custom-detailform-templates
-title: Detail Form Templates
+title: Modèles des formulaires détaillés
 ---
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**AVANT DE COMMENCER**
 
-1. To use a custom detail form template, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/Mobile/form/detail** folder.
+1. Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un **dossier YourDatabase.4dbase/Resources/Mobile/form/detail**.
 
-2. Then drop the detail form folder into it.</div> 
+2. Glissez ensuite le dossier du formulaire détaillé dans le dossier que vous venez de créer.</div> 
 
 <
 
@@ -30,13 +30,13 @@ div markdown="1" style="transform: translateX(0%);">
         
         <ul style="font-size:16px">
           <li>
-            <strong>Included ressources:</strong> yes
+            <strong>Ressources inclues :</strong> oui
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Actions:</strong> inclues
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Image requise:</strong> non
           </li>
         </ul>
         
@@ -61,13 +61,13 @@ div markdown="1" style="transform: translateX(0%);">
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Included ressources:</strong> yes
+            <strong>Ressources inclues :</strong> oui
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Actions:</strong> inclues
           </li>
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Image requise:</strong> oui
           </li>
         </ul>
         
@@ -75,7 +75,7 @@ div markdown="1" style="transform: translateX(0%);">
           <p>
             
 
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a>
+<a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">TELECHARGER</a>
 
           </p>
         </div>
