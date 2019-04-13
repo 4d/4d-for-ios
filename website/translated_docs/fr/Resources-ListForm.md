@@ -1,14 +1,14 @@
 ---
 id: custom-listform-templates
-title: List Forms Templates
+title: Modèles de formulaires Liste
 ---
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**AVANT DE COMMENCER**
 
-1. To use a custom list form template, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/Mobile/form/list** folder.
+1. Pour utiliser un modèle de formulaire Liste, vous devez avant tout créer un dossier **YourDatabase.4dbase/Resources/Mobile/form/list**.
 
-2. Then drop the list form folder into it.</div> 
+2. Glissez ensuite le dossier du formulaire Liste dans le dossier que vous venez de créer.</div> 
 
 <
 
@@ -25,27 +25,27 @@ div markdown="1" style="transform: translateX(0%);">
       
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Tasks Collection
+          Collection Tasks
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Type:</strong> Collection
+            <strong>Type :</strong> Collection
           </li>
           <li>
-            <strong>Sections:</strong> not available
+            <strong>Sections :</strong> non disponible
           </li>
           <li>
-            <strong>Actions:</strong> cell long pressure
+            <strong>Actions :</strong> longue pression sur la cellule
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Image requise:</strong> non
           </li>
         </ul>
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksCollection.zip">DOWNLOAD</a>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksCollection.zip">TELECHARGER</a>
           </p>
         </div>
       </td>
@@ -56,27 +56,27 @@ div markdown="1" style="transform: translateX(0%);">
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Tasks List
+          Liste Tasks
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Type:</strong> Table
+            <strong>Type :</strong> Table
           </li>
           <li>
-            <strong>Sections:</strong> available
+            <strong>Sections :</strong> disponible
           </li>
           <li>
-            <strong>Actions:</strong> cell left swipe
+            <strong>Actions :</strong> glissement vers la gauche de la cellule
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Image requise:</strong> non
           </li>
         </ul>
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DOWNLOAD</a>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">TELECHARGER</a>
           </p>
         </div>
       </td>
@@ -95,27 +95,27 @@ div markdown="1" style="transform: translateX(0%);">
       
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Cards Table
+          Table Cards
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Type:</strong> Table
+            <strong>Type :</strong> Table
           </li>
           <li>
-            <strong>Sections:</strong> available
+            <strong>Sections :</strong> disponible
           </li>
           <li>
-            <strong>Actions:</strong> cell long pressure
+            <strong>Actions :</strong> longue pression sur la cellule
           </li>
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Image requise :</strong> oui
           </li>
         </ul>
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">DOWNLOAD</a>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">TELECHARGER</a>
           </p>
         </div>
       </td>
