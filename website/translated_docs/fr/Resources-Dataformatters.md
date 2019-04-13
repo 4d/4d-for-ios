@@ -1,14 +1,14 @@
 ---
 id: custom-data-formatters
-title: Data Formatters
+title: Format des données
 ---
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**AVANT DE COMMENCER**
 
-1. To use a custom formatter, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/formatters** folder.
+1. Pour utiliser un format personnalisé, vous devez avant tout créer un dossier **YourDatabase.4dbase/Resources/formatters**.
 
-2. Then drop the formatter folder into it.</div> 
+2. Glissez ensuite le dossier du format dans le dossier que vous venez de créer.</div> 
 
 <
 
@@ -30,17 +30,17 @@ div markdown="1" style="transform: translateX(0%);">
         
         <ul style="font-size:16px">
           <li>
-            <strong>Format:</strong> Text ⟶ Mail
+            <strong>Format :</strong> Texte ⟶ Mail
           </li>
           <li>
-            <strong>Function:</strong> open the mail app on click
+            <strong>Fonction:</strong> ouvrir l'application mail via un simple clic
           </li>
           <li>
-            <strong>Type:</strong> Swift formatter
+            <strong>Type :</strong> Format Swift
           </li>
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">TELECHARGER</a>
             </p>
           </div></td> </tr> 
           
@@ -54,17 +54,17 @@ div markdown="1" style="transform: translateX(0%);">
               
               <ul style="font-size:16px">
                 <li>
-                  <strong>Format:</strong> Text ⟶ URL
+                  <strong>Format :</strong> Texte ⟶ URL
                 </li>
                 <li>
-                  <strong>Function:</strong> open Safari app on click
+                  <strong>Fonction :</strong> ouvrir l'application Safari via un simple clic
                 </li>
                 <li>
-                  <strong>Type:</strong> Swift formatter
+                  <strong>Type :</strong> Format Swift
                 </li>
                 <div style="text-align: center; margin-top: 40px;">
                   <p>
-                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DOWNLOAD</a>
+                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">TELECHARGER</a>
                   </p>
                 </div></td> 
                 
@@ -80,22 +80,22 @@ div markdown="1" style="transform: translateX(0%);">
                   
                   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                     <h1 style="margin-top: 10px; font-size:22px">
-                      Phone
+                      Téléphone
                     </h1>
                     
                     <ul style="font-size:16px">
                       <li>
-                        <strong>Format:</strong> Number ⟶ Phone number
+                        <strong>Format :</strong> Numérique ⟶ Numéro de téléphone
                       </li>
                       <li>
-                        <strong>Function:</strong> call the number on click
+                        <strong>Fonction :</strong> appeler le numéro via un simple clic
                       </li>
                       <li>
-                        <strong>Type:</strong> Swift formatter
+                        <strong>Type :</strong> Format Swift
                       </li>
                       <div style="text-align: center; margin-top: 40px;">
                         <p>
-                          <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">DOWNLOAD</a>
+                          <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">TELECHARGER</a>
                         </p>
                       </div></td> </tr> 
                       
@@ -104,22 +104,22 @@ div markdown="1" style="transform: translateX(0%);">
                       <tr>
                         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                           <h1 style="margin-top: 10px; font-size:22px">
-                            Address
+                            Adresse
                           </h1>
                           
                           <ul style="font-size:16px">
                             <li>
-                              <strong>Format:</strong> Text ⟶ Address
+                              <strong>Format :</strong> Texte ⟶ Mail
                             </li>
                             <li>
-                              <strong>Function:</strong> open Map app on click
+                              <strong>Fonction :</strong> ouvrir l'application Map via un simple clic
                             </li>
                             <li>
-                              <strong>Type:</strong> Swift formatter
+                              <strong>Type :</strong> Format Swift
                             </li>
                             <div style="text-align: center; margin-top: 40px;">
                               <p>
-                                <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DOWNLOAD</a>
+                                <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">TELECHARGER</a>
                               </p>
                             </div></td> 
                             
@@ -135,19 +135,19 @@ div markdown="1" style="transform: translateX(0%);">
                               
                               <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                 <h1 style="margin-top: 10px; font-size:22px">
-                                  Int to Image
+                                  Entier vers Image
                                 </h1>
                                 
                                 <ul style="font-size:16px">
                                   <li>
-                                    <strong>Format:</strong> Integer ⟶ Image
+                                    <strong>Format :</strong> Entier ⟶ Mail
                                   </li>
                                   <li>
-                                    <strong>Type:</strong> basic formatter
+                                    <strong>Type :</strong> Format basique
                                   </li>
                                   <div style="text-align: center; margin-top: 40px;">
                                     <p>
-                                      <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">DOWNLOAD</a>
+                                      <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">TELECHARGER</a>
                                     </p>
                                   </div></td> </tr> 
                                   
@@ -156,19 +156,19 @@ div markdown="1" style="transform: translateX(0%);">
                                   <tr>
                                     <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                       <h1 style="margin-top: 10px; font-size:22px">
-                                        Int to String
+                                        Entier vers Chaîne
                                       </h1>
                                       
                                       <ul style="font-size:16px">
                                         <li>
-                                          <strong>Format:</strong> Integer ⟶ String
+                                          <strong>Format :</strong> Entier ⟶ Chaîne
                                         </li>
                                         <li>
-                                          <strong>Type:</strong> basic formatter
+                                          <strong>Type :</strong> Format basique
                                         </li>
                                         <div style="text-align: center; margin-top: 40px;">
                                           <p>
-                                            <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DOWNLOAD</a>
+                                            <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">TELECHARGER</a>
                                           </p>
                                         </div></td> 
                                         
@@ -184,19 +184,19 @@ div markdown="1" style="transform: translateX(0%);">
                                           
                                           <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                             <h1 style="margin-top: 10px; font-size:22px">
-                                              Text to Image
+                                              Texte vers Image
                                             </h1>
                                             
                                             <ul style="font-size:16px">
                                               <li>
-                                                <strong>Format:</strong> Text ⟶ Image
+                                                <strong>Format :</strong> Texte ⟶ Image
                                               </li>
                                               <li>
-                                                <strong>Type:</strong> basic formatter
+                                                <strong>Type :</strong> Format basique
                                               </li>
                                               <div style="text-align: center; margin-top: 40px;">
                                                 <p>
-                                                  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">DOWNLOAD</a>
+                                                  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">TELECHARGER</a>
                                                 </p>
                                               </div></td> </tr> 
                                               
@@ -205,19 +205,19 @@ div markdown="1" style="transform: translateX(0%);">
                                               <tr>
                                                 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                                   <h1 style="margin-top: 10px; font-size:22px">
-                                                    Text to String
+                                                    Texte vers Chaîne
                                                   </h1>
                                                   
                                                   <ul style="font-size:16px">
                                                     <li>
-                                                      <strong>Format:</strong> Text ⟶ String
+                                                      <strong>Format :</strong> Texte ⟶ Chaîne
                                                     </li>
                                                     <li>
-                                                      <strong>Type:</strong> basic formatter
+                                                      <strong>Type :</strong> Format basique
                                                     </li>
                                                     <div style="text-align: center; margin-top: 40px;">
                                                       <p>
-                                                        <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DOWNLOAD</a>
+                                                        <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">TELECHARGER</a>
                                                       </p>
                                                     </div></td> 
                                                     
@@ -233,19 +233,19 @@ div markdown="1" style="transform: translateX(0%);">
                                                       
                                                       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                                         <h1 style="margin-top: 10px; font-size:22px">
-                                                          Bool to Image
+                                                          Booléen vers Image
                                                         </h1>
                                                         
                                                         <ul style="font-size:16px">
                                                           <li>
-                                                            <strong>Format:</strong> Bool ⟶ Image
+                                                            <strong>Format :</strong> Booléen ⟶ Image
                                                           </li>
                                                           <li>
-                                                            <strong>Type:</strong> basic formatter
+                                                            <strong>Type :</strong> Format basique
                                                           </li>
                                                           <div style="text-align: center; margin-top: 40px;">
                                                             <p>
-                                                              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">DOWNLOAD</a>
+                                                              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">TELECHARGER</a>
                                                             </p>
                                                           </div></td> </tr> 
                                                           
@@ -254,19 +254,19 @@ div markdown="1" style="transform: translateX(0%);">
                                                           <tr>
                                                             <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                                               <h1 style="margin-top: 10px; font-size:22px">
-                                                                Gender Emoji
+                                                                Emoticône
                                                               </h1>
                                                               
                                                               <ul style="font-size:16px">
                                                                 <li>
-                                                                  <strong>Format:</strong> Bool, Real, Integer ⟶ Emoji
+                                                                  <strong>Format :</strong> Booléen, Réel, Entier ⟶ Emoticône
                                                                 </li>
                                                                 <li>
-                                                                  <strong>Type:</strong> basic formatter
+                                                                  <strong>Type :</strong> Format basique
                                                                 </li>
                                                                 <div style="text-align: center; margin-top: 40px;">
                                                                   <p>
-                                                                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DOWNLOAD</a>
+                                                                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">TELECHARGER</a>
                                                                   </p>
                                                                 </div></td> 
                                                                 
