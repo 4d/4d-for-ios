@@ -40,7 +40,7 @@ Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches
 
 **NOTE**
 
-These optimizations are required for both local and server databases.</div> 
+Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.</div> 
 
 ### Tirer pour rafraîchir !
 
@@ -52,4 +52,4 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 **NOTE**
 
-As soon as the admin do an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required : Recover by tag / Restoration / Compaction</div>
+Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
