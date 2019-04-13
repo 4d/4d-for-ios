@@ -2,53 +2,53 @@
 id: actions
 title: Actions
 ---
-This section allows you to define actions names, icons and scope for each table.
+Cette section vous permet de définir des noms et des icônes pour chaque action ainsi qu'une portée pour chaque table.
 
 ## Éditeur de projet
 
-* **Names:** Add a new action by clicking on the Plus button.
-* **Icons :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Table:** Select the table on which you want to apply the action.
-* **Scope:** Select if you want to apply the action on an **entity** or on a **table**.
+* **Noms :** Ajouter une nouvelle action en cliquant sur le bouton "+".
+* **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
+* **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
+* **Portée :** Choisissez d'appliquer l'action à une **entité** ou à une **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call your all your 4D methods.
+Une nouvelle méthode base [Sur une action app mobile](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) est disponible pour appeler vos méthodes 4D.
 
 ## Application iOS
 
-In your iOS app, actions are available in different ways in your Listforms and Detailforms, depending on the templates you select in the form section.
+Dans votre application iOS, des actions sont disponibles sous différentes formes dans vos formulaires Liste et formulaires détaillés, selon le modèle que vous sélectionnez dans la section Formulaires.
 
-### Formulaires Liste table
+### Formulaires Liste en tableau
 
-* **Entity action:** swipe left on a cell to display available actions in a List form. A "+" button is displayed if you define more than 3 actions per entity.
+* **Action d'entité pour les cellules :** faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions sur la table.
+* **Actions de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-### Formulaires de Liste collection
+### Formulaires Liste en collection
 
-* **Entity action:** depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Action d'entité pour les cellules :** selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** as for Table List forms, a generic Actions button is available in the navigation bar to display a list of table actions.
+* **Actions de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Formulaires détaillés
 
-As for Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+De même que pour les actions de table dans les formulaires détailles, un bouton d'actions générique est disponible dans la barre de navigation pour afficher toutes vos actions d'entité dans une liste.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
-## Where to Go From Here?
+## Que faire ensuite ?
 
-* We will see [later](action-custom-template.html#step-4-add-actions-in-detail-forms) how to include your own **custom action button** in detail forms.
+* Nous verrons [plus tard](action-custom-template.html#step-4-add-actions-in-detail-forms) comment inclure votre propre**bouton d'actions personnalisé** dans des formulaires détaillés.
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutoriel](actions-getting-started.html) est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
