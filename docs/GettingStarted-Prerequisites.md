@@ -30,7 +30,7 @@ Due to apple swift language abi unstability, you could not use the standard 4D 1
 
 Fortunately we provide an alternative component compatible with Xcode 10.2.
 
-You can replace the internal user component `4D Mobile App.4dbase`, find into `../4D.app/Contents/Resources/Internal User Components/`, by the provided one:
+You can replace the internal user component `4D Mobile App.4dbase`, that you can find into `../4D.app/Contents/Resources/Internal User Components/`, by the provided one:
 
 <a class="button"
 href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20Xcode%2010.2/4D%20Mobile%20App.4dbase.zip">4D Mobile App.4dbase.zip</a>
