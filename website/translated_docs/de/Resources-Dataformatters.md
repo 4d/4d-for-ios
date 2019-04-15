@@ -6,16 +6,12 @@ title: Data Formatters
 
 **BEFORE STARTING**
 
-1. To use a custom formatter, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/formatters** folder.
+1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/formatters` folder.
 
 2. Then drop the formatter folder into it.</div> 
 
-<
-
-div markdown="1" style="transform: translateX(0%);">
-
 <div style="height: auto;">
-  <table style="">
+  <table>
     <col width="50%"> <col width="50%"> <!--BLOC1-->
     
     <tr>
@@ -254,7 +250,7 @@ div markdown="1" style="transform: translateX(0%);">
                                                           <tr>
                                                             <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                                               <h1 style="margin-top: 10px; font-size:22px">
-                                                                Gender Emoji
+                                                                Emoji
                                                               </h1>
                                                               
                                                               <ul style="font-size:16px">
