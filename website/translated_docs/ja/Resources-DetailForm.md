@@ -6,16 +6,12 @@ title: Detail Form Templates
 
 **BEFORE STARTING**
 
-1. To use a custom detail form template, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/Mobile/form/detail** folder.
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
 2. Then drop the detail form folder into it.</div> 
 
-<
-
-div markdown="1" style="transform: translateX(0%);">
-
 <div style="height: auto;">
-  <table style="">
+  <table>
     <col width="50%"> <col width="50%"> <!--BLOC1-->
     
     <tr>
@@ -42,10 +38,7 @@ div markdown="1" style="transform: translateX(0%);">
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            
-
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a>
-
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a>
           </p>
         </div>
       </td>
@@ -73,10 +66,7 @@ div markdown="1" style="transform: translateX(0%);">
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            
-
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a>
-
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a>
           </p>
         </div>
       </td>
