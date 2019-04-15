@@ -104,7 +104,7 @@ title: List Forms Templates
                <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
                <ul style="font-size:16px">
           <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
+          <li><strong>Sections:</strong> not available</li>
           <li><strong>Actions:</strong> cell long pressure</li>
           <li><strong>Image required:</strong> no</li></ul>
 
