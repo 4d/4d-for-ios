@@ -110,7 +110,7 @@ Pour ce faire, sélectionnez la cellule collectionView et ajoutez cette ligne da
 
 ![Add collection entity action tag](assets/en/actions/Add-collection-entity-tag-taskslist.png)
 
-Pour optimiser l'interaction, vous pouvez ajouter un effet scalaire avec un retour tactile qui ajoutera la ligne suivante dans le **User Defined Runtime Attributes** (Identity inspector) :
+Pour optimiser l'interaction, vous pouvez ajouter un effet scalaire avec un retour haptique qui ajoutera la ligne suivante dans le **User Defined Runtime Attributes** (Identity inspector) :
 
 * Key Path : ```touch.zoomScale```
 * Type : ```Number```
