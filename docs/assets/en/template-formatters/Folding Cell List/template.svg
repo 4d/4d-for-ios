@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ios="http://www.4d.com">
+	<title>Folding Cell List</title>
+	<defs>
+		<symbol id="cancel">
+			<image x="0" y="0" width="30" height="30" xlink:href="$4DEVAL(tmpl_cancel)"/>
+		</symbol>
+		<text id="cookery" ios:values="search,f1,f2,f3"/>
+	</defs>
+	<!-- background -->
+	<rect class="container"/>
+	<rect class="bgcontainer"/>
+	<g id="bgcontainer">
+		<!-- searchableField -->
+		<g transform="translate(0,60)">
+			<rect class="bg field" x="14" y="0" width="238" height="30"/>
+			<path class="magnifyingGlass" transform="translate(20,8) scale(1)"/>
+			<textArea id="search.label" class="label" x="17" y="8" width="230" ios:tips='$4DEVAL(:C991("searchBoxTips"))'>$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+			<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+			<use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+
+		<!-- field1 -->
+		<g transform="translate(0,100)">
+			<rect class="bg field" x="23" y="0" width="220" height="30"/>
+			<textArea id="f1.label" class="label" x="23" y="8" width="220">Field 1</textArea>
+			<rect id="f1" class="droppable field" x="23" y="0" width="220" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[0]"/>
+			<use id="f1.cancel" x="215" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+
+		<!-- field2 -->
+		<g transform="translate(0,135)">
+			<rect class="bg field" x="23" y="0" width="220" height="30"/>
+			<textArea id="f2.label" class="label" x="23" y="8" width="220">Field 2</textArea>
+			<rect id="f2" class="droppable field" x="23" y="0" width="220" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
+			<use id="f2.cancel" x="215" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+
+	<!-- field3 -->
+		<g transform="translate(0,170)">
+			<rect class="bg field" x="23" y="0" width="220" height="30"/>
+			<textArea id="f3.label" class="label" x="23" y="8" width="220">Field 3</textArea>
+			<rect id="f3" class="droppable field" x="23" y="0" width="220" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[2]"/>
+			<use id="f3.cancel" x="215" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+
+	</g>
+</svg>

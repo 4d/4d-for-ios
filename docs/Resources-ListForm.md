@@ -58,7 +58,7 @@ title: List Forms Templates
         </tr>
 
 
-  <!--BLOC1-->
+  <!--BLOC3-->
   <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
     <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-cards-table.gif" alt="" />
@@ -76,6 +76,42 @@ title: List Forms Templates
             </td>
         </tr>
 
+ <!--BLOC4-->
+
+   <tr>
+        <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+               <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
+               <ul style="font-size:16px">
+          <li><strong>Type:</strong> Collection</li>
+          <li><strong>Sections:</strong> not available</li>
+          <li><strong>Actions:</strong> cell long pressure</li>
+          <li><strong>Image required:</strong> yes</li></ul>
+
+<div markdown="1" style="text-align: center; margin-top: 40px;">
+<a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">DOWNLOAD</a></div>
+            </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+    <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-Map.gif" alt="" />
+        </td>
+        </tr>
+
+  <!--BLOC5-->
+  <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+    <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-FoldingCell.gif" alt="" />
+        </td>
+    <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+               <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
+               <ul style="font-size:16px">
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
+          <li><strong>Actions:</strong> cell long pressure</li>
+          <li><strong>Image required:</strong> no</li></ul>
+
+<div markdown="1" style="text-align: center; margin-top: 40px;">
+<a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformFoldingCellList.zip">DOWNLOAD</a></div>
+            </td>
+        </tr>
 
   </table>
 </div>

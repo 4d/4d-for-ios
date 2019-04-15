@@ -1,0 +1,10 @@
+{
+  "type": "listform",
+  "name": "Folding Cell List",
+  "fields": {
+    "count": 6
+  },
+  "sdk": {
+    "name": "folding-cell"
+  }
+}
