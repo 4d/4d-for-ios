@@ -8,7 +8,7 @@ title: Detail Form Templates
 
 **BEFORE STARTING**
 
-1. To use a custom detail form template, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/Mobile/form/detail** folder.
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
 2. Then drop the detail form folder into it.
 

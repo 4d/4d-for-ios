@@ -8,7 +8,7 @@ title: Data Formatters
 
 **BEFORE STARTING**
 
-1. To use a custom formatter, the first thing you'll need to do is create a **YourDatabase.4dbase/Resources/formatters** folder.
+1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/formatters` folder.
 
 2. Then drop the formatter folder into it.
 
