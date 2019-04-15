@@ -37,7 +37,7 @@ La section Actions est assez vide lorsque vous l’ouvrez pour la première fois
 
 ![Create action](assets/en/actions/Create-action.png)
 
-Définissons tout d’abord une action qui permettra de **changer le statut d'une tâche** sur « Complet » et le **pourcentage d’achèvement** à 100 %.
+Définissons tout d’abord une action qui permettra de **changer le statut d'une tâche** sur « Complete » et le **pourcentage d’achèvement** à 100 %.
 
 Pour définir cette action :
 
@@ -50,7 +50,7 @@ Pour définir cette action :
 
 ![Done action definition](assets/en/actions/Done-action-definition.png)
 
-### ÉTAPE 2. Créer et modifier la méthode base Action
+### ÉTAPE 2. Créer et modifier la méthode base "Sur une action app mobile"
 
 Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc créer la méthode base [**Sur une action app mobile**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html).
 
@@ -114,7 +114,7 @@ Une fois votre méthode base modifiée, vous devez créer une méthode **modifyS
     
         If ($status.success)
     
-            $out.success:=True  // notify App that action success
+            $out.success:=True  // notify App that action is successful
             $out.dataSynchro:=True  // notify App to refresh this entity
     
         Else 
