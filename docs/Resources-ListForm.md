@@ -15,8 +15,7 @@ title: List Forms Templates
 
 <div markdown="1" style="transform: translateX(0%);">
 
-
-<div style="height: auto;">
+<div markdown="1" style="height: auto;">
     <table style="">
     	 	<col width="50%">
   			<col width="50%">
