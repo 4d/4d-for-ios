@@ -19,7 +19,7 @@ Click [here](prerequisites.html) to see what you'll need to get started!
 
 </div>
 
-In this tutorial, we are going to see easy it can be to **add actions to custom templates**.
+In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
 ## STEP 1. Download the Starter Project
 
