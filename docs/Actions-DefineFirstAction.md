@@ -117,7 +117,7 @@ If ($selection.length=1)
 
 	If ($status.success)
 
-		$out.success:=True  // notify App that action success
+		$out.success:=True  // notify App that action is successful
 		$out.dataSynchro:=True  // notify App to refresh this entity
 
 	Else 
