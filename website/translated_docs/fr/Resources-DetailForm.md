@@ -6,16 +6,12 @@ title: Modèles des formulaires détaillés
 
 **AVANT DE COMMENCER**
 
-1. Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un **dossier YourDatabase.4dbase/Resources/Mobile/form/detail**.
+1. Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/detail`.
 
 2. Glissez ensuite le dossier du formulaire détaillé dans le dossier que vous venez de créer.</div> 
 
-<
-
-div markdown="1" style="transform: translateX(0%);">
-
 <div style="height: auto;">
-  <table style="">
+  <table>
     <col width="50%"> <col width="50%"> <!--BLOC1-->
     
     <tr>
@@ -42,10 +38,7 @@ div markdown="1" style="transform: translateX(0%);">
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            
-
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a>
-
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a>
           </p>
         </div>
       </td>
@@ -73,10 +66,7 @@ div markdown="1" style="transform: translateX(0%);">
         
         <div style="text-align: center; margin-top: 40px;">
           <p>
-            
-
-<a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">TELECHARGER</a>
-
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">TELECHARGER</a>
           </p>
         </div>
       </td>
