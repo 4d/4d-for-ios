@@ -26,7 +26,7 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 ### Using 17R4 with Xcode 10.2
 
-Due to apple swift language abi instability, you could not use the standard 4D 17R4 with Xcode 10.2.
+Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.
 
 Fortunately we provide an alternative component compatible with Xcode 10.2.
 
