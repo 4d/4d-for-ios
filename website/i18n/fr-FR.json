@@ -162,6 +162,15 @@
       "n-to-one-relations": {
         "title": "Liens N vers 1"
       },
+      "custom-data-formatters": {
+        "title": "Format des données"
+      },
+      "custom-detailform-templates": {
+        "title": "Modèles de formulaires détaillés"
+      },
+      "custom-listform-templates": {
+        "title": "Modèles de formulaireS Liste"
+      },
       "define-filter-query": {
         "title": "Définir un filtre de recherche"
       },
@@ -170,6 +179,9 @@
       },
       "user-information-query": {
         "title": "Filtre de recherche - informations utilisateur"
+      },
+      "template": {
+        "title": "Modèles & Formats"
       },
       "free-developer-account": {
         "title": "Compte Apple Developer gratuit"
@@ -187,6 +199,7 @@
     "links": {
       "Docs": "Documentation",
       "Tutorials": "Tutoriels",
+      "Templates & Formatters": "Modèles & Formats",
       "FAQ": "FAQ"
     },
     "categories": {
@@ -198,14 +211,15 @@
       "Deploying on App Store": "Déploiement sur App Store",
       "Creating your iOS App": "Créer une application iOS",
       "Customizing with Xcode": "Personnaliser avec Xcode",
-      "Creating List form templates": "Créer des modèles de formulaires Liste",
-      "Creating Detail form templates": "Créer des modèles de formulaires détaillés",
+      "Creating List forms": "Créer des formulaires Liste",
+      "Creating Detail forms": "Créer des formulaires détaillés",
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
       "Actions": "Actions",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
-      "Relations": "Relations"
+      "Relations": "Relations",
+      "Templates & Formatters": "Modèles & Formats"
     }
   },
   "pages-strings": {

@@ -1,0 +1,124 @@
+---
+id: custom-listform-templates
+title: Modèles de formulaires Liste
+---
+<div class = "tips"> 
+
+**AVANT DE COMMENCER**
+
+1. Pour utiliser un modèle de formulaire Liste, vous devez avant tout créer un dossier **YourDatabase.4dbase/Resources/Mobile/form/list**.
+
+2. Glissez ensuite le dossier du formulaire Liste dans le dossier que vous venez de créer.</div> 
+
+<
+
+div markdown="1" style="transform: translateX(0%);">
+
+<div style="height: auto;">
+  <table style="">
+    <col width="50%"> <col width="50%"> <!--BLOC1-->
+    
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 750px" />
+      </td>
+      
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">
+          Collection Tasks
+        </h1>
+        
+        <ul style="font-size:16px">
+          <li>
+            <strong>Type :</strong> Collection
+          </li>
+          <li>
+            <strong>Sections :</strong> non disponible
+          </li>
+          <li>
+            <strong>Actions :</strong> longue pression sur la cellule
+          </li>
+          <li>
+            <strong>Image requise:</strong> non
+          </li>
+        </ul>
+        
+        <div style="text-align: center; margin-top: 40px;">
+          <p>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksCollection.zip">TELECHARGER</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+    
+    <!--BLOC2-->
+    
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">
+          Liste Tasks
+        </h1>
+        
+        <ul style="font-size:16px">
+          <li>
+            <strong>Type :</strong> Table
+          </li>
+          <li>
+            <strong>Sections :</strong> disponible
+          </li>
+          <li>
+            <strong>Actions :</strong> glissement vers la gauche de la cellule
+          </li>
+          <li>
+            <strong>Image requise:</strong> non
+          </li>
+        </ul>
+        
+        <div style="text-align: center; margin-top: 40px;">
+          <p>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">TELECHARGER</a>
+          </p>
+        </div>
+      </td>
+      
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 750px" />
+      </td>
+    </tr>
+    
+    <!--BLOC1-->
+    
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 750px" />
+      </td>
+      
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">
+          Table Cards
+        </h1>
+        
+        <ul style="font-size:16px">
+          <li>
+            <strong>Type :</strong> Table
+          </li>
+          <li>
+            <strong>Sections :</strong> disponible
+          </li>
+          <li>
+            <strong>Actions :</strong> longue pression sur la cellule
+          </li>
+          <li>
+            <strong>Image requise :</strong> oui
+          </li>
+        </ul>
+        
+        <div style="text-align: center; margin-top: 40px;">
+          <p>
+            <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">TELECHARGER</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>

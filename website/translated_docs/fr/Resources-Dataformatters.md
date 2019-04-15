@@ -1,0 +1,275 @@
+---
+id: custom-data-formatters
+title: Format des données
+---
+<div class = "tips"> 
+
+**AVANT DE COMMENCER**
+
+1. Pour utiliser un format personnalisé, vous devez avant tout créer un dossier **YourDatabase.4dbase/Resources/formatters**.
+
+2. Glissez ensuite le dossier du format dans le dossier que vous venez de créer.</div> 
+
+<
+
+div markdown="1" style="transform: translateX(0%);">
+
+<div style="height: auto;">
+  <table style="">
+    <col width="50%"> <col width="50%"> <!--BLOC1-->
+    
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" />
+      </td>
+      
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">
+          Mail
+        </h1>
+        
+        <ul style="font-size:16px">
+          <li>
+            <strong>Format :</strong> Texte ⟶ Mail
+          </li>
+          <li>
+            <strong>Fonction:</strong> ouvrir l'application mail via un simple clic
+          </li>
+          <li>
+            <strong>Type :</strong> Format Swift
+          </li>
+          <div style="text-align: center; margin-top: 40px;">
+            <p>
+              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">TELECHARGER</a>
+            </p>
+          </div></td> </tr> 
+          
+          <!--BLOC2-->
+          
+          <tr>
+            <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+              <h1 style="margin-top: 10px; font-size:22px">
+                Url
+              </h1>
+              
+              <ul style="font-size:16px">
+                <li>
+                  <strong>Format :</strong> Texte ⟶ URL
+                </li>
+                <li>
+                  <strong>Fonction :</strong> ouvrir l'application Safari via un simple clic
+                </li>
+                <li>
+                  <strong>Type :</strong> Format Swift
+                </li>
+                <div style="text-align: center; margin-top: 40px;">
+                  <p>
+                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">TELECHARGER</a>
+                  </p>
+                </div></td> 
+                
+                <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+                  <img style="max-height: 300px; opacity: 0.2" />
+                </td></tr> 
+                <!--BLOC3-->
+                
+                <tr>
+                  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+                    <img style="max-height: 300px; opacity: 0.2" />
+                  </td>
+                  
+                  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+                    <h1 style="margin-top: 10px; font-size:22px">
+                      Téléphone
+                    </h1>
+                    
+                    <ul style="font-size:16px">
+                      <li>
+                        <strong>Format :</strong> Numérique ⟶ Numéro de téléphone
+                      </li>
+                      <li>
+                        <strong>Fonction :</strong> appeler le numéro via un simple clic
+                      </li>
+                      <li>
+                        <strong>Type :</strong> Format Swift
+                      </li>
+                      <div style="text-align: center; margin-top: 40px;">
+                        <p>
+                          <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">TELECHARGER</a>
+                        </p>
+                      </div></td> </tr> 
+                      
+                      <!--BLOC4-->
+                      
+                      <tr>
+                        <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+                          <h1 style="margin-top: 10px; font-size:22px">
+                            Adresse
+                          </h1>
+                          
+                          <ul style="font-size:16px">
+                            <li>
+                              <strong>Format :</strong> Texte ⟶ Mail
+                            </li>
+                            <li>
+                              <strong>Fonction :</strong> ouvrir l'application Map via un simple clic
+                            </li>
+                            <li>
+                              <strong>Type :</strong> Format Swift
+                            </li>
+                            <div style="text-align: center; margin-top: 40px;">
+                              <p>
+                                <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">TELECHARGER</a>
+                              </p>
+                            </div></td> 
+                            
+                            <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+                              <img style="max-height: 300px; opacity: 0.2" />
+                            </td></tr> 
+                            <!--BLOC5-->
+                            
+                            <tr>
+                              <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+                                <img style="max-height: 300px; opacity: 0.2" />
+                              </td>
+                              
+                              <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+                                <h1 style="margin-top: 10px; font-size:22px">
+                                  Entier vers Image
+                                </h1>
+                                
+                                <ul style="font-size:16px">
+                                  <li>
+                                    <strong>Format :</strong> Entier ⟶ Mail
+                                  </li>
+                                  <li>
+                                    <strong>Type :</strong> Format basique
+                                  </li>
+                                  <div style="text-align: center; margin-top: 40px;">
+                                    <p>
+                                      <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">TELECHARGER</a>
+                                    </p>
+                                  </div></td> </tr> 
+                                  
+                                  <!--BLOC6-->
+                                  
+                                  <tr>
+                                    <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+                                      <h1 style="margin-top: 10px; font-size:22px">
+                                        Entier vers Chaîne
+                                      </h1>
+                                      
+                                      <ul style="font-size:16px">
+                                        <li>
+                                          <strong>Format :</strong> Entier ⟶ Chaîne
+                                        </li>
+                                        <li>
+                                          <strong>Type :</strong> Format basique
+                                        </li>
+                                        <div style="text-align: center; margin-top: 40px;">
+                                          <p>
+                                            <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">TELECHARGER</a>
+                                          </p>
+                                        </div></td> 
+                                        
+                                        <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+                                          <img style="max-height: 300px; opacity: 0.2" />
+                                        </td></tr> 
+                                        <!--BLOC7-->
+                                        
+                                        <tr>
+                                          <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+                                            <img style="max-height: 300px; opacity: 0.2" />
+                                          </td>
+                                          
+                                          <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+                                            <h1 style="margin-top: 10px; font-size:22px">
+                                              Texte vers Image
+                                            </h1>
+                                            
+                                            <ul style="font-size:16px">
+                                              <li>
+                                                <strong>Format :</strong> Texte ⟶ Image
+                                              </li>
+                                              <li>
+                                                <strong>Type :</strong> Format basique
+                                              </li>
+                                              <div style="text-align: center; margin-top: 40px;">
+                                                <p>
+                                                  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">TELECHARGER</a>
+                                                </p>
+                                              </div></td> </tr> 
+                                              
+                                              <!--BLOC8-->
+                                              
+                                              <tr>
+                                                <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+                                                  <h1 style="margin-top: 10px; font-size:22px">
+                                                    Texte vers Chaîne
+                                                  </h1>
+                                                  
+                                                  <ul style="font-size:16px">
+                                                    <li>
+                                                      <strong>Format :</strong> Texte ⟶ Chaîne
+                                                    </li>
+                                                    <li>
+                                                      <strong>Type :</strong> Format basique
+                                                    </li>
+                                                    <div style="text-align: center; margin-top: 40px;">
+                                                      <p>
+                                                        <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">TELECHARGER</a>
+                                                      </p>
+                                                    </div></td> 
+                                                    
+                                                    <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+                                                      <img style="max-height: 300px; opacity: 0.2" />
+                                                    </td></tr> 
+                                                    <!--BLOC9-->
+                                                    
+                                                    <tr>
+                                                      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+                                                        <img style="max-height: 300px; opacity: 0.2" />
+                                                      </td>
+                                                      
+                                                      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+                                                        <h1 style="margin-top: 10px; font-size:22px">
+                                                          Booléen vers Image
+                                                        </h1>
+                                                        
+                                                        <ul style="font-size:16px">
+                                                          <li>
+                                                            <strong>Format :</strong> Booléen ⟶ Image
+                                                          </li>
+                                                          <li>
+                                                            <strong>Type :</strong> Format basique
+                                                          </li>
+                                                          <div style="text-align: center; margin-top: 40px;">
+                                                            <p>
+                                                              <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">TELECHARGER</a>
+                                                            </p>
+                                                          </div></td> </tr> 
+                                                          
+                                                          <!--BLOC10-->
+                                                          
+                                                          <tr>
+                                                            <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+                                                              <h1 style="margin-top: 10px; font-size:22px">
+                                                                Emoticône
+                                                              </h1>
+                                                              
+                                                              <ul style="font-size:16px">
+                                                                <li>
+                                                                  <strong>Format :</strong> Booléen, Réel, Entier ⟶ Emoticône
+                                                                </li>
+                                                                <li>
+                                                                  <strong>Type :</strong> Format basique
+                                                                </li>
+                                                                <div style="text-align: center; margin-top: 40px;">
+                                                                  <p>
+                                                                    <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">TELECHARGER</a>
+                                                                  </p>
+                                                                </div></td> 
+                                                                
+                                                                <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+                                                                  <img style="max-height: 300px; opacity: 0.2" />
+                                                                </td></tr> </table> </div>
