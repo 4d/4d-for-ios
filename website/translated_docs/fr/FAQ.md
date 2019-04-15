@@ -24,7 +24,7 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 | Xcode | Swift | iOS      | 4D    |
 | ----- | ----- | -------- | ----- |
-| 10.2  | 5     | iOS 12.2 | 17R5  |
+| 10.2  | 4.2.1 | iOS 12.2 | 17R5  |
 | 10.1  | 4.2.1 | iOS 12   | 17R4  |
 | 10.0  | 4.2   | iOS 12   | 17R3  |
 | 9.4   | 4.1.2 | iOS 11.4 | 17 R2 |
