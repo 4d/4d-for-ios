@@ -42,7 +42,7 @@ Nommez votre projet puis cliquez sur **Créer**.
 
 ## ÉTAPE 3. L’éditeur de projet
 
-Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'une application qui sont proposées dans ce superbe outil. 🙂
+Bienvenue dans 4D for iOS ! L’écran d’accueil affiche les principales étapes de création d'une application, qui vous sont proposées dans ce superbe outil. 🙂
 
 ![Welcome Screen](assets/fr/contact-app/Welcome-Screen-4D-for-iOS.png)
 
@@ -55,7 +55,7 @@ Vous pourrez configurer ici les principales informations de votre application :
 * **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et « com.MonEntreprise »).
 * **Produit :** Entrez le nom de votre application. Appelons-la « Contacts ».
 * **ID :** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
-* **Version :** Laissez la version 1.0 inchangée et définissez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
+* **Version :** Laissez la version 1.0 inchangée et renseignez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
 * **Icônes :** Glissez et déposez une icône pour votre application dans la zone consacrée.
 * **Développeur :** Cette sous-section est renseignée automatiquement à partir du nom d’utilisateur sur votre ordinateur. Copiez-collez la référence de votre équipe de développeurs (à partir de votre compte développeur) dans le champ "Team". Vous pouvez également laisser le champ vide pour générer votre application uniquement sur le Simulateur.
 
@@ -103,7 +103,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 
 ## ÉTAPE 8. Sections - Formulaires
 
-Nous avons presque terminé, mais il faut d’abord configurer la mise en page de l’application en choisissant des Formulaires liste et des Formulaires détaillés.
+Nous avons presque terminé, mais il faut d’abord configurer la mise en page de l’application en choisissant des Formulaires Liste et des Formulaires détaillés.
 
 * Sélectionnez un modèle de formulaire Liste pour afficher votre table sous forme de liste. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
