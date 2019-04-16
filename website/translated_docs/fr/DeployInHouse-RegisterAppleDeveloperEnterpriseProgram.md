@@ -86,4 +86,4 @@ Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enro
 * Une fois que votre demande de souscription est acceptée, vous pouvez procéder au paiement.
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
-Félicitations  ! Vous êtes maintenant prêt à déployer votre application interne !
+Félicitations  ! Vous êtes maintenant prêts à déployer votre application enb interne !
