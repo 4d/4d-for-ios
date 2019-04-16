@@ -35,13 +35,13 @@ title: Modèles de formulaires Liste
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Actions:</strong> cell left swipe</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Type :</strong> Table</li>
+  <li><strong>Sections :</strong> disponible</li>
+  <li><strong>Actions :</strong> glissement vers la gauche de la cellule</li>
+  <li><strong>Image requise:</strong> non</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">TELECHARGER</a></p>
 
 </div>
   </td>
@@ -56,13 +56,13 @@ title: Modèles de formulaires Liste
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Type :</strong> Table</li>
+  <li><strong>Sections :</strong> disponible</li>
+  <li><strong>Actions :</strong> longue pression sur la cellule</li>
+  <li><strong>Image requise :</strong> oui</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">TELECHARGER</a></p>
 
 </div>
   </td>
@@ -71,13 +71,13 @@ title: Modèles de formulaires Liste
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> Collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Type :</strong> Collection</li>
+  <li><strong>Sections :</strong> non disponible</li>
+  <li><strong>Actions :</strong> longue pression sur la cellule</li>
+  <li><strong>Image requise:</strong> oui</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">TELECHARGER</a></p>
 
 </div>
   </td>
@@ -92,13 +92,13 @@ title: Modèles de formulaires Liste
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Type :</strong> Table</li>
+  <li><strong>Sections :</strong> non disponible</li>
+  <li><strong>Actions :</strong> longue pression sur la cellule</li>
+  <li><strong>Image requise:</strong> non</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformFoldingCellList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformFoldingCellList.zip">TELECHARGER</a></p>
 
 </div>
   </td>
