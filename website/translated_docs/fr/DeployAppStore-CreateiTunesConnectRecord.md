@@ -49,14 +49,14 @@ Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & 
 
 ## ÉTAPE 3. Créez une nouvelle application iOS
 
-Cliquez sur le signe **"+"** dans la partie supérieur gauche pour créer une nouvelle application iOS.
+Cliquez sur le signe **"+"** dans la partie supérieure gauche pour créer une nouvelle application iOS.
 
 ![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
 Ajoutez les informations suivantes :
 
 * **Platforms** : sélectionnez iOS.
-* **Name** : le nom de de votre application.
+* **Name** : le nom de votre application.
 * **Primary language** : la langue principale de votre application.
 * **Bundle ID** : sélectionnez le Bundle ID de votre application à partir de la liste déroulante.
 * **SKU** : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
