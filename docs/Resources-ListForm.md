@@ -18,7 +18,7 @@ title: List Forms Templates
 <col width="50%">
 <col width="50%">
 
-<!--BLOC1-->
+
 
   <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
@@ -37,7 +37,7 @@ title: List Forms Templates
   </td>
   </tr>
 
-<!--BLOC2-->
+
 
   <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
@@ -56,7 +56,7 @@ title: List Forms Templates
   </td>
   </tr>
 
-<!--BLOC3-->
+
 
   <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
@@ -75,7 +75,7 @@ title: List Forms Templates
   </td>
   </tr>
 
-<!--BLOC4-->
+
 
   <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
@@ -94,7 +94,7 @@ title: List Forms Templates
   </td>
   </tr>
 
-<!--BLOC5-->
+
 
   <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">

@@ -3,6 +3,7 @@ id: template
 title: Templates & Formatters
 ---
 
+<div markdown="1">
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
 	<a href="../en/custom-listform-templates.html">
 	<button class="button" style="height: 250px;width: 60%;">
@@ -29,3 +30,4 @@ title: Templates & Formatters
 	</button>
 	</a>
 	</div>
+</div>
