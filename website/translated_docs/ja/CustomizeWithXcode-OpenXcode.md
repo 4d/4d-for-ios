@@ -1,52 +1,52 @@
 ---
 id: open-xcode
-title: Working with Xcode
+title: 作業をXcodeに引き継ぐ
 ---
 <div class = "objectives"> 
 
-**目的**
+**やりたいこと**
 
-* Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app.</div> 
+* 4D for iOSプロジェクトをビルドする
+* ビルドした4D for iOSアプリをカスタマイズする</div> 
 
-4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
+4D for iOSは，ネイティブiOSアプリを開発するためのコードを出力するので，Xcodeで開いてカスタマイズすることができます。 具体的なプロセスは以下に示されています。<div class = "tips"> 
 
-**NOTE**
+**注記**
 
-If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
+プロジェクトをXcodeでカスタマイズした後，プロジェクトエディターから再ビルドした場合，変更内容は失われてしまいます。気をつけて！</div> 
 
-We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
+[ここ](contact-app.html)で作成した顧客管理アプリを使用しましょう。 まず，素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/customize-with-xcode/ContactStarter.zip">スターター プロジェクト</a>
+href="../assets/en/customize-with-xcode/ContactStarter.zip">素材プロジェクト</a>
 
   </p>
 </div>
 
-## ステップ 1 - Generate your iOS Project
+## ⒈ プロジェクトの作成
 
-* If your haven't built your project yet, go to step 2.
-* If you've already built your project, go to step 3.
+* まだプロジェクトをビルドしていないのであれば，⒉に進んでください。
+* すでにプロジェクトをビルドしたのであれば，⒊に進んでください。
 
-## ステップ 2 - Build your Project
+## ⒉ プロジェクトをビルドする
 
-From the Project Editor BUILD tab:
+プロジェクトエディターは「ビルド」タブに切り替えておきます。
 
-* Select the device to use as a Simulator by clicking on the device button.
-* Click the **Build and Run** button.
+* シミュレーターで起動するiOSデバイスのモデルを選びます。
+* **ビルドして実行**ボタンをクリックします。
 
-![Build and Run](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
+![ビルドして実行](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
-## ステップ 3 - Open your Project with Xcode
+## ⒊ プロジェクトをXcodeで開く
 
-From the Project Editor BUILD tab:
+プロジェクトエディターは「ビルド」タブに切り替えておきます。
 
-* Click on Project > Open the project with Xcode
+* プロジェクト ＞ プロジェクトをXcodeで開く…を選択します。
 
-![Open your Project with Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![プロジェクトをXcodeで開く](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-Now you're ready to start working on your 4D for iOS project in Xcode, keep reading to learn how!
+4D for iOSプロジェクトの作業をXcodeで続けるための準備ができました。次の記事では，その方法が説明されます。
