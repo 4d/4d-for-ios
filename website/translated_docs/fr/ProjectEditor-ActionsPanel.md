@@ -6,7 +6,7 @@ Cette section vous permet de définir des noms et des icônes pour chaque action
 
 ## Éditeur de projet
 
-* **Noms :** Ajouter une nouvelle action en cliquant sur le bouton "+".
+* **Noms :** Ajoutez une nouvelle action en cliquant sur le bouton "+".
 * **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
 * **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
 * **Portée :** Choisissez d'appliquer l'action à une **entité** ou à une **table**.
@@ -21,7 +21,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ### Formulaires Liste en tableau
 
-* **Action d'entité pour les cellules :** faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
+* **Action d'entité pour les cellules :** Faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
@@ -31,7 +31,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ### Formulaires Liste en collection
 
-* **Action d'entité pour les cellules :** selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
+* **Action d'entité pour les cellules :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
@@ -47,7 +47,7 @@ De même que pour les actions de table dans les formulaires détailles, un bouto
 
 ## Que faire ensuite ?
 
-* Nous verrons [plus tard](action-custom-template.html#step-4-add-actions-in-detail-forms) comment inclure votre propre**bouton d'actions personnalisé** dans des formulaires détaillés.
+* Nous verrons [plus tard](action-custom-template.html#step-4-add-actions-in-detail-forms) comment inclure votre propre **bouton d'actions personnalisé** dans des formulaires détaillés.
 
 * Un [tutoriel](actions-getting-started.html) est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
