@@ -56,7 +56,7 @@ C'est parti !
 
 ![Select your device](assets/fr/test-build/select-device-Free-Account.png)
 
-* Xcode génère automatiquement les profils et les certificats de provisioning nécessaires dont vous aurez besoin pour créer votre application.
+* Xcode génère automatiquement les profils et les certificats de provisioning nécessaires à la création de votre application.
 
 ### Création du projet avec Xcode
 
@@ -68,7 +68,7 @@ C'est parti !
 
 * **Team ID** : Cliquez sur Developer Account > Membership et obtenez votre Team ID. ![Developer Account membership](assets/en/test-build/Team-ID-4D-for-iOS.png)
 
-* 4D **for iOS** : Lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* **4D for iOS** : Lancez 4D for iOS depuis Sections > Général et entrez votre Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
 * Passez à l’étape 6 pour exécuter votre projet sur votre appareil.
 
