@@ -58,9 +58,9 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## ÉTAPE 6. Finalisez votre inscription
+## ÉTAPE 6. Finalisez votre souscription
 
-* Cliquez sur **Purchase** et procédez au paiement pour finaliser votre inscription.
+* Cliquez sur **Purchase** et procédez au paiement pour finaliser votre souscription.
 
 ![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
