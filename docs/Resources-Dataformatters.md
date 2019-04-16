@@ -19,6 +19,8 @@ title: Data Formatters
 <col width="50%">
 <col width="50%">
 
+<!--BLOC1-->
+ 
   <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
   <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-mail.png" alt="" />
