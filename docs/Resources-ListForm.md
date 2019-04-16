@@ -44,12 +44,12 @@ title: List Forms Templates
   <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-tasks-table.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-tasks-table.gif"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-cards-table.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-cards-table.gif"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
@@ -74,12 +74,12 @@ title: List Forms Templates
   <a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-Map.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-Map.gif"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-FoldingCell.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-FoldingCell.gif"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>

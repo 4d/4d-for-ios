@@ -28,7 +28,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> no</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Smooth-Table-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Smooth-Table-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -52,7 +52,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> yes</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Profile-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Profile-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -76,7 +76,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> no</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Tasks-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Tasks-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> yes</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Simple-Visual-Table-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Simple-Visual-Table-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -124,7 +124,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> yes</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Vertical-Cards-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Vertical-Cards-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -148,7 +148,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> yes</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Mozaic-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Mozaic-List-form.gif"/>
   </td>
   </tr>
 <tr>
@@ -172,7 +172,7 @@ title: List Forms templates
   <li><strong>Image required:</strong> yes</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px" src="../assets/en/templates/Cube-List-form.gif" alt="" />
+  <img style="max-height: 750px" src="../assets/en/templates/Cube-List-form.gif"/>
   </td>
   </tr>
 <tr>

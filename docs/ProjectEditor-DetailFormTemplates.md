@@ -19,16 +19,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Cards</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> no</li>
-  	<li><strong>Graph:</strong> no</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Cards-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Cards</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> no</li>
+	<li><strong>Graph:</strong> no</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Cards-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Simple-Header-Detail-form.gif"/>
@@ -41,16 +41,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Sliding Header</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> no</li>
-  	<li><strong>Graph:</strong> no</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Sliding-Header-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Sliding Header</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> no</li>
+	<li><strong>Graph:</strong> no</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Sliding-Header-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Tasks-Detail-form.gif"/>
@@ -63,16 +63,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Tasks Plus</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> no</li>
-  	<li><strong>Graph:</strong> yes</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Tasks-Plus-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Tasks Plus</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> no</li>
+	<li><strong>Graph:</strong> yes</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Tasks-Plus-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Numbers-Detail-form.gif"/>
@@ -85,16 +85,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Circle</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> no</li>
-  	<li><strong>Graph:</strong> yes</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Circle-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Circle</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> no</li>
+	<li><strong>Graph:</strong> yes</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Circle-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Triple-Circle-Detail-form.gif"/>
@@ -107,16 +107,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Dashboard</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> yes</li>
-  	<li><strong>Graph:</strong> no</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Dashboard-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Dashboard</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> yes</li>
+	<li><strong>Graph:</strong> no</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Dashboard-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Simple-Contact-Detail-form.gif"/>
@@ -129,16 +129,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Visual Contact</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> yes</li>
-  	<li><strong>Graph:</strong> no</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Visual-Contact-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Visual Contact</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> yes</li>
+	<li><strong>Graph:</strong> no</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Visual-Contact-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Left-Cut-Header-Detail-form.gif"/>
@@ -151,16 +151,16 @@ title: Detail Forms templates
 	</td>
 	</tr>
 <tr>
-  	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  	<h1 style="margin-top: 10px; font-size:26px">Parallax</h1>
- 	<ul style="font-size:16px">
-  	<li><strong>Image required:</strong> yes</li>
-  	<li><strong>Graph:</strong> no</li></ul>
-  	</td>
-  	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  	<img style="max-height: 750px" src="../assets/en/templates/Parallax-Detail-form.gif" alt="" />
-  	</td>
-  	</tr>
+	<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+	<h1 style="margin-top: 10px; font-size:26px">Parallax</h1>
+	<ul style="font-size:16px">
+	<li><strong>Image required:</strong> yes</li>
+	<li><strong>Graph:</strong> no</li></ul>
+	</td>
+	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+	<img style="max-height: 750px" src="../assets/en/templates/Parallax-Detail-form.gif"/>
+	</td>
+	</tr>
 <tr>
 	<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
 	<img style="max-height: 750px" src="../assets/en/templates/Right-Cut-Header-Detail-form.gif"/>
