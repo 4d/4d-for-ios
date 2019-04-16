@@ -78,7 +78,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ![App review](assets/en/deploy-app-store/Review-App.png)
 
-* Si votre projet réussit le processus de validation, le message suivant devrait s'afficher :
+* Si le processus de validation est réussi, le message suivant s'affiche :
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
