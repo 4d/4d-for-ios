@@ -26,7 +26,7 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 
 * **Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
 
-* **Invité :** Laissez l'option **Connexion requise** décochée. Aucun écran de connexion ne s’affiche au démarrage de l'application.
+* **Invité :** Laissez l'option **Connexion requise** décochée pour qu'aucun écran de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
@@ -80,7 +80,7 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
-Si vous souhaitez valider manuellement la première connexion pour chaque session utilisateur, vous devez remplacer le statut par défaut « accepté » par « en suspens » en ajoutant ```$response.verify:=True``` dans la méthode base[ *Sur authentification app mobile*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
+Si vous souhaitez valider manuellement la première connexion pour chaque session utilisateur, vous devez remplacer le statut par défaut « accepted » par « pending » en ajoutant ```$response.verify:=True``` dans la méthode base[ *Sur authentification app mobile*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 ### Composant Mobile Session Management
 
@@ -100,12 +100,12 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 * Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D. 
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
-* La fenêtre d'applications apparaitra et affichera toutes vos applications : 
+* La fenêtre d'applications apparaîtra et affichera toutes vos applications : 
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
 * Faites un clic droit sur la session pour afficher le fichier session dans le Finder ou bien supprimez-le.
-* Vous pouvez modifier et définir le statut de la session pour chaque appareil : accepté ou en suspens
+* Vous pouvez modifier et définir le statut de la session pour chaque appareil : "accepted" ou "pending"
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 

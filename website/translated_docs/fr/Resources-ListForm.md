@@ -12,7 +12,7 @@ title: Modèles de formulaires Liste
 
 <div style="height: auto;">
   <table>
-    <col width="50%"> <col width="50%"> <!--BLOC1-->
+    <col width="50%"> <col width="50%"> 
     
     <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
@@ -47,8 +47,6 @@ title: Modèles de formulaires Liste
       </td>
     </tr>
     
-    <!--BLOC2-->
-    
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
@@ -81,8 +79,6 @@ title: Modèles de formulaires Liste
         <img style="max-height: 750px" />
       </td>
     </tr>
-    
-    <!--BLOC3-->
     
     <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
@@ -117,8 +113,6 @@ title: Modèles de formulaires Liste
       </td>
     </tr>
     
-    <!--BLOC4-->
-    
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
@@ -151,8 +145,6 @@ title: Modèles de formulaires Liste
         <img style="max-height: 750px" />
       </td>
     </tr>
-    
-    <!--BLOC5-->
     
     <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">

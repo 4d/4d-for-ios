@@ -42,7 +42,7 @@ Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table,
 
 Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
-* Tout d’abord, effectuez votre recherche dans le champ consacré en la tapant directement dans le champ de recherche". Vous pouvez également affiner votre recherche à l'aide des onglets Champs, Comparateurs et Opérateurs, situés juste au-dessus du filtre de recherche (qui apparaissent à la suite d'un clic dans le champ Filtre de recherche). 
+* Tout d’abord, effectuez votre recherche dans le champ consacré en la saisissant directement dans le champ de recherche". Vous pouvez également affiner votre recherche à l'aide des onglets Champs, Comparateurs et Opérateurs, situés juste au-dessus du filtre de recherche (qui apparaissent à la suite d'un clic dans le champ Filtre de recherche). 
 
 * Vous devez ensuite valider votre recherche. La validation doit être effectuée chaque fois que vous modifiez le filtre de recherche (une recherche modifiée et non validée apparaîtra en rouge dans l’éditeur de projet).
 
@@ -66,7 +66,7 @@ Vous pouvez créer des filtres en fonction des informations utilisateur définie
 
 * Pour préciser que la recherche est basée sur les informations utilisateur, ajoutez simplement ":" et la clé objet `userinfo`.
 
-* Validez ensuite votre recherche. La validation doit être effectué chaque fois que vous modifiez le filtre de recherche.
+* Validez ensuite votre recherche. La validation doit être effectuée chaque fois que vous modifiez le filtre de recherche.
 
 * Une fois que votre filtre de recherche est validé, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 

@@ -34,6 +34,8 @@ Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la c
 
 * Général
 * Structure
+* Données
+* Actions
 * Libellés et icônes
 * Menu
 * Formulaires

@@ -34,6 +34,8 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 * General
 * Structure
+* Data
+* Actions
 * Labels & Icons
 * Main Menu
 * Forms
