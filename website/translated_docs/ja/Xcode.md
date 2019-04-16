@@ -2,28 +2,28 @@
 id: xcode
 title: Xcode
 ---
-## What is Xcode?
+## Xcodeとは？
 
-Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.
+Xcodeは，macOS上で動く統合開発環境および付随する開発者ツールで構成されており，iPad，iPod，iPhone，Mac用のアプリを作成することができます。
 
-## Download
+## ダウンロード
 
-To download the lastest version of Xcode go to the App Store.
+最新版のXcodeは，App Storeからダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
-<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Mac App Storeで開く </a>
 
   </p>
 </div>
 
-Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
+デベロッパー登録をすれば，Apple DeveloperのサイトからXcodeのプレビュー版や以前のリリースをダウンロードすることができます。
 
 🔗 https://developer.apple.com/download/more/ 🔗 https://developer.apple.com/xcode/
 
-## Version comparison table
+## バージョン対応表
 
 | Xcode | Swift | iOS      | 4D   |
 | ----- | ----- | -------- | ---- |
@@ -31,22 +31,22 @@ Registered developers can download preview releases and prior versions of the su
 | 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
 
-### Compatibility
+### バージョン間の互換性
 
-Frameworks compiled with one version of Xcode could not be used with another version.
+Xcodeでコンパイルされたフレームワークを別バージョンのXcodeで開くことはできません。
 
-Rest assured, the next release of swift, swift 5, have for primary focus the ABI stability.
+良いニュースです。Swift 5のリリースでは，ABI安定化に重点が置かれることになりました。
 
 https://swift.org/abi-stability/
 
-This will enables the distribution of frameworks in a binary format.
+ABI安定化により，バイナリ形式でフレームワークを配付するための道が開かれます。
 
 <div class="tips">
   <p>
-    ABI: Application Binary Interface, a contract between pieces of binary code defined by the compiler.
+    ABI: Application Binary Interfaceの略で，コンパイラーによって定義された，バイナリコード間の約束事のこと。
   </p>
   
   <p>
-    🔗 https://en.wikipedia.org/wiki/Application_binary_interface
+    🔗 https://ja.wikipedia.org/wiki/Application_Binary_Interface
   </p>
 </div>
