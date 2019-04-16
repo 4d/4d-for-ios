@@ -52,7 +52,7 @@ Voici un exemple simple :
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
-* Tapez le nom du profil développeur pour que ce dernier soit reconnu comme fiable.
+* Saisissez le nom du profil développeur pour que ce dernier soit reconnu comme fiable.
 
 ![Trust-confirmation](assets/en/deploy-in-house/Trust-confirmation.png)
 
