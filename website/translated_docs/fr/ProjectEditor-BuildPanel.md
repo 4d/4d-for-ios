@@ -18,4 +18,4 @@ Sélectionnez un simulateur dans lequel vous générerez et testerez votre appli
 
 ![BuildTab](assets/fr/project-editor/Build-Tab-4D-for-iOS.png)
 
-Vous êtes maintenant prêt à explorer 4D for iOS par vous-même et à créer votre propre projet iOS !
+Vous êtes maintenant prêts à explorer 4D for iOS par vous-même et à créer votre propre projet iOS !
