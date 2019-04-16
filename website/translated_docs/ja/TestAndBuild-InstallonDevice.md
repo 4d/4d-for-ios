@@ -1,107 +1,107 @@
 ---
 id: install-device
-title: Installing on your iOS device
+title: iOSデバイスにインストールする
 ---
 <div class = "objectives"> 
 
-**目的**
+**やりたいこと**
 
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
+Macにケーブルで接続されたデバイスに4D for iOSアプリをインストールする</div> <div class = "prerequisites"> 
 
-**必要条件**
+**用意するもの**
 
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
+* Apple Developer Programの有効なメンバーシップ
+* アプリのインストールを自動化するための[Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344)がMacにインストールされていること（必須ではありません）</div> <div class = "tips"> 
 
-**NOTE**
+**注記**
 
-Apple configurator 2 requires **macOS 10.14** or later.</div> 
+Apple configurator 2の動作要件は**macOS 10.14**以降です。</div> 
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+Apple Developer Programのメンバーシップは，好みと必要に応じ，下記のどれかを選びます。
 
-* [Free Apple Developer Program](free-developer-account.html): For testing only
-* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
+* [無料のApple Developer Program](free-developer-account.html): 配付せずにテストだけできれば良い場合
+* [組織](register-apple-developer-program-organization.html)または[個人向けのApple Developer Program](register-apple-developer-program-individual.html): App Store経由で配付したい場合
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): インハウスで，つまりApp Storeを経由せずに配付したい場合
 
-Let's go through the process...
+おおまかな流れは以下の通りです。
 
-## ステップ 1 - Account creation
+## ⒈ アカウントを作成する
 
-* **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
+* **Apple ID**: Apple IDを作成します。 まだアカウントを持っていない場合，[ここ](https://appleid.apple.com/account#!&page=create)をクリックしてください。
 
-* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
+* **デベロッパーアカウント**: App Store経由の配付が目的であれば，Apple Developer Program（ 組織または個人向け），インハウス配付が目的であれば，Apple Developer Enterprise Programにサインアップします。
 
-## ステップ 2 - Xcode configuration
+## ⒉ Xcodeの設定
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
+* **デベロッパーアカウント**: Xcodeを起動し，アプリケーションメニュー ＞ Preferences ＞ Accountsを選択してApple IDを入力します。 ![デベロッパーアカウント](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
-## ステップ 3 - Get your Team ID
+## ⒊ Team IDを取得する
 
-* If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
-* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
+* [無料のApple Developer Program](free-developer-account.html)を使用しているのであれば [⒋](#step-4-team-id-for-free-account)に進みます。
+* [組織](register-apple-developer-program-organization.html)または[個人向けのApple Developer Program](register-apple-developer-program-individual.html)または[Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) のアカウントを使用しているのであれば[⒌](#step-5-team-id-for-paid-subscription-account)に進みます。
 
-## ステップ 4 - Team ID for Free account
+## ⒋ 無料アカウントのTeam ID
 
-### Let Xcode generate your provisioning profile and certificate
+### Provisioning Profileおよび証明書は，Xcodeが自動的に生成します。
 
-* Open your current project from the BUILD tab.
+* プロジェクトエディターの画面を「ビルド」タブに切り替えて，「プロジェクトをXcodeで開く…」メニューを選択します。
 
-![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
+![「ビルド」タブ](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
-* Verify that the **Automatically manage signing** option is checked and select the account you added [here](free-developer-account.html) from the Team dropdown list.
+* **Automatically manage signing**オプションがチェックされていることを確認してください。Teamドロップダウンリストをクリックし，[ここ](free-developer-account.html)で追加したアカウントを選択します。
 
-![Account-Selection](assets/en/test-build/account-Selection-Free-Account.png)
+![アカウントの選択](assets/en/test-build/account-Selection-Free-Account.png)
 
-* Connect your device to your computer and select it from the top menu in Xcode.
+* iOSデバイスをUSBケーブルでコンピューターに接続し，XcodeのメニューバーにあるSchemeのメニュー（図を参照）をクリックして，接続中のデバイスを選択します。
 
-![Select your device](assets/en/test-build/select-device-Free-Account.png)
+![デバイスの選択](assets/en/test-build/select-device-Free-Account.png)
 
-* Xcode automatically generates the necessary provisioning profiles and certificates you'll need to build your app.
+* Xcodeは，アプリをビルドするために必要なProvisioning Profileと証明書を自動的に生成します。
 
-### Build your project from Xcode using your Free Account
+### 無料のアカウントを使用してXcodeでプロジェクトをビルドする
 
-* Press the Build and run Button from Xcode !
+* あとは，Xcodeの実行ボタン（図を参照）をクリックするだけです！
 
-![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
+![ビルドして実行](assets/en/test-build/Build-Run-Free-Account.png)
 
-## STEP 5. Team ID for paid subscription account
+## ⒌ 有償アカウントのTeam ID
 
-* **Team ID**: Go to Developer Account > Membership and get your Team ID. ![Developer Account membership](assets/en/test-build/Team-ID-4D-for-iOS.png)
+* **Team ID**: Apple Developerにログインします。MembershipページにTeam IDが表示されているはずです。 ![デベロッパーアカウントのメンバーシップ](assets/en/test-build/Team-ID-4D-for-iOS.png)
 
-* **4D for iOS**: Launch 4D for iOS in Sections > General and enter your Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* **4D for iOS**: プロジェクトエディターの画面を「セクション」タブに切り替えて，「一般」ページの「部署名」にTeam IDを入力します。 ![General画面](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
-* Go to STEP 6 to run your project on your device.
+* ⒍に進んでプロジェクトのアプリをデバイスにインストールします。
 
-## STEP 6. Installation
+## ⒍ インストール
 
-### Install automatically with Apple Configurator 2
+### Apple Configurator 2で自動的にインストールする
 
-* When your app is ready, open the BUILD tab.
-* Connect your device to your computer with a USB cable.
-* From the BUILD tab, click on **Install**.
+* アプリが出来がったら，プロジェクトエディターの画面を「ビルド」タブに切り替えます。
+* iOSデバイスをUSBケーブルでコンピューターに接続します。
+* 「ビルド」タブの**インストール**ボタンをクリックします。
 
-![Install button](assets/en/test-build/Install-button-build-tab-4D-for-iOS.png)
+![Installボタン](assets/en/test-build/Install-button-build-tab-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* デバイス上にアプリのインストールが開始するはずです！
 
-### Install manually using Xcode
+### Xcodeでインストールする
 
-* When your app is ready, open the BUILD tab.
-* Connect your device to your computer with a USB cable.
-* From the BUILD tab, click on **Install**.
+* アプリが出来がったら，プロジェクトエディターの画面を「ビルド」タブに切り替えます。
+* iOSデバイスをUSBケーブルでコンピューターに接続します。
+* 「ビルド」タブの**インストール**ボタンをクリックします。
 
-![Manual installation](assets/en/test-build/Manual-installation-4D-for-iOS.png)
+![マニュアル操作でインストール](assets/en/test-build/Manual-installation-4D-for-iOS.png)
 
-* An archive of your project is created
+* プロジェクトのアーカイブが作成されます。
 
-![Archive creation](assets/en/test-build/Archive-creation.png)
+![アーカイブの作成](assets/en/test-build/Archive-creation.png)
 
-* Reveal the generated archive in Finder
+* アーカイブの作成に成功してダイアログが表示されたら「OK」をクリックし，アーカイブの場所をFinderで開きます。
 
-![Reveal archive in Finder](assets/en/test-build/Reveal-archive-in-Finder.png)
+![アーカイブをFinderに表示](assets/en/test-build/Reveal-archive-in-Finder.png)
 
-* Open Xcode and go to Menu > Window > Devices and Simulator and drag and drop the generated ipa file in the Installed Apps section.
+* Xcodeを起動し，アプリケーションメニュー ＞ Window ＞ Devices and Simulatorを選択して，生成されたipaファイルをInstalled Appsセクションにドラッグ＆ドロップします。
 
 ![Devices and Simulators](assets/en/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
-* The app is being installed on your device!
+* デバイス上にアプリのインストールが開始するはずです！
