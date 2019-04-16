@@ -13,14 +13,12 @@ title: List Forms Templates
 
 </div>
 
-<div markdown="1" style="height: auto;">
+
 <table>
 <col width="50%">
 <col width="50%">
 
-
-
-  <tr>
+<tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
   <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-tasks-collection.gif"/>
   </td>
@@ -39,7 +37,7 @@ title: List Forms Templates
 
 
 
-  <tr>
+<tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
   <ul style="font-size:16px">
@@ -58,7 +56,7 @@ title: List Forms Templates
 
 
 
-  <tr>
+<tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
   <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-cards-table.gif" alt="" />
   </td>
@@ -77,7 +75,7 @@ title: List Forms Templates
 
 
 
-  <tr>
+<tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
   <ul style="font-size:16px">
@@ -96,7 +94,7 @@ title: List Forms Templates
 
 
 
-  <tr>
+<tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
   <img style="max-height: 750px"src="../assets/en/template-formatters/Listform-FoldingCell.gif" alt="" />
   </td>
@@ -114,6 +112,3 @@ title: List Forms Templates
   </tr>
 
 </table>
-</div>
-
-
