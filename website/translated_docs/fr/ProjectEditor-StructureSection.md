@@ -52,4 +52,4 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 **NOTE**
 
-Dès que l'administrateur effectue une importante opération de maintenance, il devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
+Dès que l'administrateur effectue une importante opération de maintenance, il devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Réparation par marqueur / Restitution / Compactage</div>
