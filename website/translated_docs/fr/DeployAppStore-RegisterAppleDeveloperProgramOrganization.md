@@ -92,4 +92,4 @@ Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enro
 
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
-Félicitations ! Vous êtes maintenant prêt à publier des applications sur l’App Store !
+Félicitations ! Vous êtes maintenant prêts à publier des applications sur l’App Store !
