@@ -25,7 +25,7 @@ title: Modèles des formulaires détaillés
   <li><strong>Image requise:</strong> non</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">TELECHARGER</a></p>
 
 </div>
   </td>
