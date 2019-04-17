@@ -1,44 +1,44 @@
 ---
 id: svg-file-listform-template
-title: Template.svg
+title: template.svg
 ---
-The template.svg file is a basic visual representation of a template. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
+template.svgは，テンプレートのレイアウトを視覚的に表現するためのファイルです。 プロジェクターエディターでリストフォームのテンプレートにフィールドが追加できるように，ドラッグ＆ドロップ用のエリアを定義しておきます。
 
-Here's a finished version:
+図は完成したファイルのイメージです。
 
-![Template svg file](assets/en/custom-listform/template-svg-file.png)
+![テンプレートSVGファイル](assets/en/custom-listform/template-svg-file.png)
 
-Open the template.svg file with your favorite code editor.
+使い慣れたコードエディターでtemplate.svgファイルを開きます。
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+各部分の役割とカスタマイズできる箇所に注目しましょう。
 
-## Title
+## タイトル要素（title）
 
     <title>Custom List form</title>
     
 
-Add the title for your template here.
+テンプレートの名称です。
 
-## ios:values
+## フィールド属性（ios:values）
 
     <text id="cookery" ios:values="search,section,f1,f2,f3"/>
     
 
-Inclues IDs which define your form areas:
+リストフォームに配置されたフィールドを特定するための情報が記述されています。
 
-* **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
-* **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
-* **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+* **search**: 検索フィールドのことです。 このエリアにドラッグ＆ドロップしたフィールドは，リストに表示されるレコードの検索に使用されます（任意）。
+* **section**: セクションと呼ばれるフィールドのことです。 このエリアにドラッグ＆ドロップしたフィールドは，リストに表示されるレコードの並び替えに使用されます（任意）。
+* **f1, f2, f3**: リストフォームの各行（セル）に表示されるフィールドのリストです。 セルに表示されるフィールドは，ドラッグ＆ドロップで追加することができます。
 
-## Area position, height, width and type
+## エリアの位置とサイズ（position, height, width, type）
 
-You can define the position, height and width for:
+位置と高さを指定できるのは下記のエリアです。
 
-* Searchfield
-* Sectionfield
-* Other general fields that will be displayed in each table cell
+* 検索フィールド
+* セクションフィールド
+* 各行（セル）に表示されるフィールド
 
-### SearchableField area:
+### 検索フィールド
 
     //1
     <g transform="translate(0,60)”>
@@ -60,30 +60,30 @@ You can define the position, height and width for:
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Icon to display a magnifying glass icon into the searchable field
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width, as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. 検索エリアに表示されるルーペアイコンです。（path要素）
+4. 入力エリアの位置とサイズです。（textArea要素） 
+5. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
+6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-The searchable field is optional.<div class = "tips"> 
+検索フィールドを使用することは必須ではありません。<div class = "tips"> 
 
-**NOTE**
+**注記**
 
-All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
+フィールドや変数のタイプについては[ドキュメント](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.ja.html)をご覧ください。</div> 
 
-<
 
-div markdown="1" class = "tips">
 
-**TIP**
+<div markdown="1" class = "tips">
 
-To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+**ヒント**
 
-To include all types, just type ios:type="all". </div>
+フィールドタイプは，カンマ区切りの整数で指定します。ドロップできるフィールドタイプは**正の値**で指定し，できないフィールドは**負の値**で指定します。 たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
 
-### SectionField area:
+すべてのタイプをサポートする場合，ios:type="all"と指定します。 </div>
+
+### セクションフィールド
 
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
@@ -98,14 +98,14 @@ To include all types, just type ios:type="all". </div>
     <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
     
 
-1. Area background position, height and width
-2. Define the text area position and width 
-3. Define the droppable field position, height and width as well as accepted **field types**
-4. Define a cancel button that will be displayed to delete the current content
+1. エリア背景の位置とサイズです。（rect要素）
+2. 入力エリアの位置とサイズです。（textArea要素） 
+3. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
+4. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-The section field is optional.
+セクションフィールドを使用することは必須ではありません。
 
-### ImageField area:
+### ピクチャフィールド
 
     //1
     <g transform="translate(0,162)">
@@ -127,14 +127,14 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width 
-5. Define the droppable field position, height and width as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. ピクチャエリアに表示されるアイコン画像です。（path要素）
+4. 入力エリアの位置とサイズです。（textArea要素） 
+5. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
+6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-### Title Field area:
+### タイトルフィールド
 
     //1
     <g transform="translate(0,162)”>
@@ -153,13 +153,13 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width 
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. 入力エリアの位置とサイズです。（textArea要素） 
+4. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
+5. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-### Subtitle Field area:
+### サブタイトルフィールド
 
     //1
     <g transform="translate(0,198)”>
@@ -178,10 +178,10 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width 
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. 入力エリアの位置とサイズです。（textArea要素） 
+4. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
+5. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+manifest.jsonにはテンプレートの**アイコン**と**基本設計書**，template.svgには**エディターのための情報**を記述しました。 このままXcodeで作業を進めましょう！
