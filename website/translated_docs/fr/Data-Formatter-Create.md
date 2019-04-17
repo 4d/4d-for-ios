@@ -31,7 +31,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROJET ST
   </p>
 </div>
 
-Vous êtes maintenant prêt à créer vos premiers formats !
+Vous êtes maintenant prêts à créer vos premiers formats !
 
 ## Créez le dossier Formats
 
