@@ -24,7 +24,7 @@ storyboardファイル（拡張子は非表示かもしれません）をXcode�
 
 ## Image Viewを追加する
 
-**オブジェクトライブラリ**から**Image View**を探し，セルにドラッグ＆ドロップします。 オブジェクトライブラリは，ツールバー上部にある丸の中に四角が収まったアイコンをクリックすると表示されます。
+エディターを右のスクロールして第２画面（シーン）に移動し，**オブジェクトライブラリ**から**Image View**を探してセルにドラッグ＆ドロップします。 オブジェクトライブラリは，ツールバー上部にある丸の中に四角が収まったアイコンをクリックすると表示されます。ツールバーが表示されていない場合，command+option+Tで表示を切り替えてください。command+shift+Lで直接ライブラリを表示することもできます。
 
 ![Image Viewをストーリーボードに追加](assets/en/custom-listform/add-imageview-storyboard.png)
 
@@ -32,7 +32,7 @@ storyboardファイル（拡張子は非表示かもしれません）をXcode�
 
 ![Image Viewの位置とサイズ](assets/en/custom-listform/imageview-position-height-width.png)
 
-**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックして，左側の余白（Leading）を8に設定します。 WidthおよびHeightのチェックボックスをクリックし，幅と高さに固定値の制約を追加します。
+**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックします。左側の余白（Leading）は8と表示されているので，ボタン（赤い線）をクリックして余白を有効にします。 WidthおよびHeightのチェックボックスをクリックし，幅と高さに固定値の制約を追加します。
 
 ![Image View前の余白](assets/en/custom-listform/imageview-leading-space-width-height.png)
 
@@ -40,15 +40,15 @@ storyboardファイル（拡張子は非表示かもしれません）をXcode�
 
 ![Image View垂直揃え](assets/en/custom-listform/imageview-align-vertically.png)
 
-Image Viewのレイアウトがカスタマイズできました！
+Image Viewのレイアウトがバッチリ決まりました！
 
 ![Image View（完成）](assets/en/custom-listform/imageview-final.png)
 
-セル内に表示されるラベルに目を移しましょう。
+セル内に表示されるラベルのほうに目を向けましょう。
 
 ## タイトルおよびサブタイトルのラベル
 
-まず**View**を追加しましょう。 **Object library**からViewを探し，セルにドラッグ＆ドロップします。
+まず**View**を追加しましょう。 **Object library**からView（View Controllerではありません）を探し，セルにドラッグ＆ドロップします。
 
 ![Viewをストーリーボードに追加](assets/en/custom-listform/add-view-storyboard.png)
 
@@ -56,7 +56,7 @@ Image Viewのレイアウトがカスタマイズできました！
 
 ![Viewの位置とサイズ](assets/en/custom-listform/view-position-height-width.png)
 
-**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックして，左側の余白（Leading）を11に，右側の余白（Trailing）を11に，上側の余白（Top）を11に，下側の余白（Bottom）を10.67に設定します。図に示されているような位置に表示されるはずです。
+**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックして余白を設定します。左側の余白（Leading）は11，右側の余白（Trailing）は11，上側の余白（Top）は10，下側の余白（Bottom）は11.67と表示されているので，それぞれのボタン（赤い線）をクリックして余白を有効にします。
 
 ![View位置の制約](assets/en/custom-listform/view-constraints-storyboard.png)
 
@@ -70,7 +70,7 @@ Viewの上にObject LibraryからLabelをドラッグ＆ドロップします。
 
 ![ラベルのコピー](assets/en/custom-listform/duplicated-label-storyboard.png)
 
-両方のラベルを選択し，**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックして，左側の余白（Leading）を8に，右側の余白（Trailing）を0に，上側の余白（Top）を8に設定します。下側の余白（Bottom）はMultipleのままにしておきます。
+両方のラベルを選択し，**Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックします。左側の余白（Leading）は8，右側の余白（Trailing）は0，上側の余白（Top）は8，下側の余白（Bottom）はMultipleと表示されているので，それぞれ有効にします。Heightのチェックボックスをクリックし，高さ固定の制約を追加します。
 
 ![ラベル位置の制約](assets/en/custom-listform/labels-contraints-storyboard.png)
 
@@ -86,7 +86,7 @@ RelationをEqualから**Greater Than or Equal**に変更します。垂直方向
 
 ## ラベルのカスタマイズ
 
-ラベルのフォントカラーは，属性インスペクター（ウィンドウ右側のパネル）でカスタマイズすることができます。 低い位置のラベルを**Dark Gray Color**に設定しましょう。
+ラベルのフォントカラーは， Attribute inspector（ウィンドウ右側パネルのルーラーアイコンをクリック）でカスタマイズすることができます。 低い位置のラベルを**Dark Gray Color**に設定しましょう。
 
 ![ラベルカラーのカスタマイズ](assets/en/custom-listform/label-color-dark-grey.png)
 
@@ -118,7 +118,7 @@ Image Viewを選択し，**Identity inspector**（ウィンドウ右側パネル
 
 * **Key Path: **BindToから始まるコードでコンポーネントの結合を有効にします。 下記のように入力します。 ```bindTo.record.___FIELD_1___```
 
-* **Type**: 常に ```String```
+* **Type**: 常に文字列です。 ```String```
 
 * **Value**属性名です。 下記のように入力します。 ```___FIELD_1_BINDING_TYPE___```
 
