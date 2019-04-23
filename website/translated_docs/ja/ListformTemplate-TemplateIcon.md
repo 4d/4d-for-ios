@@ -1,22 +1,22 @@
 ---
 id: icon-listform-template
-title: List form icon
+title: リストフォームのアイコン
 ---
-You can create your own icon for a list form template.
+リストフォームのアイコンは自作することができます。
 
-It must be 160px x 160px and must be named **layoutIconx2.png**.
+画像サイズは160px x 160px，ファイル名は**layoutIconx2.png**と決められています。
 
-The icon will be used:
+カスタムテンプレートアイコンは下記の場面で使用されます。
 
-* above the table name when the template has been selected, and
-* in the template selector window in the **Forms section**
+* テーブル名の上部に表示される選択テンプレートのアイコン
+* **フォームセクション**のテンプレート選択画面
 
-![Custom listform template](assets/en/custom-listform/custom-listform-template.png)
+![リストフォームのカスタムテンプレート](assets/en/custom-listform/custom-listform-template.png)
 
-If this icon is missing from your list form template folder, the **template.svg** file (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon.
+リストフォームテンプレートのフォルダーにアイコンファイルが含まれていない場合，テンプレート選択画面には**template.svg**ファイル（後述）がそのまま表示され，テーブル名の上部に表示される選択テンプレートのアイコンは未設定（はてなマーク）になります。
 
-![Missing listform icon custom template](assets/en/custom-listform/missing-listform-icon-custom-template.png)
+![リストフォームのカスタムテンプレートアイコンが設定されていない](assets/en/custom-listform/missing-listform-icon-custom-template.png)
 
-We've used Photoshop to create the list form template icon in our example, but you can use any image software.
+ここではPhotoshopでリストフォームのカスタムテンプレートアイコンを作成しました。もちろん，別の画像ソフトでも構いません。
 
-![Custom listform template icon](assets/en/custom-listform/custom-list-form-icon.png)
+![リストフォームのカスタムテンプレートアイコン](assets/en/custom-listform/custom-list-form-icon.png)

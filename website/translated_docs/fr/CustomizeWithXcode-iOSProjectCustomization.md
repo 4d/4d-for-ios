@@ -82,7 +82,7 @@ Félicitations ! Votre photo de profil est maintenant bien placée et respecte 
 
 Nous allons commencer par modifier la position et la largeur :
 
-* Sélectionnez le premier libellé First Name à partir de l'Interface Buider
+* Sélectionnez le premier libellé First Name à partir de l'Interface Builder.
 * Remplacez ensuite la valeur 386 pixels de la largeur par 267 pixels.
 * Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
 
@@ -96,7 +96,7 @@ Modifiez les contraintes restantes :
 
 ![First Name Label top constraint](assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
-#### Pour finir, étudions le libellé Last Name.
+#### Pour finir, concentrons-nous sur le libellé Last Name.
 
 Modifiez l'emplacement et la largeur :
 

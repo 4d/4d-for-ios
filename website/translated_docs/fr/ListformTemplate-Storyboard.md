@@ -128,21 +128,21 @@ Sélectionnez votre "Image View", cliquez sur **Identity inspector** et allez da
 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD_2___```
+* **Key Path** : ```bindTo.record.___FIELD_2___```
 
-* **Type **: ```String```
+* **Type** : ```String```
 
-* **Value **: ```___FIELD_2_BINDING_TYPE___```
+* **Value** : ```___FIELD_2_BINDING_TYPE___```
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
 Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path **: ```bindTo.record.___FIELD_3___```
+* **Key Path** : ```bindTo.record.___FIELD_3___```
 
-* **Type **: ```String```
+* **Type** : ```String```
 
-* **Value **: ```___FIELD_3_BINDING_TYPE___```
+* **Value** : ```___FIELD_3_BINDING_TYPE___```
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 

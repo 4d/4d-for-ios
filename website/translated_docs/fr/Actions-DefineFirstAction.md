@@ -8,7 +8,7 @@ Nous souhaitons essentiellement changer le **statut** et le **pourcentage d'ach�
 
 Plus globalement, nous souhaitons **modifier le statut de toutes les tâches** et le définir, par exemple, sur "reporté" et "en cours".
 
-Téléchargez le **Starter projet** et reportez-vous directement à la **section Actions**.
+Téléchargez le **projet Starter** et reportez-vous directement à la **section Actions**.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -20,18 +20,18 @@ href="../assets/en/actions/TasksActionStarter.zip">PROJET STARTER</a>
   </p>
 </div>
 
-Comme nous l'avons vu dans la [documentation de la section Action](actions.html#ios-app-side), vous pouvez définir l’action pour deux niveaux :
+Comme nous l'avons vu dans la [documentation de la section Actions](actions.html#ios-app-side), vous pouvez définir l’action suir deux niveaux :
 
 * Actions d'entité
 * Actions de table
 
-Concentrons-nous d’abord sur les actions de l’entité !
+Concentrons-nous d’abord sur les actions d'entité !
 
 ## Actions d’entité
 
-### ÉTAPE 1. Action d'entité dans la section Action
+### ÉTAPE 1. Actions d'entité dans la section Actions
 
-Dans cette section des Actions, vous pourrez définir le **nom**, les **icônes** et les **libellés** de vos actions, mais aussi les **tables** dans lesquelles vous souhaitez rendre l’action disponible ainsi que la **portée** à laquelle vous souhaitez appliquer les actions.
+Dans cette section des Actions, vous pourrez définir le **nom**, les **icônes** et les **libellés** de vos actions, mais aussi les **tables** dans lesquelles vous souhaitez rendre l’action disponible ainsi que la **portée** des actions.
 
 La section Actions est assez vide lorsque vous l’ouvrez pour la première fois. Cliquez sur le **bouton "+"** en bas à gauche pour ajouter votre première action !
 
@@ -89,7 +89,7 @@ Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau d
 
 ### ÉTAPE 3. Créer une méthode "modifyStatus"
 
-Une fois votre méthode base modifiée, vous devez créer une méthode **modifyStatus** qui réalisera la tâche :
+Une fois votre méthode base modifiée, vous devez créer une méthode **modifyStatus** qui permettra de réaliser la tâche demandée :
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
@@ -134,13 +134,13 @@ Une fois votre méthode base modifiée, vous devez créer une méthode **modifyS
     
     
 
-Générez et exécutez votre application... et voilà ! Votre **action Done** est disponible lorsque vous coulissez une cellule vers la gauche dans le formulaire Liste, et lorsque vous cliquez sur le **bouton générique Actions** dans la barre de navigation du formulaire détaillé.
+Générez et exécutez votre application... et voilà ! Votre **action Done** est disponible lorsque vous faites coulisser une cellule vers la gauche dans le formulaire Liste, et lorsque vous cliquez sur le **bouton générique Actions** dans la barre de navigation du formulaire détaillé.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
 ## Actions de table
 
-### ÉTAPE 1. Action de table dans la section Actions
+### ÉTAPE 1. Actions de table dans la section Actions
 
 Imaginez maintenant que vous partez en vacances et que vous souhaitez **modifier le statut de vos tâches** et le définir sur "Reporté".
 
@@ -233,7 +233,7 @@ Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes éta
     
     
 
-Générez et exécutez votre projet! Vous trouverez un nouveau **bouton générique** dans la barre de navigation de votre formulaire Liste. Cliquez dessus pour déclencher l'action **Postpone All**.
+Générez et exécutez votre projet ! Vous trouverez un nouveau **bouton générique** dans la barre de navigation de votre formulaire Liste. Cliquez dessus pour déclencher l'action **Postpone All**.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
