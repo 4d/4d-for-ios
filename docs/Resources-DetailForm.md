@@ -20,7 +20,7 @@ title: Detail Form Templates
 <col width="50%">
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 750px"src="../assets/en/template-formatters/Detailform-tasks.gif"/>
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Detailform-tasks.gif"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Tasks Detail</h1>
@@ -43,7 +43,7 @@ title: Detail Form Templates
   <a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px"src="../assets/en/template-formatters/Detailform-ParallaxDetail.gif"/>
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Detailform-ParallaxDetail.gif"/>
   </td>
   </tr>
 </table>
