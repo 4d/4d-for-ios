@@ -5,9 +5,6 @@
     "previous": "Previous",
     "tagline": "Easily create and deploy custom native iOS apps",
     "docs": {
-      "list-form-templates": {
-        "title": "List Forms templates"
-      },
       "define-first-action": {
         "title": "Defining your first action"
       },
@@ -149,6 +146,9 @@
       },
       "labels-and-icons": {
         "title": "Labels & Icons"
+      },
+      "list-form-templates": {
+        "title": "List Forms templates"
       },
       "main-menu": {
         "title": "Main Menu"
