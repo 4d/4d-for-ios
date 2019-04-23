@@ -2,6 +2,7 @@
 id: define-first-action
 title: Définir une première action
 ---
+
 Dans ce tutoriel, nous allons travailler sur une **application Tasks iOS** et voir comment gérer des actions dans cette application.
 
 Nous souhaitons essentiellement changer le **statut** et le **pourcentage d'achèvement** d'une tâche.
