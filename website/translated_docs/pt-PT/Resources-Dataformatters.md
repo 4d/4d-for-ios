@@ -2,6 +2,8 @@
 id: custom-data-formatters
 title: Data Formatters
 ---
+
+
 <div class = "tips"> 
 
 **BEFORE STARTING**
@@ -15,7 +17,7 @@ title: Data Formatters
     <col width="50%"> <col width="50%">
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-mail.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
@@ -45,12 +47,12 @@ title: Data Formatters
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-link.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-phone.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
@@ -79,12 +81,12 @@ title: Data Formatters
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-adress.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
@@ -111,12 +113,12 @@ title: Data Formatters
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-String.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
@@ -143,12 +145,12 @@ title: Data Formatters
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-string.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
@@ -175,7 +177,7 @@ title: Data Formatters
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
   </td>
   </tr>
   </table>
