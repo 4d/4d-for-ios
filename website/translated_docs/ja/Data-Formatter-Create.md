@@ -2,6 +2,7 @@
 id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
+
 <div class = "objectives"> 
 
 **目的**
