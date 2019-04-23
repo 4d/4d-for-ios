@@ -2,6 +2,7 @@
 id: creating-detailform-templates
 title: Detail form templates
 ---
+
 <div class = "objectives"> 
 
 **Zielsetzung**
