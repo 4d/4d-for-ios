@@ -2,6 +2,7 @@
 id: labels-and-icons
 title: Libellés et icônes
 ---
+
 C'est dans cette sous-section que vous définirez les libellés longs et courts ainsi que les icônes de vos champs et tables.
 
 * **Libellés longs et courts :** L'utilisation des libellés longs et courts dépend de l'espace disponible dans le modèle (pour optimiser l'espace et éviter de surcharger la barre d'onglets).
