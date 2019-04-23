@@ -2,6 +2,7 @@
 id: actions-getting-started
 title: Getting started
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIVES**
