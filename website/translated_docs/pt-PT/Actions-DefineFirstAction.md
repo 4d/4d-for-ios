@@ -2,6 +2,7 @@
 id: define-first-action
 title: Defining your first action
 ---
+
 In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
 
 Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually.
