@@ -3,6 +3,7 @@ id: svg-file-detailform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
+
 The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
 
 Here's a finished version:
