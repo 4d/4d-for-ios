@@ -2,6 +2,7 @@
 id: data-formatter-mobile-project
 title: Ouvrir un projet mobile
 ---
+
 Dans Sections, cliquez sur Libellés et icônes. Vous verrez qu’une nouvelle colonne Formats est disponible dans les Propriétés des champs :
 
 ![Data formatter labels icons](assets/en/data-formatter/data-formatter-labels-icons.png)
