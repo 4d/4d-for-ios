@@ -2,6 +2,7 @@
 id: user-information-query
 title: Filtre de recherche utilisateur
 ---
+
 Nous allons filtrer maintenant le contenu de notre application en fonction de l'e-mail de connexion du chargé de clientèle (information utilisateur) :
 
 * Accédez à la **section "Données"**. 
