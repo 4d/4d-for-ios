@@ -2,6 +2,7 @@
 id: free-developer-account
 title: Compte Apple Developer gratuit
 ---
+
 Même si vous ne souhaitez pas payer 99 $ par an pour adhérer au Apple Developer Program, vous pouvez toujours créer un identifiant Apple gratuit et l'utiliser pour accéder à un ensemble limité d'exclusivités destinées aux développeurs.
 
 ## ÉTAPE 1. Identifiant Apple
