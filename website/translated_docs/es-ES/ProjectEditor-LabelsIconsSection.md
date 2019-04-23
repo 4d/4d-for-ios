@@ -2,6 +2,7 @@
 id: labels-and-icons
 title: Labels & Icons
 ---
+
 This is where you'll define long and short labels, as well as icons, for your tables and fields.
 
 * **Short and long labels:** Long and short labels are used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
