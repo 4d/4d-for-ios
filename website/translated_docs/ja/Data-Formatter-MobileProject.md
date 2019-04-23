@@ -2,6 +2,7 @@
 id: data-formatter-mobile-project
 title: モバイルプロジェクトを開く
 ---
+
 セクション内のラベル & アイコンを見ると、フィールドプロパティにおいて、新しくフォーマッターカラムが追加されているのが分かります:
 
 ![データフォーマッターラベルアイコン](assets/en/data-formatter/data-formatter-labels-icons.png)
