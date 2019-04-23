@@ -2,6 +2,7 @@
 id: register-apple-developer-program-individual
 title: Apple Developer Program as an Individual
 ---
+
 <div class = "objectives"> 
 
 **目的**
