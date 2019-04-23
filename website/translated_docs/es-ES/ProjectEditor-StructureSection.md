@@ -2,6 +2,7 @@
 id: structure
 title: Structure
 ---
+
 This section displays all of your database tables and fields exposed by 4D Mobile Service.
 
 ![Structure section](assets/en/project-editor/Structure-section-4D-for-iOS.png)
