@@ -2,6 +2,8 @@
 id: multi-criteria-search
 title: Recherche multicritères
 ---
+
+
 <div class = "objectives"> 
 
 **OBJECTIFS**
