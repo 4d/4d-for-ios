@@ -2,6 +2,7 @@
 id: manifest-listform-template
 title: Manifest.json
 ---
+
 Le fichier manifest contient des informations sur votre modèle de formulaire Liste, telles que le **type de Storyboard** (formulaire liste ou formulaire détaillé), **le nom** et **le nombre de champs par cellule**.
 
     {
