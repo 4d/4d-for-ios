@@ -20,7 +20,7 @@ title: Data Formatters
 <col width="50%">
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-mail.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-mail.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
@@ -44,12 +44,12 @@ title: Data Formatters
   <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-link.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-link.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-phone.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-phone.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
@@ -72,12 +72,12 @@ title: Data Formatters
   <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-adress.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-adress.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
@@ -98,12 +98,12 @@ title: Data Formatters
   <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-String.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-Int-to-String.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
@@ -124,12 +124,12 @@ title: Data Formatters
   <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-string.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-text-to-string.png"/>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
@@ -150,7 +150,7 @@ title: Data Formatters
   <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DOWNLOAD</a></div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
+  <img style="max-height: 300px; opacity: 0.2"src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
   </td>
   </tr>
 </table>
