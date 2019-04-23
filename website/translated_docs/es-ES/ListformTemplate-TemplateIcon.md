@@ -2,6 +2,7 @@
 id: icon-listform-template
 title: List form icon
 ---
+
 You can create your own icon for a list form template.
 
 It must be 160px x 160px and must be named **layoutIconx2.png**.
