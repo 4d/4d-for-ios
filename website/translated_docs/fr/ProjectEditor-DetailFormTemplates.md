@@ -2,6 +2,7 @@
 id: detail-form-templates
 title: Modèles de formulaires détaillés
 ---
+
 <div style="height: auto;">
   <table>
     <col width="50%"> <col width="50%"> 
