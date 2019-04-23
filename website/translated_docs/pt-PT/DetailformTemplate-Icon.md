@@ -2,6 +2,7 @@
 id: icon-detailform-template
 title: Detail form icon
 ---
+
 You can create your own template icon.
 
 It must be 160x160px and must be named **layoutIconx2.png**
