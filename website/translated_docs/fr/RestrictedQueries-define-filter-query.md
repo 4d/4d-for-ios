@@ -2,6 +2,7 @@
 id: define-filter-query
 title: Définir un filtre de recherche
 ---
+
 Pour le moment, si vous générez l'application du projet Starter et que vous entrez « michelle.simpson@mail.com » comme e-mail de connexion (l'un des chargés de clientèle), vous pourrez visualiser **tous les contrats et statuts des chargés de clientèle** (*Closed* et *In Progress*).
 
 ![iOS app without queries](assets/en/restricted-queries/ios-app-without-queries.png)
