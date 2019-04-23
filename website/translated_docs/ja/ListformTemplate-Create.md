@@ -2,6 +2,7 @@
 id: creating-listform-templates
 title: リストフォームのテンプレート
 ---
+
 <div class = "objectives"> 
 
 **レッスンの目標**
