@@ -2,6 +2,7 @@
 id: data
 title: Data
 ---
+
 This section allows you to:
 
 * define the data to include in your app (**Current data file** or **Production server data file**),
