@@ -2,6 +2,7 @@
 id: general
 title: General
 ---
+
 This section allows you to define your app's main information.
 
 ![General section](assets/en/project-editor/General-section-4D-for-iOS.png)

@@ -2,6 +2,7 @@
 id: data-formatter
 title: Data formatter
 ---
+
 4D v17 R3 includes a new concept: Data formatting!
 
 You can now choose pre-packaged formats from Labels & Icons in Sections.<div class = "tips"> 

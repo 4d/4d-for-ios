@@ -2,6 +2,7 @@
 id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIFS**

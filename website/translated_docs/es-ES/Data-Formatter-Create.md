@@ -2,6 +2,7 @@
 id: creating-data-formatter
 title: Crear el formato de datos
 ---
+
 <div class = "objectives"> 
 
 **OBJETIVOS**

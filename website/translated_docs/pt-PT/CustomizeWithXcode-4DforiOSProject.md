@@ -2,6 +2,7 @@
 id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 ---
+
 A partir da guia de Navegação, vá para Fontes (sources).
 
 Aqui você vai encontrar as pastas de estrutura e formulários. Eles contêm todos os arquivos para seu banco de dados estruturas e formulários definidos, incluindo:

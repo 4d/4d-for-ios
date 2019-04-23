@@ -2,6 +2,7 @@
 id: build-panel
 title: Build Panel
 ---
+
 When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
 
 Let’s take a closer look at the Build tab options:

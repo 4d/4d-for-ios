@@ -2,6 +2,7 @@
 id: simulator
 title: Using the Simulator
 ---
+
 <div class = "objectives"> 
 
 **OBJETIVOS**

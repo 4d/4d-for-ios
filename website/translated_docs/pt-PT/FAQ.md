@@ -2,6 +2,7 @@
 id: faq
 title: FAQ
 ---
+
 ## Prerequisites
 
 <details>

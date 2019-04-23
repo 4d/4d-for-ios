@@ -2,6 +2,7 @@
 id: free-developer-account
 title: 無料のApple Developerアカウント
 ---
+
 Apple Developer Programの年間メンバーシップ料金は11,800円ですが，プログラムに未加入であっても，無料のApple IDだけで利用できるデベロッパー向けの特典があります。
 
 ## ⒈ Apple ID

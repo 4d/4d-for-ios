@@ -2,6 +2,7 @@
 id: structure
 title: Structure
 ---
+
 Cette section affiche tous les champs et les tables de votre base de données.
 
 ![Structure section](assets/fr/project-editor/Structure-section-4D-for-iOS.png)

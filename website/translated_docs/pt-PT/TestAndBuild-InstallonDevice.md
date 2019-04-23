@@ -2,6 +2,7 @@
 id: install-device
 title: Installing on your iOS device
 ---
+
 <div class = "objectives"> 
 
 **OBJETIVOS**

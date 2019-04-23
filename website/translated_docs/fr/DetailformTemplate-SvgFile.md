@@ -3,6 +3,7 @@ id: svg-file-detailform-template
 title: Template.svg
 sidebar_label: Template.svg
 ---
+
 Le fichier template.svg est une simple représentation du modèle. Dans ce fichier svg, vous définirez des zones afin d'ajouter des champs à votre modèle de formulaire détaillé depuis l’éditeur de projet.
 
 Voici une version finale :

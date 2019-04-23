@@ -2,6 +2,7 @@
 id: select-icons
 title: Select your icons
 ---
+
 Open your project and go to Labels & Icons in Sections.
 
 Click on the contact table icon. All available icons are displayed.

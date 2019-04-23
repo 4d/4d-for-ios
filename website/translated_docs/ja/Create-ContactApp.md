@@ -2,6 +2,7 @@
 id: contact-app
 title: はじめてのアプリ
 ---
+
 <div class = "objectives"> 
 
 **レッスンの目標**

@@ -2,6 +2,7 @@
 id: actions
 title: Actions
 ---
+
 Cette section vous permet de définir des noms et des icônes pour chaque action ainsi qu'une portée pour chaque table.
 
 ## Éditeur de projet

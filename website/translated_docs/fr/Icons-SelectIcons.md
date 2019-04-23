@@ -2,6 +2,7 @@
 id: select-icons
 title: Sélectionner vos icônes
 ---
+
 Ouvrez votre projet et cliquez sur la section Libellés et icônes.
 
 Cliquez sur l’icône de la table Contact. Toutes les icônes disponibles s'affichent.

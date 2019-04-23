@@ -2,6 +2,7 @@
 id: storyboard-detailform-template
 title: Storyboard
 ---
+
 Now it's time to create your iOS detail form interface with Xcode!
 
 Here's the result we want to achieve:

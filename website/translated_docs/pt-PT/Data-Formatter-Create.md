@@ -2,6 +2,7 @@
 id: creating-data-formatter
 title: Create data formatter
 ---
+
 <div class = "objectives"> 
 
 **OBJETIVOS**

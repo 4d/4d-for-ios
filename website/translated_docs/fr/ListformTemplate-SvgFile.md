@@ -2,6 +2,7 @@
 id: svg-file-listform-template
 title: Template.svg
 ---
+
 Le fichier template.svg est une représentation visuelle basique d’un modèle. Dans ce fichier, vous définirez des sections afin d'ajouter des champs à votre modèle de formulaire Liste depuis l’éditeur de projet.
 
 Voici une version finale :

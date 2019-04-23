@@ -2,6 +2,7 @@
 id: manifest-listform-template
 title: manifest.json
 ---
+
 manifestファイルには， ストーリーボードの**タイプ**（リストフォームあるいは詳細フォーム）・**名称**・**セル毎のフィールド数**といった情報が記述されています。
 
     {

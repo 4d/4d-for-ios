@@ -2,6 +2,7 @@
 id: manifest-listform-template
 title: Manifest.json
 ---
+
 The manifest file includes information about your list form template, such as the **Storyboard type** (list form or detail form), **name** and **number of fields per cell**.
 
     {

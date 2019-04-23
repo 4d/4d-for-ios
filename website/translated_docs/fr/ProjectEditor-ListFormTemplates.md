@@ -2,6 +2,7 @@
 id: list-form-templates
 title: Modèles de formulaire Liste
 ---
+
 <div style="height: auto;">
   <table>
     <col width="50%"> <col width="50%">
