@@ -2,6 +2,7 @@
 id: creating-detailform-templates
 title: Modèles de formulaires détaillés
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIFS**
