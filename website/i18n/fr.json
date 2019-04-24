@@ -1,0 +1,250 @@
+{
+  "_comment": "Ce fichier est généré automatiquement par write-translations.js",
+  "localized-strings": {
+    "next": "Suivant",
+    "previous": "Précédent",
+    "tagline": "Créez et déployez des Apps iOS natives en toute facilité",
+    "docs": {
+      "define-first-action": {
+        "title": "Définir une première action"
+      },
+      "actions-getting-started": {
+        "title": "Initiation"
+      },
+      "action-custom-template": {
+        "title": "Ajouter des actions aux modèles"
+      },
+      "contact-app": {
+        "title": "Application Contacts"
+      },
+      "4d-for-ios-project-organization": {
+        "title": "Organiser un projet 4D for iOS"
+      },
+      "customize-your-ios-app": {
+        "title": "Personnaliser une application 4D for iOS"
+      },
+      "open-xcode": {
+        "title": "Travailler avec Xcode"
+      },
+      "xcode-overview": {
+        "title": "Présentation de Xcode"
+      },
+      "data-formatter-build-and-run": {
+        "title": "Créer et exécuter un projet"
+      },
+      "creating-data-formatter": {
+        "title": "Créer un format de données"
+      },
+      "data-formatter-mobile-project": {
+        "title": "Ouvrir un projet mobile"
+      },
+      "data-formatter": {
+        "title": "Format des données"
+      },
+      "deploy-app-store-archive-and-upload": {
+        "title": "Archiver et télécharger un projet"
+      },
+      "deploy-app-store-app-store-connect": {
+        "title": "Créer une fiche sur App Store"
+      },
+      "register-apple-developer-program-individual": {
+        "title": "Apple Developer Program pour les particuliers"
+      },
+      "register-apple-developer-program-organization": {
+        "title": "Apple Developer Program pour les entreprises"
+      },
+      "deploy-in-house-archive-and-export": {
+        "title": "Archiver et exporter un projet"
+      },
+      "deploy-in-house-distribution": {
+        "title": "Distribuer une application interne"
+      },
+      "register-apple-developer-enterprise-program": {
+        "title": "Apple Developer Enterprise Program"
+      },
+      "deployment": {
+        "title": "Choisir un Apple Developer Program"
+      },
+      "creating-detailform-templates": {
+        "title": "Modèles de formulaires détaillés"
+      },
+      "icon-detailform-template": {
+        "title": "Icônes des formulaires détaillés"
+      },
+      "manifest-detailform-template": {
+        "title": "Manifest.json"
+      },
+      "storyboard-detailform-template": {
+        "title": "Storyboard"
+      },
+      "svg-file-detailform-template": {
+        "title": "Template.svg",
+        "sidebar_label": "Template.svg"
+      },
+      "faq": {
+        "title": "FAQ"
+      },
+      "overview": {
+        "title": "Aperçu"
+      },
+      "prerequisites": {
+        "title": "Conditions préalables"
+      },
+      "create-icons": {
+        "title": "Créer des icônes"
+      },
+      "using-icons": {
+        "title": "Utiliser des icônes"
+      },
+      "include-icons": {
+        "title": "Inclure des icônes dans le projet"
+      },
+      "select-icons": {
+        "title": "Choisir des icônes"
+      },
+      "licenses": {
+        "title": "Licences"
+      },
+      "creating-listform-templates": {
+        "title": "Modèles de formulaires Liste"
+      },
+      "manifest-listform-template": {
+        "title": "Manifest.json"
+      },
+      "storyboard-listform-template": {
+        "title": "Storyboard"
+      },
+      "svg-file-listform-template": {
+        "title": "Template.svg"
+      },
+      "icon-listform-template": {
+        "title": "Icônes des formulaires Liste"
+      },
+      "multi-criteria-search": {
+        "title": "Recherche multicritères"
+      },
+      "actions": {
+        "title": "Actions"
+      },
+      "build-panel": {
+        "title": "Onglet Génération"
+      },
+      "create-new-project": {
+        "title": "Nouveau projet"
+      },
+      "data": {
+        "title": "Données"
+      },
+      "detail-form-templates": {
+        "title": "Modèles de formulaires détaillés"
+      },
+      "forms": {
+        "title": "Formulaires"
+      },
+      "general": {
+        "title": "Général"
+      },
+      "labels-and-icons": {
+        "title": "Libellés et icônes"
+      },
+      "list-form-templates": {
+        "title": "Modèles de formulaires Liste"
+      },
+      "main-menu": {
+        "title": "Menu"
+      },
+      "publishing": {
+        "title": "Publication"
+      },
+      "structure": {
+        "title": "Structure"
+      },
+      "n-to-one-relations": {
+        "title": "Liens N vers 1"
+      },
+      "custom-data-formatters": {
+        "title": "Format des données"
+      },
+      "custom-detailform-templates": {
+        "title": "Modèles de formulaires détaillés"
+      },
+      "custom-listform-templates": {
+        "title": "Modèles de formulaires Liste"
+      },
+      "define-filter-query": {
+        "title": "Définir un filtre de recherche"
+      },
+      "filter-query-introduction": {
+        "title": "Recherche restreinte"
+      },
+      "user-information-query": {
+        "title": "Filtre de recherche - informations utilisateur"
+      },
+      "template": {
+        "title": "Modèles & Formats"
+      },
+      "free-developer-account": {
+        "title": "Compte Apple Developer gratuit"
+      },
+      "install-device": {
+        "title": "Installation sur votre appareil iOS"
+      },
+      "simulator": {
+        "title": "Utilisation du simulateur"
+      },
+      "xcode": {
+        "title": "Xcode"
+      }
+    },
+    "links": {
+      "Docs": "Documentation",
+      "Tutorials": "Tutoriels",
+      "Templates & Formatters": "Modèles & Formats",
+      "FAQ": "FAQ"
+    },
+    "categories": {
+      "Getting started": "Prise en main",
+      "Project Editor": "Éditeur de projet",
+      "Selecting your Developer Program": "Choisir un Apple Developer Program",
+      "Testing and Building": "Test et Génération",
+      "Deploying In-House": "Déploiement interne",
+      "Deploying on App Store": "Déploiement sur App Store",
+      "Creating your iOS App": "Créer une application iOS",
+      "Customizing with Xcode": "Personnaliser avec Xcode",
+      "Creating List forms": "Créer des formulaires Liste",
+      "Creating Detail forms": "Créer des formulaires détaillés",
+      "Using icons": "Utiliser des icônes",
+      "Data formatter": "Format des données",
+      "Actions": "Actions",
+      "Multi-criteria search": "Recherche multicritères",
+      "Restricted queries": "Recherche restreinte",
+      "Relations": "Relations",
+      "Templates & Formatters": "Modèles & Formats"
+    }
+  },
+  "pages-strings": {
+    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives",
+    "Overview|no description given": "Aperçu",
+    "Create|no description given": "Créez",
+    "Test|no description given": "Testez",
+    "Deploy|no description given": "Déploiement",
+    "Define a subset of your physical structure to replicate.|no description given": "Définissez un sous-ensemble de votre structure.",
+    "Structure|no description given": "Structure",
+    "Choose the layouts and style of your application in just a few, short steps.|no description given": "Choisissez la mise en page et le style de votre application en seulement quelques étapes.",
+    "Design|no description given": "Conception",
+    "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Créez un projet Xcode en un seul clic et exécutez votre application sur n’importe quel iPhone.",
+    "Generate & Test|no description given": "Génération & Test",
+    "Choose an in-house or App Store deployment model to distribute your application.|no description given": "Pour distribuer votre application, vous pouvez la déployer en interne ou sur l'App Store.",
+    "Create various applications depending on your needs. Discover multiple tutorials to quickly build your first application.|no description given": "Créez des applications différentes selon vos besoins. Pour ce faire, plusieurs tutoriels sont mis à votre disposition pour vous aider à créer rapidement votre première application.",
+    "Create your 4D for iOS application|no description given": "Créez votre application 4D for iOS",
+    "Create your app|no description given": "Créez votre application",
+    "Test your application in the Simulator or your own device.|no description given": "Testez votre application avec le simulateur ou sur votre propre appareil.",
+    "Testing|no description given": "Test",
+    "Test your app|no description given": "Testez votre application",
+    "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribuez votre application en interne ou sur l’App Store. Plusieurs tutoriels sont à votre disposition pour vous guider tout au long du processus.",
+    "Deploy your App|no description given": "Déployez votre application",
+    "Help Translate|recruit community translators for your project": "Aidez-nous à traduire",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Modifier",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traduire"
+  }
+}
