@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="fr"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Customize your 4D for iOS App · 4D for iOS Preview</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Nous allons apporter quelques modifications au Storyboard... en partant de la plus simple à la plus complexe.&lt;/p&gt;
+"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Customize your 4D for iOS App · 4D for iOS Preview"/><meta property="og:type" content="website"/><meta property="og:url" content="https://4D.github.io/4d-for-ios/index.html"/><meta property="og:description" content="&lt;p&gt;Nous allons apporter quelques modifications au Storyboard... en partant de la plus simple à la plus complexe.&lt;/p&gt;
+"/><meta property="og:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dark.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/fr"><h2 class="headerTitle">4D for iOS Preview</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/fr/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/fr/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/fr/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/docs/fr/faq.html" target="_self">FAQ</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/en/customize-your-ios-app.html">English</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Customizing with Xcode</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating your iOS App<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/contact-app.html">Contact App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customizing with Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/open-xcode.html">Working with Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/xcode-overview.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/4d-for-ios-project-organization.html">4D for iOS project organization</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/docs/fr/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating List forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-listform-templates.html">List form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/icon-listform-template.html">List form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating Detail forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/icon-detailform-template.html">Detail form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Using icons<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/using-icons.html">Using icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/create-icons.html">Create icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/include-icons.html">Include icons in the project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/select-icons.html">Select your icons</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Data formatter<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter.html">Data formatter</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter-mobile-project.html">Open mobile project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter-build-and-run.html">Build and Run your project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-data-formatter.html">Create data formatter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/actions-getting-started.html">Getting started</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/define-first-action.html">Defining your first action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/action-custom-template.html">Adding actions in templates</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Multi-criteria search<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/multi-criteria-search.html">Multi-criteria search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Restricted queries<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/filter-query-introduction.html">Restricted queries</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/define-filter-query.html">Define a filter query</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/user-information-query.html">User information query</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/n-to-one-relations.html">N to one relations</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/CustomizeWithXcode-iOSProjectCustomization.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Customize your 4D for iOS App</h1></header><article><div><span><p>Nous allons apporter quelques modifications au Storyboard... en partant de la plus simple à la plus complexe.</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png" alt="Final result"></p>
+<h2><a class="anchor" aria-hidden="true" id="etape-1-modification-simple-du-libelle"></a><a href="#etape-1-modification-simple-du-libelle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Modification simple du libellé</h2>
+<p>Nous allons commencer par modifier la police et la couleur du libellé :</p>
+<ul>
+<li>Ouvrez le fichier <em>ContactDetailsForm.storyboard</em> à partir de l’onglet Navigation.</li>
+<li>Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis l'Interface Builder ou le volet de gauche).</li>
+<li>Sélectionnez le volet Attributes inspector (Inspecteur d'attributs) dans Utility area (la zone de fonctionnalités).</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png" alt="Attributes inspector"></p>
+<ul>
+<li>Remplacez la police Helvetica Neue Bold par Futura Bold.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png" alt="Attributes inspector font"></p>
+<ul>
+<li>Vous pouvez également modifier la couleur de la police dans le même volet.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png" alt="Attributes inspector color"></p>
+<h2><a class="anchor" aria-hidden="true" id="etape-2-modification-de-la-position-de-la-photo-de-profil"></a><a href="#etape-2-modification-de-la-position-de-la-photo-de-profil" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Modification de la position de la photo de profil</h2>
+<p>Tous les modèles de 4D for iOS appliquent des contraintes aux éléments de l'application afin qu'ils s'affichent correctement sur tous les appareils.</p>
+<p>Dans le fichier <em>ContactDetailsForm.storyboard</em>, les libellés Photo, First Name et Last Name sont actuellement centrés.</p>
+<p>Nous allons apporter quelques modifications de façon à les afficher comme suit :</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Simlator-Final-Xcode-4D-for-iOS.png" alt="Simulator result"></p>
+<p>Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.</p>
+<p>Sélectionnez ensuite l’image et accédez au volet Size attributes (attributs des dimensions) depuis la Utility zone (la zone de fonctionnalités). Remplacez la valeur 161.67 de X par la valeur 40,67 et la valeur 28 de Y par la valeur 79.</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Profil-picture-position-Xcode-4D-for-iOS.png" alt="Profil picture position"></p>
+<p>Comme vous pouvez le voir, la position a changé mais Xcode affiche des lignes jaunes. Pourquoi ? Ces lignes jaunes représentent des contraintes qui ne sont plus valables.</p>
+<h2><a class="anchor" aria-hidden="true" id="etape-3-mise-a-jour-des-contraintes-de-la-photo-de-profil"></a><a href="#etape-3-mise-a-jour-des-contraintes-de-la-photo-de-profil" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Mise à jour des contraintes de la photo de profil</h2>
+<p>Pour aligner verticalement l’image au centre, dans le Superview (l’affichage qui contient l'image), nous devons supprimer les contraintes (Constraints) existantes et en ajouter de nouvelles.</p>
+<p>L’image présente actuellement les contraintes suivantes :</p>
+<ul>
+<li>Width Equals : une largeur de 78 pixels.</li>
+<li>Height Equals : une hauteur de 78 pixels.</li>
+<li>Align Center X : un centrage de l’image sur un axe horizontal défini précédemment.</li>
+<li>Top Space : un espace allant de la partie supérieure de l'image à la partie supérieure de la vue.</li>
+<li>Bottom space <first name>: l’espace défini précédemment entre le libellé First Name et l’image.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png" alt="Profil picture constraints"></p>
+<p>Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir du Size inspector (l'inspecteur de dimensions) dans la section &quot;Constraints&quot; consacrée aux contraintes). Le contour de l’image devrait maintenant être en rouge car les contraintes ne sont pas renseignées.</p>
+<p>Cliquez sur le bouton Align (dans la partie inférieure de la fenêtre Interface Builder) et cochez la case <strong>Vertically in Container</strong>.</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png" alt="Profil picture Align"></p>
+<p>Cliquez ensuite sur le bouton <strong>Add New Constraints</strong> et ajoutez une contrainte de leading space (la contrainte de gauche).</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png" alt="Profil picture new constraints"></p>
+<p>À ce stade, toutes les contraintes de photo de profil doivent être en bleu.</p>
+<p>Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.<div class = "tips"></p>
+<p><strong>CONSEILS</strong></p>
+<ul>
+<li><p>Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.</p></li>
+<li><p>Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.</div></p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="etape-4-mise-a-jour-de-la-position-et-des-contraintes-des-libelles"></a><a href="#etape-4-mise-a-jour-de-la-position-et-des-contraintes-des-libelles" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 4. Mise à jour de la position et des contraintes des libellés</h2>
+<h4><a class="anchor" aria-hidden="true" id="nous-allons-nous-pencher-sur-le-libelle-first-name"></a><a href="#nous-allons-nous-pencher-sur-le-libelle-first-name" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nous allons nous pencher sur le libellé First Name.</h4>
+<p>Nous allons commencer par modifier la position et la largeur :</p>
+<ul>
+<li>Sélectionnez le premier libellé First Name à partir de l'Interface Builder.</li>
+<li>Remplacez ensuite la valeur 386 pixels de la largeur par 267 pixels.</li>
+<li>Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png" alt="First Name Label position"></p>
+<p>Modifiez les contraintes restantes :</p>
+<ul>
+<li>Supprimez les contraintes de leading space et de bottom space à partir du Size inspector.</li>
+<li>Ajoutez une contrainte de leading space en cliquant sur le bouton <strong>Add New Constraints</strong> pour placer le libellé First Name à droite de la photo de profil.</li>
+<li>Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png" alt="First Name Label top constraint"></p>
+<h4><a class="anchor" aria-hidden="true" id="pour-finir-concentrons-nous-sur-le-libelle-last-name"></a><a href="#pour-finir-concentrons-nous-sur-le-libelle-last-name" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pour finir, concentrons-nous sur le libellé Last Name.</h4>
+<p>Modifiez l'emplacement et la largeur :</p>
+<ul>
+<li>Sélectionnez le premier libellé Last Name à partir de l'Interface Buider</li>
+<li>Remplacez la valeur 386 pixels de la largeur par 267 pixels.</li>
+<li>Remplacez la valeur 8 pixels de X par 127 pixels et la valeur 144.33 pixels de Y par 118.33 pixels.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png" alt="Last Name Label position"></p>
+<p>Modifiez les contraintes restantes :</p>
+<ul>
+<li>Supprimez les contraintes de leading space à partir du Size inspector.</li>
+<li>Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png" alt="Last Name Label constraint"></p>
+<p>Vos deux libellés sont maintenant repositionnés.</p>
+<p>Voyons les résultats dans le simulateur !</p>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Simulator-Xcode-4D-for-iOS.png" alt="Simulator result"></p>
+<p>Hum... Cela ne correspond pas exactement à ce que nous souhaitions.</p>
+<ul>
+<li>Sélectionnez les libellés First Name et Last Name et remplacez l'alignement centré par un alignement à gauche dans l'Attributes inspector.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png" alt="Labels Alignment"></p>
+<ul>
+<li>Sélectionnez ensuite la photo de profil et double-cliquez sur la contrainte de leading space.</li>
+<li>Remplacez la valeur 40.67 pixels de la constante par la valeur 80 pixels.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png" alt="Constraints adjustments"></p>
+<p>C'est beaucoup mieux ! Désormais, toutes les contraintes sont appliquées et les libellés sont conformes aux autres contraintes.</p>
+<p>Comme vous avez pu le voir, la personnalisation de votre application est très simple !</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/fr/4d-for-ios-project-organization.html"><span class="arrow-prev">← </span><span class="function-name-prevnext">4D for iOS project organization</span></a><a class="docs-next button" href="/4d-for-ios/docs/fr/creating-listform-templates.html"><span>List form templates</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#etape-1-modification-simple-du-libelle">ÉTAPE 1. Modification simple du libellé</a></li><li><a href="#etape-2-modification-de-la-position-de-la-photo-de-profil">ÉTAPE 2. Modification de la position de la photo de profil</a></li><li><a href="#etape-3-mise-a-jour-des-contraintes-de-la-photo-de-profil">ÉTAPE 3. Mise à jour des contraintes de la photo de profil</a></li><li><a href="#etape-4-mise-a-jour-de-la-position-et-des-contraintes-des-libelles">ÉTAPE 4. Mise à jour de la position et des contraintes des libellés</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="/4d-for-ios/docs/fr/licenses.html">Licenses</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
