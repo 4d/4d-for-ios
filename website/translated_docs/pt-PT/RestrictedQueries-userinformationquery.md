@@ -2,6 +2,7 @@
 id: user-information-query
 title: User information query
 ---
+
 Now let's filter our app content depending on the account manager's login email address (user information):
 
 * Go to the **Data section**. 

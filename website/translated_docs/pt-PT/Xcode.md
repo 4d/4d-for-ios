@@ -2,6 +2,7 @@
 id: xcode
 title: Xcode
 ---
+
 ## What is Xcode?
 
 Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.

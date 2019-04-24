@@ -2,6 +2,7 @@
 id: creating-listform-templates
 title: Modèles de formulaire Liste
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIFS**
@@ -33,7 +34,7 @@ href="../assets/en/custom-listform/CustomListFormStarterProject.zip">PROJET STAR
   </p>
 </div>
 
-Vous êtes maintenant prêt à créer votre premier modèle de formulaire Liste !
+Vous êtes maintenant prêts à créer votre premier modèle de formulaire Liste !
 
 ## Ajoutez un modèle de formulaire Liste à votre projet mobile
 

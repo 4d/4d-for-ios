@@ -2,6 +2,7 @@
 id: general
 title: General
 ---
+
 Cette section vous permet de renseigner les principales informations de votre application.
 
 ![General section](assets/fr/project-editor/General-section-4D-for-iOS.png)

@@ -2,6 +2,7 @@
 id: open-xcode
 title: Trabajar con Xcode
 ---
+
 <div class = "objectives"> 
 
 **OBJETIVOS**

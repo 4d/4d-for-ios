@@ -2,6 +2,7 @@
 id: detail-form-templates
 title: Detail Forms templates
 ---
+
 <div style="height: auto;">
   <table>
     <col width="50%"> <col width="50%"> 
@@ -44,7 +45,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Cards-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Cards-Detail-form.gif" />
       </td>
     </tr>
     
@@ -86,7 +87,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Sliding-Header-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Sliding-Header-Detail-form.gif" />
       </td>
     </tr>
     
@@ -128,7 +129,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Tasks-Plus-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Tasks-Plus-Detail-form.gif" />
       </td>
     </tr>
     
@@ -170,7 +171,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Circle-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Circle-Detail-form.gif" />
       </td>
     </tr>
     
@@ -212,7 +213,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Dashboard-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Dashboard-Detail-form.gif" />
       </td>
     </tr>
     
@@ -254,7 +255,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Visual-Contact-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Visual-Contact-Detail-form.gif" />
       </td>
     </tr>
     
@@ -296,7 +297,7 @@ title: Detail Forms templates
       </td>
       
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-        <img style="max-height: 750px" src="../assets/en/templates/Parallax-Detail-form.gif" alt="" />
+        <img style="max-height: 750px" src="../assets/en/templates/Parallax-Detail-form.gif" />
       </td>
     </tr>
     

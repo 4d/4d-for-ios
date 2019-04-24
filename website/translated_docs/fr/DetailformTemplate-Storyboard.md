@@ -2,6 +2,7 @@
 id: storyboard-detailform-template
 title: Storyboard
 ---
+
 Il est temps de créer votre interface iOS de formulaire détaillé avec Xcode !
 
 Voici le résultat que nous souhaitons obtenir :

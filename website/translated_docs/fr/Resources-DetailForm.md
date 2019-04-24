@@ -2,6 +2,8 @@
 id: custom-detailform-templates
 title: Modèles des formulaires détaillés
 ---
+
+
 <div class = "tips"> 
 
 **AVANT DE COMMENCER**
@@ -15,7 +17,7 @@ title: Modèles des formulaires détaillés
     <col width="50%"> <col width="50%">
 <tr>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 750px">
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Detailform-tasks.gif"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Tasks Detail</h1>
@@ -25,7 +27,7 @@ title: Modèles des formulaires détaillés
   <li><strong>Image requise:</strong> non</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">TELECHARGER</a></p>
 
 </div>
   </td>
@@ -44,7 +46,7 @@ title: Modèles des formulaires détaillés
 </div>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 750px">
+  <img style="max-height: 750px" src="../assets/en/template-formatters/Detailform-ParallaxDetail.gif"/>
   </td>
   </tr>
   </table>

@@ -2,6 +2,7 @@
 id: publishing
 title: Publication
 ---
+
 C’est ici que vous pourrez définir ou créer votre application :
 
 * Paramètres du serveur Web

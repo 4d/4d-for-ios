@@ -2,6 +2,7 @@
 id: creating-detailform-templates
 title: Modèles de formulaires détaillés
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIFS**
@@ -33,7 +34,7 @@ href="../assets/en/custom-detailform/CustomDetailFormStarterProject.zip">PROJET 
   </p>
 </div>
 
-Vous êtes maintenant prêt à créer votre premier modèle de formulaire détaillé !
+Vous êtes maintenant prêts à créer votre premier modèle de formulaire détaillé !
 
 ## Ajoutez un modèle de formulaire détaillé à votre projet mobile
 

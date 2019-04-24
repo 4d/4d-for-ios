@@ -2,6 +2,7 @@
 id: 4d-for-ios-project-organization
 title: 4D for iOS project organization
 ---
+
 Desde la pestaña Navegation, ir a Sources.
 
 Aquí encontrará las carpetas Structure y Forms. Contienen todos los archivos necesarios para la estructura y los formularios de su base de datos, incluyendo:

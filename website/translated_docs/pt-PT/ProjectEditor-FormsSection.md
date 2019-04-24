@@ -2,6 +2,7 @@
 id: forms
 title: Forms
 ---
+
 The Forms section allows you to select both list and detail form templates for each table.
 
 4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.

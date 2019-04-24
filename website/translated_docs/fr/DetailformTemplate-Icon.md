@@ -2,6 +2,7 @@
 id: icon-detailform-template
 title: Icône du formulaire détaillé
 ---
+
 Vous pouvez créer votre propre icône pour votre modèle.
 
 L'icône doit avoir une résolution de 160x160px et doit être nommée **layoutIconx2.png**

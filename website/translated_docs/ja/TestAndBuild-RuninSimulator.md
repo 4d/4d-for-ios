@@ -2,6 +2,7 @@
 id: simulator
 title: シミュレーターを使用する
 ---
+
 <div class = "objectives"> 
 
 **やりたいこと**

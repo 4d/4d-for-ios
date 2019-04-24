@@ -2,6 +2,7 @@
 id: action-custom-template
 title: Adding actions in templates
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIVES**

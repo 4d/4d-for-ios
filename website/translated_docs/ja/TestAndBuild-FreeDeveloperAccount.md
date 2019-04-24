@@ -1,34 +1,35 @@
 ---
 id: free-developer-account
-title: Free Apple Developer account
+title: 無料のApple Developerアカウント
 ---
-Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
 
-## ステップ 1 - Apple ID
+Apple Developer Programの年間メンバーシップ料金は11,800円ですが，プログラムに未加入であっても，無料のApple IDだけで利用できるデベロッパー向けの特典があります。
 
-If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+## ⒈ Apple ID
 
-If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
+まだApple IDを持っていないのであれば，[⒉](#step-2-create-your-apple-id)に進んでください。
 
-## ステップ 2 - Create your Apple ID
+すでにApple IDを持っているのであれば，[⒊](#step-3-open-xcode)に進んでください。
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+## ⒉ Apple IDを作成する
 
-![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+[Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+![Apple IDの作成](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
+* 必要な情報をフォームに入力し，セキュリティの質問に答えます。
+* Appleから確認メールが送られます。
+* メールに記載されている確認コードを入力して，アカウントの作成を完了します。
 
-* Once you have your Apple ID, you can continue to Step 3.
+![確認コードの入力](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-## ステップ 3 - Open Xcode
+* Apple IDが作成できました。⒊に進むことができます。
 
-* Launch Xcode > Preferences > Accounts
-* Add your Apple ID and sign in 
+## ⒊ Xcodeを起動する
 
-![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
+* Xcodeを起動し，アプリケーションメニュー ＞ Preferences ＞ Accounts を選択します。
+* Apple IDを入力してサインインします。 
 
-Congratulations! You're now ready to use your free Apple ID!
+![デベロッパーアカウント](assets/en/test-build/Developer-Account-4D-for-iOS.png)
+
+おつかれさまでした！ 無料のApple IDでアプリを開発する準備ができました！

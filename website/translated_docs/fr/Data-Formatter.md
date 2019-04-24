@@ -2,6 +2,7 @@
 id: data-formatter
 title: Format des données
 ---
+
 4D v17 R3 intègre un nouveau concept : le format des données !
 
 Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.<div class = "tips"> 

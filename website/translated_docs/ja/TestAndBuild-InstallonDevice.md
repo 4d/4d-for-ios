@@ -2,6 +2,7 @@
 id: install-device
 title: iOSデバイスにインストールする
 ---
+
 <div class = "objectives"> 
 
 **やりたいこと**

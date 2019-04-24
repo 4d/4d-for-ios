@@ -2,6 +2,7 @@
 id: n-to-one-relations
 title: N to one relations
 ---
+
 4D v17 R5 includes a new concept: N to 1 relations<div class = "tips"> 
 
 **NOTE**

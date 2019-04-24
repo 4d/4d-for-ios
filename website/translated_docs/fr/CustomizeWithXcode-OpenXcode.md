@@ -2,6 +2,7 @@
 id: open-xcode
 title: Travailler avec Xcode
 ---
+
 <div class = "objectives"> 
 
 **OBJECTIFS**
@@ -49,4 +50,4 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 
 ![Open your Project with Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-Vous êtes maintenant prêt à travailler sur votre projet 4D for iOS dans Xcode. Poursuivez la lecture pour en savoir plus !
+Vous êtes maintenant prêts à travailler sur votre projet 4D for iOS dans Xcode. Poursuivez la lecture pour en savoir plus !

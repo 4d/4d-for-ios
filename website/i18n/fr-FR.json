@@ -5,9 +5,6 @@
     "previous": "Précédent",
     "tagline": "Créez et déployez des Apps iOS natives en toute facilité",
     "docs": {
-      "list-form-templates": {
-        "title": "Modèles de formulaires Liste"
-      },
       "define-first-action": {
         "title": "Définir une première action"
       },
@@ -149,6 +146,9 @@
       },
       "labels-and-icons": {
         "title": "Libellés et icônes"
+      },
+      "list-form-templates": {
+        "title": "Modèles de formulaires Liste"
       },
       "main-menu": {
         "title": "Menu"

@@ -2,6 +2,7 @@
 id: forms
 title: Formulaires
 ---
+
 La section Formulaires vous permet de sélectionner des modèles de formulaire Liste et de formulaires détaillés pour chaque table.
 
 4D for iOS fournit différents modèles avec des effets de transitions personnalisés pour générer des applications iOS modernes.

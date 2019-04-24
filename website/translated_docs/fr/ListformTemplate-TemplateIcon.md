@@ -2,6 +2,7 @@
 id: icon-listform-template
 title: Icône du formulaire Liste
 ---
+
 Vous avez la possibilité de créer votre propre icône pour le modèle de formulaire Liste.
 
 L'icône doit avoir une résolution de 160x160px et doit être nommée **layoutIconx2.png**.
