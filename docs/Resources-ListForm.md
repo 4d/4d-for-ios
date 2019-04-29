@@ -107,6 +107,5 @@ title: List Forms Templates
   <img style="max-height: 750px" src="../assets/en/template-formatters/Listform-slanted-collection.gif"/>
   </td>
   </tr>
-<tr>
 </table>
 </div>
