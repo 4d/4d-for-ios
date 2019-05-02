@@ -18,12 +18,25 @@
 ## [Prerequisites](https://4d.github.io/4d-for-ios/docs/en/prerequisites.html)
 
 **Software requirements**
+
 * 4D Developer Pro v17 R2 64-bit (Development)
-* 4D Server v17 R2 64-bit (Deployment)
-* macOS version 10.13 (or later)
-* 4D for iOS in v17 R2 is designed and certified for Xcode 9.4.1.
-* The next release (4D v17 R3) will be certified for Xcode 10/Swift 4.2 (requiring macOS 10.13.6 or 10.14)
-* Apple configurator 2 installed on your Mac (optional). Install this software if you want to automate app installation on your physical device.
+* 4D Server v17 R2 64-bit (Deployment) 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
+
+Apple configurator 2 requires **macOS 10.14** or later.
+Install this software if you want to automate app installation on your physical device.
+
+Xcode 10.2 requieres **macOS 10.14** or later.
+
+**Version comparison table**
+
+| Xcode | Swift | iOS | 4D |
+|---|---|---|---|
+| 10.2 | 4.2.1 | iOS 12.2 | 17R5 |
+| 10.1 | 4.2.1 | iOS 12 | 17R4 |
+| 10.0 | 4.2 | iOS 12 | 17R3 |
+| 9.4| 4.1.2| iOS 11.4 | 17R2 |
+| 9.3.1| 4.1| iOS 11.3 | 17R2 |
 
 
 ## [License](./LICENSE-docs)
