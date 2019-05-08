@@ -19,7 +19,7 @@ En este tutorial, lo guiaremos a través de la creación de varios ejemplos de f
 
 Para comenzar, descargue el **Starter Project**, que incluye:
 
-* Las carpetas **integerToImage_Images** y **textToImage_Images**, que contienen las imágeness (a utilizar más adelante para los formatos que contienen imágenes)
+* Las carpetas **integerToImage_Images** y **textToImage_Images**, que contienen las imágenes (a utilizar más adelante para los formatos que contienen imágenes)
 * Un archivo **Task Management.4dbase** (con una aplicación de proyecto móvil lista para utilizar)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -73,7 +73,7 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
     
     ### Entero a imagen
     
-    * Create an **integerToImage** folder in the **formatters** folder you've created.
+    * Cree una carpeta **integerToImage** en la carpeta **formatters** que acaba de crear.
     
     * Create a **manifest.json** file in the **integerToImage** folder.
     
