@@ -75,15 +75,15 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
     
     * Cree una carpeta **integerToImage** en la carpeta **formatters** que acaba de crear.
     
-    * Create a **manifest.json** file in the **integerToImage** folder.
+    * Cree un archivo **manifest.json** en la carpeta **integerToImage**.
     
     ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
     
-    * Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+    * Cree un archivo **Images** en la carpeta **integerToImage**. Puede agregar las imágenes de **integerToImage_Images** (en StarterProject.zip) para esta nueva carpeta.
     
     ![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
     
-    Let's look at the contents of the **manifest.json** file:
+    Veamos el contenido del archivo **manifest.json**:
     
         {
             // 1
@@ -107,23 +107,23 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
         }
         
     
-    1. **name**: the name of the formatter
-    2. **type** : the 4D format type you want to use 
-    3. **binding**: can be **localized text** for strings or **imageNamed** for images
-    4. **choiceList**: mapped values
-    5. **assets**: adjust the display size (width and height)
+    1. **name**: el nombre del formato
+    2. **type**: el tipo de formato 4D que desea utilizar 
+    3. **binding**: puede ser **localized text** para las cadenas o **imageNamed** para las imágenes
+    4. **choiceList**: valores mapeados
+    5. **assets**: ajustar el tamaño de visualización (ancho y alto)
     
-    ## Text formatters
+    ## Formatos texto
     
-    ### Text to string
+    ### Texto a cadena
     
-    * Create a **textToString** folder in the formatters folder you've just created.
+    * Cree una carpeta **integerToString** en la carpeta Formats que acaba de crear.
     
-    * Create a **manifest.json** file in the **textToString** folder.
+    * Cree un archivo **manifest.json** en la carpeta **textToString**.
     
     ![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
     
-    Let's look at the contents of the **manifest.json** file:
+    Veamos el contenido del archivo **manifest.json**:
     
         {
             // 1
@@ -140,24 +140,24 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
         }
         
     
-    1. **name**: the name of the formatter
-    2. **type**: the 4D format type you want to use
-    3. **binding**: can be **localized text** for strings or **imageNamed** for images
-    4. **choiceList**: mapped values
+    1. **name**: el nombre del formato
+    2. **type**: el tipo de formato 4D que desea utilizar
+    3. **binding**: puede ser **localized text** para las cadenas o **imageNamed** para las imágenes
+    4. **choiceList**: valores mapeados
     
-    ### Text to image
+    ### Texto a imagen
     
-    * Create a **textToImage** folder in the formatters folder you've just created.
+    * Cree una carpeta **textToImage** en la carpeta Formats que acaba de crear.
     
-    * Create a **manifest.json** file in the **textToImage** folder.
+    * Cree un archivo **manifest.json** en la carpeta **textToImage**.
     
     ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
     
-    * Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+    * Luego cree un archivo **Images** en la carpeta **textToImage**. Puede agregar las imágenes de **textToImage_Images** (en StarterProject.zip) a esta nueva carpeta.
     
     ![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
     
-    Let's look at the contents of the **manifest.json** file:
+    Veamos el contenido del archivo **manifest.json**:
     
         <br />{
             // 1
@@ -182,7 +182,7 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
         
         
     
-    ## Open mobile project
+    ## Abrir un proyecto móvil
     
     Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
     
