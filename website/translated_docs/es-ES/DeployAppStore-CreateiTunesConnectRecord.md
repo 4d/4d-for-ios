@@ -1,28 +1,28 @@
 ---
 id: deploy-app-store-app-store-connect
-title: Create App Store record
+title: Crear una ficha en App Store
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Create an App ID on your Developer Account
-* Create your app in App Store Connect</div> <div class = "prerequisites"> 
+* Crear un identificador de aplicación en su cuenta de desarrollador
+* Crear su aplicación en el App Store Connect</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
+[Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [particulares](register-apple-developer-program-individual.html)</div> 
 
-## PASO 1. Create an App ID
+## PASO 1. Crear una identificación de aplicación
 
-#### What is an App ID ?
+#### ¿Qué es un identificador de aplicación?
 
-*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
+*Un identificador de aplicación es una cadena compuesta de dos partes que se utiliza para identificar una o más aplicaciones de un solo equipo de desarrollo. La cadena consta de un Team ID y de un Bundle ID, con un punto (.) que separa las dos partes (por ejemplo, TeamID.BundleID).*<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
+* Si ha elegido una cuenta de desarrollador Apple individual, su cuenta estará disponible de inmediato y puede crear su identificador de aplicación.
 * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
