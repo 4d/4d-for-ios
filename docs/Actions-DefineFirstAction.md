@@ -5,7 +5,7 @@ title: Defining your first action
 
 In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
 
-Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually. 
+Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually.
 
 More globally, we want to **change all tasks status** to postponed or in Progress for example.
 
@@ -64,25 +64,25 @@ C_OBJECT($o;$params;$request;$result)
 
 $request:=$1  // Informations provided by mobile application
 
-$params:=$request.parameters
+$context:=$request.context
 
-Case of 
-		
+Case of
+
 	: ($request.action="taskDone")
-		
+
 		$o:=New object(\
-		"dataClass";$params.dataClass;\
-		"ID";$params.entity.primaryKey;\
+		"dataClass";$context.dataClass;\
+		"ID";$context.entity.primaryKey;\
 		"CompletePercentage";100)
-		
+
 		$result:=modifyStatus ($o)
-		
-	Else 
-		
+
+	Else
+
 		  // Unknown request
 		$result:=New object("success";False)
-		
-End case 
+
+End case
 
 $0:=$result  // Informations returned to mobile application
 
@@ -120,17 +120,17 @@ If ($selection.length=1)
 		$out.success:=True  // notify App that action is successful
 		$out.dataSynchro:=True  // notify App to refresh this entity
 
-	Else 
+	Else
 
 		$out:=$status  // return status to the App
-	
-	End if 
 
-Else 
+	End if
+
+Else
 
 	$out.success:=False  // notify App that action failed
 
-End if 
+End if
 
 $0:=$out
 
@@ -145,7 +145,7 @@ Build and Run you app and there you go! Your **Done action** is available when y
 
 ### STEP 1. Table action in Action section
 
-Now, imagine that you are going on hollidays and you want to **change all your tasks status** to "Postponed". 
+Now, imagine that you are going on hollidays and you want to **change all your tasks status** to "Postponed".
 
 Let's define this action from the Action section:
 
@@ -171,32 +171,32 @@ C_OBJECT($o;$params;$request;$result)
 
 $request:=$1  // Informations provided by mobile application
 
-$params:=$request.parameters
+$context:=$request.context
 
-Case of 
-		
+Case of
+
 	: ($request.action="taskDone")
-		
+
 		$o:=New object(\
-		"dataClass";$params.dataClass;\
-		"ID";$params.entity.primaryKey;\
+		"dataClass";$context.dataClass;\
+		"ID";$context.entity.primaryKey;\
 		"CompletePercentage";100)
-		
+
 		$result:=modifyStatus ($o)
 
 	: ($request.action="postponeAll")
-		
+
 		$o:=New object(\
-		"dataClass";$params.dataClass;\
+		"dataClass";$context.dataClass;\
 		"Status";4)
-		
-		$result:= postponeAll ($o)		
-	Else 
-		
+
+		$result:= postponeAll ($o)
+	Else
+
 		  // Unknown request
 		$result:=New object("success";False)
-		
-End case 
+
+End case
 
 $0:=$result  // Informations returned to mobile application
 
@@ -220,22 +220,22 @@ $in:=$1
 $out:=New object("success";False)
 
 If ($in.dataClass#Null)
-	
+
 	For each ($entity;ds[$in.dataClass].all())
-		
+
 		$entity.Status:=$in.Status
 		$entity.save()
-		
-	End for each 
-	
+
+	End for each
+
 	$out.success:=True  // notify App that action success
 	$out.dataSynchro:=True  // notify App to refresh the selection
-	
-Else 
-	
+
+Else
+
 	$out.errors:=New collection("No Selection")
-	
-End if 
+
+End if
 
 $0:=$out
 
@@ -245,7 +245,7 @@ Build and Run your app! You will find a new **generic button** in the navigation
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
-## Where to Go From Here? 
+## Where to Go From Here?
 
 Congratulations! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
 
@@ -259,4 +259,3 @@ You can download the **Final project** that includes various actions:
 href="../assets/en/actions/TasksActionFinal.zip">FINAL PROJECT</a>
 
 </div>
-
