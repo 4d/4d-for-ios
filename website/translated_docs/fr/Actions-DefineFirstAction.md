@@ -64,25 +64,25 @@ Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau d
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
     
-        Else 
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
     
@@ -118,17 +118,17 @@ Une fois votre méthode base modifiée, vous devez créer une méthode **modifyS
             $out.success:=True  // notify App that action is successful
             $out.dataSynchro:=True  // notify App to refresh this entity
     
-        Else 
+        Else
     
             $out:=$status  // return status to the App
     
-        End if 
+        End if
     
-    Else 
+    Else
     
         $out.success:=False  // notify App that action failed
     
-    End if 
+    End if
     
     $0:=$out
     
@@ -167,15 +167,15 @@ Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et s
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
@@ -183,16 +183,16 @@ Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et s
         : ($request.action="postponeAll")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
+            "dataClass";$context.dataClass;\
             "Status";4)
     
-            $result:= postponeAll ($o)      
-        Else 
+            $result:= postponeAll ($o)
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
     
@@ -219,16 +219,16 @@ Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes éta
             $entity.Status:=$in.Status
             $entity.save()
     
-        End for each 
+        End for each
     
         $out.success:=True  // notify App that action success
         $out.dataSynchro:=True  // notify App to refresh the selection
     
-    Else 
+    Else
     
         $out.errors:=New collection("No Selection")
     
-    End if 
+    End if
     
     $0:=$out
     
