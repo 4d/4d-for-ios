@@ -60,7 +60,7 @@ Do to so, click on **Create button** at the bottom right of the action table and
 C_OBJECT($0)
 C_OBJECT($1)
 
-C_OBJECT($o;$params;$request;$result)
+C_OBJECT($o;$context;$request;$result)
 
 $request:=$1  // Informations provided by mobile application
 
@@ -167,7 +167,7 @@ Click on the **Edit button** at the bottom right of the action table to complete
 C_OBJECT($0)
 C_OBJECT($1)
 
-C_OBJECT($o;$params;$request;$result)
+C_OBJECT($o;$context;$request;$result)
 
 $request:=$1  // Informations provided by mobile application
 
