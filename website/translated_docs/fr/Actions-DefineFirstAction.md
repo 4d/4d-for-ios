@@ -60,7 +60,7 @@ Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau d
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
@@ -163,7 +163,7 @@ Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et s
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
