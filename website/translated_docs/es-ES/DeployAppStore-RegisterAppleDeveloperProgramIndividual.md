@@ -1,41 +1,41 @@
 ---
 id: register-apple-developer-program-individual
-title: Apple Developer Program as an Individual
+title: Apple Developer Program para particulares
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.</div> 
 
-## PASO 1. Apple ID
+## PASO 1. Identificador Apple
 
-If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id) 
 
-If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
+Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-register-as-a-developer) 
 
-## PASO 2. Create your Apple ID
+## PASO 2. Crear su identificación Apple
 
-Go the the [Apple ID creation page](https://appleid.apple.com/)
+Vaya a la [página de creación del identificador Apple ID](https://appleid.apple.com/)
 
 ![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* Llene el formulario y las preguntas de seguridad.
+* Recibirá un código de verificación por correo electrónico.
+* Ingrese el código de verificación para validar la creación de su cuenta.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Una vez que tenga su identificación Apple, puede continuar con el Paso 3.
 
-## PASO 3. Register as a developer
+## PASO 3. Regístrese como desarrollador
 
-* You can register as a developer [here](https://developer.apple.com/account/).
+* Puedes registrarte como desarrollador [aquí](https://developer.apple.com/account/).
 
-* Read and accept the Apple Developer Agreement.
+* Lea y acepte el Contrato de desarrollador de Apple.
 
-* Click **Submit**.
+* Haga clic en **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
