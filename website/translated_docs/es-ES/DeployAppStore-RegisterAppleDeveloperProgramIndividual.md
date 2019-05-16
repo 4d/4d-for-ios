@@ -39,32 +39,32 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## PASO 4. Join the Apple Developer Program
+## PASO 4. Únase al Apple Developer Program
 
-* Click on **Join the Apple Developer Program** at the bottom of the page.
+* Haga clic en **Join the Apple Developer Program** en la parte inferior de la página.
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## PASO 5. Enroll as an individual
+## PASO 5. Inscríbase como particular
 
-* Click on the **Start your Enrollment** button.
-* Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
-* Click **Continue**.
+* Haga clic en el botón **Start your Enrollment**.
+* Seleccione **Individuals / Sole Proprietor / Single Person Business** en la lista desplegable "Entity Type".
+* Haga clic en **Continue**.
 
 ![Start your Enrollment](assets/en/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
-* Complete the form
-* Read and accept the Apple Developer Program License Agreement.
-* Click **Continue**.
+* Llene el formulario
+* Lea y acepte el Contrato de desarrollador de licencia "Apple Developer Program License Agreement".
+* Haga clic en **Continue**.
 
 ![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## PASO 6. Complete your purchase
+## PASO 6. Complete su suscripción
 
-* Click **Purchase** and make payment to complete your enrollment.
+* Haga clic en **Purchase** y realice el pago para finalizar su inscripción.
 
 ![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* When you have completed your purchase, you'll receive an email confirming your membership in the program.
+* Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
 
-Congratulations! You are now ready to publish apps to the App Store!
+¡Felicidades! ¡Ya está listo para publicar aplicaciones en la App Store!
