@@ -1,83 +1,83 @@
 ---
 id: deploy-in-house-archive-and-export
-title: Archive and export your Project
+title: Archivar y exportar un proyecto
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-* Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div class = "prerequisites"> 
+* Archivar y exportar un proyecto 4D for iOS
+* Generar archivos .ipa y manifest</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* A secured web server
-* 57 x 57 px icon
-* 512 x 512 px icon</div> 
+* Un servidor Web seguro
+* Un icono de resolución 57 x 57 px
+* Un icono de resolución 512 x 512 px</div> 
 
-## PASO 1. Xcode configuration
+## PASO 1. Configuración Xcode
 
-Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
+Tras la validación de su cuenta por parte de Apple, abra Xcode y agregue su cuenta de Apple Enterprise Developer en Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates.
+Xcode instalará automáticamente los elementos de provisión y certificados necesarios.
 
-## PASO 2. Get your Team ID
+## PASO 2. Obtenga su Team ID
 
-* Log into your Apple Developer Account. You can find your Team ID in Membership.
+* Inicie sesión en su cuenta de desarrollador Apple. Encuentre su Team ID en Membership.
 
 ![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## STEP 3. 4D for iOS configuration
+## PASO 3. Configuración 4D for iOS
 
-* Launch 4D for iOS
+* Lance 4D for iOS
 
-* On the SECTIONS tab:
+* En la pestaña SECTIONS:
     
-    * General: Enter your Team ID.
+    * General: introduzca su Team ID.
     
     ![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
     
-    * Publishing: Enter your production URL (HTTPS is mandatory for deployment).
+    * Publicación: ingrese su URL de producción (HTTPS es obligatorio para el despliegue).
 
-* On the BUILD tab:
+* En la pestaña BUILD:
     
-    * Build and Run: Build your project.
+    * Crear y ejecutar: cree su proyecto.
 
-## PASO 4. Open your project with Xcode
+## PASO 4. Abra su proyecto con Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* Desde la pestaña BUILD del editor de proyectos, haga clic en Proyecto> Abrir el proyecto con Xcode
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## PASO 5. Archive your project from Xcode
+## PASO 5. Archive su proyecto desde Xcode
 
-* From Xcode, go to the simulator Menu and select **Generic iOS Device**
+* Desde Xcode, vaya al menú del simulador y seleccione **Generic iOS Device**
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Luego desde el menú, haga clic en Product y seleccione **Archive**
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
-## PASO 6. Export your project
+## PASO 6. Exporte su proyecto
 
-* At the end of the archive process, the Organizer window appears with the archive you just created
+* Al final del proceso de archivo, aparece la ventana del Organizador con el archivo que acaba de crear
 
-* Click **Export**.
+* Haga clic en **Export**.
 
 ![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
 
-## PASO 7. Select your distribution method
+## PASO 7. Seleccione su método de distribución
 
-* Select **Enterprise** and click **Next**.
+* Seleccione **Enterprise** y haga clic en **Next**.
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
-## PASO 8. Select your Enterprise distribution options
+## PASO 8. Seleccione las opciones de distribución de su empresa
 
-* You can leave all option boxes checked.
+* Puede dejar todas las casillas de selección marcadas.
 
 ![Enterprise distribution options](assets/en/deploy-in-house/Enterprise-distribution-options.png)
 
