@@ -3,15 +3,15 @@ id: data-formatter-mobile-project
 title: Open mobile project
 ---
 
-Go to Labels & Icons in Sections, you'll see that a new Formatters column is available in the Field Properties:
+Vá em Labels &amp Icons em Seções, verá que a nova coluna Formatadores está disponível na propriedades Campos:
 
 ![Data formatter labels icons](assets/en/data-formatter/data-formatter-labels-icons.png)
 
-From here, you can select specific formats depeding on your needs. Let's define the Available Credit field as a Currency:
+Desde aí pode selecionar formato específicos dependendo de suas necessidades. Vamos definir o campo Crédito Disponível como uma Moeda:
 
 ![Available credit currency](assets/en/data-formatter/available-credit-currency.png)
 
-Let's do the same process for all of the other fields:
+Vamos fazer o mesmo processo para todos os outros campos:
 
 * Set Current Balance as a **Currency $**
 * Set Percent Used as a **Percentage**
