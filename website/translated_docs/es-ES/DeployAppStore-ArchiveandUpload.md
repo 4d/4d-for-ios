@@ -33,13 +33,13 @@ Archivar y publicar un proyecto en la App Store Connect.</div>
 
 **Publicación: introduzca su URL de producción**
 
-(HTTPS is mandatory for deployment).
+(HTTPS es obligatorio para el despliegue).
 
 ![Publishing](assets/en/deploy-app-store/Publishing.png)
 
-* On the BUILD tab:
+* En la pestaña BUILD:
 
-**Build and Run: Build your Project**
+**Crear y ejecutar: cree su proyecto**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
