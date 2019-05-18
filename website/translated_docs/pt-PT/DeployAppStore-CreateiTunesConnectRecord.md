@@ -105,20 +105,20 @@ Pode gerar todas as capturas de tela em Simulador (File > New Screen Shot).</div
 * Insira uma **Support URL** que inclua informação de assistência ténica para sua aplicação. Esta URL vai ser visível na App Store.
 * **Marketing URL** é opcional. Isso pode dirigir aos usuários a um website de marketing para sua aplicação. 
 
-In the **iOS App section**:
+Na seção **iOS App**:
 
 ![iOS App section](assets/en/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Locate your build versions in **Build**.
+Localize as versões de seu produto em **Build**.
 
-* In **General App Information** area, enter the Copyright, Version, and Trade Representative Contact Information for your app.
-* Your app icon is included in the generated 4D for iOS project.
-* Rating is a required property used by the App Store's parental controls. Click Edit and select the appropriate age category for your app.
+* Na área **General App Information** ingresse os direitos de autor, a versão e informação de contato de sua aplicação.
+* O ícone de sua aplicação é incluído no projeto gerado 4D para iOS.
+* A classificação etária ou rating é uma propriedade usada para os controles parentais de App Store. Clique Edit e selecione a faixa etária apropriada para sua aplicação.
 
-The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
+As seções **App Review Information** e **Version Release** incluem informações exigidas pela App Store. A informação oferecida aí não será vista pelos usuários.
 
 ![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information**: Confidential contact and security information. 
-* **Version Release**: Specifies an automatic or manual publication.
-* Finally, click **Save**.
+* **App Review Information**: Informações confidenciais de contato e de segurança. 
+* **Version Release**: especifica uma publicação automática ou manual.
+* Finalmente, clique **Save**.
