@@ -1,21 +1,21 @@
 ---
 id: icon-detailform-template
-title: Detail form icon
+title: Icono de formulario detallado
 ---
 
-You can create your own template icon.
+Puede crear su propio icono para su plantilla.
 
-It must be 160x160px and must be named **layoutIconx2.png**
+Debe ser de 160x160px y debe llamarse **layoutIconx2.png**
 
-The icon will be used:
+El icono se utilizará:
 
-* above the table name when the template has been selected, and
-* in the template selector window in the **Forms section**
+* sobre el nombre de la tabla cuando la plantilla haya sido seleccionada, y
+* en la ventana de selección de plantillas en la **sección Formularios**
 
 ![Custom detailform template](assets/en/custom-detailform/custom-detailform-template.png)
 
-If this icon is missing from your detail form template folder the **template.svg file** (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon. ![Missing listform icon custom template](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
+Si no está este icono en la carpeta de plantillas de formulario detallado, el archivo **template.svg** (lo veremos más adelante) se mostrará en la ventana del selector de plantillas y aparecerá un icono de signo de interrogación sobre cada tabla a la que le falte un icono. ![Missing listform icon custom template](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
 
-We've used Photoshop to create the detail form template icon in our example, but you can use any image software.
+Hemos utilizado Photoshop para crear el icono de plantilla de formulario detallado en nuestro ejemplo, pero puede utilizar el software de imagen que prefiera.
 
 ![Custom listform template icon](assets/en/custom-detailform/custom-detail-form-icon.png)
