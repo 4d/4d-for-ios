@@ -75,28 +75,28 @@ Xcode vai instalar automaticamente o provisionamento e certificados necessários
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
-## PASSO 8. Select your Enterprise distribution options
+## PASSO 8. Selecione as opções de distribuição de sua empresa
 
-* You can leave all option boxes checked.
+* Pode deixar todas as caixas de opção marcadas.
 
 ![Enterprise distribution options](assets/en/deploy-in-house/Enterprise-distribution-options.png)
 
-* You can choose to let Xcode generate a manifest.plist file for you or generate it manually.
+* Pode deixar que o Xcode gere um arquivo manifest.plist para você ou gerá-lo manualmente.
 
-* Click **Next**.
+* Clique **Next**.
 
-#### What is a manifest?
+#### O que é um manifesto?
 
-The manifest is an XML-based property list and should contain:
+O manifesto é uma lista de propriedades baseada em XML e deve conter:
 
-* **URL** : URL pointing to the .ipa file.
-* **display-image**: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
-* **full-size-image**: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
-* **bundle-identifier**: Your app identifier string. You can get it from your app's .plist file.
-* **bundle-version**: Your app's current bundle version string. You can get it from your app's .plist file.
-* **title**: Your app's name.
+* **URL** : URL que aponte ao arquivo .ipa.
+* **display-image**: URL que aponte a um ícone 57 x 57 px (72 x 72 px para iPad) PNG usado durante o download e instalação.
+* **full-size-image**: URL que aponte a uma imagem PNG de 512 x 512 px representando a aplicação iTunes.
+* **bundle-identifier**: a string de identificação de seu app. Pode obtê-lo desde o arquivo .plist de seu app.
+* **bundle-version**: A string da versão atual de seu pacote de aplicação. Pode obtê-lo do arquivo .plist de seu app.
+* **title**: O nome de sua aplicação.
 
-Here is an example of a manifest.plist file :
+Aqui está um exemplo de um arquivo manifest.plist:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -143,26 +143,26 @@ Here is an example of a manifest.plist file :
     </plist>
     
 
-## PASSO 9. Distribution manifest information
+## PASSO 9. Informação sobre a distribuição do manifesto
 
-* We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
+* Recomendamos deixar que Xcode faça o trabalho de entrar sua URL de app assim como as URLs de ícones. Você pode mudar as URLs depois.
 
 ![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Click **Next**. 
+* Clique **Next**. 
 
-## PASSO 10. Re-sign your application
+## PASSO 10. Volte a assinar sua aplicação
 
-* Let Xcode manage the **Automatically manage signing** option.
+* Deixe que Xcode administre a opção **Automatically manage signing**.
 
 ![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
 
-* Click **Next**.
+* Clique **Next**.
 
-## STEP 11. Review your app.ipa content
+## PASSO 11. Verifique o conteúdo do .ipa de sua aplicação
 
-* Here you can verify that your application identifier is correct as well as your Team ID.
+* Aqui pode verificar se o identificador de sua aplicação está correto, assim como a ID de Time.
 
 ![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Clique em **Export** e selecione onde vai salvar a pasta de seu app no computador.
