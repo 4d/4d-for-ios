@@ -3,66 +3,66 @@ id: storyboard-detailform-template
 title: Storyboard
 ---
 
-Now it's time to create your iOS detail form interface with Xcode!
+¡Ahora es el momento de crear su interfaz iOS de formulario detallado con Xcode!
 
-Here's the result we want to achieve:
+Este es el resultado que queremos lograr:
 
 ![Storyboard custom detailform](assets/en/custom-detailform/storyboard-custom-detailform.png)
 
-For each cell, we're going to add a:
+Para cada celda, vamos a añadir:
 
-* Profile header image 
-* A field to be duplicated
+* Una foto de perfil en el encabezado 
+* Un campo a duplicar
 
-## Open the storyboard file with Xcode
+## Abrir el archivo storyboard con Xcode
 
-First, open your storyboard file in Xcode.
+Primero, abra su archivo storyboard en Xcode.
 
 ![Empty storyboard custom template](assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png)
 
-It's quite empty, so let's add some content!
+Está bastante vacío, así que vamos a agregar algo de contenido.
 
-## Add a Scroll View
+## Añadir un "Scroll View"
 
-For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
+Para que nuestro formulario detallado sea desplazable, el primer paso es arrastrar y soltar una "Scroll View" (vista de desplazamiento) desde la **Librería de objetos**.
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
+Desde el **Inspector de tamaño** (en el lado derecho de la ventana del Interface Builder), defina el valor del Scroll vista en 359 y el valor de altura en 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
+Luego, agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: 8, Top: 0, y Bottom: 0) como se muestra a continuación:
 
 ![Scrollview Constraints](assets/en/custom-detailform/scrollview-constraints.png)
 
-## Add a Vertical Stack View
+## Añadir una "Vertical Stack View"
 
-Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
+Arrastre y suelte una "Vertical Stack View" desde la **librería de objetos** a la "Scroll view". Desde el **Size inspector** (al lado derecho del Interface Builder), defina el valor de ancho en 359 y el valor de alto en 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and contraints later.
+Dado que el ancho y el alto del Stack View están definidos por los elementos que se encuentran dentro de ella, configuraremos el tamaño y las restricciones más adelante.
 
-## Add Views to the Stack Views
+## Añadir las vistas en el Stack Views
 
-Drag and drop a view from the **Object library** to the Stack View you've just added to your storyboard. Let's name it **Field View 1**.
+Arrastre y suelte una vista de la **librería de objetos** en la Stack View que acaba de agregar a su storyboard. Llamémosla **Field View 1**.
 
 ![Add Field View 1](assets/en/custom-detailform/add-view1-storyboard.png)
 
-Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
+Luego arrastre y suelte otra vista de la **Librería de objetos** directamente en el Document Outline al mismo nivel que Field View 1 (para integrarla en la Stack View) y llámela **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
 
-To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
+Para agregar espacio entre las vistas, seleccione su Stack View y defina el valor de espaciado en 8 (en el Attributes Inspector).
 
 ![Stackview spacing](assets/en/custom-detailform/stackview-spacing.png)
 
-Select both **Field View 1** and **Field View 2** and in the **Size inspector panel** (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.
+Seleccione **Field View 1** y **Field View 2** y defina, en el **Size inspector** (a la derecha del Interface Builder), el valor de ancho en 359 y de alto en 97.
 
 ![views position height and width](assets/en/custom-detailform/views-position-height-width-storyboard.png)
 
-Select **Field View 1** add three constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, and Top: 0):
+Seleccione **Field View 1** y añada tres restricciones haciendo clic en el botón **Add New Constraints button** (Trailing: 0, Leading: 0 y Top: 0):
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
