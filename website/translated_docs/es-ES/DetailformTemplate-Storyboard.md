@@ -66,9 +66,9 @@ Seleccione **Field View 1** y añada tres restricciones haciendo clic en el bot�
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a contraint:
+Para que "Stack View" y "Scroll View" tengan el mismo ancho, debe agregar un restricción:
 
-Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+Presione Ctrl y arrastre la Stack View a la Scroll View. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione "Equal Width".
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
