@@ -72,35 +72,35 @@ Presione Ctrl y arrastre la Stack View a la Scroll View. Cuando suelte el botón
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
-Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
+Luego, agregue cuatro restricciones con la Stack View haciendo clic en **Add New Constraints** (Trailing: 0, Leading: 0, Top: 8, y Bottom: 0) como se muestra a continuación:
 
 ![Stackview constraints](assets/en/custom-detailform/stackview-constraints.png)
 
-Here's what you'll see when constraints have been added :
+Esto es lo que verá cuando se agreguen restricciones:
 
 ![Stackview final constraints](assets/en/custom-detailform/stackview-constraints-final.png)
 
-Now that you have two views in your Stack View and you've defined constraints, let's focus on Field View 1.
+Ahora que tiene dos vistas en su Stack View y ha definido restricciones, concentrémonos en Field View 1.
 
-## Add an Image View to Field View 1
+## Añada una Image View al Field View 1
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+Desde la **Object library** (la librería de objetos), arrastre y suelte una **Image View** (una vista de imagen) en Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
-In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. Then set the X value to 0 and the Y value to 0.
+Desde el **Size inspector** (al lado derecho del Interface Builder), defina el valor del ancho del Image View en 359 y su altura en 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.
 
 ![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
+Luego, agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 0, Leading: 0, Top: 0, y Bottom: 0) como se muestra a continuación:
 
 ![Image View constraints](assets/en/custom-detailform/imageview-constraints.png)
 
-In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
+En el **Size inspector**cambie el valor **Default** del intrínseco Size por **Placeholder**.
 
 ![Intrinsic size Image View](assets/en/custom-detailform/intrinsic-size-imageview.png)
 
-## Add Labels to Field View 2
+## Añadir las etiquetas al Field View 2
 
 ### Title label
 
