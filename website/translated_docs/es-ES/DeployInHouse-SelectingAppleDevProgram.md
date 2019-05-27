@@ -1,27 +1,27 @@
 ---
 id: deployment
-title: Selecting your Apple Developer Program
+title: Seleccionar un Apple Developer Program
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Choose the appropriate Apple Developer Program.</div> 
+Elegir el Apple Developer Program apropiado.</div> 
 
-You must have a valid Apple Developer account to **distribute an iOS app**. Apple offers two developer programs:
+Debe tener una cuenta de desarrollador Apple válida para **distribuir una aplicación iOS**. Apple ofrece dos programas para desarrolladores:
 
-* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [for individual](register-apple-developer-program-individual.html) – $99/year 
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) – $299/year
+* [Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [para los particulares](register-apple-developer-program-individual.html) 
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) – $299/año
 
-The main difference between the two programs is:
+La principal diferencia entre los dos programas es:
 
-* **Apple Developer Program (for organization or individual)**: Allows you to distribute app(s) **on the App Store**.
+* **Apple Developer Program (para las empresas o para los particulares)**: le permite distributir aplicaciones**en el App Store**.
 
-* **Apple Developer Enterprise Program**: Provides resources ONLY for developing and distributing **proprietary, in-house apps** to employees.
+* **Apple Developer Enterprise Program**: ofrece recursos ÚNICAMENTE para desarrollar y distribuir **aplicaciones internas patentadas** a empleados.
 
-For **test purposes** you can use a [Free Apple Developer Program](free-developer-account.html).
+Para **pruebas** puede utilizar un [Apple Developer Program gratuito](free-developer-account.html).
 
-Here is a chart comparing the different levels of developer membership:
+Aquí hay un gráfico que compara los diferentes niveles de membresía de desarrollador:
 
 ![Developer membership levels](assets/en/test-build/FreeTestingAppleDeveloperAccount.png)

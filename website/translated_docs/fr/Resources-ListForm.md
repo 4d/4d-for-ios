@@ -108,13 +108,13 @@ title: Modèles de formulaires Liste
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Slanted Collection</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> Collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Type :</strong> Collection</li>
+  <li><strong>Sections :</strong> non disponible</li>
+  <li><strong>Actions :</strong> longue pression sur la cellule</li>
+  <li><strong>Image requise :</strong> oui</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformSlantedCollection.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformSlantedCollection.zip">TELECHARGER</a></p>
 
 </div>
   </td>

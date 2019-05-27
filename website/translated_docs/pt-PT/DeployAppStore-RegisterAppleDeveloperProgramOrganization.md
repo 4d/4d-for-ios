@@ -1,96 +1,96 @@
 ---
 id: register-apple-developer-program-organization
-title: Apple Developer Program as an Organization
+title: Apple Developer Program para as empresas
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
+Regístre-se no Apple Developer Program como empresa para publicar sua aplicação na **App Store**.</div> <div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+Para se inscrever no Programa Apple Developer Program como organização, sua identificação de Apple deve estar associada a uma direção de correio eletrônico com o nome de domínio de sua empresa.</div> 
 
-## PASSO 1. Apple ID
+## PASSO 1. Identificador Apple
 
-If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
+Se ainda não tiver uma Apple ID vá para [Passo 2](#step-2-create-your-apple-id).
 
-If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+Se já tiver uma Apple ID, vá para [Passo 3](#step-3-d-u-n-s-number).
 
-## PASSO 2. Create your Apple ID
+## PASSO 2. Crie sua Apple ID
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
 ![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* Complete o formulário e perguntas de segurança.
+* Vai receber um código de verificação por email.
+* Entre o código de verificação para validar a criação de sua conta.
 
 ![Register developer program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Quando tiver sua Apple ID pode continuar para o Passo 3.
 
-## PASSO 3. D-U-N-S Number
+## PASSO 3. Número D-U-N-S
 
-* If you don’t have a D-U-N-S Number, go to [Step 4](#step-4-request-a-d-u-n-s-number).
-* If you already have a D-U-N-S Number, go to [Step 5](#step-5-register-as-a-developer).
+* Se não tiver um número D-U-N-S, vá para [Passo 4](#step-4-request-a-d-u-n-s-number). 
+* Se já tiver um número D-U-N-S, vá para [Passo 5](#step-5-register-as-a-developer). 
 
-## PASSO 4. Request a D-U-N-S Number
+## PASSO 4. Solicite um número D-U-N-S
 
-Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
+Solicite um número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-lookup/#/search)
 
 ![Request a D-U-N-S Number](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
-* Complete the form.
-* Click **Continue**.
-* Check your email for the D-U-N-S Number.
+* Complete o formulário.
+* Clique **Continue**.
+* Verifique su e-mail para obter o número D-U-N-S.
 
 ![D-U-N-S Number](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## PASSO 5. Register as a developer
+## PASSO 5. Registre-se como um desenvolvedor.
 
-You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
+Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Click on the **Start your Enrollment** button.
-* Read and accept the Apple Developer Agreement. 
-* Click **Submit**.
+* Clique no botão **Start your Enrollment**.
+* Leia e Aceite o Contrato de Desenvolvedor de Licença "Apple Developer Agreement". 
+* Clique em **Submit**.
 
 ![Register as a developer](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## PASSO 6. Join the Apple Developer Program
+## PASSO 6. Una-se ao Apple Developer Program
 
-* You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/). 
+* Puede se inscrever ao Apple Developer Program [aqui](https://developer.apple.com/enroll/enterprise/). 
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## PASSO 7. Enroll as an organization
+## PASSO 7. Inscreva-se como empresa
 
-* Click on the **Start your Enrollment** button.
-* Select **Company / Organization** from the Entity Type dropdown list.
-* Click **Continue**.
+* Clique no botão **Start your Enrollment**.
+* Selecione **Company / Organization** na lista suspensa "Entity Type".
+* Clique **Continue**.
 
 ![Apple Developer Program](assets/en/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
-* Complete the form.
-* Click **Continue**. 
+* Complete o formulário.
+* Clique em **Continue**. 
 
 ![Enroll as an organization](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
-* Apple has an internal verification process that usually takes up to six working days. Once Apple receives the enrollment request, they verify that you have the authority to bind your organization to the Apple Developer Program's legal agreements.
-* Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
-* You'll then receive another email inviting you to complete the enrollment process.
+* Apple tem um processo de verificação interno que geralmente demora até seis dias hábeis. Quando Apple receber a solicitação de inscrição, eles vão verificar se o desenvolvedor tem autoridade para vincular a organização com os acordos legais do Apple Developer Program.
+* Apple geralmente verifica se o contato principal existe e se realmente solicitou o registro no Apple Developer Enterprise Program.
+* Depois receberá outro email convidando para que complete o processo de inscrição.
 
 ![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## PASSO 8. Complete your purchase
+## PASSO 8. Complete sua inscrição
 
-* Once your enrollment request has been accepted, you can then proceed to payment.
+* Quando sua solicitação de inscrição tenha sido aceita pode realizar o pagamento.
 
 ![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* When you have completed your purchase, you'll receive an email confirming your membership in the program.
+* Quando completar sua compra, vai receber um email configurando sua inscrição no programa.
 
-Congratulations! You are now ready to publish applications to the App Store!
+Parabéns Já está pronto para publicar aplicações à App Store!

@@ -184,31 +184,31 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
     
     ## Abrir un proyecto móvil
     
-    Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+    Abra el Task Management.4dbase con 4D y vaya a Archivo > Abrir > Proyecto móvil... para abrir **Tasks**
     
-    Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+    A continuación, vaya a la sección **Etiquetas e iconos** en el editor de proyectos. Todos los formatos están disponibles para los diferentes tipos de campos definidos previamente en los diferentes archivos de formato manifest.json:
     
-    * Select the **integerToString** formatter for the **Job field**
-    * Select the **textToString** formatter for the **Country field**
-    * Select the **integerToImage** formatter for the **Task Status**
-    * Select the **textToImage** formatter for the **Manager**
+    * Seleccione el formato **integerToString** para **Job field**
+    * Seleccione el formato **textToString** para **Country field**
+    * Seleccione el formato **integerToImage** para **Task Status**
+    * Seleccione el formato **textToImage** para **Manager**
     
     ![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
     
-    ## Build your 4D for iOS app
+    ## Genere su aplicación 4D for iOS
     
-    Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+    Genere su aplicación 4D for iOS y verá que su formateador de datos se aplica correctamente en función del "crédito límite".
     
     ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
     
-    Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+    Haga clic en el botón **FORMAT FINAL** a continuación para descargar la carpeta final de modelos de formatos. 
     
     <div style="text-align: center; margin-top: 20px">
       <p>
         
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
 
       </p>
     </div>
