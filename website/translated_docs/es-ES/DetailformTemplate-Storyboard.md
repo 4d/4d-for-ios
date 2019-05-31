@@ -102,7 +102,7 @@ En el **Size inspector**cambie el valor **Default** del intrínseco Size por **P
 
 ## Añadir las etiquetas al Field View 2
 
-### Title label
+### Etiqueta de título
 
 In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
 
