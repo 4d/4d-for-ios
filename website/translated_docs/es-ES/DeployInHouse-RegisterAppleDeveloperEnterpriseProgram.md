@@ -15,9 +15,9 @@ Para inscribirse al Apple Developer Enterprise Program, su identificación de Ap
 
 ## PASO 1. Identificador Apple
 
-If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id).
 
-If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
+Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-d-u-n-s-number).
 
 ## PASO 2. Cree su identificación Apple
 
@@ -87,4 +87,4 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 * Una vez que su solicitud de inscripción haya sido aceptada, puede proceder al pago.
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
-Congratulations ... ¡Ya está listo para desplegar su aplicación interna!
+¡Felicidades! ¡Ya está listo para desplegar su aplicación interna!
