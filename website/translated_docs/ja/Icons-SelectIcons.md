@@ -1,20 +1,20 @@
 ---
 id: select-icons
-title: Select your icons
+title: アイコンを選択する
 ---
 
-Open your project and go to Labels & Icons in Sections.
+プロジェクトを開いて「ラベル＆アイコン」セクションに移動します。
 
-Click on the contact table icon. All available icons are displayed.
+Contactテーブルのアイコンをクリックします。 使用できるアイコンの選択肢が増えていることに注目してください。
 
-Select the contact icon:
+テーブルを表現するアイコンを選択します。
 
-![Contact icon](assets/en/custom-icons/contact-icon.png)
+![アイコンの一覧にカスタムアイコンが追加されている](assets/en/custom-icons/contact-icon.png)
 
-Select icons adapted for your fields:
+各フィールドを表現するアイコン画像を選択してゆきます。
 
-![Contact icon](assets/en/custom-icons/field-icons.png)
+![カスタムアイコンが選択されている](assets/en/custom-icons/field-icons.png)
 
-Here's the final result :
+アプリを実行して結果を確認してください。
 
-![Contact icon](assets/en/custom-icons/custom-icons-final-result.png)
+![カスタムアイコンが表示されている](assets/en/custom-icons/custom-icons-final-result.png)
