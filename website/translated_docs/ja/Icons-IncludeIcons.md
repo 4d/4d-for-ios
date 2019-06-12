@@ -1,10 +1,10 @@
 ---
 id: include-icons
-title: Include icons in the project
+title: プロジェクトにアイコンを追加する
 ---
 
-First, create a *Contact.4dbase/Resources/Mobile/medias/icons folder* and drag and drop the downloaded icons in it.
+*Contact.4dbase/Resources/Mobile/medias/icons*フォルダーを作成し，ダウンロードしたアイコンセットを中にドラッグ＆ドロップします。
 
-![Mobile folder custom icons](assets/en/custom-icons/mobile-folder-custom-icons.png)
+![Mobile フォルダーに追加されたカスタムアイコン](assets/en/custom-icons/mobile-folder-custom-icons.png)
 
-We used a blue color to differentiate between embedded and our own icons in the icon library.
+アイコンライブラリで既定のアイコンと区別できるように，ブルーのアイコン画像を追加しました。
