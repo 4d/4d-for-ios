@@ -1,16 +1,16 @@
 ---
 id: custom-detailform-templates
-title: Detail Form Templates
+title: 詳細画面のテンプレート
 ---
 
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**はじめに**
 
-1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+1. カスタム詳細画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/detail` フォルダーを作成してください。
 
-2. Then drop the detail form folder into it.</div> 
+2. カスタム詳細画面テンプレートは，このフォルダーの中にインストールします。</div> 
 
 <div style="height: auto;">
   <table>
@@ -22,12 +22,12 @@ title: Detail Form Templates
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Tasks Detail</h1>
   <ul style="font-size:16px">
-  <li><strong>Included ressources:</strong> yes</li>
-  <li><strong>Actions:</strong> included</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>関連ファイル:</strong> あり</li>
+  <li><strong>アクション:</strong> 対応</li>
+  <li><strong>ピクチャフィールド:</strong> 不要</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/DetailformTasksDetail.zip">ダウンロード</a></p>
 
 </div>
   </td>
@@ -36,12 +36,12 @@ title: Detail Form Templates
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Parallax Detail</h1>
   <ul style="font-size:c16px">
-  <li><strong>Included ressources:</strong> yes</li>
-  <li><strong>Actions:</strong> included</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>関連ファイル:</strong> あり</li>
+  <li><strong>アクション:</strong> 対応</li>
+  <li><strong>ピクチャフィールド:</strong> 必要</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/Detailform-ParallaxDetail.zip">ダウンロード</a></p>
 
 </div>
   </td>
