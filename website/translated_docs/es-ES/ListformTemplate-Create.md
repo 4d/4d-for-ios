@@ -1,44 +1,44 @@
 ---
-id: creating-listform-templates
-title: List form templates
+id: creating-detailform-templates
+title: Plantillas de formulario listado
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Create your first list form template.</div> <div class = "prerequisites"> 
+Crear su primera plantilla de formulario listado.</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+En este tutorial, cubriremos casi todos los aspectos de la creación de una plantilla de formulario listado como: la creación de un formulario listado con una **barra de búsqueda** y una tabla que muestra una **imagen**, un **título**, y un **subtítulo** para cada celda.
 
 ![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
-## Download the Starter Project
+## Descargue el proyecto Starter
 
-Before we begin, be sure to download the **Starter Project** which includes:
+Para comenzar, descargue el **Starter Project**, que incluye:
 
-* A **List form** folder 
-* A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
+* Una carpeta **List form** 
+* Un archivo **Contact.4dbase** (base de demostración con un proyecto de aplicación móvil listo para utilizar)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormStarterProject.zip">LISTFORM STARTER PROJECT</a>
+href="../assets/en/custom-listform/CustomListFormStarterProject.zip">PROYECTO STARTER LISTFORM</a>
 
   </p>
 </div>
 
-You are now ready to create your first list form template!
+¡Ahora está listo para crear su primera plantilla de formulario listado!
 
-## Add a list form template to your mobile project
+## Añada una plantilla de formulario listado a su proyecto móvil
 
-The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
+Primero deber crear una carpeta *Contact.4dbase/Resources/Mobile/form/list*. Then drag and drop your **list form** folder into it.
 
 ![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
