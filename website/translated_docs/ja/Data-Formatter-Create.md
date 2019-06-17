@@ -38,7 +38,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 
 まず*Task Management.4dbase/Resources/Mobile/formatters* フォルダを作成します。
 
-![Formatter フォルダ](assets/en/custom-formatter/formatter-folder.png)
+![Formatter フォルダー](assets/en/custom-formatter/formatter-folder.png)
 
 ## 整数用フォーマッター
 
@@ -47,7 +47,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 * 作成したformatters フォルダ内に**integerToString** フォルダを作成します。
 * 次に、**integerToString** フォルダ内に**manifest.json** ファイルを作成します。
 
-![Formatter フォルダ](assets/en/custom-formatter/formatter-folder-integertostring.png)
+![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -77,11 +77,11 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 
 * **integerToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
-![Formatter フォルダ](assets/en/custom-formatter/formatter-folder-integertoimage.png)
+![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
 * 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
 
-![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
+![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -121,7 +121,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 
 * 次に、**textToString** フォルダ内に**manifest.json** ファイルを作成します。
 
-![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
+![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -151,11 +151,11 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 
 * 次に、**textToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
-![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
+![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
 * 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
 
-![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
+![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-textToImage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -193,13 +193,13 @@ Task Management.4dbase を4D 開き、メニューから ファイル > 開く >
 * **Task Status** に対しては**integerToImage** フォーマッターを選択します。
 * **Manager** に対しては**textToImage** フォーマッターを選択します。
 
-![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
+![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## 自分の4D for iOS アプリをビルドする
 
 4D for iOS アプリをビルドすると、クレジットの限度額に応じてデータフォーマッターが適切に適用されているのが分かります。
 
-![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
+![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-final-result.png)
 
 以下の**FORMATTER FINAL** をクリックして、完成されたフォーマッターテンプレートのフォルダをダウンロードして下さい。
 
@@ -208,7 +208,7 @@ Task Management.4dbase を4D 開き、メニューから ファイル > 開く >
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">完成プロジェクト</a>
 
   </p>
 </div>

@@ -1,19 +1,19 @@
 ---
 id: prerequisites
-title: Prerequisites
+title: はじめにお読みください
 ---
 
-## Software requirements
+## ソフトウェアのシステム要件
 
-* 4D Developer Pro v17 R2 64-bit (Development)
-* 4D Server v17 R2 64-bit (Deployment) 
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
+* 4D Developer Professional v17 R2 64ビット版（開発時）
+* 4D Server v17 R2 64ビット版（運用時） 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) がMacにインストールされていること（必須ではありません） 
 
-Apple configurator 2 requires **macOS 10.14** or later. Install this software if you want to automate app installation on your physical device.
+Apple configurator 2 を使用するためには **macOS 10.14** 以降が必要です。 アプリをデバイスにインストールするプロセスを自動化することができます。
 
-Xcode 10.2 requieres **macOS 10.14** or later.
+Xcode 10.2 を使用するためには **macOS 10.14** 以降が必要です。
 
-## Version comparison table
+## バージョン対応表
 
 | Xcode | Swift | iOS      | 4D   |
 | ----- | ----- | -------- | ---- |
@@ -23,31 +23,31 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 | 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
 | 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
 
-### Using 17R4 with Xcode 10.2
+### 17R4 と Xcode 10.2 の組み合わせについて
 
-Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.
+Swift言語のABI不安定性により，4D 17R4に統合されている4D for iOSは，Xcode 10.2に対応していません。
 
-Fortunately we provide an alternative component compatible with Xcode 10.2.
+Xcode 10.2に対応しているバージョンの4D for iOSは，別途，ダウンロードすることができます。
 
-You can replace the internal user component `4D Mobile App.4dbase`, that you can find into `../4D.app/Contents/Resources/Internal User Components/`, by the provided one:
+`../4D.app/Contents/Resources/Internal User Components/` のコンポーネントをダウンロードした `4D Mobile App.4dbase` と入れ替えてください。
 
 <a class="button"
 href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20Xcode%2010.2/4D%20Mobile%20App.4dbase.zip">4D Mobile App.4dbase.zip</a>
 
-## Hardware requirements
+## ハードウェアのシステム要件
 
-* 8GB of RAM (Minimum recommended)
+* 8GB 以上のメモリ
 
-## Configuration
+## データベース設定
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* v17以前に作成されたデータベースの場合，データベース設定ダイアログで「互換性」ページに移動し，**オブジェクトプロパティにアクセスするのにオブジェクト記法を使用（Unicode 必須）**が有効にされていることを確認してください。
 
-![Use object notation](assets/en/prerequisites/Use-object-notation.png)
+![オブジェクト記法を有効にする](assets/en/prerequisites/Use-object-notation.png)
 
-* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
+* HTTP および HTTPS の設定が有効であることを確認してください。 4D for iOSで開発したアプリをデバイスにインストールして使用するのであれば，HTTPS は必須です。
 
-![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
+![Webサーバーのデータベース設定](assets/en/prerequisites/Web-Configuration.png)
 
-* Your Web Server must be started. It's available from the Run menu:
+* Webサーバーを開始してください。 実行メニューからサーバーを開始することができます。
 
-![Start web server](assets/en/prerequisites/Start-web-server.png)
+![Webサーバーの開始](assets/en/prerequisites/Start-web-server.png)
