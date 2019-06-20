@@ -14,7 +14,7 @@ This section allows you to define actions names, icons and scope for each table.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call your all your 4D methods.
+A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods.
 
 ## iOS app Side
 
