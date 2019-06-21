@@ -14,7 +14,7 @@ Esta sección le permite definir los nombres y los íconos para cada acción y e
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-Un nuevo método base [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) está disponible para llamar a todos sus métodos 4D.
+A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods.
 
 ## Aplicación iOS
 
