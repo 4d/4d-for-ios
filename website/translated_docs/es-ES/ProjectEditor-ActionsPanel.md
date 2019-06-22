@@ -40,16 +40,16 @@ En su aplicación iOS, las acciones están disponibles de diferentes formas en s
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
-### Detail forms
+### Formularios detallados
 
-As for Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+Como para las acciones de tabla en los formularios detallados, un botón de acciones genéricas está disponible en la barra de navegación para mostrar todas sus acciones de entidad en una lista.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
-## Where to Go From Here?
+## ¿Qué hacer ahora?
 
-* We will see [later](action-custom-template.html#step-4-add-actions-in-detail-forms) how to include your own **custom action button** in detail forms.
+* Veremos [más adelante](action-custom-template.html#step-4-add-actions-in-detail-forms) cómo incluir su propio **botón de acción personalizado** en los formularios detallados.
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutorial](actions-getting-started.html) está disponible para guiarlo a través del **proceso de definición de una acción**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Otro [tutorial](action-custom-template.html) lo guiará para integrar los **TAG de acción** en las plantillas personalizadas.
