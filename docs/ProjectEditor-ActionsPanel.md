@@ -24,9 +24,7 @@ Then the first thing you need to do is to define the following information:
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-<<<<<<< HEAD
-A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods.
-=======
+
 ### Add parameters to your action
 
 Since **17R6** you are able to add **action parameters** and **edit** data directly from your app.
@@ -173,7 +171,6 @@ For Edit and Add actions you are free to adjust:
 A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods. 
 
 Just clic on Create button after having created all your actions from the Actions section to automatically generate a Case of in the On Mobile App Actions that includes all your action names.
->>>>>>> feature/actionparameters
 
 ## iOS app Side
 
