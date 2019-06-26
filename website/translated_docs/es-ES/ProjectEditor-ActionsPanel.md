@@ -3,40 +3,40 @@ id: actions
 title: Actions
 ---
 
-This section allows you to define actions names, icons and scope for each table.
+Esta sección le permite definir los nombres y los íconos para cada acción y el alcance para cada tabla.
 
-## Project editor Side
+## Editor de proyecto
 
-* **Names:** Add a new action by clicking on the Plus button.
-* **Icons:** Select an icon for your action from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Table:** Select the table on which you want to apply the action.
-* **Scope:** Select if you want to apply the action on an **entity** or on a **table**.
+* **Nombres:** añade una nueva acción haciendo clic en el botón Más "+".
+* **Iconos:** seleccione un icono para su acción de su librería de iconos. También puede agregar su propio icono siguiendo este [tutorial](using-icons.html).
+* **Tabla:** seleccione la tabla en la que desea aplicar la acción.
+* **Alcance:** seleccione si desea aplicar la acción en una **entidad** o en una **tabla**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call your all your 4D methods.
+Un nuevo método base [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) está disponible para llamar a todos sus métodos 4D.
 
-## iOS app Side
+## Aplicación iOS
 
-In your iOS app, actions are available in different ways in your Listforms and Detailforms, depending on the templates you select in the form section.
+En su aplicación iOS, las acciones están disponibles de diferentes formas en sus formularios listados y detallados, según las plantillas que seleccione en la sección Formularios.
 
-### Table List forms
+### Formularios Lista en tabla
 
-* **Entity action:** swipe left on a cell to display available actions in a List form. A "+" button is displayed if you define more than 3 actions per entity.
+* **Acción de entidad para las celdas:** deslice hacia la izquierda en una celda para mostrar las acciones disponibles en un formulario Lista. Se muestra un botón "+" si define más de 3 acciones por entidad.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** a generic actions button is available in the navigation bar to display a list of table actions.
+* **Acciones de tabla:** un botón de acciones genéricas está disponible en la barra de navegación para mostrar una lista de acciones de tabla.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-### Collection List forms
+### Formularios Lista en colección
 
-* **Entity action:** depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Acción de entidad para las celdas:**dependiendo de la plantilla seleccionada, las acciones se muestran al hacer clic en un botón genérico o al mantener el clic en una celda.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** as for Table List forms, a generic Actions button is available in the navigation bar to display a list of table actions.
+* **Acciones de tabla:** como para los formularios Lista en tablas, hay un botón de acciones genérico disponible en la barra de navegación para mostrar una lista de acciones de la tabla.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 

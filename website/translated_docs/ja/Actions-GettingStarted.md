@@ -1,24 +1,24 @@
 ---
 id: actions-getting-started
-title: Getting started
+title: はじめてのアクション
 ---
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**レッスンの目標**
 
-Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
+作成したiOSアプリに自作のアクションを追加しましょう！</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**用意するもの**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+始めるために揃えておくべきものは[こちら](prerequisites.html)でチェックすることができます。</div> 
 
-In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
+4D v17 R5以降，プロジェクトエディターで作成したiOSアプリからの4D側のコードを呼び出すための[アクション](actions.html)が設定できるようになりました！
 
-From here, when you build your app from the Project Editor using actions, you can decide to use:
+プロジェクトエディターでどちらのテンプレートを選択しても，アクションに対応したアプリをビルドすることができます。
 
-* **4D for iOS templates** from the Form section. In this case, actions are already included. You just need to [define actions](define-first-action.html) in the Actions section and create appropriate methods in 4D.
+* 「フォーム」セクションで**4D for iOS テンプレート**を選択した場合。 テンプレートはアクションに対応済です。 「アクション」セクションで[アクションを設定](define-first-action.html)し，4D側に必要なメソッドを用意します。
 
-* **Your own custom templates** you developed. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates.
+* 自作の**カスタムテンプレート**を選択した場合。 出力されるiOSアプリにアクションが組み込まれるようにするためには，いくつか重要なステップを踏まなければなりません。リスト画面および詳細画面に自分で[アクションタグ](action-custom-template.html)を追加する必要があります。
 
-Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
+早速，4D for iOSアクションの仕組みを楽しく習得するために，**チェックリスト**アプリの作成に取り掛かりましょう！

@@ -1,37 +1,37 @@
 ---
 id: user-information-query
-title: User information query
+title: ユーザー情報に基づくクエリ
 ---
 
-Now let's filter our app content depending on the account manager's login email address (user information):
+ユーザーのログインメールアドレス（ユーザー情報）に基づき，アプリに表示されるデータがフィルターされるようにしましょう。
 
-* Go to the **Data section**. 
-* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
-* Click on the **Operators** button and select **AND**.
-* Now define the user information you want to get from the database method, **:email**.
-* Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
+* 「**データ**」セクションに移動します。 
+* **クエリをフィルター**フィールドをクリックします。**フィールド・比較演算子・演算子ボタン**が表示されるはずです。
+* **演算子**ボタンをクリックし，**AND**を選択します。
+* **:email**，つまりデータベースメソッドの中で参照したいユーザー情報を入力します。
+* **検証**ボタンをクリックし，フィルターを確定してください。 これを忘れてしまうと，アプリがビルドできません。
 
-![User information query](assets/en/restricted-queries/user-information-query.png)
+![ユーザー情報に基づくクエリ](assets/en/restricted-queries/user-information-query.png)
 
     Status = 'In Progress' & manager.Email = :email 
     
 
-The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).<div class = "tips"> 
+このクエリフィルターを通過することができるのは，ステータスが**&apos;In Progress&apos;**であり，かつ，**営業担当者のメールアドレス**（*Ｎ対１リレーション*により，AccountManagerテーブルから取得）が合致するデータだけです。<div class = "tips"> 
 
-**NOTE**
+**注記**
 
-* A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div> 
+* ユーザー情報に基づくクエリが設定されているテーブルの横には**ユーザーアイコン**が表示されます。
+* ユーザー情報に基づくクエリフィルターを入力して確定したのであれば，**On Mobile app Authentication**データベースメソッドを編集しなければなりません。 **認証メソッドを編集**ボタンをクリックすれば，メソッドエディターのウィンドウが開きます。</div> 
 
-Add the following line in the database method:
+データベースメソッドに下記のコードを追加します。
 
     $response.userInfo:=New object("email";$request.email)
     
 
-This will allow retrieving the manager's login email address and displaying data depending on that criteria.
+表示できるデータを判定するための条件として，営業担当者のログインメールアドレスが参照できるようになります。
 
-![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
+![ユーザー情報に基づくクエリ](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+再びアプリをビルドして実行しましょう。メールアドレス "michelle.simpson@mail.com" を入力してログインすると，今度はMichelle Simpsonが担当している*進行中*の商談だけがシミュレーターに表示されます。
 
-![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
+![最終結果](assets/en/restricted-queries/restricted-queries-final-result.png)

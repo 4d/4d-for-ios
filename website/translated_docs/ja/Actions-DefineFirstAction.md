@@ -1,96 +1,96 @@
 ---
 id: define-first-action
-title: Defining your first action
+title: はじめてのアクション
 ---
 
-In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
+このレッスンでは，タスクの**チェックリスト**アプリを例に，ユーザーのアクションを処理する方法を習得します。
 
-Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually.
+**チェックリスト**アプリの基本的な目的は，各タスクの**ステータス**と**進み具合（パーセンテージ）**を更新することである，と定義できます。
 
-More globally, we want to **change all tasks status** to postponed or in Progress for example.
+さらに，全部のタスクを「延期」あるいは「進行中」といったステータスに**まとめて更新**できれば便利です。
 
-Download the **Starter project** and go right to the **Actions section**.
+ダウンロードした**素材プロジェクト**を開き，「**アクション**」セクションに移動してください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionStarter.zip">STARTER PROJECT</a>
+href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
 
   </p>
 </div>
 
-As we've seen before in the [Action section documentation](actions.html#ios-app-side), you can define action for two levels:
+[アクションのドキュメント](actions.html#ios-app-side)で説明されていたように，アクションは下記いずれかのレベルに対して設定することができます。
 
-* Entity actions
-* Table actions
+* エンティティに対するアクション
+* テーブルに対するアクション
 
-Let's focus first on Entity actions!
+まずはエンティティに対するアクションから始めましょう！
 
-## Entity actions
+## エンティティアクション
 
-### STEP 1. Entity action in Action section
+### ⒈ 「アクション」セクションで設定すること
 
-In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
+「アクション」画面では，アクションの**名前**・**アイコン**・**ラベル**およびアクションの対象となる**テーブル**と**スコープ**をまとめて設定することができます。
 
-The action section is quite empty when you open it for the first time, so click on the **Plus button** at the bottom left to add your first action!
+当然，何も設定されていないので，画面はまだ空です。最初のアクションを作成するために**追加ボタン** をクリックしましょう！
 
-![Create action](assets/en/actions/Create-action.png)
+![アクションの追加](assets/en/actions/Create-action.png)
 
-Let's define first an action that will **change a task status** to "Complete" and put the **percentage of completion** to 100%.
+タスクの**ステータス** to "完了" に設定すると同時に**進み具合（パーセンテージ）**を100%に更新するアクションを作成しましょう。
 
-To define this action:
+下記のステップで実現することができます。
 
-* Enter **taskDone** in **Names field**
-* Select the **Done icon** from the icon library
-* Enter **Done** in **Short Labels**
-* Enter **Task Done** in **Long Labels**
-* Select the **Tasks** table from **Tables** list
-* Select **Current record** from **Scope** list
+* **名前**フィールドに「**taskDone**」と入力します。
+* アイコンライブラリから**完了アイコン**を選択します。
+* **短いラベル**に「**完了**」と入力します。
+* **長いラベル**に「**完了に設定する**」と入力します。
+* **テーブル**のリストから**Tasks**テーブルを選択します。
+* **スコープ**のリストから「**カレントレコード**」を選択します。
 
-![Done action definition](assets/en/actions/Done-action-definition.png)
+![完了アクションの設定](assets/en/actions/Done-action-definition.png)
 
-### STEP 2. Create and edit the Action Database Method
+### ⒉ データベースメソッドの作成と編集
 
-Now that your action is defined in the Project Editor, you have to create the [**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database Method.
+プロジェクトエディターに必要な情報を入力しました。続けて[**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html)データベースメソッドを作成しましょう。
 
-Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
+アクション画面の右下にある**作成ボタン**をクリックします。**On Mobile App Action**データベースメソッドに下記のコードを記述してください。
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
-    $request:=$1  // Informations provided by mobile application
+    $request:=$1  // モバイルアプリから送られた情報
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
     
-        Else 
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
-    $0:=$result  // Informations returned to mobile application
+    $0:=$result  // モバイルアプリに返される情報
     
     
 
-### STEP 3. Create a "modifyStatus" Method
+### ⒊ "modifyStatus" メソッドの作成
 
-Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
+データベースメソッドに必要なコードを記述することに加え，実際の処理をするための **modifyStatus** プロジェクトメソッドを作成します。
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
@@ -115,67 +115,67 @@ Once your database method has been edited, you have to create a **modifyStatus**
     
         If ($status.success)
     
-            $out.success:=True  // notify App that action is successful
-            $out.dataSynchro:=True  // notify App to refresh this entity
+            $out.success:=True  // アクションの成功を通知
+            $out.dataSynchro:=True  // セレクションの更新を要求
     
-        Else 
+        Else
     
-            $out:=$status  // return status to the App
+            $out:=$status  // モバイルアプリに返される情報
     
-        End if 
+        End if
     
-    Else 
+    Else
     
-        $out.success:=False  // notify App that action failed
+        $out.success:=False  // アクションの失敗を通知
     
-    End if 
+    End if
     
     $0:=$out
     
     
     
 
-Build and Run you app and there you go! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
+アプリをビルドして実行しましょう！ **完了アクション**は，リスト画面のセルを左にスワイプ，あるいは詳細画面のナビゲーションバーに表示されている**「…」ボタン**をタップすると表示されます。
 
-![Done action](assets/en/actions/Entity-action-Done.png)
+![完了アクション](assets/en/actions/Entity-action-Done.png)
 
-## Table actions
+## テーブルアクション
 
-### STEP 1. Table action in Action section
+### ⒈ 「アクション」セクションで設定すること
 
-Now, imagine that you are going on hollidays and you want to **change all your tasks status** to "Postponed".
+休暇に出かけるなど，**すべてのタスク** をまとめて「延期」に設定したいようなときは，どうすれば良いでしょうか。
 
-Let's define this action from the Action section:
+下記のステップで実現することができます。
 
-* Enter **postponeAll** in **Names field**
-* Select the **Postponed icon** from the icon library
-* Enter **Postpone All** in **Short Labels**
-* Enter **Postpone All** in **Long Labels**
-* Select the **Tasks** table from **Tables** list
-* Select **Table** from **Scope** list
+* **名前**フィールドに「**postponeAll**」と入力します。
+* アイコンライブラリから**延期アイコン**を選択します。
+* **短いラベル**に「**すべて延期**」と入力します。
+* **長いラベル**に「**すべてを延期に設定する**」と入力します。
+* **テーブル**のリストから**Tasks**テーブルを選択します。
+* **スコープ**のリストから**テーブル** を選択します。
 
-![Postponed action definition](assets/en/actions/PostponedAll-action-definition.png)
+![延期アクションの設定](assets/en/actions/PostponedAll-action-definition.png)
 
-### STEP 2. Edit the Action method
+### ⒉ データベースメソッドの編集
 
-Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
+アクション一覧の右下にある**編集**ボタンをクリックして**On Mobile App Action**データベースメソッドを開き，必要な処理をメソッドに追加します。
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
-    $request:=$1  // Informations provided by mobile application
+    $request:=$1  // モバイルアプリから送られた情報
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
@@ -183,25 +183,25 @@ Click on the **Edit button** at the bottom right of the action table to complete
         : ($request.action="postponeAll")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
+            "dataClass";$context.dataClass;\
             "Status";4)
     
-            $result:= postponeAll ($o)      
-        Else 
+            $result:= postponeAll ($o)
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
-    $0:=$result  // Informations returned to mobile application
+    $0:=$result  // モバイルアプリに返される情報
     
     
     
 
-### STEP 3. Create a "postponeAll" Method
+### ⒊ "postponeAll" メソッドの作成
 
-As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
+**modifyStatus** メソッドと同じ要領で, タスクのステータスを一括設定する**postponeAll** プロジェクトメソッドを作成します。
 
     <br />C_OBJECT($0)
     C_OBJECT($1)
@@ -219,39 +219,39 @@ As you create the **modifyStatus** Method, follow the same process and create a 
             $entity.Status:=$in.Status
             $entity.save()
     
-        End for each 
+        End for each
     
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh the selection
+        $out.success:=True  // アクションの成功を通知
+        $out.dataSynchro:=True  // セレクションの更新を要求
     
-    Else 
+    Else
     
         $out.errors:=New collection("No Selection")
     
-    End if 
+    End if
     
     $0:=$out
     
     
 
-Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
+アプリをビルドして実行しましょう！ リスト画面のナビゲーションバーに新しい**「…」ボタン**が表示されていることに注目してください。 ボタンをタップして**すべて延期**アクションを実行しましょう。
 
-![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
+![延期アクション（完成）](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
-## Where to Go From Here?
+## これからどうする？
 
-Congratulations! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
+おつかれさまでした！ iOSアプリに２種類のアクションが追加できました。この調子で必要なすべてのアクションを開発することができますね！
 
-![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
+![まとめて設定アクション（完成）](assets/en/actions/ListForm-entity-action-tableview.png)
 
-You can download the **Final project** that includes various actions:
+すべてのアクションが設定された**完成プロジェクト**は下記からダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionFinal.zip">FINAL PROJECT</a>
+href="../assets/en/actions/TasksActionFinal.zip">完成プロジェクト</a>
 
   </p>
 </div>

@@ -60,29 +60,29 @@ Do to so, click on **Create button** at the bottom right of the action table and
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
     
-        Else 
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
     
@@ -118,17 +118,17 @@ Once your database method has been edited, you have to create a **modifyStatus**
             $out.success:=True  // notify App that action is successful
             $out.dataSynchro:=True  // notify App to refresh this entity
     
-        Else 
+        Else
     
             $out:=$status  // return status to the App
     
-        End if 
+        End if
     
-    Else 
+    Else
     
         $out.success:=False  // notify App that action failed
     
-    End if 
+    End if
     
     $0:=$out
     
@@ -163,19 +163,19 @@ Click on the **Edit button** at the bottom right of the action table to complete
     <br />C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
@@ -183,16 +183,16 @@ Click on the **Edit button** at the bottom right of the action table to complete
         : ($request.action="postponeAll")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
+            "dataClass";$context.dataClass;\
             "Status";4)
     
-            $result:= postponeAll ($o)      
-        Else 
+            $result:= postponeAll ($o)
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
     
@@ -219,16 +219,16 @@ As you create the **modifyStatus** Method, follow the same process and create a 
             $entity.Status:=$in.Status
             $entity.save()
     
-        End for each 
+        End for each
     
         $out.success:=True  // notify App that action success
         $out.dataSynchro:=True  // notify App to refresh the selection
     
-    Else 
+    Else
     
         $out.errors:=New collection("No Selection")
     
-    End if 
+    End if
     
     $0:=$out
     

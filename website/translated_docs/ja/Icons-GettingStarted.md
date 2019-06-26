@@ -1,22 +1,22 @@
 ---
 id: using-icons
-title: Using icons
+title: アイコン
 ---
 
 <div class = "objectives"> 
 
-**目的**
+**レッスンの目標**
 
-独自のアイコンを4D for iOS プロジェクトで使用すること。</div> <div class = "prerequisites"> 
+4D for iOSで作成したアプリの随所にアイコンを表示させましょう！</div> <div class = "prerequisites"> 
 
-**必要条件**
+**用意するもの**
 
-スタートするために必要なものについては [ここ](prerequisites.html)をクリックしてください！</div> 
+始めるために揃えておくべきものは[こちら](prerequisites.html)でチェックすることができます。</div> 
 
-4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
+4D for iOSの「 **ラベル＆アイコン**」セクションには，すぐに使用できる多数のアイコンが収録されています。
 
-![Icon library](assets/en/custom-icons/icon-library.png)
+![アイコンライブラリ](assets/en/custom-icons/icon-library.png)
 
-We want you to have the best app creation experience with 4D for iOS, so now you can create and use your own icons in your iOS projects.
+4D for iOSは，なるべくシンプルにアプリが開発できるように作られていますが，必要であれば，自作のアイコンを使用することもできます。
 
-Let's see how to make them!
+では，早速，始めましょう！
