@@ -5,41 +5,37 @@ title: Actions
 
 This section allows you to:
 
-* create actions in order to execute 4D code from your iOS app.
+* create actions to execute 4D code from your iOS app.
 * define and add parameters to your actions.
 
-## Editor de proyecto
+## Project Editor Side
 
 ### Create your action
 
-You can create a new action by clicking on the Plus button under the Action table. A new line should appear in the Actions table.
+You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
 
-Then the first thing you need to do is to define the following information:
+Next you'll need to define the following:
 
-* **Names:** action name to use in the [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) Database method to trigger your 4D code.
-* **Icons:** icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Short and long Labels:** action labels to display in your app
-* **Table:** table on which you want to apply the action.
-* **Scope:** use the action for an **entity** or for a **table**.
+* **Names:** The action name to use in the [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method to trigger your 4D code.
+* **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
+* **Short and long Labels:** The labels for the actions to display in your app.
+* **Table:** The table on which you want to apply the action.
+* **Scope:** Where to use the action, an **entity** or a **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-<<<<<<< HEAD
-
-# A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods.
-
 ### Add parameters to your action
 
-Since **17R6** you are able to add **action parameters** and **edit** data directly from your app.
+As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
 
-Indeed, for each parameter, you will be able to edit the following properties:
+For each parameter, you can edit the following properties:
 
 * Name
 * Long label
 * Short label
 * Format
 * Choice list
-* Input constaints (define a max or min values)
+* Input constraints (define minimum or maximum values)
 * Placeholder
 * Mandatory field definition
 * Default value
@@ -66,12 +62,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Mail address</td><td>Optimized iOS keyboard for email entry</td>
+<td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
   </tr>
   
   <tr>
     
-<td>Phone Number</td><td>iOS Keypad for entering telephone numbers.</td>
+<td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
   </tr>
   
   <tr>
@@ -91,12 +87,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Zip code</td><td>Optimized iOS keyboard for Zip code entry</td>
+<td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
   </tr>
   
   <tr>
     
-<td>Text area</td><td>Includes several lines of text in fields</td>
+<td>Text area</td><td>Includes multiple lines of text in a single field</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +133,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Spell Out</td><td>Convert numbers into stings</td>
+<td>Spell Out</td><td>Convert numbers into strings</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -188,19 +184,19 @@ Here are the different **Formats** you can select for a parameter:
   </tr>
 </table>
 
-### Presets actions
+### Preset actions
 
-4D for iOS includes three presets actions to manage your app content:
+4D for iOS includes three preset (predefined) actions to manage your app content:
 
-* Edit action
-* Add action
-* Delete action
+* Edit 
+* Add 
+* Delete 
 
 #### 1. Add action
 
-4D for iOS makes **Edit actions** creation process very simple.
+4D for iOS makes the **Add actions** creation process very simple.
 
-The only thing you need to do is to select the **Edit action for** option accessible from the **Plus button** at the bottom of your Actions table.
+The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
 
 ![Edit actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
@@ -212,60 +208,58 @@ For those kind of action, you will see that all **properties** are already fille
 
 #### 2. Edit action
 
-**Add actions** creation follows the same process than for Edit actions. The only difference is that you will not be able to define default values from the Actions section for those actions.
+**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 #### 3. Delete action
 
-**Delete actions** creation follows the same process than for Edit actions. The only difference is, as it name implies, that action allows you to delete an entity.
+**Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
 
-To create a Delete action, select the **Delete action for** option accessible from the **Plus button** at the bottom of your Actions table.
+To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
 
-Needless to say that this type of action shall be used with caution.
+This type of action should be used with caution.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-For Edit and Add actions you are free to adjust:
+For Edit and Add actions you are free to modify the:
 
-* The parameters by adding or removing a parameter using the **Plus and Minus buttons** at the bottom of the Action parameters list.
-* The poperties by defining them as you wish. 
+* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* properties by defining them as you wish. 
 
 ### On Mobile App Action
 
-A new database method [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) is available to call all your 4D methods.
+The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods.
 
-Just clic on Create button after having created all your actions from the Actions section to automatically generate a Case of in the On Mobile App Actions that includes all your action names.
-
-> > > > > > > feature/actionparameters
+After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
 ## Aplicación iOS
 
-In your iOS app, actions can be available in different ways in your List forms and Detail forms, depending on the templates you select in the Forms section.
+In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
 
 ### Table List forms
 
-* **Entity action:** swipe left on a cell to display available actions in a List form. A "More" button is displayed if you define more than 3 actions per entity.
+* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** a generic actions button is available in the navigation bar to display a list of table actions.
+* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
 ### Collection List forms
 
-* **Entity action:** depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** as for Table List forms, a generic Actions button is available in the navigation bar to display a list of table actions.
+* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Detail forms
 
-As for Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
@@ -275,21 +269,21 @@ If you have created an Edit or an Add action, as soon as you select it from the 
 
 From here, you can:
 
-* edit all you fields selecting them
-* validate or cancel your modifications using the **Done** or **Cancel** buttons available in the navigation bar.
+* edit all of your fields by selecting them, and
+* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
 
-For your convenience, the Edition form includes **special features**:
+For your convenience, the Edition form includes a few **special features**:
 
 * The keyboard type depends on the selected parameter type in the Action section.
-* Go to next or previous record using arrow on top of the keyboard.
-* Close iOS Keyboard by touching anywhere out of a field.
-* Indicate the user that a value is not a proper value.
-* The view focus on mandatory fields that are empty when the user taps on Done button.
+* You can go to the next or previous record using the arrow on top of the keyboard.
+* The iOS keyboard can be closed by touching anywhere outside of a field.
+* Indication is given to the user when a value is not valid.
+* The view focuses on empty mandatory fields when the user clicks the Done button.
 
-## ¿Qué hacer ahora?
+## Where to go from here?
 
 * A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
 
 * Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* A last [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
