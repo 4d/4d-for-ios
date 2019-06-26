@@ -34,7 +34,6 @@ Indeed, for each parameter, you will be able to edit the following properties:
 * Long label
 * Short label
 * Format
-* Choice list
 * Input constaints (define a max or min values)
 * Placeholder
 * Mandatory field definition
@@ -84,7 +83,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Energy</td><td>Energy Notation</td>
 </tr><tr>
-<td>Mass</td><td></td>
+<td>Mass</td><td>Mass Notation</td>
 </tr><tr>
 <td>Spell Out</td><td>Convert numbers into stings</td>
 </tr>
@@ -97,11 +96,11 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Short Date</td><td></td>
+<td>Short Date</td><td>11/23/37</td>
 </tr><tr>
-<td>Medium Date</td><td></td>
+<td>Medium Date</td><td>Nov 23, 1937</td>
 </tr><tr>
-<td>Long Date</td><td></td>
+<td>Long Date</td><td>	November 23, 1937</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -112,9 +111,9 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Hour</td><td></td>
+<td>Hour</td><td>-</td>
 </tr><tr>
-<td>Duration</td><td></td>
+<td>Duration</td><td>-</td>
 </tr>
 
 </table>
