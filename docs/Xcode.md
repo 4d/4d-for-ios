@@ -22,21 +22,29 @@ Registered developers can download preview releases and prior versions of the su
 
 ## Version comparison table
 
-| Xcode | Swift | iOS | 4D |
-|---|---|---|---|
-| 10.0 | 4.2 | iOS 12 | 17R3 |
-| 9.4| 4.1.2| iOS 11.4 | 17R2 |
-| 9.3.1| 4.1| iOS 11.3 | 17R2 |
+| Xcode | Swift | iOS | 4D | MacOS |
+|---|---|---|---|---|
+| 10.2.1 | 5.0 | iOS 12.2 | 17R6 | 10.14.4 |
+| 10.2 | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
+| 10.1 | 4.2.1 | iOS 12 | 17R4 | 10.13.6 |
+| 10.0 | 4.2 | iOS 12 | 17R3 | 10.13.6 |
+| 9.4| 4.1.2| iOS 11.4 | 17R2 | 10.13.2 |
+| 9.3.1| 4.1| iOS 11.3 | 17R2 | 10.13.2 |
+
+### Use 17R6 with macOS 10.14.3
+
+4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+
+ - Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+
 
 ### Compatibility
 
-Frameworks compiled with one version of Xcode could not be used with another version.
+Frameworks compiled with one version of Xcode could not be used with another version before the release of swift 5 (ie. 4D 17R6).
 
-Rest assured, the next release of swift, swift 5, have for primary focus the ABI stability.
+The current release of swift have ABI stability. This enables the distribution of frameworks in a binary format.
 
 https://swift.org/abi-stability/
-
-This will enables the distribution of frameworks in a binary format.
 
 <div markdown="1" class="tips">
 ABI: Application Binary Interface, a contract between pieces of binary code defined by the compiler.
