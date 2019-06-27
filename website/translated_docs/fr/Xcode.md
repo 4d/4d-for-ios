@@ -26,21 +26,28 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ## Tableau de comparaison de version
 
-| Xcode | Swift | iOS      | 4D    |
-| ----- | ----- | -------- | ----- |
-| 10.0  | 4.2   | iOS 12   | 17 R3 |
-| 9.4   | 4.1.2 | iOS 11.4 | 17R2  |
-| 9.3.1 | 4.1   | iOS 11.3 | 17 R2 |
+| Xcode  | Swift | iOS      | 4D   | MacOS   |
+| ------ | ----- | -------- | ---- | ------- |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-### Compatibilité
+### Use 17R6 with macOS 10.14.3
 
-Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version.
+4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
 
-Rassurez-vous, la stabilité de l’ABI sera l'objectif principal de la prochaine version de swift : swift 5.
+- Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+
+### Compatibility
+
+Frameworks compiled with one version of Xcode could not be used with another version before the release of swift 5 (ie. 4D 17R6).
+
+The current release of swift have ABI stability. This enables the distribution of frameworks in a binary format.
 
 https://swift.org/abi-stability/
-
-Cela garantira la répartition des cadres dans un format binaire.
 
 <div class="tips">
   <p>
