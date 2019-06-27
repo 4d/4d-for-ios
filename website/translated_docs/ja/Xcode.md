@@ -26,21 +26,28 @@ Xcodeは，macOS上で動く統合開発環境および付随する開発者ツ�
 
 ## バージョン対応表
 
-| Xcode | Swift | iOS      | 4D   |
-| ----- | ----- | -------- | ---- |
-| 10.0  | 4.2   | iOS 12   | 17R3 |
-| 9.4   | 4.1.2 | iOS 11.4 | 17R2 |
-| 9.3.1 | 4.1   | iOS 11.3 | 17R2 |
+| Xcode  | Swift | iOS      | 4D   | MacOS   |
+| ------ | ----- | -------- | ---- | ------- |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-### バージョン間の互換性
+### Use 17R6 with macOS 10.14.3
 
-Xcodeでコンパイルされたフレームワークを別バージョンのXcodeで開くことはできません。
+4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
 
-良いニュースです。Swift 5のリリースでは，ABI安定化に重点が置かれることになりました。
+- Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+
+### Compatibility
+
+Frameworks compiled with one version of Xcode could not be used with another version before the release of swift 5 (ie. 4D 17R6).
+
+The current release of swift have ABI stability. This enables the distribution of frameworks in a binary format.
 
 https://swift.org/abi-stability/
-
-ABI安定化により，バイナリ形式でフレームワークを配付するための道が開かれます。
 
 <div class="tips">
   <p>
