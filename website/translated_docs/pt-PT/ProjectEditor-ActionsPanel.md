@@ -34,7 +34,6 @@ For each parameter, you can edit the following properties:
 * Long label
 * Short label
 * Format
-* Choice list
 * Input constraints (define minimum or maximum values)
 * Placeholder
 * Mandatory field definition
@@ -128,7 +127,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Mass</td><td></td>
+<td>Mass</td><td>Mass Notation</td>
   </tr>
   
   <tr>
@@ -149,17 +148,17 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Short Date</td><td></td>
+<td>Short Date</td><td>    11/23/37</td>
   </tr>
   
   <tr>
     
-<td>Medium Date</td><td></td>
+<td>Medium Date</td><td>Nov 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Long Date</td><td></td>
+<td>Long Date</td><td>November 23, 1937</td>
   </tr>
 <tr>
 <td colspan="2"></td>
