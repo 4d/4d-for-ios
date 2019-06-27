@@ -3,16 +3,16 @@ id: actions
 title: Actions
 ---
 
-This section allows you to:
+Esta sección le permite:
 
-* create actions to execute 4D code from your iOS app.
-* define and add parameters to your actions.
+* crear acciones para ejecutar código 4D desde su aplicación iOS.
+* definir y añadir parámetros a sus acciones.
 
-## Project Editor Side
+## En el editor de proyectos
 
-### Create your action
+### Cree su acción
 
-You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
+Puede crear una nueva acción haciendo clic en el botón + en la parte inferior de la tabla Acciones. A new line will appear in the Actions table.
 
 Next you'll need to define the following:
 
@@ -34,7 +34,6 @@ For each parameter, you can edit the following properties:
 * Long label
 * Short label
 * Format
-* Choice list
 * Input constraints (define minimum or maximum values)
 * Placeholder
 * Mandatory field definition
@@ -128,7 +127,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Mass</td><td></td>
+<td>Mass</td><td>Mass Notation</td>
   </tr>
   
   <tr>
@@ -149,17 +148,17 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Short Date</td><td></td>
+<td>Short Date</td><td>    11/23/37</td>
   </tr>
   
   <tr>
     
-<td>Medium Date</td><td></td>
+<td>Medium Date</td><td>Nov 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Long Date</td><td></td>
+<td>Long Date</td><td>November 23, 1937</td>
   </tr>
 <tr>
 <td colspan="2"></td>
