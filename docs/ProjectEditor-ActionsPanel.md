@@ -129,7 +129,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Switch</td><td>-</td>
 </tr><tr>
-<td>Check</td><td>-</td>
+<td>Check mark</td><td>-</td>
 </tr>
 
 </table>
