@@ -118,6 +118,19 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Duration</td><td>-</td>
 </tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+
+<tr>
+<th colspan="2" style="text-align:center">BOOLEAN</th>
+</tr><tr style="text-align:center">
+<th>Format</th><th>Description</th>
+</tr><tr>
+<td>Switch</td><td>-</td>
+</tr><tr>
+<td>Check</td><td>-</td>
+</tr>
 
 </table>
 
