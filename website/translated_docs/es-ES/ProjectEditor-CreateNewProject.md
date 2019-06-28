@@ -1,52 +1,52 @@
 ---
 id: create-new-project
-title: New Project
+title: Nuevo proyecto
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+Familiarizarse con el editor de proyectos.</div> <div class = "prerequisites"> 
 
 **PRERREQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
 
-Let's take a look at how 4D for iOS works.
+Demos un vistazo a cómo funciona 4D for iOS.
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+Inicie su aplicación 4D, abra su base y vaya a **Nuevo> Proyecto móvil**.
 
-Give your project a name and click **Create**.
+De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+La pantalla de bienvenida se muestra automáticamente para ayudarlo a comprender los conceptos básicos de 4D for iOS. Puede marcar la opción **No volver a mostrar** y este diálogo ya no se mostrará. Haga clic en **Continuar**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+¡Aquí estamos! Ahora es el momento de descubrir la arquitectura y la interfaz de 4D for iOS.
 
-The main window consists of two tabs:
+La ventana principal consta de dos pestañas:
 
-## Sections
+## Secciones
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+En la pestaña Secciones, encontrará todos los pasos necesarios para crear su aplicación 4D for iOS:
 
 * General
 * Structure
-* Data
+* Datos
 * Actions
-* Labels & Icons
-* Main Menu
-* Forms
-* Publishing
+* Etiquetas e iconos
+* Menú principal
+* Formularios
+* Publicación
 
-## Build
+## Generación
 
-The Build tab has four options:
+La pestaña Generación tiene cuatro opciones:
 
-* Build and Run 
-* Simulator selection
-* Project and product browser
-* Install
+* Crear y ejecutar 
+* Selección del simulador
+* Navegador de proyecto y de producto
+* Instalar
