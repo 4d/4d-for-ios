@@ -147,7 +147,7 @@ Here are the different **Formats** you can select for a parameter:
   </tr>
   
   <tr>
-    
+    <<<<<<< HEAD
 <td>Short Date</td><td>    11/23/37</td>
   </tr>
   
@@ -159,6 +159,19 @@ Here are the different **Formats** you can select for a parameter:
   <tr>
     
 <td>Long Date</td><td>November 23, 1937</td>
+=======
+<td>Short Date</td><td>11/23/37</td>
+  </tr>
+  
+  <tr>
+    
+<td>Medium Date</td><td>Nov 23, 1937</td>
+  </tr>
+  
+  <tr>
+    
+<td>Long Date</td><td> November 23, 1937</td>
+>>>>>>> feature/actionparameters
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -174,12 +187,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Hour</td><td></td>
+<td>Hour</td><td>-</td>
   </tr>
   
   <tr>
     
-<td>Duration</td><td></td>
+<td>Duration</td><td>-</td>
   </tr>
 </table>
 
