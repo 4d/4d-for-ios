@@ -1,90 +1,90 @@
 ---
 id: data
-title: Data
+title: Datos
 ---
 
-This section allows you to:
+Esta sección le permite:
 
-* define the data to include in your app (**Current data file** or **Production server data file**),
-* automatically **regenerate data** each time you build your app or generate it manually, and
-* filter data to vizualize in your app depending on **general filter queries** or **user information**. 
+* definir los datos que se incluirán en su aplicación (**Archivo de datos actual** o **Archivo de datos del servidor de producción**),
+* efectuar una **regeneración** automática de datos cada vez que genere su aplicación o efectúe una generación manual, y
+* filtrar los datos para visualizarlos en su aplicación en funcion de los **filtros de busqueda generales** o la **información del usuario**. 
 
 ![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
-## Data source panel
+## Panel de fuente de datos
 
 ![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
-This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
+Este panel le permite definir su **fuente de datos**. Puede elegir obtener datos del **Archivo de datos actual** o de un **Archivo de datos del servidor de producción**.
 
-To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This **key.mobileapp** file is available next to data in the MobileApps folder. Then the developer can select it from the project editor to access to the production server data.
+Para asegurar el acceso al servidor de producción, se debe generar un **archivo key. mobileapp** desde el servidor de producción y se debe comunicar físicamente al desarrollador. Este archivo **key.mobileapp** está disponible en la carpeta MobileApps junto a los datos. Luego, el desarrollador puede seleccionarlo en el editor del proyecto para acceder a los datos del servidor de producción.
 
-The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
+Si elige obtener datos de su servidor de producción, el **URL de producción**debe ingresarse desde la **sección Publicación**.
 
-Here, you can also check if the server is available and activate it if necessary.<div class = "tips"> 
+Aquí, también puede comprobar si el servidor está disponible y activarlo si es necesario.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-* Tips are available to help you ensure the server works correctly.
-* You can directly access the Publishing panel to define your production URL.
-* To access production server data, a key file is required for secure communications.</div> 
+* Hay sugerencias disponibles para ayudarlo a garantizar que el servidor funcione correctamente.
+* Puede acceder directamente al panel de publicación para definir su URL de producción.
+* Para acceder a los datos del servidor de producción, se requiere un archivo key.mobileapp para asegurar las comunicaciones.</div> 
 
-You can also define whether or not you want to **Regenerate data systematically** at each build.
+También puede definir si desea **Regenerar los datos sistemáticamente** en cada compilación.
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+Cuando la opción **No regenerar los datos en cada compilación** está marcada, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Siempre puede generar sus datos manualmente haciendo clic en el botón **Regenerar ahora**.
 
-## Properties panel
+## Propiedades
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
+En este panel, puede definir todos los filtros para cada tabla según los **filtros de búsquedas definidos** o según los **parámetros usuario**.
 
-### Filtering with query filters
+### Los filtros de búsqueda
 
-You can define filters per table which depend on field values:
+Puede definir los filtros por tabla, en función de los valores de campo:
 
-* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
+* Primero, ingrese su búsqueda en el campo dedicado escribiéndola directamente en el "campo de búsqueda". También puede redactar su búsqueda utilizando las pestañas Campos, Comparadores y Operadores, que están disponibles justo sobre el campo de búsqueda cuando está enfocado. Esto puede ser útil para definir su búsqueda.
 
-* Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
+* Entonces, debe validar su búsqueda. Esto debe hacerse cada vez que modifique el filtro de búsqueda (una búsqueda editada y no validada aparece en rojo en el editor de proyecto).
 
-* Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Leave unchecked if you don't want the data embedded.
+* Finalmente, marque la opción **Integrar los datos en la aplicación** para integrar los datos en la aplicación cuando se genere. Deje sin marcar si no desea que los datos estén integrados.
 
-When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.<div class = "tips"> 
+Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en un filtro de búsqueda definido.<div class = "tips"> 
 
-**EXAMPLE**
+**EJEMPLO**
 
-In the **Filter query** field enter:
+En el campo **Filtro de búsqueda** ingrese:
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div> 
+Esta búsqueda le permite mostrar solo los registros que incluyen "Lisa" y "Hart" en los campos FirstName y LastName.</div> 
 
-### Filtering with user information filters
+### Filtrado con filtros de información de usuario
 
-You can define filters depending on user information which you define in the Mobile App Authentication method:
+Puede definir filtros según la información del usuario que defina en el método Mobile App Authentication:
 
-* As with query filters, you first need to define your query in the appropriate field.
+* Al igual que con los filtros de búsqueda, primero debe definir su búsqueda en el campo apropiado.
 
-* To specify that the query depends on user information, just add ":" and the `userinfo` object key.
+* Para especificar que la busqueda dependa de la información del usuario, solo agregue ":" y la llave objeto `userinfo`.
 
-* Then, validate your query. This must be done each time you modify it.
+* Luego, valide su búsqueda. Esto debe hacerse cada vez que modifique el filtro de búsqueda.
 
-* Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
+* Una vez que se valida el filtro de búsqueda, aparece un botón que le permite agregar información sobre los usuarios en el método [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div class = "tips"> 
+Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en información del usuario.<div class = "tips"> 
 
-**EXAMPLE**
+**EJEMPLO**
 
-In the **Filter query** field enter:
+En el campo **Filtro de búsqueda** ingrese:
 
 CityName = :city
 
-In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
+En el [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduzca:
 
     $response.userInfo:=New object("city";"Paris")
 
-This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips"> 
+Esta búsqueda le permite mostrar solo los registros que incluyen "Paris" como CityName.</div> <div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+Encontrará todas las reglas de sintaxis asociadas a la búsqueda en la [documentación de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
