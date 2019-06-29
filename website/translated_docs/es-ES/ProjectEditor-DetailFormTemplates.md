@@ -1,6 +1,6 @@
 ---
 id: detail-form-templates
-title: Detail Forms templates
+title: Plantillas de formularios detallados
 ---
 
 <div style="height: auto;">
@@ -19,10 +19,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -36,10 +36,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -61,10 +61,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -78,10 +78,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -103,10 +103,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> yes
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -120,10 +120,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> yes
+            <strong>Gráfico:</strong> sí
           </li>
         </ul>
       </td>
@@ -145,10 +145,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> yes
+            <strong>Gráfico:</strong> sí
           </li>
         </ul>
       </td>
@@ -162,10 +162,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> yes
+            <strong>Gráfico:</strong> sí
           </li>
         </ul>
       </td>
@@ -187,10 +187,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagen requerida:</strong> no
           </li>
           <li>
-            <strong>Graph:</strong> yes
+            <strong>Gráfico:</strong> sí
           </li>
         </ul>
       </td>
@@ -204,10 +204,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -229,10 +229,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -246,10 +246,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -271,10 +271,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -288,10 +288,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
@@ -313,10 +313,10 @@ title: Detail Forms templates
         
         <ul style="font-size:16px">
           <li>
-            <strong>Image required:</strong> yes
+            <strong>Imagen requerida:</strong> sí
           </li>
           <li>
-            <strong>Graph:</strong> no
+            <strong>Gráfico:</strong> no
           </li>
         </ul>
       </td>
