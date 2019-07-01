@@ -57,7 +57,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
 </tr><tr>
-<td>Account</td><td></td>
+<td>Account</td><td>Optimized iOS keyboard for username entry</td>
 </tr><tr>
 <td>Password</td><td>Keyboard handling and hiding passwords</td>
 </tr><tr>
@@ -82,10 +82,6 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Percentage</td><td>Percent Notation</td>
 </tr><tr>
-<td>Energy</td><td>Energy Notation</td>
-</tr><tr>
-<td>Mass</td><td>Mass Notation</td>
-</tr><tr>
 <td>Spell Out</td><td>Convert numbers into strings</td>
 </tr>
 <tr>
@@ -102,8 +98,6 @@ Here are the different **Formats** you can select for a parameter:
 <td>Medium Date</td><td>Nov 23, 1937</td>
 </tr><tr>
 <td>Long Date</td><td>November 23, 1937</td>
-</tr><tr>
-<td>Medium Date</td><td>Nov 23, 1937</td>
 </tr>
 <tr>
 <td colspan="2"></td>
