@@ -9,7 +9,7 @@ title: Using parameters
 
 Define action parameters to edit the content of your app.</div> 
 
-In the [previous tutorial](define-first-action.html), we discoverd how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
 
 In this tutorial, we're going to go further and create:
 
@@ -388,7 +388,7 @@ Now, if you click on the action navigation bar, you'll be able to **create a new
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
-Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action has been added in the action list.
+Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action is available in the action list.
 
 ![Edit task](assets/en/actions/Action-parameters-editAction.png)
 

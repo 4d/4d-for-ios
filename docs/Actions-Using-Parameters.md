@@ -404,7 +404,7 @@ Now, if you click on the action navigation bar, you'll be able to **create a new
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
-Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action has been added in the action list.
+Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action is available in the action list.
 
 ![Edit task](assets/en/actions/Action-parameters-editAction.png)
 
