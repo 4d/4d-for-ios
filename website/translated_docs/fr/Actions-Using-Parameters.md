@@ -106,7 +106,83 @@ Your Actions section should look like this:
 
 ![Send comment action creation](assets/en/actions/Send-comment-action-definition.png)
 
-## STEP 5. Create All the methods you need
+## STEP 5. Create the On Mobile App Action
+
+As described in the [documentation](actions.html), click on the Create button to create the *On Mobile App Action* database method.
+
+All of your actions will automatically be included in this database method.
+
+The only thing you need to do is add a reference to your method(s) for the scenario(s) your want to handle.
+
+Here's the final *On Mobile App Action* database method:
+
+    C_OBJECT($0;$response)
+    C_OBJECT($1;$request)
+    
+    C_OBJECT($o;$context;$request;$result;$parameters)
+    
+    $request:=$1  // Informations provided by mobile application
+    
+    $context:=$request.context
+    $parameters:=$request.parameters
+    
+    Case of 
+    
+        : ($request.action="addTasks")
+    
+              // Insert here the code for the action "Add…"
+    
+            $o:=OB Copy($parameters)
+            $o.dataClass:=$context.dataClass
+            $o.ID:=$context.entity.primaryKey
+    
+            $result:=addAction ($o)
+    
+        : ($request.action="editTasks")
+    
+              // Insert here the code for the action "Edit…"
+    
+            $o:=OB Copy($parameters)
+            $o.dataClass:=$context.dataClass
+            $o.ID:=$context.entity.primaryKey
+    
+            $result:=editAction ($o)
+    
+    
+        : ($request.action="deleteTasks")
+    
+              // Insert here the code for the action "Remove"
+    
+            $o:=New object(\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey)
+    
+            $result:=deleteAction ($o)
+    
+        : ($request.action="sendComment")
+    
+              // Insert here the code for the action "Send Comment"
+    
+            $o:=OB Copy($parameters)
+            $o.dataClass:=$context.dataClass
+            $o.ID:=$context.entity.primaryKey
+    
+    
+            $result:=sendMail ($o)
+    
+        Else 
+    
+              // Unknown action
+    
+    End case 
+    
+    $0:=$result
+    
+    
+    
+    
+
+## STEP 6. Create All the methods you need
 
 ### addAction
 
@@ -303,82 +379,6 @@ Your Actions section should look like this:
 **TIPS**
 
 * Don't forget to add your own values for the **sendEmail** action.</div> 
-
-## STEP 6. Create the On Mobile App Action
-
-As described in the [documentation](actions.html), click on the Create button to create the *On Mobile App Action* database method.
-
-All of your actions will automatically be included in this database method.
-
-The only thing you need to do is add a reference to your method(s) for the scenario(s) your want to handle.
-
-Here's the final *On Mobile App Action* database method:
-
-    C_OBJECT($0;$response)
-    C_OBJECT($1;$request)
-    
-    C_OBJECT($o;$context;$request;$result;$parameters)
-    
-    $request:=$1  // Informations provided by mobile application
-    
-    $context:=$request.context
-    $parameters:=$request.parameters
-    
-    Case of 
-    
-        : ($request.action="addTasks")
-    
-              // Insert here the code for the action "Add…"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
-    
-            $result:=addAction ($o)
-    
-        : ($request.action="editTasks")
-    
-              // Insert here the code for the action "Edit…"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
-    
-            $result:=editAction ($o)
-    
-    
-        : ($request.action="deleteTasks")
-    
-              // Insert here the code for the action "Remove"
-    
-            $o:=New object(\
-            "dataClass";$context.dataClass;\
-            "ID";$context.entity.primaryKey)
-    
-            $result:=deleteAction ($o)
-    
-        : ($request.action="sendComment")
-    
-              // Insert here the code for the action "Send Comment"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
-    
-    
-            $result:=sendMail ($o)
-    
-        Else 
-    
-              // Unknown action
-    
-    End case 
-    
-    $0:=$result
-    
-    
-    
-    
 
 ## STEP 7. Build your app
 
