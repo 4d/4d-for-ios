@@ -16,7 +16,7 @@ You can create a new action by clicking on the + button at the bottom of the Act
 
 Next you'll need to define the following:
 
-* **Names:** The action name to use in the [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method to trigger your 4D code.
+* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
 * **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
 * **Short and long Labels:** The labels for the actions to display in your app.
 * **Table:** The table on which you want to apply the action.
@@ -149,7 +149,7 @@ Here are the different **Formats** you can select for a parameter:
 
 The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table. 
 
-![Edit actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
+![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
 Then just **select the table** you want to link to this add action. And this is it! 
 
