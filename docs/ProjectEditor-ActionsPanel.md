@@ -124,13 +124,12 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Boolean</td><td><img src="assets/en/project-editor/switch.png"></td>
+<td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
 </tr><tr>
-<td>Check mark</td><td><img src="assets/en/project-editor/check.png"></td>
+<td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
 </tr>
 
 </table>
-
 
 ### Preset actions
 
