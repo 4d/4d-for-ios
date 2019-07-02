@@ -71,7 +71,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Account</td><td></td>
+<td>Account</td><td>Optimized iOS keyboard for username entry</td>
   </tr>
   
   <tr>
@@ -122,16 +122,6 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Energy</td><td>Energy Notation</td>
-  </tr>
-  
-  <tr>
-    
-<td>Mass</td><td>Mass Notation</td>
-  </tr>
-  
-  <tr>
-    
 <td>Spell Out</td><td>Convert numbers into strings</td>
   </tr>
 <tr>
@@ -159,11 +149,6 @@ Here are the different **Formats** you can select for a parameter:
   <tr>
     
 <td>Long Date</td><td>November 23, 1937</td>
-  </tr>
-  
-  <tr>
-    
-<td>Medium Date</td><td>Nov 23, 1937</td>
   </tr>
 <tr>
 <td colspan="2"></td>
