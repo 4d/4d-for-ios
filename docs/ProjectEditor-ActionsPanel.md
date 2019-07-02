@@ -51,7 +51,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Capitalized Text</td><td>Capitalize the first letter of a string</td>
+<td>Text</td><td>Capitalize the first letter of a string</td>
 </tr><tr>
 <td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
 </tr><tr>
@@ -76,6 +76,8 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
+<td>Number</td><td>Numbers with decimals</td>
+</tr><tr>
 <td>Integer</td><td>Numbers without decimals</td>
 </tr><tr>
 <td>Scientific</td><td>Scientific Notation</td>
@@ -93,13 +95,14 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
+<td>Date</td><td>Nov 23, 1937</td>
+</tr><tr>
 <td>Short Date</td><td>	11/23/37</td>
 </tr><tr>
-<td>Medium Date</td><td>Nov 23, 1937</td>
+<td>Long Date</td><td>Nov 23, 1937</td>
 </tr><tr>
-<td>Long Date</td><td>November 23, 1937</td>
-</tr>
-<tr>
+<td>Full Date</td><td>Tuesday, November 23, 1937</td>
+</tr><tr>
 <td colspan="2"></td>
 </tr>
 
@@ -108,9 +111,9 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Hour</td><td>-</td>
+<td>Time</td><td>3:30 PM</td>
 </tr><tr>
-<td>Duration</td><td>-</td>
+<td>Duration</td><td>2 hours 30 minutes</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -121,9 +124,9 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
 </tr><tr>
-<td>Switch</td><td>-</td>
+<td>Boolean</td><td><img src="assets/en/project-editor/switch.png"></td>
 </tr><tr>
-<td>Check mark</td><td>-</td>
+<td>Check mark</td><td><img src="assets/en/project-editor/check.png"></td>
 </tr>
 
 </table>
