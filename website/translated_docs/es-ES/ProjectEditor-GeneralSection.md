@@ -3,21 +3,21 @@ id: general
 title: General
 ---
 
-This section allows you to define your app's main information.
+Esta sección le permite definir la información principal de su aplicación.
 
 ![General section](assets/en/project-editor/General-section-4D-for-iOS.png)
 
-**Organization:** Enter either your or your company’s name.
+**Organización:** ingrese su nombre o el de su empresa.
 
-**Identifier:** Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
+**Identificador:** ingrese el « Bundle ID » de su empresa. Esto se utilizará para identificar su aplicación. El nombre del producto que ingresa se concatena para crear el valor por defecto del “Bundle ID” utilizando la notación inversa del nombre de dominio. Este "bundle ID" debe ser único para su aplicación.
 
-For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.<div class = "tips"> 
+Por ejemplo, si el nombre de su empresa es "MyCompany" y su aplicación es "MyApp", puede elegir "com.MyCompany" como identificador de su empresa y el bundle ID de su aplicación será com.MyCompany.MyApp.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-Help links are available for the Name and Identifier fields.</div> 
+Los enlaces de ayuda están disponibles para los campos Nombre e Identificador.</div> 
 
-**Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
+**Nombre del producto:** el nombre de su aplicación. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
 
 **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
 
