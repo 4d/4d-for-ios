@@ -8,7 +8,7 @@ title: データフォーマッター
 
 **はじめに**
 
-1. カスタムフォーマッターをインストールするために `YourDatabase.4dbase/Resources/formatters` フォルダーを作成してください。
+1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
 2. フォーマッターは，このフォルダーの中にインストールします。</div> 
 
