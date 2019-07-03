@@ -56,7 +56,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Capitalized Text</td><td>Capitalize the first letter of a string</td>
+<td>Text</td><td>Capitalize the first letter of a string</td>
   </tr>
   
   <tr>
@@ -107,6 +107,11 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
+<td>Number</td><td>Numbers with decimals</td>
+  </tr>
+  
+  <tr>
+    
 <td>Integer</td><td>Numbers without decimals</td>
   </tr>
   
@@ -138,21 +143,28 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
+<td>Date</td><td>Nov 23, 1937</td>
+  </tr>
+  
+  <tr>
+    
 <td>Short Date</td><td>    11/23/37</td>
   </tr>
   
   <tr>
     
-<td>Medium Date</td><td>Nov 23, 1937</td>
+<td>Long Date</td><td>Nov 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Long Date</td><td>November 23, 1937</td>
+<td>Full Date</td><td>Tuesday, November 23, 1937</td>
   </tr>
-<tr>
+  
+  <tr>
+    
 <td colspan="2"></td>
-</tr>
+  </tr>
 
 <tr>
 <th colspan="2" style="text-align:center">TIME</th>
@@ -164,12 +176,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Hour</td><td>-</td>
+<td>Time</td><td>3:30 PM</td>
   </tr>
   
   <tr>
     
-<td>Duration</td><td>-</td>
+<td>Duration</td><td>2 hours 30 minutes</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -185,12 +197,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Switch</td><td>-</td>
+<td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
   </tr>
   
   <tr>
     
-<td>Check mark</td><td>-</td>
+<td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
   </tr>
 </table>
 
@@ -276,6 +288,8 @@ As with Table actions in List forms, a generic Actions button is available in th
 ### Edition forms
 
 If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+
+![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
 From here, you can:
 

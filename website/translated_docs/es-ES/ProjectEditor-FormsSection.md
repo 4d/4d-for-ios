@@ -1,40 +1,40 @@
 ---
 id: forms
-title: Forms
+title: Formularios
 ---
 
-The Forms section allows you to select both list and detail form templates for each table.
+La sección Formularios le permite seleccionar las plantillas de formulario Lista y de formularios detallados para cada tabla.
 
-4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.
+4D for iOS ofrece varias plantillas con efectos de transición personalizados para generar aplicaciones iOS nuevas y modernas.
 
-Here's the breakdown of this screen, from top to bottom:
+Aquí está el desglose de esta pantalla, de arriba a abajo:
 
-* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section. 
-* **Available Forms:** Allows switching between template selection and content definition.
+* **Los formularios Lista y los formularios detallados:**permiten cambiar entre los formulario Lista y los formularios detallados para cada tabla.
+* **Las tablas publicadas:** muestra todas las tablas publicadas en la sección Estructura. 
+* **Formularios disponibles:** permite cambiar entre la selección de plantillas y la definición de contenido.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
-## List Form definition
+## Formularios Lista
 
-Simple, empty templates are used by default for an app's list and detail forms.
+Las plantillas simples y vacías se utilizan de forma predeterminada para los formularios Lista y los formularios de detallados de una aplicación.
 
-Select a template for your first table. Once done, the content definition screen appears. You can then drag and drop the fields from the Fields list directly onto the Model displayed on the right. Most of the list forms include optional Search and Section fields.
+Seleccione una plantilla para su primera tabla. Una vez hecho esto, aparece la pantalla de definición de contenido. Luego puede arrastrar y soltar los campos de la lista directamente en la plantilla que se muestra a la derecha. La mayoría de los formularios Lista incluyen campos opcionales Búsqueda y Sección.
 
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-## Detail Form definition
+## Los formularios detallados
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-As with the List Form definition, select a template and drag and drop your fields onto your detail form.
+Al igual que con la definición de formulario Lista, seleccione una plantilla y arrastre y suelte sus campos en su formulario detallado.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as few as 2 or as many as 10 fields for most of the List Forms.<div class = "tips"> 
+Puede agregar entre 2 o a 10 campos para la mayoría de los formularios Lista.<div class = "tips"> 
 
-**TIPS**
+**CONSEJOS**
 
-Want to change the template for your list or detail form?
+¿Quieres cambiar la plantilla para su formulario lista o formulario detallado?
 
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.</div>
+Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).</div>

@@ -394,11 +394,11 @@ Holding and maintaining pressure on your new task cell in the List Form, will sh
 
 Send a comment using the **Send comment** action.
 
-![Edit task](assets/en/actions/Action-parameters-sendComment.png)
+![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
 And finally you can delete an entity using the **Delete...** action.
 
-![Edit task](assets/en/actions/Action-parameters-deleteAction.png)
+![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
 ## STEP 8. Where to go from here?
 
