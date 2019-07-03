@@ -99,7 +99,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Short Date</td><td>	11/23/37</td>
 </tr><tr>
-<td>Long Date</td><td>Nov 23, 1937</td>
+<td>Long Date</td><td>November 23, 1937</td>
 </tr><tr>
 <td>Full Date</td><td>Tuesday, November 23, 1937</td>
 </tr><tr>
