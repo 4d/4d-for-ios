@@ -23,14 +23,14 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 ### Tableau de comparaison de version
 
-| Xcode  | Swift | iOS      | 4D   | MacOS   |
-| ------ | ----- | -------- | ---- | ------- |
-| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
-| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
-| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
-| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
-| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
-| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
+| Xcode  | Swift | iOS      | 4D    | macOS   |
+| ------ | ----- | -------- | ----- | ------- |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6  | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5  | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4  | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3  | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17 R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17 R2 | 10.13.2 |
 
 Si vous souhaitez une version antérieure de Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
 
