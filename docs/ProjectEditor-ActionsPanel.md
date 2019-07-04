@@ -236,7 +236,7 @@ From here, you can:
 For your convenience, the Edition form includes a few **special features**:
 
 * The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous record using the arrow on top of the keyboard.
+* You can go to the next or previous field using the arrow on top of the keyboard.
 * The iOS keyboard can be closed by touching anywhere outside of a field.
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
