@@ -76,7 +76,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Password</td><td>Keyboard handling and hiding passwords</td>
+<td>Password</td><td>Optimized to handle passwords</td>
   </tr>
   
   <tr>
