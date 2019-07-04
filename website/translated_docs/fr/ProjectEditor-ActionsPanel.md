@@ -310,10 +310,10 @@ Vous pourrez ainsi :
 A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
 * Le type de clavier dépend du type de paramètre sélectionné dans la section Action.
-* Vous pouvez passer d'un enregistrement à l'autre à l'aide des flèches situées en haut du clavier.
+* You can go to the next or previous field using the arrow on top of the keyboard.
 * Le clavier iOS peut être quitté via un simple clic en dehors du champ.
 * L'utilisateur est informé lorsqu'une valeur n'est pas valide.
-* La vue est axée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.
+* La vue est portée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.
 
 ## Que faire ensuite ?
 
