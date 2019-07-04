@@ -59,7 +59,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Account</td><td>Optimized iOS keyboard for username entry</td>
 </tr><tr>
-<td>Password</td><td>Keyboard handling and hiding passwords</td>
+<td>Password</td><td>Optimized to handle passwords</td>
 </tr><tr>
 <td>URL</td><td>Optimized iOS keyboard for URL entry</td>
 </tr><tr>
