@@ -9,7 +9,7 @@ title: Using parameters
 
 Define action parameters to edit the content of your app.</div> 
 
-In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+Im vorherigen Tutorial haben wir gelernt, wie sich 4D Code über Aktionen im Bereich Actions  in einer iOS App ausführen lässt.</p> 
 
 In this tutorial, we're going to go further and create:
 
