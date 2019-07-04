@@ -71,12 +71,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Account</td><td>Optimized iOS keyboard for username entry</td>
+<td>Account</td><td>Optimierte iOS Tastatur zur Eingabe des Benutzernamens</td>
   </tr>
   
   <tr>
     
-<td>Password</td><td>Keyboard handling and hiding passwords</td>
+<td>Password</td><td>Optimiert zum Verwalten von Kennwörtern</td>
   </tr>
   
   <tr>
@@ -212,7 +212,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Image parameters will be available in an upcoming release</td>
+<td colspan="2">Bildparameter werden in einem späteren Release verfügbar sein.</td>
 </tr>
 
 </table>
