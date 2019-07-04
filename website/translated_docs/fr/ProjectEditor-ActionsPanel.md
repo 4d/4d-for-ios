@@ -61,37 +61,37 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Adresse mail</td><td>Optimized iOS keyboard for email entry</td>
+<td>Adresse mail</td><td>Clavier iOS optimisé pour la saisie de l'e-mail</td>
   </tr>
   
   <tr>
     
-<td>Numéro de téléphone</td><td>iOS keypad for entering telephone numbers.</td>
+<td>Numéro de téléphone</td><td>clavier iOS pour la saisie des numéros de téléphone.</td>
   </tr>
   
   <tr>
     
-<td>Compte</td><td>Optimized iOS keyboard for username entry</td>
+<td>Compte</td><td>Clavier iOS optimisé pour la saisie du nom d'utilisateur</td>
   </tr>
   
   <tr>
     
-<td>Mot de passe</td><td>Keyboard handling and hiding passwords</td>
+<td>Mot de passe</td><td>Clavier optimisé pour la gestion des mots de passe</td>
   </tr>
   
   <tr>
     
-<td>URL</td><td>Optimized iOS keyboard for URL entry</td>
+<td>URL</td><td>Clavier iOS optimisé pour la saisie de l'URL</td>
   </tr>
   
   <tr>
     
-<td>Code postal</td><td>Optimized iOS keyboard for zip code entry</td>
+<td>Code postal</td><td>Clavier iOS optimisé pour la saisie du code postal</td>
   </tr>
   
   <tr>
     
-<td>Zone de texte</td><td>Includes multiple lines of text in a single field</td>
+<td>Zone de texte</td><td>Inclut plusieurs lignes de texte dans un même champ</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -107,27 +107,27 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Number</td><td>Numbers with decimals</td>
+<td>Nombre</td><td>Nombre en lettres</td>
   </tr>
   
   <tr>
     
-<td>Integer</td><td>Numbers without decimals</td>
+<td>Entier</td><td>Nombres sans décimales</td>
   </tr>
   
   <tr>
     
-<td>Scientific</td><td>Scientific Notation</td>
+<td>Scientifique</td><td>Notation scientifique</td>
   </tr>
   
   <tr>
     
-<td>Percentage</td><td>Percent Notation</td>
+<td>Pourcentage</td><td>Notation en pourcentage</td>
   </tr>
   
   <tr>
     
-<td>Spell Out</td><td>Convert numbers into strings</td>
+<td>Nombre en lettres</td><td>Convertit les nombres en chaînes</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -153,12 +153,12 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Long Date</td><td>November 23, 1937</td>
+<td>Date longue</td><td>November 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Full Date</td><td>Tuesday, November 23, 1937</td>
+<td>Date complète</td><td>Tuesday, November 23, 1937</td>
   </tr>
   
   <tr>
@@ -176,12 +176,12 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Time</td><td>3:30 PM</td>
+<td>Heure</td><td>3:30 PM</td>
   </tr>
   
   <tr>
     
-<td>Duration</td><td>2 hours 30 minutes</td>
+<td>Durée</td><td>2 hours 30 minutes</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -212,113 +212,113 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Image parameters will be available in an upcoming release</td>
+<td colspan="2">Les paramètres d'image seront disponibles dans une prochaine version</td>
 </tr>
 
 </table>
 
 ### Actions pré-définies
 
-4D for iOS includes three preset (predefined) actions to manage your app content:
+4D for iOS comprend trois actions (prédéfinies) pour gérer le contenu de votre application :
 
-* Edit 
-* Add 
-* Delete 
+* Action d'édition 
+* Action d'ajout 
+* Action de suppression 
 
-#### 1. Add action
+#### 1. Action d'ajout
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS simplifie au maximum la création des **actions d'ajout**.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+Vous n'avez qu'à sélectionner l'option **Acton d'ajout pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. And this is it!
+Puis, **sélectionnez la table** que vous souhaitez associer à l'action d'ajout. Et voilà !
 
-This will **automatically create** all the parameters for you in the Project Editor. In the generated app, this will allow you to edit each field value.
+Cela **créera automatiquement** tous les paramètres dans l'éditeur de projets et vous permettra de modifier chaque valeur d'un champ. 
 
-For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
+Pour ce genre d'actions, vous constaterez que toutes les **propriétés** sont déjà saisies à des fins pratiques, à droite de la liste de paramètres.
 
-#### 2. Edit action
+#### 2. Action d'édition
 
-**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partie de la section Actions.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
-#### 3. Delete action
+#### 3. Action de suppression
 
-**Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
+La création des **actions de suppression** suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.
 
-To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
+Pour créer une action de suppression, sélectionnez l'option **Acton de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
-This type of action should be used with caution.
+Ce type d'actions doit être utilisé avec précaution.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-For Edit and Add actions you are free to modify the:
+Concernant les actions d'édition et d'ajout, vous êtes libres de modifier :
 
-* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
-* properties by defining them as you wish. 
+* les paramètres, en ajoutant ou en supprimant un paramètre à l'aide des **boutons + et -** situés en-dessous de la liste de paramètres des actions.
+* les propriétés, en les définissant à votre convenance. 
 
-### On Mobile App Action
+### Sur une action app mobile
 
-The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods.
+La méthode base [Sur une action app mobile](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) vous permet d'appeler vos méthodes 4D.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
+Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, situé sous le tableau des Actions, pour générer automatiquement un bloc de code *Case of* qui inclut tous vos noms d'actions dans la méthode *Sur une action app mobile*.
 
 ## Application iOS
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+Dans votre application iOS, des actions sont disponibles sous différentes formes dans vos formulaires Liste et formulaires détaillés, selon le modèle que vous sélectionnez dans la section Formulaires.
 
-### Table List forms
+### Formulaires Liste en tableau
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
+* **Action d'entité :** Faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
+* **Actions de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-### Collection List forms
+### Formulaires Liste en collection
 
-* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Action d'entité :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Actions de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
-### Detail forms
+### Formulaires détaillés
 
-As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+De même que pour les actions de table dans les formulaires détailles, un bouton d'actions générique est disponible dans la barre de navigation pour afficher toutes vos actions d'entité dans une liste.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
-### Edition forms
+### Formulaires d'édition
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si vous avez créé une action d'ajout ou d'édition, un **formulaire d'édition** apparaît dès que vous sélectionnez l'action à partir de la liste d'actions.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-From here, you can:
+Vous pourrez ainsi :
 
-* edit all of your fields by selecting them, and
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* éditer tous vos champs en les sélectionnant, et
+* valider ou annuler les modifications que vous aurez apportées à l'aide des boutons **Done** ou **Cancel** (dans la barre de navigation).
 
-For your convenience, the Edition form includes a few **special features**:
+A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
-* The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous record using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by touching anywhere outside of a field.
-* Indication is given to the user when a value is not valid.
-* The view focuses on empty mandatory fields when the user clicks the Done button.
+* Le type de clavier dépend du type de paramètre sélectionné dans la section Action.
+* You can go to the next or previous field using the arrow on top of the keyboard.
+* Le clavier iOS peut être quitté via un simple clic en dehors du champ.
+* L'utilisateur est informé lorsqu'une valeur n'est pas valide.
+* La vue est portée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.
 
-## Where to go from here?
+## Que faire ensuite ?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutoriel](actions-getting-started.html) est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des apramètres d'une action**.

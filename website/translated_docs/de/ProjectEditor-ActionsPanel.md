@@ -71,12 +71,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Account</td><td>Optimized iOS keyboard for username entry</td>
+<td>Account</td><td>Optimierte iOS Tastatur zur Eingabe des Benutzernamens</td>
   </tr>
   
   <tr>
     
-<td>Password</td><td>Keyboard handling and hiding passwords</td>
+<td>Password</td><td>Optimiert zum Verwalten von Kennwörtern</td>
   </tr>
   
   <tr>
@@ -212,7 +212,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Image parameters will be available in an upcoming release</td>
+<td colspan="2">Bildparameter werden in einem späteren Release verfügbar sein.</td>
 </tr>
 
 </table>
@@ -310,7 +310,7 @@ From here, you can:
 For your convenience, the Edition form includes a few **special features**:
 
 * The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous record using the arrow on top of the keyboard.
+* You can go to the next or previous field using the arrow on top of the keyboard.
 * The iOS keyboard can be closed by touching anywhere outside of a field.
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
