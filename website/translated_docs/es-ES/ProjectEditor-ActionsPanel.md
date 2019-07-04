@@ -153,7 +153,7 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Long Date</td><td>Nov 23, 1937</td>
+<td>Long Date</td><td>November 23, 1937</td>
   </tr>
   
   <tr>
@@ -204,6 +204,17 @@ Here are the different **Formats** you can select for a parameter:
     
 <td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
   </tr>
+
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">IMAGES</th>
+</tr>
+<tr>
+<td colspan="2">Image parameters will be available in an upcoming release</td>
+</tr>
+
 </table>
 
 ### Preset actions

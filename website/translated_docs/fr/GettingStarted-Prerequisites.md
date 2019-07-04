@@ -15,46 +15,46 @@ Xcode 10.2 nécessite **macOS 10.14** ou une version plus récente.
 
 ## Tableau de comparaison des versions
 
-| Xcode  | Swift | iOS      | 4D   | MacOS   |
-| ------ | ----- | -------- | ---- | ------- |
-| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
-| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
-| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
-| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
-| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
-| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
+| Xcode  | Swift | iOS      | 4D    | MacOS   |
+| ------ | ----- | -------- | ----- | ------- |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6  | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5  | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4  | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3  | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17 R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17 R2 | 10.13.2 |
 
-### Using 17R6 with macOS 10.14.3
+### Utilisation de 17R6 avec macOS 10.14.3
 
-4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+4d 17R6 requiert Swift5.0. (déjà installé sur macOS 10.14.4)
 
-* Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+* Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
-### Using 17R4 with Xcode 10.2
+### Utilisation de 17R4 avec Xcode 10.2
 
-Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.
+En raison de l’instabilité de l'ABI dans le langage Swift d'Apple, vous ne pouvez pas utiliser la version standard 4D 17R4 avec Xcode 10.2.
 
-Fortunately we provide an alternative component compatible with Xcode 10.2.
+Heureusement, nous vous proposons un composant de substitution compatible avec Xcode 10.2.
 
-You can replace the internal user component `4D Mobile App.4dbase`, that you can find into `../4D.app/Contents/Resources/Internal User Components/`, by the provided one:
+Vous pouvez remplacer le composant interne de l’utilisateur `4D App.4dbase Mobile`, qui se trouve dans `... /4D.app/Contents/Resources/Internal User Components/`, par celui que nous vous proposons :
 
 <a class="button"
 href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20Xcode%2010.2/4D%20Mobile%20App.4dbase.zip">4D Mobile App.4dbase.zip</a>
 
 ## Configuration matérielle requise
 
-* 8GB of RAM (Minimum recommended)
+* 8 Go de RAM (Minimum recommandé)
 
 ## Configuration 4D
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
-* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
+* Les ports HTTP et HTTPS doivent être correctement configurés. HTTPS est obligatoire pour le déploiement de 4D for iOS.
 
 ![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
 
-* Your Web Server must be started. It's available from the Run menu:
+* Votre serveur Web doit être lancé. Il est accessible depuis le menu Exécution :
 
 ![Start web server](assets/en/prerequisites/Start-web-server.png)

@@ -7,7 +7,7 @@ title: Xcode
 
 Xcode est un environnement de développement intégré (IDE) et un ensemble d’outils de développement pour macOS qui permet de créer des applications Mac, iPod, iPhone et iPad.
 
-## Télécharger
+## Téléchargement
 
 Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
 
@@ -26,26 +26,26 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ## Tableau de comparaison de version
 
-| Xcode  | Swift | iOS      | 4D   | MacOS   |
-| ------ | ----- | -------- | ---- | ------- |
-| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
-| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
-| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
-| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
-| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
-| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
+| Xcode  | Swift | iOS      | 4D    | macOS   |
+| ------ | ----- | -------- | ----- | ------- |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6  | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5  | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4  | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3  | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17 R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17 R2 | 10.13.2 |
 
-### Use 17R6 with macOS 10.14.3
+### Utilisation de 17R6 avec macOS 10.14.3
 
-4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+4d 17R6 requiert Swift5.0. (déjà installé sur macOS 10.14.4)
 
-- Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+- Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
-### Compatibility
+### Compatibilité
 
-Frameworks compiled with one version of Xcode could not be used with another version before the release of swift 5 (ie. 4D 17R6).
+Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version de swift 5 (i. e. 4D 17R6).
 
-The current release of swift have ABI stability. This enables the distribution of frameworks in a binary format.
+La stabilité de l'ABI de la version actuelle de Swift est garantie. Ainsi, les structures sont réparties dans un format binaire.
 
 https://swift.org/abi-stability/
 
