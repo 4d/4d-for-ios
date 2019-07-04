@@ -1,48 +1,48 @@
 ---
 id: using-parameters
-title: Using parameters
+title: Utiliser des paramètres
 ---
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Define action parameters to edit the content of your app.</div> 
+Définir des paramètres d'action pour modifier le contenu de votre application.</div> 
 
-In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+Dans le [tutoriel précédent](define-first-action.html), nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions à partir de la [section Actions](actions.html).
 
-In this tutorial, we're going to go further and create:
+Dans ce tutoriel, nous irons encore plus loin et nous créerons :
 
-* an Add action to **create a new task**,
-* an Edit action that will allow you to **edit existing tasks** from the iOS app,
-* a Delete action to **delete an entity**, and
-* an action that will enable you to **email a comment for a specific task**.
+* une action d'ajout pour **créer une nouvelle tâche**,
+* une action d'édition qui vous permettra d'**éditer les tâches existantes** à partir de l'application iOS,
+* une action de suppression pour **supprimer une entité**, et
+* une action qui vous permettra d'**envoyer par e-mail un commentaire relatif à une tâche spécifique**.
 
-To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
+Pour commencer, téléchargeons d'abord le **Projet Starter** , basé sur notre application iOS Tasks.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/actions/ActionParametersStarterProject.zip">STARTER PROJECT</a>
+href="../assets/en/actions/ActionParametersStarterProject.zip">PROJET STARTER</a>
 
   </p>
 </div>
 
-## STEP 1. Add action
+## ÉTAPE 1. Action d'ajout
 
-Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
+Commençons par une tâche simple. Ouvrez le projet mobile Tasks et cliquez directement sur la **section Actions**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
-It's quite empty for the moment... Here is what we want: **create a new task from the iOS app**.
+Pour l'instant, il est assez vide... Voici ce que nous souhaitons faire : **créer une nouvelle tâche à partir de l'application iOS**.
 
-For this, let's create an action using a preset **Add** action:
+Pour ce faire, nous allons créer une action à l'aide de l'action d'**ajout** :
 
-* Click on the arrow in the **+ button** at the bottom of the Actions table.
-* Select the **Add action for** option.
-* Select the **Task table**. 
+* Cliquez sur la flèche qui se trouve dans le **bouton +**, en-dessous du tableau d'actions.
+* Sélectionnez l'option **action d'ajout**.
+* Sélectionnez la **table Task**. 
 
 ![Add action creation](assets/en/actions/Add-action-creation.png)
 
@@ -182,7 +182,7 @@ Here's the final *On Mobile App Action* database method:
     
     
 
-## STEP 6. Create All the methods you need
+## ÉTAPE 6. Créer toutes les méthodes nécessaires
 
 ### addAction
 
@@ -376,15 +376,15 @@ Here's the final *On Mobile App Action* database method:
     
     <div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-* Don't forget to add your own values for the **sendEmail** action.</div> 
+* N'oubliez pas d'ajouter vos propres valeurs pour l'action **sendEmail**.</div> 
 
-## STEP 7. Build your app
+## ÉTAPE 7. Génération de l’application
 
-It's time to build your app!
+Il est temps de générer votre application !
 
-Now, if you click on the action navigation bar, you'll be able to **create a new task**.
+Si vous cliquez sur la barre de navigation de l'action, vous pourrez **créer une nouvelle tâche**.
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
@@ -400,9 +400,9 @@ And finally you can delete an entity using the **Delete...** action.
 
 ![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
-## STEP 8. Where to go from here?
+## ÉTAPE 8. Que faire ensuite ?
 
-Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
+Félicitations ! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
