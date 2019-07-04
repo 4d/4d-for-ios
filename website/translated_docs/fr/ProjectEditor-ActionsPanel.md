@@ -3,51 +3,51 @@ id: actions
 title: Actions
 ---
 
-This section allows you to:
+Cette section vous permet :
 
-* create actions to execute 4D code from your iOS app.
-* define and add parameters to your actions.
+* de créer des actions permettant d'exécuter du code 4D à partir de votre application 4D.
+* de définir et d'ajouter des paramètres à vos actions.
 
-## Project Editor Side
+## Éditeur de projet
 
-### Create your action
+### Créez votre application
 
-You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
+Vous pouvez créer de nouvelles actions en cliquant sur le bouton +, situé en-dessous du tableau d'Actions. Une nouvelle ligne apparaîtra alors dans le tableau.
 
-Next you'll need to define the following:
+Vous définirez ensuite les éléments suivants :
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Noms:** Le nom de l'action à utiliser dans la méthode base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
+* **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
+* **Libellés long et court :** Les libellés correspondant aux actions que vous souhaitez afficher dans votre application.
+* **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
+* **Portée :** Choisissez d'appliquer l'action à une **entité** ou à une **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-### Add parameters to your action
+### Ajoutez des paramètres à votre action
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+Tout comme pour **4D v17R6**, vous pouvez ajouter des **paramètres d'action** et **éditer** des données directement à partir de votre application.
 
-For each parameter, you can edit the following properties:
+Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
-* Name
-* Long label
-* Short label
-* Format
-* Input constraints (define minimum or maximum values)
-* Placeholder
-* Mandatory field definition
-* Default value
+* Le nom
+* Le libellé long
+* Le libellé court
+* Le format
+* Les contraintes (définir des valeurs minimales ou maximales)
+* Le placeholder
+* La définition d'un champ obligatoire
+* Valeur par défaut
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-Here are the different **Formats** you can select for a parameter:
+Voici les différents **formats** que vous pouvez sélectionner en tant que paramètre :
 
 <table>
   
 
 <tr>
-<th colspan="2"  style="text-align:center">TEXT</th>
+<th colspan="2"  style="text-align:center">TEXTE</th>
 </tr>  
   <tr style="text-align:center">
     
@@ -56,27 +56,27 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Text</td><td>Capitalize the first letter of a string</td>
+<td>Texte</td><td>Première lettre de la chaîne en majuscule</td>
   </tr>
   
   <tr>
     
-<td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
+<td>Adresse mail</td><td>Optimized iOS keyboard for email entry</td>
   </tr>
   
   <tr>
     
-<td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
+<td>Numéro de téléphone</td><td>iOS keypad for entering telephone numbers.</td>
   </tr>
   
   <tr>
     
-<td>Account</td><td>Optimized iOS keyboard for username entry</td>
+<td>Compte</td><td>Optimized iOS keyboard for username entry</td>
   </tr>
   
   <tr>
     
-<td>Password</td><td>Keyboard handling and hiding passwords</td>
+<td>Mot de passe</td><td>Keyboard handling and hiding passwords</td>
   </tr>
   
   <tr>
@@ -86,12 +86,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
+<td>Code postal</td><td>Optimized iOS keyboard for zip code entry</td>
   </tr>
   
   <tr>
     
-<td>Text area</td><td>Includes multiple lines of text in a single field</td>
+<td>Zone de texte</td><td>Includes multiple lines of text in a single field</td>
   </tr>
 <tr>
 <td colspan="2"></td>
@@ -148,12 +148,12 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Short Date</td><td>    11/23/37</td>
+<td>Date courte</td><td>    11/23/37</td>
   </tr>
   
   <tr>
     
-<td>Long Date</td><td>Nov 23, 1937</td>
+<td>Long Date</td><td>November 23, 1937</td>
   </tr>
   
   <tr>
@@ -167,7 +167,7 @@ Here are the different **Formats** you can select for a parameter:
   </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">TIME</th>
+<th colspan="2" style="text-align:center">HEURE</th>
 </tr>  
   <tr style="text-align:center">
     
@@ -188,7 +188,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">BOOLEAN</th>
+<th colspan="2" style="text-align:center">BOOLÉEN</th>
 </tr>  
   <tr style="text-align:center">
     
@@ -197,16 +197,27 @@ Here are the different **Formats** you can select for a parameter:
   
   <tr>
     
-<td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
+<td>Booléen</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
   </tr>
   
   <tr>
     
-<td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
+<td>Coche</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
   </tr>
+
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">IMAGES</th>
+</tr>
+<tr>
+<td colspan="2">Image parameters will be available in an upcoming release</td>
+</tr>
+
 </table>
 
-### Preset actions
+### Actions pré-définies
 
 4D for iOS includes three preset (predefined) actions to manage your app content:
 
