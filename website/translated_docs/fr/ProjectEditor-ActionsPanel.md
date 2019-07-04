@@ -37,7 +37,7 @@ Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 * Les contraintes (définir des valeurs minimales ou maximales)
 * Le placeholder
 * La définition d'un champ obligatoire
-* Valeur par défaut
+* La valeur par défaut
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
@@ -98,7 +98,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">NUMBER</th>
+<th colspan="2" style="text-align:center">NOMBRE</th>
 </tr>  
   <tr style="text-align:center">
     
@@ -107,7 +107,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Nombre</td><td>Nombre en lettres</td>
+<td>Nombre</td><td>Nombres avec décimales</td>
   </tr>
   
   <tr>
@@ -241,7 +241,7 @@ Pour ce genre d'actions, vous constaterez que toutes les **propriétés** sont d
 
 #### 2. Action d'édition
 
-La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partie de la section Actions.
+La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partir de la section Actions.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
@@ -249,7 +249,7 @@ La création des **actions d'édition** suit le même principe que les actions d
 
 La création des **actions de suppression** suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.
 
-Pour créer une action de suppression, sélectionnez l'option **Acton de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
+Pour créer une action de suppression, sélectionnez l'option **Action de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
 Ce type d'actions doit être utilisé avec précaution.
 
@@ -276,7 +276,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Actions de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
+* **Action de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
@@ -286,7 +286,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Actions de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
+* **Action de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -321,4 +321,4 @@ A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalité
 
 * Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des apramètres d'une action**.
+* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des paramètres d'une action**.
