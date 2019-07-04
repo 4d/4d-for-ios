@@ -72,7 +72,7 @@ Vous allez donc voir :
 
 ![Edit action parameters](assets/en/actions/Edit-action-parameters.png)
 
-Pas de panique, nous reviendrons sur le code 4D de ces actions un peu plsu tard. :-)
+Pas de panique, nous reviendrons sur le code 4D de ces actions un peu plus tard. :-)
 
 ## ÉTAPE 3. Action de suppression
 
