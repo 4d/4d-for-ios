@@ -220,7 +220,7 @@ If ($in.dataClass#Null)
 
 Else 
 
-	$out.errors:=New Collection("No selection")
+	$out.errors:=New collection("No Selection")
 
 End if 
 
