@@ -400,7 +400,7 @@ $0:=$out
 
 It's time to build your app! 
 
-Now, if you click on the action navigation bar, you'll be able to **create a new task**.
+Now, if you click on the action button in the navigation bar, you'll be able to **create a new task**.
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
