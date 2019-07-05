@@ -5,7 +5,7 @@ title: Actions
 
 Cette section vous permet :
 
-* de créer des actions permettant d'exécuter du code 4D à partir de votre application 4D.
+* de créer des actions permettant d'exécuter du code 4D à partir de votre application iOS.
 * de définir et d'ajouter des paramètres à vos actions.
 
 ## Éditeur de projet
@@ -16,9 +16,9 @@ Vous pouvez créer de nouvelles actions en cliquant sur le bouton +, situé en-d
 
 Vous définirez ensuite les éléments suivants :
 
-* **Noms:** Le nom de l'action à utiliser dans la méthode base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
+* **Noms:** Définissez le nom de l'action à utiliser dans la méthode base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
 * **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
-* **Libellés long et court :** Les libellés correspondant aux actions que vous souhaitez afficher dans votre application.
+* **Libellés long et court :** Définissez les libellés correspondant aux actions que vous souhaitez afficher dans votre application.
 * **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
 * **Portée :** Choisissez d'appliquer l'action à une **entité** ou à une **table**.
 
@@ -37,7 +37,7 @@ Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 * Les contraintes (définir des valeurs minimales ou maximales)
 * Le placeholder
 * La définition d'un champ obligatoire
-* Valeur par défaut
+* La valeur par défaut
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
@@ -98,7 +98,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">NUMBER</th>
+<th colspan="2" style="text-align:center">NOMBRE</th>
 </tr>  
   <tr style="text-align:center">
     
@@ -107,7 +107,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Nombre</td><td>Nombre en lettres</td>
+<td>Nombre</td><td>Nombres avec décimales</td>
   </tr>
   
   <tr>
@@ -241,7 +241,7 @@ Pour ce genre d'actions, vous constaterez que toutes les **propriétés** sont d
 
 #### 2. Action d'édition
 
-La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partie de la section Actions.
+La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partir de la section Actions.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
@@ -249,7 +249,7 @@ La création des **actions d'édition** suit le même principe que les actions d
 
 La création des **actions de suppression** suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.
 
-Pour créer une action de suppression, sélectionnez l'option **Acton de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
+Pour créer une action de suppression, sélectionnez l'option **Action de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
 Ce type d'actions doit être utilisé avec précaution.
 
@@ -276,7 +276,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Actions de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
+* **Action de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
@@ -286,7 +286,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Actions de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
+* **Action de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -310,7 +310,7 @@ Vous pourrez ainsi :
 A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
 * Le type de clavier dépend du type de paramètre sélectionné dans la section Action.
-* You can go to the next or previous field using the arrow on top of the keyboard.
+* Vous pouvez passer d'un champ à l'autre à l'aide des flèches situées en haut du clavier.
 * Le clavier iOS peut être quitté via un simple clic en dehors du champ.
 * L'utilisateur est informé lorsqu'une valeur n'est pas valide.
 * La vue est portée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.
@@ -321,4 +321,4 @@ A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalité
 
 * Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des apramètres d'une action**.
+* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des paramètres d'une action**.
