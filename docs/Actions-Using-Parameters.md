@@ -135,7 +135,6 @@ Case of
 		
 		$o:=OB Copy($parameters)
 		$o.dataClass:=$context.dataClass
-		$o.ID:=$context.entity.primaryKey
 		
 		$result:=addAction ($o)
 		
@@ -176,7 +175,7 @@ Case of
 		   // Unknown action
 		$result:=New object(\
 		"success";False;\
-		"errors";New collection("Internal error"))
+		"statusText";"Internal error")
 		
 End case 
 
@@ -199,12 +198,11 @@ C_OBJECT($1)
 C_OBJECT($entity;$in;$out)
 
 $in:=$1
-
 $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 	
-	$entity:=ds.Tasks.new()  //create a reference
+	$entity:=ds[$in.dataClass].new()  //create a reference
 	
 	$entity.CompletePercentage:=$in.CompletePercentage
 	$entity.StartDate:=$in.StartDate
@@ -213,19 +211,17 @@ If ($in.dataClass#Null)
 	$entity.Title:=$in.Title
 	$entity.Status:=$in.Status
 	$entity.Priority:=$in.Priority
-	
+
 	$entity.save()  //save the entity
-	
-	
+
 	$out.success:=True  // notify App that action success
 	$out.dataSynchro:=True  // notify App to refresh the selection
 	$out.statusText:="Task added"
 
-	
 Else 
-	
-	$out.errors:=New collection("No Selection")
-	
+
+	$out.errors:=New Collection("No selection")
+
 End if 
 
 $0:=$out
@@ -243,6 +239,7 @@ C_OBJECT($1)
 C_OBJECT($dataClass;$entity;$in;$out;$status;$selection;$emailToSend)
 
 $in:=$1
+$out:=New object
 
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
@@ -259,9 +256,7 @@ If ($selection.length=1)
 	$entity.Priority:=$in.Priority
 	
 	$status:=$entity.save()
-	
-	$out:=New object
-	
+
 	If ($status.success)
 		
 		$out.success:=True  // notify App that action success
@@ -295,21 +290,19 @@ C_OBJECT($1)
 C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
 
 $in:=$1
+$out:=New object
 
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
 If ($selection.length=1)
 	
 	$entity:=$selection.drop()
-	
-	$out:=New object
-	
+
 	If ($entity.length=0)
 		
 		$out.success:=True  // notify App that action success
 		$out.dataSynchro:=True  // notify App to refresh this entity
 		$out.statusText:="Task deleted"
-
 
 	Else 
 		
@@ -338,6 +331,7 @@ C_OBJECT($1;$in)
 C_OBJECT($dataClass;$entity;$selection)
 
 $in:=$1
+$out:=New object
 
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
@@ -348,10 +342,7 @@ If ($selection.length=1)
 	$taskTitle:=$in.Title
 	$commentToSend:=$in.Comment
 	$emailToSend:=$in.Email
-	
-	$out:=New object
-	
-	
+
 	$server:=New object
 	$server.host:="smtp.gmail.com"
 	$server.port:=465
@@ -366,8 +357,7 @@ If ($selection.length=1)
 	$email.to:=$emailToSend
 	$email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
 	+$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
-	
-	
+
 	$status:=$transporter.send($email)
 	If ($status.success)
 		$out.success:=True  // notify App that action success
