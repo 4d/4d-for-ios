@@ -173,7 +173,10 @@ Case of
 		
 	Else 
 		
-		  // Unknown action
+		   // Unknown action
+		$result:=New object(\
+		"success";False;\
+		"errors";New collection("Internal error"))
 		
 End case 
 

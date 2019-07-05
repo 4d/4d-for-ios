@@ -18,7 +18,7 @@ Dans ce tutoriel, nous irons encore plus loin et nous créerons :
 * une action de suppression pour **supprimer une entité**, et
 * une action qui vous permettra d'**envoyer par e-mail un commentaire relatif à une tâche spécifique**.
 
-Pour commencer, téléchargeons d'abord le **Projet Starter** , basé sur notre application iOS Tasks.
+Pour commencer, téléchargeons d'abord le **Projet Starter**, basé sur notre application iOS Tasks.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -46,7 +46,7 @@ Pour ce faire, nous allons créer une action à l'aide de l'action d'**ajout** :
 
 ![Add action creation](assets/en/actions/Add-action-creation.png)
 
-* **Une nouvelle action** nommée *"addTasks"* est affichée avec, par défaut, l'étiquette *"Add..."*.
+* **Une nouvelle action** nommée *"addTasks"* est affichée avec, par défaut, le libellé *"Add..."*.
 * Tous les **paramètres** disponibles ainsi que leurs **propriétés** se trouvent dans la section **Paramètres des actions**.
 
 ![Add action parameters](assets/en/actions/Add-action-parameters.png)
@@ -67,12 +67,12 @@ Pour ce faire, nous allons créer une action à l'aide de l'action d'**édition*
 
 Vous allez donc voir :
 
-* **Une nouvelle action** nommée *"editTasks"* avec, par défaut, l'étiquette *"Edit..."*.
+* **Une nouvelle action** nommée *"editTasks"* avec, par défaut, le libellé *"Edit..."*.
 * Tous les **paramètres** d'action disponibles ainsi que leurs **propriétés** dans la section **Paramètres des actions**.
 
 ![Edit action parameters](assets/en/actions/Edit-action-parameters.png)
 
-Pas de panique, nous reviendrons sur le code 4D de ces actions un peu plsu tard. :-)
+Pas de panique, nous reviendrons sur le code 4D de ces actions un peu plus tard. :-)
 
 ## ÉTAPE 3. Action de suppression
 
@@ -84,7 +84,7 @@ Le processus de création de l'action prédéfinie de **suppression** est à peu
 
 ![Delete action creation](assets/en/actions/Delete-action-creation.png)
 
-Vous verrez apparaître une **nouvelle action** nommée *"deleteTasks"* avec, par défaut, l'étiquette *"Remove"*.
+Vous verrez apparaître une **nouvelle action** nommée *"deleteTasks"* avec, par défaut, le libellé *"Remove"*.
 
 ![Delete action](assets/en/actions/Delete-action-final.png)
 
