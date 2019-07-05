@@ -134,7 +134,6 @@ Voici la méthode base *Sur une action app mobile* finale :
     
             $o:=OB Copy($parameters)
             $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
     
             $result:=addAction ($o)
     
@@ -175,7 +174,7 @@ Voici la méthode base *Sur une action app mobile* finale :
                // Unknown action
             $result:=New object(\
             "success";False;\
-            "errors";New collection("Internal error"))
+            "statusText";"Internal error")
     
     End case 
     
@@ -195,12 +194,11 @@ Voici la méthode base *Sur une action app mobile* finale :
     C_OBJECT($entity;$in;$out)
     
     $in:=$1
-    
     $out:=New object("success";False)
     
     If ($in.dataClass#Null)
     
-        $entity:=ds.Tasks.new()  //create a reference
+        $entity:=ds[$in.dataClass].new()  //create a reference
     
         $entity.CompletePercentage:=$in.CompletePercentage
         $entity.StartDate:=$in.StartDate
@@ -212,11 +210,9 @@ Voici la méthode base *Sur une action app mobile* finale :
     
         $entity.save()  //save the entity
     
-    
         $out.success:=True  // notify App that action success
         $out.dataSynchro:=True  // notify App to refresh the selection
         $out.statusText:="Task added"
-    
     
     Else 
     
@@ -237,6 +233,7 @@ Voici la méthode base *Sur une action app mobile* finale :
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection;$emailToSend)
     
     $in:=$1
+    $out:=New object
     
     $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
     
@@ -253,8 +250,6 @@ Voici la méthode base *Sur une action app mobile* finale :
         $entity.Priority:=$in.Priority
     
         $status:=$entity.save()
-    
-        $out:=New object
     
         If ($status.success)
     
@@ -287,6 +282,7 @@ Voici la méthode base *Sur une action app mobile* finale :
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
     
     $in:=$1
+    $out:=New object
     
     $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
     
@@ -294,14 +290,11 @@ Voici la méthode base *Sur une action app mobile* finale :
     
         $entity:=$selection.drop()
     
-        $out:=New object
-    
         If ($entity.length=0)
     
             $out.success:=True  // notify App that action success
             $out.dataSynchro:=True  // notify App to refresh this entity
             $out.statusText:="Task deleted"
-    
     
         Else 
     
@@ -328,6 +321,7 @@ Voici la méthode base *Sur une action app mobile* finale :
     C_OBJECT($dataClass;$entity;$selection)
     
     $in:=$1
+    $out:=New object
     
     $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
     
@@ -338,9 +332,6 @@ Voici la méthode base *Sur une action app mobile* finale :
         $taskTitle:=$in.Title
         $commentToSend:=$in.Comment
         $emailToSend:=$in.Email
-    
-        $out:=New object
-    
     
         $server:=New object
         $server.host:="smtp.gmail.com"
@@ -356,7 +347,6 @@ Voici la méthode base *Sur une action app mobile* finale :
         $email.to:=$emailToSend
         $email.htmlBody:="&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;"+"&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; "+$taskTitle+"&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; "\
         +$commentToSend+"&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;"\
-    
     
         $status:=$transporter.send($email)
         If ($status.success)
