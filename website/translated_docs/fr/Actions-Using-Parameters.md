@@ -36,7 +36,7 @@ Commençons par une tâche simple. Ouvrez le projet mobile Tasks et cliquez dire
 
 ![Action section](assets/en/actions/Actions-section.png)
 
-Pour l'instant, il est assez vide... Voici ce que nous souhaitons faire : **créer une nouvelle tâche à partir de l'application iOS**.
+Pour l'instant, elle est assez vide... Voici ce que nous souhaitons faire : **créer une nouvelle tâche à partir de l'application iOS**.
 
 Pour ce faire, nous allons créer une action à l'aide de l'action d'**ajout** :
 
@@ -92,7 +92,7 @@ Vous n'avez pas à vous préoccuper des paramètres ou des propritées pour ce t
 
 ## ÉTAPE 4. Action d'envoi de commentaire
 
-Nous souhaitons maintenant **envoyer un commentaire** à une **adresse mail spécifique**, en fonction d'une tâche spécifique. Pour ce faire, cliquez sur le bouton + et créez une nouvelle action que vous nommerez **sendComment**.
+Nous souhaitons maintenant **envoyer un commentaire** à une **adresse mail spécifique**, par rapport à une tâche spécifique. Pour ce faire, cliquez sur le bouton + et créez une nouvelle action que vous nommerez **sendComment**.
 
 ![Delete action creation](assets/en/actions/Send-comment-action-creation.png)
 
@@ -106,7 +106,7 @@ Votre section Actions devrait ressembler à ceci :
 
 ![Send comment action creation](assets/en/actions/Send-comment-action-definition.png)
 
-## ÉTAPE 5. Créez la méthode base Sur une action app mobile
+## ÉTAPE 5. Création de la méthode base Sur une action app mobile
 
 Comme indiqué dans la [documentation](actions.html), cliquez sur le bouton Créer... pour créer la méthode base *Sur une action app mobile*.
 
@@ -114,7 +114,7 @@ Toutes vos actions seront comprises automatiquement dans la méthode base.
 
 Il ne vous reste qu'à ajouter une référence à votre/vos méthode(s) pour le(s) scénario(s) que vous souhaitez gérer.
 
-Voici la méthode base *On Mobile App Action* finale :
+Voici la méthode base *Sur une action app mobile* finale :
 
     C_OBJECT($0;$response)
     C_OBJECT($1;$request)
@@ -172,7 +172,10 @@ Voici la méthode base *On Mobile App Action* finale :
     
         Else 
     
-              // Unknown action
+               // Unknown action
+            $result:=New object(\
+            "success";False;\
+            "errors";New collection("Internal error"))
     
     End case 
     
@@ -182,7 +185,7 @@ Voici la méthode base *On Mobile App Action* finale :
     
     
 
-## ÉTAPE 6. Créer toutes les méthodes nécessaires
+## ÉTAPE 6. Création de toutes les méthodes nécessaires
 
 ### addAction
 
@@ -384,11 +387,11 @@ Voici la méthode base *On Mobile App Action* finale :
 
 Il est temps de générer votre application !
 
-Si vous cliquez sur la barre de navigation de l'action, vous pourrez **créer une nouvelle tâche**.
+Si vous cliquez sur le bouton Action de la barre de navigation, vous pourrez **créer une nouvelle tâche**.
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
-Maintenir votre pouce sur la nouvelle tâche du formulaire Liste affichera qu'une action d'**édition** est disponible dans la liste d'actions.
+Si vous maintenez votre pouce sur la nouvelle tâche du formulaire Liste, une action d'**édition** s'affichera dans la liste d'actions.
 
 ![Edit task](assets/en/actions/Action-parameters-editAction.png)
 
