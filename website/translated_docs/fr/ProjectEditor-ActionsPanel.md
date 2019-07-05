@@ -16,7 +16,7 @@ Vous pouvez créer de nouvelles actions en cliquant sur le bouton +, situé en-d
 
 Vous définirez ensuite les éléments suivants :
 
-* **Noms:** Définissez le nom de l'action à utiliser dans la méthode base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
+* **Noms :** Définissez le nom de l'action à utiliser dans la méthode base [Sur une action app mobile](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
 * **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
 * **Libellés long et court :** Définissez les libellés correspondant aux actions que vous souhaitez afficher dans votre application.
 * **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
@@ -26,7 +26,7 @@ Vous définirez ensuite les éléments suivants :
 
 ### Ajoutez des paramètres à votre action
 
-Tout comme pour **4D v17R6**, vous pouvez ajouter des **paramètres d'action** et **éditer** des données directement à partir de votre application.
+Tout comme dans **4D v17R6**, vous pouvez ajouter des **paramètres d'action** et **éditer** des données directement à partir de votre application.
 
 Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
@@ -217,7 +217,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 
 </table>
 
-### Actions pré-définies
+### Actions prédéfinies
 
 4D for iOS comprend trois actions (prédéfinies) pour gérer le contenu de votre application :
 
@@ -229,7 +229,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 
 4D for iOS simplifie au maximum la création des **actions d'ajout**.
 
-Vous n'avez qu'à sélectionner l'option **Acton d'ajout pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
+Vous n'avez qu'à sélectionner l'option **Action d'ajout pour**, accessible à partir du **bouton +**, situé en-dessous de la table Actions.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
