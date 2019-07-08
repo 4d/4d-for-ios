@@ -383,7 +383,7 @@ $0:=$out
 
 **TIPS**
 
-* Don't forget to add your own values for the **sendEmail** action.
+Don't forget to add your own values for the **sendEmail** action.
 
 </div>
 

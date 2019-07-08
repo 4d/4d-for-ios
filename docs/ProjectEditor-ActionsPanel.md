@@ -42,6 +42,8 @@ For each parameter, you can edit the following properties:
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
+You are free to change the order fo parameters using drag and drop.
+
 Here are the different **Formats** you can select for a parameter:
 
 <table>
@@ -192,6 +194,15 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
+<div markdown="1" class = "tips">
+
+**TIPS**
+
+Note that you have to notify App to refresh the selection after executing an action using ```dataSynchro:=True``` 
+
+</div>
+
+
 ## iOS app Side
 
 In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section. 
@@ -205,6 +216,15 @@ In your iOS app, actions are available in different ways in your List and Detail
 * **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
+
+<div markdown="1" class = "tips">
+
+**TIPS**
+
+Actions will be display in the same order as defined in the Action section.
+
+</div>
+
 
 ### Collection List forms
 
