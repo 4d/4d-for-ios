@@ -17,19 +17,19 @@ Por ejemplo, si el nombre de su empresa es "MyCompany" y su aplicación es "MyAp
 
 Los enlaces de ayuda están disponibles para los campos Nombre e Identificador.</div> 
 
-**Nombre del producto:** el nombre de su aplicación. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
+**Nombre del producto:** el nombre de su aplicación. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». Este Bundle ID debe ser el mismo que el ID de paquete que crea en su cuenta de desarrollo de Apple.
 
-**Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
+**Versión:** la versión de su aplicación. Agregue los números de versión en orden ascendente y secuencial a partir de 1.0.
 
-**Copyright:** Your app's copyright. 4D for iOS suggests a copyright format but you can create your own.
+**Copyright:** los derechos de autor de su aplicación. 4D for iOS sugiere un formato de copyright, pero puede crear su propio formato.
 
-**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!<div class = "tips"> 
+**iconos:** 4D for iOS le permite crear iconos de aplicaciones de varias maneras, de acuerdo con las pautas de Apple, que incluyen arrastrar y soltar sus iconos directamente desde su ordenador al área de iconos. ¡4D for iOS genererà todos los formatos requeridos!<div class = "tips"> 
 
-**TIPS**
+**CONSEJOS**
 
-* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
-* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!</div> 
+* Si ya tiene un icono para su aplicación de escritorio, puede arrastrarlo y soltarlo directamente en el área del icono.
+* **Truco:** 4D for iOS determina automáticamente el color dominante del icono de su aplicación y lo utiliza para generar un esquema de color personalizado para su aplicación!</div> 
 
-**Developer:** This field is automatically filled with your user account name.
+**Desarrollador:**este campo se llena automáticamente con el nombre de su cuenta de usuario.
 
-**Team:** Your Developer Account Team ID.
+**Team:** "Team ID" de su cuenta "Desarrollador".
