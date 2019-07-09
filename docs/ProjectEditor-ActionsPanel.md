@@ -196,10 +196,11 @@ After creating all of your actions, just click on the Create button from the Act
 
 <div markdown="1" class = "tips">
 
-**TIPS**
+**NOTE**
 
-Note that you have to notify App to refresh the selection after executing an action using ```dataSynchro:=True``` 
-
+* You have to notify the iOS App to refresh the selection after executing an action using ```$out.dataSynchro:=True```.
+* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
+* You can also decide to force close the Edition form using ```$out.close:=True```.
 </div>
 
 
