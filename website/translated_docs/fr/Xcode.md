@@ -28,12 +28,13 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 | Xcode  | Swift | iOS      | 4D    | macOS   |
 | ------ | ----- | -------- | ----- | ------- |
+| 11     | 5.1   | iOS 13.0 | 18    | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6  | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5  | 10.14.3 |
 | 10.1   | 4.2.1 | iOS 12   | 17R4  | 10.13.6 |
 | 10.0   | 4.2   | iOS 12   | 17R3  | 10.13.6 |
 | 9.4    | 4.1.2 | iOS 11.4 | 17 R2 | 10.13.2 |
-| 9.3.1  | 4.1   | iOS 11.3 | 17 R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17R2  | 10.13.2 |
 
 ### Utilisation de 17R6 avec macOS 10.14.3
 
@@ -43,18 +44,8 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ### Compatibilité
 
-Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version de swift 5 (i. e. 4D 17R6).
+Frameworks compiled with one version of Xcode could not be used with another version.
 
-La stabilité de l'ABI de la version actuelle de Swift est garantie. Ainsi, les structures sont réparties dans un format binaire.
+The current release of swift(5) have ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
 
-https://swift.org/abi-stability/
-
-<div class="tips">
-  <p>
-    ABI : Application Binary Interface, un contrat qui lie les extraits de code binaire définis par le compilateur.
-  </p>
-  
-  <p>
-    🔗 https://en.wikipedia.org/wiki/Application_binary_interface
-  </p>
-</div>
+Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/
