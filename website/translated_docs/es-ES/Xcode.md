@@ -28,6 +28,7 @@ Los desarrolladores registrados pueden descargar las versiones previas y las ver
 
 | Xcode  | Swift | iOS      | 4D   | MacOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11     | 5.1   | iOS 13.0 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
 | 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
@@ -43,18 +44,8 @@ Los desarrolladores registrados pueden descargar las versiones previas y las ver
 
 ### Compatibilidad
 
-Los frameworks compilados con una versión de Xcode no se pueden utilizar con otra versión antes del lanzamiento de swift 5 (es decir, 4D 17R6).
+Frameworks compiled with one version of Xcode could not be used with another version.
 
-La versión actual de swift tiene estabilidad ABI. Esto permite la distribución de frameworks en un formato binario.
+The current release of swift(5) have ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
 
-https://swift.org/abi-stability/
-
-<div class="tips">
-  <p>
-    ABI: Application Binary Interface, un contrato entre piezas de código binario definido por el compilador.
-  </p>
-  
-  <p>
-    🔗 https://en.wikipedia.org/wiki/Application_binary_interface
-  </p>
-</div>
+Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/

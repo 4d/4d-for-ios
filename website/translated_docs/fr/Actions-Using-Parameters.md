@@ -371,7 +371,7 @@ Voici la méthode base *Sur une action app mobile* finale :
 
 **CONSEILS**
 
-* N'oubliez pas d'ajouter vos propres valeurs pour l'action **sendEmail**.</div> 
+Don't forget to add your own values for the **sendEmail** action.</div> 
 
 ## ÉTAPE 7. Génération de l’application
 
