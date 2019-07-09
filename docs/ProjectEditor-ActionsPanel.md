@@ -198,7 +198,7 @@ After creating all of your actions, just click on the Create button from the Act
 
 **NOTE**
 
-* You have to notify the iOS App to refresh the selection after executing an action using ```$out.dataSynchro:=True```.
+* You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
 * You can also decide to force close the Edition form using ```$out.close:=True```.
 </div>
@@ -222,7 +222,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 **TIPS**
 
-Actions will be display in the same order as defined in the Action section.
+Actions will be displayed in the same order as defined in the Action section.
 
 </div>
 
