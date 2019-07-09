@@ -41,7 +41,7 @@ For each parameter, you can edit the following properties:
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order fo parameters using drag and drop.
+You are free to change the order of parameters using drag and drop.
 
 Here are the different **Formats** you can select for a parameter:
 
@@ -268,9 +268,11 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
 
-**TIPS**
+**NOTE**
 
-Note that you have to notify App to refresh the selection after executing an action using ```dataSynchro:=True```</div> 
+* You have to notify the iOS App to refresh the selection after executing an action using ```$out.dataSynchro:=True```.
+* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
+* You can also decide to force close the Edition form using ```$out.close:=True```.</div> 
 
 ## Aplicación iOS
 
