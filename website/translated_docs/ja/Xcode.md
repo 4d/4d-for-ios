@@ -46,6 +46,6 @@ Xcodeは，macOS上で動く統合開発環境および付随する開発者ツ�
 
 Frameworks compiled with one version of Xcode could not be used with another version.
 
-The current release of swift(5) have ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
+The current release of swift(5) has ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
 
 Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/
