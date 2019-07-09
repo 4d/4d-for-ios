@@ -28,6 +28,7 @@ Xcodeは，macOS上で動く統合開発環境および付随する開発者ツ�
 
 | Xcode  | Swift | iOS      | 4D   | MacOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11     | 5.1   | iOS 13.0 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
 | 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
@@ -43,18 +44,8 @@ Xcodeは，macOS上で動く統合開発環境および付随する開発者ツ�
 
 ### Compatibility
 
-Frameworks compiled with one version of Xcode could not be used with another version before the release of swift 5 (ie. 4D 17R6).
+Frameworks compiled with one version of Xcode could not be used with another version.
 
-The current release of swift have ABI stability. This enables the distribution of frameworks in a binary format.
+The current release of swift(5) have ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
 
-https://swift.org/abi-stability/
-
-<div class="tips">
-  <p>
-    ABI: Application Binary Interfaceの略で，コンパイラーによって定義された，バイナリコード間の約束事のこと。
-  </p>
-  
-  <p>
-    🔗 https://ja.wikipedia.org/wiki/Application_Binary_Interface
-  </p>
-</div>
+Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/
