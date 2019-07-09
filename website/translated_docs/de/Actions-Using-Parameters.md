@@ -371,7 +371,7 @@ Here's the final *On Mobile App Action* database method:
 
 **TIPS**
 
-* Don't forget to add your own values for the **sendEmail** action.</div> 
+Don't forget to add your own values for the **sendEmail** action.</div> 
 
 ## STEP 7. Build your app
 
