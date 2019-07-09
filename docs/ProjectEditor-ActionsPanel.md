@@ -42,7 +42,7 @@ For each parameter, you can edit the following properties:
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order fo parameters using drag and drop.
+You are free to change the order of parameters using drag and drop.
 
 Here are the different **Formats** you can select for a parameter:
 
