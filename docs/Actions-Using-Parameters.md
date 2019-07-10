@@ -191,7 +191,6 @@ $0:=$result
 ### addAction
 
 ```
-
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -232,7 +231,6 @@ $0:=$out
 ### editAction
 
 ```
-
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -283,7 +281,6 @@ $0:=$out
 ### deleteAction
 
 ```
-
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -324,7 +321,6 @@ $0:=$out
 ### sendEmail
 
 ```
-
 C_OBJECT($0;$out)
 C_OBJECT($1;$in)
 
@@ -377,7 +373,9 @@ End if
 
 $0:=$out
 
+
 ```
+
 
 <div markdown="1" class = "tips">
 
