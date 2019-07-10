@@ -41,9 +41,9 @@ Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order fo parameters using drag and drop.
+You are free to change the order of parameters using drag and drop.
 
-Here are the different **Formats** you can select for a parameter:
+Voici les différents **formats** que vous pouvez sélectionner en tant que paramètre :
 
 <table>
   
@@ -221,7 +221,7 @@ Here are the different **Formats** you can select for a parameter:
 
 ### Actions prédéfinies
 
-4D for iOS includes three preset (predefined) actions to manage your app content:
+4D for iOS comprend trois actions (prédéfinies) pour gérer le contenu de votre application :
 
 * Action d'édition 
 * Action d'ajout 
@@ -229,52 +229,54 @@ Here are the different **Formats** you can select for a parameter:
 
 #### 1. Action d'ajout
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS simplifie au maximum la création des **actions d'ajout**.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+Vous n'avez qu'à sélectionner l'option **Action d'ajout pour**, accessible à partir du **bouton +**, situé en-dessous de la table Actions.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. And this is it!
+Puis, **sélectionnez la table** que vous souhaitez associer à l'action d'ajout. Et voilà !
 
-This will **automatically create** all the parameters for you in the Project Editor. In the generated app, this will allow you to edit each field value.
+Cela **créera automatiquement** tous les paramètres dans l'éditeur de projets et vous permettra de modifier chaque valeur d'un champ. 
 
-For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
+Pour ce genre d'actions, vous constaterez que toutes les **propriétés** sont déjà saisies à des fins pratiques, à droite de la liste de paramètres.
 
 #### 2. Action d'édition
 
-**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partir de la section Actions.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 #### 3. Action de suppression
 
-**Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
+La création des **actions de suppression** suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.
 
-To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
+Pour créer une action de suppression, sélectionnez l'option **Action de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
-This type of action should be used with caution.
+Ce type d'actions doit être utilisé avec précaution.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-For Edit and Add actions you are free to modify the:
+Concernant les actions d'édition et d'ajout, vous êtes libres de modifier :
 
 * les paramètres, en ajoutant ou en supprimant un paramètre à l'aide des **boutons + et -** situés en-dessous de la liste de paramètres des actions.
 * les propriétés, en les définissant à votre convenance. 
 
 ### Sur une action app mobile
 
-The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods.
+La méthode base [Sur une action app mobile](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) vous permet d'appeler vos méthodes 4D.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
+Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, situé sous le tableau des Actions, pour générer automatiquement un bloc de code *Case of* qui inclut tous vos noms d'actions dans la méthode *Sur une action app mobile*.<div class = "tips"> 
 
-**TIPS**
+**NOTE**
 
-Note that you have to notify App to refresh the selection after executing an action using ```dataSynchro:=True```</div> 
+* Vous devez faire en sorte que l'application mette à jour la sélection après l'exécution d'une action, à l'aide de ```$out.dataSynchro:=True```.
+* Vous pouvez notifier l'utilisateur lorsque l'application a été exécutée, à l'aide de ```$out.statusText:="Message you want to display"```.
+* Vous pouvez également choisir de forcer la fermeture du formulaire d'édition à l'aide de ```$out.close:=True```.</div> 
 
 ## Application iOS
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+Dans votre application iOS, des actions sont disponibles sous différentes formes dans vos formulaires Liste et formulaires détaillés, selon le modèle que vous sélectionnez dans la section Formulaires.
 
 ### Formulaires Liste en tableau
 
@@ -286,9 +288,9 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**TIPS**
+**CONSEILS**
 
-Actions will be display in the same order as defined in the Action section.</div> 
+Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</div> 
 
 ### Formulaires Liste en collection
 
@@ -302,22 +304,22 @@ Actions will be display in the same order as defined in the Action section.</div
 
 ### Formulaires détaillés
 
-As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+De même que pour les actions de table dans les formulaires détailles, un bouton d'actions générique est disponible dans la barre de navigation pour afficher toutes vos actions d'entité dans une liste.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
 ### Formulaires d'édition
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si vous avez créé une action d'ajout ou d'édition, un **formulaire d'édition** apparaît dès que vous sélectionnez l'action à partir de la liste d'actions.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-From here, you can:
+Vous pourrez ainsi :
 
 * éditer tous vos champs en les sélectionnant, et
 * valider ou annuler les modifications que vous aurez apportées à l'aide des boutons **Done** ou **Cancel** (dans la barre de navigation).
 
-For your convenience, the Edition form includes a few **special features**:
+A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
 * Le type de clavier dépend du type de paramètre sélectionné dans la section Action.
 * Vous pouvez passer d'un champ à l'autre à l'aide des flèches situées en haut du clavier.

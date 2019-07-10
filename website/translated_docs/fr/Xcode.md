@@ -44,8 +44,8 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 ### Compatibilité
 
-Frameworks compiled with one version of Xcode could not be used with another version.
+Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version.
 
-The current release of swift(5) have ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
+The current release of swift(5) has ABI stability but no Module Stability. Ces deux conditions sont nécessaires pour livrer les bibliothèques pré-compilées.
 
-Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/
+Pour plus d'informations, veuillez consulter le blog de Swift. https://swift.org/blog/abi-stability-and-more/
