@@ -68,7 +68,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Numéro de téléphone</td><td>clavier iOS pour la saisie des numéros de téléphone.</td>
+<td>Numéro de téléphone</td><td>Clavier iOS pour la saisie des numéros de téléphone.</td>
   </tr>
   
   <tr>
@@ -288,7 +288,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCE**
 
 Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</div> 
 
