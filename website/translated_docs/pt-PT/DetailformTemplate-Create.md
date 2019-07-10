@@ -54,7 +54,7 @@ Agora vamos focar na pasta de conteúdo **Custom Detail form** folder content.
 
 * Um ícone **a layoutIconx2.png** de 160x160px que se mostrará no editor del projeto quando selecione seu modelo personalizado entre outras
 * Um arquivo ** manifest.json** que inclui uma descripção básica do modelo
-* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* Um arquivo **a template.svg** que será a representação de seu modelo que se mostrará quando defina o conteúdo de seu formulário listado e onde arrastará e soltará seus campos
+* Pasta Source que inclui os arquivos **storyboard** (interface gráfica) e **swift** (código para o formulário)
 
-What are those files, what it is used for and how to customize it ?
+O que são estes arquivos, para que servem e como podem ser personalizados?
