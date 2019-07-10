@@ -46,6 +46,6 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 Les structures compilées avec une version de Xcode peuvent être incompatibles avec une autre version.
 
-The current release of swift(5) has ABI stability but no Module Stability. Ces deux conditions sont nécessaires pour livrer les bibliothèques pré-compilées.
+Dans la version courante de swift(5), la stabilité de l'ABI est garantie, contrairement à la stabilité du Module. Ces deux conditions sont nécessaires pour livrer les bibliothèques pré-compilées.
 
 Pour plus d'informations, veuillez consulter le blog de Swift. https://swift.org/blog/abi-stability-and-more/
