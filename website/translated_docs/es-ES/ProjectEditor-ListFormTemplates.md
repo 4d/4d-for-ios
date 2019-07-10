@@ -1,6 +1,6 @@
 ---
 id: list-form-templates
-title: List Forms templates
+title: Plantillas de formulario listado
 ---
 
 <div style="height: auto;">
@@ -14,8 +14,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   </tr>
 <tr>
@@ -23,8 +23,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Smooth Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Smooth-Table-List-form.gif"/>
@@ -38,8 +38,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Dynamic Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   </tr>
 <tr>
@@ -47,8 +47,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Profile</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Profile-List-form.gif"/>
@@ -62,8 +62,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Square Profile</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   </tr>
 <tr>
@@ -71,8 +71,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Tasks</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Tasks-List-form.gif"/>
@@ -86,8 +86,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Numbers</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   </tr>
 <tr>
@@ -95,8 +95,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Simple Visual Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Simple-Visual-Table-List-form.gif"/>
@@ -110,8 +110,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Visual Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   </tr>
 <tr>
@@ -119,8 +119,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Vertical Cards</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Vertical-Cards-List-form.gif"/>
@@ -134,8 +134,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Simple Collection</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> collection</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   </tr>
 <tr>
@@ -143,8 +143,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Mozaic</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Mozaic-List-form.gif"/>
@@ -158,8 +158,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Cards</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   </tr>
 <tr>
@@ -167,8 +167,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Cube</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 750px" src="../assets/en/templates/Cube-List-form.gif"/>
@@ -182,8 +182,8 @@ title: List Forms templates
   <h1 style="margin-top: 10px; font-size:26px">Parallax</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   </td>
   </tr>
   </table>
