@@ -11,8 +11,8 @@ Aquí es donde definirá las etiquetas largas y cortas, así como también los i
 
 ![Labels & Icons section](assets/en/project-editor/Labels-icons-section-4D-for-iOS.png)<div class = "tips"> 
 
-**TIPS**
+**CONSEJOS**
 
-* To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
+* Para mantener todo consistente, los **iconos predeterminados** se generan para los campos vacíos, si se ha definido al menos un icono para un campo.
 
-* You can also leave your the icon area empty if you don’t want to display icons in your application.</div>
+* También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.</div>
