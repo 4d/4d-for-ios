@@ -151,7 +151,6 @@ Let's look at the contents of the **manifest.json** file:
 Let's look at the contents of the **manifest.json** file:
 
 ```
-
 {
 	"name": "textToImage",
 

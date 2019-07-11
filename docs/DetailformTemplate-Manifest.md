@@ -8,18 +8,14 @@ The manifest file includes information about your detail form template such as t
 
 ```
 {
-//1
   "type": "detailform",
 
-//2
   "name": "Custom Detail form",
 
-//3
   "fields": {
     "count": 1
        },
 
-//4
   "assets": {
     "size": {
       "width": 16,

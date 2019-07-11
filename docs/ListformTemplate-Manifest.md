@@ -7,13 +7,10 @@ The manifest file includes information about your list form template, such as th
 
 ```
 {
-//1
   "type": "listform",
 
-//2
   "name": "Custom List form",
 
-//3
   "fields": {
     "count": 3
   }
