@@ -143,7 +143,7 @@ href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
 
 ### ⒈ 「アクション」セクションで設定すること
 
-休暇に出かけるなど，**すべてのタスク** をまとめて「延期」に設定したいようなときは，どうすれば良いでしょうか。
+Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
 
 下記のステップで実現することができます。
 
