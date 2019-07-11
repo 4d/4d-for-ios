@@ -52,16 +52,12 @@ Primeiro, crie uma pasta *Task Management.4dbase/Resources/Mobile/formatters *.
 Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
     {
-        // 1
         "name": "integerToString",
     
-        // 2
        "type": ["integer"],
     
-       // 3
        "binding": "localizedText",
     
-       // 4
        "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
     }
     
@@ -86,19 +82,14 @@ Vamos olhar o conteúdo do arquivo de**manifest.json **:
 Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
     {
-        // 1
         "name": "integerToImage",
     
-        // 2
        "type": ["integer"],
     
-        // 3
        "binding": "imageNamed",
     
-        // 4 
        "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
     
-        // 5
        "assets": {
       "size": {
        "width": 40, "height": 40
@@ -126,16 +117,12 @@ Vamos olhar o conteúdo do arquivo de **manifest.json **:
 Vamos olhar o conteúdo do arquivo **manifest.json **:
 
     {
-        // 1
-        "name": "integerToImage",
+        "name": "textToString",
     
-        // 2
        "type": ["text"],
     
-       // 3
        "binding": "localizedText",
     
-       // 4
        "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
     }
     
@@ -160,19 +147,14 @@ Vamos olhar o conteúdo do arquivo **manifest.json **:
 Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
     <br />{
-        // 1
         "name": "textToImage",
     
-        // 2
        "type": ["integer"],
     
-       // 3
        "binding": "imageNamed",
     
-       // 4
        "choiceList": ["image1.png","image2.png","image3.png"],
     
-        // 5
        "assets": {
       "size": {
        "width": 40, "height": 40
