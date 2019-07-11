@@ -45,7 +45,7 @@ Then go right to your Structure section and select the **Task table**.
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
-* Go to the the Forms section and drag the field on the Task Detail form
+* Go to the Forms section and drag the field on the Task Detail form
 
 ![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
