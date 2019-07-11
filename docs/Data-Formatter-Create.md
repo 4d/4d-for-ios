@@ -121,7 +121,7 @@ Let's look at the contents of the **manifest.json** file:
 
 ```
 {
-	"name": "integerToImage",
+	"name": "textToString",
 
    "type": ["text"],
 
