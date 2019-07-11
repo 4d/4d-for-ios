@@ -368,11 +368,9 @@ Here's the final *On Mobile App Action* database method:
     $0:=$out
     
     
-    <div class = "tips"> 
+    
 
-**TIPS**
-
-Don't forget to add your own values for the **sendEmail** action.</div> 
+*Don't forget to add your own values for the **sendEmail** action.
 
 ## STEP 7. Build your app
 

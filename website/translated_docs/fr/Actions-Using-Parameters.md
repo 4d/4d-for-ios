@@ -368,11 +368,9 @@ Voici la méthode base *Sur une action app mobile* finale :
     $0:=$out
     
     
-    <div class = "tips"> 
+    
 
-**CONSEILS**
-
-N'oubliez pas d'ajouter vos propres valeurs pour l'action **sendEmail**.</div> 
+*N'oubliez pas d'ajouter vos propres valeurs pour l'action **sendEmail**.
 
 ## ÉTAPE 7. Génération de l’application
 
