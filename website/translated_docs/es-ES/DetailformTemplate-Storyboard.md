@@ -42,7 +42,7 @@ Arrastre y suelte una "Vertical Stack View" desde la **librería de objetos** a 
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Dado que el ancho y el alto del Stack View están definidos por los elementos que se encuentran dentro de ella, configuraremos el tamaño y las restricciones más adelante.
+Since the Stack View width and height are defined by the elements inside it, we will configure the size and constraints later.
 
 ## Añadir las vistas en el Stack Views
 
@@ -66,7 +66,7 @@ Seleccione **Field View 1** y añada tres restricciones haciendo clic en el bot�
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-Para que "Stack View" y "Scroll View" tengan el mismo ancho, debe agregar un restricción:
+For the Stack View to have the same width as the Scroll View, you need to add a constraint:
 
 Presione Ctrl y arrastre la Stack View a la Scroll View. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione "Equal Width".
 
@@ -122,7 +122,7 @@ Haga doble clic en la etiqueta y llámela "```<___FIELD_LABEL___>```". Luego, en
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:
+Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 

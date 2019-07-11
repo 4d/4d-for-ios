@@ -41,7 +41,7 @@ Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order of parameters using drag and drop.
+Vous êtes libres de choisir l'ordre des paramètres à l'aide du glisser-déposer.
 
 Voici les différents **formats** que vous pouvez sélectionner en tant que paramètre :
 
@@ -68,7 +68,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
   
   <tr>
     
-<td>Numéro de téléphone</td><td>clavier iOS pour la saisie des numéros de téléphone.</td>
+<td>Numéro de téléphone</td><td>Clavier iOS pour la saisie des numéros de téléphone.</td>
   </tr>
   
   <tr>
@@ -270,7 +270,7 @@ Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, sit
 
 **NOTE**
 
-* Vous devez faire en sorte que l'application mette à jour la sélection après l'exécution d'une action, à l'aide de ```$out.dataSynchro:=True```.
+* Vous pouvez mettre à jour la sélection après l'exécution d'une action, à l'aide de ```$out.dataSynchro:=True```.
 * Vous pouvez notifier l'utilisateur lorsque l'application a été exécutée, à l'aide de ```$out.statusText:="Message you want to display"```.
 * Vous pouvez également choisir de forcer la fermeture du formulaire d'édition à l'aide de ```$out.close:=True```.</div> 
 
@@ -288,7 +288,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCE**
 
 Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</div> 
 

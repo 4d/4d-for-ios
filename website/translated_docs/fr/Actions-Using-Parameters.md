@@ -188,7 +188,7 @@ Voici la méthode base *Sur une action app mobile* finale :
 
 ### addAction
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($entity;$in;$out)
@@ -227,7 +227,7 @@ Voici la méthode base *Sur une action app mobile* finale :
 
 ### editAction
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection;$emailToSend)
@@ -276,7 +276,7 @@ Voici la méthode base *Sur une action app mobile* finale :
 
 ### deleteAction
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
@@ -315,7 +315,7 @@ Voici la méthode base *Sur une action app mobile* finale :
 
 ### sendEmail
 
-    <br />C_OBJECT($0;$out)
+    C_OBJECT($0;$out)
     C_OBJECT($1;$in)
     
     C_OBJECT($dataClass;$entity;$selection)
@@ -345,8 +345,8 @@ Voici la méthode base *Sur une action app mobile* finale :
         $email.subject:="New comment about one of your task"
         $email.from:="yourEmail" //To be replaced by your email
         $email.to:=$emailToSend
-        $email.htmlBody:="&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;"+"&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; "+$taskTitle+"&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; "\
-        +$commentToSend+"&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;"\
+        $email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
+        +$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
     
         $status:=$transporter.send($email)
         If ($status.success)
@@ -366,6 +366,7 @@ Voici la méthode base *Sur une action app mobile* finale :
     End if 
     
     $0:=$out
+    
     
     <div class = "tips"> 
 
