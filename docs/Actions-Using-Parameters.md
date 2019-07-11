@@ -376,14 +376,8 @@ $0:=$out
 
 ```
 
+*Don't forget to add your own values for the **sendEmail** action.
 
-<div markdown="1" class = "tips">
-
-**TIPS**
-
-Don't forget to add your own values for the **sendEmail** action.
-
-</div>
 
 
 ## STEP 7. Build your app
