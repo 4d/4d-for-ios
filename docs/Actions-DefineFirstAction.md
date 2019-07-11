@@ -145,7 +145,7 @@ Build and Run you app and there you go! Your **Done action** is available when y
 
 ### STEP 1. Table action in Action section
 
-Now, imagine that you are going on hollidays and you want to **change all your tasks status** to "Postponed".
+Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
 
 Let's define this action from the Action section:
 
