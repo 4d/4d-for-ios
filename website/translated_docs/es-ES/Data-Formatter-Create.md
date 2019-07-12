@@ -146,7 +146,7 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
     
     Veamos el contenido del archivo **manifest.json**:
     
-        <br />{
+        {
             "name": "textToImage",
         
            "type": ["integer"],
