@@ -146,7 +146,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 Regardons le contenu du fichier **manifest.json** :
 
-    <br />{
+    {
         "name": "textToImage",
     
        "type": ["integer"],
