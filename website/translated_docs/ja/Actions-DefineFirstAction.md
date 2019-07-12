@@ -57,7 +57,7 @@ href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
 
 アクション画面の右下にある**作成ボタン**をクリックします。**On Mobile App Action**データベースメソッドに下記のコードを記述してください。
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -92,7 +92,7 @@ href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
 
 データベースメソッドに必要なコードを記述することに加え，実際の処理をするための **modifyStatus** プロジェクトメソッドを作成します。
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
@@ -133,7 +133,6 @@ href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
     $0:=$out
     
     
-    
 
 アプリをビルドして実行しましょう！ **完了アクション**は，リスト画面のセルを左にスワイプ，あるいは詳細画面のナビゲーションバーに表示されている**「…」ボタン**をタップすると表示されます。
 
@@ -160,7 +159,7 @@ Now, imagine that you are going on holidays and you want to **change all your ta
 
 アクション一覧の右下にある**編集**ボタンをクリックして**On Mobile App Action**データベースメソッドを開き，必要な処理をメソッドに追加します。
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -197,13 +196,12 @@ Now, imagine that you are going on holidays and you want to **change all your ta
     $0:=$result  // モバイルアプリに返される情報
     
     
-    
 
 ### ⒊ "postponeAll" メソッドの作成
 
 **modifyStatus** メソッドと同じ要領で, タスクのステータスを一括設定する**postponeAll** プロジェクトメソッドを作成します。
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($entity;$in;$out)
