@@ -45,7 +45,7 @@ href="../assets/en/relations/Tasks.4dbase.zip">素材プロジェクト</a>
 
 ![「ラベル＆アイコン」セクションに表示された１フィールド](assets/en/relations/related-field-from-labels-icons.png)
 
-* 「フォーム」セクションでは，詳細フォームに１フィールドをドラッグ＆ドロップします。
+* Go to the Forms section and drag the field on the Task Detail form
 
 ![「フォーム」セクションに表示された１フィールド](assets/en/relations/related-field-forms.png)
 
