@@ -146,7 +146,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタ
 
 **manifest.json** ファイルの中身を見てみましょう:
 
-    <br />{
+    {
         "name": "textToImage",
     
        "type": ["integer"],
