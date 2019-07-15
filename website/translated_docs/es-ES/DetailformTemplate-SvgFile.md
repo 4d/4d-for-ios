@@ -4,39 +4,39 @@ title: Template.svg
 sidebar_label: Template.svg
 ---
 
-The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
+El archivo template.svg es una representación básica de plantilla. En este archivo svg, deberá definir áreas para poder agregar campos a la plantilla de formulario detallado desde el editor de proyecto.
 
-Here's a finished version:
+Aquí hay una versión final:
 
 ![Template svg file](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
+Esta plantilla tiene una numeración de campos dinámica, lo que significa que le permitirá agregar una **imagen** y puede colocar ** hasta 8 campos **según sus necesidades. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
 
 ![Template svg file](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
-Open the template.svg file with your favorite code editor.
+Abra el archivo template.svg con su editor de código favorito.
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+Centrémonos en las diferentes partes de su archivo SVG y en lo que necesitará editar.
 
-## Title
+## Título
 
     <title>Custom Detail form</title>
     
 
-Add the title for your template here.
+Agregue el título de su plantilla aquí.
 
 ## ios:values
 
     ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
     
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: consulte los campos disponibles que se mostrarán en su formulario detallado. Esto le permitirá arrastrar y soltar tantos campos como defina.
 
-## Areas position, height and width and type
+## Posición, alto, ancho y tipo del área
 
-You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
+Puede definir la posición, el alto y el ancho de todos sus campos como hicimos para el tutorial [Custom list view](creating-listform.html).
 
-### Duplicated field properties
+### Propiedades de campo duplicadas
 
     //1
     <g id="f" visibility="hidden" ios:dy="35">
@@ -55,13 +55,13 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Define the text area position and width 
-4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
-5. Define a cancel button that will be displayed to the delete current content
+1. Posición de toda el área Y
+2. Posición, alto y ancho del área de fondo
+3. Definir la posición del área de texto y el ancho 
+4. Definir la posición del campo desplegable, alto y ancho, así como también los tipos de campos aceptados (en este ejemplo se aceptan todos los tipos)
+5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
-### Image field area
+### Área Image field
 
     //1
     <g transform="translate(0,60)">
@@ -83,14 +83,14 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width, as well as accepted fields types 
-6. Define a cancel button that will be displayed to delete the current content
+1. Posición de toda el área Y
+2. Posición, alto y ancho del área de fondo
+3. Icono para mostrar una imagen en el imageField
+4. Definir la posición del área de texto y el ancho 
+5. Defina la posición del campo soltable, su alto y su ancho, así como los tipos de campos aceptados 
+6. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
-### Field to be duplicated
+### Campo a duplicar
 
     //1
     <g id="multivalued">
@@ -113,21 +113,21 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Multivaluated ID for the field to be duplicated
-2. Entire area Y position
-3. Area background position, height, and width
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
-6. Define a cancel button that will be displayed to delete the current content
+1. ID multivaluado para el campo a duplicar
+2. Posición de toda el área Y
+3. Posición, alto y ancho del área de fondo
+4. Definir la posición del área de texto y el ancho 
+5. Definir la posición del campo soltable, su alto y su ancho, así como también los tipos de campos aceptados (se aceptan todos los tipos aquí)
+6. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips"> 
+Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**, pasemos a la parte divertida con ¡Xcode!<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
+Todos los tipos de campos y de variables están disponibles en [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 
-**TIP**
+**CONSEJO**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+* Para facilitar la definición de los tipos de campos, 4D for iOS le permite incluir tipos de campo con ** valores positivos ** y también excluir los tipos de campo con ** valores negativos **. Por ejemplo, ```ios:type="-3,-4"``` le permitirá arrastrar y soltar todos los campos excepto las imágenes y las fechas.
 
-* To include all types, just type ```ios:type="all"```.</div>
+* Para incluir todos los tipos, simplemente escriba ```ios:type="all"```.</div>

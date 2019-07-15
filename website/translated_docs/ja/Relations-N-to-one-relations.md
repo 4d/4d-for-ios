@@ -1,56 +1,56 @@
 ---
 id: n-to-one-relations
-title: N to one relations
+title: Ｎ対１リレーション
 ---
 
-4D v17 R5 includes a new concept: N to 1 relations<div class = "tips"> 
+4D v17 R5以降，Ｎ対１リレーションがサポートされるようになりました。<div class = "tips"> 
 
-**NOTE**
+**注記**
 
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+このレッスンでは，テーブル同士をリンクするリレーションの名前を使用します。 ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。</div> 
 
-Let's get started by downloading the Starter Project:
+素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/Tasks.4dbase.zip">素材プロジェクト</a>
 
   </p>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+ここでは，タスクと一緒にカテゴリをアプリの詳細画面に表示したいと考えています。まず，**開く > モバイルプロジェクト…**から**StarteriOSProject**プロジェクトを開きます。
 
-Then go right to your Structure section and select the **Task table**.
+「ストラクチャ」セクションに移動し，**Task**テーブルを選択します。
 
-### Structure section
+### 「ストラクチャ」セクション
 
-* You can notice that the **TaskCategory relation** is underlined
+* **TaskCategory**リレーションに下線が表示されていることに注目してください。
 
-* Clicking on it will display available fields through this relation
+* リレーション名をクリックすると，リンク先のフィールドが表示されます。
 
-* Select the **Name field**
+* **Name**フィールドを選択します。
 
-![Select link from structure section](assets/en/relations/select-link-from-structure.png)
+![「ストラクチャ」セクションで１フィールドを選択する](assets/en/relations/select-link-from-structure.png)
 
-* This field will operate as any other field for the rest of the app creation process
+* 以降の画面では，リレートの１フィールドを他のフィールドと同じように扱うことができます。
 
-* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
+* リレートの１フィールドは，「データ」セクションのクエリフィルターでも使用することができます。 たとえば，下記のように入力することができます。 ```TaskCategory.Name != 'Personal'``` 上記のようにクエリフィルターを設定すれば，個人的なタスクが除外されます。
     
-    ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
+    ![「ラベル＆アイコン」セクションに表示された１フィールド](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* 「ラベル＆アイコン」セクションでは，**アイコン**・**フォーマッター**・**短いラベル**・**長いラベル**を設定することができます。
 
-![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
+![「ラベル＆アイコン」セクションに表示された１フィールド](assets/en/relations/related-field-from-labels-icons.png)
 
-* Go to the the Forms section and drag the field on the Task Detail form
+* Go to the Forms section and drag the field on the Task Detail form
 
-![Related field in Forms section](assets/en/relations/related-field-forms.png)
+![「フォーム」セクションに表示された１フィールド](assets/en/relations/related-field-forms.png)
 
-* Build and Run
+* ビルドして実行
 
-You should see your related field in your app detail form !
+アプリの詳細画面にリレート先の１フィールドが表示されました！
 
-![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)
+![「フォーム」セクションに表示された１フィールド](assets/en/relations/final-result-n-to-one-relations.png)

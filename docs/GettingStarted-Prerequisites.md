@@ -16,14 +16,22 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 ## Version comparison table
 
-| Xcode | Swift | iOS | 4D |
-|---|---|---|---|
-| 10.2 | 4.2.1 | iOS 12.2 | 17R5 |
-| 10.1 | 4.2.1 | iOS 12 | 17R4 |
-| 10.0 | 4.2 | iOS 12 | 17R3 |
-| 9.4| 4.1.2| iOS 11.4 | 17R2 |
-| 9.3.1| 4.1| iOS 11.3 | 17R2 |
+| Xcode | Swift | iOS | 4D | MacOS |
+|---|---|---|---|---|
+| 11 | 5.1 | iOS 13.0| 18 | 10.14.4 |
+| 10.2.1 | 5.0 | iOS 12.2 | 17R6 | 10.14.4 |
+| 10.2 | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
+| 10.1 | 4.2.1 | iOS 12 | 17R4 | 10.13.6 |
+| 10.0 | 4.2 | iOS 12 | 17R3 | 10.13.6 |
+| 9.4| 4.1.2| iOS 11.4 | 17R2 | 10.13.2 |
+| 9.3.1| 4.1| iOS 11.3 | 17R2 | 10.13.2 |
 
+### Using 17R6 with macOS 10.14.3
+
+4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+
+ - Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ 
 ### Using 17R4 with Xcode 10.2
 
 Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.

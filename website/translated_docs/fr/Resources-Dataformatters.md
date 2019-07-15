@@ -8,7 +8,7 @@ title: Format des données
 
 **AVANT DE COMMENCER**
 
-1. Pour utiliser un format personnalisé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/formatters`.
+1. Pour utiliser un format personnalisé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Mobile/formatters`.
 
 2. Glissez ensuite le dossier du format dans le dossier que vous venez de créer.</div> 
 

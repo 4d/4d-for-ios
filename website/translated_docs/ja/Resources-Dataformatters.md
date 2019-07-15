@@ -1,16 +1,16 @@
 ---
 id: custom-data-formatters
-title: Data Formatters
+title: データフォーマッター
 ---
 
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**はじめに**
 
-1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/formatters` folder.
+1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
-2. Then drop the formatter folder into it.</div> 
+2. フォーマッターは，このフォルダーの中にインストールします。</div> 
 
 <div style="height: auto;">
   <table>
@@ -20,29 +20,29 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-mail.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
+  <h1 style="margin-top: 10px; font-size:22px">メール</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Mail</li>
-  <li><strong>Function:</strong> open the mail app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>フォーマット:</strong> テキスト → メール</li>
+  <li><strong>動作:</strong> メールアプリを開く</li>
+  <li><strong>タイプ:</strong> Swift フォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">ダウンロード</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Url</h1>
+  <h1 style="margin-top: 10px; font-size:22px">URL</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ URL</li>
-  <li><strong>Function:</strong> open Safari app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>フォーマット:</strong> テキスト → URL</li>
+  <li><strong>動作:</strong> ブラウザアプリを開く</li>
+  <li><strong>タイプ:</strong> Swift フォーマッター</li>
 
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">ダウンロード</a></p>
 
 </div>
   </td>
@@ -55,28 +55,28 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-phone.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
+  <h1 style="margin-top: 10px; font-size:22px">電話番号</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Number ⟶ Phone number</li>
-  <li><strong>Function:</strong> call the number on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>フォーマット:</strong> 数字 → 電話番号</li>
+  <li><strong>動作:</strong> 電話をかける</li>
+  <li><strong>タイプ:</strong> Swift フォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">ダウンロード</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Address</h1>
+  <h1 style="margin-top: 10px; font-size:22px">住所</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Address</li>
-  <li><strong>Function:</strong> open Map app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>フォーマット:</strong> テキスト → 住所</li>
+  <li><strong>動作:</strong> 地図アプリを開く</li>
+  <li><strong>タイプ:</strong> Swift フォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">ダウンロード</a></p>
 
 </div>
   </td>
@@ -89,26 +89,26 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">整数から画像</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> 整数 → 画像</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">ダウンロード</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to String</h1>
+  <h1 style="margin-top: 10px; font-size:22px">整数から文字列</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> 整数 → 文字列</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">ダウンロード</a></p>
 
 </div>
   </td>
@@ -121,26 +121,26 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">テキストから画像</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> テキスト → 画像</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">ダウンロード</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to String</h1>
+  <h1 style="margin-top: 10px; font-size:22px">テキストから文字列</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> テキスト → 文字列</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">ダウンロード</a></p>
 
 </div>
   </td>
@@ -153,26 +153,26 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">ブールから画像</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> ブール → 画像</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">ダウンロード</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Emoji</h1>
+  <h1 style="margin-top: 10px; font-size:22px">絵文字</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool, Real, Integer ⟶ Emoji</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>フォーマット:</strong> ブール・実数・整数 → 絵文字</li>
+  <li><strong>タイプ:</strong> 単純なフォーマッター</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">ダウンロード</a></p>
 
 </div>
   </td>

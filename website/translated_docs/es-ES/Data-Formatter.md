@@ -1,28 +1,28 @@
 ---
 id: data-formatter
-title: Data formatter
+title: Formato de datos
 ---
 
-4D v17 R3 includes a new concept: Data formatting!
+4D v17 R3 integra un nuevo concepto: el formato de datos
 
-You can now choose pre-packaged formats from Labels & Icons in Sections.<div class = "tips"> 
+Ahora puede elegir los formatos pre definidos de la sección Etiquetas e iconos.<div class = "tips"> 
 
-Available formats:
+Formatos disponibles:
 
-* **Text**: Text
-* **Date**: Date, Short date, Long date, Full date
-* **Time**: Time, Short time, Duration, Integer number
-* **Boolean**: "No" or "Yes", "False" or "True"
-* **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div> 
+* **Texto**: texto
+* **Fecha**: fecha, fecha corta, fecha larga, fecha completa
+* **Hora**: hora, hora corta, duración, número entero
+* **Booleano**: ""No" o "Sí", "False" o "True"
+* **Número entero**: número entero, número decimal, número real, porcentaje, número ordinal, moneda $, moneda €, moneda ¥, número en letras</div> 
 
-Let's get started by downloading the Starter Project:
+Comencemos descargando el Proyecto Starter:
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="../assets/en/data-formatter/BankingApp.zip">PROYECTO STARTER DE FORMATOS PERSONALIZADOS</a>
 
   </p>
 </div>

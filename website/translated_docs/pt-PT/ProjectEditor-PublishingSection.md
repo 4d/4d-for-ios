@@ -51,29 +51,29 @@ Here is an example of a 4D for iOS-generated session file:
 ```json
 {
 "application":{
-"id":"com.contactApp.Contact",
-"name":"Contact",
-"version":"1.0.0"
+  "id":"com.contactApp.Contact",
+  "name":"Contact",
+  "version":"1.0.0"
 },
 "team":{
-"id":"UTT7VDX8W5"
+  "id":"UTT7VDX8W5"
 },
 "language":{
-"id":"en_US",
-"code":"en",
-"region":"US"
+  "id":"en_US",
+  "code":"en",
+  "region":"US"
 },
 "email":"",
 "device":{
-"description":"iPhone X",
-"version":"11.3",
-"id":"0DC5132E-1EF4-407C-A832-5FE33D818AF3",
-"simulator":true
+  "description":"iPhone X",
+  "version":"11.3",
+  "id":"0DC5132E-1EF4-407C-A832-5FE33D818AF3",
+  "simulator":true
 },
 "send":"link",
 "session":{
-"id":"7023d9205074199d1c16fc00d24354e778137675",
-"ip":"::ffff:192.168.5.4"
+  "id":"7023d9205074199d1c16fc00d24354e778137675",
+  "ip":"::ffff:192.168.5.4"
 },
 "status":"accepted",
 "token":"eyJhcHBOYW1lSUQiOiJjb20uY29udGFjdEFwcC5Db250YWN0IiwiaWQiOiI3MDIzZDkyMDUwNzQxOTlkMWMxNmZjMDBkMjQzNTRlNzc4MTM3Njc1IiwidGVhbUlEIjoiVVRUN1ZEWDhXNSJ9"

@@ -44,7 +44,7 @@ Drag and drop a Vertical Stack View from the **Object library** in Scroll View. 
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and contraints later.
+Since the Stack View width and height are defined by the elements inside it, we will configure the size and constraints later.
 
 ## Add Views to the Stack Views
 
@@ -69,7 +69,7 @@ Select **Field View 1** add three constraints by clicking on the **Add New Const
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a contraint:
+For the Stack View to have the same width as the Scroll View, you need to add a constraint:
 
 Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
 
@@ -125,7 +125,7 @@ Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four contraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 

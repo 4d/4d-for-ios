@@ -1,62 +1,62 @@
 ---
 id: deploy-in-house-distribution
-title: Distribute your app in-House
+title: Distribuir una aplicación interna
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Upload your app to a secured server.</div> 
+Subir su aplicación a un servidor seguro.</div> 
 
-## PASO 1. Upload your app
+## PASO 1. Suba su aplicación
 
-Upload your app files to a secured server:
+Suba su aplicación a un servidor seguro:
 
 * assets (display-image and full-size-image)
 * manifest.plist file
-* .ipa file
+* archivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
+Puede utilizar cualquier servicio de almacenamiento en la nube para distribuir su aplicación siempre que esté protegida (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
+Su recurso y sus URL ipa deben coincidir con las URL definidas en su archivo manifest.plist.</div> 
 
-## PASO 2. Create the installation link
+## PASO 2. Cree el enlace de instalación
 
-Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Cree un **enlace de servicios ITMS**(iTUnes Music Store) con la dirección web completa de su archivo manifiesto como parámetro:
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-This link can be used when sending emails, embedded in an html page, or even within a QR code.
+Este enlace se puede utilizar al enviar correos electrónicos, anidados en una página html o incluso dentro de un código QR.
 
-Here is a simple example:
+Aquí un ejemplo simple:
 
 ![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
-*The QR Code used for this documentation is not active.*
+*El código QR utilizado para esta documentación no está activo.*
 
-## PASO 3. Install your enterprise app on iOS
+## PASO 3. Instale su aplicación en iOS
 
-* Install the app by clicking on the link or scanning a QR Code
+* Instale la aplicación haciendo clic en el enlace o escaneando un código QR
 
 ![Scan and install](assets/en/deploy-in-house/Scan-and-install.png)
 
-* When you first open an enterprise app that you've manually installed, a notification will be displayed stating that the developer of the app isn't trusted on your device.
+* Cuando abre por primera vez una aplicación empresarial que instaló manualmente, se mostrará una notificación que indica que el desarrollador de la aplicación no es de confianza en su dispositivo.
 
-* Ignore this message and click **Cancel**.
+* Ignore este mensaje y haga clic en **Cancel**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* En Reglas > General > Gestión de perfiles; Gestión de dispositivo, en el encabezado "Enterprise App", se lista el perfil del desarrollador.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
-* Tap the name of the developer profile to establish trust for this developer.
+* Introduzca el nombre del perfil del desarrollador para que sea reconocido como confiable.
 
 ![Trust-confirmation](assets/en/deploy-in-house/Trust-confirmation.png)
 
-* You can then go to your app and open it.
+* Luego puede ir a su aplicación y abrirla.
 
-Congratulations ... you can now distribute your first app in-house!
+Congratulations ... ¡Ya puede distribuir su primera aplicación interna!

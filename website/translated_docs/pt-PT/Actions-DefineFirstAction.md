@@ -57,32 +57,32 @@ Now that your action is defined in the Project Editor, you have to create the [*
 
 Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
     
-        Else 
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
     
@@ -92,7 +92,7 @@ Do to so, click on **Create button** at the bottom right of the action table and
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
@@ -118,20 +118,19 @@ Once your database method has been edited, you have to create a **modifyStatus**
             $out.success:=True  // notify App that action is successful
             $out.dataSynchro:=True  // notify App to refresh this entity
     
-        Else 
+        Else
     
             $out:=$status  // return status to the App
     
-        End if 
+        End if
     
-    Else 
+    Else
     
         $out.success:=False  // notify App that action failed
     
-    End if 
+    End if
     
     $0:=$out
-    
     
     
 
@@ -143,7 +142,7 @@ Build and Run you app and there you go! Your **Done action** is available when y
 
 ### STEP 1. Table action in Action section
 
-Now, imagine that you are going on hollidays and you want to **change all your tasks status** to "Postponed".
+Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
 
 Let's define this action from the Action section:
 
@@ -160,22 +159,22 @@ Let's define this action from the Action section:
 
 Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
-    C_OBJECT($o;$params;$request;$result)
+    C_OBJECT($o;$context;$request;$result)
     
     $request:=$1  // Informations provided by mobile application
     
-    $params:=$request.parameters
+    $context:=$request.context
     
-    Case of 
+    Case of
     
         : ($request.action="taskDone")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
-            "ID";$params.entity.primaryKey;\
+            "dataClass";$context.dataClass;\
+            "ID";$context.entity.primaryKey;\
             "CompletePercentage";100)
     
             $result:=modifyStatus ($o)
@@ -183,19 +182,18 @@ Click on the **Edit button** at the bottom right of the action table to complete
         : ($request.action="postponeAll")
     
             $o:=New object(\
-            "dataClass";$params.dataClass;\
+            "dataClass";$context.dataClass;\
             "Status";4)
     
-            $result:= postponeAll ($o)      
-        Else 
+            $result:= postponeAll ($o)
+        Else
     
               // Unknown request
             $result:=New object("success";False)
     
-    End case 
+    End case
     
     $0:=$result  // Informations returned to mobile application
-    
     
     
 
@@ -203,7 +201,7 @@ Click on the **Edit button** at the bottom right of the action table to complete
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($entity;$in;$out)
@@ -219,16 +217,16 @@ As you create the **modifyStatus** Method, follow the same process and create a 
             $entity.Status:=$in.Status
             $entity.save()
     
-        End for each 
+        End for each
     
         $out.success:=True  // notify App that action success
         $out.dataSynchro:=True  // notify App to refresh the selection
     
-    Else 
+    Else
     
         $out.errors:=New collection("No Selection")
     
-    End if 
+    End if
     
     $0:=$out
     
