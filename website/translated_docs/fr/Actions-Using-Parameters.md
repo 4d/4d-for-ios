@@ -9,7 +9,7 @@ title: Utiliser des paramètres
 
 Définir des paramètres d'action pour modifier le contenu de votre application.</div> 
 
-Dans le [tutoriel précédent](define-first-action.html), nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions à partir de la [section Actions](actions.html).
+Dans le [tutoriel précédent](define-first-action.html), nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions dans la [section Actions](actions.html).
 
 Dans ce tutoriel, nous irons encore plus loin et nous créerons :
 
@@ -40,7 +40,7 @@ Pour l'instant, elle est assez vide... Voici ce que nous souhaitons faire : **cr
 
 Pour ce faire, nous allons créer une action à l'aide de l'action d'**ajout** :
 
-* Cliquez sur la flèche qui se trouve dans le **bouton +**, en-dessous du tableau d'actions.
+* Cliquez sur la flèche qui se trouve dans le **bouton +**, situé en-dessous du tableau d'actions.
 * Sélectionnez l'option **action d'ajout**.
 * Sélectionnez la **table Task**. 
 
@@ -59,7 +59,7 @@ Créons maintenant une action qui vous permettra d'**éditer le contenu de votre
 
 Pour ce faire, nous allons créer une action à l'aide de l'action d'**édition** :
 
-* Cliquez sur la flèche qui se trouve dans le **bouton +**, en-dessous du tableau d'actions.
+* Cliquez sur la flèche qui se trouve dans le **bouton +**, situé en-dessous du tableau d'actions.
 * Sélectionnez l'option **action d'édition**.
 * Sélectionnez la table Tasks. 
 
@@ -78,7 +78,7 @@ Pas de panique, nous reviendrons sur le code 4D de ces actions un peu plus tard.
 
 Le processus de création de l'action prédéfinie de **suppression** est à peu près identique à l'action d'édition :
 
-* Cliquez sur la flèche qui se trouve dans le **bouton +**, en-dessous du tableau d'actions.
+* Cliquez sur la flèche qui se trouve dans le **bouton +**, situé en-dessous du tableau d'actions.
 * Sélectionnez l'option **action de suppression**.
 * Sélectionnez la table Tasks. 
 
