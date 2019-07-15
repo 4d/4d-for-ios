@@ -57,7 +57,7 @@ Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc
 
 Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile** :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -92,7 +92,7 @@ Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau d
 
 Une fois votre méthode base modifiée, vous devez créer une méthode **modifyStatus** qui permettra de réaliser la tâche demandée :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
@@ -133,7 +133,6 @@ Une fois votre méthode base modifiée, vous devez créer une méthode **modifyS
     $0:=$out
     
     
-    
 
 Générez et exécutez votre application... et voilà ! Votre **action Done** est disponible lorsque vous faites coulisser une cellule vers la gauche dans le formulaire Liste, et lorsque vous cliquez sur le **bouton générique Actions** dans la barre de navigation du formulaire détaillé.
 
@@ -160,7 +159,7 @@ Nous allons définir cette action depuis la section Actions :
 
 Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile**  :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -197,13 +196,12 @@ Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et s
     $0:=$result  // Informations returned to mobile application
     
     
-    
 
 ### ÉTAPE 3. Créer une méthode "postponeAll"
 
 Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes étapes et créez une nouvelle méthode **postponeAll** qui permettra de modifier le statut de tous les enregistrements :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($entity;$in;$out)

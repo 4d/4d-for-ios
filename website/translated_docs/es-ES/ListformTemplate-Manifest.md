@@ -6,13 +6,10 @@ title: Manifest.json
 El archivo manifest incluye información sobre la plantilla de formulario listado, como el **tipo de Storyboard** (formulario listado o formulario detallado), **el nombre** y **el número de campos por celda.</p> 
 
     {
-    //1
       "type": "listform",
     
-    //2
       "name": "Custom List form",
     
-    //3
       "fields": {
         "count": 3
       }

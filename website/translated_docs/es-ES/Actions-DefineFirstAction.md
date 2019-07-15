@@ -57,7 +57,7 @@ Now that your action is defined in the Project Editor, you have to create the [*
 
 Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -92,7 +92,7 @@ Do to so, click on **Create button** at the bottom right of the action table and
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
@@ -133,7 +133,6 @@ Once your database method has been edited, you have to create a **modifyStatus**
     $0:=$out
     
     
-    
 
 Build and Run you app and there you go! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
 
@@ -160,7 +159,7 @@ Let's define this action from the Action section:
 
 Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($o;$context;$request;$result)
@@ -197,13 +196,12 @@ Click on the **Edit button** at the bottom right of the action table to complete
     $0:=$result  // Informations returned to mobile application
     
     
-    
 
 ### STEP 3. Create a "postponeAll" Method
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
-    <br />C_OBJECT($0)
+    C_OBJECT($0)
     C_OBJECT($1)
     
     C_OBJECT($entity;$in;$out)

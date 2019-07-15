@@ -6,18 +6,14 @@ title: Manifest.json
 El archivo de manifiesto incluye información sobre la plantilla de formulario detallado, como el **tipo de Storyboard** (formulario listado o formulario detallado), **el nombre**, **el número de campos estáticos** y **las propiedades del icono**.
 
     {
-    //1
       "type": "detailform",
     
-    //2
       "name": "Custom Detail form",
     
-    //3
       "fields": {
         "count": 1
            },
     
-    //4
       "assets": {
         "size": {
           "width": 16,
