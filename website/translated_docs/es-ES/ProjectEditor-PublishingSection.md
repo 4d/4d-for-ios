@@ -1,19 +1,19 @@
 ---
 id: publishing
-title: Publishing
+title: Publicación
 ---
 
-This is where you define or create your app's:
+Aquí es donde se define o crea su aplicación:
 
-* Web Server Settings
-* Authentication Mode 
-* Authentication Method
+* Parámetros del servidor web
+* Modo de autenticación 
+* Método de autenticación
 
 ![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
 
-## Web Server Settings
+## Parámetros del servidor web
 
-Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
+Active y defina sus puertos HTTPS y/o HTTP, si aún no lo ha hecho. You can do this by clicking on the **Edit** button.
 
 Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.<div class = "tips"> 
 
