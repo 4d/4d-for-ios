@@ -1,11 +1,11 @@
 ---
 id: n-to-one-relations
-title: N to one relations
+title: Relaciones N a 1
 ---
 
-4D v17 R5 includes a new concept: N to 1 relations<div class = "tips"> 
+4D v17 R5 incluye un nuevo concepto: las relaciones N a 1<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
 In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
 
