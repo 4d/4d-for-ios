@@ -1,16 +1,16 @@
 ---
 id: custom-data-formatters
-title: Data Formatters
+title: Formato de datos
 ---
 
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 
-1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+1. Para utilizar un formato personalizado, lo primero que deberá hacer es crear una carpeta `YourDatabase.4dbase/Resources/Mobile/formatters`.
 
-2. Then drop the formatter folder into it.</div> 
+2. Luego suelte la carpeta del formato en ella.</div> 
 
 <div style="height: auto;">
   <table>
@@ -22,12 +22,12 @@ title: Data Formatters
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Mail</li>
-  <li><strong>Function:</strong> open the mail app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ Mail</li>
+  <li><strong>Función:</strong>abrir la aplicación mail via un simple clic</li>
+  <li><strong>Type:</strong> formato Swift</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -36,13 +36,13 @@ title: Data Formatters
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">Url</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ URL</li>
-  <li><strong>Function:</strong> open Safari app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ URL</li>
+  <li><strong>Función:</strong> abrir la aplicación Safari via un simple clic</li>
+  <li><strong>Type: </strong>formato Swift</li>
 
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -55,9 +55,9 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-phone.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Teléfono</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Number ⟶ Phone number</li>
+  <li><strong>Formato:</strong> numérico ⟶ Número de teléfono</li>
   <li><strong>Function:</strong> call the number on click</li>
   <li><strong>Type:</strong> Swift formatter</li>
   <div style="text-align: center; margin-top: 40px;">
