@@ -58,25 +58,25 @@ title: Formato de datos
   <h1 style="margin-top: 10px; font-size:22px">Teléfono</h1>
   <ul style="font-size:16px">
   <li><strong>Formato:</strong> numérico ⟶ Número de teléfono</li>
-  <li><strong>Function:</strong> call the number on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>Función:</strong>llamar el número via un simple clic</li>
+  <li><strong>Type:</strong> formato Swift</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">DESCARGAR</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Address</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Dirección</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Address</li>
-  <li><strong>Function:</strong> open Map app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ Address</li>
+  <li><strong>Función:</strong> abrir la aplicación Map via un simple clic</li>
+  <li><strong>Type: </strong>formato Swift</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -178,6 +178,22 @@ title: Formato de datos
   </td>
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
+  </td>
+  </tr>
+<tr>
+  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-html.png"/>
+  </td>
+  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+  <h1 style="margin-top: 10px; font-size:22px">HTML</h1>
+  <ul style="font-size:16px">
+  <li><strong>Format:</strong> Text ⟶ html</li>
+  <li><strong>Type:</strong> Swift formatter</li>
+  <div style="text-align: center; margin-top: 40px;">
+
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterHtml.zip">DOWNLOAD</a></p>
+
+</div>
   </td>
   </tr>
   </table>
