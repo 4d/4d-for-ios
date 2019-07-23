@@ -3,100 +3,100 @@ id: storyboard-detailform-template
 title: Storyboard
 ---
 
-Now it's time to create your iOS detail form interface with Xcode!
+Agora é o momento de criar sua interface iOS de formulário detalhado com Xcode!
 
-Here's the result we want to achieve:
+Este é o resultado que queremos ter:
 
 ![Storyboard custom detailform](assets/en/custom-detailform/storyboard-custom-detailform.png)
 
-For each cell, we're going to add a:
+Para cada célula amos adicionar:
 
-* Profile header image 
-* A field to be duplicated
+* Foto de perfil no cabeçalho 
+* Um campo a duplicar
 
-## Open the storyboard file with Xcode
+## Abrindo o arquivo storyboard com Xcode
 
-First, open your storyboard file in Xcode.
+Primeiro, abra o arquivo storyboard em Xcode.
 
 ![Empty storyboard custom template](assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png)
 
-It's quite empty, so let's add some content!
+Está vazio, então vamos adicionar algum conteúdo!
 
-## Add a Scroll View
+## Adicione um "Scroll view"
 
-For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
+para que nosso formulário detalhado seja rolável, o primeiro passo é arrastar e soltar um "Scroll View" da **Biblioteca de Objetos**.
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
+Desde o **painel de tamanho** (do lado direito da janela de Interface Builder), defina o valor de Scroll View em 359 para largura e 667 para altura. Depois estabeleça o valor X para 8 e valor Y para 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
+Depois, adicione quatro restrições clicando no botão **Add New Constraints** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) como mostrado abaixo:
 
 ![Scrollview Constraints](assets/en/custom-detailform/scrollview-constraints.png)
 
-## Add a Vertical Stack View
+## Adicionar uma "Vertical Stack View"
 
-Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
+Arraste e solte uma "Vertical Stack View" desde a **biblioteca de objetos** à "Scroll view". Desde o **Size inspector** (do lado direito do Interface Builder), defina o valor de largura em 359 e o valor de altura em 202. Finalmente, estabeleça o valor X para 0, e o valor Y para 8.
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and constraints later.
+Já que a largura e altura do "Stack View" estão definidas pelos elementos dentro dele, vamos configurar o tamanho e restrições depois. 
 
-## Add Views to the Stack Views
+## Adicione vistas para o Stack Views
 
-Drag and drop a view from the **Object library** to the Stack View you've just added to your storyboard. Let's name it **Field View 1**.
+Arraste e solte uma vista da **biblioteca de objetos** para o Stack View que acabou de agregar ao storyboard. Vamos chamar de **Field View 1**.
 
 ![Add Field View 1](assets/en/custom-detailform/add-view1-storyboard.png)
 
-Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
+Depois arraste e largue outra vista da **Biblioteca de objetos** diretamente no Document Outline no mesmo nível que Field View 1 (para integrá-la na Stack View) e chamá-la **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
 
-To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
+Para agregar espaço entre as vistas, selecione seu Stack View e defina o valor de espaçamento em 8 (no Attributes Inspector).
 
 ![Stackview spacing](assets/en/custom-detailform/stackview-spacing.png)
 
-Select both **Field View 1** and **Field View 2** and in the **Size inspector panel** (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.
+Selecione **Field View 1** e **Field View 2** e defina, no **Size inspector** (à direita do Interface Builder), o valor de largura em 359 e de altura em 97.
 
 ![views position height and width](assets/en/custom-detailform/views-position-height-width-storyboard.png)
 
-Select **Field View 1** add three constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, and Top: 0):
+Selecione **Field View 1** e adicione três restrições clicando no botão **Add New Constraints button** (Trailing: 0, Leading: 0 e Top: 0):
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a constraint:
+Para que o "Stock View" tenha a mesma largura que o Scroll View, precisa adicionar uma restrição:
 
-Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+Pressione Ctrl e arraste a Stack View para o Scroll View. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições. Selecione "Equal Width".
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
-Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
+Depois, agregue quatro restrições com a Stack View clicando em **Add New Constraints** (Trailing: 0, Leading: 0, Top: 8, e Bottom: 0) como mostrado abaixo :
 
 ![Stackview constraints](assets/en/custom-detailform/stackview-constraints.png)
 
-Here's what you'll see when constraints have been added :
+Isto é o que verá quando agregar restrições:
 
 ![Stackview final constraints](assets/en/custom-detailform/stackview-constraints-final.png)
 
-Now that you have two views in your Stack View and you've defined constraints, let's focus on Field View 1.
+Agora que tem duas vistas em seu Stack View e tiver definido restrições, vamos nos concentrar em Field View 1.
 
-## Add an Image View to Field View 1
+## Adicione uma Image View ao Field View 1.
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+A partir da **Object library**, arraste e solte uma **Image View** em Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
-In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. Then set the X value to 0 and the Y value to 0.
+Desde o **Size inspector** (do lado direito do Interface Builder), defina o valor da largura do Image View em 359 e sua altura em 97. Depois estabeleça o valor X para 0 e o valor y para 0.
 
 ![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
+Agora adicione quatro restrições clicando no botão **Add New Constraints** (Trailing:0, Leading:0, Top:0, e Bottom:0) como mostrado abaixo:
 
 ![Image View constraints](assets/en/custom-detailform/imageview-constraints.png)
 
-In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
+No **Size inspector** mude o valor**Default** do Tamanho Intrínseco por um **Placeholder**.
 
 ![Intrinsic size Image View](assets/en/custom-detailform/intrinsic-size-imageview.png)
 

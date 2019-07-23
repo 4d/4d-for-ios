@@ -3,7 +3,7 @@ id: manifest-detailform-template
 title: Manifest.json
 ---
 
-The manifest file includes information about your detail form template such as the **Storyboard type** (list form or detail form), **name**, **number of static fields** and **Icon properties**.
+O arquivo de manifesto inclui informações sobre seu modelo de formulário detalhado, tais como **tipo Storyboard** (formulário lista ou formulário detalhado), **nome**, **número de campos estáticos** e **Icone propriedades**.
 
     {
       "type": "detailform",
@@ -24,9 +24,9 @@ The manifest file includes information about your detail form template such as t
     
     
 
-For example, the manifest file for the detail form template below includes the following information:
+Por exemplo, o arquivo manifesto para o formulário detalhado abaixo inclui as informações seguintes:
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
-3. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
-4. **Icon properties:** Icon width and height
+1. **tipo Storyboard:** detailform
+2. **Nome modelo:** formulário detalhado personalizado
+3. **Número campo:** Um campo estático (e 0 para campos infinitamente duplicados (uma imagem cabeçalho e os campos duplicados))
+4. **Propriedades Icone:** Icone largura e altura

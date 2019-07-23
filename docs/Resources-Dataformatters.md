@@ -153,6 +153,19 @@ title: Data Formatters
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
   </td>
   </tr>
+<tr>
+  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-html.png"/>
+  </td>
+  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+  <h1 style="margin-top: 10px; font-size:22px">HTML</h1>
+  <ul style="font-size:16px">
+  <li><strong>Format:</strong> Text ⟶ html</li>
+  <li><strong>Type:</strong> Swift formatter</li>
+  <div markdown="1" style="text-align: center; margin-top: 40px;">
+  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterHtml.zip">DOWNLOAD</a></div>
+  </td>
+  </tr>
 </table>
 </div>
 
