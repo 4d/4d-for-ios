@@ -3,54 +3,54 @@ id: structure
 title: Structure
 ---
 
-This section displays all of your database tables and fields exposed by 4D Mobile Service.
+Esta sección muestra todas las tablas y los campos de su base de datos.
 
 ![Structure section](assets/en/project-editor/Structure-section-4D-for-iOS.png)
 
-Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
+Aquí, puede definir un subconjunto de su estructura física para reproducir en dispositivos móviles seleccionando tablas y campos específicos. El seleccionado:
 
-* tables will be automatically added to the tabs of your app.
-* fields will be available later when it's time to define your list and detail forms.
+* las tablas seleccionadas se agregarán automáticamente a las pestañas de su aplicación.
+* los campos seleccionados estarán disponibles más adelante, cuando sea el momento de definir sus formularios Lista y sus formularios detallados.
 
-## N to 1 relations
+## Relaciones N a 1
 
-* 4D 17R5 allows you to visualize table relations and select related fields clicking on a relation. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
+* 4D 17 R5 le permite visualizar las relaciones entre las tablas y seleccionar los campos relacionados haciendo clic en una relación. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
+Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.<div class = "tips"> 
 
-**TIPS**
+**CONSEJOS**
 
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.</div> 
 
-## Incremental reload
+## Recarga incremental
 
-### Enable structure adjustments
+### Autorizar las modificaciones de la estructura
 
-In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+En 4D 17 R5, la recarga de 4D for iOS se vuelve incremental. Esto significa que solo se actualizarán los datos de la base que sean nuevos, modificados o eliminados. ¡Esta es una gran optimización en términos de tiempo de carga!
 
-To do so, 4D for iOS needs to make structure optimizations and create:
+Para hacerlo, 4D for iOS debe optimizar la estructura y crear:
 
-* A ```__DeletedRecords``` table to store deleted records
-* and ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
+* A ```__DeletedRecords``` tabla para almacenar registros borrados
+* y ```__GlobalStamp``` campos para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
 
-All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+Todo lo que necesita hacer es permitir que 4D for iOS realice los ajustes de estructura necesarios para una actualización optimizada de datos móviles.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
+Una vez autorizado, 4D for iOS hará todo el trabajo por usted, y usted se beneficiará completamente de todas las ventajas de la recarga incremental de datos.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-These optimizations are required for both local and server databases.</div> 
+Estas optimizaciones son necesarias tanto para las bases locales como para las bases del servidor.</div> 
 
-### Pull to refresh!
+### ¡Tirar para refrescar!
 
-iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
+del lado de la aplicación iOS, sus datos se actualizan cada vez que inicia su aplicación y cada vez que su aplicación se pone en primer plano, para obtener datos actualizados constantemente.
 
-In normal use, simply swipe down from any listform to reload your data.
+En uso normal, simplemente deslice hacia abajo desde cualquier formulario Lista para recargar sus datos.
 
-From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
+Desde la configuración del iPhone, ahora puede reinicializar los datos de su aplicación y encontrar información sobre su aplicación.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-As soon as the admin do an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required : Recover by tag / Restoration / Compaction</div>
+Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación</div>

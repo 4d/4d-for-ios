@@ -1,56 +1,56 @@
 ---
 id: n-to-one-relations
-title: N to one relations
+title: Relaciones N a 1
 ---
 
-4D v17 R5 includes a new concept: N to 1 relations<div class = "tips"> 
+4D v17 R5 incluye un nuevo concepto: las relaciones N a 1<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div> 
 
-Let's get started by downloading the Starter Project:
+Comencemos descargando el Proyecto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/Tasks.4dbase.zip">PROJET STARTER N A UNO</a>
 
   </p>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación. Para hacerlo, abra el **StarteriOSProject** en ** Abrir>Proyecto móvil...**
 
-Then go right to your Structure section and select the **Task table**.
+Luego diríjase a la sección Structure y seleccione la **Task table**.
 
-### Structure section
+### Sección Structure
 
-* You can notice that the **TaskCategory relation** is underlined
+* Puede constatar que el **enlace TaskCategory** está subrayado
 
-* Clicking on it will display available fields through this relation
+* Al hacer clic en él, se mostrarán los campos disponibles a través de esta relación
 
-* Select the **Name field**
+* Seleccione el **campo Name**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
-* This field will operate as any other field for the rest of the app creation process
+* Este campo funcionará como cualquier otro campo durante el resto del proceso de creación de la aplicación
 
-* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
+* También puede filtrar el contenido de su aplicación utilizando campos relacionados, de la sección Datos. Para ello introduzca ```TaskCategory.Name != 'Personal'``` en el filtro de búsqueda, para excluir las tareas personales.
     
-    ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
+    ![Related field in Forms section](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Luego puede seleccionar un **ícono** y los **formatos** y definir las **etiquetas cortas y largas** en la sección Etiquetas e iconos
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
-* Go to the Forms section and drag the field on the Task Detail form
+* Vaya a la sección Formularios y arrastre el campo en el formulario detallado Tasks
 
 ![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
-* Build and Run
+* Crear y ejecutar
 
-You should see your related field in your app detail form !
+¡Su campo relacionado debe aparecer en el formulario detallado de su aplicación!
 
 ![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)
