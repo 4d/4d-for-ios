@@ -1,15 +1,15 @@
 ---
 id: custom-listform-templates
-title: List Forms Templates
+title: Plantillas de formularios Lista
 ---
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 
-1. To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
+1. Para utilizar una plantilla de formulario Lista, lo primero que deberá hacer es crear una carpeta `YourDatabase.4dbase/Resources/Mobile/form/list`.
 
-2. Then drop the list form folder into it.</div> 
+2. Luego suelte la carpeta del formulario Lista en ella.</div> 
 
 <div style="height: auto;">
   <table>
@@ -22,7 +22,7 @@ title: List Forms Templates
   <h1 style="margin-top: 10px; font-size:22px">Tasks Collection</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Collection</li>
-  <li><strong>Sections:</strong> not available</li>
+  <li><strong>Sections:</strong> no disponible</li>
   <li><strong>Actions:</strong> cell long pressure</li>
   <li><strong>Image required:</strong> no</li></ul>
   <div style="text-align: center; margin-top: 40px;">
