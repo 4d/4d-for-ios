@@ -89,26 +89,26 @@ title: Formato de datos
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Entero a Image</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Entero⟶ Imagen</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">DESCARGAR</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to String</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Entero a Cadena</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Entero⟶ Cadena</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -121,26 +121,26 @@ title: Formato de datos
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Texto a Imagen</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ Imagen</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">DESCARGAR</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to String</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Texto a Cadena</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ Cadena</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -153,26 +153,26 @@ title: Formato de datos
   <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
   </td>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Booleano a Imagen</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Booleano ⟶ Imagen</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">DESCARGAR</a></p>
 
 </div>
   </td>
   </tr>
 <tr>
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Emoji</h1>
+  <h1 style="margin-top: 10px; font-size:22px">Emoticón</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool, Real, Integer ⟶ Emoji</li>
-  <li><strong>Type:</strong> basic formatter</li>
+  <li><strong>Format:</strong> Booleano, Real, Entero ⟶ Emoticón</li>
+  <li><strong>Type:</strong> formato básico</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -187,11 +187,11 @@ title: Formato de datos
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:22px">HTML</h1>
   <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ html</li>
-  <li><strong>Type:</strong> Swift formatter</li>
+  <li><strong>Format:</strong> Texto ⟶ html</li>
+  <li><strong>Type:</strong> formato Swift</li>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterHtml.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterHtml.zip">DESCARGAR</a></p>
 
 </div>
   </td>
