@@ -100,33 +100,33 @@ No **Size inspector** mude o valor**Default** do Tamanho Intrínseco por um **Pl
 
 ![Intrinsic size Image View](assets/en/custom-detailform/intrinsic-size-imageview.png)
 
-## Add Labels to Field View 2
+## Adicione Etiquetas para Field View 3
 
-### Title label
+### Etiqueta de Título
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
+Na **Biblioteca de Objetos**, arraste e solte uma **Etiqueta** em Field View 2 e estabeleça o valor de Largura para 343 e a Altura para 22. Depois estabeleça o valor de X para 8 e Y para 8
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Dê um duplo clique na etiqueta e coloque o nome "```___FIELD_LABEL___```". Depois no **attribute inspector** selecione a fonte como **Helvetica Neue Light 18.0** e a cor **BackgroundColor**:
 
 ![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
 
-### Content label
+### Etiqueta de conteúdo
 
-Duplicate the Title label and set the duplicate's Width value to 339 and the Height value to 44. Then set the X value to 12 and the Y value to 37.
+Duplique a etiqueta Título e defina a largura de etiqueta duplicada em 339 e o valor de altura em 44. Depois defina o valor X como 12 e o valor de Y como 37.
 
 ![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Dê duplo clique na etiqueta e chame-a "```<___FIELD_LABEL___>```". Depois, no **attribute inspector**, selecione a fonte **Helvetica Neue Light 20.0** e a cor **Back Color**:
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Selecione as etiquetas Conteúdo e Título e adicione quatro restrições clicando em **Add New Constraints button** (trailing 8, Leading: Multiple, Top: Multiple, e Bottom: Multiple) como mostrado abaixo:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 
-You're done with graphical elements! All of your constraints are well defined :)
+Terminamos os elementos gráficos! Todas as suas restrições estão bem definidas :)
 
 ## How to get data into your cells
 
