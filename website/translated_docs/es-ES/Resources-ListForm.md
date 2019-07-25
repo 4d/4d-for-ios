@@ -23,11 +23,11 @@ title: Plantillas de formularios Lista
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Collection</li>
   <li><strong>Sections:</strong> no disponible</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Actions:</strong> larga presión en la celda</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksCollection.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksCollection.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -37,12 +37,12 @@ title: Plantillas de formularios Lista
   <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Actions:</strong> cell left swipe</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Actions:</strong> desplazamiento a la izquierda de la celda</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformTasksList.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -58,12 +58,12 @@ title: Plantillas de formularios Lista
   <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Actions:</strong> larga presión en la celda</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformCardsTable.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -73,12 +73,12 @@ title: Plantillas de formularios Lista
   <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Actions:</strong> larga presión en la celda</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformMapList.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -94,12 +94,12 @@ title: Plantillas de formularios Lista
   <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Table</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> no</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Actions:</strong> larga presión en la celda</li>
+  <li><strong>Imagen requerida:</strong> no</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformFoldingCellList.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformFoldingCellList.zip">DESCARGAR</a></p>
 
 </div>
   </td>
@@ -109,12 +109,12 @@ title: Plantillas de formularios Lista
   <h1 style="margin-top: 10px; font-size:22px">Slanted Collection</h1>
   <ul style="font-size:16px">
   <li><strong>Type:</strong> Collection</li>
-  <li><strong>Sections:</strong> not available</li>
-  <li><strong>Actions:</strong> cell long pressure</li>
-  <li><strong>Image required:</strong> yes</li></ul>
+  <li><strong>Sections:</strong> no disponible</li>
+  <li><strong>Actions:</strong> larga presión en la celda</li>
+  <li><strong>Imagen requerida:</strong> sí</li></ul>
   <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformSlantedCollection.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="../assets/en/template-formatters/ListformSlantedCollection.zip">DESCARGAR</a></p>
 
 </div>
   </td>
