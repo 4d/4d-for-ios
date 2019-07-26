@@ -1,17 +1,17 @@
 ---
 id: define-filter-query
-title: Define a filter query
+title: Definir un filtro de búsqueda
 ---
 
-For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
+Por el momento, si genera la aplicación Starter Project e introduce "michelle.simpson@mail.com" como correo electrónico de inicio de sesión (uno de los administradores de cuentas), verá **todos los contratos y estados de los administradores** (*Closed* y *In Progress*).
 
 ![iOS app without queries](assets/en/restricted-queries/ios-app-without-queries.png)
 
-As we discussed earlier, we want the account managers to access their *In Progress* contracts by logging into their mobile app with their email. To do this:
+Como se indicó anteriormente, queremos que los administradores de cuentas accedan a sus contratos *En curso* iniciando sesión en su aplicación móvil con su correo electrónico. Para hacer esto:
 
-* Go to the **Data section**
-* Right-click in the **Filter query** field to make the **Field, Comparators and Operators buttons** appear.
-* Click on the **Fields** button and select **Status**.
+* Acceda a la **sección "Datos"**
+* Haga clic derecho en el campo **Filtro de búsqueda** para que aparezcan los **botones Campos, Comparadores y Operadores**.
+* Haga clic en el botón **Campos** y seleccione **Estado**.
 * Click on the **Comparators** button and select **Equal to**.
 * Because you want to display *open* contracts, enter **In progress**
 * Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
