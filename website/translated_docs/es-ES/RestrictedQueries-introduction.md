@@ -1,6 +1,6 @@
 ---
 id: filter-query-introduction
-title: Restricted queries
+title: Búsquedas limitadas
 ---
 
 <div class = "objectives"> 
