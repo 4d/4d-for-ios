@@ -1,20 +1,20 @@
 ---
 id: install-device
-title: Installing on your iOS device
+title: Instalar en su dispositivo iOS
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
+Instale una aplicación 4D for iOS en un dispositivo conectado</div> <div class = "prerequisites"> 
 
-**PRERREQUISITOS**
+**REQUISITOS PREVIOS**
 
 * Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).</div> <div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
 Apple configurator 2 requires **macOS 10.14** or later.</div> 
 
