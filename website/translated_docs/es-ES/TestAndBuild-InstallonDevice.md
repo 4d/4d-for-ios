@@ -16,23 +16,23 @@ Instale una aplicación 4D for iOS en un dispositivo conectado</div> <div class 
 
 **NOTA**
 
-Apple configurator 2 requires **macOS 10.14** or later.</div> 
+Apple configurator 2 necesita **macOS 10.14** o superior.</div> 
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+Dependiendo de sus objetivos y de sus preferencias, puede optar por inscribirse en uno de los siguientes programas:
 
-* [Free Apple Developer Program](free-developer-account.html): For testing only
-* [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html): For an App Store Deployment
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): To deploy your app in-house
+* [Free Apple Developer Program](free-developer-account.html): para prueba únicamente
+* [Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [para los particulares](register-apple-developer-program-individual.html): con el fin de desplegar en el App Store
+* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): para desplegar su aplicación internamente
 
-Let's go through the process...
+Veamos el proceso...
 
-## PASO 1. Account creation
+## PASO 1. Cree una cuenta
 
-* **Apple ID**: Create your Apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
+* **Identificador Apple**: cree su identificador Apple. Si no tienen uno, haga clic [aquí](https://appleid.apple.com/account#!&page=create).
 
-* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
+* **Developer Account**: elija un Apple Developer Program (para empresas o individuos) para desplegar en la App Store o el Apple Developer Enterprise Program (para despliegue interno).
 
-## PASO 2. Xcode configuration
+## PASO 2. Configuración Xcode
 
 * **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
