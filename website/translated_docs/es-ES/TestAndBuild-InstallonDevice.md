@@ -34,18 +34,18 @@ Veamos el proceso...
 
 ## PASO 2. Configuración Xcode
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account**: En Xcode > Preferences > Accounts, añada su Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
-## PASO 3. Get your Team ID
+## PASO 3. Obtenga su Team ID
 
-* If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
-* If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
+* Si está utilizando un [Apple Developer Program gratuito](free-developer-account.html) vaya al [paso 4](#step-4-team-id-for-free-account).
+* Si está utilizando un [Apple Developer Program para empresas](register-apple-developer-program-organization.html), [ para particulares ](register-apple-developer-program-individual.html) o un [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) vaya al [paso 5](#step-5-team-id-for-paid-subscription-account).
 
-## PASO 4. Team ID for Free account
+## PASO 4. Team ID para una cuenta gratuita
 
-### Let Xcode generate your provisioning profile and certificate
+### Deje que Xcode genere su perfil y certificado
 
-* Open your current project from the BUILD tab.
+* Abra su proyecto actual desde la pestaña BUILD.
 
 ![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
