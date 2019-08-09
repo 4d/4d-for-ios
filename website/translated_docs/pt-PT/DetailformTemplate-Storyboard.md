@@ -128,33 +128,33 @@ Selecione as etiquetas Conteúdo e Título e adicione quatro restrições clican
 
 Terminamos os elementos gráficos! Todas as suas restrições estão bem definidas :)
 
-## How to get data into your cells
+## Como entrar os dados em suas células
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Seleciona sua Image View e vá para **identity Inspector**User Defined Runtime Attributes. Clique no ** botão+** para adicionar uma linha.
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path**: Comece com bindTo para ativar a associação ao componente. Enter ```bindTo.record.___FIELD_1___```
 
-* **Type**: Always ```String```
+* **Type**: Sempre ```String```
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value**: nome do atributo. Enter ```___FIELD_1_BINDING_TYPE___```
 
 ![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
-### Labels
+### Etiquetas
 
-For the **first label** we are going to add several lines mainly to display icons:
+Para a **primeira etiqueta**, vamos agregar várias linhas principalmente para mostrar ícones:
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to ```IconLabel``` and check the **Inherit Module From Target** checkbox as we can see below:
+Também deve configurar a Classe em ```IconLabel``` e marque a caixa de seleção**Inherit Module From Target** como mostrado abaixo:
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
-Select the **second label** and add a row in the Defined Runtime Attributes:
+Selecione a** segunda etiqueta** e adicione uma linha na área Defined Runtime Attributes:
 
 * **Key Path**: ```bindTo.record.___FIELD___```
 
@@ -164,39 +164,39 @@ Select the **second label** and add a row in the Defined Runtime Attributes:
 
 ![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
-## Add TAGS to the cells to be duplicated
+## Adicionar TAGS às células a duplicar.
 
-Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
+Field View 2 inclui elementos que serão duplicados para que possa ter tantos campos quantos definir no editor de projeto.
 
-Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento de storyboard tem um identificador de objeto. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/custom-detailform/object-id-storyboard.png)
 
-In order to tell the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
+Para indicar ao editor de projeto que todos os elementos incluídos na vista serão duplicados, precisamos adicionar uma TAG a cada elemento e restrição.
 
-The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
+O processo é um pouco complicado.... Vamos começar abrindo o arquivo Storyboard com seu editor de código favorito
 
 ### Field View 2
 
-* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
+* Selecione **Field View 2** e obtenha seus identificadores de objeto do Identity Inspector (no lado direito da janela de Interface Builder). Em nosso projeto, Field View 2 ID é: **SiX-3H-lNB**.
 
-* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. As you can see, this Object ID is mentioned several times so be careful!
+* Pesquise por esta ID no código xml do storyboard e substitua com **TAG-FD-001** toda vez que aparecer. Como pode ver, este ID de objeto é mencionado várias vezes, por isso precisa ser cuidadoso.
 
 ![Storyboard xml](assets/en/custom-detailform/storyboard-xml.png)
 
-Save the storyboard xml file. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
+Salve o arquivo xml storyboard. Como pode ver, o ID de objeto de Field View 2 mudou no seu storyboard em Xcode:
 
 ![Field View 2 Object ID](assets/en/custom-detailform/field-view-2-object-id.png)
 
-### First label
+### Primeira etiqueta
 
-* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
+* Agora, obtenha a ID de objeto ** primeira etiqueta ** de Identity Inspector e a substitua por ** TAG-FD-002 ** cada vez que apareça no código xml do storyboard.
 
 ![Label 1 Object ID](assets/en/custom-detailform/label1-object-id.png)
 
-Done with the first label!
+Pronto com a primeira etiqueta.
 
-### Second label
+### Segunda etiqueta
 
 * Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
 
