@@ -12,155 +12,155 @@ Esta sección le permite:
 
 ### Cree su acción
 
-Puede crear una nueva acción haciendo clic en el botón + en la parte inferior de la tabla Acciones. A new line will appear in the Actions table.
+Puede crear una nueva acción haciendo clic en el botón + en la parte inferior de la tabla Acciones. Aparecerá una nueva línea en la tabla.
 
-Next you'll need to define the following:
+A continuación, deberá definir lo siguiente:
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Nombre:** define el nombre de la acción a utilizar en el método base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) para lanzar su código 4D.
+* **Iconos:** seleccione un icono para su acción de su librería de iconos. También puede agregar su propio icono siguiendo este [tutorial](using-icons.html).
+* **Etiquetas cortas y largas: **las etiquetas para las acciones que se mostrarán en su aplicación.
+* **Tabla:** seleccione la tabla en la que desea aplicar la acción.
+* **Alcance:** seleccione si desea aplicar la acción en una **entidad** o en una **tabla**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-### Add parameters to your action
+### Añada parámetros a su acción
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+Como en **4D v17R6**, puede añadir los **parámetros de acción** y **editar** datos directamente desde su aplicación.
 
-For each parameter, you can edit the following properties:
+Para cada parámetro, puede editar las siguientes propiedades:
 
-* Name
-* Long label
-* Short label
-* Format
-* Input constraints (define minimum or maximum values)
+* Nombre
+* Etiqueta larga
+* Etiqueta corta
+* Formato
+* Restricciones de entrada (definir valores mínimos o máximos)
 * Placeholder
-* Mandatory field definition
-* Default value
+* Definición de un campo obligatorio
+* Valor por defecto
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order of parameters using drag and drop.
+Puede cambiar el orden de los parámetros con solo arrastrar y soltar.
 
-Here are the different **Formats** you can select for a parameter:
+Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 
 <table>
   
 
 <tr>
-<th colspan="2"  style="text-align:center">TEXT</th>
+<th colspan="2"  style="text-align:center">TEXTO</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descripción</th>
   </tr>
   
   <tr>
     
-<td>Text</td><td>Capitalize the first letter of a string</td>
+<td>Texto</td><td>Poner en mayúscula la primera letra de una cadena</td>
   </tr>
   
   <tr>
     
-<td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
+<td>Email Address</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
   </tr>
   
   <tr>
     
-<td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
+<td>Número de teléfono</td><td>Teclado iOS para ingresar números de teléfono.</td>
   </tr>
   
   <tr>
     
-<td>Account</td><td>Optimized iOS keyboard for username entry</td>
+<td>Account</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
   </tr>
   
   <tr>
     
-<td>Password</td><td>Optimized to handle passwords</td>
+<td>Contraseña</td><td>Optimizado para manejar contraseñas</td>
   </tr>
   
   <tr>
     
-<td>URL</td><td>Optimized iOS keyboard for URL entry</td>
+<td>URL</td><td>Teclado iOS optimizado para la entrada del URL</td>
   </tr>
   
   <tr>
     
-<td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
+<td>Código postal</td><td>Teclado iOS optimizado para la entrada del código postal</td>
   </tr>
   
   <tr>
     
-<td>Text area</td><td>Includes multiple lines of text in a single field</td>
+<td>Área de texto</td><td>Incluye varias líneas de texto en un solo campo</td>
   </tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">NUMBER</th>
+<th colspan="2" style="text-align:center">NÚMERO</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descripción</th>
   </tr>
   
   <tr>
     
-<td>Number</td><td>Numbers with decimals</td>
+<td>Número</td><td>Números con décimales</td>
   </tr>
   
   <tr>
     
-<td>Integer</td><td>Numbers without decimals</td>
+<td>Entero</td><td>Números sin decimales</td>
   </tr>
   
   <tr>
     
-<td>Scientific</td><td>Scientific Notation</td>
+<td>Científica</td><td>Notación científica</td>
   </tr>
   
   <tr>
     
-<td>Percentage</td><td>Percent Notation</td>
+<td>Porcentaje</td><td>Notación en porcentaje</td>
   </tr>
   
   <tr>
     
-<td>Spell Out</td><td>Convert numbers into strings</td>
+<td>Nombre en letras</td><td>Convierte los números en cadenas</td>
   </tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">DATE</th>
+<th colspan="2" style="text-align:center">FECHA</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descripción</th>
   </tr>
   
   <tr>
     
-<td>Date</td><td>Nov 23, 1937</td>
+<td>Fecha</td><td>Nov 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Short Date</td><td>    11/23/37</td>
+<td>Fecha corta</td><td>    11/23/37</td>
   </tr>
   
   <tr>
     
-<td>Long Date</td><td>November 23, 1937</td>
+<td>Fecha larga</td><td>Noviembre 23, 1937</td>
   </tr>
   
   <tr>
     
-<td>Full Date</td><td>Tuesday, November 23, 1937</td>
+<td>Fecha completa</td><td>Martes, 23 de noviembre 1937</td>
   </tr>
   
   <tr>
@@ -169,52 +169,52 @@ Here are the different **Formats** you can select for a parameter:
   </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">TIME</th>
+<th colspan="2" style="text-align:center">HORA</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descripción</th>
   </tr>
   
   <tr>
     
-<td>Time</td><td>3:30 PM</td>
+<td>Hora</td><td>3:30 PM</td>
   </tr>
   
   <tr>
     
-<td>Duration</td><td>2 hours 30 minutes</td>
+<td>Duración</td><td>2 horas 30 minutos</td>
   </tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
-<th colspan="2" style="text-align:center">BOOLEAN</th>
+<th colspan="2" style="text-align:center">BOOLEANO</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descripción</th>
   </tr>
   
   <tr>
     
-<td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
+<td>Booleano</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
   </tr>
   
   <tr>
     
-<td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
+<td>Marca de verificación</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
   </tr>
 
 <tr>
 <td colspan="2"></td>
 </tr>
 <tr>
-<th colspan="2" style="text-align:center">IMAGES</th>
+<th colspan="2" style="text-align:center">IMÁGENES</th>
 </tr>
 <tr>
-<td colspan="2">Image parameters will be available in an upcoming release</td>
+<td colspan="2">Los parámetros de imagen estarán disponibles en una próxima versión</td>
 </tr>
 
 </table>
@@ -268,7 +268,7 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
 * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
@@ -278,7 +278,7 @@ After creating all of your actions, just click on the Create button from the Act
 
 In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
 
-### Table List forms
+### Formularios Lista en tabla
 
 * **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
 
@@ -288,11 +288,11 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**TIPS**
+**CONSEJO**
 
 Actions will be displayed in the same order as defined in the Action section.</div> 
 
-### Collection List forms
+### Formularios Lista en colección
 
 * **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
 
@@ -302,13 +302,13 @@ Actions will be displayed in the same order as defined in the Action section.</d
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
-### Detail forms
+### Formularios detallados
 
 As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
-### Edition forms
+### Formularios de edición
 
 If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
 
@@ -327,10 +327,10 @@ For your convenience, the Edition form includes a few **special features**:
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
 
-## Where to go from here?
+## ¿Qué hacer ahora?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutorial](actions-getting-started.html) está disponible para guiarlo a través del **proceso de definición de una acción**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Otro [tutorial](action-custom-template.html) lo guiará para integrar los **TAG de acción** en las plantillas personalizadas.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* Un [tutorial](using-parameters.html) final lo guiará a lo largo del proceso **definición de los parámetros de una acción**.
