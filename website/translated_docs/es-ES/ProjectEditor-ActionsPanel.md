@@ -219,23 +219,23 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 
 </table>
 
-### Preset actions
+### Acciones predefinidas
 
-4D for iOS includes three preset (predefined) actions to manage your app content:
+4D for iOS incluye tres acciones (predefinidas) para administrar el contenido de su aplicación:
 
-* Edit 
-* Add 
-* Delete 
+* Acción de edición 
+* Acción de añadir 
+* Acción de eliminar 
 
-#### 1. Add action
+#### 1. Acción de añadir
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS simplifica al máximo la creación de **acciones de adición**.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+Lo único que debe hacer es seleccionar la opción **Acción de adición para**, accesible desde el **botón + ** en la parte inferior de la tabla Acciones.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. And this is it!
+Luego **seleccione la tabla** que quiere asociar a la acción añadir. And this is it!
 
 This will **automatically create** all the parameters for you in the Project Editor. In the generated app, this will allow you to edit each field value.
 
