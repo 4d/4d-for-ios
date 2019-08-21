@@ -1,38 +1,38 @@
 ---
 id: using-parameters
-title: Using parameters
+title: Utilizar paramétros
 ---
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Define action parameters to edit the content of your app.</div> 
+Definir parámetros de acción para editar el contenido de su aplicación.</div> 
 
-In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
 
-In this tutorial, we're going to go further and create:
+En este tutorial, iremos más allá y crearemos:
 
-* an Add action to **create a new task**,
-* an Edit action that will allow you to **edit existing tasks** from the iOS app,
-* a Delete action to **delete an entity**, and
-* an action that will enable you to **email a comment for a specific task**.
+* una acción de adición para **crear una nueva tarea**,
+* una acción de edición que le permitirá **editar las tareas existentes** desde la aplicación iOS,
+* una acción de eliminación para **eliminar una entidad**, y
+* una acción que le permitirá **enviar un comentario por correo electrónico para una tarea específica**.
 
-To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
+Para comenzar, primero descarguemos el **Proyecto Starter** basado en nuestra aplicación iOS Tasks.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/actions/ActionParametersStarterProject.zip">STARTER PROJECT</a>
+href="../assets/en/actions/ActionParametersStarterProject.zip">PROYECTO STARTER</a>
 
   </p>
 </div>
 
-## STEP 1. Add action
+## PASO 1. Acción de añadir
 
-Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
+Comencemos por una tarea simple. Open the Tasks mobile project and go directly to the **Actions section**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
