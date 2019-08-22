@@ -32,49 +32,49 @@ href="../assets/en/actions/ActionParametersStarterProject.zip">PROYECTO STARTER<
 
 ## PASO 1. Acción de añadir
 
-Comencemos por una tarea simple. Open the Tasks mobile project and go directly to the **Actions section**.
+Comencemos por una tarea simple. Abra el proyecto móvil Tasks y vaya directamente a la **sección Actions**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
-It's quite empty for the moment... Here is what we want: **create a new task from the iOS app**.
+Está bastante vacío por el momento... Esto es lo que queremos: **crear una nueva tarea desde la aplicación iOS**.
 
-For this, let's create an action using a preset **Add** action:
+Para esto, creemos una acción utilizando una acción preestablecida **Agregar**:
 
-* Click on the arrow in the **+ button** at the bottom of the Actions table.
-* Select the **Add action for** option.
-* Select the **Task table**. 
+* Haga clic en la flecha en el **botón +**, en la parte inferior de la tabla Acciones.
+* Seleccione la opción **acción de añadir**.
+* Seleccione la **tabla Task**. 
 
 ![Add action creation](assets/en/actions/Add-action-creation.png)
 
-* **A new action** named *"addTasks"* with *"Add..."* as default label is displayed.
-* All available **parameters** and their **properties** are shown in the **Actions Parameters** section.
+* Se muestra una **nueva acción** llamada *"addTasks"* con *"Add..."* como etiqueta predeterminada.
+* Todos los **parámetros**disponibles y sus **propiedades** se muestran en la sección **Parámetros de las acciones**.
 
 ![Add action parameters](assets/en/actions/Add-action-parameters.png)
 
-At this point, all **Add action parameters** are created automatically and ready to use.
+En este punto, todos los **parámetros de las acciones de adición** se crean automáticamente y están listos para usar.
 
-## STEP 2. Edit action
+## PASO 2. Acción de edición
 
-Now let's create an action that will allow you to **edit your app content**.
+Ahora creemos una acción que le permitirá **editar el contenido de su aplicación**.
 
-For this, we'll create an action using a preset **Edit** action:
+Para esto, creemos una acción utilizando una acción preestablecida de **edición**:
 
-* Click on the arrow in the **+ button** at the bottom of the Actions table.
-* Select the **Edit action for** option.
-* Select the Tasks table. 
+* Haga clic en la flecha en el **botón +**, en la parte inferior de la tabla Acciones.
+* Seleccione la opción **acción de edición**.
+* Seleccione la tabla Tasks. 
 
 ![Edit action creation](assets/en/actions/Edit-action-creation.png)
 
-At this point, you will see:
+En este punto verá:
 
-* **A new action** named *"editTasks"* with *"Edit..."* as the default label.
-* All available action **parameters** and their **properties** are displayed in the **Actions parameters** section.
+* Se muestra **Una nueva acción** llamada *"editTasks"* con *"Add..."* como etiqueta predeterminada.
+* Todos los **parámetros**disponibles y sus **propiedades** se muestran en la sección **Parámetros de las acciones**.
 
 ![Edit action parameters](assets/en/actions/Edit-action-parameters.png)
 
-Don't worry, we'll handle the 4D code for these actions later. :-)
+No se preocupe, manejaremos el código 4D para estas acciones más adelante. :-)
 
-## STEP 3. Delete action
+## PASO 3. Acción de eliminación
 
 The preset **Delete** action creation process is nearly the same as the Edit action:
 
