@@ -198,35 +198,35 @@ Pronto com a primeira etiqueta.
 
 ### Segunda etiqueta
 
-* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
+* Depois, obtenha a ID do objeto da **segunda etiqueta** do Identity Inspector e substitua-a com **TAG-FD-003** toda vez que aparecer no código xml do storyboard.
 
 ![Label 2 Object ID](assets/en/custom-detailform/label2-object-id.png)
 
-Voilà!
+Pronto!
 
-### Constraints
+### Restrições
 
-Both labels have constraints that we need to tag, too:
+Ambas as etiquetas têm restrições que também necessitamos identificar:
 
 ![Tag constraints](assets/en/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Do mesmo jeito que com View Field 2 e etiquetas, obtenha todas as ID de Objeto de **7 Constraints** do Identity Inspector e substitua-as com: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** e **TAG-FD-010**.
 
-Go to your project editor and select your detail template from the Forms section, then click on Build.
+Vá para o editor de projeto e selecione o modelo detalhado na seção Formulários, e clique em Criar.
 
 ![Custom detail template forms](assets/en/custom-detailform/custom-detail-template-forms.png)
 
-Not bad for a first attempt! :)
+Não está mal para a primeira tentativa! :)
 
 ![iPhone Demo](assets/en/custom-detailform/iphone-demo.png)
 
-Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
+Field View 2 foi duplicado Vamos ver se podemos tornar o app um pouco mais interessante!
 
-### Customize your app
+### Personalize seu app
 
-We're going to add a corner radius to the Image View, as well as Field View 2.
+Vamos adicionar uma borda arredondada à Imagem View, assim como um Field View 2.
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Selecione seu Image View e adicione as duas linhas abaixo noa área User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
 
@@ -240,11 +240,11 @@ and
 
 * **Type**: ```Boolean```
 
-* **Value**: Check the box
+* **Value**: Selecione a opção
 
 ![iPhone Demo](assets/en/custom-detailform/imageview-corner-radius.png)
 
-Next, select Field View 2 and add the following:
+Agora selecione Field View 2 e adicione o abaixo:
 
 * **Key Path**: ```cornerRadius```
 
@@ -254,20 +254,20 @@ Next, select Field View 2 and add the following:
 
 ![iPhone Demo](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
-You can now build your project from the project editor!
+Agora pode construir seu projeto no editor de projetos!
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
-## Where to go from here?
+## O que fazer agora?
 
-In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
+Neste tutorial cobrimos os conceitos básicos para criar seu modelo de formulário detalhado. Agora pode criar modelos simples usando os recursos do Starter Project. Clique em **Final Project** abaixo para baixar a lista completa de modelos.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/custom-detailform/CustomDetailFormFinalTemplate.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
+href="../assets/en/custom-detailform/CustomDetailFormFinalTemplate.zip">MODELO FINAL DE FORMULÁRIO DETALHADO PERSONALIZADO</a>
 
   </p>
 </div>
