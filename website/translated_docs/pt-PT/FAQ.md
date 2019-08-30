@@ -3,25 +3,25 @@ id: faq
 title: FAQ
 ---
 
-## Prerequisites
+## Pré-requisitos
 
 <details>
 <summary>
-    <strong>Do I need specific expertise to use 4D for iOS?</strong>
+    <strong>Preciso de experiência específica para usar o 4D for iOS?</strong>
 </summary>
 
-With 4D for iOS, you can easily create mobile projects directly from 4D, without needing any prior expertise building native iOS apps!
+Com 4D for iOS, pode criar facilmente projetos móveis diretamente desde 4D, sem necessidade de experiência prévia na criação de aplicações iOS nativas!
 
-The mobile project editor has been designed so that you can use 4D for iOS without any specific knowledge in mobile app developement.
+O editor de projetos móveis foi criado para que seja possível usar 4D for iOS sem nenhum conhecimento específico no desenvolvimento de aplicações móveis.
 
 </details>
 
 <details>
 <summary>
-<strong>Are there any prerequisites for 4D for iOS?</strong>
+<strong>Há algum pré-requisito para 4D for iOS?</strong>
 </summary>
 
-### Version comparison table
+### Tabela de comparação de versões
 
 | Xcode  | Swift | iOS      | 4D   | MacOS   |
 | ------ | ----- | -------- | ---- | ------- |
@@ -33,40 +33,40 @@ The mobile project editor has been designed so that you can use 4D for iOS witho
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-In case you need an older Xcode version you can download it here: https://developer.apple.com/download/more/
+Caso precise de uma versão antiga de Xcode pode baixá-la aqui: https://developer.apple.com/download/more/
 
-=> Only registered developers can download preview releases through the Apple Developer website.
+=> Só desenvolvedores registrados podem baixar lançamentos preview através do website Apple Developer.
 
-See the prerequisites list [here](prerequisites.html).
-
-</details>
-
-<details>
-<summary>
-<strong>Can I use Windows to develop with 4D for iOS?</strong>
-</summary>
-
-No. You must develop on macOS, as we need XCode to compile the final application and to run the Simulator.
-
-</details>
-
-## License
-
-<details>
-<summary>
-<strong>Do I need a 4D Web Server to run 4D for iOS?</strong>
-</summary>
-
-No – 4D for iOS is included in 4D Server v17 R2 and up.
+Veja a lista de pré-requisitos [aqui](prerequisites.html).
 
 </details>
 
 <details>
 <summary>
-<strong>Is there a test or evaluation license available?</strong>
+<strong>Posso usar Windows para desenvolver com 4D for iOS?</strong>
 </summary>
 
-If you already have a 4D Developer Pro or 4D Server license for 4D v17 R2 or newer, 4D for iOS is included.
+Não. Deve desenvolver em macOS, pois é preciso Xcode para compilar a aplicação final e executar o Simulador.
+
+</details>
+
+## Licença
+
+<details>
+<summary>
+<strong>Preciso de um Web Server 4D para executar 4D for iOS?</strong>
+</summary>
+
+Não - 4D for iOS está incluído em 4D Server v17 R2 e superior.
+
+</details>
+
+<details>
+<summary>
+<strong>Há uma licença de teste ou avaliação disponível?</strong>
+</summary>
+
+Se já tiver uma licença 4D Developer Pro ou 4D Server para 4D v17 R2 ou posterior, já está incluido o 4D for iOS.
 
 If you're not a 4D Partner or don't participate in the 4D Maintenance program, you have to wait for 4D v18.
 
