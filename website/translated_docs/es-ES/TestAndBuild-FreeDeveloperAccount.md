@@ -1,35 +1,35 @@
 ---
 id: free-developer-account
-title: Free Apple Developer account
+title: Cuenta Apple Developer gratuita
 ---
 
-Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
+Incluso si no desea pagar $99 al año para unirse al Programa de Desarrolladores de Apple, puede crear una ID de Apple gratuita y utilizarla para acceder a un conjunto limitado de privilegios para desarrolladores.
 
-## PASO 1. Apple ID
+## PASO 1. Identificador Apple
 
-If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id)
 
-If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
+Si ya tiene identificación Apple, vaya a '[Paso 3](#step-3-open-xcode)
 
-## PASO 2. Create your Apple ID
+## PASO 2. Cree su identificación Apple
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+Vaya a la [página de creación del identificador Apple](https://appleid.apple.com/).
 
 ![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* Llene el formulario y las preguntas de seguridad.
+* Recibirá un código de verificación por correo electrónico.
+* Ingrese el código de verificación para validar la creación de su cuenta.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Una vez que tenga su identificación Apple, puede continuar con el Paso 3.
 
-## PASO 3. Open Xcode
+## PASO 3. Abra Xcode
 
-* Launch Xcode > Preferences > Accounts
-* Add your Apple ID and sign in 
+* Lance Xcode > Preferences > Accounts
+* Agregue su ID de Apple e inicie sesión 
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-Congratulations! You're now ready to use your free Apple ID!
+¡Felicitaciones! ¡Ahora está listo para utilizar su ID de Apple gratis!
