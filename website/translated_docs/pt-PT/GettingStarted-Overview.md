@@ -3,24 +3,24 @@ id: overview
 title: Overview
 ---
 
-## What is 4D for iOS?
+## O que é 4D for iOS?
 
-4D for iOS is an integrated 4D component that allows you to configure, design, build, and deploy a native iOS app based on your 4D database.
+4D for iOS é um componente integrado 4D com o qual pode configurar, criar, construir e implementar um app nativo iOS baseado em seu banco de dados 4D.
 
-## Fully integrated in 4D
+## Totalmente integrado em 4D
 
-With 4D for iOS, you can easily create a new mobile project directly from 4D, without needing any prior expertise building native iOS apps.
+Com 4D for iOS, pode facilmente criar um novo projeto móvel diretamente de 4D, sem precisar de qualquer experiência anterior de construção de apps nativos iOS.
 
-## Create native apps
+## Criando apps nativos
 
-* 4D handles the complexity and generates - in a totally transparent way - an Xcode project in pure Swift with an optimized UI/UX.
-* One of the strengths of 4D for iOS is that you have the opportunity to create an unlimited number of apps from different subsets of your database ... according to your needs and goals.
+* 4D gerencia a complexidade e gera - de modo transparente - um projeto Xcode em Swift puro com uma interface de usuário UI/UX otimizada.
+* Um dos pontos fortes de 4D for iOS é que existe a oportunidade de criar um número ilimitado de apps a partir de diferentes subconjuntos do banco de dados... de acordo com suas necessidades e objetivos.
 
-## Supports offline mode
+## É compatível com modo sem conexão
 
-* All of your data is embedded in your app and available without needing an internet connection.
+* Todos os seus dados estão integrados em seu app e disponíveis sem precisar de uma conexão de internet.
 
-## Open solution
+## Solução aberta
 
-* 4D for iOS generates a real Xcode project. You can reopen it with Xcode and continue to work on it.
-* All tables and forms are embedded into the generated app and are editable.
+* 4D for iOS gera um verdadeiro projeto Xcode. Pode reabrí-lo com Xcode e continuar seu trabalho nele.
+* Todas as tabelas e formulários estão integrados no app gerado e são editáveis.
