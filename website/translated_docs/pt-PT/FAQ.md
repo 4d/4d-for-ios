@@ -227,6 +227,6 @@ Para implementar um app 4D for iOS, é preciso se inscrever em [Programa Apple D
 <strong>Posso personalizar meu app 4D for iOS?</strong>
 </summary>
 
-4D for iOS generates a real Xcode project that you can [open and modify](open-xcode.html) according to your needs.
+4D for iOS gera um projeto real Xcode que pode [abrir e modificar](open-xcode.html) de acordo com suas necessidades.
 
 </details>
