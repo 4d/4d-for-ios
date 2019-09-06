@@ -1,37 +1,37 @@
 ---
 id: user-information-query
-title: User information query
+title: Filtro de búsqueda usuario
 ---
 
-Now let's filter our app content depending on the account manager's login email address (user information):
+Ahora filtremos el contenido de nuestra aplicación según la dirección de correo electrónico de inicio de sesión del administrador de la cuenta (información del usuario):
 
-* Go to the **Data section**. 
-* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
-* Click on the **Operators** button and select **AND**.
-* Now define the user information you want to get from the database method, **:email**.
-* Remember to validate the query by clicking on the **Validate** button. If not, you won't be able to build your app.
+* Acceda a la **sección "Datos"**. 
+* Haga clic derecho en el campo **Filtro de búsqueda** para que aparezcan los **botones Campos, Comparadores y Operadores**.
+* Haga clic en el botón **Operadores** y seleccione **AND**.
+* Ahora defina la información del usuario que desea obtener del método de base de datos, **:email**.
+* Recuerde validar la consulta haciendo clic en el botón **Validar**. De lo contrario, no podrá crear su aplicación.
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
     Status = 'In Progress' & manager.Email = :email 
     
 
-The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).<div class = "tips"> 
+La búsqueda filtrará los datos según el estado **In Progress** Y la **dirección de correo electrónico del administrador de cuentas** (accesible desde la tabla AccountManager gracias a la relación *Muchos a Uno* en el nombre del gerente).<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-* A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div> 
+* Se muestra un **icono usuario** a la derecha de cada tabla cuando se le aplica un filtro de información de usuario.
+* Tan pronto como una búsqueda se base en la información del usuario y se valide, debe editar el **Método de autenticación de la aplicación móvil**. Para hacerlo, haga clic con el botón derecho en el botón **Edit authentication method** para abrir la ventana de edición del método de base de datos.</div> 
 
-Add the following line in the database method:
+Agregue la siguiente línea en el método de base de datos:
 
     $response.userInfo:=New object("email";$request.email)
     
 
-This will allow retrieving the manager's login email address and displaying data depending on that criteria.
+Esto permitirá recuperar la dirección de correo electrónico de inicio de sesión del administrador y mostrar los datos según ese criterio.
 
 ![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+Ahora, si crea su aplicación e ingresa "michelle.simpson@mail.com" como correo electrónico de inicio de sesión, encontrará todos los contratos *"In progress"* de Michelle Simpson.
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
