@@ -182,51 +182,51 @@ Não é obrigatório ter imagens, mas é recomendado que sejam usadas para ofere
 
 <details>
 <summary>
-<strong>Do I need to create an icon for my iOS app?</strong>
+<strong>Preciso criar um ícone para minha aplicação iOS?</strong>
 </summary>
 
-It's highly recommended to have an icon for your 4D for iOS app. If you don't have one, the default icon (the 4D logo) will be displayed.
+É altamente recomendável ter um ícone para sua aplicação 4D for iOS. Se não tiver um, o ícone padrão (logo 4D) será exibido.
 
-If you already have an icon for your 4D Desktop application, you can drag and drop it directly into the icon area on the [General](general.html) section of the project editor.
+Se já tiver ícones para sua aplicação 4D Desktop, pode arrastar e soltar diretamente na área ícone na seção [Geral](general.html) do editor de projeto.
 
 </details>
 
 <details>
 <summary>
-<strong>How can I test my app?</strong>
+<strong>Como posso testar meu app?</strong>
 </summary>
 
-4D for iOS allows you to test your apps in the [Simulator](simulator.html). To test your app on your iOS device you need to have a **paying Apple developer account** (install-device.html) (iPhone and iPad).
+4D for iOS permite que teste seus apps em [Simulador](simulator.html). Para testar seu app no aparelho iOS precisa ter uma **conta paga de desenvolvedor de Apple** (install-device.html) (iPhone e iPad).
 
-**Note:** to intall your app with a **free developer account**, you can open your generated iOS project and install your app using Xcode.
+**Nota:** para instalar seu app com uma **conta desenvolvedor gratuita**, é preciso abrir seu projeto gerado iOS e instalar seu app usando Xcode.
 
 </details>
 
 <details>
 <summary>
-<strong>Do I need to create special iOS templates to build my apps on an iPhone or iPad?</strong>
+<strong>Preciso criar modelos especiais iOS para construir meus apps em um iPhone ou iPad?</strong>
 </summary>
 
-All of templates available in 4D for iOS are optimized for the iPhone. They also work well on iPads.
+Todos os modelos disponíveis em 4D for iOS estão otimizados para o iPhone. Também funcionam bem em iPads.
 
 </details>
 
 <details>
 <summary>
-     <strong>Do I need an Apple Developer Account?</strong>
+     <strong>Preciso de uma Conta de Desenvolvedor Apple?</strong>
 </summary>
 
-To test your app, you'll need to create at least a [free Apple Developer account](free-developer-account.html).
+Para testar seu app, é preciso criar pelo menos uma [conta gratuita de Desenvolvedor Apple](free-developer-account.html).
 
-To deploy a 4D for iOS app, you'll need to enroll in the [Apple Developer Enterprise Program](register-apple-developer-enterprise-program.html) (for an in-house deployment) or in the [Apple Developer Program](register-apple-developer-program-organization.html) (for an App Store deployment).
+Para implementar um app 4D for iOS, é preciso se inscrever em [Programa Apple Developer Enterprise](register-apple-developer-enterprise-program.html) (para implementação in-house) ou [Programa Apple Developer](register-apple-developer-program-organization.html) (para implementação App Store).
 
 </details>
 
 <details>
 <summary>
-<strong>Can I customize my 4D for iOS app?</strong>
+<strong>Posso personalizar meu app 4D for iOS?</strong>
 </summary>
 
-4D for iOS generates a real Xcode project that you can [open and modify](open-xcode.html) according to your needs.
+4D for iOS gera um projeto real Xcode que pode [abrir e modificar](open-xcode.html) de acordo com suas necessidades.
 
 </details>
