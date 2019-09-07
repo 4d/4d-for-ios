@@ -1,20 +1,20 @@
 ---
 id: select-icons
-title: Select your icons
+title: Selecionar seus ícones
 ---
 
-Open your project and go to Labels & Icons in Sections.
+Abra seu projeto e vá para a seção Etiquetas e Ícones.
 
-Click on the contact table icon. All available icons are displayed.
+Clique no ícone da tabela Contact Todos os ícones disponíveis são exibidos.
 
-Select the contact icon:
+Selecione o ícone contacto:
 
 ![Contact icon](assets/en/custom-icons/contact-icon.png)
 
-Select icons adapted for your fields:
+Selecione ícones adaptados para seus campos:
 
 ![Contact icon](assets/en/custom-icons/field-icons.png)
 
-Here's the final result :
+Aqui está o resultado final:
 
 ![Contact icon](assets/en/custom-icons/custom-icons-final-result.png)
