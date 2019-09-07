@@ -1,10 +1,10 @@
 ---
 id: include-icons
-title: Include icons in the project
+title: Incluir ícones no projeto
 ---
 
-First, create a *Contact.4dbase/Resources/Mobile/medias/icons folder* and drag and drop the downloaded icons in it.
+Primeiro, crie uma pasta *Contact.4dbase/Resources/Mobile/medias/icons* e arraste e solte os ícones baixados nela.
 
 ![Mobile folder custom icons](assets/en/custom-icons/mobile-folder-custom-icons.png)
 
-We used a blue color to differentiate between embedded and our own icons in the icon library.
+Usamos a cor azul para diferenciar entre os ícones integrados e os nossos próprios ícones na biblioteca de ícones.
