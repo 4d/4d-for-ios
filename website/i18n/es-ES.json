@@ -165,6 +165,15 @@
       "n-to-one-relations": {
         "title": "Relación N a 1"
       },
+      "one-to-n-relations-custom-button": {
+        "title": "One to N - Custom button"
+      },
+      "one-to-n-relations-title-definition": {
+        "title": "One to N - Title definition"
+      },
+      "one-to-n-relations": {
+        "title": "One to N relations"
+      },
       "custom-data-formatters": {
         "title": "Formato de datos"
       },
