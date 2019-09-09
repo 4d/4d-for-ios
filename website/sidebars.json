@@ -21,7 +21,7 @@
     "Actions" : ["actions-getting-started","define-first-action","using-parameters","action-custom-template"],
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
-    "Relations" :["n-to-one-relations"]
+    "Relations" :["n-to-one-relations","one-to-n-relations","one-to-n-relations-title-definition","one-to-n-relations-custom-button" ]
   },
 
     "Templates&Formatters": {
