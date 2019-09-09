@@ -14,7 +14,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ## Liens N vers 1
 
-* 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
+* 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -24,32 +24,58 @@ Pour vous aider à définir la structure de votre application, plusieurs filtres
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
 
-## Rechargement incrémental
+## 1 to N relations
 
-### Autoriser les modifications de la structure
+### Deal with 1 to N relations from the project editor
 
-Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifie que seules les données de la base qui sont nouvelles, modifiées ou supprimées seront actualisées. Il s'agit là d'une excellente optimisation en termes de temps de chargement !
+Now in recent version of 4D you can deal with **1 to N relations** and display a list of related fields in a new page.
 
-Pour ce faire, 4D for iOS doit optimiser la structure et créer :
+The only thing you have to do is:
 
-* Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
-* des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
+* publishing at least only one field of the related table
 
-Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
+* publishing the relation from the table you want the relation to be available
 
-Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches requises afin que vous profitiez pleinement des avantages du rechargement incrémental des données.<div class = "tips"> 
+![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
+
+Then when your related fields are published, they can be used like any other field. So you will be able to:
+
+* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+
+* Drop the 1 to N relation in a Detail form the Forms Section to create a link between a detail form and a related table.
+
+### What will be created in the generated project ?
+
+Basically a Relation button will be created in detail forms to go straight to the related view.
+
+[Tutorials](one-to-n-relations.html) are available to help you using 1 to N relation in your 4D for iOS project.
+
+## Incremental reload
+
+### Enable structure adjustments
+
+In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+
+To do so, 4D for iOS needs to make structure optimizations and create:
+
+* A ```__DeletedRecords``` table to store deleted records
+* and ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
+
+All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
 
 **NOTE**
 
 Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.</div> 
 
-### Tirer pour rafraîchir !
+### Pull to refresh!
 
-Du côté d'iOS, vos données sont actualisées chaque fois que vous lancez votre application et chaque fois que votre application se met au premier plan, pour disposer de données continuellement mises à jour.
+iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
 
-En utilisation normale, glissez simplement vers le bas n’importe quel formulaire Liste pour recharger vos données.
+In normal use, simply swipe down from any listform to reload your data.
 
-À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application.<div class = "tips"> 
+From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
 
 **NOTE**
 
