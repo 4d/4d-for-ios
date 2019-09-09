@@ -14,7 +14,7 @@ Here, you can define a subset of your physical structure to replicate for mobile
 
 ## N to 1 relations
 
-* 4D 17R5 allows you to visualize table relations and select related fields clicking on a relation. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
+* 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -23,6 +23,32 @@ To help you define your app's structure, multiple filters and a search engine ar
 **TIPS**
 
 You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+
+## 1 to N relations
+
+### Deal with 1 to N relations from the project editor
+
+Now in recent version of 4D you can deal with **1 to N relations** and display a list of related fields in a new page.
+
+The only thing you have to do is:
+
+* publishing at least only one field of the related table
+
+* publishing the relation from the table you want the relation to be available
+
+![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
+
+Then when your related fields are published, they can be used like any other field. So you will be able to:
+
+* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+
+* Drop the 1 to N relation in a Detail form the Forms Section to create a link between a detail form and a related table.
+
+### What will be created in the generated project ?
+
+Basically a Relation button will be created in detail forms to go straight to the related view.
+
+[Tutorials](one-to-n-relations.html) are available to help you using 1 to N relation in your 4D for iOS project.
 
 ## Incremental reload
 
