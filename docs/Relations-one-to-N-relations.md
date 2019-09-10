@@ -3,7 +3,7 @@ id: one-to-n-relations
 title: One to N relations
 ---
 
-This tutorial will show you how easy it is to include one to N relation in 4D for iOS.
+This tutorial will show you how easy including one to N relations in 4D for iOS can be.
 
 
 <div markdown="1" class = "tips">
@@ -26,17 +26,17 @@ In this tutorial, we are going to build a colorful **Task app** using 4D for iOS
 
 ![Task App Final result](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 
-Buts lets first have a look to the structure of our database:
+But first, let's have a look at the structure of our database:
 
 ![Select link from structure section](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
-As you can see there is a One to N link named **tasks** that we are going to use in our iOS app to display employees'(**One**) tasks(**to N**).
+As you can see, there is a One to N link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to N**).
 
-Now go straignt to your Open menu > Mobile project... select *Time Keeper* and go to the **Structure section**.
+Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go to the **Structure section**.
 
 ## Structure section
 
-There you can see the **tasks relation** we have seen earlier... Publish it !
+You can see the **tasks relation** we have seen earlier... Publish it !
 
 This will now operate as any other field for the rest of the app creation process.
 
@@ -44,7 +44,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 **TIPS**
 
-* On mouse over, a tip displays the table name where the relation comes from.
+* On mouse over, a tip displays the table name originating the relation.
 
 </div>
 
@@ -52,9 +52,9 @@ This will now operate as any other field for the rest of the app creation proces
 
 The One to N relation is now available in the [Labels and Icons](labels-and-icons.html) section.
 
-It is important to know that, including a One to N relation will create a button into the genrated iOS app.
+It is important to know that including a One to N relation will create a button into the genrated iOS app.
 
-So in the Labels & Icons section you will define:
+So, in the Labels & Icons section you will define:
 
 * a button Label
 * a button icon
@@ -70,13 +70,13 @@ So in the Labels & Icons section you will define:
 
 ## Build and Run
 
-1. From the Employee List form click on one employee 
+1. From the Employee List form, click on one employee 
 2. This will open the employee's detail form where you should see a new **Relation button** !
-3. Clic on this Relation button to display the employee's tasks. 
+3. Click on this Relation button to display the employee's tasks. 
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
-And voila, this is how One to N relations works in 4D for iOS !
+And voila, this is how One to N relations work in 4D for iOS !
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
