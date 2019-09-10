@@ -3,7 +3,7 @@ id: one-to-n-relations
 title: One to N relations
 ---
 
-This tutorial will show you how easy including one to N relations in 4D for iOS can be.
+This tutorial will show you how easy it can be to include one to N relations in 4D for iOS can be.
 
 
 <div markdown="1" class = "tips">
