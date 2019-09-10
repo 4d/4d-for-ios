@@ -14,7 +14,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ## Liens N vers 1
 
-* 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
+* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -23,6 +23,32 @@ Pour vous aider à définir la structure de votre application, plusieurs filtres
 **CONSEILS**
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
+
+## Liens 1 vers N
+
+### Deal with 1 to N relations from the project editor
+
+Now in recent version of 4D you can deal with **1 to N relations** and display a list of related fields in a new page.
+
+The only thing you have to do is:
+
+* publishing at least only one field of the related table
+
+* publishing the relation from the table you want the relation to be available
+
+![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
+
+Then when your related fields are published, they can be used like any other field. So you will be able to:
+
+* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+
+* Drop the 1 to N relation in a Detail form the Forms Section to create a link between a detail form and a related table.
+
+### What will be created in the generated project ?
+
+Basically a Relation button will be created in detail forms to go straight to the related view.
+
+[Tutorials](one-to-n-relations.html) are available to help you using 1 to N relation in your 4D for iOS project.
 
 ## Rechargement incrémental
 
@@ -33,7 +59,7 @@ Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifi
 Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
 * Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
-* des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
+* Des champs ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
 
 Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
