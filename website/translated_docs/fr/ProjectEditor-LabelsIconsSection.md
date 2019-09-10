@@ -6,13 +6,13 @@ title: Libellés et icônes
 This is where you'll define properties for your tables, fields and relations:
 
 * **Libellés longs et courts :** L'utilisation des libellés longs et courts dépend de l'espace disponible dans le modèle (pour optimiser l'espace et éviter de surcharger la barre d'onglets).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for commerce, finance, education, government, health, industry, real estate, services, etc.
+* **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formats :** Ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
 * **Title:** used to display a title in the destination view using relations
 
-![Labels & Icons section](assets/fr/project-editor/Labels-icons-section-4D-for-iOS.png)
+![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
 ## Tables properties
 
@@ -25,7 +25,7 @@ For tables, you will be able to define the following properties:
 
 Those will be displayed in the tab bar as well as ListForm title in the generated app.
 
-## Fields properties
+## Propriétés des champs
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
 
