@@ -12,7 +12,7 @@ This is where you'll define properties for your tables, fields and relations:
 
 * **Title:** used to display a title in the destination view using relations
 
-![Labels & Icons section](assets/en/project-editor/Labels-icons-section-4D-for-iOS.png)
+![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
 ## Tables properties
 
