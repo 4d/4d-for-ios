@@ -7,14 +7,14 @@ title: One to N - Title definition
 
 To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
 
-In this tutorial we are going to use the following project:
+In this tutorial, we will use the following project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/en/relations/TimeKeeper.4dbase.zip">ONE TO N STARTER PROJECT</a>
 </div>
 
-Now go straignt to your Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
+Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
 
 From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles colomn**: ```%Name% tasks```
 
