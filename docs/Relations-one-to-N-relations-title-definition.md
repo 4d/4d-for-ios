@@ -20,7 +20,7 @@ From here, open the relation tab to define the *tasks* relation title and enter 
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-You probably already guessed it but in this case, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form in which you were before. 
+As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were before. 
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
