@@ -1,6 +1,6 @@
 ---
-id: one-to-n-relations-custom-button
-title: One to N - Custom button
+id: one-to-many-relations-custom-button
+title: One to Many - Custom button
 ---
 
 As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things !

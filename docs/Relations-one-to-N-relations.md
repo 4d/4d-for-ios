@@ -1,6 +1,6 @@
 ---
-id: one-to-n-relations
-title: One to N relations
+id: one-to-many-relations
+title: One to Many relations
 ---
 
 This tutorial will show you how easy it can be to include one to N relations in 4D for iOS can be.
