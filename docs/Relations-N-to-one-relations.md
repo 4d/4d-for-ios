@@ -3,7 +3,7 @@ id: many-to-one-relations
 title: Many to One relations
 ---
 
-4D v17 R5 includes a new concept: N to 1 relations
+4D v17 R5 includes a new concept: Many to One relations
 
 <div markdown="1" class = "tips">
 
@@ -18,7 +18,7 @@ Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/Tasks.4dbase.zip">MANY TO ONE STARTER PROJECT</a>
 </div>
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
