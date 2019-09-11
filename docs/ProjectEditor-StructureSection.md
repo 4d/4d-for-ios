@@ -12,7 +12,7 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your app.
 * fields will be available later when it's time to define your list and detail forms.
 
-## N to 1 relations
+## Many to One relations
 
 * 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
 
@@ -28,11 +28,11 @@ You can publish a selection of fields by pressing the spacebar rather than selec
 
 </div>
 
-## 1 to N relations
+## One to Many relations
 
-### Deal with 1 to N relations from the project editor
+### Deal with One to Many relations from the project editor
 
-Now, in recent versions of 4D, you can deal with **1 to N relations** and display a list of related fields in a new page.
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
 All you have to do is:
 
