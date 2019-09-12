@@ -12,7 +12,7 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 * las tablas seleccionadas se agregarán automáticamente a las pestañas de su aplicación.
 * los campos seleccionados estarán disponibles más adelante, cuando sea el momento de definir sus formularios Lista y sus formularios detallados.
 
-## Relaciones N a 1
+## Many to One relations
 
 * 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](n-to-one-relations.html).
 
@@ -24,31 +24,31 @@ Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un
 
 Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.</div> 
 
-## 1 to N relations
+## One to Many relations
 
-### Deal with 1 to N relations from the project editor
+### Deal with One to Many relations from the project editor
 
-Now in recent version of 4D you can deal with **1 to N relations** and display a list of related fields in a new page.
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
-The only thing you have to do is:
+All you have to do is:
 
-* publishing at least only one field of the related table
+* publishing at least one field of the target (Many) table
 
-* publishing the relation from the table you want the relation to be available
+* publishing the relation from the source (One) table
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Then when your related fields are published, they can be used like any other field. So you will be able to:
+Then, when your related fields are published, they can be used like any other field. So you will be able to:
 
 * Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
 
-* Drop the 1 to N relation in a Detail form the Forms Section to create a link between a detail form and a related table.
+* Drop the 1 to N relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
 
 ### What will be created in the generated project ?
 
 Basically a Relation button will be created in detail forms to go straight to the related view.
 
-[Tutorials](one-to-n-relations.html) are available to help you using 1 to N relation in your 4D for iOS project.
+[Tutorials](one-to-n-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
 
 ## Incremental reload
 
@@ -79,4 +79,4 @@ From iPhone settings, you can now reset your app data and find information about
 
 **NOTA**
 
-Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación</div>
+As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
