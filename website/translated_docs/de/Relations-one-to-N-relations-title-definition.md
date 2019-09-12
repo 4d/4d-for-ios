@@ -1,6 +1,6 @@
 ---
-id: one-to-n-relations-title-definition
-title: One to N - Title definition
+id: one-to-many-relations-title-definition
+title: One to Many - Title definition
 ---
 
 ### Define a title for your destination views
