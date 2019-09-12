@@ -162,17 +162,17 @@
       "structure": {
         "title": "Structure"
       },
-      "n-to-one-relations": {
-        "title": "Liens N vers 1"
+      "many-to-one-relations": {
+        "title": "Many to one relations"
       },
-      "one-to-n-relations-custom-button": {
-        "title": "One to N - Custom button"
+      "one-to-many-relations-custom-button": {
+        "title": "One to Many - Custom button"
       },
-      "one-to-n-relations-title-definition": {
-        "title": "One to N - Title definition"
+      "one-to-many-relations-title-definition": {
+        "title": "One to Many - Title definition"
       },
-      "one-to-n-relations": {
-        "title": "One to N relations"
+      "one-to-many-relations": {
+        "title": "One to Many relations"
       },
       "custom-data-formatters": {
         "title": "Format des données"
