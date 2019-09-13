@@ -92,7 +92,7 @@ As a result, you should see this :
 
 ### Size and constraints
 
-Keep in mind that if you **add constraits** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relation are available in the same detail view.
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relation are available in the same detail view.
 
 What a piece of luck we plan to add some constraints !
 
