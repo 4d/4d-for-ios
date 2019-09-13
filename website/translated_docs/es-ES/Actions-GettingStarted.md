@@ -1,24 +1,24 @@
 ---
 id: actions-getting-started
-title: Getting started
+title: Comencemos
 ---
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
+Utilizar las acciones en la aplicación iOS generada.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**REQUISITOS PREVIOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
 
-In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
+En 4D v17 R5, puede [definir las acciones](actions.html) directamente desde el editor de proyectos y ejecutar el código 4D desde su aplicación iOS generada.
 
-From here, when you build your app from the Project Editor using actions, you can decide to use:
+A partir de aquí, cuando crea su aplicación desde el editor de proyectos utilizando acciones, puede decidir utilizar:
 
-* **4D for iOS templates** from the Form section. In this case, actions are already included. You just need to [define actions](define-first-action.html) in the Actions section and create appropriate methods in 4D.
+* **Plantillas 4D for iOS templates** de la sección Formularios. En este caso, las acciones ya están incluidas. Solo necesita [definir las acciones](define-first-action.html) en la sección Acciones y crear los métodos apropiados en 4D.
 
-* **Your own custom templates** you developed. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates.
+* **Sus propias plantillas personalizadas** que desarrolló. Se requiere un paso adicional importante para que sus acciones funcionen en la aplicación iOS generada. De hecho, es necesario [ incluir etiquetas de acción ](action-custom-template.html) de forma manual en las plantillas de formularios lista y detallados.
 
-Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
+Ahora es el momento de disfrutar creando una aplicación **Tasks**, utilizando acciones de 4D for iOS.
