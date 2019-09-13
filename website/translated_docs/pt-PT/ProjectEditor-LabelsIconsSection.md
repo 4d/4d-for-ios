@@ -51,4 +51,4 @@ For Relation, you will be able to define the following properties:
 
 * **Short and Long labels:** displayed in the Relation button that allows to open a related table
 * **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A tutorial is available to guide you through the Title definition process
+* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
