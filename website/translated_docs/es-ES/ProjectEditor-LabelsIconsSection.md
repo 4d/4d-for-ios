@@ -3,7 +3,7 @@ id: labels-and-icons
 title: Etiquetas e iconos
 ---
 
-This is where you'll define properties for your tables, fields and relations:
+Aquí es donde definirá las propiedades para sus tablas, campos y relaciones:
 
 * **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
 * **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for business, finance, education, government, health, industry, real estate, services, etc.
