@@ -71,31 +71,31 @@ Desde o painel **Size inspector**, defina o valor de largura de etiqueta para 26
 
 ![Duplicate the label](assets/en/custom-listform/duplicated-label-storyboard.png)
 
-Select both labels add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) as shown:
+Selecion ambas as etiquetas e adicione quatro restrições clicando no botão **Add New Constraints** (Trailing: 0, Leading: 8, Top: 8, e Bottom: Multiple) como mostrado:
 
 ![Labels contraints storyboard](assets/en/custom-listform/labels-contraints-storyboard.png)
 
-With a label selected, double-click on the **Height constraint** to edit it.
+Com a etiqueta selecionada, dê um duplo-clique em **Height constraint** para começar a edição.
 
 ![Label height constraint edition](assets/en/custom-listform/label-height-constraint-edition.png)
 
-Change the relation from Equal to **Greater Than or Equal** so it can have a variable height (to handle multiline labels).
+Mude a relação de Equal para **Greater Than or Equal** para que tenha uma altura variável (para manejar etiquetas multilinhas).
 
 ![Change relation label height constraint](assets/en/custom-listform/change-relation-label-height-constraint.png)
 
-Repeat the process for the second label.
+Repita o processo para a segunda etiqueta.
 
-## Label customization
+## Personalizar a etiqueta
 
-From the attribute inspector (on the right side of the Interface Builder window), you can customize your label's font colors. Let's make the second label **Dark Grey Color** :
+Desde o Inspetor de atributos (do lado direito da janela Interface Builder), é possível personalizar as cores de fonte de sua etiqueta. Vamos fazer a segunda etiqueta com a cor **Dark Grey Color** :
 
 ![Label color dark grey](assets/en/custom-listform/label-color-dark-grey.png)
 
-You can also select the dominant color for your app:
+Também pode selecionar a cor dominante para seu app:
 
 ![Label color background color](assets/en/custom-listform/label-color-background-color.png)
 
-From the attribute inspector, you can also customize the font. Select both labels and select Font > Custom > **Helvetica Neue**:
+Do inspetor de atributos, também pode personalizar a fonte. Selecione ambas as etiquetas e selecione Font > Custom > **Helvetica Neue**
 
 ![Label font custom](assets/en/custom-listform/label-font-custom.png)
 
