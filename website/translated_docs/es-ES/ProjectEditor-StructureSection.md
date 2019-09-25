@@ -12,9 +12,9 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 * las tablas seleccionadas se agregarán automáticamente a las pestañas de su aplicación.
 * los campos seleccionados estarán disponibles más adelante, cuando sea el momento de definir sus formularios Lista y sus formularios detallados.
 
-## Many to One relations
+## Relaciones Muchos a Uno
 
-* 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](n-to-one-relations.html).
+* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](n-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -24,11 +24,11 @@ Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un
 
 Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.</div> 
 
-## One to Many relations
+## Relaciones Uno a Muchos
 
-### Deal with One to Many relations from the project editor
+### Tratar las relaciones de Uno a Muchos desde el editor del proyecto
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Ahora, en versiones recientes de 4D, puede tratar con **Relaciones Uno a Muchos** y mostrar una lista de campos relacionados en una página nueva.
 
 All you have to do is:
 
