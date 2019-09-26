@@ -13,8 +13,8 @@ title: Plantillas de formulario listado
   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
   <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
   <ul style="font-size:16px">
-  <li><strong>Type:</strong> table</li>
-  <li><strong>Sections:</strong> disponible</li>
+  <li><strong>Tipo:</strong> tabla</li>
+  <li><strong>Secciones:</strong> disponible</li>
   <li><strong>Imagen requerida:</strong> no</li></ul>
   </td>
   </tr>

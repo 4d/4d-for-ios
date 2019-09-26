@@ -1,6 +1,6 @@
 ---
-id: one-to-n-relations-title-definition
-title: One to N - Title definition
+id: one-to-many-relations-title-definition
+title: One to Many - Title definition
 ---
 
 ### Define a title for your destination views
@@ -21,7 +21,7 @@ href="../assets/en/relations/TimeKeeper.4dbase.zip">ONE TO N STARTER PROJECT</a>
 
 Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
 
-From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles colomn**: ```%Name% tasks```
+From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: ```%Name% tasks```
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 

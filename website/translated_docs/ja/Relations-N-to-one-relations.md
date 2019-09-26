@@ -1,9 +1,9 @@
 ---
-id: n-to-one-relations
-title: Ｎ対１リレーション
+id: many-to-one-relations
+title: Many to One relations
 ---
 
-4D v17 R5以降，Ｎ対１リレーションがサポートされるようになりました。<div class = "tips"> 
+4D v17 R5 includes a new concept: Many to One relations<div class = "tips"> 
 
 **注記**
 
@@ -16,7 +16,7 @@ title: Ｎ対１リレーション
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">素材プロジェクト</a>
+href="../assets/en/relations/Tasks.4dbase.zip">MANY TO ONE STARTER PROJECT</a>
 
   </p>
 </div>

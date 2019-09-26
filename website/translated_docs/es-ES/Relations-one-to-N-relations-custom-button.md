@@ -1,13 +1,13 @@
 ---
-id: one-to-n-relations-custom-button
-title: One to N - Custom button
+id: one-to-many-relations-custom-button
+title: One to Many - Custom button
 ---
 
-As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things !
+As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
 
-As for custom templates, custom formatter, you can create custom Relation Buttons.
+As for custom templates, custom formatters, you can create custom Relation Buttons.
 
-For that nothing is simplier ! You just have to drop your custom button in your custom template.
+To that end, nothing more simple! You just have to drop your custom button in your custom template.
 
 Let's get started by downloading the Starter Project that includes:
 
@@ -26,19 +26,19 @@ href="../assets/en/relations/TimerKeeper.4dbase.zip">N TO ONE STARTER PROJECT</a
 
 ## Include the button
 
-The first step is including the button.xib button into your custom template so 4D for iOS can use it.
+The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
 
-To use the button, you just have to drop it in ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
+To use the button, you just have to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
-First step done!
+The first step is done!
 
 ## Modify the button
 
 Open the .xib file with Xcode.
 
-It should look like that :
+It should look like this:
 
 ![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
 
@@ -48,25 +48,25 @@ And from the attribute inspector, you could change for example:
 * the button style
 * the button size...
 
-Let's change the button color and button label font !
+Let's change the button color and button label font!
 
 ### Custom colors and fonts
 
-Select the button and change the color and font from the attribute inspector. Lets put a white background color and a black text with helvetica Neue Light font to get this result:
+Select the button and change the color and font from the attribute inspector. Let's put a white background color and a black text with helvetica Neue Light font to get this result:
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-color-and-font.png)
 
-The iOS should look like that in your simulator:
+This is how the iOS should look like in your simulator:
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-color-and-font.png)
 
 ### Button round corners
 
-Let's add some round corners to the relationButton !
+Let's add some round corners to the relationButton!
 
-For that open the Identity Inspector.
+To do so, open the Identity Inspector.
 
-Select your Butto nand add the two following lines in the User Defined Runtime Attributes:
+Select your Button and add the two following lines in the User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
 
@@ -86,13 +86,13 @@ and
 
 You can now build your project from the project editor!
 
-You should have this now to see the result !
+As a result, you should see this :
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-round-corners.png)
 
 ### Size and constraints
 
-Keep in mind that if you **add constraits** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relation are available in the same detail view.
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relation are available in the same detail view.
 
 What a piece of luck we plan to add some constraints !
 
@@ -121,7 +121,7 @@ Each storyboard element has a Object ID. For example, if you select Field View 2
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-In order to tell the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
+In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
 
 The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
 
@@ -173,7 +173,7 @@ The process is a little bit tricky... Let's begin by opening the storyboard file
 
 ![Width object ID updated](assets/en/relations/Height-object-id-updated.png)
 
-And that's it ! your button is now fully duplicable !
+And that's it! your button is now fully duplicable!
 
 ## Where to go from here?
 

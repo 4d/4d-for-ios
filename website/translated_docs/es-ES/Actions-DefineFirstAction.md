@@ -232,24 +232,24 @@ A medida que crea el método **modifyStatus**, siga el mismo proceso y cree un n
     
     
 
-¡Cree y ejecute su aplicación! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
+¡Cree y ejecute su aplicación! Encontrará un nuevo **botón genérico** en la barra de navegación de su formulario Lista. Haga clic en él para activar la acción **Postpone All**.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
-## Where to Go From Here?
+## ¿Qué hacer ahora?
 
-Congratulations! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
+¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
-You can download the **Final project** that includes various actions:
+Puede descargar el **Proyecto final** que incluye varias acciones:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionFinal.zip">FINAL PROJECT</a>
+href="../assets/en/actions/TasksActionFinal.zip">PROYECTO FINAL</a>
 
   </p>
 </div>

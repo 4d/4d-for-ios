@@ -1,9 +1,9 @@
 ---
-id: n-to-one-relations
-title: Relaciones N a 1
+id: many-to-one-relations
+title: Many to One relations
 ---
 
-4D v17 R5 incluye un nuevo concepto: las relaciones N a 1<div class = "tips"> 
+4D v17 R5 includes a new concept: Many to One relations<div class = "tips"> 
 
 **NOTA**
 
@@ -16,7 +16,7 @@ Comencemos descargando el Proyecto Starter:
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">PROJET STARTER N A UNO</a>
+href="../assets/en/relations/Tasks.4dbase.zip">MANY TO ONE STARTER PROJECT</a>
 
   </p>
 </div>

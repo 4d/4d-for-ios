@@ -3,39 +3,39 @@ id: labels-and-icons
 title: Etiquetas e iconos
 ---
 
-This is where you'll define properties for your tables, fields and relations:
+Aquí es donde definirá las propiedades para sus tablas, campos y relaciones:
 
-* **Etiquetas cortas y largas:** las etiquetas largas y cortas se utilizan de acuerdo con el espacio disponible en la plantilla (para optimizar el espacio y evitar sobrecargas en la barra de pestañas).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for commerce, finance, education, government, health, industry, real estate, services, etc.
+* **Etiquetas cortas y largas:** se utilizan de acuerdo con el espacio disponible en la plantilla (para optimizar el espacio y evitar congestionamiento en la barra de pestañas).
+* **Iconos:** 4D for iOS ofrece una gran librería de iconos integrados para satisfacer sus necesidades. Estos incluyen iconos para negocios, finanzas, educación, gobierno, salud, industria, bienes raíces, servicios, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formatos:** utilizado para controlar cómo se muestran los valores de los campos (monedas, porcentajes...)
 
-* **Title:** used to display a title in the destination view using relations
+* **Título:** utilizado para mostrar un título en el la vista de destino utilizando relaciones
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
-## Tables properties
+## Propiedades de tabla
 
 ![Labels & Icons section Tables properties](assets/en/project-editor/Tables-properties-Labels-icons-section-4D-for-iOS.png)
 
-For tables, you will be able to define the following properties:
+Para las tablas, podrá definir las siguientes propiedades:
 
-* **Short and Long labels**
-* **Icons**
+* **Etiquetas cortas y largas**
+* **Iconos**
 
-Those will be displayed in the tab bar as well as ListForm title in the generated app.
+Estos se mostrarán en la barra de pestañas, así como el título ListForm en la aplicación generada.
 
-## Fields properties
+## Propiedades de los campos
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
 
-For fields you will be able to define the following properties:
+Para los campos, podrá definir las siguientes propiedades:
 
-* **Short and Long labels:** used depending on space
-* **icons**
-* **formats:** for exemple to display currencies or percentage
+* **Etiquetas cortas y largas:** utilizadas según el espacio
+* **iconos**
+* **formatos:** por ejemplo para mostrar monedas o porcentajes
 
-Those will be displayed in detail and list form depending on the template in the generated app.<div class = "tips"> 
+Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips"> 
 
 **CONSEJOS**
 
@@ -43,12 +43,12 @@ Those will be displayed in detail and list form depending on the template in the
 
 * También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.</div> 
 
-## Relations properties
+## Propiedades de las relaciones
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Para las relaciones, podrá definir las siguientes propiedades:
 
-* **Short and Long labels:** displayed in the Relation button that allows to open a related table
-* **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A tutorial is available to guide you through Title definition process
+* **Etiquetas cortas y largas:** se muestran en el botón Relación que permite abrir una tabla relacionada
+* **Iconos:** se muestra a la izquierda del botón Relación
+* **Título:** que se mostrará en la parte superior de la vista de destino al usar una relación. Un [tutorial](one-to-many-relations-title-definition.html) está disponible para guiarlo a través del proceso de definición de un título
