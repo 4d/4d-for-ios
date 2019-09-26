@@ -99,25 +99,25 @@ Do inspetor de atributos, também pode personalizar a fonte. Selecione ambas as 
 
 ![Label font custom](assets/en/custom-listform/label-font-custom.png)
 
-To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. This allows the number of lines to be unlimited.
+Para completar a personalização, selecione ambas as etiquetas e **ingresse o valor 0 em Lines** na janela do Inspetor. Isso permite que o número de linhas seja ilimitado.
 
 ![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+O storyboard é otimizado para ter uma **altura de célula variável** dependendo dos conteúdos de cada célula.
 
 ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
 
-## How to get data into your cells
+## Como obter dados em suas células
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Selecione seu Image View e vá ao **Identity inspector** > User Defined Runtime Attributes. Clique o **botão +** para adicionar uma linha.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path**: comece com bindTo para ativar a associação ao componente. Enter ```bindTo.record.___FIELD_1___```
 
 * **Type**: Always ```String```
 
