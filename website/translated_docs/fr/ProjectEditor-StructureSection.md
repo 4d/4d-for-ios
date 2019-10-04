@@ -14,7 +14,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ## Many to One relations
 
-* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
+* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -48,7 +48,7 @@ Then, when your related fields are published, they can be used like any other fi
 
 Basically a Relation button will be created in detail forms to go straight to the related view.
 
-[Tutorials](one-to-n-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
+[Tutorials](one-to-many-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
 
 ## Rechargement incrémental
 
