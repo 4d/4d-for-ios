@@ -16,7 +16,7 @@ Let's get started by downloading the Starter Project:
     
 
 <a class="button"
-href="../assets/en/relations/TimeKeeper.4dbase.zip">ONE TO N STARTER PROJECT</a>
+href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">ONE TO N STARTER PROJECT</a>
 
   </p>
 </div>
@@ -37,7 +37,9 @@ Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go
 
 You can see the **tasks relation** we have seen earlier... Publish it !
 
-This will now operate as any other field for the rest of the app creation process.<div class = "tips"> 
+This will now operate as any other field for the rest of the app creation process.
+
+![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
 **TIPS**
 
@@ -78,7 +80,7 @@ And voila, this is how One to N relations work in 4D for iOS !
     
 
 <a class="button"
-href="../assets/en/relations/TimeKeeper.4dbase.zip">ONE TO N FINAL PROJECT</a>
+href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">ONE TO N FINAL PROJECT</a>
 
   </p>
 </div>
