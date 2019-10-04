@@ -11,7 +11,7 @@ In this tutorial, we will use the following project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/TimeKeeper.4dbase.zip">ONE TO N STARTER PROJECT</a>
+href="../assets/en/relations/OneToMany-TitleDefinition-TimeKeeper-StarterProject.zip">ONE TO N STARTER PROJECT</a>
 </div>
 
 Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.

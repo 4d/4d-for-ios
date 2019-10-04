@@ -18,7 +18,7 @@ Let's get started by downloading the Starter Project that includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/TimerKeeper.4dbase.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">N TO ONE STARTER PROJECT</a>
 </div>
 
 ## Include the button
@@ -49,13 +49,19 @@ Let's change the button color and button label font!
 
 ### Custom colors and fonts
 
-Select the button and change the color and font from the attribute inspector. Let's put a white background color and a black text with helvetica Neue Light font to get this result:
+Select the button and change the color and font from the attribute inspector.
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-color-and-font.png)
+For the background, let's select the Label Color the have the best contrast in Light and Dark mode.
 
-This is how the iOS should look like in your simulator:
+For the font color let's put a System background color with helvetica Neue Medium font.
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-color-and-font.png)
+Finally don't forget to select System background color Tint to apply this color to the button icon.
+
+![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
+
+You should get this result in your Simulator in Dark and in Light mode:
+
+![Custom relation color and font](assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png)
 
 ### Button round corners
 
@@ -79,7 +85,7 @@ and
 
 * **Value**: Check the box
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-color-and-font.png)
+![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
 You can now build your project from the project editor!
 
@@ -97,20 +103,29 @@ What a piece of luck we plan to add some constraints !
 
 For this tutorial, we are just going to add a button height because we want it to be bigger in the screen.
 
-1. Select the button
-2. Delete leading and trailing constraints
-3. Add a height of 107
-4. Add a width of 250
+Step 1. First select the view and change the height from 123 to 40
 
-![Add height and width](assets/en/relations/Button-width-height-contraints.png)
+![Button view height](assets/en/relations/Button-view-height.png)
 
-5. Horizontal align the button in the container
+Step 2. Double click on the **Top Space Constraint** and change the it from 8 to 0
 
-![Horizontal in container](assets/en/relations/Horizontal-align-in-the-container.png)
+![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
+
+Step 3. Do the same thing with **Bottom Space Constraint** and change the it from 8 to 0
+
+You should have this result:
+
+![Custom  button constraints](assets/en/relations/Custom-button-constraints.png)
+
+Step 4. Add a height constraint of 40
+
+![Button height constraint](assets/en/relations/Button-height-constraint.png)
 
 You should get this result:
 
 ![Horizontal in container](assets/en/relations/Custom-relation-button-constraints.png)
+
+In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
 
 
 ### Add TAGS
@@ -119,59 +134,25 @@ Each storyboard element has a Object ID. For example, if you select Field View 2
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
-
 The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
-
-#### Add tag to Horizontal constraint
-
-1. Select it from the Storyboard to get the Object ID
-
-![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
-
-2. Search for this ID in the xml file and put TAG-RL-003 (which was the old ID for trailing constraint)
-
-3. Save the xml file 
-
-![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
-
-4. Focus on the Storyboard to check if the constraint has been well updated
-
-![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
-
-#### Add tag to width constraint
-
-1. Select it from the Storyboard to get the Object ID
-
-![Width constraint object ID](assets/en/relations/Relation-button-width-constraint-object-ID.png)
-
-2. Search for this ID in the xml file and put TAG-RL-005 (which was the old ID for leading constraint)
-
-3. Save the xml file 
-
-![Width constraint xml file](assets/en/relations/Width-constraint-xml-file.png)
-
-4. Focus on the Storyboard to check if the constraint has been well updated
-
-![Width object ID updated](assets/en/relations/Width-object-id-updated.png)
 
 #### Add tag to height constraint
 
-1. Select it from the Storyboard to get the Object ID
+Step 1. Select it from the Storyboard to get the Object ID
 
-![Width constraint object ID](assets/en/relations/Relation-button-height-constraint-object-ID.png)
+![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-2. Search for this ID in the xml file and put TAG-RL-007
+Step 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
-3. Save the xml file 
+Step 3. Save the xml file 
 
-![Width constraint xml file](assets/en/relations/Height-constraint-xml-file.png)
+![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-4. Focus on the Storyboard to check if the constraint has been well updated
+Step 4. Focus on the Storyboard to check if the constraint has been well updated
 
-![Width object ID updated](assets/en/relations/Height-object-id-updated.png)
+![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
 
-And that's it! your button is now fully duplicable!
+And that's it! your button is now fully duplicable if you have more that one relation button to display...
 
 ## Where to go from here?
 
@@ -179,5 +160,5 @@ In this tutorial, we've covered the basics for creating custom relation buttons.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/TimerKeeper.4dbase.zip">N TO ONE FINAL PROJECT</a>
+href="../assets/en/relations/relationButton.xib.zip">FINAL CUSTOM BUTTON</a>
 </div>
