@@ -12,9 +12,9 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 * les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
 * les champs sélectionnés seront disponibles plus tard, lorsque vous définirez vos formulaires Liste et vos formulaires détaillés.
 
-## Many to One relations
+## Liens N vers 1
 
-* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
+* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -24,31 +24,31 @@ Pour vous aider à définir la structure de votre application, plusieurs filtres
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
 
-## One to Many relations
+## Liens 1 vers N
 
-### Deal with One to Many relations from the project editor
+### Les liens 1 vers N dans l'éditeur de projet
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
 
-All you have to do is:
+Il vous suffit de :
 
-* publishing at least one field of the target (Many) table
+* publier au moins un champ de la table cible (N)
 
-* publishing the relation from the source (One) table
+* publier le lien depuis la table source (1)
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Then, when your related fields are published, they can be used like any other field. So you will be able to:
+Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs. Vous pourrez ainsi :
 
-* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+* Définir les propriétés de liens dans la section [Libellés et icônes](labels-and-icons.html#relations-properties).
 
-* Drop the 1 to N relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
+* Déposer le lien 1 vers N dans le formulaire détaillé depuis la section Formulaires pour créer un lien entre un formulaire détaillé et une table liée.
 
-### What will be created in the generated project ?
+### Qu'est-ce qui sera créé dans le projet généré ?
 
-Basically a Relation button will be created in detail forms to go straight to the related view.
+Un bouton Lien sera créé dans les formulaires détaillés, pour vous permettre d'accéder directement à la vue liée.
 
-[Tutorials](one-to-many-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
+Des [tutoriels](one-to-many-relations.html) sont à votre disposition pour vous aider à utiliser les liens 1 vers N dans votre projet 4D for iOS.
 
 ## Rechargement incrémental
 
@@ -59,7 +59,7 @@ Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifi
 Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
 * Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
-* Des champs ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
+* Des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
 
 Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
@@ -79,4 +79,4 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 **NOTE**
 
-As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
+Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
