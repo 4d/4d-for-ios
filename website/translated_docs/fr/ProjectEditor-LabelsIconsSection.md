@@ -10,7 +10,7 @@ C'est ici que vous définirez les propriétés de vos tables, champs et liens :
 
 * **Formats :** ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
-* **Titre :** permettent d'afficher un titre dans la vue de destination à l'aide de liens
+* **Titre :** permet d'afficher un titre dans la vue de destination à l'aide de liens
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
@@ -33,7 +33,7 @@ Vous pouvez définir les propriétés de champs suivantes :
 
 * **Libellés longs et courts :** utilisés selon l'espace disponible
 * **icônes**
-* **formats:** for exemple to display currencies or percentage
+* **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
 Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
 
@@ -41,14 +41,14 @@ Those elements will be displayed in detail and list forms, depending on the temp
 
 * Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
+* Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.</div> 
 
-## Relations properties
+## Propriétés des liens
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Vous pouvez définir les propriétés de liens suivantes :
 
-* **Short and Long labels:** displayed in the Relation button that allows to open a related table
-* **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
+* **Icônes :** s'affiche à gauche du bouton Liens
+* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
