@@ -14,7 +14,7 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 
 ## Relaciones Muchos a Uno
 
-* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](n-to-one-relations.html).
+* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -48,7 +48,7 @@ Then, when your related fields are published, they can be used like any other fi
 
 Basically a Relation button will be created in detail forms to go straight to the related view.
 
-[Tutorials](one-to-n-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
+[Tutorials](one-to-many-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
 
 ## Incremental reload
 

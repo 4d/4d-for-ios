@@ -3,25 +3,25 @@ id: labels-and-icons
 title: Libellés et icônes
 ---
 
-This is where you'll define properties for your tables, fields and relations:
+C'est ici que vous définirez les propriétés de vos tables, champs et liens :
 
-* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
-* **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. These include icons for business, finance, education, government, health, industry, real estate, services, etc.
+* **Libellés longs et courts :** leur utilisation dépend de l'espace disponible dans le modèle (pour optimiser l'espace et éviter de surcharger la barre d'onglets).
+* **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
 
-* **Formats :** Ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
+* **Formats :** ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
-* **Title:** used to display a title in the destination view using relations
+* **Titre :** permet d'afficher un titre dans la vue de destination à l'aide de liens
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
-## Tables properties
+## Propriétés des tables
 
 ![Labels & Icons section Tables properties](assets/en/project-editor/Tables-properties-Labels-icons-section-4D-for-iOS.png)
 
-For tables, you will be able to define the following properties:
+Vous pouvez définir les propriétés de table suivantes :
 
-* **Short and Long labels**
-* **Icons**
+* **Libellés longs et courts**
+* **Icônes**
 
 Those will be displayed in the tab bar as well as the ListForm title in the generated app.
 
@@ -29,11 +29,11 @@ Those will be displayed in the tab bar as well as the ListForm title in the gene
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
 
-For fields, you will be able to define the following properties:
+Vous pouvez définir les propriétés de champs suivantes :
 
-* **Short and Long labels:** used depending on space
-* **icons**
-* **formats:** for exemple to display currencies or percentage
+* **Libellés longs et courts :** utilisés selon l'espace disponible
+* **icônes**
+* **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
 Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
 
@@ -41,14 +41,14 @@ Those elements will be displayed in detail and list forms, depending on the temp
 
 * Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
+* Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.</div> 
 
-## Relations properties
+## Propriétés des liens
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Vous pouvez définir les propriétés de liens suivantes :
 
-* **Short and Long labels:** displayed in the Relation button that allows to open a related table
-* **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
+* **Icônes :** s'affiche à gauche du bouton Liens
+* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
