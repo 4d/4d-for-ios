@@ -23,8 +23,6 @@ For tables, you will be able to define the following properties:
 * **Short and Long labels**
 * **Icons**
 
-Those will be displayed in the tab bar as well as the ListForm title in the generated app.
-
 ## Fields properties
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
@@ -32,8 +30,8 @@ Those will be displayed in the tab bar as well as the ListForm title in the gene
 For fields, you will be able to define the following properties:
 
 * **Short and Long labels:** used depending on space
-* **icons**
-* **formats:** for exemple to display currencies or percentage
+* **Icons**
+* **Formats:** for exemple to display currencies or percentage
 
 Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
 
