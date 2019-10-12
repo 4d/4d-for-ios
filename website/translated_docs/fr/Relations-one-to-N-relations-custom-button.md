@@ -1,11 +1,11 @@
 ---
 id: one-to-many-relations-custom-button
-title: One to Many - Custom button
+title: 1 vers N - Bouton personnalisé
 ---
 
 As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
 
-As for custom templates, custom formatters, you can create custom Relation Buttons.
+As for custom templates or custom formatters, you can create custom Relation Buttons.
 
 To that end, nothing more simple! You just have to drop your custom button in your custom template.
 
@@ -19,46 +19,46 @@ Let's get started by downloading the Starter Project that includes:
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">N TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">PROJET STARTER N VERS UN</a>
 
   </p>
 </div>
 
-## Include the button
+## Intégrer un bouton
 
-The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
+La première étape consiste à intégrer un bouton .xib dans votre template personnalisé, afin qu'il soit intégré dans l'application.
 
-To use the button, you just have to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
+Pour utiliser le bouton, vous devez le déposer dans le dossier ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` .
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
-The first step is done!
+La première étape est terminée !
 
-## Modify the button
+## Modifier le bouton
 
-Open the .xib file with Xcode.
+Ouvrir le fichier .xib avec Xcode.
 
-It should look like this:
+Il devrait ressembler à ceci :
 
 ![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
 
-And from the attribute inspector, you could change for example:
+Et dans l'inspecteur d'attributs, vous pouvez modifier par exemple :
 
-* colors and fonts
-* the button style
-* the button size...
+* les couleurs et les polices
+* le style de bouton
+* la taille du bouton, etc.
 
-Let's change the button color and button label font!
+Nous allons changer la couleur du bouton et la police du label du bouton !
 
-### Custom colors and fonts
+### Couleurs et polices personnalisées
 
 Select the button and change the color and font from the attribute inspector.
 
-For the background, let's select the Label Color the have the best contrast in Light and Dark mode.
+For the background, let's select the Label Color to have the best contrast in Light and Dark mode.
 
-For the font color let's put a System background color with helvetica Neue Medium font.
+For the font color let's put a System background color with a helvetica Neue Medium font.
 
-Finally don't forget to select System background color Tint to apply this color to the button icon.
+Finally, don't forget to select the System background color Tint to apply this color to the button icon.
 
 ![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
 
@@ -92,31 +92,31 @@ and
 
 You can now build your project from the project editor!
 
-As a result, you should see this :
+The result should look like this:
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-round-corners.png)
 
 ### Size and constraints
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relation are available in the same detail view.
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relations are available in the same detail view.
 
-What a piece of luck we plan to add some constraints !
+How convenient, since we plan on adding a few constraints!
 
 #### Add constraints
 
-For this tutorial, we are just going to add a button height because we want it to be bigger in the screen.
+For this tutorial, we are just going to add a button height because we want it to look bigger on the screen.
 
 Step 1. First select the view and change the height from 123 to 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Step 2. Double click on the **Top Space Constraint** and change the it from 8 to 0
+Step 2. Double click on the **Top Space Constraint** and change it from 8 to 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Step 3. Do the same thing with **Bottom Space Constraint** and change the it from 8 to 0
+Step 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
-You should have this result:
+You should get this:
 
 ![Custom  button constraints](assets/en/relations/Custom-button-constraints.png)
 
@@ -124,21 +124,21 @@ Step 4. Add a height constraint of 40
 
 ![Button height constraint](assets/en/relations/Button-height-constraint.png)
 
-You should get this result:
+You should get this:
 
 ![Horizontal in container](assets/en/relations/Custom-relation-button-constraints.png)
 
-In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
+In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
 
 ### Add TAGS
 
-Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
+The process is a little bit tricky... So let's begin by opening the storyboard file with your favorite code editor!
 
-#### Add tag to height constraint
+#### Add a tag to the height constraint
 
 Step 1. Select it from the Storyboard to get the Object ID
 
@@ -150,11 +150,11 @@ Step 3. Save the xml file
 
 ![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-Step 4. Focus on the Storyboard to check if the constraint has been well updated
+Step 4. Focus on the Storyboard to check if the constraint has been updated correctly
 
 ![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
 
-And that's it! your button is now fully duplicable if you have more that one relation button to display...
+And that's it! Your button is now fully duplicable if you have more that one relation button to display...
 
 ## Where to go from here?
 
