@@ -3,11 +3,11 @@ id: one-to-many-relations-custom-button
 title: 1 vers N - Bouton personnalisé
 ---
 
-As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
+Tout comme pour les tutoriels précédents, 4D for iOS vous permet de créer librement plusieurs éléments personnalisés !
 
-As for custom templates or custom formatters, you can create custom Relation Buttons.
+De même que les templates et formats personnalisés, vous pouvez créer des boutons Relations personnalisés.
 
-To that end, nothing more simple! You just have to drop your custom button in your custom template.
+Et pour cela, rien de plus simple ! You just have to drop your custom button in your custom template.
 
 Let's get started by downloading the Starter Project that includes:
 
@@ -156,7 +156,7 @@ Step 4. Focus on the Storyboard to check if the constraint has been updated corr
 
 And that's it! Your button is now fully duplicable if you have more that one relation button to display...
 
-## Where to go from here?
+## Que faire ensuite ?
 
 In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
 
