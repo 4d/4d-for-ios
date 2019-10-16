@@ -68,7 +68,7 @@ Voici le résultat que vous devriez obtenir dans le Simulateur, en mode Dark et 
 
 ### Bords arrondis des boutons
 
-Ajoutons des bords arrondis au boutonRelation !
+Ajoutons des bords arrondis au "relationButton" !
 
 Pour ce faire, ouvrez l'Identity Inspector.
 
@@ -158,7 +158,7 @@ Et voilà ! Votre bouton est maintenant entièrement duplicable si vous avez plu
 
 ## Que faire ensuite ?
 
-Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de boutons de liens personnalisés. Cliquez sur le Projet final ci-dessous pour télécharger le bouton de liens personnalisé.
+Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de boutons Relation. Cliquez sur le Projet final ci-dessous pour télécharger le bouton de liens personnalisé.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
