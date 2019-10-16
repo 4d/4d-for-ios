@@ -3,7 +3,7 @@ id: one-to-many-relations-title-definition
 title: One to Many - Title definition
 ---
 
-### Define a title for your destination views
+### Defining a title for your destination views
 
 To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
 
@@ -20,10 +20,10 @@ From here, open the relation tab to define the *tasks* relation title and enter 
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were before. 
+As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously. 
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
 This is a great way to keep track of the view you come from!
 
-Now let's see with the next tutorial how you can create and add your own Relation button!
+Now let's see how you can create and add your own Relation button in the next tutorial!

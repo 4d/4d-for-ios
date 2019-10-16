@@ -23,8 +23,6 @@ Vous pouvez définir les propriétés de table suivantes :
 * **Libellés longs et courts**
 * **Icônes**
 
-Those will be displayed in the tab bar as well as the ListForm title in the generated app.
-
 ## Propriétés des champs
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
@@ -32,10 +30,10 @@ Those will be displayed in the tab bar as well as the ListForm title in the gene
 Vous pouvez définir les propriétés de champs suivantes :
 
 * **Libellés longs et courts :** utilisés selon l'espace disponible
-* **icônes**
+* **Icônes**
 * **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
-Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips"> 
 
 **CONSEILS**
 
@@ -51,4 +49,4 @@ Vous pouvez définir les propriétés de liens suivantes :
 
 * **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
 * **Icônes :** s'affiche à gauche du bouton Liens
-* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre

@@ -3,7 +3,7 @@ id: many-to-one-relations
 title: Many to One relations
 ---
 
-4D v17 R5 includes a new concept: Many to One relations<div class = "tips"> 
+4D v17 R5 lance un nouveau concept : les liens N vers 1<div class = "tips"> 
 
 **NOTE**
 
@@ -16,7 +16,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">MANY TO ONE STARTER PROJECT</a>
+href="../assets/en/relations/Tasks.4dbase.zip">PROJET STARTER N VERS UN</a>
 
   </p>
 </div>
