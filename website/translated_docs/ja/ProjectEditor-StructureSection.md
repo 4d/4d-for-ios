@@ -42,13 +42,13 @@ Then, when your related fields are published, they can be used like any other fi
 
 * Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
 
-* Drop the 1 to N relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
+* Drop the One to Many relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
 
 ### What will be created in the generated project ?
 
 Basically a Relation button will be created in detail forms to go straight to the related view.
 
-[Tutorials](one-to-many-relations.html) are available to help you use 1 to N relation in your 4D for iOS project.
+[Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
 
 ## Incremental reload
 
