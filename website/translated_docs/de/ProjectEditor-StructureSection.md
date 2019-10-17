@@ -12,9 +12,9 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your app.
 * fields will be available later when it's time to define your list and detail forms.
 
-## N to 1 relations
+## Many to One relations
 
-* 4D 17R5 allows you to visualize table relations and select related fields clicking on a relation. Then when your related fields are published, they can be used like any other field in the [app creation process](n-to-one-relations.html).
+* 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -23,6 +23,32 @@ To help you define your app's structure, multiple filters and a search engine ar
 **TIPS**
 
 You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+
+## One to Many relations
+
+### Deal with One to Many relations from the project editor
+
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+
+All you have to do is:
+
+* publishing at least one field of the target (Many) table
+
+* publishing the relation from the source (One) table
+
+![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
+
+Then, when your related fields are published, they can be used like any other field. So you will be able to:
+
+* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+
+* Drop the One to Many relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
+
+### What will be created in the generated project ?
+
+Basically a Relation button will be created in detail forms to go straight to the related view.
+
+[Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
 
 ## Incremental reload
 
@@ -53,4 +79,4 @@ From iPhone settings, you can now reset your app data and find information about
 
 **NOTE**
 
-As soon as the admin do an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required : Recover by tag / Restoration / Compaction</div>
+As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>

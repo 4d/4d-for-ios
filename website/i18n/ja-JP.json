@@ -162,8 +162,17 @@
       "structure": {
         "title": "Structure"
       },
-      "n-to-one-relations": {
-        "title": "N to one relations"
+      "many-to-one-relations": {
+        "title": "Many to One relations"
+      },
+      "one-to-many-relations-custom-button": {
+        "title": "One to Many - Custom button"
+      },
+      "one-to-many-relations-title-definition": {
+        "title": "One to Many - Title definition"
+      },
+      "one-to-many-relations": {
+        "title": "One to Many relations"
       },
       "custom-data-formatters": {
         "title": "Data Formatters"

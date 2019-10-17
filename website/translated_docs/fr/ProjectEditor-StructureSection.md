@@ -14,7 +14,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ## Liens N vers 1
 
-* 4D v17 R5 vous permet de visualiser les liens entre les tables et de sélectionner les champs liés en cliquant sur un lien. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](n-to-one-relations.html).
+* 4D v17R5 vous permet de visualiser les liens entre les tables dans l'application générée, en les publiant à partir de la section Structure. Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs, tout au long de la [création d’une application](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -23,6 +23,32 @@ Pour vous aider à définir la structure de votre application, plusieurs filtres
 **CONSEILS**
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
+
+## Liens 1 vers N
+
+### Les liens 1 vers N dans l'éditeur de projet
+
+Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
+
+Il vous suffit de :
+
+* publier au moins un champ de la table cible (N)
+
+* publier le lien depuis la table source (1)
+
+![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
+
+Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs. Vous pourrez ainsi :
+
+* Définir les propriétés de liens dans la section [Libellés et icônes](labels-and-icons.html#relations-properties).
+
+* Déposer le lien 1 vers N dans le formulaire détaillé depuis la section Formulaires pour créer un lien entre un formulaire détaillé et une table liée.
+
+### Qu'est-ce qui sera créé dans le projet généré ?
+
+Un bouton Lien sera créé dans les formulaires détaillés, pour vous permettre d'accéder directement à la vue liée.
+
+Des [tutoriels](one-to-many-relations.html) sont à votre disposition pour vous aider à utiliser les liens 1 vers N dans votre projet 4D for iOS.
 
 ## Rechargement incrémental
 
@@ -33,7 +59,7 @@ Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifi
 Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
 * Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
-* des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
+* Des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
 
 Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
@@ -53,4 +79,4 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 **NOTE**
 
-Dès que l'administrateur effectue une importante opération de maintenance, il devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Réparation par marqueur / Restitution / Compactage</div>
+Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>

@@ -42,7 +42,7 @@ Arrastre y suelte una "Vertical Stack View" desde la **librería de objetos** a 
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and constraints later.
+Dado que el ancho y el alto del "Stack View" están definidos por los elementos que se encuentran dentro de ella, configuraremos el tamaño y las restricciones más adelante.
 
 ## Añadir las vistas en el Stack Views
 
@@ -66,9 +66,9 @@ Seleccione **Field View 1** y añada tres restricciones haciendo clic en el bot�
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a constraint:
+Para que los "Stack View" y "Scroll View" tengan el mismo ancho, debe agregar un restricción:
 
-Presione Ctrl y arrastre la Stack View a la Scroll View. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione "Equal Width".
+Presione Ctrl y arrastre el "Stack View" al "Scroll View". Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione "Equal Width".
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 

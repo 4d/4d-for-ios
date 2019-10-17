@@ -3,16 +3,16 @@ id: create-icons
 title: Create icons
 ---
 
-You can use any icon format (SVG or PNG is recommended to preserve transparency) and size you want and include it in your project.
+É possível usar qualquer formato ícone (SVG ou PNG é recomendado para preservar transparências) e tamanho que quiser no seu projeto.
 
-It's highly recommended having colored versions of your custom icons to better visualize them in the project editor. For this tutorial, you can download the following icons:
+É recomendado ter versões coloridas de seus ícones personalizados para melhor visualização no editor de projetos. Neste tutorial, pode baixar os ícones abaixo:
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
+href="../assets/en/custom-icons/Custom-Icons.zip">ÍCONES PERSONALIZADOS</a>
 
   </p>
 </div>
