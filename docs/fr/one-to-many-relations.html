@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="fr"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>One to Many relations · 4D for iOS Preview</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.&lt;div class = &quot;tips&quot;&gt;&lt;/p&gt;
+"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="One to Many relations · 4D for iOS Preview"/><meta property="og:type" content="website"/><meta property="og:url" content="https://4D.github.io/4d-for-ios/index.html"/><meta property="og:description" content="&lt;p&gt;Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.&lt;div class = &quot;tips&quot;&gt;&lt;/p&gt;
+"/><meta property="og:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dark.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/fr"><h2 class="headerTitle">4D for iOS Preview</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/fr/overview.html" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/docs/fr/faq.html" target="_self">FAQ</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/en/one-to-many-relations.html">English</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Relations</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer une application iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/contact-app.html">Application Contacts</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personnaliser avec Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/open-xcode.html">Travailler avec Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/xcode-overview.html">Présentation de Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/4d-for-ios-project-organization.html">Organiser un projet 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/customize-your-ios-app.html">Personnaliser une application 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires Liste<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-listform-templates.html">Modèles de formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/icon-listform-template.html">Icônes des formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires détaillés<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-detailform-templates.html">Modèles de formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/icon-detailform-template.html">Icônes des formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utiliser des icônes<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/using-icons.html">Utiliser des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/create-icons.html">Créer des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/include-icons.html">Inclure des icônes dans le projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/select-icons.html">Choisir des icônes</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Format des données<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter.html">Format des données</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter-mobile-project.html">Ouvrir un projet mobile</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/data-formatter-build-and-run.html">Créer et exécuter un projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/creating-data-formatter.html">Créer un format de données</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/actions-getting-started.html">Initiation</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/define-first-action.html">Définir une première action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/using-parameters.html">Utiliser des paramètres</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/action-custom-template.html">Ajouter des actions aux modèles</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche multicritères<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/multi-criteria-search.html">Recherche multicritères</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche restreinte<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/filter-query-introduction.html">Recherche restreinte</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/define-filter-query.html">Définir un filtre de recherche</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/user-information-query.html">Filtre de recherche - informations utilisateur</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/many-to-one-relations.html">Many to One relations</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/docs/fr/one-to-many-relations.html">One to Many relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/one-to-many-relations-title-definition.html">One to Many - Title definition</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/fr/one-to-many-relations-custom-button.html">One to Many - Custom button</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Relations-one-to-N-relations.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">One to Many relations</h1></header><article><div><span><p>Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.<div class = "tips"></p>
+<p><strong>NOTE</strong></p>
+<p>Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div></p>
+<p>Commençons par télécharger le Projet Starter :</p>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+  <p>
+<p><a class="button"
+href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">PROJET STARTER UN VERS N</a></p>
+  </p>
+</div>
+<p>Dans ce tutoriel, nous allons créer une <strong>application Task</strong> à l'aide de 4D for iOS.</p>
+<p><img src="/4d-for-ios/docs/assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif" alt="Task App Final result"></p>
+<p>Mais d'abord, jetons un œil à la structure de notre base :</p>
+<p><img src="/4d-for-ios/docs/assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png" alt="Select link from structure section"></p>
+<p>Vous remarquerez qu'il existe un lien 1 vers N nommé <strong>tasks</strong> qui utilisera une application iOS pour afficher les tâches (<strong>vers N</strong>) des employés (<strong>1</strong>).</p>
+<p>Cliquez maintenant sur Ouvrir menu &gt; Projet mobile... et sélectionnez <em>Time Keeper</em> puis cliquez sur la <strong>section Structure</strong>.</p>
+<h2><a class="anchor" aria-hidden="true" id="section-structure"></a><a href="#section-structure" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Structure</h2>
+<p>Vous voyez ici le lien <strong>tasks</strong> que nous avons créé précédemment... Vous pouvez le publier !</p>
+<p>Il aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application.</p>
+<p><img src="/4d-for-ios/docs/assets/en/relations/Structure-section-relations-4D-for-iOS.png" alt="Structure section Relations properties"><div class = "tips"></p>
+<p><strong>ASTUCE</strong></p>
+<ul>
+<li>En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.</div></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="section-libelles-icones"></a><a href="#section-libelles-icones" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Libellés &amp; icônes</h2>
+<p>Le lien 1 vers N est maintenant disponible dans la section <a href="labels-and-icons.html">Libellés et icônes</a>.</p>
+<p>A noter qu'un bouton est créé dans l'application lorsque vous incluez un lien 1 vers N.</p>
+<p>Dans la section Libellés &amp; icônes, vous définirez :</p>
+<ul>
+<li>un libellé de bouton</li>
+<li>une icône de bouton</li>
+<li>un <a href="one-to-n-relations-title-definition.html">titre</a> qui s'affichera dans la vue de destination (pour indiquer votre provenance).</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png" alt="Labels &amp; Icons section Relations properties"></p>
+<h2><a class="anchor" aria-hidden="true" id="section-formulaires"></a><a href="#section-formulaires" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Formulaires</h2>
+<ul>
+<li>Cliquez sur la section Formulaires et déposez le lien <em>tasks</em> dans le formulaire détaillé Employee Task.</li>
+</ul>
+<p><img src="/4d-for-ios/docs/assets/en/relations/1-to-n-relations-forms-section.png" alt="Related field in Forms section"></p>
+<h2><a class="anchor" aria-hidden="true" id="creer-executer"></a><a href="#creer-executer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Créer &amp; exécuter</h2>
+<ol>
+<li>A partir du formulaire Lise Employee, cliquez sur un employé</li>
+<li>Cela permettra d'ouvrir le formulaire détaillé des employés, où vous devriez voir apparaître un nouveau <strong>bouton Relation</strong> !</li>
+<li>Cliquez sur ce bouton Relation pour afficher les tâches de l'employé.</li>
+</ol>
+<p><img src="/4d-for-ios/docs/assets/en/relations/One-to-n-relations-task-ios-app.png" alt="Related field in Forms section"></p>
+<p>Et le tour est joué ! Voilà comment fonctionnent vos liens 1 vers N fonctionnent dans 4D for iOS !</p>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+  <p>
+<p><a class="button"
+href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">PROJET FINAL UN VERS N</a></p>
+  </p>
+</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/fr/many-to-one-relations.html"><span class="arrow-prev">← </span><span>Précédent</span></a><a class="docs-next button" href="/4d-for-ios/docs/fr/one-to-many-relations-title-definition.html"><span>Suivant</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#section-structure">Section Structure</a></li><li><a href="#section-libelles-icones">Section Libellés &amp; icônes</a></li><li><a href="#section-formulaires">Section Formulaires</a></li><li><a href="#creer-executer">Créer &amp; exécuter</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="/4d-for-ios/docs/fr/licenses.html">Licenses</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
