@@ -33,7 +33,7 @@
         "title": "Présentation de Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Créer et exécuter un projet"
+        "title": "Créer et exécuter un projet"
       },
       "creating-data-formatter": {
         "title": "Créer un format de données"
@@ -162,8 +162,17 @@
       "structure": {
         "title": "Structure"
       },
-      "n-to-one-relations": {
+      "many-to-one-relations": {
         "title": "Liens N vers 1"
+      },
+      "one-to-many-relations-custom-button": {
+        "title": "1 vers N - Bouton personnalisé"
+      },
+      "one-to-many-relations-title-definition": {
+        "title": "1 vers N - Titre"
+      },
+      "one-to-many-relations": {
+        "title": "Liens 1 vers N"
       },
       "custom-data-formatters": {
         "title": "Format des données"
@@ -221,7 +230,7 @@
       "Actions": "Actions",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
-      "Relations": "Relations",
+      "Relations": "Liens",
       "Templates & Formatters": "Modèles & Formats"
     }
   },
