@@ -19,7 +19,7 @@ Commençons par télécharger le Projet Starter, qui comprend :
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">PROJET STARTER N VERS UN</a>
+href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">STARTER CUSTOM BUTTON</a>
 
   </p>
 </div>
@@ -76,7 +76,7 @@ Sélectionnez votre Bouton et ajoutez les deux lignes suivantes dans la zone Use
 
 * **Key Path** : ```cornerRadius```
 
-* **Type ** : ```Number```
+* **Type** : ```Number```
 
 * **Value** : ```12```
 
