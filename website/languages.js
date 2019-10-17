@@ -12,7 +12,7 @@ const languages = [
     tag: 'en',
   },
   {
-    enabled: true,
+    enabled: false,
     name: '日本語',
     tag: 'ja',
   },
