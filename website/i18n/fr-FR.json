@@ -163,16 +163,16 @@
         "title": "Structure"
       },
       "many-to-one-relations": {
-        "title": "Many to One relations"
+        "title": "Liens N vers 1"
       },
       "one-to-many-relations-custom-button": {
-        "title": "One to Many - Custom button"
+        "title": "1 vers N - Bouton personnalisé"
       },
       "one-to-many-relations-title-definition": {
-        "title": "One to Many - Title definition"
+        "title": "1 vers N - Titre"
       },
       "one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Liens 1 vers N"
       },
       "custom-data-formatters": {
         "title": "Format des données"
@@ -230,7 +230,7 @@
       "Actions": "Actions",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
-      "Relations": "Relations",
+      "Relations": "Liens",
       "Templates & Formatters": "Modèles & Formats"
     }
   },
