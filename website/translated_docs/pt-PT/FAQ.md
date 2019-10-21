@@ -25,7 +25,7 @@ O editor de projetos móveis foi criado para que seja possível usar 4D for iOS 
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
-| 11     | 5.1   | iOS 13.0 | 18   | 10.14.4 |
+| 11.1   | 5.1   | iOS 13.0 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
 | 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
