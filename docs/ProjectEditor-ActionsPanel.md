@@ -24,7 +24,6 @@ Next you'll need to define the following:
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-
 ### Add parameters to your action
 
 As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
@@ -202,7 +201,6 @@ After creating all of your actions, just click on the Create button from the Act
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
 * You can also decide to force close the Edition form using ```$out.close:=True```.
 </div>
-
 
 ## iOS app Side
 
