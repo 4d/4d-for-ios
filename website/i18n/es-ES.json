@@ -168,6 +168,9 @@
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
       },
+      "one-to-N-relations-Parent-id": {
+        "title": "One to Many - Parent ID"
+      },
       "one-to-many-relations-title-definition": {
         "title": "One to Many - Title definition"
       },
