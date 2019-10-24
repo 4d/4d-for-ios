@@ -109,36 +109,12 @@ You can use up to four mobile devices.
 
 <details>
 <summary>
-<strong>I have an application with a lot of data, can I embed all of it on my iOS device?</strong>
-</summary>
-
-4D for iOs allows you to embed a maximum of 10,000 records in your app.
-
-For now, the best way to deal with large amounts of data is to create an intermediate table and filter the results you want to display.
-
-Future versions of 4D for iOS will include a way to apply filters so only the required information is displays.
-
-</details>
-
-<details>
-<summary>
 <strong>Can I modify and update data from my iOS app?</strong>
 </summary>
 
 For now, 4D for iOS allows you to build read-only apps.
 
 Future versions will allow you to add and modify your records right from your iOS app and synchronize your data with the server.
-
-</details>
-
-<details>
-<summary>
-<strong>Can I reload only the records that have been modified?</strong>
-</summary>
-
-When you reload data, all your data is downloaded to replace the existing data.
-
-Incremental synchronization is planned for a future release.
 
 </details>
 

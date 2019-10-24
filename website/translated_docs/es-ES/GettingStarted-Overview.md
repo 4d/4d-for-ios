@@ -3,7 +3,7 @@ id: overview
 title: Generalidades
 ---
 
-## What is 4D for iOS?
+## ¿Qué es 4D for iOS?
 
 4D for iOS es un componente integrado a 4D que le permite configurar, diseñar, construir y desplegar una aplicación iOS nativa basada en su base 4D.
 

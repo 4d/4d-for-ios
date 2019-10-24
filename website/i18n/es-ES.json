@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Siguiente",
     "previous": "Anterior",
-    "tagline": "Crea e implementa fácilmente aplicaciones iOS nativas personalizadas",
+    "tagline": "Cree y despliegue fácilmente aplicaciones iOS nativas personalizadas",
     "docs": {
       "define-first-action": {
         "title": "Definir una primera acción"
@@ -168,6 +168,9 @@
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
       },
+      "one-to-N-relations-Parent-id": {
+        "title": "One to Many - Parent ID"
+      },
       "one-to-many-relations-title-definition": {
         "title": "One to Many - Title definition"
       },
@@ -235,13 +238,13 @@
     }
   },
   "pages-strings": {
-    "Easily create and deploy custom native iOS apps|no description given": "Cree y despliegue gácilmente aplicaciones iOS nativas personalizadas",
+    "Easily create and deploy custom native iOS apps|no description given": "Cree y despliegue fácilmente aplicaciones iOS nativas personalizadas",
     "Overview|no description given": "Generalidades",
     "Create|no description given": "Cree",
     "Test|no description given": "Pruebe",
     "Deploy|no description given": "Despliegue",
     "Define a subset of your physical structure to replicate.|no description given": "Defina un subconjunto de su estructura física a replicar.",
-    "Structure|no description given": "Structure",
+    "Structure|no description given": "Estructura",
     "Choose the layouts and style of your application in just a few, short steps.|no description given": "Elija los diseños y el estilo de su aplicación en solo unos pocos pasos.",
     "Design|no description given": "Diseño",
     "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Cree un proyecto Xcode con un solo clic y ejecute su aplicación en cualquier iPhone.",
