@@ -21,7 +21,7 @@
     "Actions" : ["actions-getting-started","define-first-action","using-parameters","action-custom-template"],
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
-    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button" ]
+    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-N-relations-Parent-id" ]
   },
 
     "Templates&Formatters": {
