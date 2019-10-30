@@ -34,7 +34,7 @@ href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROJET ST
 
 Vous êtes maintenant prêts à créer vos premiers formats !
 
-## Créez le dossier Formats
+## Créez le dossier formatters
 
 Créez d'abord un dossuer *Task Management.4dbase/Resources/Mobile/formatters*.
 
