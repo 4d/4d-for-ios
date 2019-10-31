@@ -168,14 +168,14 @@
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
       },
-      "one-to-N-relations-Parent-id": {
-        "title": "One to Many - Parent ID"
-      },
       "one-to-many-relations-title-definition": {
         "title": "One to Many - Title definition"
       },
       "one-to-many-relations": {
         "title": "One to Many relations"
+      },
+      "one-to-many-relations-actions": {
+        "title": "One to Many - Actions"
       },
       "custom-data-formatters": {
         "title": "Data Formatters"
@@ -230,9 +230,9 @@
       "Creating Detail forms": "Creating Detail forms",
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
-      "Actions": "Actions",
       "Multi-criteria search": "Multi-criteria search",
       "Restricted queries": "Restricted queries",
+      "Actions": "Actions",
       "Relations": "Relations",
       "Templates & Formatters": "Templates & Formatters"
     }

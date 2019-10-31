@@ -18,10 +18,10 @@
     "Creating Detail forms" : ["creating-detailform-templates","icon-detailform-template","manifest-detailform-template","svg-file-detailform-template","storyboard-detailform-template"],
     "Using icons" : ["using-icons","create-icons","include-icons","select-icons"],
     "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run","creating-data-formatter"],
-    "Actions" : ["actions-getting-started","define-first-action","using-parameters","action-custom-template"],
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
-    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-N-relations-Parent-id" ]
+    "Actions" : ["actions-getting-started","define-first-action","using-parameters","action-custom-template"],
+    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-many-relations-actions"]
   },
 
     "Templates&Formatters": {

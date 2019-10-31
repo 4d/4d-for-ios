@@ -1,6 +1,6 @@
 ---
-id: one-to-N-relations-Parent-id
-title: One to Many - Parent ID
+id: one-to-many-relations-actions
+title: One to Many - Actions
 ---
 
 <div markdown="1" class = "objectives">
@@ -11,13 +11,13 @@ We are now going to go a little bit further and **create a task for a specific e
 
 </div>
 
-It is very easy to create an entity using **parent ID** !
+It is very easy to create an entity using **parent Entity** !
 
 Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/ParentIDStarterProject.zip">ONE TO MANY - STARTER PARENT ID</a>
+href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
 </div>
 
 ## Create addProject action
@@ -50,9 +50,9 @@ C_OBJECT($0)C_OBJECT($1)C_OBJECT($entity;$in;$out)$in:=$1$out:=New object(
 
 ```
 
-And that's it you can then add some task to your employees easily using the parent ID !
+And that's it you can then add some task to your employees easily using the parent Entity !
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/relations/ParentIDFinalProject.zip">ONE TO MANY - FINAL PARENT ID</a>
+href="../assets/en/relations/ParentIDFinalProject.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
 </div>
