@@ -5,17 +5,17 @@
   background: rgb(44, 44, 44);
 }
 
-.language-code4d{color:#020202;font-weight:normal;font-size:90%;font-family:"Consolas",Consolas, monospace;background: #444 ;padding: 1em 0.5em 1em 0.8em;}
+.language-code4d{color:#dadada;font-weight:normal;font-size:90%;font-family:"Consolas",Consolas, monospace;background: #444 ;padding: 1em 0.5em 1em 0.8em;}
   .code4d pre{padding:0;}	
-  .language-code4d .hljs-keyword{font-weight:bold;font-style:normal;color:rgb(104, 148, 108);}	
+  .language-code4d .hljs-keyword{font-weight:bold;font-style:normal;color:rgb(154, 219, 159);}	
   .language-code4d .hljs-param{font-style:normal;font-weight:bold;color:#6447d6;}
-  .language-code4d .hljs-locale{font-style:normal;color:rgb(149, 167, 233);}
+  .language-code4d .hljs-locale{font-style:normal;color:rgb(179, 194, 248);}
   .language-code4d .hljs-interprocess{font-style:normal;color:#996038;}
   .language-code4d .hljs-command{font-style:normal;font-weight:bold;text-decoration:none;color:rgb(107, 207, 116);}
   .language-code4d .hljs-plugin{font-weight: bold; font-style:italic;color:rgb(212, 212, 212);text-decoration:none;}
   .language-code4d .hljs-constant{font-style:normal;text-decoration:underline;color:rgb(158, 106, 207);}
   .language-code4d .hljs-global{font-style:normal;color:#43713d;}
-  .language-code4d .hljs-method{font-weight:bold;font-style:italic;color:#525db6;}
+  .language-code4d .hljs-method{font-weight:bold;font-style:italic;color:#8088c4;}
   .language-code4d .hljs-table{font-style:normal;color:#d88e44;}
   .language-code4d .hljs-field{font-style:normal;color:#da7e7e;}
   .language-code4d .hljs-comment{font-style:normal;color:#c4c2c2;}
