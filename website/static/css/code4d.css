@@ -7,20 +7,20 @@
 
 .language-code4d{color:#dadada;font-weight:normal;font-size:90%;font-family:"Consolas",Consolas, monospace;background: #444 ;padding: 1em 0.5em 1em 0.8em;}
   .code4d pre{padding:0;}	
-  .language-code4d .hljs-keyword{font-weight:bold;font-style:normal;color:rgb(154, 219, 159);}	
-  .language-code4d .hljs-param{font-style:normal;font-weight:bold;color:#6447d6;}
+  .language-code4d .hljs-keyword{font-weight:bold;font-style:normal;color:#B34095;}	
+  .language-code4d .hljs-param{font-style:normal;font-weight:bold;color:#62D594;}
   .language-code4d .hljs-locale{font-style:normal;color:rgb(179, 194, 248);}
-  .language-code4d .hljs-interprocess{font-style:normal;color:#996038;}
-  .language-code4d .hljs-command{font-style:normal;font-weight:bold;text-decoration:none;color:rgb(107, 207, 116);}
+  .language-code4d .hljs-interprocess{font-style:normal;color:#EA3387;}
+  .language-code4d .hljs-command{font-style:normal;font-weight:bold;text-decoration:none;color:#4EADC7;}
   .language-code4d .hljs-plugin{font-weight: bold; font-style:italic;color:rgb(212, 212, 212);text-decoration:none;}
-  .language-code4d .hljs-constant{font-style:normal;text-decoration:underline;color:rgb(158, 106, 207);}
-  .language-code4d .hljs-global{font-style:normal;color:#43713d;}
-  .language-code4d .hljs-method{font-weight:bold;font-style:italic;color:#8088c4;}
-  .language-code4d .hljs-table{font-style:normal;color:#d88e44;}
-  .language-code4d .hljs-field{font-style:normal;color:#da7e7e;}
-  .language-code4d .hljs-comment{font-style:normal;color:#c4c2c2;}
-  .language-code4d .hljs-string{font-style:normal;color:#ddd8d8;}
-  .language-code4d .hljs-property{font-style:normal;color: rgb(192, 153, 127);}
+  .language-code4d .hljs-constant{font-style:normal;text-decoration:underline;color:#B07AF7;}
+  .language-code4d .hljs-global{font-style:normal;color:#858AF7;}
+  .language-code4d .hljs-method{font-weight:bold;font-style:italic;color:#D4925B;}
+  .language-code4d .hljs-table{font-style:normal;color:#E0A261;}
+  .language-code4d .hljs-field{font-style:normal;color:#ECE96F;}
+  .language-code4d .hljs-comment{font-style:normal;color:#80BE41;}
+  .language-code4d .hljs-string{font-style:normal;color:#F2F2F2;}
+  .language-code4d .hljs-property{font-style:normal;color: #9B816E;}
   
   
   .language-code4d .hljs-table {border:solid #999999 1px;background:#eaeaea;width:100%;padding:0em;margin:0em;
@@ -30,23 +30,23 @@
   .language-code4d .hljs-table td{padding-left:1em;vertical-align:top;}
   .language-code4d .hljs-table thead a{color:rgb(230, 230, 230);text-decoration:none;}
   
-  .language-code4d .codeSQL{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codeSQL{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #6b684d;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codePHP{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codePHP{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codeJS{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codeJS{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codeXML{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codeXML{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codeHTML{color:#666666;font-weight:normal;font-size:1em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codeHTML{color:#DDDDDD;font-weight:normal;font-size:1em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codeCSS{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#dffcff;
+  .language-code4d .codeCSS{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
   
-  .language-code4d .codeRAW{color:#666666;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#fafafa;
+  .language-code4d .codeRAW{color:#DDDDDD;font-weight:normal;font-size:1.15em;font-family:"Courier New", Courier, monospace;margin-left:1em;background:#2c2e2e;
     border:1px solid #e7e1ab;padding: 1em 0.5em 1em 1.5em;}
