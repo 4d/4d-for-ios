@@ -31,7 +31,7 @@ href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE T
 
 Il vous suffit de définir l'action **addProject** dans la **méthode Sur une action app mobile** comme suit :
 
-```
+```code4d
 : ($request.action="addProjects")
 
 $o:=New object(\
@@ -50,7 +50,7 @@ $result:=addProject ($o)
 
 Puis saisissez ces lignes de code dans votre **Méthode addProject** :
 
-```
+```code4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -61,7 +61,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds[$in.dataClass].new()  //Créer une référence
+    $entity:=ds[$in.dataClass].new()  //Create a reference
 
     For each ($key;$in.parameters)
 
@@ -69,21 +69,19 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $primaryKey:=$in.parent.primaryKey   //Lire la clé primaire parente
+    $primaryKey:=$in.parent.primaryKey   //Get parent primary key
 
-    $inverseRelationName:=$in.entity.relationName   //Lire le nom du lien parent
+    $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-    $parent:=ds[$in.parent.dataClass].get($in.parent.primaryKey)
+  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
 
     $entity[$inverseRelationName]:=$parent
 
-    $status:=$entity.save()  //sauvegarder l'entité
+    $status:=$entity.save()  //save the entity
 
-    $status:=$parent.save()  //sauvegarder le parent
+    $out.success:=True  // notify App that action success
 
-    $out.success:=True  // notifier App du succès de l'action 
-
-    $out.dataSynchro:=True  // notifier App pour actualiser la sélection
+    $out.dataSynchro:=True  // notify App to refresh the selection
 
     $out.statusText:="Task added"
 
