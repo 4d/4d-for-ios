@@ -33,10 +33,17 @@ href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE T
 
 The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
-```
-: ($request.action="addProjects")		$o:=New object(\"dataClass";$context.dataClass;\"parent";$context.parent;\"entity";$context.entity;\"parameters";$parameters)
+```code4d
+: ($request.action="addProjects")
+		
+$o:=New object(\
+"dataClass";$context.dataClass;\
+"parent";$context.parent;\
+"entity";$context.entity;\
+"parameters";$parameters)
 
-$result:=addProject ($o)
+$result:=addProject ($o)
+
 
 ```
 
@@ -45,8 +52,50 @@ $result:=addProject ($o)
 
 Then enter thoses lines in your **addProject Method**:
 
-```
-C_OBJECT($0)C_OBJECT($1)C_OBJECT($entity;$in;$out)$in:=$1$out:=New object("success";False)If ($in.dataClass#Null)		$entity:=ds[$in.dataClass].new()  //Create a reference		For each ($key;$in.parameters)				$entity[$key]:=$in.parameters[$key]			End for each 		$primaryKey:=$in.parent.primaryKey   //Get parent primary key		$inverseRelationName:=$in.entity.relationName   //Get parent relation name		$parent:=ds[$in.parent.dataClass].get($in.parent.primaryKey)		$entity[$inverseRelationName]:=$parent		$status:=$entity.save()  //save the entity		$status:=$parent.save()  //save the parent		$out.success:=True  // notify App that action success		$out.dataSynchro:=True  // notify App to refresh the selection		$out.statusText:="Task added"		$out.close:=True	Else 		$out.errors:=New collection("No Selection")	End if $0:=$out
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($entity;$in;$out)
+
+$in:=$1
+$out:=New object("success";False)
+
+If ($in.dataClass#Null)
+	
+	$entity:=ds[$in.dataClass].new()  //Create a reference
+	
+	For each ($key;$in.parameters)
+		
+		$entity[$key]:=$in.parameters[$key]
+		
+	End for each 
+	
+	$primaryKey:=$in.parent.primaryKey   //Get parent primary key
+		
+	$parent:=ds[$in.parent.dataClass].get($primaryKey)
+  
+  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+
+	$entity[$inverseRelationName]:=$parent
+	
+	$status:=$entity.save()  //save the entity
+	
+	$out.success:=True  // notify App that action success
+	
+	$out.dataSynchro:=True  // notify App to refresh the selection
+	
+	$out.statusText:="Task added"
+	
+	$out.close:=True
+	
+Else 
+	
+	$out.errors:=New collection("No Selection")
+	
+End if 
+
+$0:=$out
 
 ```
 
