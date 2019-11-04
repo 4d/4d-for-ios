@@ -31,7 +31,7 @@ href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE T
 
 The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
-```
+```code4d
 : ($request.action="addProjects")
 
 $o:=New object(\
@@ -50,7 +50,7 @@ $result:=addProject ($o)
 
 Then enter thoses lines in your **addProject Method**:
 
-```
+```code4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -71,15 +71,13 @@ If ($in.dataClass#Null)
 
     $primaryKey:=$in.parent.primaryKey   //Get parent primary key
 
-    $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+    $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-    $parent:=ds[$in.parent.dataClass].get($in.parent.primaryKey)
+  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
 
     $entity[$inverseRelationName]:=$parent
 
     $status:=$entity.save()  //save the entity
-
-    $status:=$parent.save()  //save the parent
 
     $out.success:=True  // notify App that action success
 
