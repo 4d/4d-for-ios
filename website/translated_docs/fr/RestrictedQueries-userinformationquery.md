@@ -13,8 +13,9 @@ Nous allons filtrer maintenant le contenu de notre application en fonction de l'
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-    Status = 'In Progress' & manager.Email = :email 
-    
+```code4d
+Status = 'In Progress' & manager.Email = :email 
+```
 
 La recherche permettra de filtrer les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce au lien *N vers 1* qui figure dans le nom du chargé de clientèle).<div class = "tips"> 
 
@@ -25,8 +26,9 @@ La recherche permettra de filtrer les données en fonction du statut **In Progre
 
 Ajoutez la ligne suivante dans la méthode de base de données :
 
-    $response.userInfo:=New object("email";$request.email)
-    
+```code4d
+$response.userInfo:=New object("email";$request.email)
+```
 
 Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.
 
