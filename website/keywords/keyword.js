@@ -1,4 +1,3 @@
-var keyword = 'Begin SQL|For|Case of|Else|End case|End for|End for each|End if|End SQL|End use|End while|For each|If|'+
-              'Repeat|Until|Use|While'
+var keyword = 'Begin SQL|End SQL|For each|End for each|If|Else|End if|Case of|End case|For|End for|Use|End use|While|End while|Repeat|Until'
 
 module.exports = keyword;

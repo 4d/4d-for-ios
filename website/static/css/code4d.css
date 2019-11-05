@@ -2,24 +2,24 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: rgb(44, 44, 44);
+  background: #282C34;
 }
 
-.language-code4d{color:#dadada;font-weight:normal;font-size:90%;font-family:"Consolas",Consolas, monospace;background: #444 ;padding: 1em 0.5em 1em 0.8em;}
+.language-code4d{color:#dadada;font-weight:normal;font-size:90%;font-family:"Consolas",Consolas, monospace;background: #282C34 ;padding: 1em 0.5em 1em 0.8em;}
   .code4d pre{padding:0;}	
-  .language-code4d .hljs-keyword{font-weight:bold;font-style:normal;color:#B34095;}	
+  .language-code4d .hljs-keyword{font-weight:normal;font-style:normal;color:#c678dd;}	
   .language-code4d .hljs-param{font-style:normal;font-weight:bold;color:#62D594;}
   .language-code4d .hljs-locale{font-style:normal;color:rgb(179, 194, 248);}
   .language-code4d .hljs-interprocess{font-style:normal;color:#EA3387;}
-  .language-code4d .hljs-command{font-style:normal;font-weight:bold;text-decoration:none;color:#4EADC7;}
+  .language-code4d .hljs-command{font-style:normal;font-weight:normal;text-decoration:none;color:#4EADC7;}
   .language-code4d .hljs-plugin{font-weight: bold; font-style:italic;color:rgb(212, 212, 212);text-decoration:none;}
   .language-code4d .hljs-constant{font-style:normal;text-decoration:underline;color:#B07AF7;}
   .language-code4d .hljs-global{font-style:normal;color:#858AF7;}
-  .language-code4d .hljs-method{font-weight:bold;font-style:italic;color:#D4925B;}
+  .language-code4d .hljs-method{font-weight:normal;font-style:italic;color:#d19a66;}
   .language-code4d .hljs-table{font-style:normal;color:#E0A261;}
   .language-code4d .hljs-field{font-style:normal;color:#ECE96F;}
   .language-code4d .hljs-comment{font-style:normal;color:#80BE41;}
-  .language-code4d .hljs-string{font-style:normal;color:#F2F2F2;}
+  .language-code4d .hljs-string{font-style:normal;color:#dadada;}
   .language-code4d .hljs-property{font-style:normal;color: #9B816E;}
   
   
