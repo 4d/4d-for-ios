@@ -13,8 +13,9 @@ Ahora filtremos el contenido de nuestra aplicación según la dirección de corr
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-    Status = 'In Progress' & manager.Email = :email 
-    
+```code4d
+Status = 'In Progress' & manager.Email = :email 
+```
 
 La búsqueda filtrará los datos según el estado **In Progress** Y la **dirección de correo electrónico del administrador de cuentas** (accesible desde la tabla AccountManager gracias a la relación *Muchos a Uno* en el nombre del gerente).<div class = "tips"> 
 
@@ -25,8 +26,9 @@ La búsqueda filtrará los datos según el estado **In Progress** Y la **direcci
 
 Agregue la siguiente línea en el método de base de datos:
 
-    $response.userInfo:=New object("email";$request.email)
-    
+```code4d
+$response.userInfo:=New object("email";$request.email)
+```
 
 Esto permitirá recuperar la dirección de correo electrónico de inicio de sesión del administrador y mostrar los datos según ese criterio.
 
