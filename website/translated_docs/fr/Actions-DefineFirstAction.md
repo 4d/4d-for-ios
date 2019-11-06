@@ -57,82 +57,84 @@ Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc
 
 Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile** :
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($o;$context;$request;$result)
-    
-    $request:=$1  // Informations provided by mobile application
-    
-    $context:=$request.context
-    
-    Case of
-    
-        : ($request.action="taskDone")
-    
-            $o:=New object(\
-            "dataClass";$context.dataClass;\
-            "ID";$context.entity.primaryKey;\
-            "CompletePercentage";100)
-    
-            $result:=modifyStatus ($o)
-    
-        Else
-    
-              // Unknown request
-            $result:=New object("success";False)
-    
-    End case
-    
-    $0:=$result  // Informations returned to mobile application
-    
-    
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($o;$context;$request;$result)
+
+$request:=$1  // Informations provided by mobile application
+
+$context:=$request.context
+
+Case of
+
+    : ($request.action="taskDone")
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "CompletePercentage";100)
+
+        $result:=modifyStatus ($o)
+
+    Else
+
+          // Unknown request
+        $result:=New object("success";False)
+
+End case
+
+$0:=$result  // Informations returned to mobile application
+
+```
 
 ### ÉTAPE 3. Créer une méthode "modifyStatus"
 
 Une fois votre méthode base modifiée, vous devez créer une méthode **modifyStatus** qui permettra de réaliser la tâche demandée :
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
-    
-    $in:=$1
-    
-    $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-    
-    If ($selection.length=1)
-    
-        $entity:=$selection[0]
-    
-        $entity.CompletePercentage:=$in.CompletePercentage
-    
-        $entity.Status:=3
-    
-        $status:=$entity.save()
-    
-        $out:=New object
-    
-        If ($status.success)
-    
-            $out.success:=True  // notify App that action is successful
-            $out.dataSynchro:=True  // notify App to refresh this entity
-    
-        Else
-    
-            $out:=$status  // return status to the App
-    
-        End if
-    
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+
+$in:=$1
+
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
+
+If ($selection.length=1)
+
+    $entity:=$selection[0]
+
+    $entity.CompletePercentage:=$in.CompletePercentage
+
+    $entity.Status:=3
+
+    $status:=$entity.save()
+
+    $out:=New object
+
+    If ($status.success)
+
+        $out.success:=True  // notify App that action is successful
+        $out.dataSynchro:=True  // notify App to refresh this entity
+
     Else
-    
-        $out.success:=False  // notify App that action failed
-    
+
+        $out:=$status  // return status to the App
+
     End if
-    
-    $0:=$out
-    
-    
+
+Else
+
+    $out.success:=False  // notify App that action failed
+
+End if
+
+$0:=$out
+
+```
 
 Générez et exécutez votre application... et voilà ! Votre **action Done** est disponible lorsque vous faites coulisser une cellule vers la gauche dans le formulaire Liste, et lorsque vous cliquez sur le **bouton générique Actions** dans la barre de navigation du formulaire détaillé.
 
@@ -159,78 +161,80 @@ Nous allons définir cette action depuis la section Actions :
 
 Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile**  :
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($o;$context;$request;$result)
-    
-    $request:=$1  // Informations provided by mobile application
-    
-    $context:=$request.context
-    
-    Case of
-    
-        : ($request.action="taskDone")
-    
-            $o:=New object(\
-            "dataClass";$context.dataClass;\
-            "ID";$context.entity.primaryKey;\
-            "CompletePercentage";100)
-    
-            $result:=modifyStatus ($o)
-    
-        : ($request.action="postponeAll")
-    
-            $o:=New object(\
-            "dataClass";$context.dataClass;\
-            "Status";4)
-    
-            $result:= postponeAll ($o)
-        Else
-    
-              // Unknown request
-            $result:=New object("success";False)
-    
-    End case
-    
-    $0:=$result  // Informations returned to mobile application
-    
-    
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($o;$context;$request;$result)
+
+$request:=$1  // Informations provided by mobile application
+
+$context:=$request.context
+
+Case of
+
+    : ($request.action="taskDone")
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "CompletePercentage";100)
+
+        $result:=modifyStatus ($o)
+
+    : ($request.action="postponeAll")
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "Status";4)
+
+        $result:= postponeAll ($o)
+    Else
+
+          // Unknown request
+        $result:=New object("success";False)
+
+End case
+
+$0:=$result  // Informations returned to mobile application
+
+```
 
 ### ÉTAPE 3. Créer une méthode "postponeAll"
 
 Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes étapes et créez une nouvelle méthode **postponeAll** qui permettra de modifier le statut de tous les enregistrements :
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($entity;$in;$out)
-    
-    $in:=$1
-    
-    $out:=New object("success";False)
-    
-    If ($in.dataClass#Null)
-    
-        For each ($entity;ds[$in.dataClass].all())
-    
-            $entity.Status:=$in.Status
-            $entity.save()
-    
-        End for each
-    
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh the selection
-    
-    Else
-    
-        $out.errors:=New collection("No Selection")
-    
-    End if
-    
-    $0:=$out
-    
-    
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($entity;$in;$out)
+
+$in:=$1
+
+$out:=New object("success";False)
+
+If ($in.dataClass#Null)
+
+    For each ($entity;ds[$in.dataClass].all())
+
+        $entity.Status:=$in.Status
+        $entity.save()
+
+    End for each
+
+    $out.success:=True  // notify App that action success
+    $out.dataSynchro:=True  // notify App to refresh the selection
+
+Else
+
+    $out.errors:=New collection("No Selection")
+
+End if
+
+$0:=$out
+
+```
 
 Générez et exécutez votre projet ! Vous trouverez un nouveau **bouton générique** dans la barre de navigation de votre formulaire Liste. Cliquez dessus pour déclencher l'action **Postpone All**.
 

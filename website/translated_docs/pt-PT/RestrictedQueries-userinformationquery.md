@@ -13,8 +13,9 @@ Now let's filter our app content depending on the account manager's login email 
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-    Status = 'In Progress' & manager.Email = :email 
-    
+```code4d
+Status = 'In Progress' & manager.Email = :email 
+```
 
 The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).<div class = "tips"> 
 
@@ -25,8 +26,9 @@ The query will filter data depending on the **In Progress** status AND the **Acc
 
 Add the following line in the database method:
 
-    $response.userInfo:=New object("email";$request.email)
-    
+```code4d
+$response.userInfo:=New object("email";$request.email)
+```
 
 This will allow retrieving the manager's login email address and displaying data depending on that criteria.
 

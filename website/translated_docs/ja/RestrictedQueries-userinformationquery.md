@@ -13,8 +13,9 @@ title: ユーザー情報に基づくクエリ
 
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/user-information-query.png)
 
-    Status = 'In Progress' & manager.Email = :email 
-    
+```code4d
+Status = 'In Progress' & manager.Email = :email 
+```
 
 このクエリフィルターを通過することができるのは，ステータスが**&apos;In Progress&apos;**であり，かつ，**営業担当者のメールアドレス**（*Ｎ対１リレーション*により，AccountManagerテーブルから取得）が合致するデータだけです。<div class = "tips"> 
 
@@ -25,8 +26,9 @@ title: ユーザー情報に基づくクエリ
 
 データベースメソッドに下記のコードを追加します。
 
-    $response.userInfo:=New object("email";$request.email)
-    
+```code4d
+$response.userInfo:=New object("email";$request.email)
+```
 
 表示できるデータを判定するための条件として，営業担当者のログインメールアドレスが参照できるようになります。
 

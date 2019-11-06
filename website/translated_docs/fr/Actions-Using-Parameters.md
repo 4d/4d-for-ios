@@ -116,259 +116,266 @@ Il ne vous reste qu'à ajouter une référence à votre/vos méthode(s) pour le(
 
 Voici la méthode base *Sur une action app mobile* finale :
 
-    C_OBJECT($0;$response)
-    C_OBJECT($1;$request)
-    
-    C_OBJECT($o;$context;$request;$result;$parameters)
-    
-    $request:=$1  // Informations provided by mobile application
-    
-    $context:=$request.context
-    $parameters:=$request.parameters
-    
-    Case of 
-    
-        : ($request.action="addTasks")
-    
-              // Insert here the code for the action "Add…"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-    
-            $result:=addAction ($o)
-    
-        : ($request.action="editTasks")
-    
-              // Insert here the code for the action "Edit…"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
-    
-            $result:=editAction ($o)
-    
-    
-        : ($request.action="deleteTasks")
-    
-              // Insert here the code for the action "Remove"
-    
-            $o:=New object(\
-            "dataClass";$context.dataClass;\
-            "ID";$context.entity.primaryKey)
-    
-            $result:=deleteAction ($o)
-    
-        : ($request.action="sendComment")
-    
-              // Insert here the code for the action "Send Comment"
-    
-            $o:=OB Copy($parameters)
-            $o.dataClass:=$context.dataClass
-            $o.ID:=$context.entity.primaryKey
-    
-    
-            $result:=sendMail ($o)
-    
-        Else 
-    
-               // Unknown action
-            $result:=New object(\
-            "success";False;\
-            "statusText";"Internal error")
-    
-    End case 
-    
-    $0:=$result
-    
-    
-    
-    
+```code4d
+C_OBJECT($0;$response)
+C_OBJECT($1;$request)
+
+C_OBJECT($o;$context;$request;$result;$parameters)
+
+$request:=$1  // Informations provided by mobile application
+
+$context:=$request.context
+$parameters:=$request.parameters
+
+Case of 
+
+    : ($request.action="addTasks")
+
+          // Insert here the code for the action "Add…"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "parameters";$parameters)
+
+        $result:=addAction ($o)
+
+    : ($request.action="editTasks")
+
+          // Insert here the code for the action "Edit…"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+        $result:=editAction ($o)
+
+
+    : ($request.action="deleteTasks")
+
+          // Insert here the code for the action "Remove"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey)
+
+        $result:=deleteAction ($o)
+
+    : ($request.action="sendComment")
+
+          // Insert here the code for the action "Send Comment"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+
+        $result:=sendMail ($o)
+
+    Else 
+
+          // Unknown action
+
+End case 
+
+$0:=$result
+
+```
 
 ## ÉTAPE 6. Création de toutes les méthodes nécessaires
 
 ### addAction
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($entity;$in;$out)
-    
-    $in:=$1
-    $out:=New object("success";False)
-    
-    If ($in.dataClass#Null)
-    
-        $entity:=ds[$in.dataClass].new()  //create a reference
-    
-        $entity.CompletePercentage:=$in.CompletePercentage
-        $entity.StartDate:=$in.StartDate
-        $entity.DueDate:=$in.DueDate
-        $entity.Description:=$in.Description
-        $entity.Title:=$in.Title
-        $entity.Status:=$in.Status
-        $entity.Priority:=$in.Priority
-    
-        $entity.save()  //save the entity
-    
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh the selection
-        $out.statusText:="Task added"
-    
-    Else 
-    
-        $out.errors:=New collection("No Selection")
-    
-    End if 
-    
-    $0:=$out
-    
-    
-    
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($entity;$in;$out)
+
+$in:=$1
+
+$out:=New object("success";False)
+
+If ($in.dataClass#Null)
+
+    $entity:=ds.Tasks.new()  //create a reference
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $entity.save()  //save the entity
+
+
+    $out.success:=True  // notify App that action success
+    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.statusText:="Task added"
+
+Else 
+
+    $out.errors:=New collection("No Selection")
+
+End if 
+
+$0:=$out
+
+
+
+```
 
 ### editAction
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($dataClass;$entity;$in;$out;$status;$selection;$emailToSend)
-    
-    $in:=$1
+```code4d
+C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+
+$in:=$1
+
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
+
+If ($selection.length=1)
+
+    $entity:=$selection[0]
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $status:=$entity.save()
+
     $out:=New object
-    
-    $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-    
-    If ($selection.length=1)
-    
-        $entity:=$selection[0]
-    
-        $entity.CompletePercentage:=$in.CompletePercentage
-        $entity.StartDate:=$in.StartDate
-        $entity.DueDate:=$in.DueDate
-        $entity.Description:=$in.Description
-        $entity.Title:=$in.Title
-        $entity.Status:=$in.Status
-        $entity.Priority:=$in.Priority
-    
-        $status:=$entity.save()
-    
-        If ($status.success)
-    
-            $out.success:=True  // notify App that action success
-            $out.dataSynchro:=True  // notify App to refresh this entity
-            $out.statusText:="Task edited"
-    
-        Else 
-    
-            $out:=$status  // return status to the App
-    
-        End if 
-    
+
+    If ($status.success)
+
+        $out.success:=True  // notify App that action success
+        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.statusText:="Task edited"
+
     Else 
-    
-        $out.success:=False  // notify App that action failed
-    
+
+        $out:=$status  // return status to the App
+
     End if 
-    
-    $0:=$out
-    
-    
-    
+
+Else 
+
+    $out.success:=False  // notify App that action failed
+
+End if 
+
+$0:=$out
+
+
+```
 
 ### deleteAction
 
-    C_OBJECT($0)
-    C_OBJECT($1)
-    
-    C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
-    
-    $in:=$1
+```code4d
+<br />C_OBJECT($0)
+C_OBJECT($1)
+
+C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+
+$in:=$1
+
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
+
+If ($selection.length=1)
+
+    $entity:=$selection.drop()
+
     $out:=New object
-    
-    $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-    
-    If ($selection.length=1)
-    
-        $entity:=$selection.drop()
-    
-        If ($entity.length=0)
-    
-            $out.success:=True  // notify App that action success
-            $out.dataSynchro:=True  // notify App to refresh this entity
-            $out.statusText:="Task deleted"
-    
-        Else 
-    
-            $out:=$status  // return status to the App
-    
-        End if 
-    
+
+    If ($entity.length=0)
+
+        $out.success:=True  // notify App that action success
+        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.statusText:="Task deleted"
+
     Else 
-    
-        $out.success:=False  // notify App that action failed
-    
+
+        $out:=$status  // return status to the App
+
     End if 
-    
-    $0:=$out
-    
-    
-    
+
+Else 
+
+    $out.success:=False  // notify App that action failed
+
+End if 
+
+$0:=$out
+
+
+```
 
 ### sendEmail
 
-    C_OBJECT($0;$out)
-    C_OBJECT($1;$in)
-    
-    C_OBJECT($dataClass;$entity;$selection)
-    
-    $in:=$1
+```code4d
+C_OBJECT($0;$out)
+C_OBJECT($1;$in)
+
+C_OBJECT($dataClass;$entity;$selection)
+
+$in:=$1
+
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
+
+If ($selection.length=1)
+
+    $entity:=$selection[0]
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
     $out:=New object
-    
-    $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-    
-    If ($selection.length=1)
-    
-        $entity:=$selection[0]
-    
-        $taskTitle:=$in.Title
-        $commentToSend:=$in.Comment
-        $emailToSend:=$in.Email
-    
-        $server:=New object
-        $server.host:="smtp.gmail.com"
-        $server.port:=465
-        $server.user:="test@mail.com" //To be replaced by your email
-        $server.password:="yourPassword" //To be replaced by your password
-    
-        $transporter:=SMTP New transporter($server)
-    
-        $email:=New object
-        $email.subject:="New comment about one of your task"
-        $email.from:="yourEmail" //To be replaced by your email
-        $email.to:=$emailToSend
-        $email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
-        +$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
-    
-        $status:=$transporter.send($email)
-        If ($status.success)
-            $out.success:=True  // notify App that action success
-            $out.statusText:="Mail sent"
-    
-        Else 
-            $out.success:=False  // notify App that action success
-            $out.statusText:="Mail not sent"
-    
-        End if 
-    
+
+    $server:=New object
+    $server.host:="smtp.gmail.com"
+    $server.port:=465
+    $server.user:="test@mail.com"
+    $server.password:="yourPassword"
+
+    $transporter:=SMTP New transporter($server)
+
+    $email:=New object
+    $email.subject:="New comment about one of your task"
+    $email.from:="yourEmail"
+    $email.to:=$emailToSend
+    $email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
+    +$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
+
+    $status:=$transporter.send($email)
+    If ($status.success)
+        $out.success:=True  // notify App that action success
+        $out.statusText:="Mail sent"
+
     Else 
-    
-        $out.success:=False  // notify App that action failed
-    
+        $out.success:=False  // notify App that action success
+        $out.statusText:="Mail not sent"
+
     End if 
-    
-    $0:=$out
-    
-    
-    
+
+Else 
+
+    $out.success:=False  // notify App that action failed
+
+End if 
+
+$0:=$out
+
+
+```
 
 *N'oubliez pas d'ajouter vos propres valeurs pour l'action **sendEmail**.
 
