@@ -83,7 +83,7 @@
 <li>Remember to validate the query by clicking on the <strong>Validate</strong> button. If not, you won't be able to build your app.</li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/user-information-query.png" alt="User information query"></p>
-<pre><code class="hljs css language-code4d"><span class="hljs-attr">Status</span> = <span class="hljs-string">'In Progress'</span> &amp; manager.Email = :email 
+<pre><code class="hljs css language-code4d">Status = 'In Progress' &amp; manager<span class="hljs-property">.Email</span> = :email 
 </code></pre>
 <p>The query will filter data depending on the <strong>In Progress</strong> status AND the <strong>Account manager's email address</strong> (accessible from the AccountManager table thanks to the <em>Many-to-One</em> relation on the manager's name).</p>
 <div markdown="1" class = "tips">
@@ -94,7 +94,7 @@
 </ul>
 </div>
 <p>Add the following line in the database method:</p>
-<pre><code class="hljs css language-code4d">$response.userInfo:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"email"</span>;$request.email)
+<pre><code class="hljs css language-code4d"><span class="hljs-locale">$response</span><span class="hljs-property">.userInfo</span>:=<span class="hljs-command">New object</span>("<span class="hljs-string">email</span>";<span class="hljs-locale">$request</span><span class="hljs-property">.email</span>)
 </code></pre>
 <p>This will allow retrieving the manager's login email address and displaying data depending on that criteria.</p>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/database-method-user-information-query.png" alt="User information query"></p>

@@ -152,249 +152,249 @@ href="../assets/en/actions/ActionParametersStarterProject.zip">PROYECTO STARTER<
 <p>Todas sus acciones se incluirán automáticamente en el método base.</p>
 <p>Lo único que debe hacer es agregar una referencia a su(s) método(s) para el (los) escenario(s) que desea manejar.</p>
 <p>Aquí el método base <em>On Mobile App Action</em> final:</p>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>;$response)
-C_OBJECT($<span class="hljs-number">1</span>;$request)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>;<span class="hljs-locale">$response</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>;<span class="hljs-locale">$request</span>)
 
-C_OBJECT($o;$context;$request;$result;$parameters)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$o</span>;<span class="hljs-locale">$context</span>;<span class="hljs-locale">$request</span>;<span class="hljs-locale">$result</span>;<span class="hljs-locale">$parameters</span>)
 
-$request:=$<span class="hljs-number">1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-locale">$request</span>:=<span class="hljs-param">$1</span>  <span class="hljs-comment">// Informations provided by mobile application
+</span>
+<span class="hljs-locale">$context</span>:=<span class="hljs-locale">$request</span><span class="hljs-property">.context</span>
+<span class="hljs-locale">$parameters</span>:=<span class="hljs-locale">$request</span><span class="hljs-property">.parameters</span>
 
-$context:=$request.context
-$parameters:=$request.parameters
+<span class="hljs-keyword">Case of</span> 
 
-<span class="hljs-keyword">Case</span> of 
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">addTasks</span>")
 
-    : ($request.action=<span class="hljs-string">"addTasks"</span>)
+          <span class="hljs-comment">// Insert here the code for the action "Add…"
+</span>
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Add…"</span>
+        <span class="hljs-locale">$result</span>:=addAction (<span class="hljs-locale">$o</span>)
 
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">editTasks</span>")
 
-        $result:=addAction ($o)
+          <span class="hljs-comment">// Insert here the code for the action "Edit…"
+</span>
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
 
-    : ($request.action=<span class="hljs-string">"editTasks"</span>)
-
-          <span class="hljs-comment">// Insert here the code for the action "Edit…"</span>
-
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
-
-        $result:=editAction ($o)
-
-
-    : ($request.action=<span class="hljs-string">"deleteTasks"</span>)
-
-          <span class="hljs-comment">// Insert here the code for the action "Remove"</span>
-
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey)
-
-        $result:=deleteAction ($o)
-
-    : ($request.action=<span class="hljs-string">"sendComment"</span>)
-
-          <span class="hljs-comment">// Insert here the code for the action "Send Comment"</span>
-
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
+        <span class="hljs-locale">$result</span>:=editAction (<span class="hljs-locale">$o</span>)
 
 
-        $result:=sendMail ($o)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">deleteTasks</span>")
+
+          <span class="hljs-comment">// Insert here the code for the action "Remove"
+</span>
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>)
+
+        <span class="hljs-locale">$result</span>:=deleteAction (<span class="hljs-locale">$o</span>)
+
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">sendComment</span>")
+
+          <span class="hljs-comment">// Insert here the code for the action "Send Comment"
+</span>
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
+
+
+        <span class="hljs-locale">$result</span>:=sendMail (<span class="hljs-locale">$o</span>)
 
     <span class="hljs-keyword">Else</span> 
 
-          <span class="hljs-comment">// Unknown action</span>
+          <span class="hljs-comment">// Unknown action
+</span>
+<span class="hljs-keyword">End case</span> 
 
-End <span class="hljs-keyword">case</span> 
-
-$<span class="hljs-number">0</span>:=$result
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$result</span>
 
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="paso-6-creacion-de-todos-los-metodos-necesarios"></a><a href="#paso-6-creacion-de-todos-los-metodos-necesarios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 6. Creación de todos los métodos necesarios</h2>
 <h3><a class="anchor" aria-hidden="true" id="addaction"></a><a href="#addaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>addAction</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
-C_OBJECT($<span class="hljs-number">1</span>)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT($entity;$in;$out)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>)
 
-$in:=$<span class="hljs-number">1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-$out:=<span class="hljs-keyword">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-keyword">False</span>)
+<span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>("<span class="hljs-string">success</span>";<span class="hljs-command">False</span>)
 
-<span class="hljs-keyword">If</span> ($in.dataClass<span class="hljs-comment">#Null)</span>
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>#<span class="hljs-command">Null</span>)
 
-    $entity:=ds.Tasks.<span class="hljs-keyword">new</span>()  <span class="hljs-comment">//create a reference</span>
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-command">ds</span><span class="hljs-property">.Tasks</span><span class="hljs-method">.new()</span>  <span class="hljs-comment">//create a reference
+</span>
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
 
-    <span class="hljs-keyword">For</span> each ($key;$in.parameters)
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
 
-        $entity[$key]:=$in.parameters[$key]
+    <span class="hljs-keyword">End for each</span> 
 
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-locale">$entity</span><span class="hljs-method">.save()</span>  <span class="hljs-comment">//save the entity
+</span>
 
-    $entity.save()  <span class="hljs-comment">//save the entity</span>
-
-
-    $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    $out.dataSynchro:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
-    $out.statusText:=<span class="hljs-string">"Task added"</span>
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>    <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh the selection
+</span>    <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task added</span>"
 
 <span class="hljs-keyword">Else</span> 
 
-    $out.errors:=<span class="hljs-keyword">New</span> collection(<span class="hljs-string">"No Selection"</span>)
+    <span class="hljs-locale">$out</span><span class="hljs-property">.errors</span>:=<span class="hljs-command">New collection</span>("<span class="hljs-string">No Selection</span>")
 
-End <span class="hljs-keyword">if</span> 
+<span class="hljs-keyword">End if</span> 
 
-$<span class="hljs-number">0</span>:=$out
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="editaction"></a><a href="#editaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>editAction</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT(<span class="hljs-variable">$0</span>)
-C_OBJECT(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>;<span class="hljs-locale">$status</span>;<span class="hljs-locale">$selection</span>)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-<span class="hljs-variable">$selection</span>:=<span class="hljs-keyword">ds</span>[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-keyword">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-built_in">String</span>(<span class="hljs-variable">$in</span>.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> (<span class="hljs-variable">$selection</span>.length=1)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
 
-    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>[0]
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span>[0]
 
-    <span class="hljs-keyword">For</span> each (<span class="hljs-variable">$key</span>;<span class="hljs-variable">$in</span>.parameters)
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
 
-        <span class="hljs-variable">$entity</span>[<span class="hljs-variable">$key</span>]:=<span class="hljs-variable">$in</span>.parameters[<span class="hljs-variable">$key</span>]
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
 
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-keyword">End for each</span> 
 
-    <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-keyword">save</span>()
+    <span class="hljs-locale">$status</span>:=<span class="hljs-locale">$entity</span><span class="hljs-method">.save()</span>
 
-    <span class="hljs-variable">$out</span>:=New object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
 
-    <span class="hljs-keyword">If</span> (<span class="hljs-variable">$status</span>.success)
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$status</span><span class="hljs-property">.success</span>)
 
-        <span class="hljs-variable">$out</span>.success:=True  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=True  <span class="hljs-comment">// notify App to refresh this entity</span>
-        <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task edited"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh this entity
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task edited</span>"
 
     <span class="hljs-keyword">Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span>
-
-    End <span class="hljs-keyword">if</span> 
+        <span class="hljs-locale">$out</span>:=<span class="hljs-locale">$status</span>  <span class="hljs-comment">// return status to the App
+</span>
+    <span class="hljs-keyword">End if</span> 
 
 <span class="hljs-keyword">Else</span> 
 
-    <span class="hljs-variable">$out</span>.success:=False  <span class="hljs-comment">// notify App that action failed</span>
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>
+<span class="hljs-keyword">End if</span> 
 
-End <span class="hljs-keyword">if</span> 
-
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="deleteaction"></a><a href="#deleteaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>deleteAction</h3>
-<pre><code class="hljs css language-code4d">&lt;<span class="hljs-keyword">br</span> /&gt;C_OBJECT(<span class="hljs-variable">$0</span>)
-C_OBJECT(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">&lt;br /&gt;<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>;<span class="hljs-locale">$status</span>;<span class="hljs-locale">$selection</span>)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-<span class="hljs-variable">$selection</span>:=<span class="hljs-keyword">ds</span>[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-keyword">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-built_in">String</span>(<span class="hljs-variable">$in</span>.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> (<span class="hljs-variable">$selection</span>.length=1)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
 
-    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>.<span class="hljs-keyword">drop</span>()
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span><span class="hljs-method">.drop()</span>
 
-    <span class="hljs-variable">$out</span>:=New object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
 
-    <span class="hljs-keyword">If</span> (<span class="hljs-variable">$entity</span>.length=0)
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$entity</span><span class="hljs-property">.length</span>=0)
 
-        <span class="hljs-variable">$out</span>.success:=True  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=True  <span class="hljs-comment">// notify App to refresh this entity</span>
-        <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task deleted"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh this entity
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task deleted</span>"
 
     <span class="hljs-keyword">Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span>
-
-    End <span class="hljs-keyword">if</span> 
+        <span class="hljs-locale">$out</span>:=<span class="hljs-locale">$status</span>  <span class="hljs-comment">// return status to the App
+</span>
+    <span class="hljs-keyword">End if</span> 
 
 <span class="hljs-keyword">Else</span> 
 
-    <span class="hljs-variable">$out</span>.success:=False  <span class="hljs-comment">// notify App that action failed</span>
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>
+<span class="hljs-keyword">End if</span> 
 
-End <span class="hljs-keyword">if</span> 
-
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="sendemail"></a><a href="#sendemail" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sendEmail</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>;$out)
-C_OBJECT($<span class="hljs-number">1</span>;$in)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>;<span class="hljs-locale">$out</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>;<span class="hljs-locale">$in</span>)
 
-C_OBJECT($dataClass;$entity;$selection)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$selection</span>)
 
-$in:=$<span class="hljs-number">1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-$selection:=ds[$in.dataClass].query(<span class="hljs-string">"ID = :1"</span>;String($in.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> ($selection.length=<span class="hljs-number">1</span>)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
 
-    $entity:=$selection[<span class="hljs-number">0</span>]
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span>[0]
 
-    <span class="hljs-keyword">For</span> each ($key;$in.parameters)
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
 
-        $entity[$key]:=$in.parameters[$key]
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
 
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-keyword">End for each</span> 
 
-    $out:=<span class="hljs-keyword">New</span> object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
 
-    $server:=<span class="hljs-keyword">New</span> object
-    $server.host:=<span class="hljs-string">"smtp.gmail.com"</span>
-    $server.port:=<span class="hljs-number">465</span>
-    $server.user:=<span class="hljs-string">"test@mail.com"</span>
-    $server.password:=<span class="hljs-string">"yourPassword"</span>
+    <span class="hljs-locale">$server</span>:=<span class="hljs-command">New object</span>
+    <span class="hljs-locale">$server</span><span class="hljs-property">.host</span>:="<span class="hljs-string">smtp.gmail.com</span>"
+    <span class="hljs-locale">$server</span><span class="hljs-property">.port</span>:=465
+    <span class="hljs-locale">$server</span><span class="hljs-property">.user</span>:="<span class="hljs-string">test@mail.com</span>"
+    <span class="hljs-locale">$server</span><span class="hljs-property">.password</span>:="<span class="hljs-string">yourPassword</span>"
 
-    $transporter:=SMTP <span class="hljs-keyword">New</span> transporter($server)
+    <span class="hljs-locale">$transporter</span>:=SMTP New transporter(<span class="hljs-locale">$server</span>)
 
-    $email:=<span class="hljs-keyword">New</span> object
-    $email.subject:=<span class="hljs-string">"New comment about one of your task"</span>
-    $email.from:=<span class="hljs-string">"yourEmail"</span>
-    $email.to:=$emailToSend
-    $email.htmlBody:=<span class="hljs-string">"&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;"</span>+<span class="hljs-string">"&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; "</span>+$taskTitle+<span class="hljs-string">"&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; "</span>\
-    +$commentToSend+<span class="hljs-string">"&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;"</span>\
+    <span class="hljs-locale">$email</span>:=<span class="hljs-command">New object</span>
+    <span class="hljs-locale">$email</span><span class="hljs-property">.subject</span>:="<span class="hljs-string">New comment about one of your task</span>"
+    <span class="hljs-locale">$email</span><span class="hljs-property">.from</span>:="<span class="hljs-string">yourEmail</span>"
+    <span class="hljs-locale">$email</span><span class="hljs-property">.to</span>:=<span class="hljs-locale">$emailToSend</span>
+    <span class="hljs-locale">$email</span><span class="hljs-property">.htmlBody</span>:="<span class="hljs-string">&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;</span>"+"<span class="hljs-string">&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; </span>"+<span class="hljs-locale">$taskTitle</span>+"<span class="hljs-string">&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; </span>"\
+    +<span class="hljs-locale">$commentToSend</span>+"<span class="hljs-string">&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;</span>"\
 
-    $status:=$transporter.send($email)
-    <span class="hljs-keyword">If</span> ($status.success)
-        $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
-        $out.statusText:=<span class="hljs-string">"Mail sent"</span>
+    <span class="hljs-locale">$status</span>:=<span class="hljs-locale">$transporter</span><span class="hljs-method">.send(<span class="hljs-locale">$email</span>)</span>
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$status</span><span class="hljs-property">.success</span>)
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Mail sent</span>"
 
     <span class="hljs-keyword">Else</span> 
-        $out.success:=<span class="hljs-keyword">False</span>  <span class="hljs-comment">// notify App that action success</span>
-        $out.statusText:=<span class="hljs-string">"Mail not sent"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Mail not sent</span>"
 
-    End <span class="hljs-keyword">if</span> 
+    <span class="hljs-keyword">End if</span> 
 
 <span class="hljs-keyword">Else</span> 
 
-    $out.success:=<span class="hljs-keyword">False</span>  <span class="hljs-comment">// notify App that action failed</span>
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>
+<span class="hljs-keyword">End if</span> 
 
-End <span class="hljs-keyword">if</span> 
-
-$<span class="hljs-number">0</span>:=$out
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>

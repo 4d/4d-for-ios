@@ -83,7 +83,7 @@
 <li>Recuerde validar la consulta haciendo clic en el botón <strong>Validar</strong>. De lo contrario, no podrá crear su aplicación.</li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/user-information-query.png" alt="User information query"></p>
-<pre><code class="hljs css language-code4d"><span class="hljs-attr">Status</span> = <span class="hljs-string">'In Progress'</span> &amp; manager.Email = :email 
+<pre><code class="hljs css language-code4d">Status = 'In Progress' &amp; manager<span class="hljs-property">.Email</span> = :email 
 </code></pre>
 <p>La búsqueda filtrará los datos según el estado <strong>In Progress</strong> Y la <strong>dirección de correo electrónico del administrador de cuentas</strong> (accesible desde la tabla AccountManager gracias a la relación <em>Muchos a Uno</em> en el nombre del gerente).<div class = "tips"></p>
 <p><strong>NOTA</strong></p>
@@ -92,7 +92,7 @@
 <li>Tan pronto como una búsqueda se base en la información del usuario y se valide, debe editar el <strong>Método de autenticación de la aplicación móvil</strong>. Para hacerlo, haga clic con el botón derecho en el botón <strong>Edit authentication method</strong> para abrir la ventana de edición del método de base de datos.</div></li>
 </ul>
 <p>Agregue la siguiente línea en el método de base de datos:</p>
-<pre><code class="hljs css language-code4d">$response.userInfo:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"email"</span>;$request.email)
+<pre><code class="hljs css language-code4d"><span class="hljs-locale">$response</span><span class="hljs-property">.userInfo</span>:=<span class="hljs-command">New object</span>("<span class="hljs-string">email</span>";<span class="hljs-locale">$request</span><span class="hljs-property">.email</span>)
 </code></pre>
 <p>Esto permitirá recuperar la dirección de correo electrónico de inicio de sesión del administrador y mostrar los datos según ese criterio.</p>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/database-method-user-information-query.png" alt="User information query"></p>

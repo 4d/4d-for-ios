@@ -83,7 +83,7 @@
 <li>Souvenez-vous de valider la recherche en cliquant sur le bouton <strong>Valider</strong>. Sinon, vous ne pourrez plus créer votre application.</li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/user-information-query.png" alt="User information query"></p>
-<pre><code class="hljs css language-code4d"><span class="hljs-attr">Status</span> = <span class="hljs-string">'In Progress'</span> &amp; manager.Email = :email 
+<pre><code class="hljs css language-code4d">Status = 'In Progress' &amp; manager<span class="hljs-property">.Email</span> = :email 
 </code></pre>
 <p>La recherche permettra de filtrer les données en fonction du statut <strong>In Progress</strong> ET de <strong>l'e-mail du chargé de clientèle</strong> (accessible depuis la table AccountManager grâce au lien <em>N vers 1</em> qui figure dans le nom du chargé de clientèle).<div class = "tips"></p>
 <p><strong>NOTE</strong></p>
@@ -92,7 +92,7 @@
 <li>Dès qu’une recherche est basée sur les informations utilisateur et qu'elle est validée, vous devez modifier la <strong>méthode d'authentification de l'application mobile</strong>. Pour ce faire, faites un clic droit sur le bouton <strong>Edit authentication method</strong> pour ouvrir la fenêtre d’édition de la méthode de base de données.</div></li>
 </ul>
 <p>Ajoutez la ligne suivante dans la méthode de base de données :</p>
-<pre><code class="hljs css language-code4d">$response.userInfo:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"email"</span>;$request.email)
+<pre><code class="hljs css language-code4d"><span class="hljs-locale">$response</span><span class="hljs-property">.userInfo</span>:=<span class="hljs-command">New object</span>("<span class="hljs-string">email</span>";<span class="hljs-locale">$request</span><span class="hljs-property">.email</span>)
 </code></pre>
 <p>Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.</p>
 <p><img src="/4d-for-ios/docs/assets/en/restricted-queries/database-method-user-information-query.png" alt="User information query"></p>
