@@ -165,6 +165,9 @@
       "many-to-one-relations": {
         "title": "Many to One relations"
       },
+      "one-to-many-relations-actions": {
+        "title": "One to Many - Actions"
+      },
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
       },
@@ -173,9 +176,6 @@
       },
       "one-to-many-relations": {
         "title": "One to Many relations"
-      },
-      "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
       },
       "custom-data-formatters": {
         "title": "Data Formatters"
