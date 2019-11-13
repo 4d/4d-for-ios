@@ -51,16 +51,17 @@ Créez d'abord un dossuer *Task Management.4dbase/Resources/Mobile/formatters*.
 
 Regardons le contenu du fichier **manifest.json** :
 
-    {
-        "name": "integerToString",
-    
-       "type": ["integer"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
-    }
-    
+```json
+{
+   "name": "integerToString",
+
+   "type": ["integer"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
+}
+```
 
 1. **name** : le nom du format
 2. **type** : le type de format 4D que vous souhaitez utiliser
@@ -81,25 +82,26 @@ Regardons le contenu du fichier **manifest.json** :
 
 Regardons le contenu du fichier **manifest.json** :
 
-    {
-        "name": "integerToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
-    
-       "assets": {
+```json
+{
+    "name": "integerToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
+
+   "assets": {
       "size": {
-       "width": 40, "height": 40
-            }
-        }
+         "width": 40, "height": 40
+      }
     }
-    
+}
+```
 
 1. **name** : le nom du format
-2. **type** : le type de format 4D que vous souhaitez utiliser 
+2. **type** : le type de format 4D que vous souhaitez utiliser
 3. **binding** : soit **localized text** pour les chaînes soit **imageNamed** pour les images
 4. **choiceList** : valeurs mappées
 5. **assets** : ajuster la taille d'affichage (largeur et hauteur)
@@ -116,16 +118,17 @@ Regardons le contenu du fichier **manifest.json** :
 
 Regardons le contenu du fichier **manifest.json** :
 
-    {
-        "name": "textToString",
-    
-       "type": ["text"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
-    }
-    
+```json
+{
+    "name": "textToString",
+
+   "type": ["text"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
+}
+```
 
 1. **name** : le nom du format
 2. **type** : le type de format 4D que vous souhaitez utiliser
@@ -146,23 +149,24 @@ Regardons le contenu du fichier **manifest.json** :
 
 Regardons le contenu du fichier **manifest.json** :
 
-    {
-        "name": "textToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": ["image1.png","image2.png","image3.png"],
-    
-       "assets": {
-      "size": {
-       "width": 40, "height": 40
-            }
+```json
+{
+    "name": "textToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": ["image1.png","image2.png","image3.png"],
+
+   "assets": {
+  "size": {
+   "width": 40, "height": 40
         }
     }
-    
-    
+}
+
+```
 
 ## Ouvrez un projet mobile
 
