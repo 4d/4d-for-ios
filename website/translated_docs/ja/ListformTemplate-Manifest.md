@@ -5,17 +5,18 @@ title: manifest.json
 
 manifestファイルには， ストーリーボードの**タイプ**（リストフォームあるいは詳細フォーム）・**名称**・**セル毎のフィールド数**といった情報が記述されています。
 
-    {
-      "type": "listform",
-    
-      "name": "Custom List form",
-    
-      "fields": {
-        "count": 3
-      }
-    }
-    
-    
+```json
+{
+  "type": "listform",
+
+  "name": "Custom List form",
+
+  "fields": {
+    "count": 3
+  }
+}
+
+```
 
 上記のmanifestファイルを解読すると，下記のことがわかります。
 
