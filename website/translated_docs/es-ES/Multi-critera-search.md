@@ -16,15 +16,17 @@ Esta funcionalidad se activa por defecto en todas las plantillas generadas para 
 
 Para activar esta funcionalidad en sus propias plantillas, debe modificar las siguientes líneas en su archivo template.svg:
 
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 por:
 
-    <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 ¡Listo! La clase es lo único que necesita modificar para que los criterios de búsqueda múltiples estén activos.
 
