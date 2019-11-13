@@ -20,8 +20,9 @@ Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que
 
 ## Titre
 
-    <title>Custom Detail form</title>
-    
+```xml
+<title>Custom Detail form</title>
+```
 
 Ajoutez ici le titre de votre modèle.
 
@@ -57,7 +58,7 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
-3. Définir la position de la zone de texte et la largeur 
+3. Définir la position de la zone de texte et la largeur
 4. Définir la position du champ où vous glissez-déposez vos éléments, sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -86,8 +87,8 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Icône affichant une image dans imageField
-4. Définir la position et la largeur de la zone de texte 
-5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés 
+4. Définir la position et la largeur de la zone de texte
+5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Champ à dupliquer
@@ -116,7 +117,7 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 1. Identifiant "Multivaluated" pour le champ à dupliquer
 2. Position de toute la zone Y
 3. Position, hauteur et largeur de la zone d'arrière-plan
-4. Définir la position de la zone de texte et la largeur 
+4. Définir la position de la zone de texte et la largeur
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
