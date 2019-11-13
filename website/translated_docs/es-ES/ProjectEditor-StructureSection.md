@@ -14,7 +14,7 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 
 ## Relaciones Muchos a Uno
 
-* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
+* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -30,53 +30,53 @@ Puede publicar una selección de campos presionando la barra espaciadora, en lug
 
 Ahora, en versiones recientes de 4D, puede tratar con **Relaciones Uno a Muchos** y mostrar una lista de campos relacionados en una página nueva.
 
-All you have to do is:
+Todo lo que tiene que hacer es:
 
-* publishing at least one field of the target (Many) table
+* publicar al menos un campo de la tabla de destino (Muchos)
 
-* publishing the relation from the source (One) table
+* publicar la relación de la tabla fuente (Uno)
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Then, when your related fields are published, they can be used like any other field. So you will be able to:
+Luego, cuando se publican sus campos relacionados, se pueden utilizar como cualquier otro campo. Entonces podrá:
 
-* Define relations properties in the [Labels and Icons](labels-and-icons.html#relations-properties) section.
+* Definir las propiedades de las relaciones en la sección [ Etiquetas e iconos](labels-and-icons.html#relations-properties).
 
-* Drop the One to Many relation in a Detail form from the Forms Section to create a link between a detail form and a related table.
+* Suelte la relación Uno a Muchos en un formulario detallado de la Sección Formularios para crear un enlace entre un formulario detallado y una tabla relacionada.
 
-### What will be created in the generated project ?
+### ¿Qué se creará en el proyecto generado?
 
-Basically a Relation button will be created in detail forms to go straight to the related view.
+Básicamente, se creará un botón Relación en los formularios detallados para ir directamente a la vista relacionada.
 
-[Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
+[Tutoriales](one-to-many-relations.html) están disponibles para ayudarlo a utilizar la relación Uno a Muchos en su proyecto 4D for iOS.
 
-## Incremental reload
+## Recarga incremental
 
-### Enable structure adjustments
+### Autorizar las modificaciones de la estructura
 
-In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+En 4D 17 R5, la recarga de 4D for iOS se vuelve incremental. Esto significa que solo se actualizarán los datos de la base que sean nuevos, modificados o eliminados. ¡Esta es una gran optimización en términos de tiempo de carga!
 
-To do so, 4D for iOS needs to make structure optimizations and create:
+Para hacerlo, 4D for iOS debe optimizar la estructura y crear:
 
-* A ```__DeletedRecords``` table to store deleted records
-* and ```__GlobalStamp``` fields to store modification stamps for each published table in your mobile application
+* Una tabla ```__DeletedRecords``` para almacenar los registros borrados, y
+* Los campos ```__GlobalStamp``` para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
 
-All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+Todo lo que necesita hacer es permitir que 4D for iOS realice los ajustes de estructura necesarios para una actualización optimizada de datos móviles.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
+Una vez autorizado, 4D for iOS hará todo el trabajo por usted, y usted se beneficiará completamente de todas las ventajas de la recarga incremental de datos.<div class = "tips"> 
 
 **NOTA**
 
 Estas optimizaciones son necesarias tanto para las bases locales como para las bases del servidor.</div> 
 
-### Pull to refresh!
+### ¡Halar para refrescar!
 
-iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
+Del lado de la aplicación iOS, sus datos se actualizan cada vez que inicia su aplicación y cada vez que su aplicación se pone en primer plano, para obtener datos actualizados constantemente.
 
-In normal use, simply swipe down from any listform to reload your data.
+En uso normal, simplemente deslice hacia abajo desde cualquier formulario Lista para recargar sus datos.
 
-From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
+Desde la configuración del iPhone, ahora puede reinicializar los datos de su aplicación y encontrar información sobre su aplicación.<div class = "tips"> 
 
 **NOTA**
 
-As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
+Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación</div>

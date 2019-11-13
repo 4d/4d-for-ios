@@ -15,15 +15,17 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 ## タイトル要素（title）
 
-    <title>Custom List form</title>
-    
+```xml
+<title>Custom List form</title>
+```
 
 テンプレートの名称です。
 
 ## フィールドリスト（ios:values）
 
-    <text id="cookery" ios:values="search,section,f1,f2,f3"/>
-    
+```xml
+<text id="cookery" ios:values="search,section,f1,f2,f3"/>
+```
 
 リストフォームに配置されたフィールドを特定するための情報が記述されています。
 
@@ -41,30 +43,31 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 ### 検索フィールド
 
-    //1
-    <g transform="translate(0,60)”>
-    
-    //2
-    <rect class="bg field" x="14" y="12" width="238" height="30”/> 
-    
-    //3
-    <path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
-    
-    //4
-    <textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
-    
-    //5
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/> 
-    
-    //6
-    <use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
-    </g>
-    
+```xml
+//1
+<g transform="translate(0,60)”>
+
+//2
+<rect class="bg field" x="14" y="12" width="238" height="30”/>
+
+//3
+<path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
+
+//4
+<textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+
+//5
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/>
+
+//6
+<use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
+</g>
+```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
 3. 検索エリアに表示されるルーペアイコンです。（path要素）
-4. 入力エリアの位置とサイズです。（textArea要素） 
+4. 入力エリアの位置とサイズです。（textArea要素）
 5. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
@@ -89,7 +92,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
     
-    //2 
+    //2
     <textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
     
     //3
@@ -100,7 +103,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
     
 
 1. エリア背景の位置とサイズです。（rect要素）
-2. 入力エリアの位置とサイズです。（textArea要素） 
+2. 入力エリアの位置とサイズです。（textArea要素）
 3. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 4. 内容をクリアするためのキャンセルボタンです。（use要素）
 
@@ -131,7 +134,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
 3. ピクチャエリアに表示されるアイコン画像です。（path要素）
-4. 入力エリアの位置とサイズです。（textArea要素） 
+4. 入力エリアの位置とサイズです。（textArea要素）
 5. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
@@ -156,7 +159,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
-3. 入力エリアの位置とサイズです。（textArea要素） 
+3. 入力エリアの位置とサイズです。（textArea要素）
 4. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 5. 内容をクリアするためのキャンセルボタンです。（use要素）
 
@@ -181,7 +184,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
-3. 入力エリアの位置とサイズです。（textArea要素） 
+3. 入力エリアの位置とサイズです。（textArea要素）
 4. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 5. 内容をクリアするためのキャンセルボタンです。（use要素）
 

@@ -16,15 +16,17 @@ This feature is activated by default in all 4D for iOS-generated templates.
 
 To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
 
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 to:
 
-    <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 There you go! The class is the only thing you need to modify for the multi-search criteria to be active.
 

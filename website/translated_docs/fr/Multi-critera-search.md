@@ -16,15 +16,17 @@ Cette fonctionnalité est activée par défaut dans tous les modèles générés
 
 Pour activer cette fonctionnalité dans vos propres modèles, vous devez remplacer les lignes suivantes de votre fichier template.svg :
 
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 par :
 
-    <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 Et voilà ! L'élément "class" est le seul que vous devez modifier pour activer la recherche multicritères.
 

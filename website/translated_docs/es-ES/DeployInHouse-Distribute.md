@@ -13,8 +13,8 @@ Subir su aplicación a un servidor seguro.</div>
 
 Suba su aplicación a un servidor seguro:
 
-* assets (display-image and full-size-image)
-* manifest.plist file
+* recursos (imagen de visualización e imagen de tamaño completo)
+* archivo manifest.plist
 * archivo .ipa
 
 Puede utilizar cualquier servicio de almacenamiento en la nube para distribuir su aplicación siempre que esté protegida (Dropbox, Google Drive, etc.).<div class = "tips"> 
@@ -59,4 +59,4 @@ Aquí un ejemplo simple:
 
 * Luego puede ir a su aplicación y abrirla.
 
-Congratulations ... ¡Ya puede distribuir su primera aplicación interna!
+¡Felicitaciones! ¡Ya puede distribuir su primera aplicación interna!

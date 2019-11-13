@@ -27,13 +27,13 @@ Para las tablas, podrá definir las siguientes propiedades:
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
 
-For fields, you will be able to define the following properties:
+Para los campos, podrá definir las siguientes propiedades:
 
 * **Etiquetas cortas y largas:** utilizadas según el espacio
-* **Icons**
-* **Formats:** for exemple to display currencies or percentage
+* **Iconos**
+* **Formatos:** por ejemplo para mostrar monedas o porcentajes
 
-Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
+Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips"> 
 
 **CONSEJOS**
 
@@ -45,7 +45,7 @@ Those elements will be displayed in detail and list forms, depending on the temp
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Para las relaciones, podrá definir las siguientes propiedades:
 
 * **Etiquetas cortas y largas:** se muestran en el botón Relación que permite abrir una tabla relacionada
 * **Iconos:** se muestra a la izquierda del botón Relación

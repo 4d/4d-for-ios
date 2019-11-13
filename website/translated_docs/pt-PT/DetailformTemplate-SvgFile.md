@@ -20,8 +20,9 @@ Vamos nos concentrar nas diferentes partes do arquivo SVG e o que precisa para e
 
 ## Título
 
-    <title>Custom Detail form</title>
-    
+```xml
+<title>Custom Detail form</title>
+```
 
 Agregue o título de seu modelo aqui.
 
@@ -57,7 +58,7 @@ Pode definir posição, altura e largura para todos os campos como fizemos para 
 
 1. Posição de toda a área Y
 2. Posição, altura e largura da área de fundo
-3. Define a posição da área de texto e a largura 
+3. Define a posição da área de texto e a largura
 4. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 5. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
@@ -86,8 +87,8 @@ Pode definir posição, altura e largura para todos os campos como fizemos para 
 1. Posição de toda a área Y
 2. Posição, altura e largura da área de fundo
 3. Icone para mostrar uma imagem no imageField
-4. Define a posição da área de texto e a largura 
-5. Defina la posição do campo "soltável", sua altura e largura, assim como os tipos de campos aceitos 
+4. Define a posição da área de texto e a largura
+5. Defina la posição do campo "soltável", sua altura e largura, assim como os tipos de campos aceitos
 6. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
 ### Campo a duplicar
@@ -116,7 +117,7 @@ Pode definir posição, altura e largura para todos os campos como fizemos para 
 1. ID multivalor para o campo a duplicar
 2. Posição de toda a área Y
 3. Posição, altura e largura da área de fundo
-4. Define a posição da área de texto e a largura 
+4. Define a posição da área de texto e a largura
 5. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 6. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
