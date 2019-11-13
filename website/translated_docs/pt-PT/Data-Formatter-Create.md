@@ -51,16 +51,17 @@ Primeiro, crie uma pasta *Task Management.4dbase/Resources/Mobile/formatters *.
 
 Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
-    {
-        "name": "integerToString",
-    
-       "type": ["integer"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
-    }
-    
+```json
+{
+   "name": "integerToString",
+
+   "type": ["integer"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
+}
+```
 
 1. **nome**: o nome do formatador
 2. **tipo**: o tipo de formatador 4D você deseja usar
@@ -81,25 +82,26 @@ Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
 Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
-    {
-        "name": "integerToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
-    
-       "assets": {
+```json
+{
+    "name": "integerToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
+
+   "assets": {
       "size": {
-       "width": 40, "height": 40
-            }
-        }
+         "width": 40, "height": 40
+      }
     }
-    
+}
+```
 
 1. **nome**: o nome do formatador
-2. **tipo**: o tipo de formatador 4D você deseja usar 
+2. **tipo**: o tipo de formatador 4D você deseja usar
 3. **binding**: pode ser **texto localizado** para strings de caracteres ou **imageNamed** para imagens
 4. **choiceList**: valores mapeados
 5. **assets**: ajusta o tamanho do display (largura e altura)
@@ -116,16 +118,17 @@ Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
 Vamos olhar o conteúdo do arquivo **manifest.json **:
 
-    {
-        "name": "textToString",
-    
-       "type": ["text"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
-    }
-    
+```json
+{
+    "name": "textToString",
+
+   "type": ["text"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
+}
+```
 
 1. **nome**: o nome do formatador
 2. **type**: o tipo de formatador 4D que você deseja usar
@@ -146,23 +149,24 @@ Vamos olhar o conteúdo do arquivo **manifest.json **:
 
 Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
-    {
-        "name": "textToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": ["image1.png","image2.png","image3.png"],
-    
-       "assets": {
-      "size": {
-       "width": 40, "height": 40
-            }
+```json
+{
+    "name": "textToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": ["image1.png","image2.png","image3.png"],
+
+   "assets": {
+  "size": {
+   "width": 40, "height": 40
         }
     }
-    
-    
+}
+
+```
 
 ## Abrir projeto móvel
 
