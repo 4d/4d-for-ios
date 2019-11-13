@@ -98,50 +98,51 @@ Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 
 Voici un exemple de fichier manifest.plist :
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-    <dict>
-        <key>items</key>
-        <array>
-            <dict>
-                <key>assets</key>
-                <array>
-                    <dict>
-                        <key>kind</key>
-                        <string>software-package</string>
-                        <key>url</key>
-                        <string>https://...Contact.ipa</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>display-image</string>
-                        <key>url</key>
-                        <string>https://...Contact_icon_57.png</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>full-size-image</string>
-                        <key>url</key>
-                        <string>https://...Contact_icon_512.png</string>
-                    </dict>
-                </array>
-                <key>metadata</key>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
                 <dict>
-                    <key>bundle-identifier</key>
-                    <string>com.contactApp.ContactDemoapp</string>
-                    <key>bundle-version</key>
-                    <string>1.0</string>
                     <key>kind</key>
-                    <string>software</string>
-                    <key>title</key>
-                    <string>Contact Demo app</string>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://...Contact.ipa</string>
                 </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_57.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_512.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.contactApp.ContactDemoapp</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Contact Demo app</string>
             </dict>
-        </array>
-    </dict>
-    </plist>
-    
+        </dict>
+    </array>
+</dict>
+</plist>
+```
 
 ## ÉTAPE 9. Informations sur la distribution du manifest
 
@@ -149,7 +150,7 @@ Voici un exemple de fichier manifest.plist :
 
 ![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Cliquez sur **Next**. 
+* Cliquez sur **Next**.
 
 ## ÉTAPE 10. Re-signez votre application
 
