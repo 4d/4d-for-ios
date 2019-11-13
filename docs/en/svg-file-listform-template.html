@@ -80,11 +80,11 @@
 <p>Open the template.svg file with your favorite code editor.</p>
 <p>Let’s focus on the different parts of your SVG file and what you'll need to edit.</p>
 <h2><a class="anchor" aria-hidden="true" id="title"></a><a href="#title" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Title</h2>
-<pre><code class="hljs">&lt;<span class="hljs-meta">title</span>&gt;Custom <span class="hljs-meta">List</span> form&lt;/<span class="hljs-meta">title</span>&gt;
+<pre><code class="hljs css language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Custom List form<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
 </code></pre>
 <p>Add the title for your template here.</p>
 <h2><a class="anchor" aria-hidden="true" id="ios-values"></a><a href="#ios-values" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ios:values</h2>
-<pre><code class="hljs">&lt;text <span class="hljs-attribute">id</span>=<span class="hljs-string">"cookery"</span> ios:<span class="hljs-attribute">values</span>=<span class="hljs-string">"search,section,f1,f2,f3"</span>/&gt;
+<pre><code class="hljs css language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">text</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"cookery"</span> <span class="hljs-attr">ios:values</span>=<span class="hljs-string">"search,section,f1,f2,f3"</span>/&gt;</span>
 </code></pre>
 <p>Inclues IDs which define your form areas:</p>
 <ul>
@@ -100,25 +100,25 @@
 <li>Other general fields that will be displayed in each table cell</li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="searchablefield-area"></a><a href="#searchablefield-area" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SearchableField area:</h3>
-<pre><code class="hljs"><span class="hljs-comment">//1</span>
-&lt;<span class="hljs-keyword">g</span> transform="<span class="hljs-keyword">translate</span>(0,60)”&gt;
+<pre><code class="hljs css language-xml">//1
+<span class="hljs-tag">&lt;<span class="hljs-name">g</span> <span class="hljs-attr">transform</span>=<span class="hljs-string">"translate(0,60)”&gt;
 
-<span class="hljs-comment">//2</span>
-&lt;rect <span class="hljs-keyword">class</span>=<span class="hljs-string">"bg field"</span> x=<span class="hljs-string">"14"</span> y=<span class="hljs-string">"12"</span> width=<span class="hljs-string">"238"</span> height="30”/&gt; 
+//2
+&lt;rect class="</span><span class="hljs-attr">bg</span> <span class="hljs-attr">field</span>" <span class="hljs-attr">x</span>=<span class="hljs-string">"14"</span> <span class="hljs-attr">y</span>=<span class="hljs-string">"12"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"238"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"30”/&gt;
 
-<span class="hljs-comment">//3</span>
-&lt;path <span class="hljs-keyword">class</span>=<span class="hljs-string">"magnifyingGlass"</span> transform="<span class="hljs-keyword">translate</span>(20,8) scale(1)”/&gt;
+//3
+&lt;path class="</span><span class="hljs-attr">magnifyingGlass</span>" <span class="hljs-attr">transform</span>=<span class="hljs-string">"translate(20,8) scale(1)”/&gt;
 
-<span class="hljs-comment">//4</span>
-&lt;textArea id=<span class="hljs-string">"search.label"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"label"</span> x=<span class="hljs-string">"14"</span> y=<span class="hljs-string">"8"</span> width=<span class="hljs-string">"238"</span>&gt;<span class="hljs-variable">$4DEVAL</span>(:C991(<span class="hljs-string">"fieldToUseForSearch"</span>))&lt;/textArea&gt;
+//4
+&lt;textArea id="</span><span class="hljs-attr">search.label</span>" <span class="hljs-attr">class</span>=<span class="hljs-string">"label"</span> <span class="hljs-attr">x</span>=<span class="hljs-string">"14"</span> <span class="hljs-attr">y</span>=<span class="hljs-string">"8"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"238"</span>&gt;</span>$4DEVAL(:C991("fieldToUseForSearch"))<span class="hljs-tag">&lt;/<span class="hljs-name">textArea</span>&gt;</span>
 
-<span class="hljs-comment">//5</span>
-&lt;rect id=<span class="hljs-string">"search"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"droppable field optional"</span> x=<span class="hljs-string">"14"</span> y=<span class="hljs-string">"0"</span> width=<span class="hljs-string">"238"</span> height=<span class="hljs-string">"30"</span> stroke-dasharray=<span class="hljs-string">"5,2"</span> ios:<span class="hljs-keyword">type</span>=“0,1,2,4,8,9,11,25,35<span class="hljs-string">"  ios:bind="</span>searchableField”/&gt; 
+//5
+<span class="hljs-tag">&lt;<span class="hljs-name">rect</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"search"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"droppable field optional"</span> <span class="hljs-attr">x</span>=<span class="hljs-string">"14"</span> <span class="hljs-attr">y</span>=<span class="hljs-string">"0"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"238"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"30"</span> <span class="hljs-attr">stroke-dasharray</span>=<span class="hljs-string">"5,2"</span> <span class="hljs-attr">ios:type</span>=<span class="hljs-string">“0,1,2,4,8,9,11,25,35</span>"  <span class="hljs-attr">ios:bind</span>=<span class="hljs-string">"searchableField”/&gt;
 
-<span class="hljs-comment">//6</span>
-&lt;<span class="hljs-keyword">use</span> id=<span class="hljs-string">"search.cancel"</span> x=<span class="hljs-string">"224"</span> y=<span class="hljs-string">"1"</span> xlink:href=<span class="hljs-string">"#cancel"</span> visibility="hidden”/&gt; <span class="hljs-comment">//6</span>
-&lt;/<span class="hljs-keyword">g</span>&gt;
-</code></pre>
+//6
+&lt;use id="</span><span class="hljs-attr">search.cancel</span>" <span class="hljs-attr">x</span>=<span class="hljs-string">"224"</span> <span class="hljs-attr">y</span>=<span class="hljs-string">"1"</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">"#cancel"</span> <span class="hljs-attr">visibility</span>=<span class="hljs-string">"hidden”/&gt; //6
+&lt;/g&gt;
+</span></span></code></pre>
 <ol>
 <li>Entire area Y position</li>
 <li>Area background position, height, and width</li>
@@ -141,7 +141,7 @@
 <pre><code class="hljs"><span class="hljs-comment">//1</span>
 &lt;rect <span class="hljs-keyword">class</span>=<span class="hljs-string">"bg field"</span> x=<span class="hljs-string">"10"</span> y=<span class="hljs-string">"110"</span> width=<span class="hljs-string">"246"</span> height="30”/&gt;
 
-<span class="hljs-comment">//2 </span>
+<span class="hljs-comment">//2</span>
 &lt;textArea id=<span class="hljs-string">"section.label"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"label"</span> x=<span class="hljs-string">"10"</span> y=<span class="hljs-string">"118"</span> width=<span class="hljs-string">"246"</span>&gt;<span class="hljs-variable">$4DEVAL</span>(:C991(<span class="hljs-string">"fieldToUseAsSection"</span>))&lt;/textArea&gt;
 
 <span class="hljs-comment">//3</span>
