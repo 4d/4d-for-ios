@@ -26,7 +26,7 @@ title: Archive and export your Project
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates. 
+Xcode will automatically install required provisioning and certificates.
 
 ## STEP 2. Get your Team ID
 
@@ -36,12 +36,12 @@ Xcode will automatically install required provisioning and certificates.
 
 ## STEP 3. 4D for iOS configuration
 
-* Launch 4D for iOS 
+* Launch 4D for iOS
 
 * On the SECTIONS tab:
 
 	* General: Enter your Team ID.
-	
+
 	![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
 
 	* Publishing: Enter your production URL (HTTPS is mandatory for deployment).
@@ -49,7 +49,7 @@ Xcode will automatically install required provisioning and certificates.
 * On the BUILD tab:
 	* Build and Run: Build your project.
 
-## STEP 4. Open your project with Xcode 
+## STEP 4. Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
@@ -69,7 +69,7 @@ Xcode will automatically install required provisioning and certificates.
 
 * At the end of the archive process, the Organizer window appears with the archive you just created
 
-* Click **Export**. 
+* Click **Export**.
 
 ![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
 
@@ -102,7 +102,7 @@ The manifest is an XML-based property list and should contain:
 
 Here is an example of a manifest.plist file :
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -155,7 +155,7 @@ Here is an example of a manifest.plist file :
 
 ![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Click **Next**. 
+* Click **Next**.
 
 
 ## STEP 10. Re-sign your application
@@ -173,9 +173,3 @@ Here is an example of a manifest.plist file :
 ![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Click on **Export** and select where to save your app folder on your computer.
-
-
-
-
-
-

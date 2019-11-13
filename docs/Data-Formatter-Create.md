@@ -52,9 +52,9 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 Let's look at the contents of the **manifest.json** file:
 
-```
+```json
 {
-	"name": "integerToString",
+   "name": "integerToString",
 
    "type": ["integer"],
 
@@ -84,7 +84,7 @@ Let's look at the contents of the **manifest.json** file:
 Let's look at the contents of the **manifest.json** file:
 
 
-```
+```json
 {
 	"name": "integerToImage",
 
@@ -93,16 +93,16 @@ Let's look at the contents of the **manifest.json** file:
    "binding": "imageNamed",
 
    "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
-   
+
    "assets": {
-  "size": {
-   "width": 40, "height": 40
-		}
+      "size": {
+         "width": 40, "height": 40
+      }
 	}
 }
 ```
 1. **name**: the name of the formatter
-2. **type** : the 4D format type you want to use 
+2. **type** : the 4D format type you want to use
 3. **binding**: can be **localized text** for strings or **imageNamed** for images
 4. **choiceList**: mapped values
 5. **assets**: adjust the display size (width and height)
@@ -119,7 +119,7 @@ Let's look at the contents of the **manifest.json** file:
 
 Let's look at the contents of the **manifest.json** file:
 
-```
+```json
 {
 	"name": "textToString",
 
@@ -150,7 +150,7 @@ Let's look at the contents of the **manifest.json** file:
 
 Let's look at the contents of the **manifest.json** file:
 
-```
+```json
 {
 	"name": "textToImage",
 
@@ -169,9 +169,9 @@ Let's look at the contents of the **manifest.json** file:
 
 ```
 
-## Open mobile project 
+## Open mobile project
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks** 
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
 Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you  previously defined in the different formatter manifest.json files:
 
