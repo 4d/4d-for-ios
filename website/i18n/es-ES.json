@@ -163,19 +163,19 @@
         "title": "Structure"
       },
       "many-to-one-relations": {
-        "title": "Many to One relations"
+        "title": "Relaciones Muchos a Uno"
       },
       "one-to-many-relations-custom-button": {
-        "title": "One to Many - Custom button"
+        "title": "Uno a Muchos - Botón personalizado"
       },
       "one-to-many-relations-title-definition": {
-        "title": "One to Many - Title definition"
+        "title": "Uno a Muchos - Título"
       },
       "one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relaciones Uno a Muchos"
       },
       "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Uno a Muchos - Acciones"
       },
       "custom-data-formatters": {
         "title": "Formato de datos"
