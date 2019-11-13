@@ -98,58 +98,59 @@ El manifiesto es una lista de propiedades basada en XML y debe contener:
 
 Aquí hay un ejemplo de archivo manifest.plist:
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-    <dict>
-        <key>items</key>
-        <array>
-            <dict>
-                <key>assets</key>
-                <array>
-                    <dict>
-                        <key>kind</key>
-                        <string>software-package</string>
-                        <key>url</key>
-                        <string>https://...Contact.ipa</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>display-image</string>
-                        <key>url</key>
-                        <string>https://...Contact_icon_57.png</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>full-size-image</string>
-                        <key>url</key>
-                        <string>https://...Contact_icon_512.png</string>
-                    </dict>
-                </array>
-                <key>metadata</key>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
                 <dict>
-                    <key>bundle-identifier</key>
-                    <string>com.contactApp.ContactDemoapp</string>
-                    <key>bundle-version</key>
-                    <string>1.0</string>
                     <key>kind</key>
-                    <string>software</string>
-                    <key>title</key>
-                    <string>Contact Demo app</string>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://...Contact.ipa</string>
                 </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_57.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_512.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.contactApp.ContactDemoapp</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Contact Demo app</string>
             </dict>
-        </array>
-    </dict>
-    </plist>
-    
+        </dict>
+    </array>
+</dict>
+</plist>
+```
 
-## PASO 9. Distribution manifest information
+## PASO 9. Información del manifiesto de distribución
 
 * Recomendamos dejar que Xcode haga el trabajo de ingresar la URL de su aplicación, así como también los URL de los iconos. Por supuesto, tendrá la opción de cambiar los URL más adelante.
 
 ![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Haga clic en **Next**. 
+* Haga clic en **Next**.
 
 ## PASO 10. Vuelva a firmar su aplicación
 
@@ -159,10 +160,10 @@ Aquí hay un ejemplo de archivo manifest.plist:
 
 * Haga clic en **Next**.
 
-## PASO 11. Review your app.ipa content
+## PASO 11. Verifique el contenido de su aplicación .ipa
 
 * Aquí puede verificar que su identificador de aplicación sea correcto, así como también su Team ID.
 
-![Verifique el contenido de su aplicación](assets/en/deploy-in-house/Review-ipa-content.png)
+![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Haga clic en **Export** y seleccione dónde guardar la carpeta de su aplicación en su computador.
