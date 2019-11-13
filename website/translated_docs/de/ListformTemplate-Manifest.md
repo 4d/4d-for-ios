@@ -5,17 +5,18 @@ title: Manifest.json
 
 The manifest file includes information about your list form template, such as the **Storyboard type** (list form or detail form), **name** and **number of fields per cell**.
 
-    {
-      "type": "listform",
-    
-      "name": "Custom List form",
-    
-      "fields": {
-        "count": 3
-      }
-    }
-    
-    
+```json
+{
+  "type": "listform",
+
+  "name": "Custom List form",
+
+  "fields": {
+    "count": 3
+  }
+}
+
+```
 
 For example, the manifest file for the above list form template includes the following information:
 
