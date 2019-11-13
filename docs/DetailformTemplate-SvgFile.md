@@ -19,7 +19,7 @@ Open the template.svg file with your favorite code editor.
 Let’s focus on the different parts of your SVG file and what you'll need to edit.
 
 ## Title
-```
+```xml
 <title>Custom Detail form</title>
 ```
 
@@ -58,7 +58,7 @@ You can define position, height, and width for all of your fields like  we did f
 
 1. Entire area Y position
 2. Area background position, height, and width
-3. Define the text area position and width 
+3. Define the text area position and width
 4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
 5. Define a cancel button that will be displayed to the delete current content
 
@@ -88,8 +88,8 @@ You can define position, height, and width for all of your fields like  we did f
 1. Entire area Y position
 2. Area background position, height, and width
 3. Icon to display an image in the imageField
-4. Define the text area position and width 
-5. Define the droppable field position, height, and width, as well as accepted fields types 
+4. Define the text area position and width
+5. Define the droppable field position, height, and width, as well as accepted fields types
 6. Define a cancel button that will be displayed to delete the current content
 
 
@@ -120,7 +120,7 @@ You can define position, height, and width for all of your fields like  we did f
 1. Multivaluated ID for the field to be duplicated
 2. Entire area Y position
 3. Area background position, height, and width
-4. Define the text area position and width 
+4. Define the text area position and width
 5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
 6. Define a cancel button that will be displayed to delete the current content
 
