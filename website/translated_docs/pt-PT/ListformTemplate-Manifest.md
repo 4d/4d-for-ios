@@ -5,17 +5,18 @@ title: Manifest.json
 
 O arquivo manifest inclui informação sobre o modelo de formulário lista, como o**tipo de Storyboard** (formulário lista ou formulário detalhado), **nome** e **número de campos por célula**.
 
-    {
-      "type": "listform",
-    
-      "name": "Custom List form",
-    
-      "fields": {
-        "count": 3
-      }
-    }
-    
-    
+```json
+{
+  "type": "listform",
+
+  "name": "Custom List form",
+
+  "fields": {
+    "count": 3
+  }
+}
+
+```
 
 Por exemplo, o arquivo manifest para o modelo de formulário lista a seguir inclui as informações abaixo:
 
