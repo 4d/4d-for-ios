@@ -15,15 +15,17 @@ Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que
 
 ## Titre
 
-    <title>Custom List form</title>
-    
+```xml
+<title>Custom List form</title>
+```
 
 Ajoutez ici le titre de votre modèle.
 
 ## ios:values
 
-    <text id="cookery" ios:values="search,section,f1,f2,f3"/>
-    
+```xml
+<text id="cookery" ios:values="search,section,f1,f2,f3"/>
+```
 
 Cette partie inclut les identifiants qui permettent de définir les zones de votre formulaire :
 
@@ -41,30 +43,31 @@ Vous avez la possibilité de définir la position, la hauteur et la largeur de :
 
 ### Zone SearchableField :
 
-    //1
-    <g transform="translate(0,60)”>
-    
-    //2
-    <rect class="bg field" x="14" y="12" width="238" height="30”/> 
-    
-    //3
-    <path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
-    
-    //4
-    <textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
-    
-    //5
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/> 
-    
-    //6
-    <use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
-    </g>
-    
+```xml
+//1
+<g transform="translate(0,60)”>
+
+//2
+<rect class="bg field" x="14" y="12" width="238" height="30”/>
+
+//3
+<path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
+
+//4
+<textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+
+//5
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/>
+
+//6
+<use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
+</g>
+```
 
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Image affichant l'icône loupe dans le "searchable field" (champ de recherche)
-4. Définir la position de la zone de texte et la largeur 
+4. Définir la position de la zone de texte et la largeur
 5. Définir la position du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -89,7 +92,7 @@ Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
     
-    //2 
+    //2
     <textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
     
     //3
@@ -100,7 +103,7 @@ Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
     
 
 1. Position, hauteur et largeur de la zone d'arrière-plan
-2. Définir la position et la largeur de la zone de texte 
+2. Définir la position et la largeur de la zone de texte
 3. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -131,7 +134,7 @@ Le "section field" (champ de section) est facultatif.
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Icône affichant une image dans imageField (le champ image)
-4. Définir la position et la largeur de la zone de texte 
+4. Définir la position et la largeur de la zone de texte
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -156,7 +159,7 @@ Le "section field" (champ de section) est facultatif.
 
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
-3. Définir la position de la zone de texte et la largeur 
+3. Définir la position de la zone de texte et la largeur
 4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
@@ -181,7 +184,7 @@ Le "section field" (champ de section) est facultatif.
 
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
-3. Définir la position et la largeur de la zone de texte 
+3. Définir la position et la largeur de la zone de texte
 4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
