@@ -5,24 +5,25 @@ title: Manifest.json
 
 Le fichier manifest contient des informations sur votre modèle de formulaire détaillé, telles que le **type de Storyboard** (formulaire liste ou formulaire détaillé), **le nom**, **le nombre de champs statiques** et **les propriétés de l'icône**.
 
-    {
-      "type": "detailform",
-    
-      "name": "Custom Detail form",
-    
-      "fields": {
-        "count": 1
-           },
-    
-      "assets": {
-        "size": {
-          "width": 16,
-          "height": 16
-        }
-      }
+```json
+{
+  "type": "detailform",
+
+  "name": "Custom Detail form",
+
+  "fields": {
+    "count": 1
+  },
+
+  "assets": {
+    "size": {
+      "width": 16,
+      "height": 16
     }
-    
-    
+  }
+}
+
+```
 
 Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous inclut les informations suivantes :
 
