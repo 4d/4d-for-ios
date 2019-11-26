@@ -175,7 +175,7 @@
         "title": "Liens 1 vers N"
       },
       "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Liens 1 vers N - Actions"
       },
       "custom-data-formatters": {
         "title": "Format des données"
