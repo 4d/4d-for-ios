@@ -207,11 +207,11 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $entity.save()  //save the entity
+    $entity.save()  //sauvegarder l'entité
 
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notifier l'application que l'action est réussie
+    $out.dataSynchro:=True  //notifier l'application pour mettre à jour la sélection
     $out.statusText:="Task added"
 
 Else 
@@ -254,19 +254,19 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notifier l'application que l'action est réussie
+        $out.dataSynchro:=True  // notifier l'application pour mettre à jour la sélection
         $out.statusText:="Task edited"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // retourner le statut à l'application 
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notifier l'application que l'action a échoué
 
 End if 
 
@@ -295,19 +295,19 @@ If ($selection.length=1)
 
     If ($entity.length=0)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notifier l'application que l'action est réussie
+        $out.dataSynchro:=True  // notifier l'application pour mettre à jour cette entité
         $out.statusText:="Task deleted"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // retourner le statut à l'application
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notifier l'application que l'action a échoué
 
 End if 
 
@@ -361,7 +361,7 @@ If ($selection.length=1)
         $out.statusText:="Mail sent"
 
     Else 
-        $out.success:=False  // notify App that action success
+        $out.success:=False  // notify App that action failed
         $out.statusText:="Mail not sent"
 
     End if 
