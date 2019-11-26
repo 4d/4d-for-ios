@@ -25,7 +25,7 @@ title: Detail Form Templates
 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
 <h1 style="margin-top: 10px; font-size:22px">Client Detail</h1>
 <ul style="font-size:16px">
-<li><strong>Included ressources:</strong> yes</li>
+<li><strong>Included resources:</strong> yes</li>
 <li><strong>Actions:</strong> included</li>
 <li><strong>Image required:</strong> no</li></ul>
 <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -36,7 +36,7 @@ title: Detail Form Templates
 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
 <h1 style="margin-top: 10px; font-size:22px">Invoice Detail</h1>
 <ul style="font-size:c16px">
-<li><strong>Included ressources:</strong> yes</li>
+<li><strong>Included resources:</strong> yes</li>
 <li><strong>Actions:</strong> included</li>
 <li><strong>Image required:</strong> no</li></ul>
 <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -53,7 +53,7 @@ title: Detail Form Templates
 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
 <h1 style="margin-top: 10px; font-size:22px">Tasks Detail</h1>
 <ul style="font-size:16px">
-<li><strong>Included ressources:</strong> yes</li>
+<li><strong>Included resources:</strong> yes</li>
 <li><strong>Actions:</strong> included</li>
 <li><strong>Image required:</strong> no</li></ul>
 <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -64,7 +64,7 @@ title: Detail Form Templates
 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
 <h1 style="margin-top: 10px; font-size:22px">Parallax Detail</h1>
 <ul style="font-size:c16px">
-<li><strong>Included ressources:</strong> yes</li>
+<li><strong>Included resources:</strong> yes</li>
 <li><strong>Actions:</strong> included</li>
 <li><strong>Image required:</strong> yes</li></ul>
 <div markdown="1" style="text-align: center; margin-top: 40px;">

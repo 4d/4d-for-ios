@@ -84,7 +84,7 @@ title: Data Formatters
 <li><strong>Format:</strong> Integer ⟶ Image</li>
 <li><strong>Type:</strong> basic formatter</li>
 <div markdown="1" style="text-align: center; margin-top: 40px;">
-<a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-IntToImage/releases/latest/download/formatter-IntToImage.zip">DOWNLOAD</a></div>
+<a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-IntegerToImage/releases/latest/download/formatter-IntegerToImage.zip">DOWNLOAD</a></div>
 </td>
 </tr>
 <tr>

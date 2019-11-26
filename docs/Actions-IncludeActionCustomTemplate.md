@@ -32,7 +32,7 @@ To begin, download the Starter Project, which includes:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="../assets/en/actions/TasksCustomStarter.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">STARTER PROJECT</a>
 
 </div>
 
@@ -165,7 +165,7 @@ Congratulations, your Tasks iOS app is now complete and includes actions in List
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="../assets/en/actions/TasksCustomFinal.zip">FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">FINAL PROJECT</a>
 
 </div>
 
