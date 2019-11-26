@@ -361,7 +361,7 @@ If ($selection.length=1)
         $out.statusText:="Mail sent"
 
     Else 
-        $out.success:=False  // notify App that action success
+        $out.success:=False  // notify App that action failed
         $out.statusText:="Mail not sent"
 
     End if 
