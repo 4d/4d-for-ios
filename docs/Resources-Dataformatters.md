@@ -19,10 +19,10 @@ title: Data Formatters
 <col width="50%">
 <col width="50%">
 <tr>
-<td class="templateGif">
+<td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
 <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Mail/master/formatter.png"/>
 </td>
-<td class="templateContent">
+<td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
 <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
 <ul style="font-size:16px">
 <li><strong>Format:</strong> Text ⟶ Mail</li>
