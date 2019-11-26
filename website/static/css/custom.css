@@ -69,6 +69,23 @@ margin-bottom: 22px;
 background-color: #f2f2f2;
 }
 
+.templateGif {
+
+	height: auto; 
+	vertical-align: middle;
+	text-align: center; 
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+.templateContent {
+height: auto; 
+vertical-align: middle;
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+
+}
+
+
 #legalFooter {
 
 	text-align: center;
