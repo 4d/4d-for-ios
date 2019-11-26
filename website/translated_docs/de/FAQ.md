@@ -77,7 +77,7 @@ If you're not a 4D Partner or don't participate in the 4D Maintenance program, y
 <strong>What 4D license do I need to develop with 4D for iOS?</strong>
 </summary>
 
-You need a 4D Developer Pro v17 R2 (macOS) license to develop 4D for iOS apps.
+You need a 4D Developer Pro v17 R2 or newer (macOS) license to develop 4D for iOS apps.
 
 </details>
 
@@ -91,8 +91,6 @@ You need a 4D Server (macOS or Windows) v17 R2 or newer license to deploy 4D for
 There's no additional license needed. Your 4D for iOS apps will share the same licenses as those for 4D Remote (client).
 
 Clients can connect on Macs, Windows PCs, or iPhones, as long as the total amount of concurrent users are covered by the 4D Server license.
-
-Please note that you're not allowed to install your mobile app on more devices than the total amount of the 4D Server's remote (client) licenses.
 
 </details>
 
@@ -112,9 +110,7 @@ You can use up to four mobile devices.
 <strong>Can I modify and update data from my iOS app?</strong>
 </summary>
 
-For now, 4D for iOS allows you to build read-only apps.
-
-Future versions will allow you to add and modify your records right from your iOS app and synchronize your data with the server.
+Yes, of course.
 
 </details>
 
