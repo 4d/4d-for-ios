@@ -28,7 +28,7 @@ Para comenzar, descargue el Proyecto Starter, que incluye:
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomStarter.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROYECTO STARTER</a>
 
   </p>
 </div>
@@ -162,7 +162,7 @@ Puede seleccionar la plantilla personalizada TasksDetail en la **sección Formul
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomFinal.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROYECTO FINAL</a>
 
   </p>
 </div>
