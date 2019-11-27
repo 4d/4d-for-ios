@@ -16,7 +16,7 @@ Descargue el **proyect Starter** y vaya directamente a la sección **Actions**.
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionStarter.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROYECTO STARTER</a>
 
   </p>
 </div>
@@ -253,7 +253,7 @@ Puede descargar el **Proyecto final** que incluye varias acciones:
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionFinal.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROYECTO FINAL</a>
 
   </p>
 </div>

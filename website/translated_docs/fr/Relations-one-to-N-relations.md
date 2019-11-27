@@ -16,7 +16,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">PROJET STARTER UN VERS N</a>
+href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">PROJET STARTER 1 VERS N</a>
 
   </p>
 </div>
@@ -80,7 +80,7 @@ Et le tour est joué ! Voilà comment fonctionnent vos liens 1 vers N fonctionne
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">PROJET FINAL UN VERS N</a>
+href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">PROJET FINAL 1 VERS N</a>
 
   </p>
 </div>
