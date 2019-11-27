@@ -138,9 +138,6 @@
       "data": {
         "title": "Datos"
       },
-      "detail-form-templates": {
-        "title": "Plantillas de formularios detallados"
-      },
       "forms": {
         "title": "Formularios"
       },
@@ -149,9 +146,6 @@
       },
       "labels-and-icons": {
         "title": "Etiquetas e iconos"
-      },
-      "list-form-templates": {
-        "title": "Plantillas de formularios Lista"
       },
       "main-menu": {
         "title": "Menú principal"
@@ -165,6 +159,9 @@
       "many-to-one-relations": {
         "title": "Relaciones Muchos a Uno"
       },
+      "one-to-many-relations-actions": {
+        "title": "Uno a Muchos - Acciones"
+      },
       "one-to-many-relations-custom-button": {
         "title": "Uno a Muchos - Botón personalizado"
       },
@@ -173,9 +170,6 @@
       },
       "one-to-many-relations": {
         "title": "Relaciones Uno a Muchos"
-      },
-      "one-to-many-relations-actions": {
-        "title": "Uno a Muchos - Acciones"
       },
       "custom-data-formatters": {
         "title": "Formato de datos"
