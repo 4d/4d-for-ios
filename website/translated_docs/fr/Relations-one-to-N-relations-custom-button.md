@@ -19,7 +19,7 @@ Commençons par télécharger le Projet Starter, qui comprend :
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">STARTER CUSTOM BUTTON</a>
+href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">STARTER BUTTON PERSONNALISE</a>
 
   </p>
 </div>
