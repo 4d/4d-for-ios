@@ -16,7 +16,7 @@ title: はじめてのアクション
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionStarter.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">素材プロジェクト</a>
 
   </p>
 </div>
@@ -253,7 +253,7 @@ $0:=$out
     
 
 <a class="button"
-href="../assets/en/actions/TasksActionFinal.zip">完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">完成プロジェクト</a>
 
   </p>
 </div>
