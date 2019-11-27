@@ -357,19 +357,18 @@ If ($selection.length=1)
 
     $status:=$transporter.send($email)
     If ($status.success)
-        $out.success:=True  // notify App that action success
+        $out.success:=True  // notifier l'application que l'action est réussie
         $out.statusText:="Mail sent"
 
     Else 
-        $out.success:=False  // notify App that action failed
+        $out.success:=False  // notifier l'application que l'action a échoué
         $out.statusText:="Mail not sent"
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
-
+    $out.success:=False  //notifier l'application que l'action a échoué
 End if 
 
 $0:=$out
