@@ -74,7 +74,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Resources-Dataformatters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Data Formatters</h1></header><article><div><span><div markdown="1" class = "tips">
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Resources-Dataformatters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Data Formatters</h1></header><article><div><span><div markdown="1" class = "tips">
 <p><strong>BEFORE STARTING</strong></p>
 <ol>
 <li><p>To use a custom formatter, the first thing you'll need to do is create a <code>YourDatabase.4dbase/Resources/Mobile/formatters</code> folder.</p></li>
@@ -82,159 +82,158 @@
 </ol>
 </div>
 <div markdown="1" style="height: auto;">
-<table>
-<col width="50%">
-<col width="50%">
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-mail.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Mail</li>
-  <li><strong>Function:</strong> open the mail app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterMail.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Url</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ URL</li>
-  <li><strong>Function:</strong> open Safari app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterUrl.zip">DOWNLOAD</a></div>
-  </td>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-link.png"/>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-phone.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Number ⟶ Phone number</li>
-  <li><strong>Function:</strong> call the number on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterPhone.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Address</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Address</li>
-  <li><strong>Function:</strong> open Map app on click</li>
-  <li><strong>Type:</strong> Swift formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterAddress.zip">DOWNLOAD</a></div>
-  </td>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-adress.png"/>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-Image.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoImage.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Int to String</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Integer ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterInttoString.zip">DOWNLOAD</a></div>
-  </td>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Int-to-String.png"/>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-Image.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoImage.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Text to String</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ String</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterTexttoString.zip">DOWNLOAD</a></div>
-  </td>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-text-to-string.png"/>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-Bool-to-Image.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool ⟶ Image</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterBooltoImage.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">Emoji</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Bool, Real, Integer ⟶ Emoji</li>
-  <li><strong>Type:</strong> basic formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterGenderEmoji.zip">DOWNLOAD</a></div>
-  </td>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-gender-emoji.png"/>
-  </td>
-  </tr>
-<tr>
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-  <img style="max-height: 300px; opacity: 0.2" src="../assets/en/template-formatters/formatter-html.png"/>
-  </td>
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
-  <h1 style="margin-top: 10px; font-size:22px">HTML</h1>
-  <ul style="font-size:16px">
-  <li><strong>Format:</strong> Text ⟶ html</li>
-  <li><strong>Type:</strong> Swift formatter</li>
-  <div markdown="1" style="text-align: center; margin-top: 40px;">
-  <a class="button" style="width: 50%; font-size: 11px" href="../assets/en/template-formatters/formatterHtml.zip">DOWNLOAD</a></div>
-  </td>
-  </tr>
-</table>
-</div>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/en/custom-detailform-templates.html"><span class="arrow-prev">← </span><span>Detail Form Templates</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="/4d-for-ios/docs/en/licenses.html">Licenses</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+  <table>
+    <col width="50%">
+    <col width="50%">
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Mail/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Mail</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ Mail</li>
+          <li><strong>Function:</strong> open the mail app on click</li>
+          <li><strong>Type:</strong> Swift formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-Mail/releases/latest/download/formatter-Mail.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Url</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ URL</li>
+          <li><strong>Function:</strong> open Safari app on click</li>
+          <li><strong>Type:</strong> Swift formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-Url/releases/latest/download/formatter-Url.zip">DOWNLOAD</a></div>
+      </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Url/master/formatter.png" />
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Phone/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Phone</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Number ⟶ Phone number</li>
+          <li><strong>Function:</strong> call the number on click</li>
+          <li><strong>Type:</strong> Swift formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-Phone/releases/latest/download/formatter-Phone.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Address</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ Address</li>
+          <li><strong>Function:</strong> open Map app on click</li>
+          <li><strong>Type:</strong> Swift formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-Address/releases/latest/download/formatter-Address.zip">DOWNLOAD</a></div>
+      </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Address/master/formatter.png" />
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntToImage/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Integer ⟶ Image</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-IntegerToImage/releases/latest/download/formatter-IntegerToImage.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Int to String</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Integer ⟶ String</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-IntToString/releases/latest/download/formatter-IntToString.zip">DOWNLOAD</a></div>
+      </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntToString/master/formatter.png" />
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-TextToImage/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Text to Image</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ Image</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-TextToImage/releases/latest/download/formatter-TextToImage.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Text to String</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ String</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-TextToString/releases/latest/download/formatter-TextToString.zip">DOWNLOAD</a></div>
+      </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-TextToString/master/formatter.png" />
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-BoolToImage/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Bool to Image</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Bool ⟶ Image</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-BoolToImage/releases/latest/download/formatter-BoolToImage.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">Emoji</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Bool, Real, Integer ⟶ Emoji</li>
+          <li><strong>Type:</strong> basic formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-Emoji/releases/latest/download/formatter-Emoji.zip">DOWNLOAD</a></div>
+      </td>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-Emoji/master/formatter.png" />
+      </td>
+    </tr>
+    <tr>
+      <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-HTML/master/formatter.png" />
+      </td>
+      <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
+        <h1 style="margin-top: 10px; font-size:22px">HTML</h1>
+        <ul style="font-size:16px">
+          <li><strong>Format:</strong> Text ⟶ html</li>
+          <li><strong>Type:</strong> Swift formatter</li>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">DOWNLOAD</a></div>
+      </td>
+    </tr>
+  </table>
+</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/en/custom-detailform-templates.html"><span class="arrow-prev">← </span><span>Detail Form Templates</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="/4d-for-ios/docs/en/licenses.html">Licenses</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
