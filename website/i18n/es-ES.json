@@ -14,8 +14,8 @@
       "action-custom-template": {
         "title": "Añadir acciones a las plantillas"
       },
-      "using-parameters": {
-        "title": "Utilizar paramétros"
+      "Actions-Using-Parameters": {
+        "title": "Actions-Using-Parameters"
       },
       "contact-app": {
         "title": "Aplicación Contacts"
