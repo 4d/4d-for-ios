@@ -28,7 +28,7 @@ title: テンプレートにアクションを追加する
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomStarter.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">素材プロジェクト</a>
 
   </p>
 </div>
@@ -162,7 +162,7 @@ TasksDetail カスタムテンプレートを「**フォーム**」セクショ�
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomFinal.zip">完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">完成プロジェクト</a>
 
   </p>
 </div>

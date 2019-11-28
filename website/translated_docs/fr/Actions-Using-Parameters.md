@@ -122,7 +122,7 @@ C_OBJECT($1;$request)
 
 C_OBJECT($o;$context;$request;$result;$parameters)
 
-$request:=$1  // Informations provided by mobile application
+$request:=$1  // Informations fournies par l'application mobile
 
 $context:=$request.context
 $parameters:=$request.parameters
@@ -131,7 +131,7 @@ Case of
 
     : ($request.action="addTasks")
 
-          // Insert here the code for the action "Add…"
+          // Insérer ici le code de l'action d'ajout
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -141,7 +141,7 @@ Case of
 
     : ($request.action="editTasks")
 
-          // Insert here the code for the action "Edit…"
+          // Insérer ici le code de l'action d'édition
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -153,7 +153,7 @@ Case of
 
     : ($request.action="deleteTasks")
 
-          // Insert here the code for the action "Remove"
+          // Insérer ici le code de l'action de suppression
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -163,7 +163,7 @@ Case of
 
     : ($request.action="sendComment")
 
-          // Insert here the code for the action "Send Comment"
+          // Insérer ici le code de l'action d'envoi de commentaire
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -175,7 +175,7 @@ Case of
 
     Else 
 
-          // Unknown action
+          // Action inconnue
 
 End case 
 
@@ -207,11 +207,11 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $entity.save()  //save the entity
+    $entity.save()  //sauvegarder l'entité
 
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notifier l'application que l'action est réussie
+    $out.dataSynchro:=True  //notifier l'application pour mettre à jour la sélection
     $out.statusText:="Task added"
 
 Else 
@@ -254,19 +254,19 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notifier l'application que l'action est réussie
+        $out.dataSynchro:=True  // notifier l'application pour mettre à jour la sélection
         $out.statusText:="Task edited"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // retourner le statut à l'application 
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notifier l'application que l'action a échoué
 
 End if 
 
@@ -295,19 +295,19 @@ If ($selection.length=1)
 
     If ($entity.length=0)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notifier l'application que l'action est réussie
+        $out.dataSynchro:=True  // notifier l'application pour mettre à jour cette entité
         $out.statusText:="Task deleted"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // retourner le statut à l'application
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notifier l'application que l'action a échoué
 
 End if 
 
@@ -357,19 +357,18 @@ If ($selection.length=1)
 
     $status:=$transporter.send($email)
     If ($status.success)
-        $out.success:=True  // notify App that action success
+        $out.success:=True  // notifier l'application que l'action est réussie
         $out.statusText:="Mail sent"
 
     Else 
-        $out.success:=False  // notify App that action success
+        $out.success:=False  // notifier l'application que l'action a échoué
         $out.statusText:="Mail not sent"
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
-
+    $out.success:=False  //notifier l'application que l'action a échoué
 End if 
 
 $0:=$out

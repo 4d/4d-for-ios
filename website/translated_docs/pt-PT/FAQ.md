@@ -25,7 +25,7 @@ O editor de projetos móveis foi criado para que seja possível usar 4D for iOS 
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
-| 11.1   | 5.1   | iOS 13.0 | 18   | 10.14.4 |
+| 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
 | 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
@@ -77,7 +77,7 @@ Se ainda não for um 4D Partner, ou não participa no programa 4D Manutenção, 
 <strong>Que licença 4D eu preciso ter para desenvolver com 4D for iOS?</strong>
 </summary>
 
-É preciso ter uma licença 4D Developer Pro v17 R2 (macOS) para desenvolver apps para 4D for iOS.
+You need a 4D Developer Pro v17 R2 or newer (macOS) license to develop 4D for iOS apps.
 
 </details>
 
@@ -92,16 +92,14 @@ Não é preciso licenças adicionais. Suas aplicações 4D for iOS compartilham 
 
 Clientes podem se conectar em Macs, PCs Windows ou iPhones, desde o número total de usuários simultâneos esteja coberto pela licença 4D Server.
 
-Note que você não pode instalar seu app móvel em mais dispositivos que a quantidade total das licenças remotas (cliente) do 4D Server.
-
 </details>
 
 <details>
 <summary>
-<strong>Eu tenho um 4D Server e uma expansão para dois clientes (no total, quatro clientes), quantos dispositivos móveis posso usar?</strong>
+<strong>I have a 4D Server plus an expansion for two clients (in total, four clients), how many mobile devices can I use?</strong>
 </summary>
 
-Pode usar até quatro dispositivos móveis.
+You can use up to four mobile devices.
 
 </details>
 
@@ -112,9 +110,7 @@ Pode usar até quatro dispositivos móveis.
 <strong>Can I modify and update data from my iOS app?</strong>
 </summary>
 
-For now, 4D for iOS allows you to build read-only apps.
-
-Future versions will allow you to add and modify your records right from your iOS app and synchronize your data with the server.
+Yes, of course.
 
 </details>
 

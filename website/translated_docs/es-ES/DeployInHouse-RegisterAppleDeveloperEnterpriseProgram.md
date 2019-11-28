@@ -56,7 +56,7 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 
 * Haga clic en el botón **Start your Enrollment**.
 * Lea y acepte los términos del contrato "Apple Developer Agreement". 
-* Click **Submit**.
+* Haga clic en **Submit**.
 
 ![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 

@@ -93,4 +93,4 @@ Puedes registrarte como desarrollador [aquí](https://developer.apple.com/progra
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
 
-Congratulations! ¡Ya está listo para publicar aplicaciones en la App Store!
+¡Felicitaciones! ¡Ya está listo para publicar aplicaciones en la App Store!

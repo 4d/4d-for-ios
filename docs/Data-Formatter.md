@@ -23,6 +23,6 @@ Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../assets/en/data-formatter/BankingApp.zip">DATA FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">DATA FORMATTER STARTER PROJECT</a>
 </div>
 

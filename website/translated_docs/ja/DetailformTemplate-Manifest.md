@@ -5,24 +5,25 @@ title: Manifest.json
 
 The manifest file includes information about your detail form template such as the **Storyboard type** (list form or detail form), **name**, **number of static fields** and **Icon properties**.
 
-    {
-      "type": "detailform",
-    
-      "name": "Custom Detail form",
-    
-      "fields": {
-        "count": 1
-           },
-    
-      "assets": {
-        "size": {
-          "width": 16,
-          "height": 16
-        }
-      }
+```json
+{
+  "type": "detailform",
+
+  "name": "Custom Detail form",
+
+  "fields": {
+    "count": 1
+  },
+
+  "assets": {
+    "size": {
+      "width": 16,
+      "height": 16
     }
-    
-    
+  }
+}
+
+```
 
 For example, the manifest file for the detail form template below includes the following information:
 

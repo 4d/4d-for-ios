@@ -14,8 +14,8 @@
       "action-custom-template": {
         "title": "Adding actions in templates"
       },
-      "using-parameters": {
-        "title": "Using parameters"
+      "Actions-Using-Parameters": {
+        "title": "Actions-Using-Parameters"
       },
       "contact-app": {
         "title": "Contact App"
@@ -138,9 +138,6 @@
       "data": {
         "title": "Data"
       },
-      "detail-form-templates": {
-        "title": "Detail Forms templates"
-      },
       "forms": {
         "title": "Forms"
       },
@@ -149,9 +146,6 @@
       },
       "labels-and-icons": {
         "title": "Labels & Icons"
-      },
-      "list-form-templates": {
-        "title": "List Forms templates"
       },
       "main-menu": {
         "title": "Main Menu"

@@ -14,7 +14,7 @@ Dans ce tutoriel nous utiliserons le projet suivant :
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TitleDefinition-TimeKeeper-StarterProject.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="../assets/en/relations/OneToMany-TitleDefinition-TimeKeeper-StarterProject.zip">PROJET STARTER DE DEFINITION DE TITRE</a>
 
   </p>
 </div>

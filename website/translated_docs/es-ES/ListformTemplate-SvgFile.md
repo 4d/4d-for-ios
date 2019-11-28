@@ -15,15 +15,17 @@ Centrémonos en las diferentes partes de su archivo SVG y en lo que necesitará 
 
 ## Título
 
-    <title>Custom List form</title>
-    
+```xml
+<title>Custom List form</title>
+```
 
 Agregue el título de su plantilla aquí.
 
 ## ios:values
 
-    <text id="cookery" ios:values="search,section,f1,f2,f3"/>
-    
+```xml
+<text id="cookery" ios:values="search,section,f1,f2,f3"/>
+```
 
 Incluye las identificaciones que definen sus áreas de formulario:
 
@@ -41,30 +43,31 @@ Puede definir la posición, el alto y ancho para:
 
 ### Área SearchableField:
 
-    //1
-    <g transform="translate(0,60)”>
-    
-    //2
-    <rect class="bg field" x="14" y="12" width="238" height="30”/> 
-    
-    //3
-    <path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
-    
-    //4
-    <textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
-    
-    //5
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/> 
-    
-    //6
-    <use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
-    </g>
-    
+```xml
+//1
+<g transform="translate(0,60)”>
+
+//2
+<rect class="bg field" x="14" y="12" width="238" height="30”/>
+
+//3
+<path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
+
+//4
+<textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+
+//5
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/>
+
+//6
+<use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
+</g>
+```
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar un icono de lupa en el campo de búsqueda
-4. Definir la posición del área de texto y el ancho 
+4. Definir la posición del área de texto y el ancho
 5. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
@@ -89,7 +92,7 @@ Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". <
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
     
-    //2 
+    //2
     <textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
     
     //3
@@ -100,7 +103,7 @@ Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". <
     
 
 1. Posición, alto y ancho del área de fondo
-2. Definir la posición del área de texto y el ancho 
+2. Definir la posición del área de texto y el ancho
 3. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 4. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
@@ -131,7 +134,7 @@ El campo de sección es opcional.
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar una imagen en el imageField
-4. Definir la posición del área de texto y el ancho 
+4. Definir la posición del área de texto y el ancho
 5. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 6. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
@@ -156,7 +159,7 @@ El campo de sección es opcional.
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
-3. Definir la posición del área de texto y el ancho 
+3. Definir la posición del área de texto y el ancho
 4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
@@ -181,7 +184,7 @@ El campo de sección es opcional.
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
-3. Definir la posición del área de texto y el ancho 
+3. Definir la posición del área de texto y el ancho
 4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 

@@ -1,20 +1,20 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: Liens 1 vers N - Actions
 ---
 
 <div class = "objectives">
 **OBJECTIFS**
 Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.</div>
 
-It is very easy to create an entity using **parent Entity** !
+Il est très facile de créer une entité avec une **Entité parente** !
 
 Commençons par télécharger le Projet Starter :
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
+href="../assets/en/relations/ParentIDStarterProject.zip">PROJET STARTER - 1 VERS N & ACTIONS</a>
   </p>
 </div>
 
@@ -61,7 +61,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds[$in.dataClass].new()  //Create a reference
+    $entity:=ds[$in.dataClass].new()  //Créer une référence
 
     For each ($key;$in.parameters)
 
@@ -69,19 +69,19 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $primaryKey:=$in.parent.primaryKey   //Get parent primary key
+    $primaryKey:=$in.parent.primaryKey   //Lire clé primaire parente 
 
     $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+  $inverseRelationName:=$in.entity.relationName   //Lire nom du lien parent
 
     $entity[$inverseRelationName]:=$parent
 
-    $status:=$entity.save()  //save the entity
+    $status:=$entity.save()  //sauvegarder l'entité
 
-    $out.success:=True  // notify App that action success
+    $out.success:=True  // notifier l'application que l'action est réussie
 
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.dataSynchro:=True  // notifier l'application pour mettre à jour la sélection
 
     $out.statusText:="Task added"
 
@@ -97,11 +97,11 @@ $0:=$out
 
 ```
 
-And that's it you can then add some task to your employees easily using the parent Entity !
+Et voilà ! Vous pouvez ajouter facilement quelques tâches à vos employés à l'aide de l'entité parente !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDFinalProject.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
+href="../assets/en/relations/ParentIDFinalProject.zip">PROJET FINAL - 1 VERS N & ACTIONS</a>
   </p>
 </div>

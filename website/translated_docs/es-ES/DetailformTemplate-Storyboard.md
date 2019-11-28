@@ -122,7 +122,7 @@ Haga doble clic en la etiqueta y llámela "```<___FIELD_LABEL___>```". Luego, en
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 

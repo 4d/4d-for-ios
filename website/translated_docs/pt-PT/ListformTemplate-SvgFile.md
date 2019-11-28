@@ -15,15 +15,17 @@ Let’s focus on the different parts of your SVG file and what you'll need to ed
 
 ## Title
 
-    <title>Custom List form</title>
-    
+```xml
+<title>Custom List form</title>
+```
 
 Add the title for your template here.
 
 ## ios:values
 
-    <text id="cookery" ios:values="search,section,f1,f2,f3"/>
-    
+```xml
+<text id="cookery" ios:values="search,section,f1,f2,f3"/>
+```
 
 Inclues IDs which define your form areas:
 
@@ -41,30 +43,31 @@ You can define the position, height and width for:
 
 ### SearchableField area:
 
-    //1
-    <g transform="translate(0,60)”>
-    
-    //2
-    <rect class="bg field" x="14" y="12" width="238" height="30”/> 
-    
-    //3
-    <path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
-    
-    //4
-    <textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
-    
-    //5
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/> 
-    
-    //6
-    <use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
-    </g>
-    
+```xml
+//1
+<g transform="translate(0,60)”>
+
+//2
+<rect class="bg field" x="14" y="12" width="238" height="30”/>
+
+//3
+<path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
+
+//4
+<textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+
+//5
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/>
+
+//6
+<use id="search.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden”/> //6
+</g>
+```
 
 1. Entire area Y position
 2. Area background position, height, and width
 3. Icon to display a magnifying glass icon into the searchable field
-4. Define the text area position and width 
+4. Define the text area position and width
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Define a cancel button that will be displayed to delete the current content
 
@@ -89,7 +92,7 @@ To include all types, just type ios:type="all". </div>
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
     
-    //2 
+    //2
     <textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
     
     //3
@@ -100,7 +103,7 @@ To include all types, just type ios:type="all". </div>
     
 
 1. Area background position, height and width
-2. Define the text area position and width 
+2. Define the text area position and width
 3. Define the droppable field position, height and width as well as accepted **field types**
 4. Define a cancel button that will be displayed to delete the current content
 
@@ -131,7 +134,7 @@ The section field is optional.
 1. Entire area Y position
 2. Area background position, height and width
 3. Icon to display an image in the imageField
-4. Define the text area position and width 
+4. Define the text area position and width
 5. Define the droppable field position, height and width as well as accepted **field types**
 6. Define a cancel button that will be displayed to delete the current content
 
@@ -156,7 +159,7 @@ The section field is optional.
 
 1. Entire area Y position
 2. Area background position, height and width
-3. Define the text area position and width 
+3. Define the text area position and width
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. Define a cancel button that will be displayed to delete the current content
 
@@ -181,7 +184,7 @@ The section field is optional.
 
 1. Entire area Y position
 2. Area background position, height and width
-3. Define the text area position and width 
+3. Define the text area position and width
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. Define a cancel button that will be displayed to delete the current content
 

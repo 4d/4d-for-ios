@@ -14,8 +14,8 @@
       "action-custom-template": {
         "title": "Ajouter des actions aux modèles"
       },
-      "using-parameters": {
-        "title": "Utiliser des paramètres"
+      "Actions-Using-Parameters": {
+        "title": "Actions-Utilisation des paramètres"
       },
       "contact-app": {
         "title": "Application Contacts"
@@ -138,9 +138,6 @@
       "data": {
         "title": "Données"
       },
-      "detail-form-templates": {
-        "title": "Modèles de formulaires détaillés"
-      },
       "forms": {
         "title": "Formulaires"
       },
@@ -149,9 +146,6 @@
       },
       "labels-and-icons": {
         "title": "Libellés et icônes"
-      },
-      "list-form-templates": {
-        "title": "Modèles de formulaires Liste"
       },
       "main-menu": {
         "title": "Menu"
@@ -165,6 +159,9 @@
       "many-to-one-relations": {
         "title": "Liens N vers 1"
       },
+      "one-to-many-relations-actions": {
+        "title": "Liens 1 vers N - Actions"
+      },
       "one-to-many-relations-custom-button": {
         "title": "1 vers N - Bouton personnalisé"
       },
@@ -173,9 +170,6 @@
       },
       "one-to-many-relations": {
         "title": "Liens 1 vers N"
-      },
-      "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
       },
       "custom-data-formatters": {
         "title": "Format des données"

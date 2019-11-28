@@ -63,7 +63,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
   
   <tr>
     
-<td>Email Address</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
+<td>Correo electrónico</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
   </tr>
   
   <tr>
@@ -73,7 +73,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
   
   <tr>
     
-<td>Account</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
+<td>Cuenta</td><td>Teclado iOS optimizado para la entrada de correo electrónico</td>
   </tr>
   
   <tr>

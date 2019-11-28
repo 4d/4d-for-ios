@@ -28,7 +28,7 @@ Pour commencer, téléchargez le Projet Starter, qui comprend :
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomStarter.zip">PROJET STARTER</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJET STARTER</a>
 
   </p>
 </div>
@@ -162,7 +162,7 @@ Félicitations, votre application iOS Tasks est maintenant terminée et inclut d
     
 
 <a class="button"
-href="../assets/en/actions/TasksCustomFinal.zip">PROJET FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROJET FINAL</a>
 
   </p>
 </div>

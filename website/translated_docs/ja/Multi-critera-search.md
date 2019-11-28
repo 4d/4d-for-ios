@@ -16,15 +16,17 @@ title: 検索エリアに複数のフィールドを設定する
 
 自分で作成したテンプレートを複数フィールドの検索に対応させるためには，template.svgファイルを下記のように書き換えてください。
 
-    <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 変更後
 
-    <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
-    
-    
+```xml
+<rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
+
+```
 
 これだけです！ 検索エリアにクラス名を追加すれば，複数のフィールドをサポートすることができます。
 

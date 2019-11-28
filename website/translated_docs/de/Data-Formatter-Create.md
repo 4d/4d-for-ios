@@ -51,16 +51,17 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
-        "name": "integerToString",
-    
-       "type": ["integer"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
-    }
-    
+```json
+{
+   "name": "integerToString",
+
+   "type": ["integer"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"0":"UX designer","1":"Developer","2":"QA","3":"Product Owner"}
+}
+```
 
 1. **name**: the name of the formatter
 2. **type**: the 4D format type you want to use
@@ -81,25 +82,26 @@ Let's look at the contents of the **manifest.json** file:
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
-        "name": "integerToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
-    
-       "assets": {
+```json
+{
+    "name": "integerToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": {"0":"todo.png","1":"inprogress.png","2":"pending.png","3":"done.png"},
+
+   "assets": {
       "size": {
-       "width": 40, "height": 40
-            }
-        }
+         "width": 40, "height": 40
+      }
     }
-    
+}
+```
 
 1. **name**: the name of the formatter
-2. **type** : the 4D format type you want to use 
+2. **type** : the 4D format type you want to use
 3. **binding**: can be **localized text** for strings or **imageNamed** for images
 4. **choiceList**: mapped values
 5. **assets**: adjust the display size (width and height)
@@ -116,16 +118,17 @@ Let's look at the contents of the **manifest.json** file:
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
-        "name": "textToString",
-    
-       "type": ["text"],
-    
-       "binding": "localizedText",
-    
-       "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
-    }
-    
+```json
+{
+    "name": "textToString",
+
+   "type": ["text"],
+
+   "binding": "localizedText",
+
+   "choiceList": {"FRA":"France","MAR":"Morocco","USA":"United States","AUS":"Australia"}
+}
+```
 
 1. **name**: the name of the formatter
 2. **type**: the 4D format type you want to use
@@ -146,23 +149,24 @@ Let's look at the contents of the **manifest.json** file:
 
 Let's look at the contents of the **manifest.json** file:
 
-    {
-        "name": "textToImage",
-    
-       "type": ["integer"],
-    
-       "binding": "imageNamed",
-    
-       "choiceList": ["image1.png","image2.png","image3.png"],
-    
-       "assets": {
-      "size": {
-       "width": 40, "height": 40
-            }
+```json
+{
+    "name": "textToImage",
+
+   "type": ["integer"],
+
+   "binding": "imageNamed",
+
+   "choiceList": ["image1.png","image2.png","image3.png"],
+
+   "assets": {
+  "size": {
+   "width": 40, "height": 40
         }
     }
-    
-    
+}
+
+```
 
 ## Open mobile project
 

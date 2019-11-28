@@ -14,8 +14,8 @@
       "action-custom-template": {
         "title": "Añadir acciones a las plantillas"
       },
-      "using-parameters": {
-        "title": "Utilizar paramétros"
+      "Actions-Using-Parameters": {
+        "title": "Actions-Using-Parameters"
       },
       "contact-app": {
         "title": "Aplicación Contacts"
@@ -138,9 +138,6 @@
       "data": {
         "title": "Datos"
       },
-      "detail-form-templates": {
-        "title": "Plantillas de formularios detallados"
-      },
       "forms": {
         "title": "Formularios"
       },
@@ -149,9 +146,6 @@
       },
       "labels-and-icons": {
         "title": "Etiquetas e iconos"
-      },
-      "list-form-templates": {
-        "title": "Plantillas de formularios Lista"
       },
       "main-menu": {
         "title": "Menú principal"
@@ -163,19 +157,19 @@
         "title": "Structure"
       },
       "many-to-one-relations": {
-        "title": "Many to One relations"
-      },
-      "one-to-many-relations-custom-button": {
-        "title": "One to Many - Custom button"
-      },
-      "one-to-many-relations-title-definition": {
-        "title": "One to Many - Title definition"
-      },
-      "one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relaciones Muchos a Uno"
       },
       "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Uno a Muchos - Acciones"
+      },
+      "one-to-many-relations-custom-button": {
+        "title": "Uno a Muchos - Botón personalizado"
+      },
+      "one-to-many-relations-title-definition": {
+        "title": "Uno a Muchos - Título"
+      },
+      "one-to-many-relations": {
+        "title": "Relaciones Uno a Muchos"
       },
       "custom-data-formatters": {
         "title": "Formato de datos"
