@@ -289,3 +289,11 @@ title: Detail Form Templates
       </tr>
   </table>
 </div>
+
+<div markdown="1" class = "tips">
+
+**More**
+
+You can find more detail form template on [github](https://github.com/search?q=topic%3A4d-for-ios-form-detail).
+
+</div>
