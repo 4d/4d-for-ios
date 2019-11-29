@@ -3,23 +3,23 @@ id: svg-file-listform-template
 title: Template.svg
 ---
 
-The template.svg file is a basic visual representation of a template. In this file, you'll need to define areas in order to be able to add fields to your list form template from the project editor.
+O arquivo template.svg é uma representação visual básica de um modelo. Neste arquivo, precisa definir áreas para poder adicionar campos para seu modelo de formulário lista do editor de projeto.
 
-Here's a finished version:
+Aqui está a versão terminada:
 
 ![Template svg file](assets/en/custom-listform/template-svg-file.png)
 
-Open the template.svg file with your favorite code editor.
+Abra o arquivo template.svg com seu editor de código favorito.
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+Vamos focar nas diferentes partes de seu arquivo SVG e o que vai precisar para editar.
 
-## Title
+## Título
 
 ```xml
 <title>Custom List form</title>
 ```
 
-Add the title for your template here.
+Adicione o título para seu modelo aqui.
 
 ## ios:values
 
@@ -27,21 +27,21 @@ Add the title for your template here.
 <text id="cookery" ios:values="search,section,f1,f2,f3"/>
 ```
 
-Inclues IDs which define your form areas:
+Inclui IDs que definem suas áreas formulário:
 
-* **search ID**: Refers to the search field area. This will allow you to drag and drop a field as the search criteria in your list form (optional).
-* **section ID**: Refers to the section field area. This will allow you drag and drop a field as the sort criteria in your list form (optional).
-* **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. This will allow you to drag and drop fields to appear in your list form cells.
+* **search ID**: Refere a área campo pesquisa. Isso permite que arraste e solte um campo como um critério de pesquisa em seu formulário lista (opcional).
+* **section ID**: Refere a àrea campo da seção. Isso permite que arraste e solte um campo como o critério de ordenação em seu formulário lista (opcional).
+* **f1, f2 and f3 IDs**: Refere aos campos a exibir em cada célula do formulário lista. Isso permite que arraste e solte campos para aparecer em suas células de formulário lista.
 
-## Area position, height, width and type
+## Posição, altura, largura e tipo da Área
 
-You can define the position, height and width for:
+Pode definir a posição, altura e largura para:
 
-* Searchfield
-* Sectionfield
-* Other general fields that will be displayed in each table cell
+* Campo de pesquisa
+* Pesquisa seção
+* Outros campos gerais que serão exibidas em cada célula tabela
 
-### SearchableField area:
+### Área searchableField:
 
 ```xml
 //1
@@ -64,30 +64,30 @@ You can define the position, height and width for:
 </g>
 ```
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Icon to display a magnifying glass icon into the searchable field
-4. Define the text area position and width
-5. Define the droppable field position, height, and width, as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+1. Posição Y toda a área
+2. Posição fundo, altura e largura da Área
+3. Ícone para exibir um ícone lupa no campo de pesquisa
+4. Define a posição e largura área texto.
+5. Define a posição, altura e largura dos campos soltáveis, assim como **tipos de campos aceitos**
+6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-The searchable field is optional.<div class = "tips"> 
+O campo pesquisável é opcional. <div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
+Todos os tipos de Campo e Variável estão disponíveis [aqui](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
 <
 
 div markdown="1" class = "tips">
 
-**TIP**
+**DICA**
 
-To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
+Para tornar mais fácil a definição de tipo de campo, 4D for iOS permite que inclua tipos campo com **valores positivos** e também excluam tipos campo com **valores negativos**. Por exemplo, ```ios:type="-3,-4"``` permite que arraste e solte todos os campos exceto imagens e datas.
 
-To include all types, just type ios:type="all". </div>
+Para incluir todos os tipos, apenas digite ios:type="all". </div>
 
-### SectionField area:
+### Área SectionField:
 
     //1
     <rect class="bg field" x="10" y="110" width="246" height="30”/>
@@ -102,14 +102,14 @@ To include all types, just type ios:type="all". </div>
     <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
     
 
-1. Area background position, height and width
-2. Define the text area position and width
-3. Define the droppable field position, height and width as well as accepted **field types**
-4. Define a cancel button that will be displayed to delete the current content
+1. Posição, altura e largura da Área de fundo
+2. Define a a posição e largura da área de texto
+3. Define a posição do campo soltável, sua altura e largura assim como os **tipos de campos aceitos**
+4. Define um botão cancelar que será exibido para apagar o conteúdo atual
 
-The section field is optional.
+O campo de seção é opcional.
 
-### ImageField area:
+### Área ImageField:
 
     //1
     <g transform="translate(0,162)">
@@ -131,14 +131,14 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width
-5. Define the droppable field position, height and width as well as accepted **field types**
-6. Define a cancel button that will be displayed to delete the current content
+1. Posição de toda a área Y
+2. Posição, altura e largura da área de fundo
+3. Ícone para exibir uma imagem no ImageField
+4. Define a posição da área de texto e largura
+5. Define a posição do campo soltável, sua altura e sua largura, assim como os **tipos de campos aceitos**
+6. Define um botão de cancelar que será exibido para apagar o conteúdo atual
 
-### Title Field area:
+### Área Title Field:
 
     //1
     <g transform="translate(0,162)”>
@@ -157,13 +157,13 @@ The section field is optional.
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+1. Posição de toda a área Y
+2. Posição, altura e largura da área de fundo 
+3. Ícone para exibir uma imagem no ImageField 
+4. Define a posição do campo soltável, sua altura e sua largura, assim como os tipos de campos aceitos 
+5. Define um botão de cancelar que será exibido para apagar o conteúdo atual
 
-### Subtitle Field area:
+### Área Subtitle Field:
 
     //1
     <g transform="translate(0,198)”>
@@ -183,9 +183,9 @@ The section field is optional.
     
 
 1. Entire area Y position
-2. Area background position, height and width
-3. Define the text area position and width
-4. Define the droppable field position, height and width as well as accepted **field types**
-5. Define a cancel button that will be displayed to delete the current content
+2. Posição, altura e largura da área de fundo
+3. Define a posição da área de texto e largura 
+4. Define a posição do campo soltável, sua altura e sua largura, assim como os tipos de campos aceitos 
+5. Define um botão de cancelar que será exibido para apagar o conteúdo atual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json e seu arquivo**svg ** ... vamos passar para a parte divertida de Xcode
