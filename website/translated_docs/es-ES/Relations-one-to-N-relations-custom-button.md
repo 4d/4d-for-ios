@@ -1,34 +1,34 @@
 ---
 id: one-to-many-relations-custom-button
-title: One to Many - Custom button
+title: Uno a Muchos - Botón personalizado
 ---
 
-As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
+Como hemos visto con todos los tutoriales anteriores, 4D for iOS le da la libertad de crear muchos elementos personalizados.
 
-As for custom templates or custom formatters, you can create custom Relation Buttons.
+En cuanto a las plantillas y formatos personalizados, puede crear botones relaciones personalizados.
 
-To that end, nothing more simple! You just have to drop your custom button in your custom template.
+Para esto, ¡Nada más simple! Solo tiene que soltar su botón personalizado en su plantilla personalizada.
 
-Let's get started by downloading the Starter Project that includes:
+Comencemos descargando el Proyecto Starter que incluye:
 
-* a database with its mobile project
-* a standard Relation button
+* una base de datos con su proyecto móvil
+* un botón Relation estándar
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">STARTER CUSTOM BUTTON</a>
+href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">BOTÓN STARTER PERSONALIZADO</a>
 
   </p>
 </div>
 
-## Include the button
+## Integrar un botón
 
-The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
+El primer paso es incluir el botón button.xib en su plantilla personalizada para que 4D for iOS pueda utilizarlo.
 
-To use the button, you just need to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
+Para utilizar el botón, solo necesita colocarlo en la carpeta ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` 
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
