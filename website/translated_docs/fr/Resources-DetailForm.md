@@ -538,4 +538,12 @@ title: Modèles des formulaires détaillés
             </p>
           </div>
         </td>
-      </tr></table> </div>
+      </tr></table> </div> <div class = "tips"> 
+      
+      <p>
+        <strong>More</strong>
+      </p>
+      
+      <p>
+        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+      </p></div>
