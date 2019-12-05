@@ -20,7 +20,7 @@
     "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run","creating-data-formatter"],
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
-    "Actions" : ["actions-getting-started","define-first-action","using-parameters","action-custom-template"],
+    "Actions" : ["actions-getting-started","define-first-action","action-custom-template","action-using-parameters","action-parameters"],
     "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-many-relations-actions"]
   },
 
