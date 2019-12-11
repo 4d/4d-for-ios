@@ -28,7 +28,7 @@ title: Plantillas de formularios detallados
         
         <ul style="font-size:16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sí
           </li>
           <li>
             <strong>Acciones:</strong> incluidas
@@ -54,7 +54,7 @@ title: Plantillas de formularios detallados
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sí
           </li>
           <li>
             <strong>Acciones:</strong> incluidas
@@ -87,7 +87,7 @@ title: Plantillas de formularios detallados
           
           <ul style="font-size:16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sí
             </li>
             <li>
               <strong>Acciones:</strong> incluidas
