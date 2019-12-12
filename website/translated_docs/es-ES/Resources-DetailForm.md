@@ -113,7 +113,7 @@ title: Plantillas de formularios detallados
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sí
             </li>
             <li>
               <strong>Acciones:</strong> incluidas
@@ -541,9 +541,9 @@ title: Plantillas de formularios detallados
       </tr></table> </div> <div class = "tips"> 
       
       <p>
-        <strong>More</strong>
+        <strong>Más</strong>
       </p>
       
       <p>
-        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+        Puede encontrar una plantilla de formulario más detallada en <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
       </p></div>
