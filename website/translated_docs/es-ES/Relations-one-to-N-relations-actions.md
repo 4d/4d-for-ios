@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: Relaciones Uno a Muchos - Acciones
 ---
 
 <div class = "objectives">
