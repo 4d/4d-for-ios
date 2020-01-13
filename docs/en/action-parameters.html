@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Using action parameters · 4D for iOS Preview</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Using action parameters · 4D for iOS Preview"/><meta property="og:type" content="website"/><meta property="og:url" content="https://4D.github.io/4d-for-ios/index.html"/><meta property="og:description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dark.min.css"/><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Using action parameters · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Using action parameters · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://4D.github.io/4d-for-ios/index.html"/><meta property="og:description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://4D.github.io/4d-for-ios/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dark.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -6,7 +6,7 @@
 
               ga('create', 'UA-129154982-1', 'auto');
               ga('send', 'pageview');
-            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/en"><h2 class="headerTitle">4D for iOS Preview</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/docs/en/faq.html" target="_self">FAQ</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/es-ES/action-parameters.html">Español</a></li><li><a href="/4d-for-ios/docs/fr/action-parameters.html">Français</a></li></ul></div></li><script>
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/docs/" target="_self">Doc 4D</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/es-ES/action-parameters.html">Español</a></li><li><a href="/4d-for-ios/docs/fr/action-parameters.html">Français</a></li></ul></div></li><script>
         const languagesMenuItem = document.getElementById("languages-menu");
         const languagesDropDown = document.getElementById("languages-dropdown");
         languagesMenuItem.addEventListener("click", function(event) {
@@ -18,7 +18,7 @@
             languagesDropDown.className = "hide";
           }
         });
-      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Actions</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating your iOS App<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/contact-app.html">Contact App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customizing with Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/open-xcode.html">Working with Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/xcode-overview.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/4d-for-ios-project-organization.html">4D for iOS project organization</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating List forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-listform-templates.html">List form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-listform-template.html">List form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating Detail forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-detailform-template.html">Detail form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Using icons<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/using-icons.html">Using icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/create-icons.html">Create icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/include-icons.html">Include icons in the project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/select-icons.html">Select your icons</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Data formatter<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter.html">Data formatter</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-mobile-project.html">Open mobile project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-build-and-run.html">Build and Run your project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-data-formatter.html">Create data formatter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Multi-criteria search<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/multi-criteria-search.html">Multi-criteria search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Restricted queries<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/filter-query-introduction.html">Restricted queries</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/define-filter-query.html">Define a filter query</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/user-information-query.html">User information query</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/actions-getting-started.html">Getting started</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/define-first-action.html">Defining your first action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/action-custom-template.html">Adding actions in templates</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/docs/en/action-parameters.html">Using action parameters</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/many-to-one-relations.html">Many to One relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations.html">One to Many relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-title-definition.html">One to Many - Title definition</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-custom-button.html">One to Many - Custom button</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-actions.html">One to Many - Actions</a></li></ul></div></div></section></div><script>
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Actions</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating your iOS App<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/contact-app.html">Contact App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customizing with Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/open-xcode.html">Working with Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/xcode-overview.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/4d-for-ios-project-organization.html">4D for iOS project organization</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating List forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-listform-templates.html">List form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-listform-template.html">List form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating Detail forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/icon-detailform-template.html">Detail form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Using icons<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/using-icons.html">Using icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/create-icons.html">Create icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/include-icons.html">Include icons in the project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/select-icons.html">Select your icons</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Data formatter<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter.html">Data formatter</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-mobile-project.html">Open mobile project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/data-formatter-build-and-run.html">Build and Run your project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/creating-data-formatter.html">Create data formatter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Multi-criteria search<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/multi-criteria-search.html">Multi-criteria search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Restricted queries<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/filter-query-introduction.html">Restricted queries</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/define-filter-query.html">Define a filter query</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/user-information-query.html">User information query</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/actions-getting-started.html">Getting started</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/define-first-action.html">Defining your first action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/action-custom-template.html">Adding actions in templates</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/docs/en/action-parameters.html">Using action parameters</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/many-to-one-relations.html">Many to One relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations.html">One to Many relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-title-definition.html">One to Many - Title definition</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-custom-button.html">One to Many - Custom button</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/docs/en/one-to-many-relations-actions.html">One to Many - Actions</a></li></ul></div></div></section></div><script>
             var coll = document.getElementsByClassName('collapsible');
             var checkActiveCategory = true;
             for (var i = 0; i < coll.length; i++) {
@@ -46,10 +46,16 @@
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
 
-              const headings = document.querySelector('.toc-headings');
+              var headings = document.querySelector('.toc-headings');
               headings && headings.addEventListener('click', function(event) {
-                if (event.target.tagName === 'A') {
-                  document.body.classList.remove('tocActive');
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
                 }
               }, false);
 
@@ -68,7 +74,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Using action parameters</h1></header><article><div><span><div markdown="1" class = "objectives">
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Using action parameters</h1></header><article><div><span><div markdown="1" class = "objectives">
 <p><strong>OBJECTIVES</strong></p>
 <p>Define action parameters to edit the content of your app.</p>
 </div>
@@ -145,249 +151,249 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 <p>All of your actions will automatically be included in this database method.</p>
 <p>The only thing you need to do is add a reference to your method(s) for the scenario(s) your want to handle.</p>
 <p>Here's the final <em>On Mobile App Action</em> database method:</p>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>;$response)
-C_OBJECT($<span class="hljs-number">1</span>;$request)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>;<span class="hljs-locale">$response</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>;<span class="hljs-locale">$request</span>)
 
-C_OBJECT($o;$context;$request;$result;$parameters)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$o</span>;<span class="hljs-locale">$context</span>;<span class="hljs-locale">$request</span>;<span class="hljs-locale">$result</span>;<span class="hljs-locale">$parameters</span>)
 
-$request:=$<span class="hljs-number">1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-locale">$request</span>:=<span class="hljs-param">$1</span>  <span class="hljs-comment">// Informations provided by mobile application
+</span>
+<span class="hljs-locale">$context</span>:=<span class="hljs-locale">$request</span><span class="hljs-property">.context</span>
+<span class="hljs-locale">$parameters</span>:=<span class="hljs-locale">$request</span><span class="hljs-property">.parameters</span>
 
-$context:=$request.context
-$parameters:=$request.parameters
-
-<span class="hljs-keyword">Case</span> of 
+<span class="hljs-keyword">Case of</span> 
         
-    : ($request.action=<span class="hljs-string">"addTasks"</span>)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">addTasks</span>")
         
-          <span class="hljs-comment">// Insert here the code for the action "Add…"</span>
+          <span class="hljs-comment">// Insert here the code for the action "Add…"
+</span>        
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
         
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
+        <span class="hljs-locale">$result</span>:=addAction (<span class="hljs-locale">$o</span>)
         
-        $result:=addAction ($o)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">editTasks</span>")
         
-    : ($request.action=<span class="hljs-string">"editTasks"</span>)
+          <span class="hljs-comment">// Insert here the code for the action "Edit…"
+</span>        
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
         
-          <span class="hljs-comment">// Insert here the code for the action "Edit…"</span>
-        
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
-        
-        $result:=editAction ($o)
+        <span class="hljs-locale">$result</span>:=editAction (<span class="hljs-locale">$o</span>)
         
         
-    : ($request.action=<span class="hljs-string">"deleteTasks"</span>)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">deleteTasks</span>")
         
-          <span class="hljs-comment">// Insert here the code for the action "Remove"</span>
+          <span class="hljs-comment">// Insert here the code for the action "Remove"
+</span>        
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>)
         
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey)
+        <span class="hljs-locale">$result</span>:=deleteAction (<span class="hljs-locale">$o</span>)
         
-        $result:=deleteAction ($o)
+    : (<span class="hljs-locale">$request</span><span class="hljs-property">.action</span>="<span class="hljs-string">sendComment</span>")
         
-    : ($request.action=<span class="hljs-string">"sendComment"</span>)
-        
-          <span class="hljs-comment">// Insert here the code for the action "Send Comment"</span>
-        
-        $o:=<span class="hljs-literal">New</span> object(\
-        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
-        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
-        <span class="hljs-string">"parameters"</span>;$parameters)
+          <span class="hljs-comment">// Insert here the code for the action "Send Comment"
+</span>        
+        <span class="hljs-locale">$o</span>:=<span class="hljs-command">New object</span>(\
+        "<span class="hljs-string">dataClass</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.dataClass</span>;\
+        "<span class="hljs-string">ID</span>";<span class="hljs-locale">$context</span><span class="hljs-property">.entity</span><span class="hljs-property">.primaryKey</span>;\
+        "<span class="hljs-string">parameters</span>";<span class="hljs-locale">$parameters</span>)
         
         
-        $result:=sendMail ($o)
+        <span class="hljs-locale">$result</span>:=sendMail (<span class="hljs-locale">$o</span>)
         
     <span class="hljs-keyword">Else</span> 
         
-          <span class="hljs-comment">// Unknown action</span>
-        
-End <span class="hljs-keyword">case</span> 
+          <span class="hljs-comment">// Unknown action
+</span>        
+<span class="hljs-keyword">End case</span> 
 
-$<span class="hljs-number">0</span>:=$result
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$result</span>
 
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="step-6-create-all-the-methods-you-need"></a><a href="#step-6-create-all-the-methods-you-need" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 6. Create All the methods you need</h2>
 <h3><a class="anchor" aria-hidden="true" id="addaction"></a><a href="#addaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>addAction</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
-C_OBJECT($<span class="hljs-number">1</span>)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT($entity;$in;$out)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>)
 
-$in:=$<span class="hljs-number">1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-$out:=<span class="hljs-keyword">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-keyword">False</span>)
+<span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>("<span class="hljs-string">success</span>";<span class="hljs-command">False</span>)
 
-<span class="hljs-keyword">If</span> ($in.dataClass<span class="hljs-comment">#Null)</span>
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>#<span class="hljs-command">Null</span>)
     
-    $entity:=ds.Tasks.<span class="hljs-keyword">new</span>()  <span class="hljs-comment">//create a reference</span>
-    
-    <span class="hljs-keyword">For</span> each ($key;$in.parameters)
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-command">ds</span><span class="hljs-property">.Tasks</span><span class="hljs-method">.new()</span>  <span class="hljs-comment">//create a reference
+</span>    
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
         
-        $entity[$key]:=$in.parameters[$key]
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
         
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-keyword">End for each</span> 
     
-    $entity.save()  <span class="hljs-comment">//save the entity</span>
+    <span class="hljs-locale">$entity</span><span class="hljs-method">.save()</span>  <span class="hljs-comment">//save the entity
+</span>    
     
-    
-    $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    $out.dataSynchro:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
-    $out.statusText:=<span class="hljs-string">"Task added"</span>
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>    <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh the selection
+</span>    <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task added</span>"
     
 <span class="hljs-keyword">Else</span> 
     
-    $out.errors:=<span class="hljs-keyword">New</span> collection(<span class="hljs-string">"No Selection"</span>)
+    <span class="hljs-locale">$out</span><span class="hljs-property">.errors</span>:=<span class="hljs-command">New collection</span>("<span class="hljs-string">No Selection</span>")
     
-End <span class="hljs-keyword">if</span> 
+<span class="hljs-keyword">End if</span> 
 
-$<span class="hljs-number">0</span>:=$out
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="editaction"></a><a href="#editaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>editAction</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT(<span class="hljs-variable">$0</span>)
-C_OBJECT(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>;<span class="hljs-locale">$status</span>;<span class="hljs-locale">$selection</span>)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-<span class="hljs-variable">$selection</span>:=<span class="hljs-keyword">ds</span>[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-keyword">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-built_in">String</span>(<span class="hljs-variable">$in</span>.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> (<span class="hljs-variable">$selection</span>.length=1)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
     
-    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>[0]
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span>[0]
     
-    <span class="hljs-keyword">For</span> each (<span class="hljs-variable">$key</span>;<span class="hljs-variable">$in</span>.parameters)
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
         
-        <span class="hljs-variable">$entity</span>[<span class="hljs-variable">$key</span>]:=<span class="hljs-variable">$in</span>.parameters[<span class="hljs-variable">$key</span>]
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
         
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-keyword">End for each</span> 
     
-    <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-keyword">save</span>()
+    <span class="hljs-locale">$status</span>:=<span class="hljs-locale">$entity</span><span class="hljs-method">.save()</span>
     
-    <span class="hljs-variable">$out</span>:=New object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
     
-    <span class="hljs-keyword">If</span> (<span class="hljs-variable">$status</span>.success)
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$status</span><span class="hljs-property">.success</span>)
         
-        <span class="hljs-variable">$out</span>.success:=True  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=True  <span class="hljs-comment">// notify App to refresh this entity</span>
-        <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task edited"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh this entity
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task edited</span>"
         
     <span class="hljs-keyword">Else</span> 
         
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span>
-        
-    End <span class="hljs-keyword">if</span> 
+        <span class="hljs-locale">$out</span>:=<span class="hljs-locale">$status</span>  <span class="hljs-comment">// return status to the App
+</span>        
+    <span class="hljs-keyword">End if</span> 
     
 <span class="hljs-keyword">Else</span> 
     
-    <span class="hljs-variable">$out</span>.success:=False  <span class="hljs-comment">// notify App that action failed</span>
-    
-End <span class="hljs-keyword">if</span> 
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>    
+<span class="hljs-keyword">End if</span> 
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="deleteaction"></a><a href="#deleteaction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>deleteAction</h3>
 <pre><code class="hljs css language-code4d">
-C_OBJECT(<span class="hljs-variable">$0</span>)
-C_OBJECT(<span class="hljs-variable">$1</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>)
 
-C_OBJECT(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$in</span>;<span class="hljs-locale">$out</span>;<span class="hljs-locale">$status</span>;<span class="hljs-locale">$selection</span>)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-<span class="hljs-variable">$selection</span>:=<span class="hljs-keyword">ds</span>[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-keyword">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-built_in">String</span>(<span class="hljs-variable">$in</span>.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> (<span class="hljs-variable">$selection</span>.length=1)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
     
-    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>.<span class="hljs-keyword">drop</span>()
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span><span class="hljs-method">.drop()</span>
     
-    <span class="hljs-variable">$out</span>:=New object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
     
-    <span class="hljs-keyword">If</span> (<span class="hljs-variable">$entity</span>.length=0)
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$entity</span><span class="hljs-property">.length</span>=0)
         
-        <span class="hljs-variable">$out</span>.success:=True  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=True  <span class="hljs-comment">// notify App to refresh this entity</span>
-        <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task deleted"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.dataSynchro</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App to refresh this entity
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Task deleted</span>"
         
     <span class="hljs-keyword">Else</span> 
         
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span>
-        
-    End <span class="hljs-keyword">if</span> 
+        <span class="hljs-locale">$out</span>:=<span class="hljs-locale">$status</span>  <span class="hljs-comment">// return status to the App
+</span>        
+    <span class="hljs-keyword">End if</span> 
     
 <span class="hljs-keyword">Else</span> 
     
-    <span class="hljs-variable">$out</span>.success:=False  <span class="hljs-comment">// notify App that action failed</span>
-    
-End <span class="hljs-keyword">if</span> 
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>    
+<span class="hljs-keyword">End if</span> 
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="sendemail"></a><a href="#sendemail" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sendEmail</h3>
-<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>;$out)
-C_OBJECT($<span class="hljs-number">1</span>;$in)
+<pre><code class="hljs css language-code4d"><span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$0</span>;<span class="hljs-locale">$out</span>)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-param">$1</span>;<span class="hljs-locale">$in</span>)
 
-C_OBJECT($dataClass;$entity;$selection)
+<span class="hljs-command">C_OBJECT</span>(<span class="hljs-locale">$dataClass</span>;<span class="hljs-locale">$entity</span>;<span class="hljs-locale">$selection</span>)
 
-$in:=$<span class="hljs-number">1</span>
+<span class="hljs-locale">$in</span>:=<span class="hljs-param">$1</span>
 
-$selection:=ds[$in.dataClass].query(<span class="hljs-string">"ID = :1"</span>;String($in.ID))
+<span class="hljs-locale">$selection</span>:=<span class="hljs-command">ds</span>[<span class="hljs-locale">$in</span><span class="hljs-property">.dataClass</span>]<span class="hljs-method">.query(<span class="hljs-string">"ID = :1"</span><span class="hljs-normal">;</span><span class="hljs-command">String</span>(<span class="hljs-locale">$in</span><span class="hljs-property">.ID</span>))</span>
 
-<span class="hljs-keyword">If</span> ($selection.length=<span class="hljs-number">1</span>)
+<span class="hljs-keyword">If</span> (<span class="hljs-locale">$selection</span><span class="hljs-property">.length</span>=1)
     
-    $entity:=$selection[<span class="hljs-number">0</span>]
+    <span class="hljs-locale">$entity</span>:=<span class="hljs-locale">$selection</span>[0]
     
-    <span class="hljs-keyword">For</span> each ($key;$in.parameters)
+    <span class="hljs-keyword">For each</span> (<span class="hljs-locale">$key</span>;<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>)
         
-        $entity[$key]:=$in.parameters[$key]
+        <span class="hljs-locale">$entity</span>[<span class="hljs-locale">$key</span>]:=<span class="hljs-locale">$in</span><span class="hljs-property">.parameters</span>[<span class="hljs-locale">$key</span>]
         
-    End <span class="hljs-keyword">for</span> each 
+    <span class="hljs-keyword">End for each</span> 
     
-    $out:=<span class="hljs-keyword">New</span> object
+    <span class="hljs-locale">$out</span>:=<span class="hljs-command">New object</span>
     
-    $server:=<span class="hljs-keyword">New</span> object
-    $server.host:=<span class="hljs-string">"smtp.gmail.com"</span>
-    $server.port:=<span class="hljs-number">465</span>
-    $server.user:=<span class="hljs-string">"test@mail.com"</span>
-    $server.password:=<span class="hljs-string">"yourPassword"</span>
+    <span class="hljs-locale">$server</span>:=<span class="hljs-command">New object</span>
+    <span class="hljs-locale">$server</span><span class="hljs-property">.host</span>:="<span class="hljs-string">smtp.gmail.com</span>"
+    <span class="hljs-locale">$server</span><span class="hljs-property">.port</span>:=465
+    <span class="hljs-locale">$server</span><span class="hljs-property">.user</span>:="<span class="hljs-string">test@mail.com</span>"
+    <span class="hljs-locale">$server</span><span class="hljs-property">.password</span>:="<span class="hljs-string">yourPassword</span>"
     
-    $transporter:=SMTP <span class="hljs-keyword">New</span> transporter($server)
+    <span class="hljs-locale">$transporter</span>:=SMTP New transporter(<span class="hljs-locale">$server</span>)
     
-    $email:=<span class="hljs-keyword">New</span> object
-    $email.subject:=<span class="hljs-string">"New comment about one of your task"</span>
-    $email.from:=<span class="hljs-string">"yourEmail"</span>
-    $email.to:=$emailToSend
-    $email.htmlBody:=<span class="hljs-string">"&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;"</span>+<span class="hljs-string">"&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; "</span>+$taskTitle+<span class="hljs-string">"&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; "</span>\
-    +$commentToSend+<span class="hljs-string">"&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;"</span>\
+    <span class="hljs-locale">$email</span>:=<span class="hljs-command">New object</span>
+    <span class="hljs-locale">$email</span><span class="hljs-property">.subject</span>:="<span class="hljs-string">New comment about one of your task</span>"
+    <span class="hljs-locale">$email</span><span class="hljs-property">.from</span>:="<span class="hljs-string">yourEmail</span>"
+    <span class="hljs-locale">$email</span><span class="hljs-property">.to</span>:=<span class="hljs-locale">$emailToSend</span>
+    <span class="hljs-locale">$email</span><span class="hljs-property">.htmlBody</span>:="<span class="hljs-string">&lt;h1&gt;Comment from Tasks for iOS&lt;/h1&gt;</span>"+"<span class="hljs-string">&lt;p&gt;&lt;b&gt;Task:&lt;/b&gt; </span>"+<span class="hljs-locale">$taskTitle</span>+"<span class="hljs-string">&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment:&lt;/b&gt; </span>"\
+    +<span class="hljs-locale">$commentToSend</span>+"<span class="hljs-string">&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Send from my 4D for iOS app&lt;/i&gt;&lt;/p&gt;</span>"\
     
-    $status:=$transporter.send($email)
-    <span class="hljs-keyword">If</span> ($status.success)
-        $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
-        $out.statusText:=<span class="hljs-string">"Mail sent"</span>
+    <span class="hljs-locale">$status</span>:=<span class="hljs-locale">$transporter</span><span class="hljs-method">.send(<span class="hljs-locale">$email</span>)</span>
+    <span class="hljs-keyword">If</span> (<span class="hljs-locale">$status</span><span class="hljs-property">.success</span>)
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">True</span>  <span class="hljs-comment">// notify App that action success
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Mail sent</span>"
         
     <span class="hljs-keyword">Else</span> 
-        $out.success:=<span class="hljs-keyword">False</span>  <span class="hljs-comment">// notify App that action failed</span>
-        $out.statusText:=<span class="hljs-string">"Mail not sent"</span>
+        <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>        <span class="hljs-locale">$out</span><span class="hljs-property">.statusText</span>:="<span class="hljs-string">Mail not sent</span>"
         
-    End <span class="hljs-keyword">if</span> 
+    <span class="hljs-keyword">End if</span> 
     
 <span class="hljs-keyword">Else</span> 
     
-    $out.success:=<span class="hljs-keyword">False</span>  <span class="hljs-comment">// notify App that action failed</span>
-    
-End <span class="hljs-keyword">if</span> 
+    <span class="hljs-locale">$out</span><span class="hljs-property">.success</span>:=<span class="hljs-command">False</span>  <span class="hljs-comment">// notify App that action failed
+</span>    
+<span class="hljs-keyword">End if</span> 
 
-$<span class="hljs-number">0</span>:=$out
+<span class="hljs-param">$0</span>:=<span class="hljs-locale">$out</span>
 
 
 </code></pre>
@@ -406,9 +412,9 @@ $<span class="hljs-number">0</span>:=$out
 <p>Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <p><a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/releases/latest/download/tutorial-ActionParameters.zip">FINAL PROJECT</a></p>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a></p>
 </div>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/en/action-using-parameters.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/4d-for-ios/docs/en/many-to-one-relations.html"><span>Many to One relations</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-add-action">STEP 1. Add action</a></li><li><a href="#step-2-edit-action">STEP 2. Edit action</a></li><li><a href="#step-3-delete-action">STEP 3. Delete action</a></li><li><a href="#step-4-send-a-comment-action">STEP 4. Send a comment action</a></li><li><a href="#step-5-create-the-on-mobile-app-action">STEP 5. Create the On Mobile App Action</a></li><li><a href="#step-6-create-all-the-methods-you-need">STEP 6. Create All the methods you need</a><ul class="toc-headings"><li><a href="#addaction">addAction</a></li><li><a href="#editaction">editAction</a></li><li><a href="#deleteaction">deleteAction</a></li><li><a href="#sendemail">sendEmail</a></li></ul></li><li><a href="#step-7-build-your-app">STEP 7. Build your app</a></li><li><a href="#step-8-where-to-go-from-here">STEP 8. Where to go from here?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/4d-for-ios/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4Dsoftware" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware" target="_blank" rel="noreferrer noopener">Youtube</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>About</h5><a href="http://www.4d.com">4D</a><a href="http://www.4d.com/legal.html">Legal</a><a href="/4d-for-ios/docs/en/licenses.html">Licenses</a><a href="https://github.com/4D/4d-for-ios">GitHub</a><a class="github-button" href="https://github.com/4D/4d-for-ios" data-icon="octicon-star" data-count-href="/4D/4d-for-ios/stargazers" data-count-api="/repos/4D/4d-for-ios#stargazers_count" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/en/action-using-parameters.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/4d-for-ios/docs/en/many-to-one-relations.html"><span>Many to One relations</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-add-action">STEP 1. Add action</a></li><li><a href="#step-2-edit-action">STEP 2. Edit action</a></li><li><a href="#step-3-delete-action">STEP 3. Delete action</a></li><li><a href="#step-4-send-a-comment-action">STEP 4. Send a comment action</a></li><li><a href="#step-5-create-the-on-mobile-app-action">STEP 5. Create the On Mobile App Action</a></li><li><a href="#step-6-create-all-the-methods-you-need">STEP 6. Create All the methods you need</a><ul class="toc-headings"><li><a href="#addaction">addAction</a></li><li><a href="#editaction">editAction</a></li><li><a href="#deleteaction">deleteAction</a></li><li><a href="#sendemail">sendEmail</a></li></ul></li><li><a href="#step-7-build-your-app">STEP 7. Build your app</a></li><li><a href="#step-8-where-to-go-from-here">STEP 8. Where to go from here?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://forums.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">Copyright © 2020 4D SAS</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
