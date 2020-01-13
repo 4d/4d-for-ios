@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: '4D for iOS Preview' /* title for your website */,
+  title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
   url: 'https://4D.github.io' /* your website url */,
   baseUrl: '/4d-for-ios/' /* base url for your project */,
@@ -39,13 +39,9 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
+    {href: 'https://developer.4d.com/docs/', label: 'Doc 4D'}
 
 
-
-   // {doc: 'docindex', label: 'API'},
-   // {page: 'help', label: 'Help'},
-    //{blog: 'true', label: 'Blog'},
-    {search: true},
   ],
 
 algolia: {
@@ -59,7 +55,7 @@ algolia: {
 
   /* path to images for header/footer */
   headerIcon: '',
-  footerIcon: '',
+  footerIcon: 'img/logohome.png',
   favicon: 'img/favicon.ico',
 
   /* colors for website */
