@@ -27,12 +27,6 @@ function docUrl(doc, language) {
   return siteConfig.baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
 }
 
-function pageUrl(page, language) {
-  if (language == undefined) {
-    language = languageFix;
-  }
-  return siteConfig.baseUrl + (language ? language + '/' : '') + page;
-}
 
 class Button extends React.Component {
   render() {

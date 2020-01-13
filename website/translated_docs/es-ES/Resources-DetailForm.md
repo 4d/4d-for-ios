@@ -25,7 +25,7 @@ title: Plantillas de formularios detallados
         </h1>
         <ul style="font-size:16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sí
           </li>
           <li>
             <strong>Acciones:</strong> incluidas
@@ -48,7 +48,7 @@ title: Plantillas de formularios detallados
         </h1>
         <ul style="font-size:c16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sí
           </li>
           <li>
             <strong>Acciones:</strong> incluidas
@@ -76,7 +76,7 @@ title: Plantillas de formularios detallados
           </h1>
           <ul style="font-size:16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sí
             </li>
             <li>
               <strong>Acciones:</strong> incluidas
@@ -99,7 +99,7 @@ title: Plantillas de formularios detallados
           </h1>
           <ul style="font-size:c16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sí
             </li>
             <li>
               <strong>Acciones:</strong> incluidas
@@ -462,4 +462,12 @@ title: Plantillas de formularios detallados
             </p>
           </div>
         </td>
-      </tr></table> </div>
+      </tr></table> </div> <div class = "tips"> 
+      
+      <p>
+        <strong>Más</strong>
+      </p>
+      
+      <p>
+        Puede encontrar una plantilla de formulario más detallada en <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+      </p></div>

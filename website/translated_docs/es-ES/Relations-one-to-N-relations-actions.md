@@ -1,35 +1,35 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: Relaciones Uno a Muchos - Acciones
 ---
 
 <div class = "objectives">
-**OBJECTIVES**
-We are now going to go a little bit further and **create a task for a specific employee**.</div>
+**OBJETIVOS**
+Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.</div>
 
-It is very easy to create an entity using **parent Entity** !
+¡Es muy fácil crear una entidad utilizando una **Entidad padre**!
 
-Let's get started by downloading the Starter Project:
+Comencemos descargando el Proyecto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
+href="../assets/en/relations/ParentIDStarterProject.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
   </p>
 </div>
 
-## Create addProject action
+## Crear una acción addProject
 
-* Open the project editor and go to the Action section.
+* Abra el editor del proyecto y vaya a la sección Action.
 
-* Add a addProject Action
+* Añada una acción addProject
 
 ![create addProject Method](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
 
 
-## On Mobile App Action method
+## Método On Mobile App Action
 
-The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
+Lo único que debe hacer es definir la acción **addProject** en el **método On Mobile App Action** de la siguiente manera:
 
 ```code4d
 : ($request.action="addProjects")
@@ -45,10 +45,10 @@ $result:=addProject ($o)
 
 ```
 
-## addProject Method
+## Método addProject
 
 
-Then enter thoses lines in your **addProject Method**:
+Luego introduzca esas líneas de código en su **addProject Method**:
 
 ```code4d
 C_OBJECT($0)
@@ -61,7 +61,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds[$in.dataClass].new()  //Create a reference
+    $entity:=ds[$in.dataClass].new()  //Crear una referencia
 
     For each ($key;$in.parameters)
 
@@ -73,15 +73,15 @@ If ($in.dataClass#Null)
 
     $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+  $inverseRelationName:=$in.entity.relationName   //Obtener nombre de la relación padre
 
     $entity[$inverseRelationName]:=$parent
 
-    $status:=$entity.save()  //save the entity
+    $status:=$entity.save()  //guardar la entidad
 
-    $out.success:=True  // notify App that action success
+    $out.success:=True  // notificar App que la acción es exitosa
 
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.dataSynchro:=True  // notificar App para refrescar la selección
 
     $out.statusText:="Task added"
 
@@ -97,11 +97,11 @@ $0:=$out
 
 ```
 
-And that's it you can then add some task to your employees easily using the parent Entity !
+¡Y eso es todo, puede agregar alguna tarea a sus empleados fácilmente usando la entidad padre!
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDFinalProject.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
+href="../assets/en/relations/ParentIDFinalProject.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
   </p>
 </div>

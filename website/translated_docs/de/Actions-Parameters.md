@@ -3,13 +3,9 @@ id: action-parameters
 title: Using action parameters
 ---
 
-<div markdown="1" class = "objectives">
-
+<div class = "objectives">
 **OBJECTIVES**
-
-Define action parameters to edit the content of your app.
-
-</div>
+Define action parameters to edit the content of your app.</div>
 
 In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
 
@@ -22,16 +18,16 @@ In this tutorial, we're going to go further and create:
 
 To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
 
-<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-
-<a class="button"
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER PROJECT</a>
-
+  </p>
 </div>
 
 ## STEP 1. Add action
 
-Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**. 
+Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
@@ -41,7 +37,7 @@ For this, let's create an action using a preset **Add** action:
 
 * Click on the arrow in the **+ button** at the bottom of the Actions table.
 * Select the **Add action for** option.
-* Select the **Task table**. 
+* Select the **Task table**.
 
 ![Add action creation](assets/en/actions/Add-action-creation.png)
 
@@ -60,7 +56,7 @@ For this, we'll create an action using a preset **Edit** action:
 
 * Click on the arrow in the **+ button** at the bottom of the Actions table.
 * Select the **Edit action for** option.
-* Select the Tasks table. 
+* Select the Tasks table.
 
 ![Edit action creation](assets/en/actions/Edit-action-creation.png)
 
@@ -80,7 +76,7 @@ The preset **Delete** action creation process is nearly the same as the Edit act
 
 * Click on the arrow in the **+ button** at the bottom of the Actions table.
 * Select the **Delete action for** option.
-* Select the Tasks table. 
+* Select the Tasks table.
 
 ![Delete action creation](assets/en/actions/Delete-action-creation.png)
 
@@ -128,55 +124,55 @@ $context:=$request.context
 $parameters:=$request.parameters
 
 Case of 
-		
-	: ($request.action="addTasks")
-		
-		  // Insert here the code for the action "Add…"
-		
-		$o:=New object(\
-		"dataClass";$context.dataClass;\
-		"parameters";$parameters)
-		
-		$result:=addAction ($o)
-		
-	: ($request.action="editTasks")
-		
-		  // Insert here the code for the action "Edit…"
-		
-		$o:=New object(\
-		"dataClass";$context.dataClass;\
-		"ID";$context.entity.primaryKey;\
-		"parameters";$parameters)
-		
-		$result:=editAction ($o)
-		
-		
-	: ($request.action="deleteTasks")
-		
-		  // Insert here the code for the action "Remove"
-		
-		$o:=New object(\
-		"dataClass";$context.dataClass;\
-		"ID";$context.entity.primaryKey)
-		
-		$result:=deleteAction ($o)
-		
-	: ($request.action="sendComment")
-		
-		  // Insert here the code for the action "Send Comment"
-		
-		$o:=New object(\
-		"dataClass";$context.dataClass;\
-		"ID";$context.entity.primaryKey;\
-		"parameters";$parameters)
-		
-		
-		$result:=sendMail ($o)
-		
-	Else 
-		
-		  // Unknown action
-		
+
+    : ($request.action="addTasks")
+
+          // Insert here the code for the action "Add…"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "parameters";$parameters)
+
+        $result:=addAction ($o)
+
+    : ($request.action="editTasks")
+
+          // Insert here the code for the action "Edit…"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+        $result:=editAction ($o)
+
+
+    : ($request.action="deleteTasks")
+
+          // Insert here the code for the action "Remove"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey)
+
+        $result:=deleteAction ($o)
+
+    : ($request.action="sendComment")
+
+          // Insert here the code for the action "Send Comment"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+
+        $result:=sendMail ($o)
+
+    Else 
+
+          // Unknown action
+
 End case 
 
 $0:=$result
@@ -199,26 +195,26 @@ $in:=$1
 $out:=New object("success";False)
 
 If ($in.dataClass#Null)
-	
-	$entity:=ds.Tasks.new()  //create a reference
-	
-	For each ($key;$in.parameters)
-		
-		$entity[$key]:=$in.parameters[$key]
-		
-	End for each 
-	
-	$entity.save()  //save the entity
-	
-	
-	$out.success:=True  // notify App that action success
-	$out.dataSynchro:=True  // notify App to refresh the selection
-	$out.statusText:="Task added"
-	
+
+    $entity:=ds.Tasks.new()  //create a reference
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $entity.save()  //save the entity
+
+
+    $out.success:=True  // notify App that action success
+    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.statusText:="Task added"
+
 Else 
-	
-	$out.errors:=New collection("No Selection")
-	
+
+    $out.errors:=New collection("No Selection")
+
 End if 
 
 $0:=$out
@@ -239,35 +235,35 @@ $in:=$1
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
 If ($selection.length=1)
-	
-	$entity:=$selection[0]
-	
-	For each ($key;$in.parameters)
-		
-		$entity[$key]:=$in.parameters[$key]
-		
-	End for each 
-	
-	$status:=$entity.save()
-	
-	$out:=New object
-	
-	If ($status.success)
-		
-		$out.success:=True  // notify App that action success
-		$out.dataSynchro:=True  // notify App to refresh this entity
-		$out.statusText:="Task edited"
-		
-	Else 
-		
-		$out:=$status  // return status to the App
-		
-	End if 
-	
+
+    $entity:=$selection[0]
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $status:=$entity.save()
+
+    $out:=New object
+
+    If ($status.success)
+
+        $out.success:=True  // notify App that action success
+        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.statusText:="Task edited"
+
+    Else 
+
+        $out:=$status  // return status to the App
+
+    End if 
+
 Else 
-	
-	$out.success:=False  // notify App that action failed
-	
+
+    $out.success:=False  // notify App that action failed
+
 End if 
 
 $0:=$out
@@ -289,27 +285,27 @@ $in:=$1
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
 If ($selection.length=1)
-	
-	$entity:=$selection.drop()
-	
-	$out:=New object
-	
-	If ($entity.length=0)
-		
-		$out.success:=True  // notify App that action success
-		$out.dataSynchro:=True  // notify App to refresh this entity
-		$out.statusText:="Task deleted"
-		
-	Else 
-		
-		$out:=$status  // return status to the App
-		
-	End if 
-	
+
+    $entity:=$selection.drop()
+
+    $out:=New object
+
+    If ($entity.length=0)
+
+        $out.success:=True  // notify App that action success
+        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.statusText:="Task deleted"
+
+    Else 
+
+        $out:=$status  // return status to the App
+
+    End if 
+
 Else 
-	
-	$out.success:=False  // notify App that action failed
-	
+
+    $out.success:=False  // notify App that action failed
+
 End if 
 
 $0:=$out
@@ -331,47 +327,47 @@ $in:=$1
 $selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
 
 If ($selection.length=1)
-	
-	$entity:=$selection[0]
-	
-	For each ($key;$in.parameters)
-		
-		$entity[$key]:=$in.parameters[$key]
-		
-	End for each 
-	
-	$out:=New object
-	
-	$server:=New object
-	$server.host:="smtp.gmail.com"
-	$server.port:=465
-	$server.user:="test@mail.com"
-	$server.password:="yourPassword"
-	
-	$transporter:=SMTP New transporter($server)
-	
-	$email:=New object
-	$email.subject:="New comment about one of your task"
-	$email.from:="yourEmail"
-	$email.to:=$emailToSend
-	$email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
-	+$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
-	
-	$status:=$transporter.send($email)
-	If ($status.success)
-		$out.success:=True  // notify App that action success
-		$out.statusText:="Mail sent"
-		
-	Else 
-		$out.success:=False  // notify App that action failed
-		$out.statusText:="Mail not sent"
-		
-	End if 
-	
+
+    $entity:=$selection[0]
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $out:=New object
+
+    $server:=New object
+    $server.host:="smtp.gmail.com"
+    $server.port:=465
+    $server.user:="test@mail.com"
+    $server.password:="yourPassword"
+
+    $transporter:=SMTP New transporter($server)
+
+    $email:=New object
+    $email.subject:="New comment about one of your task"
+    $email.from:="yourEmail"
+    $email.to:=$emailToSend
+    $email.htmlBody:="<h1>Comment from Tasks for iOS</h1>"+"<p><b>Task:</b> "+$taskTitle+"</p><p><b>Comment:</b> "\
+    +$commentToSend+"</p><br><p><i>Send from my 4D for iOS app</i></p>"\
+
+    $status:=$transporter.send($email)
+    If ($status.success)
+        $out.success:=True  // notify App that action success
+        $out.statusText:="Mail sent"
+
+    Else 
+        $out.success:=False  // notify App that action failed
+        $out.statusText:="Mail not sent"
+
+    End if 
+
 Else 
-	
-	$out.success:=False  // notify App that action failed
-	
+
+    $out.success:=False  // notify App that action failed
+
 End if 
 
 $0:=$out
@@ -386,7 +382,7 @@ Don't forget to add your own values for the **sendEmail** action.
 ## STEP 7. Build your app
 
 
-It's time to build your app! 
+It's time to build your app!
 
 Now, if you click on the Action button in the navigation bar, you'll be able to **create a new task**.
 
@@ -408,10 +404,10 @@ And finally you can delete an entity using the **Delete...** action.
 
 Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
-<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-
-<a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a>
-
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+  <p spaces-before="0">
+    <a class="button"
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/releases/latest/download/tutorial-ActionParameters.zip">FINAL PROJECT</a>
+  </p>
 </div>
 
