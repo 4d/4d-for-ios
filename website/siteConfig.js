@@ -39,7 +39,7 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://developer.4d.com/docs/', label: 'Doc 4D'}
+    {href: 'https://developer.4d.com/docs/', label: '4D Doc'}
 
 
   ],
