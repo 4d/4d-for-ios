@@ -69,6 +69,21 @@ margin-bottom: 22px;
 background-color: #f2f2f2;
 }
 
+.copyright{
+font-size: 12px;
+text-align: center;
+/*color: green;*/
+}
+
+a.cp2 {
+text-decoration: underline;
+color: grey;
+}
+
+a.cp2:hover{
+color: #fff;
+}
+
 #legalFooter {
 
 	text-align: center;

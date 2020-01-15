@@ -81,9 +81,9 @@ algolia: {
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
-    'Copyright © ' +
+    '© ' +
     new Date().getFullYear() +
-    ' 4D SAS',
+    ' 4D SAS - All rights reserved',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
