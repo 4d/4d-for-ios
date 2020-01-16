@@ -16,7 +16,7 @@ Let's get started by downloading the Starter Project:
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">ONE TO MANY STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">ONE TO MANY STARTER PROJECT</a>
 
   </p>
 </div>
@@ -80,7 +80,7 @@ And voila, this is how One to Many relations work in 4D for iOS !
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">ONE TO MANY FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">ONE TO MANY FINAL PROJECT</a>
 
   </p>
 </div>
