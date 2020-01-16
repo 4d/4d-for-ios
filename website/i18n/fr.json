@@ -14,8 +14,8 @@
       "action-custom-template": {
         "title": "Ajouter des actions aux modèles"
       },
-      "using-parameters": {
-        "title": "Utiliser des paramètres"
+      "action-parameters": {
+        "title": "Utiliser des paramètres d'action"
       },
       "contact-app": {
         "title": "Application Contacts"
@@ -33,7 +33,7 @@
         "title": "Présentation de Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Créer et exécuter un projet"
+        "title": "Créer et exécuter un projet"
       },
       "creating-data-formatter": {
         "title": "Créer un format de données"
@@ -138,9 +138,6 @@
       "data": {
         "title": "Données"
       },
-      "detail-form-templates": {
-        "title": "Modèles de formulaires détaillés"
-      },
       "forms": {
         "title": "Formulaires"
       },
@@ -149,9 +146,6 @@
       },
       "labels-and-icons": {
         "title": "Libellés et icônes"
-      },
-      "list-form-templates": {
-        "title": "Modèles de formulaires Liste"
       },
       "main-menu": {
         "title": "Menu"
@@ -164,6 +158,9 @@
       },
       "many-to-one-relations": {
         "title": "Liens N vers 1"
+      },
+      "one-to-many-relations-actions": {
+        "title": "Liens 1 vers N - Actions"
       },
       "one-to-many-relations-custom-button": {
         "title": "1 vers N - Bouton personnalisé"
@@ -212,7 +209,8 @@
       "Docs": "Documentation",
       "Tutorials": "Tutoriels",
       "Templates & Formatters": "Modèles & Formats",
-      "FAQ": "FAQ"
+      "FAQ": "FAQ",
+      "4D Doc": "Doc 4D"
     },
     "categories": {
       "Getting started": "Prise en main",
@@ -227,9 +225,9 @@
       "Creating Detail forms": "Créer des formulaires détaillés",
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
-      "Actions": "Actions",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
+      "Actions": "Actions",
       "Relations": "Liens",
       "Templates & Formatters": "Modèles & Formats"
     }

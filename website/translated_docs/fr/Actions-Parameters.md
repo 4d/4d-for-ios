@@ -3,9 +3,12 @@ id: action-parameters
 title: Utiliser des paramètres d'action
 ---
 
-<div class = "objectives">
+<div markdown="1" class = "objectives">
+
 **OBJECTIFS**
-Définir des paramètres d'action pour modifier le contenu de votre application.</div>
+
+Définir des paramètres d'action pour modifier le contenu de votre application.
+</div>
 
 
 Dans le [tutoriel précédent](define-first-action.html), nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions dans la [section Actions](actions.html).

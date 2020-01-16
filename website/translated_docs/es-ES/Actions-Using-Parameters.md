@@ -3,11 +3,13 @@ id: using-parameters
 title: Utilizar paramétros
 ---
 
-<div class = "objectives"> 
+<div markdown="1" class = "objectives"> 
 
 **OBJETIVOS**
 
-Definir parámetros de acción para editar el contenido de su aplicación.</div> 
+Definir parámetros de acción para editar el contenido de su aplicación.
+
+</div> 
 
 En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
 
