@@ -26,7 +26,7 @@ Before we begin, be sure to download the **Starter Project** which includes a **
     
 
 <a class="button"
-href="../assets/en/restricted-queries/4DforiOSQueries.4dbase.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">STARTER PROJECT</a>
 
   </p>
 </div>
