@@ -267,7 +267,7 @@ Neste tutorial cobrimos os conceitos básicos para criar seu modelo de formulár
     
 
 <a class="button"
-href="../assets/en/custom-detailform/CustomDetailFormFinalTemplate.zip">MODELO FINAL DE FORMULÁRIO DETALHADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">MODELO FINAL DE FORMULÁRIO DETALHADO PERSONALIZADO</a>
 
   </p>
 </div>
