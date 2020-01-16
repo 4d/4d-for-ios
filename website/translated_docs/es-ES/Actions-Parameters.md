@@ -7,6 +7,7 @@ title: Utilizar parámetros de acción
 **OBJETIVOS**
 Definir parámetros de acción para editar el contenido de su aplicación.</div>
 
+
 En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
 
 En este tutorial, iremos más allá y crearemos:
