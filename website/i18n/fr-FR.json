@@ -15,7 +15,7 @@
         "title": "Ajouter des actions aux modèles"
       },
       "action-parameters": {
-        "title": "Using action parameters"
+        "title": "Utiliser des paramètres d'action"
       },
       "contact-app": {
         "title": "Application Contacts"
@@ -210,7 +210,7 @@
       "Tutorials": "Tutoriels",
       "Templates & Formatters": "Modèles & Formats",
       "FAQ": "FAQ",
-      "4D Doc": "4D Doc"
+      "4D Doc": "Doc 4D"
     },
     "categories": {
       "Getting started": "Prise en main",
