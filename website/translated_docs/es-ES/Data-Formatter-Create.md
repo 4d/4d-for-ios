@@ -27,7 +27,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROYECTO STARTER - FORMATO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROYECTO STARTER - FORMATO PERSONALIZADO</a>
 
   </p>
 </div>
@@ -194,7 +194,7 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
         
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
 
       </p>
     </div>
