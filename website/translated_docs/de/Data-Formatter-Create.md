@@ -27,7 +27,7 @@ To begin, download the **Starter Project**, which includes:
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
 
   </p>
 </div>
@@ -194,7 +194,7 @@ Click on **FORMATTER FINAL** below to download the completed formatter template 
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMATTER FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
 
   </p>
 </div>
