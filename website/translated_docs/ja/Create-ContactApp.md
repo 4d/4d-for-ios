@@ -28,7 +28,7 @@ iPhone用のオリジナル手帳アプリを作成しましょう。リスト�
     
 
 <a class="button"
-href="../assets/en/contact-app/ContactStarter.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">素材プロジェクト</a>
 
   </p>
 </div>
@@ -146,7 +146,7 @@ iOSアプリからアクセスできるデータベースのサブセット（�
     
 
 <a class="button"
-href="../assets/en/contact-app/ContactFinal.zip">完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">完成プロジェクト</a>
 
   </p>
 </div>
