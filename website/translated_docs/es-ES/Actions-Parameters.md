@@ -7,6 +7,7 @@ title: Utilizar parámetros de acción
 **OBJETIVOS**
 Definir parámetros de acción para editar el contenido de su aplicación.</div>
 
+
 En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
 
 En este tutorial, iremos más allá y crearemos:
@@ -407,7 +408,7 @@ Y finalmente puede eliminar una entidad utilizando la acción **Eliminar... **.
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/releases/latest/download/tutorial-ActionParameters.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROYECTO FINAL</a>
   </p>
 </div>
 

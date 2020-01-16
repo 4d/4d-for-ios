@@ -14,7 +14,7 @@ In this tutorial, we will use the following project:
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TitleDefinition-TimeKeeper-StarterProject.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">TITLE DEFINITION STARTER PROJECT</a>
 
   </p>
 </div>

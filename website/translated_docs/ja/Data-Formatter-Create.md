@@ -27,7 +27,7 @@ title: カスタムのデータフォーマッター
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
 
   </p>
 </div>
@@ -194,7 +194,7 @@ Task Management.4dbase を4D 開き、メニューから ファイル > 開く >
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">完成プロジェクト</a>
 
   </p>
 </div>

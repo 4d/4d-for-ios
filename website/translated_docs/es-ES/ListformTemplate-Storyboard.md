@@ -195,7 +195,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormFinalTemplate.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
 
   </p>
 </div>

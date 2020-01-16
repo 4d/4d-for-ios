@@ -19,7 +19,7 @@ Comencemos descargando el Proyecto Starter que incluye:
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-CustomButton-TimeKeeper-StarterProject.zip">BOTÓN STARTER PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÓN STARTER PERSONALIZADO</a>
 
   </p>
 </div>
@@ -165,7 +165,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear botones Relac
     
 
 <a class="button"
-href="../assets/en/relations/relationButton.xib.zip">BOTÓN PERSONALIZADO FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">BOTÓN PERSONALIZADO FINAL</a>
 
   </p>
 </div>

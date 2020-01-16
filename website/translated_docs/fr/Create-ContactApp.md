@@ -28,7 +28,7 @@ Téléchargez notre projet Starter (de prise en main) qui contient un fichier de
     
 
 <a class="button"
-href="../assets/en/contact-app/ContactStarter.zip">PROJET STARTER</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJET STARTER</a>
 
   </p>
 </div>
@@ -146,7 +146,7 @@ Dans ce tutoriel, nous avons fait le tour des étapes de création d’une appli
     
 
 <a class="button"
-href="../assets/fr/contact-app/ContactFinal.zip">PROJET FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJET FINAL</a>
 
   </p>
 </div>

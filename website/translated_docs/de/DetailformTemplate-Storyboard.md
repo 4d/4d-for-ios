@@ -267,7 +267,7 @@ In this tutorial, we've covered the basics for creating detail form templates. Y
     
 
 <a class="button"
-href="../assets/en/custom-detailform/CustomDetailFormFinalTemplate.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
 
   </p>
 </div>

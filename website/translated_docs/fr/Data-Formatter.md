@@ -22,7 +22,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/en/data-formatter/BankingApp.zip">PROJET STARTER DES FORMATS PERSONNALISÉS</a>
+href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">PROJET STARTER DES FORMATS PERSONNALISÉS</a>
 
   </p>
 </div>
