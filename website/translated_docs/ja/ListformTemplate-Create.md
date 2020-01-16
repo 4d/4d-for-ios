@@ -29,7 +29,7 @@ title: リストフォームのテンプレート
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormStarterProject.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">素材プロジェクト</a>
 
   </p>
 </div>
