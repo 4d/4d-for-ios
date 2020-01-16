@@ -195,7 +195,7 @@ Image Viewを選択し，User Defined Runtime Attributesで下記の２行を追
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormFinalTemplate.zip">完成カスタムテンプレート（リストフォーム）</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">完成カスタムテンプレート（リストフォーム）</a>
 
   </p>
 </div>
