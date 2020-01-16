@@ -22,7 +22,7 @@ title: データフォーマッター
     
 
 <a class="button"
-href="../assets/en/data-formatter/BankingApp.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">素材プロジェクト</a>
 
   </p>
 </div>
