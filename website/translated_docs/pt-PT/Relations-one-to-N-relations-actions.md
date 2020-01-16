@@ -14,7 +14,7 @@ Let's get started by downloading the Starter Project:
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDStarterProject.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
 
@@ -102,6 +102,6 @@ And that's it you can then add some task to your employees easily using the pare
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDFinalProject.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
