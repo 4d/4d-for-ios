@@ -26,7 +26,7 @@ title: クエリフィルター
     
 
 <a class="button"
-href="../assets/en/restricted-queries/4DforiOSQueries.4dbase.zip">素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">素材プロジェクト</a>
 
   </p>
 </div>

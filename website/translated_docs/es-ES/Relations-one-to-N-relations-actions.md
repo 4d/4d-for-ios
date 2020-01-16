@@ -3,9 +3,13 @@ id: one-to-many-relations-actions
 title: Relaciones Uno a Muchos - Acciones
 ---
 
-<div class = "objectives">
+<div markdown="1" class = "objectives">
+
 **OBJETIVOS**
-Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.</div>
+
+Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.
+
+</div>
 
 ¡Es muy fácil crear una entidad utilizando una **Entidad padre**!
 
@@ -14,7 +18,7 @@ Comencemos descargando el Proyecto Starter:
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDStarterProject.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
   </p>
 </div>
 
@@ -102,6 +106,6 @@ $0:=$out
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="../assets/en/relations/ParentIDFinalProject.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
   </p>
 </div>

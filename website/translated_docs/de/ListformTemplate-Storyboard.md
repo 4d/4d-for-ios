@@ -195,7 +195,7 @@ In this tutorial, we've covered the basics for creating list form templates. You
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormFinalTemplate.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 
   </p>
 </div>

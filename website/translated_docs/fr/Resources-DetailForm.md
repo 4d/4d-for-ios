@@ -459,7 +459,7 @@ title: Modèles des formulaires détaillés
           </ul>
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-RightCutHeader/releases/latest/download/form-detail-RightCutHeader.zip">TELECHARGERDOWNLOAD</a></div>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-RightCutHeader/releases/latest/download/form-detail-RightCutHeader.zip">TELECHARGER</a></div>
         </td>
       </tr>
   </table>
@@ -472,4 +472,3 @@ title: Modèles des formulaires détaillés
 You can find more detail form template on [github](https://github.com/search?q=topic%3A4d-for-ios-form-detail).
 
 </div>
-

@@ -39,7 +39,7 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://developer.4d.com/docs/', label: 'Doc 4D'}
+    {href: 'https://developer.4d.com/docs/', label: '4D Doc'}
 
 
   ],
@@ -81,9 +81,9 @@ algolia: {
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
-    'Copyright © ' +
+    '© ' +
     new Date().getFullYear() +
-    ' 4D SAS',
+    ' 4D SAS - All rights reserved',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks

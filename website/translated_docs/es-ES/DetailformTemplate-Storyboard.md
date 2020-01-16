@@ -267,7 +267,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de
     
 
 <a class="button"
-href="../assets/en/custom-detailform/CustomDetailFormFinalTemplate.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>
 
   </p>
 </div>

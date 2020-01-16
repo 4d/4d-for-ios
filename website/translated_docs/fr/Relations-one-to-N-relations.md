@@ -16,7 +16,7 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-StarterProject.zip">PROJET STARTER 1 VERS N</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
 
   </p>
 </div>
@@ -80,7 +80,7 @@ Et le tour est joué ! Voilà comment fonctionnent vos liens 1 vers N fonctionne
     
 
 <a class="button"
-href="../assets/en/relations/OneToMany-TimeKeeper-FinalProject.zip">PROJET FINAL 1 VERS N</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 VERS N</a>
 
   </p>
 </div>

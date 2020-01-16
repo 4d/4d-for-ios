@@ -7,6 +7,7 @@ title: Using action parameters
 **OBJECTIVES**
 Define action parameters to edit the content of your app.</div>
 
+
 In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
 
 In this tutorial, we're going to go further and create:
@@ -407,7 +408,7 @@ Congratulations! Your Tasks iOS app is now complete and you can now modify your 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/releases/latest/download/tutorial-ActionParameters.zip">FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a>
   </p>
 </div>
 

@@ -29,7 +29,7 @@ Antes de começar, baixe o **Starter Project** que inclui:
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormStarterProject.zip">PROJETO STARTER LISTFORM</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">PROJETO STARTER LISTFORM</a>
 
   </p>
 </div>

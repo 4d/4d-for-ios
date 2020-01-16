@@ -27,7 +27,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormatterStarterProject.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 
   </p>
 </div>
@@ -194,7 +194,7 @@ Cliquez sur le bouton **FORMAT FINAL** ci-dessous pour télécharger le dossier 
     
 
 <a class="button"
-href="../assets/en/custom-formatter/CustomFormattersFinalProject.zip">FORMAT FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
 
   </p>
 </div>

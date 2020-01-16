@@ -16,7 +16,7 @@ Comencemos descargando el Proyecto Starter:
     
 
 <a class="button"
-href="../assets/en/relations/Tasks.4dbase.zip">PROJET STARTER N A UNO</a>
+href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N A UNO</a>
 
   </p>
 </div>

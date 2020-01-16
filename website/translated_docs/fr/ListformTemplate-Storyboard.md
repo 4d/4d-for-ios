@@ -195,7 +195,7 @@ Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de
     
 
 <a class="button"
-href="../assets/en/custom-listform/CustomListFormFinalTemplate.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 
   </p>
 </div>

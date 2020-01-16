@@ -29,7 +29,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
     
 
 <a class="button"
-href="../assets/en/custom-detailform/CustomDetailFormStarterProject.zip">PROYECTO STARTER - FORMATO DETALLADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROYECTO STARTER - FORMATO DETALLADO PERSONALIZADO</a>
 
   </p>
 </div>
