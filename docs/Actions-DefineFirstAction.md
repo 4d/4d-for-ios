@@ -55,7 +55,7 @@ Now that your action is defined in the Project Editor, you have to create the [*
 
 Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -91,7 +91,7 @@ $0:=$result  // Informations returned to mobile application
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -159,7 +159,7 @@ Let's define this action from the Action section:
 
 Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -203,7 +203,7 @@ $0:=$result  // Informations returned to mobile application
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
