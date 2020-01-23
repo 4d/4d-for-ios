@@ -13,7 +13,7 @@ Now let's filter our app content depending on the account manager's login email 
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-```code4d
+```4d
 Status = 'In Progress' & manager.Email = :email 
 ```
 
@@ -26,7 +26,7 @@ The query will filter data depending on the **In Progress** status AND the **Acc
 
 Add the following line in the database method:
 
-```code4d
+```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
