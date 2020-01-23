@@ -31,7 +31,7 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
 
 Lo único que debe hacer es definir la acción **addProject** en el **método On Mobile App Action** de la siguiente manera:
 
-```code4d
+```4d
 : ($request.action="addProjects")
 
 $o:=New object(\
@@ -50,7 +50,7 @@ $result:=addProject ($o)
 
 Luego introduzca esas líneas de código en su **addProject Method**:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
