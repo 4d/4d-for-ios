@@ -57,7 +57,7 @@ Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc
 
 Pour ce faire, cliquez sur le **bouton Editer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile** :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -93,7 +93,7 @@ $0:=$result  // Informations returned to mobile application
 
 Une fois votre méthode base modifiée, vous devez créer une méthode **modifyStatus** qui permettra de réaliser la tâche demandée :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -161,7 +161,7 @@ Nous allons définir cette action depuis la section Actions :
 
 Cliquez sur le **bouton Créer...** en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : **Sur une action app mobile**  :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -204,7 +204,7 @@ $0:=$result  // Informations returned to mobile application
 
 Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes étapes et créez une nouvelle méthode **postponeAll** qui permettra de modifier le statut de tous les enregistrements :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
