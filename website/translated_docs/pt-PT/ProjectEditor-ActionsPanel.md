@@ -3,24 +3,24 @@ id: actions
 title: Actions
 ---
 
-This section allows you to:
+Esta seção permite que:
 
-* create actions to execute 4D code from your iOS app.
-* define and add parameters to your actions.
+* crie ações para executar o código 4D a partir de seu app iOS.
+* defina e adicione parâmetros para suas ações.
 
 ## Project Editor Side
 
-### Create your action
+### Crie sua ação
 
-You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
+Pode criar uma nova ação clicando no botão + no fundo da tabela Actions. Uma nova linha vai aparecer na tabela Actions.
 
-Next you'll need to define the following:
+Depois precisa definir o abaixo:
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Names:** o nome da ação a usar no método de banco de dados [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) para ativar seu código 4D.
+* **Icons:** O ícone a escolher de sua biblioteca ícone. Pode adicionar seu próprio ícone seguinto este [tutorial](using-icons.html).
+* **Short and long Labels:** As etiquetas para as ações para exibir em seu app.
+* **Table:** A tabela na qual quer aplicar a ação.
+* **Scope:** Onde usar a ação, uma **entidade** ou uma **tabela**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
