@@ -24,66 +24,66 @@ Depois precisa definir o abaixo:
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
-### Add parameters to your action
+### Adicione parâmetros para sua ação 
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+A partir de **4D v17R6**, pode adicionar **parâmetros ação** e **editar** dados diretamente de seu app.
 
-For each parameter, you can edit the following properties:
+Para cada parâmetro, pode editar as propriedades abaixo:
 
-* Name
-* Long label
-* Short label
-* Format
-* Input constraints (define minimum or maximum values)
-* Placeholder
-* Mandatory field definition
-* Default value
+* Nome
+* Etiqueta longa
+* Etiqueta curta
+* Formato
+* Restrições de input (define valores mínimos ou máximos)
+* Placeholder (valores provisórios)
+* Definição campo obrigatória
+* Valor padrão
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order of parameters using drag and drop.
+Você é livre para mudar a ordem dos parâmetros usando arrastar e soltar.
 
-Here are the different **Formats** you can select for a parameter:
+Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 
 <table>
   
 
 <tr>
-<th colspan="2"  style="text-align:center">TEXT</th>
+<th colspan="2"  style="text-align:center">TEXTO</th>
 </tr>  
   <tr style="text-align:center">
     
-<th>Format</th><th>Description</th>
+<th>Formato</th><th>Descrição</th>
   </tr>
   
   <tr>
     
-<td>Text</td><td>Capitalize the first letter of a string</td>
+<td>Texto</td><td>Colocar em maiúscula a primeira letra da string</td>
   </tr>
   
   <tr>
     
-<td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
+<td>Endereço de email</td><td>Teclado iOS otimizado para a entrada de correio eletrônico</td>
   </tr>
   
   <tr>
     
-<td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
+<td>Número de telefone</td><td>Teclado iOS para ingressar o número de telefone.</td>
   </tr>
   
   <tr>
     
-<td>Account</td><td>Optimized iOS keyboard for username entry</td>
+<td>Conta</td><td>Teclado iOS otimizado para a entrada de correio eletrônico</td>
   </tr>
   
   <tr>
     
-<td>Password</td><td>Optimized to handle passwords</td>
+<td>Senha</td><td>Otimizado para manejar senhas</td>
   </tr>
   
   <tr>
     
-<td>URL</td><td>Optimized iOS keyboard for URL entry</td>
+<td>URL</td><td>Teclado iOS otimizado para a entrada  de URLs</td>
   </tr>
   
   <tr>
