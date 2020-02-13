@@ -7,17 +7,17 @@ title: New Project
 
 **OBJETIVOS**
 
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+Se familiarizar com o editor de projetos.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
-Let's take a look at how 4D for iOS works.
+Vamos dar uma olhada em como 4D for iOS funciona.
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+Inicie sua aplicação 4D, abra seu banco de dados e vá a **Novo> Projeto móvel**.
 
-Give your project a name and click **Create**.
+Dê um nome a seu projeto e clique **Criar**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
