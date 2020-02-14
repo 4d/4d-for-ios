@@ -3,21 +3,21 @@ id: data
 title: Data
 ---
 
-This section allows you to:
+Esta seção permite que:
 
-* define the data to include in your app (**Current data file** or **Production server data file**),
-* automatically **regenerate data** each time you build your app or generate it manually, and
-* filter data to vizualize in your app depending on **general filter queries** or **user information**. 
+* defina os dados a incluir em sua aplicação (**Arquivo de dados atual** ou **Arquivo de dados de servidor de produção**),
+* efetue uma **regeneração** automática de dados cada vez que gere sua aplicação ou efetue uma geração manual, e
+* filtre os dados para visualizá-los em sua aplicação em função dos **filtros de pesquisa gerais** ou a **informação de usuário**. 
 
 ![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
-## Data source panel
+## Painel de fonte de dados
 
 ![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
-This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
+Este painel permite definir sua **fonte de dados**. Pode escolher obter dados de **Arquivo de dados atual** ou de um **Arquivo de dados de servidor de produção**.
 
-To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This **key.mobileapp** file is available next to data in the MobileApps folder. Then the developer can select it from the project editor to access to the production server data.
+Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo key. mobileapp** desde o servidor de produção e se deve comunicar fisicamente ao desenvolvedor. This **key.mobileapp** file is available next to data in the MobileApps folder. Then the developer can select it from the project editor to access to the production server data.
 
 The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
 
