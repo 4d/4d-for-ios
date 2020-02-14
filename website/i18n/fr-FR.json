@@ -203,6 +203,205 @@
       },
       "xcode": {
         "title": "Xcode"
+      },
+      "version-18.0/version-18.0-define-first-action": {
+        "title": "Defining your first action"
+      },
+      "version-18.0/version-18.0-actions-getting-started": {
+        "title": "Getting started"
+      },
+      "version-18.0/version-18.0-action-custom-template": {
+        "title": "Adding actions in templates"
+      },
+      "version-18.0/version-18.0-action-parameters": {
+        "title": "Using action parameters"
+      },
+      "version-18.0/version-18.0-contact-app": {
+        "title": "Contact App"
+      },
+      "version-18.0/version-18.0-4d-for-ios-project-organization": {
+        "title": "4D for iOS project organization"
+      },
+      "version-18.0/version-18.0-customize-your-ios-app": {
+        "title": "Customize your 4D for iOS App"
+      },
+      "version-18.0/version-18.0-open-xcode": {
+        "title": "Working with Xcode"
+      },
+      "version-18.0/version-18.0-xcode-overview": {
+        "title": "Xcode Overview"
+      },
+      "version-18.0/version-18.0-data-formatter-build-and-run": {
+        "title": "Build and Run your project"
+      },
+      "version-18.0/version-18.0-creating-data-formatter": {
+        "title": "Create data formatter"
+      },
+      "version-18.0/version-18.0-data-formatter-mobile-project": {
+        "title": "Open mobile project"
+      },
+      "version-18.0/version-18.0-data-formatter": {
+        "title": "Data formatter"
+      },
+      "version-18.0/version-18.0-deploy-app-store-archive-and-upload": {
+        "title": "Archive and upload your Project"
+      },
+      "version-18.0/version-18.0-deploy-app-store-app-store-connect": {
+        "title": "Create App Store record"
+      },
+      "version-18.0/version-18.0-register-apple-developer-program-individual": {
+        "title": "Apple Developer Program as an Individual"
+      },
+      "version-18.0/version-18.0-register-apple-developer-program-organization": {
+        "title": "Apple Developer Program as an Organization"
+      },
+      "version-18.0/version-18.0-deploy-in-house-archive-and-export": {
+        "title": "Archive and export your Project"
+      },
+      "version-18.0/version-18.0-deploy-in-house-distribution": {
+        "title": "Distribute your app in-House"
+      },
+      "version-18.0/version-18.0-register-apple-developer-enterprise-program": {
+        "title": "Apple Developer Enterprise Program"
+      },
+      "version-18.0/version-18.0-deployment": {
+        "title": "Selecting your Apple Developer Program"
+      },
+      "version-18.0/version-18.0-creating-detailform-templates": {
+        "title": "Detail form templates"
+      },
+      "version-18.0/version-18.0-icon-detailform-template": {
+        "title": "Detail form icon"
+      },
+      "version-18.0/version-18.0-manifest-detailform-template": {
+        "title": "Manifest.json"
+      },
+      "version-18.0/version-18.0-storyboard-detailform-template": {
+        "title": "Storyboard"
+      },
+      "version-18.0/version-18.0-svg-file-detailform-template": {
+        "title": "Template.svg",
+        "sidebar_label": "Template.svg"
+      },
+      "version-18.0/version-18.0-faq": {
+        "title": "FAQ"
+      },
+      "version-18.0/version-18.0-overview": {
+        "title": "Overview"
+      },
+      "version-18.0/version-18.0-prerequisites": {
+        "title": "Prerequisites"
+      },
+      "version-18.0/version-18.0-create-icons": {
+        "title": "Create icons"
+      },
+      "version-18.0/version-18.0-using-icons": {
+        "title": "Using icons"
+      },
+      "version-18.0/version-18.0-include-icons": {
+        "title": "Include icons in the project"
+      },
+      "version-18.0/version-18.0-select-icons": {
+        "title": "Select your icons"
+      },
+      "version-18.0/version-18.0-licenses": {
+        "title": "Licenses"
+      },
+      "version-18.0/version-18.0-creating-listform-templates": {
+        "title": "List form templates"
+      },
+      "version-18.0/version-18.0-manifest-listform-template": {
+        "title": "Manifest.json"
+      },
+      "version-18.0/version-18.0-storyboard-listform-template": {
+        "title": "Storyboard"
+      },
+      "version-18.0/version-18.0-svg-file-listform-template": {
+        "title": "Template.svg"
+      },
+      "version-18.0/version-18.0-icon-listform-template": {
+        "title": "List form icon"
+      },
+      "version-18.0/version-18.0-multi-criteria-search": {
+        "title": "Multi-criteria search"
+      },
+      "version-18.0/version-18.0-actions": {
+        "title": "Actions"
+      },
+      "version-18.0/version-18.0-build-panel": {
+        "title": "Build Panel"
+      },
+      "version-18.0/version-18.0-create-new-project": {
+        "title": "New Project"
+      },
+      "version-18.0/version-18.0-data": {
+        "title": "Data"
+      },
+      "version-18.0/version-18.0-forms": {
+        "title": "Forms"
+      },
+      "version-18.0/version-18.0-general": {
+        "title": "General"
+      },
+      "version-18.0/version-18.0-labels-and-icons": {
+        "title": "Labels & Icons"
+      },
+      "version-18.0/version-18.0-main-menu": {
+        "title": "Main Menu"
+      },
+      "version-18.0/version-18.0-publishing": {
+        "title": "Publishing"
+      },
+      "version-18.0/version-18.0-structure": {
+        "title": "Structure"
+      },
+      "version-18.0/version-18.0-many-to-one-relations": {
+        "title": "Many to One relations"
+      },
+      "version-18.0/version-18.0-one-to-many-relations-actions": {
+        "title": "One to Many - Actions"
+      },
+      "version-18.0/version-18.0-one-to-many-relations-custom-button": {
+        "title": "One to Many - Custom button"
+      },
+      "version-18.0/version-18.0-one-to-many-relations-title-definition": {
+        "title": "One to Many - Title definition"
+      },
+      "version-18.0/version-18.0-one-to-many-relations": {
+        "title": "One to Many relations"
+      },
+      "version-18.0/version-18.0-custom-data-formatters": {
+        "title": "Data Formatters"
+      },
+      "version-18.0/version-18.0-custom-detailform-templates": {
+        "title": "Detail Form Templates"
+      },
+      "version-18.0/version-18.0-custom-listform-templates": {
+        "title": "List Forms Templates"
+      },
+      "version-18.0/version-18.0-define-filter-query": {
+        "title": "Define a filter query"
+      },
+      "version-18.0/version-18.0-filter-query-introduction": {
+        "title": "Restricted queries"
+      },
+      "version-18.0/version-18.0-user-information-query": {
+        "title": "User information query"
+      },
+      "version-18.0/version-18.0-template": {
+        "title": "Templates & Formatters"
+      },
+      "version-18.0/version-18.0-free-developer-account": {
+        "title": "Free Apple Developer account"
+      },
+      "version-18.0/version-18.0-install-device": {
+        "title": "Installing on your iOS device"
+      },
+      "version-18.0/version-18.0-simulator": {
+        "title": "Using the Simulator"
+      },
+      "version-18.0/version-18.0-xcode": {
+        "title": "Xcode"
       }
     },
     "links": {
