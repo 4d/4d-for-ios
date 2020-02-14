@@ -88,8 +88,14 @@ algolia: {
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'ocean',
+    hljs: function(hljs) {
+      var hljsRobotsTxt = require('highlightjs-4d');
+      hljs.registerLanguage("4d", hljsRobotsTxt);
+    }
   },
-
+  markdownPlugins: [
+      require('remarkable-admonitions')({ icon: 'svg-inline' }),
+  ],
   // Add custom scripts here that would be placed in <script> tags
   scripts: [
   'https://buttons.github.io/buttons.js',
