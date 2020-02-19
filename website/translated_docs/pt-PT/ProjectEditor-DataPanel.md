@@ -17,17 +17,17 @@ Esta seção permite que:
 
 Este painel permite definir sua **fonte de dados**. Pode escolher obter dados de **Arquivo de dados atual** ou de um **Arquivo de dados de servidor de produção**.
 
-Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo key. mobileapp** desde o servidor de produção e se deve comunicar fisicamente ao desenvolvedor. This **key.mobileapp** file is available next to data in the MobileApps folder. Then the developer can select it from the project editor to access to the production server data.
+Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo key. mobileapp** desde o servidor de produção e se deve comunicar fisicamente ao desenvolvedor. Este arquivo **key.mobileapp** está disponível do lado da pasta MobileApps. Então o desenvolvedor pode selecionar a partir do editor de projeto para acessar dados do servidor de produção.
 
-The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
+Se escolher obter dados de seu servidor de produção a **URL de produção** deve ser ingressada a partir da seção **Publicação** 
 
-Here, you can also check if the server is available and activate it if necessary.<div class = "tips"> 
+Aqui também pode checar se o servidor está disponível e ativá-lo se necessário.<div class = "tips"> 
 
-**NOTE**
+**NOTA **
 
-* Tips are available to help you ensure the server works correctly.
-* You can directly access the Publishing panel to define your production URL.
-* To access production server data, a key file is required for secure communications.</div> 
+* Dicas estão disponíveis para ajudar a garantir que o servidor funciona corretamente.
+* Pode acessar diretamente o painel de publicação para definir sua URL de produção.
+* Para acessar aos dados de servidor de produção, é exigido um arquivo key.mobileapp para garantir as comunicações.</div> 
 
 You can also define whether or not you want to **Regenerate data systematically** at each build.
 
