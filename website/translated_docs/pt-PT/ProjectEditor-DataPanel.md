@@ -29,62 +29,62 @@ Aqui também pode checar se o servidor está disponível e ativá-lo se necessá
 * Pode acessar diretamente o painel de publicação para definir sua URL de produção.
 * Para acessar aos dados de servidor de produção, é exigido um arquivo key.mobileapp para garantir as comunicações.</div> 
 
-You can also define whether or not you want to **Regenerate data systematically** at each build.
+Também pode definir se quer **Regenerar os datos sistematicamente** em cada compilação.
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+Quando a opção **Não regenerar os dados em cada compilação** estiver marcada, pode poupar uma quantidade considerável de tempo na construção de sua aplicação. Sempre pode gerar seus dados manualmente clicando no botão **Regenerar agora**.
 
-## Properties panel
+## Painel Propriedades
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
+Neste painel, pode definir todos os filtros para cada tabela segundo os **filtros de pesquisas definidas** ou segundo os **parâmetros usuário**.
 
-### Filtering with query filters
+### Filtros de pesquisa
 
-You can define filters per table which depend on field values:
+Pode definir filtros por tabela, em função dos valores de campo:
 
-* First, enter your query in the dedicated field by typing it directly in the "Query field". You can also compose your query using the Fields, Comparators and Operators tabs which are available just above the query field when it's in focus. This can be helpfull defining your query.
+* Primeiro ingresso sua pesquisa no campo dedicado escrevendo diretamente no "Campo de pesquisa". Também pode redatar sua pesquisa usando as abas Campos, Comparadores e Operadores, que estão disponíveis imediatamente sobre o campo de pesquisa quando estiver focado. Isso pode ser útil para definir sua pesquisa.
 
-* Then, you need to validate your query. This must be done each time you modify it (a query that has been edited and not validated appears in red in the project editor).
+* Daí precisa validar sua pesquisa. Isso deve ser feito cada vez que modificar o filtro de pesquisa (uma pesquisa editada e não validada aparece em vermelho no editor de projeto).
 
-* Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Leave unchecked if you don't want the data embedded.
+* Finalmente, marque a opção **Integrar os dados na aplicação** para integrar os dados na aplicação quando for gerado. Deixe sem marcar se não quiser que os dados sejam integrados.
 
-When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.<div class = "tips"> 
+Quando um filtro de pesquisa for válido, um ícone aparece indicando que o filtro definido foi baseado em uma pesquisa definida de filtro.<div class = "tips"> 
 
-**EXAMPLE**
+**EXEMPLO**
 
-In the **Filter query** field enter:
+No campo **Filtro de pesquisa** ingresse:
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div> 
+Esta pesquisa lhe permite mostrar só os registros que incluem "Lisa" e "Hart" nos campos FirstName e LastName.</div> 
 
-### Filtering with user information filters
+### Filtrado com filtros de informação de usuário
 
-You can define filters depending on user information which you define in the Mobile App Authentication method:
+Pode definir filtros segundo a informação de usuário que define no método Mobile App Authentication:
 
-* As with query filters, you first need to define your query in the appropriate field.
+* Da mesma forma que com filtros de pesquisa, primeiro deve definir sua pesquisa no campo apropriado.
 
-* To specify that the query depends on user information, just add ":" and the `userinfo` object key.
+* Para especificar que a pesquisa dependa da informação de usuário, apenas agregue ":" e a chave objeto `userinfo`.
 
-* Then, validate your query. This must be done each time you modify it.
+* Depois valide sua pesquisa. Isso deve ser feito cada vez que modificar o filtro de pesquisa.
 
-* Once your query filter is validated, a button appears to allow you to add information about users in the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) method.
+* Quando validar o filtro de pesquisa, aparece um botão que lhe permite agregar informação sobre os usuários no método [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div class = "tips"> 
+Quando um filtro de pesquisa for válido, se mostra um ícone de usuário que indica que o filtro definido se baseia em informação de usuário.<div class = "tips"> 
 
-**EXAMPLE**
+**EXEMPLO**
 
-In the **Filter query** field enter:
+No campo **Filtro de pesquisa** ingresse:
 
 CityName = :city
 
-In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
+No [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduza:
 
     $response.userInfo:=New object("city";"Paris")
 
-This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips"> 
+Esta pesquisa lhe permite mostrar só os registros que incluam "Paris" como CityName.</div> <div class = "tips"> 
 
-**NOTE**
+**NOTA**
 
-You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+Encontrará todas as regras de sintaxe associadas à pesquisa na [documentação de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
