@@ -29,9 +29,9 @@ Here, you can also check if the server is available and activate it if necessary
 * You can directly access the Publishing panel to define your production URL.
 * To access production server data, a key file is required for secure communications.</div> 
 
-You can also define whether or not you want to **Regenerate data systematically** at each build.
+You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 ## Properties panel
 
