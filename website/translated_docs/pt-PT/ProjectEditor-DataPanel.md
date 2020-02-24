@@ -29,9 +29,9 @@ Aqui também pode checar se o servidor está disponível e ativá-lo se necessá
 * Pode acessar diretamente o painel de publicação para definir sua URL de produção.
 * Para acessar aos dados de servidor de produção, é exigido um arquivo key.mobileapp para garantir as comunicações.</div> 
 
-Também pode definir se quer **Regenerar os datos sistematicamente** em cada compilação.
+You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
-Quando a opção **Não regenerar os dados em cada compilação** estiver marcada, pode poupar uma quantidade considerável de tempo na construção de sua aplicação. Sempre pode gerar seus dados manualmente clicando no botão **Regenerar agora**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 ## Painel Propriedades
 
