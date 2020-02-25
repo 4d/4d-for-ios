@@ -57,7 +57,7 @@ Ahora que su acción está definida en el editor de proyectos, debe crear el mé
 
 Para hacerlo, haga clic en el **botón Crear** en la parte inferior derecha de la tabla de acciones e ingrese el siguiente código en el método base **On Mobile App Action**:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -93,7 +93,7 @@ $0:=$result  // Informations returned to mobile application
 
 Una vez que su método base ha sido editado, debe crear un método **modifyStatus** que hará el trabajo:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -161,7 +161,7 @@ Definamos esta acción desde la sección Action:
 
 Haga clic el **botón Editar** en la parte inferior derecha de la tabla action para completar el método base **On Mobile App Action**:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -204,7 +204,7 @@ $0:=$result  // Informations returned to mobile application
 
 A medida que crea el método **modifyStatus**, siga el mismo proceso y cree un nuevo método **postponeAll** que modificará todo el estado del registro:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 

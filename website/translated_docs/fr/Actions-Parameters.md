@@ -116,7 +116,7 @@ The only thing you need to do is add a reference to your method(s) for the scena
 
 Voici la méthode base *Sur une action app mobile* finale :
 
-```code4d
+```4d
 C_OBJECT($0;$response)
 C_OBJECT($1;$request)
 
@@ -188,7 +188,7 @@ $0:=$result
 
 ### addAction
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -228,7 +228,7 @@ $0:=$out
 
 ### editAction
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -277,7 +277,7 @@ $0:=$out
 
 ### deleteAction
 
-```code4d
+```4d
 
 C_OBJECT($0)
 C_OBJECT($1)
@@ -320,7 +320,7 @@ $0:=$out
 ### sendEmail
 
 
-```code4d
+```4d
 C_OBJECT($0;$out)
 C_OBJECT($1;$in)
 

@@ -7,46 +7,46 @@ title: New Project
 
 **OBJETIVOS**
 
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+Se familiarizar com o editor de projetos.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
-Let's take a look at how 4D for iOS works.
+Vamos dar uma olhada em como 4D for iOS funciona.
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+Inicie sua aplicação 4D, abra seu banco de dados e vá a **Novo> Projeto móvel**.
 
-Give your project a name and click **Create**.
+Dê um nome a seu projeto e clique **Criar**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+A tela de boas vindas aparece automaticamente para ajudar a entender os conceitos básicos em 4D for iOS. Pode marcar a opção **não mostrar novamente** e esse diálogo não vai mais ser exibido. Clique em **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+Aqui estamos! Agora é hora de descobrir a arquitetura e interface 4D for iOS.
 
-The main window consists of two tabs:
+A janela principal consiste de duas abas:
 
-## Sections
+## Seções
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+Na aba Seções pode descobrir todos os passos necessários para criar sua aplicação 4D for iOS:
 
-* General
-* Structure
-* Data
+* Geral
+* Estrutura
+* Dados
 * Actions
-* Labels & Icons
-* Main Menu
-* Forms
-* Publishing
+* Etiquetas e ícones
+* Menu principal
+* Formulários
+* Publicação
 
-## Build
+## Geração
 
-The Build tab has four options:
+A aba Geração têm quatro opções:
 
-* Build and Run 
-* Simulator selection
-* Project and product browser
-* Install
+* Criar e executar 
+* Seleção de simulador
+* Navegador de projeto e de produto
+* Instalar

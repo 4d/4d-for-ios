@@ -13,7 +13,7 @@ Nous allons filtrer maintenant le contenu de notre application en fonction de l'
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-```code4d
+```4d
 Status = 'In Progress' & manager.Email = :email 
 ```
 
@@ -26,7 +26,7 @@ La recherche permettra de filtrer les données en fonction du statut **In Progre
 
 Ajoutez la ligne suivante dans la méthode de base de données :
 
-```code4d
+```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 

@@ -13,7 +13,7 @@ Ahora filtremos el contenido de nuestra aplicación según la dirección de corr
 
 ![User information query](assets/en/restricted-queries/user-information-query.png)
 
-```code4d
+```4d
 Status = 'In Progress' & manager.Email = :email 
 ```
 
@@ -26,7 +26,7 @@ La búsqueda filtrará los datos según el estado **In Progress** Y la **direcci
 
 Agregue la siguiente línea en el método de base de datos:
 
-```code4d
+```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 

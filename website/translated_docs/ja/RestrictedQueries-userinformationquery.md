@@ -13,7 +13,7 @@ title: ユーザー情報に基づくクエリ
 
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/user-information-query.png)
 
-```code4d
+```4d
 Status = 'In Progress' & manager.Email = :email 
 ```
 
@@ -26,7 +26,7 @@ Status = 'In Progress' & manager.Email = :email
 
 データベースメソッドに下記のコードを追加します。
 
-```code4d
+```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
