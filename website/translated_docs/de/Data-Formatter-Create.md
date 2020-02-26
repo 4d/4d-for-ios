@@ -11,7 +11,7 @@ Create your first data formatters.</div> <div class = "prerequisites">
 
 **Voraussetzungen**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
