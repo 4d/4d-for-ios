@@ -3,13 +3,9 @@ id: one-to-many-relations-actions
 title: Relaciones Uno a Muchos - Acciones
 ---
 
-<div markdown="1" class = "objectives">
-
+<div class = "objectives">
 **OBJETIVOS**
-
-Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.
-
-</div>
+Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.</div>
 
 ¡Es muy fácil crear una entidad utilizando una **Entidad padre**!
 
