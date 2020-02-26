@@ -156,7 +156,7 @@ Step 4. Focus on the Storyboard to check if the constraint has been updated corr
 
 And that's it! Your button is now fully duplicable if you have more that one relation button to display...
 
-## Where to go from here?
+## これからどうする？
 
 In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
 
