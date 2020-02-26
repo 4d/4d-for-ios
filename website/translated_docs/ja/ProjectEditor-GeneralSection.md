@@ -13,7 +13,7 @@ This section allows you to define your app's main information.
 
 For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.<div class = "tips"> 
 
-**NOTE**
+**注記**
 
 Help links are available for the Name and Identifier fields.</div> 
 
