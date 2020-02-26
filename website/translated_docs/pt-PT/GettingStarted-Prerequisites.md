@@ -1,6 +1,6 @@
 ---
 id: prerequisites
-title: Prerequisites
+title: Pré-requisitos
 ---
 
 ## Exigências de Software
