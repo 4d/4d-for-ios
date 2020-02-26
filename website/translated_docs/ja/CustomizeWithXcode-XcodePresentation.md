@@ -17,7 +17,7 @@ Xcode displays various areas that we're going to review:
 
 * **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
 
-![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![ビルドして実行](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
 
