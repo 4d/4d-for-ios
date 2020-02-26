@@ -48,6 +48,6 @@ Na aba BUILD do Editor de projeto:
 
 * Click on Project > Open the project with Xcode
 
-![Open your Project with Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![Abra seu projeto com o Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
 Agora você está pronto para começar a trabalhar no seu projeto 4D for iOS no Xcode, continue lendo para aprender como!
