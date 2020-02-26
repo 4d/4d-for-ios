@@ -19,11 +19,11 @@ Se não tiver uma identificação Apple, vá para '[Passo 2](#step-2-create-your
 
 Se já tiver uma Apple ID, vá para [Passo 3](#step-3-d-u-n-s-number).
 
-## PASSO 2. Create your Apple ID
+## PASSO 2. Crie sua Apple ID
 
 Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Crie sua Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Complete o formulário e perguntas de segurança.
 * Vai receber um código de verificação por email.
@@ -42,13 +42,13 @@ Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
 Solicite um número D-U-N-S [aqui](https://developer.apple.com/enroll/duns-lookup/#/search).
 
-![Request a D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
+![Solicite um número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Complete o formulário.
 * Clique **Continue**.
 * Verifique su e-mail para obter o número D-U-N-S.
 
-![D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
+![Número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
 ## PASSO 5. Registre-se como um desenvolvedor.
 
@@ -58,7 +58,7 @@ Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs
 * Leia e Aceite o Contrato de Desenvolvedor de Licença "Apple Developer Agreement". 
 * Clique em **Submit**.
 
-![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
+![Registre-se como um desenvolvedor.](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## PASSO 6. Inscreva-se no Programa Apple Developer Enterprise
 
@@ -80,7 +80,7 @@ Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs
 * Apple geralmente verifica se o contato principal existe e se realmente solicitou o registro no Apple Developer Enterprise Program.
 * Depois receberá outro email convidando para que complete o processo de inscrição.
 
-![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
+![Verificação Apple](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
 ## PASSO 8. Complete sua inscrição
 
