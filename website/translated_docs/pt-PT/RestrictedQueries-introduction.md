@@ -11,13 +11,13 @@ Defining basic and user information-based query filters to display filtered cont
 
 **PRÉ-REQUISITOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
 First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
 
-## Download the Starter Project
+## Baixe o Starter Project
 
 Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
