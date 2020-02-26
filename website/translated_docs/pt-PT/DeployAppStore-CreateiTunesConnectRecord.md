@@ -52,7 +52,7 @@ Para cirar sua ID apple, vá para a conta Desenvolvedor e selecione [Certificate
 
 Clique no sinal **+** no canto esquerdo superior para criar uma nova aplicação iOS.
 
-![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
+![Crie uma nova aplicação iOS](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
 Agregue a informação abaixo:
 
@@ -77,7 +77,7 @@ Na App Store Connect> App Information:
 * Digite um subtítulo para sua aplicação. Isso vai aparecer abaixo do nome de sua aplicação na App Store em iOS 11.
 * Selecione uma categoria primária e secundária (opcional) na qual sua aplicação vai aparecer.
 
-![App information](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
+![Informação sobre a aplicação](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## PASSO 5. Preços e disponibilidade
 
@@ -95,7 +95,7 @@ Agregue todos os recursos de sua aplicação que quiser incluir na App Store em 
 
 Pode gerar todas as capturas de tela em Simulador (File > New Screen Shot).</div> 
 
-![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+![Prepare para a inscrição](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Agregue suas capturas de tela. Capturas de tela para iPhone 5,5" Super Retina Display e iPad 12.9" Retina Display são obrigatórias. Para maiores detalhes, veja [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
