@@ -9,7 +9,7 @@
         "title": "Defining your first action"
       },
       "actions-getting-started": {
-        "title": "Getting started"
+        "title": "Einsteigen"
       },
       "action-custom-template": {
         "title": "Adding actions in templates"
@@ -18,7 +18,7 @@
         "title": "Using action parameters"
       },
       "contact-app": {
-        "title": "Contact App"
+        "title": "App Contact"
       },
       "4d-for-ios-project-organization": {
         "title": "4D for iOS project organization"
@@ -208,7 +208,7 @@
         "title": "Defining your first action"
       },
       "version-18.0/version-18.0-actions-getting-started": {
-        "title": "Getting started"
+        "title": "Einsteigen"
       },
       "version-18.0/version-18.0-action-custom-template": {
         "title": "Adding actions in templates"
@@ -217,7 +217,7 @@
         "title": "Using action parameters"
       },
       "version-18.0/version-18.0-contact-app": {
-        "title": "Contact App"
+        "title": "App Contact"
       },
       "version-18.0/version-18.0-4d-for-ios-project-organization": {
         "title": "4D for iOS project organization"
@@ -412,7 +412,7 @@
       "4D Doc": "4D Doc"
     },
     "categories": {
-      "Getting started": "Getting started",
+      "Getting started": "Einsteigen",
       "Project Editor": "Project Editor",
       "Selecting your Developer Program": "Selecting your Developer Program",
       "Testing and Building": "Testing and Building",
