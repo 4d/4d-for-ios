@@ -152,7 +152,7 @@ Here is an example of a manifest.plist file :
 
 * Click **Next**.
 
-## STEP 10. Re-sign your application
+## SCHRITT 10. Re-sign your application
 
 * Let Xcode manage the **Automatically manage signing** option.
 
