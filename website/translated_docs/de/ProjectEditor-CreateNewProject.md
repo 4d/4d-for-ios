@@ -11,7 +11,7 @@ Get familiar with the Project Editor.</div> <div class = "prerequisites">
 
 **Voraussetzungen**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
 
 Let's take a look at how 4D for iOS works.
 
