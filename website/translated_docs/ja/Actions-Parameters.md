@@ -4,7 +4,7 @@ title: Using action parameters
 ---
 
 <div class = "objectives">
-**OBJECTIVES**
+**レッスンの目標**
 Define action parameters to edit the content of your app.</div>
 
 
@@ -22,11 +22,11 @@ To begin, let's first download the **Starter Project** based on our existing Tas
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">素材プロジェクト</a>
   </p>
 </div>
 
-## STEP 1. Add action
+## ⒈ Add action
 
 Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
 
@@ -49,7 +49,7 @@ For this, let's create an action using a preset **Add** action:
 
 At this point, all **Add action parameters** are created automatically and ready to use.
 
-## STEP 2. Edit action
+## ⒉ Edit action
 
 Now let's create an action that will allow you to **edit your app content**.
 
@@ -71,7 +71,7 @@ At this point, you will see:
 
 Don't worry, we'll handle the 4D code for these actions later. :-)
 
-## STEP 3. Delete action
+## ⒊ Delete action
 
 The preset **Delete** action creation process is nearly the same as the Edit action:
 
@@ -87,7 +87,7 @@ At this point, you will see a **new action** named *"deleteTasks"* with *"Remove
 
 You don't need to worry about parameters or properties for this type of action.
 
-## STEP 4. Send a comment action
+## ⒋ Send a comment action
 
 Now we want to **send a comment** to a **specific email** depending on a specific task. To do so, click on the + button and create a new action named **sendComment**.
 
@@ -103,7 +103,7 @@ Your Actions section should look like this:
 
 ![Send comment action creation](assets/en/actions/Send-comment-action-definition.png)
 
-## STEP 5. Create the On Mobile App Action
+## ⒌ Create the On Mobile App Action
 
 As described in the [documentation](actions.html), click on the Create button to create the *On Mobile App Action* database method.
 
@@ -180,7 +180,7 @@ $0:=$result
 
 ```
 
-## STEP 6. Create All the methods you need
+## ⒍ Create All the methods you need
 
 
 ### addAction
@@ -380,7 +380,7 @@ Don't forget to add your own values for the **sendEmail** action.
 
 
 
-## STEP 7. Build your app
+## ⒎ Build your app
 
 
 It's time to build your app!
@@ -401,14 +401,14 @@ And finally you can delete an entity using the **Delete...** action.
 
 ![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
-## STEP 8. Where to go from here?
+## ⒏ これからどうする？
 
 Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">完成プロジェクト</a>
   </p>
 </div>
 
