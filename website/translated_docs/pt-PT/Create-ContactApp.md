@@ -60,7 +60,7 @@ Aqui, você vai configurar as informações principais do seu aplicativo:
 * **Icons:** Arraste e solte um ícone para seu app na área de ícone.
 * **Desenvolvedor:** É automaticamente preenchido a partir do nome de usuário em seu computador. Copie/cole sua referência de time desenvolvedor (da sua conta de desenvolvedor) no campo Time. Também pode deixar o campo vazio para construir sua aplicação apenas no Simulador.
 
-![General](assets/en/contact-app/Contact-app-general-section-4D-for-iOS.png)
+![Geral](assets/en/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
 ## PASSO 5. Seções - Estrutura
 
@@ -72,7 +72,7 @@ Em nosso exemplo, selecione **ID**, ** Nome**, **Sobrenome**, **Cargo**, **Empre
 
 Recomendamos fortemente que publique sua chave primária para identificar cada registro em seu banco de dados</div> 
 
-![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
+![Estrutura](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## PASSO 6. Seções - Ícones & Etiquetas
 
