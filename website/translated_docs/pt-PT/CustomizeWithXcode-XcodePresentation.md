@@ -29,13 +29,13 @@ Xcode exibe várias áreas que nós vamos rever:
 
 ## Área do editor
 
-![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Área do editor](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
 Aqui é onde a codificação acontece quando é selecionado um Swift File. Quando um arquivo de Storyboard for selecionado, aparecem as alterações de visão e o Interface Builder.
 
 ## Área de interface Builder
 
-![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Área de interface Builder](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 Esta é uma interface gráfica que permite criar um arquivo XIB ou Storyboard. Todas suas cenas são acessíveis no lado esquerdo.
 
@@ -43,13 +43,13 @@ Esta é uma interface gráfica que permite criar um arquivo XIB ou Storyboard. T
 
 A área de utilidade do Xcode tem dois painéis: o painel Inspetor e o painel Biblioteca.
 
-![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Área Utilidade](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Painel Inspetor
 
 Dentro da seção de propriedades, há seis diferentes abas de Inspetor, como mostrado na ilustração a seguir:
 
-![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
+![Painel Inspetor](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
 Da esquerda para a direita, estas abas são:
 
@@ -71,7 +71,7 @@ Dentro da seção de propriedades, há quatro diferentes abas de Biblioteca, com
 
 Da esquerda para a direita, estas abas são:
 
-![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
+![Painel Biblioteca](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **arquivo modelos**: estes modelos são para os tipos comuns de arquivos listados como opções no menu Novo Arquivo.
 
