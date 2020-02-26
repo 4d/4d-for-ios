@@ -11,7 +11,7 @@ Create your first list form template.</div> <div class = "prerequisites">
 
 **必要条件**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+始めるために揃えておくべきものは[こちら](prerequisites.html)でチェックすることができます。</div> 
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
@@ -19,7 +19,7 @@ In this tutorial, we'll guide you through the creation of a detail form template
 
 ## スタータープロジェクトをダウンロードする
 
-To begin, download the **Starter Project**, which includes:
+まず最初に**スタータープロジェクト**をダウンロードしてください。これには以下のものが含まれます:
 
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
