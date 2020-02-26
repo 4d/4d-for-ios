@@ -182,7 +182,7 @@ O campo de seção é opcional.
     </g>
     
 
-1. Entire area Y position
+1. Posição de toda a área Y
 2. Posição, altura e largura da área de fundo
 3. Define a posição da área de texto e largura 
 4. Define a posição do campo soltável, sua altura e sua largura, assim como os tipos de campos aceitos 
