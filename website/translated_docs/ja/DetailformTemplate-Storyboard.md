@@ -86,11 +86,11 @@ Now that you have two views in your Stack View and you've defined constraints, l
 
 From the **Object library**, drag and drop an **Image View** into Field View 1.
 
-![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
+![Image Viewをストーリーボードに追加](assets/en/custom-detailform/add-imageview-storyboard.png)
 
 In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. Then set the X value to 0 and the Y value to 0.
 
-![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
+![Image Viewの位置とサイズ](assets/en/custom-detailform/imageview-position-height-width.png)
 
 Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
 
@@ -104,7 +104,7 @@ In the **Size inspector panel** change the Intrinsic Size from **Default** to **
 
 ### Title label
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
+In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. また，X座標を8に，Y座標も8に設定します。
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
@@ -132,9 +132,9 @@ You're done with graphical elements! All of your constraints are well defined :)
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Image Viewを選択し，**Identity inspector**（ウィンドウ右側パネルの身分証明書アイコンをクリック）のUser Defined Runtime Attributesにアクセスします。 行を追加するために**＋**ボタンをクリックします。
 
-![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
+![ユーザー定義のランタイム属性](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
 * **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
 
@@ -142,7 +142,7 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 
 * **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
 
-![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
+![Identity inspector](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
 ### Labels
 
@@ -258,7 +258,7 @@ You can now build your project from the project editor!
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
-## Where to go from here?
+## これからどうする？
 
 In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
 
