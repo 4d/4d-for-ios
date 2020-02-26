@@ -20,7 +20,7 @@ title: Create App Store record
 
 *An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
