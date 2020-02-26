@@ -94,7 +94,7 @@ algolia: {
     }
   },
   markdownPlugins: [
-      require('remarkable-admonitions')({ icon: 'svg-inline' }),
+    require('remarkable-admonitions')({ icon: 'svg-inline' })
   ],
   // Add custom scripts here that would be placed in <script> tags
   scripts: [
