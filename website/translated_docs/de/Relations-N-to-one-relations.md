@@ -5,7 +5,7 @@ title: Many to One relations
 
 4D v17 R5 includes a new concept: Many to One relations<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
 
