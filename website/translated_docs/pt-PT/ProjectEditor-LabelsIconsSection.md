@@ -35,7 +35,7 @@ For fields, you will be able to define the following properties:
 
 Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
 
-**TIPS**
+**DICAS**
 
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
