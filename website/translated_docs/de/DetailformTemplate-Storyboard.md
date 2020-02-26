@@ -258,7 +258,7 @@ You can now build your project from the project editor!
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
-## Where to go from here?
+## Wie geht es weiter?
 
 In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
 
