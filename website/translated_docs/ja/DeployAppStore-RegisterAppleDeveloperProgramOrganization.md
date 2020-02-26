@@ -9,7 +9,7 @@ title: Apple Developer Program as an Organization
 
 Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
 
-**NOTE**
+**注記**
 
 To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
@@ -50,7 +50,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 ![D-U-N-S Number](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## STEP 5. Register as a developer
+## ⒌ Register as a developer
 
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
 
@@ -60,13 +60,13 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![Register as a developer](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## STEP 6. Join the Apple Developer Program
+## ⒍ Join the Apple Developer Program
 
 * You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/). 
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 7. Enroll as an organization
+## ⒎ Enroll as an organization
 
 * Click on the **Start your Enrollment** button.
 * Select **Company / Organization** from the Entity Type dropdown list.
@@ -85,7 +85,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## STEP 8. Complete your purchase
+## ⒏ Complete your purchase
 
 * Once your enrollment request has been accepted, you can then proceed to payment.
 
