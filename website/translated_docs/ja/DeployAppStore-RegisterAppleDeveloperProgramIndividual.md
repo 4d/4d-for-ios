@@ -45,7 +45,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 5. Enroll as an individual
+## ⒌ Enroll as an individual
 
 * Click on the **Start your Enrollment** button.
 * Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
@@ -59,7 +59,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 6. Complete your purchase
+## ⒍ Complete your purchase
 
 * Click **Purchase** and make payment to complete your enrollment.
 
