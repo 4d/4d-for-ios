@@ -11,7 +11,7 @@ Create your first list form template.</div> <div class = "prerequisites">
 
 **Voraussetzungen**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Klicken Sie [hier](prerequisites.html), um zu sehen, was Sie zum Starten benötigen.</div> 
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
