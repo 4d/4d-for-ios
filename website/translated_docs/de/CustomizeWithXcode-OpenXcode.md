@@ -12,7 +12,7 @@ title: Working with Xcode
 
 4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
 
