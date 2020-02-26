@@ -4,15 +4,11 @@ title: Data Formatters
 ---
 
 
-<div markdown="1" class = "tips">
-
-**BEFORE STARTING**
-
+:::important BEFORE STARTING
 1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
 2. Then drop the formatter folder into it.
-
-</div>
+:::
 
 <div markdown="1" style="height: auto;">
   <table>
@@ -167,3 +163,7 @@ title: Data Formatters
     </tr>
   </table>
 </div>
+
+:::tip MORE
+You can find more formatters on [github](https://4d-for-ios.github.io/gallery/#/type/formatter).
+:::

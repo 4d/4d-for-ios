@@ -3,16 +3,11 @@ id: custom-detailform-templates
 title: Detail Form Templates
 ---
 
-
-<div markdown="1" class = "tips">
-
-**BEFORE STARTING**
-
+:::important BEFORE STARTING
 1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-2. Then drop the detail form folder into it.
-
-</div>
+2. Then drop the list form folder into it.
+:::
 
 <div markdown="1" style="height: auto;">
   <table>
@@ -290,10 +285,8 @@ title: Detail Form Templates
   </table>
 </div>
 
-<div markdown="1" class = "tips">
 
-**More**
+:::tip MORE
+You can find more detail form templates on [github](https://4d-for-ios.github.io/gallery/#/type/form-detail).
+:::
 
-You can find more detail form template on [github](https://github.com/search?q=topic%3A4d-for-ios-form-detail).
-
-</div>

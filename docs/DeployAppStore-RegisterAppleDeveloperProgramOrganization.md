@@ -3,21 +3,13 @@ id: register-apple-developer-program-organization
 title: Apple Developer Program as an Organization
 ---
 
-<div markdown="1" class = "objectives">
-
-**OBJECTIVES**
-
+:::tip OBJECTIVES
 Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
+:::
 
-</div>
-
-<div markdown="1" class = "tips">
-
-**NOTE**
-
+:::important PREREQUISITES
 To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.
-
-</div>
+:::
 
 ## STEP 1. Apple ID
 

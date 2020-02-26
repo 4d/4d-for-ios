@@ -3,12 +3,9 @@ id: simulator
 title: Using the Simulator
 ---
 
-<div markdown="1" class = "objectives">
-
-**OBJECTIVES**
-
+:::tip OBJECTIVES
 Test your app in the Simulator.
-</div>
+:::
 
 Finished developing you app and want to test it?
 

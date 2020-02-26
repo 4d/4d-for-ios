@@ -3,21 +3,14 @@ id: creating-data-formatter
 title: Create data formatter
 ---
 
-<div markdown="1" class = "objectives">
-
-**OBJECTIVES**
-
+:::tip OBJECTIVES
 Create your first data formatters.
 
-</div>
+:::
 
-<div markdown="1" class = "prerequisites">
-
-**PREREQUISITES**
-
+:::important PREREQUISITES
 Click [here](prerequisites.html) to see what you'll need to get started!
-
-</div>
+:::
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
