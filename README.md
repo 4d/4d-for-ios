@@ -26,8 +26,8 @@
 Apple configurator 2 requires **macOS 10.14** or later.
 Install this software if you want to automate app installation on your physical device.
 
-Xcode 10.2 requieres **macOS 10.14** (mojave) or later.
-Xcode 11.4 requieres **macOS 10.15.2** (catalina) or later.
+* Xcode 10.2 requieres **macOS 10.14** (mojave) or later.
+* Xcode 11.4 requieres **macOS 10.15.2** (catalina) or later.
 
 **Version comparison table**
 
