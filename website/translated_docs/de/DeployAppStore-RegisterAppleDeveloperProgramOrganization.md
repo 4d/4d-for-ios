@@ -9,7 +9,7 @@ title: Apple Developer Program as an Organization
 
 Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
