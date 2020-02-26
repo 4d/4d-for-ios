@@ -14,7 +14,7 @@ Install a 4D for iOS application on a connected device</div> <div class = "prere
 * Apple Developer Program.
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 Apple configurator 2 requires **macOS 10.14** or later.</div> 
 
