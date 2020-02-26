@@ -20,7 +20,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenha uma ID de Time](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## Passo 3. Configuração 4D for iOS
 
@@ -47,7 +47,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * Da aba BUILD do Editor de Projeto de 4D for iOS, clique em Projeto>Abrir o Projeto com Xcode
 
-![Open your project with Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![Abra seu projeto com Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## PASSO 5. Arquive seu projeto com Xcode
 
@@ -57,7 +57,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * A partir do menu, clique em Produto e selecione **Archive**
 
-![Archive your project from Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
+![Arquive seu projeto com Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
 ## PASSO 6. Valide seu projeto
 
@@ -65,7 +65,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * Clique no botão **Archive** para iniciar o processo de validação.
 
-![Validate your project](assets/en/deploy-app-store/Organizer-Project-Validation.png)
+![Valide seu projeto](assets/en/deploy-app-store/Organizer-Project-Validation.png)
 
 * O primeiro passo é selecionar as opções de distribuição do App Store.
 
@@ -93,7 +93,7 @@ Quando o processo de validação tenha terminado, está pronto para adicionar se
 
 * Clique o botão **Upload to App Store**.
 
-![Upload to App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
+![Suba para a App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
 * Quando seu projeto tiver sido atualizado com sucesso, verá esta janela:
 
@@ -115,7 +115,7 @@ Quando o processo de validação tenha terminado, está pronto para adicionar se
 
 * O passo final para enviar sua aplicação para revisão é responder algumas perguntas rápidas sobre sua aplicação. 
 
-![Submit for Review](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
+![Envie para Revisão](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
 * Quando tiver terminado com as perguntas, clique **Submit**.
 
