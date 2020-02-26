@@ -6,19 +6,19 @@
     "tagline": "Easily create and deploy custom native iOS apps",
     "docs": {
       "define-first-action": {
-        "title": "Defining your first action"
+        "title": "はじめてのアクション"
       },
       "actions-getting-started": {
-        "title": "Getting started"
+        "title": "データベースを用意する"
       },
       "action-custom-template": {
-        "title": "Adding actions in templates"
+        "title": "テンプレートにアクションを追加する"
       },
       "action-parameters": {
         "title": "Using action parameters"
       },
       "contact-app": {
-        "title": "Contact App"
+        "title": "はじめてのアプリ"
       },
       "4d-for-ios-project-organization": {
         "title": "4D for iOS project organization"
@@ -27,22 +27,22 @@
         "title": "Customize your 4D for iOS App"
       },
       "open-xcode": {
-        "title": "Working with Xcode"
+        "title": "作業をXcodeに引き継ぐ"
       },
       "xcode-overview": {
         "title": "Xcode Overview"
       },
       "data-formatter-build-and-run": {
-        "title": "Build and Run your project"
+        "title": "プロジェクトをビルドして実行"
       },
       "creating-data-formatter": {
-        "title": "Create data formatter"
+        "title": "カスタムのデータフォーマッター"
       },
       "data-formatter-mobile-project": {
-        "title": "Open mobile project"
+        "title": "モバイルプロジェクトを開く"
       },
       "data-formatter": {
-        "title": "Data formatter"
+        "title": "データフォーマッター"
       },
       "deploy-app-store-archive-and-upload": {
         "title": "Archive and upload your Project"
@@ -94,22 +94,22 @@
         "title": "Prerequisites"
       },
       "create-icons": {
-        "title": "Create icons"
+        "title": "アイコンを追加する"
       },
       "using-icons": {
-        "title": "Using icons"
+        "title": "アイコン"
       },
       "include-icons": {
-        "title": "Include icons in the project"
+        "title": "プロジェクトにアイコンを追加する"
       },
       "select-icons": {
-        "title": "Select your icons"
+        "title": "アイコンを選択する"
       },
       "licenses": {
         "title": "Licenses"
       },
       "creating-listform-templates": {
-        "title": "List form templates"
+        "title": "リストフォームのテンプレート"
       },
       "manifest-listform-template": {
         "title": "Manifest.json"
@@ -121,10 +121,10 @@
         "title": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "List form icon"
+        "title": "リストフォームのアイコン"
       },
       "multi-criteria-search": {
-        "title": "Multi-criteria search"
+        "title": "検索エリアに複数のフィールドを設定する"
       },
       "actions": {
         "title": "Actions"
@@ -172,52 +172,52 @@
         "title": "One to Many relations"
       },
       "custom-data-formatters": {
-        "title": "Data Formatters"
+        "title": "データフォーマッター"
       },
       "custom-detailform-templates": {
-        "title": "Detail Form Templates"
+        "title": "詳細画面のテンプレート"
       },
       "custom-listform-templates": {
-        "title": "List Forms Templates"
+        "title": "リスト画面のテンプレート"
       },
       "define-filter-query": {
-        "title": "Define a filter query"
+        "title": "クエリフィルターを設定する"
       },
       "filter-query-introduction": {
-        "title": "Restricted queries"
+        "title": "クエリフィルター"
       },
       "user-information-query": {
-        "title": "User information query"
+        "title": "ユーザー情報に基づくクエリ"
       },
       "template": {
         "title": "Templates & Formatters"
       },
       "free-developer-account": {
-        "title": "Free Apple Developer account"
+        "title": "無料のApple Developerアカウント"
       },
       "install-device": {
-        "title": "Installing on your iOS device"
+        "title": "iOSデバイスにインストールする"
       },
       "simulator": {
-        "title": "Using the Simulator"
+        "title": "シミュレーターを使用する"
       },
       "xcode": {
         "title": "Xcode"
       },
       "version-18.0/version-18.0-define-first-action": {
-        "title": "Defining your first action"
+        "title": "はじめてのアクション"
       },
       "version-18.0/version-18.0-actions-getting-started": {
-        "title": "Getting started"
+        "title": "データベースを用意する"
       },
       "version-18.0/version-18.0-action-custom-template": {
-        "title": "Adding actions in templates"
+        "title": "テンプレートにアクションを追加する"
       },
       "version-18.0/version-18.0-action-parameters": {
         "title": "Using action parameters"
       },
       "version-18.0/version-18.0-contact-app": {
-        "title": "Contact App"
+        "title": "はじめてのアプリ"
       },
       "version-18.0/version-18.0-4d-for-ios-project-organization": {
         "title": "4D for iOS project organization"
@@ -226,22 +226,22 @@
         "title": "Customize your 4D for iOS App"
       },
       "version-18.0/version-18.0-open-xcode": {
-        "title": "Working with Xcode"
+        "title": "作業をXcodeに引き継ぐ"
       },
       "version-18.0/version-18.0-xcode-overview": {
         "title": "Xcode Overview"
       },
       "version-18.0/version-18.0-data-formatter-build-and-run": {
-        "title": "Build and Run your project"
+        "title": "プロジェクトをビルドして実行"
       },
       "version-18.0/version-18.0-creating-data-formatter": {
-        "title": "Create data formatter"
+        "title": "カスタムのデータフォーマッター"
       },
       "version-18.0/version-18.0-data-formatter-mobile-project": {
-        "title": "Open mobile project"
+        "title": "モバイルプロジェクトを開く"
       },
       "version-18.0/version-18.0-data-formatter": {
-        "title": "Data formatter"
+        "title": "データフォーマッター"
       },
       "version-18.0/version-18.0-deploy-app-store-archive-and-upload": {
         "title": "Archive and upload your Project"
@@ -293,22 +293,22 @@
         "title": "Prerequisites"
       },
       "version-18.0/version-18.0-create-icons": {
-        "title": "Create icons"
+        "title": "アイコンを追加する"
       },
       "version-18.0/version-18.0-using-icons": {
-        "title": "Using icons"
+        "title": "アイコン"
       },
       "version-18.0/version-18.0-include-icons": {
-        "title": "Include icons in the project"
+        "title": "プロジェクトにアイコンを追加する"
       },
       "version-18.0/version-18.0-select-icons": {
-        "title": "Select your icons"
+        "title": "アイコンを選択する"
       },
       "version-18.0/version-18.0-licenses": {
         "title": "Licenses"
       },
       "version-18.0/version-18.0-creating-listform-templates": {
-        "title": "List form templates"
+        "title": "リストフォームのテンプレート"
       },
       "version-18.0/version-18.0-manifest-listform-template": {
         "title": "Manifest.json"
@@ -320,10 +320,10 @@
         "title": "Template.svg"
       },
       "version-18.0/version-18.0-icon-listform-template": {
-        "title": "List form icon"
+        "title": "リストフォームのアイコン"
       },
       "version-18.0/version-18.0-multi-criteria-search": {
-        "title": "Multi-criteria search"
+        "title": "検索エリアに複数のフィールドを設定する"
       },
       "version-18.0/version-18.0-actions": {
         "title": "Actions"
@@ -371,34 +371,34 @@
         "title": "One to Many relations"
       },
       "version-18.0/version-18.0-custom-data-formatters": {
-        "title": "Data Formatters"
+        "title": "データフォーマッター"
       },
       "version-18.0/version-18.0-custom-detailform-templates": {
-        "title": "Detail Form Templates"
+        "title": "詳細画面のテンプレート"
       },
       "version-18.0/version-18.0-custom-listform-templates": {
-        "title": "List Forms Templates"
+        "title": "リスト画面のテンプレート"
       },
       "version-18.0/version-18.0-define-filter-query": {
-        "title": "Define a filter query"
+        "title": "クエリフィルターを設定する"
       },
       "version-18.0/version-18.0-filter-query-introduction": {
-        "title": "Restricted queries"
+        "title": "クエリフィルター"
       },
       "version-18.0/version-18.0-user-information-query": {
-        "title": "User information query"
+        "title": "ユーザー情報に基づくクエリ"
       },
       "version-18.0/version-18.0-template": {
         "title": "Templates & Formatters"
       },
       "version-18.0/version-18.0-free-developer-account": {
-        "title": "Free Apple Developer account"
+        "title": "無料のApple Developerアカウント"
       },
       "version-18.0/version-18.0-install-device": {
-        "title": "Installing on your iOS device"
+        "title": "iOSデバイスにインストールする"
       },
       "version-18.0/version-18.0-simulator": {
-        "title": "Using the Simulator"
+        "title": "シミュレーターを使用する"
       },
       "version-18.0/version-18.0-xcode": {
         "title": "Xcode"
@@ -412,7 +412,7 @@
       "4D Doc": "4D Doc"
     },
     "categories": {
-      "Getting started": "Getting started",
+      "Getting started": "データベースを用意する",
       "Project Editor": "Project Editor",
       "Selecting your Developer Program": "Selecting your Developer Program",
       "Testing and Building": "Testing and Building",
@@ -422,10 +422,10 @@
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List forms": "Creating List forms",
       "Creating Detail forms": "Creating Detail forms",
-      "Using icons": "Using icons",
-      "Data formatter": "Data formatter",
-      "Multi-criteria search": "Multi-criteria search",
-      "Restricted queries": "Restricted queries",
+      "Using icons": "アイコン",
+      "Data formatter": "データフォーマッター",
+      "Multi-criteria search": "検索エリアに複数のフィールドを設定する",
+      "Restricted queries": "クエリフィルター",
       "Actions": "Actions",
       "Relations": "Relations",
       "Templates & Formatters": "Templates & Formatters"
@@ -449,7 +449,7 @@
     "Create your app|no description given": "Create your app",
     "Test your application in the Simulator or your own device.|no description given": "Test your application in the Simulator or your own device.",
     "Testing|no description given": "Testing",
-    "Test your app|no description given": "Test your app",
+    "Test your app|no description given": "動作をチェックする",
     "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.",
     "Deploy your App|no description given": "Deploy your App",
     "Help Translate|recruit community translators for your project": "Help Translate",
