@@ -4,12 +4,12 @@ title: One to Many - Actions
 ---
 
 <div class = "objectives">
-**OBJECTIVES**
+**レッスンの目標**
 We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
 It is very easy to create an entity using **parent Entity** !
 
-Let's get started by downloading the Starter Project:
+素材ロジェクトをダウンロードして始めてみましょう。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
