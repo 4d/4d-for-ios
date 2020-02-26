@@ -273,10 +273,10 @@ title: データフォーマッター
                                                                         <strong>Format:</strong> Text ⟶ html
                                                                       </li>
                                                                       <li>
-                                                                        <strong>Type:</strong> Swift formatter
+                                                                        <strong>タイプ:</strong> Swift フォーマッター
                                                                       </li>
                                                                       <div style="text-align: center; margin-top: 40px;">
                                                                         <p>
-                                                                          <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">DOWNLOAD</a>
+                                                                          <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">ダウンロード</a>
                                                                         </p>
                                                                       </div></td> </tr> </table> </div>
