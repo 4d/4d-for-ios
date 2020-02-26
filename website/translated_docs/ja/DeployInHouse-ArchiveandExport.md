@@ -51,7 +51,7 @@ Xcode will automatically install required provisioning and certificates.
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## STEP 5. Archive your project from Xcode
+## ⒌ Archive your project from Xcode
 
 * From Xcode, go to the simulator Menu and select **Generic iOS Device**
 
@@ -61,7 +61,7 @@ Xcode will automatically install required provisioning and certificates.
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
-## STEP 6. Export your project
+## ⒍ Export your project
 
 * At the end of the archive process, the Organizer window appears with the archive you just created
 
@@ -69,13 +69,13 @@ Xcode will automatically install required provisioning and certificates.
 
 ![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
 
-## STEP 7. Select your distribution method
+## ⒎ Select your distribution method
 
 * Select **Enterprise** and click **Next**.
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
-## STEP 8. Select your Enterprise distribution options
+## ⒏ Select your Enterprise distribution options
 
 * You can leave all option boxes checked.
 
@@ -144,7 +144,7 @@ Here is an example of a manifest.plist file :
 </plist>
 ```
 
-## STEP 9. Distribution manifest information
+## ⒐ Distribution manifest information
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
 
@@ -152,7 +152,7 @@ Here is an example of a manifest.plist file :
 
 * Click **Next**.
 
-## STEP 10. Re-sign your application
+## ⒑ Re-sign your application
 
 * Let Xcode manage the **Automatically manage signing** option.
 
