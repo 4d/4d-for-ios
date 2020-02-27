@@ -5,15 +5,17 @@ title: Data formatter
 
 4D v17 R3 inclui um novo conceito: formatação de Dados!
 
-Agora pode escolher os formatos pré-definidos da seção Etiquetas e Ícones.<div class = "tips"> 
+Agora pode escolher os formatos pré-definidos da seção Etiquetas e Ícones.
 
-Formatos disponíveis:
+:::note Available formats
 
-* **Texto**: Texto
-* **Data**: Data, Data curta, Data longa, Data completa
-* **Hora**: Hora, Hora curta, duração, número inteiro
-* **Booleano**: "Não" ou "Sim", "False" ou "True"
-* **Inteiro**: Número inteiro, número decimal, número real, porcentagem, número ordinal, Moeda $, Moeda €, Moeda ¥, número por escrito</div> 
+Available formats:
+
+* **Text**: Text
+* **Date**: Date, Short date, Long date, Full date
+* **Time**: Time, Short time, Duration, Integer number
+* **Boolean**: "No" or "Yes", "False" or "True"
+* **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out :::
 
 Vamos começar baixando o Projeto Starter:
 
@@ -22,7 +24,7 @@ Vamos começar baixando o Projeto Starter:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">PROJETO STARTER DE FORMATOS PERSONALIZADOS</a>
+href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">DATA FORMATTER STARTER PROJECT</a>
 
   </p>
 </div>
