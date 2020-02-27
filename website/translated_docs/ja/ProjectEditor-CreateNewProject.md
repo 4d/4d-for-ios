@@ -3,15 +3,9 @@ id: create-new-project
 title: New Project
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Get familiar with the Project Editor. :::
 
-**目的**
-
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
-
-**必要条件**
-
-始めるために揃えておくべきものは[こちら](prerequisites.html)でチェックすることができます。</div> 
+:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
 Let's take a look at how 4D for iOS works.
 
