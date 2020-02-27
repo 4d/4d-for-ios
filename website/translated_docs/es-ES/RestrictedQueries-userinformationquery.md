@@ -17,23 +17,20 @@ Ahora filtremos el contenido de nuestra aplicación según la dirección de corr
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-La búsqueda filtrará los datos según el estado **In Progress** Y la **dirección de correo electrónico del administrador de cuentas** (accesible desde la tabla AccountManager gracias a la relación *Muchos a Uno* en el nombre del gerente).<div class = "tips"> 
+La búsqueda filtrará los datos según el estado **In Progress** Y la **dirección de correo electrónico del administrador de cuentas** (accesible desde la tabla AccountManager gracias a la relación *Muchos a Uno* en el nombre del gerente).
 
-**NOTA**
+:::tip NOTE * A **user icon** is displayed on the right of each table when a user information filter is applied to it. * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
 
-* Se muestra un **icono usuario** a la derecha de cada tabla cuando se le aplica un filtro de información de usuario.
-* Tan pronto como una búsqueda se base en la información del usuario y se valide, debe editar el **Método de autenticación de la aplicación móvil**. Para hacerlo, haga clic con el botón derecho en el botón **Edit authentication method** para abrir la ventana de edición del método de base de datos.</div> 
-
-Agregue la siguiente línea en el método de base de datos:
+Add the following line in the database method:
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
-Esto permitirá recuperar la dirección de correo electrónico de inicio de sesión del administrador y mostrar los datos según ese criterio.
+This will allow retrieving the manager's login email address and displaying data depending on that criteria.
 
-![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
+![Filtro de búsqueda usuario](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Ahora, si crea su aplicación e ingresa "michelle.simpson@mail.com" como correo electrónico de inicio de sesión, encontrará todos los contratos *"In progress"* de Michelle Simpson.
+Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
-![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
+![Resultado final](assets/en/restricted-queries/restricted-queries-final-result.png)
