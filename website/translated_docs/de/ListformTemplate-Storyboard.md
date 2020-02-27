@@ -101,13 +101,11 @@ From the attribute inspector, you can also customize the font. Select both label
 
 To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. This allows the number of lines to be unlimited.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-**HINWEIS**
+:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png) :::
 
 ## How to get data into your cells
 
