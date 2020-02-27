@@ -3,17 +3,13 @@ id: creating-data-formatter
 title: Create data formatter
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Create your first data formatters.
 
-**OBJETIVOS**
+:::
 
-Criar seus primeiros formatadores de dados.</div> <div class = "prerequisites"> 
+:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
-**PRÉ-REQUISITOS**
-
-Clique [aqui ](prerequisites.html), para ver o que você precisa para começar!</div> 
-
-Neste tutorial, vamos guiá-lo através da criação de vários exemplos de formatador.
+In this tutorial, we'll guide you through the creation of various formatter examples.
 
 ## Baixe o Starter Project
 
@@ -27,16 +23,16 @@ Para começar, baixe o **Starter Project**, que inclui:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJETO PERSONALIZADO FORMATTER STARTER</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
 
   </p>
 </div>
 
-Agora você já está pronto para criar seus primeiros formatadores!
+You're now ready to create your first formatters!
 
 ## Crie a pasta formatadores
 
-Primeiro, crie uma pasta *Task Management.4dbase/Resources/Mobile/formatters *.
+First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
@@ -49,7 +45,7 @@ Primeiro, crie uma pasta *Task Management.4dbase/Resources/Mobile/formatters *.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
-Vamos olhar o conteúdo do arquivo de**manifest.json **:
+Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
 ```json
 {
@@ -116,7 +112,7 @@ Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
-Vamos olhar o conteúdo do arquivo **manifest.json **:
+Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
 ```json
 {
@@ -147,7 +143,7 @@ Vamos olhar o conteúdo do arquivo **manifest.json **:
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
-Vamos olhar o conteúdo do arquivo de**manifest.json **:
+Vamos olhar o conteúdo do arquivo de **manifest.json **:
 
 ```json
 {
@@ -170,9 +166,9 @@ Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
 ## Abrir projeto móvel
 
-Abra o Task Management.4dbase com 4D e vá para Arquivo>abrir>Projeto Móvel... para abrir **Tasks**
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
-Agora, vá para a seção **Labels & Icons** no editor de projetos. Todos os formatadores estão disponíveis para os tipos de campo diferentes que você definiu previamente nos arquivos manifest.json de diferentes formatadores:
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
 * Selecione o formatador de**integerToString ** para o **campo Job**
 * Selecione o formatador ** textToString** para o **campo Country**
@@ -183,18 +179,18 @@ Agora, vá para a seção **Labels & Icons** no editor de projetos. Todos os for
 
 ## Construa seu app 4D for iOS
 
-Construa seu app 4D for iOS e você verá que o formatador de dados é bem aplicado dependendo do limite de crédito.
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Clique em **FORMATADOR FINAL** abaixo para baixar a pasta de modelo formatador concluído.
+Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATADOR FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
 
   </p>
 </div>
