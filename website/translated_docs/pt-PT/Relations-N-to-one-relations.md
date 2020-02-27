@@ -3,11 +3,9 @@ id: many-to-one-relations
 title: Many to One relations
 ---
 
-4D v17 R5 includes a new concept: Many to One relations<div class = "tips"> 
+4D v17 R5 includes a new concept: Many to One relations
 
-**NOTA**
-
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier. :::
 
 Vamos começar baixando o Projeto Starter:
 
@@ -49,7 +47,7 @@ Depois vá para a seção Estrutura e selecione a **tabela Task**.
 
 ![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
-* Build and Run
+* Criar e executar
 
 Seu campo relacionado deve aparecer no formulário detalhado do app!
 
