@@ -3,14 +3,11 @@ id: custom-detailform-templates
 title: Plantillas de formularios detallados
 ---
 
+:::important BEFORE STARTING
 
-<div class = "tips"> 
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-**ANTES DE COMENZAR**
-
-1. Para utilizar una plantilla de formulario detallado, lo primero que deberá hacer es crear una carpeta `YourDatabase.4dbase/Resources/Mobile/form/detail`.
-
-2. Luego suelte la carpeta del formulario detallado en ella.</div> 
+2. Luego suelte la carpeta del formulario Lista en ella. :::
 
 <div style="height: auto;">
   <table>
@@ -23,15 +20,15 @@ title: Plantillas de formularios detallados
       
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Detalle del cliente
+          Client Detail
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Recursos incluídos:</strong> sí
+            <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>Acciones:</strong> incluidas
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>Imagen requerida:</strong> no
@@ -49,15 +46,15 @@ title: Plantillas de formularios detallados
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Detalle de la factura
+          Invoice Detail
         </h1>
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Recursos incluídos:</strong> sí
+            <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>Acciones:</strong> incluidas
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>Imagen requerida:</strong> no
@@ -82,15 +79,15 @@ title: Plantillas de formularios detallados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">
-            Detalle de las tareas
+            Tasks Detail
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Recursos incluídos:</strong> sí
+              <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>Acciones:</strong> incluidas
+              <strong>Actions:</strong> included
             </li>
             <li>
               <strong>Imagen requerida:</strong> no
@@ -113,10 +110,10 @@ title: Plantillas de formularios detallados
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Recursos incluídos:</strong> sí
+              <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>Acciones:</strong> incluidas
+              <strong>Actions:</strong> included
             </li>
             <li>
               <strong>Imagen requerida:</strong> sí
@@ -150,7 +147,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -173,7 +170,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -204,7 +201,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -227,7 +224,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -258,7 +255,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> sí
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -281,7 +278,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> sí
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -312,7 +309,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> sí
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -335,7 +332,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> sí
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -366,7 +363,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> no
             </li>
             <li>
-              <strong>Gráfico:</strong> sí
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -389,7 +386,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -420,7 +417,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -443,7 +440,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -474,7 +471,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -497,7 +494,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -528,7 +525,7 @@ title: Plantillas de formularios detallados
               <strong>Imagen requerida:</strong> sí
             </li>
             <li>
-              <strong>Gráfico:</strong> no
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -538,12 +535,8 @@ title: Plantillas de formularios detallados
             </p>
           </div>
         </td>
-      </tr></table> </div> <div class = "tips"> 
+      </tr></table> </div> 
       
       <p>
-        <strong>Más</strong>
+        :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
       </p>
-      
-      <p>
-        Puede encontrar una plantilla de formulario más detallada en <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
-      </p></div>
