@@ -3,31 +3,21 @@ id: deploy-in-house-archive-and-export
 title: Archiver et exporter un projet
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES * Archive and export your 4D for iOS project * Generate .ipa and manifest files :::
 
-**OBJECTIFS**
-
-* Archiver et exporter un projet 4D for iOS
-* Générer des fichiers .ipa et des fichiers manifest</div> <div class = "prerequisites"> 
-
-**CONDITIONS PRÉALABLES**
-
-* [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
-* Un serveur Web sécurisé
-* Une icône de résolution 57 x 57 px
-* Une icône de résolution 512 x 512 px</div> 
+:::important PREREQUISITES * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) * A secured web server * 57 x 57 px icon * 512 x 512 px icon :::
 
 ## ÉTAPE 1. Configurez Xcode
 
-Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
+Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
-Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
+Xcode will automatically install required provisioning and certificates.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
 * Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
@@ -67,7 +57,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Cliquez sur **Export**.
 
-![Export your project](assets/fr/deploy-in-house/Organizer-window-archive.png)
+![Exportez votre projet](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
@@ -87,7 +77,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 #### Qu'est-ce qu'un manifest ?
 
-Le manifest est une liste de propriétés fondée sur XML et doit contenir :
+The manifest is an XML-based property list and should contain:
 
 * **URL** : un URL vers le fichier .ipa.
 * **display-image** : un URL vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilisée lors du téléchargement et de l'installation.
@@ -96,7 +86,7 @@ Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 * **bundle-version** : La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
 * **title** : Le nom de votre application.
 
-Voici un exemple de fichier manifest.plist :
+Here is an example of a manifest.plist file :
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -148,7 +138,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
 
-![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
+![Informations sur la distribution du manifest](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Cliquez sur **Next**.
 
@@ -156,7 +146,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Laissez à Xcode le soin de gérer l'option **Automatically manage signing**.
 
-![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
+![Re-signez votre application](assets/en/deploy-in-house/Re-sign-your-application.png)
 
 * Cliquez sur **Next**.
 
@@ -164,6 +154,6 @@ Voici un exemple de fichier manifest.plist :
 
 * Vous pouvez vérifier ici l'exactitude de l'identifiant de votre application et de votre Team ID.
 
-![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
+![Vérifiez le contenu de votre application .ipa](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Cliquez sur **Export** et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.
