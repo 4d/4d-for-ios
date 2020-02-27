@@ -3,13 +3,11 @@ id: one-to-many-relations-actions
 title: One to Many - Actions
 ---
 
-<div class = "objectives">
-**レッスンの目標**
-We are now going to go a little bit further and **create a task for a specific employee**.</div>
+:::tip OBJECTIVES We are now going to go a little bit further and **create a task for a specific employee**. :::
 
 It is very easy to create an entity using **parent Entity** !
 
-素材ロジェクトをダウンロードして始めてみましょう。
+素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
