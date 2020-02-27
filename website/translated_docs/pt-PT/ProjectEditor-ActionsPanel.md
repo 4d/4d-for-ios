@@ -266,71 +266,69 @@ Para as ações de edição e adição, pode modificar:
 
 O método banco de dados [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) está disponível para chamar a todos seus métodos 4D.
 
-Depois de criar todas as suas ações, simplesmente clique no botão Criar da tabela Ações para gerar automaticamente um bloco de código *Case of* que inclua todos os nomes de suas ações no método *On Mobile App Action*.<div class = "tips"> 
+Depois de criar todas as suas ações, simplesmente clique no botão Criar da tabela Ações para gerar automaticamente um bloco de código *Case of* que inclua todos os nomes de suas ações no método *On Mobile App Action*.
 
-**NOTA**
+:::tip NOTE
 
-* Pode refrescar a seleção depois de executar uma ação utilizando ```$out.dataSynchro:=True```.
-* Pode notificar o usuário do app quando a ação tiver sido executada usando ```$out.statusText:="Message you want to display"```.
-* Também pode decidir forçar o fechamento do formulário de edição utilizando ```$out.close:=True```.</div> 
+* You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
+* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
+* You can also decide to force close the Edition form using ```$out.close:=True```. :::
 
 ## Aplicação iOS
 
-Em sua aplicação iOS, as ações estão disponíveis de diferentes formas em seus formulários listados e detalhados, segundo os modelos que selecionar na seção Formulários.
+In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
 
 ### Formulários Lista em tabela
 
-* **Ação de entidade:** deslize até a esquerda em uma célula para mostrar as ações disponíveis em um formulário Lista. Um botão "+" é mostrado se definir mais de 3 ações por entidade.
+* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Ações de tabela:** um botão de ações genéricas está disponível na barra de navegação para mostrar uma lista de ações de tabela.
+* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
 
-![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
+![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-**DICAS**
-
-Ações serão exibidas na mesma ordem que definidas na seção Ação</div> 
+:::tip TIPS Actions will be displayed in the same order as defined in the Action section. :::
 
 ### Formulários Lista coleção
 
-* **Ação Entidade** Dependendo do modelo selecionado, as ações são mostradas ao clicar no botão genérico ou ao manter o clique em uma célula.
+* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Ações de tabela:** como para os formulários Lista em tabelas, há um botão de ações genérico disponível na barra de navegação para mostrar uma lista de ações de tabela.
+* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Formulários detalhados
 
-Como para as ações de tabela nos formulários detalhados, um botão de ações genéricas está disponível na barra de navegação para mostrar todas suas ações de entidade em uma lista.
+As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
 ### Formulários de edição
 
-Si criou uma ação de edição ou de adição, logo que selecioná-la da lista de ações, aparecerá um **formulário de Edição**.
+If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-A partir desse ponto, você pode
+From here, you can:
 
-* editar todos seus campos ao selecioná-los, e
-* validar ou cancelar suas modificações com os botões **Pronto** ou **Cancelar** (disponíveis na barra de navegação).
+* edit all of your fields by selecting them, and
+* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
 
-Para sua comodidade, o formulário de Edição inclui algumas **funcionalidades especiais**:
+For your convenience, the Edition form includes a few **special features**:
 
-* O tipo de teclado depende do tipo de parâmetro selecionado na seção Actions.
-* Pode ir ao próximo campo ou ao anterior, utilizando a flecha na parte superior do teclado.
-* O teclado iOS pode ser fechado tocando em qualquer parte fora de um campo.
-* É indicado ao usuário quando um valor não for válido.
-* A vista foca em campos obrigatórios vazios quando o usuário clicar no botão Pronto.
+* The keyboard type depends on the selected parameter type in the Action section.
+* You can go to the next or previous field using the arrow on top of the keyboard.
+* The iOS keyboard can be closed by touching anywhere outside of a field.
+* Indication is given to the user when a value is not valid.
+* The view focuses on empty mandatory fields when the user clicks the Done button.
 
 ## Que fazer agora?
 
-* Um [tutorial](actions-getting-started.html) está disponível para guiá-lo através do **processo de definição de uma ação**.
+* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
 
-* Outro [tutorial](action-custom-template.html) o guiará para integrar as **TAG de ação** nos modelos personalizados.
+* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* Um [tutorial](using-parameters.html) final o guiará ao longo do processo **definição dos parâmetros de uma ação**.
+* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
