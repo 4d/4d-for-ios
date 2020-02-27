@@ -3,23 +3,19 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program para particulares
 ---
 
-<div class = "objectives"> 
-
-**OBJETIVOS**
-
-Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.</div> 
+:::tip OBJECTIVES Register for the Apple Developer Program as an individual to publish your app to the **App Store**. :::
 
 ## PASO 1. Identificador Apple
 
-Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id) 
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id)
 
-Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-register-as-a-developer) 
+If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
 ## PASO 2. Crear su identificación Apple
 
-Vaya a la [página de creación del identificador Apple ID](https://appleid.apple.com/)
+Go the the [Apple ID creation page](https://appleid.apple.com/)
 
-![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Crear su identificación Apple](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Llene el formulario y las preguntas de seguridad.
 * Recibirá un código de verificación por correo electrónico.
@@ -43,7 +39,7 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 
 * Haga clic en **Join the Apple Developer Program** en la parte inferior de la página.
 
-![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![Únase al Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## PASO 5. Inscríbase como particular
 
@@ -57,14 +53,14 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 * Lea y acepte el Contrato de desarrollador de licencia "Apple Developer Program License Agreement".
 * Haga clic en **Continue**.
 
-![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
+![Inscríbase como particular](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## PASO 6. Complete su suscripción
 
 * Haga clic en **Purchase** y realice el pago para finalizar su inscripción.
 
-![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![Complete su suscripción](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
 
-¡Felicidades! ¡Ya está listo para publicar aplicaciones en la App Store!
+¡Felicidades! You are now ready to publish apps to the App Store!
