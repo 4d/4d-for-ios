@@ -3,11 +3,7 @@ id: deploy-app-store-archive-and-upload
 title: Archiver et télécharger un projet
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Archiver et publier un projet sur l'App Store Connect.</div> 
+:::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
 
 ## ÉTAPE 1. Configurez Xcode
 
@@ -20,26 +16,26 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * Connectez-vous à votre compte de développeur Apple. Vous trouverez votre Team ID dans Membership.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
 * Lancez 4D for iOS
 * Dans l’onglet SECTIONS :
 
-**Général : Entrez votre Team ID**
+**General: Enter your Team ID**
 
-![Team ID](assets/fr/deploy-app-store/Team-ID.png)
+![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publication : Entrez votre URL de production**
+**Publishing: Enter your production URL**
 
-(HTTPS est obligatoire pour le déploiement).
+(HTTPS is mandatory for deployment).
 
-![Publishing](assets/fr/deploy-app-store/Publishing.png)
+![Publication](assets/en/deploy-app-store/Publishing.png)
 
 * Dans l’onglet GÉNÉRATION :
 
-**Créer & exécuter : Créez votre projet**
+**Build and Run: Build your Project**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
@@ -47,7 +43,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
-![Open your project with Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![Ouvrez votre projet avec Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
@@ -57,7 +53,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
 
-![Archive your project from Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
+![Archivez votre projet à partir de Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
 ## ÉTAPE 6. Validez votre projet
 
@@ -65,7 +61,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * Cliquez sur le bouton **Validate** pour démarrer le processus de validation.
 
-![Validate your project](assets/en/deploy-app-store/Organizer-Project-Validation.png)
+![Validez votre projet](assets/en/deploy-app-store/Organizer-Project-Validation.png)
 
 * La première étape consiste à sélectionner les options de distribution de l'App Store.
 
@@ -83,17 +79,17 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
-Si une erreur se produit, un message s’affichera. Ces erreurs doivent être corrigées avant de recommencer le processus de validation.
+If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
 
 * Cliquez sur **Done**. Cela vous renverra à la fenêtre de l’organisateur.
 
 ## ÉTAPE 7. Téléchargez sur l’App Store
 
-Une fois la validation terminée, vous êtes prêt à ajouter votre application sur l’App Store.
+Once the validation process has been completed, you're ready to add your app to the App Store.
 
 * Cliquez sur le bouton **Upload to App Store**.
 
-![Upload to App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
+![Téléchargez sur l’App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
 * Lorsque votre projet a été téléchargé avec succès, vous verrez cette fenêtre s'afficher :
 
@@ -115,7 +111,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 * La dernière étape consiste à répondre à quelques questions sur votre application. 
 
-![Submit for Review](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
+![Envoyez pour révision](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
 * Une fois l'étape des réponses aux questions terminée, cliquez sur **Submit**.
 
