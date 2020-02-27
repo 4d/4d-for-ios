@@ -3,15 +3,9 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Register for the Apple Developer Enterprise Program to deploy your app **in-house**. :::
 
-**目的**
-
-Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
-
-**注記**
-
-To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+:::important PREREQUISITES To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name. :::
 
 ## ステップ 1 - Apple ID
 
@@ -21,7 +15,7 @@ If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 ## ステップ 2 - Create your Apple ID
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+[Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
 ![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
