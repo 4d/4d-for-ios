@@ -21,13 +21,9 @@ Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo ke
 
 Se escolher obter dados de seu servidor de produção a **URL de produção** deve ser ingressada a partir da seção **Publicação** 
 
-Aqui também pode checar se o servidor está disponível e ativá-lo se necessário.<div class = "tips"> 
+Aqui também pode checar se o servidor está disponível e ativá-lo se necessário.
 
-**NOTA **
-
-* Dicas estão disponíveis para ajudar a garantir que o servidor funciona corretamente.
-* Pode acessar diretamente o painel de publicação para definir sua URL de produção.
-* Para acessar aos dados de servidor de produção, é exigido um arquivo key.mobileapp para garantir as comunicações.</div> 
+:::tip NOTE * Tips are available to help you ensure the server works correctly. * You can directly access the Publishing panel to define your production URL. * To access production server data, a key file is required for secure communications. :::
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
@@ -37,11 +33,11 @@ When the **Do not regenerate data at each build** and the **Do not include imgag
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-Neste painel, pode definir todos os filtros para cada tabela segundo os **filtros de pesquisas definidas** ou segundo os **parâmetros usuário**.
+In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
 
 ### Filtros de pesquisa
 
-Pode definir filtros por tabela, em função dos valores de campo:
+You can define filters per table which depend on field values:
 
 * Primeiro ingresso sua pesquisa no campo dedicado escrevendo diretamente no "Campo de pesquisa". Também pode redatar sua pesquisa usando as abas Campos, Comparadores e Operadores, que estão disponíveis imediatamente sobre o campo de pesquisa quando estiver focado. Isso pode ser útil para definir sua pesquisa.
 
@@ -49,19 +45,17 @@ Pode definir filtros por tabela, em função dos valores de campo:
 
 * Finalmente, marque a opção **Integrar os dados na aplicação** para integrar os dados na aplicação quando for gerado. Deixe sem marcar se não quiser que os dados sejam integrados.
 
-Quando um filtro de pesquisa for válido, um ícone aparece indicando que o filtro definido foi baseado em uma pesquisa definida de filtro.<div class = "tips"> 
+When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.
 
-**EXEMPLO**
-
-No campo **Filtro de pesquisa** ingresse:
+:::tip EXAMPLE In the **Filter query** field enter:
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-Esta pesquisa lhe permite mostrar só os registros que incluem "Lisa" e "Hart" nos campos FirstName e LastName.</div> 
+This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName. :::
 
 ### Filtrado com filtros de informação de usuário
 
-Pode definir filtros segundo a informação de usuário que define no método Mobile App Authentication:
+You can define filters depending on user information which you define in the Mobile App Authentication method:
 
 * Da mesma forma que com filtros de pesquisa, primeiro deve definir sua pesquisa no campo apropriado.
 
@@ -71,20 +65,16 @@ Pode definir filtros segundo a informação de usuário que define no método Mo
 
 * Quando validar o filtro de pesquisa, aparece um botão que lhe permite agregar informação sobre os usuários no método [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-Quando um filtro de pesquisa for válido, se mostra um ícone de usuário que indica que o filtro definido se baseia em informação de usuário.<div class = "tips"> 
+When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
 
-**EXEMPLO**
-
-No campo **Filtro de pesquisa** ingresse:
+:::tip EXAMPLE In the **Filter query** field enter:
 
 CityName = :city
 
-No [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduza:
+In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
 
     $response.userInfo:=New object("city";"Paris")
 
-Esta pesquisa lhe permite mostrar só os registros que incluam "Paris" como CityName.</div> <div class = "tips"> 
+This query allows you to display only the records which include "Paris" as CityName. :::
 
-**NOTA**
-
-Encontrará todas as regras de sintaxe associadas à pesquisa na [documentação de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+:::tip NOTE You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html). :::
