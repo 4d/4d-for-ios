@@ -18,11 +18,9 @@ Here, you can define a subset of your physical structure to replicate for mobile
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.<div class = "tips"> 
+To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.
 
-**TIPS**
-
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+:::tip TIPS You can publish a selection of fields by pressing the spacebar rather than selecting them one by one. :::
 
 ## One to Many relations
 
@@ -63,11 +61,9 @@ To do so, 4D for iOS needs to make structure optimizations and create:
 
 All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
-**注記**
-
-These optimizations are required for both local and server databases.</div> 
+:::tip NOTE These optimizations are required for both local and server databases. :::
 
 ### Pull to refresh!
 
@@ -75,8 +71,6 @@ iOS app side, your data is updated each time you launch your app and each time y
 
 In normal use, simply swipe down from any listform to reload your data.
 
-From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
+From iPhone settings, you can now reset your app data and find information about your app.
 
-**注記**
-
-As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
+:::tip NOTE As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction :::
