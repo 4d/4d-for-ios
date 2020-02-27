@@ -3,11 +3,7 @@ id: deploy-app-store-archive-and-upload
 title: Archive and upload your Project
 ---
 
-<div class = "objectives"> 
-
-**目的**
-
-Archive and upload your project to App Store Connect.</div> 
+:::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
 
 ## ステップ 1 - Xcode configuration
 
