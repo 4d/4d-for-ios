@@ -18,16 +18,12 @@ Como se indicó anteriormente, queremos que los administradores de cuentas acced
 
 Debería obtener este resultado:
 
-![CRM database](assets/en/restricted-queries/filterquery.png)<div class = "tips"> 
+![CRM database](assets/en/restricted-queries/filterquery.png)
 
-**NOTA**
+:::tip NOTE * A **filter** icon is displayed at the right of each table when a basic filter is applied to it. * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox. * Size will be calculated at the first build for you to visualize the **size of your data**. :::
 
-* Se muestra un icono de **filtro** a la derecha de cada tabla cuando se le aplica un filtro básico.
-* Para este tipo de filtros de búsqueda, puede optar por integrar los datos en la aplicación o cargar los datos después de iniciar sesión marcando la casilla de verificación **Integrar los datos en la aplicación**.
-* El tamaño se calculará en la primera generación para que pueda visualizar el **tamaño de sus datos**.</div> 
-
-Si genera su aplicación e ingresa "michelle.simpson@mail.com" como correo electrónico de inicio de sesión, verá que todos los contratos *In Progress* se muestran en el simulador.
+If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
 ![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
 
-¡No es exactamente lo que esperábamos! Lo que queremos ahora es que cada administrador de cuentas visualice solo sus propios contratos *In Progress*, ¡Así que completemos nuestra búsqueda!
+Not exactly what we expected! What we want now is for each account manager to visualize only their own *In Progress* contracts, so let's complete our query!
