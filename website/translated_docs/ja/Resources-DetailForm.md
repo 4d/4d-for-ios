@@ -3,14 +3,11 @@ id: custom-detailform-templates
 title: 詳細画面のテンプレート
 ---
 
+:::important BEFORE STARTING
 
-<div class = "tips"> 
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-**はじめに**
-
-1. カスタム詳細画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/detail` フォルダーを作成してください。
-
-2. カスタム詳細画面テンプレートは，このフォルダーの中にインストールします。</div> 
+2. カスタムリスト画面テンプレートは，このフォルダーの中にインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -31,7 +28,7 @@ title: 詳細画面のテンプレート
             <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>アクション:</strong> 対応
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>ピクチャフィールド:</strong> 不要
@@ -57,7 +54,7 @@ title: 詳細画面のテンプレート
             <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>アクション:</strong> 対応
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>ピクチャフィールド:</strong> 不要
@@ -90,7 +87,7 @@ title: 詳細画面のテンプレート
               <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>アクション:</strong> 対応
+              <strong>Actions:</strong> included
             </li>
             <li>
               <strong>ピクチャフィールド:</strong> 不要
@@ -116,7 +113,7 @@ title: 詳細画面のテンプレート
               <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>アクション:</strong> 対応
+              <strong>Actions:</strong> included
             </li>
             <li>
               <strong>Image required:</strong> yes
@@ -538,12 +535,8 @@ title: 詳細画面のテンプレート
             </p>
           </div>
         </td>
-      </tr></table> </div> <div class = "tips"> 
+      </tr></table> </div> 
       
       <p>
-        <strong>More</strong>
+        :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
       </p>
-      
-      <p>
-        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
-      </p></div>
