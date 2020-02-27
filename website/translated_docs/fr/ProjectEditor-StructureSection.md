@@ -18,19 +18,17 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.
 
-**CONSEILS**
-
-Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
+:::tip TIPS You can publish a selection of fields by pressing the spacebar rather than selecting them one by one. :::
 
 ## Liens 1 vers N
 
 ### Les liens 1 vers N dans l'éditeur de projet
 
-Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
-Il vous suffit de :
+All you have to do is:
 
 * publier au moins un champ de la table cible (N)
 
@@ -38,7 +36,7 @@ Il vous suffit de :
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la même manière que les autres champs. Vous pourrez ainsi :
+Then, when your related fields are published, they can be used like any other field. So you will be able to:
 
 * Définir les propriétés de liens dans la section [Libellés et icônes](labels-and-icons.html#relations-properties).
 
@@ -46,37 +44,33 @@ Puis, lorsque vos champs liés sont publiés, ils peuvent être utilisés de la 
 
 ### Qu'est-ce qui sera créé dans le projet généré ?
 
-Un bouton Lien sera créé dans les formulaires détaillés, pour vous permettre d'accéder directement à la vue liée.
+Basically a Relation button will be created in detail forms to go straight to the related view.
 
-Des [tutoriels](one-to-many-relations.html) sont à votre disposition pour vous aider à utiliser les liens 1 vers N dans votre projet 4D for iOS.
+[Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
 
 ## Rechargement incrémental
 
 ### Autoriser les modifications de la structure
 
-Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifie que seules les données de la base qui sont nouvelles, modifiées ou supprimées seront actualisées. Il s'agit là d'une excellente optimisation en termes de temps de chargement !
+In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
 
-Pour ce faire, 4D for iOS doit optimiser la structure et créer :
+To do so, 4D for iOS needs to make structure optimizations and create:
 
 * Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
 * Des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
 
-Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
+All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
 
-Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches requises afin que vous profitiez pleinement des avantages du rechargement incrémental des données.<div class = "tips"> 
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
-**NOTE**
-
-Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.</div> 
+:::tip NOTE These optimizations are required for both local and server databases. :::
 
 ### Tirer pour rafraîchir !
 
-Du côté d'iOS, vos données sont actualisées chaque fois que vous lancez votre application et chaque fois que votre application se met au premier plan, pour disposer de données continuellement mises à jour.
+iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
 
-En utilisation normale, glissez simplement vers le bas n’importe quel formulaire Liste pour recharger vos données.
+In normal use, simply swipe down from any listform to reload your data.
 
-À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application.<div class = "tips"> 
+From iPhone settings, you can now reset your app data and find information about your app.
 
-**NOTE**
-
-Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
+:::tip NOTE As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction :::
