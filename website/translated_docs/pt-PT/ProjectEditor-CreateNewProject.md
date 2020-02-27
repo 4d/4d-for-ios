@@ -3,35 +3,29 @@ id: create-new-project
 title: New Project
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Get familiar with the Project Editor. :::
 
-**OBJETIVOS**
+:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
-Se familiarizar com o editor de projetos.</div> <div class = "prerequisites"> 
+Let's take a look at how 4D for iOS works.
 
-**PRÉ-REQUISITOS**
-
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
-
-Vamos dar uma olhada em como 4D for iOS funciona.
-
-Inicie sua aplicação 4D, abra seu banco de dados e vá a **Novo> Projeto móvel**.
+Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
 Dê um nome a seu projeto e clique **Criar**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-A tela de boas vindas aparece automaticamente para ajudar a entender os conceitos básicos em 4D for iOS. Pode marcar a opção **não mostrar novamente** e esse diálogo não vai mais ser exibido. Clique em **Continue**.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Clique **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Aqui estamos! Agora é hora de descobrir a arquitetura e interface 4D for iOS.
+Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 
-A janela principal consiste de duas abas:
+The main window consists of two tabs:
 
 ## Seções
 
-Na aba Seções pode descobrir todos os passos necessários para criar sua aplicação 4D for iOS:
+In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
 * Geral
 * Estrutura
@@ -44,7 +38,7 @@ Na aba Seções pode descobrir todos os passos necessários para criar sua aplic
 
 ## Geração
 
-A aba Geração têm quatro opções:
+The Build tab has four options:
 
 * Criar e executar 
 * Seleção de simulador
