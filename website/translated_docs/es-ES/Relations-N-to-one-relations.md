@@ -3,11 +3,9 @@ id: many-to-one-relations
 title: Relaciones Muchos a Uno
 ---
 
-4D v17 R5 incluye un nuevo concepto: las relaciones Muchos a Uno<div class = "tips"> 
+4D v17 R5 incluye un nuevo concepto: las relaciones Muchos a Uno
 
-**NOTA**
-
-En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div> 
+:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto. :::
 
 Comencemos descargando el Proyecto Starter:
 
@@ -16,12 +14,12 @@ Comencemos descargando el Proyecto Starter:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N A UNO</a>
+href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
 
   </p>
 </div>
 
-Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación. Para hacerlo, abra el **StarteriOSProject** en ** Abrir>Proyecto móvil...**
+Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
 
 Luego diríjase a la sección Structure y seleccione la **Task table**.
 
