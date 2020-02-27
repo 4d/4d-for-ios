@@ -3,11 +3,7 @@ id: simulator
 title: Using the Simulator
 ---
 
-<div class = "objectives"> 
-
-**Zielsetzung**
-
-Test your app in the Simulator.</div> 
+:::tip OBJECTIVES Test your app in the Simulator. :::
 
 Finished developing you app and want to test it?
 
