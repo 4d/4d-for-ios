@@ -3,13 +3,9 @@ id: xcode-overview
 title: Présentation de Xcode
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Ensure a basic understanding of working with Xcode. :::
 
-**OBJECTIFS**
-
-Comprendre le fonctionnement de Xcode.</div> 
-
-Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
+Xcode displays various areas that we're going to review:
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
@@ -17,7 +13,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné.
 
-![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Créer & exécuter](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé.
 
@@ -29,29 +25,29 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ## Editor Area (Zone d’édition)
 
-![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Editor Area (Zone d’édition)](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-C’est ici que le code est inséré lorsqu'un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
+This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
 
 ## Zone "Interface Builder"
 
-![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Zone "Interface Builder"](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-Il s’agit d’une interface graphique qui vous permet de générer un fichier Storyboard ou XIB. Toutes vos "scènes" sont visibles sur le côté gauche.
+This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
 
 ## Utility Area (Zone de fonctionnalités)
 
-La zone de fonctionnalités de Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
+The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
 
-![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Utility Area (Zone de fonctionnalités)](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Inspector (Inspecteur)
 
-Dans la section des propriétés, Inspector se divise en six onglets, comme illustré ci-dessous :
+Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
 
-![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
+![Inspector (Inspecteur)](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-De gauche à droite, ces onglets correspondent à :
+From left-to-right, these tabs are:
 
 * **File inspector (inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
@@ -67,11 +63,11 @@ De gauche à droite, ces onglets correspondent à :
 
 ### Library (Bibliothèque)
 
-Dans la section des propriétés, Library se divise en quatre onglets, comme illustré ci-dessous :
+Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
 
-De gauche à droite, ces onglets correspondent à :
+From left-to-right, these tabs are:
 
-![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
+![Library (Bibliothèque)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **File templates (modèles de fichiers)** : ces modèles s'appliquent aux types de fichiers courants figurant dans la liste du menu "New File".
 
@@ -83,11 +79,11 @@ De gauche à droite, ces onglets correspondent à :
 
 ## Debug Area (Zone de débogage)
 
-Cette zone affiche le résultat et l’état de différentes variables lors de l’exécution de votre application.
+This area displays the output and the state of various variables when running your app.
 
 ## Navigation Area (Zone de navigation)
 
-Plusieurs onglets sont inclus ici, notamment :
+Several tabs are included here, the most important of which are:
 
 * **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires au bon fonctionnement de votre application.
 
@@ -102,8 +98,8 @@ Plusieurs onglets sont inclus ici, notamment :
     * Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application. 
     * Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application. 
 
-Vous pouvez cliquer sur les erreurs et les alertes pour les visualiser dans le projet.
+You can click on errors and warnings to visualize them in the project.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Nous allons ensuite nous pencher sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".
+Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
