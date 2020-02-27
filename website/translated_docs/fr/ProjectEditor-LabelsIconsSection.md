@@ -33,20 +33,18 @@ Vous pouvez définir les propriétés de champs suivantes :
 * **Icônes**
 * **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
-Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips"> 
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.
 
-**CONSEILS**
+:::tip TIPS * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
-
-* Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.</div> 
+* You can also leave the icon area empty if you don’t want to display icons in your application. :::
 
 ## Propriétés des liens
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-Vous pouvez définir les propriétés de liens suivantes :
+For Relation, you will be able to define the following properties:
 
-* **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
-* **Icônes :** s'affiche à gauche du bouton Liens
-* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre
+* **Short and Long labels:** displayed in the Relation button that allows to open a related table
+* **Icons:** displayed at the left of the Relation button
+* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
