@@ -21,13 +21,9 @@ Pour sécuriser l'accès au serveur de production, un **fichier key. mobileapp**
 
 Si vous choisissez d’obtenir des données à partir de votre serveur de production, l'**URL de production** doit être saisi dans la **section Publication**.
 
-Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.<div class = "tips"> 
+Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.
 
-**NOTE**
-
-* Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
-* Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
-* Pour accéder aux données du serveur de production, un fichier key.mobileapp est requis pour sécuriser les échanges.</div> 
+:::tip NOTE * Tips are available to help you ensure the server works correctly. * You can directly access the Publishing panel to define your production URL. * To access production server data, a key file is required for secure communications. :::
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
@@ -35,13 +31,13 @@ When the **Do not regenerate data at each build** and the **Do not include imgag
 
 ## Propriétés
 
-![Data section](assets/fr/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
+In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
 
 ### Les filtres de recherche
 
-Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
+You can define filters per table which depend on field values:
 
 * Tout d’abord, effectuez votre recherche dans le champ consacré en la saisissant directement dans le champ de recherche". Vous pouvez également affiner votre recherche à l'aide des onglets Champs, Comparateurs et Opérateurs, situés juste au-dessus du filtre de recherche (qui apparaissent à la suite d'un clic dans le champ Filtre de recherche). 
 
@@ -49,19 +45,17 @@ Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
 * Enfin, cochez l'option **Intégrer les données dans l'application** pour intégrer les données dans l’application lors de sa génération. Laissez cette case non cochée si vous ne souhaitez pas intégrer les données.
 
-Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre indiqué est issu d'un filtre de recherche défini.<div class = "tips"> 
+When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.
 
-**EXEMPLE**
-
-Dans le champ **Filtre de recherche**, entrez :
+:::tip EXAMPLE In the **Filter query** field enter:
 
     FirstName = 'Lisa' & LastName = 'Hart'
 
-Cette recherche vous permet d'afficher uniquement les enregistrements où figurent respectivement "Lisa" et "Hart" dans les champs FirstName et LastName.</div> 
+This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName. :::
 
 ### Les filtres d'informations utilisateur
 
-Vous pouvez créer des filtres en fonction des informations utilisateur définies dans la méthode base Sur authentification app mobile :
+You can define filters depending on user information which you define in the Mobile App Authentication method:
 
 * Comme pour les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 
@@ -71,20 +65,16 @@ Vous pouvez créer des filtres en fonction des informations utilisateur définie
 
 * Une fois que votre filtre de recherche est validé, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu des informations utilisateur.<div class = "tips"> 
+When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
 
-**EXEMPLE**
-
-Dans le champ **Filtre de recherche**, entrez :
+:::tip EXAMPLE In the **Filter query** field enter:
 
 CityName = :city
 
-Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
+In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
 
     $response.userInfo:=New object("city";"Paris")
 
-Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris »</div> <div class = "tips"> 
+This query allows you to display only the records which include "Paris" as CityName. :::
 
-**NOTE**
-
-Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+:::tip NOTE You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html). :::
