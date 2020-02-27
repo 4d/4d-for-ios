@@ -3,11 +3,9 @@ id: one-to-many-relations
 title: One to Many relations
 ---
 
-This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips"> 
+This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.
 
-**NOTA**
-
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier. :::
 
 Vamos começar baixando o Projeto Starter:
 
@@ -41,7 +39,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**DICAS**
+**TIPS**
 
 * On mouse over, a tip displays the table name originating the relation.</div> 
 
@@ -65,7 +63,7 @@ So, in the Labels & Icons section you will define:
 
 ![Related field in Forms section](assets/en/relations/1-to-n-relations-forms-section.png)
 
-## Build and Run
+## Criar e executar
 
 1. From the Employee List form, click on one employee 
 2. This will open the employee's detail form, where you should see a new **Relation button** !
