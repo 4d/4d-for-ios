@@ -35,6 +35,8 @@ Add the title for your template here.
 
 ## Areas position, height and width and type
 
+:::tip NOTE All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+
 You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Duplicated field properties
@@ -121,14 +123,8 @@ You can define position, height, and width for all of your fields like we did fo
 5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
 6. Define a cancel button that will be displayed to delete the current content
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips"> 
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
-**注記**
+:::tip TIP * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
 
-All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
-
-**ヒント**
-
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
-
-* To include all types, just type ```ios:type="all"```.</div>
+* To include all types, just type ```ios:type="all"```. :::
