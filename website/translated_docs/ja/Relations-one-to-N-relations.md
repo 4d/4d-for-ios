@@ -3,13 +3,11 @@ id: one-to-many-relations
 title: One to Many relations
 ---
 
-This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips"> 
+This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.
 
-**注記**
+:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。 :::
 
-このレッスンでは，テーブル同士をリンクするリレーションの名前を使用します。 ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。</div> 
-
-素材ロジェクトをダウンロードして始めてみましょう。
+素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -59,7 +57,7 @@ So, in the Labels & Icons section you will define:
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-## Forms section
+## フォームセクション
 
 * Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
 
