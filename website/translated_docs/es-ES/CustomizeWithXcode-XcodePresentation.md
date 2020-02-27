@@ -3,13 +3,9 @@ id: xcode-overview
 title: Presentación de Xcode
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Ensure a basic understanding of working with Xcode. :::
 
-**OBJETIVOS**
-
-Garantizar una comprensión básica del funcionamiento de Xcode.</div> 
-
-Xcode muestra las diferentes áreas que vamos a revisar:
+Xcode displays various areas that we're going to review:
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
@@ -17,7 +13,7 @@ Xcode muestra las diferentes áreas que vamos a revisar:
 
 * Los botones **Run** y **Stop** se ubican a la izquierda de la barra de herramientas. El botón **Run** permite crear, ejecutar y lanzar su aplicación en el simulador iOS seleccionado.
 
-![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Crear y ejecutar](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * El menú desplegable junto al botón **Stop** indica los elementos que desea ejecutar y qué simulador se está utilizando.
 
@@ -29,29 +25,29 @@ Xcode muestra las diferentes áreas que vamos a revisar:
 
 ## Editor Area (Área de edición)
 
-![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Editor Area (Área de edición)](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-Aquí es donde ocurre la codificación cuando se selecciona un archivo Swift. Cuando se selecciona un archivo Storyboard, la vista cambia y aparece el Interface Builder.
+This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
 
 ## Área "Interface Builder"
 
-![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Área "Interface Builder"](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-Esta es una interfaz gráfica que le permite crear un archivo Storyboard o XIB. Todas tus escenas son accesibles en el lado izquierdo.
+This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
 
 ## Utility Area (Área de funcionalidades)
 
-El área de funcionalidades de Xcode tiene dos paneles: el panel Inspector y el panel Library (biblioteca).
+The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
 
-![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Utility Area (Área de funcionalidades)](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Panel Inspector
 
-Dentro de la sección Propiedades, hay seis diferentes pestañas del Inspector, como se muestra en la siguiente ilustración:
+Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
 
-![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
+![Panel Inspector](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-De izquierda a derecha, estas pestañas son:
+From left-to-right, these tabs are:
 
 * **File inspector (inspector de archivo)**: para ver y administrar los metadatos de un archivo, tales como el nombre, el tipo y la ruta del de archivo.
 
@@ -67,11 +63,11 @@ De izquierda a derecha, estas pestañas son:
 
 ### Library (Biblioteca)
 
-Dentro de la sección Propiedades, Library tiene cuatro diferentes pestañas, como se muestra en la siguiente ilustración:
+Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
 
-De izquierda a derecha, estas pestañas son:
+From left-to-right, these tabs are:
 
-![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
+![Library (Biblioteca)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **File templates (plantillas de archivos)**: estas plantillas son para los tipos de archivos comunes que aparecen como opciones en el menú New File".
 
@@ -83,11 +79,11 @@ De izquierda a derecha, estas pestañas son:
 
 ## Debug Area (Área de depuración)
 
-Esta área muestra el resultado y el estado de diferentes variables cuando se ejecuta su aplicación.
+This area displays the output and the state of various variables when running your app.
 
 ## Área de navegación
 
-Varias pestañas se incluyen aquí, las más importantes son:
+Several tabs are included here, the most important of which are:
 
 * **Pestaña "Navigation"**: listas y da acceso a todos los archivos necesarios para que su aplicación funcione correctamente.
 
@@ -102,8 +98,8 @@ Varias pestañas se incluyen aquí, las más importantes son:
     * Los errores en rojo corresponden a problemas críticos que deben ser corregidos para poder generar su aplicación. 
     * Los errores en amarillo son alertas que tienen el potencial de causar problemas, pero que no bloquean la generación de la aplicación. 
 
-Puede hacer clic en los errores y las alertas para visualizarlas en el proyecto.
+You can click on errors and warnings to visualize them in the project.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-A continuación, vamos a concentrarnos en los archivos incluidos en su aplicación 4D for iOS de la pestaña "Project navigation".
+Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
