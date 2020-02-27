@@ -35,7 +35,9 @@ Ajoutez ici le titre de votre modèle.
 
 ## Position, hauteur, largeur et type de la zone
 
-Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
+:::tip NOTE All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+
+You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Propriétés de champs dupliqués
 
@@ -121,14 +123,8 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !<div class = "tips"> 
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
-**NOTE**
+:::tip TIP * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
-Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
-
-**CONSEILS**
-
-* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
-
-* Pour inclure tous les types de champs, il suffit de taper ```ios:type="all"```.</div>
+* To include all types, just type ```ios:type="all"```. :::
