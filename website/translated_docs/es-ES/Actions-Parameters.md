@@ -3,10 +3,7 @@ id: action-parameters
 title: Utilizar parámetros de acción
 ---
 
-<div class = "objectives">
-**OBJETIVOS**
-Definir parámetros de acción para editar el contenido de su aplicación.</div>
-
+:::OBJETIVOS tip Definir parámetros de acción para editar el contenido de su aplicación. :::
 
 En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
 
@@ -83,7 +80,7 @@ El proceso de creación de la acción predefinido **Eliminar** es casi el mismo 
 
 En este punto, verá una **nueva acción** llamada *"deleteTasks"* con *"Remove"* como la etiqueta predeterminada.
 
-![Delete action](assets/en/actions/Delete-action-final.png)
+![Acción de eliminación](assets/en/actions/Delete-action-final.png)
 
 No necesita preocuparse por los parámetros o propiedades de este tipo de acción.
 
@@ -403,7 +400,7 @@ Y finalmente puede eliminar una entidad utilizando la acción **Eliminar... **.
 
 ## PASO 8. ¿Qué hacemos ahora?
 
-¡Felicitaciones! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
+¡Felicidades! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
