@@ -3,18 +3,16 @@ id: one-to-many-relations-actions
 title: Liens 1 vers N - Actions
 ---
 
-<div class = "objectives">
-**OBJECTIFS**
-Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.</div>
+:::tip OBJECTIVES We are now going to go a little bit further and **create a task for a specific employee**. :::
 
-Il est très facile de créer une entité avec une **Entité parente** !
+It is very easy to create an entity using **parent Entity** !
 
 Commençons par télécharger le Projet Starter :
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROJET STARTER - 1 VERS N & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
 
@@ -29,7 +27,7 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
 
 ## Sur une action app mobile
 
-Il vous suffit de définir l'action **addProject** dans la **méthode Sur une action app mobile** comme suit :
+The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
 ```4d
 : ($request.action="addProjects")
@@ -48,7 +46,7 @@ $result:=addProject ($o)
 ## Méthode addProject
 
 
-Puis saisissez ces lignes de code dans votre **Méthode addProject** :
+Then enter thoses lines in your **addProject Method**:
 
 ```4d
 C_OBJECT($0)
@@ -97,11 +95,11 @@ $0:=$out
 
 ```
 
-Et voilà ! Vous pouvez ajouter facilement quelques tâches à vos employés à l'aide de l'entité parente !
+And that's it you can then add some task to your employees easily using the parent Entity !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROJET FINAL - 1 VERS N & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
