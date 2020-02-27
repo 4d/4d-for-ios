@@ -15,13 +15,9 @@ C’est ici que vous pourrez définir ou créer votre application :
 
 Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
 
-L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.<div class = "tips"> 
+L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
 
-**NOTE**
-
-* Le simulateur fonctionne localement (127.0.0.1 ou localhost).
-* Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
-* Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.</div> 
+:::tip NOTE * The Simulator works locally (127.0.0.1 or localhost). * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used. * If both HTTP and HTTPS are activated, HTTP is used. :::
 
 ## Authentification
 
@@ -36,17 +32,17 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 * **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
 * **Déploiement** : vous devez créer/modifier la méthode base de données [*Sur authentification app mobile *](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
-Un modèle permet d'obtenir toutes les informations nécessaires sur la session et les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.).
+A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
-Vous pouvez personnaliser cette méthode selon vos besoins !
+You can customize this method according to your needs!
 
 ### Gestion de la session
 
-Lorsqu'un utilisateur ouvre l'application pour la première fois, un fichier session est créé et stocké avec le fichier de données courant dans le dossier MobileApps.
+When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.
 
-Les fichiers de session sont organisés et groupés par dossier d'application. Les Team ID et Bundle ID de l'application sont concaténés pour créer des noms de dossiers d'application.
+The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
 
-Voici un exemple de fichier de session généré par 4D for iOS :
+Here is an example of a 4D for iOS-generated session file:
 
 ```json
 {
@@ -81,18 +77,18 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
-Si vous souhaitez valider manuellement la première connexion pour chaque session utilisateur, vous devez remplacer le statut par défaut « accepted » par « pending » en ajoutant ```$response.verify:=True``` dans la méthode base[ *Sur authentification app mobile*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
 
 ### Composant Mobile Session Management
 
-Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT** :
+Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 
   </p>
 </div>
@@ -115,9 +111,9 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant M
 
 ## Aperçu sur l'appareil
 
-Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
-Les paramètres vous permettent :
+Settings allows you to:
 
 * de recharger des données
 * de définir votre URL de serveur
