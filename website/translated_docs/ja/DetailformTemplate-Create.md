@@ -3,15 +3,9 @@ id: creating-detailform-templates
 title: Detail form templates
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Create your first list form template. :::
 
-**目的**
-
-Create your first list form template.</div> <div class = "prerequisites"> 
-
-**必要条件**
-
-始めるために揃えておくべきものは[こちら](prerequisites.html)でチェックすることができます。</div> 
+:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
@@ -46,7 +40,7 @@ Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... 
 
 Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
 
-![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
+![フォームセクション](assets/en/custom-detailform/custom-detailform-template.png)
 
 Now let's focus on the **Custom Detail form** folder content.
 
