@@ -3,19 +3,13 @@ id: register-apple-developer-program-organization
 title: Apple Developer Program para as empresas
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Register for the Apple Developer Program as an organization to publish your app to the **App Store**. :::
 
-**OBJETIVOS**
-
-Regístre-se no Apple Developer Program como empresa para publicar sua aplicação na **App Store**.</div> <div class = "tips"> 
-
-**NOTA**
-
-Para se inscrever no Programa Apple Developer Program como organização, sua identificação de Apple deve estar associada a uma direção de correio eletrônico com o nome de domínio de sua empresa.</div> 
+:::important PREREQUISITES To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name. :::
 
 ## PASSO 1. Identificador Apple
 
-Se ainda não tiver uma Apple ID vá para [Passo 2](#step-2-create-your-apple-id).
+If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 
 Se já tiver uma Apple ID, vá para [Passo 3](#step-3-d-u-n-s-number).
 
@@ -23,7 +17,7 @@ Se já tiver uma Apple ID, vá para [Passo 3](#step-3-d-u-n-s-number).
 
 Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Crie sua Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Complete o formulário e perguntas de segurança.
 * Vai receber um código de verificação por email.
@@ -40,7 +34,7 @@ Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
 ## PASSO 4. Solicite um número D-U-N-S
 
-Solicite um número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-lookup/#/search)
+Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
 
 ![Solicite um número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
@@ -93,4 +87,4 @@ Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs
 
 * Quando completar sua compra, vai receber um email configurando sua inscrição no programa.
 
-Parabéns Já está pronto para publicar aplicações à App Store!
+Parabéns! You are now ready to publish applications to the App Store!
