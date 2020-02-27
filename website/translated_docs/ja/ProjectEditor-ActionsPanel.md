@@ -266,13 +266,13 @@ For Edit and Add actions you are free to modify the:
 
 The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
+After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
-**注記**
+:::tip NOTE
 
 * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
-* You can also decide to force close the Edition form using ```$out.close:=True```.</div> 
+* You can also decide to force close the Edition form using ```$out.close:=True```. :::
 
 ## iOS app Side
 
@@ -286,11 +286,9 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 * **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
 
-![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
+![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-**TIPS**
-
-Actions will be displayed in the same order as defined in the Action section.</div> 
+:::tip TIPS Actions will be displayed in the same order as defined in the Action section. :::
 
 ### Collection List forms
 
