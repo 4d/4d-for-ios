@@ -3,19 +3,19 @@ id: contact-app
 title: Contact App
 ---
 
-:::tip OBJECTIVES Create your first app with 4D for iOS :::
+:::OBJETIVOS tip Crear su primera aplicación con 4D for iOS :::
 
 :::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
 
-This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
+Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.
 
-*Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
+*Escenario: usted es un director comercial y desea consultar su lista de contactos cuando no esté en su oficina.*
 
-We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact".
+Vamos a crear una aplicación de directorio para iPhone para buscar los nombres de los contactos de una lista y luego ver los detalles de cada contacto. La llamamos "Contacto".
 
 ## PASO 1. Comencemos
 
-Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
+Descargue nuestro proyecto Starter, que contiene un archivo de base de datos y el icono de proyecto, pero no todavía el proyecto móvil.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -29,7 +29,7 @@ href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd
 
 ## PASO 2. Creación del proyecto
 
-Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
+Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D, ir a **Nuevo > Proyecto móvil**.
 
 De un nombre a su proyecto y haga clic en **Crear**.
 
