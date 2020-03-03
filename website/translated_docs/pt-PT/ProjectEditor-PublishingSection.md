@@ -113,10 +113,10 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Componente 
 
 Uma tela Settings está disponível na barra de abas. Também pode encontrá-la na aba More se necessário (*ou seja.*, seu app tem mais de quatro tabelas).
 
-Settings allows you to:
+Settings permite:
 
-* Reload data
-* Define your server URL
-* Log out (if connected as an Authorized User)
+* Recarregar dados
+* Definir seu servidor URL
+* Fechar a sessão (se estiver conectado como usuário autorizado)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
