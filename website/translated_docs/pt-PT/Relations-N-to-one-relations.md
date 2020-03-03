@@ -1,9 +1,9 @@
 ---
 id: many-to-one-relations
-title: Many to One relations
+title: Relações Muitos para Um
 ---
 
-4D v17 R5 includes a new concept: Many to One relations
+4D v17 R5 inclui um novo conceito: as relações Muitos para Um (N a 1)
 
 :::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier. :::
 
