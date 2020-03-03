@@ -157,7 +157,7 @@
         "title": "Estrutura"
       },
       "many-to-one-relations": {
-        "title": "Many to One relations"
+        "title": "Relações Muitos para Um"
       },
       "one-to-many-relations-actions": {
         "title": "One to Many - Actions"
@@ -356,7 +356,7 @@
         "title": "Estrutura"
       },
       "version-18.0/version-18.0-many-to-one-relations": {
-        "title": "Many to One relations"
+        "title": "Relações Muitos para Um"
       },
       "version-18.0/version-18.0-one-to-many-relations-actions": {
         "title": "One to Many - Actions"
