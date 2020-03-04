@@ -5,7 +5,7 @@ title: Nouveau projet
 
 :::tip OBJECTIVES Get familiar with the Project Editor. :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
 
 Let's take a look at how 4D for iOS works.
 
