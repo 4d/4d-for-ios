@@ -3,15 +3,15 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-:::tip OBJECTIVES Add actions to custom List and Detail forms templates. :::
+:::tip OBJECTIF Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés. :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
 
-In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
+Dans ce tutoriel, nous verrons qu'il est très simple d'**ajouter des actions aux modèles personnalisés**.
 
 ## ÉTAPE 1. Télécharger le projet Starter
 
-To begin, download the Starter Project, which includes:
+Pour commencer, téléchargez le Projet Starter, qui comprend :
 
 * 2 modèles de formulaires Liste personnalisés (TasksList et TasksCollection)
 * 1 modèle de formulaire détaillé personnalisé (TasksDetail)
@@ -29,7 +29,7 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 
 ## ÉTAPE 2. Ajouter des formats personnalisés au projet 4D for iOS
 
-First, drop:
+Tout d'abord, déposez :
 
 * les dossiers des modèles **TasksList** et **TasksCollection** dans le dossier *Tasks.4dbase/Resources/Mobile/form/list* 
 
@@ -41,15 +41,15 @@ First, drop:
 
 ## ÉTAPE 3. Ajouter des actions dans les formulaires Liste
 
-As we have seen previously in the [actions section description](actions.html), two types of actions are availble (Table actions and Entity actions).
+Comme nous l'avons vu dans la [description de la section Actions](actions.html), deux types d'actions sont disponibles (actions de table et actions d'entité).
 
-Let's first open the ```list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` file.
+Ouvrons, dans un premier temps, le fichier ```list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` 
 
 ### Ajouter des actions au modèle personnalisé TasksList
 
 #### A. Ajouter un Tag d'action de table
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Sélectionnez le **List form Controller** et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
 * Key Path : ```actions```
 * Type : ```String```
@@ -59,7 +59,7 @@ Select the **List form Controller** and add this line in the **User Defined Runt
 
 #### B. Ajouter un Tag d'action d'entité
 
-Select the Animatable Table View and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Sélectionnez la vue Animatable Table et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
 * Key Path : ```actions```
 * Type : ```String```
@@ -67,23 +67,23 @@ Select the Animatable Table View and add this line in the **User Defined Runtime
 
 ![Add entity action tag](assets/en/actions/Add-entity-tag-taskslist.png)
 
-Your custom template is ready to display actions!
+Votre modèle personnalisé est prêt à afficher les actions !
 
-You can select the TaskList custom template from the **Forms section** and add the following fields:
+Vous pouvez sélectionner le modèle personnalisé TasksList depuis la **section Formulaires** et ajouter les champs suivants :
 
 ![Taskslist Forms section](assets/en/actions/listform-taskslist-forms-section.png)
 
-Now let's add action tags to the TasksCollection custom template
+Ajoutons maintenant les tags d'actions au modèle personnalisé TasksCollection
 
 ### Ajouter des actions au modèle personnalisé TasksCollection
 
-To do so, open the ```list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` file.
+Pour ce faire, ouvrez le fichier ```list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` 
 
 #### A. Ajouter un Tag d'action de table
 
-The process is quite as similar as TasksList custom template's process.
+Le processus est quasiment identique à celui du modèle personnalisé TasksList.
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Sélectionnez le **List form Controller** et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
 * Key Path : ```actions```
 * Type : ```String```
@@ -127,7 +127,7 @@ For generic button embedded in the navigation bar, select the Controller and add
 
 ![Add detailform entity action tag](assets/en/actions/Detail-form-action-navigationBar.png)
 
-In our tutorial, we want to build our own generic button. For that, open the ```detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard``` file.
+In our tutorial, we want to build our own generic button. For that, open the ```detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard``` 
 
 Open it, select the button at bottom right and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
