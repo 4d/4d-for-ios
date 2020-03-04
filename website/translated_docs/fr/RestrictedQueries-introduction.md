@@ -5,7 +5,7 @@ title: Requêtes limitées
 
 :::tip OBJECTIVES Defining basic and user information-based query filters to display filtered content in the generated iOS app. :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
 
 Click [here](prerequisites.html) to see what you'll need to get started!
 
