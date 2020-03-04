@@ -87,6 +87,12 @@
       "faq": {
         "title": "FAQ"
       },
+      "gallery-template-install": {
+        "title": "Install a template"
+      },
+      "gallery-template-update": {
+        "title": "Update a template"
+      },
       "overview": {
         "title": "Overview"
       },
@@ -422,6 +428,7 @@
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List forms": "Creating List forms",
       "Creating Detail forms": "Creating Detail forms",
+      "Gallery": "Gallery",
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Multi-criteria search": "Multi-criteria search",
