@@ -7,7 +7,7 @@ title: Créer le format de données
 
 :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
