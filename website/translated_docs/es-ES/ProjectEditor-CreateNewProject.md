@@ -3,35 +3,29 @@ id: create-new-project
 title: Nuevo proyecto
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Get familiar with the Project Editor. :::
 
-**OBJETIVOS**
+:::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
 
-Familiarizarse con el editor de proyectos.</div> <div class = "prerequisites"> 
+Let's take a look at how 4D for iOS works.
 
-**PRERREQUISITOS**
-
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
-
-Demos un vistazo a cómo funciona 4D for iOS.
-
-Inicie su aplicación 4D, abra su base y vaya a **Nuevo> Proyecto móvil**.
+Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
 De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-La pantalla de bienvenida se muestra automáticamente para ayudarlo a comprender los conceptos básicos de 4D for iOS. Puede marcar la opción **No volver a mostrar** y este diálogo ya no se mostrará. Haga clic en **Continuar**.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Haga clic en **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-¡Aquí estamos! Ahora es el momento de descubrir la arquitectura y la interfaz de 4D for iOS.
+Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 
-La ventana principal consta de dos pestañas:
+The main window consists of two tabs:
 
 ## Secciones
 
-En la pestaña Secciones, encontrará todos los pasos necesarios para crear su aplicación 4D for iOS:
+In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
 * General
 * Structure
@@ -44,7 +38,7 @@ En la pestaña Secciones, encontrará todos los pasos necesarios para crear su a
 
 ## Generación
 
-La pestaña Generación tiene cuatro opciones:
+The Build tab has four options:
 
 * Crear y ejecutar 
 * Selección del simulador

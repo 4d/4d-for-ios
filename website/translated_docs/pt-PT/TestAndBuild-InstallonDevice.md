@@ -3,20 +3,9 @@ id: install-device
 title: Installing on your iOS device
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Install a 4D for iOS application on a connected device :::
 
-**OBJETIVOS**
-
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
-
-**PRÉ-REQUISITOS**
-
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
-
-**NOTE**
-
-Apple configurator 2 requires **macOS 10.14** or later.</div> 
+:::important PREREQUISITES * Apple Developer Program. * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (Apple configurator 2 requires macOS 10.14 or later). :::
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
 
@@ -32,11 +21,11 @@ Let's go through the process...
 
 * **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
 
-## PASSO 2. Xcode configuration
+## PASSO 2. Configuração Xcode
 
 * **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
-## PASSO 3. Get your Team ID
+## PASSO 3. Obtenha uma ID de Time
 
 * If your are using a [Free Apple Developer Program](free-developer-account.html) go to [step 4](#step-4-team-id-for-free-account).
 * If your are using an [Apple Developer Program for organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to [step 5](#step-5-team-id-for-paid-subscription-account).
@@ -63,7 +52,7 @@ Let's go through the process...
 
 * Press the Build and run Button from Xcode !
 
-![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
+![Criar e executar](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## PASSO 5. Team ID for paid subscription account
 

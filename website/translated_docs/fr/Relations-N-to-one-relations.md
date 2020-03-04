@@ -3,11 +3,9 @@ id: many-to-one-relations
 title: Many to One relations
 ---
 
-4D v17 R5 lance un nouveau concept : les liens N vers 1<div class = "tips"> 
+4D v17 R5 lance un nouveau concept : les liens N vers 1
 
-**NOTE**
-
-Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div> 
+:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet. :::
 
 Commençons par télécharger le Projet Starter :
 
@@ -16,12 +14,12 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N VERS UN</a>
+href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
 
   </p>
 </div>
 
-Nous souhaitons afficher ici la catégorie de chaque tâche dans le formulaire détaillé de votre application. Pour ce faire, ouvrez le **StarteriOSProject** à partir de **Ouvrir > Projet mobile...**
+Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
 
 Accédez directement à la section Structure, puis sélectionnez la **table Tasks**.
 

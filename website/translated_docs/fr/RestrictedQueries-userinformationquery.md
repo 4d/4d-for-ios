@@ -17,23 +17,20 @@ Nous allons filtrer maintenant le contenu de notre application en fonction de l'
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-La recherche permettra de filtrer les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce au lien *N vers 1* qui figure dans le nom du chargé de clientèle).<div class = "tips"> 
+La recherche permettra de filtrer les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce au lien *N vers 1* qui figure dans le nom du chargé de clientèle).
 
-**NOTE**
+:::tip NOTE * A **user icon** is displayed on the right of each table when a user information filter is applied to it. * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
 
-* Une **icône utilisateur** s’affiche à droite de chaque table lorsqu’un filtre d'informations utilisateur y est appliqué.
-* Dès qu’une recherche est basée sur les informations utilisateur et qu'elle est validée, vous devez modifier la **méthode d'authentification de l'application mobile**. Pour ce faire, faites un clic droit sur le bouton **Edit authentication method** pour ouvrir la fenêtre d’édition de la méthode de base de données.</div> 
-
-Ajoutez la ligne suivante dans la méthode de base de données :
+Add the following line in the database method:
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
-Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.
+This will allow retrieving the manager's login email address and displaying data depending on that criteria.
 
-![User information query](assets/en/restricted-queries/database-method-user-information-query.png)
+![Filtre de recherche utilisateur](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Ainsi, si vous générez votre application et que vous entrez « michelle.simpson@mail.com » en tant qu'e-mail de connexion, vous trouverez tous les contrats *"In progress"* de Michelle Simpson.
+Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)

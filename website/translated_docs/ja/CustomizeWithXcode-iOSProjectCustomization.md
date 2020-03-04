@@ -69,13 +69,11 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 At this point, all the profile picture constraints should be blue.
 
-Congratulations! Your profile picture is now well positioned with the correct constraints.<div class = "tips"> 
+Congratulations! Your profile picture is now well positioned with the correct constraints.
 
-**TIPS**
+:::tip TIPS * To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
 
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
-
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder. :::
 
 ## ステップ 4 - Update label positions and constraints
 

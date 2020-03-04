@@ -3,14 +3,11 @@ id: custom-detailform-templates
 title: 詳細画面のテンプレート
 ---
 
+:::important BEFORE STARTING
 
-<div class = "tips"> 
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-**はじめに**
-
-1. カスタム詳細画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/detail` フォルダーを作成してください。
-
-2. カスタム詳細画面テンプレートは，このフォルダーの中にインストールします。</div> 
+2. カスタムリスト画面テンプレートは，このフォルダーの中にインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -31,7 +28,7 @@ title: 詳細画面のテンプレート
             <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>アクション:</strong> 対応
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>ピクチャフィールド:</strong> 不要
@@ -57,10 +54,10 @@ title: 詳細画面のテンプレート
             <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>アクション:</strong> 対応
+            <strong>Actions:</strong> included
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>ピクチャフィールド:</strong> 不要
           </li>
         </ul>
         
@@ -93,13 +90,13 @@ title: 詳細画面のテンプレート
               <strong>Actions:</strong> included
             </li>
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
           </ul>
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TasksDetail/releases/latest/download/form-detail-TasksDetail.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TasksDetail/releases/latest/download/form-detail-TasksDetail.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -125,7 +122,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-ParallaxDetail/releases/latest/download/form-detail-ParallaxDetail.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-ParallaxDetail/releases/latest/download/form-detail-ParallaxDetail.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -147,7 +144,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -156,7 +153,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleList/releases/latest/download/form-detail-SimpleList.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleList/releases/latest/download/form-detail-SimpleList.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -170,7 +167,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -179,7 +176,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Cards/releases/latest/download/form-detail-Cards.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Cards/releases/latest/download/form-detail-Cards.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -201,7 +198,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -210,7 +207,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleHeader/releases/latest/download/form-detail-SimpleHeader.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleHeader/releases/latest/download/form-detail-SimpleHeader.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -224,7 +221,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -233,7 +230,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SlidingHeader/releases/latest/download/form-detail-SlidingHeader.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SlidingHeader/releases/latest/download/form-detail-SlidingHeader.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -255,7 +252,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -264,7 +261,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Tasks/releases/latest/download/form-detail-Tasks.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Tasks/releases/latest/download/form-detail-Tasks.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -278,7 +275,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -287,7 +284,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TasksPlus/releases/latest/download/form-detail-TasksPlus.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TasksPlus/releases/latest/download/form-detail-TasksPlus.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -309,7 +306,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -318,7 +315,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Numbers/releases/latest/download/form-detail-Numbers.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Numbers/releases/latest/download/form-detail-Numbers.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -332,7 +329,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -341,7 +338,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Circle/releases/latest/download/form-detail-Circle.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Circle/releases/latest/download/form-detail-Circle.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -363,7 +360,7 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -372,7 +369,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TripleCircle/releases/latest/download/form-detail-TripleCircle.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-TripleCircle/releases/latest/download/form-detail-TripleCircle.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -395,7 +392,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Dashboard/releases/latest/download/form-detail-Dashboard.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-Dashboard/releases/latest/download/form-detail-Dashboard.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -426,7 +423,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleContact/releases/latest/download/form-detail-SimpleContact.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-SimpleContact/releases/latest/download/form-detail-SimpleContact.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -449,7 +446,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-VisualContact/releases/latest/download/form-detail-VisualContact.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-VisualContact/releases/latest/download/form-detail-VisualContact.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -480,7 +477,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-LeftCutHeader/releases/latest/download/form-detail-LeftCutHeader.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-LeftCutHeader/releases/latest/download/form-detail-LeftCutHeader.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -503,7 +500,7 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-ParallaxHeader/releases/latest/download/form-detail-ParallaxHeader.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-ParallaxHeader/releases/latest/download/form-detail-ParallaxHeader.zip">ダウンロード</a>
             </p>
           </div>
         </td>
@@ -534,16 +531,12 @@ title: 詳細画面のテンプレート
           
           <div style="text-align: center; margin-top: 40px;">
             <p>
-              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-RightCutHeader/releases/latest/download/form-detail-RightCutHeader.zip">DOWNLOAD</a>
+              <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-RightCutHeader/releases/latest/download/form-detail-RightCutHeader.zip">ダウンロード</a>
             </p>
           </div>
         </td>
-      </tr></table> </div> <div class = "tips"> 
+      </tr></table> </div> 
       
       <p>
-        <strong>More</strong>
+        :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
       </p>
-      
-      <p>
-        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
-      </p></div>

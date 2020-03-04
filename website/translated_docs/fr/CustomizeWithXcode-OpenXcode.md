@@ -3,20 +3,13 @@ id: open-xcode
 title: Travailler avec Xcode
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES * Open a 4D for iOS project from the Project Editor. * Customize the generated 4D for iOS app. :::
 
-**OBJECTIFS**
+4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!
 
-* Ouvrir un projet 4D for iOS depuis l’éditeur de projet.
-* Personnaliser l’application 4D for iOS qui est générée.</div> 
+:::caution CAUTION If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost! :::
 
-4D for iOS vous génère une application iOS native modifiable et personnalisable avec Xcode. Jetons un œil au processus !<div class = "tips"> 
-
-**NOTE**
-
-Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !</div> 
-
-Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Pensez à télécharger le projet Starter !
+We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -40,7 +33,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
 * Cliquez sur le bouton **Créer & exécuter**.
 
-![Build and Run](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
+![Créer & exécuter](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
 ## ÉTAPE 3. Ouvrez votre projet avec Xcode
 
@@ -48,6 +41,6 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 
 * Cliquez sur Projet > Ouvrir le produit avec Xcode
 
-![Open your Project with Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![Ouvrez votre projet avec Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-Vous êtes maintenant prêts à travailler sur votre projet 4D for iOS dans Xcode. Poursuivez la lecture pour en savoir plus !
+Now you're ready to start working on your 4D for iOS project in Xcode, keep reading to learn how!

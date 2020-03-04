@@ -4,13 +4,11 @@ title: Data Formatters
 ---
 
 
-<div class = "tips"> 
-
-**BEFORE STARTING**
+:::important BEFORE STARTING
 
 1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
-2. Then drop the formatter folder into it.</div> 
+2. Then drop the formatter folder into it. :::
 
 <div style="height: auto;">
   <table>
@@ -279,4 +277,8 @@ title: Data Formatters
                                                                         <p>
                                                                           <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">DOWNLOAD</a>
                                                                         </p>
-                                                                      </div></td> </tr> </table> </div>
+                                                                      </div></td> </tr> </table> </div> 
+                                                                      
+                                                                      <p>
+                                                                        :::tip MORE You can find more formatters on <a href="https://4d-for-ios.github.io/gallery/#/type/formatter">github</a>. :::
+                                                                      </p>

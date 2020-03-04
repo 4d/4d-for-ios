@@ -3,50 +3,48 @@ id: labels-and-icons
 title: Labels & Icons
 ---
 
-This is where you'll define properties for your tables, fields and relations:
+Aqui é onde define as propriedades para suas tabelas, campos e relações:
 
-* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for business, finance, education, government, health, industry, real estate, services, etc.
+* **Etiquetas curtas e longas:** usadas de acordo com o espaço disponível no modelo (para otimizar espaço e evitar sobrecarregar a barra de abas).
+* **Icones:** 4D for iOS fornece uma grande biblioteca de ícones embebidos para encontrar suas necessidades. Isso inclui ícones para negócios, finanças, educação, governo, saúde, indústria, imóveis, serviços, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formatos:** usada para controlar como os valores dos campos estão disponíveis (moedas, porcentagens...)
 
-* **Title:** used to display a title in the destination view using relations
+* **Título:** usada para exibir um título na vista de destino usando relações
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
-## Tables properties
+## Propriedades de Tabela
 
 ![Labels & Icons section Tables properties](assets/en/project-editor/Tables-properties-Labels-icons-section-4D-for-iOS.png)
 
-For tables, you will be able to define the following properties:
+Para as tabelas, poderá definir as propriedades abaixo:
 
-* **Short and Long labels**
-* **Icons**
+* **Etiquetas curtas e longas**
+* **Ícones**
 
-## Fields properties
+## Propriedades de Campos
 
 ![Labels & Icons section Fields properties](assets/en/project-editor/Fields-properties-Labels-icons-section-4D-for-iOS.png)
 
-For fields, you will be able to define the following properties:
+Para os campos, poderá definir as propriedades abaixo:
 
-* **Short and Long labels:** used depending on space
-* **Icons**
-* **Formats:** for exemple to display currencies or percentage
+* **Etiquetas curtas e longas:** usadas dependendo do espaço
+* **Ícones**
+* **Formatos:** por exemplo para exibir moedas ou porcentagens
 
-Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
+Esses elementos serão mostrados em formulários detalhados e lista, dependendo no modelo no app gerado.
 
-**TIPS**
+:::tip DICAS * Para manter tudo consistente **ícones padrão** são gerados para campos em branco se ao menos um ícone for definido para um campo.
 
-* To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
+* Também pode deixar a área ícone vazia se não quiser exibir ícones em sua aplicação. :::
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
-
-## Relations properties
+## Propriedades das relações
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Para Relações, poderá definir as propriedades abaixo:
 
-* **Short and Long labels:** displayed in the Relation button that allows to open a related table
-* **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Etiquetas curtas e longas:** exibidas no botão Relação que permite abrir uma tabela relacionada
+* **Icones:** exibidos à esquerda do botão Relação
+* **Título:** será exibido no topo da vista destino quando usar a relação. Um [tutorial](one-to-many-relations-title-definition.html) está disponível para guiá-lo pelo processo de definição de Título

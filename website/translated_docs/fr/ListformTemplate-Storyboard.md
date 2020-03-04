@@ -101,19 +101,17 @@ Vous pouvez également sélectionner la couleur principale de votre application 
 
 Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans la fenêtre Inspector, **entrez la valeur 0 dans Lines**. Ainsi, le nombre de lignes peut être illimité.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-**NOTE**
+:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
-Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png) :::
 
 ## Comment entrer des données dans vos cellules
 
 ### Image View
 
-Sélectionnez votre "Image View", cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
+Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
@@ -127,7 +125,7 @@ Sélectionnez votre "Image View", cliquez sur **Identity inspector** et allez da
 
 ### Libellés
 
-Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
+Select the first label and add a row in the Defined Runtime Attributes:
 
 * **Key Path** : ```bindTo.record.___FIELD_2___```
 
@@ -137,7 +135,7 @@ Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Run
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
-Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
+Select the second label and add a row in the Defined Runtime Attributes:
 
 * **Key Path** : ```bindTo.record.___FIELD_3___```
 
@@ -147,24 +145,24 @@ Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined R
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
-Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
+You can change the **storyboard display labels** to have better visibility:
 
 * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
 * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
-Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer & exécuter.
+Go to your project editor, select your list form template from the Forms section, then select Build and Run.
 
-Voici le résultat du simulateur :
+Here is the simulator result :
 
 ![Simulator result](assets/en/custom-listform/simulator-result.png)
 
 ## Personnaliser l'application
 
-La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour améliorer la conception.
+The last step is adding a corner radius to the Image View to have a better design.
 
-Sélectionnez votre "Image View" et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
+Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
 * **Key Path** : ```cornerRadius```
 
@@ -188,14 +186,14 @@ Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 ## Que faire ensuite ?
 
-Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
+In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. Mais ce n'est pas fini ! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 
   </p>
 </div>

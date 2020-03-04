@@ -69,13 +69,11 @@ A continuación, haga clic en el botón **Add New Constraints** y añada una nue
 
 En este punto, todas las restricciones de la foto de perfil deben ser azules.
 
-¡Felicidades! Su foto de perfil está ahora bien ubicada con las restricciones correctas.<div class = "tips"> 
+¡Felicidades! Su foto de perfil está ahora bien ubicada con las restricciones correctas.
 
-**CONSEJOS**
+:::TIPS tip * Para crear una restricción entre dos vistas, presione Ctrl y arrastre una de las vistas a la otra. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones.
 
-* Para crear una restricción entre dos vistas, presione Ctrl y arrastre una de las vistas a la otra. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones.
-
-* Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder.</div> 
+* Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder. :::
 
 ## PASO 4. Actualizar la posición y las restricciones de etiquetas
 

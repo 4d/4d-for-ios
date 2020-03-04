@@ -71,21 +71,9 @@ Puede definir la posición, el alto y ancho para:
 5. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-El "searchable field" (campo de búsqueda) es opcional.<div class = "tips"> 
+El "searchable field" (campo de búsqueda) es opcional.
 
-**NOTA**
-
-Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
-
-<
-
-div markdown="1" class = "tips">
-
-**CONSEJO**
-
-Para facilitar la definición de los tipos de campos, 4D for iOS le permite incluir tipos de campo con ** valores positivos ** y también excluir los tipos de campo con ** valores negativos **. Por ejemplo, ```ios:type="-3,-4"``` le permitirá arrastrar y soltar todos los campos excepto las imágenes y las fechas.
-
-Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". </div>
+:::tip NOTE All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
 
 ### Área SectionField:
 
@@ -107,7 +95,7 @@ Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". <
 3. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 4. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
-El campo de sección es opcional.
+The section field is optional.
 
 ### Área ImageField:
 
@@ -188,4 +176,8 @@ El campo de sección es opcional.
 4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**,... ¡Pasemos a la parte divertida, con Xcode!
+:::tip TIP To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. Por ejemplo, ```ios:type="-3,-4"``` le permitirá arrastrar y soltar todos los campos excepto las imágenes y las fechas.
+
+To include all types, just type ios:type="all". :::
+
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!

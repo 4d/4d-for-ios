@@ -3,17 +3,13 @@ id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Create your first data formatters.
 
-**目的**
+:::
 
-最初のデータフォーマッターを作成すること</div> <div class = "prerequisites"> 
+:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
-**必要条件**
-
-始めるために必要なものについては[ここ](prerequisites.html)をクリックして下さい。</div> 
-
-このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
+In this tutorial, we'll guide you through the creation of various formatter examples.
 
 ## スタータープロジェクトをダウンロードする
 
@@ -27,16 +23,16 @@ title: カスタムのデータフォーマッター
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
 
   </p>
 </div>
 
-これでフォーマッターを作成する準備が整いました！
+You're now ready to create your first formatters!
 
 ## formatters フォルダを作成
 
-まず*Task Management.4dbase/Resources/Mobile/formatters* フォルダを作成します。
+First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder.png)
 
@@ -78,7 +74,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 
 * 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
 
-![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-integertoimage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -145,7 +141,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 
 * 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
 
-![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-textToImage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -170,31 +166,31 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 
 ## モバイルプロジェクトを開く
 
-Task Management.4dbase を4D 開き、メニューから ファイル > 開く > モバイルプロジェクト... を選択し、 **Tasks** を開きます。
+Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
-次に、プロジェクトエディター内の**ラベル & アイコンセクション** を開きます。 それぞれのmanifest.json ファイル内で事前に定義した異なるフィールド型に対する全てのフォーマッターが利用可能です:
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
 * **Job field** に対しては**integerToString** フォーマッターを選択します。
 * **Country field** に対しては**textToString** フォーマッターを選択します。
 * **Task Status** に対しては**integerToImage** フォーマッターを選択します。
 * **Manager** に対しては**textToImage** フォーマッターを選択します。
 
-![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-icons-&-labels.png)
+![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## 自分の4D for iOS アプリをビルドする
 
-4D for iOS アプリをビルドすると、クレジットの限度額に応じてデータフォーマッターが適切に適用されているのが分かります。
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
-![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-final-result.png)
+![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-以下の**FORMATTER FINAL** をクリックして、完成されたフォーマッターテンプレートのフォルダをダウンロードして下さい。
+Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
 
   </p>
 </div>

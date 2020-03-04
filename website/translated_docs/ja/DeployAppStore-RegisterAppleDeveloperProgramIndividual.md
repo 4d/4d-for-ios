@@ -3,15 +3,11 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program as an Individual
 ---
 
-<div class = "objectives"> 
-
-**目的**
-
-Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+:::tip OBJECTIVES Register for the Apple Developer Program as an individual to publish your app to the **App Store**. :::
 
 ## ステップ 1 - Apple ID
 
-If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+まだApple IDを持っていないのであれば，[⒉](#step-2-create-your-apple-id)に進んでください。
 
 If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
@@ -45,7 +41,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 5. Enroll as an individual
+## ⒌ Enroll as an individual
 
 * Click on the **Start your Enrollment** button.
 * Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
@@ -59,7 +55,7 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 ![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 6. Complete your purchase
+## ⒍ Complete your purchase
 
 * Click **Purchase** and make payment to complete your enrollment.
 

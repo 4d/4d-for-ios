@@ -3,31 +3,21 @@ id: deploy-in-house-archive-and-export
 title: Arquive e exporte seu Projeto
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES * Archive and export your 4D for iOS project * Generate .ipa and manifest files :::
 
-**OBJETIVOS**
-
-* Arquive e exporte seu Projeto 4D for iOS
-* Gere arquivos .ipa e manifest</div> <div class = "prerequisites"> 
-
-**PRÉ-REQUISITOS**
-
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* Um servidor Web seguro
-* Um ícone de resolução 57 x 57 px
-* Um ícone de resolução 512 x 512 px</div> 
+:::important PREREQUISITES * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) * A secured web server * 57 x 57 px icon * 512 x 512 px icon :::
 
 ## PASSO 1. Configuração Xcode
 
-Depois da validação de sua conta por Apple, abra Xcode e agregue sua conta de Apple Enterprise Developer em Preferences > Accounts.
+Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
-Xcode vai instalar automaticamente o provisionamento e certificados necessários.
+Xcode will automatically install required provisioning and certificates.
 
 ## PASSO 2. Obtenha uma ID de Time
 
 * Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenha uma ID de Time](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## Passo 3. Configuração 4D for iOS
 
@@ -67,7 +57,7 @@ Xcode vai instalar automaticamente o provisionamento e certificados necessários
 
 * Clique em **Export**.
 
-![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
+![Exporte seu projeto](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## PASSO 7. Selecione seu método de distribuição
 
@@ -87,7 +77,7 @@ Xcode vai instalar automaticamente o provisionamento e certificados necessários
 
 #### O que é um manifesto?
 
-O manifesto é uma lista de propriedades baseada em XML e deve conter:
+The manifest is an XML-based property list and should contain:
 
 * **URL** : URL que aponte ao arquivo .ipa.
 * **display-image**: URL que aponte a um ícone 57 x 57 px (72 x 72 px para iPad) PNG usado durante o download e instalação.
@@ -96,7 +86,7 @@ O manifesto é uma lista de propriedades baseada em XML e deve conter:
 * **bundle-version**: A string da versão atual de seu pacote de aplicação. Pode obtê-lo do arquivo .plist de seu app.
 * **title**: O nome de sua aplicação.
 
-Aqui está um exemplo de um arquivo manifest.plist:
+Here is an example of a manifest.plist file :
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -148,7 +138,7 @@ Aqui está um exemplo de um arquivo manifest.plist:
 
 * Recomendamos deixar que Xcode faça o trabalho de entrar sua URL de app assim como as URLs de ícones. Você pode mudar as URLs depois.
 
-![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
+![Informação sobre a distribuição do manifesto](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Clique **Next**.
 
@@ -156,7 +146,7 @@ Aqui está um exemplo de um arquivo manifest.plist:
 
 * Deixe que Xcode administre a opção **Automatically manage signing**.
 
-![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
+![Volte a assinar sua aplicação](assets/en/deploy-in-house/Re-sign-your-application.png)
 
 * Clique **Next**.
 
@@ -164,6 +154,6 @@ Aqui está um exemplo de um arquivo manifest.plist:
 
 * Aqui pode verificar se o identificador de sua aplicação está correto, assim como a ID de Time.
 
-![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
+![Verifique o conteúdo do .ipa de sua aplicação](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Clique em **Export** e selecione onde vai salvar a pasta de seu app no computador.

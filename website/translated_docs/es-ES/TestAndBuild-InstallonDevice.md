@@ -3,28 +3,17 @@ id: install-device
 title: Instalar en su dispositivo iOS
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Install a 4D for iOS application on a connected device :::
 
-**OBJETIVOS**
+:::important PREREQUISITES * Apple Developer Program. * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (Apple configurator 2 requires macOS 10.14 or later). :::
 
-Instale una aplicación 4D for iOS en un dispositivo conectado</div> <div class = "prerequisites"> 
-
-**REQUISITOS PREVIOS**
-
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).</div> <div class = "tips"> 
-
-**NOTA**
-
-Apple configurator 2 necesita **macOS 10.14** o superior.</div> 
-
-Dependiendo de sus objetivos y de sus preferencias, puede optar por inscribirse en uno de los siguientes programas:
+Depending on your objectives and preferences, you can choose to enroll in one of the following:
 
 * [Free Apple Developer Program](free-developer-account.html): para prueba únicamente
 * [Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [para los particulares](register-apple-developer-program-individual.html): con el fin de desplegar en el App Store
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): para desplegar su aplicación internamente
 
-Veamos el proceso...
+Let's go through the process...
 
 ## PASO 1. Cree una cuenta
 
@@ -55,7 +44,7 @@ Veamos el proceso...
 
 * Conecte su dispositivo a su ordenador y selecciónelo en el menú superior de Xcode.
 
-![Select your device](assets/en/test-build/select-device-Free-Account.png)
+![Seleccione su dispositivo](assets/en/test-build/select-device-Free-Account.png)
 
 * Xcode genera automáticamente los perfiles y certificados de aprovisionamiento necesarios para crear su aplicación.
 
@@ -63,7 +52,7 @@ Veamos el proceso...
 
 * ¡Presione el botón Build and run Button en Xcode!
 
-![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
+![Crear y ejecutar](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## PASO 5. Team ID para una cuenta paga
 

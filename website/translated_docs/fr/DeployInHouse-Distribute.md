@@ -3,41 +3,35 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Télécharger une application sur un serveur sécurisé.</div> 
+:::tip OBJECTIVES Upload your app to a secured server. :::
 
 ## ÉTAPE 1. Téléchargez votre application
 
-Téléchargez votre application sur un serveur sécurisé :
+Upload your app files to a secured server:
 
 * Ressources (image d'affichage et image en taille réelle)
 * Fichier manifest.plist
 * Fichier .ipa
 
-Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).<div class = "tips"> 
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
 
-**NOTE**
-
-Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.</div> 
+:::tip NOTE Your asset and ipa URLs must match the URLs defined in your manifest.plist file. :::
 
 ## ÉTAPE 2. Créez le lien d’installation
 
-Créez un **lien de Services ITMS** (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :
+Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-Ce lien peut être utilisé pour l’envoi d’e-mails, intégré dans une page html, ou même dans un code QR.
+This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
-Voici un exemple simple :
+Here is a simple example:
 
 ![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
-*Le Code QR utilisé pour cette documentation n’est pas actif.*
+*The QR Code used for this documentation is not active.*
 
 ## ÉTAPE 3. Installez votre application sur iOS
 
@@ -59,4 +53,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! Vous pouvez désormais distribuer votre première application interne !
+Félicitations  ! you can now distribute your first app in-house!

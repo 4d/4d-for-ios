@@ -3,11 +3,7 @@ id: deploy-app-store-archive-and-upload
 title: Arquive e atualize seu Projeto
 ---
 
-<div class = "objectives"> 
-
-**OBJETIVOS**
-
-Archive and upload your project to App Store Connect.</div> 
+:::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
 
 ## PASSO 1. Configuração Xcode
 
@@ -20,26 +16,26 @@ Archive and upload your project to App Store Connect.</div>
 
 * Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenha uma ID de Time](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## Passo 3. Configuração 4D for iOS
 
 * Abra 4D for iOS
 * Na aba SEÇÕES:
 
-**Geral: Entre sua ID de Time**
+**General: Enter your Team ID**
 
 ![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publicar: Entre sua URL produção**
+**Publishing: Enter your production URL**
 
-(HTTPS é obrigatório para implantação).
+(HTTPS is mandatory for deployment).
 
 ![Publishing](assets/en/deploy-app-store/Publishing.png)
 
 * Na aba BUILD:
 
-**Criar e Executar: Crie seu projeto**
+**Build and Run: Build your Project**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
@@ -47,7 +43,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * Da aba BUILD do Editor de Projeto de 4D for iOS, clique em Projeto>Abrir o Projeto com Xcode
 
-![Open your project with Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
+![Abra seu projeto com Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## PASSO 5. Arquive seu projeto com Xcode
 
@@ -57,7 +53,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * A partir do menu, clique em Produto e selecione **Archive**
 
-![Archive your project from Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
+![Arquive seu projeto com Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
 ## PASSO 6. Valide seu projeto
 
@@ -65,7 +61,7 @@ Archive and upload your project to App Store Connect.</div>
 
 * Clique no botão **Archive** para iniciar o processo de validação.
 
-![Validate your project](assets/en/deploy-app-store/Organizer-Project-Validation.png)
+![Valide seu projeto](assets/en/deploy-app-store/Organizer-Project-Validation.png)
 
 * O primeiro passo é selecionar as opções de distribuição do App Store.
 
@@ -83,17 +79,17 @@ Archive and upload your project to App Store Connect.</div>
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
-Se um erro acontecer, uma mensagem será exibida. Estes erros devem ser resolvidos antes de tentar o processo de validação novamente.
+If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
 
 * Clique **Done**. Isso vai lhe devolver para a janela de Organizador.
 
 ## PASSO 7. Suba para a App Store
 
-Quando o processo de validação tenha terminado, está pronto para adicionar seu app para a App Store.
+Once the validation process has been completed, you're ready to add your app to the App Store.
 
 * Clique o botão **Upload to App Store**.
 
-![Upload to App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
+![Suba para a App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
 * Quando seu projeto tiver sido atualizado com sucesso, verá esta janela:
 
@@ -115,7 +111,7 @@ Quando o processo de validação tenha terminado, está pronto para adicionar se
 
 * O passo final para enviar sua aplicação para revisão é responder algumas perguntas rápidas sobre sua aplicação. 
 
-![Submit for Review](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
+![Envie para Revisão](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
 * Quando tiver terminado com as perguntas, clique **Submit**.
 

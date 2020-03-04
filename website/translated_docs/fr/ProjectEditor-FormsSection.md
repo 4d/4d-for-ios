@@ -31,10 +31,8 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 ![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.<div class = "tips"> 
+Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-**CONSEILS**
+:::tip TIPS Want to change the template for your list or detail form?
 
-Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
-
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).</div>
+Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. :::

@@ -3,15 +3,9 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-<div class = "objectives"> 
+:::tip OBJECTIVES Register for the Apple Developer Enterprise Program to deploy your app **in-house**. :::
 
-**目的**
-
-Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
-
-**NOTE**
-
-To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+:::important PREREQUISITES To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name. :::
 
 ## ステップ 1 - Apple ID
 
@@ -21,7 +15,7 @@ If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 ## ステップ 2 - Create your Apple ID
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+[Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
 ![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
@@ -50,7 +44,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 ![D-U-N-S Number](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
-## STEP 5. Register as a developer
+## ⒌ Register as a developer
 
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
 
@@ -60,7 +54,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
-## STEP 6. Enroll in the Apple Developer Enterprise Program
+## ⒍ Enroll in the Apple Developer Enterprise Program
 
 * You can sign up for the Apple Developer Enterprise Program [here](https://developer.apple.com/enroll/enterprise/). 
 * Click on the **Start your Enrollment** button.
@@ -74,7 +68,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
-## STEP 7. Apple verification
+## ⒎ Apple verification
 
 * Apple has an internal verification process that usually takes up to six working days. Once Apple receives the enrollment request, they verify that you have the authority to bind your organization to the Apple Developer Program's legal agreements.
 * Apple generally calls to verify that the main contact exists and has requested the Apple Developer Enterprise Program registration.
@@ -82,7 +76,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![Apple verification](assets/en/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## STEP 8. Complete your purchase
+## ⒏ Complete your purchase
 
 * Once your enrollment request has been accepted, you can then proceed to payment.
 * When you have completed your purchase, you'll receive an email confirming your membership in the program.

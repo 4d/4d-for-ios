@@ -17,23 +17,20 @@ title: ユーザー情報に基づくクエリ
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-このクエリフィルターを通過することができるのは，ステータスが**&apos;In Progress&apos;**であり，かつ，**営業担当者のメールアドレス**（*Ｎ対１リレーション*により，AccountManagerテーブルから取得）が合致するデータだけです。<div class = "tips"> 
+このクエリフィルターを通過することができるのは，ステータスが**&apos;In Progress&apos;**であり，かつ，**営業担当者のメールアドレス**（*Ｎ対１リレーション*により，AccountManagerテーブルから取得）が合致するデータだけです。
 
-**注記**
+:::tip NOTE * A **user icon** is displayed on the right of each table when a user information filter is applied to it. * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
 
-* ユーザー情報に基づくクエリが設定されているテーブルの横には**ユーザーアイコン**が表示されます。
-* ユーザー情報に基づくクエリフィルターを入力して確定したのであれば，**On Mobile app Authentication**データベースメソッドを編集しなければなりません。 **認証メソッドを編集**ボタンをクリックすれば，メソッドエディターのウィンドウが開きます。</div> 
-
-データベースメソッドに下記のコードを追加します。
+Add the following line in the database method:
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
-表示できるデータを判定するための条件として，営業担当者のログインメールアドレスが参照できるようになります。
+This will allow retrieving the manager's login email address and displaying data depending on that criteria.
 
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/database-method-user-information-query.png)
 
-再びアプリをビルドして実行しましょう。メールアドレス "michelle.simpson@mail.com" を入力してログインすると，今度はMichelle Simpsonが担当している*進行中*の商談だけがシミュレーターに表示されます。
+Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
-![最終結果](assets/en/restricted-queries/restricted-queries-final-result.png)
+![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)

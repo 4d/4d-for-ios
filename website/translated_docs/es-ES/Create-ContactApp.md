@@ -3,15 +3,9 @@ id: contact-app
 title: Contact App
 ---
 
-<div class = "objectives"> 
+:::OBJETIVOS tip Crear su primera aplicación con 4D for iOS :::
 
-**OBJETIVOS**
-
-Cree su primera aplicación con 4D for iOS</div> <div class = "prerequisites"> 
-
-**PRERREQUISITOS**
-
-Haga clic en [aquí](prerequisites.html) para ver lo que necesitará para comenzar!</div> 
+:::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
 
 Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.
 
@@ -47,7 +41,7 @@ De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Welcome Screen](assets/en/contact-app/Welcome-Screen-4D-for-iOS.png)
 
-Haga clic en **Continuar**.
+Haga clic en **Continue**.
 
 ## PASO 4. Secciones - General
 
@@ -66,11 +60,9 @@ Aquí, podrá configurar la información principal de la aplicación:
 
 Es en esta sección donde definirá un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.
 
-Para nuestro ejemplo, seleccione **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** y **Photo**.<div class = "tips"> 
+Para nuestro ejemplo, seleccione **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** y **Photo**.
 
-**NOTA**
-
-Recomendamos publicar su llave primaria para identificar cada registro de su base</div> 
+:::NOTA tip Recomendamos publicar su llave primaria para identificar cada registro de su base :::
 
 ![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -135,7 +127,7 @@ Y por último, definimos el formulario detallado.
 * Haga clic en **Generar y ejecutar**.
 * Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!
 
-![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
+![Crear y ejecutar](assets/en/contact-app/Build-the-app-simulator.png)
 
 ## PASO 10. ¿Qué hacer ahora?
 

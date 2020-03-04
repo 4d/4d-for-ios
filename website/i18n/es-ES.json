@@ -15,7 +15,7 @@
         "title": "Añadir acciones a las plantillas"
       },
       "action-parameters": {
-        "title": "Using action parameters"
+        "title": "Utilizar parámetros de acción"
       },
       "contact-app": {
         "title": "Aplicación Contacts"
@@ -205,16 +205,16 @@
         "title": "Xcode"
       },
       "version-18.0/version-18.0-define-first-action": {
-        "title": "Defining your first action"
+        "title": "Definir una primera acción"
       },
       "version-18.0/version-18.0-actions-getting-started": {
-        "title": "Getting started"
+        "title": "Comencemos"
       },
       "version-18.0/version-18.0-action-custom-template": {
-        "title": "Adding actions in templates"
+        "title": "Añadir acciones a las plantillas"
       },
       "version-18.0/version-18.0-action-parameters": {
-        "title": "Using action parameters"
+        "title": "Utilizar parámetros de acción"
       },
       "version-18.0/version-18.0-contact-app": {
         "title": "Contact App"
@@ -223,55 +223,55 @@
         "title": "4D for iOS project organization"
       },
       "version-18.0/version-18.0-customize-your-ios-app": {
-        "title": "Customize your 4D for iOS App"
+        "title": "Personalizar su aplicación 4D for iOS"
       },
       "version-18.0/version-18.0-open-xcode": {
-        "title": "Working with Xcode"
+        "title": "Trabajar con Xcode"
       },
       "version-18.0/version-18.0-xcode-overview": {
-        "title": "Xcode Overview"
+        "title": "Presentación de Xcode"
       },
       "version-18.0/version-18.0-data-formatter-build-and-run": {
-        "title": "Build and Run your project"
+        "title": "Crear y ejecutar su proyecto"
       },
       "version-18.0/version-18.0-creating-data-formatter": {
-        "title": "Create data formatter"
+        "title": "Crear el formato de datos"
       },
       "version-18.0/version-18.0-data-formatter-mobile-project": {
-        "title": "Open mobile project"
+        "title": "Abrir un proyecto móvil"
       },
       "version-18.0/version-18.0-data-formatter": {
-        "title": "Data formatter"
+        "title": "Formato de datos"
       },
       "version-18.0/version-18.0-deploy-app-store-archive-and-upload": {
-        "title": "Archive and upload your Project"
+        "title": "Archivar y descargar un proyecto"
       },
       "version-18.0/version-18.0-deploy-app-store-app-store-connect": {
-        "title": "Create App Store record"
+        "title": "Crear una ficha en App Store"
       },
       "version-18.0/version-18.0-register-apple-developer-program-individual": {
-        "title": "Apple Developer Program as an Individual"
+        "title": "Apple Developer Program para particulares"
       },
       "version-18.0/version-18.0-register-apple-developer-program-organization": {
-        "title": "Apple Developer Program as an Organization"
+        "title": "Apple Developer Program para las empresas"
       },
       "version-18.0/version-18.0-deploy-in-house-archive-and-export": {
-        "title": "Archive and export your Project"
+        "title": "Archivar y exportar un proyecto"
       },
       "version-18.0/version-18.0-deploy-in-house-distribution": {
-        "title": "Distribute your app in-House"
+        "title": "Distribuir una aplicación interna"
       },
       "version-18.0/version-18.0-register-apple-developer-enterprise-program": {
         "title": "Apple Developer Enterprise Program"
       },
       "version-18.0/version-18.0-deployment": {
-        "title": "Selecting your Apple Developer Program"
+        "title": "Seleccionar un Apple Developer Program"
       },
       "version-18.0/version-18.0-creating-detailform-templates": {
-        "title": "Detail form templates"
+        "title": "Plantillas de formulario detallado"
       },
       "version-18.0/version-18.0-icon-detailform-template": {
-        "title": "Detail form icon"
+        "title": "Icono de formulario detallado"
       },
       "version-18.0/version-18.0-manifest-detailform-template": {
         "title": "Manifest.json"
@@ -287,28 +287,28 @@
         "title": "FAQ"
       },
       "version-18.0/version-18.0-overview": {
-        "title": "Overview"
+        "title": "Generalidades"
       },
       "version-18.0/version-18.0-prerequisites": {
-        "title": "Prerequisites"
+        "title": "Prerrequisitos"
       },
       "version-18.0/version-18.0-create-icons": {
         "title": "Create icons"
       },
       "version-18.0/version-18.0-using-icons": {
-        "title": "Using icons"
+        "title": "Utilizar los iconos"
       },
       "version-18.0/version-18.0-include-icons": {
-        "title": "Include icons in the project"
+        "title": "Incluir iconos en el proyecto"
       },
       "version-18.0/version-18.0-select-icons": {
-        "title": "Select your icons"
+        "title": "Seleccionar sus iconos"
       },
       "version-18.0/version-18.0-licenses": {
-        "title": "Licenses"
+        "title": "Licencias"
       },
       "version-18.0/version-18.0-creating-listform-templates": {
-        "title": "List form templates"
+        "title": "Plantillas de formulario listado"
       },
       "version-18.0/version-18.0-manifest-listform-template": {
         "title": "Manifest.json"
@@ -323,46 +323,46 @@
         "title": "List form icon"
       },
       "version-18.0/version-18.0-multi-criteria-search": {
-        "title": "Multi-criteria search"
+        "title": "Búsqueda multicriterios"
       },
       "version-18.0/version-18.0-actions": {
         "title": "Actions"
       },
       "version-18.0/version-18.0-build-panel": {
-        "title": "Build Panel"
+        "title": "Panel Generación"
       },
       "version-18.0/version-18.0-create-new-project": {
-        "title": "New Project"
+        "title": "Nuevo proyecto"
       },
       "version-18.0/version-18.0-data": {
-        "title": "Data"
+        "title": "Datos"
       },
       "version-18.0/version-18.0-forms": {
-        "title": "Forms"
+        "title": "Formularios"
       },
       "version-18.0/version-18.0-general": {
         "title": "General"
       },
       "version-18.0/version-18.0-labels-and-icons": {
-        "title": "Labels & Icons"
+        "title": "Etiquetas e iconos"
       },
       "version-18.0/version-18.0-main-menu": {
         "title": "Main Menu"
       },
       "version-18.0/version-18.0-publishing": {
-        "title": "Publishing"
+        "title": "Publicación"
       },
       "version-18.0/version-18.0-structure": {
         "title": "Structure"
       },
       "version-18.0/version-18.0-many-to-one-relations": {
-        "title": "Many to One relations"
+        "title": "Relaciones Muchos a Uno"
       },
       "version-18.0/version-18.0-one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Relaciones Uno a Muchos - Acciones"
       },
       "version-18.0/version-18.0-one-to-many-relations-custom-button": {
-        "title": "One to Many - Custom button"
+        "title": "Uno a Muchos - Botón personalizado"
       },
       "version-18.0/version-18.0-one-to-many-relations-title-definition": {
         "title": "One to Many - Title definition"
@@ -371,34 +371,34 @@
         "title": "One to Many relations"
       },
       "version-18.0/version-18.0-custom-data-formatters": {
-        "title": "Data Formatters"
+        "title": "Formato de datos"
       },
       "version-18.0/version-18.0-custom-detailform-templates": {
-        "title": "Detail Form Templates"
+        "title": "Plantillas de formularios detallados"
       },
       "version-18.0/version-18.0-custom-listform-templates": {
-        "title": "List Forms Templates"
+        "title": "Plantillas de formularios Lista"
       },
       "version-18.0/version-18.0-define-filter-query": {
-        "title": "Define a filter query"
+        "title": "Definir un filtro de búsqueda"
       },
       "version-18.0/version-18.0-filter-query-introduction": {
-        "title": "Restricted queries"
+        "title": "Búsquedas limitadas"
       },
       "version-18.0/version-18.0-user-information-query": {
-        "title": "User information query"
+        "title": "Filtro de búsqueda usuario"
       },
       "version-18.0/version-18.0-template": {
-        "title": "Templates & Formatters"
+        "title": "Plantillas y formatos"
       },
       "version-18.0/version-18.0-free-developer-account": {
-        "title": "Free Apple Developer account"
+        "title": "Cuenta Apple Developer gratuita"
       },
       "version-18.0/version-18.0-install-device": {
-        "title": "Installing on your iOS device"
+        "title": "Instalar en su dispositivo iOS"
       },
       "version-18.0/version-18.0-simulator": {
-        "title": "Using the Simulator"
+        "title": "Utilización del simulador"
       },
       "version-18.0/version-18.0-xcode": {
         "title": "Xcode"

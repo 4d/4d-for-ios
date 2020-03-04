@@ -86,11 +86,11 @@ and
 
 * **Type**: ```Boolean```
 
-* **Value**: Check the box
+* **Value**: Selecione a opção
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
-You can now build your project from the project editor!
+Agora pode construir seu projeto no editor de projetos!
 
 The result should look like this:
 
@@ -132,11 +132,11 @@ In order to indicate in the project editor that all of the elements included in 
 
 ### Add TAGS
 
-Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Each storyboard element has an Object ID. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-The process is a little bit tricky... So let's begin by opening the storyboard file with your favorite code editor!
+O processo é um pouco complicado.... So let's begin by opening the storyboard file with your favorite code editor!
 
 #### Add a tag to the height constraint
 
@@ -156,7 +156,7 @@ Step 4. Focus on the Storyboard to check if the constraint has been updated corr
 
 And that's it! Your button is now fully duplicable if you have more that one relation button to display...
 
-## Where to go from here?
+## O que fazer agora?
 
 In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
 

@@ -3,11 +3,7 @@ id: deploy-app-store-archive-and-upload
 title: Archive and upload your Project
 ---
 
-<div class = "objectives"> 
-
-**目的**
-
-Archive and upload your project to App Store Connect.</div> 
+:::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
 
 ## ステップ 1 - Xcode configuration
 
@@ -49,7 +45,7 @@ Archive and upload your project to App Store Connect.</div>
 
 ![Open your project with Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## STEP 5. Archive your project from Xcode
+## ⒌ Archive your project from Xcode
 
 * From Xcode go to the simulator Menu and select **Generic iOS Device**.
 
@@ -59,7 +55,7 @@ Archive and upload your project to App Store Connect.</div>
 
 ![Archive your project from Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
-## STEP 6. Validate your project
+## ⒍ Validate your project
 
 * At the end of the archive process, the Organizer window appears with the archive you have just created.
 
@@ -87,7 +83,7 @@ If an error occurs a message will be displayed. These errors must be resolved be
 
 * Click **Done**. This will return you to the Organizer window.
 
-## STEP 7. Upload to App Store
+## ⒎ Upload to App Store
 
 Once the validation process has been completed, you're ready to add your app to the App Store.
 
@@ -99,7 +95,7 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ![Upload successful](assets/en/deploy-app-store/upload-Successful.png)
 
-## STEP 8. Select the build for the App Store
+## ⒏ Select the build for the App Store
 
 * From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
 
@@ -111,7 +107,7 @@ Once the validation process has been completed, you're ready to add your app to 
 
 * Finally, click on the **Submit for Review** button.
 
-## STEP 9. Submit for Review
+## ⒐ Submit for Review
 
 * The final step to submitting your app for review is answering a few quick questions about your app. 
 

@@ -17,12 +17,9 @@ Now let's filter our app content depending on the account manager's login email 
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).<div class = "tips"> 
+The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
 
-**NOTE**
-
-* A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div> 
+:::tip NOTE * A **user icon** is displayed on the right of each table when a user information filter is applied to it. * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
 
 Add the following line in the database method:
 

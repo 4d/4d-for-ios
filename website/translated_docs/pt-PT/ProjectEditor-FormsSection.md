@@ -31,10 +31,8 @@ Da mesma forma que com a definição de formulários Lista, selecione um modelo 
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Pode adicionar entre 2 a 10 campos para a maioria dos formulários Lista.<div class = "tips"> 
+Pode adicionar entre 2 a 10 campos para a maioria dos formulários Lista.
 
-**DICAS**
+:::tip TIPS Want to change the template for your list or detail form?
 
-Quer mudar o modelo de seu formulário lista ou detalhado?
-
-Quando muda os modelos, os tipos de campo automaticamente são reconhecidos, salvos e colocados na área apropriada (segundo os modelos e os tipos de campos).</div>
+Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. :::

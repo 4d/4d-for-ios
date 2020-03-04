@@ -101,13 +101,11 @@ From the attribute inspector, you can also customize the font. Select both label
 
 To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. This allows the number of lines to be unlimited.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-**NOTE**
+:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png) :::
 
 ## How to get data into your cells
 
@@ -186,7 +184,7 @@ You can now build your project from the project editor!
 
 ![Custom template final result](assets/en/custom-listform/custom-template-final-result.png)
 
-## Where to go from here?
+## Wie geht es weiter?
 
 In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
 

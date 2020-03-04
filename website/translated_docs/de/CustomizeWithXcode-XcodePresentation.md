@@ -3,11 +3,7 @@ id: xcode-overview
 title: Xcode Overview
 ---
 
-<div class = "objectives"> 
-
-**Zielsetzung**
-
-Ensure a basic understanding of working with Xcode.</div> 
+:::tip OBJECTIVES Ensure a basic understanding of working with Xcode. :::
 
 Xcode displays various areas that we're going to review:
 

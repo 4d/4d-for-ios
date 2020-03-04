@@ -31,10 +31,8 @@ As with the List Form definition, select a template and drag and drop your field
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as few as 2 or as many as 10 fields for most of the List Forms.<div class = "tips"> 
+You can add as few as 2 or as many as 10 fields for most of the List Forms.
 
-**TIPS**
+:::tip TIPS Want to change the template for your list or detail form?
 
-Want to change the template for your list or detail form?
-
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.</div>
+Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. :::

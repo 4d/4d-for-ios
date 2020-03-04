@@ -35,7 +35,9 @@ Agregue o título de seu modelo aqui.
 
 ## Posição, altura, largura e tipo da área
 
-Pode definir posição, altura e largura para todos os campos como fizemos para o tutorial [Custom list view](creating-listform.html).
+:::tip NOTE All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+
+You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Propriedades de campo duplicadas
 
@@ -121,14 +123,8 @@ Pode definir posição, altura e largura para todos os campos como fizemos para 
 5. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 6. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
-Agora que tem um **ícone**, uma **descrição básica de modelo** no arquivo manifest.json e seu arquivo **svg**, vamos para a parte divertida com Xcode!<div class = "tips"> 
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
-**NOTA**
+:::tip TIP * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. Por exemplo, ```ios:type="-3,-4"``` permite que arraste e solte todos os campos exceto imagens e datas.
 
-Todos os tipos de campos e variáveis estão disponíveis em [aqui](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
-
-**DICAS**
-
-* Para facilitar a definição dos tipos de campos, 4D for iOS lhe permite incluir tipos de campo com ** valores positivos ** e também exclui os tipos de campo com ** valores negativos **. Por exemplo, ```ios:type="-3,-4"``` permite que arraste e solte todo campo exceto as imagens e datas.
-
-* Para incluir todos os tipos, apenas digite ```ios:type="all"```.</div>
+* To include all types, just type ```ios:type="all"```. :::
