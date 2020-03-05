@@ -3,9 +3,9 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-:::tip OBJECTIF Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés. :::
+:::tip OBJECTIF Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés. ::: 
 
-:::important CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
+:::important CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! ::: 
 
 Dans ce tutoriel, nous verrons qu'il est très simple d'**ajouter des actions aux modèles personnalisés**.
 
