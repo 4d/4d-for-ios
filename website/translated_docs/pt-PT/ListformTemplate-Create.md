@@ -40,7 +40,7 @@ Next, open the Contact.4dbase file with 4D. (File > open > Mobile Project > **Co
 
 Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
 
-![Forms section](assets/en/custom-listform/custom-listform-template.png)
+![Seção Formulários](assets/en/custom-listform/custom-listform-template.png)
 
 Now let's focus on the contents of the **Custom List form** folder.
 
