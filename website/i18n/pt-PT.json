@@ -160,7 +160,7 @@
         "title": "Relações Muitos para Um"
       },
       "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Relações Um para Muitos - Ações"
       },
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
@@ -169,7 +169,7 @@
         "title": "One to Many - Title definition"
       },
       "one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relações Um para Muitos"
       },
       "custom-data-formatters": {
         "title": "Data Formatters"
@@ -359,7 +359,7 @@
         "title": "Relações Muitos para Um"
       },
       "version-18.0/version-18.0-one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "Relações Um para Muitos - Ações"
       },
       "version-18.0/version-18.0-one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
@@ -368,7 +368,7 @@
         "title": "One to Many - Title definition"
       },
       "version-18.0/version-18.0-one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relações Um para Muitos"
       },
       "version-18.0/version-18.0-custom-data-formatters": {
         "title": "Data Formatters"
