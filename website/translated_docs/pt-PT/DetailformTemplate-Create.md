@@ -40,7 +40,7 @@ Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... 
 
 Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
 
-![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
+![Seção Formulários](assets/en/custom-detailform/custom-detailform-template.png)
 
 Now let's focus on the **Custom Detail form** folder content.
 
