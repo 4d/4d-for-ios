@@ -5,7 +5,7 @@ title: Relações Muitos para Um
 
 4D v17 R5 inclui um novo conceito: as relações Muitos para Um (N a 1)
 
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier. :::
+:::tip OBJETIVOS Neste tutorial, usaremos a relação de nomes entre suas tabelas. Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto. :::
 
 Vamos começar baixando o Projeto Starter:
 
@@ -19,31 +19,31 @@ href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/
   </p>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+Aqui queremos exibir a categoria para cada tarefa no formulário detalhado em seu app gerado. Para fazer isso, abra o **StarteriOSProject** em**Open > Mobile Project...**
 
 Depois vá para a seção Estrutura e selecione a **tabela Task**.
 
 ### Structure section
 
-* You can notice that the **TaskCategory relation** is underlined
+* Pode verificar que a **relação TaskCategory** está sublinhado
 
-* Clicking on it will display available fields through this relation
+* Ao clicar nele, serão mostrados os campos disponíveis através dessa relação.
 
 * Selecione o **campo Name**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
-* This field will operate as any other field for the rest of the app creation process
+* Este campo funcionará como qualquer outro campo durante o resto do processo de criação da aplicação
 
-* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
+* Pode também filtrar seu conteúdo de app usando campos relacionados da seção Data. Para fazer isso digite ```TaskCategory.Name != 'Personal'``` no filtro de pesquisa para excluir as tarefas pessoais.
     
     ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Então pode selecionar um **ícone** assim como **formatadores** e definir **etiquetas curtas e longas** na seção Etiquetas e Ícones
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
-* Go to the Forms section and drag the field on the Task Detail form
+* Vá para a seção Formulários e arraste o campo no formulário detalhado Tasks
 
 ![Related field in Forms section](assets/en/relations/related-field-forms.png)
 
