@@ -22,7 +22,7 @@ Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de 
 
 :::tip DICAS Pode publicar uma seleção de campos ao pressionar a barra de espaços ao invés de selecioná-los um por um. :::
 
-## One to Many relations
+## Relações Um para Muitos
 
 ### Lidar com as relações Um para Muitos a partir do editor de projeto
 
