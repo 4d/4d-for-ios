@@ -110,55 +110,55 @@ Pásso 1. Primeiro selecione a vista e mude a altura de 123 a 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Passo 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+Passo 2. Dê um duplo clique em **Top Space Constraint** e mude o valor de 8 para 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Step 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+Passo 3. Faça a mesma coisa com **Bottom Space Constraint** e mude seu valor de 8 para 0
 
-You should get this:
+Você deveria obter isto:
 
 ![Custom  button constraints](assets/en/relations/Custom-button-constraints.png)
 
-Step 4. Add a height constraint of 40
+Passo 4. Adicione uma restrição de altura de 40
 
 ![Button height constraint](assets/en/relations/Button-height-constraint.png)
 
-You should get this:
+Você deveria obter isto:
 
 ![Horizontal in container](assets/en/relations/Custom-relation-button-constraints.png)
 
-In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
+Para indicar no editor de projeto que todos os elementos incluídos nesta vista serão duplicados, precisamos adicionar uma TAG para cada elemento e restrição.
 
-### Add TAGS
+### adicionar TAGS
 
-Each storyboard element has an Object ID. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
+Cada elemento de storyboard tem um identificador de Objeto. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-O processo é um pouco complicado.... So let's begin by opening the storyboard file with your favorite code editor!
+O processo é um pouco complicado.... Começamos abrindo o arquivo storyboard com seu editor de código favorito!
 
-#### Add a tag to the height constraint
+#### Adicione uma tag para a restrição de altura
 
-Pásso 1. Select it from the Storyboard to get the Object ID
+Pásso 1. Selecione-o a partir do Storyboard para obter o identiicador de Objeto.
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Passo 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+Passo 2. Pesquise por essa ID no arquivo xml e coloque no seu lugar **TAG-RL-007** (uma Tag que ainda não esteja em uso).
 
-Step 3. Save the xml file
+Passo 3. Salve o arquivo xml
 
 ![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-Step 4. Focus on the Storyboard to check if the constraint has been updated correctly
+Passo 4. Foco em Storyboard para verificar se a restrição foi atualizada corretamente
 
 ![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
 
-And that's it! Your button is now fully duplicable if you have more that one relation button to display...
+E isso é tudo! Seu botão agora é completamente duplicável se tiver mais de um botão de relação a exibir...
 
 ## O que fazer agora?
 
-In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
+Nesse tutorial, vimos o básico para criar botões de relação personalizados. Clique no botão abaixo Final Project para baixar o botão de relação personalizado.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
