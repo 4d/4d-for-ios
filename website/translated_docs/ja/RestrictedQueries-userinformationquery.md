@@ -21,7 +21,7 @@ Status = 'In Progress' & manager.Email = :email
 
 :::tip NOTE * A **user icon** is displayed on the right of each table when a user information filter is applied to it. * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
 
-Add the following line in the database method:
+データベースメソッドに下記のコードを入力します。
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
@@ -31,6 +31,6 @@ This will allow retrieving the manager's login email address and displaying data
 
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+アプリをビルドし，メールアドレスに "michelle.simpson@mail.com" と入力してログインしてみてください。Michelle Simpsonさんの*"In progress（進行中）"*の商談だけが表示されます。
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
