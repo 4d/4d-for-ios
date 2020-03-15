@@ -26,13 +26,13 @@ Xcode 10.2 を使用するためには **macOS 10.14** 以降が必要です。
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-### Using 17R6 with macOS 10.14.3
+### 4D for iOS 17 R6 を macOS 10.14.3 で使用するには
 
 4D for iOS 17 R6 の動作には Swift 5.0 ランタイムが必要です。 （macOS 10.14.4 はインストール済み）
 
 * `Swift 5 Runtime Support for Command Line Tools` を [More Downloads for Apple Developers](https://developer.apple.com/download/more/) から入手してください。
 
-### Using 17R4 with Xcode 10.2
+### 4D for iOS 17 R4 を Xcode 10.2 で使用するには
 
 Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.
 
@@ -45,18 +45,18 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## ハードウェアのシステム要件
 
-* 8GB of RAM (Minimum recommended)
+* 8GB のメモリ（最低限）
 
 ## データベース設定
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* 4Dのデータベース設定を開き，互換性ページに移動して，**「オブジェクトプロパティにアクセスするのにオブジェクト記法を使用（Unicode 必須）」**を有効にします。
 
-![Use object notation](assets/en/prerequisites/Use-object-notation.png)
+![オブジェクト記法を使用する](assets/en/prerequisites/Use-object-notation.png)
 
-* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
+* HTTP および HTTPS ポート番号は，適正に設定されている必要があります。 4D for iOS アプリの運用環境では，HTTPS が必須です。
 
-![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
+![Web設定](assets/en/prerequisites/Web-Configuration.png)
 
-* Your Web Server must be started. It's available from the Run menu:
+* Webサーバーを実行してください。 実行メニューから起動することができます。
 
-![Start web server](assets/en/prerequisites/Start-web-server.png)
+![Webサーバーを開始](assets/en/prerequisites/Start-web-server.png)
