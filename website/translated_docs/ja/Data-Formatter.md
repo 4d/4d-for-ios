@@ -7,15 +7,15 @@ title: データフォーマッター
 
 「ラベル＆アイコン」セクションでは，データ型に応じた既定のフォーマッターが選択できるようになっています。
 
-:::note Available formats
+:::note 利用できるフォーマッター
 
-Available formats:
+利用できるフォーマッター
 
-* **Text**: Text
-* **Date**: Date, Short date, Long date, Full date
-* **Time**: Time, Short time, Duration, Integer number
-* **Boolean**: "No" or "Yes", "False" or "True"
-* **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out :::
+* **テキスト**: テキスト
+* **日付**: 日付・短い日付・長い日付・完全な日付
+* **時間**: 時間・短い時間・経過時間・整数
+* **ブール**: "いいえ" または "はい"・"False" または "True"
+* **整数**: 整数・小数・実数・パーセント・助数詞・通過・通貨 $・通貨 €・通貨 ¥・漢数字:::
 
 素材プロジェクトをダウンロードしてください。
 
@@ -24,7 +24,7 @@ Available formats:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">DATA FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
 
   </p>
 </div>
