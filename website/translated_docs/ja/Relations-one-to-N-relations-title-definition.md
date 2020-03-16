@@ -1,34 +1,34 @@
 ---
 id: one-to-many-relations-title-definition
-title: One to Many - Title definition
+title: １対Ｎタイトルの設定
 ---
 
-### Defining a title for your destination views
+### 移動先の画面にタイトルを設定する
 
-To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
+アプリが表示している画面にどの画面から移動したのかがすぐにわかるように，4D for iOSでは画面のタイトルをカスタマイズすることができます。
 
-In this tutorial, we will use the following project:
+このレッスンでは，下記のプロジェクトを使用します。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">タイトル素材プロジェクト</a>
 
   </p>
 </div>
 
-Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
+「開く＞モバイルプロジェクト…」を選択してください。 *Time Keeper*プロジェクトを開いて「**ラベル＆アイコン**」にページを切り替えます。
 
-From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: ```%Name% tasks```
+画面の下部を「リレーション」タブに切り替えて，*tasks*リレーションのタイトルを「**タイトル**」フィールドに入力します。 ```%Name% のタスク```
 
-![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
+![「ラベル＆アイコン」リレーションのタイトル](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
+もうお気づきですね！このように定義すれば，直前の詳細画面に表示されていた**従業員**レコードの氏名フィールドに応じ，表示される値が変化するようになります。
 
-![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
+![「ラベル＆アイコン」リレーションのタイトル](assets/en/relations/relations-title-definition.png)
 
-This is a great way to keep track of the view you come from!
+どの画面から移動してきたのかが一目でわかりますね！
 
-Now let's see how you can create and add your own Relation button in the next tutorial!
+次のレッスンでは「Relation」ボタンを自分で作成してカスタマイズする方法を学びます。
