@@ -4,42 +4,42 @@ title: Template.svg
 sidebar_label: Template.svg
 ---
 
-The template.svg file is a basic template representation. In this svg file, you'll need to define areas in order to be able to add fields to your detail form template from the project editor.
+template.svgは，テンプレートのレイアウトを視覚的に表現するためのファイルです。 プロジェクターエディターでリストフォームのテンプレートにフィールドが追加できるように，ドラッグ＆ドロップ用のエリアを定義しておきます。
 
-Here's a finished version:
+図は完成したファイルのイメージです。
 
-![Template svg file](assets/en/custom-detailform/detailform-template-svg-file.png)
+![テンプレートSVGファイル](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
+フィールド数は可変になっており，１個**ピクチャ**と最大で **８個**のフィールドが追加できるようになっています。 「フォーム」セクションの詳細画面エディターでは，最後にドラッグ＆ドロップしたフィールドの下に空白のフィールドが現れるようになっているので，フィールドをさらに追加することができます。
 
-![Template svg file](assets/en/custom-detailform/detailform-dynamic-field-number.png)
+![テンプレートSVGファイル](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
-Open the template.svg file with your favorite code editor.
+使い慣れたコードエディターでtemplate.svgファイルを開きます。
 
-Let’s focus on the different parts of your SVG file and what you'll need to edit.
+各部分の役割とカスタマイズできる箇所に注目しましょう。
 
-## Title
+## タイトル要素（title）
 
 ```xml
 <title>Custom Detail form</title>
 ```
 
-Add the title for your template here.
+テンプレートの名称です。
 
-## ios:values
+## フィールドリスト（ios:values）
 
     ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
     
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: 詳細画面に表示されるフィールドのリストです。 フィールドは，ドラッグ＆ドロップで追加することができます。
 
-## Areas position, height and width and type
+## エリアの位置とサイズ（position, height, width, type）
 
-:::tip NOTE All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+:::tip NOTE フィールドや変数のタイプについては[ドキュメント](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.ja.html)をご覧ください。 :::
 
-You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
+[カスタムリスト画面](creating-listform.html)のチュートリアルと同じ要領でフィールドの位置と高さと幅を定義することができます。
 
-### Duplicated field properties
+### 繰り返されるフィールドのプロパティ
 
     //1
     <g id="f" visibility="hidden" ios:dy="35">
@@ -58,13 +58,13 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Define the text area position and width
-4. Define the droppable field position, height, and width, as well as accepted fields types (all types are accepted in this example)
-5. Define a cancel button that will be displayed to the delete current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. 入力エリアの位置とサイズです。（textArea要素）
+4. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
+5. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-### Image field area
+### ピクチャフィールド
 
     //1
     <g transform="translate(0,60)">
@@ -86,14 +86,14 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Entire area Y position
-2. Area background position, height, and width
-3. Icon to display an image in the imageField
-4. Define the text area position and width
-5. Define the droppable field position, height, and width, as well as accepted fields types
-6. Define a cancel button that will be displayed to delete the current content
+1. エリア全体の垂直位置です。（g要素のtransform属性）
+2. エリア背景の位置とサイズです。（rect要素）
+3. ピクチャエリアに表示されるアイコン画像です。（path要素）
+4. 入力エリアの位置とサイズです。（textArea要素）
+5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
+6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-### Field to be duplicated
+### 繰り返されるフィールド
 
     //1
     <g id="multivalued">
@@ -116,15 +116,15 @@ You can define position, height, and width for all of your fields like we did fo
     </g>
     
 
-1. Multivaluated ID for the field to be duplicated
-2. Entire area Y position
-3. Area background position, height, and width
-4. Define the text area position and width
-5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
-6. Define a cancel button that will be displayed to delete the current content
+1. 繰り返されるフィールドの動的ID
+2. エリア全体の垂直位置です。（g要素のtransform属性）
+3. エリア背景の位置とサイズです。（rect要素）
+4. 入力エリアの位置とサイズです。（textArea要素）
+5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
+6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+manifest.jsonはテンプレートの**仕様書**，template.svgは**エディターのための情報**であり，画像ファイルは**アイコン**であることがわかりました。
 
-:::tip TIP * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
+:::tip TIP * フィールドタイプは，カンマ区切りの整数リストで指定することができます。ドロップを許可するフィールドタイプは**正の値**，許可しないフィールドは**負の値**で指定します。 たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
 
-* To include all types, just type ```ios:type="all"```. :::
+* すべてのタイプをサポートする場合，ios:type="all"と指定します。 ```ios:type="all"```. :::
