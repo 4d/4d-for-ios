@@ -3,13 +3,13 @@ id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
 
-:::tip OBJECTIVES Create your first data formatters.
+:::tip OBJECTIVES 簡単なデータフォーマッターを作成しましょう！
 
 :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
 
-In this tutorial, we'll guide you through the creation of various formatter examples.
+このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
 
 ## スタータープロジェクトをダウンロードする
 
@@ -23,16 +23,16 @@ In this tutorial, we'll guide you through the creation of various formatter exam
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
 
   </p>
 </div>
 
-You're now ready to create your first formatters!
+これでフォーマッターを作成する準備が整いました！
 
 ## formatters フォルダを作成
 
-First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
+まず*Task Management.4dbase/Resources/Mobile/formatters* フォルダを作成します。
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder.png)
 
@@ -74,7 +74,7 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 * 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
 
-![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
+![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -141,7 +141,7 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 * 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
 
-![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
+![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-textToImage.png)
 
 **manifest.json** ファイルの中身を見てみましょう:
 
@@ -166,31 +166,31 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ## モバイルプロジェクトを開く
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Task Management.4dbase を4Dで開き，「ファイル」メニューの「開く＞モバイルプロジェクト…」から **Tasks（チェックリスト）**アプリのプロジェクトを開きます。
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+次に，プロジェクトエディターを**ラベル & アイコン** セクションに切り替えます。 manifest.json ファイルに記述したとおりに，各フィールドタイプに応じたフォーマッターが利用できるようになっています。
 
 * **Job field** に対しては**integerToString** フォーマッターを選択します。
 * **Country field** に対しては**textToString** フォーマッターを選択します。
 * **Task Status** に対しては**integerToImage** フォーマッターを選択します。
 * **Manager** に対しては**textToImage** フォーマッターを選択します。
 
-![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
+![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## 自分の4D for iOS アプリをビルドする
 
-Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+4D for iOS アプリをビルドすると、クレジットの限度額に応じてデータフォーマッターが適切に適用されているのが分かります。
 
-![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
+![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+以下の**FORMATTER FINAL** をクリックして、完成されたフォーマッターテンプレートのフォルダをダウンロードして下さい。
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">完成プロジェクト</a>
 
   </p>
 </div>
