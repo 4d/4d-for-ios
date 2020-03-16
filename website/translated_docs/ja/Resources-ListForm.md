@@ -5,9 +5,9 @@ title: リスト画面のテンプレート
 
 :::important BEFORE STARTING
 
-1. To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
+1. カスタムリスト画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/list` フォルダーを作成してください。
 
-2. カスタムリスト画面テンプレートは，このフォルダーの中にインストールします。 :::
+2. テンプレートは，このフォルダーにインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -20,9 +20,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Client List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -36,9 +36,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -58,9 +58,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice Line List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -74,9 +74,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Three Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -96,9 +96,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Four Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -112,9 +112,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Five Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -134,9 +134,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks Collection</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Collection</li>
-          <li><strong>Sections:</strong> not available</li>
-          <li><strong>Actions:</strong> cell long pressure</li>
+          <li><strong>レイアウト:</strong> グリッド</li>
+          <li><strong>セクション:</strong> なし</li>
+          <li><strong>アクション:</strong> セルの長押し</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -150,9 +150,9 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
@@ -172,10 +172,10 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> not available</li>
-          <li><strong>Actions:</strong> cell long pressure</li>
-          <li><strong>Image required:</strong> yes</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> なし</li>
+          <li><strong>アクション:</strong> セルの長押し</li>
+          <li><strong>ピクチャフィールド:</strong> 必要</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -189,10 +189,10 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -211,9 +211,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Table</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -227,10 +227,10 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Slanted Collection</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -249,8 +249,8 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -264,8 +264,8 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Smooth Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -285,8 +285,8 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Dynamic Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -300,9 +300,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Profile</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -321,9 +321,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Square Profile</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -336,8 +336,8 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Tasks</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -357,8 +357,8 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Numbers</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -372,9 +372,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Visual Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -393,9 +393,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Visual Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -408,9 +408,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Vertical Cards</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -429,9 +429,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Collection</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -444,9 +444,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Mozaic</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -465,9 +465,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Cards</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -480,9 +480,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Cube</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -501,9 +501,9 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Parallax</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -515,4 +515,4 @@ title: リスト画面のテンプレート
   </table>
 </div>
 
-:::tip MORE You can find more list form templates on [github](https://4d-for-ios.github.io/gallery/#/type/form-list). :::
+:::tip MORE リスト画面のテンプレートは[github](https://4d-for-ios.github.io/gallery/#/type/form-list)で公開されています。 :::
