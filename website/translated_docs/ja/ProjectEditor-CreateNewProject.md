@@ -1,34 +1,34 @@
 ---
 id: create-new-project
-title: New Project
+title: 新規プロジェクト
 ---
 
-:::tip OBJECTIVES Get familiar with the Project Editor. :::
+:::tip OBJECTIVES プロジェクトエディター各部の名称と役割を理解しましょう！ :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
 
-Let's take a look at how 4D for iOS works.
+実際に4D for iOSを起動してみましょう。
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+4Dを起動し，データベースを開いて「**新規＞モバイルプロジェクト…**」メニューを選択します。
 
-Give your project a name and click **Create**.
+適当なプロジェクト名を英数字で入力した後， **作成**をクリックします。
 
-![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
+![プロジェクト名](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+自動的に表示されるランディングページには，4D for iOSの概要がシンプルにまとめられています。 「**今後表示しない**」チェックボックスを有効にすれば，次回からこの画面をスキップできるようになります。 Click **Continue**.
 
-![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
+![ランディングページ](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+ここがスタート地点です！ 4D for iOSのアーキテクチャとインタフェースを解き明かしてゆきましょう！
 
-The main window consists of two tabs:
+メイン画面は，２個のタブで構成されています。
 
-## Sections
+## セクション
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+「セクション」タブの各セクションは，4D for iOSアプリが出来るまでの過程に対応しています。
 
-* General
-* Structure
+* 一般
+* ストラクチャ
 * Data
 * Actions
 * Labels & Icons
@@ -36,11 +36,11 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 * Forms
 * Publishing
 
-## Build
+## ビルド
 
-The Build tab has four options:
+ビルドタブには，４個のボタンが存在します。
 
 * ビルドして実行 
-* Simulator selection
-* Project and product browser
-* Install
+* シミュレーター
+* プロジェクト
+* インストール
