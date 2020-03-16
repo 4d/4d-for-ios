@@ -34,11 +34,11 @@ Xcode 10.2 を使用するためには **macOS 10.14** 以降が必要です。
 
 ### 4D for iOS 17 R4 を Xcode 10.2 で使用するには
 
-Due to apple swift language abi instability, you can not use the standard 4D 17R4 with Xcode 10.2.
+標準の 4D for iOS 17 R4 と Xcode 10.2 は，Apple Swift 言語の API Stability が合わないため，の組み合わせて使用することはできません。 
 
-Fortunately we provide an alternative component compatible with Xcode 10.2.
+Xcode 10.2 用の互換コンポーネントを単独でダウンロードすることができます。
 
-You can replace the internal user component `4D Mobile App.4dbase`, that you can find into `../4D.app/Contents/Resources/Internal User Components/`, by the provided one:
+`../4D.app/Contents/Resources/Internal User Components/`にインストールされている内部ユーザーコンポーネントの`4D Mobile App.4dbase`,を下記のものと入れ替えてください。
 
 <a class="button"
 href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20Xcode%2010.2/4D%20Mobile%20App.4dbase.zip">4D Mobile App.4dbase.zip</a>
