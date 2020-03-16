@@ -73,7 +73,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 検索フィールドを使用することは必須ではありません。
 
-:::tip NOTE All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+:::tip NOTE フィールドや変数のタイプについては[ドキュメント](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.ja.html)をご覧ください。 :::
 
 ### セクションフィールド
 
@@ -95,7 +95,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 3. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 4. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-The section field is optional.
+セクションフィールドを使用することは必須ではありません。
 
 ### ピクチャフィールド
 
@@ -176,8 +176,8 @@ The section field is optional.
 4. フィールドをドロップできるエリアの位置とサイズ，および**フィールドタイプ**です。（rect要素）
 5. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-:::tip TIP To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
+:::tip TIP フィールドタイプは，カンマ区切りの整数リストで指定することができます。ドロップを許可するフィールドタイプは**正の値**，許可しないフィールドは**負の値**で指定します。 たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
 
-To include all types, just type ios:type="all". :::
+すべてのタイプをサポートする場合，ios:type="all"と指定します。 :::
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+manifest.jsonはテンプレートの**仕様書**，template.svgは**エディターのための情報**であり，画像ファイルは**アイコン**であることがわかりました。 いよいよXcodeの出番です！
