@@ -1,11 +1,11 @@
 ---
 id: many-to-one-relations
-title: Many to One relations
+title: Ｎ対１リレーション
 ---
 
-4D v17 R5 includes a new concept: Many to One relations
+4D v17 R5以降，Ｎ対１リレーションがサポートされるようになりました。
 
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。 :::
+:::tip OBJECTIVES このレッスンでは，テーブル同士をリンクするリレーションの名前を使用します。 ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。 :::
 
 素材プロジェクトをダウンロードしてください。
 
@@ -14,12 +14,12 @@ title: Many to One relations
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">Ｎ対１素材プロジェクト</a>
 
   </p>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+ここでは，タスクと一緒にカテゴリをアプリの詳細画面に表示したいと考えています。まず，**開く > モバイルプロジェクト…**から**StarteriOSProject**プロジェクトを開きます。
 
 「ストラクチャ」セクションに移動し，**Task**テーブルを選択します。
 
@@ -43,7 +43,7 @@ Here we want to display the category for each task in the detail form of your ge
 
 ![「ラベル＆アイコン」セクションに表示された１フィールド](assets/en/relations/related-field-from-labels-icons.png)
 
-* Go to the Forms section and drag the field on the Task Detail form
+* 「フォーム」セクションでは，詳細フォームに１フィールドをドラッグ＆ドロップします。
 
 ![「フォーム」セクションに表示された１フィールド](assets/en/relations/related-field-forms.png)
 
