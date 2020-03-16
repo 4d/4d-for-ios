@@ -90,7 +90,7 @@ and
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
-You can now build your project from the project editor!
+これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！
 
 The result should look like this:
 
@@ -134,7 +134,7 @@ In order to indicate in the project editor that all of the elements included in 
 
 Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
-![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
+![オブジェクトID ストーリーボード](assets/en/relations/Custom-button-object-id-storyboard.png)
 
 The process is a little bit tricky... So let's begin by opening the storyboard file with your favorite code editor!
 
