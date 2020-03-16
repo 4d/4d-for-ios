@@ -20,10 +20,10 @@ title: クエリフィルターを設定する
 
 ![CRM（顧客管理）データベース](assets/en/restricted-queries/filterquery.png)
 
-:::tip NOTE * A **filter** icon is displayed at the right of each table when a basic filter is applied to it. * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox. * Size will be calculated at the first build for you to visualize the **size of your data**. :::
+:::tip NOTE * クエリフィルターが設定されているテーブルの横には**フィルター（漏斗）**のアイコンが表示されます。 * 今回のような単純なフィルターの場合，「**ビルドされたアプリにデータを埋め込み**」チェックボックスをクリックすることにより，アプリにデータを埋め込むか，それともログイン後にロードさせるか，選ぶことができます。 * ビルドを実行すると，計算された**データサイズ**が画面上で確認できるようになります。 :::
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
+アプリをビルドして実行しましょう。メールアドレス "michelle.simpson@mail.com" を入力してログインすると，今度は*進行中*の商談がすべてシミュレーターに表示されます！
 
-![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
+![単純なクエリフィルターが設定されているアプリ](assets/en/restricted-queries/restrited-queries-basic-query.png)
 
-Not exactly what we expected! What we want now is for each account manager to visualize only their own *In Progress* contracts, so let's complete our query!
+残念！ ここで実現したかったのは，ログインしたユーザーが担当している*進行中*の商談を表示することでした。クエリフィルターにもう少し条件を加えることが必要です。
