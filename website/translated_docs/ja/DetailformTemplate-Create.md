@@ -5,11 +5,11 @@ title: Detail form templates
 
 :::tip OBJECTIVES Create your first list form template. :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
-![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
+![カスタムテンプレート（完成）](assets/en/custom-detailform/custom-template-final-result.png)
 
 ## スタータープロジェクトをダウンロードする
 
