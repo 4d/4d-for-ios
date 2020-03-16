@@ -310,7 +310,7 @@ As with Table actions in List forms, a generic Actions button is available in th
 
 If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
 
-![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
+![メッセージを送信する](assets/en/actions/Action-parameters-sendComment.png)
 
 From here, you can:
 
