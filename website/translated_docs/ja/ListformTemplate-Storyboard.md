@@ -3,11 +3,11 @@ id: storyboard-listform-template
 title: ストーリーボード
 ---
 
-iOSアプリのカスタムリストフォームをXcodeで作成しましょう！
+iOSアプリのカスタムリスト画面をXcodeで作成しましょう！
 
 完成イメージ
 
-![カスタムリストフォームのストーリーボード](assets/en/custom-listform/storyboard-custom-listform.png)
+![カスタムリスト画面のストーリーボード](assets/en/custom-listform/storyboard-custom-listform.png)
 
 セル内に表示されるフィールドのレイアウトをデザインしましょう。
 
@@ -59,7 +59,7 @@ Image Viewのレイアウトがバッチリ決まりました！
 
 **Add New Constraints**（ウィンドウ下にある線に挟まれた四角のアイコン）ボタンをクリックして余白を設定します。左側の余白（Leading）は11，右側の余白（Trailing）は11，上側の余白（Top）は10，下側の余白（Bottom）は11.67と表示されているので，それぞれのボタン（赤い線）をクリックして余白を有効にします。
 
-![View位置の制約](assets/en/custom-listform/view-constraints-storyboard.png)
+![Viewの制約](assets/en/custom-listform/view-constraints-storyboard.png)
 
 Viewの上にObject LibraryからLabelをドラッグ＆ドロップします。
 
@@ -103,9 +103,9 @@ RelationをEqualから**Greater Than or Equal**に変更します。垂直方向
 
 ![ラベル行数](assets/en/custom-listform/label-lines-number.png)
 
-:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+:::tip NOTE このストーリーボードは，セルの内容に応じて**高さが可変**になるよう，Animatable Table ViewのRow HeightとEstimateがAutomaticに設定されています。
 
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png) :::
+![セルの高さ](assets/en/custom-listform/row-height-tableview-cell.png) :::
 
 ## セルにデータが表示されるようにする
 
@@ -125,7 +125,7 @@ Image Viewを選択し，**Identity inspector**（ウィンドウ右側パネル
 
 ### ラベル
 
-Select the first label and add a row in the Defined Runtime Attributes:
+高い位置のラベルを選択し，User Defined Runtime Attributesに行を追加します。
 
 * **Key Path**: ```bindTo.record.___FIELD_2___```
 
@@ -133,9 +133,9 @@ Select the first label and add a row in the Defined Runtime Attributes:
 
 * **Value**: ```___FIELD_2_BINDING_TYPE___```
 
-![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
+![Field 2のバインディング](assets/en/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+低い位置のラベルを選択し，User Defined Runtime Attributesで下記の１行を追加します。
 
 * **Key Path**: ```bindTo.record.___FIELD_3___```
 
@@ -143,24 +143,24 @@ Select the second label and add a row in the Defined Runtime Attributes:
 
 * **Value**: ```___FIELD_3_BINDING_TYPE___```
 
-![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
+![Field 3のバインディング](assets/en/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+直感的に理解できるように**ストーリーボードに表示されるラベル**を変更することができます。
 
 * 高い位置のラベルを選択し，下記のように入力します。 ```___FIELD_2_LABEL___```
 * 低い位置のラベルを選択し，下記のように入力します。 ```___FIELD_3_LABEL___```
 
-![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
+![ラベル表示名](assets/en/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+4D for iOSのプロジェクトエディターを開き，リストフォームのカスタムテンプレートを選択した上で， アプリをビルドして実行します。
 
-Here is the simulator result :
+シミュレーターでうまく動けば，成功です。
 
 ![Simulator result](assets/en/custom-listform/simulator-result.png)
 
 ## さらにカスタマイズする
 
-The last step is adding a corner radius to the Image View to have a better design.
+Image Viewの角の丸みをカスタマイズして，デザインに個性を持たせましょう。
 
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
@@ -178,22 +178,22 @@ and
 
 * **Value**: チェックします。
 
-![ImageView corner Radius](assets/en/custom-listform/imageview-corner-radius.png)
+![Image View角の丸み](assets/en/custom-listform/imageview-corner-radius.png)
 
-You can now build your project from the project editor!
+これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！
 
-![Custom template final result](assets/en/custom-listform/custom-template-final-result.png)
+![カスタムテンプレート（完成）](assets/en/custom-listform/custom-template-final-result.png)
 
 ## これからどうする？
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. しかし，知るべきことは，これだけではありません！ In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+このレッスンでは，リスト画面のカスタムテンプレートを作成する方法を紹介しました。 素材プロジェクトから始めて，シンプルなカスタムテンプレートが簡単に自作できる，という手応えが得られたのではないでしょうか。 しかし，知るべきことは，これだけではありません！ 続くレッスンでは，詳細フォームのカスタムテンプレートを作成する方法が取り上げられます。お楽しみに！ 今回のまとめは**完成カスタムテンプレート（リストフォーム）**からダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">完成カスタムテンプレート（リスト画面）</a>
 
   </p>
 </div>
