@@ -5,9 +5,9 @@ title: 詳細画面のテンプレート
 
 :::important BEFORE STARTING
 
-1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+1. カスタム詳細画面テンプレートを使用するには，`YourDatabase.4dbase/Resources/Mobile/form/detail` フォルダーを作成します。
 
-2. カスタムリスト画面テンプレートは，このフォルダーの中にインストールします。 :::
+2. テンプレートは，このフォルダーにインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -25,10 +25,10 @@ title: 詳細画面のテンプレート
         
         <ul style="font-size:16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>関連ファイル:</strong> あり
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>アクション:</strong> 対応
           </li>
           <li>
             <strong>ピクチャフィールド:</strong> 不要
@@ -51,10 +51,10 @@ title: 詳細画面のテンプレート
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>関連ファイル:</strong> あり
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>アクション:</strong> 対応
           </li>
           <li>
             <strong>ピクチャフィールド:</strong> 不要
@@ -84,10 +84,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>関連ファイル:</strong> あり
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>アクション:</strong> 対応
             </li>
             <li>
               <strong>ピクチャフィールド:</strong> 不要
@@ -110,13 +110,13 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>関連ファイル:</strong> あり
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>アクション:</strong> 対応
             </li>
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
           </ul>
           
@@ -147,7 +147,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -170,7 +170,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -201,7 +201,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -224,7 +224,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -255,7 +255,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>チャート:</strong> あり
             </li>
           </ul>
           
@@ -278,7 +278,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>チャート:</strong> あり
             </li>
           </ul>
           
@@ -309,7 +309,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>チャート:</strong> あり
             </li>
           </ul>
           
@@ -332,7 +332,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>チャート:</strong> あり
             </li>
           </ul>
           
@@ -363,7 +363,7 @@ title: 詳細画面のテンプレート
               <strong>ピクチャフィールド:</strong> 不要
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>チャート:</strong> あり
             </li>
           </ul>
           
@@ -383,10 +383,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -414,10 +414,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -437,10 +437,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -468,10 +468,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -491,10 +491,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -522,10 +522,10 @@ title: 詳細画面のテンプレート
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>ピクチャフィールド:</strong> 必要
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>チャート:</strong> なし
             </li>
           </ul>
           
@@ -538,5 +538,5 @@ title: 詳細画面のテンプレート
       </tr></table> </div> 
       
       <p>
-        :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
+        :::tip MORE 詳細画面のテンプレートは<a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>で公開されています。 :::
       </p>
