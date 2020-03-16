@@ -6,9 +6,9 @@ title: データフォーマッター
 
 :::important BEFORE STARTING
 
-1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+1. カスタムフォーマッターをインストールするために `YourDatabase.4dbase/Resources/formatters` フォルダーを作成してください。
 
-2. Then drop the formatter folder into it. :::
+2. フォーマッターは，このフォルダーの中にインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -26,13 +26,13 @@ title: データフォーマッター
         
         <ul style="font-size:16px">
           <li>
-            <strong>Format:</strong> Text ⟶ Mail
+            <strong>フォーマット:</strong> テキスト → メール
           </li>
           <li>
-            <strong>Function:</strong> open the mail app on click
+            <strong>動作:</strong> メールアプリを開く
           </li>
           <li>
-            <strong>Type:</strong> Swift formatter
+            <strong>タイプ:</strong> Swift フォーマッター
           </li>
           <div style="text-align: center; margin-top: 40px;">
             <p>
@@ -48,13 +48,13 @@ title: データフォーマッター
               
               <ul style="font-size:16px">
                 <li>
-                  <strong>Format:</strong> Text ⟶ URL
+                  <strong>フォーマット:</strong> テキスト → URL
                 </li>
                 <li>
-                  <strong>Function:</strong> open Safari app on click
+                  <strong>動作:</strong> ブラウザアプリを開く
                 </li>
                 <li>
-                  <strong>Type:</strong> Swift formatter
+                  <strong>タイプ:</strong> Swift フォーマッター
                 </li>
                 <div style="text-align: center; margin-top: 40px;">
                   <p>
@@ -78,13 +78,13 @@ title: データフォーマッター
                     
                     <ul style="font-size:16px">
                       <li>
-                        <strong>Format:</strong> Number ⟶ Phone number
+                        <strong>フォーマット:</strong> 数字 → 電話番号
                       </li>
                       <li>
-                        <strong>Function:</strong> call the number on click
+                        <strong>動作:</strong> 電話をかける
                       </li>
                       <li>
-                        <strong>Type:</strong> Swift formatter
+                        <strong>タイプ:</strong> Swift フォーマッター
                       </li>
                       <div style="text-align: center; margin-top: 40px;">
                         <p>
@@ -100,13 +100,13 @@ title: データフォーマッター
                           
                           <ul style="font-size:16px">
                             <li>
-                              <strong>Format:</strong> Text ⟶ Address
+                              <strong>フォーマット:</strong> テキスト → 住所
                             </li>
                             <li>
-                              <strong>Function:</strong> open Map app on click
+                              <strong>動作:</strong> 地図アプリを開く
                             </li>
                             <li>
-                              <strong>Type:</strong> Swift formatter
+                              <strong>タイプ:</strong> Swift フォーマッター
                             </li>
                             <div style="text-align: center; margin-top: 40px;">
                               <p>
@@ -130,10 +130,10 @@ title: データフォーマッター
                                 
                                 <ul style="font-size:16px">
                                   <li>
-                                    <strong>Format:</strong> Integer ⟶ Image
+                                    <strong>フォーマット:</strong> 整数 → 画像
                                   </li>
                                   <li>
-                                    <strong>Type:</strong> basic formatter
+                                    <strong>タイプ:</strong> 単純なフォーマッター
                                   </li>
                                   <div style="text-align: center; margin-top: 40px;">
                                     <p>
@@ -149,10 +149,10 @@ title: データフォーマッター
                                       
                                       <ul style="font-size:16px">
                                         <li>
-                                          <strong>Format:</strong> Integer ⟶ String
+                                          <strong>フォーマット:</strong> 整数 → 文字列
                                         </li>
                                         <li>
-                                          <strong>Type:</strong> basic formatter
+                                          <strong>タイプ:</strong> 単純なフォーマッター
                                         </li>
                                         <div style="text-align: center; margin-top: 40px;">
                                           <p>
@@ -176,10 +176,10 @@ title: データフォーマッター
                                             
                                             <ul style="font-size:16px">
                                               <li>
-                                                <strong>Format:</strong> Text ⟶ Image
+                                                <strong>フォーマット:</strong> テキスト → 画像
                                               </li>
                                               <li>
-                                                <strong>Type:</strong> basic formatter
+                                                <strong>タイプ:</strong> 単純なフォーマッター
                                               </li>
                                               <div style="text-align: center; margin-top: 40px;">
                                                 <p>
@@ -195,10 +195,10 @@ title: データフォーマッター
                                                   
                                                   <ul style="font-size:16px">
                                                     <li>
-                                                      <strong>Format:</strong> Text ⟶ String
+                                                      <strong>フォーマット:</strong> テキスト → 文字列
                                                     </li>
                                                     <li>
-                                                      <strong>Type:</strong> basic formatter
+                                                      <strong>タイプ:</strong> 単純なフォーマッター
                                                     </li>
                                                     <div style="text-align: center; margin-top: 40px;">
                                                       <p>
@@ -222,10 +222,10 @@ title: データフォーマッター
                                                         
                                                         <ul style="font-size:16px">
                                                           <li>
-                                                            <strong>Format:</strong> Bool ⟶ Image
+                                                            <strong>フォーマット:</strong> ブール → 画像
                                                           </li>
                                                           <li>
-                                                            <strong>Type:</strong> basic formatter
+                                                            <strong>タイプ:</strong> 単純なフォーマッター
                                                           </li>
                                                           <div style="text-align: center; margin-top: 40px;">
                                                             <p>
@@ -241,10 +241,10 @@ title: データフォーマッター
                                                               
                                                               <ul style="font-size:16px">
                                                                 <li>
-                                                                  <strong>Format:</strong> Bool, Real, Integer ⟶ Emoji
+                                                                  <strong>フォーマット:</strong> ブール・実数・整数 → 絵文字
                                                                 </li>
                                                                 <li>
-                                                                  <strong>Type:</strong> basic formatter
+                                                                  <strong>タイプ:</strong> 単純なフォーマッター
                                                                 </li>
                                                                 <div style="text-align: center; margin-top: 40px;">
                                                                   <p>
@@ -268,10 +268,10 @@ title: データフォーマッター
                                                                     
                                                                     <ul style="font-size:16px">
                                                                       <li>
-                                                                        <strong>Format:</strong> Text ⟶ html
+                                                                        <strong>フォーマット:</strong> テキスト → HTML
                                                                       </li>
                                                                       <li>
-                                                                        <strong>Type:</strong> Swift formatter
+                                                                        <strong>タイプ:</strong> Swift フォーマッター
                                                                       </li>
                                                                       <div style="text-align: center; margin-top: 40px;">
                                                                         <p>
@@ -280,5 +280,5 @@ title: データフォーマッター
                                                                       </div></td> </tr> </table> </div> 
                                                                       
                                                                       <p>
-                                                                        :::tip MORE You can find more formatters on <a href="https://4d-for-ios.github.io/gallery/#/type/formatter">github</a>. :::
+                                                                        :::tip MORE フォーマッターは<a href="https://4d-for-ios.github.io/gallery/#/type/formatter">github</a>で公開されています。 :::
                                                                       </p>
