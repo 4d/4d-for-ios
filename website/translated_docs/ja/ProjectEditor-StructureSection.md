@@ -1,6 +1,6 @@
 ---
 id: structure
-title: Structure
+title: ストラクチャ
 ---
 
 This section displays all of your database tables and fields exposed by 4D Mobile Service.
@@ -12,7 +12,7 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your app.
 * fields will be available later when it's time to define your list and detail forms.
 
-## Many to One relations
+## Ｎ対１リレーション
 
 * 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
 
@@ -22,7 +22,7 @@ To help you define your app's structure, multiple filters and a search engine ar
 
 :::tip TIPS You can publish a selection of fields by pressing the spacebar rather than selecting them one by one. :::
 
-## One to Many relations
+## １対Ｎリレーション
 
 ### Deal with One to Many relations from the project editor
 
