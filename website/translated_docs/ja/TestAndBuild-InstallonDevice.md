@@ -3,17 +3,17 @@ id: install-device
 title: iOSデバイスにインストールする
 ---
 
-:::tip OBJECTIVES Install a 4D for iOS application on a connected device :::
+:::tip OBJECTIVES Macにケーブルで接続されたデバイスに4D for iOSアプリをインストールする :::
 
-:::important PREREQUISITES * Apple Developer Program. * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (Apple configurator 2 requires macOS 10.14 or later). :::
+:::important PREREQUISITES * Apple Developer Programのメンバーシップ * アプリのインストールを自動化するために[Apple Configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) がMacにインストールされていること (インストールには macOS 10.14 以降が必要） :::
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+Apple Developer Programのメンバーシップは，好みと必要に応じ，下記のどれかを選びます。
 
 * [無料のApple Developer Program](free-developer-account.html): 配付せずにテストだけできれば良い場合
 * [組織](register-apple-developer-program-organization.html)または[個人向けのApple Developer Program](register-apple-developer-program-individual.html): App Store経由で配付したい場合
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): インハウスで，つまりApp Storeを経由せずに配付したい場合
 
-Let's go through the process...
+おおまかな流れは以下の通りです。
 
 ## ⒈ アカウントを作成する
 
@@ -36,11 +36,11 @@ Let's go through the process...
 
 * プロジェクトエディターの画面を「ビルド」タブに切り替えて，「プロジェクトをXcodeで開く…」メニューを選択します。
 
-![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
+![「ビルド」タブ](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
 * **Automatically manage signing**オプションがチェックされていることを確認してください。Teamドロップダウンリストをクリックし，[ここ](free-developer-account.html)で追加したアカウントを選択します。
 
-![Account-Selection](assets/en/test-build/account-Selection-Free-Account.png)
+![アカウントの選択](assets/en/test-build/account-Selection-Free-Account.png)
 
 * iOSデバイスをUSBケーブルでコンピューターに接続し，XcodeのメニューバーにあるSchemeのメニュー（図を参照）をクリックして，接続中のデバイスを選択します。
 
@@ -70,7 +70,7 @@ Let's go through the process...
 * iOSデバイスをUSBケーブルでコンピューターに接続します。
 * 「ビルド」タブの**インストール**ボタンをクリックします。
 
-![Install button](assets/en/test-build/Install-button-build-tab-4D-for-iOS.png)
+![「インストール」ボタン](assets/en/test-build/Install-button-build-tab-4D-for-iOS.png)
 
 * デバイス上にアプリのインストールが開始するはずです！
 
@@ -80,15 +80,15 @@ Let's go through the process...
 * iOSデバイスをUSBケーブルでコンピューターに接続します。
 * 「ビルド」タブの**インストール**ボタンをクリックします。
 
-![Manual installation](assets/en/test-build/Manual-installation-4D-for-iOS.png)
+![マニュアル操作でインストール](assets/en/test-build/Manual-installation-4D-for-iOS.png)
 
 * プロジェクトのアーカイブが作成されます。
 
-![Archive creation](assets/en/test-build/Archive-creation.png)
+![アーカイブの作成](assets/en/test-build/Archive-creation.png)
 
 * アーカイブの作成に成功してダイアログが表示されたら「OK」をクリックし，アーカイブの場所をFinderで開きます。
 
-![Reveal archive in Finder](assets/en/test-build/Reveal-archive-in-Finder.png)
+![アーカイブをFinderに表示](assets/en/test-build/Reveal-archive-in-Finder.png)
 
 * Xcodeを起動し，アプリケーションメニュー ＞ Window ＞ Devices and Simulatorを選択して，生成されたipaファイルをInstalled Appsセクションにドラッグ＆ドロップします。
 
