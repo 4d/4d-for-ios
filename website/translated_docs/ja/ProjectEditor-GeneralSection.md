@@ -1,6 +1,6 @@
 ---
 id: general
-title: General
+title: 一般
 ---
 
 This section allows you to define your app's main information.
