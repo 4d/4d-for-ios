@@ -21,7 +21,7 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
   </p>
 </div>
 
-[アクションのドキュメント](actions.html#ios-app-side)で説明されていたように，アクションは下記いずれかのレベルに対して設定することができます。
+[アクションのドキュメント](actions.html#ios-app-side)で述べたように，アクションは下記いずれかのレベルに対して設定することができます。
 
 * エンティティに対するアクション
 * テーブルに対するアクション
@@ -144,7 +144,7 @@ $0:=$out
 
 ### ⒈ 「アクション」セクションで設定すること
 
-Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
+休暇に出かけるなど，**すべてのタスク** をまとめて「延期」に設定したいようなときは，どうすれば良いでしょうか。
 
 下記のステップで実現することができます。
 
