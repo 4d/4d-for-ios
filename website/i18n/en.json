@@ -44,6 +44,15 @@
       "data-formatter": {
         "title": "Data formatter"
       },
+      "debugging-from-iphone": {
+        "title": "From your iPhone"
+      },
+      "debugging-from-the-project-editor": {
+        "title": "From the project editor"
+      },
+      "debugging-from-xcode": {
+        "title": "From Xcode"
+      },
       "deploy-app-store-archive-and-upload": {
         "title": "Archive and upload your Project"
       },
@@ -418,6 +427,7 @@
       "Testing and Building": "Testing and Building",
       "Deploying In-House": "Deploying In-House",
       "Deploying on App Store": "Deploying on App Store",
+      "Debugging": "Debugging",
       "Creating your iOS App": "Creating your iOS App",
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List forms": "Creating List forms",
