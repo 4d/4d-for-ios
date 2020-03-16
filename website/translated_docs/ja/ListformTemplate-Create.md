@@ -5,15 +5,15 @@ title: リストフォームのテンプレート
 
 :::tip OBJECTIVES Create your first list form template. :::
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+このレッスンでは，リストフォーム用のカスタムテンプレートを作成するために必要なスキルを身につけることができます。これには，フォームに**検索窓**を追加すること，**画像**フィールドを表示すること，各行のセルに**タイトル**と**サブタイトル**を表示することが含まれます。
 
-![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
+![リストフォームテンプレート（完成）](assets/en/custom-listform/custom-template-final-result.png)
 
 ## プロジェクトをダウンロードする
 
-Before we begin, be sure to download the **Starter Project** which includes:
+**素材プロジェクト**をダウンロードしてください。下記のものが収録されています。
 
 * **Custom List form**フォルダー 
 * **Contact.4dbase**ファイル（データベースとプロジェクトのセット）
@@ -23,34 +23,34 @@ Before we begin, be sure to download the **Starter Project** which includes:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">素材プロジェクト</a>
 
   </p>
 </div>
 
-You are now ready to create your first list form template!
+これでフォーマッターを作成する準備が整いました！
 
 ## プロジェクトにリストフォームのテンプレートを追加する
 
-The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
+はじめに*Contact.4dbase/Resources/Mobile/form/list*フォルダーを作成します。 その中に**list form**フォルダーをドラッグ＆ドロップします。
 
-![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
+![Mobileフォルダーに収録されているリストフォームのテンプレート](assets/en/custom-listform/mobile-folder-custom-template.png)
 
-Next, open the Contact.4dbase file with 4D. (File > open > Mobile Project > **Contact Demo App**)
+Contact.4dbaseファイルを4Dで開きます。 （ファイル ＞ 開く ＞ モバイルプロジェクト… ＞ **Contact Demo App**）
 
-Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
+追加したテンプレートがプロジェクトエディターの**フォーム**セクションに表示されていれば成功です！
 
 ![フォームセクション](assets/en/custom-listform/custom-listform-template.png)
 
-Now let's focus on the contents of the **Custom List form** folder.
+**Custom List form**フォルダーの中に注目しましょう。
 
 ## テンプレートの構造
 
-In this folder, you'll find:
+フォルダーの中は，下記のようになっています。
 
 * **layoutIconx2.png**: 160x160pxサイズのアイコンファイルです。プロジェクトエディターに表示されます。
 * **manifest.json**: テンプレートの基本的な説明が記述されています。
 * **template.svg**: リストフォームのレイアウトを決定する画面に表示されるテンプレートのプレビューです。
 * Sources: **storynoard**（グラフィカルインターフェース）および**swift**（フォームをコントロールするコード） ファイルが収録されています。
 
-What are these files? What are they used for? How can you customize them?
+ファイルの内容が気になりますね！ それぞれどのような働きをするのでしょうか？ どうやってカスタマイズするのでしょうか？
