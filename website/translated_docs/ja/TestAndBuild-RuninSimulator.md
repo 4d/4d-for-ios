@@ -3,24 +3,24 @@ id: simulator
 title: シミュレーターを使用する
 ---
 
-:::tip OBJECTIVES Test your app in the Simulator. :::
+:::tip OBJECTIVES 作成したアプリをiOSシミュレーターでテストしましょう！ :::
 
-Finished developing you app and want to test it?
+作成したアプリを早く動かしてたいと思いませんか？
 
 ## ⒈ デバイスを選択する
 
-Go to the BUILD tab from the Project Editor and select an iOS device (aka the Simulator) to use for running your app.
+プロジェクトエディターを「ビルド」タブに切り替えて，動作チェックに使用するシミュレーターで起動するiOSデバイスのモデルを選択します。
 
-![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
+![デバイスの選択](assets/en/test-build/device-selection-4D-for-ios.png)
 
 ## ⒉ ビルドして実行
 
-Click on the **Build and Run** button.
+**ビルドして実行**ボタンをクリックします。
 
 ![ビルドして実行](assets/en/test-build/build-and-run-4D-for-iOS.png)
 
 ## ⒊ 動作をチェックする
 
-Test navigating between the list and detail forms in your app.
+詳細フォームとリストフォームを行き来し，アプリの動きを確かめます。
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![シミュレーターで動作チェック](assets/en/test-build/simulator-forms-4D-for-iOS.png)
