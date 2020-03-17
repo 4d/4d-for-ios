@@ -21,7 +21,7 @@
         "title": "はじめてのアプリ"
       },
       "4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization"
+        "title": "4D for iOS プロジェクトの構成"
       },
       "customize-your-ios-app": {
         "title": "Customize your 4D for iOS App"
@@ -30,7 +30,7 @@
         "title": "作業をXcodeに引き継ぐ"
       },
       "xcode-overview": {
-        "title": "Xcode Overview"
+        "title": "Xcode ガイド"
       },
       "data-formatter-build-and-run": {
         "title": "プロジェクトをビルドして実行"
@@ -220,7 +220,7 @@
         "title": "はじめてのアプリ"
       },
       "version-18.0/version-18.0-4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization"
+        "title": "4D for iOS プロジェクトの構成"
       },
       "version-18.0/version-18.0-customize-your-ios-app": {
         "title": "Customize your 4D for iOS App"
@@ -229,7 +229,7 @@
         "title": "作業をXcodeに引き継ぐ"
       },
       "version-18.0/version-18.0-xcode-overview": {
-        "title": "Xcode Overview"
+        "title": "Xcode ガイド"
       },
       "version-18.0/version-18.0-data-formatter-build-and-run": {
         "title": "プロジェクトをビルドして実行"
