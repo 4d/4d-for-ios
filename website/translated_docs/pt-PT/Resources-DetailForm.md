@@ -1,13 +1,13 @@
 ---
 id: custom-detailform-templates
-title: Detail Form Templates
+title: Modelos de formulários detalhados
 ---
 
 :::important ANTES DE COMEÇAR
 
-1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+1. Para usar um modelo de formulário detalhado personalizado, é preciso criar uma pasta`YourDatabase.4dbase/Resources/Mobile/form/detail` .
 
-2. Then drop the list form folder into it. :::
+2. Depois solte a pasta do formulário lista dentro dela. :::
 
 <div style="height: auto;">
   <table>
@@ -20,18 +20,18 @@ title: Detail Form Templates
       
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Client Detail
+          Detalhes do cliente
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sim
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Ações:</strong> incluídas
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagem necessária:</strong> não
           </li>
         </ul>
         
@@ -46,18 +46,18 @@ title: Detail Form Templates
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Invoice Detail
+          Detalhe de faturas
         </h1>
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Recursos incluídos:</strong> sim
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Ações:</strong> incluídas
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagem necessária:</strong> não
           </li>
         </ul>
         
@@ -79,18 +79,18 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">
-            Tasks Detail
+            Detalhe Tarefas
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sim
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>Ações:</strong> incluídas
             </li>
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
           </ul>
           
@@ -105,18 +105,18 @@ title: Detail Form Templates
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">
-            Parallax Detail
+            Detalhe de Parallax
           </h1>
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Recursos incluídos:</strong> sim
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>Ações:</strong> incluídas
             </li>
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
           </ul>
           
@@ -139,15 +139,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Simple List
+            Lista simples
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -167,10 +167,10 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -193,15 +193,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Simple Header
+            Cabeçalho simples
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -216,15 +216,15 @@ title: Detail Form Templates
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Sliding Header
+            Cabeçalho Sliding
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -247,15 +247,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Tasks
+            Tarefas
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graph:</strong> sim
             </li>
           </ul>
           
@@ -275,10 +275,10 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graph:</strong> sim
             </li>
           </ul>
           
@@ -301,15 +301,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Numbers
+            Números
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graph:</strong> sim
             </li>
           </ul>
           
@@ -324,15 +324,15 @@ title: Detail Form Templates
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Circle
+            Círculo
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graph:</strong> sim
             </li>
           </ul>
           
@@ -355,15 +355,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Triple Circle
+            Círculo Triplo
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graph:</strong> sim
             </li>
           </ul>
           
@@ -378,15 +378,15 @@ title: Detail Form Templates
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Dashboard
+            Painel
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -409,15 +409,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Simple Contact
+            Contato simples
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -432,15 +432,15 @@ title: Detail Form Templates
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Visual Contact
+            Contato visual
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -463,15 +463,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Left Cut Header
+            Cabeçalho cortado à esquerda
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -491,10 +491,10 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -517,15 +517,15 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Right Cut Header
+            Cabeçalho cortado à direita
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graph:</strong> não
             </li>
           </ul>
           
@@ -538,5 +538,5 @@ title: Detail Form Templates
       </tr></table> </div> 
       
       <p>
-        :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
+        :::tip MORE Pode achar mais modelos de formulário detalhado em <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
       </p>
