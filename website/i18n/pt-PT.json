@@ -181,7 +181,7 @@
         "title": "List Forms Templates"
       },
       "define-filter-query": {
-        "title": "Define a filter query"
+        "title": "Definir um filtro de pesquisa"
       },
       "filter-query-introduction": {
         "title": "Restricted queries"
@@ -380,7 +380,7 @@
         "title": "List Forms Templates"
       },
       "version-18.0/version-18.0-define-filter-query": {
-        "title": "Define a filter query"
+        "title": "Definir um filtro de pesquisa"
       },
       "version-18.0/version-18.0-filter-query-introduction": {
         "title": "Restricted queries"
