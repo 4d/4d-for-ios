@@ -3,21 +3,21 @@ id: filter-query-introduction
 title: Restricted queries
 ---
 
-:::tip OBJECTIVES Defining basic and user information-based query filters to display filtered content in the generated iOS app. :::
+:::tip OBJECTIVES Definir filtros de pesquisa básicos, e baseados em informação de usuários, para exibir conteúdo filtrado no app iOS gerado. :::
 
 :::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
-Click [here](prerequisites.html) to see what you'll need to get started!
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
 
 </div>
 
-In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
+Neste tutorial vamos falar sobre **pesquisas restritas** com um caso simples: imagine que você é um gerente de contas e queira consultar seus contratos *Em Progresso* simplesmente conectando ao seu app com seu endereço de email.
 
-First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
+Primeiro, na seção Dados vamos definir um **filtro de pesquisa básico** para exibir apenas contratos *Em Progresso*. Então vamos aplicar um **filtro baseado em informação de usuário** que vai depender do email do gerente de contas.
 
 ## Baixe o Starter Project
 
-Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
+Antes de começar, tenha certeza de baixar o **Starter Project** que incui um arquivo **4DforiOSQueries.4dbase** (um banco de dados demo com um projeto app móvel pronto-para-usar)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -29,15 +29,15 @@ href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/d
   </p>
 </div>
 
-The database includes a:
+O banco de dados inclui um:
 
-* **CRM table** with all the data we want to display in the generated iOS app
-* **AccountManager table** with basic information about the account managers (email and name).
+* **tabela CRM** com todos os dados que quisermos exibir no app gerado iOS
+* **tabela AccountManager ** com informação básica sobre os administradores de contas (email e nome).
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
-:::tip NOTE This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html). :::
+:::tip NOTE Este projeto usa [modelos personalizados](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html). :::
 
-You're now ready to define your first restricted query!
+Você já está preparado para definir sua primeira pesquisa restrita!
 
-Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
+Abra o projeto móvel clicando em Open > Mobile Project... e selecione o app CRM > **project.4dmobileapp**.
