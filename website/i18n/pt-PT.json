@@ -187,7 +187,7 @@
         "title": "Restricted queries"
       },
       "user-information-query": {
-        "title": "User information query"
+        "title": "Filtro de pesquisa usuário"
       },
       "template": {
         "title": "Templates & Formatters"
@@ -386,7 +386,7 @@
         "title": "Restricted queries"
       },
       "version-18.0/version-18.0-user-information-query": {
-        "title": "User information query"
+        "title": "Filtro de pesquisa usuário"
       },
       "version-18.0/version-18.0-template": {
         "title": "Templates & Formatters"
