@@ -6,7 +6,7 @@
 
               ga('create', 'UA-129154982-1', 'auto');
               ga('send', 'pageview');
-            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/fr/overview.html" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/docs/" target="_self">Doc 4D</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/en/define-first-action.html">English</a></li><li><a href="/4d-for-ios/docs/es-ES/define-first-action.html">Español</a></li></ul></div></li><script>
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/fr/overview.html" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/docs/" target="_self">Doc 4D</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/en/define-first-action.html">English</a></li><li><a href="/4d-for-ios/docs/ja/define-first-action.html">日本語</a></li><li><a href="/4d-for-ios/docs/es-ES/define-first-action.html">Español</a></li></ul></div></li><script>
         const languagesMenuItem = document.getElementById("languages-menu");
         const languagesDropDown = document.getElementById("languages-dropdown");
         languagesMenuItem.addEventListener("click", function(event) {
@@ -109,75 +109,75 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
 <h3><a class="anchor" aria-hidden="true" id="étape-2-créer-et-modifier-la-méthode-base-sur-une-action-app-mobile"></a><a href="#étape-2-créer-et-modifier-la-méthode-base-sur-une-action-app-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Créer et modifier la méthode base &quot;Sur une action app mobile&quot;</h3>
 <p>Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc créer la méthode base <a href="https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html"><strong>Sur une action app mobile</strong></a>.</p>
 <p>Pour ce faire, cliquez sur le <strong>bouton Editer...</strong> en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : <strong>Sur une action app mobile</strong> :</p>
-<pre><code class="hljs css language-code4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
+C_OBJECT($<span class="hljs-number">1</span>)
 
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>)
+C_OBJECT($o;$context;$request;$result)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+$request:=$<span class="hljs-number">1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
 
-<span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.<span class="hljs-function">context</span><span class="hljs-keyword">
+$context:=$request.context
 
-Case of</span>
+<span class="hljs-keyword">Case</span> of
 
-    :<span class="hljs-function"> </span>(<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"taskDone"</span>)
+    : ($request.action=<span class="hljs-string">"taskDone"</span>)
 
-        <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
-        <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
-        <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey;\
+        $o:=<span class="hljs-literal">New</span> object(\
+        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
+        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
         <span class="hljs-string">"CompletePercentage"</span>;<span class="hljs-number">100</span>)
 
-        <span class="hljs-variable">$result</span>:=<span class="hljs-function">modifyStatus </span>(<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
+        $result:=modifyStatus ($o)
 
-    Else</span>
+    <span class="hljs-keyword">Else</span>
 
           <span class="hljs-comment">// Unknown request</span>
-        <span class="hljs-variable">$result</span>:=<span class="hljs-function">New object</span>(<span class="hljs-string">"success"</span>;<span class="hljs-literals">False</span>)<span class="hljs-keyword">
+        $result:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-literal">False</span>)
 
-End case</span>
+End <span class="hljs-keyword">case</span>
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$result</span>  <span class="hljs-comment">// Informations returned to mobile application</span>
+$<span class="hljs-number">0</span>:=$result  <span class="hljs-comment">// Informations returned to mobile application</span>
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="étape-3-créer-une-méthode-modifystatus"></a><a href="#étape-3-créer-une-méthode-modifystatus" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Créer une méthode &quot;modifyStatus&quot;</h3>
 <p>Une fois votre méthode base modifiée, vous devez créer une méthode <strong>modifyStatus</strong> qui permettra de réaliser la tâche demandée :</p>
-<pre><code class="hljs css language-code4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">C_OBJECT(<span class="hljs-variable">$0</span>)
+C_OBJECT(<span class="hljs-variable">$1</span>)
 
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
+C_OBJECT(<span class="hljs-variable">$dataClass</span>;<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>;<span class="hljs-variable">$status</span>;<span class="hljs-variable">$selection</span>)
 
 <span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
 
-<span class="hljs-variable">$selection</span>:=ds[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-function">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-function">String</span>(<span class="hljs-variable">$in</span>.ID))<span class="hljs-keyword">
+<span class="hljs-variable">$selection</span>:=<span class="hljs-keyword">ds</span>[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-keyword">query</span>(<span class="hljs-string">"ID = :1"</span>;<span class="hljs-built_in">String</span>(<span class="hljs-variable">$in</span>.ID))
 
-If</span><span class="hljs-function"> </span>(<span class="hljs-variable">$selection</span>.length=<span class="hljs-number">1</span>)
+<span class="hljs-keyword">If</span> (<span class="hljs-variable">$selection</span>.length=1)
 
-    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>[<span class="hljs-number">0</span>]
+    <span class="hljs-variable">$entity</span>:=<span class="hljs-variable">$selection</span>[0]
 
-    <span class="hljs-variable">$entity</span>.CompletePercentage:=<span class="hljs-variable">$in</span>.<span class="hljs-function">CompletePercentage</span>
+    <span class="hljs-variable">$entity</span>.CompletePercentage:=<span class="hljs-variable">$in</span>.CompletePercentage
 
-    <span class="hljs-variable">$entity</span>.Status:=<span class="hljs-number">3</span>
+    <span class="hljs-variable">$entity</span>.Status:=3
 
-    <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()
+    <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-keyword">save</span>()
 
-    <span class="hljs-variable">$out</span>:=<span class="hljs-function">New object</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>:=New object
 
-    If</span><span class="hljs-function"> </span>(<span class="hljs-variable">$status</span>.success)
+    <span class="hljs-keyword">If</span> (<span class="hljs-variable">$status</span>.success)
 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App that action is successful</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App to refresh this entity</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>.success:=True  <span class="hljs-comment">// notify App that action is successful</span>
+        <span class="hljs-variable">$out</span>.dataSynchro:=True  <span class="hljs-comment">// notify App to refresh this entity</span>
 
-    Else</span>
+    <span class="hljs-keyword">Else</span>
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span>
 
-    End if</span><span class="hljs-keyword">
+    End <span class="hljs-keyword">if</span>
 
-Else</span>
+<span class="hljs-keyword">Else</span>
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literals">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=False  <span class="hljs-comment">// notify App that action failed</span>
 
-End if</span>
+End <span class="hljs-keyword">if</span>
 
 <span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
 
@@ -199,73 +199,73 @@ End if</span>
 <p><img src="/4d-for-ios/docs/assets/en/actions/PostponedAll-action-definition.png" alt="Postponed action definition"></p>
 <h3><a class="anchor" aria-hidden="true" id="étape-2-modifier-la-méthode-action"></a><a href="#étape-2-modifier-la-méthode-action" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Modifier la méthode action</h3>
 <p>Cliquez sur le <strong>bouton Créer...</strong> en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : <strong>Sur une action app mobile</strong>  :</p>
-<pre><code class="hljs css language-code4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
+C_OBJECT($<span class="hljs-number">1</span>)
 
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>)
+C_OBJECT($o;$context;$request;$result)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+$request:=$<span class="hljs-number">1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
 
-<span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.<span class="hljs-function">context</span><span class="hljs-keyword">
+$context:=$request.context
 
-Case of</span>
+<span class="hljs-keyword">Case</span> of
 
-    :<span class="hljs-function"> </span>(<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"taskDone"</span>)
+    : ($request.action=<span class="hljs-string">"taskDone"</span>)
 
-        <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
-        <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
-        <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey;\
+        $o:=<span class="hljs-literal">New</span> object(\
+        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
+        <span class="hljs-string">"ID"</span>;$context.entity.primaryKey;\
         <span class="hljs-string">"CompletePercentage"</span>;<span class="hljs-number">100</span>)
 
-        <span class="hljs-variable">$result</span>:=<span class="hljs-function">modifyStatus </span>(<span class="hljs-variable">$o</span>)
+        $result:=modifyStatus ($o)
 
-    :<span class="hljs-function"> </span>(<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"postponeAll"</span>)
+    : ($request.action=<span class="hljs-string">"postponeAll"</span>)
 
-        <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
-        <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
+        $o:=<span class="hljs-literal">New</span> object(\
+        <span class="hljs-string">"dataClass"</span>;$context.dataClass;\
         <span class="hljs-string">"Status"</span>;<span class="hljs-number">4</span>)
 
-        <span class="hljs-variable">$result</span>:=<span class="hljs-function"> postponeAll </span>(<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
-    Else</span>
+        $result:= postponeAll ($o)
+    <span class="hljs-keyword">Else</span>
 
           <span class="hljs-comment">// Unknown request</span>
-        <span class="hljs-variable">$result</span>:=<span class="hljs-function">New object</span>(<span class="hljs-string">"success"</span>;<span class="hljs-literals">False</span>)<span class="hljs-keyword">
+        $result:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-literal">False</span>)
 
-End case</span>
+End <span class="hljs-keyword">case</span>
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$result</span>  <span class="hljs-comment">// Informations returned to mobile application</span>
+$<span class="hljs-number">0</span>:=$result  <span class="hljs-comment">// Informations returned to mobile application</span>
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="étape-3-créer-une-méthode-postponeall"></a><a href="#étape-3-créer-une-méthode-postponeall" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Créer une méthode &quot;postponeAll&quot;</h3>
 <p>Tout comme vous avez créé la méthode <strong>modifyStatus</strong>, suivez les mêmes étapes et créez une nouvelle méthode <strong>postponeAll</strong> qui permettra de modifier le statut de tous les enregistrements :</p>
-<pre><code class="hljs css language-code4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
+C_OBJECT($<span class="hljs-number">1</span>)
 
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>)
+C_OBJECT($entity;$in;$out)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
+$in:=$<span class="hljs-number">1</span>
 
-<span class="hljs-variable">$out</span>:=<span class="hljs-function">New object</span>(<span class="hljs-string">"success"</span>;<span class="hljs-literals">False</span>)<span class="hljs-keyword">
+$out:=<span class="hljs-keyword">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-keyword">False</span>)
 
-If</span><span class="hljs-function"> </span>(<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-literals">Null</span>)<span class="hljs-keyword">
+<span class="hljs-keyword">If</span> ($in.dataClass<span class="hljs-comment">#Null)</span>
 
-    For each</span><span class="hljs-function"> </span>(<span class="hljs-variable">$entity</span>;ds[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-function">all</span>())
+    <span class="hljs-keyword">For</span> each ($entity;ds[$in.dataClass].all())
 
-        <span class="hljs-variable">$entity</span>.Status:=<span class="hljs-variable">$in</span>.<span class="hljs-function">Status</span>
-        <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()<span class="hljs-keyword">
+        $entity.Status:=$in.Status
+        $entity.save()
 
-    End for each</span>
+    End <span class="hljs-keyword">for</span> each
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span><span class="hljs-keyword">
+    $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
+    $out.dataSynchro:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
 
-Else</span>
+<span class="hljs-keyword">Else</span>
 
-    <span class="hljs-variable">$out</span>.errors:=<span class="hljs-function">New collection</span>(<span class="hljs-string">"No Selection"</span>)<span class="hljs-keyword">
+    $out.errors:=<span class="hljs-keyword">New</span> collection(<span class="hljs-string">"No Selection"</span>)
 
-End if</span>
+End <span class="hljs-keyword">if</span>
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+$<span class="hljs-number">0</span>:=$out
 
 </code></pre>
 <p>Générez et exécutez votre projet ! Vous trouverez un nouveau <strong>bouton générique</strong> dans la barre de navigation de votre formulaire Liste. Cliquez dessus pour déclencher l'action <strong>Postpone All</strong>.</p>

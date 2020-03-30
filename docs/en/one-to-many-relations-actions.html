@@ -6,7 +6,7 @@
 
               ga('create', 'UA-129154982-1', 'auto');
               ga('send', 'pageview');
-            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/docs/" target="_self">4D Doc</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/es-ES/one-to-many-relations-actions.html">Español</a></li><li><a href="/4d-for-ios/docs/fr/one-to-many-relations-actions.html">Français</a></li></ul></div></li><script>
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/css/main.css"/><script src="/4d-for-ios/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/docs/" target="_self">4D Doc</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/docs/ja/one-to-many-relations-actions.html">日本語</a></li><li><a href="/4d-for-ios/docs/es-ES/one-to-many-relations-actions.html">Español</a></li><li><a href="/4d-for-ios/docs/fr/one-to-many-relations-actions.html">Français</a></li></ul></div></li><script>
         const languagesMenuItem = document.getElementById("languages-menu");
         const languagesDropDown = document.getElementById("languages-dropdown");
         languagesMenuItem.addEventListener("click", function(event) {
@@ -106,49 +106,49 @@ $result:=addProject ($o)
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="addproject-method"></a><a href="#addproject-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>addProject Method</h2>
 <p>Then enter thoses lines in your <strong>addProject Method</strong>:</p>
-<pre><code class="hljs css language-code4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<pre><code class="hljs css language-code4d">C_OBJECT($<span class="hljs-number">0</span>)
+C_OBJECT($<span class="hljs-number">1</span>)
 
-<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$entity</span>;<span class="hljs-variable">$in</span>;<span class="hljs-variable">$out</span>)
+C_OBJECT($entity;$in;$out)
 
-<span class="hljs-variable">$in</span>:=<span class="hljs-variable">$1</span>
-<span class="hljs-variable">$out</span>:=<span class="hljs-function">New object</span>(<span class="hljs-string">"success"</span>;<span class="hljs-literals">False</span>)<span class="hljs-keyword">
+$in:=$<span class="hljs-number">1</span>
+$out:=<span class="hljs-keyword">New</span> object(<span class="hljs-string">"success"</span>;<span class="hljs-keyword">False</span>)
 
-If</span><span class="hljs-function"> </span>(<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-literals">Null</span>)
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$entity</span>:=ds[<span class="hljs-variable">$in</span>.dataClass].<span class="hljs-function">new</span>()  <span class="hljs-comment">//Create a reference</span><span class="hljs-keyword">
+<span class="hljs-keyword">If</span> ($in.dataClass<span class="hljs-comment">#Null)</span>
     
-    For each</span><span class="hljs-function"> </span>(<span class="hljs-variable">$key</span>;<span class="hljs-variable">$in</span>.parameters)
-<span class="hljs-function">        </span>
-        <span class="hljs-variable">$entity</span>[<span class="hljs-variable">$key</span>]:=<span class="hljs-variable">$in</span>.parameters[<span class="hljs-variable">$key</span>]<span class="hljs-keyword">
+    $entity:=ds[$in.dataClass].<span class="hljs-keyword">new</span>()  <span class="hljs-comment">//Create a reference</span>
+    
+    <span class="hljs-keyword">For</span> each ($key;$in.parameters)
         
-    End for each</span><span class="hljs-function"> </span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$primaryKey</span>:=<span class="hljs-variable">$in</span>.parent.primaryKey   <span class="hljs-comment">//Get parent primary key</span>
-<span class="hljs-function">        </span>
-    <span class="hljs-variable">$parent</span>:=ds[<span class="hljs-variable">$in</span>.parent.dataClass].<span class="hljs-function">get</span>(<span class="hljs-variable">$primaryKey</span>)
-<span class="hljs-function">  </span>
-  <span class="hljs-variable">$inverseRelationName</span>:=<span class="hljs-variable">$in</span>.entity.relationName   <span class="hljs-comment">//Get parent relation name</span>
-
-    <span class="hljs-variable">$entity</span>[<span class="hljs-variable">$inverseRelationName</span>]:=<span class="hljs-variable">$parent</span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//save the entity</span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App that action success</span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literals">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task added"</span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$out</span>.close:=<span class="hljs-literals">True</span><span class="hljs-keyword">
+        $entity[$key]:=$in.parameters[$key]
+        
+    End <span class="hljs-keyword">for</span> each 
     
-Else</span><span class="hljs-function"> </span>
-<span class="hljs-function">    </span>
-    <span class="hljs-variable">$out</span>.errors:=<span class="hljs-function">New collection</span>(<span class="hljs-string">"No Selection"</span>)<span class="hljs-keyword">
-    
-End if</span><span class="hljs-function"> </span>
+    $primaryKey:=$in.<span class="hljs-keyword">parent</span>.primaryKey   <span class="hljs-comment">//Get parent primary key</span>
+        
+    $parent:=ds[$in.<span class="hljs-keyword">parent</span>.dataClass].get($primaryKey)
+  
+  $inverseRelationName:=$in.entity.relationName   <span class="hljs-comment">//Get parent relation name</span>
 
-<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
+    $entity[$inverseRelationName]:=$parent
+    
+    $status:=$entity.save()  <span class="hljs-comment">//save the entity</span>
+    
+    $out.success:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App that action success</span>
+    
+    $out.dataSynchro:=<span class="hljs-keyword">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
+    
+    $out.statusText:=<span class="hljs-string">"Task added"</span>
+    
+    $out.close:=<span class="hljs-keyword">True</span>
+    
+<span class="hljs-keyword">Else</span> 
+    
+    $out.errors:=<span class="hljs-keyword">New</span> collection(<span class="hljs-string">"No Selection"</span>)
+    
+End <span class="hljs-keyword">if</span> 
+
+$<span class="hljs-number">0</span>:=$out
 
 </code></pre>
 <p>And that's it you can then add some task to your employees easily using the parent Entity !</p>
