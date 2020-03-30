@@ -120,7 +120,7 @@ title: データフォーマッター
                             
                             <tr>
                               <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-                                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntToImage/master/formatter.png" />
+                                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
                               </td>
                               
                               <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
