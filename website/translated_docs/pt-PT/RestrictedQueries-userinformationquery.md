@@ -31,6 +31,6 @@ Isso permite recuperar o endereço de email e exibir dados dependendo desses cri
 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+Agora se construir seu app e digitar "michelle.simpson@mail.com" como email de login, vai encontrar todos os contratos de Michelle Simpson que estejam *"In progress"*
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
