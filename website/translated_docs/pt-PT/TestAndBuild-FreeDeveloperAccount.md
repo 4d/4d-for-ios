@@ -1,15 +1,15 @@
 ---
 id: free-developer-account
-title: Free Apple Developer account
+title: Conta Desenvolvedor Apple gratuita
 ---
 
-Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
+Mesmo se não quiser pagar os $99 por ano para se unir ao programa de desenvolvedores Apple, pode criar uma Apple ID gratuita e usá-la para acessar um conjunto limitado de privilégios para desenvolvedores.
 
 ## PASSO 1. Apple ID
 
 Se não tiver uma identificação Apple, vá para '[Passo 2](#step-2-create-your-apple-id)
 
-If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
+Se já tiver uma Apple ID, vá para [o Passo 3](#step-3-open-xcode)
 
 ## PASSO 2. Crie sua Apple ID
 
