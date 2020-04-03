@@ -1,26 +1,26 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: １対Ｎとアクション
 ---
 
-:::tip OBJECTIVES We are now going to go a little bit further and **create a task for a specific employee**. :::
+:::tip OBJECTIVES 今度は， **特定の担当者（１レコード）のためにタスク（Ｎレコード）を作成する**場合を考えましょう。 :::
 
-It is very easy to create an entity using **parent Entity** !
+**親エンティティ**さえきちんと特定できていれば，子エンティティを作成するのは少しも難しいことはではありません！
 
 素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">スタータープロジェクト - １対Ｎとアクション</a>
   </p>
 </div>
 
-## Create addProject action
+## addProject アクションを作成する
 
 * Open the project editor and go to the Action section.
 
-* Add a addProject Action
+* addProject アクションを追加します。
 
 ![create addProject Method](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
 
