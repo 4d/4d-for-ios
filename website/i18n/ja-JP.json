@@ -160,7 +160,7 @@
         "title": "Ｎ対１リレーション"
       },
       "one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "１対Ｎとアクション"
       },
       "one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
@@ -359,7 +359,7 @@
         "title": "Ｎ対１リレーション"
       },
       "version-18.0/version-18.0-one-to-many-relations-actions": {
-        "title": "One to Many - Actions"
+        "title": "１対Ｎとアクション"
       },
       "version-18.0/version-18.0-one-to-many-relations-custom-button": {
         "title": "One to Many - Custom button"
