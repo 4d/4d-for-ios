@@ -1,36 +1,36 @@
 ---
 id: one-to-many-relations-custom-button
-title: One to Many - Custom button
+title: １対Ｎカスタムボタン
 ---
 
-As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
+これまですでに学んだように，4D for iOSでは，いろいろなものがカスタマイズできるようになっています。
 
-As for custom templates or custom formatters, you can create custom Relation Buttons.
+テンプレートやフォーマッターだけでなく，リレーションボタンもカスタマイズできます。
 
-To that end, nothing more simple! You just have to drop your custom button in your custom template.
+しかも，その手順はとても簡単！ カスタムテンプレートにカスタムボタンをドラッグ＆ドロップするだけです。
 
-Let's get started by downloading the Starter Project that includes:
+素材プロジェクトをダウンロードしてください。下記のものは収録されています。
 
-* a database with its mobile project
-* a standard Relation button
+* データベースとモバイルプロジェクト
+* 標準のリレーションボタン
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER CUSTOM BUTTON</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">素材プロジェクト - カスタムボタン</a>
 
   </p>
 </div>
 
-## Include the button
+## ボタンを追加する
 
 The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
 
 To use the button, you just need to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
 
-![Custom button path](assets/en/relations/Relation-custom-button-path.png)
+![カスタムボタンのパス](assets/en/relations/Relation-custom-button-path.png)
 
 The first step is done!
 
@@ -40,7 +40,7 @@ Open the .xib file with Xcode.
 
 It should look like this:
 
-![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
+![カスタムリレーションボタン](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
 
 And from the attribute inspector, you can change for example:
 
@@ -60,11 +60,11 @@ For the font color let's put a System background color with a helvetica Neue Med
 
 Finally, don't forget to select the System background color Tint to apply this color to the button icon.
 
-![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
+![カスタムリレーションボタン](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
 
 You should get this result in your Simulator in Dark and in Light mode:
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png)
+![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png)
 
 ### Button round corners
 
@@ -88,13 +88,13 @@ and
 
 * **Value**: Check the box
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
+![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
 これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！
 
 The result should look like this:
 
-![Custom relation color and font](assets/en/relations/Custom-relation-button-round-corners.png)
+![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-round-corners.png)
 
 ### Size and constraints
 
@@ -108,25 +108,25 @@ For this tutorial, we are just going to add a button height because we want it t
 
 Step 1. First select the view and change the height from 123 to 40
 
-![Button view height](assets/en/relations/Button-view-height.png)
+![ボタンビューの高さ](assets/en/relations/Button-view-height.png)
 
 Step 2. Double click on the **Top Space Constraint** and change it from 8 to 0
 
-![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
+![上部余白の制約](assets/en/relations/Top-Space-constraint.png)
 
 Step 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
 You should get this:
 
-![Custom  button constraints](assets/en/relations/Custom-button-constraints.png)
+![カスタムボタンの制約](assets/en/relations/Custom-button-constraints.png)
 
 Step 4. Add a height constraint of 40
 
-![Button height constraint](assets/en/relations/Button-height-constraint.png)
+![ボタンの高さ制約](assets/en/relations/Button-height-constraint.png)
 
 You should get this:
 
-![Horizontal in container](assets/en/relations/Custom-relation-button-constraints.png)
+![コンテナ内で水平](assets/en/relations/Custom-relation-button-constraints.png)
 
 In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
 
@@ -142,17 +142,17 @@ The process is a little bit tricky... So let's begin by opening the storyboard f
 
 Step 1. Select it from the Storyboard to get the Object ID
 
-![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
+![水平制約オブジェクトのID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
 Step 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
 Step 3. Save the xml file
 
-![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
+![水平制約のXMLファイル](assets/en/relations/Horizontal-constraint-xml-file.png)
 
 Step 4. Focus on the Storyboard to check if the constraint has been updated correctly
 
-![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
+![水平制約オブジェクトのID更新](assets/en/relations/Horizontal-object-id-updated.png)
 
 And that's it! Your button is now fully duplicable if you have more that one relation button to display...
 
@@ -165,7 +165,7 @@ In this tutorial, we've covered the basics for creating custom relation buttons.
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">FINAL CUSTOM BUTTON</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">カスタムボタンの完成プロジェクト</a>
 
   </p>
 </div>
