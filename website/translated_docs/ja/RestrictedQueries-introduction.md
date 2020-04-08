@@ -11,28 +11,25 @@ title: クエリフィルター
 
 </div>
 
-このレッスンでは，**クエリフィルター**（制限付きクエリ）の用法を具体的な例で考えます。想定しているユーザーは，営業担当者であり，アプリを開いてログインすれば，自分が担当している顧客で商談のステータスが*進行中*の案件だけが表示されるようにすることが目標です。
+In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
-はじめに，*進行中*の商談だけが表示されるよう，「データ」セクションで**基本的なクエリフィルター**を設定します。 その後，営業担当者のメールアドレスも条件に含まれるよう，**ユーザー情報に基づくクエリフィルター**を設定します。
+First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
 
-## プロジェクトをダウンロードする
+## スタータープロジェクトをダウンロードする
 
-はじめに， **素材プロジェクト**をダウンロードします。**4DforiOSQueries.4dbase**サンプルデータベースには，すぐに使えるモバイルアプリプロジェクトが含まれています。
+Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">素材プロジェクト</a>
-
   </p>
 </div>
 
 データベースに含まれているもの
 
-* **CRM**テーブル: iOSアプリに表示させたいデータが登録されています。
-* **AccountManager**テーブル: 営業担当者たちの基本情報（氏名やメールアドレス）が登録されています。
+* **CRM table** with all the data we want to display in the generated iOS app
+* **AccountManager table** with basic information about the account managers (email and name).
 
 ![CRM（顧客管理）データベース](assets/en/restricted-queries/CRMDatabase.png)
 
@@ -40,4 +37,4 @@ href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/d
 
 早速，はじめてのクエリフィルターを設定することに取り掛かりましょう！
 
-「開く > モバイルプロジェクト…」メニューを選択して，モバイルプロジェクトを開きましょう。 CRMアプリケーションの**project.4dmobileapp**ファイルを選択してください。
+Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
