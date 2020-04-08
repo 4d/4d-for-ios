@@ -7,7 +7,7 @@ title: 検索エリアに複数のフィールドを設定する
 
 4D for iOSに収録されているテンプレートの検索エリアは，すでに複数フィールドのクエリをサポートしています。
 
-## SVGファイルを編集する
+## テンプレートSVGファイル
 
 自分で作成したテンプレートを複数フィールドの検索に対応させるためには，template.svgファイルを下記のように書き換えてください。
 
@@ -33,7 +33,7 @@ title: 検索エリアに複数のフィールドを設定する
 
 設定フィールドを変更するには，検索エリアの削除ボタンをクリックします。
 
-必要に応じて**特定のフィールド** または**すべてのフィールド**をリストから取り除くことができます。
+A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
 
 ![検索エリアのフィールドリストを変更する](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
