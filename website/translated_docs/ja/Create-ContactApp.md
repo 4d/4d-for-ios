@@ -14,24 +14,20 @@ title: はじめてのアプリ
 iPhone用のオリジナル手帳アプリを作成しましょう。リスト画面で顧客名を探し，個別の詳細を確認できるようなイメージです。 アプリ名は "Contact" です。
 
 ## ⒈ データベースを用意する
-
 素材プロジェクトをダウンロードしてください。収録されているのは，データベースとアイコンだけであり，モバイルプロジェクトはありません。
 
 <div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">素材プロジェクト</a>
-
   </p>
 </div>
 
 ## ⒉ プロジェクトの作成
 
-テーブル１個だけのとてもシンプルなデザインから始めましょう。 ダウンロードした "Contact.4dbase" を4Dで開き，デザインモードのメニューから「 **新規 ＞ モバイル プロジェクト…**」を選択してください。
+テーブル１個だけのとてもシンプルなデザインから始めましょう。 From 4D, go to **New > Mobile project**.
 
-適当なプロジェクト名を英数字で入力した後， **作成**をクリックします。
+Give your project a name and click **Create**.
 
 ![プロジェクト作成](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
@@ -47,12 +43,12 @@ Click **Continue**.
 
 この画面では，アプリの基本的な情報を入力します。
 
-* **組織:** 開発者（あなた）の会社名とアプリの識別子を英数字で入力してください。（例: “My Company” および com.MyCompany）。
-* **プロダクト:** アプリの名前を英数字で入力してください。 ここでは "Contact" と名付けましょう。
-* **ID:**バンドル識別子は，組織の識別子とプロダクトの名前に基づいて自動的に決定されます。
-* **バージョン:** ここでは 1.0 にしておいてください。コピーライト情報は，編集しても構いません。 テキストのフォーマットは，なるべく4D for iOSのものを踏襲するようにしてください。
-* **アイコン:** 素材プロジェクトに収録されている画像ファイル（ContactIcon.png）をエリアにドラッグ＆ドロップします。
-* **デベロッパー:** Macのログインアカウント名が自動的に入力されているはずです。 部署名は，Appleデベロッパーアカウントの「部署」に表示されているものをコピー＆ペーストします。 実機ではなく，シミュレーター向けにビルドするだけであれば，空欄のままでも構いません。
+* **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” および com.MyCompany）。
+* **Product:** Enter your app's name. ここでは "Contact" と名付けましょう。
+* **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
+* **Version:** Leave the version as 1.0 and define your app's copyright. テキストのフォーマットは，なるべく4D for iOSのものを踏襲するようにしてください。
+* **Icons:** Drag and drop an icon for your app into the icon area.
+* **Developer:** This is automatically filled from the user name on your computer. 部署名は，Appleデベロッパーアカウントの「部署」に表示されているものをコピー＆ペーストします。 実機ではなく，シミュレーター向けにビルドするだけであれば，空欄のままでも構いません。
 
 ![一般](assets/en/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
@@ -60,7 +56,7 @@ Click **Continue**.
 
 iOSアプリからアクセスできるデータベースのサブセット（具体的にはテーブルやフィールド）を決めます。
 
-**ID**・**First Name**・**Last Name**・**Job**・**Company**・**Notes**・**Phone**・**Photo**を選択してください。
+For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.
 
 :::tip 注記 レコードが間違いなく特定できるようにするため，プライマリーキー（ここではIDフィールド）を含めることが強く勧められています。 :::
 
@@ -78,10 +74,10 @@ iOSアプリからアクセスできるデータベースのサブセット（�
 **フィールドプロパティ**
 
 * 選択したフィールドに短いラベルと長いラベルを設定します。
-* アイコン（はてまマーク）をクリックし，各フィールドのアイコンを設定します。 フィールドの場合，いくつかの方法があります。 
+* アイコン（はてまマーク）をクリックし，各フィールドのアイコンを設定します。 フィールドの場合，いくつかの方法があります。
     * 各フィールドにそれぞれ画像を選択して設定する
     * 少なくとも１個のフィールドに画像が設定され，他は空欄のままだった場合，未設定のフィールドには4D for iOSが自動的にアイコンを生成します。
-    * すべて空欄のままにした場合，フィールドのアイコンは表示されません。 
+    * すべて空欄のままにした場合，フィールドのアイコンは表示されません。
 
 ![ラベル＆アイコン](assets/en/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -89,8 +85,8 @@ iOSアプリからアクセスできるデータベースのサブセット（�
 
 アプリのメインメニュー（画面下部のタブバー）にテーブルが表示される順序を決めましょう。
 
-* **利用可能テーブル:** iOSアプリからアクセスできるテーブルが表示されています。
-* **選択されたテーブル:** アプリのメインメニューに追加されたテーブルが表示されています。 ここでは１個しかテーブルがありませんが，順序はドラッグ＆ドロップで変更できるようになっています。
+* **Available Tables:** Displays the table(s) to be used.
+* **Selected Tables:** Displays your app's menu items. ここでは１個しかテーブルがありませんが，順序はドラッグ＆ドロップで変更できるようになっています。
 
 ![Main Menu](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
@@ -98,23 +94,24 @@ iOSアプリからアクセスできるデータベースのサブセット（�
 
 あともう少しです！アプリの外観を決めるために，デザインを選びましょう。 リストフォームと詳細フォーム，それぞれのサンプルが用意されています。
 
-* レコードをリスト形式で表示するために，listビューのテンプレートを選択します。 ここでは，**Profile**テンプレートを使用しましょう。
+* レコードをリスト形式で表示するために，listビューのテンプレートを選択します。 For our Contact app, let’s use the **Profile** template.
 
 ![リストフォームのテンプレート](assets/en/contact-app/ListformTemplate-form-section-4D-for-iOS.png)
 
 テンプレートを選択すると，設定画面の下半分がテンプレートのリストからデザイン画面に切り替わります。
 
-* フィールドをテンプレートの対応するプレビューエリアに，*つまり*，LastNameは「検索に使用するフィールド」と「タイトル」にドラッグ＆ドロップします。 「検索に使用するフィールド」および「セクションとして使用するフィールド」の使用は任意です。Photoは「ピクチャー」，FirstNameは「サブタイトル」に設定し，「セクションとして使用するフィールド」は未設定のままにしておきましょう。
+* Drag and drop the fields you want displayed onto the template, <i>i.e.</i>, Last Name into the search and Title fields. 「検索に使用するフィールド」および「セクションとして使用するフィールド」の使用は任意です。Photoは「ピクチャー」，FirstNameは「サブタイトル」に設定し，「セクションとして使用するフィールド」は未設定のままにしておきましょう。
 
 ![リストフォーム](assets/en/contact-app/ListformContent-form-section-4D-for-iOS.png)
 
 あとは詳細フォームを決めるだけです。
 
-* アプリのコンセプトにふさわしいデザインを選ぶようにしてください。ここでは， **Visual Contact**テンプレートを使用しましょう。
+* Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
 
 ![詳細フォームのテンプレート](assets/en/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* フィールドをテンプレートの対応するプレビューエリアに，*つまり*，Photoは「ピクチャー」，FirstNameは「フィールド1」，LastNameは「フィールド2」にドラッグ＆ドロップします。
+
+* Drag and drop the content onto the appropriate places on the detail form template, <i>i.e.</i>, First Name, Last Name, and Photo.
 
 ![詳細フォーム](assets/en/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
@@ -122,23 +119,20 @@ iOSアプリからアクセスできるデータベースのサブセット（�
 
 おつかれさまでした！ デザインしたアプリをビルドして，シミュレーターで動かしてみましょう！
 
-* 画面を**ビルド**タブに切り替えます。
+* Click the **Build** tab.
 * 機種名のアイコンをクリックして，シミュレーターで起動するiOSデバイスのモデルを選びます。
-* **ビルドして実行**をクリックします。
+* Click  **Build and Run**.
 * そのまま待っていると… やりました！ iOSアプリの完成です！
 
 ![ビルドして実行](assets/en/contact-app/Build-the-app-simulator.png)
 
 ## ⒑ これからどうする？
 
-このレッスンでは，アプリの基本的な作り方を紹介しました。ほんとうに手軽に作れる，という手応えが得られたのではないでしょうか。 しかし，知るべきことは，これだけではありません！ 続くレッスンでは，もっと手の込んだアプリが取り上げられます。お楽しみに！今回のまとめは**完成プロジェクト**からダウンロードすることができます。
+このレッスンでは，アプリの基本的な作り方を紹介しました。ほんとうに手軽に作れる，という手応えが得られたのではないでしょうか。 しかし，知るべきことは，これだけではありません！ In the next tutorial, you’ll learn how to build an even more complex app. Click on **Final Project** below to download the final Contact app.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">完成プロジェクト</a>
-
   </p>
 </div>
