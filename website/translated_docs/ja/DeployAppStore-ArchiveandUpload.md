@@ -5,14 +5,13 @@ title: Archive and upload your Project
 
 :::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
 
-## ステップ 1 - Xcode configuration
-
-* If you have chosen an Apple Developer Account as an individual, your account is immediately available. 
+## ⒈ Xcode configuration
+* If you have chosen an Apple Developer Account as an individual, your account is immediately available.
 * If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.
 * When your account is accessible, add it to Xcode in Preferences > Accounts.
-* Xcode will automatically install the necessary provisioning and certificates. 
+* Xcode will automatically install the necessary provisioning and certificates.
 
-## ステップ 2 - Get your Team ID
+## ⒉ Get your Team ID
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
@@ -39,7 +38,7 @@ title: Archive and upload your Project
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
-## ステップ 4 - Open your project with Xcode
+## ⒋ Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
@@ -67,7 +66,7 @@ title: Archive and upload your Project
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by checking the **Automatically manage signing** option.
+* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
@@ -109,7 +108,7 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ## ⒐ Submit for Review
 
-* The final step to submitting your app for review is answering a few quick questions about your app. 
+* The final step to submitting your app for review is answering a few quick questions about your app.
 
 ![Submit for Review](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
