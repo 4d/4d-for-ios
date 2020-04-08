@@ -3,7 +3,7 @@ id: using-icons
 title: Using icons
 ---
 
-:::tip OBJECTIVES Use seus próprios ícones em projetos 4D for iOS. :::
+:::tip OBJECTIVES Use seus próprios ícones em projetos  4D for iOS. :::
 
 :::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
 
