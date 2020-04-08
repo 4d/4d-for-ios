@@ -7,7 +7,7 @@ title: アイコン
 
 :::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
 
-4D for iOSの「**ラベル＆アイコン**」セクションには，テーブルやフィールドに使用できるアイコンが用意されています。
+4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 
 ![アイコンライブラリ](assets/en/custom-icons/icon-library.png)
 
