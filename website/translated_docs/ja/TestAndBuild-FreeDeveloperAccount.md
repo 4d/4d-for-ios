@@ -11,25 +11,26 @@ Apple Developer Programの年間メンバーシップ料金は11,800円ですが
 
 すでにApple IDを持っているのであれば，[⒊](#step-3-open-xcode)に進んでください。
 
-## ⒉ Apple IDを作成する
+## ⒉ Create your Apple ID
 
 [Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
-![Apple IDの作成](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* 必要な情報をフォームに入力し，セキュリティの質問に答えます。
-* Appleから確認メールが送られます。
-* メールに記載されている確認コードを入力して，アカウントの作成を完了します。
+* Complete the form and security questions.
+* You'll receive a verification code by email.
+* Enter the verification code to validate your account creation.
 
-![確認コードの入力](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
+![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Apple IDが作成できました。⒊に進むことができます。
+* Once you have your Apple ID, you can continue to Step 3.
 
 ## ⒊ Xcodeを起動する
 
-* Xcodeを起動し，アプリケーションメニュー ＞ Preferences ＞ Accounts を選択します。
-* Apple IDを入力してサインインします。 
+* Launch Xcode > Preferences > Accounts
+* Apple IDを入力してサインインします。
 
 ![デベロッパーアカウント](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-おつかれさまでした！ 無料のApple IDでアプリを開発する準備ができました！
+Congratulations! 無料のApple IDでアプリを開発する準備ができました！
+
