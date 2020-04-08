@@ -10,7 +10,7 @@ The Forms section allows you to select both list and detail form templates for e
 Here's the breakdown of this screen, from top to bottom:
 
 * **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section. 
+* **Published tables:** Displays all tables published in the Structure section.
 * **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
