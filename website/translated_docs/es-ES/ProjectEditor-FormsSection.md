@@ -9,9 +9,9 @@ La sección Formularios le permite seleccionar las plantillas de formulario List
 
 Aquí está el desglose de esta pantalla, de arriba a abajo:
 
-* **Los formularios Lista y los formularios detallados:**permiten cambiar entre los formulario Lista y los formularios detallados para cada tabla.
-* **Las tablas publicadas:** muestra todas las tablas publicadas en la sección Estructura. 
-* **Formularios disponibles:** permite cambiar entre la selección de plantillas y la definición de contenido.
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Published tables:** Displays all tables published in the Structure section.
+* **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
