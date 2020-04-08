@@ -10,36 +10,33 @@ title: Many to One relations
 Commençons par télécharger le Projet Starter :
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
-
   </p>
 </div>
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
 
-Accédez directement à la section Structure, puis sélectionnez la **table Tasks**.
+Then go right to your Structure section and select the **Task table**.
 
-### Section Structure
+### Structure section
 
-* Vous pouvez constater que le **lien TaskCategory** est souligné
+* You can notice that the **TaskCategory relation** is underlined
 
 * En cliquant dessus, vous afficherez les champs disponibles à travers ce lien
 
-* Sélectionnez le **champ Name**
+* Select the **Name field**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
 * Ce champ aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application
 
-* Vous pouvez également filtrer le contenu de votre application à l’aide des champs liés, à partir de la section Données. Pour ce faire, saisissez ```TaskCategory.Name != 'Personal'``` dans le filtre de requête, pour exclure les tâches de type "Personal".
-    
-    ![Champs liés depuis la section Données](assets/en/relations/Related-field-from-Data-section.png)
+* Vous pouvez également filtrer le contenu de votre application à l’aide des champs liés, à partir de la section Données. To do so enter `TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
 
-* Vous pouvez ensuite sélectionner une **icône** et des **formats** et définir des **libellés courts et longs** dans la section Libellés et icônes
+ ![Champs liés depuis la section Données](assets/en/relations/Related-field-from-Data-section.png)
+
+* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
@@ -52,3 +49,5 @@ Accédez directement à la section Structure, puis sélectionnez la **table Task
 Votre champ lié devrait apparaitre dans le formulaire détaillé de votre application !
 
 ![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)
+
+
