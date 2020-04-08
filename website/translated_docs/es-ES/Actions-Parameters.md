@@ -23,7 +23,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
   </p>
 </div>
 
-## PASO 1. Añadir acción
+## PASO 1. Acción de añadir
 
 Comencemos por una tarea simple. Abra el proyecto móvil Tasks y vaya directamente a la **sección Actions**.
 
@@ -46,7 +46,7 @@ Para esto, creemos una acción utilizando una acción preestablecida **Agregar**
 
 En este punto, todos los **parámetros de las acciones de adición** se crean automáticamente y están listos para usar.
 
-## PASO 2. Editar acción
+## PASO 2. Acción de edición
 
 Ahora creemos una acción que le permitirá **editar el contenido de su aplicación**.
 
@@ -398,7 +398,7 @@ Y finalmente puede eliminar una entidad utilizando la acción **Eliminar... **.
 
 ![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
-## PASO 8. ¿Qué hacemos ahora?
+## PASO 8. ¿Qué hacer ahora?
 
 ¡Felicidades! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
 
