@@ -40,7 +40,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 The Build tab has four options:
 
-* Build and Run 
+* Build and Run
 * Simulator selection
 * Project and product browser
-* Install
+* Install 
