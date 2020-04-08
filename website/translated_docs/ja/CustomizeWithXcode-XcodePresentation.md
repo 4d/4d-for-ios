@@ -11,11 +11,11 @@ Xcode の各部の名称と役割に慣れ親しみましょう。
 
 ## ツールバー
 
-* ツールバーの左側には，**実行** および **停止** ボタンがあります。 **実行** ボタンは，アプリをビルドして，指定したiOS シミュレーターで起動するために使用します。
+* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
 
 ![ビルドして実行](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* **停止** ボタンの隣にあるドロップダウンメニューは，ビルドと実行のターゲットプラットフォームおよびシミュレーターの種類を選択するために使用します。
+* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
 
 ![ツールバー「ターゲット」](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
@@ -49,17 +49,17 @@ Xcode のユーティリティエリアは，「インスペクター」およ�
 
 各タブの役割は，左から右に向かって下記のとおりです。
 
-* **ファイルインスペクター**: ファイル名・タイプ・パスなど，ファイルのメタデータを管理するために使用します。
+* **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
 
-* **クイックヘルプ**: エディターで選択されているものに関する情報が表示されます。
+* **Quick Help**: For viewing details about what has been selected in an editor.
 
-* **アイデンティティーインスペクター**: オブジェクトのクラス・ランタイム属性・ラベルなど，オブジェクトのメタデータが表示されます。
+* **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
 
-* **属性インスペクター**: 選択されているインターフェースオブジェクトに固有の属性を設定するために使用します。 たとえば，テキストフィールドには，文字の整列・フォントカラー・ボーダータイプ・入力の可否といった属性があります。
+* **Attributes inspector**: For configuring the attributes specific to the selected interface object. たとえば，テキストフィールドには，文字の整列・フォントカラー・ボーダータイプ・入力の可否といった属性があります。
 
-* **サイズインスペクター**: インターフェースオブジェクトのサイズや位置を設定するために使用します。
+* **Size inspector**: For specifying characteristics such as the size and position of an interface object.
 
-* **コネクションインスペクター**: インターフェースオブジェクトのアウトレットやアクションを表示し，コネクションを作成または削除するために使用します。
+* **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
 
 ### ライブラリペイン
 
@@ -69,13 +69,13 @@ Xcode のユーティリティエリアは，「インスペクター」およ�
 
 ![ライブラリペイン](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
-* **ファイルテンプレート**: 新規ファイルメニューで作成できる代表的なファイルタイプのテンプレートです。
+* **File templates**: These templates are for the common types of files listed as choices in the New File menu.
 
-* **コードスニペット**: アプリケーション内で使用できるソースコードの例題です。 直接，ソースコードにドラッグ＆ドロップすることができます。
+* **Code snippets**: These are short pieces of source code for use in your application. 直接，ソースコードにドラッグ＆ドロップすることができます。
 
-* **オブジェクト**: このライブラリには，ユーザーインターフェースの部品となるようなインターフェースオブジェクトが収録されています。 直接，インターフェースビルダーに表示されているストーリーボードにドラッグ＆ドロップすることができます。
+* **Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. 直接，インターフェースビルダーに表示されているストーリーボードにドラッグ＆ドロップすることができます。
 
-* **メディアファイル**: このライブラリには，画像・アイコン・音声ファイルが収録されています。 直接，インターフェースビルダーに表示されているストーリーボードにドラッグ＆ドロップすることができます。
+* **Media files**: This library contains all your graphics, icons, and sound files. 直接，インターフェースビルダーに表示されているストーリーボードにドラッグ＆ドロップすることができます。
 
 ## デバッグエリア
 
@@ -85,18 +85,18 @@ Xcode のユーティリティエリアは，「インスペクター」およ�
 
 いくつものタブが存在しますが，特に重要なのは，下記のタブです。
 
-* **ナビゲーションタブ**: アプリケーションが正しく動作するために必要なファイルがリストアップされており，アクセスできるようになっています。
+* **Navigation tab**: Lists and provides access to all files necessary for your application to work properly.
 
 ![「ナビゲーション」タブ](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **サーチナビゲータータブ**: プロジェクト内のファイルを検索するために使用します。
+* **Search navigator tab**: Allows searching all files in the project.
 
 ![「サーチナビゲーター」タブ](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **イシューナビゲータータブ**: iOSプロジェクト内で発生したエラーは，ここに出力されます。
-    
-    * 赤のメッセージは，無視できない問題であり，アプリをビルドするためには，解消する必要があることを示しています。 
-    * 黄のメッセージは，警告であり，不具合を引き起こす可能性があるものの，アプリのビルドを阻止するものではない問題を示しています。 
+* **Issue navigator tab**: Displays all errors in an iOS project.
+
+    - 赤のメッセージは，無視できない問題であり，アプリをビルドするためには，解消する必要があることを示しています。
+    - 黄のメッセージは，警告であり，不具合を引き起こす可能性があるものの，アプリのビルドを阻止するものではない問題を示しています。
 
 問題や警告をクリックすると，プロジェクト内の発生箇所にジャンプすることができます。
 
