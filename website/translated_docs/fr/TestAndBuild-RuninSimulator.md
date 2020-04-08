@@ -13,7 +13,7 @@ Go to the BUILD tab from the Project Editor and select an iOS device (aka the Si
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 
-## ÉTAPE 2. Créez et exécutez
+## ÉTAPE 2. Créer & exécuter
 
 Click on the **Build and Run** button.
 
@@ -23,4 +23,4 @@ Click on the **Build and Run** button.
 
 Test navigating between the list and detail forms in your app.
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 
