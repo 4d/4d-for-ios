@@ -34,11 +34,6 @@ ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 **f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. This will allow you to drag and drop as many fields as you define.
 
 ## Areas position, height and width and type
-
-:::tip NOTE
-All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
-:::
-
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Duplicated field properties
@@ -131,9 +126,20 @@ You can define position, height, and width for all of your fields like  we did f
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
-:::tip TIP
+<div markdown="1" class = "tips">
+
+**NOTE**
+
+All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+
+</div>
+
+<div markdown="1" class = "tips">
+
+**TIP**
+
 * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, ```ios:type="-3,-4"``` will allow you to drag and drop every field exept images and dates.
 
 * To include all types, just type ```ios:type="all"```.
-:::
 
+</div>

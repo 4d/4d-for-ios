@@ -5,10 +5,15 @@ title: One to Many relations
 
 This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.
 
-:::tip OBJECTIVES
+
+<div markdown="1" class = "tips">
+
+**NOTE**
+
 In this tutorial, we will use the relation names between your tables.
 Giving descriptive relation names can make your project structure definition easier.
-:::
+
+</div>
 
 Let's get started by downloading the Starter Project:
 
