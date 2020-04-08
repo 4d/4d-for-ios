@@ -13,7 +13,7 @@ Se já tiver uma Apple ID, vá para [o Passo 3](#step-3-open-xcode)
 
 ## PASSO 2. Crie sua Apple ID
 
-Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
+Vá para  [a página de criação de Apple ID](https://appleid.apple.com/).
 
 ![Crie sua Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
@@ -28,8 +28,9 @@ Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 ## PASSO 3. Open Xcode
 
 * Launch Xcode > Preferences > Accounts
-* Add your Apple ID and sign in 
+* Add your Apple ID and sign in
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
 Parabéns! You're now ready to use your free Apple ID!
+
