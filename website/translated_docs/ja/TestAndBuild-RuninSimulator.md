@@ -15,7 +15,7 @@ title: シミュレーターを使用する
 
 ## ⒉ ビルドして実行
 
-**ビルドして実行**ボタンをクリックします。
+Click on the **Build and Run** button.
 
 ![ビルドして実行](assets/en/test-build/build-and-run-4D-for-iOS.png)
 
@@ -23,4 +23,4 @@ title: シミュレーターを使用する
 
 詳細フォームとリストフォームを行き来し，アプリの動きを確かめます。
 
-![シミュレーターで動作チェック](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![シミュレーターで動作チェック](assets/en/test-build/simulator-forms-4D-for-iOS.png) 
