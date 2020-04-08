@@ -11,7 +11,7 @@ iOSアプリのカスタム詳細画面をXcodeで作成しましょう！
 
 セル内に表示されるフィールドのレイアウトをデザインしましょう。
 
-* プロフィールのヘッダー画像 
+* プロフィールのヘッダー画像
 * 繰り返されるフィールド
 
 ## ストーリーボードをXcodeで開く
@@ -28,9 +28,11 @@ For our detail form to be scrollable, the first step is to drag and drop a "Scro
 
 ![Scroll Viewをストーリーボードに追加](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
+
 From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
 
 ![Scroll Viewの位置とサイズ](assets/en/custom-detailform/scrollview-position-height-width.png)
+
 
 Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
 
@@ -53,6 +55,7 @@ Drag and drop a view from the **Object library** to the Stack View you've just a
 Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
 
 ![Field View 2の追加](assets/en/custom-detailform/add-view2-storyboard.png)
+
 
 To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
 
@@ -84,7 +87,7 @@ Now that you have two views in your Stack View and you've defined constraints, l
 
 ## Add an Image View to Field View 1
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+From the **Object library**, drag and drop an  **Image View** into Field View 1.
 
 ![Image Viewをストーリーボードに追加](assets/en/custom-detailform/add-imageview-storyboard.png)
 
@@ -104,11 +107,11 @@ In the **Size inspector panel** change the Intrinsic Size from **Default** to **
 
 ### Title label
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. また，X座標を8に，Y座標も8に設定します。
+In the **Object library**, drag and drop a  **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. また，X座標を8に，Y座標も8に設定します。
 
 ![ラベル追加](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Double click on the label and name it "`___FIELD_LABEL___`". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
 
 ![タイトルのラベルフォントと文字カラー](assets/en/custom-detailform/title-label-font-and-color.png)
 
@@ -118,7 +121,7 @@ Duplicate the Title label and set the duplicate's Width value to 339 and the Hei
 
 ![ラベル追加](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Double click on the label and name it "`<___FIELD_LABEL___>`". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
 
 ![内容のラベルフォントと文字カラー](assets/en/custom-detailform/content-label-font-and-color.png)
 
@@ -131,16 +134,15 @@ You're done with graphical elements! All of your constraints are well defined :)
 ## How to get data into your cells
 
 ### Image View
-
-Image Viewを選択し，**Identity inspector**（ウィンドウ右側パネルの身分証明書アイコンをクリック）のUser Defined Runtime Attributesにアクセスします。 行を追加するために**＋**ボタンをクリックします。
+Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![ユーザー定義のランタイム属性](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path**: Start with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
 
-* **Type**: Always ```String```
+* **Type**: Always `String`
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
@@ -150,17 +152,17 @@ For the **first label** we are going to add several lines mainly to display icon
 
 ![Label 1 のユーザー定義ランタイム属性 ](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to ```IconLabel``` and check the **Inherit Module From Target** checkbox as we can see below:
+You also need to set the Class to `IconLabel` and check the **Inherit Module From Target** checkbox as we can see below:
 
 ![Label 1 カスタムクラス](assets/en/custom-detailform/label1-custom-class.png)
 
 Select the **second label** and add a row in the Defined Runtime Attributes:
 
-* **Key Path**: ```bindTo.record.___FIELD___```
+* **Key Path**: `bindTo.record.___FIELD___`
 
-* **Type**: ```String```
+* **Type**: `String`
 
-* **Value**: ```___FIELD_BINDING_TYPE___```
+* **Value**: `___FIELD_BINDING_TYPE___`
 
 ![Label 2 のユーザー定義ランタイム属性 ](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -228,17 +230,17 @@ We're going to add a corner radius to the Image View, as well as Field View 2.
 
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 and
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Boolean```
+* **Type**: `Boolean`
 
 * **Value**: Check the box
 
@@ -246,11 +248,11 @@ and
 
 Next, select Field View 2 and add the following:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 ![iPhone画面](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
@@ -260,14 +262,15 @@ Next, select Field View 2 and add the following:
 
 ## これからどうする？
 
-このレッスンでは，詳細画面のカスタムテンプレートを作成する方法を紹介しました。 素材プロジェクトから始めて，シンプルなカスタムテンプレートが簡単に自作できる，という手応えが得られたのではないでしょうか。 今回のまとめは**完成カスタムテンプレート（詳細画面）**からダウンロードすることができます。
+このレッスンでは，詳細画面のカスタムテンプレートを作成する方法を紹介しました。 素材プロジェクトから始めて，シンプルなカスタムテンプレートが簡単に自作できる，という手応えが得られたのではないでしょうか。 Click on **Final Project** below to download the completed template folder.
 
 <div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">完成カスタムテンプレート（詳細画面）</a>
-
   </p>
 </div>
+
+
+
+
