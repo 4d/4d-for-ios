@@ -10,16 +10,13 @@ title: １対Ｎリレーション
 素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">１対Ｎ素材プロジェクト</a>
-
   </p>
 </div>
 
-このレッスンでは，カラフルな**チェックリスト（Task）アプリ**を4D for iOSで作成します。
+In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.
 
 ![アプリ完成画面](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 
@@ -27,21 +24,20 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015a
 
 ![「ストラクチャ」セクションで１フィールドを選択する](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
-従業員（**１**テーブル）からタスク（**Ｎ**テーブル）に対し，**tasks**という名前のリレーションが張られていることに注目してください。
+As you can see, there is a One to Many link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to Many**).
 
-「開く＞モバイルプロジェクト…」メニューを選択します。 *Time Keeper*プロジェクトを開いて「**ストラクチャ**」にページを切り替えます。
+Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go to the **Structure section**.
 
 ## Structure section
 
-**tasks**リレーションが表示されているはずです。 これを公開しましょう！
+You can see the **tasks relation** we have seen earlier... これを公開しましょう！
 
 以後，リレーションは，通常のフィールドと同じように扱うことができるようになります。
 
-![「ストラクチャ」セクションの「リレーション」プロパティ](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
-
+![「ストラクチャ」セクションの「リレーション」プロパティ](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips">
 **ヒント**
 
-* リレーション名にマウスポインターを重ねると，テーブル名がヘルプTipsで表示されます。</div> 
+* リレーション名にマウスポインターを重ねると，テーブル名がヘルプTipsで表示されます。</div>
 
 ## Labels & Icons section
 
@@ -59,26 +55,23 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015a
 
 ## フォームセクション
 
-* 「フォーム」セクションにページを切り替えて，Employee TableのTask Detail画面に*tasks*リレーションをドラッグ＆ドロップします。
+* Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
 
 ![「フォーム」セクションに表示された１フィールド](assets/en/relations/1-to-n-relations-forms-section.png)
 
 ## ビルドして実行
 
-1. Employeeのリスト画面で適当な従業員をクリックします。 
-2. 従業員の情報が詳細画面に**Relation**ボタンが表示されているはずです。
-3. Relationボタンをクリックすると，選択されている従業員のタスクが表示されます。 
+1. Employeeのリスト画面で適当な従業員をクリックします。
+2. This will open the employee's detail form, where you should see a new **Relation button** !
+3. Relationボタンをクリックすると，選択されている従業員のタスクが表示されます。
 
 ![「フォーム」セクションに表示された１フィールド](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
 これだけです！4D for iOSで１対Ｎリレーションが使用できるようになりました！
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">完成プロジェクト</a>
-
   </p>
 </div>
