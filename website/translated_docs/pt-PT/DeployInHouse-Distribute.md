@@ -5,6 +5,7 @@ title: Distribua seu app in-House
 
 :::tip OBJECTIVES Upload your app to a secured server. :::
 
+
 ## PASSO 1. Suba sua aplicação
 
 Upload your app files to a secured server:
@@ -21,9 +22,10 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -41,9 +43,9 @@ Here is a simple example:
 
 * Quando abrir pela primeira vez um app empresarial que instalou manualmente, uma notificação será exibida que indica que o desenvolvedor da aplicação não é de confiança em seu dispositivo.
 
-* Ignore essa mensagem e clique **Cancel**.
+* Ignore this message and click **Cancel**.
 
-* Em Settings > General > Profiles ou Profiles & Device Management, no cabeçalho "Enterprise App", se lista o perfil do desenvolvedor.
+* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
