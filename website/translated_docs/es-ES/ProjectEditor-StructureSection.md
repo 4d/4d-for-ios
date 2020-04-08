@@ -22,7 +22,7 @@ Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un
 
 :::tip TIPS You can publish a selection of fields by pressing the spacebar rather than selecting them one by one. :::
 
-## Relaciones Uno a Muchos
+## One to Many relations
 
 ### Tratar las relaciones de Uno a Muchos desde el editor del proyecto
 
@@ -48,6 +48,8 @@ Basically a Relation button will be created in detail forms to go straight to th
 
 [Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
 
+
+
 ## Recarga incremental
 
 ### Autorizar las modificaciones de la estructura
@@ -56,14 +58,16 @@ In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new,
 
 To do so, 4D for iOS needs to make structure optimizations and create:
 
-* Una tabla ```__DeletedRecords``` para almacenar los registros borrados, y
-* Los campos ```__GlobalStamp``` para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
+* A `__DeletedRecords` table to store deleted records
+* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
 
 All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
 
 Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
+
 :::tip NOTE These optimizations are required for both local and server databases. :::
+
 
 ### ¡Halar para refrescar!
 
