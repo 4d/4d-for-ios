@@ -6,31 +6,31 @@ title: Prerrequisitos
 ## Requisitos de software
 
 * 4D Developer Pro v17 R2 64 bits (Desarrollo)
-* 4D Server v17 R2 64 bits (Despliegue) 
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional). 
+* 4D Server v17 R2 64 bits (Despliegue)
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional).
 
-Apple configurator 2 necesita **macOS 10.14** o superior. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
+Apple configurator 2 requires **macOS 10.14** or later. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
 
-Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
+Xcode 10.2 requieres **macOS 10.14** or later.
 
-## Tabla de comparación de las versiones
+## Tabla de comparación de versión
 
-| Xcode  | Swift | iOS      | 4D   | iOS 13.0 |
-| ------ | ----- | -------- | ---- | -------- |
-| 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4  |
-| 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4  |
-| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4  |
-| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3  |
-| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6  |
-| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6  |
-| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2  |
-| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2  |
+| Xcode  | Swift | iOS      | 4D   | macOS   |
+| ------ | ----- | -------- | ---- | ------- |
+| 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
+| 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
+| 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
+| 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
+| 10.1   | 4.2.1 | iOS 12   | 17R4 | 10.13.6 |
+| 10.0   | 4.2   | iOS 12   | 17R3 | 10.13.6 |
+| 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
+| 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
 ### Utilización de 17R6 con macOS 10.14.3
 
 4D 17R6 requiere Swift5.0 runtime. (ya instalado con macOS 10.14.4)
 
-* Instale `Swift 5 Runtime Support for Command Line Tools` desde [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ - Instale `Swift 5 Runtime Support for Command Line Tools` desde [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Utilización de 17R4 con Xcode 10.2
 
@@ -49,7 +49,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## Configuración
 
-* En las propiedades de la base 4D, visualice la página de compatibilidad y marque la casilla ** Utilizar la notación de objetos para acceder a las propiedades de los objetos (se requiere Unicode).**
+* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
