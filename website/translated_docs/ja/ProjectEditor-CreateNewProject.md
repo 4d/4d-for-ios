@@ -9,13 +9,13 @@ title: 新規プロジェクト
 
 実際に4D for iOSを起動してみましょう。
 
-4Dを起動し，データベースを開いて「**新規＞モバイルプロジェクト…**」メニューを選択します。
+Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-適当なプロジェクト名を英数字で入力した後， **作成**をクリックします。
+Give your project a name and click **Create**.
 
 ![プロジェクト名](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-自動的に表示されるランディングページには，4D for iOSの概要がシンプルにまとめられています。 「**今後表示しない**」チェックボックスを有効にすれば，次回からこの画面をスキップできるようになります。 Click **Continue**.
+自動的に表示されるランディングページには，4D for iOSの概要がシンプルにまとめられています。 You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
 ![ランディングページ](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
@@ -40,7 +40,7 @@ title: 新規プロジェクト
 
 ビルドタブには，４個のボタンが存在します。
 
-* ビルドして実行 
+* ビルドして実行
 * シミュレーター
 * プロジェクト
-* インストール
+* インストール 
