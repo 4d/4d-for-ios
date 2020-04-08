@@ -10,12 +10,9 @@ title: Many to One relations
 Let's get started by downloading the Starter Project:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
-
   </p>
 </div>
 
@@ -35,9 +32,9 @@ Then go right to your Structure section and select the **Task table**.
 
 * This field will operate as any other field for the rest of the app creation process
 
-* You can also filter your app content using related fields from the Data section. To do so enter ```TaskCategory.Name != 'Personal'``` in the Filter query field to exclude personal tasks.
-    
-    ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
+* You can also filter your app content using related fields from the Data section. To do so enter `TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
+
+ ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
 
 * You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
 
@@ -52,3 +49,5 @@ Then go right to your Structure section and select the **Task table**.
 You should see your related field in your app detail form !
 
 ![Related field in Forms section](assets/en/relations/final-result-n-to-one-relations.png)
+
+

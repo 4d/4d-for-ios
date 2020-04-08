@@ -5,6 +5,7 @@ title: Distribuer une application interne
 
 :::tip OBJECTIVES Upload your app to a secured server. :::
 
+
 ## ÉTAPE 1. Téléchargez votre application
 
 Upload your app files to a secured server:
@@ -21,9 +22,10 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -41,9 +43,9 @@ Here is a simple example:
 
 * Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignorez ce message et cliquez sur **Annuler**.
+* Ignore this message and click **Cancel**.
 
-* Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
+* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 

@@ -8,11 +8,9 @@ You can use any icon format (SVG or PNG is recommended to preserve transparency)
 It's highly recommended having colored versions of your custom icons to better visualize them in the project editor. For this tutorial, you can download the following icons:
 
 <div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="../assets/en/custom-icons/Custom-Icons.zip">CUSTOM ICONS</a>
-
   </p>
 </div>
+

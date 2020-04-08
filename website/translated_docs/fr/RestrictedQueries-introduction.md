@@ -20,19 +20,16 @@ First, from the Data section we're going define a **basic filter query** to only
 Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">PROJET STARTER</a>
-
   </p>
 </div>
 
 The database includes a:
 
-* **La table CRM** qui comprend l'ensemble des données que nous souhaitons afficher dans l'application iOS générée.
-* **La table AccountManager** qui comprend les informations de base sur les chargés de clientèle (nom et e-mail).
+* **CRM table** with all the data we want to display in the generated iOS app
+* **AccountManager table** with basic information about the account managers (email and name).
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 

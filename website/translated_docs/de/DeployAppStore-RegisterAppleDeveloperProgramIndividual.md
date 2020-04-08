@@ -30,7 +30,6 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 * You can register as a developer [here](https://developer.apple.com/account/).
 
 * Read and accept the Apple Developer Agreement.
-
 * Click **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)

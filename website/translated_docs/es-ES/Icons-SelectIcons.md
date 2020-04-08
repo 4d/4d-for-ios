@@ -18,3 +18,19 @@ Selecciona iconos adaptados a sus campos:
 Aquí está el resultado final:
 
 ![Contact icon](assets/en/custom-icons/custom-icons-final-result.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

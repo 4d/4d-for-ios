@@ -5,12 +5,12 @@ title: Labels & Icons
 
 Aqui é onde define as propriedades para suas tabelas, campos e relações:
 
-* **Etiquetas curtas e longas:** usadas de acordo com o espaço disponível no modelo (para otimizar espaço e evitar sobrecarregar a barra de abas).
-* **Icones:** 4D for iOS fornece uma grande biblioteca de ícones embebidos para encontrar suas necessidades. Isso inclui ícones para negócios, finanças, educação, governo, saúde, indústria, imóveis, serviços, etc.
+* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
+* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. Isso inclui ícones para negócios, finanças, educação, governo, saúde, indústria, imóveis, serviços, etc.
 
-* **Formatos:** usada para controlar como os valores dos campos estão disponíveis (moedas, porcentagens...)
+* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
 
-* **Título:** usada para exibir um título na vista de destino usando relações
+* **Title:** used to display a title in the destination view using relations
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
@@ -29,13 +29,14 @@ Para as tabelas, poderá definir as propriedades abaixo:
 
 Para os campos, poderá definir as propriedades abaixo:
 
-* **Etiquetas curtas e longas:** usadas dependendo do espaço
+* **Short and Long labels:** used depending on space
 * **Ícones**
-* **Formatos:** por exemplo para exibir moedas ou porcentagens
+* **Formats:** for exemple to display currencies or percentage
 
 Esses elementos serão mostrados em formulários detalhados e lista, dependendo no modelo no app gerado.
 
-:::tip DICAS * Para manter tudo consistente **ícones padrão** são gerados para campos em branco se ao menos um ícone for definido para um campo.
+:::tip TIPS
+* To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
 * Também pode deixar a área ícone vazia se não quiser exibir ícones em sua aplicação. :::
 
@@ -45,6 +46,11 @@ Esses elementos serão mostrados em formulários detalhados e lista, dependendo 
 
 Para Relações, poderá definir as propriedades abaixo:
 
-* **Etiquetas curtas e longas:** exibidas no botão Relação que permite abrir uma tabela relacionada
-* **Icones:** exibidos à esquerda do botão Relação
-* **Título:** será exibido no topo da vista destino quando usar a relação. Um [tutorial](one-to-many-relations-title-definition.html) está disponível para guiá-lo pelo processo de definição de Título
+* **Short and Long labels:** displayed in the Relation button that allows to open a related table
+* **Icons:** displayed at the left of the Relation button
+* **Title:** that will be displayed on top of the destination view when using a relation. Um [tutorial](one-to-many-relations-title-definition.html) está disponível para guiá-lo pelo processo de definição de Título
+
+
+
+
+

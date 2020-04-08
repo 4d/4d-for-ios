@@ -7,13 +7,14 @@ title: Apple Developer Program as an Organization
 
 :::important PREREQUISITES To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name. :::
 
-## ステップ 1 - Apple ID
+## ⒈ Apple ID
 
 If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 
 If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
-## ステップ 2 - Create your Apple ID
+
+## ⒉ Create your Apple ID
 
 [Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
@@ -27,12 +28,12 @@ If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
 * Once you have your Apple ID, you can continue to Step 3.
 
-## ステップ 3 - D-U-N-S Number
+## ⒊ D-U-N-S Number
 
 * If you don’t have a D-U-N-S Number, go to [Step 4](#step-4-request-a-d-u-n-s-number).
 * If you already have a D-U-N-S Number, go to [Step 5](#step-5-register-as-a-developer).
 
-## ステップ 4 - Request a D-U-N-S Number
+## ⒋ Request a D-U-N-S Number
 
 Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
 
@@ -49,14 +50,14 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
 
 * Click on the **Start your Enrollment** button.
-* Read and accept the Apple Developer Agreement. 
+* Read and accept the Apple Developer Agreement.
 * Click **Submit**.
 
 ![Register as a developer](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## ⒍ Join the Apple Developer Program
 
-* You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/). 
+* You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/).
 
 ![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
@@ -69,7 +70,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 ![Apple Developer Program](assets/en/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Complete the form.
-* Click **Continue**. 
+* Click **Continue**.
 
 ![Enroll as an organization](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 

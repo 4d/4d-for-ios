@@ -9,9 +9,9 @@ A seção Formulários lhe permite selecioanr os modelos de formulário Lista e 
 
 Aqui está o detalhamento da tela, de cima para baixo:
 
-* **Os formulários lista e os formulários detalhados:** permitem mudar entre os formulários Lista e os formulários detalhados para cada tabela.
-* **Tabelas publicadas:** Exibe todas as tabelas publicadas na seção Estrutura. 
-* **Formulários Disponíveis:** Permite trocar entre a seleção de modelos e a definição de conteúdo.
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Published tables:** Displays all tables published in the Structure section.
+* **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 

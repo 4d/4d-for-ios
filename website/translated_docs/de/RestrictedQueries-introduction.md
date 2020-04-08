@@ -20,12 +20,9 @@ First, from the Data section we're going define a **basic filter query** to only
 Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">STARTER-PROJEKT</a>
-
   </p>
 </div>
 

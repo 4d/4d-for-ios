@@ -5,6 +5,7 @@ title: Distribute your app in-House
 
 :::tip OBJECTIVES Upload your app to a secured server. :::
 
+
 ## SCHRITT 1. Upload your app
 
 Upload your app files to a secured server:
@@ -21,9 +22,10 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 

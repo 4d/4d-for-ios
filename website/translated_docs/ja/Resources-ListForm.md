@@ -4,10 +4,9 @@ title: リスト画面のテンプレート
 ---
 
 :::important BEFORE STARTING
+1. カスタムリスト画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/list` フォルダーを作成してください。
 
-1. To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
-
-2. カスタムリスト画面テンプレートは，このフォルダーの中にインストールします。 :::
+2. テンプレートは，このフォルダーにインストールします。 :::
 
 <div style="height: auto;">
   <table>
@@ -20,32 +19,26 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Client List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-ClientList/releases/latest/download/form-list-ClientList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-ClientList/releases/latest/download/form-list-ClientList.zip">ダウンロード</a></div>
       </td>
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-InvoiceList/releases/latest/download/form-list-InvoiceList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-InvoiceList/releases/latest/download/form-list-InvoiceList.zip">ダウンロード</a></div>
       </td>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-InvoiceList/master/template.gif" />
@@ -58,32 +51,26 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice Line List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-InvoiceLineList/releases/latest/download/form-list-InvoiceLineList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-InvoiceLineList/releases/latest/download/form-list-InvoiceLineList.zip">ダウンロード</a></div>
       </td>
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Three Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-ThreeLabelsList/releases/latest/download/form-list-ThreeLabelsList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-ThreeLabelsList/releases/latest/download/form-list-ThreeLabelsList.zip">ダウンロード</a></div>
       </td>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-ThreeLabelsList/master/template.gif" />
@@ -96,32 +83,26 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Four Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FourLabelsList/releases/latest/download/form-list-FourLabelsList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FourLabelsList/releases/latest/download/form-list-FourLabelsList.zip">ダウンロード</a></div>
       </td>
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Five Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FiveLabelsList/releases/latest/download/form-list-FiveLabelsList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FiveLabelsList/releases/latest/download/form-list-FiveLabelsList.zip">ダウンロード</a></div>
       </td>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-FiveLabelsList/master/template.gif" />
@@ -134,32 +115,26 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks Collection</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Collection</li>
-          <li><strong>Sections:</strong> not available</li>
-          <li><strong>Actions:</strong> cell long pressure</li>
+          <li><strong>レイアウト:</strong> グリッド</li>
+          <li><strong>セクション:</strong> なし</li>
+          <li><strong>アクション:</strong> セルの長押し</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-TasksCollection/releases/latest/download/form-list-TasksCollection.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-TasksCollection/releases/latest/download/form-list-TasksCollection.zip">ダウンロード</a></div>
       </td>
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> あり</li>
+          <li><strong>アクション:</strong> セルを左にスワイプ</li>
           <li><strong>ピクチャフィールド:</strong> 不要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-TasksList/releases/latest/download/form-list-TasksList.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-TasksList/releases/latest/download/form-list-TasksList.zip">ダウンロード</a></div>
       </td>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-TasksList/master/template.gif" />
@@ -172,16 +147,13 @@ title: リスト画面のテンプレート
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> not available</li>
-          <li><strong>Actions:</strong> cell long pressure</li>
-          <li><strong>Image required:</strong> yes</li>
+          <li><strong>レイアウト:</strong> リスト</li>
+          <li><strong>セクション:</strong> なし</li>
+          <li><strong>アクション:</strong> セルの長押し</li>
+          <li><strong>ピクチャフィールド:</strong> 必要</li>
         </ul>
-        <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-CardsTable/releases/latest/download/form-list-CardsTable.zip">ダウンロード</a></p>
-
-</div>
+        <div markdown="1" style="text-align: center; margin-top: 40px;">
+          <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-CardsTable/releases/latest/download/form-list-CardsTable.zip">ダウンロード</a></div>
       </td>
     </tr>
     <tr>
@@ -189,16 +161,13 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Map List</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-MapList/releases/latest/download/form-list-MapList.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-MapList/releases/latest/download/form-list-MapList.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-MapList/master/template.gif" />
@@ -211,32 +180,26 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Table</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FoldingCellList/releases/latest/download/form-list-FoldingCellList.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-FoldingCellList/releases/latest/download/form-list-FoldingCellList.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Slanted Collection</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>アクション:</strong> セルの長押し</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SlantedCollection/releases/latest/download/form-list-SlantedCollection.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SlantedCollection/releases/latest/download/form-list-SlantedCollection.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-SlantedCollection/master/template.gif" />
@@ -249,30 +212,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleTable/releases/latest/download/form-list-SimpleTable.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleTable/releases/latest/download/form-list-SimpleTable.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Smooth Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SmoothTable/releases/latest/download/form-list-SmoothTable.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SmoothTable/releases/latest/download/form-list-SmoothTable.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-SmoothTable/master/template.gif" />
@@ -285,30 +242,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Dynamic Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-DynamicTable/releases/latest/download/form-list-DynamicTable.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-DynamicTable/releases/latest/download/form-list-DynamicTable.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Profile</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Profile/releases/latest/download/form-list-Profile.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Profile/releases/latest/download/form-list-Profile.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Profile/master/template.gif" />
@@ -321,30 +272,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Square Profile</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SquareProfile/releases/latest/download/form-list-SquareProfile.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SquareProfile/releases/latest/download/form-list-SquareProfile.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Tasks</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Tasks/releases/latest/download/form-list-Tasks.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Tasks/releases/latest/download/form-list-Tasks.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Tasks/master/template.gif" />
@@ -357,30 +302,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Numbers</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
             <li><strong>ピクチャフィールド:</strong> 不要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Numbers/releases/latest/download/form-list-Numbers.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Numbers/releases/latest/download/form-list-Numbers.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Visual Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleVisualTable/releases/latest/download/form-list-SimpleVisualTable.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleVisualTable/releases/latest/download/form-list-SimpleVisualTable.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-SimpleVisualTable/master/template.gif" />
@@ -393,30 +332,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Visual Table</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-VisualTable/releases/latest/download/form-list-VisualTable.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-VisualTable/releases/latest/download/form-list-VisualTable.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Vertical Cards</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> リスト</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-VerticalCards/releases/latest/download/form-list-VerticalCards.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-VerticalCards/releases/latest/download/form-list-VerticalCards.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-VerticalCards/master/template.gif" />
@@ -429,30 +362,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Simple Collection</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> あり</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleCollection/releases/latest/download/form-list-SimpleCollection.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-SimpleCollection/releases/latest/download/form-list-SimpleCollection.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Mozaic</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Mozaic/releases/latest/download/form-list-Mozaic.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Mozaic/releases/latest/download/form-list-Mozaic.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Mozaic/master/template.gif" />
@@ -465,30 +392,24 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Cards</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Horizontal-Cards/releases/latest/download/form-list-Horizontal-Cards.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Horizontal-Cards/releases/latest/download/form-list-Horizontal-Cards.zip">ダウンロード</a></div>
         </td>
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Cube</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Cube/releases/latest/download/form-list-Cube.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Cube/releases/latest/download/form-list-Cube.zip">ダウンロード</a></div>
         </td>
         <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF">
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Cube/master/template.gif" />
@@ -501,18 +422,15 @@ title: リスト画面のテンプレート
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">Parallax</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>レイアウト:</strong> グリッド</li>
+            <li><strong>セクション:</strong> なし</li>
+            <li><strong>ピクチャフィールド:</strong> 必要</li>
           </ul>
-          <div style="text-align: center; margin-top: 40px;">
-
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Parallax/releases/latest/download/form-list-Parallax.zip">ダウンロード</a></p>
-
-</div>
+          <div markdown="1" style="text-align: center; margin-top: 40px;">
+            <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Parallax/releases/latest/download/form-list-Parallax.zip">ダウンロード</a></div>
         </td>
       </tr>
   </table>
 </div>
 
-:::tip MORE You can find more list form templates on [github](https://4d-for-ios.github.io/gallery/#/type/form-list). :::
+:::tip MORE リスト画面のテンプレートは[github](https://4d-for-ios.github.io/gallery/#/type/form-list)で公開されています。 :::

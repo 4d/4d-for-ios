@@ -23,4 +23,4 @@ Click on the **Build and Run** button.
 
 Test navigating between the list and detail forms in your app.
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 

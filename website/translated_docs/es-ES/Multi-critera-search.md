@@ -7,7 +7,7 @@ title: Búsqueda multicriterios
 
 This feature is activated by default in all 4D for iOS-generated templates.
 
-## Archivo Template svg
+## Template svg file
 
 To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
 
