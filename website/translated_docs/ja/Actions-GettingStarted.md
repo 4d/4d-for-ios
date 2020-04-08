@@ -1,6 +1,6 @@
 ---
 id: actions-getting-started
-title: はじめてのアクション
+title: データベースを用意する
 ---
 
 :::tip OBJECTIVES 作成したiOSアプリにユーザーアクションを追加しましょう！ :::
@@ -11,8 +11,8 @@ title: はじめてのアクション
 
 具体的には，プロジェクトエディターを使用し，下記いずれかの方法でアクションを有効にすることができます。
 
-* 「フォーム」セクションで**4D for iOS テンプレート**を選択した場合。 テンプレートはアクションに対応済です。 「アクション」セクションで[アクションを設定](define-first-action.html)し，4D側に必要なメソッドを用意します。
+* **4D for iOS templates** from the Form section. テンプレートはアクションに対応済です。 「アクション」セクションで[アクションを設定](define-first-action.html)し，4D側に必要なメソッドを用意します。
 
-* 自作の**カスタムテンプレート**を選択した場合。 出力されるiOSアプリにアクションが組み込まれるようにするためには，いくつか重要なステップを踏まなければなりません。リスト画面および詳細画面に自分で[アクションタグ](action-custom-template.html)を追加する必要があります。
+* **Your own custom templates** you developed. 出力されるiOSアプリにアクションが組み込まれるようにするためには，いくつか重要なステップを踏まなければなりません。リスト画面および詳細画面に自分で[アクションタグ](action-custom-template.html)を追加する必要があります。
 
-早速，4D for iOSアクションの仕組みを楽しく習得するために，**チェックリスト**アプリの作成に取り掛かりましょう！
+Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
