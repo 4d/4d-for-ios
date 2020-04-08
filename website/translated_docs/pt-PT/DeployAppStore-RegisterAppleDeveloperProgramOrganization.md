@@ -7,30 +7,31 @@ title: Apple Developer Program para as empresas
 
 :::important PREREQUISITES To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name. :::
 
-## PASSO 1. Identificador Apple
+## PASSO 1. Apple ID
 
 If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 
 Se já tiver uma Apple ID, vá para [Passo 3](#step-3-d-u-n-s-number).
 
+
 ## PASSO 2. Crie sua Apple ID
 
-Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
+Vá para  [a página de criação de Apple ID](https://appleid.apple.com/).
 
 ![Crie sua Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete o formulário e perguntas de segurança.
+* Complete o formulário e perguntas de segurança
 * Vai receber um código de verificação por email.
 * Entre o código de verificação para validar a criação de sua conta.
 
 ![Register developer program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Quando tiver sua Apple ID pode continuar para o Passo 3.
+* Quando tiver sua Apple ID, pode continuar com o Passo 3.
 
 ## PASSO 3. Número D-U-N-S
 
-* Se não tiver um número D-U-N-S, vá para [Passo 4](#step-4-request-a-d-u-n-s-number). 
-* Se já tiver um número D-U-N-S, vá para [Passo 5](#step-5-register-as-a-developer). 
+* Se não tiver um número D-U-N-S, vá para  [Passo 4](#step-4-request-a-d-u-n-s-number).
+* Se já tiver um número D-U-N-S, vá para  [Passo 5](#step-5-register-as-a-developer).
 
 ## PASSO 4. Solicite um número D-U-N-S
 
@@ -39,7 +40,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 ![Solicite um número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Complete o formulário.
-* Clique **Continue**.
+* Click **Continue**.
 * Verifique su e-mail para obter o número D-U-N-S.
 
 ![Número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -48,28 +49,28 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Clique no botão **Start your Enrollment**.
-* Leia e Aceite o Contrato de Desenvolvedor de Licença "Apple Developer Agreement". 
-* Clique em **Submit**.
+* Click on the **Start your Enrollment** button.
+* Leia e aceite o Contrato de Desenvolvedor Apple.
+* Click **Submit**.
 
 ![Registre-se como um desenvolvedor.](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## PASSO 6. Una-se ao Apple Developer Program
 
-* Puede se inscrever ao Apple Developer Program [aqui](https://developer.apple.com/enroll/enterprise/). 
+* Puede se inscrever ao Apple Developer Program [aqui](https://developer.apple.com/enroll/enterprise/).
 
 ![Una-se ao Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## PASSO 7. Inscreva-se como empresa
 
-* Clique no botão **Start your Enrollment**.
-* Selecione **Company / Organization** na lista suspensa "Entity Type".
-* Clique **Continue**.
+* Click on the **Start your Enrollment** button.
+* Select **Company / Organization** from the Entity Type dropdown list.
+* Click **Continue**.
 
 ![Apple Developer Program](assets/en/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Complete o formulário.
-* Clique em **Continue**. 
+* Click **Continue**.
 
 ![Inscreva-se como empresa](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
@@ -85,6 +86,6 @@ Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs
 
 ![Complete sua inscrição](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
-* Quando completar sua compra, vai receber um email configurando sua inscrição no programa.
+* Quando tiver completado sua compra, receberá um email confirmando sua inscrição no programa.
 
 Parabéns! You are now ready to publish applications to the App Store!
