@@ -3,9 +3,9 @@ id: many-to-one-relations
 title: Many to One relations
 ---
 
-4D v17 R5 lance un nouveau concept : les liens N vers 1
-
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet. :::
+4D v17 R5 lance un nouveau concept : les liens N vers 1<div class = "tips">
+**NOTE**
+In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div>
 
 Commençons par télécharger le Projet Starter :
 
