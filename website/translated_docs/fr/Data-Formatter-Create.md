@@ -3,11 +3,11 @@ id: creating-data-formatter
 title: Créer le format de données
 ---
 
-:::tip OBJECTIVES Create your first data formatters.
-
-:::
-
-:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
+<div class = "objectives">
+**OBJECTIVES**
+Create your first data formatters.</div> <div class = "prerequisites">
+**PREREQUISITES**
+Click [here](prerequisites.html) to see what you'll need to get started!</div>
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 
