@@ -3,7 +3,9 @@ id: deploy-app-store-archive-and-upload
 title: Arquive e atualize seu Projeto
 ---
 
-:::tip OBJECTIVES Archive and upload your project to App Store Connect. :::
+<div class = "objectives">
+**OBJECTIVES**
+Archive and upload your project to App Store Connect.</div>
 
 ## PASSO 1. Configuração Xcode
 * Se escolher uma Conta de Desenvolvedor Apple como um indivíduo, sua conta está disponível imediatamente.
