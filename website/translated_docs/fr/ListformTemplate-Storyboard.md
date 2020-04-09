@@ -101,11 +101,10 @@ Vous pouvez également sélectionner la couleur principale de votre application 
 
 To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. Ainsi, le nombre de lignes peut être illimité.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)
-
-:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png) :::
+![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips">
+**NOTE**
+The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div>
 
 ## Comment entrer des données dans vos cellules
 
