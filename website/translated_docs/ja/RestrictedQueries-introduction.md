@@ -3,13 +3,11 @@ id: filter-query-introduction
 title: クエリフィルター
 ---
 
-:::tip OBJECTIVES 作成したiOSアプリに簡単なフィルターおよびログイン情報に基づくフィルターを設定し，特定の情報だけが画面に表示されるようにしましょう！ :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
-
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
-</div>
+<div class = "objectives">
+**OBJECTIVES**
+Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -31,9 +29,9 @@ href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/d
 * **CRM table** with all the data we want to display in the generated iOS app
 * **AccountManager table** with basic information about the account managers (email and name).
 
-![CRM（顧客管理）データベース](assets/en/restricted-queries/CRMDatabase.png)
-
-:::tip NOTE このプロジェクトでは，[カスタムテンプレート](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html)・[カスタムアイコン](https://4d.github.io/4d-for-ios/docs/en/using-icons.html)・[カスタムデータフォーマッター](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html)も使用されています。 :::
+![CRM（顧客管理）データベース](assets/en/restricted-queries/CRMDatabase.png)<div class = "tips">
+**注記**
+This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div>
 
 早速，はじめてのクエリフィルターを設定することに取り掛かりましょう！
 
