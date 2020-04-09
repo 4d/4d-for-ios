@@ -3,9 +3,11 @@ id: create-new-project
 title: 新規プロジェクト
 ---
 
-:::tip OBJECTIVES プロジェクトエディター各部の名称と役割を理解しましょう！ :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Get familiar with the Project Editor.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 実際に4D for iOSを起動してみましょう。
 
