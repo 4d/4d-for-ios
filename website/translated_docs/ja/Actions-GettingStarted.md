@@ -3,9 +3,11 @@ id: actions-getting-started
 title: データベースを用意する
 ---
 
-:::tip OBJECTIVES 作成したiOSアプリにユーザーアクションを追加しましょう！ :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Use actions in the generated iOS app.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 4D v17 R5以降，プロジェクトエディターから[アクション](actions.html)を設定することにより，作成したiOSアプリから4Dメソッドを呼び出すことができるようになりました！
 
