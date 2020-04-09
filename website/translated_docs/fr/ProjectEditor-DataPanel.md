@@ -21,12 +21,12 @@ To secure access to the production server, a **key file** must be generated from
 
 The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
 
-Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.
+Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.<div class = "tips">
+**NOTE**
 
-:::tip NOTE
 * Tips are available to help you ensure the server works correctly.
 * You can directly access the Publishing panel to define your production URL.
-* To access production server data, a key file is required for secure communications. :::
+* To access production server data, a key file is required for secure communications.</div>
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
@@ -49,13 +49,12 @@ You can define filters per table which depend on field values:
 
 * Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Laissez cette case non cochée si vous ne souhaitez pas intégrer les données.
 
-When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.
-
-:::tip EXAMPLE In the **Filter query** field enter:
-
+When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.<div class = "tips">
+**EXAMPLE**
+In the **Filter query** field enter:
 `FirstName = 'Lisa' & LastName = 'Hart'`
+This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div>
 
-This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName. :::
 
 ### Les filtres d'informations utilisateur
 
@@ -69,19 +68,14 @@ You can define filters depending on user information which you define in the Mob
 
 * Une fois que votre filtre de recherche est validé, un bouton apparaît pour vous permettre d’ajouter des informations sur les utilisateurs dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
-
-
-:::tip EXAMPLE In the **Filter query** field enter:
-
+When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div class = "tips">
+**EXAMPLE**
+In the **Filter query** field enter:
 CityName = :city
-
 In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
-
 `$response.userInfo:=New object("city";"Paris")`
-
-This query allows you to display only the records which include "Paris" as CityName. :::
-
-:::tip NOTE You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html). :::
+This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips">
+**NOTE**
+You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
 
 
