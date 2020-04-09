@@ -3,9 +3,11 @@ id: contact-app
 title: はじめてのアプリ
 ---
 
-:::tip OBJECTIVES 4D for iOS でアプリを作成しましょう！ :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Create your first app with 4D for iOS</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 難しい前置きはありません。いますぐ，実際にアプリを開発しましょう。 このレッスンでは，とにかく短時間で，簡単に，はじめての4D for iOSアプリを開発することが目標です。
 
@@ -56,9 +58,9 @@ Click **Continue**.
 
 iOSアプリからアクセスできるデータベースのサブセット（具体的にはテーブルやフィールド）を決めます。
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.
-
-:::tip 注記 レコードが間違いなく特定できるようにするため，プライマリーキー（ここではIDフィールド）を含めることが強く勧められています。 :::
+For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips">
+**注記**
+We highly recommend publishing your primary key in order to identify each record of your database</div>
 
 ![ストラクチャ](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
