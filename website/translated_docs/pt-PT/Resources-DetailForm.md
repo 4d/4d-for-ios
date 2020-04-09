@@ -3,10 +3,11 @@ id: custom-detailform-templates
 title: Modelos de formulários detalhados
 ---
 
-:::important ANTES DE COMEÇAR
-1. Para usar um modelo de formulário detalhado personalizado, é preciso criar uma pasta`YourDatabase.4dbase/Resources/Mobile/form/detail` .
 
-2. Depois solte a pasta do formulário lista dentro dela. :::
+<div class = "tips">
+**BEFORE STARTING**
+!!crwdP_183_Pdwrc!!To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+!!crwdP_184_Pdwrc!!Then drop the detail form folder into it.</div> 
 
 <div style="height: auto;">
   <p spaces-before="0">
@@ -274,9 +275,12 @@ title: Modelos de formulários detalhados
                                                                           </p></div> 
                                                                           
                                                                           <p spaces-before="0">
+                                                                          </p><div class = "tips"> 
+                                                                          
+                                                                          <p spaces-before="0">
+                                                                            <strong x-id="1">More</strong>
                                                                           </p>
                                                                           
                                                                           <p spaces-before="0">
-                                                                            :::tip MORE Pode achar mais modelos de formulário detalhado em <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
-                                                                          </p>
-
+                                                                            You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+                                                                          </p></div>
