@@ -3,9 +3,11 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-:::tip OBJECTIF Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés. ::: :::
-
-:::CONDITIONS PRÉALABLES Cliquez [ici](prerequisites.html) pour pouvoir commencer ! :::
+<div class = "objectives">
+**OBJECTIVES**
+Add actions to custom List and Detail forms templates.</div> <div class = "prerequisites">
+**PREREQUISITES**
+Click [here](prerequisites.html) to see what you'll need to get started!</div>
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
