@@ -3,9 +3,9 @@ id: one-to-many-relations
 title: One to Many relations
 ---
 
-This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.
-
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto. :::
+This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips">
+**NOTA**
+In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div>
 
 Comencemos descargando el Proyecto Starter:
 
