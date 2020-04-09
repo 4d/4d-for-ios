@@ -34,9 +34,6 @@ ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 **f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. フィールドは，ドラッグ＆ドロップで追加することができます。
 
 ## エリアの位置とサイズ（position, height, width, type）
-
-:::tip NOTE フィールドや変数のタイプについては[ドキュメント](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.ja.html)をご覧ください。 :::
-
 [カスタムリスト画面](creating-listform.html)のチュートリアルと同じ要領でフィールドの位置と高さと幅を定義することができます。
 
 ### 繰り返されるフィールドのプロパティ
@@ -127,10 +124,11 @@ ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips">
+**注記**
+All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips">
+**TIP**
 
-:::tip TIP
 * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
 
-* To include all types, just type `ios:type="all"`. :::
-
+* To include all types, just type `ios:type="all"`.</div>
