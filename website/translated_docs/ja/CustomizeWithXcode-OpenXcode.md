@@ -3,13 +3,15 @@ id: open-xcode
 title: 作業をXcodeに引き継ぐ
 ---
 
-:::tip OBJECTIVES
+<div class = "objectives">
+**OBJECTIVES**
+
 * Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app. :::
+* Customize the generated 4D for iOS app.</div>
 
-4D for iOSは，ネイティブiOSアプリを開発するためのコードを出力するので，Xcodeで開いてカスタマイズすることができます。 全体の流れは下記のとおりです。
-
-:::caution CAUTION プロジェクトをXcodeでカスタマイズした後，プロジェクトエディターから再ビルドした場合，変更内容は失われてしまいます。気をつけましょう！ :::
+4D for iOSは，ネイティブiOSアプリを開発するためのコードを出力するので，Xcodeで開いてカスタマイズすることができます。 全体の流れは下記のとおりです。<div class = "tips">
+**注記**
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div>
 
 [ここ](contact-app.html)で作成した顧客管理アプリを使用しましょう。 まず，素材プロジェクトをダウンロードしてください。
 
