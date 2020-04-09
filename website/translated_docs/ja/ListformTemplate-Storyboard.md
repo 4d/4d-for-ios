@@ -101,11 +101,10 @@ Change the relation from Equal to **Greater Than or Equal** so it can have a var
 
 To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. これでラベルに表示できる行数が無制限となります。
 
-![ラベル行数](assets/en/custom-listform/label-lines-number.png)
-
-:::tip NOTE The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-
-![セルの高さ](assets/en/custom-listform/row-height-tableview-cell.png) :::
+![ラベル行数](assets/en/custom-listform/label-lines-number.png)<div class = "tips">
+**注記**
+The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+![セルの高さ](assets/en/custom-listform/row-height-tableview-cell.png)</div>
 
 ## How to get data into your cells
 
