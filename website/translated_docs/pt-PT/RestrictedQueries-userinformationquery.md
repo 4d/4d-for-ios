@@ -17,11 +17,11 @@ Agora vamos filtrar o conteúdo de nosso app dependendo da direção de correio 
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
+The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).<div class = "tips">
+**NOTA **
 
-:::tip NOTE
 * A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window. :::
+* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div>
 
 E a linha abaixo no método de banco de dados:
 
