@@ -3,7 +3,10 @@ id: multi-criteria-search
 title: 検索エリアに複数のフィールドを設定する
 ---
 
-:::tip OBJECTIVES 自作テンプレートを発展させて複数フィールドのクエリが実行できるようにしましょう！ :::
+
+<div class = "objectives">
+**OBJECTIVES**
+Activate the multi-criteria search in your own templates.</div>
 
 4D for iOSに収録されているテンプレートの検索エリアは，すでに複数フィールドのクエリをサポートしています。
 
