@@ -3,7 +3,9 @@ id: xcode-overview
 title: Xcode ガイド
 ---
 
-:::tip OBJECTIVES Xcode の基本的な操作を習得しましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Ensure a basic understanding of working with Xcode.</div>
 
 Xcode の各部の名称と役割に慣れ親しみましょう。
 
