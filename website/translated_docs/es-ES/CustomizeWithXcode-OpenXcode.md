@@ -3,13 +3,15 @@ id: open-xcode
 title: Trabajar con Xcode
 ---
 
-:::tip OBJECTIVES
+<div class = "objectives">
+**OBJECTIVES**
+
 * Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app. :::
+* Customize the generated 4D for iOS app.</div>
 
-4D for iOS genera una aplicación iOS nativa modificable y personalizable con Xcode. ¡Miremos el proceso!
-
-:::ATENCIÓN atención Si personaliza su proyecto en Xcode y lo reconstruye desde el Editor de proyecto ¡Todas sus modificaciones se perderán! :::
+4D for iOS genera una aplicación iOS nativa modificable y personalizable con Xcode. ¡Miremos el proceso!<div class = "tips">
+**NOTA**
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div>
 
 Vamos a utilizar la aplicación Contact que hemos creado [aquí](contact-app.html). ¡Descargue el proyecto Starter!
 
