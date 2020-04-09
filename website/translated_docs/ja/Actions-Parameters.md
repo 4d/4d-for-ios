@@ -3,7 +3,10 @@ id: action-parameters
 title: アクションパラメーターを使用する
 ---
 
-:::tip OBJECTIVES アクションパラメーターを使用し，アプリ上でデータが更新できるようにしましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Define action parameters to edit the content of your app.</div>
+
 
 ひとつ前の[レッスン](define-first-action.html)では， 「[アクション](actions.html)」セクションでアクションを定義することにより，iOSアプリ側から4Dメソッドを呼び出す方法を学びました。
 
