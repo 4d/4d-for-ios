@@ -3,10 +3,11 @@ id: creating-detailform-templates
 title: Detail form templates
 ---
 
-:::tip OBJECTIVES Create your first list form template. :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
-
+<div class = "objectives">
+**OBJECTIVES**
+Create your first list form template.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
