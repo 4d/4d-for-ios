@@ -18,9 +18,9 @@ Aqui pode definir um subconjunto de sua estrutura física para replicar os apare
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.
-
-:::tip DICAS Pode publicar uma seleção de campos ao pressionar a barra de espaços ao invés de selecioná-los um por um. :::
+Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.<div class = "tips">
+**DICAS**
+You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div>
 
 ## Relações Um para Muitos
 
@@ -63,11 +63,9 @@ Para fazer isso, 4D for iOS precisa de otimizações de estrutura e criar:
 
 Tudo que precisa fazer é autorizar que 4D for iOS faça as mudanças de estrutura necessárias para uma atualização de dados móveis otimizada.
 
-Quando autorizado, 4D for iOS vai fazer todo o trabalho para você, e vai se beneficiar de todas as vantagens de recarga de dados incremental.
-
-
-:::tip NOTA Essas otimizações são exigidas para bancos de dados locais e servidor. :::
-
+Quando autorizado, 4D for iOS vai fazer todo o trabalho para você, e vai se beneficiar de todas as vantagens de recarga de dados incremental.<div class = "tips">
+**NOTA **
+These optimizations are required for both local and server databases.</div>
 
 ### "Puxar" para refrescar!
 
@@ -75,6 +73,6 @@ do lado do app iOS, seus dados são atualizados a cada vez que lançar seu app e
 
 Em uso normal, simplesmente deslizar para baixo em qualquer formulário lista vai refrescar seus dados.
 
-Nas configurações de iPhone, agora pode resetar os dados de seu app e encontrar informações sobre seu app.
-
-:::tip NOTA Logo que o admin realizar uma operação importante de manutenção, ele deve alertar os usuários do app 4D for iOS que uma recarga Total é exigida.: Recover by tag / Restoration / Compaction :::
+Nas configurações de iPhone, agora pode resetar os dados de seu app e encontrar informações sobre seu app. <div class = "tips">
+**NOTA **
+As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
