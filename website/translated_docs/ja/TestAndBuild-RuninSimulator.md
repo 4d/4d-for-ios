@@ -3,7 +3,9 @@ id: simulator
 title: シミュレーターを使用する
 ---
 
-:::tip OBJECTIVES 作成したアプリをiOSシミュレーターでテストしましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Test your app in the Simulator.</div>
 
 作成したアプリを早く動かしてたいと思いませんか？
 
