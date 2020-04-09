@@ -69,9 +69,14 @@ Pode definir a posição, altura e largura para:
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
-O campo pesquisável é opcional.
-
-:::tip NOTE All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+O campo pesquisável é opcional. <div class = "tips">
+**NOTA **
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div>
+<
+div markdown="1" class = "tips">
+**TIP**
+To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+To include all types, just type ios:type="all". </div>
 
 ### Área SectionField:
 
@@ -176,9 +181,5 @@ The section field is optional.
 3. Define a posição da área de texto e a largura
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
-
-:::tip TIP To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-To include all types, just type ios:type="all". :::
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
