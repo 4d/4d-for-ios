@@ -4,10 +4,10 @@ title: データフォーマッター
 ---
 
 
-:::important BEFORE STARTING
-1. カスタムフォーマッターをインストールするために `YourDatabase.4dbase/Resources/formatters` フォルダーを作成してください。
-
-2. フォーマッターは，このフォルダーの中にインストールします。 :::
+<div class = "tips">
+**BEFORE STARTING**
+!!crwdP_111_Pdwrc!!To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+!!crwdP_112_Pdwrc!!Then drop the formatter folder into it.</div> 
 
 <div style="height: auto;">
   <p spaces-before="0">
@@ -163,8 +163,4 @@ title: データフォーマッター
                                           </p></div> 
                                           
                                           <p spaces-before="0">
-                                          </p>
-                                          
-                                          <p spaces-before="0">
-                                            :::tip MORE フォーマッターは<a href="https://4d-for-ios.github.io/gallery/#/type/formatter">github</a>で公開されています。 :::
                                           </p>
