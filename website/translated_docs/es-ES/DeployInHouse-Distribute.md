@@ -3,8 +3,9 @@ id: deploy-in-house-distribution
 title: Distribuir una aplicación interna
 ---
 
-:::tip OBJECTIVES Upload your app to a secured server. :::
-
+<div class = "objectives">
+**OBJECTIVES**
+Upload your app to a secured server.</div>
 
 ## PASO 1. Suba su aplicación
 
@@ -14,9 +15,9 @@ Upload your app files to a secured server:
 * archivo manifest.plist
 * archivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
-
-:::tip NOTE Your asset and ipa URLs must match the URLs defined in your manifest.plist file. :::
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips">
+**NOTA**
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div>
 
 ## PASO 2. Cree el enlace de instalación
 
