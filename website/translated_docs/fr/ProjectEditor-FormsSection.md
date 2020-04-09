@@ -36,3 +36,25 @@ Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 :::tip TIPS Want to change the template for your list or detail form?
 
 Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. :::
+
+## Gallery
+
+You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+
+Just click on that icon to display the entire list.
+
+Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+
+So you can directly start working on the template, as it is ready-to-use.
+
+Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is:
+* go to your resources
+* unzip the template
+* make the changes needed using Xcode.
+
+## Que faire ensuite ?
+
+* A [tutorial]() is available to guide you through the **action definition process**.
+
+* Another [tutorial]() will help you making **template update** if something is missing.
+
