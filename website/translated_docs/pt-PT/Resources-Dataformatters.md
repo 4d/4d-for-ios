@@ -4,10 +4,10 @@ title: Formatadores de Dados
 ---
 
 
-:::important ANTES DE COMEÇAR
-1. Para usar um formatador personalizado, a primeira coisa que precisa é criar uma pasta`YourDatabase.4dbase/Resources/Mobile/formatters`.
-
-2. Então solar a pasta formatador dentro dela. :::
+<div class = "tips">
+**BEFORE STARTING**
+!!crwdP_111_Pdwrc!!To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+!!crwdP_112_Pdwrc!!Then drop the formatter folder into it.</div> 
 
 <div style="height: auto;">
   <p spaces-before="0">
@@ -163,8 +163,4 @@ title: Formatadores de Dados
                                           </p></div> 
                                           
                                           <p spaces-before="0">
-                                          </p>
-                                          
-                                          <p spaces-before="0">
-                                            :::tip MORE Pode achar mais formatadores em <a href="https://4d-for-ios.github.io/gallery/#/type/formatter">github</a>. :::
                                           </p>
