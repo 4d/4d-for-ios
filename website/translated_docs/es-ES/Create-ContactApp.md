@@ -3,9 +3,11 @@ id: contact-app
 title: Contact App
 ---
 
-:::OBJETIVOS tip Crear su primera aplicación con 4D for iOS :::
-
-:::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
+<div class = "objectives">
+**OBJECTIVES**
+Create your first app with 4D for iOS</div> <div class = "prerequisites">
+**PREREQUISITES**
+Click [here](prerequisites.html) to see what you'll need to get started!</div>
 
 Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.
 
@@ -56,9 +58,9 @@ Aquí, podrá configurar la información principal de la aplicación:
 
 Es en esta sección donde definirá un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.
-
-:::NOTA tip Recomendamos publicar su llave primaria para identificar cada registro de su base :::
+For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div class = "tips">
+**NOTA**
+We highly recommend publishing your primary key in order to identify each record of your database</div>
 
 ![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
