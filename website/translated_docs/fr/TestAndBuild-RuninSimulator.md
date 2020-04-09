@@ -3,7 +3,9 @@ id: simulator
 title: Utilisation du simulateur
 ---
 
-:::tip OBJECTIVES Test your app in the Simulator. :::
+<div class = "objectives">
+**OBJECTIVES**
+Test your app in the Simulator.</div>
 
 Finished developing you app and want to test it?
 
