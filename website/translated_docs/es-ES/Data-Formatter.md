@@ -5,17 +5,14 @@ title: Formato de datos
 
 4D v17 R3 integra un nuevo concepto: el formato de datos
 
-Ahora puede elegir los formatos pre definidos de la sección Etiquetas e iconos.
-
-:::note Available formats
-
+Ahora puede elegir los formatos pre definidos de la sección Etiquetas e iconos.<div class = "tips">
 Available formats:
 
 * **Text**: Text
 *  **Date**: Date, Short date, Long date, Full date
 *  **Time**: Time, Short time, Duration, Integer number
 *  **Boolean**: "No" or "Yes", "False" or "True"
-*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out :::
+*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div>
 
 Comencemos descargando el Proyecto Starter:
 
