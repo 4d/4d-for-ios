@@ -5,17 +5,14 @@ title: データフォーマッター
 
 4D v17 R3以降，データにフォーマッターが適用できるようになりました！
 
-「ラベル＆アイコン」セクションでは，データ型に応じた既定のフォーマッターが選択できるようになっています。
-
-:::note 利用できるフォーマッター
-
+「ラベル＆アイコン」セクションでは，データ型に応じた既定のフォーマッターが選択できるようになっています。<div class = "tips">
 利用できるフォーマッター
 
 * **Text**: Text
 *  **Date**: Date, Short date, Long date, Full date
 *  **Time**: Time, Short time, Duration, Integer number
 *  **Boolean**: "No" or "Yes", "False" or "True"
-*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out :::
+*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out</div>
 
 素材プロジェクトをダウンロードしてください。
 
