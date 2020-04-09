@@ -3,9 +3,9 @@ id: one-to-many-relations
 title: Liens 1 vers N
 ---
 
-Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.
-
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet. :::
+Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.<div class = "tips">
+**NOTE**
+In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div>
 
 Commençons par télécharger le Projet Starter :
 
