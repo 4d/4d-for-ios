@@ -33,12 +33,12 @@ Para los campos, podrá definir las siguientes propiedades:
 * **Iconos**
 * **Formats:** for exemple to display currencies or percentage
 
-Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.
+Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips">
+**TIPS**
 
-:::tip TIPS
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application. :::
+* You can also leave the icon area empty if you don’t want to display icons in your application.</div>
 
 ## Propiedades de las relaciones
 
