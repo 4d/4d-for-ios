@@ -69,9 +69,14 @@ Vous avez la possibilité de définir la position, la hauteur et la largeur de :
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Le "searchable field" (champ de recherche) est facultatif.
-
-:::tip NOTE All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
+Le "searchable field" (champ de recherche) est facultatif.<div class = "tips">
+**NOTE**
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div>
+<
+div markdown="1" class = "tips">
+**TIP**
+To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+To include all types, just type ios:type="all". </div>
 
 ### Zone SectionField :
 
@@ -176,9 +181,5 @@ The section field is optional.
 3. Définir la position de la zone de texte et la largeur
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
-
-:::tip TIP To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-To include all types, just type ios:type="all". :::
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
