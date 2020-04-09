@@ -69,9 +69,14 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-検索フィールドを使用することは必須ではありません。
-
-:::tip NOTE フィールドや変数のタイプについては[ドキュメント](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.ja.html)をご覧ください。 :::
+検索フィールドを使用することは必須ではありません。<div class = "tips">
+**注記**
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div>
+<
+div markdown="1" class = "tips">
+**TIP**
+To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+すべてのタイプをサポートする場合，ios:type="all"と指定します。 </div>
 
 ### セクションフィールド
 
@@ -176,9 +181,5 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 3. 入力エリアの位置とサイズです。（textArea要素）
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. 内容をクリアするためのキャンセルボタンです。（use要素）
-
-:::tip TIP To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-すべてのタイプをサポートする場合，ios:type="all"と指定します。 :::
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... いよいよXcodeの出番です！
