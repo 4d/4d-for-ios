@@ -3,10 +3,10 @@ id: custom-listform-templates
 title: リスト画面のテンプレート
 ---
 
-:::important BEFORE STARTING
-1. カスタムリスト画面テンプレートをインストールするために `YourDatabase.4dbase/Resources/Mobile/form/list` フォルダーを作成してください。
-
-2. テンプレートは，このフォルダーにインストールします。 :::
+<div class = "tips">
+**BEFORE STARTING**
+!!crwdP_4_Pdwrc!!To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
+!!crwdP_5_Pdwrc!!Then drop the list form folder into it.</div>
 
 <div style="height: auto;">
   <table>
@@ -432,5 +432,3 @@ title: リスト画面のテンプレート
       </tr>
   </table>
 </div>
-
-:::tip MORE リスト画面のテンプレートは[github](https://4d-for-ios.github.io/gallery/#/type/form-list)で公開されています。 :::
