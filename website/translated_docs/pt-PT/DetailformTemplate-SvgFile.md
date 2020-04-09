@@ -34,9 +34,6 @@ ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 **f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Isso permite que arraste e solte quantos campos queira definir.
 
 ## Posição, altura, largura e tipo da área
-
-:::tip NOTE All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html). :::
-
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
 ### Propriedades de campo duplicadas
@@ -127,10 +124,11 @@ You can define position, height, and width for all of your fields like  we did f
 5. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 6. Define um botão de cancelar que será mostrado para eliminar o conteúdo atual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips">
+**NOTA **
+All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips">
+**TIP**
 
-:::tip TIP
 * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
 
-* To include all types, just type `ios:type="all"`. :::
-
+* To include all types, just type `ios:type="all"`.</div>
