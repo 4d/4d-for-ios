@@ -3,11 +3,11 @@ id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
 
-:::tip OBJECTIVES 簡単なデータフォーマッターを作成しましょう！
-
-:::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Create your first data formatters.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
 
