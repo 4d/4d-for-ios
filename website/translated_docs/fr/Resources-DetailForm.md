@@ -3,10 +3,11 @@ id: custom-detailform-templates
 title: Modèles des formulaires détaillés
 ---
 
-:::important BEFORE STARTING
-1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-2. Glissez ensuite le dossier du formulaire Liste dans le dossier que vous venez de créer. :::
+<div class = "tips">
+**BEFORE STARTING**
+!!crwdP_183_Pdwrc!!To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+!!crwdP_184_Pdwrc!!Then drop the detail form folder into it.</div> 
 
 <div style="height: auto;">
   <p spaces-before="0">
@@ -274,9 +275,12 @@ title: Modèles des formulaires détaillés
                                                                           </p></div> 
                                                                           
                                                                           <p spaces-before="0">
+                                                                          </p><div class = "tips"> 
+                                                                          
+                                                                          <p spaces-before="0">
+                                                                            <strong x-id="1">More</strong>
                                                                           </p>
                                                                           
                                                                           <p spaces-before="0">
-                                                                            :::tip MORE You can find more detail form templates on <a href="https://4d-for-ios.github.io/gallery/#/type/form-detail">github</a>. :::
-                                                                          </p>
-
+                                                                            You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+                                                                          </p></div>
