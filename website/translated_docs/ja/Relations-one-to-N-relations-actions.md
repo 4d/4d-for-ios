@@ -3,7 +3,9 @@ id: one-to-many-relations-actions
 title: １対Ｎとアクション
 ---
 
-:::tip OBJECTIVES 今度は， **特定の担当者（１レコード）のためにタスク（Ｎレコード）を作成する**場合を考えましょう。 :::
+<div class = "objectives">
+**OBJECTIVES**
+We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
 **親エンティティ**さえきちんと特定できていれば，子エンティティを作成するのは少しも難しいことはではありません！
 
