@@ -3,9 +3,11 @@ id: action-custom-template
 title: テンプレートにアクションを追加する
 ---
 
-:::tip OBJECTIVES 自作したテンプレートを発展させてアクションに対応させましょう！ :::
-
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Add actions to custom List and Detail forms templates.</div> <div class = "prerequisites">
+**PREREQUISITES**
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
