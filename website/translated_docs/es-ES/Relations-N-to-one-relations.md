@@ -3,9 +3,9 @@ id: many-to-one-relations
 title: Relaciones Muchos a Uno
 ---
 
-4D v17 R5 incluye un nuevo concepto: las relaciones Muchos a Uno
-
-:::tip OBJECTIVES In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto. :::
+4D v17 R5 incluye un nuevo concepto: las relaciones Muchos a Uno<div class = "tips">
+**NOTA**
+In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div>
 
 Comencemos descargando el Proyecto Starter:
 
