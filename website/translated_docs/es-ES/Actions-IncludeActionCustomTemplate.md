@@ -3,9 +3,11 @@ id: action-custom-template
 title: Añadir acciones a las plantillas
 ---
 
-:::OBJETIVOS tip Agregue acciones para personalizar plantillas de formularios listados y formularios detallados. :::
-
-:::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
+<div class = "objectives">
+**OBJECTIVES**
+Add actions to custom List and Detail forms templates.</div> <div class = "prerequisites">
+**PREREQUISITES**
+Click [here](prerequisites.html) to see what you'll need to get started!</div>
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
