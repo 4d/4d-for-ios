@@ -3,7 +3,9 @@ id: one-to-many-relations-actions
 title: One to Many - Actions
 ---
 
-:::tip OBJECTIVES We are now going to go a little bit further and **create a task for a specific employee**. :::
+<div class = "objectives">
+**OBJECTIVES**
+We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
 It is very easy to create an entity using **parent Entity** !
 
