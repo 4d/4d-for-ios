@@ -33,12 +33,12 @@ Vous pouvez définir les propriétés de champs suivantes :
 * **Icônes**
 * **Formats:** for exemple to display currencies or percentage
 
-Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips">
+**TIPS**
 
-:::tip TIPS
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application. :::
+* You can also leave the icon area empty if you don’t want to display icons in your application.</div>
 
 ## Propriétés des liens
 
