@@ -69,12 +69,12 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 À ce stade, toutes les contraintes de photo de profil doivent être en bleu.
 
-Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.
+Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.<div class = "tips">
+**TIPS**
 
-:::tip TIPS
 * To create a constraint between two views, press Ctrl and drag one of the views to the other. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder. :::
+* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div>
 
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
