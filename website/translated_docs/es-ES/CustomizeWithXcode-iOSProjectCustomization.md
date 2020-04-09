@@ -69,12 +69,12 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 En este punto, todas las restricciones de la foto de perfil deben ser azules.
 
-¡Felicidades! Su foto de perfil está ahora bien ubicada con las restricciones correctas.
+¡Felicidades! Su foto de perfil está ahora bien ubicada con las restricciones correctas.<div class = "tips">
+**TIPS**
 
-:::tip TIPS
 * To create a constraint between two views, press Ctrl and drag one of the views to the other. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones.
 
-* Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder. :::
+* Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder.</div>
 
 ## PASO 4. Actualizar la posición y las restricciones de etiquetas
 
