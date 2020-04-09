@@ -3,7 +3,9 @@ id: one-to-many-relations-actions
 title: Relações Um para Muitos - Ações
 ---
 
-:::tip OBJECTIVES Vamos aprofundar um pouco mais e **criar uma tarefa para um funcionário específico**. :::
+<div class = "objectives">
+**OBJECTIVES**
+We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
 É fácil criar uma entidade usando **parent Entity** !
 
