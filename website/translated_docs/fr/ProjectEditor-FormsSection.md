@@ -9,9 +9,9 @@ La section Formulaires vous permet de sélectionner des modèles de formulaire L
 
 Voici la répartition de cet écran, de haut en bas :
 
-* **Les formulaires Liste et les formulaires détaillés :** permettent de basculer entre les formulaires Liste et les formulaires détaillés pour chaque table.
-* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure. 
-* **Les formulaires disponibles :** permettent de basculer entre la sélection du modèle et la définition du contenu.
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Published tables:** Displays all tables published in the Structure section.
+* **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/fr/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 

@@ -3,38 +3,38 @@ id: multi-criteria-search
 title: 検索エリアに複数のフィールドを設定する
 ---
 
-:::tip OBJECTIVES Activate the multi-criteria search in your own templates. :::
+:::tip OBJECTIVES 自作テンプレートを発展させて複数フィールドのクエリが実行できるようにしましょう！ :::
 
-This feature is activated by default in all 4D for iOS-generated templates.
+4D for iOSに収録されているテンプレートの検索エリアは，すでに複数フィールドのクエリをサポートしています。
 
-## SVGファイルを編集する
+## テンプレートSVGファイル
 
-To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
+自分で作成したテンプレートを複数フィールドの検索に対応させるためには，template.svgファイルを下記のように書き換えてください。
 
 ```xml
 <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
 
 ```
 
-to:
+変更後
 
 ```xml
 <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
 
 ```
 
-There you go! The class is the only thing you need to modify for the multi-search criteria to be active.
+これだけです！ 検索エリアにクラス名を追加すれば，複数のフィールドをサポートすることができます。
 
 ## プロジェクトエディター
 
-Next, you can go to the project editor and drop several fields into the list form search area.
+プロジェクトエディターを開き，ドラッグ＆ドロップ操作でリスト画面の検索エリアに複数のフィールドを追加します。
 
-![Multi-criteria search in the project editor](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
+![複数フィールドに対応した検索エリア](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Click on the search field's delete button to modifiy the associated field list.
+設定フィールドを変更するには，検索エリアの削除ボタンをクリックします。
 
 A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
 
-![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
+![検索エリアのフィールドリストを変更する](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Congratulations! You can now base your search(es) on multiple fields in your 4D for iOS app!
+Congratulations! 複数のフィールドを検索する4D for iOSアプリが作成できるようになりました！

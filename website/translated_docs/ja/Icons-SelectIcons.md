@@ -13,8 +13,24 @@ Contactテーブルのアイコンをクリックします。 使用できるア
 
 各フィールドを表現するアイコン画像を選択してゆきます。
 
-![カスタムアイコンが選択されている](assets/en/custom-icons/field-icons.png)
+![アイコンの一覧にカスタムアイコンが追加されている](assets/en/custom-icons/field-icons.png)
 
 アプリを実行して結果を確認してください。
 
-![カスタムアイコンが表示されている](assets/en/custom-icons/custom-icons-final-result.png)
+![アイコンの一覧にカスタムアイコンが追加されている](assets/en/custom-icons/custom-icons-final-result.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

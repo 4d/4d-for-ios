@@ -4,11 +4,15 @@ title: Data Formatters
 ---
 
 
-:::important BEFORE STARTING
+<div markdown="1" class = "tips">
+
+**BEFORE STARTING**
+
 1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
 2. Then drop the formatter folder into it.
-:::
+
+</div>
 
 <div markdown="1" style="height: auto;">
   <table>
@@ -72,7 +76,7 @@ title: Data Formatters
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntToImage/master/formatter.png" />
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
       </td>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
@@ -163,7 +167,3 @@ title: Data Formatters
     </tr>
   </table>
 </div>
-
-:::tip MORE
-You can find more formatters on [github](https://4d-for-ios.github.io/gallery/#/type/formatter).
-:::

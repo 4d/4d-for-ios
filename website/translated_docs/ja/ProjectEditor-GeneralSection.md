@@ -1,6 +1,6 @@
 ---
 id: general
-title: General
+title: 一般
 ---
 
 This section allows you to define your app's main information.
@@ -21,9 +21,11 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 **Copyright:** Your app's copyright. 4D for iOS suggests a copyright format but you can create your own.
 
-**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
+**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with  Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
 
-:::tip TIPS * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area. * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app! :::
+:::tip TIPS
+* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
+* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app! :::
 
 **Developer:** This field is automatically filled with your user account name.
 

@@ -15,16 +15,13 @@ In this tutorial, we'll cover nearly all aspects of creating a list form templat
 
 Before we begin, be sure to download the **Starter Project** which includes:
 
-* A **List form** folder 
+* A **List form** folder
 * A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
-
   </p>
 </div>
 

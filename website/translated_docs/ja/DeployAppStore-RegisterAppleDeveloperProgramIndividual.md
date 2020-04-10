@@ -5,13 +5,13 @@ title: Apple Developer Program as an Individual
 
 :::tip OBJECTIVES Register for the Apple Developer Program as an individual to publish your app to the **App Store**. :::
 
-## ステップ 1 - Apple ID
+## ⒈ Apple ID
 
 まだApple IDを持っていないのであれば，[⒉](#step-2-create-your-apple-id)に進んでください。
 
 If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
 
-## ステップ 2 - Create your Apple ID
+## ⒉ Create your Apple ID
 
 Go the the [Apple ID creation page](https://appleid.apple.com/)
 
@@ -25,17 +25,16 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * Once you have your Apple ID, you can continue to Step 3.
 
-## ステップ 3 - Register as a developer
+## ⒊ Register as a developer
 
 * You can register as a developer [here](https://developer.apple.com/account/).
 
 * Read and accept the Apple Developer Agreement.
-
 * Click **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## ステップ 4 - Join the Apple Developer Program
+## ⒋ Join the Apple Developer Program
 
 * Click on **Join the Apple Developer Program** at the bottom of the page.
 

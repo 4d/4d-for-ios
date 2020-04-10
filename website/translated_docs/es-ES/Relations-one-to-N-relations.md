@@ -10,12 +10,9 @@ This tutorial will show you how easy it can be to include One to Many relations 
 Comencemos descargando el Proyecto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">ONE TO MANY STARTER PROJECT</a>
-
   </p>
 </div>
 
@@ -37,11 +34,10 @@ You can see the **tasks relation** we have seen earlier... Publish it !
 
 This will now operate as any other field for the rest of the app creation process.
 
-![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
-
+![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips">
 **TIPS**
 
-* On mouse over, a tip displays the table name originating the relation.</div> 
+* On mouse over, a tip displays the table name originating the relation.</div>
 
 ## Labels & Icons section
 
@@ -65,20 +61,17 @@ So, in the Labels & Icons section you will define:
 
 ## Crear y ejecutar
 
-1. From the Employee List form, click on one employee 
+1. From the Employee List form, click on one employee
 2. This will open the employee's detail form, where you should see a new **Relation button** !
-3. Click on this Relation button to display the employee's tasks. 
+3. Click on this Relation button to display the employee's tasks.
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
 And voila, this is how One to Many relations work in 4D for iOS !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">ONE TO MANY FINAL PROJECT</a>
-
   </p>
 </div>

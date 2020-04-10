@@ -5,7 +5,8 @@ title: Distribute your app in-House
 
 :::tip OBJECTIVES Upload your app to a secured server. :::
 
-## ステップ 1 - Upload your app
+
+## ⒈ Upload your app
 
 Upload your app files to a secured server:
 
@@ -17,13 +18,14 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 :::tip NOTE Your asset and ipa URLs must match the URLs defined in your manifest.plist file. :::
 
-## ステップ 2 - Create the installation link
+## ⒉ Create the installation link
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -33,7 +35,7 @@ Here is a simple example:
 
 *The QR Code used for this documentation is not active.*
 
-## ステップ 3 - Install your enterprise app on iOS
+## ⒊ Install your enterprise app on iOS
 
 * Install the app by clicking on the link or scanning a QR Code
 

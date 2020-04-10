@@ -13,6 +13,7 @@ If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
 
 Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3.-d-u-n-s-number).
 
+
 ## ÉTAPE 2. Créez votre identifiant Apple
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
@@ -39,7 +40,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 ![Demandez un numéro D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Cliquez sur **Continue**.
+* Click **Continue**.
 * Vérifiez votre e-mail pour obtenir le numéro D-U-N-S.
 
 ![Numéro D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -48,28 +49,28 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Lisez et acceptez les termes du contrat "Apple Developer Agreement". 
-* Cliquez sur **Submit**.
+* Click on the **Start your Enrollment** button.
+* Lisez et acceptez les termes du contrat "Apple Developer Agreement".
+* Click **Submit**.
 
 ![Souscrivez en tant que développeur](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 6. Rejoignez l'Apple Developer Program
 
-* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Program. 
+* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Program.
 
 ![Rejoignez l'Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## ÉTAPE 7. Souscrire en tant qu’entreprise
 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
-* Cliquez sur **Continue**.
+* Click on the **Start your Enrollment** button.
+* Select **Company / Organization** from the Entity Type dropdown list.
+* Click **Continue**.
 
 ![Apple Developer Program](assets/en/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Cliquez sur **Continue**. 
+* Click **Continue**.
 
 ![Souscrire en tant qu’entreprise](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 

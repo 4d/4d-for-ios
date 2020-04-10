@@ -26,7 +26,7 @@ Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de 
 
 ### Lidar com as relações Um para Muitos a partir do editor de projeto
 
-Agora, em versões recentes de 4D, pode lidar com **relações Um para Muitos** e exibir uma lista de campos relacionados em uma nova página.
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
 Tudo o que tem que fazer é:
 
@@ -48,6 +48,8 @@ Basicamente um botão Relação será criado em formulários detalhados para ir 
 
 [Tutoriais](one-to-many-relations.html) estão disponíveis para ajudar a usar relações Um para Muitos em seu projeto 4D for iOS.
 
+
+
 ## Recarga incremental
 
 ### Autorizar modificações de estrutura
@@ -56,14 +58,16 @@ Em 4D 17R5, o reload (recarga) de 4D for iOS se torna incremental. Isso signific
 
 Para fazer isso, 4D for iOS precisa de otimizações de estrutura e criar:
 
-* Uma tabela ```__DeletedRecords``` para armazenar os registros apagados e
-* and ```__GlobalStamp``` campos para armazenar as stamps de modificações para cada tabela publicada em sua aplicação móvel.
+* A `__DeletedRecords` table to store deleted records
+* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
 
 Tudo que precisa fazer é autorizar que 4D for iOS faça as mudanças de estrutura necessárias para uma atualização de dados móveis otimizada.
 
 Quando autorizado, 4D for iOS vai fazer todo o trabalho para você, e vai se beneficiar de todas as vantagens de recarga de dados incremental.
 
+
 :::tip NOTA Essas otimizações são exigidas para bancos de dados locais e servidor. :::
+
 
 ### "Puxar" para refrescar!
 

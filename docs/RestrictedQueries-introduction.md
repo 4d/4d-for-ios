@@ -3,13 +3,17 @@ id: filter-query-introduction
 title: Restricted queries
 ---
 
-:::tip OBJECTIVES
-Defining basic and user information-based query filters to display filtered content in the generated iOS app.
-:::
+<div markdown="1" class = "objectives">
 
-:::important PREREQUISITES
-Click [here](prerequisites.html) to see what you'll need to get started!
-:::
+**OBJECTIVES**
+
+Defining basic and user information-based query filters to display filtered content in the generated iOS app.
+
+</div>
+
+<div markdown="1" class = "prerequisites">
+
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!
 
@@ -35,9 +39,13 @@ The database includes a:
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
-:::tip NOTE
+<div markdown="1" class = "tips">
+
+**NOTE**
+
 This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
-:::
+
+</div>
 
 You're now ready to define your first restricted query!
 

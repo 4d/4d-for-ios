@@ -7,7 +7,7 @@ title: Data formatter
 
 You can now choose pre-packaged formats from Labels & Icons in Sections.
 
-:::note Available formats
+<div markdown="1" class = "tips">
 
 Available formats:
 
@@ -16,7 +16,8 @@ Available formats:
 *  **Time**: Time, Short time, Duration, Integer number
 *  **Boolean**: "No" or "Yes", "False" or "True"
 *  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
-:::
+
+</div>
 
 Let's get started by downloading the Starter Project:
 

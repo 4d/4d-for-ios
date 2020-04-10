@@ -9,7 +9,7 @@
         "title": "Définir une première action"
       },
       "actions-getting-started": {
-        "title": "Initiation"
+        "title": "Prise en main"
       },
       "action-custom-template": {
         "title": "Ajouter des actions aux modèles"
@@ -24,7 +24,7 @@
         "title": "Organiser un projet 4D for iOS"
       },
       "customize-your-ios-app": {
-        "title": "Personnaliser une application 4D for iOS"
+        "title": "Personnaliser son application 4D for iOS"
       },
       "open-xcode": {
         "title": "Travailler avec Xcode"
@@ -33,13 +33,13 @@
         "title": "Présentation de Xcode"
       },
       "data-formatter-build-and-run": {
-        "title": "Créer et exécuter un projet"
+        "title": "Créer et exécuter votre projet"
       },
       "creating-data-formatter": {
-        "title": "Créer un format de données"
+        "title": "Créer le format de données"
       },
       "data-formatter-mobile-project": {
-        "title": "Ouvrir un projet mobile"
+        "title": "Ouvrez un projet mobile"
       },
       "data-formatter": {
         "title": "Format des données"
@@ -72,7 +72,7 @@
         "title": "Modèles de formulaires détaillés"
       },
       "icon-detailform-template": {
-        "title": "Icônes des formulaires détaillés"
+        "title": "Icône du formulaire détaillé"
       },
       "manifest-detailform-template": {
         "title": "Manifest.json"
@@ -91,7 +91,7 @@
         "title": "Aperçu"
       },
       "prerequisites": {
-        "title": "Conditions préalables"
+        "title": "Conditions requises"
       },
       "create-icons": {
         "title": "Créer des icônes"
@@ -103,13 +103,13 @@
         "title": "Inclure des icônes dans le projet"
       },
       "select-icons": {
-        "title": "Choisir des icônes"
+        "title": "Sélectionner vos icônes"
       },
       "licenses": {
         "title": "Licences"
       },
       "creating-listform-templates": {
-        "title": "Modèles de formulaires Liste"
+        "title": "Modèles de formulaire Liste"
       },
       "manifest-listform-template": {
         "title": "Manifest.json"
@@ -121,7 +121,7 @@
         "title": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "Icônes des formulaires Liste"
+        "title": "Icône du formulaire Liste"
       },
       "multi-criteria-search": {
         "title": "Recherche multicritères"
@@ -148,7 +148,7 @@
         "title": "Libellés et icônes"
       },
       "main-menu": {
-        "title": "Menu"
+        "title": "Main Menu"
       },
       "publishing": {
         "title": "Publication"
@@ -157,7 +157,7 @@
         "title": "Structure"
       },
       "many-to-one-relations": {
-        "title": "Liens N vers 1"
+        "title": "Many to One relations"
       },
       "one-to-many-relations-actions": {
         "title": "Liens 1 vers N - Actions"
@@ -166,7 +166,7 @@
         "title": "1 vers N - Bouton personnalisé"
       },
       "one-to-many-relations-title-definition": {
-        "title": "1 vers N - Titre"
+        "title": "1 vers N - Définition du titre"
       },
       "one-to-many-relations": {
         "title": "Liens 1 vers N"
@@ -175,7 +175,7 @@
         "title": "Format des données"
       },
       "custom-detailform-templates": {
-        "title": "Modèles de formulaires détaillés"
+        "title": "Modèles des formulaires détaillés"
       },
       "custom-listform-templates": {
         "title": "Modèles de formulaires Liste"
@@ -184,10 +184,10 @@
         "title": "Définir un filtre de recherche"
       },
       "filter-query-introduction": {
-        "title": "Recherche restreinte"
+        "title": "Requêtes limitées"
       },
       "user-information-query": {
-        "title": "Filtre de recherche - informations utilisateur"
+        "title": "Filtre de recherche utilisateur"
       },
       "template": {
         "title": "Modèles & Formats"
@@ -425,14 +425,14 @@
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
       "Multi-criteria search": "Recherche multicritères",
-      "Restricted queries": "Recherche restreinte",
+      "Restricted queries": "Requêtes limitées",
       "Actions": "Actions",
       "Relations": "Liens",
       "Templates & Formatters": "Modèles & Formats"
     }
   },
   "pages-strings": {
-    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives",
+    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez des Apps iOS natives en toute facilité",
     "Overview|no description given": "Aperçu",
     "Create|no description given": "Créez",
     "Test|no description given": "Testez",

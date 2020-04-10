@@ -7,24 +7,22 @@ title: Plantillas de formulario detallado
 
 :::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
 
+
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
-## ¡Descargue el proyecto Starter!
+## Descargar el proyecto Starter
 
-Para comenzar, descargue el **Starter Project**, que incluye:
+To begin, download the **Starter Project**, which includes:
 
-* Una carpeta **Custom Detail form** (Carpeta de plantilla personalizada de formulario detallado)
-* Un archivo **Contact.4dbase** (base de demostración Contact con un proyecto de aplicación móvil listo para utilizar)
+* A **Custom Detail form** folder (custom Detail form template folder)
+* A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
-<a class="button"
+  <p spaces-before="0">
+    <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
-
   </p>
 </div>
 
@@ -46,9 +44,9 @@ Now let's focus on the **Custom Detail form** folder content.
 
 ## La carpeta de plantillas de formulario detallado y su contenido
 
-* Un icono **a layoutIconx2.png** de 160x160px que se mostrará en el editor del proyecto cuando seleccione su plantilla personalizada entre otras
-* Un archivo **a manifest.json** que incluye una descripción básica de la plantilla
-* Un archivo **a template.svg** que será la representación de su plantilla que se mostrará cuando defina el contenido de su formulario listado y dónde arrastrará y soltará sus campos
-* Carpeta Source que incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
+* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
+* **a manifest.json** file that includes a basic description of the template
+* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
+* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
 
 What are those files, what it is used for and how to customize it ?

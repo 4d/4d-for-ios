@@ -3,9 +3,14 @@ id: multi-criteria-search
 title: Multi-criteria search
 ---
 
-:::tip OBJECTIVES
+
+<div markdown="1" class = "objectives">
+
+**OBJECTIVES**
+
 Activate the multi-criteria search in your own templates.
-:::
+
+</div>
 
 This feature is activated by default in all 4D for iOS-generated templates.
 
