@@ -24,53 +24,53 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 
 ## ボタンを追加する
 
-The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
+まず，ボタン「button.xib」を4D for iOSで使用できるように，カスタムテンプレートに追加しましょう。
 
 To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
 
 ![カスタムボタンのパス](assets/en/relations/Relation-custom-button-path.png)
 
-The first step is done!
+簡単ですね！
 
-## Modify the button
+## ボタンの設定
 
-Open the .xib file with Xcode.
+Xcodeで「.xib」ファイルを開きます。
 
-It should look like this:
+このように表示されるはずです。
 
 ![カスタムリレーションボタン](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
 
-And from the attribute inspector, you can change for example:
+属性インスペクターでさまざまな項目の値を変更することができます。
 
-* colors and fonts
-* the button style
-* the button size...
+* カラーとフォント
+* ボタンのスタイル
+* ボタンのサイズ
 
-Let's change the button color and the button label font!
+ボタンのカラーとラベルフォントを変えてみましょう！
 
-### Custom colors and fonts
+### カラーとフォントのカスタマイズ
 
-Select the button and change the color and font from the attribute inspector.
+ボタンを選択し，属性インスペクターに新しいカラーとフォント名を入力します。
 
-For the background, let's select the Label Color to have the best contrast in Light and Dark mode.
+背景には，ライトモードとダークモードのそれぞれで最良のコントラストになるように「Label Color 」を選択しましょう。
 
-For the font color let's put a System background color with a helvetica Neue Medium font.
+フォントカラーは「System Background Color（システム背景色）」，フォント名は「Helvetica Neue Medium」に設定します。
 
-Finally, don't forget to select the System background color Tint to apply this color to the button icon.
+ボタンのアイコンに「System Background Color Tint（色合い）」を適用することも忘れないようにしましょう。
 
 ![カスタムリレーションボタン](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
 
-You should get this result in your Simulator in Dark and in Light mode:
+シミュレーターでダークモードとライトモードそれぞれの結果を確かめます。
 
 ![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png)
 
-### Button round corners
+### ボタンの角の丸み
 
-Let's add some round corners to the relationButton!
+今度はrelationButtonの角に丸みをつけてみましょう！
 
-To do so, open the Identity Inspector.
+アイデンティティーインスペクターを開きます。
 
-Select your Button and add the two following lines in the User Defined Runtime Attributes:
+ボタンを選択して「User Defined Runtime Attributes」に下記の２行を記述します。
 
 * **Key Path**: `cornerRadius`
 
@@ -78,7 +78,7 @@ Select your Button and add the two following lines in the User Defined Runtime A
 
 * **Value**: `12`
 
-and
+その他
 
 * **Key Path**: `layer.masksToBounds`
 
@@ -90,74 +90,74 @@ and
 
 これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！
 
-The result should look like this:
+下図のように表示が変化していれば成功です。
 
 ![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-round-corners.png)
 
-### Size and constraints
+### サイズと制約
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relations are available in the same detail view.
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. タグを追加することにより，同一の詳細ビュー内で複数のリレーションを表示するためにこのボタンを使い回したとしても，ボタンが正しく機能するようになります。
 
-How convenient, since we plan on adding a few constraints!
+そのことを踏まえ，ボタンに制約を設定してみましょう！
 
-#### Add constraints
+#### 制約を追加する
 
-For this tutorial, we are just going to add a button height because we want it to look bigger on the screen.
+このチュートリアルでは，画面上でおおきく表示されるように，ボタンの高さに制約を追加する場合を考えます。
 
-Step 1. First select the view and change the height from 123 to 40
+⒈ ビューを選択し，高さを123から40に変更します。
 
 ![ボタンビューの高さ](assets/en/relations/Button-view-height.png)
 
-Step 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+⒉ Double click on the **Top Space Constraint** and change it from 8 to 0
 
 ![上部余白の制約](assets/en/relations/Top-Space-constraint.png)
 
-Step 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+⒊ Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
-You should get this:
+下図のようになっていれば成功です。
 
 ![カスタムボタンの制約](assets/en/relations/Custom-button-constraints.png)
 
-Step 4. Add a height constraint of 40
+⒋ 高さの制約「40」を追加します。
 
 ![ボタンの高さ制約](assets/en/relations/Button-height-constraint.png)
 
-You should get this:
+下図のようになっていれば成功です。
 
 ![コンテナ内で水平](assets/en/relations/Custom-relation-button-constraints.png)
 
-In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
+プロジェクトエディターに対し，このビュー内の全要素が一緒に複製されるべきであることを示すため，それぞれの要素と制約にタグを追加します。
 
 
-### Add TAGS
+### タグを追加する
 
-Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+ストーリーボードの要素には，オブジェクトIDが存在します。 For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![オブジェクトID ストーリーボード](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-The process is a little bit tricky... So let's begin by opening the storyboard file with your favorite code editor!
+ひとつずつ変更するのは，なかなか面倒ですし，途中でミスをしてしまうかもしれません。 アイデンティティーインスペクターで操作するのは大変なので，ここはコードエディターでストーリーボードファイルを開き，効率的に作業を進めることにしましょう！
 
-#### Add a tag to the height constraint
+#### 高さの制約にタグを追加する
 
-Step 1. Select it from the Storyboard to get the Object ID
+⒈ ストーリーボード内で要素のオブジェクトIDを選択してコピーします。
 
 ![水平制約オブジェクトのID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Step 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+⒉ Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
-Step 3. Save the xml file
+⒊ XMLファイルを保存します。
 
 ![水平制約のXMLファイル](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-Step 4. Focus on the Storyboard to check if the constraint has been updated correctly
+⒋ ストーリーボードのウィンドウにフォーカスを移動し，制約が正しく更新されていることを確認します。
 
 ![水平制約オブジェクトのID更新](assets/en/relations/Horizontal-object-id-updated.png)
 
-And that's it! Your button is now fully duplicable if you have more that one relation button to display...
+おつかれさまでした！ 表示したいリレーションが複数あったとしても，このボタンを複製して使用することができるようになりました。
 
 ## これからどうする？
 
-In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
+このチュートリアルでは，カスタムリレーションボタンを作成する方法を習得しました。 カスタムボタンの完成プロジェクトは下記のリンクからダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
