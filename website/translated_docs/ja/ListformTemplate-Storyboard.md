@@ -106,7 +106,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
 ![セルの高さ](assets/en/custom-listform/row-height-tableview-cell.png)</div>
 
-## How to get data into your cells
+## セルにフィールドが表示されるようにセットアップする
 
 ### Image View
 Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
@@ -121,7 +121,7 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 
 ![Identity inspector](assets/en/custom-listform/identity-inspector-storyboard.png)
 
-### Labels
+### ラベル
 
 高い位置のラベルを選択し，User Defined Runtime Attributesに行を追加します。
 
@@ -156,11 +156,11 @@ You can change the **storyboard display labels** to have better visibility:
 
 ![Simulator result](assets/en/custom-listform/simulator-result.png)
 
-## Customize your app
+## アプリをカスタマイズする
 
 Image Viewの角の丸みをカスタマイズして，デザインに個性を持たせましょう。
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Image Viewを選択し，User Defined Runtime Attributesにユーザー定義属性を入力します。
 
 * **Key Path**: `cornerRadius`
 
@@ -168,7 +168,7 @@ Select your Image View and add the two following lines in the User Defined Runti
 
 * **Value**: `12`
 
-and
+その他
 
 * **Key Path**: `layer.masksToBounds`
 
