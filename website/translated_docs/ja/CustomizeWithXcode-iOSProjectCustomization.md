@@ -72,7 +72,7 @@ At this point, all the profile picture constraints should be blue.
 Congratulations! Your profile picture is now well positioned with the correct constraints.<div class = "tips">
 **ヒント**
 
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
+* To create a constraint between two views, press Ctrl and drag one of the views to the other. マウスボタンを離すと同時に，ここで設定できる制約の選択肢が表示されます。
 
 * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div>
 
