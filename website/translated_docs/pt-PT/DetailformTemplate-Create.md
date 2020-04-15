@@ -3,11 +3,15 @@ id: creating-detailform-templates
 title: Modelos de formulário detalhado
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Create your first list form template.</div> <div class = "prerequisites">
+
+Create your first list form template.</div> <div class = "prerequisites"> 
+
 **PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
@@ -15,15 +19,18 @@ In this tutorial, we'll guide you through the creation of a detail form template
 
 ## Baixe o Starter Project
 
-To begin, download the **Starter Project**, which includes:
+Para começar, baixe o **Starter Project**, que inclui:
 
-* A **Custom Detail form** folder (custom Detail form template folder)
-* A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
+* Uma pasta **Custom Detail form** (pasta modelo de formulário detalhado)
+* Un archivo **Contact.4dbase** (base de demostração Contact com um projeto de aplicação móvel pronto para utilizar)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+  <p>
+    
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+
   </p>
 </div>
 
@@ -45,9 +52,9 @@ Now let's focus on the **Custom Detail form** folder content.
 
 ## A pasta de modelos de formulário detalhado e seu conteúdo
 
-* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
-* **a manifest.json** file that includes a basic description of the template
-* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* Um ícone **a layoutIconx2.png** de 160x160px que se mostrará no editor del projeto quando selecione seu modelo personalizado entre outras
+* Um arquivo ** manifest.json** que inclui uma descripção básica do modelo
+* Um arquivo **a template.svg** que será a representação de seu modelo que se mostrará quando defina o conteúdo de seu formulário listado e onde arrastará e soltará seus campos
+* Pasta Source que inclui os arquivos **storyboard** (interface gráfica) e **swift** (código para o formulário)
 
 What are those files, what it is used for and how to customize it ?
