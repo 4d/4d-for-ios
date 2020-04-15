@@ -5,12 +5,12 @@ title: Etiquetas e iconos
 
 Aquí es donde definirá las propiedades para sus tablas, campos y relaciones:
 
-* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. Estos incluyen iconos para negocios, finanzas, educación, gobierno, salud, industria, bienes raíces, servicios, etc.
+* **Etiquetas cortas y largas:** se utilizan de acuerdo con el espacio disponible en la plantilla (para optimizar el espacio y evitar congestionamiento en la barra de pestañas).
+* **Iconos:** 4D for iOS ofrece una gran librería de iconos integrados para satisfacer sus necesidades. Estos incluyen iconos para negocios, finanzas, educación, gobierno, salud, industria, bienes raíces, servicios, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formatos:** utilizado para controlar cómo se muestran los valores de los campos (monedas, porcentajes...)
 
-* **Title:** used to display a title in the destination view using relations
+* **Título:** utilizado para mostrar un título en el la vista de destino utilizando relaciones
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
@@ -29,16 +29,17 @@ Para las tablas, podrá definir las siguientes propiedades:
 
 Para los campos, podrá definir las siguientes propiedades:
 
-* **Short and Long labels:** used depending on space
+* **Etiquetas cortas y largas:** utilizadas según el espacio
 * **Iconos**
-* **Formats:** for exemple to display currencies or percentage
+* **Formatos:** por ejemplo para mostrar monedas o porcentajes
 
-Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips">
+Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips"> 
+
 **TIPS**
 
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div>
+* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
 
 ## Propiedades de las relaciones
 
@@ -49,8 +50,3 @@ For Relation, you will be able to define the following properties:
 * **Short and Long labels:** displayed in the Relation button that allows to open a related table
 * **Icons:** displayed at the left of the Relation button
 * **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
-
-
-
-
-
