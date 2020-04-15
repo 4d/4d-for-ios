@@ -6,34 +6,35 @@ title: Publication
 C’est ici que vous pourrez définir ou créer votre application :
 
 * Paramètres du serveur Web
-* Mode d’authentification
+* Mode d’authentification 
 * Méthode d’authentification
 
 ![Publishing section](assets/fr/project-editor/Publishing-section-4D-for-iOS.png)
 
 ## Paramètres du serveur Web
 
-Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. You can do this by clicking on the **Edit** button.
+Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
 
-L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.<div class = "tips">
+L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.<div class = "tips"> 
+
 **NOTE**
 
 * The Simulator works locally (127.0.0.1 or localhost).
 * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-* If both HTTP and HTTPS are activated, HTTP is used.</div>
+* If both HTTP and HTTPS are activated, HTTP is used.</div> 
 
 ## Authentification
 
-* **Authorized User:** Check the **Login required** option to display a login form when the app starts.
+* **Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
 
-* **Guest:** Leave the **Login required** option unchecked. pour qu'aucun écran de connexion ne s’affiche au démarrage de l'application.
+* **Invité :** Laissez l'option **Connexion requise** décochée pour qu'aucun écran de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
 ### Méthode base Sur authentification app mobile
 
-* **Development**: The authentication method allows you to use the app locally.
-* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
+* **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement. 
+* **Déploiement** : vous devez créer/modifier la méthode base de données [*Sur authentification app mobile *](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
 A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
@@ -80,25 +81,27 @@ Here is an example of a 4D for iOS-generated session file:
 
 ```
 
-If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
-
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
 
 ### Composant Mobile Session Management
 
 Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+  <p>
+    
+
+<a class="button"
 href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+
   </p>
 </div>
 
-* Create a **Components** folder next to the 4D database with the app's data.
-* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
-* Redémarrez 4D.
-* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button.
-* La fenêtre d'applications apparaîtra et affichera toutes vos applications :
+* Créez un dossier **Composants** contenant les données de l’application au même emplacement que la base de données 4D. 
+* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
+* Redémarrez 4D. 
+* Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**. 
+* La fenêtre d'applications apparaîtra et affichera toutes vos applications : 
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
@@ -107,8 +110,8 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESS
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
-* The **Push** button will update the session in memory.
-* The **Refresh** button updates the session list.
+* Le bouton **Push** met à jour la session dans la mémoire.
+* Le bouton **Refresh** met à jour la liste de sessions. 
 
 ## Aperçu sur l'appareil
 
@@ -121,5 +124,3 @@ Settings allows you to:
 * de vous déconnecter (si vous étiez connecté en tant qu'utilisateur autorisé)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
-
-
