@@ -8,9 +8,11 @@ title: アイコンを追加する
 プロジェクトエディターに表示されたときにカスタムアイコンが見分けられるように，色を付けておくと良いかもしれません。 カスタムアイコンのサンプル画像は，下記からダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px">
-  <p spaces-before="0">
-    <a class="button"
+  <p>
+    
+
+<a class="button"
 href="../assets/en/custom-icons/Custom-Icons.zip">カスタムアイコン</a>
+
   </p>
 </div>
-
