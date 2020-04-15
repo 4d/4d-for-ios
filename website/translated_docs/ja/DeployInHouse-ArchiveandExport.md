@@ -3,25 +3,27 @@ id: deploy-in-house-archive-and-export
 title: Archive and export your Project
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
 
 * Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div class = "prerequisites">
+* Generate .ipa and manifest files</div> <div class = "prerequisites"> 
+
 **PREREQUISITES**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server
 * 57 x 57 px icon
-* 512 x 512 px icon</div>
+* 512 x 512 px icon</div> 
 
-## ⒈ Xcode configuration
+## ステップ 1 - Xcode configuration
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
 Xcode will automatically install required provisioning and certificates.
 
-## ⒉ Get your Team ID
+## ステップ 2 - Get your Team ID
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
@@ -32,17 +34,18 @@ Xcode will automatically install required provisioning and certificates.
 * Launch 4D for iOS
 
 * On the SECTIONS tab:
-
+    
     * General: Enter your Team ID.
-
+    
     ![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
-
+    
     * Publishing: Enter your production URL (HTTPS is mandatory for deployment).
 
 * On the BUILD tab:
+    
     * Build and Run: Build your project.
 
-## ⒋ Open your project with Xcode
+## ステップ 4 - Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
@@ -141,7 +144,6 @@ Here is an example of a manifest.plist file :
 </plist>
 ```
 
-
 ## ⒐ Distribution manifest information
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
@@ -149,7 +151,6 @@ Here is an example of a manifest.plist file :
 ![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Click **Next**.
-
 
 ## ⒑ Re-sign your application
 
