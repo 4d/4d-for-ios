@@ -3,9 +3,11 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Upload your app to a secured server.</div>
+
+Upload your app to a secured server.</div> 
 
 ## ÉTAPE 1. Téléchargez votre application
 
@@ -15,18 +17,19 @@ Upload your app files to a secured server:
 * Fichier manifest.plist
 * Fichier .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips">
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
+
 **NOTE**
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div>
+
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
 
 ## ÉTAPE 2. Créez le lien d’installation
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-```
-itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-
-```
+    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+    
+    
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -44,9 +47,9 @@ Here is a simple example:
 
 * Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignore this message and click **Cancel**.
+* Ignorez ce message et cliquez sur **Annuler**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
