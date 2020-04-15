@@ -1,20 +1,24 @@
 ---
 id: actions-getting-started
-title: データベースを用意する
+title: はじめてのアクション
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Use actions in the generated iOS app.</div> <div class = "prerequisites">
+
+Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
+
 **PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
 
-4D v17 R5以降，プロジェクトエディターから[アクション](actions.html)を設定することにより，作成したiOSアプリから4Dメソッドを呼び出すことができるようになりました！
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
 
-具体的には，プロジェクトエディターを使用し，下記いずれかの方法でアクションを有効にすることができます。
+In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 
-* **4D for iOS templates** from the Form section. テンプレートはアクションに対応済です。 「アクション」セクションで[アクションを設定](define-first-action.html)し，4D側に必要なメソッドを用意します。
+From here, when you build your app from the Project Editor using actions, you can decide to use:
 
-* **Your own custom templates** you developed. 出力されるiOSアプリにアクションが組み込まれるようにするためには，いくつか重要なステップを踏まなければなりません。リスト画面および詳細画面に自分で[アクションタグ](action-custom-template.html)を追加する必要があります。
+* 「フォーム」セクションで**4D for iOS テンプレート**を選択した場合。 テンプレートはアクションに対応済です。 「アクション」セクションで[アクションを設定](define-first-action.html)し，4D側に必要なメソッドを用意します。
+
+* 自作の**カスタムテンプレート**を選択した場合。 出力されるiOSアプリにアクションが組み込まれるようにするためには，いくつか重要なステップを踏まなければなりません。リスト画面および詳細画面に自分で[アクションタグ](action-custom-template.html)を追加する必要があります。
 
 Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
