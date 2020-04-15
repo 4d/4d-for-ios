@@ -5,12 +5,12 @@ title: Libellés et icônes
 
 C'est ici que vous définirez les propriétés de vos tables, champs et liens :
 
-* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
+* **Libellés longs et courts :** leur utilisation dépend de l'espace disponible dans le modèle (pour optimiser l'espace et éviter de surcharger la barre d'onglets).
+* **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formats :** ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
-* **Title:** used to display a title in the destination view using relations
+* **Titre :** permet d'afficher un titre dans la vue de destination à l'aide de liens
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
@@ -29,16 +29,17 @@ Vous pouvez définir les propriétés de table suivantes :
 
 Vous pouvez définir les propriétés de champs suivantes :
 
-* **Short and Long labels:** used depending on space
+* **Libellés longs et courts :** utilisés selon l'espace disponible
 * **Icônes**
-* **Formats:** for exemple to display currencies or percentage
+* **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
-Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips">
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips"> 
+
 **TIPS**
 
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div>
+* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
 
 ## Propriétés des liens
 
@@ -49,8 +50,3 @@ For Relation, you will be able to define the following properties:
 * **Short and Long labels:** displayed in the Relation button that allows to open a related table
 * **Icons:** displayed at the left of the Relation button
 * **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
-
-
-
-
-
