@@ -10,7 +10,7 @@ The Forms section allows you to select both list and detail form templates for e
 Here's the breakdown of this screen, from top to bottom:
 
 * **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section.
+* **Published tables:** Displays all tables published in the Structure section. 
 * **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
@@ -47,14 +47,10 @@ Then, the only thing you have to do is selecting the template that suits your ne
 
 So you can directly start working on the template, as it is ready-to-use.
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is:
-* go to your resources
-* unzip the template
-* make the changes needed using Xcode.
+Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
 
 ## これからどうする？
 
 * A [tutorial]() is available to guide you through the **action definition process**.
 
 * Another [tutorial]() will help you making **template update** if something is missing.
-
