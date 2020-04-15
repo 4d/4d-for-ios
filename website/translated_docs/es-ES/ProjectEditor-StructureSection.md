@@ -18,11 +18,13 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.<div class = "tips">
-**TIPS**
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div>
+Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.<div class = "tips"> 
 
-## One to Many relations
+**TIPS**
+
+You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
+
+## Relaciones Uno a Muchos
 
 ### Tratar las relaciones de Uno a Muchos desde el editor del proyecto
 
@@ -48,8 +50,6 @@ Basically a Relation button will be created in detail forms to go straight to th
 
 [Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
 
-
-
 ## Recarga incremental
 
 ### Autorizar las modificaciones de la estructura
@@ -58,14 +58,16 @@ In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new,
 
 To do so, 4D for iOS needs to make structure optimizations and create:
 
-* A `__DeletedRecords` table to store deleted records
-* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
+* Una tabla ```__DeletedRecords``` para almacenar los registros borrados, y
+* Los campos ```__GlobalStamp``` para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
 
 All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips">
+Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.<div class = "tips"> 
+
 **NOTA**
-These optimizations are required for both local and server databases.</div>
+
+These optimizations are required for both local and server databases.</div> 
 
 ### ¡Halar para refrescar!
 
@@ -73,6 +75,8 @@ iOS app side, your data is updated each time you launch your app and each time y
 
 In normal use, simply swipe down from any listform to reload your data.
 
-From iPhone settings, you can now reset your app data and find information about your app. <div class = "tips">
+From iPhone settings, you can now reset your app data and find information about your app.<div class = "tips"> 
+
 **NOTA**
+
 As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction</div>
