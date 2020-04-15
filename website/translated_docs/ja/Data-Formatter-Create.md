@@ -3,29 +3,36 @@ id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
 
-<div class = "objectives">
-**OBJECTIVES**
-Create your first data formatters.</div> <div class = "prerequisites">
-**PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div>
+<div class = "objectives"> 
 
-このチュートリアルでは、様々なフォーマッターの例を作成していくことを案内していきます。
+**OBJECTIVES**
+
+Create your first data formatters.</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
+
+In this tutorial, we'll guide you through the creation of various formatter examples.
 
 ## スタータープロジェクトをダウンロードする
 
-To begin, download the **Starter Project**, which includes:
+まず最初に**スタータープロジェクト**をダウンロードしてください。これには以下のものが含まれます:
 
-* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
-* A **Task Management.4dbase** file (with a ready to use mobile app project)
+* **integerToImage_Images** および **textToImage_Images** フォルダとそれに格納される画像(あとで画像を含むフォーマッターで使用します)
+* **Task Management.4dbase** ファイル(およびすぐに使用できるモバイルアプリプロジェクト)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">カスタムフォーマッターのスタータープロジェクトはこちらから</a>
+  <p>
+    
+
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+
   </p>
 </div>
 
-これでフォーマッターを作成する準備が整いました！
+You're now ready to create your first formatters!
 
 ## formatters フォルダを作成
 
@@ -37,12 +44,12 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ### 整数から文字列へ
 
-* Create an **integerToString** folder in the formatters folder you've just created.
-* Then create a **manifest.json** file in the **integerToString** folder.
+* 作成したformatters フォルダ内に**integerToString** フォルダを作成します。
+* 次に、**integerToString** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+**manifest.json** ファイルの中身を見てみましょう:
 
 ```json
 {
@@ -56,25 +63,24 @@ Let's look at the contents of the **manifest.json** file:
 }
 ```
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: フォーマッターの名前
+2. **type**: 使用したい4D フォーマット型
+3. **binding**: 文字列なら**localized text** 、あるいは画像なら**imageNamed**
+4. **choiceList**: マップされた値
 
 ### 整数から画像へ
 
-* Create an **integerToImage** folder in the **formatters** folder you've created.
+* 作成した**formatters** フォルダ内に**integerToImage** フォルダを作成します。
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* **integerToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+* 次に、**integerToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**integerToImage_Images** にある画像をここに追加することができます。
 
-![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-integertoimage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
-Let's look at the contents of the **manifest.json** file:
-
+**manifest.json** ファイルの中身を見てみましょう:
 
 ```json
 {
@@ -93,23 +99,24 @@ Let's look at the contents of the **manifest.json** file:
     }
 }
 ```
-1. **name**: the name of the formatter
-2. **type** : the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
-5. **assets**: adjust the display size (width and height)
+
+1. **name**: フォーマッターの名前
+2. **type**: 使用したい4D フォーマット型
+3. **binding**: 文字列なら**localized text** 、あるいは画像なら**imageNamed**
+4. **choiceList**: マップされた値
+5. **assets**: ディスプレイサイズの調整(幅と高さ)
 
 ## テキストフォーマッター
 
 ### テキストから文字列へ
 
-* Create a **textToString** folder in the formatters folder you've just created.
+* 作成したformatters フォルダ内に**textToString** フォルダを作成します。
 
-* Create a **manifest.json** file in the **textToString** folder.
+* 次に、**textToString** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+**manifest.json** ファイルの中身を見てみましょう:
 
 ```json
 {
@@ -123,24 +130,24 @@ Let's look at the contents of the **manifest.json** file:
 }
 ```
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: フォーマッターの名前
+2. **type**: 使用したい4D フォーマット型
+3. **binding**: 文字列なら**localized text** 、あるいは画像なら**imageNamed**
+4. **choiceList**: マップされた値
 
 ### テキストから画像へ
 
-* Create a **textToImage** folder in the formatters folder you've just created.
+* 作成したformatters フォルダ内に**textToImage** フォルダを作成します。
 
-* Create a **manifest.json** file in the **textToImage** folder.
+* 次に、**textToImage** フォルダ内に**manifest.json** ファイルを作成します。
 
 ![Formatter フォルダー](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+* 次に、**textToImage** フォルダ内に**Images** フォルダを作成します。 StarterProject.zip ファイル内の**textToImage_Images** にある画像をここに追加することができます。
 
-![フォーマッターで使用する画像](assets/en/custom-formatter/formatter-images-textToImage.png)
+![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
-Let's look at the contents of the **manifest.json** file:
+**manifest.json** ファイルの中身を見てみましょう:
 
 ```json
 {
@@ -165,26 +172,29 @@ Let's look at the contents of the **manifest.json** file:
 
 Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. manifest.json ファイルに記述したとおりに，各フィールドタイプに応じたフォーマッターが利用できるようになっています。
+Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
 
-* Select the **integerToString** formatter for the **Job field**
-* Select the **textToString** formatter for the **Country field**
-* Select the **integerToImage** formatter for the **Task Status**
-* Select the **textToImage** formatter for the **Manager**
+* **Job field** に対しては**integerToString** フォーマッターを選択します。
+* **Country field** に対しては**textToString** フォーマッターを選択します。
+* **Task Status** に対しては**integerToImage** フォーマッターを選択します。
+* **Manager** に対しては**textToImage** フォーマッターを選択します。
 
-![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-icons-&-labels.png)
+![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## 自分の4D for iOS アプリをビルドする
 
-4D for iOS アプリをビルドすると、クレジットの限度額に応じてデータフォーマッターが適切に適用されているのが分かります。
+Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
 
-![文字列を使用したフォーマッター](assets/en/custom-formatter/formatters-final-result.png)
+![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
 Click on **FORMATTER FINAL** below to download the completed formatter template folder.
 
 <div style="text-align: center; margin-top: 20px">
-  <p spaces-before="0">
-    <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">完成プロジェクト</a>
+  <p>
+    
+
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
+
   </p>
 </div>
