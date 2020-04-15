@@ -3,9 +3,11 @@ id: simulator
 title: Utilisation du simulateur
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Test your app in the Simulator.</div>
+
+Test your app in the Simulator.</div> 
 
 Finished developing you app and want to test it?
 
@@ -15,7 +17,7 @@ Go to the BUILD tab from the Project Editor and select an iOS device (aka the Si
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 
-## ÉTAPE 2. Créer & exécuter
+## ÉTAPE 2. Créez et exécutez
 
 Click on the **Build and Run** button.
 
@@ -25,4 +27,4 @@ Click on the **Build and Run** button.
 
 Test navigating between the list and detail forms in your app.
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 
+![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
