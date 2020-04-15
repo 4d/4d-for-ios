@@ -3,15 +3,20 @@ id: install-device
 title: Installing on your iOS device
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites">
+
+Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
+
 **PREREQUISITES**
 
 * Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips">
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
+
 **NOTA **
-Apple configurator 2 requires **macOS 10.14** or later.</div>
+
+Apple configurator 2 exige **macOS 10.14** ou superior.</div> 
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
 
@@ -29,7 +34,7 @@ Let's go through the process...
 
 ## PASSO 2. Configuração Xcode
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
+* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
 
 ## PASSO 3. Obtenha uma ID de Time
 
@@ -101,8 +106,3 @@ Let's go through the process...
 ![Devices and Simulators](assets/en/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
 * The app is being installed on your device!
-
-
-
-
-
