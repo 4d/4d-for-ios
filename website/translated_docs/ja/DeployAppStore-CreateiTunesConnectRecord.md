@@ -3,21 +3,27 @@ id: deploy-app-store-app-store-connect
 title: Create App Store record
 ---
 
-:::tip OBJECTIVES
+<div class = "objectives"> 
+
+**OBJECTIVES**
+
 * Create an App ID on your Developer Account
-* Create your app in App Store Connect :::
+* Create your app in App Store Connect</div> <div class = "prerequisites"> 
 
-:::important PREREQUISITES [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html) :::
+**PREREQUISITES**
 
-## ⒈ Create an App ID
+[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
+
+## ステップ 1 - Create an App ID
 
 #### What is an App ID ?
 
-*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*
+*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
 
-:::tip NOTE
+**注記**
+
 * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
-* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID. :::
+* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
@@ -35,14 +41,14 @@ To create your App ID, go to your developer account and select [Certificates, ID
 
 ![Confirm App ID](assets/en/deploy-app-store/Confirm-App-ID.png)
 
-## ⒉ Sign in to App Store Connect
+## ステップ 2 - Sign in to App Store Connect
 
 * Sign in to your [App Store Connect Account](https://appstoreconnect.apple.com)
 * Click on **My Apps**.
 
 ![App Store Connect](assets/en/deploy-app-store/App-Store-Connect-home-page.png)
 
-## ⒊ Create a new iOS App
+## ステップ 3 - Create a new iOS App
 
 Click the **+** sign in the top left corner to create a new iOS App.
 
@@ -57,11 +63,13 @@ Add the following information:
 * **SKU**: A unique ID for your app (this stays private and is not seen by users)
 * **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
 
-![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
+![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
 
-:::tip NOTE If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project. :::
+**注記**
 
-## ⒋ App information
+If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.</div> 
+
+## ステップ 4 - App information
 
 From App Store Connect > App Information:
 
@@ -73,24 +81,29 @@ From App Store Connect > App Information:
 
 ## ⒌ Pricing and Availability
 
-This is where you define the price for your app.
+This is where you define the price for your app.<div class = "tips"> 
 
-:::tip TIPS You can define limited-time discounts by specifying start and end dates. :::
+**ヒント**
+
+You can define limited-time discounts by specifying start and end dates.</div> 
 
 ## ⒍ Prepare for Submission
 
-Add all of the assets for your app to appear in the App Store in **Version Information**:
+Add all of the assets for your app to appear in the App Store in **Version Information**:<div class = "tips"> 
 
-:::tip TIPS You can generate all of your screenshots in Simulator (File > New Screen Shot). :::
+**ヒント**
+
+You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
 
 ![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Add your app screenshots. Screenshots for the iPhone 5.5" Super Retina Display and iPad 12.9" Retina Display are mandatory. For more details, see [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
 * Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
+
 * You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
 * Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
-* **Marketing URL** is optional. This can direct users to a marketing website for your app.
+* **Marketing URL** is optional. This can direct users to a marketing website for your app. 
 
 In the **iOS App section**:
 
@@ -106,6 +119,6 @@ The **App Review Information** and **Version Release** sections include informat
 
 ![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information**: Confidential contact and security information.
+* **App Review Information**: Confidential contact and security information. 
 * **Version Release**: Specifies an automatic or manual publication.
 * Finally, click **Save**.

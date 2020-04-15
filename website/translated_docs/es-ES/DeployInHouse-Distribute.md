@@ -3,8 +3,11 @@ id: deploy-in-house-distribution
 title: Distribuir una aplicación interna
 ---
 
-:::tip OBJECTIVES Upload your app to a secured server. :::
+<div class = "objectives"> 
 
+**OBJECTIVES**
+
+Upload your app to a secured server.</div> 
 
 ## PASO 1. Suba su aplicación
 
@@ -14,18 +17,19 @@ Upload your app files to a secured server:
 * archivo manifest.plist
 * archivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
-:::tip NOTE Your asset and ipa URLs must match the URLs defined in your manifest.plist file. :::
+**NOTA**
+
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
 
 ## PASO 2. Cree el enlace de instalación
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-```
-itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-
-```
+    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+    
+    
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -43,9 +47,9 @@ Here is a simple example:
 
 * Cuando abre por primera vez una aplicación empresarial que instaló manualmente, se mostrará una notificación que indica que el desarrollador de la aplicación no es de confianza en su dispositivo.
 
-* Ignore this message and click **Cancel**.
+* Ignore este mensaje y haga clic en **Cancel**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* En Reglas > General > Gestión de perfiles; Gestión de dispositivo, en el encabezado "Enterprise App", se lista el perfil del desarrollador.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 

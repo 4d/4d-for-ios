@@ -3,18 +3,21 @@ id: action-parameters
 title: アクションパラメーターを使用する
 ---
 
-:::tip OBJECTIVES アクションパラメーターを使用し，アプリ上でデータが更新できるようにしましょう！ :::
+<div class = "objectives">
+**OBJECTIVES**
+Define action parameters to edit the content of your app.</div>
 
-ひとつ前の[レッスン](define-first-action.html)では， 「[アクション](actions.html)」セクションでアクションを定義することにより，iOSアプリ側から4Dメソッドを呼び出す方法を学びました。
 
-このレッスンでは，下記のようなアクションを作成する方法を習得します。
+In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+
+In this tutorial, we're going to go further and create:
 
 * 新規タスクを**追加**する
 * 既存タスクを**編集**する
 * 既存タスクを**削除**する
 * 特定のタスクに関連したメッセージを**メールで送信**する
 
-**スタータープロジェクト**をダウンロードしてください。ここまでのレッスンで作成したチェックリストのアプリがベースになっています。
+To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
@@ -25,90 +28,90 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 ## ⒈ Add action
 
-まずひとつのアクションを追加するところから始めましょう。 モバイルアプリのプロジェクトを開き，**アクション**セクションに移動します。
+Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
-この時点では，すべての項目が空です。 **iOS アプリで新規タスクを追加する**アクションを作成することに取り掛かりましょう。
+It's quite empty for the moment... Here is what we want: **create a new task from the iOS app**.
 
-プリセットの**レコード追加**アクションを使用して，新規アクションを作成します。
+For this, let's create an action using a preset **Add** action:
 
 * アクションリストの下側にある**＋ボタン**の三角部分をクリックします。
 * **レコード追加**オプションを選択します。
 * **Task**テーブルを選択します。
 
-![追加アクションの作成](assets/en/actions/Add-action-creation.png)
+![Add action creation](assets/en/actions/Add-action-creation.png)
 
 * *"addTasks"* という名称で*"Add..."* というデフォルトのラベルタイトルが設定された**新規アクション**が表示されます。
 * 追加アクションに必要な**パラメーター**および**プロパティ**が**アクション引数**エリアに表示されます。
 
-![追加アクションのパラメーター](assets/en/actions/Add-action-parameters.png)
+![Add action parameters](assets/en/actions/Add-action-parameters.png)
 
-追加アクションに必要な**パラメーター**は，すべて揃っているので，これで設定は完了です。
+At this point, all **Add action parameters** are created automatically and ready to use.
 
 ## ⒉ Edit action
 
-今度は，**iOS アプリで既存タスクを編集する**アクションを作成してみましょう。
+Now let's create an action that will allow you to **edit your app content**.
 
-プリセットの**レコード編集**アクションを使用して，新規アクションを作成します。
+For this, we'll create an action using a preset **Edit** action:
 
 * アクションリストの下側にある**＋ボタン**の三角部分をクリックします。
 * **レコード編集**オプションを選択します。
 * Taskテーブルを選択します。
 
-![編集アクションの作成](assets/en/actions/Edit-action-creation.png)
+![Edit action creation](assets/en/actions/Edit-action-creation.png)
 
-この時点で，下記のようになっているはずです。
+At this point, you will see:
 
 * *"editTasks"* という名称で*"Edit..."* というデフォルトのラベルタイトルが設定された**新規アクション**が表示されています。
 * 編集アクションに必要な**パラメーター**および**プロパティ**が**アクション引数**エリアに表示されています。
 
 
-![編集アクションのパラメーター](assets/en/actions/Edit-action-parameters.png)
+![Edit action parameters](assets/en/actions/Edit-action-parameters.png)
 
-アクションを実行するために必要なメソッドは，後から作成します。 今はプロジェクトエディターの作業に専念しましょう。
+Don't worry, we'll handle the 4D code for these actions later. :-)
 
 ## ⒊ Delete action
 
-プリセットの**レコード削除**アクションは，編集アクションとほとんど一緒です。
+The preset **Delete** action creation process is nearly the same as the Edit action:
 
 * アクションリストの下側にある**＋ボタン**の三角部分をクリックします。
 * **レコード削除**オプションを選択します。
 * Taskテーブルを選択します。
 
-![追加アクションの作成](assets/en/actions/Delete-action-creation.png)
+![Delete action creation](assets/en/actions/Delete-action-creation.png)
 
-*"Remove"* という名称で*"deleteTasks"* というデフォルトのラベルタイトルが設定された**新規アクション**が表示されます。
+At this point, you will see a **new action** named *"deleteTasks"* with *"Remove"* as the default label.
 
 ![Delete action](assets/en/actions/Delete-action-final.png)
 
-削除アクションは，パラメーターやプロパティが不要です。
+You don't need to worry about parameters or properties for this type of action.
 
 ## ⒋ コメント送信アクション
 
-選択したタスクに対して入力されたコメントを**特定のアドレス**に**メール送信する**アクションを作成しましょう。 ＋ボタンをクリックし，**sendComment**という名称の新規アクションを作成します。
+Now we want to **send a comment** to a **specific email** depending on a specific task. To do so, click on the + button and create a new action named **sendComment**.
 
-![追加アクションの作成](assets/en/actions/Send-comment-action-creation.png)
+![Delete action creation](assets/en/actions/Send-comment-action-creation.png)
 
-作成したアクションに対し，３個のパラメーター（引数）を定義します。
+Now let's create three parameters:
 
 * ＋ボタンの三角部分をクリックし，アクションパラメーターのリストから**Title**を選択します。送信するメールにタスク名を含めるためです。
 * ＋ボタンをクリックし，**Comment**パラメーターを作成します。フォーマットは「テキスト」です。
 * 同じ要領で**email**パラメーターを追加し，フォーマットは「メールアドレス」に設定します。
 
-アクションの定義は下図のようになっているはずです。
+Your Actions section should look like this:
 
-![送信アクションの作成](assets/en/actions/Send-comment-action-definition.png)
+![Send comment action creation](assets/en/actions/Send-comment-action-definition.png)
 
 ## ⒌ On Mobile App Action メソッド
 
-*On Mobile App Action* データベースメソッドを作成するには，[documentation](actions.html) に述べられているように, 「作成」ボタンをクリックします。
+As described in the [documentation](actions.html), click on the Create button to create the *On Mobile App Action* database method.
 
-プロジェクトエディターで定義したアクションの名称が自動的に挿入されています。
+All of your actions will automatically be included in this database method.
 
-アクションに応じた処理を追加して，メソッドを完成させましょう。
+The only thing you need to do is add a reference to your method(s) for the scenario(s) your want to handle.
 
-*On Mobile App Action* データベースメソッドの内容は，下記のようになります。
+Here's the final *On Mobile App Action* database method:
 
 ```4d
 C_OBJECT($0;$response)
@@ -373,34 +376,34 @@ $0:=$out
 
 ```
 
-**sendEmail** アクションで実行されるコードは，ご利用のメールサーバーに合わせて値を変更してください。
+Don't forget to add your own values for the **sendEmail** action.
 
 
 
 ## ⒎ アプリをビルドする
 
 
-あとは，アプリをビルドするだけです！
+It's time to build your app!
 
-ナビゲーションバーのアクションボタンをクリックすると，**新規タスクを作成する**ことができます。
+Now, if you click on the Action button in the navigation bar, you'll be able to **create a new task**.
 
-![タスクの追加](assets/en/actions/Action-parameters-addAction.png)
+![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
-作成したタスクが表示されたセルをリスト画面上で長押しすると，アクションリストが表示され，**Edit...**アクションを選択することができます。
+Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action is available in the action list.
 
-![タスクの編集](assets/en/actions/Action-parameters-editAction.png)
+![Edit task](assets/en/actions/Action-parameters-editAction.png)
 
-**Send comment**アクションでメッセージを送信することもできます。
+Send a comment using the **Send comment** action.
 
 ![メッセージを送信する](assets/en/actions/Action-parameters-sendComment.png)
 
-**Delete...**アクションでエンティティを削除することができます。
+And finally you can delete an entity using the **Delete...** action.
 
-![タスクの削除](assets/en/actions/Action-parameters-deleteAction.png)
+![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
 ## ⒏ これからどうする？
 
-Congratulations! これでチェックリストのiOSアプリが完成しました！デバイス上で直接データを変更することができ，更新した内容は，サーバーとシンクロさせることができます！
+Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">

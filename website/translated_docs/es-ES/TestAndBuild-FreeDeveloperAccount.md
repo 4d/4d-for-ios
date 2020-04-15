@@ -11,11 +11,11 @@ Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id
 
 Si ya tiene identificación Apple, vaya a '[Paso 3](#step-3-open-xcode)
 
-## PASO 2. Crear su identificación Apple
+## PASO 2. Cree su identificación Apple
 
 Vaya a la [página de creación del identificador Apple](https://appleid.apple.com/).
 
-![Crear su identificación Apple](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Llene el formulario y las preguntas de seguridad.
 * Recibirá un código de verificación por correo electrónico.
@@ -27,10 +27,9 @@ Vaya a la [página de creación del identificador Apple](https://appleid.apple.c
 
 ## PASO 3. Abra Xcode
 
-* Launch Xcode > Preferences > Accounts
-* Agregue su ID de Apple e inicie sesión
+* Lance Xcode > Preferences > Accounts
+* Agregue su ID de Apple e inicie sesión 
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-¡Felicidades! ¡Ahora está listo para utilizar su ID de Apple gratis!
-
+¡Felicitaciones! ¡Ahora está listo para utilizar su ID de Apple gratis!

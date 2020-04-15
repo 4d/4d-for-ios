@@ -12,8 +12,11 @@ Xcode est un environnement de développement intégré (IDE) et un ensemble d’
 Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Afficher dans Mac App Store </a>
+  <p>
+    
+
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Afficher dans Mac App Store </a>
+
   </p>
 </div>
 
@@ -25,7 +28,6 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
-| 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
 | 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
@@ -34,13 +36,11 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-
 ### Utilisation de 17R6 avec macOS 10.14.3
 
 4d 17R6 requiert Swift5.0. (déjà installé sur macOS 10.14.4)
 
- - Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
-
+- Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Compatibilité
 

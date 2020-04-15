@@ -3,8 +3,11 @@ id: deploy-in-house-distribution
 title: Distribute your app in-House
 ---
 
-:::tip OBJECTIVES Upload your app to a secured server. :::
+<div class = "objectives"> 
 
+**OBJECTIVES**
+
+Upload your app to a secured server.</div> 
 
 ## SCHRITT 1. Upload your app
 
@@ -14,18 +17,19 @@ Upload your app files to a secured server:
 * manifest.plist file
 * .ipa file
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
-:::tip NOTE Your asset and ipa URLs must match the URLs defined in your manifest.plist file. :::
+**HINWEIS**
+
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
 
 ## SCHRITT 2. Create the installation link
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-```
-itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-
-```
+    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+    
+    
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 

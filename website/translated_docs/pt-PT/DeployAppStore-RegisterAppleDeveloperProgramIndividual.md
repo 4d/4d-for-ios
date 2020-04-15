@@ -3,7 +3,11 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program para particulares
 ---
 
-:::tip OBJECTIVES Register for the Apple Developer Program as an individual to publish your app to the **App Store**. :::
+<div class = "objectives"> 
+
+**OBJECTIVES**
+
+Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 
 ## PASSO 1. Apple ID
 
@@ -30,33 +34,34 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 * Você pode se registrar como um desenvolvedor [aqui](https://developer.apple.com/account/).
 
 * Leia e aceite o Contrato de Desenvolvedor Apple.
-* Click **Submit**.
+
+* Clique **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## PASSO 4. Una-se ao Apple Developer Program
 
-* Click on **Join the Apple Developer Program** at the bottom of the page.
+* Clique em **Join the Apple Developer Program** na parte inferior da página.
 
 ![Una-se ao Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## PASSO 5. Inscreva-se como um indivíduo
 
-* Click on the **Start your Enrollment** button.
-* Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
-* Click **Continue**.
+* Clique no botão **Start your Enrollment**
+* Selecione **Individuals / Sole Proprietor / Single Person Business** na lista suspensa "Entity Type".
+* Clique **Continue**.
 
 ![Start your Enrollment](assets/en/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
 * Complete o formulário
 * Leia e Aceite o Contrato de Desenvolvedor de Licença "Apple Developer Program License Agreement".
-* Click **Continue**.
+* Clique **Continue**.
 
 ![Inscreva-se como um indivíduo](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## PASSO 6. Complete sua inscrição
 
-* Click **Purchase** and make payment to complete your enrollment.
+* Clique **Purchase** e realize o pagamento para finalizar sua inscrição.
 
 ![Complete sua inscrição](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 

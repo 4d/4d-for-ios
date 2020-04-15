@@ -3,11 +3,16 @@ id: multi-criteria-search
 title: Multi-criteria search
 ---
 
-:::tip OBJECTIVES Activate the multi-criteria search in your own templates. :::
+
+<div class = "objectives"> 
+
+**OBJECTIVES**
+
+Activate the multi-criteria search in your own templates.</div> 
 
 This feature is activated by default in all 4D for iOS-generated templates.
 
-## Template svg file
+## Arquivo template svg
 
 To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
 

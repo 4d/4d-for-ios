@@ -3,19 +3,25 @@ id: create-new-project
 title: New Project
 ---
 
-:::tip OBJECTIVES Get familiar with the Project Editor. :::
+<div class = "objectives"> 
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+**OBJECTIVES**
+
+Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
 Let's take a look at how 4D for iOS works.
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-Give your project a name and click **Create**.
+Dê um nome a seu projeto e clique **Criar**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Clique **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
@@ -29,18 +35,18 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 * Geral
 * Estrutura
-* Data
+* Dados
 * Actions
-* Labels & Icons
-* Main Menu
-* Forms
-* Publishing
+* Etiquetas e ícones
+* Menu principal
+* Formulários
+* Publicação
 
 ## Geração
 
 The Build tab has four options:
 
-* Criar e executar
+* Criar e executar 
 * Seleção de simulador
 * Navegador de projeto e de produto
-* Instalar 
+* Instalar

@@ -3,16 +3,18 @@ id: one-to-many-relations-actions
 title: １対Ｎとアクション
 ---
 
-:::tip OBJECTIVES 今度は， **特定の担当者（１レコード）のためにタスク（Ｎレコード）を作成する**場合を考えましょう。 :::
+<div class = "objectives">
+**OBJECTIVES**
+We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
-**親エンティティ**さえきちんと特定できていれば，子エンティティを作成するのは少しも難しいことはではありません！
+It is very easy to create an entity using **parent Entity** !
 
 素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">１対Ｎとアクションの素材プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
 
@@ -22,12 +24,12 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
 
 * addProject アクションを追加します。
 
-![addProject メソッドの作成](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
+![create addProject Method](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
 
 
 ## On Mobile App Action データベースメソッド
 
-あとは下記のように**On Mobile App Action**データベースメソッド内で**addProject** アクションの動作を定義するだけです。
+The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
 ```4d
 : ($request.action="addProjects")
@@ -46,7 +48,7 @@ $result:=addProject ($o)
 ## addProject プロジェクトメソッド
 
 
-**addProject**メソッドには，下記のコードを入力します。
+Then enter thoses lines in your **addProject Method**:
 
 ```4d
 C_OBJECT($0)
@@ -95,11 +97,11 @@ $0:=$out
 
 ```
 
-親エンティティを使用することにより，幾つでも担当者にタスクを追加することができるようになりました！
+And that's it you can then add some task to your employees easily using the parent Entity !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">１対Ｎとアクションの完成プロジェクト</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>

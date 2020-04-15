@@ -6,8 +6,8 @@ title: Prerequisites
 ## Software requirements
 
 * 4D Developer Pro v17 R2 64-bit (Development)
-* 4D Server v17 R2 64-bit (Deployment)
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional).
+* 4D Server v17 R2 64-bit (Deployment) 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
 
 Apple configurator 2 requires **macOS 10.14** or later. Install this software if you want to automate app installation on your physical device.
 
@@ -17,6 +17,8 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11.4   | 5.2   | OS 13.4  | 18.2 | 10.15.2 |
+| 11.3.1 | 5.1.3 | iOS 13.3 | 18.1 | 10.14.4 |
 | 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
 | 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
@@ -30,7 +32,7 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
 
- - Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+* Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Using 17R4 with Xcode 10.2
 
@@ -53,7 +55,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
-* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for  4D for iOS deployment.
+* Your HTTP and HTTPS ports must be well-configured. HTTPS is mandatory for 4D for iOS deployment.
 
 ![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
 

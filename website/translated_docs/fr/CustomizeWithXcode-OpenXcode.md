@@ -3,20 +3,28 @@ id: open-xcode
 title: Travailler avec Xcode
 ---
 
-:::tip OBJECTIVES
+<div class = "objectives"> 
+
+**OBJECTIVES**
+
 * Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app. :::
+* Customize the generated 4D for iOS app.</div> 
 
-4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!
+4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
 
-:::caution CAUTION If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost! :::
+**NOTE**
+
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
 
 We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
 
 <div style="text-align: center; margin-top: 20px">
-  <p spaces-before="0">
-    <a class="button"
+  <p>
+    
+
+<a class="button"
 href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
+
   </p>
 </div>
 
@@ -30,7 +38,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
-* Click the **Build and Run** button.
+* Cliquez sur le bouton **Créer & exécuter**.
 
 ![Créer & exécuter](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
@@ -38,7 +46,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 
 À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
-* Click on Project > Open the project with Xcode
+* Cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![Ouvrez votre projet avec Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 

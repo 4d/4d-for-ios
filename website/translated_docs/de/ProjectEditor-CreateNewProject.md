@@ -3,9 +3,15 @@ id: create-new-project
 title: New Project
 ---
 
-:::tip OBJECTIVES Get familiar with the Project Editor. :::
+<div class = "objectives"> 
 
-:::important PREREQUISITES Click [here](prerequisites.html) to see what you'll need to get started! :::
+**OBJECTIVES**
+
+Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 Let's take a look at how 4D for iOS works.
 
@@ -40,7 +46,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 The Build tab has four options:
 
-* Build and Run
+* Build and Run 
 * Simulator selection
 * Project and product browser
-* Install 
+* Install

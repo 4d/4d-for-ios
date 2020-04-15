@@ -3,25 +3,34 @@ id: creating-detailform-templates
 title: Plantillas de formulario listado
 ---
 
-:::tip OBJECTIVES Create your first list form template. :::
+<div class = "objectives"> 
 
-:::PRERREQUISITOS importante Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar. :::
+**OBJECTIVES**
+
+Create your first list form template.</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
 ![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
-## Descargar el proyecto Starter
+## Descargue el proyecto Starter
 
 Before we begin, be sure to download the **Starter Project** which includes:
 
-* A **List form** folder
-* A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
+* Una carpeta **List form** 
+* Un archivo **Contact.4dbase** (base de demostración con un proyecto de aplicación móvil listo para utilizar)
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+  <p>
+    
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
+
   </p>
 </div>
 
@@ -45,9 +54,9 @@ Now let's focus on the contents of the **Custom List form** folder.
 
 In this folder, you'll find:
 
-* **a layoutIconx2.png** icon in 160x160px : it'll be displayed in the project editor when you select your template
-* **a manifest.json file** : includes a basic description of the template
-* **a template.svg file** : the visual representation of your template displayed when you define your list form content.
-* Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+* Un icono **layoutIconx2.png** de 160x160px que se mostrará en el editor del proyecto cuando seleccione su plantilla
+* Un archivo **manifest.json** que incluye una descripción básica de la plantilla
+* **Un archivo template.svg**: la representación visual de su plantilla que se muestra cuando define el contenido de su formulario listado.
+* Carpeta Source>: incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
 
 What are these files? What are they used for? How can you customize them?

@@ -1,22 +1,24 @@
 ---
 id: prerequisites
-title: Conditions requises
+title: Conditions préalables
 ---
 
 ## Configuration logicielle requise
 
 * 4D Developer Pro v17 R2 64 bits (développement)
-* 4D Server v17 R2 64 bits (déploiement)
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif).
+* 4D Server v17 R2 64 bits (déploiement) 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif). 
 
-Apple configurator 2 requires **macOS 10.14** or later. Installez ce logiciel si vous souhaitez installer votre application automatiquement sur votre appareil.
+Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente. Installez ce logiciel si vous souhaitez installer votre application automatiquement sur votre appareil.
 
-Xcode 10.2 requieres **macOS 10.14** or later.
+Xcode 10.2 nécessite **macOS 10.14** ou une version plus récente.
 
-## Tableau de comparaison de version
+## Tableau de comparaison des versions
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11.4   | 5.2   | OS 13.4  | 18.2 | 10.15.2 |
+| 11.3.1 | 5.1.3 | iOS 13.3 | 18.1 | 10.14.4 |
 | 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
 | 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
@@ -30,7 +32,7 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 4d 17R6 requiert Swift5.0. (déjà installé sur macOS 10.14.4)
 
- - Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+* Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Utilisation de 17R4 avec Xcode 10.2
 
@@ -49,7 +51,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## Configuration 4D
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* Dans les propriétés de la base de 4D, affichez la page de compatibilité et cochez la case **Utiliser la notation objet pour accéder aux propriétés des objets (Unicode nécessaire).**
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 

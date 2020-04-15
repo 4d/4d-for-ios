@@ -3,29 +3,35 @@ id: create-new-project
 title: 新規プロジェクト
 ---
 
-:::tip OBJECTIVES プロジェクトエディター各部の名称と役割を理解しましょう！ :::
+<div class = "objectives"> 
 
-:::important PREREQUISITES [ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！ :::
+**OBJECTIVES**
 
-実際に4D for iOSを起動してみましょう。
+Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+
+**PREREQUISITES**
+
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
+
+Let's take a look at how 4D for iOS works.
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-Give your project a name and click **Create**.
+適当なプロジェクト名を英数字で入力した後， **作成**をクリックします。
 
-![プロジェクト名](assets/en/project-editor/Project-creation-4D-for-iOS.png)
+![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-自動的に表示されるランディングページには，4D for iOSの概要がシンプルにまとめられています。 You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
 ![ランディングページ](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-ここがスタート地点です！ 4D for iOSのアーキテクチャとインタフェースを解き明かしてゆきましょう！
+Here we are! Now it's time to discover the 4D for iOS architecture and interface.
 
-メイン画面は，２個のタブで構成されています。
+The main window consists of two tabs:
 
 ## セクション
 
-「セクション」タブの各セクションは，4D for iOSアプリが出来るまでの過程に対応しています。
+In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
 * 一般
 * ストラクチャ
@@ -38,9 +44,9 @@ Give your project a name and click **Create**.
 
 ## ビルド
 
-ビルドタブには，４個のボタンが存在します。
+The Build tab has four options:
 
-* ビルドして実行
+* ビルドして実行 
 * シミュレーター
 * プロジェクト
-* インストール 
+* インストール

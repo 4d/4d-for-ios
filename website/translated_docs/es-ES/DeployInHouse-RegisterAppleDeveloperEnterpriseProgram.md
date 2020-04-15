@@ -3,10 +3,15 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-:::tip OBJECTIVES Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>. :::
+<div class = "objectives"> 
 
-:::important PREREQUISITES To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name. :::
+**OBJECTIVES**
 
+Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
+
+**NOTA**
+
+To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
 
 ## PASO 1. Identificador Apple
 
@@ -14,7 +19,7 @@ If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
 
 Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-d-u-n-s-number).
 
-## PASO 2. Crear su identificación Apple
+## PASO 2. Cree su identificación Apple
 
 Vaya a la [página de creación del identificador Apple](https://appleid.apple.com/).
 
@@ -40,7 +45,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 ![Solicite un número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Llene el formulario.
-* Click **Continue**.
+* Haga clic en **Continue**.
 * Verifique su e-mail para obtener el número D-U-N-S.
 
 ![Número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -49,29 +54,29 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 Puede registrarte como desarrollador [aquí](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Click on the **Start your Enrollment** button.
-* Lea y acepte el Contrato de desarrollador de Apple.
-* Click **Submit**.
+* Haga clic en el botón **Start your Enrollment**.
+* Lea y acepte los términos del contrato "Apple Developer Agreement". 
+* Haga clic en **Submit**.
 
 ![Regístrese como desarrollador](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## PASO 6. Suscríbase al Apple Developer Enterprise Program
 
-* Puede suscribirse al Apple Developer Program [aquí](https://developer.apple.com/enroll/enterprise/).
-* Click on the **Start your Enrollment** button.
-* Select **Company / Organization** from the Entity Type dropdown list.
-* Click **Continue**.
+* Puede suscribirse al Apple Developer Program [aquí](https://developer.apple.com/enroll/enterprise/). 
+* Haga clic en el botón **Start your Enrollment**.
+* Seleccione **Company / Organization** en la lista desplegable "Entity Type".
+* Haga clic en **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
-* Llene el formulario.
-* Click **Continue**.
+* Llene el formulario. 
+* Haga clic en **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
 ## PASO 7. Verificación de Apple
 
-* Apple tiene un proceso de verificación interno que generalmente tarda hasta seis días hábiles. Una vez que Apple recibe la solicitud de inscripción, verifican que tiene el desarrollador esté habilitado para vincular a su organización con los acuerdos legales del Apple Developer Program.
+* Apple tiene un proceso de verificación interno que generalmente tarda hasta seis días hábiles. Una vez que Apple recibe la solicitud de inscripción, verifican que el desarrollador esté habilitado para vincular a su organización con los acuerdos legales del Apple Developer Program.
 * Generalmente, Apple llama para verificar que el contacto principal existe y que se ha solicitado el registro al Apple Developer Enterprise Program.
 * Luego, recibirá otro correo electrónico que lo invitará a finalizar el proceso de inscripción.
 
@@ -80,6 +85,6 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 ## PASO 8. Complete su suscripción
 
 * Una vez que su solicitud de inscripción haya sido aceptada, puede proceder al pago.
-* Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
+* Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
 ¡Felicidades! you're now ready to deploy your application in-house!
