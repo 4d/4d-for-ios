@@ -18,10 +18,10 @@
         "title": "Utilizar parámetros de acción"
       },
       "contact-app": {
-        "title": "Contact App"
+        "title": "Aplicación Contacts"
       },
       "4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization"
+        "title": "Organizar un proyecto 4D for iOS"
       },
       "customize-your-ios-app": {
         "title": "Personalizar su aplicación 4D for iOS"
@@ -36,7 +36,7 @@
         "title": "Crear y ejecutar su proyecto"
       },
       "creating-data-formatter": {
-        "title": "Crear el formato de datos"
+        "title": "Crear un formato de datos"
       },
       "data-formatter-mobile-project": {
         "title": "Abrir un proyecto móvil"
@@ -69,10 +69,10 @@
         "title": "Seleccionar un Apple Developer Program"
       },
       "creating-detailform-templates": {
-        "title": "Plantillas de formulario detallado"
+        "title": "Plantillas de formularios detallados"
       },
       "icon-detailform-template": {
-        "title": "Icono de formulario detallado"
+        "title": "Iconos de formularios detallados"
       },
       "manifest-detailform-template": {
         "title": "Manifest.json"
@@ -94,7 +94,7 @@
         "title": "Prerrequisitos"
       },
       "create-icons": {
-        "title": "Create icons"
+        "title": "Crear iconos"
       },
       "using-icons": {
         "title": "Utilizar los iconos"
@@ -109,7 +109,7 @@
         "title": "Licencias"
       },
       "creating-listform-templates": {
-        "title": "Plantillas de formulario listado"
+        "title": "Plantillas de formularios Lista"
       },
       "manifest-listform-template": {
         "title": "Manifest.json"
@@ -121,7 +121,7 @@
         "title": "Template.svg"
       },
       "icon-listform-template": {
-        "title": "List form icon"
+        "title": "Iconos de formularios Lista"
       },
       "multi-criteria-search": {
         "title": "Búsqueda multicriterios"
@@ -148,7 +148,7 @@
         "title": "Etiquetas e iconos"
       },
       "main-menu": {
-        "title": "Main Menu"
+        "title": "Menú principal"
       },
       "publishing": {
         "title": "Publicación"
@@ -160,16 +160,16 @@
         "title": "Relaciones Muchos a Uno"
       },
       "one-to-many-relations-actions": {
-        "title": "Relaciones Uno a Muchos - Acciones"
+        "title": "Uno a Muchos - Acciones"
       },
       "one-to-many-relations-custom-button": {
         "title": "Uno a Muchos - Botón personalizado"
       },
       "one-to-many-relations-title-definition": {
-        "title": "One to Many - Title definition"
+        "title": "Uno a Muchos - Título"
       },
       "one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relaciones Uno a Muchos"
       },
       "custom-data-formatters": {
         "title": "Formato de datos"
@@ -187,7 +187,7 @@
         "title": "Búsquedas limitadas"
       },
       "user-information-query": {
-        "title": "Filtro de búsqueda usuario"
+        "title": "Filtro de búsqueda - información usuario"
       },
       "template": {
         "title": "Plantillas y formatos"
@@ -196,7 +196,7 @@
         "title": "Cuenta Apple Developer gratuita"
       },
       "install-device": {
-        "title": "Instalar en su dispositivo iOS"
+        "title": "Instalación en su dispositivo iOS"
       },
       "simulator": {
         "title": "Utilización del simulador"
@@ -438,7 +438,7 @@
     "Test|no description given": "Pruebe",
     "Deploy|no description given": "Despliegue",
     "Define a subset of your physical structure to replicate.|no description given": "Defina un subconjunto de su estructura física a replicar.",
-    "Structure|no description given": "Structure",
+    "Structure|no description given": "Estructura",
     "Choose the layouts and style of your application in just a few, short steps.|no description given": "Elija los diseños y el estilo de su aplicación en solo unos pocos pasos.",
     "Design|no description given": "Diseño",
     "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Cree un proyecto Xcode con un solo clic y ejecute su aplicación en cualquier iPhone.",
