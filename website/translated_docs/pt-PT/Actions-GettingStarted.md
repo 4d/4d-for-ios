@@ -3,11 +3,15 @@ id: actions-getting-started
 title: Começando
 ---
 
-<div class = "objectives">
+<div class = "objectives"> 
+
 **OBJECTIVES**
-Use actions in the generated iOS app.</div> <div class = "prerequisites">
+
+Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
+
 **PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
 In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 
