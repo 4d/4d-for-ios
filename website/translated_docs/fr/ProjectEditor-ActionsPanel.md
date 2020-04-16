@@ -270,67 +270,67 @@ Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, sit
 
 **NOTE**
 
-* You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
-* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
-* You can also decide to force close the Edition form using ```$out.close:=True```.</div> 
+* Vous pouvez mettre à jour la sélection après l'exécution d'une action, à l'aide de ```$out.dataSynchro:=True```.
+* Vous pouvez notifier l'utilisateur lorsque l'application a été exécutée, à l'aide de ```$out.statusText:="Message you want to display"```.
+* Vous pouvez également choisir de forcer la fermeture du formulaire d'édition, à l'aide de ```$out.close:=True```.</div> 
 
 ## Application iOS
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+Dans votre application iOS, des actions sont disponibles sous différentes formes dans vos formulaires Liste et vos formulaires détaillés, selon le modèle que vous sélectionnez dans la section Formulaires.
 
 ### Formulaires Liste en tableau
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
+* **Action d'entité :** Faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
+* **Action de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**TIPS**
+**ASTUCES**
 
-Actions will be displayed in the same order as defined in the Action section.</div> 
+Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</div> 
 
 ### Formulaires Liste en collection
 
-* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Action d'entité :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Action de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Formulaires détaillés
 
-As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+De même que pour les actions de table dans les formulaires détailles, un bouton d'actions générique est disponible dans la barre de navigation pour afficher toutes vos actions d'entité dans une liste.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
 ### Formulaires d'édition
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si vous avez créé une action d'ajout ou d'édition, un **formulaire d'édition** apparaît dès que vous sélectionnez l'action à partir de la liste d'actions.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-From here, you can:
+Vous pourrez ainsi :
 
-* edit all of your fields by selecting them, and
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* éditer tous vos champs en les sélectionnant, et
+* valider ou annuler les modifications que vous aurez apportées à l'aide des boutons **Done** ou **Cancel** (dans la barre de navigation).
 
-For your convenience, the Edition form includes a few **special features**:
+A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
-* The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous field using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by touching anywhere outside of a field.
-* Indication is given to the user when a value is not valid.
-* The view focuses on empty mandatory fields when the user clicks the Done button.
+* Le type de clavier dépend du type de paramètre sélectionné dans la section Actions.
+* Vous pouvez passer d'un champ à l'autre à l'aide des flèches situées en haut du clavier.
+* Le clavier iOS peut être quitté via un simple clic en dehors du champ.
+* L'utilisateur est informé lorsqu'une valeur n'est pas valide.
+* La vue est portée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.
 
 ## Que faire ensuite ?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutoriel](actions-getting-started.html) est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des paramètres d'une action**.
