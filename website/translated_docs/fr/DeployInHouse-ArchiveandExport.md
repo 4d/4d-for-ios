@@ -5,23 +5,23 @@ title: Archiver et exporter un projet
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-* Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div class = "prerequisites"> 
+* Archiver et exporter un projet 4D for iOS
+* Générer des fichiers .ipa et des fichiers manifest</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* A secured web server
-* 57 x 57 px icon
-* 512 x 512 px icon</div> 
+* [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
+* Un serveur Web sécurisé
+* Une icône de résolution 57 x 57 px
+* Une icône de résolution 512 x 512 px</div> 
 
 ## ÉTAPE 1. Configurez Xcode
 
-Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
+Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates.
+Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
@@ -87,7 +87,7 @@ Xcode will automatically install required provisioning and certificates.
 
 #### Qu'est-ce qu'un manifest ?
 
-The manifest is an XML-based property list and should contain:
+Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 
 * **URL** : un URL vers le fichier .ipa.
 * **display-image** : un URL vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilisée lors du téléchargement et de l'installation.
@@ -96,7 +96,7 @@ The manifest is an XML-based property list and should contain:
 * **bundle-version** : La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
 * **title** : Le nom de votre application.
 
-Here is an example of a manifest.plist file :
+Voici un exemple de fichier manifest.plist :
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
