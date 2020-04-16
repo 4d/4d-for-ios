@@ -7,7 +7,7 @@ Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4
 
 **NOTE**
 
-In this tutorial, we will use the relation names between your tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div> 
+Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</div> 
 
 Commençons par télécharger le Projet Starter :
 
@@ -16,42 +16,42 @@ Commençons par télécharger le Projet Starter :
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">ONE TO MANY STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
 
   </p>
 </div>
 
-In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.
+Dans ce tutoriel, nous allons créer une **application Task** à l'aide de 4D for iOS.
 
 ![Task App Final result](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 
-But first, let's have a look at the structure of our database:
+Mais d'abord, jetons un œil à la structure de notre base :
 
 ![Select link from structure section](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
-As you can see, there is a One to Many link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to Many**).
+Vous remarquerez qu'il existe un lien 1 vers N nommé **tasks** qui utilisera une application iOS pour afficher les tâches (**vers N**) des employés (**1**).
 
-Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go to the **Structure section**.
+Cliquez maintenant sur Ouvrir menu > Projet mobile... et sélectionnez *Time Keeper* puis cliquez sur la **section Structure**.
 
 ## Section Structure
 
-You can see the **tasks relation** we have seen earlier... Publish it !
+Vous voyez ici le lien **tasks** que nous avons créé précédemment... Vous pouvez le publier !
 
-This will now operate as any other field for the rest of the app creation process.
+Il aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application.
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**TIPS**
+**ASTUCES**
 
-* On mouse over, a tip displays the table name originating the relation.</div> 
+* En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.</div> 
 
 ## Section Libellés & icônes
 
-The One to Many relation is now available in the [Labels and Icons](labels-and-icons.html) section.
+Le lien 1 vers N est maintenant disponible dans la section [Libellés et icônes](labels-and-icons.html).
 
-It is important to know that including a One to Many relation will create a button into the genrated iOS app.
+A noter qu'un bouton est créé dans l'application lorsque vous incluez un lien 1 vers N.
 
-So, in the Labels & Icons section you will define:
+Dans la section Libellés & icônes, vous définirez :
 
 * un libellé de bouton
 * une icône de bouton
@@ -73,14 +73,14 @@ So, in the Labels & Icons section you will define:
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
-And voila, this is how One to Many relations work in 4D for iOS !
+Et le tour est joué ! Voilà comment fonctionnent vos liens 1 vers N fonctionnent dans 4D for iOS !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">ONE TO MANY FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 VERS N</a>
 
   </p>
 </div>
