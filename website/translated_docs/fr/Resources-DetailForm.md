@@ -6,11 +6,11 @@ title: Modèles des formulaires détaillés
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**AVANT DE COMMENCER**
 
-1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+1. Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/detail`.
 
-2. Then drop the detail form folder into it.</div> 
+2. Glissez ensuite le dossier du formulaire détaillé dans le dossier que vous venez de créer.</div> 
 
 <div style="height: auto;">
   <table>
@@ -28,10 +28,10 @@ title: Modèles des formulaires détaillés
         
         <ul style="font-size:16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Ressources inclues :</strong> oui
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Actions:</strong> inclues
           </li>
           <li>
             <strong>Image requise:</strong> non
@@ -54,10 +54,10 @@ title: Modèles des formulaires détaillés
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Included resources:</strong> yes
+            <strong>Ressources inclues :</strong> oui
           </li>
           <li>
-            <strong>Actions:</strong> included
+            <strong>Actions:</strong> inclues
           </li>
           <li>
             <strong>Image requise:</strong> non
@@ -87,10 +87,10 @@ title: Modèles des formulaires détaillés
           
           <ul style="font-size:16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Ressources inclues :</strong> oui
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>Actions:</strong> inclues
             </li>
             <li>
               <strong>Image requise:</strong> non
@@ -113,10 +113,10 @@ title: Modèles des formulaires détaillés
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Included resources:</strong> yes
+              <strong>Ressources inclues :</strong> oui
             </li>
             <li>
-              <strong>Actions:</strong> included
+              <strong>Actions:</strong> inclues
             </li>
             <li>
               <strong>Image requise :</strong> oui
@@ -150,7 +150,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -173,7 +173,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -204,7 +204,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -227,7 +227,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -258,7 +258,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graphe :</strong> oui
             </li>
           </ul>
           
@@ -281,7 +281,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graphe :</strong> oui
             </li>
           </ul>
           
@@ -312,7 +312,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graphe :</strong> oui
             </li>
           </ul>
           
@@ -335,7 +335,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graphe :</strong> oui
             </li>
           </ul>
           
@@ -366,7 +366,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise:</strong> non
             </li>
             <li>
-              <strong>Graph:</strong> yes
+              <strong>Graphe :</strong> oui
             </li>
           </ul>
           
@@ -389,7 +389,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -420,7 +420,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -443,7 +443,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -474,7 +474,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -497,7 +497,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -528,7 +528,7 @@ title: Modèles des formulaires détaillés
               <strong>Image requise :</strong> oui
             </li>
             <li>
-              <strong>Graph:</strong> no
+              <strong>Graphe :</strong> non
             </li>
           </ul>
           
@@ -541,9 +541,9 @@ title: Modèles des formulaires détaillés
       </tr></table> </div> <div class = "tips"> 
       
       <p>
-        <strong>More</strong>
+        <strong>Plus encore</strong>
       </p>
       
       <p>
-        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+        Pour plus d'informations sur les modèles de formulaires, consultez <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
       </p></div>
