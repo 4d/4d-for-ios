@@ -105,7 +105,7 @@ Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans 
 
 **NOTE**
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
 
 ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
 
@@ -127,7 +127,7 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 ### Libellés
 
-Select the first label and add a row in the Defined Runtime Attributes:
+Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path** : ```bindTo.record.___FIELD_2___```
 
@@ -137,7 +137,7 @@ Select the first label and add a row in the Defined Runtime Attributes:
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
 * **Key Path** : ```bindTo.record.___FIELD_3___```
 
@@ -147,22 +147,22 @@ Select the second label and add a row in the Defined Runtime Attributes:
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
 
 * Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
 * Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer & exécuter.
 
-Here is the simulator result :
+Voici le résultat du simulateur :
 
 ![Simulator result](assets/en/custom-listform/simulator-result.png)
 
 ## Personnaliser l'application
 
-The last step is adding a corner radius to the Image View to have a better design.
+La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour améliorer la conception.
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
@@ -184,18 +184,18 @@ et
 
 Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
-![Custom template final result](assets/en/custom-listform/custom-template-final-result.png)
+![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
 ## Que faire ensuite ?
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. Mais ce n'est pas fini ! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 
   </p>
 </div>
