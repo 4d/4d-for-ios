@@ -5,11 +5,11 @@ title: Présentation de Xcode
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Ensure a basic understanding of working with Xcode.</div> 
+Comprendre le fonctionnement de Xcode.</div> 
 
-Xcode displays various areas that we're going to review:
+Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
@@ -31,27 +31,27 @@ Xcode displays various areas that we're going to review:
 
 ![Editor Area (Zone d’édition)](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+C’est ici que le code est inséré lorsqu'un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
 
 ## Zone "Interface Builder"
 
 ![Zone "Interface Builder"](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
+Il s’agit d’une interface graphique qui vous permet de générer un fichier Storyboard ou XIB. Toutes vos "scènes" sont visibles sur le côté gauche.
 
 ## Utility Area (Zone de fonctionnalités)
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+La zone de fonctionnalités de Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
 
 ![Utility Area (Zone de fonctionnalités)](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Inspector (Inspecteur)
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dans la section des propriétés, Inspector se divise en six onglets, comme illustré ci-dessous :
 
 ![Inspector (Inspecteur)](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+De gauche à droite, ces onglets correspondent à :
 
 * **File inspector (inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
@@ -67,9 +67,9 @@ From left-to-right, these tabs are:
 
 ### Library (Bibliothèque)
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dans la section des propriétés, Library se divise en quatre onglets, comme illustré ci-dessous :
 
-From left-to-right, these tabs are:
+De gauche à droite, ces onglets correspondent à :
 
 ![Library (Bibliothèque)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
@@ -83,11 +83,11 @@ From left-to-right, these tabs are:
 
 ## Debug Area (Zone de débogage)
 
-This area displays the output and the state of various variables when running your app.
+Cette zone affiche le résultat et l’état de différentes variables lors de l’exécution de votre application.
 
 ## Navigation Area (Zone de navigation)
 
-Several tabs are included here, the most important of which are:
+Plusieurs onglets sont inclus ici, notamment :
 
 * **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires au bon fonctionnement de votre application.
 
@@ -102,8 +102,8 @@ Several tabs are included here, the most important of which are:
     * Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application. 
     * Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application. 
 
-You can click on errors and warnings to visualize them in the project.
+Vous pouvez cliquer sur les erreurs et les alertes pour les visualiser dans le projet.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
+Nous allons ensuite nous pencher sur les fichiers inclus dans votre application 4D for iOS depuis l’onglet "Project navigation".
