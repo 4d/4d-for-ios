@@ -5,15 +5,15 @@ title: Créer le format de données
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Create your first data formatters.</div> <div class = "prerequisites"> 
+Créer vos premiers formats de données.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
-In this tutorial, we'll guide you through the creation of various formatter examples.
+Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 
 ## Téléchargez le projet Starter
 
@@ -27,16 +27,16 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 
   </p>
 </div>
 
-You're now ready to create your first formatters!
+Vous êtes maintenant prêts à créer vos premiers formats !
 
 ## Créez le dossier formatters
 
-First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
+Créez d'abord un dossuer *Task Management.4dbase/Resources/Mobile/formatters*.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
@@ -170,9 +170,9 @@ Regardons le contenu du fichier **manifest.json** :
 
 ## Ouvrez un projet mobile
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you previously defined in the different formatter manifest.json files:
+Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :
 
 * Sélectionnez le format **integerToString** pour **Job field**
 * Sélectionnez le format **textToString** pour **Country field**
@@ -183,18 +183,18 @@ Next, go to the **Labels & Icons section** in the project editor. All of your fo
 
 ## Générez votre application 4D for iOS
 
-Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+Générez votre application 4D for iOS. Vous constatez que vos formats de données s'appliquent correctement en fonction du "credit limit".
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+Cliquez sur le bouton **FORMAT FINAL** ci-dessous pour télécharger le dossier final des modèles de formats.
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
 
   </p>
 </div>
