@@ -22,12 +22,12 @@ Vous devriez avoir ce résultat :
 
 **NOTE**
 
-* A **filter** icon is displayed at the right of each table when a basic filter is applied to it.
-* For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
-* Size will be calculated at the first build for you to visualize the **size of your data**.</div> 
+* Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
+* Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Intégrer les données dans l'application**.
+* la **taille de vos données** sera calculée lors de la première génération.</div> 
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
+Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 
-![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
+![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 
-Not exactly what we expected! What we want now is for each account manager to visualize only their own *In Progress* contracts, so let's complete our query!
+Cela ne correspond pas tout à fait à ce que nous avions prévu ! Nous ne souhaitons maintenant que seuls les contrats *In Progress* de chaque chargé de clientèle soient visualisés. Finalisons donc notre recherche !
