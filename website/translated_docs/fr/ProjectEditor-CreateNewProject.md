@@ -5,33 +5,33 @@ title: Nouveau projet
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
+Se familiariser avec l’éditeur de projet.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
-Let's take a look at how 4D for iOS works.
+Voyons le fonctionnement de 4D for iOS.
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+Démarrez votre application 4D, ouvrez votre base et cliquez sur **Nouveau > Projet mobile**.
 
 Nommez votre projet puis cliquez sur **Créer**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Cliquez sur **Continue**.
+L'écran de bienvenue s’affiche automatiquement pour vous aider à comprendre les concepts de base de 4D for iOS. Vous pouvez cocher l'option **Ne plus afficher** si vous souhaitez que cette boîte de dialogue ne s'affiche plus. Cliquez sur **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+Nous y sommes ! Découvrons maintenant l'architecture et l'interface de 4D for iOS.
 
-The main window consists of two tabs:
+La fenêtre principale est composée de deux onglets :
 
 ## Sections
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la création de votre application 4D for iOS :
 
 * Général
 * Structure
@@ -44,7 +44,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 ## Génération
 
-The Build tab has four options:
+L’onglet Génération comprend quatre options :
 
 * Créer & exécuter 
 * Choix du simulateur
