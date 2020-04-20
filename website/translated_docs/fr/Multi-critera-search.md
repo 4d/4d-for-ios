@@ -6,40 +6,40 @@ title: Recherche multicritères
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Activate the multi-criteria search in your own templates.</div> 
+Activer la recherche multicritères dans vos propres modèles.</div> 
 
-This feature is activated by default in all 4D for iOS-generated templates.
+Cette fonctionnalité est activée par défaut dans tous les modèles générés par 4D for iOS.
 
 ## Fichier Template svg
 
-To activate this feature in your own templates, you need to modify the following lines in your template.svg file from:
+Pour activer cette fonctionnalité dans vos propres modèles, vous devez remplacer les lignes suivantes de votre fichier template.svg :
 
 ```xml
 <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
 
 ```
 
-to:
+par :
 
 ```xml
 <rect id="search" class="droppable field optional multi-criteria" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="searchableField"/>
 
 ```
 
-There you go! The class is the only thing you need to modify for the multi-search criteria to be active.
+Et voilà ! L'élément "class" est le seul que vous devez modifier pour activer la recherche multicritères.
 
 ## Éditeur de projet
 
-Next, you can go to the project editor and drop several fields into the list form search area.
+Vous pouvez allez ensuite dans l’éditeur de projet et déposer plusieurs champs dans la zone de recherche du formulaire liste.
 
-![Multi-criteria search in the project editor](assets/en/multi-criteria-search/multi-criteria-search-forms-section.png)
+![Multi-criteria search in the project editor](assets/multi-criteria-search/multi-criteria-search-forms-section.png)
 
-Click on the search field's delete button to modifiy the associated field list.
+Cliquez sur la croix située à droite du champ de recherche pour supprimer le champ associé et modifier la liste de tous les champs associés.
 
-A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
+Un menu s’affichera pour vous permettre de **retirer des champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
 
-![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
+![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Félicitations ! You can now base your search(es) on multiple fields in your 4D for iOS app!
+Félicitations ! Vos recherches peuvent maintenant être fondées sur plusieurs champs dans votre application 4D for iOS !

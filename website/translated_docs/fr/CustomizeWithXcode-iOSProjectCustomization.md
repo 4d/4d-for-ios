@@ -71,66 +71,66 @@ Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte 
 
 Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.<div class = "tips"> 
 
-**TIPS**
+**ASTUCES**
 
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
+* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.</div> 
 
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
 #### Nous allons nous pencher sur le libellé First Name.
 
-We'll begin by changing the position and width:
+Nous allons commencer par modifier la position et la largeur :
 
-* Select the First Name label from the Interface Builder.
-* Next, change the Width from 386 to 267 pixels.
-* Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
+* Sélectionnez le premier libellé First Name à partir de l'Interface Builder.
+* Remplacez ensuite la valeur 386 pixels de la largeur par 267 pixels.
+* Remplacez la valeur 8 pixels de X par 40,67 pixels et la valeur 28 pixels de Y par 79 pixels.
 
 ![First Name Label position](assets/en/customize-with-xcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modify the remaining constraints:
+Modifiez les contraintes restantes :
 
-* Delete the leading and the bottom space constraints from the Size inspector.
-* Add a leading space constraint by clicking on the **Add New Constraints** button to position the First Name label to the right of the Profile picture.
-* Press Ctrl and drag the First Name label to the Profile picture. Select the top constraint in the menu to top align both elements.
+* Supprimez les contraintes de leading space et de bottom space à partir du Size inspector.
+* Ajoutez une contrainte de leading space en cliquant sur le bouton **Add New Constraints** pour placer le libellé First Name à droite de la photo de profil.
+* Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.
 
 ![First Name Label top constraint](assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
 #### Pour finir, concentrons-nous sur le libellé Last Name.
 
-Change the position and width:
+Modifiez l'emplacement et la largeur :
 
-* Select the Last Name label from the Interface Builder.
-* Change the width from 386 to 267 pixels.
-* Change the X value from 8 to 127 pixels and the Y value from 144.33 to 118.33 pixels.
+* Sélectionnez le premier libellé Last Name à partir de l'Interface Buider
+* Remplacez la valeur 386 pixels de la largeur par 267 pixels.
+* Remplacez la valeur 8 pixels de X par 127 pixels et la valeur 144.33 pixels de Y par 118.33 pixels.
 
 ![Last Name Label position](assets/en/customize-with-xcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Modify the remaining constraints:
+Modifiez les contraintes restantes :
 
-* Delete the leading space constraints from the Size inspector.
-* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
+* Supprimez les contraintes de leading space à partir du Size inspector.
+* Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints. 
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
-Both of your name labels are now repostioned.
+Vos deux libellés sont maintenant repositionnés.
 
-Let's see the results in the Simulator !
+Voyons les résultats dans le simulateur !
 
 ![Simulator result](assets/en/customize-with-xcode/Simulator-Xcode-4D-for-iOS.png)
 
-Hmmmm. That's not exactly the result we wanted ...
+Hum... Cela ne correspond pas exactement à ce que nous souhaitions.
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+* Sélectionnez les libellés First Name et Last Name et remplacez l'alignement centré par un alignement à gauche dans l'Attributes inspector. 
 
 ![Labels Alignment](assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
-* Next, select the Profile picture and double click on the leading space constraint.
-* Change the Constant value from 40.67 to 80 pixels.
+* Sélectionnez ensuite la photo de profil et double-cliquez sur la contrainte de leading space.
+* Remplacez la valeur 40.67 pixels de la constante par la valeur 80 pixels.
 
-![Constraints adjustments](assets/en/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
+![Constraints adjustments](assets/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
-Much better! Now all constraints are working and the labels aren't breaking other constraints.
+C'est beaucoup mieux ! Désormais, toutes les contraintes sont appliquées et les libellés sont conformes aux autres contraintes.
 
-As you can see, customizing your app is very simple!
+Comme vous avez pu le voir, la personnalisation de votre application est très simple !

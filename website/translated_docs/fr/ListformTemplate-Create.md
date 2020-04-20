@@ -5,21 +5,21 @@ title: Modèles de formulaire Liste
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Create your first list form template.</div> <div class = "prerequisites"> 
+Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste, tels que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
-![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
+![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
-## Téléchargez le projet Starter
+## Télécharger le projet Starter
 
-Before we begin, be sure to download the **Starter Project** which includes:
+Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
 * Un dossier **List form** 
 * Un fichier **Contact.4dbase** (base de démo avec un projet d'application mobile prêt à l'emploi)
@@ -29,34 +29,34 @@ Before we begin, be sure to download the **Starter Project** which includes:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">PROJET STARTER LISTFORM</a>
 
   </p>
 </div>
 
-You are now ready to create your first list form template!
+Vous êtes maintenant prêts à créer votre premier modèle de formulaire Liste !
 
 ## Ajoutez un modèle de formulaire Liste à votre projet mobile
 
-The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
+Créez d'abord un dossier *Contact.4dbase/Resources/Mobile/form/list*. Puis, faites-y glisser-déposer votre dossier **list form**.
 
-![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
+![Mobile folder list form template](assets/custom-listform/mobile-folder-custom-template.png)
 
-Next, open the Contact.4dbase file with 4D. (File > open > Mobile Project > **Contact Demo App**)
+Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>Ouvrir>Projet mobile> **Appli demo Contacts**)
 
-Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
+Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
-![Section Formulaires](assets/en/custom-listform/custom-listform-template.png)
+![Section Formulaires](assets/custom-listform/custom-listform-template.png)
 
-Now let's focus on the contents of the **Custom List form** folder.
+Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List form**.
 
 ## Contenu du modèle de formulaire Liste
 
-In this folder, you'll find:
+Dans ce dossier, vous trouverez :
 
 * **Une icône layoutIconx2.png** d'une taille de 160x160px : elle s'affichera dans l'éditeur de projet lorsque vous sélectionnez votre modèle
 * **Un fichier manifest.json** : il contient une brève description du modèle
 * **Un fichier template.svg** : la représentation visuelle de votre modèle qui s'affiche lorsque vous définissez votre liste à partir du contenu du formulaire.
 * Un dossier Source : inclut le **storyboard** (interface graphique) et fichier **Swift** (code pour le formulaire)
 
-What are these files? What are they used for? How can you customize them?
+À quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?

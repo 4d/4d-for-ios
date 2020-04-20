@@ -33,11 +33,11 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-:::tip TIPS Want to change the template for your list or detail form?
+:::tip ASTUCES Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
 
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. 
+Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs). :::
 
-## Gallery
+## Galerie
 
 You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
 
@@ -51,6 +51,6 @@ Next step, you chose a template that suits your needs, but in case something is 
 
 ## Que faire ensuite ?
 
-* A [tutorial]() is available to guide you through the **action definition process**.
+* Un [tutoriel]() est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
 * Another [tutorial]() will help you making **template update** if something is missing.

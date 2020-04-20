@@ -5,26 +5,26 @@ title: Installation sur votre appareil iOS
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJECTIFS**
 
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
+Installer une application 4D for iOS sur un appareil connecté</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**CONDITIONS PRÉALABLES**
 
 * Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour installer votre application automatiquement (facultatif).</div> <div class = "tips"> 
 
 **NOTE**
 
 Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente.</div> 
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l’un des programmes suivants :
 
 * [Apple Developer Program gratuit](free-developer-account.html) : à des fins de test uniquement
 * [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [pour les particuliers](register-apple-developer-program-individual.html) : à des fins de déploiement sur l'App Store
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) : à des fins de déploiement interne de votre application
 
-Let's go through the process...
+C'est parti !
 
 ## ÉTAPE 1. Créez un compte
 
