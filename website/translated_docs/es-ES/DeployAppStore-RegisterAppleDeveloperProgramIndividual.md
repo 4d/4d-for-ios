@@ -5,19 +5,19 @@ title: Apple Developer Program para particulares
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.</div> 
 
 ## PASO 1. Identificador Apple
 
 Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id)
 
-If you already have an Apple ID, go to [Step 3](#step-3-register-as-a-developer)
+Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-register-as-a-developer) 
 
 ## PASO 2. Crear su identificación Apple
 
-Go the the [Apple ID creation page](https://appleid.apple.com/)
+Vaya a la [página de creación del identificador Apple ID](https://appleid.apple.com/)
 
 ![Crear su identificación Apple](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
@@ -67,4 +67,4 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
 
-¡Felicidades! You are now ready to publish apps to the App Store!
+¡Felicidades! ¡Ya está listo para publicar aplicaciones en la App Store!
