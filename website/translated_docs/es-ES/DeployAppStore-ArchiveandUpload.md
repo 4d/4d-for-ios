@@ -5,9 +5,9 @@ title: Archivar y descargar un proyecto
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Archive and upload your project to App Store Connect.</div> 
+Archivar y publicar un proyecto en la App Store Connect.</div> 
 
 ## PASO 1. Configuración Xcode
 
@@ -27,19 +27,19 @@ Archive and upload your project to App Store Connect.</div>
 * Lance 4D for iOS
 * En la pestaña SECTIONS:
 
-**General: Enter your Team ID**
+**General: introduzca su Team ID**
 
 ![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publishing: Enter your production URL**
+**Publicación: introduzca su URL de producción**
 
-(HTTPS is mandatory for deployment).
+(HTTPS es obligatorio para el despliegue).
 
 ![Publicación](assets/en/deploy-app-store/Publishing.png)
 
 * En la pestaña BUILD:
 
-**Build and Run: Build your Project**
+**Crear y ejecutar: cree su proyecto**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
@@ -83,13 +83,13 @@ Archive and upload your project to App Store Connect.</div>
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
-If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
+Si se produce un error, se mostrará un mensaje. Estos errores deben corregirse antes de volver a intentar el proceso de validación.
 
 * Haga clic en **Done**. Esto le devolverá a la ventana del organizador.
 
 ## PASO 7. Subir a la App Store
 
-Once the validation process has been completed, you're ready to add your app to the App Store.
+Una vez termine el proceso de validación, estará listo para agregar su aplicación a la App Store.
 
 * Haga clic en el botón **Crear y ejecutar**.
 
