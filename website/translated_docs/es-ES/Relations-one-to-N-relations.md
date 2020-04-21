@@ -41,7 +41,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**TIPS**
+**RECOMENDACIONES**
 
 * On mouse over, a tip displays the table name originating the relation.</div> 
 
