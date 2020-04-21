@@ -5,11 +5,11 @@ title: Presentación de Xcode
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Ensure a basic understanding of working with Xcode.</div> 
+Garantizar una comprensión básica del funcionamiento de Xcode.</div> 
 
-Xcode displays various areas that we're going to review:
+Xcode muestra las diferentes áreas que vamos a revisar:
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
@@ -31,27 +31,27 @@ Xcode displays various areas that we're going to review:
 
 ![Editor Area (Área de edición)](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+Aquí es donde ocurre la codificación cuando se selecciona un archivo Swift. Cuando se selecciona un archivo Storyboard, la vista cambia y aparece el Interface Builder.
 
 ## Área "Interface Builder"
 
 ![Área "Interface Builder"](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
+Esta es una interfaz gráfica que le permite crear un archivo Storyboard o XIB. Todas tus escenas son accesibles en el lado izquierdo.
 
 ## Utility Area (Área de funcionalidades)
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+El área de funcionalidades de Xcode tiene dos paneles: el panel Inspector y el panel Library (biblioteca).
 
 ![Utility Area (Área de funcionalidades)](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Panel Inspector
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dentro de la sección Propiedades, hay seis diferentes pestañas del Inspector, como se muestra en la siguiente ilustración:
 
 ![Panel Inspector](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+De izquierda a derecha, estas pestañas son:
 
 * **File inspector (inspector de archivo)**: para ver y administrar los metadatos de un archivo, tales como el nombre, el tipo y la ruta del de archivo.
 
@@ -67,9 +67,9 @@ From left-to-right, these tabs are:
 
 ### Library (Biblioteca)
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dentro de la sección Propiedades, Library tiene cuatro diferentes pestañas, como se muestra en la siguiente ilustración:
 
-From left-to-right, these tabs are:
+De izquierda a derecha, estas pestañas son:
 
 ![Library (Biblioteca)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
@@ -83,11 +83,11 @@ From left-to-right, these tabs are:
 
 ## Debug Area (Área de depuración)
 
-This area displays the output and the state of various variables when running your app.
+Esta área muestra el resultado y el estado de diferentes variables cuando se ejecuta su aplicación.
 
 ## Área de navegación
 
-Several tabs are included here, the most important of which are:
+Varias pestañas se incluyen aquí, las más importantes son:
 
 * **Pestaña "Navigation"**: listas y da acceso a todos los archivos necesarios para que su aplicación funcione correctamente.
 
@@ -102,8 +102,8 @@ Several tabs are included here, the most important of which are:
     * Los errores en rojo corresponden a problemas críticos que deben ser corregidos para poder generar su aplicación. 
     * Los errores en amarillo son alertas que tienen el potencial de causar problemas, pero que no bloquean la generación de la aplicación. 
 
-You can click on errors and warnings to visualize them in the project.
+Puede hacer clic en los errores y las alertas para visualizarlas en el proyecto.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
+A continuación, vamos a concentrarnos en los archivos incluidos en su aplicación 4D for iOS de la pestaña "Project navigation".
