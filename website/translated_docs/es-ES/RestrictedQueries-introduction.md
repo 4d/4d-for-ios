@@ -5,13 +5,13 @@ title: Búsquedas limitadas
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**REQUISITOS PREVIOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
