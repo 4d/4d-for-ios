@@ -5,21 +5,21 @@ title: Plantillas de formulario listado
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Create your first list form template.</div> <div class = "prerequisites"> 
+Crear su primera plantilla de formulario listado.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**REQUISITOS PREVIOS**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+En este tutorial, cubriremos casi todos los aspectos de la creación de una plantilla de formulario listado como: la creación de un formulario listado con una **barra de búsqueda** y una tabla que muestra una **imagen**, un **título**, y un **subtítulo** para cada celda.
 
 ![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
 ## Descargue el proyecto Starter
 
-Before we begin, be sure to download the **Starter Project** which includes:
+Para comenzar, descargue el **Starter Project**, que incluye:
 
 * Una carpeta **List form** 
 * Un archivo **Contact.4dbase** (base de demostración con un proyecto de aplicación móvil listo para utilizar)
@@ -29,34 +29,34 @@ Before we begin, be sure to download the **Starter Project** which includes:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">PROYECTO STARTER LISTFORM</a>
 
   </p>
 </div>
 
-You are now ready to create your first list form template!
+¡Ahora está listo para crear su primera plantilla de formulario listado!
 
 ## Añada una plantilla de formulario listado a su proyecto móvil
 
-The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
+Primero deber crear una carpeta *Contact.4dbase/Resources/Mobile/form/list*. Luego arrastre y suelte la carpeta **list form** en ella.
 
-![Mobile folder list form template](assets/en/custom-listform/mobile-folder-custom-template.png)
+![Mobile folder custom template](assets/en/custom-listform/mobile-folder-custom-template.png)
 
-Next, open the Contact.4dbase file with 4D. (File > open > Mobile Project > **Contact Demo App**)
+Luego abra el archivo Contact.4dbase con 4D. (Archivo > Abrir > Mobile Project > **Contact Demo App**)
 
-Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
+Finalmente, en la **Sección Formulario** del editor del proyecto, ¡verá que su plantilla de formulario listado se ha agregado exitosamente a la lista de plantillas de formularios Lista disponibles!
 
 ![Forms section](assets/en/custom-listform/custom-listform-template.png)
 
-Now let's focus on the contents of the **Custom List form** folder.
+Ahora concentrémonos en el contenido de la carpeta **Custom List form**.
 
 ## Contenido de la plantilla de formulario Lista
 
-In this folder, you'll find:
+En esta carpeta, encontrará:
 
 * Un icono **layoutIconx2.png** de 160x160px que se mostrará en el editor del proyecto cuando seleccione su plantilla
 * Un archivo **manifest.json** que incluye una descripción básica de la plantilla
 * **Un archivo template.svg**: la representación visual de su plantilla que se muestra cuando define el contenido de su formulario listado.
 * Carpeta Source>: incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
 
-What are these files? What are they used for? How can you customize them?
+¿Qué son estos archivos? ¿Para qué se utilizan? ¿Cómo personalizarlos?
