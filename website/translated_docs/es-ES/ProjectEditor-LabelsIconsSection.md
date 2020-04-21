@@ -35,7 +35,7 @@ Para los campos, podrá definir las siguientes propiedades:
 
 Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.<div class = "tips"> 
 
-**TIPS**
+**RECOMENDACIONES**
 
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
