@@ -1,21 +1,21 @@
 ---
 id: icon-detailform-template
-title: Detail form icon
+title: 詳細画面のアイコン
 ---
 
-You can create your own template icon.
+テンプレートのアイコンはカスタマイズすることができます。
 
-It must be 160x160px and must be named **layoutIconx2.png**
+画像サイズは160px x 160px，ファイル名は**layoutIconx2.png**と決められています。
 
-The icon will be used:
+カスタムテンプレートアイコンは下記の場面で使用されます。
 
-* above the table name when the template has been selected, and
-* in the template selector window in the **Forms section**
+* テーブル名の上部に表示される選択テンプレートのアイコン
+* 「**フォーム**」セクションのテンプレート選択画面
 
-![Custom detailform template](assets/en/custom-detailform/custom-detailform-template.png)
+![詳細画面のカスタムテンプレート](assets/en/custom-detailform/custom-detailform-template.png)
 
-If this icon is missing from your detail form template folder the **template.svg file** (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon. ![Missing listform icon custom template](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
+詳細画面テンプレートのフォルダーにアイコンファイルが含まれていない場合，テンプレート選択画面には**template.svg**ファイル（後述）がそのまま表示され，テーブル名の上部に表示される選択テンプレートのアイコンは未設定（はてなマーク）になります。 ![詳細画面のカスタムテンプレートアイコンが設定されていない](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
 
-We've used Photoshop to create the detail form template icon in our example, but you can use any image software.
+ここではPhotoshopでリストフォームのカスタムテンプレートアイコンを作成しました。もちろん，別の画像ソフトでも構いません。
 
-![Custom listform template icon](assets/en/custom-detailform/custom-detail-form-icon.png)
+![詳細画面のカスタムテンプレートアイコン](assets/en/custom-detailform/custom-detail-form-icon.png)

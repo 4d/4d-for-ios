@@ -5,11 +5,11 @@ title: New Project
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 

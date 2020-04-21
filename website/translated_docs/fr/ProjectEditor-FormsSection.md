@@ -31,10 +31,26 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 ![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.<div class = "tips"> 
+Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-**CONSEILS**
+:::tip ASTUCES Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
 
-Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
+Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs). :::
 
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).</div>
+## Galerie
+
+You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+
+Just click on that icon to display the entire list.
+
+Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+
+So you can directly start working on the template, as it is ready-to-use.
+
+Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
+
+## Que faire ensuite ?
+
+* Un [tutoriel]() est disponible pour vous guider tout au long du **processus de définition d'une action**.
+
+* Another [tutorial]() will help you making **template update** if something is missing.

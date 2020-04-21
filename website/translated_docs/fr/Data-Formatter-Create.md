@@ -11,7 +11,7 @@ Créer vos premiers formats de données.</div> <div class = "prerequisites">
 
 **CONDITIONS PRÉALABLES**
 
-Cliquez [ici](prerequisites.html) pour commencer !</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 

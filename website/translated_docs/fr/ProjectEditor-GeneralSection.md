@@ -25,7 +25,7 @@ Des liens d’aide sont disponibles pour les champs Nom et Identifiant.</div>
 
 **Icônes :** Pour vos applications, 4D for iOS vous permet de créer, de diverses manières, des icônes conformes aux directives d’Apple, notamment via un glisser-déposer de vos icônes, depuis votre ordinateur vers la zone consacrée à l’icône. 4D for iOS vous générera tous les formats requis !<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 * Si vous avez déjà une icône pour votre application desktop, vous pouvez la glisser-déposer directement dans la zone de l’icône.
 * **Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !</div> 

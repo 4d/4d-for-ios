@@ -92,7 +92,7 @@ Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT
     
 
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
 
   </p>
 </div>

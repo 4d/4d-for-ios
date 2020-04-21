@@ -11,7 +11,7 @@ Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequ
 
 **CONDITIONS PRÉALABLES**
 
-Cliquez [ici](prerequisites.html) pour commencer !</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Ce modèle affichera un **en-tête d'image** et **des champs titre et contenu** qui seront dupliqués dans l’application iOS qui sera générée.
 
@@ -42,11 +42,11 @@ Créez d'abord un dossier *Contact.4dbase/Resources/Mobile/form/detail* dans leq
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
-Ouvrez ensuite Contact.4dbase avec 4D, puis cliquez sur Fichier > Ouvrir > Projet mobile... pour ouvrir **Contact Demo App**
+Ouvrez ensuite Contact.4dbase avec 4D,. puis cliquez sur Fichier > Ouvrir > Projet mobile... pour ouvrir **Contact Demo App**
 
 Enfin, cliquez sur la **section Formulaires** dans l’éditeur de projet. Vous verrez que le modèle de formulaire détaillé personnalisé a été correctement ajouté à la liste de modèles !
 
-![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
+![Section Formulaires](assets/en/custom-detailform/custom-detailform-template.png)
 
 Concentrons-nous maintenant sur le contenu du dossier **Custom Detail form**.
 

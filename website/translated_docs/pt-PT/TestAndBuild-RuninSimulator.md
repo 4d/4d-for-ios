@@ -5,7 +5,7 @@ title: Using the Simulator
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 Test your app in the Simulator.</div> 
 
@@ -17,11 +17,11 @@ Go to the BUILD tab from the Project Editor and select an iOS device (aka the Si
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 
-## PASSO 2. Build and Run
+## PASSO 2. Criar e executar
 
 Click on the **Build and Run** button.
 
-![Build and Run](assets/en/test-build/build-and-run-4D-for-iOS.png)
+![Criar e executar](assets/en/test-build/build-and-run-4D-for-iOS.png)
 
 ## PASSO 3. Test your app
 

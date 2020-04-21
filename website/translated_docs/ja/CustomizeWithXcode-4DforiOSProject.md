@@ -1,25 +1,25 @@
 ---
 id: 4d-for-ios-project-organization
-title: 4D for iOS project organization
+title: 4D for iOS プロジェクトの構成
 ---
 
-From the Navigation tab, go to Sources.
+「ナビゲーション」タブを選択し，Sources グループを開きます。
 
-Here you'll find the Structure and Forms folders. They contain all of the files for your defined database structures and forms, including:
+Structure および Forms というフォルダーがあります。 それぞれのフォルダーには，データベースストラクチャおよびフォームの定義ファイルが収められています。
 
-* Launch screen - Appears when the app is launched.
-* Login screen - Appears when authentication is activated.
-* Settings screen - Includes the reload and logout buttons.
-* All published tables - Files for the authorized data.
+* Launch screen - アプリの起動中に表示されます。
+* Login screen - ユーザー認証が有効にされている場合に表示されます。
+* Settings screen - リロードボタンとログアウトボタンが含まれます。
+* All published tables - アプリのデータベースを管理するためのファイルです。
 
-Instead, you'll find a Swift file and a Storyboard file. These files are described below.
+ファイル形式は Swift または Storyboard となっています。 それぞれのファイルは，下記のような特徴があります。
 
-### A Swift file - which can be used to add custom code.
+### Swift ファイル - 編集することにより，プログラムをカスタマイズすることができます。
 
-![Swift file](assets/en/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
+![Swift ファイル](assets/en/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
-### Storyboard file - Allows customizing your app design.
+### Storyboard ファイル - 編集することにより，デザインをカスタマイズすることができます。
 
-![Storyboard file](assets/en/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
+![Storyboard ファイル](assets/en/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
-Next, let's look at how to customize the Contacts application detail view!
+例題で作成した "Contact" アプリの詳細画面を実際にカスタマイズしてみましょう！

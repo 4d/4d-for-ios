@@ -37,7 +37,7 @@ class Footer extends React.Component {
             <h5>Community</h5>
                 <a href="https://developer.4D.com">4D Developer Center</a>
 				<a href="https://blog.4d.com/">4D Blog</a>
-				<a href="https://forums.4d.com/">4D Forum</a>
+				<a href="https://discuss.4d.com/">4D Forum</a>
 				<a href="https://www.facebook.com/4Dsoftware/">Facebook</a>
 				<a href="https://twitter.com/4Dsoftware">Twitter</a>
 				<a href="https://www.youtube.com/user/4Dsoftware">Youtube</a>

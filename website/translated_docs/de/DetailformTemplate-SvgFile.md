@@ -123,7 +123,7 @@ You can define position, height, and width for all of your fields like we did fo
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 

@@ -73,19 +73,19 @@ Pode definir a posição, altura e largura para:
 
 O campo pesquisável é opcional. <div class = "tips"> 
 
-**NOTA**
+**NOTA **
 
-Todos os tipos de Campo e Variável estão disponíveis [aqui](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
+All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 
 <
 
 div markdown="1" class = "tips">
 
-**DICA**
+**TIP**
 
-Para tornar mais fácil a definição de tipo de campo, 4D for iOS permite que inclua tipos campo com **valores positivos** e também excluam tipos campo com **valores negativos**. Por exemplo, ```ios:type="-3,-4"``` permite que arraste e solte todos os campos exceto imagens e datas.
+To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. Por exemplo, ```ios:type="-3,-4"``` permite que arraste e solte todos os campos exceto imagens e datas.
 
-Para incluir todos os tipos, apenas digite ios:type="all". </div>
+To include all types, just type ios:type="all". </div>
 
 ### Área SectionField:
 
@@ -107,7 +107,7 @@ Para incluir todos os tipos, apenas digite ios:type="all". </div>
 3. Define a posição do campo soltável, sua altura e largura assim como os **tipos de campos aceitos**
 4. Define um botão cancelar que será exibido para apagar o conteúdo atual
 
-O campo de seção é opcional.
+The section field is optional.
 
 ### Área ImageField:
 
@@ -182,10 +182,10 @@ O campo de seção é opcional.
     </g>
     
 
-1. Entire area Y position
+1. Posição de toda a área Y
 2. Posição, altura e largura da área de fundo
 3. Define a posição da área de texto e largura 
 4. Define a posição do campo soltável, sua altura e sua largura, assim como os tipos de campos aceitos 
 5. Define um botão de cancelar que será exibido para apagar o conteúdo atual
 
-Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json e seu arquivo**svg ** ... vamos passar para a parte divertida de Xcode
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!

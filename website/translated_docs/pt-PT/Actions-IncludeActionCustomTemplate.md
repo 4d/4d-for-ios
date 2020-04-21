@@ -11,11 +11,11 @@ Add actions to custom List and Detail forms templates.</div> <div class = "prere
 
 **PREREQUISITES**
 
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
-## STEP 1. Download the Starter Project
+## PASSO 1. Baixe o Starter Project
 
 To begin, download the Starter Project, which includes:
 
@@ -33,7 +33,7 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
   </p>
 </div>
 
-## STEP 2. Add custom templates to 4D for iOS Project
+## PASSO 2. Add custom templates to 4D for iOS Project
 
 First, drop:
 
@@ -45,7 +45,7 @@ First, drop:
 
 ![Detailform template](assets/en/actions/Detailform-template.png)
 
-## STEP 3. Add actions in List forms
+## PASSO 3. Add actions in List forms
 
 As we have seen previously in the [actions section description](actions.html), two types of actions are availble (Table actions and Entity actions).
 
@@ -121,7 +121,7 @@ You can select the TasksCollection custom template from the **Forms section** an
 
 ![TasksCollection Forms section](assets/en/actions/listform-taskscollection-forms-section.png)
 
-## STEP 4. Add actions in Detail forms
+## PASSO 4. Add actions in Detail forms
 
 In Detail forms, you can use the **generic button** in the navigation bar or **create easily your own custom action button**. In both cases, you have to add tags.
 
@@ -162,7 +162,7 @@ Congratulations, your Tasks iOS app is now complete and includes actions in List
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROJETO FINAL</a>
 
   </p>
 </div>

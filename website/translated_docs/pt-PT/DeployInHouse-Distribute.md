@@ -5,39 +5,39 @@ title: Distribua seu app in-House
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
-Suba sua aplicação para um servidor seguro.</div> 
+Upload your app to a secured server.</div> 
 
 ## PASSO 1. Suba sua aplicação
 
-Suba seus arquivos de app para um servidor seguro:
+Upload your app files to a secured server:
 
 * Recursos (exibir imagem e imagem em tamanho real)
 * Arquivo manifest.plist
 * arquivo .ipa
 
-Pode usar qualquer serviço de armazenamento na nuvem para distribuir seu app logo que estiver protegida (Dropbox, Google Drive, etc).<div class = "tips"> 
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
-**NOTA**
+**NOTA **
 
-Seus recursos e URLs ipa devem coincidir com as URL definidas em seu arquivo manifest.plist.</div> 
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
 
 ## PASSO 2. Crie o link da instalação
 
-Crie um link**ITMS Serices** (iTunes Music Store) com a direção web completa de seu arquivo manifest como parâmetro:
+Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-Esse link pode ser usado para enviar correios eletrônicos, aninhados em uma página HTML ou mesmo um código QR.
+This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
-Aqui um exemplo simples:
+Here is a simple example:
 
 ![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
-*O Código QR usado para esta documentação não está ativo.*
+*The QR Code used for this documentation is not active.*
 
 ## PASSO 3. Instale a sua aplicação em iOS
 
@@ -59,4 +59,4 @@ Aqui um exemplo simples:
 
 * Depois pode ir à sua aplicação e abri-la.
 
-Parabéns ... já pode usar sua primeira aplicação interna!
+Parabéns ... you can now distribute your first app in-house!

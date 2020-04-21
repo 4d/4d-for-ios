@@ -5,7 +5,7 @@ title: Xcode Overview
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Ensure a basic understanding of working with Xcode.</div> 
 

@@ -8,7 +8,7 @@ title: Data Formatters
 
 **BEFORE STARTING**
 
-1. Zum Verwenden eigener Formatierer müssen Sie zuerst einen Ordner `YourDatabase.4dbase/Resources/Mobile/formatters` anlegen.
+1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
 
 2. Then drop the formatter folder into it.</div> 
 
@@ -122,7 +122,7 @@ title: Data Formatters
                             
                             <tr>
                               <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-                                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntToImage/master/formatter.png" />
+                                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
                               </td>
                               
                               <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">

@@ -52,7 +52,7 @@ Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & 
 
 Cliquez sur le signe **"+"** dans la partie supérieure gauche pour créer une nouvelle application iOS.
 
-![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
+![Créez une nouvelle application iOS](assets/deploy-app-store/Create-new-iOS-App.png)
 
 Ajoutez les informations suivantes :
 
@@ -77,13 +77,13 @@ Dans App Store Connect > App Information :
 * Entrez un sous-titre pour votre application. Celui-ci apparaîtra en-dessous du nom de votre application dans l’App Store d'iOS 11.
 * Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.
 
-![App information](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
+![Informations sur l’application](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## ÉTAPE 5. Prix et disponibilité
 
 C’est ici que vous pourrez définir le prix de votre application.<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.</div> 
 
@@ -91,11 +91,11 @@ Vous pouvez appliquer des remises limitées dans le temps en précisant les date
 
 Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).</div> 
 
-![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+![Préparation à l'inscription](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 

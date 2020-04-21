@@ -63,7 +63,7 @@ title: Modèles de formulaires Liste
           <li><strong>Type :</strong> Table</li>
           <li><strong>Sections :</strong> disponible</li>
           <li><strong>Actions :</strong> glissement vers la gauche de la cellule</li>
-          <li><strong>Image requise :</strong> non</li>
+          <li><strong>Image requise:</strong> non</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -79,7 +79,7 @@ title: Modèles de formulaires Liste
           <li><strong>Type :</strong> Table</li>
           <li><strong>Sections :</strong> disponible</li>
           <li><strong>Actions :</strong> glissement vers la gauche de la cellule</li>
-          <li><strong>Image requise :</strong> non</li>
+          <li><strong>Image requise:</strong> non</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -117,7 +117,7 @@ title: Modèles de formulaires Liste
           <li><strong>Type :</strong> Table</li>
           <li><strong>Sections :</strong> disponible</li>
           <li><strong>Actions :</strong> glissement vers la gauche de la cellule</li>
-          <li><strong>Image requise :</strong> non</li>
+          <li><strong>Image requise:</strong> non</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -139,7 +139,7 @@ title: Modèles de formulaires Liste
           <li><strong>Type :</strong> Collection</li>
           <li><strong>Sections :</strong> non disponible</li>
           <li><strong>Actions :</strong> longue pression sur la cellule</li>
-          <li><strong>Image requise :</strong> non</li>
+          <li><strong>Image requise:</strong> non</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -155,7 +155,7 @@ title: Modèles de formulaires Liste
           <li><strong>Type :</strong> Table</li>
           <li><strong>Sections :</strong> disponible</li>
           <li><strong>Actions :</strong> glissement vers la gauche de la cellule</li>
-          <li><strong>Image requise :</strong> non</li>
+          <li><strong>Image requise:</strong> non</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -216,7 +216,7 @@ title: Modèles de formulaires Liste
             <li><strong>Type :</strong> Table</li>
             <li><strong>Sections :</strong> non disponible</li>
             <li><strong>Actions :</strong> longue pression sur la cellule</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -253,7 +253,7 @@ title: Modèles de formulaires Liste
           <ul style="font-size:16px">
             <li><strong>Type :</strong> table</li>
             <li><strong>Sections :</strong> disponible</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -268,7 +268,7 @@ title: Modèles de formulaires Liste
           <ul style="font-size:16px">
             <li><strong>Type :</strong> table</li>
             <li><strong>Sections :</strong> non disponible</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -289,7 +289,7 @@ title: Modèles de formulaires Liste
           <ul style="font-size:16px">
             <li><strong>Type :</strong> table</li>
             <li><strong>Sections :</strong> non disponible</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -340,7 +340,7 @@ title: Modèles de formulaires Liste
           <ul style="font-size:16px">
             <li><strong>Type :</strong> table</li>
             <li><strong>Sections :</strong> non disponible</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -361,7 +361,7 @@ title: Modèles de formulaires Liste
           <ul style="font-size:16px">
             <li><strong>Type :</strong> table</li>
             <li><strong>Sections :</strong> non disponible</li>
-            <li><strong>Image requise :</strong> non</li>
+            <li><strong>Image requise:</strong> non</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -488,7 +488,7 @@ title: Modèles de formulaires Liste
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
-<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Cube/releases/latest/download/form-list-Cube.zip">DOWNLOAD</a></p>
+<p><a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-list-Cube/releases/latest/download/form-list-Cube.zip">TELECHARGER</a></p>
 
 </div>
         </td>

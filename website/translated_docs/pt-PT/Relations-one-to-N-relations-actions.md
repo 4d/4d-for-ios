@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: Relações Um para Muitos - Ações
 ---
 
 <div class = "objectives">
@@ -9,7 +9,7 @@ We are now going to go a little bit further and **create a task for a specific e
 
 It is very easy to create an entity using **parent Entity** !
 
-Let's get started by downloading the Starter Project:
+Vamos começar baixando o Projeto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
@@ -18,20 +18,20 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
   </p>
 </div>
 
-## Create addProject action
+## Criar ação addProject
 
-* Open the project editor and go to the Action section.
+* Abra o editor de projeto e vá para a seção Ação.
 
-* Add a addProject Action
+* Adicione uma Ação addProject
 
 ![create addProject Method](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
 
 
-## On Mobile App Action method
+## Método On Mobile App Action
 
 The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
-```code4d
+```4d
 : ($request.action="addProjects")
 
 $o:=New object(\
@@ -45,12 +45,12 @@ $result:=addProject ($o)
 
 ```
 
-## addProject Method
+## Método addProject
 
 
 Then enter thoses lines in your **addProject Method**:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -61,7 +61,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds[$in.dataClass].new()  //Create a reference
+    $entity:=ds[$in.dataClass].new()  //Cria uma referência
 
     For each ($key;$in.parameters)
 
@@ -69,19 +69,19 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $primaryKey:=$in.parent.primaryKey   //Get parent primary key
+    $primaryKey:=$in.parent.primaryKey   //Obtém a chave primária pai
 
     $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+  $inverseRelationName:=$in.entity.relationName   //Obtém o nome de relação pai
 
     $entity[$inverseRelationName]:=$parent
 
-    $status:=$entity.save()  //save the entity
+    $status:=$entity.save()  //salva a entidade
 
-    $out.success:=True  // notify App that action success
+    $out.success:=True  // notififca o App que a ação teve sucesso
 
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.dataSynchro:=True  // notifica o App para refrescar a seleção
 
     $out.statusText:="Task added"
 

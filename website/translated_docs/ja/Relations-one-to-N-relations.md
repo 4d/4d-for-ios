@@ -1,15 +1,15 @@
 ---
 id: one-to-many-relations
-title: One to Many relations
+title: １対Ｎリレーション
 ---
 
-This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips"> 
+このレッスンでは，4D for iOSアプリで１対Ｎリレーションを使用する方法を学びます。<div class = "tips"> 
 
-**NOTE**
+**注記**
 
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。</div> 
 
-Let's get started by downloading the Starter Project:
+素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -27,7 +27,7 @@ In this tutorial, we are going to build a colorful **Task app** using 4D for iOS
 
 But first, let's have a look at the structure of our database:
 
-![Select link from structure section](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
+![「ストラクチャ」セクションで１フィールドを選択する](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
 As you can see, there is a One to Many link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to Many**).
 
@@ -41,7 +41,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**TIPS**
+**ヒント**
 
 * On mouse over, a tip displays the table name originating the relation.</div> 
 
@@ -53,25 +53,25 @@ It is important to know that including a One to Many relation will create a butt
 
 So, in the Labels & Icons section you will define:
 
-* a button Label
-* a button icon
-* a [title](one-to-n-relations-title-definition.html) that will be displayed in the destination view (to indicate where you come from for example).
+* ボタンタイトル
+* ボタンアイコン
+* 遷移した先の画面に表示される[タイトル](one-to-n-relations-title-definition.html)（たとえば，どの画面から移動してきたのかを示すために使用します）。
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-## Forms section
+## フォームセクション
 
-* Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
+* 「フォーム」セクションにページを切り替えて，Employee TableのTask Detail画面に*tasks*リレーションをドラッグ＆ドロップします。
 
-![Related field in Forms section](assets/en/relations/1-to-n-relations-forms-section.png)
+![「フォーム」セクションに表示された１フィールド](assets/en/relations/1-to-n-relations-forms-section.png)
 
-## Build and Run
+## ビルドして実行
 
-1. From the Employee List form, click on one employee 
-2. This will open the employee's detail form, where you should see a new **Relation button** !
-3. Click on this Relation button to display the employee's tasks. 
+1. Employeeのリスト画面で適当な従業員をクリックします。 
+2. 従業員の情報が詳細画面に**Relation**ボタンが表示されているはずです。
+3. Relationボタンをクリックすると，選択されている従業員のタスクが表示されます。 
 
-![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
+![「フォーム」セクションに表示された１フィールド](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
 And voila, this is how One to Many relations work in 4D for iOS !
 

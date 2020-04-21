@@ -1,6 +1,6 @@
 ---
 id: actions-getting-started
-title: Getting started
+title: Einsteigen
 ---
 
 <div class = "objectives"> 

@@ -127,7 +127,7 @@ Maintenant que vous avez une **icône**, la **description basique d'un modèle**
 
 Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 * Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 

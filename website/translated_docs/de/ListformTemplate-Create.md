@@ -5,11 +5,11 @@ title: List form templates
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Create your first list form template.</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 

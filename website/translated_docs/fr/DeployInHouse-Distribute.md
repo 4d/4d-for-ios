@@ -59,4 +59,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! Vous pouvez désormais distribuer votre première application interne !
+Félicitations  ! you can now distribute your first app in-house!

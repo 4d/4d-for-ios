@@ -1,15 +1,15 @@
 ---
 id: one-to-many-relations
-title: One to Many relations
+title: Relações Um para Muitos
 ---
 
-This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips"> 
+Este tutorial vai mostrar como é fácil incluir relações Um para Muitos em 4D for iOS.<div class = "tips"> 
 
-**NOTE**
+**NOTA **
 
-In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.</div> 
+In this tutorial, we will use the relation names between your tables. Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.</div> 
 
-Let's get started by downloading the Starter Project:
+Vamos começar baixando o Projeto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -41,7 +41,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**TIPS**
+**DICAS**
 
 * On mouse over, a tip displays the table name originating the relation.</div> 
 
@@ -53,23 +53,23 @@ It is important to know that including a One to Many relation will create a butt
 
 So, in the Labels & Icons section you will define:
 
-* a button Label
-* a button icon
-* a [title](one-to-n-relations-title-definition.html) that will be displayed in the destination view (to indicate where you come from for example).
+* um botão Etiqueta
+* um botão ícone
+* um [título](one-to-n-relations-title-definition.html) que vai ser exibido na vista destino (para indicar de onde vem, por exemplo).
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-## Forms section
+## Seção Formulários
 
-* Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
+* Vá para a seção Formulários e solte a relação *tasks* no formulário detalhado Employee Task.
 
 ![Related field in Forms section](assets/en/relations/1-to-n-relations-forms-section.png)
 
-## Build and Run
+## Criar e executar
 
-1. From the Employee List form, click on one employee 
-2. This will open the employee's detail form, where you should see a new **Relation button** !
-3. Click on this Relation button to display the employee's tasks. 
+1. Do formulário Employee List, clique em um empregado. 
+2. Isso vai abrir o formulário detalhado employee/empregados, onde você verá um novo botão **Relation** !
+3. Clique no botão Relation para exibir as tarefas dos funcionários 
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 

@@ -288,7 +288,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**ASTUCE**
+**ASTUCES**
 
 Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</div> 
 

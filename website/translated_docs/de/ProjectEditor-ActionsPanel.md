@@ -268,7 +268,7 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
@@ -327,7 +327,7 @@ For your convenience, the Edition form includes a few **special features**:
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
 
-## Where to go from here?
+## Wie geht es weiter?
 
 * A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
 

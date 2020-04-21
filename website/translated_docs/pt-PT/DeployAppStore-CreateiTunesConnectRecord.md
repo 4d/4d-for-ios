@@ -5,27 +5,27 @@ title: Criar uma ficha em App Store
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
-* Criar uma ID de aplicação em sua conta de Desenvolvedor
-* Criar sua aplicação na App Store Connect</div> <div class = "prerequisites"> 
+* Create an App ID on your Developer Account
+* Create your app in App Store Connect</div> <div class = "prerequisites"> 
 
-**PRÉ-REQUISITOS**
+**PREREQUISITES**
 
-[Apple Developer Program para empresas](register-apple-developer-program-organization.html) or [particulares](register-apple-developer-program-individual.html)</div> 
+[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 
 ## PASSO 1. Criar uma ID de aplicação
 
 #### O que é uma identificação (ID) de aplicação?
 
-*Uma ID de aplicação é uma string de duas partes usada para identificar um ou mais apps para um único time de desenvolvimento. Esta string consiste de uma ID de Time e uma ID Bundle, com um ponto(.) que separa as duas partes (exemplo: TimeID.BundleID).*<div class = "tips"> 
+*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
 
-**NOTA**
+**NOTA **
 
-* Se escolher uma Conta Desenvolvedor Apple como um particular, sua conta estará disponível imediatamente e pode criar sua ID de aplicação.
-* Se escolher uma Conta de Desenvolvedor Apple como uma organização, tem que esperar pela validação Apple para criar sua Apple ID.</div> 
+* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
+* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 
 
-Para cirar sua ID apple, vá para a conta Desenvolvedor e selecione [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
+To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
 * Clique no símbolo + do lado de *Register iOS App IDs* para agregar um novo identificador de aplicação.
 
@@ -50,11 +50,11 @@ Para cirar sua ID apple, vá para a conta Desenvolvedor e selecione [Certificate
 
 ## PASSO 3. Crie uma nova aplicação iOS
 
-Clique no sinal **+** no canto esquerdo superior para criar uma nova aplicação iOS.
+Click the **+** sign in the top left corner to create a new iOS App.
 
-![Create a new iOS App](assets/en/deploy-app-store/Create-new-iOS-App.png)
+![Crie uma nova aplicação iOS](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
-Agregue a informação abaixo:
+Add the following information:
 
 * **Platforms**: Selecione iOS.
 * **Name**: o nome da aplicação.
@@ -65,37 +65,37 @@ Agregue a informação abaixo:
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
 
-**NOTA**
+**NOTA **
 
-Se sua Bundle ID não estiver disponível, é possível que já esteja sendo usada por outra aplicação na App Store. Vai precisar mudar sua Id no projeto Xcode.</div> 
+If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.</div> 
 
 ## PASSO 4. Informação sobre a aplicação
 
-Na App Store Connect> App Information:
+From App Store Connect > App Information:
 
 * Define a Privacy Policy URL de sua aplicação (opcional).
 * Digite um subtítulo para sua aplicação. Isso vai aparecer abaixo do nome de sua aplicação na App Store em iOS 11.
 * Selecione uma categoria primária e secundária (opcional) na qual sua aplicação vai aparecer.
 
-![App information](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
+![Informação sobre a aplicação](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## PASSO 5. Preços e disponibilidade
 
-Aqui você define o preço de sua aplicação.<div class = "tips"> 
+This is where you define the price for your app.<div class = "tips"> 
 
 **DICAS**
 
-Pode definir descontos por tempo limitado especificando as datas de início e fim.</div> 
+You can define limited-time discounts by specifying start and end dates.</div> 
 
 ## PASSO 6. Prepare para a inscrição
 
-Agregue todos os recursos de sua aplicação que quiser incluir na App Store em **Version Information**:<div class = "tips"> 
+Add all of the assets for your app to appear in the App Store in **Version Information**:<div class = "tips"> 
 
 **DICAS**
 
-Pode gerar todas as capturas de tela em Simulador (File > New Screen Shot).</div> 
+You can generate all of your screenshots in Simulator (File > New Screen Shot).</div> 
 
-![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
+![Prepare para a inscrição](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Agregue suas capturas de tela. Capturas de tela para iPhone 5,5" Super Retina Display e iPad 12.9" Retina Display são obrigatórias. Para maiores detalhes, veja [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
@@ -105,17 +105,17 @@ Pode gerar todas as capturas de tela em Simulador (File > New Screen Shot).</div
 * Insira uma **Support URL** que inclua informação de assistência ténica para sua aplicação. Esta URL vai ser visível na App Store.
 * **Marketing URL** é opcional. Isso pode dirigir aos usuários a um website de marketing para sua aplicação. 
 
-Na seção **iOS App**:
+In the **iOS App section**:
 
 ![iOS App section](assets/en/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Localize as versões de seu produto em **Build**.
+Locate your build versions in **Build**.
 
 * Na área **General App Information** ingresse os direitos de autor, a versão e informação de contato de sua aplicação.
 * O ícone de sua aplicação é incluído no projeto gerado 4D para iOS.
 * A classificação etária ou rating é uma propriedade usada para os controles parentais de App Store. Clique Edit e selecione a faixa etária apropriada para sua aplicação.
 
-As seções **App Review Information** e **Version Release** incluem informações exigidas pela App Store. A informação oferecida aí não será vista pelos usuários.
+The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
 
 ![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 

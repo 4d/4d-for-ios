@@ -41,7 +41,7 @@ Il aura le même fonctionnement que n’importe quel autre champ pour la suite d
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)<div class = "tips"> 
 
-**ASTUCE**
+**ASTUCES**
 
 * En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.</div> 
 

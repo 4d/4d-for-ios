@@ -21,7 +21,7 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
   </p>
 </div>
 
-[アクションのドキュメント](actions.html#ios-app-side)で説明されていたように，アクションは下記いずれかのレベルに対して設定することができます。
+[アクションのドキュメント](actions.html#ios-app-side)で述べたように，アクションは下記いずれかのレベルに対して設定することができます。
 
 * エンティティに対するアクション
 * テーブルに対するアクション
@@ -57,7 +57,7 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
 
 アクション画面の右下にある**作成ボタン**をクリックします。**On Mobile App Action**データベースメソッドに下記のコードを記述してください。
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -93,7 +93,7 @@ $0:=$result  // モバイルアプリに返される情報
 
 データベースメソッドに必要なコードを記述することに加え，実際の処理をするための **modifyStatus** プロジェクトメソッドを作成します。
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -144,7 +144,7 @@ $0:=$out
 
 ### ⒈ 「アクション」セクションで設定すること
 
-Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
+休暇に出かけるなど，**すべてのタスク** をまとめて「延期」に設定したいようなときは，どうすれば良いでしょうか。
 
 下記のステップで実現することができます。
 
@@ -161,7 +161,7 @@ Now, imagine that you are going on holidays and you want to **change all your ta
 
 アクション一覧の右下にある**編集**ボタンをクリックして**On Mobile App Action**データベースメソッドを開き，必要な処理をメソッドに追加します。
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -204,7 +204,7 @@ $0:=$result  // モバイルアプリに返される情報
 
 **modifyStatus** メソッドと同じ要領で, タスクのステータスを一括設定する**postponeAll** プロジェクトメソッドを作成します。
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 

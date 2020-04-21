@@ -30,7 +30,7 @@ Let's focus first on Entity actions!
 
 ## Entity actions
 
-### STEP 1. Entity action in Action section
+### PASSO 1. Entity action in Action section
 
 In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
 
@@ -51,13 +51,13 @@ To define this action:
 
 ![Done action definition](assets/en/actions/Done-action-definition.png)
 
-### STEP 2. Create and edit the Action Database Method
+### PASSO 2. Create and edit the Action Database Method
 
 Now that your action is defined in the Project Editor, you have to create the [**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database Method.
 
 Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -89,11 +89,11 @@ $0:=$result  // Informations returned to mobile application
 
 ```
 
-### STEP 3. Create a "modifyStatus" Method
+### PASSO 3. Create a "modifyStatus" Method
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -142,7 +142,7 @@ Build and Run you app and there you go! Your **Done action** is available when y
 
 ## Table actions
 
-### STEP 1. Table action in Action section
+### PASSO 1. Table action in Action section
 
 Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
 
@@ -157,11 +157,11 @@ Let's define this action from the Action section:
 
 ![Postponed action definition](assets/en/actions/PostponedAll-action-definition.png)
 
-### STEP 2. Edit the Action method
+### PASSO 2. Edit the Action method
 
 Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -200,11 +200,11 @@ $0:=$result  // Informations returned to mobile application
 
 ```
 
-### STEP 3. Create a "postponeAll" Method
+### PASSO 3. Create a "postponeAll" Method
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -242,7 +242,7 @@ Build and Run your app! You will find a new **generic button** in the navigation
 
 ## Where to Go From Here?
 
-Congratulations! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
+Parabéns! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
@@ -253,7 +253,7 @@ You can download the **Final project** that includes various actions:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJETO FINAL</a>
 
   </p>
 </div>

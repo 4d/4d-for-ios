@@ -20,7 +20,7 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
 

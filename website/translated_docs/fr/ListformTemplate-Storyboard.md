@@ -113,7 +113,7 @@ Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cel
 
 ### Image View
 
-Sélectionnez votre "Image View", cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
+Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
@@ -164,7 +164,7 @@ Voici le résultat du simulateur :
 
 La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour améliorer la conception.
 
-Sélectionnez votre "Image View" et cliquez sur les deux lignes suivantes dans User Defined Runtime Attributes :
+Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
 * **Key Path** : ```cornerRadius```
 
@@ -184,11 +184,11 @@ et
 
 Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
-![Custom template final result](assets/en/custom-listform/custom-template-final-result.png)
+![Custom template final result](assets/custom-listform/custom-template-final-result.png)
 
 ## Que faire ensuite ?
 
-Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est pas fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
+Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
 <div style="text-align: center; margin-top: 20px">
   <p>

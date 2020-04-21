@@ -5,7 +5,7 @@ title: Archive and upload your Project
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Archive and upload your project to App Store Connect.</div> 
 

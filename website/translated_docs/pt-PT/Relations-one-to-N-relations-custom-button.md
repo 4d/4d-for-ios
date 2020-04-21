@@ -1,78 +1,78 @@
 ---
 id: one-to-many-relations-custom-button
-title: One to Many - Custom button
+title: Um para Muitos - botão personalizado
 ---
 
-As we have seen with all previous tutorials, 4D for iOS give you the freedom to create lots of custom things!
+Como vimos em tutoriais anteriores, 4D for iOS lhe dá a liberdade de criar várias coisas personalizadas!
 
-As for custom templates or custom formatters, you can create custom Relation Buttons.
+Em relação a modelos e formatadores personalizados, pode criar Botões de Relação personalizados.
 
-To that end, nothing more simple! You just have to drop your custom button in your custom template.
+Para fazer isso, nada é mais simples! Só precisa soltar seu botão personalizado em seu modelo personalizado.
 
-Let's get started by downloading the Starter Project that includes:
+Vamos começar baixando o Starter Project que inclui:
 
-* a database with its mobile project
-* a standard Relation button
+* um banco de dados com seu projeto móvel
+* um botão Relação padrão
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER CUSTOM BUTTON</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÂO STARTER PERSONALIZADO</a>
 
   </p>
 </div>
 
-## Include the button
+## Integrar um botão
 
-The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
+O primeiro passo é incluir o botão.xib em seu modelo personalizado para que 4D for IOS possa usá-lo.
 
-To use the button, you just need to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
+Para usar o botão, só precisa soltá-lo na pasta ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` 
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
-The first step is done!
+O primeiro passo está pronto!
 
-## Modify the button
+## Modificar o botão
 
-Open the .xib file with Xcode.
+Abra o arquivo .xib com Xcode.
 
-It should look like this:
+Deve ter um aspecto como este:
 
 ![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png)
 
-And from the attribute inspector, you can change for example:
+E a partir do inspetor de atributos, pode mudar por exemplo:
 
-* colors and fonts
-* the button style
-* the button size...
+* cores e fontes
+* o estilo do botão
+* o tamanho do botão, etc
 
-Let's change the button color and the button label font!
+Vamos mudar a cor do botão e a fonte da sua etiqueta!
 
-### Custom colors and fonts
+### Cores e fontes personalizadas.
 
-Select the button and change the color and font from the attribute inspector.
+Selecione o botão e mude a cor e fonte a partir do inspetor de atributos.
 
-For the background, let's select the Label Color to have the best contrast in Light and Dark mode.
+Para o fundo, selecione Label Color para ter o melhor contraste em modos Light e Dark.
 
-For the font color let's put a System background color with a helvetica Neue Medium font.
+Para a cor de fonte, selecione System background color com uma fonte helvética Neue Medium.
 
-Finally, don't forget to select the System background color Tint to apply this color to the button icon.
+Finalmente, não se esqueça de selecionar "tint" em System background color para aplicar essa cor no ícone de botão.
 
 ![Custom relation button](assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png)
 
-You should get this result in your Simulator in Dark and in Light mode:
+Deve obter esse resultado em seu Simulador em modo Dark e Light:
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png)
 
-### Button round corners
+### Cantos arredondados de botões
 
-Let's add some round corners to the relationButton!
+Vamos adicionar alguns cantos arredondados para relationButton!
 
-To do so, open the Identity Inspector.
+Para fazer isso abra o Identity Inspector.
 
-Select your Button and add the two following lines in the User Defined Runtime Attributes:
+Selecione seu Botão e adicione as duas linhas abaixo na área User Defined Runtime Attributes:
 
 * **Key Path**: ```cornerRadius```
 
@@ -86,79 +86,79 @@ and
 
 * **Type**: ```Boolean```
 
-* **Value**: Check the box
+* **Value**: Selecione a opção
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
-You can now build your project from the project editor!
+Agora pode construir seu projeto no editor de projetos!
 
-The result should look like this:
+O resultado deve parecer com isto:
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-round-corners.png)
 
-### Size and constraints
+### Tamanho e restrições
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. This allows the button to be well duplicated when several relations are available in the same detail view.
+lembre que se você **adicionar restrições** no seu botão, também terá que modificar o arquivo xib xml para **agregar algumas TAGS** como para os formulários detalhados personalizados. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.
 
-How convenient, since we plan on adding a few constraints!
+O que é conveniente porque vamos adicionar algumas restrições!
 
-#### Add constraints
+#### Adicionar restrições
 
-For this tutorial, we are just going to add a button height because we want it to look bigger on the screen.
+Para este tutorial vamos adicionar uma altura de botão porque queremos que fique maior na tela.
 
-Step 1. First select the view and change the height from 123 to 40
+Pásso 1. Primeiro selecione a vista e mude a altura de 123 a 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Step 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+Passo 2. Dê um duplo clique em **Top Space Constraint** e mude o valor de 8 para 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Step 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+Passo 3. Faça a mesma coisa com **Bottom Space Constraint** e mude seu valor de 8 para 0
 
-You should get this:
+Você deveria obter isto:
 
 ![Custom  button constraints](assets/en/relations/Custom-button-constraints.png)
 
-Step 4. Add a height constraint of 40
+Passo 4. Adicione uma restrição de altura de 40
 
 ![Button height constraint](assets/en/relations/Button-height-constraint.png)
 
-You should get this:
+Você deveria obter isto:
 
 ![Horizontal in container](assets/en/relations/Custom-relation-button-constraints.png)
 
-In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
+Para indicar no editor de projeto que todos os elementos incluídos nesta vista serão duplicados, precisamos adicionar uma TAG para cada elemento e restrição.
 
-### Add TAGS
+### adicionar TAGS
 
-Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento de storyboard tem um identificador de Objeto. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
-The process is a little bit tricky... So let's begin by opening the storyboard file with your favorite code editor!
+O processo é um pouco complicado.... Começamos abrindo o arquivo storyboard com seu editor de código favorito!
 
-#### Add a tag to the height constraint
+#### Adicione uma tag para a restrição de altura
 
-Step 1. Select it from the Storyboard to get the Object ID
+Pásso 1. Selecione-o a partir do Storyboard para obter o identiicador de Objeto.
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Step 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+Passo 2. Pesquise por essa ID no arquivo xml e coloque no seu lugar **TAG-RL-007** (uma Tag que ainda não esteja em uso).
 
-Step 3. Save the xml file
+Passo 3. Salve o arquivo xml
 
 ![Horizontal constraint xml file](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-Step 4. Focus on the Storyboard to check if the constraint has been updated correctly
+Passo 4. Foco em Storyboard para verificar se a restrição foi atualizada corretamente
 
 ![Horizontal object ID updated](assets/en/relations/Horizontal-object-id-updated.png)
 
-And that's it! Your button is now fully duplicable if you have more that one relation button to display...
+E isso é tudo! Seu botão agora é completamente duplicável se tiver mais de um botão de relação a exibir...
 
-## Where to go from here?
+## O que fazer agora?
 
-In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
+Nesse tutorial, vimos o básico para criar botões de relação personalizados. Clique no botão abaixo Final Project para baixar o botão de relação personalizado.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>

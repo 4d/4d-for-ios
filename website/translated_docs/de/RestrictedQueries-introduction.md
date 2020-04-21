@@ -5,11 +5,11 @@ title: Restricted queries
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 

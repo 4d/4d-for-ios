@@ -27,7 +27,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
-![Get your Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
 ## ÉTAPE 3. Configurez 4D for iOS
 
@@ -67,7 +67,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Cliquez sur **Export**.
 
-![Export your project](assets/fr/deploy-in-house/Organizer-window-archive.png)
+![Exportez votre projet](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
@@ -148,7 +148,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
 
-![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
+![Informations sur la distribution du manifest](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Cliquez sur **Next**.
 
@@ -156,7 +156,7 @@ Voici un exemple de fichier manifest.plist :
 
 * Laissez à Xcode le soin de gérer l'option **Automatically manage signing**.
 
-![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
+![Re-signez votre application](assets/en/deploy-in-house/Re-sign-your-application.png)
 
 * Cliquez sur **Next**.
 
@@ -164,6 +164,6 @@ Voici un exemple de fichier manifest.plist :
 
 * Vous pouvez vérifier ici l'exactitude de l'identifiant de votre application et de votre Team ID.
 
-![Review your app.ipa content](assets/en/deploy-in-house/Review-ipa-content.png)
+![Vérifiez le contenu de votre application .ipa](assets/en/deploy-in-house/Review-ipa-content.png)
 
 * Cliquez sur **Export** et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.

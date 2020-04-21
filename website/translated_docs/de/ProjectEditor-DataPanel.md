@@ -23,15 +23,15 @@ The **Production URL** must be entered from the **Publishing section** if you ch
 
 Here, you can also check if the server is available and activate it if necessary.<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 * Tips are available to help you ensure the server works correctly.
 * You can directly access the Publishing panel to define your production URL.
 * To access production server data, a key file is required for secure communications.</div> 
 
-You can also define whether or not you want to **Regenerate data systematically** at each build.
+You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
-When the **Do not regenerate data at each build** option is checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 ## Properties panel
 
@@ -85,6 +85,6 @@ In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobi
 
 This query allows you to display only the records which include "Paris" as CityName.</div> <div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>

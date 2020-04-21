@@ -11,7 +11,7 @@ Définir des filtres de recherche fondés sur des informations utilisateur ou de
 
 **CONDITIONS PRÉALABLES**
 
-Cliquez [ici](prerequisites.html) pour commencer !</div> 
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous allons aborder le thème des **requêtes limitées** avec un exemple simple : vous êtes un chargé de clientèle et vous souhaitez consulter vos contrats *en cours* en vous connectant simplement à votre application avec votre adresse mail.
 

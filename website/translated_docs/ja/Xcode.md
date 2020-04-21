@@ -36,16 +36,16 @@ Xcodeは，macOS上で動く統合開発環境および付随する開発者ツ�
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
-### Use 17R6 with macOS 10.14.3
+### 4D for iOS 17 R6 を macOS 10.14.3 で使用するには
 
-4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+4D for iOS 17 R6 の動作には Swift 5.0 ランタイムが必要です。 （macOS 10.14.4 はインストール済み）
 
-- Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+- `Swift 5 Runtime Support for Command Line Tools` を [More Downloads for Apple Developers](https://developer.apple.com/download/more/) から入手してください。
 
-### Compatibility
+### 互換性
 
-Frameworks compiled with one version of Xcode could not be used with another version.
+特定のXcodeバージョンでコンパイルされたフレームワークを別バージョンで使用することはできません。
 
-The current release of swift(5) has ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.
+Swiftの現行バージョン（５）で，ABI Stability が実現しましたが，Module Stability は達成されていません。 コンパイル済みのライブラリを配付するためには，両方の Stability が必要です。
 
-Please see the Swift blog for more details. https://swift.org/blog/abi-stability-and-more/
+詳細はSwiftの公式ブログをご覧ください。 https://swift.org/blog/abi-stability-and-more/

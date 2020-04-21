@@ -5,12 +5,12 @@ title: Create App Store record
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 * Create an App ID on your Developer Account
 * Create your app in App Store Connect</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 
@@ -20,7 +20,7 @@ title: Create App Store record
 
 *An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.</div> 

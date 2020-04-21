@@ -28,6 +28,6 @@ Vous devriez avoir ce résultat :
 
 Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 
-![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
+![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 
 Cela ne correspond pas tout à fait à ce que nous avions prévu ! Nous ne souhaitons maintenant que seuls les contrats *In Progress* de chaque chargé de clientèle soient visualisés. Finalisons donc notre recherche !

@@ -24,7 +24,7 @@ Registered developers can download preview releases and prior versions of the su
 
 🔗 https://developer.apple.com/download/more/ 🔗 https://developer.apple.com/xcode/
 
-## Version comparison table
+## Tabela de comparação de versões
 
 | Xcode  | Swift | iOS      | 4D   | MacOS   |
 | ------ | ----- | -------- | ---- | ------- |

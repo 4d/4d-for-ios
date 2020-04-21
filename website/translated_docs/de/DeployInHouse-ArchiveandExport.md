@@ -5,12 +5,12 @@ title: Archive and export your Project
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 * Archive and export your 4D for iOS project
 * Generate .ipa and manifest files</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server
@@ -152,7 +152,7 @@ Here is an example of a manifest.plist file :
 
 * Click **Next**.
 
-## STEP 10. Re-sign your application
+## SCHRITT 10. Re-sign your application
 
 * Let Xcode manage the **Automatically manage signing** option.
 

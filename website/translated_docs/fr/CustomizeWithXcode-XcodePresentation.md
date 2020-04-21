@@ -17,7 +17,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné.
 
-![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Créer & exécuter](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé.
 
@@ -29,13 +29,13 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ## Editor Area (Zone d’édition)
 
-![Editor Area](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
+![Editor Area (Zone d’édition)](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
 C’est ici que le code est inséré lorsqu'un fichier Swift est sélectionné. Lorsqu’un fichier Storyboard est sélectionné, la vue change et l'Interface Builder apparaît.
 
 ## Zone "Interface Builder"
 
-![Interface Builder Area](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
+![Zone "Interface Builder"](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 Il s’agit d’une interface graphique qui vous permet de générer un fichier Storyboard ou XIB. Toutes vos "scènes" sont visibles sur le côté gauche.
 
@@ -43,13 +43,13 @@ Il s’agit d’une interface graphique qui vous permet de générer un fichier 
 
 La zone de fonctionnalités de Xcode comporte deux volets : Inspector (l'inspecteur) et Library (la bibliothèque).
 
-![Utility Area](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
+![Utility Area (Zone de fonctionnalités)](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Inspector (Inspecteur)
 
 Dans la section des propriétés, Inspector se divise en six onglets, comme illustré ci-dessous :
 
-![Inspector pane](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
+![Inspector (Inspecteur)](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
 De gauche à droite, ces onglets correspondent à :
 
@@ -71,7 +71,7 @@ Dans la section des propriétés, Library se divise en quatre onglets, comme ill
 
 De gauche à droite, ces onglets correspondent à :
 
-![Library pane](assets/en/customize-with-xcode/Xcode-Library-pane.png)
+![Library (Bibliothèque)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
 * **File templates (modèles de fichiers)** : ces modèles s'appliquent aux types de fichiers courants figurant dans la liste du menu "New File".
 

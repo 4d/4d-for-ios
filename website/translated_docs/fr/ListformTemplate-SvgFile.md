@@ -81,9 +81,9 @@ Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.co
 
 <div markdown="1" class = "tips">
 
-**CONSEILS**
+**ASTUCES**
 
-Pour définir plus facilement les types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et de les exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
+Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, ```ios:type="-3,-4"``` vous permettra de glisser-déposer chaque champ à l'exception des images et des dates.
 
 Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
 

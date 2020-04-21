@@ -1,6 +1,6 @@
 ---
 id: custom-detailform-templates
-title: Detail Form Templates
+title: Modelos de formulários detalhados
 ---
 
 
@@ -34,7 +34,7 @@ title: Detail Form Templates
             <strong>Actions:</strong> included
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagem necessária:</strong> não
           </li>
         </ul>
         
@@ -60,7 +60,7 @@ title: Detail Form Templates
             <strong>Actions:</strong> included
           </li>
           <li>
-            <strong>Image required:</strong> no
+            <strong>Imagem necessária:</strong> não
           </li>
         </ul>
         
@@ -93,7 +93,7 @@ title: Detail Form Templates
               <strong>Actions:</strong> included
             </li>
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
           </ul>
           
@@ -119,7 +119,7 @@ title: Detail Form Templates
               <strong>Actions:</strong> included
             </li>
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
           </ul>
           
@@ -147,7 +147,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -170,7 +170,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -201,7 +201,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -224,7 +224,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -250,12 +250,12 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Tasks
+            Tarefas
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -278,7 +278,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -304,12 +304,12 @@ title: Detail Form Templates
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Numbers
+            Números
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -332,7 +332,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -363,7 +363,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> no
+              <strong>Imagem necessária:</strong> não
             </li>
             <li>
               <strong>Graph:</strong> yes
@@ -386,7 +386,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -417,7 +417,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -440,7 +440,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -471,7 +471,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -494,7 +494,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no
@@ -525,7 +525,7 @@ title: Detail Form Templates
           
           <ul style="font-size:16px">
             <li>
-              <strong>Image required:</strong> yes
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
               <strong>Graph:</strong> no

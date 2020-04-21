@@ -268,7 +268,7 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
 
-**NOTE**
+**注記**
 
 * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
@@ -288,7 +288,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**TIPS**
+**ヒント**
 
 Actions will be displayed in the same order as defined in the Action section.</div> 
 
@@ -312,7 +312,7 @@ As with Table actions in List forms, a generic Actions button is available in th
 
 If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
 
-![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
+![メッセージを送信する](assets/en/actions/Action-parameters-sendComment.png)
 
 From here, you can:
 
@@ -327,7 +327,7 @@ For your convenience, the Edition form includes a few **special features**:
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
 
-## Where to go from here?
+## これからどうする？
 
 * A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
 

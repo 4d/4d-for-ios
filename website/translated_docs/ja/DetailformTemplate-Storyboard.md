@@ -1,273 +1,273 @@
 ---
 id: storyboard-detailform-template
-title: Storyboard
+title: ストーリーボード
 ---
 
-Now it's time to create your iOS detail form interface with Xcode!
+iOSアプリのカスタム詳細画面をXcodeで作成しましょう！
 
-Here's the result we want to achieve:
+完成イメージ
 
-![Storyboard custom detailform](assets/en/custom-detailform/storyboard-custom-detailform.png)
+![カスタム詳細画面のストーリーボード](assets/en/custom-detailform/storyboard-custom-detailform.png)
 
-For each cell, we're going to add a:
+セル内に表示されるフィールドのレイアウトをデザインしましょう。
 
-* Profile header image 
-* A field to be duplicated
+* プロフィールのヘッダー画像 
+* 繰り返されるフィールド
 
-## Open the storyboard file with Xcode
+## ストーリーボードをXcodeで開く
 
-First, open your storyboard file in Xcode.
+storyboardファイル（拡張子は非表示かもしれません）をXcodeで開きます。
 
-![Empty storyboard custom template](assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png)
+![ストーリーボード（空の状態）](assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png)
 
-It's quite empty, so let's add some content!
+ほとんど白紙の状態です。早速，中身を追加しましょう！
 
-## Add a Scroll View
+## Scroll Viewを追加する
 
-For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
+詳細フォームをスクロールできるようにするため，はじめに**オブジェクトライブラリ**から「Scroll View」をドラッグ＆ドロップします。 
 
-![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
+![Scroll Viewをストーリーボードに追加](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
+インタフェースビルダーの右側にある**サイズインスペクターパネル**でScroll Viewの幅を 359 に，高さを 667 に設定します。 X 座標を 8 に，Y 座標を 0 に設定しましょう。
 
-![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
+![Scroll Viewの位置とサイズ](assets/en/custom-detailform/scrollview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
+**制約を追加**ボタンをクリックし，下図のように制約が「Trailing（前） 8・Leading（後） 8・Top（上）: 0 Bottom（下） 0」となるように設定します。
 
-![Scrollview Constraints](assets/en/custom-detailform/scrollview-constraints.png)
+![Scroll Viewの制約](assets/en/custom-detailform/scrollview-constraints.png)
 
-## Add a Vertical Stack View
+## Vertical Stack Viewを追加する
 
-Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. Finally, set the X value to 0 and the Y value to 8.
+**オブジェクトライブラリ**から「Vertical Stack View」をドラッグし，Scroll Viewの上にドロップします。 インタフェースビルダーの右側にある**サイズインスペクターパネル**で幅を 359 に，高さを 202 に設定します。 X 座標を 0 に，Y 座標を 8 に設定しましょう。
 
-![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
+![Stack Viewをストーリーボードに追加](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
-Since the Stack View width and height are defined by the elements inside it, we will configure the size and constraints later.
+Stack Viewの幅と高さは，内包しているオブジェクトによって決まるため，サイズの制約はもう少し後に設定します。
 
-## Add Views to the Stack Views
+## Stack Viewに他のViewを追加する
 
-Drag and drop a view from the **Object library** to the Stack View you've just added to your storyboard. Let's name it **Field View 1**.
+**オブジェクトライブラリ**からビューをドラッグし，ストーリーボードに追加したばかりのStack Viewにドロップします。 ビューの名前を**Field View 1**に変更します。
 
-![Add Field View 1](assets/en/custom-detailform/add-view1-storyboard.png)
+![Field View 1を追加](assets/en/custom-detailform/add-view1-storyboard.png)
 
-Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
+**オブジェクトライブラリ**から別のビューをドラッグし，今度は画面の左側にツリー表示されているドキュメントのアウトラインに直接ドロップしましょう。Stack Viewの内部に収まるよう，Field View 1と同じレベルに挿入してください。その後，ビューの名前を**Field View 2**に変更します。
 
-![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
+![Field View 2の追加](assets/en/custom-detailform/add-view2-storyboard.png)
 
-To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
+ビュー同士の間隔を空けるために，属性インスペクターで「spacing」の値を 8 に変更します。
 
-![Stackview spacing](assets/en/custom-detailform/stackview-spacing.png)
+![Stack Viewの余白](assets/en/custom-detailform/stackview-spacing.png)
 
-Select both **Field View 1** and **Field View 2** and in the **Size inspector panel** (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.
+**Field View 1**と**Field View 2**の両方を選択し，インタフェースビルダー画面の右側にある**サイズインスペクターパネル**で幅を 359 に，高さを 97 に設定します。
 
-![views position height and width](assets/en/custom-detailform/views-position-height-width-storyboard.png)
+![Viewの位置とサイズ](assets/en/custom-detailform/views-position-height-width-storyboard.png)
 
-Select **Field View 1** add three constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, and Top: 0):
+**Field View 1**を選択し，**制約を追加**ボタンをクリックして「Trailing（前） 0・Leading（後） 0・Top（上）: 0 」となるように３個の制約を設定します。
 
-![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
+![Viewの制約](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
-For the Stack View to have the same width as the Scroll View, you need to add a constraint:
+Stack ViewがScroll Viewと同じ幅になるよう，もう１個の制約を追加します。
 
-Press Ctrl and drag the Stack View to the Scroll View. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints. Choose Equal Width!
+Controlキーを押しながらStack Viewをドラッグし，Scroll Viewに重ね合わせます。 マウスボタンを離すと同時に，ここで設定できる制約の選択肢が表示されます。 「Equal Width」を選択してください。
 
-![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
+![等幅のStack View](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
-Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
+「Stack View」が選択された状態のまま，<0>制約を追加</0>ボタンをクリックし，下図のように制約が「Trailing（前） 0・Leading（後） 0・Top（上）: 8 Bottom（下） 0」となるように設定します。
 
-![Stackview constraints](assets/en/custom-detailform/stackview-constraints.png)
+![Stack Viewの制約](assets/en/custom-detailform/stackview-constraints.png)
 
-Here's what you'll see when constraints have been added :
+制約が設定されると，下図のように表示が変化するはずです。
 
-![Stackview final constraints](assets/en/custom-detailform/stackview-constraints-final.png)
+![Stack Viewの最終的な制約](assets/en/custom-detailform/stackview-constraints-final.png)
 
-Now that you have two views in your Stack View and you've defined constraints, let's focus on Field View 1.
+Stack Viewに２個ビューを追加し，制約もきちんと設定できました。Field View 1の作業に移りましょう。
 
-## Add an Image View to Field View 1
+## Field View 1にImage Viewを追加する
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+**オブジェクトライブラリ**から**Image View**をドラッグし，Field View 1の上にドロップします。
 
-![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
+![Image Viewをストーリーボードに追加](assets/en/custom-detailform/add-imageview-storyboard.png)
 
-In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. Then set the X value to 0 and the Y value to 0.
+インタフェースビルダー画面の右側にある**サイズインスペクターパネル**でImage Viewの幅を 359 に，高さを 97 に設定します。 X 座標を 0 に，Y 座標を 0 に設定しましょう。
 
-![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
+![Image Viewの位置とサイズ](assets/en/custom-detailform/imageview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
+<0>制約を追加</0>ボタンをクリックし，下図のように制約が「Trailing（前） 0・Leading（後） 0・Top（上）: 8 Bottom（下） 0」となるように設定します。
 
-![Image View constraints](assets/en/custom-detailform/imageview-constraints.png)
+![Image Viewの制約](assets/en/custom-detailform/imageview-constraints.png)
 
-In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
+**サイズインスペクター**で「Intrinsic Size」を**Default**から**Placeholder**に変更します。
 
-![Intrinsic size Image View](assets/en/custom-detailform/intrinsic-size-imageview.png)
+![自動サイズのImage View](assets/en/custom-detailform/intrinsic-size-imageview.png)
 
-## Add Labels to Field View 2
+## Field View 2にラベルを追加する
 
-### Title label
+### Title ラベル
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
+**オブジェクトライブラリ**から**Label**をドラッグし，Field View 2にドロップします。幅を 343 に，高さを 22 に設定します。 また，X座標を8に，Y座標も8に設定します。
 
-![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
+![ラベル追加](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+ラベルをダブルクリックし下記のように名称を変更します。```___FIELD_LABEL___``` **属性インスペクター**でフォントを**Helvetica Neue Light 18.0**に，カラーを**BackgroundColor**に設定します。
 
-![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
+![タイトルのラベルフォントと文字カラー](assets/en/custom-detailform/title-label-font-and-color.png)
 
-### Content label
+### Content ラベル
 
-Duplicate the Title label and set the duplicate's Width value to 339 and the Height value to 44. Then set the X value to 12 and the Y value to 37.
+Title ラベルを複製し，幅を 339 に，高さを 44 に変更します。 X座標を 12 に，Y座標は 37 に設定します。
 
-![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
+![ラベル追加](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+ラベルをダブルクリックし下記のように名称を変更します。```<___FIELD_LABEL___>``` **属性インスペクター**でフォントを**Helvetica Neue Light 20.0**に，カラーを**Black Color**に設定します。
 
-![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
+![内容のラベルフォントと文字カラー](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+<0>制約を追加</0>ボタンをクリックし，下図のように制約が「Trailing（前） 8・Leading（後） Multiple・Top（上）: Multiple Bottom（下） Multiple」となるように設定します。
 
-![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
+![タイトルラベルと内容ラベルの制約 ](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 
-You're done with graphical elements! All of your constraints are well defined :)
+外観に関する設定がひと段落しました！ 制約の設定はこれで完了です！
 
-## How to get data into your cells
+## セルにフィールドが表示されるようにセットアップする
 
 ### Image View
 
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Image Viewを選択し，**Identity inspector**（ウィンドウ右側パネルの身分証明書アイコンをクリック）のUser Defined Runtime Attributesにアクセスします。 行を追加するために**＋**ボタンをクリックします。
 
-![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
+![ユーザー定義のランタイム属性](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path: **「bindTo」から始めることにより，コンポーネントとのバインディングが有効なります。 下記の要領で設定します。 ```bindTo.record.___FIELD_1___```
 
-* **Type**: Always ```String```
+* **Type: **固定値です。 ```String```
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value: **属性名を入力します。 下記の要領で設定します。 ```___FIELD_1_BINDING_TYPE___```
 
-![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
+![Identity inspector](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
-### Labels
+### ラベル
 
-For the **first label** we are going to add several lines mainly to display icons:
+**first label**は，アイコンが表示できるようにコードを記述しましょう。
 
-![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
+![Label 1 のユーザー定義ランタイム属性 ](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to ```IconLabel``` and check the **Inherit Module From Target** checkbox as we can see below:
+下記のようにClassを設定します。 ```IconLabel``` **Inherit Module From Target**のチェックボックスは有効にしておきます。
 
-![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
+![Label 1 カスタムクラス](assets/en/custom-detailform/label1-custom-class.png)
 
-Select the **second label** and add a row in the Defined Runtime Attributes:
+**second label**を選択し，Defined Runtime Attributesに行を追加して下記のように入力します。
 
-* **Key Path**: ```bindTo.record.___FIELD___```
+* **Key Path: **: ```bindTo.record.___FIELD___```
 
-* **Type**: ```String```
+* **Type: **: ```String```
 
-* **Value**: ```___FIELD_BINDING_TYPE___```
+* **Value: **: ```___FIELD_BINDING_TYPE___```
 
-![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
+![Label 2 のユーザー定義ランタイム属性 ](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
-## Add TAGS to the cells to be duplicated
+## 繰り返し使用されるセルにタグを設定する
 
-Field View 2 includes elements that will be duplicated so you can have as many field as you define in the project editor.
+プロジェクトエディターで複数のフィールドをフォームに追加した場合，Field View 2は何度も複製されることになります。
 
-Each storyboard element has a Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+ストーリーモード内の要素には，固有のオブジェクトIDが割り振られています。 試しに，Field View 2を選択し，**アイデンティティインスペクター**に目を移してください。オブジェクトIDが表示されているはずです。
 
-![Object ID Storyboard](assets/en/custom-detailform/object-id-storyboard.png)
+![オブジェクトID ストーリーボード](assets/en/custom-detailform/object-id-storyboard.png)
 
-In order to tell the project editor that all of the elements included in this view will be duplicated, we need to add TAG to each element and constraints.
+プロジェクトエディターに対し，このビューに含まれる要素はまとmて複製されるべきグループに属していることを知らせるため，要素とタグのそれぞれにタグを設定することが必要です。
 
-The process is a little bit tricky... Let's begin by opening the storyboard file with your favorite code editor!
+ひとつずつ変更するのは，なかなか面倒ですし，途中でミスをしてしまうかもしれません。 ここはストーリーボードファイルを使い慣れたコードエディターで開いて作業を進めることにしましょう！
 
 ### Field View 2
 
-* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
+* **Field View 2**を選択し，アイデンティーインスペクター（インタフェースビルダー画面の右側）からオブジェクトIDをコピーします。 このプロジェクトの場合，Field View 2のオブジェクトIDは**SiX-3H-lNB**となっています。
 
-* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. As you can see, this Object ID is mentioned several times so be careful!
+* ストーリーボードXMLファイル内でこのIDを検索し，すべての出現箇所で**TAG-FD-001**に置換します。 オブジェクトIDは，何度か出現するので，見落とさないように気をつけましょう！
 
-![Storyboard xml](assets/en/custom-detailform/storyboard-xml.png)
+![ストーリーボード xml](assets/en/custom-detailform/storyboard-xml.png)
 
-Save the storyboard xml file. As you can see, the Field View 2 Object ID has changed in your storyboard in Xcode:
+ストーリーボードXMLファイルを保存します。 Xcodeに表示されるField View 2のオブジェクトIDが変化していることに注目してください。
 
-![Field View 2 Object ID](assets/en/custom-detailform/field-view-2-object-id.png)
+![Field View 2 のオブジェクトID](assets/en/custom-detailform/field-view-2-object-id.png)
 
 ### First label
 
-* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
+* **first label**のオブジェクトIDをアイデンティーインスペクターからコピーし，ストーリーボードXMLファイル内で**TAG-FD-002**に一括置換します。
 
-![Label 1 Object ID](assets/en/custom-detailform/label1-object-id.png)
+![Label 1 のオブジェクトID](assets/en/custom-detailform/label1-object-id.png)
 
-Done with the first label!
+これで一丁あがり，ですね！
 
 ### Second label
 
-* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
+* 今度は**second label**のオブジェクトIDをアイデンティーインスペクターからコピーし，ストーリーボードXMLファイル内で**TAG-FD-003**に一括置換します。
 
-![Label 2 Object ID](assets/en/custom-detailform/label2-object-id.png)
+![Label 2 のオブジェクトID](assets/en/custom-detailform/label2-object-id.png)
 
-Voilà!
+うまく置換できました！
 
-### Constraints
+### 制約にタグを設定する
 
-Both labels have constraints that we need to tag, too:
+どちらのラベルも制約があるので，タグを設定する必要があります。
 
-![Tag constraints](assets/en/custom-detailform/duplicated-constraints.png)
+![タグの制約](assets/en/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+View Field 2とラベルに対して実行したのと同じ要領で，アイデンティーインスペクターから７個の**制約**のオブジェクトIDをコピーし，**TAG-FD-004**，**TAG-FD-005**，**TAG-FD-006**，**TAG-FD-007**，**TAG-FD-008**，**TAG-FD-009**，**TAG-FD-010**に変更します。
 
-Go to your project editor and select your detail template from the Forms section, then click on Build.
+プロジェクトエディターの「フォーム」セクションで自作の詳細フォームのテンプレートを選択し，「ビルド」をクリックします。
 
-![Custom detail template forms](assets/en/custom-detailform/custom-detail-template-forms.png)
+![カスタム詳細画面テンプレート](assets/en/custom-detailform/custom-detail-template-forms.png)
 
-Not bad for a first attempt! :)
+カスタム詳細画面が作成できました！ :)
 
-![iPhone Demo](assets/en/custom-detailform/iphone-demo.png)
+![iPhone画面](assets/en/custom-detailform/iphone-demo.png)
 
-Field View 2 is well duplicated! Let's see if we can make this app a bit more interesting!
+Field View 2をコピーすることができました。 しかし，アプリにもう少し彩りを添えることはできないでしょうか。
 
-### Customize your app
+### アプリをカスタマイズする
 
-We're going to add a corner radius to the Image View, as well as Field View 2.
+Image ViewおよびField View 2に角の丸みを追加しましょう。
 
-Select your Image View and add the two following lines in the User Defined Runtime Attributes:
+Image Viewを選択し，User Defined Runtime Attributesにユーザー定義属性を入力します。
 
-* **Key Path**: ```cornerRadius```
+* **Key Path: **: ```cornerRadius```
 
-* **Type**: ```Number```
+* **Type: **: ```Number```
 
-* **Value**: ```12```
+* **Value: **: ```12```
 
-and
+その他
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path: **: ```layer.masksToBounds```
 
-* **Type**: ```Boolean```
+* **Type: **: ```Boolean```
 
-* **Value**: Check the box
+* **Value**: 有効
 
-![iPhone Demo](assets/en/custom-detailform/imageview-corner-radius.png)
+![iPhone画面](assets/en/custom-detailform/imageview-corner-radius.png)
 
-Next, select Field View 2 and add the following:
+Field View 2を選択し，下記のように設定します。
 
-* **Key Path**: ```cornerRadius```
+* **Key Path: **: ```cornerRadius```
 
-* **Type**: ```Number```
+* **Type: **: ```Number```
 
-* **Value**: ```12```
+* **Value: **: ```12```
 
-![iPhone Demo](assets/en/custom-detailform/fieldview2-corner-radius.png)
+![iPhone画面](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
-You can now build your project from the project editor!
+これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！
 
-![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
+![カスタムテンプレート（完成）](assets/en/custom-detailform/custom-template-final-result.png)
 
-## Where to go from here?
+## これからどうする？
 
-In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
+このレッスンでは，詳細画面のカスタムテンプレートを作成する方法を紹介しました。 素材プロジェクトから始めて，シンプルなカスタムテンプレートが簡単に自作できる，という手応えが得られたのではないでしょうか。 今回のまとめは**カスタム詳細画面の完成テンプレート**からダウンロードすることができます。
 
 <div style="text-align: center; margin-top: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">カスタム詳細画面の完成テンプレート</a>
 
   </p>
 </div>

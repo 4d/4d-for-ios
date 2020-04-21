@@ -5,18 +5,18 @@ title: 作業をXcodeに引き継ぐ
 
 <div class = "objectives"> 
 
-**やりたいこと**
+**OBJECTIVES**
 
-* 4D for iOSプロジェクトをビルドする
-* ビルドした4D for iOSアプリをカスタマイズする</div> 
+* Open a 4D for iOS project from the Project Editor.
+* Customize the generated 4D for iOS app.</div> 
 
-4D for iOSは，ネイティブiOSアプリを開発するためのコードを出力するので，Xcodeで開いてカスタマイズすることができます。 具体的なプロセスは以下に示されています。<div class = "tips"> 
+4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
 
 **注記**
 
-プロジェクトをXcodeでカスタマイズした後，プロジェクトエディターから再ビルドした場合，変更内容は失われてしまいます。気をつけて！</div> 
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
 
-[ここ](contact-app.html)で作成した顧客管理アプリを使用しましょう。 まず，素材プロジェクトをダウンロードしてください。
+We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
 
 <div style="text-align: center; margin-top: 20px">
   <p>
@@ -50,4 +50,4 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">素材プロジェ�
 
 ![プロジェクトをXcodeで開く](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
-4D for iOSプロジェクトの作業をXcodeで続けるための準備ができました。次の記事では，その方法が説明されます。
+Now you're ready to start working on your 4D for iOS project in Xcode, keep reading to learn how!

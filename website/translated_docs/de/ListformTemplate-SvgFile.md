@@ -73,7 +73,7 @@ You can define the position, height and width for:
 
 The searchable field is optional.<div class = "tips"> 
 
-**NOTE**
+**HINWEIS**
 
 All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
 

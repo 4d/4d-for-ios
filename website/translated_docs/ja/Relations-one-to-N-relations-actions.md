@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-actions
-title: One to Many - Actions
+title: １対Ｎとアクション
 ---
 
 <div class = "objectives">
@@ -9,7 +9,7 @@ We are now going to go a little bit further and **create a task for a specific e
 
 It is very easy to create an entity using **parent Entity** !
 
-Let's get started by downloading the Starter Project:
+素材プロジェクトをダウンロードしてください。
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
@@ -18,20 +18,20 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
   </p>
 </div>
 
-## Create addProject action
+## addProject アクションを作成する
 
-* Open the project editor and go to the Action section.
+* プロジェクトエディターを開いて「アクション」セクションに移動します。
 
-* Add a addProject Action
+* addProject アクションを追加します。
 
 ![create addProject Method](assets/en/relations/create-addProject-Method-4D-for-iOS-relation-parent-ID.png)
 
 
-## On Mobile App Action method
+## On Mobile App Action データベースメソッド
 
 The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
-```code4d
+```4d
 : ($request.action="addProjects")
 
 $o:=New object(\
@@ -45,12 +45,12 @@ $result:=addProject ($o)
 
 ```
 
-## addProject Method
+## addProject プロジェクトメソッド
 
 
 Then enter thoses lines in your **addProject Method**:
 
-```code4d
+```4d
 C_OBJECT($0)
 C_OBJECT($1)
 
@@ -61,7 +61,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds[$in.dataClass].new()  //Create a reference
+    $entity:=ds[$in.dataClass].new()  //エンティティを作成
 
     For each ($key;$in.parameters)
 
@@ -69,19 +69,19 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $primaryKey:=$in.parent.primaryKey   //Get parent primary key
+    $primaryKey:=$in.parent.primaryKey   //親エンティティのプライマリーキー
 
     $parent:=ds[$in.parent.dataClass].get($primaryKey)
 
-  $inverseRelationName:=$in.entity.relationName   //Get parent relation name
+  $inverseRelationName:=$in.entity.relationName   //親エンティティのリレーション名
 
     $entity[$inverseRelationName]:=$parent
 
-    $status:=$entity.save()  //save the entity
+    $status:=$entity.save()  //エンティティを保存
 
-    $out.success:=True  // notify App that action success
+    $out.success:=True  //モバイルアプリにアクションの成功を通知
 
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.dataSynchro:=True  //モバイルアプリにセレクションのリフレッシュを要求
 
     $out.statusText:="Task added"
 

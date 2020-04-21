@@ -1,34 +1,34 @@
 ---
 id: one-to-many-relations-title-definition
-title: One to Many - Title definition
+title: Um para Muitos - Definição de Título
 ---
 
-### Defining a title for your destination views
+### Definir um título para suas vistas de destino
 
-To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
+Para ter controle da vista que terá em seu app, 4D for iOS permite que defina um Título personalizado.
 
-In this tutorial, we will use the following project:
+Neste tutorial, vamos usar o projeto abaixo:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJETO STARTER de DEFINIÇAO DE TITULO</a>
 
   </p>
 </div>
 
-Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
+Clique em Open menu.Projeto Mobile... selecione *Time Keeper* e vá para a seção **Labels & Icons **.
 
-From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: ```%Name% tasks```
+Depois disso, abra a aba relação para definir o título de relação em *tasks* e digite a linha abaixo na coluna **Títulos**: ```%Name% tasks```
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
+Isso vai permitir que exiba **o valor do nome do Empregado** na vista destino dependendo do formulário detalhado Funcionários em que estava previamente.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
-This is a great way to keep track of the view you come from!
+É uma excelente maneira de manter controle sobre a vista da qual veio!
 
-Now let's see how you can create and add your own Relation button in the next tutorial!
+Agora veremos como criar e adicionar seu próprio botão Relation no próximo tutorial!

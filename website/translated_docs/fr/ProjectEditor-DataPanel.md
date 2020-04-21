@@ -27,15 +27,15 @@ Dans la section Données, vous pouvez aussi vérifier la disponibilité du serve
 
 * Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
 * Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
-* Pour accéder aux données du serveur de production, un fichier key.mobileapp est requis pour sécuriser les échanges.</div> 
+* Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.</div> 
 
-Vous pouvez également préciser si vous souhaitez **regénérer les données** à chaque génération.
+You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
-Si vous cochez l'option **Ne pas regénérer les données à chaque génération**, vous pouvez gagner un temps considérable dans la création de votre application. Vous pourrez toujours générer vos données manuellement en cliquant sur le bouton **Regénérer maintenant**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 ## Propriétés
 
-![Data section](assets/fr/project-editor/Properties-Panel-4D-for-iOS.png)
+![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
 Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
@@ -83,7 +83,7 @@ Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R
 
     $response.userInfo:=New object("city";"Paris")
 
-Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris »</div> <div class = "tips"> 
+Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris ».</div> <div class = "tips"> 
 
 **NOTE**
 

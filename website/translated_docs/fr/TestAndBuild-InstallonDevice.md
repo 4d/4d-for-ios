@@ -47,15 +47,15 @@ C'est parti !
 
 * Ouvrez votre projet actuel depuis l’onglet GÉNÉRATION.
 
-![Build tab](assets/fr/test-build/Open-your-project-Xcode-4D-for-iOS.png)
+![Build tab](assets/en/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
 * Vérifiez que l'option **Automatically manage signing** est cochée, puis sélectionnez le compte que vous avez ajouté [ici](free-developer-account.html) à partir de la liste déroulante "Team".
 
-![Account-Selection](assets/fr/test-build/account-Selection-Free-Account.png)
+![Account-Selection](assets/en/test-build/account-Selection-Free-Account.png)
 
 * Connectez votre appareil à votre ordinateur et sélectionnez-le dans le menu supérieur de Xcode.
 
-![Select your device](assets/fr/test-build/select-device-Free-Account.png)
+![Sélectionnez votre appareil](assets/en/test-build/select-device-Free-Account.png)
 
 * Xcode génère automatiquement les profils et les certificats de provisioning nécessaires à la création de votre application.
 
@@ -63,7 +63,7 @@ C'est parti !
 
 * Cliquez sur le bouton Build and Run dans Xcode !
 
-![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
+![Créer & exécuter](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## ÉTAPE 5. Team ID pour un compte payant
 
@@ -91,15 +91,15 @@ C'est parti !
 * Connectez votre appareil à votre ordinateur avec un câble USB.
 * Dans l’onglet GÉNÉRATION, cliquez sur **Installer**.
 
-![Manual installation](assets/fr/test-build/Manual-installation-4D-for-iOS.png)
+![Manual installation](assets/en/test-build/Manual-installation-4D-for-iOS.png)
 
 * Une archive de votre projet est créée.
 
-![Archive creation](assets/fr/test-build/Archive-creation.png)
+![Archive creation](assets/en/test-build/Archive-creation.png)
 
 * Indiquez l'archive générée dans Finder.
 
-![Reveal archive in Finder](assets/fr/test-build/Reveal-archive-in-Finder.png)
+![Reveal archive in Finder](assets/en/test-build/Reveal-archive-in-Finder.png)
 
 * Ouvez Xcode et accédez à Menu > Window > Devices and Simulator et glissez-déposez le fichier ipa généré dans la section Installed Apps.
 

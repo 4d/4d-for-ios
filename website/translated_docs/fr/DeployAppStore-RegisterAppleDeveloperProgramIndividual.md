@@ -11,7 +11,7 @@ Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour d
 
 ## ÉTAPE 1. Identifiant Apple
 
-Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id)
+Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).
 
 Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-register-as-a-developer)
 
@@ -19,7 +19,7 @@ Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-re
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/)
 
-![Create your Apple ID](assets/fr/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Créez votre identifiant Apple](assets/fr/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -43,7 +43,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 * Cliquez sur **Join the Apple Developer Program** au bas de la page.
 
-![Join the Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![Rejoignez l'Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
@@ -57,13 +57,13 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 * Lisez et acceptez les termes du contrat de licence "Apple Developer Program License Agreement".
 * Cliquez sur **Continue**.
 
-![Enroll as an individual](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
+![Inscrivez-vous en tant que particulier](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 6. Finalisez votre souscription
 
 * Cliquez sur **Purchase** et procédez au paiement pour finaliser votre souscription.
 
-![Complete your purchase](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![Finalisez votre souscription](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 

@@ -35,7 +35,7 @@ Vous pouvez définir les propriétés de champs suivantes :
 
 Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 * Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
 

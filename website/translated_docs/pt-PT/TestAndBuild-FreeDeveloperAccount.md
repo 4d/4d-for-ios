@@ -1,29 +1,29 @@
 ---
 id: free-developer-account
-title: Free Apple Developer account
+title: Conta Desenvolvedor Apple gratuita
 ---
 
-Even if you don’t wish to pay $99 a year to join the Apple Developer Program, you can still create a free Apple ID and use it to access a limited set of developer-oriented privileges.
+Mesmo se não quiser pagar os $99 por ano para se unir ao programa de desenvolvedores Apple, pode criar uma Apple ID gratuita e usá-la para acessar um conjunto limitado de privilégios para desenvolvedores.
 
 ## PASSO 1. Apple ID
 
-If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
+Se não tiver uma identificação Apple, vá para '[Passo 2](#step-2-create-your-apple-id)
 
-If you already have an Apple ID, go to [Step 3](#step-3-open-xcode)
+Se já tiver uma Apple ID, vá para [o Passo 3](#step-3-open-xcode)
 
-## PASSO 2. Create your Apple ID
+## PASSO 2. Crie sua Apple ID
 
-Go the the [Apple ID creation page](https://appleid.apple.com/).
+Vá para [a página de criação de Apple ID](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Crie sua Apple ID](assets/en/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* Complete o formulário e perguntas de segurança
+* Vai receber um código de verificação por email.
+* Entre o código de verificação para validar a criação de sua conta.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Quando tiver sua Apple ID, pode continuar com o Passo 3.
 
 ## PASSO 3. Open Xcode
 
@@ -32,4 +32,4 @@ Go the the [Apple ID creation page](https://appleid.apple.com/).
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-Congratulations! You're now ready to use your free Apple ID!
+Parabéns! You're now ready to use your free Apple ID!

@@ -5,7 +5,7 @@ title: Apple Developer Program as an Individual
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
 

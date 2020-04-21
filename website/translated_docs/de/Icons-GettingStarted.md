@@ -5,11 +5,11 @@ title: Using icons
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Use your own icons in 4D for iOS projects.</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 

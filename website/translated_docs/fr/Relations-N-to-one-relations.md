@@ -1,6 +1,6 @@
 ---
 id: many-to-one-relations
-title: Many to One relations
+title: Liens N vers 1
 ---
 
 4D v17 R5 lance un nouveau concept : les liens N vers 1<div class = "tips"> 

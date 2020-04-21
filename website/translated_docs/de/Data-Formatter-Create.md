@@ -5,11 +5,11 @@ title: Create data formatter
 
 <div class = "objectives"> 
 
-**Zielsetzung**
+**OBJECTIVES**
 
 Create your first data formatters.</div> <div class = "prerequisites"> 
 
-**Voraussetzungen**
+**PREREQUISITES**
 
 Click [here](prerequisites.html) to see what you'll need to get started!</div> 
 

@@ -25,7 +25,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -41,7 +41,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -63,7 +63,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -79,7 +79,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -101,7 +101,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -117,7 +117,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -139,7 +139,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Collection</li>
           <li><strong>Sections:</strong> not available</li>
           <li><strong>Actions:</strong> cell long pressure</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -155,7 +155,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
-          <li><strong>Image required:</strong> no</li>
+          <li><strong>Imagem necessária:</strong> não</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -177,7 +177,7 @@ title: List Forms Templates
           <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> not available</li>
           <li><strong>Actions:</strong> cell long pressure</li>
-          <li><strong>Image required:</strong> yes</li>
+          <li><strong>Imagem necessária:</strong> yes</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -194,7 +194,7 @@ title: List Forms Templates
             <li><strong>Type:</strong> Collection</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -216,7 +216,7 @@ title: List Forms Templates
             <li><strong>Type:</strong> Table</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -232,7 +232,7 @@ title: List Forms Templates
             <li><strong>Type:</strong> Collection</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -253,7 +253,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -268,7 +268,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -289,7 +289,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -304,7 +304,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -325,7 +325,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -336,11 +336,11 @@ title: List Forms Templates
       </tr>
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-          <h1 style="margin-top: 10px; font-size:26px">Tasks</h1>
+          <h1 style="margin-top: 10px; font-size:26px">Tarefas</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -357,11 +357,11 @@ title: List Forms Templates
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Numbers/master/template.gif" />
         </td>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-          <h1 style="margin-top: 10px; font-size:26px">Numbers</h1>
+          <h1 style="margin-top: 10px; font-size:26px">Números</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> no</li>
+            <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -376,7 +376,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -397,7 +397,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -412,7 +412,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -433,7 +433,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -448,7 +448,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -469,7 +469,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -484,7 +484,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -505,7 +505,7 @@ title: List Forms Templates
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Image required:</strong> yes</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 

@@ -39,7 +39,7 @@ Tout d'abord, déposez :
 
 * les dossiers des modèles **TasksList** et **TasksCollection** dans le dossier *Tasks.4dbase/Resources/Mobile/form/list* 
 
-![Listform templates](assets/en/actions/Listform-templates.png)
+![Modèles de formulaire liste](assets/en/actions/Listform-templates.png)
 
 * les dossiers du modèle **TasksDetail** dans *Tasks.4dbase/Resources/Mobile/form/detail folder*
 

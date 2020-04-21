@@ -71,7 +71,7 @@ Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte 
 
 Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.<div class = "tips"> 
 
-**CONSEILS**
+**ASTUCES**
 
 * Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
 
@@ -129,7 +129,7 @@ Hum... Cela ne correspond pas exactement à ce que nous souhaitions.
 * Sélectionnez ensuite la photo de profil et double-cliquez sur la contrainte de leading space.
 * Remplacez la valeur 40.67 pixels de la constante par la valeur 80 pixels.
 
-![Constraints adjustments](assets/en/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
+![Constraints adjustments](assets/customize-with-xcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
 C'est beaucoup mieux ! Désormais, toutes les contraintes sont appliquées et les libellés sont conformes aux autres contraintes.
 
