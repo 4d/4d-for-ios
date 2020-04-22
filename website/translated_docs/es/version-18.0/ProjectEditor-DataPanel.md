@@ -25,9 +25,9 @@ The **Production URL** must be entered from the **Publishing section** if you ch
 Aquí, también puede comprobar si el servidor está disponible y activarlo si es necesario.<div markdown="1" class = "tips">
 **NOTA**
 
-* Tips are available to help you ensure the server works correctly.
-* You can directly access the Publishing panel to define your production URL.
-* To access production server data, a key file is required for secure communications.</div>
+* Hay sugerencias disponibles para ayudarlo a garantizar que el servidor funcione correctamente.
+* Puede acceder directamente al panel de publicación para definir su URL de producción.
+* Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.</div>
 
 You can also define whether or not you want to **Regenerate data systematically** at each build.
 
@@ -42,7 +42,7 @@ In this panel, you can define all the filters for each table based on **defined 
 
 ### Los filtros de búsqueda
 
-You can define filters per table which depend on field values:
+Puede definir los filtros por tabla, en función de los valores de campo:
 
 * Primero, ingrese su búsqueda en el campo dedicado escribiéndola directamente en el "campo de búsqueda". También puede redactar su búsqueda utilizando las pestañas Campos, Comparadores y Operadores, que están disponibles justo sobre el campo de búsqueda cuando está enfocado. Esto puede ser útil para definir su búsqueda.
 
@@ -50,16 +50,16 @@ You can define filters per table which depend on field values:
 
 * Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Deje sin marcar si no desea que los datos estén integrados.
 
-When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.<div markdown="1" class = "tips">
-**EXAMPLE**
+Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en un filtro de búsqueda definido.<div markdown="1" class = "tips">
+**EJEMPLO**
 In the **Filter query** field enter:
 `FirstName = 'Lisa' & LastName = 'Hart'`
-This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.</div>
+Esta búsqueda le permite mostrar solo los registros que incluyen "Lisa" y "Hart" en los campos FirstName y LastName.</div>
 
 
 ### Filtrado con filtros de información de usuario
 
-You can define filters depending on user information which you define in the Mobile App Authentication method:
+Puede definir filtros según la información del usuario que defina en el método Mobile App Authentication:
 
 * Al igual que con los filtros de búsqueda, primero debe definir su búsqueda en el campo apropiado.
 
@@ -69,14 +69,14 @@ You can define filters depending on user information which you define in the Mob
 
 * Una vez que se valida el filtro de búsqueda, aparece un botón que le permite agregar información sobre los usuarios en el método [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
-When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.<div markdown="1" class = "tips">
-**EXAMPLE**
+Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en información del usuario.<div markdown="1" class = "tips">
+**EJEMPLO**
 In the **Filter query** field enter:
 CityName = :city
-In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
+En el [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduzca:
 `$response.userInfo:=New object("city";"Paris")`
-This query allows you to display only the records which include "Paris" as CityName.</div> <div markdown="1" class = "tips">
+Esta búsqueda le permite mostrar solo los registros que incluyen "Paris" como CityName.</div> <div markdown="1" class = "tips">
 **NOTA**
-You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
+Encontrará todas las reglas de sintaxis asociadas a la búsqueda en la [documentación de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).</div>
 
 
