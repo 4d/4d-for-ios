@@ -6,11 +6,11 @@ original_id: create-new-project
 
 <div markdown="1" class = "objectives">
 **OBJETIVOS**
-Get familiar with the Project Editor.</div> <div markdown="1" class = "prerequisites">
+Familiarizarse con el editor de proyectos.</div> <div markdown="1" class = "prerequisites">
 **REQUISITOS PREVIOS**
 Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div>
 
-Let's take a look at how 4D for iOS works.
+Demos un vistazo a cómo funciona 4D for iOS.
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
@@ -18,17 +18,17 @@ Give your project a name and click **Create**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+La pantalla de bienvenida se muestra automáticamente para ayudarlo a comprender los conceptos básicos de 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+¡Aquí estamos! Ahora es el momento de descubrir la arquitectura y la interfaz de 4D for iOS.
 
-The main window consists of two tabs:
+La ventana principal consta de dos pestañas:
 
 ## Secciones
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+En la pestaña Secciones, encontrará todos los pasos necesarios para crear su aplicación 4D for iOS:
 
 * General
 * Structure
@@ -41,7 +41,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 ## Generación
 
-The Build tab has four options:
+La pestaña Generación tiene cuatro opciones:
 
 * Crear y ejecutar
 * Selección del simulador
