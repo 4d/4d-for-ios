@@ -201,11 +201,11 @@ After creating all of your actions, just click on the Create button from the Act
 
 ## Aplicación iOS
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+En su aplicación iOS, las acciones están disponibles de diferentes formas en sus formularios listados y detallados, según las plantillas que seleccione en la sección Formularios.
 
 ### Formularios Lista en tabla
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
+* **Entity action:** Swipe left on a cell to display the available actions in a List form. Se muestra un botón "+" si define más de 3 acciones por entidad.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
@@ -213,7 +213,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div markdown="1" class = "tips">
 **RECOMENDACIONES**
-Actions will be displayed in the same order as defined in the Action section.</div>
+Las acciones se mostrarán en el mismo orden definido en la sección Acción.</div>
 
 
 ### Formularios Lista en colección
@@ -228,7 +228,7 @@ Actions will be displayed in the same order as defined in the Action section.</d
 
 ### Formularios detallados
 
-As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+Como para las acciones de tabla en los formularios detallados, un botón de acciones genéricas está disponible en la barra de navegación para mostrar todas sus acciones de entidad en una lista.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
@@ -238,18 +238,18 @@ If you have created an Edit or an Add action, as soon as you select it from the 
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-From here, you can:
+Desde acá, puede:
 
-* edit all of your fields by selecting them, and
+* editar todos sus campos seleccionándolos y
 * validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
 
 For your convenience, the Edition form includes a few **special features**:
 
-* The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous field using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by touching anywhere outside of a field.
-* Indication is given to the user when a value is not valid.
-* The view focuses on empty mandatory fields when the user clicks the Done button.
+* El tipo de teclado depende del tipo de parámetro seleccionado en la sección Actions.
+* Puede ir al campo siguiente o anterior utilizando la flecha en la parte superior del teclado.
+* El teclado iOS se puede cerrar tocando cualquier parte fuera de un campo.
+* Se le indica al usuario cuando un valor no es válido.
+* La vista se centra en los campos obligatorios vacíos cuando el usuario hace clic en el botón Done.
 
 ## ¿Qué hacer ahora?
 
