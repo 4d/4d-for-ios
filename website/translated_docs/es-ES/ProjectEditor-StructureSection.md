@@ -20,7 +20,7 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 
 Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.<div class = "tips"> 
 
-**TIPS**
+**RECOMENDACIONES**
 
 You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.</div> 
 

@@ -25,7 +25,7 @@ Help links are available for the Name and Identifier fields.</div>
 
 **Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!<div class = "tips"> 
 
-**TIPS**
+**RECOMENDACIONES**
 
 * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
 * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!</div> 

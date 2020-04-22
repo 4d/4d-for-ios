@@ -105,7 +105,7 @@ Para finalizar las personalizaciones, seleccione ambas etiquetas y en la ventana
 
 **NOTA**
 
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+El Storyboard se optimiza para tener una **altura de celda variable** en función del contenido de cada celda.
 
 ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
 
@@ -127,7 +127,7 @@ Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtim
 
 ### Etiquetas
 
-Select the first label and add a row in the Defined Runtime Attributes:
+Seleccione la primera etiqueta y agregue una línea en el área "Defined Runtime Attributes":
 
 * **Key Path**: ```bindTo.record.___FIELD_2___```
 
@@ -137,7 +137,7 @@ Select the first label and add a row in the Defined Runtime Attributes:
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
-Select the second label and add a row in the Defined Runtime Attributes:
+Seleccione la segunda etiqueta y agregue una línea en el área "Defined Runtime Attributes":
 
 * **Key Path**: ```bindTo.record.___FIELD_3___```
 
@@ -147,22 +147,22 @@ Select the second label and add a row in the Defined Runtime Attributes:
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
-You can change the **storyboard display labels** to have better visibility:
+Puede cambiar las **etiquetas del storyboard** para tener una mejor visibilidad:
 
 * Haga doble clic en la primera etiqueta para editarla y entrar ```___FIELD_2_LABEL___```
 * Haga doble clic en la segunda etiqueta para editarla y entrar ```___FIELD_3_LABEL___```
 
 ![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
-Go to your project editor, select your list form template from the Forms section, then select Build and Run.
+Vaya al editor de su proyecto y seleccione su plantilla de formulario listado en la sección Formularios, luego haga clic en Crear y Ejecutar.
 
-Here is the simulator result :
+Este es el el resultado del simulador:
 
 ![Simulator result](assets/en/custom-listform/simulator-result.png)
 
 ## Personalice su aplicación
 
-The last step is adding a corner radius to the Image View to have a better design.
+El último paso es agregar un radio de esquina a la vista de imagen para tener un mejor diseño.
 
 Seleccione su Vista imagen y añada las dos líneas siguientes en el área User Defined Runtime Attributes:
 
@@ -188,7 +188,7 @@ y
 
 ## ¿Qué hacemos ahora?
 
-In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. Espere, ¡Hay más! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
+En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios listados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Espere, ¡Hay más! En el siguiente tutorial, aprenderá cómo crear plantillas de formulario detalladas. Haga clic en **Final Project** abajo para descargar la carpeta que contiene la lista completa de plantillas.
 
 <div style="text-align: center; margin-top: 20px">
   <p>

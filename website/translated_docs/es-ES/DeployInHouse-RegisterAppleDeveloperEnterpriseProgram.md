@@ -5,17 +5,17 @@ title: Apple Developer Enterprise Program
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
+Regístrese al Apple Developer Enterprise Program para desplegar su aplicación **de forma interna**.</div> <div class = "tips"> 
 
 **NOTA**
 
-To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+Para inscribirse al Apple Developer Enterprise Program, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.</div> 
 
 ## PASO 1. Identificador Apple
 
-If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id).
 
 Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-d-u-n-s-number).
 
@@ -40,7 +40,7 @@ Vaya a la [página de creación del identificador Apple](https://appleid.apple.c
 
 ## PASO 4. Solicite un número D-U-N-S
 
-Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search).
+Solicite un número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-lookup/#/search).
 
 ![Solicite un número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
@@ -87,4 +87,4 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 * Una vez que su solicitud de inscripción haya sido aceptada, puede proceder al pago.
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
-¡Felicidades! you're now ready to deploy your application in-house!
+¡Felicidades! ¡Ya está listo para desplegar su aplicación interna!

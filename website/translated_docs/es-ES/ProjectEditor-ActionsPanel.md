@@ -288,7 +288,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
 
-**TIPS**
+**RECOMENDACIONES**
 
 Actions will be displayed in the same order as defined in the Action section.</div> 
 

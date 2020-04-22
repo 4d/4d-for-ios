@@ -5,17 +5,17 @@ title: Apple Developer Program para las empresas
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Register for the Apple Developer Program as an organization to publish your app to the **App Store**.</div> <div class = "tips"> 
+Regístrese en el Apple Developer Program como empresa para publicar su aplicación en el **App Store**.</div> <div class = "tips"> 
 
 **NOTA**
 
-To enroll in the Apple Developer Program as an organization, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
+Para inscribirse en el Programa Apple Developer Program como organización, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.</div> 
 
 ## PASO 1. Identificador Apple
 
-If you don’t have an Apple ID go to [Step 2](#step-2-create-your-apple-id).
+Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id).
 
 Si no tiene identificación Apple, vaya a '[Paso 3](#step-3-d-u-n-s-number).
 
@@ -40,7 +40,7 @@ Vaya a la [página de creación del identificador Apple](https://appleid.apple.c
 
 ## PASO 4. Solicite un número D-U-N-S
 
-Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
+Solicite un número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-lookup/#/search)
 
 ![Solicite un número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
@@ -93,4 +93,4 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su membresía en el programa.
 
-¡Felicidades! You are now ready to publish applications to the App Store!
+¡Felicidades! ¡Ya está listo para publicar aplicaciones en la App Store!

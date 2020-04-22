@@ -5,23 +5,23 @@ title: Archivar y exportar un proyecto
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-* Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div class = "prerequisites"> 
+* Archivar y exportar un proyecto 4D for iOS
+* Generar archivos .ipa y manifest</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**REQUISITOS PREVIOS**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* A secured web server
-* 57 x 57 px icon
-* 512 x 512 px icon</div> 
+* Un servidor Web seguro
+* Un icono de resolución 57 x 57 px
+* Un icono de resolución 512 x 512 px</div> 
 
 ## PASO 1. Configuración Xcode
 
-Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
+Tras la validación de su cuenta por parte de Apple, abra Xcode y agregue su cuenta de Apple Enterprise Developer en Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates.
+Xcode instalará automáticamente los elementos de provisión y certificados necesarios.
 
 ## PASO 2. Obtenga su Team ID
 
@@ -87,7 +87,7 @@ Xcode will automatically install required provisioning and certificates.
 
 #### ¿Qué es un manifiesto?
 
-The manifest is an XML-based property list and should contain:
+El manifiesto es una lista de propiedades basada en XML y debe contener:
 
 * **URL**: URL que apunta al archivo .ipa.
 * **display-image**: URL que apunta a un icono PNG de 57 x 57 px (72 x 72 px para iPad) utilizado durante la descarga y la instalación.
@@ -96,7 +96,7 @@ The manifest is an XML-based property list and should contain:
 * **bundle-version**: la cadena de la versión actual del paquete de su aplicación. Puedes obtenerlo desde el archivo .plist de su aplicación.
 * **title**: el nombre de su aplicación.
 
-Here is an example of a manifest.plist file :
+Aquí hay un ejemplo de archivo manifest.plist:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

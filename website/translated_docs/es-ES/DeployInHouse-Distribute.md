@@ -5,39 +5,39 @@ title: Distribuir una aplicación interna
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Upload your app to a secured server.</div> 
+Subir su aplicación a un servidor seguro.</div> 
 
 ## PASO 1. Suba su aplicación
 
-Upload your app files to a secured server:
+Suba su aplicación a un servidor seguro:
 
 * recursos (imagen de visualización e imagen de tamaño completo)
 * archivo manifest.plist
 * archivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
+Puede utilizar cualquier servicio de almacenamiento en la nube para distribuir su aplicación siempre que esté protegida (Dropbox, Google Drive, etc.).<div class = "tips"> 
 
 **NOTA**
 
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
+Su recurso y sus URL ipa deben coincidir con las URL definidas en su archivo manifest.plist.</div> 
 
 ## PASO 2. Cree el enlace de instalación
 
-Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Cree un **enlace de servicios ITMS**(iTUnes Music Store) con la dirección web completa de su archivo manifiesto como parámetro:
 
     itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
     
     
 
-This link can be used when sending emails, embedded in an html page, or even within a QR code.
+Este enlace se puede utilizar al enviar correos electrónicos, anidados en una página html o incluso dentro de un código QR.
 
-Here is a simple example:
+Aquí un ejemplo simple:
 
 ![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
-*The QR Code used for this documentation is not active.*
+*El código QR utilizado para esta documentación no está activo.*
 
 ## PASO 3. Instale su aplicación en iOS
 
@@ -59,4 +59,4 @@ Here is a simple example:
 
 * Luego puede ir a su aplicación y abrirla.
 
-¡Felicidades! you can now distribute your first app in-house!
+¡Felicidades! ¡Ya puede distribuir su primera aplicación interna!
