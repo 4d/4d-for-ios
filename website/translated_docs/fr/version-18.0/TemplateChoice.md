@@ -15,4 +15,3 @@ original_id: template
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px; height: 250px; width: 100%">
     <a class="button" href="../en/custom-data-formatters.html"><img style="vertical-align: middle;margin-top: 40px;margin-bottom: 20px" src="../assets/en/template-formatters/buttonFormatters.png"/><p style="font-size: 20px">FORMATS</p></a>
 </div>
-
