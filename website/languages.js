@@ -54,7 +54,7 @@ const languages = [
   {
     enabled: true,
     name: 'Español',
-    tag: 'es-ES',
+    tag: 'es',
   },
   {
     enabled: false,
@@ -124,7 +124,7 @@ const languages = [
   {
     enabled: false,
     name: 'Português',
-    tag: 'pt-PT',
+    tag: 'pt',
   },
   {
     enabled: false,
