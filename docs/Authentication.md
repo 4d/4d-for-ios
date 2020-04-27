@@ -7,11 +7,11 @@ title: Email authentication
 
 **OBJECTIVES**
 
-Integrate email confirmation code after authentication.
+Integrate email confirmation to authenticate mobile app users
 
 </div>
 
-Let your customers and clients feel comfortable logging into their app using the email authentication!
+Let your customers and clients feel comfortable logging into their app using the email authentication !
 
 It provides a way to verify that an email comes from who it claims to be from and will allow to block harmful or fraudulent uses of email.
 
@@ -33,7 +33,7 @@ When the validation email is available. The user just has to click on the valida
 
 ### 4. Go back to your app
 
-Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile app Authentication is called again but this time, the user's session status is "accepted" so the access is granted !
+Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted" so the access is granted !
 
 That’s quite simple right ?
 
@@ -44,11 +44,11 @@ But let's figure out how simple it is, using our special compononent !
 
 ## A component to deal with email authentication
 
-A toolbox componont has been developed to help you manage several processes.
+A toolbox componont has been developed to help you manage several processes : the 4D Mobile App Server Component.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="">4D Mobile App Server Component</a>
+href="https://github.com/4d-for-ios/4D-Mobile-App-Server">4D Mobile App Server Component</a>
 </div>
 
 To install this component :
@@ -56,7 +56,7 @@ To install this component :
 * Create a Components folder next to the 4D database with the app's data.
 * Place the 4D Mobile App Server.4dbase component in the newly created Components folder.
 
-Let's see how to use it!
+Let's see how to use it !
 
 ## On Mobile App Authentification
 
@@ -105,7 +105,7 @@ $request:=$1
 
   // Create an email with an activation URL
 $mail:=New object
-$mail.from:="sender4dsmtp@gmail.com"
+$mail.from:="myapplication@gmail.com"
 $mail.to:=$request.email  // email entered by the user on his smartphone
 $mail.subject:="Login confirmation"
 $mail.htmlBody:="<a href=\"https://myserverapplication/activation/"+$request.session.id+"\">Click Here to confirm your email.</a>\"<br>"
@@ -191,8 +191,8 @@ Else
 End if 
 ```
 
-And that it !
+And that's it !
 
 ## Where to go from here?
 
-We've covered basic email validation in this tutorial, so you should now be able to easily validate access to your 4D for iOS app using the compononent available [here]() !
+We've covered basic email validation in this tutorial, so you should now be able to easily validate access to your 4D for iOS app using the compononent available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server) !
