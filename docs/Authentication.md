@@ -86,7 +86,7 @@ End case
 
 As simple as that !
 
-You will find more information about this component in the [documentation](https://4d-for-ios.github.io/4D-Mobile-App-Server/).
+You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about resources you may use like html templates and settings that you may want to define.
 
 
 # Without using the component
