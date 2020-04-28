@@ -17,8 +17,6 @@ It provides a way to verify that an email comes from who it claims to be from an
 
 In short the principle is the following:
 
-![Authentication](assets/en/authentication/principle.png)
-
 ### 1. Activate the login form 
 
 You integrate a login form into your app from the project editor in the Publishing section
@@ -36,6 +34,10 @@ When the validation email is available. The user just has to click on the valida
 Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted" so the access is granted !
 
 That’s quite simple right ?
+
+So to make the validation process easier and secure, 4D for iOS handles:
+
+![Authentication](assets/en/authentication/principle.png)
 
 But let's figure out how simple it is, using our special compononent !
 
@@ -84,7 +86,7 @@ End case
 
 As simple as that !
 
-You will find more information about this component in the [documentation](), especially about resources you may use like html templates and settings that you may want to define.
+You will find more information about this component in the [documentation](https://4d-for-ios.github.io/4D-Mobile-App-Server/).
 
 
 # Without using the component
@@ -108,7 +110,8 @@ $mail:=New object
 $mail.from:="myapplication@gmail.com"
 $mail.to:=$request.email  // email entered by the user on his smartphone
 $mail.subject:="Login confirmation"
-$mail.htmlBody:="<a href=\"https://myserverapplication/activation/"+$request.session.id+"\">Click Here to confirm your email.</a>\"<br>"
+$mail.htmlBody:="<a href=\"https://myserverapplication/activation/"+$request.session.id \
++"\">Click Here to confirm your email.</a>\"<br>"
 
   // Send mail
 $smtp:=New object("host";"smtp.gmail.com";"user";"myapplication@gmail.com";"password";"xxx")
@@ -180,9 +183,11 @@ If ($session#"")
 	End use 
 	
 	/*
-		The MOBILE APP REFRESH SESSIONS command checks all mobile application session files located in the MobileApps folder of the server, 
+		The MOBILE APP REFRESH SESSIONS command checks all mobile
+		application session files located in the MobileApps folder of the server, 
 		and updates existing session contents in memory for any edited files.
 	*/
+
 	MOBILE APP REFRESH SESSIONS
 	
 	WEB SEND TEXT("You are successfully authenticated")
