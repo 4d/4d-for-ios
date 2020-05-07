@@ -1,12 +1,12 @@
 ---
 id: version-18.0-filter-query-introduction
-title: Restricted queries
+title: Pesquisas limitadas
 original_id: filter-query-introduction
 ---
 
 <div markdown="1" class = "objectives">
 **OBJECTIVES**
-Defining basic and user information-based query filters to display filtered content in the generated iOS app.</div> <div markdown="1" class = "prerequisites">
+Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.</div> <div markdown="1" class = "prerequisites">
 **PREREQUISITES**
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
 
@@ -20,18 +20,18 @@ Before we begin, be sure to download the **Starter Project** which includes a **
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">PROJETO STARTER</a>
 </div>
 
-The database includes a:
+Este banco de dados inclui:
 
 * **CRM table** with all the data we want to display in the generated iOS app
 * **AccountManager table** with basic information about the account managers (email and name).
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)<div markdown="1" class = "tips">
 **NOTA **
-This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div>
+Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.</div>
 
-You're now ready to define your first restricted query!
+Estamos prontos para definir nossa primeira pesquisa limitada!
 
 Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
