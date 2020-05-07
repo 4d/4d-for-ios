@@ -21,19 +21,19 @@ A pesquisa vai filtrar os dados dependendo do status de **In Progress** E do **e
 
 **NOTA **
 
-* A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div> 
+* Um** ícone de usuário** é exibido à direita de cada tabela quando um filtro de informação de usuário é aplicado.
+* Assim que uma pesquisa for baseada em informação de usuário e validada, precisa editar o **método de autenticação de app Móvel**. Para fazer isso, dê um clique direito no botão **Editar método de autenticação** para abrir a janela de edição de método de banco de dados.</div> 
 
-Add the following line in the database method:
+Adicione a linha abaixo no método de banco de dados:
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
-This will allow retrieving the manager's login email address and displaying data depending on that criteria.
+Isso permite recuperar o endereço de email do login do gerente e exibir dados dependendo desse critério.
 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+Agora, se construir seu app e entrar "michelle.simpson@mail.com" como email de login, vai achar todos os contratos de Michelle Simpson *"Em progresso"*.
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
