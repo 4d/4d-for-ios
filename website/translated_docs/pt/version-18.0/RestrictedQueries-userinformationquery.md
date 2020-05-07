@@ -24,13 +24,13 @@ The query will filter data depending on the **In Progress** status AND the **Acc
 * A **user icon** is displayed on the right of each table when a user information filter is applied to it.
 * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div>
 
-Add the following line in the database method:
+Adicione a linha abaixo no método de banco de dados:
 
 ```4d
 $response.userInfo:=New object("email";$request.email)
 ```
 
-This will allow retrieving the manager's login email address and displaying data depending on that criteria.
+Isso permite recuperar o endereço de email do login do gerente e exibir dados dependendo desse critério.
 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/database-method-user-information-query.png)
 
