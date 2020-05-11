@@ -37,7 +37,7 @@ That’s quite simple right ?
 
 So to make the validation process easier and secure, 4D for iOS handles:
 
-![Authentication](assets/en/authentication/principle.png)
+![Authentication](assets/en/authentication/4D-for-iOS-email-auth.png)
 
 But let's figure out how simple it is, using our special compononent !
 
