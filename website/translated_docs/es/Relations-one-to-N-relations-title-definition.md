@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-title-definition
-title: One to Many - Title definition
+title: Uno a Muchos - Título
 ---
 
 ### Defining a title for your destination views
