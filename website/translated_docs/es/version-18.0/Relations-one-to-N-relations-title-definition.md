@@ -1,6 +1,6 @@
 ---
 id: version-18.0-one-to-many-relations-title-definition
-title: One to Many - Title definition
+title: Uno a Muchos - Título
 original_id: one-to-many-relations-title-definition
 ---
 
