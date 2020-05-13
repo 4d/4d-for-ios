@@ -6,11 +6,11 @@ title: Formato de datos
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 
-1. To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+1. Para utilizar un formato personalizado, lo primero que deberá hacer es crear una carpeta `YourDatabase.4dbase/Resources/Mobile/formatters`.
 
-2. Then drop the formatter folder into it.</div> 
+2. Luego suelte la carpeta del formato en ella.</div> 
 
 <div style="height: auto;">
   <table>
@@ -28,13 +28,13 @@ title: Formato de datos
         
         <ul style="font-size:16px">
           <li>
-            <strong>Format:</strong> Text ⟶ Mail
+            <strong>Format:</strong> Texto ⟶ Mail
           </li>
           <li>
-            <strong>Function:</strong> open the mail app on click
+            <strong>Función:</strong>abrir la aplicación mail via un simple clic
           </li>
           <li>
-            <strong>Type:</strong> Swift formatter
+            <strong>Type:</strong> formato Swift
           </li>
           <div style="text-align: center; margin-top: 40px;">
             <p>
@@ -50,13 +50,13 @@ title: Formato de datos
               
               <ul style="font-size:16px">
                 <li>
-                  <strong>Format:</strong> Text ⟶ URL
+                  <strong>Format:</strong> Texto ⟶ URL
                 </li>
                 <li>
-                  <strong>Function:</strong> open Safari app on click
+                  <strong>Función:</strong> abrir la aplicación Safari via un simple clic
                 </li>
                 <li>
-                  <strong>Type:</strong> Swift formatter
+                  <strong>Type:</strong> formato Swift
                 </li>
                 <div style="text-align: center; margin-top: 40px;">
                   <p>
@@ -75,18 +75,18 @@ title: Formato de datos
                   
                   <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                     <h1 style="margin-top: 10px; font-size:22px">
-                      Phone
+                      Teléfono
                     </h1>
                     
                     <ul style="font-size:16px">
                       <li>
-                        <strong>Format:</strong> Number ⟶ Phone number
+                        <strong>Formato:</strong> numérico ⟶ Número de teléfono
                       </li>
                       <li>
-                        <strong>Function:</strong> call the number on click
+                        <strong>Función:</strong>llamar el número via un simple clic
                       </li>
                       <li>
-                        <strong>Type:</strong> Swift formatter
+                        <strong>Type:</strong> formato Swift
                       </li>
                       <div style="text-align: center; margin-top: 40px;">
                         <p>
@@ -97,18 +97,18 @@ title: Formato de datos
                       <tr>
                         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                           <h1 style="margin-top: 10px; font-size:22px">
-                            Address
+                            Dirección
                           </h1>
                           
                           <ul style="font-size:16px">
                             <li>
-                              <strong>Format:</strong> Text ⟶ Address
+                              <strong>Format:</strong> Texto ⟶ Address
                             </li>
                             <li>
-                              <strong>Function:</strong> open Map app on click
+                              <strong>Función:</strong> abrir la aplicación Map via un simple clic
                             </li>
                             <li>
-                              <strong>Type:</strong> Swift formatter
+                              <strong>Type:</strong> formato Swift
                             </li>
                             <div style="text-align: center; margin-top: 40px;">
                               <p>
@@ -127,15 +127,15 @@ title: Formato de datos
                               
                               <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                 <h1 style="margin-top: 10px; font-size:22px">
-                                  Int to Image
+                                  Entero a Image
                                 </h1>
                                 
                                 <ul style="font-size:16px">
                                   <li>
-                                    <strong>Format:</strong> Integer ⟶ Image
+                                    <strong>Format:</strong> Entero⟶ Imagen
                                   </li>
                                   <li>
-                                    <strong>Type:</strong> basic formatter
+                                    <strong>Type:</strong> formato básico
                                   </li>
                                   <div style="text-align: center; margin-top: 40px;">
                                     <p>
@@ -146,15 +146,15 @@ title: Formato de datos
                                   <tr>
                                     <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                       <h1 style="margin-top: 10px; font-size:22px">
-                                        Int to String
+                                        Entero a Cadena
                                       </h1>
                                       
                                       <ul style="font-size:16px">
                                         <li>
-                                          <strong>Format:</strong> Integer ⟶ String
+                                          <strong>Format:</strong> Entero⟶ Cadena
                                         </li>
                                         <li>
-                                          <strong>Type:</strong> basic formatter
+                                          <strong>Type:</strong> formato básico
                                         </li>
                                         <div style="text-align: center; margin-top: 40px;">
                                           <p>
@@ -173,15 +173,15 @@ title: Formato de datos
                                           
                                           <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                             <h1 style="margin-top: 10px; font-size:22px">
-                                              Text to Image
+                                              Texto a Imagen
                                             </h1>
                                             
                                             <ul style="font-size:16px">
                                               <li>
-                                                <strong>Format:</strong> Text ⟶ Image
+                                                <strong>Format:</strong> Texto ⟶ Imagen
                                               </li>
                                               <li>
-                                                <strong>Type:</strong> basic formatter
+                                                <strong>Type:</strong> formato básico
                                               </li>
                                               <div style="text-align: center; margin-top: 40px;">
                                                 <p>
@@ -192,15 +192,15 @@ title: Formato de datos
                                               <tr>
                                                 <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                                   <h1 style="margin-top: 10px; font-size:22px">
-                                                    Text to String
+                                                    Texto a Cadena
                                                   </h1>
                                                   
                                                   <ul style="font-size:16px">
                                                     <li>
-                                                      <strong>Format:</strong> Text ⟶ String
+                                                      <strong>Format:</strong> Texto ⟶ Cadena
                                                     </li>
                                                     <li>
-                                                      <strong>Type:</strong> basic formatter
+                                                      <strong>Type:</strong> formato básico
                                                     </li>
                                                     <div style="text-align: center; margin-top: 40px;">
                                                       <p>
@@ -219,15 +219,15 @@ title: Formato de datos
                                                       
                                                       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                                         <h1 style="margin-top: 10px; font-size:22px">
-                                                          Bool to Image
+                                                          Booleano a Imagen
                                                         </h1>
                                                         
                                                         <ul style="font-size:16px">
                                                           <li>
-                                                            <strong>Format:</strong> Bool ⟶ Image
+                                                            <strong>Format:</strong> Booleano ⟶ Imagen
                                                           </li>
                                                           <li>
-                                                            <strong>Type:</strong> basic formatter
+                                                            <strong>Type:</strong> formato básico
                                                           </li>
                                                           <div style="text-align: center; margin-top: 40px;">
                                                             <p>
@@ -238,15 +238,15 @@ title: Formato de datos
                                                           <tr>
                                                             <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
                                                               <h1 style="margin-top: 10px; font-size:22px">
-                                                                Emoji
+                                                                Emoticón
                                                               </h1>
                                                               
                                                               <ul style="font-size:16px">
                                                                 <li>
-                                                                  <strong>Format:</strong> Bool, Real, Integer ⟶ Emoji
+                                                                  <strong>Format:</strong> Booleano, Real, Entero ⟶ Emoticón
                                                                 </li>
                                                                 <li>
-                                                                  <strong>Type:</strong> basic formatter
+                                                                  <strong>Type:</strong> formato básico
                                                                 </li>
                                                                 <div style="text-align: center; margin-top: 40px;">
                                                                   <p>
@@ -270,10 +270,10 @@ title: Formato de datos
                                                                     
                                                                     <ul style="font-size:16px">
                                                                       <li>
-                                                                        <strong>Format:</strong> Text ⟶ html
+                                                                        <strong>Format:</strong> Texto ⟶ html
                                                                       </li>
                                                                       <li>
-                                                                        <strong>Type:</strong> Swift formatter
+                                                                        <strong>Type:</strong> formato Swift
                                                                       </li>
                                                                       <div style="text-align: center; margin-top: 40px;">
                                                                         <p>
