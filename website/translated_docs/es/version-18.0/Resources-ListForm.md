@@ -5,9 +5,10 @@ original_id: custom-listform-templates
 ---
 
 <div markdown="1" class = "tips">
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 !!crwdP_4_Pdwrc!!To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
-!!crwdP_5_Pdwrc!!Then drop the list form folder into it.</div>
+!!crwdP_5_Pdwrc!!Then drop the list form folder into it.
+</div>
 
 <div style="height: auto;">
   <table>
