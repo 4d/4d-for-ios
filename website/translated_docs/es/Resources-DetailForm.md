@@ -6,7 +6,7 @@ title: Plantillas de formularios detallados
 
 <div class = "tips"> 
 
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 
 1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
