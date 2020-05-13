@@ -3,11 +3,11 @@ id: one-to-many-relations-title-definition
 title: Uno a Muchos - Título
 ---
 
-### Defining a title for your destination views
+### Definir un título para sus vistas de destino
 
-To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
+Para realizar un seguimiento de la vista de la que proviene en su aplicación, 4D for iOS le permite definir un Título personalizado.
 
-In this tutorial, we will use the following project:
+En este tutorial, utilizaremos el siguiente proyecto:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -19,16 +19,16 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b
   </p>
 </div>
 
-Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
+Ahora vaya directamente al menú Abrir > Mobile project... seleccione *Time Keeper* y vaya a la sección **Labels & Icons**.
 
-From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: ```%Name% tasks```
+Desde aquí, abra la pestaña de relación para definir el título de relación *tasks* e ingrese la siguiente línea en la columna **Titles**: ```%Name% tasks```
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
+Como habrá adivinado, esto le permitirá mostrar el **valor del nombre del empleado** en la vista de destino, en función del formulario detallado Employee en el que estaba anteriormente.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
 This is a great way to keep track of the view you come from!
 
-Now let's see how you can create and add your own Relation button in the next tutorial!
+¡Ahora veamos cómo puede crear y agregar su propio botón Relation en el próximo tutorial!
