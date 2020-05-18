@@ -5,10 +5,14 @@ original_id: contact-app
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Create your first app with 4D for iOS</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+**OBJETIVOS**
+Create your first app with 4D for iOS
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+</div>
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
@@ -22,7 +26,7 @@ Download our Starter Project, which contains a database file and project icon, b
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 2. Criando o projeto
@@ -58,9 +62,12 @@ Here, you'll configure your app's primary information:
 
 This is where you'll define a subset of your data (the database tables and fields) to expose to mobile devices.
 
-For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.<div markdown="1" class = "tips">
+For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.
+
+<div markdown="1" class = "tips">
 **NOTA **
-We highly recommend publishing your primary key in order to identify each record of your database</div>
+We highly recommend publishing your primary key in order to identify each record of your database
+</div>
 
 ![Estrutura](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
