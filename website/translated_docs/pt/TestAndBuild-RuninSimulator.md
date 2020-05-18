@@ -5,7 +5,7 @@ title: Usando o Simulador
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Teste seu app no Simulador.</div> 
 
