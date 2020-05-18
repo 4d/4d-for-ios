@@ -5,8 +5,9 @@ original_id: simulator
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Teste seu app no Simulador.</div>
+**OBJETIVOS**
+Teste seu app no Simulador.
+</div>
 
 Terminou de desenvolver seu app e quer testá-lo?
 
