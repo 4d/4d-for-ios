@@ -5,20 +5,20 @@ title: Começando
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
-Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
+Utilizar as ações na aplicação iOS gerada.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
-In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
+Em 4D v17 R5, pode [definir ações](actions.html) diretamente do Editor de Projeto e executar código 4D do seu app iOS gerado!
 
-From here, when you build your app from the Project Editor using actions, you can decide to use:
+A partir daqui, pode construir seu app do Editor de Projeto usando ações, pode decidir usar:
 
-* **4D for iOS templates** from the Form section. In this case, actions are already included. You just need to [define actions](define-first-action.html) in the Actions section and create appropriate methods in 4D.
+* **Modelos 4D for iOS** da seção Formulário. Neste caso ações já são incluídas Apenas precisa [definir ações ](define-first-action.html) na seção Ações e cria métodos apropriados em 4D.
 
-* **Your own custom templates** you developed. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates.
+* **Seus próprios modelos personalizados** que desenvolveu. Um passo adicional importante é exigido para suas ações para trabalhar em seu app gerado iOS. É necessário [incluir etiquetas ação](action-custom-template.html) em seus modelos Listform e Detailforms.
 
-Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
+Agora vamos cirar uma aplicação **Tasks**, usando ações de 4D for iOS.
