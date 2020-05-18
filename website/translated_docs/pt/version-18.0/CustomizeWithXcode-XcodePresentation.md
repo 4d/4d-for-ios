@@ -5,8 +5,9 @@ original_id: xcode-overview
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Ensure a basic understanding of working with Xcode.</div>
+**OBJETIVOS**
+Ensure a basic understanding of working with Xcode.
+</div>
 
 Xcode displays various areas that we're going to review:
 
