@@ -4,8 +4,14 @@ title: Relações Um para Muitos - Ações
 ---
 
 <div class = "objectives">
-**OBJECTIVES**
-We are now going to go a little bit further and **create a task for a specific employee**.</div>
+  <p spaces-before="0">
+    <strong x-id="1">OBJETIVOS</strong>
+  </p>
+  
+  <p spaces-before="0">
+    We are now going to go a little bit further and <strong x-id="1">create a task for a specific employee</strong>.
+  </p>
+</div>
 
 It is very easy to create an entity using **parent Entity** !
 
