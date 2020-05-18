@@ -5,10 +5,14 @@ original_id: filter-query-introduction
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+**OBJETIVOS**
+Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+</div>
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -28,9 +32,12 @@ Este banco de dados inclui:
 * **CRM table** with all the data we want to display in the generated iOS app
 * **AccountManager table** with basic information about the account managers (email and name).
 
-![CRM database](assets/en/restricted-queries/CRMDatabase.png)<div markdown="1" class = "tips">
+![CRM database](assets/en/restricted-queries/CRMDatabase.png)
+
+<div markdown="1" class = "tips">
 **NOTA **
-Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.</div>
+Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.
+</div>
 
 Estamos prontos para definir nossa primeira pesquisa limitada!
 
