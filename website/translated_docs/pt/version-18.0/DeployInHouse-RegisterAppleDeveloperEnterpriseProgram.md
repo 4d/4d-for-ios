@@ -5,10 +5,14 @@ original_id: register-apple-developer-enterprise-program
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.</div> <div markdown="1" class = "tips">
+**OBJETIVOS**
+Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
+</div>
+
+<div markdown="1" class = "tips">
 **NOTA **
-To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div>
+To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
+</div>
 
 ## PASSO 1. Apple ID
 
