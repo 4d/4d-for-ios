@@ -5,10 +5,14 @@ original_id: action-custom-template
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Add actions to custom List and Detail forms templates.</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+**OBJETIVOS**
+Add actions to custom List and Detail forms templates.
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+</div>
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
@@ -23,7 +27,7 @@ To begin, download the Starter Project, which includes:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 2. Add custom templates to 4D for iOS Project
