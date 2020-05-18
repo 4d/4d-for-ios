@@ -5,11 +5,11 @@ title: Instalar em seu dispositivo iOS
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Instalar uma aplicação 4D for iOS em um aparelho conectado</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
 * Programa Apple Developer
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado em seu Mac para automatizar a instalação de app (opcional).</div> <div class = "tips"> 
