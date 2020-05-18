@@ -5,11 +5,11 @@ title: Contact App
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Create your first app with 4D for iOS</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
@@ -28,7 +28,7 @@ Download our Starter Project, which contains a database file and project icon, b
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJETO STARTER</a>
 
   </p>
 </div>
