@@ -5,11 +5,11 @@ title: Adding actions in templates
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Add actions to custom List and Detail forms templates.</div> <div class = "prerequisites"> 
 
-**PREREQUISITES**
+**PRÉ-REQUISITOS**
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
@@ -28,7 +28,7 @@ To begin, download the Starter Project, which includes:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJETO STARTER</a>
 
   </p>
 </div>
