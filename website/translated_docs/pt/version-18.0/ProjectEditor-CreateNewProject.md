@@ -5,10 +5,14 @@ original_id: create-new-project
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Get familiar with the Project Editor.</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+**OBJETIVOS**
+Get familiar with the Project Editor.
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+</div>
 
 Let's take a look at how 4D for iOS works.
 
