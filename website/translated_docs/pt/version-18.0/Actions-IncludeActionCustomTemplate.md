@@ -1,12 +1,12 @@
 ---
 id: version-18.0-action-custom-template
-title: Adding actions in templates
+title: Adicionar ações em modelos
 original_id: action-custom-template
 ---
 
 <div markdown="1" class = "objectives">
 **OBJETIVOS**
-Add actions to custom List and Detail forms templates.
+Adicionar ações para modelos de formulários de Lista e formulários detalhados.
 </div>
 
 <div markdown="1" class = "prerequisites">
@@ -18,11 +18,11 @@ In this tutorial, we are going to see how easy it can be to **add actions to cus
 
 ## PASSO 1. Baixe o Starter Project
 
-To begin, download the Starter Project, which includes:
+Para começar baixe o Projeto Starter, que inclui:
 
-* 2 custom List form templates (TasksList and TasksCollection)
-* 1 custom Detail form template (TasksDetail)
-* a Tasks.4dbase file
+* 2 modelos personalizados formulários Lista (TaskList e TasksCollection)
+* 1 modelo personalizado Formulário Detalhado
+* um arquivo Tasks.4dbase
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
@@ -30,9 +30,9 @@ To begin, download the Starter Project, which includes:
 href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJETO STARTER</a>
 </div>
 
-## PASSO 2. Add custom templates to 4D for iOS Project
+## PASSO 2. Adicione modelos personalizados para Projeto 4D for iOS
 
-First, drop:
+Primeiro, solte:
 
 * **TasksList** and **TasksCollection** template folders in *Tasks.4dbase/Resources/Mobile/form/list* folder
 
@@ -42,9 +42,9 @@ First, drop:
 
 ![Detailform template](assets/en/actions/Detailform-template.png)
 
-## PASSO 3. Add actions in List forms
+## PASSO 3. Adicione ações em formulários Lista
 
-As we have seen previously in the [actions section description](actions.html), two types of actions are availble (Table actions and Entity actions).
+Como vimos antes na [descrição da seção Ações](actions.html), estão disponíveis dois tipos de ações (Ações Tabela e ações de Entidade).
 
 Let's first open the `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard` file.
 
