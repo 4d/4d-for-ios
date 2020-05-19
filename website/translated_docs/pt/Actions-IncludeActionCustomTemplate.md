@@ -1,27 +1,27 @@
 ---
 id: action-custom-template
-title: Adding actions in templates
+title: Adicionar ações em modelos
 ---
 
 <div class = "objectives"> 
 
 **OBJETIVOS**
 
-Add actions to custom List and Detail forms templates.</div> <div class = "prerequisites"> 
+Adicionar ações para modelos de formulários de Lista e formulários detalhados.</div> <div class = "prerequisites"> 
 
 **PRÉ-REQUISITOS**
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
-In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
+Neste tutorial, vamos ver como é fácil **adicionar ações para modelos personalizados**.
 
 ## PASSO 1. Baixe o Starter Project
 
-To begin, download the Starter Project, which includes:
+Para começar baixe o Projeto Starter, que inclui:
 
-* 2 custom List form templates (TasksList and TasksCollection)
-* 1 custom Detail form template (TasksDetail)
-* a Tasks.4dbase file
+* 2 modelos personalizados formulários Lista (TaskList e TasksCollection)
+* 1 modelo personalizado Formulário Detalhado
+* um arquivo Tasks.4dbase
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
@@ -33,21 +33,21 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
   </p>
 </div>
 
-## PASSO 2. Add custom templates to 4D for iOS Project
+## PASSO 2. Adicione modelos personalizados para Projeto 4D for iOS
 
-First, drop:
+Primeiro, solte:
 
-* **TasksList** and **TasksCollection** template folders in *Tasks.4dbase/Resources/Mobile/form/list* folder 
+* as pastas de modelos **TasksList** e **TasksCollection**na pasta*Tasks.4dbase/Resources/Mobile/form/list* 
 
 ![Listform templates](assets/en/actions/Listform-templates.png)
 
-* **TasksDetail** template folders in *Tasks.4dbase/Resources/Mobile/form/detail folder*
+* as pastas de modelo**TasksDetail** na pasta *Tasks.4dbase/Resources/Mobile/form/detail*
 
 ![Detailform template](assets/en/actions/Detailform-template.png)
 
-## PASSO 3. Add actions in List forms
+## PASSO 3. Adicione ações em formulários Lista
 
-As we have seen previously in the [actions section description](actions.html), two types of actions are availble (Table actions and Entity actions).
+Como vimos antes na [descrição da seção Ações](actions.html), estão disponíveis dois tipos de ações (Ações Tabela e ações de Entidade).
 
 Let's first open the ```list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` file.
 
