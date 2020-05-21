@@ -19,11 +19,11 @@ original_id: custom-listform-templates
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-ClientList/master/template.gif" />
       </td>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-        <h1 style="margin-top: 10px; font-size:22px">Client List</h1>
+        <h1 style="margin-top: 10px; font-size:22px">Lista de clientes</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -32,11 +32,11 @@ original_id: custom-listform-templates
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-        <h1 style="margin-top: 10px; font-size:22px">Invoice List</h1>
+        <h1 style="margin-top: 10px; font-size:22px">Lista de facturas</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -53,9 +53,9 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice Line List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -66,9 +66,9 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Three Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -85,9 +85,9 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Four Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -98,9 +98,9 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Five Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -130,9 +130,9 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
-          <li><strong>Sections:</strong> available</li>
-          <li><strong>Actions:</strong> cell left swipe</li>
+          <li><strong>Tipo:</strong> Tabla</li>
+          <li><strong>Secciones:</strong> disponible</li>
+          <li><strong>Acciones:</strong> desplazamiento a la izquierda de la celda</li>
           <li><strong>Imagen requerida:</strong> no</li>
         </ul>
         <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -149,7 +149,7 @@ original_id: custom-listform-templates
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
         <ul style="font-size:16px">
-          <li><strong>Type:</strong> Table</li>
+          <li><strong>Tipo:</strong> Tabla</li>
           <li><strong>Sections:</strong> not available</li>
           <li><strong>Actions:</strong> cell long pressure</li>
           <li><strong>Imagen requerida:</strong> sí</li>
@@ -182,7 +182,7 @@ original_id: custom-listform-templates
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
           <ul style="font-size:16px">
-            <li><strong>Type:</strong> Table</li>
+            <li><strong>Tipo:</strong> Tabla</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
             <li><strong>Imagen requerida:</strong> no</li>
@@ -215,7 +215,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> no</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -257,7 +257,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Profile</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> sí</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -275,7 +275,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Square Profile</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> sí</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -317,7 +317,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Simple Visual Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> sí</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -335,7 +335,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Visual Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> sí</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
@@ -365,7 +365,7 @@ original_id: custom-listform-templates
           <h1 style="margin-top: 10px; font-size:26px">Simple Collection</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
-            <li><strong>Sections:</strong> available</li>
+            <li><strong>Secciones:</strong> disponible</li>
             <li><strong>Imagen requerida:</strong> sí</li>
           </ul>
           <div markdown="1" style="text-align: center; margin-top: 40px;">
