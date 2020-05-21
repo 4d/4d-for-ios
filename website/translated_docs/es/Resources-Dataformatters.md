@@ -28,13 +28,13 @@ title: Formato de datos
         
         <ul style="font-size:16px">
           <li>
-            <strong>Format:</strong> Texto ⟶ Mail
+            <strong>Formato:</strong> Texto ⟶ Mail
           </li>
           <li>
-            <strong>Función:</strong>abrir la aplicación mail via un simple clic
+            <strong>Función:</strong> abrir la aplicación mail via un simple clic
           </li>
           <li>
-            <strong>Type:</strong> formato Swift
+            <strong>Tipo:</strong> formato Swift
           </li>
           <div style="text-align: center; margin-top: 40px;">
             <p>
@@ -50,13 +50,13 @@ title: Formato de datos
               
               <ul style="font-size:16px">
                 <li>
-                  <strong>Format:</strong> Texto ⟶ URL
+                  <strong>Formato:</strong> Texto ⟶ URL
                 </li>
                 <li>
                   <strong>Función:</strong> abrir la aplicación Safari via un simple clic
                 </li>
                 <li>
-                  <strong>Type:</strong> formato Swift
+                  <strong>Tipo:</strong> formato Swift
                 </li>
                 <div style="text-align: center; margin-top: 40px;">
                   <p>
@@ -83,10 +83,10 @@ title: Formato de datos
                         <strong>Formato:</strong> numérico ⟶ Número de teléfono
                       </li>
                       <li>
-                        <strong>Función:</strong>llamar el número via un simple clic
+                        <strong>Función:</strong> llamar el número via un simple clic
                       </li>
                       <li>
-                        <strong>Type:</strong> formato Swift
+                        <strong>Tipo:</strong> formato Swift
                       </li>
                       <div style="text-align: center; margin-top: 40px;">
                         <p>
@@ -102,13 +102,13 @@ title: Formato de datos
                           
                           <ul style="font-size:16px">
                             <li>
-                              <strong>Format:</strong> Texto ⟶ Address
+                              <strong>Formato:</strong> Texto ⟶ Address
                             </li>
                             <li>
                               <strong>Función:</strong> abrir la aplicación Map via un simple clic
                             </li>
                             <li>
-                              <strong>Type:</strong> formato Swift
+                              <strong>Tipo:</strong> formato Swift
                             </li>
                             <div style="text-align: center; margin-top: 40px;">
                               <p>
@@ -127,7 +127,7 @@ title: Formato de datos
                               
                               <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
                                 <h1 style="margin-top: 10px; font-size:22px">
-                                  Entero a Image
+                                  Entero a Imagen
                                 </h1>
                                 
                                 <ul style="font-size:16px">
@@ -135,7 +135,7 @@ title: Formato de datos
                                     <strong>Format:</strong> Entero⟶ Imagen
                                   </li>
                                   <li>
-                                    <strong>Type:</strong> formato básico
+                                    <strong>Tipo:</strong> formato básico
                                   </li>
                                   <div style="text-align: center; margin-top: 40px;">
                                     <p>
@@ -151,10 +151,10 @@ title: Formato de datos
                                       
                                       <ul style="font-size:16px">
                                         <li>
-                                          <strong>Format:</strong> Entero⟶ Cadena
+                                          <strong>Formato:</strong> Entero⟶ Cadena
                                         </li>
                                         <li>
-                                          <strong>Type:</strong> formato básico
+                                          <strong>Tipo:</strong> formato básico
                                         </li>
                                         <div style="text-align: center; margin-top: 40px;">
                                           <p>
@@ -178,10 +178,10 @@ title: Formato de datos
                                             
                                             <ul style="font-size:16px">
                                               <li>
-                                                <strong>Format:</strong> Texto ⟶ Imagen
+                                                <strong>Formato:</strong> Texto ⟶ Imagen
                                               </li>
                                               <li>
-                                                <strong>Type:</strong> formato básico
+                                                <strong>Tipo:</strong> formato básico
                                               </li>
                                               <div style="text-align: center; margin-top: 40px;">
                                                 <p>
@@ -197,10 +197,10 @@ title: Formato de datos
                                                   
                                                   <ul style="font-size:16px">
                                                     <li>
-                                                      <strong>Format:</strong> Texto ⟶ Cadena
+                                                      <strong>Formato:</strong> Texto ⟶ Cadena
                                                     </li>
                                                     <li>
-                                                      <strong>Type:</strong> formato básico
+                                                      <strong>Tipo:</strong> formato básico
                                                     </li>
                                                     <div style="text-align: center; margin-top: 40px;">
                                                       <p>
@@ -224,10 +224,10 @@ title: Formato de datos
                                                         
                                                         <ul style="font-size:16px">
                                                           <li>
-                                                            <strong>Format:</strong> Booleano ⟶ Imagen
+                                                            <strong>Formato:</strong> Booleano ⟶ Imagen
                                                           </li>
                                                           <li>
-                                                            <strong>Type:</strong> formato básico
+                                                            <strong>Tipo:</strong> formato básico
                                                           </li>
                                                           <div style="text-align: center; margin-top: 40px;">
                                                             <p>
@@ -243,10 +243,10 @@ title: Formato de datos
                                                               
                                                               <ul style="font-size:16px">
                                                                 <li>
-                                                                  <strong>Format:</strong> Booleano, Real, Entero ⟶ Emoticón
+                                                                  <strong>Formato:</strong> Booleano, Real, Entero ⟶ Emoticón
                                                                 </li>
                                                                 <li>
-                                                                  <strong>Type:</strong> formato básico
+                                                                  <strong>Tipo:</strong> formato básico
                                                                 </li>
                                                                 <div style="text-align: center; margin-top: 40px;">
                                                                   <p>
@@ -270,10 +270,10 @@ title: Formato de datos
                                                                     
                                                                     <ul style="font-size:16px">
                                                                       <li>
-                                                                        <strong>Format:</strong> Texto ⟶ html
+                                                                        <strong>Formato:</strong> Texto ⟶ html
                                                                       </li>
                                                                       <li>
-                                                                        <strong>Type:</strong> formato Swift
+                                                                        <strong>Tipo:</strong> formato Swift
                                                                       </li>
                                                                       <div style="text-align: center; margin-top: 40px;">
                                                                         <p>
