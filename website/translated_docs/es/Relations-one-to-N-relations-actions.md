@@ -4,8 +4,14 @@ title: Relaciones Uno a Muchos - Acciones
 ---
 
 <div class = "objectives">
-**OBJETIVOS**
-Ahora vamos a ir un poco más lejos y **crear una tarea para un empleado específico**.</div>
+  <p spaces-before="0">
+    <strong x-id="1">OBJETIVOS</strong>
+  </p>
+  
+  <p spaces-before="0">
+    Ahora vamos a ir un poco más lejos y <strong x-id="1">crear una tarea para un empleado específico</strong>.
+  </p>
+</div>
 
 ¡Es muy fácil crear una entidad utilizando una **Entidad padre**!
 
@@ -102,6 +108,6 @@ $0:=$out
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
   </p>
 </div>
