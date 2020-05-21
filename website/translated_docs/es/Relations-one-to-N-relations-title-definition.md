@@ -14,7 +14,7 @@ En este tutorial, utilizaremos el siguiente proyecto:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROYECTO STARTER DE DEFINICIÓN DE TÍTULO</a>
 
   </p>
 </div>
@@ -29,6 +29,6 @@ Como habrá adivinado, esto le permitirá mostrar el **valor del nombre del empl
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
-This is a great way to keep track of the view you come from!
+Esta es una excelente manera de hacer un seguimiento de la vista de donde viene.
 
 ¡Ahora veamos cómo puede crear y agregar su propio botón Relation en el próximo tutorial!
