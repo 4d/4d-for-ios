@@ -13,7 +13,7 @@ Get familiar with the Project Editor.</div> <div class = "prerequisites">
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 
-Let's take a look at how 4D for iOS works.
+Vamos olhar como funciona 4D for iOS.
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
