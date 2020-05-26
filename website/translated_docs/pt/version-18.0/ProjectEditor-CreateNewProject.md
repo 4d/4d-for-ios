@@ -22,17 +22,17 @@ Give your project a name and click **Create**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-The Welcome screen automatically appears to help you understand the basic concepts in 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
+A janela de boas vindas aparece automaticamente para ajudar a entender os conceitos básicos em 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Click **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 
-Here we are! Now it's time to discover the 4D for iOS architecture and interface.
+Aqui estamos! Agora é o momento de descobrir a arquitetura e interface 4D for i OS.
 
-The main window consists of two tabs:
+A janela principal consiste de duas abas:
 
 ## Seções
 
-In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
+Na aba Seções, vai encontrar todos os passos necessários para criar sua aplicação 4D for iOS:
 
 * Geral
 * Estrutura
@@ -45,7 +45,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 ## Geração
 
-The Build tab has four options:
+A aba Geração têm quatro opções:
 
 * Criar e executar
 * Seleção de simulador
