@@ -87,6 +87,9 @@
       "faq": {
         "title": "FAQ"
       },
+      "push-notification": {
+        "title": "Push notifications"
+      },
       "overview": {
         "title": "Overview"
       },
@@ -428,6 +431,7 @@
       "Restricted queries": "Restricted queries",
       "Actions": "Actions",
       "Relations": "Relations",
+      "Features": "Features",
       "Templates & Formatters": "Templates & Formatters"
     }
   },
