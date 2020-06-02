@@ -5,7 +5,7 @@ title: Distribua seu app in-House
 
 <div class = "objectives"> 
 
-**OBJECTIVES**
+**OBJETIVOS**
 
 Upload your app to a secured server.</div> 
 

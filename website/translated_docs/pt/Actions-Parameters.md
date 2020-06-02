@@ -4,8 +4,14 @@ title: Using action parameters
 ---
 
 <div class = "objectives">
-**OBJECTIVES**
-Define action parameters to edit the content of your app.</div>
+  <p spaces-before="0">
+    <strong x-id="1">OBJETIVOS</strong>
+  </p>
+  
+  <p spaces-before="0">
+    Define action parameters to edit the content of your app.
+  </p>
+</div>
 
 
 In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
@@ -22,7 +28,7 @@ To begin, let's first download the **Starter Project** based on our existing Tas
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJETO STARTER</a>
   </p>
 </div>
 

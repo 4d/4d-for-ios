@@ -28,9 +28,9 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 ### Usando 17R6 com macOS 10.14.3
 
-4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
+4D 17R6 exige Swift5.0 runtime. (Já instalado com o macOS 10.14.4)
 
- - Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ - Instale `Swift 5 Runtime Support for Command Line Tools` de [Mais  Downloads para Desenvolvedores Apple](https://developer.apple.com/download/more/)
 
 ### Usando 17R4 com macOS 10.2
 

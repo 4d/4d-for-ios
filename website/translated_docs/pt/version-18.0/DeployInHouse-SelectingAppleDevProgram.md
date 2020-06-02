@@ -5,8 +5,9 @@ original_id: deployment
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Choose the appropriate Apple Developer Program.</div>
+**OBJETIVOS**
+Choose the appropriate Apple Developer Program.
+</div>
 
 You must have a valid Apple Developer account to **distribute an iOS app**. Apple offers two developer programs:
 

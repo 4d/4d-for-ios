@@ -5,16 +5,20 @@ original_id: deploy-in-house-archive-and-export
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
+**OBJETIVOS**
 
 * Archive and export your 4D for iOS project
-* Generate .ipa and manifest files</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
+* Generate .ipa and manifest files
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server
 * 57 x 57 px icon
-* 512 x 512 px icon</div>
+* 512 x 512 px icon
+</div>
 
 ## PASSO 1. Configuração Xcode
 

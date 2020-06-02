@@ -1,18 +1,18 @@
 ---
 id: version-18.0-one-to-many-relations-title-definition
-title: One to Many - Title definition
+title: Uno a Muchos - Título
 original_id: one-to-many-relations-title-definition
 ---
 
-### Defining a title for your destination views
+### Definir un título para sus vistas de destino
 
-To keep track of the view you come from in your app, 4D for iOS allows you to define custom Title.
+Para realizar un seguimiento de la vista de la que proviene en su aplicación, 4D for iOS le permite definir un Título personalizado.
 
-In this tutorial, we will use the following project:
+En este tutorial, utilizaremos el siguiente proyecto:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">TITLE DEFINITION STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROYECTO STARTER DE DEFINICIÓN DE TÍTULO</a>
 </div>
 
 Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
@@ -25,6 +25,6 @@ As you may have guessed, it will allow you to display **Employee's Name value** 
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
-This is a great way to keep track of the view you come from!
+Esta es una excelente manera de hacer un seguimiento de la vista de donde viene.
 
-Now let's see how you can create and add your own Relation button in the next tutorial!
+¡Ahora veamos cómo puede crear y agregar su propio botón Relation en el próximo tutorial!

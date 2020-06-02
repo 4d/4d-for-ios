@@ -5,10 +5,14 @@ original_id: creating-detailform-templates
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIVES**
-Create your first list form template.</div> <div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div>
+**OBJETIVOS**
+Create your first list form template.
+</div>
+
+<div markdown="1" class = "prerequisites">
+**PRÉ-REQUISITOS**
+Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+</div>
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 

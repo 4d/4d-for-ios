@@ -19,9 +19,9 @@ Active y defina sus puertos HTTPS y/o HTTP, si aún no lo ha hecho. You can do t
 La activación del puerto HTTPS requiere que la instalación del certificado funcione correctamente. Puede crear los certificados de prueba con 4D.<div markdown="1" class = "tips">
 **NOTA**
 
-* The Simulator works locally (127.0.0.1 or localhost).
-* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-* If both HTTP and HTTPS are activated, HTTP is used.</div>
+* El simulador funciona localmente (127.0.0.1 o localhost).
+* Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
+* Si tanto HTTP como HTTPS están activados, se utiliza HTTP.</div>
 
 ## Autenticación
 
@@ -36,17 +36,17 @@ La activación del puerto HTTPS requiere que la instalación del certificado fun
 * **Development**: The authentication method allows you to use the app locally.
 * **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
 
-A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
+Hay una plantilla disponible para obtener toda la información necesaria sobre la sesión, así como la información del usuario (dirección de correo electrónico, información de la aplicación, dispositivo, ID del equipo, etc.)
 
-You can customize this method according to your needs!
+¡Puedes personalizar este método de acuerdo a sus necesidades!
 
 ### Gestión de la sesión
 
-When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.
+Cuando un usuario abre la aplicación por primera vez, se crea un archivo de sesión y se almacena junto al archivo de datos actual en la carpeta MobileApps.
 
-The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
+Los archivos de sesión están organizados y agrupados por carpeta de aplicación. Los TeamID y Bundle ID de la aplicación se concatenan para crear los nombres de las carpetas de la aplicación.
 
-Here is an example of a 4D for iOS-generated session file:
+Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
 
 ```json
 {
@@ -90,7 +90,7 @@ Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Componente MOBILE SESSION MANAGEMENT</a>
 </div>
 
 * Create a **Components** folder next to the 4D database with the app's data.
@@ -111,9 +111,9 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESS
 
 ## Cómo se ve en un dispositivo
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
+Una pantalla de configuración está disponible en la barra de pestañas. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
-Settings allows you to:
+Los parámetros le permiten:
 
 * Recargar datos
 * Defini su URL de servidor

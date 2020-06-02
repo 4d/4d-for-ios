@@ -6,14 +6,15 @@ original_id: custom-detailform-templates
 
 
 <div markdown="1" class = "tips">
-**BEFORE STARTING**
+**ANTES DE COMENZAR**
 !!crwdP_183_Pdwrc!!To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
-!!crwdP_184_Pdwrc!!Then drop the detail form folder into it.</div> 
+!!crwdP_184_Pdwrc!!Then drop the detail form folder into it.
+</div>
 
 <div markdown="1" style="height: auto;">
 <table> <col width="50%"> <col width="50%"> 
   
-  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF"> <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-detail-ClientDetail/master/template.gif" /> </td> <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Client Detail</h1> <ul style="font-size:16px"> <li><strong>Included resources:</strong> yes</li> <li><strong>Actions:</strong> included</li> <li><strong>Image required:</strong> no</li> </ul> 
+  <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF"> <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-detail-ClientDetail/master/template.gif" /> </td> <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Detalle del cliente</h1> <ul style="font-size:16px"> <li><strong>Included resources:</strong> yes</li> <li><strong>Actions:</strong> included</li> <li><strong>Image required:</strong> no</li> </ul> 
   
   <div markdown="1" style="text-align: center; margin-top: 40px;">
     <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-ClientDetail/releases/latest/download/form-detail-ClientDetail.zip">DESCARGAR</a>
@@ -162,6 +163,9 @@ original_id: custom-detailform-templates
   <div markdown="1" style="text-align: center; margin-top: 40px;">
     <a class="button" style="width: 50%" href="https://github.com/4d-for-ios/form-detail-RightCutHeader/releases/latest/download/form-detail-RightCutHeader.zip">DESCARGAR</a>
   </div></td> </tr> </table></div>
-<div markdown="1" class = "tips">
-**More**
-You can find more detail form template on [github](https://github.com/search?q=topic%3A4d-for-ios-form-detail).</div>
+
+  
+  <div markdown="1" class = "tips">
+**Más**
+Puede encontrar una plantilla de formulario más detallada en [github](https://github.com/search?q=topic%3A4d-for-ios-form-detail).
+  </div>
