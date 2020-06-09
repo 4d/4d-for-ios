@@ -46,17 +46,7 @@ But let's figure out how simple it is, using our special component !
 
 ## A component to deal with email authentication
 
-A toolbox componont has been developed to help you manage several processes : the 4D Mobile App Server Component.
-
-<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-<a class="button"
-href="https://github.com/4d-for-ios/4D-Mobile-App-Server">4D Mobile App Server Component</a>
-</div>
-
-To install this component :
-
-* Create a Components folder next to the 4D database with the app's data.
-* Place the 4D Mobile App Server.4dbase component in the newly created Components folder.
+A toolbox component has been developed to help you manage several processes : the 4D Mobile App Server Component.
 
 Let's see how to use it !
 
@@ -89,7 +79,7 @@ As simple as that !
 You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about resources you may use like html templates and settings that you may want to define.
 
 
-# Without using the component
+# Without the component
 
 We will see here a basic example without using the component.
 
@@ -200,4 +190,4 @@ And that's it !
 
 ## Where to go from here?
 
-We've covered basic email validation in this tutorial, so you should now be able to easily validate access to your 4D for iOS app using the compononent available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server) !
+We've covered basic email validation in this tutorial, so you should now be able to easily validate access to your 4D for iOS app !

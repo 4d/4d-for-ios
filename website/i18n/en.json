@@ -421,7 +421,6 @@
       "Testing and Building": "Testing and Building",
       "Deploying In-House": "Deploying In-House",
       "Deploying on App Store": "Deploying on App Store",
-      "Authentication": "Authentication",
       "Creating your iOS App": "Creating your iOS App",
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List forms": "Creating List forms",
@@ -432,6 +431,7 @@
       "Restricted queries": "Restricted queries",
       "Actions": "Actions",
       "Relations": "Relations",
+      "Features": "Features",
       "Templates & Formatters": "Templates & Formatters"
     }
   },
