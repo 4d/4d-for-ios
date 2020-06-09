@@ -26,7 +26,7 @@ Here are the different elements needed to create, send and receive a mobile push
 
 # Prerequisites
 
-In order to use the component that is necessary to send push notifications, an AuthKey_XXXX.p8 authentication file from Apple is required.
+In order to send push notifications, an AuthKey_XXXX.p8 authentication file from Apple is required.
 
 First, go to Apple developer account page, sign in, then select Certificates, IDs & Profiles.
 
@@ -34,25 +34,17 @@ You will then be able to generate your push certificate and download it.
 
 You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
 
-# An fullly integrated component to deal with push notifications
-
-The 4D Mobile App Server Component is a toolbox component that have been developed and included into 4D to help you manage several processes sush as Email Authentication and Push notifications.
-
 # Basic example to manage your push notifications
 
-Here is an example to send a push notification to specific emails:
+Here is an example to send a push notification to test@4d.com:
 
 ```4d
 
-// Build your authentication object
-
-
-
-// Define the users you want to target using their email
-
-$mails:=New collection("quentin@test.com";"david@test.com")
-
-$response:=$pushNotification.send($notification;$mails)
+$pushNotification:=MobileAppServer.PushNotification.new() 
+$notification:=New object 
+$notification.title:="This is title" 
+$notification.body:="Here is the content of this notification" 
+$response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
