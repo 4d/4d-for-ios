@@ -32,22 +32,35 @@ First, go to Apple developer account page, sign in, then select Certificates, ID
 
 You will then be able to generate your push certificate and download it.
 
-You can find more information about this process [here]() in the documentation component.
+You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
 
-# A component to deal with push notifications
+# An fullly integrated component to deal with push notifications
 
-A toolbox component has been developed to help you manage several processes: the 4D Mobile App Server Component.
+The 4D Mobile App Server Component is a toolbox component that have been developed and included into 4D to help you manage several processes sush as Email Authentication and Push notifications.
 
-<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-<a class="button"
-href="https://github.com/4d-for-ios/4D-Mobile-App-Server">4D Mobile App Server Component</a>
-</div>
+# Basic example to manage your push notifications
 
-To install this component:
+Here is an example to send a push notification to specific emails:
 
-* Create a Components folder next to the 4D database with the app's data.
-* Place the 4D Mobile App Server.4dbase component in the newly created Components folder.
+```4d
 
-And you are done ! 
+// Build your authentication object
 
-All you have to do now is following the steps descriped in the [component documentation]() to build your authentication object and send push notifications in just a few click.
+
+
+// Define the users you want to target using their email
+
+$mails:=New collection("quentin@test.com";"david@test.com")
+
+$response:=$pushNotification.send($notification;$mails)
+
+```
+
+As simple as that!
+
+
+## STEP 8. Where to go from here?
+
+The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that are relevant to you. And of course, all contributors are welcome to this project in the form of feedback, bug reports and even better - pull requests.
+
+
