@@ -143,17 +143,17 @@ Depois de abrí-lo, selecione o botão direito e adicone esta linha em **User De
 
 ![Add detailform entity action tag custom action button](assets/en/actions/Detail-form-action-custom-action-Button.png)
 
-Como pode ver, alguns botões visuais estão faltando no arquivo Storyboard. Pode encontrar estas imagens no modelo **Resources folder**. They will be included in the project during the build process.
+Como pode ver, alguns botões visuais estão faltando no arquivo Storyboard. Pode encontrar estas imagens no modelo **Resources folder**. Serão incluídas no projeto durante o processo de build.
 
-For example for the **moreButton.imageset**:
+Por exemplo, para **moreButton.imageset**:
 
 ![Template ressources](assets/en/actions/Template-Ressources.png)
 
-You can select the TasksDetail custom template from the **Forms section** and add the following fields:
+Pode selecionar o modelo personalizado TasksDetail na **seção Formulários** e agregar os campos abaixo:
 
 ![TasksDetail Forms section](assets/en/actions/detailform-forms-section.png)
 
-Congratulations, your Tasks iOS app is now complete and includes actions in List form and Detail form !
+Parabéns, sua aplicação iOS Tasks agora está completa e inclui ações nos formulários Lista e detalhados.
 
 ![Template ressources](assets/en/actions/ListForm-entity-action-tableview.png)
 
