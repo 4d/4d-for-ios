@@ -11,6 +11,14 @@ Integrate email confirmation to authenticate mobile app users
 
 </div>
 
+<div markdown="1" class = "prerequisites">
+
+**PREREQUISITES**
+
+The component that allows email authentication is integrated in 4d mono and server from the 18R4.
+
+</div>
+
 Let your customers and clients feel comfortable logging into their app using the email authentication !
 
 It provides a way to verify that an email comes from who it claims to be from and will allow to block harmful or fraudulent uses of email.
