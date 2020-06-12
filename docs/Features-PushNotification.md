@@ -11,6 +11,13 @@ Integrate push notification to your 4d for iOS apps
 
 </div>
 
+<div markdown="1" class = "prerequisites">
+
+**PREREQUISITES**
+
+The [4D Mobile App Server component](https://github.com/4d-for-ios/4D-Mobile-App-Server) that allows to send push notifications is integrated in 4d mono and server from the 18R4.
+
+</div>
 
 # What is a push notification?
 
