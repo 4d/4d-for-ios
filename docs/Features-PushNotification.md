@@ -55,7 +55,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 As simple as that!
 
 
-## STEP 8. Where to go from here?
+## Where to go from here?
 
 The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that are relevant to you. And of course, all contributors are welcome to this project in the form of feedback, bug reports and even better - pull requests.
 
