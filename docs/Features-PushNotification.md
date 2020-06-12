@@ -33,7 +33,7 @@ Here are the different elements needed to create, send and receive a mobile push
 
 # Prerequisites
 
-In order to send push notifications, an AuthKey_XXXX.p8 authentication file from Apple is required.
+In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
 
 * First, go to Apple developer account page, sign in, then select Certificates, IDs & Profiles.
 
@@ -64,6 +64,6 @@ As simple as that!
 
 ## Where to go from here?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that are relevant to you. And of course, all contributors are welcome to this project in the form of feedback, bug reports and even better - pull requests.
+The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that are relevant to you. And of course, all contributors are welcome to this project in the form of feedback, bug reports and even better: pull requests.
 
 
