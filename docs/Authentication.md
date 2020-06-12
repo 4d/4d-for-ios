@@ -65,7 +65,7 @@ $0:= Mobile App Email Checker ($1)
 
 Call the **Activate sessions** method in the **On Web Connection** database method with the Session ID parameter retrieved from the URL:
 
-```
+```4d
 C_TEXT($1)
 Case of 
 : (Mobile App Active Session($1).success)
@@ -89,7 +89,6 @@ Here is the code you can use to do that:
 
 
 ```4d
-
 C_OBJECT($0;$1;$response;$request;$email;$status)
 
   // parameters settings come from the mobile app
