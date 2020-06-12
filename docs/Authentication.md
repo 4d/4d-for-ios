@@ -15,7 +15,7 @@ Integrate email confirmation to authenticate mobile app users
 
 **PREREQUISITES**
 
-The component that allows email authentication is integrated in 4d mono and server from the 18R4.
+The [4D Mobile App Server component](https://github.com/4d-for-ios/4D-Mobile-App-Server) that allows email authentication is integrated in 4D mono and 4D server 18R4.
 
 </div>
 
