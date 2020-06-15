@@ -129,7 +129,7 @@ Settings allows you to:
 
 ### Reset remote url
 
-You can easily update your remote url from iphone Settings :
+You can easily update your remote url from iPhone Settings :
 
 * Open your iPhone Settings
 * Select the app you want the remote url to be updated
