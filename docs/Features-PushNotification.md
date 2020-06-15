@@ -21,7 +21,7 @@ The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) c
 
 # What is a push notification?
 
-On a mobile phone, a push notification is an alert message received via an application and that you can open, delete, allow or block. It can be very useful for example to notify your app users that a new version is available.
+On a mobile phone, a push notification is an alert message, received via an application, that you can open, delete, allow or block. It can be very useful for example to notify your app users that a new version is available.
 
 But what about the architecture to be implemented, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display on the user's mobile?
 
@@ -39,7 +39,7 @@ In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file fr
 
 * You will then be able to generate your push certificate and download it.
 
-* Finally, activate the Push notification feature integrate your certificate in your 4D for iOS project from the Publishing section.
+* Finally, activate the Push notification feature and integrate your certificate into your 4D for iOS project from the Publishing section.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
@@ -59,11 +59,11 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-As simple as that!
+It's as simple as this !
 
 
 ## Where to go from here?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that are relevant to you. And of course, all contributors are welcome to this project in the form of feedback, bug reports and even better: pull requests.
+The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and pick the aspects that you consider relevant to you. And of course, all contributors are welcome to this project through feedback, bug reports and, even better: pull requests.
 
 
