@@ -47,7 +47,7 @@ You can find more information about this process [here](https://github.com/4d-fo
 
 # Basic example to manage your push notifications
 
-Here is an example to send a push notification to test@4d.com:
+Here is an example to send a push notification to ```test@4d.com```:
 
 ```4d
 
