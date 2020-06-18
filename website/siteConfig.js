@@ -39,9 +39,9 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://doc4d.github.io/docs', label:'v18 R3 BETA'},
-    {href: 'https://doc4d.github.io/docs/Rx', label:'v18 R2'},
-    {href: 'https://doc4d.github.io/docs/18', label:'v18'}
+    {href: 'https://doc4d.github.io/4d-for-ios', label:'v18 R3 BETA'},
+    {href: 'https://doc4d.github.io/4d-for-ios/Rx', label:'v18 R2'},
+    {href: 'https://doc4d.github.io/4d-for-ios/18', label:'v18'}
   ],
 
 algolia: {
