@@ -24,7 +24,7 @@ const siteConfig = {
   title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
   url: 'https://doc4d.github.io' /* your website url */,
-  baseUrl: '/4d-for-ios/alpha/' /* base url for your project */,
+  baseUrl: '/4d-for-ios/Rx/' /* base url for your project */,
 
   // Used for publishing and more
   projectName: '4d-for-ios',
