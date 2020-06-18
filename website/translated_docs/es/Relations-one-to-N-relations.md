@@ -1,13 +1,13 @@
 ---
 id: one-to-many-relations
-title: Relaciones Uno a Muchos
+title: One to Many relations
 ---
 
-Este tutorial le mostrará lo fácil que puede ser incluir relaciones Uno a Muchos en 4D for iOS.<div class = "tips"> 
+This tutorial will show you how easy it can be to include One to Many relations in 4D for iOS.<div class = "tips"> 
 
 **NOTA**
 
-En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div> 
+In this tutorial, we will use the relation names between your tables. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.</div> 
 
 Comencemos descargando el Proyecto Starter:
 
@@ -16,12 +16,12 @@ Comencemos descargando el Proyecto Starter:
     
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER UNO A MUCHOS</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">ONE TO MANY STARTER PROJECT</a>
 
   </p>
 </div>
 
-En este tutorial, vamos a construir una aplicación de tareas de colores **Task app** utilizando 4D for iOS.
+In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.
 
 ![Task App Final result](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 

@@ -5,12 +5,12 @@ title: Arquive e exporte seu Projeto
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 * Archive and export your 4D for iOS project
 * Generate .ipa and manifest files</div> <div class = "prerequisites"> 
 
-**PRÉ-REQUISITOS**
+**PREREQUISITES**
 
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 * A secured web server

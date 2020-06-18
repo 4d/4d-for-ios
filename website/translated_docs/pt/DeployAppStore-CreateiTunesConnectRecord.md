@@ -5,12 +5,12 @@ title: Criar uma ficha em App Store
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 * Create an App ID on your Developer Account
 * Create your app in App Store Connect</div> <div class = "prerequisites"> 
 
-**PRÉ-REQUISITOS**
+**PREREQUISITES**
 
 [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)</div> 
 

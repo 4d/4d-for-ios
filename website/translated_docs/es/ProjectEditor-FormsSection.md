@@ -39,18 +39,18 @@ Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, 
 
 ## Galería
 
-Probablemente haya notado que, cuando desea seleccionar una plantilla en la sección del formulario, un icono "Más" está disponible para los formularios listados y detallados desde 4D v18R3.
+You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
 
-Simplemente haga clic en ese icono para mostrar la lista completa.
+Just click on that icon to display the entire list.
 
-Luego, lo único que tiene que hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
+Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
 
-Por lo tanto, puede comenzar a trabajar directamente en la plantilla, ya que está lista para usar.
+So you can directly start working on the template, as it is ready-to-use.
 
-Siguiente paso, elija una plantilla que se adapte a sus necesidades, pero en caso de que falte algo, todo lo que tiene que hacer es: * ir a sus recursos * descomprimir la plantilla * hacer los cambios necesarios utilizando Xcode.
+Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
 
 ## ¿Qué hacer ahora?
 
-* Un [tutorial]() está disponible para guiarlo a través del **proceso de definición de acción**.
+* A [tutorial]() is available to guide you through the **action definition process**.
 
-* Otro [tutorial]() le ayudará a realizar **actualizaciones de plantilla** si falta algo.
+* Another [tutorial]() will help you making **template update** if something is missing.

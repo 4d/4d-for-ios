@@ -4,23 +4,17 @@ title: Relaciones Uno a Muchos - Acciones
 ---
 
 <div class = "objectives">
-  <p spaces-before="0">
-    <strong x-id="1">OBJETIVOS</strong>
-  </p>
-  
-  <p spaces-before="0">
-    Ahora vamos a ir un poco más lejos y <strong x-id="1">crear una tarea para un empleado específico</strong>.
-  </p>
-</div>
+**OBJETIVOS**
+We are now going to go a little bit further and **create a task for a specific employee**.</div>
 
-¡Es muy fácil crear una entidad utilizando una **Entidad padre**!
+It is very easy to create an entity using **parent Entity** !
 
 Comencemos descargando el Proyecto Starter:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>
 
@@ -35,7 +29,7 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
 
 ## Método On Mobile App Action
 
-Lo único que debe hacer es definir la acción **addProject** en el **método On Mobile App Action** de la siguiente manera:
+The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
 
 ```4d
 : ($request.action="addProjects")
@@ -54,7 +48,7 @@ $result:=addProject ($o)
 ## Método addProject
 
 
-Luego introduzca esas líneas de código en su **addProject Method**:
+Then enter thoses lines in your **addProject Method**:
 
 ```4d
 C_OBJECT($0)
@@ -103,11 +97,11 @@ $0:=$out
 
 ```
 
-¡Y eso es todo, puede agregar alguna tarea a sus empleados fácilmente usando la entidad padre!
+And that's it you can then add some task to your employees easily using the parent Entity !
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p spaces-before="0">
     <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
   </p>
 </div>

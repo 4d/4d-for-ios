@@ -6,11 +6,11 @@ title: Modelos de formulários detalhados
 
 <div class = "tips"> 
 
-**ANTES DE COMEÇAR**
+**BEFORE STARTING**
 
-1. Para usar um modelo de formulário detalhado personalizado, primeiro precisa criar uma pasta `YourDatabase.4dbase/Resources/Mobile/form/detail`.
+1. To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
 
-2. Depois solte a pasta formulário detalhe dentro da pasta que criou.</div> 
+2. Then drop the detail form folder into it.</div> 
 
 <div style="height: auto;">
   <table>
@@ -23,15 +23,15 @@ title: Modelos de formulários detalhados
       
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Detalhes de Cliente
+          Client Detail
         </h1>
         
         <ul style="font-size:16px">
           <li>
-            <strong>Recursos incluídos:</strong> sim
+            <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>Ações:</strong> incluídas
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>Imagem necessária:</strong> não
@@ -49,15 +49,15 @@ title: Modelos de formulários detalhados
     <tr>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">
-          Detalhes de Fatura
+          Invoice Detail
         </h1>
         
         <ul style="font-size:c16px">
           <li>
-            <strong>Recursos incluídos:</strong> sim
+            <strong>Included resources:</strong> yes
           </li>
           <li>
-            <strong>Ações:</strong> incluídas
+            <strong>Actions:</strong> included
           </li>
           <li>
             <strong>Imagem necessária:</strong> não
@@ -82,15 +82,15 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">
-            Detalhe de Tarefas
+            Tasks Detail
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Recursos incluídos:</strong> sim
+              <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>Ações:</strong> incluídas
+              <strong>Actions:</strong> included
             </li>
             <li>
               <strong>Imagem necessária:</strong> não
@@ -108,18 +108,18 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">
-            Detalhe Parallax
+            Parallax Detail
           </h1>
           
           <ul style="font-size:c16px">
             <li>
-              <strong>Recursos incluídos:</strong> sim
+              <strong>Included resources:</strong> yes
             </li>
             <li>
-              <strong>Ações:</strong> incluídas
+              <strong>Actions:</strong> included
             </li>
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
           </ul>
           
@@ -142,7 +142,7 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Lista Simples
+            Simple List
           </h1>
           
           <ul style="font-size:16px">
@@ -150,7 +150,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -165,7 +165,7 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Cartas
+            Cards
           </h1>
           
           <ul style="font-size:16px">
@@ -173,7 +173,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -196,7 +196,7 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Cabeçalho Simples
+            Simple Header
           </h1>
           
           <ul style="font-size:16px">
@@ -204,7 +204,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -219,7 +219,7 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Cabeçalho deslizante
+            Sliding Header
           </h1>
           
           <ul style="font-size:16px">
@@ -227,7 +227,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -258,7 +258,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> sim
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -281,7 +281,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> sim
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -312,7 +312,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> sim
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -327,7 +327,7 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Círculo
+            Circle
           </h1>
           
           <ul style="font-size:16px">
@@ -335,7 +335,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> sim
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -358,7 +358,7 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Círculo Triplo
+            Triple Circle
           </h1>
           
           <ul style="font-size:16px">
@@ -366,7 +366,7 @@ title: Modelos de formulários detalhados
               <strong>Imagem necessária:</strong> não
             </li>
             <li>
-              <strong>Gráfico:</strong> sim
+              <strong>Graph:</strong> yes
             </li>
           </ul>
           
@@ -381,15 +381,15 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Painel dashboard
+            Dashboard
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -412,15 +412,15 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Contato Simples
+            Simple Contact
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -435,15 +435,15 @@ title: Modelos de formulários detalhados
       <tr>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Contato Visual
+            Visual Contact
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -466,15 +466,15 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Cabeçalho Left Cut
+            Left Cut Header
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -494,10 +494,10 @@ title: Modelos de formulários detalhados
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -520,15 +520,15 @@ title: Modelos de formulários detalhados
         
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:26px">
-            Cabeçalho Right Cut
+            Right Cut Header
           </h1>
           
           <ul style="font-size:16px">
             <li>
-              <strong>Imagem necessária:</strong> sim
+              <strong>Imagem necessária:</strong> yes
             </li>
             <li>
-              <strong>Gráfico:</strong> não
+              <strong>Graph:</strong> no
             </li>
           </ul>
           
@@ -541,9 +541,9 @@ title: Modelos de formulários detalhados
       </tr></table> </div> <div class = "tips"> 
       
       <p>
-        <strong>Mais</strong>
+        <strong>More</strong>
       </p>
       
       <p>
-        Pode achar mais sobre o modelo de formulário detalhado em <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
+        You can find more detail form template on <a href="https://github.com/search?q=topic%3A4d-for-ios-form-detail">github</a>.
       </p></div>

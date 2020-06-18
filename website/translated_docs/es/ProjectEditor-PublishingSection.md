@@ -19,9 +19,9 @@ La activación del puerto HTTPS requiere que la instalación del certificado fun
 
 **NOTA**
 
-* El simulador funciona localmente (127.0.0.1 o localhost).
-* Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
-* Si tanto HTTP como HTTPS están activados, se utiliza HTTP.</div> 
+* The Simulator works locally (127.0.0.1 or localhost).
+* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
+* If both HTTP and HTTPS are activated, HTTP is used.</div> 
 
 ## Autenticación
 
@@ -36,17 +36,17 @@ La activación del puerto HTTPS requiere que la instalación del certificado fun
 * **Desarrollo**: el método de autenticación le permite utilizar la aplicación localmente. 
 * **Despliegue**: debe crear/editar el método base de datos [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) para autorizar emails o dispositivos específicos, incluso en modo invitado.
 
-Hay una plantilla disponible para obtener toda la información necesaria sobre la sesión, así como la información del usuario (dirección de correo electrónico, información de la aplicación, dispositivo, ID del equipo, etc.)
+A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
 
-¡Puedes personalizar este método de acuerdo a sus necesidades!
+You can customize this method according to your needs!
 
 ### Gestión de la sesión
 
-Cuando un usuario abre la aplicación por primera vez, se crea un archivo de sesión y se almacena junto al archivo de datos actual en la carpeta MobileApps.
+When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.
 
-Los archivos de sesión están organizados y agrupados por carpeta de aplicación. Los TeamID y Bundle ID de la aplicación se concatenan para crear los nombres de las carpetas de la aplicación.
+The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
 
-Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
+Here is an example of a 4D for iOS-generated session file:
 
 ```json
 {
@@ -81,18 +81,18 @@ Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
 
 ```
 
-Si desea poder validar manualmente la primera conexión para cada sesión de usuario, debe cambiar el estado predeterminado "aceptado" por "pendiente" agregando ```$response.verify:=True``` al método base [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
 
 ### Componente Mobile Session Management
 
-Las sesiones pueden ser gestionadas por el componente **MOBILE SESSION MANAGEMENT**:
+Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
   <p>
     
 
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Componente MOBILE SESSION MANAGEMENT</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
 
   </p>
 </div>
@@ -115,9 +115,9 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Componente 
 
 ## Cómo se ve en un dispositivo
 
-Una pantalla de configuración está disponible en la barra de pestañas. También puede encontrarlo en la pestaña "More" si es necesario (*es decir*, su aplicación tiene más de cuatro tablas).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
-Los parámetros le permiten:
+Settings allows you to:
 
 * Recargar datos
 * Defini su URL de servidor

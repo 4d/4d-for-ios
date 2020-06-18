@@ -5,11 +5,11 @@ title: Modelos de formulário detalhado
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 Create your first list form template.</div> <div class = "prerequisites"> 
 
-**PRÉ-REQUISITOS**
+**PREREQUISITES**
 
 Clique [aqui](prerequisites.html) para ver o que precisa para começar!</div> 
 

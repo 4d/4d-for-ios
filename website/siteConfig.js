@@ -23,12 +23,12 @@ const users = [
 const siteConfig = {
   title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
-  url: 'https://4D.github.io' /* your website url */,
-  baseUrl: '/4d-for-ios/' /* base url for your project */,
+  url: 'https://doc4d.github.io' /* your website url */,
+  baseUrl: '/4d-for-ios/alpha/' /* base url for your project */,
 
   // Used for publishing and more
   projectName: '4d-for-ios',
-  organizationName: '4D',
+  organizationName: 'doc4d',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,9 +39,9 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://developer.4d.com/docs/', label: '4D Doc'}
-
-
+    {href: 'https://doc4d.github.io/4d-for-ios', label:'v18 R3 BETA'},
+    {href: 'https://doc4d.github.io/4d-for-ios/Rx', label:'v18 R2'},
+    {href: 'https://doc4d.github.io/4d-for-ios/18', label:'v18'}
   ],
 
 algolia: {

@@ -5,7 +5,7 @@ title: Working with Xcode
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 * Open a 4D for iOS project from the Project Editor.
 * Customize the generated 4D for iOS app.</div> 
@@ -23,7 +23,7 @@ We'll use the Contact application we created [here](contact-app.html). Download 
     
 
 <a class="button"
-href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJETO STARTER</a>
+href="../assets/en/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
 
   </p>
 </div>

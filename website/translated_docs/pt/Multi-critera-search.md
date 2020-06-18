@@ -6,7 +6,7 @@ title: Multi-criteria search
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 Activate the multi-criteria search in your own templates.</div> 
 

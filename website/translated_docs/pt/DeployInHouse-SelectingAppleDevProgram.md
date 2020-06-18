@@ -5,7 +5,7 @@ title: Selecionar um Apple Developer Program
 
 <div class = "objectives"> 
 
-**OBJETIVOS**
+**OBJECTIVES**
 
 Choose the appropriate Apple Developer Program.</div> 
 

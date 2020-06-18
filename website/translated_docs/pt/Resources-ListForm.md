@@ -1,15 +1,15 @@
 ---
 id: custom-listform-templates
-title: Modelos Formulário lista
+title: List Forms Templates
 ---
 
 <div class = "tips"> 
 
-**ANTES DE COMEÇAR**
+**BEFORE STARTING**
 
-1. Para usar um modelo de formulário lista personalizado, precisa criar uma pasta `YourDatabase.4dbase/Resources/Mobile/form/list` .
+1. To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
 
-2. Depois arraste a pasta formulário lista na pasta que criou</div>
+2. Then drop the list form folder into it.</div>
 
 <div style="height: auto;">
   <table>
@@ -20,10 +20,10 @@ title: Modelos Formulário lista
         <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-ClientList/master/template.gif" />
       </td>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-        <h1 style="margin-top: 10px; font-size:22px">Lista Cliente</h1>
+        <h1 style="margin-top: 10px; font-size:22px">Client List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -38,8 +38,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -60,8 +60,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Invoice Line List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -76,8 +76,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Three Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -98,8 +98,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Four Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -114,8 +114,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Five Labels List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -152,8 +152,8 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Tasks List</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
-          <li><strong>Seções:</strong> disponível</li>
+          <li><strong>Type:</strong> Table</li>
+          <li><strong>Sections:</strong> available</li>
           <li><strong>Actions:</strong> cell left swipe</li>
           <li><strong>Imagem necessária:</strong> não</li>
         </ul>
@@ -174,10 +174,10 @@ title: Modelos Formulário lista
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Cards Table</h1>
         <ul style="font-size:16px">
-          <li><strong>Tipo:</strong> Tabela</li>
+          <li><strong>Type:</strong> Table</li>
           <li><strong>Sections:</strong> not available</li>
           <li><strong>Actions:</strong> cell long pressure</li>
-          <li><strong>Imagem necessária:</strong> sim</li>
+          <li><strong>Imagem necessária:</strong> yes</li>
         </ul>
         <div style="text-align: center; margin-top: 40px;">
 
@@ -194,7 +194,7 @@ title: Modelos Formulário lista
             <li><strong>Type:</strong> Collection</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -213,7 +213,7 @@ title: Modelos Formulário lista
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
           <h1 style="margin-top: 10px; font-size:22px">Folding Cell List</h1>
           <ul style="font-size:16px">
-            <li><strong>Tipo:</strong> Tabela</li>
+            <li><strong>Type:</strong> Table</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
             <li><strong>Imagem necessária:</strong> não</li>
@@ -232,7 +232,7 @@ title: Modelos Formulário lista
             <li><strong>Type:</strong> Collection</li>
             <li><strong>Sections:</strong> not available</li>
             <li><strong>Actions:</strong> cell long pressure</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -252,7 +252,7 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Simple Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Seções:</strong> disponível</li>
+            <li><strong>Sections:</strong> available</li>
             <li><strong>Imagem necessária:</strong> não</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
@@ -303,8 +303,8 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Profile</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Seções:</strong> disponível</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Sections:</strong> available</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -324,8 +324,8 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Square Profile</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Seções:</strong> disponível</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Sections:</strong> available</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -375,8 +375,8 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Simple Visual Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Seções:</strong> disponível</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Sections:</strong> available</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -396,8 +396,8 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Visual Table</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
-            <li><strong>Seções:</strong> disponível</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Sections:</strong> available</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -412,7 +412,7 @@ title: Modelos Formulário lista
           <ul style="font-size:16px">
             <li><strong>Type:</strong> table</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -432,8 +432,8 @@ title: Modelos Formulário lista
           <h1 style="margin-top: 10px; font-size:26px">Simple Collection</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
-            <li><strong>Seções:</strong> disponível</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Sections:</strong> available</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -448,7 +448,7 @@ title: Modelos Formulário lista
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -465,11 +465,11 @@ title: Modelos Formulário lista
           <img style="max-height: 750px" src="https://raw.githubusercontent.com/4d-for-ios/form-list-Horizontal-Cards/master/template.gif" />
         </td>
         <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF">
-          <h1 style="margin-top: 10px; font-size:26px">Cartas</h1>
+          <h1 style="margin-top: 10px; font-size:26px">Cards</h1>
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -484,7 +484,7 @@ title: Modelos Formulário lista
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -505,7 +505,7 @@ title: Modelos Formulário lista
           <ul style="font-size:16px">
             <li><strong>Type:</strong> collection</li>
             <li><strong>Sections:</strong> not available</li>
-            <li><strong>Imagem necessária:</strong> sim</li>
+            <li><strong>Imagem necessária:</strong> yes</li>
           </ul>
           <div style="text-align: center; margin-top: 40px;">
 
