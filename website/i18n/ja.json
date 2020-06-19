@@ -75,14 +75,14 @@
         "title": "詳細画面のアイコン"
       },
       "manifest-detailform-template": {
-        "title": "Manifest.json"
+        "title": "manifest.json"
       },
       "storyboard-detailform-template": {
         "title": "ストーリーボード"
       },
       "svg-file-detailform-template": {
-        "title": "Template.svg",
-        "sidebar_label": "Template.svg"
+        "title": "template.svg",
+        "sidebar_label": "template.svg"
       },
       "faq": {
         "title": "FAQ"
@@ -91,7 +91,7 @@
         "title": "Overview"
       },
       "prerequisites": {
-        "title": "システム要件"
+        "title": "はじめにお読みください"
       },
       "create-icons": {
         "title": "アイコンを追加する"
@@ -112,13 +112,13 @@
         "title": "リストフォームのテンプレート"
       },
       "manifest-listform-template": {
-        "title": "Manifest.json"
+        "title": "manifest.json"
       },
       "storyboard-listform-template": {
         "title": "ストーリーボード"
       },
       "svg-file-listform-template": {
-        "title": "Template.svg"
+        "title": "template.svg"
       },
       "icon-listform-template": {
         "title": "リストフォームのアイコン"
@@ -274,14 +274,14 @@
         "title": "詳細画面のアイコン"
       },
       "version-18.0/version-18.0-manifest-detailform-template": {
-        "title": "Manifest.json"
+        "title": "manifest.json"
       },
       "version-18.0/version-18.0-storyboard-detailform-template": {
         "title": "ストーリーボード"
       },
       "version-18.0/version-18.0-svg-file-detailform-template": {
-        "title": "Template.svg",
-        "sidebar_label": "Template.svg"
+        "title": "template.svg",
+        "sidebar_label": "template.svg"
       },
       "version-18.0/version-18.0-faq": {
         "title": "FAQ"
@@ -290,7 +290,7 @@
         "title": "Overview"
       },
       "version-18.0/version-18.0-prerequisites": {
-        "title": "システム要件"
+        "title": "はじめにお読みください"
       },
       "version-18.0/version-18.0-create-icons": {
         "title": "アイコンを追加する"
@@ -311,13 +311,13 @@
         "title": "リストフォームのテンプレート"
       },
       "version-18.0/version-18.0-manifest-listform-template": {
-        "title": "Manifest.json"
+        "title": "manifest.json"
       },
       "version-18.0/version-18.0-storyboard-listform-template": {
         "title": "ストーリーボード"
       },
       "version-18.0/version-18.0-svg-file-listform-template": {
-        "title": "Template.svg"
+        "title": "template.svg"
       },
       "version-18.0/version-18.0-icon-listform-template": {
         "title": "リストフォームのアイコン"
