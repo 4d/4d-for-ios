@@ -3,9 +3,10 @@ id: action-parameters
 title: Utilizar parámetros de acción
 ---
 
-<div class = "objectives">
+<div markdown="1" class = "objectives">
 **OBJETIVOS**
-Definir parámetros de acción para editar el contenido de su aplicación.</div>
+Definir parámetros de acción para editar el contenido de su aplicación.
+</div>
 
 
 En el [tutorial anterior](define-first-action.html), descubrimos cómo ejecutar código 4D desde una aplicación iOS definiendo acciones en la [sección Actions](actions.html).
@@ -19,14 +20,13 @@ En este tutorial, iremos más allá y crearemos:
 
 Para comenzar, primero descarguemos el **Proyecto Starter** basado en nuestra aplicación iOS Tasks.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROYECTO STARTER</a>
-  </p>
 </div>
 
-## PASO 1. Añadir acción
+## PASO 1. Acción de añadir
 
 Comencemos por una tarea simple. Abra el proyecto móvil Tasks y vaya directamente a la **sección Actions**.
 
@@ -49,7 +49,7 @@ Para esto, creemos una acción utilizando una acción preestablecida **Agregar**
 
 En este punto, todos los **parámetros de las acciones de adición** se crean automáticamente y están listos para usar.
 
-## PASO 2. Editar acción
+## PASO 2. Acción de edición
 
 Ahora creemos una acción que le permitirá **editar el contenido de su aplicación**.
 
@@ -403,12 +403,11 @@ Y finalmente puede eliminar una entidad utilizando la acción **Eliminar... **.
 
 ## PASO 8. ¿Qué hacemos ahora?
 
-¡Felicidades! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
+¡Felicitaciones! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROYECTO FINAL</a>
-  </p>
 </div>
 
