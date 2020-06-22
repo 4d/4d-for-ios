@@ -1,28 +1,30 @@
 ---
 id: user-information-query
-title: Filtre de recherche utilisateur
+title: Filtre de recherche - informations utilisateur
 ---
 
 Nous allons filtrer maintenant le contenu de notre application en fonction de l'e-mail de connexion du chargé de clientèle (information utilisateur) :
 
-* Accédez à la **section "Données"**. 
-* Faites un clic droit dans le champ **Filtre de recherche** pour faire apparaître les **boutons Champs, Comparateurs et Opérateurs**.
-* Cliquez sur le bouton **Operators** et sélectionnez **AND**.
-* Définissez maintenant les informations utilisateur (**: email**) que vous souhaitez obtenir à partir de la méthode de base de données.
-* Souvenez-vous de valider la recherche en cliquant sur le bouton **Valider**. Sinon, vous ne pourrez plus créer votre application.
+* Go to the **Data section**.
+* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
+* Click on the **Operators** button and select **AND**.
+* Now define the user information you want to get from the database method, **:email**.
+* Remember to validate the query by clicking on the **Validate** button. Sinon, vous ne pourrez plus créer votre application.
 
-![User information query](assets/en/restricted-queries/user-information-query.png)
+![Filtre de recherche - informations utilisateur](assets/en/restricted-queries/user-information-query.png)
 
 ```4d
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-La recherche permettra de filtrer les données en fonction du statut **In Progress** ET de **l'e-mail du chargé de clientèle** (accessible depuis la table AccountManager grâce au lien *N vers 1* qui figure dans le nom du chargé de clientèle).<div class = "tips"> 
+The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
 
+<div markdown="1" class = "tips">
 **NOTE**
 
-* Une **icône utilisateur** s’affiche à droite de chaque table lorsqu’un filtre d'informations utilisateur y est appliqué.
-* Dès qu’une recherche est basée sur les informations utilisateur et qu'elle est validée, vous devez modifier la **méthode d'authentification de l'application mobile**. Pour ce faire, faites un clic droit sur le bouton **Edit authentication method** pour ouvrir la fenêtre d’édition de la méthode de base de données.</div> 
+* A **user icon** is displayed on the right of each table when a user information filter is applied to it.
+* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.
+</div>
 
 Ajoutez la ligne suivante dans la méthode de base de données :
 
@@ -32,8 +34,12 @@ $response.userInfo:=New object("email";$request.email)
 
 Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.
 
-![Filtre de recherche utilisateur](assets/restricted-queries/database-method-user-information-query.png)
+![Filtre de recherche - informations utilisateur](assets/restricted-queries/database-method-user-information-query.png)
 
-Ainsi, si vous générez votre application et que vous entrez « michelle.simpson@mail.com » en tant qu'e-mail de connexion, vous trouverez tous les contrats *"In progress"* de Michelle Simpson.
+Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
 ![Final result](assets/restricted-queries/restricted-queries-final-result.png)
+
+
+
+
