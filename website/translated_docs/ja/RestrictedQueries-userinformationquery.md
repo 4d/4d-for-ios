@@ -5,11 +5,11 @@ title: ユーザー情報に基づくクエリ
 
 ユーザーのログインメールアドレス（ユーザー情報）に基づき，アプリに表示されるデータがフィルターされるようにしましょう。
 
-* 「**データ**」セクションに移動します。 
-* **クエリをフィルター**フィールドをクリックします。**フィールド・比較演算子・演算子ボタン**が表示されるはずです。
-* **演算子**ボタンをクリックし，**AND**を選択します。
-* **:email**，つまりデータベースメソッドの中で参照したいユーザー情報を入力します。
-* **検証**ボタンをクリックし，フィルターを確定してください。 これを忘れてしまうと，アプリがビルドできません。
+* Go to the **Data section**.
+* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
+* Click on the **Operators** button and select **AND**.
+* Now define the user information you want to get from the database method, **:email**.
+* Remember to validate the query by clicking on the **Validate** button. これを忘れてしまうと，アプリがビルドできません。
 
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/user-information-query.png)
 
@@ -17,12 +17,14 @@ title: ユーザー情報に基づくクエリ
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-このクエリフィルターを通過することができるのは，ステータスが**&apos;In Progress&apos;**であり，かつ，**営業担当者のメールアドレス**（*Ｎ対１リレーション*により，AccountManagerテーブルから取得）が合致するデータだけです。<div class = "tips"> 
+The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
 
+<div markdown="1" class = "tips">
 **注記**
 
 * A **user icon** is displayed on the right of each table when a user information filter is applied to it.
-* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.</div> 
+* As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.
+</div>
 
 Add the following line in the database method:
 
@@ -37,3 +39,7 @@ This will allow retrieving the manager's login email address and displaying data
 Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
+
+
+
+
