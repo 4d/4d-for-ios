@@ -13,9 +13,9 @@ Desde aquí, puede seleccionar formatos específicos según sus necesidades. Vam
 
 Hagamos el mismo proceso para todos los otros campos:
 
-* Defina Current Balance con el formato **Currency $**
-* Defina Percent Used como el formato **Percentage**
-* Defina Credit Limit con el formato **No or Yes**
-* Defina Credit Date con el formato **Short Date**
+* Set Current Balance as a **Currency $**
+* Set Percent Used as a **Percentage**
+* Set Credit Limit as a **No or Yes**
+* Set Credit Date as a **Short Date**
 
 ![Select field formatters](assets/en/data-formatter/select-field-formatters.png)
