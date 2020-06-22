@@ -3,19 +3,18 @@ id: one-to-many-relations-actions
 title: １対Ｎとアクション
 ---
 
-<div class = "objectives">
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-We are now going to go a little bit further and **create a task for a specific employee**.</div>
+We are now going to go a little bit further and **create a task for a specific employee**.
+</div>
 
 It is very easy to create an entity using **parent Entity** !
 
 素材プロジェクトをダウンロードしてください。
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
-  </p>
 </div>
 
 ## addProject アクションを作成する
@@ -99,9 +98,7 @@ $0:=$out
 
 And that's it you can then add some task to your employees easily using the parent Entity !
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
-  </p>
 </div>
