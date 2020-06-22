@@ -3,15 +3,15 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-<div class = "objectives"> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
+</div>
 
-**OBJECTIFS**
-
-Souscrire à l'Apple Developer Enterprise Program pour déployer son application en **interne**.</div> <div class = "tips"> 
-
+<div markdown="1" class = "tips">
 **NOTE**
-
-Pour souscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et doit être associé à une adresse e-mail.</div> 
+Pour souscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et doit être associé à une adresse e-mail.
+</div>
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -45,7 +45,7 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 ![Demandez un numéro D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Cliquez sur **Continue**.
+* Click **Continue**.
 * Vérifiez votre e-mail pour obtenir le numéro D-U-N-S.
 
 ![Numéro D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -54,23 +54,23 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 
 Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enroll/) en tant que développeur.
 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Lisez et acceptez les termes du contrat "Apple Developer Agreement". 
-* Cliquez sur **Submit**.
+* Click on the **Start your Enrollment** button.
+* Lisez et acceptez les termes du contrat "Apple Developer Agreement".
+* Click **Submit**.
 
 ![Souscrivez en tant que développeur](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 6. Souscrivez à l'Apple Developer Enterprise Program
 
-* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program. 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Sélectionnez **Company / Organization** dans la liste déroulante "Entity Type".
-* Cliquez sur **Continue**.
+* Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program.
+* Click on the **Start your Enrollment** button.
+* Select **Company / Organization** from the Entity Type dropdown list.
+* Click **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
-* Remplissez le formulaire. 
-* Cliquez sur **Continue**.
+* Remplissez le formulaire.
+* Click **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 
@@ -87,4 +87,4 @@ Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enro
 * Une fois que votre demande de souscription est acceptée, vous pouvez procéder au paiement.
 * Lorsque vous aurez finalisé votre achat, vous recevrez un e-mail de confirmation de votre adhésion au programme.
 
-Félicitations  ! vous êtes maintenant prêts à déployer votre application enb interne !
+Congratulations ... you're now ready to deploy your application in-house!
