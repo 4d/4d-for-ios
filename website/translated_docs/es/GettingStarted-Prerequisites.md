@@ -6,14 +6,14 @@ title: Prerrequisitos
 ## Requisitos de software
 
 * 4D Developer Pro v17 R2 64 bits (Desarrollo)
-* 4D Server v17 R2 64 bits (Despliegue) 
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional). 
+* 4D Server v17 R2 64 bits (Despliegue)
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional).
 
-Apple configurator 2 necesita **macOS 10.14** o superior. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
+Apple configurator 2 requires **macOS 10.14** or later. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
 
-Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
+Xcode 10.2 requieres **macOS 10.14** or later.
 
-## Tabla de comparación de las versiones
+## Tabla de comparación de versión
 
 | Xcode  | Swift | iOS      | 4D   | iOS 13.0 |
 | ------ | ----- | -------- | ---- | -------- |
@@ -32,7 +32,7 @@ Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
 
 4D 17R6 requiere Swift5.0 runtime. (ya instalado con macOS 10.14.4)
 
-* Instale `Swift 5 Runtime Support for Command Line Tools` desde [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ - Instale `Swift 5 Runtime Support for Command Line Tools` desde [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Utilización de 17R4 con Xcode 10.2
 
@@ -51,7 +51,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## Configuración
 
-* En las propiedades de la base 4D, visualice la página de compatibilidad y marque la casilla ** Utilizar la notación de objetos para acceder a las propiedades de los objetos (se requiere Unicode).**
+* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
