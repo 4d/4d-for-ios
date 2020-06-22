@@ -5,9 +5,9 @@ title: Structure
 
 Cette section affiche tous les champs et les tables de votre base de données.
 
-![Structure section](assets/fr/project-editor/Structure-section-4D-for-iOS.png)
+![Section Structure](assets/fr/project-editor/Structure-section-4D-for-iOS.png)
 
-Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques. 
+Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire dans les appareils mobiles en sélectionnant des champs et des tables spécifiques.
 
 * les tables sélectionnées seront automatiquement ajoutées aux onglets de votre application.
 * les champs sélectionnés seront disponibles plus tard, lorsque vous définirez vos formulaires Liste et vos formulaires détaillés.
@@ -18,17 +18,18 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.<div class = "tips"> 
+Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.
 
+<div markdown="1" class = "tips">
 **ASTUCES**
-
-Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.</div> 
+Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.
+</div>
 
 ## Liens 1 vers N
 
 ### Les liens 1 vers N dans l'éditeur de projet
 
-Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
+Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
 Il vous suffit de :
 
@@ -50,6 +51,8 @@ Un bouton Lien sera créé dans les formulaires détaillés, pour vous permettre
 
 Des [tutoriels](one-to-many-relations.html) sont à votre disposition pour vous aider à utiliser les liens 1 vers N dans votre projet 4D for iOS.
 
+
+
 ## Rechargement incrémental
 
 ### Autoriser les modifications de la structure
@@ -58,16 +61,17 @@ Dans 4D v17 R5, le rechargement de 4D for iOS devient incrémental. Cela signifi
 
 Pour ce faire, 4D for iOS doit optimiser la structure et créer :
 
-* Une table ```__DeletedRecords``` pour stocker les enregistrements supprimés, et
-* Des champs ```__GlobalStamp``` pour stocker les modifications pour chaque table publiée dans votre application mobile
+* A `__DeletedRecords` table to store deleted records
+* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
 
 Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessaires de la structure pour optimiser la mise à jour des données mobiles.
 
-Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches requises afin que vous profitiez pleinement des avantages du rechargement incrémental des données.<div class = "tips"> 
+Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches requises afin que vous profitiez pleinement des avantages du rechargement incrémental des données.
 
+<div markdown="1" class = "tips">
 **NOTE**
-
-Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.</div> 
+Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.
+</div>
 
 ### Tirer pour rafraîchir !
 
@@ -75,8 +79,9 @@ Du côté d'iOS, vos données sont actualisées chaque fois que vous lancez votr
 
 En utilisation normale, glissez simplement vers le bas n’importe quel formulaire Liste pour recharger vos données.
 
-À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application.<div class = "tips"> 
+À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application. 
 
+<div markdown="1" class = "tips">
 **NOTE**
-
-Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction</div>
+Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction
+</div>
