@@ -1,20 +1,20 @@
 ---
 id: icon-listform-template
-title: List form icon
+title: Iconos de formularios Lista
 ---
 
 Puede crear su propio icono para una plantilla de formulario Lista.
 
-Debe ser de 160px x 160px y debe llamarse **layoutIconx2.png**.
+It must be 160px x 160px and must be named **layoutIconx2.png**.
 
 El icono se utilizará:
 
 * sobre el nombre de la tabla cuando la plantilla haya sido seleccionada, y
-* en la ventana de selección de plantillas en la **sección Formularios**
+* in the template selector window in the **Forms section**
 
 ![Custom listform template](assets/en/custom-listform/custom-listform-template.png)
 
-Si este icono no está en la carpeta de plantillas de formulario Lista, el archivo **template.svg** (lo veremos más adelante) se mostrará en la ventana del selector de plantillas y aparecerá un icono de signo de interrogación sobre cada tabla a la que le falte un icono.
+If this icon is missing from your list form template folder, the **template.svg** file (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon.
 
 ![Missing listform icon custom template](assets/en/custom-listform/missing-listform-icon-custom-template.png)
 
