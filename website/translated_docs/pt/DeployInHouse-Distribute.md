@@ -3,11 +3,10 @@ id: deploy-in-house-distribution
 title: Distribua seu app in-House
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIVES**
-
-Upload your app to a secured server.</div> 
+<div markdown="1" class = "objectives">
+**OBJETIVOS**
+Upload your app to a secured server.
+</div>
 
 ## PASSO 1. Suba sua aplicação
 
@@ -17,19 +16,21 @@ Upload your app files to a secured server:
 * Arquivo manifest.plist
 * arquivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).<div class = "tips"> 
+You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
 
+<div markdown="1" class = "tips">
 **NOTA **
-
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.</div> 
+Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
+</div>
 
 ## PASSO 2. Crie o link da instalação
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 This link can be used when sending emails, embedded in an html page, or even within a QR code.
 
@@ -47,9 +48,9 @@ Here is a simple example:
 
 * Quando abrir pela primeira vez um app empresarial que instalou manualmente, uma notificação será exibida que indica que o desenvolvedor da aplicação não é de confiança em seu dispositivo.
 
-* Ignore essa mensagem e clique **Cancel**.
+* Ignore this message and click **Cancel**.
 
-* Em Settings > General > Profiles ou Profiles & Device Management, no cabeçalho "Enterprise App", se lista o perfil do desenvolvedor.
+* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
@@ -59,4 +60,4 @@ Here is a simple example:
 
 * Depois pode ir à sua aplicação e abri-la.
 
-Parabéns ... you can now distribute your first app in-house!
+Congratulations ... you can now distribute your first app in-house!
