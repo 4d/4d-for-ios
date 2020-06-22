@@ -33,13 +33,15 @@ For fields, you will be able to define the following properties:
 * **Icons**
 * **Formats:** for exemple to display currencies or percentage
 
-Those elements will be displayed in detail and list forms, depending on the template in the generated app.<div class = "tips"> 
+Those elements will be displayed in detail and list forms, depending on the template in the generated app.
 
+<div markdown="1" class = "tips">
 **TIPS**
 
 * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
 
-* You can also leave the icon area empty if you don’t want to display icons in your application.</div> 
+* You can also leave the icon area empty if you don’t want to display icons in your application.
+</div>
 
 ## Relations properties
 
@@ -50,3 +52,8 @@ For Relation, you will be able to define the following properties:
 * **Short and Long labels:** displayed in the Relation button that allows to open a related table
 * **Icons:** displayed at the left of the Relation button
 * **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+
+
+
+
+
