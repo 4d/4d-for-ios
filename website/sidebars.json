@@ -6,7 +6,8 @@
     "Selecting your Developer Program": ["deployment","free-developer-account","register-apple-developer-enterprise-program","register-apple-developer-program-organization","register-apple-developer-program-individual"],
     "Testing and Building": ["simulator","install-device"],
     "Deploying In-House": ["deploy-in-house-archive-and-export","deploy-in-house-distribution"],
-    "Deploying on App Store": ["deploy-app-store-app-store-connect","deploy-app-store-archive-and-upload"]
+    "Deploying on App Store": ["deploy-app-store-app-store-connect","deploy-app-store-archive-and-upload"],
+    "Debugging": ["debugging-from-the-project-editor","debugging-from-xcode","debugging-from-iphone"]
 
   },
 
