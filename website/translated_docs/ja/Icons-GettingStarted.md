@@ -3,15 +3,15 @@ id: using-icons
 title: アイコン
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
+Use your own icons in 4D for iOS projects.
+</div>
 
-Use your own icons in 4D for iOS projects.</div> <div class = "prerequisites"> 
-
+<div markdown="1" class = "prerequisites">
 **PREREQUISITES**
-
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
+</div>
 
 4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 
