@@ -1,25 +1,24 @@
 ---
 id: svg-file-detailform-template
-title: Template.svg
-sidebar_label: Template.svg
+title: template.svg
+sidebar_label: template.svg
 ---
 
 template.svgは，テンプレートのレイアウトを視覚的に表現するためのファイルです。 プロジェクターエディターでリストフォームのテンプレートにフィールドが追加できるように，ドラッグ＆ドロップ用のエリアを定義しておきます。
 
 図は完成したファイルのイメージです。
 
-![テンプレートSVGファイル](assets/en/custom-detailform/detailform-template-svg-file.png)
+![SVGファイルを編集する](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-フィールド数は可変になっており，１個**ピクチャ**と最大で **８個**のフィールドが追加できるようになっています。 「フォーム」セクションの詳細画面エディターでは，最後にドラッグ＆ドロップしたフィールドの下に空白のフィールドが現れるようになっているので，フィールドをさらに追加することができます。
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. 「フォーム」セクションの詳細画面エディターでは，最後にドラッグ＆ドロップしたフィールドの下に空白のフィールドが現れるようになっているので，フィールドをさらに追加することができます。
 
-![テンプレートSVGファイル](assets/en/custom-detailform/detailform-dynamic-field-number.png)
+![SVGファイルを編集する](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
 使い慣れたコードエディターでtemplate.svgファイルを開きます。
 
 各部分の役割とカスタマイズできる箇所に注目しましょう。
 
 ## タイトル要素（title）
-
 ```xml
 <title>Custom Detail form</title>
 ```
@@ -28,33 +27,34 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 ## フィールドリスト（ios:values）
 
-    ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
-    
+```
+ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
+```
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: 詳細画面に表示されるフィールドのリストです。 フィールドは，ドラッグ＆ドロップで追加することができます。
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. フィールドは，ドラッグ＆ドロップで追加することができます。
 
 ## エリアの位置とサイズ（position, height, width, type）
-
-You can define position, height, and width for all of your fields like we did for the [Custom list view tutorial](creating-listform.html).
+You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
 ### 繰り返されるフィールドのプロパティ
 
-    //1
-    <g id="f" visibility="hidden" ios:dy="35">
-    
-    //2
-    <rect class="bg field" x="14" y="0" width="238" height="30"/>
-    
-    //3
-    <textArea id="f.label" class="label" x="14" y="8" width="238">field[n]</textArea>
-    
-    //4
-    <rect id="f" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35"/>
-    
-    //5
-    <use id="f.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    
+```
+//1
+<g id="f" visibility="hidden" ios:dy="35">
+
+//2
+<rect class="bg field" x="14" y="0" width="238" height="30"/>
+
+//3
+<textArea id="f.label" class="label" x="14" y="8" width="238">field[n]</textArea>
+
+//4
+<rect id="f" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35"/>
+
+//5
+<use id="f.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
+</g>
+```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
@@ -64,25 +64,26 @@ You can define position, height, and width for all of your fields like we did fo
 
 ### ピクチャフィールド
 
-    //1
-    <g transform="translate(0,60)">
-    
-    //2
-    <rect class="bg field" x="15" y="0" width="236" height="65"/>
-    
-    //3
-    <path class="picture" transform="translate(10 0) scale(6)"/>
-    
-    //4
-    <textArea id="f1.label" class="label" x="15" y="25" width="236">$4DEVAL(:C991("picture"))</textArea>
-    
-    //5
-    <rect id="f1" class="droppable field" x="15" y="0" width="236" height="65" stroke-dasharray="5,2" ios:type="3" ios:bind="fields[0]"/>
-    
-    //6
-    <use id="f1.cancel" x="222" y="20" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    
+```
+//1
+<g transform="translate(0,60)">
+
+//2
+<rect class="bg field" x="15" y="0" width="236" height="65"/>
+
+//3
+<path class="picture" transform="translate(10 0) scale(6)"/>
+
+//4
+<textArea id="f1.label" class="label" x="15" y="25" width="236">$4DEVAL(:C991("picture"))</textArea>
+
+//5
+<rect id="f1" class="droppable field" x="15" y="0" width="236" height="65" stroke-dasharray="5,2" ios:type="3" ios:bind="fields[0]"/>
+
+//6
+<use id="f1.cancel" x="222" y="20" xlink:href="#cancel" visibility="hidden"/>
+</g>
+```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
@@ -91,28 +92,30 @@ You can define position, height, and width for all of your fields like we did fo
 5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
+
 ### 繰り返されるフィールド
 
-    //1
-    <g id="multivalued">
-    
-    //2
-    <g transform="translate(0,140)">
-    
-    //3
-    <rect class="bg field" x="14" y="0" width="238" height="30"/>
-    
-    //4
-    <textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
-    
-    //5
-    <rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
-    
-    //6
-    <use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    </g>
-    
+```
+//1
+<g id="multivalued">
+
+//2
+<g transform="translate(0,140)">
+
+//3
+<rect class="bg field" x="14" y="0" width="238" height="30"/>
+
+//4
+<textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
+
+//5
+<rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
+
+//6
+<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
+</g>
+</g>
+```
 
 1. 繰り返されるフィールドの動的ID
 2. エリア全体の垂直位置です。（g要素のtransform属性）
@@ -121,14 +124,17 @@ You can define position, height, and width for all of your fields like we did fo
 5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!<div class = "tips"> 
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 
+<div markdown="1" class = "tips">
 **注記**
+All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+</div>
 
-All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> <div class = "tips"> 
-
+<div markdown="1" class = "tips">
 **TIP**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. たとえば ```ios:type="-3,-4"``` 上記は，ピクチャと日付以外のフィールドがドロップできる，という意味になります。
+* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
 
-* To include all types, just type ```ios:type="all"```.</div>
+* To include all types, just type `ios:type="all"`.
+</div>
