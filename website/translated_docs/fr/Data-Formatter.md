@@ -5,24 +5,22 @@ title: Format des données
 
 4D v17 R3 intègre un nouveau concept : le format des données !
 
-Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.<div class = "tips"> 
+Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.
 
+<div markdown="1" class = "tips">
 Formats disponibles :
 
-* **Text** : Texte
-* **Date** : Date, date courte, date longue, date complète
-* **Heure** : Heure, Heure courte, Durée, Nombre entier
-* **Booléen** : "Oui" ou "Non", "Faux" ou "Vrai"
-* **Nombre entier** : Nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres</div> 
+* **Text**: Text
+*  **Date**: Date, Short date, Long date, Full date
+*  **Time**: Time, Short time, Duration, Integer number
+*  **Boolean**: "No" or "Yes", "False" or "True"
+*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
+</div>
 
 Commençons par télécharger le Projet Starter :
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">PROJET STARTER DES FORMATS PERSONNALISÉS</a>
-
-  </p>
 </div>
+
