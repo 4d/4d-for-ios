@@ -7,14 +7,13 @@ El archivo template.svg es una representación visual básica de una plantilla. 
 
 Aquí hay una versión final:
 
-![Template svg file](assets/en/custom-listform/template-svg-file.png)
+![Archivo Template svg](assets/en/custom-listform/template-svg-file.png)
 
 Abra el archivo template.svg con su editor de código favorito.
 
 Centrémonos en las diferentes partes de su archivo SVG y en lo que necesitará editar.
 
 ## Título
-
 ```xml
 <title>Custom List form</title>
 ```
@@ -29,12 +28,11 @@ Agregue el título de su plantilla aquí.
 
 Incluye las identificaciones que definen sus áreas de formulario:
 
-* **search ID**: se refiere al área del campo de búsqueda. Esto le permitirá arrastrar y soltar un campo como criterio de búsqueda en su formulario Lista (opcional).
-* **section ID**: Se refiere al área de campo de la sección. Esto le permitirá arrastrar y soltar un campo como criterio de ordenación en su formulario Lista (opcional).
-* **f1, f2 y f3**: se refiere a los campos a mostrar en cada celda de su formulario listado. Esto le permitirá arrastrar y soltar campos para que aparezcan en las celdas de su formulario Lista.
+* **search ID**: Refers to the search field area. Esto le permitirá arrastrar y soltar un campo como criterio de búsqueda en su formulario Lista (opcional).
+*  **section ID**: Refers to the section field area. Esto le permitirá arrastrar y soltar un campo como criterio de ordenación en su formulario Lista (opcional).
+*  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. Esto le permitirá arrastrar y soltar campos para que aparezcan en las celdas de su formulario Lista.
 
 ## Posición, alto, ancho y tipo del área
-
 Puede definir la posición, el alto y ancho para:
 
 * Searchfield
@@ -68,124 +66,123 @@ Puede definir la posición, el alto y ancho para:
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar un icono de lupa en el campo de búsqueda
 4. Definir la posición del área de texto y el ancho
-5. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
+5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-El "searchable field" (campo de búsqueda) es opcional.<div class = "tips"> 
+El "searchable field" (campo de búsqueda) es opcional.
 
+<div markdown="1" class = "tips">
 **NOTA**
-
-Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).</div> 
-
+Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+</div>
 <
-
 div markdown="1" class = "tips">
-
 **CONSEJO**
-
-Para facilitar la definición de los tipos de campos, 4D for iOS le permite incluir tipos de campo con ** valores positivos ** y también excluir los tipos de campo con ** valores negativos **. Por ejemplo, ```ios:type="-3,-4"``` le permitirá arrastrar y soltar todos los campos excepto las imágenes y las fechas.
-
+To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
 Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". </div>
 
 ### Área SectionField:
 
-    //1
-    <rect class="bg field" x="10" y="110" width="246" height="30”/>
-    
-    //2
-    <textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
-    
-    //3
-    <rect id="section" class="droppable optional" x="10" y="110" width="246" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="sectionField”/>
-    
-    //4
-    <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
-    
+```
+//1
+<rect class="bg field" x="10" y="110" width="246" height="30”/>
+
+//2
+<textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
+
+//3
+<rect id="section" class="droppable optional" x="10" y="110" width="246" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="sectionField”/>
+
+//4
+<use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
+```
 
 1. Posición, alto y ancho del área de fondo
 2. Definir la posición del área de texto y el ancho
-3. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
-4. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
+3. Define the droppable field position, height and width as well as accepted **field types**
+4. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 El campo de sección es opcional.
 
 ### Área ImageField:
 
-    //1
-    <g transform="translate(0,162)">
-    
-    //2
-    <rect class="bg field" x="14" y="0" width="60" height="65"/>
-    
-    //3
-    <path class="picture" transform="translate(-60 0) scale(5)"/>
-    
-    //4
-    <textArea id="f1.label" class="label" x="14" y="30" width="60">$4DEVAL(:C991("picture"))</textArea>
-    
-    //5
-    <rect id="f1" class="droppable field" x="14" y="0" width="60" height="65" stroke-dasharray="5,2" ios:type="3" ios:bind="fields[0]"/>
-    
-    //6
-    <use id="f1.cancel" x="47" y="-2" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    
+```
+//1
+<g transform="translate(0,162)">
+
+//2
+<rect class="bg field" x="14" y="0" width="60" height="65"/>
+
+//3
+<path class="picture" transform="translate(-60 0) scale(5)"/>
+
+//4
+<textArea id="f1.label" class="label" x="14" y="30" width="60">$4DEVAL(:C991("picture"))</textArea>
+
+//5
+<rect id="f1" class="droppable field" x="14" y="0" width="60" height="65" stroke-dasharray="5,2" ios:type="3" ios:bind="fields[0]"/>
+
+//6
+<use id="f1.cancel" x="47" y="-2" xlink:href="#cancel" visibility="hidden"/>
+</g>
+```
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar una imagen en el imageField
 4. Definir la posición del área de texto y el ancho
-5. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
-6. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
+5. Define the droppable field position, height and width as well as accepted **field types**
+6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 ### Área Title Field:
 
-    //1
-    <g transform="translate(0,162)”>
-    
-    //2
-    <rect class="bg field" x="84" y="0" width="168" height="30”/>
-    
-    //3
-    <textArea id="f2.label" class="label" x="84" y="8" width="168">$4DEVAL(:C991("titleField"))</textArea>
-    
-    //4
-    <rect id="f2" class="droppable field" x="84" y="0" width="168" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]”/>
-    
-    //5
-    <use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    
+```
+//1
+<g transform="translate(0,162)”>
+
+//2
+<rect class="bg field" x="84" y="0" width="168" height="30”/>
+
+//3
+<textArea id="f2.label" class="label" x="84" y="8" width="168">$4DEVAL(:C991("titleField"))</textArea>
+
+//4
+<rect id="f2" class="droppable field" x="84" y="0" width="168" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]”/>
+
+//5
+<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
+</g>
+```
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Definir la posición del área de texto y el ancho
-4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
-5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
+4. Define the droppable field position, height and width as well as accepted **field types**
+5. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 ### Área Subtitle Field:
+```
+//1
+<g transform="translate(0,198)”>
 
-    //1
-    <g transform="translate(0,198)”>
-    
-    //2
-    <rect class="bg field" x="84" y="0" width="168" height="30”/>
-    
-    //3
-    <textArea id="f3.label" class="label" x="84" y="8" width="168">$4DEVAL(:C991("subtitleField"))</textArea>
-    
-    //4
-    <rect id="f3" class="droppable field" x="84" y="0" width="168" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[2]”/>
-    
-    //5
-    <use id="f3.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-    </g>
-    
+//2
+<rect class="bg field" x="84" y="0" width="168" height="30”/>
+
+//3
+<textArea id="f3.label" class="label" x="84" y="8" width="168">$4DEVAL(:C991("subtitleField"))</textArea>
+
+//4
+<rect id="f3" class="droppable field" x="84" y="0" width="168" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[2]”/>
+
+//5
+<use id="f3.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
+</g>
+```
 
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Definir la posición del área de texto y el ancho
-4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
-5. Definir un botón de cancelación que se mostrará para eliminar el contenido actual
+4. Define the droppable field position, height and width as well as accepted **field types**
+5. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**,... ¡Pasemos a la parte divertida, con Xcode!
+Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
