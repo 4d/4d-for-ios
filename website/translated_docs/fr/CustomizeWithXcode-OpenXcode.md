@@ -3,29 +3,25 @@ id: open-xcode
 title: Travailler avec Xcode
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
 
 * Ouvrir un projet 4D for iOS depuis l’éditeur de projet.
-* Personnaliser l’application 4D for iOS qui est générée.</div> 
+* Personnaliser l’application 4D for iOS qui est générée.
+</div>
 
-4D for iOS vous génère une application iOS native modifiable et personnalisable avec Xcode. Jetons un œil au processus !<div class = "tips"> 
+4D for iOS vous génère une application iOS native modifiable et personnalisable avec Xcode. Jetons un œil au processus !
 
+<div markdown="1" class = "tips">
 **NOTE**
-
-Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !</div> 
+Si vous personnalisez votre projet sur Xcode et que vous le regénérez depuis l'éditeur de projet, toutes vos modifications seront perdues !
+</div>
 
 Nous allons utiliser [ici](contact-app.html) l'application Contacts que nous avons créée. Pensez à télécharger le projet Starter !
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
-
-  </p>
 </div>
 
 ## ÉTAPE 1. Créez votre projet iOS
@@ -38,15 +34,15 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROJET STARTER</a>
 À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
-* Cliquez sur le bouton **Créer & exécuter**.
+* Click the **Build and Run** button.
 
-![Créer & exécuter](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
 ## ÉTAPE 3. Ouvrez votre projet avec Xcode
 
 À partir de l'onglet GÉNÉRATION de l'éditeur de projet :
 
-* Cliquez sur Projet > Ouvrir le produit avec Xcode
+* Click on Project > Open the project with Xcode
 
 ![Ouvrez votre projet avec Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
