@@ -9,7 +9,7 @@
         "title": "Définir une première action"
       },
       "actions-getting-started": {
-        "title": "Initiation"
+        "title": "Prise en main"
       },
       "action-custom-template": {
         "title": "Ajouter des actions aux modèles"
@@ -223,7 +223,7 @@
         "title": "Organiser un projet 4D for iOS"
       },
       "version-18.0/version-18.0-customize-your-ios-app": {
-        "title": "Personnaliser son application 4D for iOS"
+        "title": "Personnaliser une application 4D for iOS"
       },
       "version-18.0/version-18.0-open-xcode": {
         "title": "Travailler avec Xcode"
@@ -232,13 +232,13 @@
         "title": "Présentation de Xcode"
       },
       "version-18.0/version-18.0-data-formatter-build-and-run": {
-        "title": "Créer et exécuter votre projet"
+        "title": "Créer et exécuter un projet"
       },
       "version-18.0/version-18.0-creating-data-formatter": {
-        "title": "Créer le format de données"
+        "title": "Créer un format de données"
       },
       "version-18.0/version-18.0-data-formatter-mobile-project": {
-        "title": "Ouvrez un projet mobile"
+        "title": "Ouvrir un projet mobile"
       },
       "version-18.0/version-18.0-data-formatter": {
         "title": "Format des données"
@@ -271,7 +271,7 @@
         "title": "Modèles de formulaires détaillés"
       },
       "version-18.0/version-18.0-icon-detailform-template": {
-        "title": "Icône du formulaire détaillé"
+        "title": "Icônes des formulaires détaillés"
       },
       "version-18.0/version-18.0-manifest-detailform-template": {
         "title": "Manifest.json"
@@ -290,7 +290,7 @@
         "title": "Aperçu"
       },
       "version-18.0/version-18.0-prerequisites": {
-        "title": "Conditions requises"
+        "title": "Conditions préalables"
       },
       "version-18.0/version-18.0-create-icons": {
         "title": "Créer des icônes"
@@ -302,13 +302,13 @@
         "title": "Inclure des icônes dans le projet"
       },
       "version-18.0/version-18.0-select-icons": {
-        "title": "Sélectionner vos icônes"
+        "title": "Choisir des icônes"
       },
       "version-18.0/version-18.0-licenses": {
         "title": "Licences"
       },
       "version-18.0/version-18.0-creating-listform-templates": {
-        "title": "Modèles de formulaire Liste"
+        "title": "Modèles de formulaires Liste"
       },
       "version-18.0/version-18.0-manifest-listform-template": {
         "title": "Manifest.json"
@@ -320,7 +320,7 @@
         "title": "Template.svg"
       },
       "version-18.0/version-18.0-icon-listform-template": {
-        "title": "Icône du formulaire Liste"
+        "title": "Icônes des formulaires Liste"
       },
       "version-18.0/version-18.0-multi-criteria-search": {
         "title": "Recherche multicritères"
@@ -347,7 +347,7 @@
         "title": "Libellés et icônes"
       },
       "version-18.0/version-18.0-main-menu": {
-        "title": "Main Menu"
+        "title": "Menu"
       },
       "version-18.0/version-18.0-publishing": {
         "title": "Publication"
@@ -365,7 +365,7 @@
         "title": "1 vers N - Bouton personnalisé"
       },
       "version-18.0/version-18.0-one-to-many-relations-title-definition": {
-        "title": "1 vers N - Définition du titre"
+        "title": "1 vers N - Titre"
       },
       "version-18.0/version-18.0-one-to-many-relations": {
         "title": "Liens 1 vers N"
@@ -374,7 +374,7 @@
         "title": "Format des données"
       },
       "version-18.0/version-18.0-custom-detailform-templates": {
-        "title": "Modèles des formulaires détaillés"
+        "title": "Modèles de formulaires détaillés"
       },
       "version-18.0/version-18.0-custom-listform-templates": {
         "title": "Modèles de formulaires Liste"
@@ -383,10 +383,10 @@
         "title": "Définir un filtre de recherche"
       },
       "version-18.0/version-18.0-filter-query-introduction": {
-        "title": "Requêtes limitées"
+        "title": "Recherche restreinte"
       },
       "version-18.0/version-18.0-user-information-query": {
-        "title": "Filtre de recherche utilisateur"
+        "title": "Filtre de recherche - informations utilisateur"
       },
       "version-18.0/version-18.0-template": {
         "title": "Modèles & Formats"
@@ -432,7 +432,7 @@
     }
   },
   "pages-strings": {
-    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives",
+    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez des Apps iOS natives en toute facilité",
     "Overview|no description given": "Aperçu",
     "Create|no description given": "Créez",
     "Test|no description given": "Testez",
