@@ -11,7 +11,7 @@ Here's the result we want to achieve:
 
 For each cell, we're going to add a:
 
-* Profile header image 
+* Profile header image
 * A field to be duplicated
 
 ## Open the storyboard file with Xcode
@@ -28,9 +28,11 @@ For our detail form to be scrollable, the first step is to drag and drop a "Scro
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
+
 From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. Then set the X value to 8 and the Y value to 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
+
 
 Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
 
@@ -53,6 +55,7 @@ Drag and drop a view from the **Object library** to the Stack View you've just a
 Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
+
 
 To add space between the views, select your Stack View and set the spacing value to 8 (in the Attributes Inspector).
 
@@ -84,7 +87,7 @@ Now that you have two views in your Stack View and you've defined constraints, l
 
 ## Add an Image View to Field View 1
 
-From the **Object library**, drag and drop an **Image View** into Field View 1.
+From the **Object library**, drag and drop an  **Image View** into Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
@@ -104,11 +107,11 @@ In the **Size inspector panel** change the Intrinsic Size from **Default** to **
 
 ### Title label
 
-In the **Object library**, drag and drop a **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
+In the **Object library**, drag and drop a  **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Then set the X value to 8 and the Y value to 8.
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "```___FIELD_LABEL___```". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Double click on the label and name it "`___FIELD_LABEL___`". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
 
 ![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
 
@@ -118,7 +121,7 @@ Duplicate the Title label and set the duplicate's Width value to 339 and the Hei
 
 ![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "```<___FIELD_LABEL___>```". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Double click on the label and name it "`<___FIELD_LABEL___>`". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
@@ -131,16 +134,15 @@ You're done with graphical elements! All of your constraints are well defined :)
 ## How to get data into your cells
 
 ### Image View
-
 Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path**: Start with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
 
-* **Type**: Always ```String```
+* **Type**: Always `String`
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
@@ -150,17 +152,17 @@ For the **first label** we are going to add several lines mainly to display icon
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to ```IconLabel``` and check the **Inherit Module From Target** checkbox as we can see below:
+You also need to set the Class to `IconLabel` and check the **Inherit Module From Target** checkbox as we can see below:
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
 Select the **second label** and add a row in the Defined Runtime Attributes:
 
-* **Key Path**: ```bindTo.record.___FIELD___```
+* **Key Path**: `bindTo.record.___FIELD___`
 
-* **Type**: ```String```
+* **Type**: `String`
 
-* **Value**: ```___FIELD_BINDING_TYPE___```
+* **Value**: `___FIELD_BINDING_TYPE___`
 
 ![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -228,17 +230,17 @@ We're going to add a corner radius to the Image View, as well as Field View 2.
 
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 and
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Boolean```
+* **Type**: `Boolean`
 
 * **Value**: Check the box
 
@@ -246,11 +248,11 @@ and
 
 Next, select Field View 2 and add the following:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 ![iPhone Demo](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
@@ -262,12 +264,11 @@ You can now build your project from the project editor!
 
 In this tutorial, we've covered the basics for creating detail form templates. You can now create simple templates on your own using the Starter Project resources. Click on **Final Project** below to download the completed template folder.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
-
-  </p>
 </div>
+
+
+
+
