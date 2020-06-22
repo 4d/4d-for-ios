@@ -13,17 +13,19 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## BrightFutures
 
 Licencia MIT
 
 Copyright (c) 2014 Thomas Visser
 
-Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia. de este software y los archivos de documentación asociados (el "Software"), para en el Software sin restricción, incluyendo sin limitación los derechos para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y / o vender copias del Software, y para permitir que las personas a las que el Software está Amueblado para ello, sujeto a las siguientes condiciones:
+Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), sin restricción y sin limitación, el derecho a utilizar, reproducir, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y de permitir a las personas a las que se les ha facilitado el Software, sujeto a las siguientes condiciones:
 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## CallbackURLKit
 
@@ -37,6 +39,7 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## DeviceKit
 
 Copyright (c) 2015 Dennis Weissmann
@@ -47,17 +50,19 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## FileKit
 
 Licencia MIT
 
 Copyright (c) 2015-2016 Nikolai Vazquez
 
-Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para en el Software sin restricción, incluyendo sin limitación los derechos para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y para permitir que las personas a las que el Software está Amueblado para ello, sujeto a las siguientes condiciones:
+Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), sin restricción y sin limitación, el derecho a utilizar, reproducir, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y de permitir a las personas a las que se les ha facilitado el Software, sujeto a las siguientes condiciones:
 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## Guitar
 
@@ -71,6 +76,7 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## IBAnimatable
 
 Licencia MIT
@@ -82,6 +88,7 @@ Por la presente, se otorga el permiso de forma gratuita a cualquier persona que 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## Kingfisher
 
@@ -95,6 +102,7 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## Prephirences
 
 Licencia MIT
@@ -106,6 +114,7 @@ Por la presente, se otorga el permiso de forma gratuita a cualquier persona que 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## Result
 
@@ -119,6 +128,7 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## SwiftMessages
 
 Copyright (c) 2016 SwiftKick Mobile LLC
@@ -128,6 +138,7 @@ Por la presente, se otorga el permiso de forma gratuita a cualquier persona que 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## SwiftyJSON
 
@@ -141,6 +152,7 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## ValueTransformerKit
 
 Licencia MIT
@@ -152,6 +164,7 @@ Por la presente, se otorga el permiso de forma gratuita a cualquier persona que 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
+
 
 ## XCGLogger
 
@@ -165,13 +178,14 @@ La notificación de derechos de autor anterior y este aviso de permiso se inclui
 
 *EL SOFTWARE SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN A UN USO PARTICULAR Y NO INCUMPLIMIENTO. EN NINGÚN CASO, LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SE HACEN RESPONSABLES POR CUALQUIER RECLAMACIÓN, DAÑO U OTRO LA RESPONSABILIDAD, YA SEA DE EN UNA ACCIÓN CONTRACTUAL, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS MANIPULACIONES DEL SOFTWARE.*
 
+
 ## ZIPFoundation
 
 Licencia MIT
 
 Copyright (c) 2017 Thomas Zoechling
 
-Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia. de este software y los archivos de documentación asociados (el "Software"), para en el Software sin restricción, incluyendo sin limitación los derechos para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y para permitir que las personas a las que el Software está Amueblado para ello, sujeto a las siguientes condiciones:
+Por la presente, se otorga el permiso de forma gratuita a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), sin restricción y sin limitación, el derecho a utilizar, reproducir, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y de permitir a las personas a las que se les ha facilitado el Software, sujeto a las siguientes condiciones:
 
 La notificación de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
