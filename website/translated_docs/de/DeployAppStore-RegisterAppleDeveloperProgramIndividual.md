@@ -3,11 +3,10 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program as an Individual
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-
-Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.</div> 
+Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.
+</div>
 
 ## SCHRITT 1. Apple ID
 
@@ -34,7 +33,6 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 * You can register as a developer [here](https://developer.apple.com/account/).
 
 * Read and accept the Apple Developer Agreement.
-
 * Click **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
