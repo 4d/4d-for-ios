@@ -3,26 +3,24 @@ id: deploy-app-store-archive-and-upload
 title: Archiver et télécharger un projet
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Archiver et publier un projet sur l'App Store Connect.</div> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Archiver et publier un projet sur l'App Store Connect.
+</div>
 
 ## ÉTAPE 1. Configurez Xcode
-
-* Si vous avez choisi un compte Apple Developer, celui-ci est immédiatement disponible. 
+* Si vous avez choisi un compte Apple Developer, celui-ci est immédiatement disponible.
 * Si vous avez choisi un compte de développeur Apple en tant qu’entreprise, vous devez attendre la validation d’Apple.
-* Lorsque votre compte est accessible, ajoutez-le à Xcode dans Preferences > Accounts.
-* Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires. 
+* When your account is accessible, add it to Xcode in Preferences > Accounts.
+* Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
-* Connectez-vous à votre compte de développeur Apple. Vous trouverez votre Team ID dans Membership.
+* Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
 ![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## ÉTAPE 3. Configurez 4D for iOS
+## ÉTAPE 3. 4D for iOS configuration
 
 * Lancez 4D for iOS
 * Dans l’onglet SECTIONS :
@@ -45,17 +43,17 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ## ÉTAPE 4. Ouvrez votre projet avec Xcode
 
-* À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
+* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
 ![Ouvrez votre projet avec Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
-* À partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**.
+* From Xcode go to the simulator Menu and select **Generic iOS Device**.
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
+* Then from the menu, click on Product and select **Archive**
 
 ![Archivez votre projet à partir de Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
@@ -63,7 +61,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 * À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer.
 
-* Cliquez sur le bouton **Validate** pour démarrer le processus de validation.
+* Click on the **Validate** button to start the validation process.
 
 ![Validez votre projet](assets/en/deploy-app-store/Organizer-Project-Validation.png)
 
@@ -71,7 +69,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Vous devez ensuite re-signer votre application. Laisser à Xcode le soin de gérer cette étape en cochant l'option **Automatically manage signing**.
+* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
@@ -85,13 +83,13 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 Si une erreur se produit, un message s’affichera. Ces erreurs doivent être corrigées avant de recommencer le processus de validation.
 
-* Cliquez sur **Done**. Cela vous renverra à la fenêtre de l’organisateur.
+* Click **Done**. Cela vous renverra à la fenêtre de l’organisateur.
 
 ## ÉTAPE 7. Téléchargez sur l’App Store
 
 Une fois la validation terminée, vous êtes prêt à ajouter votre application sur l’App Store.
 
-* Cliquez sur le bouton **Upload to App Store**.
+* Click the **Upload to App Store** button.
 
 ![Téléchargez sur l’App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
@@ -101,22 +99,22 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 8. Sélectionnez la version destinée à l’App Store
 
-* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **"+"** qui apparaît dans la section Build.
+* From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
-* Sélectionnez la version que vous souhaitez envoyer et cliquez sur **Done**.
+* Select the build you want to submit and click **Done**.
 
 ![Build selection](assets/en/deploy-app-store/Select-build-app-store-connect.png)
 
-* Enfin, cliquez sur le bouton **Submit for Review**.
+* Finally, click on the **Submit for Review** button.
 
 ## ÉTAPE 9. Envoyez pour révision
 
-* La dernière étape consiste à répondre à quelques questions sur votre application. 
+* La dernière étape consiste à répondre à quelques questions sur votre application.
 
 ![Envoyez pour révision](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* Une fois l'étape des réponses aux questions terminée, cliquez sur **Submit**.
+* When you've finished with the questions, click **Submit**.
 
 * En moyenne, la durée de révision d'App Store est de deux jours !
