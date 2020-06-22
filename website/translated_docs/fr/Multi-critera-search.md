@@ -4,11 +4,10 @@ title: Recherche multicritères
 ---
 
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Activer la recherche multicritères dans vos propres modèles.</div> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Activer la recherche multicritères dans vos propres modèles.
+</div>
 
 Cette fonctionnalité est activée par défaut dans tous les modèles générés par 4D for iOS.
 
@@ -38,7 +37,7 @@ Vous pouvez allez ensuite dans l’éditeur de projet et déposer plusieurs cham
 
 Cliquez sur la croix située à droite du champ de recherche pour supprimer le champ associé et modifier la liste de tous les champs associés.
 
-Un menu s’affichera pour vous permettre de **retirer des champs spécifiques** ou de **supprimer tous les champs**, selon les critères de recherche souhaités.
+A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
 
 ![Modify Multi-criteria search fields](assets/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
