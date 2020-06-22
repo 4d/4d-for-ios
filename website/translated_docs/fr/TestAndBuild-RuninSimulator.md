@@ -3,11 +3,10 @@ id: simulator
 title: Utilisation du simulateur
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Tester une application avec le simulateur.</div> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Tester une application avec le simulateur.
+</div>
 
 Vous avez fini de développer votre application et souhaitez la tester ?
 
@@ -17,14 +16,14 @@ Vous avez fini de développer votre application et souhaitez la tester ?
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 
-## ÉTAPE 2. Créez et exécutez
+## ÉTAPE 2. Build and Run
 
-Cliquez sur le bouton **Créer & exécuter**.
+Click on the **Build and Run** button.
 
-![Créer & exécuter](assets/fr/test-build/build-and-run-4D-for-iOS.png)
+![Build and Run](assets/fr/test-build/build-and-run-4D-for-iOS.png)
 
 ## ÉTAPE 3. Testez votre application
 
 Testez la navigation entre les formulaires Liste et les formulaires détaillés dans votre application.
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 
