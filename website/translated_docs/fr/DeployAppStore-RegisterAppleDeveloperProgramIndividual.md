@@ -3,11 +3,10 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program pour les particuliers
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.</div> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.
+</div>
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -34,34 +33,33 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 * Vous pouvez souscrire [ici](https://developer.apple.com/account/) en tant que développeur .
 
 * Lisez et acceptez les termes du contrat "Apple Developer Agreement".
-
-* Cliquez sur **Submit**.
+* Click **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## ÉTAPE 4. Rejoignez l'Apple Developer Program
 
-* Cliquez sur **Join the Apple Developer Program** au bas de la page.
+* Click on **Join the Apple Developer Program** at the bottom of the page.
 
 ![Rejoignez l'Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## ÉTAPE 5. Inscrivez-vous en tant que particulier
 
-* Cliquez sur le bouton **Start your Enrollment**.
-* Sélectionnez **Individuals / Sole Proprietor / Single Person Business** dans la liste déroulante "Entity Type".
-* Cliquez sur **Continue**.
+* Click on the **Start your Enrollment** button.
+* Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
+* Click **Continue**.
 
 ![Start your Enrollment](assets/en/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
 * Remplissez le formulaire
 * Lisez et acceptez les termes du contrat de licence "Apple Developer Program License Agreement".
-* Cliquez sur **Continue**.
+* Click **Continue**.
 
 ![Inscrivez-vous en tant que particulier](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## ÉTAPE 6. Finalisez votre souscription
 
-* Cliquez sur **Purchase** et procédez au paiement pour finaliser votre souscription.
+* Click **Purchase** and make payment to complete your enrollment.
 
 ![Finalisez votre souscription](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
