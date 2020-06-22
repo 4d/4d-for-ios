@@ -4,11 +4,10 @@ title: 検索エリアに複数のフィールドを設定する
 ---
 
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-
-Activate the multi-criteria search in your own templates.</div> 
+Activate the multi-criteria search in your own templates.
+</div>
 
 This feature is activated by default in all 4D for iOS-generated templates.
 
@@ -42,4 +41,4 @@ A menu will appear to allow you to **remove specific fields** or **remove all fi
 
 ![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-Congratulations! You can now base your search(es) on multiple fields in your 4D for iOS app!
+おつかれさまでした！ You can now base your search(es) on multiple fields in your 4D for iOS app!
