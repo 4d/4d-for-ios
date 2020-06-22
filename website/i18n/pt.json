@@ -6,13 +6,13 @@
     "tagline": "Easily create and deploy custom native iOS apps",
     "docs": {
       "define-first-action": {
-        "title": "Defining your first action"
+        "title": "Definir sua primeira ação\n"
       },
       "actions-getting-started": {
         "title": "Começando"
       },
       "action-custom-template": {
-        "title": "Adding actions in templates"
+        "title": "Adicionar ações em modelos"
       },
       "action-parameters": {
         "title": "Using action parameters"
@@ -178,13 +178,13 @@
         "title": "Modelos de formulários detalhados"
       },
       "custom-listform-templates": {
-        "title": "List Forms Templates"
+        "title": "Modelos Formulário lista"
       },
       "define-filter-query": {
         "title": "Definir um filtro de pesquisa"
       },
       "filter-query-introduction": {
-        "title": "Restricted queries"
+        "title": "Pesquisas limitadas"
       },
       "user-information-query": {
         "title": "Filtro de pesquisa usuário"
@@ -196,22 +196,22 @@
         "title": "Conta Desenvolvedor Apple gratuita"
       },
       "install-device": {
-        "title": "Installing on your iOS device"
+        "title": "Instalar em seu dispositivo iOS"
       },
       "simulator": {
-        "title": "Using the Simulator"
+        "title": "Usando o Simulador"
       },
       "xcode": {
         "title": "Xcode"
       },
       "version-18.0/version-18.0-define-first-action": {
-        "title": "Defining your first action"
+        "title": "Definir sua primeira ação\n"
       },
       "version-18.0/version-18.0-actions-getting-started": {
         "title": "Começando"
       },
       "version-18.0/version-18.0-action-custom-template": {
-        "title": "Adding actions in templates"
+        "title": "Adicionar ações em modelos"
       },
       "version-18.0/version-18.0-action-parameters": {
         "title": "Using action parameters"
@@ -377,13 +377,13 @@
         "title": "Modelos de formulários detalhados"
       },
       "version-18.0/version-18.0-custom-listform-templates": {
-        "title": "List Forms Templates"
+        "title": "Modelos Formulário lista"
       },
       "version-18.0/version-18.0-define-filter-query": {
         "title": "Definir um filtro de pesquisa"
       },
       "version-18.0/version-18.0-filter-query-introduction": {
-        "title": "Restricted queries"
+        "title": "Pesquisas limitadas"
       },
       "version-18.0/version-18.0-user-information-query": {
         "title": "Filtro de pesquisa usuário"
@@ -395,10 +395,10 @@
         "title": "Conta Desenvolvedor Apple gratuita"
       },
       "version-18.0/version-18.0-install-device": {
-        "title": "Installing on your iOS device"
+        "title": "Instalar em seu dispositivo iOS"
       },
       "version-18.0/version-18.0-simulator": {
-        "title": "Using the Simulator"
+        "title": "Usando o Simulador"
       },
       "version-18.0/version-18.0-xcode": {
         "title": "Xcode"
@@ -425,7 +425,7 @@
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Multi-criteria search": "Multi-criteria search",
-      "Restricted queries": "Restricted queries",
+      "Restricted queries": "Pesquisas limitadas",
       "Actions": "Actions",
       "Relations": "Relations",
       "Templates & Formatters": "Templates & Formatters"
@@ -449,7 +449,7 @@
     "Create your app|no description given": "Create your app",
     "Test your application in the Simulator or your own device.|no description given": "Test your application in the Simulator or your own device.",
     "Testing|no description given": "Testing",
-    "Test your app|no description given": "Test your app",
+    "Test your app|no description given": "Teste seu app",
     "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.|no description given": "Distribute your application in-house or on the App Store. Multiple tutorials are available to guide you through the process.",
     "Deploy your App|no description given": "Deploy your App",
     "Help Translate|recruit community translators for your project": "Help Translate",
