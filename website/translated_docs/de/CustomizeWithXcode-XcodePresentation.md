@@ -3,11 +3,10 @@ id: xcode-overview
 title: Xcode Overview
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-
-Ensure a basic understanding of working with Xcode.</div> 
+Ensure a basic understanding of working with Xcode.
+</div>
 
 Xcode displays various areas that we're going to review:
 
@@ -98,9 +97,9 @@ Several tabs are included here, the most important of which are:
 ![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
 * **Issue navigator tab**: Displays all errors in an iOS project.
-    
-    * Errors in red are critical issues that need to be corrected in order to build your application. 
-    * Errors in yellow are warnings about issues which have the potential to cause problems but do not block the building of the application. 
+
+    - Errors in red are critical issues that need to be corrected in order to build your application.
+    - Errors in yellow are warnings about issues which have the potential to cause problems but do not block the building of the application.
 
 You can click on errors and warnings to visualize them in the project.
 
