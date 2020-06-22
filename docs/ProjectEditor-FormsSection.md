@@ -36,30 +36,38 @@ As with the List Form definition, select a template and drag and drop your field
 
 You can add as few as 2 or as many as 10 fields for most of the List Forms.
 
-:::tip TIPS
-Want to change the template for your list or detail form? 
+<div markdown="1" class = "tips">
 
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
-:::
+**TIPS**
+
+* Want to change the template for your list or detail form? 
+
+* Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
+
+</div>
 
 ## Gallery
 
 You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
 
+![More template button](assets/en/project-editor/Forms-more-button.png)
+
 Just click on that icon to display the entire list.
+
+![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
 Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
 
 So you can directly start working on the template, as it is ready-to-use.
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: 
-* go to your resources
-* unzip the template
-* make the changes needed using Xcode.
+<div markdown="1" class = "tips">
+
+**TIPS**
+
+The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
+
+</div>
 
 ## Where to go from here?
 
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
-
+Next step, you chose a template that suits your needs, but in case something is missing, a [tutorial](gallery-template-update.html) will help you making **template update**.
