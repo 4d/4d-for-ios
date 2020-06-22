@@ -3,15 +3,15 @@ id: creating-listform-templates
 title: リストフォームのテンプレート
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
+Create your first list form template.
+</div>
 
-Create your first list form template.</div> <div class = "prerequisites"> 
-
+<div markdown="1" class = "prerequisites">
 **PREREQUISITES**
-
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
+はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
+</div>
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
@@ -21,17 +21,12 @@ In this tutorial, we'll cover nearly all aspects of creating a list form templat
 
 Before we begin, be sure to download the **Starter Project** which includes:
 
-* **Custom List form**フォルダー 
-* **Contact.4dbase**ファイル（データベースとプロジェクトのセット）
+* A **List form** folder
+* A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">LISTFORM STARTER PROJECT</a>
-
-  </p>
 </div>
 
 You are now ready to create your first list form template!
@@ -54,9 +49,9 @@ Now let's focus on the contents of the **Custom List form** folder.
 
 In this folder, you'll find:
 
-* **layoutIconx2.png**: 160x160pxサイズのアイコンファイルです。プロジェクトエディターに表示されます。
-* **manifest.json**: テンプレートの基本的な説明が記述されています。
-* **template.svg**: リストフォームのレイアウトを決定する画面に表示されるテンプレートのプレビューです。
-* Sources: **storynoard**（グラフィカルインターフェース）および**swift**（フォームをコントロールするコード） ファイルが収録されています。
+* **a layoutIconx2.png** icon in 160x160px : it'll be displayed in the project editor when you select your template
+* **a manifest.json file** : includes a basic description of the template
+* **a template.svg file** : the visual representation of your template displayed when you define your list form content.
+* Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
 
 What are these files? What are they used for? How can you customize them?
