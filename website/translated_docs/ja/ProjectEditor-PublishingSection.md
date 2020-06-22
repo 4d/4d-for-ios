@@ -6,7 +6,7 @@ title: Publishing
 This is where you define or create your app's:
 
 * Web Server Settings
-* Authentication Mode 
+* Authentication Mode
 * Authentication Method
 
 ![Publishing section](assets/en/project-editor/Publishing-section-4D-for-iOS.png)
@@ -15,13 +15,15 @@ This is where you define or create your app's:
 
 Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
 
-Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.<div class = "tips"> 
+Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
+<div markdown="1" class = "tips">
 **注記**
 
 * The Simulator works locally (127.0.0.1 or localhost).
 * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-* If both HTTP and HTTPS are activated, HTTP is used.</div> 
+* If both HTTP and HTTPS are activated, HTTP is used.
+</div>
 
 ## Authentication
 
@@ -33,7 +35,7 @@ Activating the HTTPS port requires certificate installation to work properly. Yo
 
 ### On Mobile App Authentication Database Method
 
-* **Development**: The authentication method allows you to use the app locally. 
+* **Development**: The authentication method allows you to use the app locally.
 * **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
 
 A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
@@ -81,27 +83,23 @@ Here is an example of a 4D for iOS-generated session file:
 
 ```
 
-If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+
 
 ### Mobile Session Management Component
 
 Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
-
-  </p>
 </div>
 
-* Create a **Components** folder next to the 4D database with the app's data. 
+* Create a **Components** folder next to the 4D database with the app's data.
 * Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
-* Restart 4D. 
-* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
-* The Apps window will appear displaying all of your apps: 
+* Restart 4D.
+* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button.
+* The Apps window will appear displaying all of your apps:
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
@@ -111,7 +109,7 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESS
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
 * The **Push** button will update the session in memory.
-* The **Refresh** button updates the session list. 
+* The **Refresh** button updates the session list.
 
 ## How it looks on a device
 
@@ -124,3 +122,5 @@ Settings allows you to:
 * Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
+
+
