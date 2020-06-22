@@ -3,19 +3,18 @@ id: one-to-many-relations-actions
 title: Liens 1 vers N - Actions
 ---
 
-<div class = "objectives">
-**OBJECTIFS**
-Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.</div>
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.
+</div>
 
 Il est très facile de créer une entité avec une **Entité parente** !
 
 Commençons par télécharger le Projet Starter :
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROJET STARTER - 1 VERS N & ACTIONS</a>
-  </p>
 </div>
 
 ## Créer une action addProject
@@ -99,9 +98,7 @@ $0:=$out
 
 Et voilà ! Vous pouvez ajouter facilement quelques tâches à vos employés à l'aide de l'entité parente !
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROJET FINAL - 1 VERS N & ACTIONS</a>
-  </p>
 </div>
