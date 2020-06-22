@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-title-definition
-title: 1 vers N - Définition du titre
+title: 1 vers N - Titre
 ---
 
 ### Définir un titre pour vos vues de destination
@@ -9,23 +9,18 @@ Pour garder une trace de la vue que vous étiez en train de visualiser dans votr
 
 Dans ce tutoriel nous utiliserons le projet suivant :
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJET STARTER DE DEFINITION DE TITRE</a>
-
-  </p>
 </div>
 
-Cliquez sur Ouvrir menu > Projet mobile... et sélectionnez *Time Keeper* puis cliquez sur **la section Libellés & icônes**.
+Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
 
-Ouvrez ensuite l'onglet Liens pour définir le titre du lien *tasks* et saisissez la ligne suivante dans **la colonnes Titles** : ```%Name% tasks```
+From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: `%Name% tasks`
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-Vous l'aurez deviné, il vous permet d'afficher **la valeur du nom de l'Employé** dans la vue de destination en fonction du formulaire détaillé Employee sur lequel vous étiez en train de travailler précédemment.
+As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
