@@ -15,7 +15,7 @@ Si vous possédez déjà un identifiant Apple, passez à l'[Étape 3](#step-3-op
 
 Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.com/).
 
-![Create your Apple ID](assets/fr/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Créez votre identifiant Apple](assets/fr/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Remplissez le formulaire et répondez aux questions de sécurité.
 * Vous recevrez un code de vérification par e-mail.
@@ -27,9 +27,10 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ## ÉTAPE 3. Ouvrez Xcode
 
-* Lancez Xcode > Preferences > Accounts
-* Ajoutez votre identifiant Apple et connectez-vous 
+* Launch Xcode > Preferences > Accounts
+* Ajoutez votre identifiant Apple et connectez-vous
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
 Félicitations ! Vous êtes désormais prêts à utiliser votre identifiant Apple gratuit !
+
