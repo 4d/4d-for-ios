@@ -3,11 +3,10 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Télécharger une application sur un serveur sécurisé.</div> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Télécharger une application sur un serveur sécurisé.
+</div>
 
 ## ÉTAPE 1. Téléchargez votre application
 
@@ -17,19 +16,21 @@ Téléchargez votre application sur un serveur sécurisé :
 * Fichier manifest.plist
 * Fichier .ipa
 
-Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).<div class = "tips"> 
+Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).
 
+<div markdown="1" class = "tips">
 **NOTE**
-
-Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.</div> 
+Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.
+</div>
 
 ## ÉTAPE 2. Créez le lien d’installation
 
-Créez un **lien de Services ITMS** (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :
+Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 Ce lien peut être utilisé pour l’envoi d’e-mails, intégré dans une page html, ou même dans un code QR.
 
@@ -47,9 +48,9 @@ Voici un exemple simple :
 
 * Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignorez ce message et cliquez sur **Annuler**.
+* Ignore this message and click **Cancel**.
 
-* Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
+* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
@@ -59,4 +60,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! you can now distribute your first app in-house!
+Congratulations ... you can now distribute your first app in-house!
