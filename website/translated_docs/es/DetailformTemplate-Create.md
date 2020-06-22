@@ -1,60 +1,55 @@
 ---
 id: creating-detailform-templates
-title: Plantillas de formulario detallado
+title: Plantillas de formularios detallados
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJETIVOS**
+Crear su primera plantilla de formulario listado.
+</div>
 
-Crear su primera plantilla de formulario listado.</div> <div class = "prerequisites"> 
-
+<div markdown="1" class = "prerequisites">
 **REQUISITOS PREVIOS**
+Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
+</div>
 
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
-
-En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. Se mostrará un **encabezado de imagen **, así como también **los campos de título y contenido** que se duplicarán en la aplicación iOS generada.
+En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
-## ¡Descargue el proyecto Starter!
+## Descargue el proyecto Starter
 
-Para comenzar, descargue el **Starter Project**, que incluye:
+To begin, download the **Starter Project**, which includes:
 
-* Una carpeta **Custom Detail form** (Carpeta de plantilla personalizada de formulario detallado)
-* Un archivo **Contact.4dbase** (base de demostración Contact con un proyecto de aplicación móvil listo para utilizar)
+* A **Custom Detail form** folder (custom Detail form template folder)
+* A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROYECTO STARTER - FORMATO DETALLADO PERSONALIZADO</a>
-
-  </p>
 </div>
 
 ¡Ahora está listo para crear a su primera plantilla de formulario detallado!
 
 ## Añada una plantilla de formulario detallado a su proyecto móvil
 
-Primero, cree una carpeta *Contact.4dbase/Resources/Mobile/form/detail* y arrastre y suelte la carpeta **Custom Detail form** en ella.
+First, create a *Contact.4dbase/Resources/Mobile/form/detail* folder and drag and drop the **Custom Detail form** folder in it.
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
-Luego abra Contact.4dbase con 4D. y vaya a Archivo > Abrir > Proyecto móvil... para abrir **Contact Demo App**
+Luego abra Contact.4dbase con 4D. and go to File > open > Mobile Project... to open the **Contact Demo App**
 
-A continuación, vaya a la **sección Formularios** en el editor de proyectos. ¡Verá que la plantilla de formulario detallado personalizada se ha agregado correctamente a la lista de plantillas!
+Finally go to the **Forms section** in the project editor. ¡Verá que la plantilla de formulario detallado personalizada se ha agregado correctamente a la lista de plantillas!
 
 ![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
 
-Ahora concentrémonos en el contenido de la carpeta **Custom Detail form**.
+Now let's focus on the **Custom Detail form** folder content.
 
 ## La carpeta de plantillas de formulario detallado y su contenido
 
-* Un icono **a layoutIconx2.png** de 160x160px que se mostrará en el editor del proyecto cuando seleccione su plantilla personalizada entre otras
-* Un archivo **a manifest.json** que incluye una descripción básica de la plantilla
-* Un archivo **a template.svg** que será la representación de su plantilla que se mostrará cuando defina el contenido de su formulario listado y dónde arrastrará y soltará sus campos
-* Carpeta Source que incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
+* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
+* **a manifest.json** file that includes a basic description of the template
+* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
+* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
 
 ¿Qué son esos archivos, para qué sirven y cómo personalizarlos?
