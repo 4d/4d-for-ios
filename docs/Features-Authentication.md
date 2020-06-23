@@ -29,6 +29,9 @@ In short, the principle is the following:
 
 You integrate a login form into your app, from the project editor in the Publishing section.
 
+![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
+
+
 ### 2. Enter your email address
 
 An email is required when the app is launched. When a user enters their email and clicks on the Login button, the On Mobile app Authentication is called and the user's session status should be updated to a "pending" status. A validation email is then sent to the user.
