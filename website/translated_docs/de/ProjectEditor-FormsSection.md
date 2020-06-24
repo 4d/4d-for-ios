@@ -53,9 +53,3 @@ Next step, you chose a template that suits your needs, but in case something is 
 * unzip the template
 * make the changes needed using Xcode.
 
-## Wie geht es weiter?
-
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
-
