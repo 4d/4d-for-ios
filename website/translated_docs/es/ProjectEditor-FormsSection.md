@@ -33,9 +33,10 @@ Al igual que con la definición de formulario Lista, seleccione una plantilla y 
 
 Puede agregar entre 2 o a 10 campos para la mayoría de los formularios Lista.
 
-:::tip TIPS Want to change the template for your list or detail form?
-
-Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos). :::
+<div markdown="1" class = "tips">
+**TIPS** Want to change the template for your list or detail form?
+Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).
+</div>
 
 ## Gallery
 
@@ -51,10 +52,4 @@ Next step, you chose a template that suits your needs, but in case something is 
 * go to your resources
 * unzip the template
 * make the changes needed using Xcode.
-
-## ¿Qué hacemos ahora?
-
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
 
