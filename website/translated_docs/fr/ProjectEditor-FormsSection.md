@@ -33,9 +33,10 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-:::tip TIPS Want to change the template for your list or detail form?
-
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs). :::
+<div markdown="1" class = "tips">
+**TIPS** Want to change the template for your list or detail form?
+Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
+</div>
 
 ## Gallery
 
@@ -51,10 +52,4 @@ Next step, you chose a template that suits your needs, but in case something is 
 * go to your resources
 * unzip the template
 * make the changes needed using Xcode.
-
-## Que faire ensuite ?
-
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
 
