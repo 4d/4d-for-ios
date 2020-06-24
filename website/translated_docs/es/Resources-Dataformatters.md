@@ -44,7 +44,7 @@ title: Formato de datos
       </td> </tr> 
   
   <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF"></p>
-        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
+                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
       </td> <td style="height: auto; vertical-align: middle;border-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Entero a Imagen</h1> <ul style="font-size:16px"> <li><strong>Format:</strong> Integer ⟶ Image</li> <li><strong>Type:</strong> basic formatter</li> 
   
   <div markdown="1" style="text-align: center; margin-top: 40px;">
