@@ -25,14 +25,6 @@ Centrémonos en las diferentes partes de su archivo SVG y en lo que necesitará 
 
 Agregue el título de su plantilla aquí.
 
-## ios:values
-
-```
-ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
-```
-
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Esto le permitirá arrastrar y soltar tantos campos como defina.
-
 ## Posición, alto, ancho y tipo del área
 Puede definir la posición, el alto y el ancho de todos sus campos como hicimos para el tutorial  [Custom list view](creating-listform.html).
 
