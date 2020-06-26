@@ -3,7 +3,10 @@ id: gallery-template-install
 title: Install a template
 ---
 
-::: tip OBJECTIVES Dowload a template from the gallery and improve it :::
+<div markdown="1" class = "objectives">
+**OBJETIVOS**
+Dowload a template from the gallery and improve it
+</div>
 
 ## Install a template from the Gallery
 
