@@ -10,7 +10,7 @@ Aqui está a versão terminada:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -28,7 +28,7 @@ Adicione o título para seu modelo aqui.
 ## Posição, altura, largura e tipo da área
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
-### Propriedades de campo duplicadas
+### Field properties
 
 ```
 //1
@@ -82,38 +82,6 @@ You can define position, height, and width for all of your fields like  we did f
 3. Ícone para exibir uma imagem no ImageField
 4. Define a posição e largura área texto.
 5. Defina la posição do campo "soltável", sua altura e largura, assim como os tipos de campos aceitos
-6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
-
-
-### Campo a duplicar
-
-```
-//1
-<g id="multivalued">
-
-//2
-<g transform="translate(0,140)">
-
-//3
-<rect class="bg field" x="14" y="0" width="238" height="30"/>
-
-//4
-<textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
-
-//5
-<rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
-
-//6
-<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-</g>
-</g>
-```
-
-1. ID multivalor para o campo a duplicar
-2. Posição Y toda a área
-3. Posição fundo, altura e largura da Área
-4. Define a posição e largura área texto.
-5. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
