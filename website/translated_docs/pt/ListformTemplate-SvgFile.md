@@ -52,7 +52,7 @@ Pode definir a posição, altura e largura para:
 <path class="magnifyingGlass" transform="translate(20,8) scale(1)”/>
 
 //4
-<textArea id="search.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("fieldToUseForSearch"))</textArea>
+<textArea id="search.label" class="label" x="14" y="8" width="238"/>
 
 //5
 <rect id="search" class="droppable field optional" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type=“0,1,2,4,8,9,11,25,35"  ios:bind="searchableField”/>
@@ -88,7 +88,7 @@ To include all types, just type ios:type="all". </div>
 <rect class="bg field" x="10" y="110" width="246" height="30”/>
 
 //2
-<textArea id="section.label" class="label" x="10" y="118" width="246">$4DEVAL(:C991("fieldToUseAsSection"))</textArea>
+<textArea id="section.label" class="label" x="0" y="118" width="250"/>
 
 //3
 <rect id="section" class="droppable optional" x="10" y="110" width="246" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="sectionField”/>
