@@ -10,7 +10,7 @@ Here's a finished version:
 
 ![Template svg file](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. So when you build your detail form in the Forms section and drag and drop a field, a new empty field appears below the previous one for you to add a new field:
 
 ![Template svg file](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -28,7 +28,7 @@ Add the title for your template here.
 ## Areas position, height and width and type
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
-### Duplicated field properties
+### Field properties
 
 ```
 //1
@@ -82,38 +82,6 @@ You can define position, height, and width for all of your fields like  we did f
 3. Icon to display an image in the imageField
 4. Define the text area position and width
 5. Define the droppable field position, height, and width, as well as accepted fields types
-6. Define a cancel button that will be displayed to delete the current content
-
-
-### Field to be duplicated
-
-```
-//1
-<g id="multivalued">
-
-//2
-<g transform="translate(0,140)">
-
-//3
-<rect class="bg field" x="14" y="0" width="238" height="30"/>
-
-//4
-<textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
-
-//5
-<rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
-
-//6
-<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-</g>
-</g>
-```
-
-1. Multivaluated ID for the field to be duplicated
-2. Entire area Y position
-3. Area background position, height, and width
-4. Define the text area position and width
-5. Define the droppable field position, height, and width as well, as accepted fields types (all types are accepted here)
 6. Define a cancel button that will be displayed to delete the current content
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
