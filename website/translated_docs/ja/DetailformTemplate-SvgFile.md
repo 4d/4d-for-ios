@@ -25,14 +25,6 @@ This template has dynamic field numbering, meaning that this template will allow
 
 テンプレートの名称です。
 
-## フィールドリスト（ios:values）
-
-```
-ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
-```
-
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. フィールドは，ドラッグ＆ドロップで追加することができます。
-
 ## エリアの位置とサイズ（position, height, width, type）
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
