@@ -157,7 +157,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>;<span class="hljs-variable">$parameters</span>)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations provided by mobile application</span>
 
 <span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.context
 <span class="hljs-variable">$parameters</span>:=<span class="hljs-variable">$request</span>.parameters<span class="hljs-keyword">
@@ -172,7 +172,7 @@ Case of</span>
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
 
-        <span class="hljs-variable">$result</span>:=addAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">addAction </span>(<span class="hljs-variable">$o</span>)
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"editTasks"</span>)
 
@@ -183,7 +183,7 @@ Case of</span>
         <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey;\
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
 
-        <span class="hljs-variable">$result</span>:=editAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">editAction </span>(<span class="hljs-variable">$o</span>)
 
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"deleteTasks"</span>)
@@ -194,7 +194,7 @@ Case of</span>
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
         <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey)
 
-        <span class="hljs-variable">$result</span>:=deleteAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">deleteAction </span>(<span class="hljs-variable">$o</span>)
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"sendComment"</span>)
 
@@ -206,7 +206,7 @@ Case of</span>
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
 
 
-        <span class="hljs-variable">$result</span>:=sendMail (<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">sendMail </span>(<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
 
     Else</span> 
 
@@ -287,7 +287,7 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword"> 
 
@@ -326,7 +326,7 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword"> 
 
