@@ -76,7 +76,7 @@ title: Data Formatters
     </tr>
     <tr>
       <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF">
-        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
+                <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-IntegerToImage/master/formatter.png" />
       </td>
       <td style="height: auto; vertical-align: middle;border-color: #FFFFFF">
         <h1 style="margin-top: 10px; font-size:22px">Int to Image</h1>
