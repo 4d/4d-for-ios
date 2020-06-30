@@ -26,7 +26,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROJET STARTER - FORMAT DÉTAILLÉ PERSONNALISÉ</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">PROJET STARTER - FORMAT DÉTAILLÉ PERSONNALISÉ</a>
 </div>
 
 Vous êtes maintenant prêts à créer votre premier modèle de formulaire détaillé !
