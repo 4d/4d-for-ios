@@ -27,11 +27,21 @@ Selecione um modelo para sua primeira tabela. Quando tiver feito isso, aparece a
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-Da mesma forma que com a definição de formulários Lista, selecione um modelo e arraste e solte seus campos em seu formulário detalhado.
+As with the List Form definition, select a template and add your fields onto your detail form.
+
+You have several ways to add your fields in Detail forms:
+
+* You can drag and drop fields anywhere into the SVG view to add it and display it just after the last field added or between any other fields that are already displayed.
+
+* Double-click on a field. Your field will be added at the end of the list.
+
+* Right-clicking on one the field that is available in the Fields table at the left: this will display a menu that will allow you to add all missing fields to your Detail forms.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Pode adicionar entre 2 a 10 campos para a maioria dos formulários Lista.
+You can add as many fields for most of the detail form available.
+
+And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
 
 <div markdown="1" class = "tips">
 **DICAS**
