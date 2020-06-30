@@ -10,7 +10,7 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 
 ![SVGファイルを編集する](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. 「フォーム」セクションの詳細画面エディターでは，最後にドラッグ＆ドロップしたフィールドの下に空白のフィールドが現れるようになっているので，フィールドをさらに追加することができます。
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. 「フォーム」セクションの詳細画面エディターでは，最後にドラッグ＆ドロップしたフィールドの下に空白のフィールドが現れるようになっているので，フィールドをさらに追加することができます。
 
 ![SVGファイルを編集する](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -25,18 +25,10 @@ This template has dynamic field numbering, meaning that this template will allow
 
 テンプレートの名称です。
 
-## フィールドリスト（ios:values）
-
-```
-ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
-```
-
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. フィールドは，ドラッグ＆ドロップで追加することができます。
-
 ## エリアの位置とサイズ（position, height, width, type）
 You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
 
-### 繰り返されるフィールドのプロパティ
+### Field properties
 
 ```
 //1
@@ -88,38 +80,6 @@ You can define position, height, and width for all of your fields like  we did f
 1. エリア全体の垂直位置です。（g要素のtransform属性）
 2. エリア背景の位置とサイズです。（rect要素）
 3. ピクチャエリアに表示されるアイコン画像です。（path要素）
-4. 入力エリアの位置とサイズです。（textArea要素）
-5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
-6. 内容をクリアするためのキャンセルボタンです。（use要素）
-
-
-### 繰り返されるフィールド
-
-```
-//1
-<g id="multivalued">
-
-//2
-<g transform="translate(0,140)">
-
-//3
-<rect class="bg field" x="14" y="0" width="238" height="30"/>
-
-//4
-<textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
-
-//5
-<rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
-
-//6
-<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-</g>
-</g>
-```
-
-1. 繰り返されるフィールドの動的ID
-2. エリア全体の垂直位置です。（g要素のtransform属性）
-3. エリア背景の位置とサイズです。（rect要素）
 4. 入力エリアの位置とサイズです。（textArea要素）
 5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
 6. 内容をクリアするためのキャンセルボタンです。（use要素）
