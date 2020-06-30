@@ -6,7 +6,7 @@
 
               ga('create', 'UA-129154982-1', 'auto');
               ga('send', 'pageview');
-            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/18/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/18/css/main.css"/><script src="/4d-for-ios/18/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/18/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/18/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/18/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/18/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/18/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://doc4d.github.io/4d-for-ios" target="_self">v18 R3 BETA</a></li><li class=""><a href="https://doc4d.github.io/4d-for-ios/Rx" target="_self">v18 R2</a></li><li class=""><a href="https://doc4d.github.io/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/18/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/18/docs/ja/action-parameters.html">日本語</a></li><li><a href="/4d-for-ios/18/docs/es/action-parameters.html">Español</a></li><li><a href="/4d-for-ios/18/docs/fr/action-parameters.html">Français</a></li></ul></div></li><script>
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/18/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/18/css/main.css"/><script src="/4d-for-ios/18/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/18/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/18/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/18/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/18/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/18/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://4d.github.io/4d-for-ios" target="_self">v18 R3 BETA</a></li><li class=""><a href="https://4d.github.io/4d-for-ios/Rx" target="_self">v18 R2</a></li><li class=""><a style="font-weight:bold" href="https://4d.github.io/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/18/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/18/docs/ja/action-parameters.html">日本語</a></li><li><a href="/4d-for-ios/18/docs/es/action-parameters.html">Español</a></li><li><a href="/4d-for-ios/18/docs/fr/action-parameters.html">Français</a></li></ul></div></li><script>
         const languagesMenuItem = document.getElementById("languages-menu");
         const languagesDropDown = document.getElementById("languages-dropdown");
         languagesMenuItem.addEventListener("click", function(event) {
@@ -156,7 +156,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>;<span class="hljs-variable">$parameters</span>)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1</span>  <span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations provided by mobile application</span>
 
 <span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.context
 <span class="hljs-variable">$parameters</span>:=<span class="hljs-variable">$request</span>.parameters<span class="hljs-keyword">
@@ -171,7 +171,7 @@ Case of</span>
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
         
-        <span class="hljs-variable">$result</span>:=addAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">addAction </span>(<span class="hljs-variable">$o</span>)
         
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"editTasks"</span>)
         
@@ -182,7 +182,7 @@ Case of</span>
         <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey;\
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
         
-        <span class="hljs-variable">$result</span>:=editAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">editAction </span>(<span class="hljs-variable">$o</span>)
         
         
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"deleteTasks"</span>)
@@ -193,7 +193,7 @@ Case of</span>
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
         <span class="hljs-string">"ID"</span>;<span class="hljs-variable">$context</span>.entity.primaryKey)
         
-        <span class="hljs-variable">$result</span>:=deleteAction (<span class="hljs-variable">$o</span>)
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">deleteAction </span>(<span class="hljs-variable">$o</span>)
         
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"sendComment"</span>)
         
@@ -205,7 +205,7 @@ Case of</span>
         <span class="hljs-string">"parameters"</span>;<span class="hljs-variable">$parameters</span>)
         
         
-        <span class="hljs-variable">$result</span>:=sendMail (<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
+        <span class="hljs-variable">$result</span>:=<span class="hljs-function">sendMail </span>(<span class="hljs-variable">$o</span>)<span class="hljs-keyword">
         
     Else</span> 
         
@@ -286,7 +286,7 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
         
     Else</span> 
         
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
         
     End if</span><span class="hljs-keyword"> 
     
@@ -325,7 +325,7 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
         
     Else</span> 
         
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status</span>  <span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
         
     End if</span><span class="hljs-keyword"> 
     
