@@ -10,7 +10,7 @@ Voici une version finale :
 
 ![Fichier Template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
+This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
 ![Fichier Template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -25,18 +25,10 @@ Concentrons-nous sur les différentes parties de votre fichier SVG et sur ce que
 
 Ajoutez ici le titre de votre modèle.
 
-## ios:values
-
-```
-ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
-```
-
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Cela vous permettra de glisser-déposer autant de champs définis.
-
 ## Position, hauteur, largeur et type de la zone
 Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
 
-### Propriétés de champs dupliqués
+### Field properties
 
 ```
 //1
@@ -90,38 +82,6 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 3. Icône affichant une image dans imageField (le champ image)
 4. Définir la position de la zone de texte et la largeur
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés
-6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
-
-
-### Champ à dupliquer
-
-```
-//1
-<g id="multivalued">
-
-//2
-<g transform="translate(0,140)">
-
-//3
-<rect class="bg field" x="14" y="0" width="238" height="30"/>
-
-//4
-<textArea id="f2.label" class="label" x="14" y="8" width="238">$4DEVAL(:C991("field[n]"))1</textArea>
-
-//5
-<rect id="f2" class="droppable field multivalued" x="14" y="0" width="238" height="30" stroke-dasharray="5,2" ios:type="0,1,2,4,8,9,11,25,35" ios:bind="fields[1]"/>
-
-//6
-<use id="f2.cancel" x="224" y="1" xlink:href="#cancel" visibility="hidden"/>
-</g>
-</g>
-```
-
-1. Identifiant "Multivaluated" pour le champ à dupliquer
-2. Position de toute la zone Y
-3. Position, hauteur et largeur de la zone d'arrière-plan
-4. Définir la position de la zone de texte et la largeur
-5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
