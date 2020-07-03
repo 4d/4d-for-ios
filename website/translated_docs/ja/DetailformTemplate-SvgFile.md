@@ -128,7 +128,7 @@ Now that you have an **icon**, a **basic template description** in the manifest.
 
 <div markdown="1" class = "tips">
 **注記**
-All types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
 </div>
 
 <div markdown="1" class = "tips">
