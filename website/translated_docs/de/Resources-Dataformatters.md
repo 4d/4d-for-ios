@@ -6,8 +6,8 @@ title: Data Formatters
 
 <div markdown="1" class = "tips">
 **BEFORE STARTING**
-!!crwdP_111_Pdwrc!!To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
-!!crwdP_112_Pdwrc!!Then drop the formatter folder into it.
+!!crwdP_120_Pdwrc!!To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+!!crwdP_121_Pdwrc!!Then drop the formatter folder into it.
 </div>
 
 <div markdown="1" style="height: auto;">
@@ -97,4 +97,12 @@ title: Data Formatters
   
   <div markdown="1" style="text-align: center; margin-top: 40px;">
     <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">DOWNLOAD</a>
-  </div></td> </tr> </table></div>
+  </div></td> </tr> 
+  
+  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Download Activity</h1> <ul style="font-size:16px"> <li><strong>Format:</strong> Text ⟶ Download to Files app </li> <li><strong>Type:</strong> Swift formatter</li> 
+  
+  <div markdown="1" style="text-align: center; margin-top: 40px;">
+    <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-DownloadActivity/releases/latest/download/formatter-DownloadActivity.zip">DOWNLOAD</a>
+  </div></td> <td style="height: auto; vertical-align: middle;text-align: center; border-color: #FFFFFF;background-color: #FFFFFF"></p>
+        <img style="max-height: 300px; opacity: 0.2" src="https://raw.githubusercontent.com/4d-for-ios/formatter-DownloadActivity/master/formatter.png" />
+      </td> </tr> </table></div>
