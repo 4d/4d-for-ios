@@ -51,7 +51,7 @@ Let's first open the `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE__
 
 #### A. Añadir un Tag de acción de tabla
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Seleccione el **List form Controller** y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -86,7 +86,7 @@ To do so, open the `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TAB
 
 El proceso es bastante similar al proceso de la plantilla personalizada TasksList.
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Seleccione el **List form Controller** y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
