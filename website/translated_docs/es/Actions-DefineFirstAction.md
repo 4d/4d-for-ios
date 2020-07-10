@@ -3,13 +3,13 @@ id: define-first-action
 title: Definir una primera acción
 ---
 
-In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
+En este tutorial, vamos a trabajar en una aplicación **Tasks iOS** y veremos cómo lidiar con las acciones en esta aplicación.
 
-Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually.
+Básicamente, lo que queremos hacer en una **aplicación Task** es cambiar el **estado** y el **porcentaje de finalización** de una tarea individualmente.
 
-More globally, we want to **change all tasks status** to postponed or in Progress for example.
+Más globalmente, queremos **cambiar el estado de todas las tareas** a pospuesto o en progreso, por ejemplo.
 
-Download the **Starter project** and go right to the **Actions section**.
+Descargue el **proyect Starter** y vaya directamente a la sección **Actions**.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
@@ -29,30 +29,30 @@ Centrémonos primero en las acciones de entidad
 
 ### PASO 1. Acciones de entidad en la sección Actions
 
-In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
+En esta sección Actions, podrá definir todas los **nombres**, los **iconos**, las **etiquetas** de sus acciones, así como también las **tablas** en las cuales desea que la acción esté disponible y el **alcance** de las acciones.
 
-The action section is quite empty when you open it for the first time, so click on the **Plus button** at the bottom left to add your first action!
+La sección Actions está bastante vacía cuando la abre por primera vez, así que haga clic en el botón **Más "+"** en la parte inferior izquierda para agregar su primera acción.
 
 ![Create action](assets/en/actions/Create-action.png)
 
-Let's define first an action that will **change a task status** to "Complete" and put the **percentage of completion** to 100%.
+Primero definamos una acción que **cambiará el estado de una tarea** a "Completa" y pondrá el **porcentaje de finalización** en 100%.
 
 Para definir esta acción:
 
-* Enter **taskDone** in **Names field**
-* Select the **Done icon** from the icon library
-* Enter **Done** in **Short Labels**
-* Enter **Task Done** in **Long Labels**
-* Select the **Tasks** table from **Tables** list
-* Select **Current record** from **Scope** list
+* Introduzca **taskDone** en el campo **Nombres**
+* Seleccione el **icono "Done"** de la librería de iconos
+* Introduzca **Done** en el campo **Etiquetas cortas**
+* Introduzca **Task Done** en el campo **Etiquetas largas**
+* Seleccione la tabla **Tasks** a partir de la lista propuesta en **Tables**
+* Seleccione **Entidad actual** en la lista **Alcance**
 
 ![Done action definition](assets/en/actions/Done-action-definition.png)
 
 ### PASO 2. Crear y editar el método On Mobile App Action
 
-Now that your action is defined in the Project Editor, you have to create the [**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database Method.
+Ahora que su acción está definida en el editor de proyectos, debe crear el método base[ **On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App -Action-database-method.301-4286697.en.html).
 
-Do to so, click on **Create button** at the bottom right of the action table and enter the following code in the **On Mobile App Action** database method:
+Para hacerlo, haga clic en el **botón Crear** en la parte inferior derecha de la tabla de acciones e ingrese el siguiente código en el método base **On Mobile App Action**:
 
 ```4d
 C_OBJECT($0)
@@ -88,7 +88,7 @@ $0:=$result  // Informations returned to mobile application
 
 ### PASO 3. Crear un método "modifyStatus"
 
-Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
+Una vez que su método base ha sido editado, debe crear un método **modifyStatus** que hará el trabajo:
 
 ```4d
 C_OBJECT($0)
@@ -133,7 +133,7 @@ $0:=$out
 
 ```
 
-Cree y ejecute su aplicación y ¡listo! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
+Cree y ejecute su aplicación y ¡listo! Su **acción Done ** está disponible cuando desliza hacia la izquierda una celda en el formulario Lista, así como cuando hace clic en el **botón genérico Actions** en la barra de navegación del formulario detallado.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
@@ -141,22 +141,22 @@ Cree y ejecute su aplicación y ¡listo! Your **Done action** is available when 
 
 ### PASO 1. Acciones de tabla en la sección Actions
 
-Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
+Ahora, imagine que se va de vacaciones y quiere **cambiar el estado de todas sus tareas** a "Pospuesto".
 
 Definamos esta acción desde la sección Action:
 
-* Enter **postponeAll** in **Names field**
-* Select the **Postponed icon** from the icon library
-* Enter **Postpone All** in **Short Labels**
-* Enter **Postpone All** in **Long Labels**
-* Select the **Tasks** table from **Tables** list
-* Select **Table** from **Scope** list
+* Introduzca **postponeAll** en el campo **Nombres**
+* Seleccione el **icono "Postponed"** de la librería de iconos
+* Introduzca **Postpone All** en el campo **Etiquetas cortas**
+* Introduzca **Postpone All** en el campo **Etiquetas largas**
+* Seleccione la tabla **Tasks** a partir de la lista propuesta en **Tables**
+* Seleccione **Table** de la lista **Alcance**
 
 ![Postponed action definition](assets/en/actions/PostponedAll-action-definition.png)
 
 ### PASO 2. Modificar el método Action
 
-Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
+Haga clic el **botón Editar** en la parte inferior derecha de la tabla action para completar el método base **On Mobile App Action**:
 
 ```4d
 C_OBJECT($0)
@@ -200,7 +200,7 @@ $0:=$result  // Informations returned to mobile application
 
 ### PASO 3. Crear un método "postponeAll"
 
-As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
+A medida que crea el método **modifyStatus**, siga el mismo proceso y cree un nuevo método **postponeAll** que modificará todo el estado del registro:
 
 ```4d
 C_OBJECT($0)
@@ -234,7 +234,7 @@ $0:=$out
 
 ```
 
-¡Cree y ejecute su aplicación! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
+¡Cree y ejecute su aplicación! Encontrará un nuevo **botón genérico** en la barra de navegación de su formulario Lista. Haga clic en él para activar la acción **Postpone All**.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
@@ -244,7 +244,7 @@ $0:=$out
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
-You can download the **Final project** that includes various actions:
+Puede descargar el **Proyecto final** que incluye varias acciones:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
