@@ -13,7 +13,7 @@ Agregue acciones a plantillas de formularios de Lista y formularios detallados.
 Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 </div>
 
-In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
+En este tutorial, veremos lo fácil que puede ser **agregar acciones a plantillas personalizadas**.
 
 ## PASO 1. Descargue el proyecto Starter
 
@@ -33,11 +33,11 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 
 Primero, suelte:
 
-* **TasksList** and **TasksCollection** template folders in *Tasks.4dbase/Resources/Mobile/form/list* folder
+* las carpetas de plantillas **TasksList** y **TasksCollection** en la carpeta *Tasks.4dbase/Resources/Mobile/form/list*
 
 ![Listform templates](assets/en/actions/Listform-templates.png)
 
-* **TasksDetail** template folders in *Tasks.4dbase/Resources/Mobile/form/detail folder*
+* las carpetas del modelo **TasksDetail** en *Tasks.4dbase/Resources/Mobile/form/detail folder*
 
 ![Detailform template](assets/en/actions/Detailform-template.png)
 
@@ -51,7 +51,7 @@ Let's first open the `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE__
 
 #### A. Añadir un Tag de acción de tabla
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Seleccione el **List form Controller** y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -86,7 +86,7 @@ To do so, open the `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TAB
 
 El proceso es bastante similar al proceso de la plantilla personalizada TasksList.
 
-Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Seleccione el **List form Controller** y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
