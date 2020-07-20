@@ -11,14 +11,10 @@ More globally, we want to **change all tasks status** to postponed or in Progres
 
 Download the **Starter project** and go right to the **Actions section**.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">STARTER-PROJEKT</a>
-
-  </p>
 </div>
 
 As we've seen before in the [Action section documentation](actions.html#ios-app-side), you can define action for two levels:
@@ -27,6 +23,7 @@ As we've seen before in the [Action section documentation](actions.html#ios-app-
 * Table actions
 
 Let's focus first on Entity actions!
+
 
 ## Entity actions
 
@@ -200,6 +197,7 @@ $0:=$result  // Informations returned to mobile application
 
 ```
 
+
 ### SCHRITT 3. Create a "postponeAll" Method
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
@@ -248,12 +246,8 @@ Congratulations! You've just added 2 actions to your iOS app. You are now able t
 
 You can download the **Final project** that includes various actions:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">FINAL PROJECT</a>
-
-  </p>
 </div>

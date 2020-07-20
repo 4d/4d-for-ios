@@ -3,9 +3,10 @@ id: action-parameters
 title: Using action parameters
 ---
 
-<div class = "objectives">
-**OBJECTIVES**
-Define action parameters to edit the content of your app.</div>
+<div markdown="1" class = "objectives">
+**OBJETIVOS**
+Define action parameters to edit the content of your app.
+</div>
 
 
 In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
@@ -19,11 +20,10 @@ In this tutorial, we're going to go further and create:
 
 To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER PROJECT</a>
-  </p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 1. Ação de Adicionar
@@ -401,14 +401,13 @@ And finally you can delete an entity using the **Delete...** action.
 
 ![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
-## PASSO 8. O que fazer agora?
+## PASSO 8. Que fazer agora?
 
 Parabéns! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROJETO FINAL</a>
-  </p>
 </div>
 

@@ -4,11 +4,10 @@ title: Búsqueda multicriterios
 ---
 
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJETIVOS**
-
-Active la búsqueda de criterios múltiples en sus propias plantillas.</div> 
+Active la búsqueda de criterios múltiples en sus propias plantillas.
+</div>
 
 Esta funcionalidad se activa por defecto en todas las plantillas generadas para 4D for iOS.
 
@@ -38,8 +37,8 @@ A continuación, puede ir al editor del proyecto y soltar varios campos en el á
 
 Haga clic en el botón de eliminar campo de búsqueda para modificar la lista de campos asociados.
 
-Aparecerá un menú para permitirle **eliminar campos específicos** o **eliminar todos los campos **, según los criterios en los que desee basar su búsqueda.
+A menu will appear to allow you to **remove specific fields** or **remove all fields**, depending on which criteria you want to base your search(es) on.
 
 ![Modify Multi-criteria search fields](assets/en/multi-criteria-search/multi-criteria-search-forms-section-remove-fields.png)
 
-¡Felicidades! ¡Ahora puede basar su(s) búsqueda(s) en múltiples campos en su aplicación 4D for iOS!
+¡Felicitaciones! ¡Ahora puede basar su(s) búsqueda(s) en múltiples campos en su aplicación 4D for iOS!
