@@ -3,15 +3,15 @@ id: actions-getting-started
 title: Einsteigen
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
+Use actions in the generated iOS app.
+</div>
 
-Use actions in the generated iOS app.</div> <div class = "prerequisites"> 
-
+<div markdown="1" class = "prerequisites">
 **PREREQUISITES**
-
-Click [here](prerequisites.html) to see what you'll need to get started!</div> 
+Click [here](prerequisites.html) to see what you'll need to get started!
+</div>
 
 In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 

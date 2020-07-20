@@ -7,12 +7,8 @@ title: Create icons
 
 É recomendado ter versões coloridas de seus ícones personalizados para melhor visualização no editor de projetos. Neste tutorial, pode baixar os ícones abaixo:
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/en/custom-icons/Custom-Icons.zip">ÍCONES PERSONALIZADOS</a>
-
-  </p>
 </div>
+

@@ -3,42 +3,42 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
+Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
+</div>
 
-Register for the Apple Developer Enterprise Program to deploy your app **in-house**.</div> <div class = "tips"> 
-
+<div markdown="1" class = "tips">
 **注記**
+To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
+</div>
 
-To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.</div> 
-
-## ステップ 1 - Apple ID
+## ⒈ Apple ID
 
 If you don’t have any Apple ID go to [Step2](#step-2-create-your-apple-id).
 
 If you already have an Apple ID, go to [Step 3](#step-3-d-u-n-s-number).
 
-## ステップ 2 - Create your Apple ID
+## ⒉ Apple IDを作成する
 
 [Apple ID作成ページ](https://appleid.apple.com/)にアクセスします。
 
-![Create your Apple ID](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
+![Apple IDを作成する](assets/en/deploy-in-house/Apple-ID-Creation-Page-4D-for-iOS.png)
 
-* Complete the form and security questions.
-* You'll receive a verification code by email.
-* Enter the verification code to validate your account creation.
+* 必要な情報をフォームに入力し，セキュリティの質問に答えます。
+* Appleから確認メールが送られます。
+* メールに記載されている確認コードを入力して，アカウントの作成を完了します。
 
 ![Register developer program](assets/en/deploy-in-house/Register-developer-program-4D-for-iOS.png)
 
-* Once you have your Apple ID, you can continue to Step 3.
+* Apple IDが作成できました。⒊に進むことができます。
 
-## ステップ 3 - D-U-N-S Number
+## ⒊ D-U-N-S Number
 
 * If you don’t have a D-U-N-S Number, go to [Step 4](#step-4-request-a-d-u-n-s-number).
 * If you already have a D-U-N-S Number, go to [Step 5](#step-5-register-as-a-developer).
 
-## ステップ 4 - Request a D-U-N-S Number
+## ⒋ Request a D-U-N-S Number
 
 Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search).
 
@@ -55,21 +55,21 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
 
 * Click on the **Start your Enrollment** button.
-* Read and accept the Apple Developer Agreement. 
+* Read and accept the Apple Developer Agreement.
 * Click **Submit**.
 
 ![Register as a developer](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## ⒍ Enroll in the Apple Developer Enterprise Program
 
-* You can sign up for the Apple Developer Enterprise Program [here](https://developer.apple.com/enroll/enterprise/). 
+* You can sign up for the Apple Developer Enterprise Program [here](https://developer.apple.com/enroll/enterprise/).
 * Click on the **Start your Enrollment** button.
 * Select **Company / Organization** from the Entity Type dropdown list.
 * Click **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
-* Complete the form. 
+* Complete the form.
 * Click **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)

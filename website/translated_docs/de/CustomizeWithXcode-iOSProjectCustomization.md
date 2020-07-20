@@ -11,13 +11,13 @@ Let's do some storyboard modification ... from simple to complex.
 
 We'll start by modifying a label's font and color:
 
-* Open the *ContactDetailsForm.storyboard* file from the Navigation tab. 
+* Open the *ContactDetailsForm.storyboard* file from the Navigation tab.
 * Click on the First Name label (you can also select it from the interface builder or the left pane).
 * Select the Attributes inspector pane from the Utility area.
 
 ![Attributes inspector](assets/en/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* Change the font from Helvetica Neue Bold to Futura Bold. 
+* Change the font from Helvetica Neue Bold to Futura Bold.
 
 ![Attributes inspector font](assets/en/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
@@ -53,7 +53,7 @@ The image currently has the following constraints:
 * Height Equals: A height of 78 pixels.
 * Align Center X: Centers the image on a previously defined horizontal axis.
 * Top Space: An amount of space from the top of the image to the top of the view.
-* Bottom space to <first name>: The previously defined space between the First Name label and the image.
+* Bottom space to <First Name>: The previously defined space between the First Name label and the image.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
@@ -69,13 +69,15 @@ Next, click on the **Add New Constraints** button and add a leading space constr
 
 At this point, all the profile picture constraints should be blue.
 
-Congratulations! Your profile picture is now well positioned with the correct constraints.<div class = "tips"> 
+Congratulations! Your profile picture is now well positioned with the correct constraints.
 
+<div markdown="1" class = "tips">
 **TIPS**
 
 * To create a constraint between two views, press Ctrl and drag one of the views to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
+</div>
 
 ## SCHRITT 4. Update label positions and constraints
 
@@ -110,7 +112,7 @@ Change the position and width:
 Modify the remaining constraints:
 
 * Delete the leading space constraints from the Size inspector.
-* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
+* Add a leading space and top space constraints by clicking on the Add New Constraints button.
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
@@ -122,7 +124,7 @@ Let's see the results in the Simulator !
 
 Hmmmm. That's not exactly the result we wanted ...
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector.
 
 ![Labels Alignment](assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
