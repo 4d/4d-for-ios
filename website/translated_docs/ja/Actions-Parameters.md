@@ -3,9 +3,10 @@ id: action-parameters
 title: アクションパラメーターを使用する
 ---
 
-<div class = "objectives">
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-Define action parameters to edit the content of your app.</div>
+Define action parameters to edit the content of your app.
+</div>
 
 
 In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
@@ -19,11 +20,10 @@ In this tutorial, we're going to go further and create:
 
 To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">素材プロジェクト</a>
-  </p>
 </div>
 
 ## ⒈ Add action
@@ -119,7 +119,7 @@ C_OBJECT($1;$request)
 
 C_OBJECT($o;$context;$request;$result;$parameters)
 
-$request:=$1  // モバイルアプリから受け取った情報
+$request:=$1  // Informations provided by mobile application
 
 $context:=$request.context
 $parameters:=$request.parameters
@@ -128,7 +128,7 @@ Case of
 
     : ($request.action="addTasks")
 
-          // ここに "Add…" アクションのコードを記述
+          // Insert here the code for the action "Add…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -138,7 +138,7 @@ Case of
 
     : ($request.action="editTasks")
 
-          // ここに "Edit…" アクションのコードを記述
+          // Insert here the code for the action "Edit…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -150,7 +150,7 @@ Case of
 
     : ($request.action="deleteTasks")
 
-          // ここに "Remove" アクションのコードを記述
+          // Insert here the code for the action "Remove"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -160,7 +160,7 @@ Case of
 
     : ($request.action="sendComment")
 
-          // ここに "Send Comment" アクションのコードを記述
+          // Insert here the code for the action "Send Comment"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -172,7 +172,7 @@ Case of
 
     Else 
 
-          // 未知のアクション
+          // Unknown action
 
 End case 
 
@@ -197,7 +197,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds.Tasks.new()  //新規エンティティの参照を作成
+    $entity:=ds.Tasks.new()  //create a reference
 
     For each ($key;$in.parameters)
 
@@ -205,11 +205,11 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $entity.save()  //エンティティを保存
+    $entity.save()  //save the entity
 
 
-    $out.success:=True  // アクションが成功したことをアプリに通知
-    $out.dataSynchro:=True  // エンティティセレクションのリロードを要求
+    $out.success:=True  // notify App that action success
+    $out.dataSynchro:=True  // notify App to refresh the selection
     $out.statusText:="Task added"
 
 Else 
@@ -403,12 +403,11 @@ And finally you can delete an entity using the **Delete...** action.
 
 ## ⒏ これからどうする？
 
-Congratulations! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
+おつかれさまでした！ Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">完成プロジェクト</a>
-  </p>
 </div>
 

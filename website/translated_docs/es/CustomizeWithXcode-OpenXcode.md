@@ -3,29 +3,25 @@ id: open-xcode
 title: Trabajar con Xcode
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJETIVOS**
 
 * Abra un proyecto 4D for iOS desde el Editor de proyectos.
-* Personalizar la aplicación 4D for iOS generada.</div> 
+* Personalizar la aplicación 4D for iOS generada.
+</div>
 
-4D for iOS genera una aplicación iOS nativa modificable y personalizable con Xcode. ¡Miremos el proceso!<div class = "tips"> 
+4D for iOS genera una aplicación iOS nativa modificable y personalizable con Xcode. ¡Miremos el proceso!
 
+<div markdown="1" class = "tips">
 **NOTA**
-
-Si personaliza su proyecto en Xcode y lo reconstruye desde el Editor de proyecto, todas sus modificaciones se perderán.</div> 
+Si personaliza su proyecto en Xcode y lo reconstruye desde el Editor de proyecto, todas sus modificaciones se perderán.
+</div>
 
 Vamos a utilizar la aplicación Contact que hemos creado [aquí](contact-app.html). ¡Descargue el proyecto Starter!
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/en/customize-with-xcode/ContactStarter.zip">PROYECTO STARTER</a>
-
-  </p>
 </div>
 
 ## PASO 1. Genere su proyecto iOS
@@ -38,15 +34,15 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">PROYECTO STARTER</a>
 En la pestaña BUILD del Editor de proyectos:
 
 * Seleccione el dispositivo a utilizar como Simulador haciendo clic en el botón del dispositivo.
-* Haga clic en el botón **Crear y ejecutar**.
+* Click the **Build and Run** button.
 
-![Crear y ejecutar](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
 ## PASO 3. Abra su proyecto con Xcode
 
 En la pestaña BUILD del Editor de proyectos:
 
-* Haga clic en Proyecto > Abrir el proyecto con Xcode
+* Click on Project > Open the project with Xcode
 
 ![Abra su proyecto con Xcode](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 

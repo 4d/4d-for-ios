@@ -1,47 +1,43 @@
 ---
 id: filter-query-introduction
-title: Requêtes limitées
+title: Recherche restreinte
 ---
 
-<div class = "objectives"> 
+<div markdown="1" class = "objectives">
+**OBJECTIFS **
+Définir des filtres de recherche fondés sur des informations utilisateur ou des informations basiques pour afficher un contenu filtré dans l’application iOS générée.
+</div>
 
-**OBJECTIFS**
-
-Définir des filtres de recherche fondés sur des informations utilisateur ou des informations basiques pour afficher un contenu filtré dans l’application iOS générée.</div> <div class = "prerequisites"> 
-
+<div markdown="1" class = "prerequisites">
 **CONDITIONS PRÉALABLES**
+Cliquez [ici](prerequisites.html) pour pouvoir commencer !
+</div>
 
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
+In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
-Dans ce tutoriel, nous allons aborder le thème des **requêtes limitées** avec un exemple simple : vous êtes un chargé de clientèle et vous souhaitez consulter vos contrats *en cours* en vous connectant simplement à votre application avec votre adresse mail.
-
-Tout d’abord, depuis la section Données, nous allons définir un **filtre de recherche basique** pour afficher uniquement les contrats qui sont *en cours*. Nous allons ensuite appliquer un **filtre basé sur les informations de l’utilisateur** et qui dépendra de l'e-mail du chargé de clientèle.
+First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
 
 ## Téléchargez le projet Starter
 
-Avant de commencer, assurez-vous d'avoir téléchargé le **Projet Starter**, qui comprend un fichier **4DforiOSQueries.4dbase** (une base de données de démonstration et un projet d’application mobile prêt à l’emploi).
+Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">PROJET STARTER</a>
-
-  </p>
 </div>
 
 La base de données contient :
 
-* **La table CRM** qui comprend l'ensemble des données que nous souhaitons afficher dans l'application iOS générée.
-* **La table AccountManager** qui comprend les informations de base sur les chargés de clientèle (nom et e-mail).
+* **CRM table** with all the data we want to display in the generated iOS app
+* **AccountManager table** with basic information about the account managers (email and name).
 
-![CRM database](assets/en/restricted-queries/CRMDatabase.png)<div class = "tips"> 
+![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
+<div markdown="1" class = "tips">
 **NOTE**
-
-Ce projet utilise des [modèles personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), des [icônes personnalisées](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) et des [formats de données personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).</div> 
+Ce projet utilise des [modèles personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), des [icônes personnalisées](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) et des [formats de données personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
+</div>
 
 Vous êtes maintenant prêt à définir votre première requête limitée !
 
-Ouvrez le projet mobile en cliquant sur Ouvrir > Projet mobile... et sélectionnez CRM app > **project.4dmobileapp**.
+Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
