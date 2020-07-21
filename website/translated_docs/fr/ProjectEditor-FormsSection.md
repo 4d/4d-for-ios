@@ -53,11 +53,11 @@ And at any moment, you can reorder your field selecting it and drop it at any pl
 
 ## Gallery
 
-You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+Vous avez probablement remarqué que, lorsque vous souhaitez sélectionner un modèle dans la section Formulaires, une icône "Plus" est disponible pour les formulaires liste et les formulaires détaillés depuis 4D v18 R3.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
-Just click on that icon to display the entire list.
+Cliquez simplement sur cette icône pour afficher la liste entière.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
