@@ -16,9 +16,9 @@ As you can see, a “More” icon is available at the bottom.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
-Just click on that icon to display the entire list.
+Cliquez simplement sur cette icône pour afficher la liste entière.
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond à vos besoins. 4D for iOS se chargera de tout le processus d'installation pour vous aider à travailler plus rapidement et plus efficacement.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
