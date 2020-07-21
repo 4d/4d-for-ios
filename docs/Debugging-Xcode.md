@@ -24,7 +24,7 @@ You will find the logger settings definition in your Xcode project/Settings/Sett
 
 ## Levels
 
-You can filter and display different log level into your console adding log.level in you Settings.plist file.
+You can filter and display different log levels in your console by adding log.level to your Settings.plist file.
 
 To do so, add a row by right clicking inside the Settings.plist file and enter:
 * log.level as **Key**
