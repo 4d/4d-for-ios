@@ -34,7 +34,7 @@ Integrate a login form into your app from the project editor, in the Publishing 
 
 ### 2. Enter your email address
 
-An email address is required when the app is launched. When a user enters their email and clicks on the **Login** button, the **On Mobile app Authentication** method is called and the user's session status will is updated to a "pending" status. A validation email is then sent to the user's email address.
+An email address is required when the app is launched. When a user enters their email and clicks on the **Login** button, the **On Mobile app Authentication** method is called and the user's session status is updated to a "pending" status. A validation email is then sent to the user's email address.
 
 ### 3. Check your mailbox
 
