@@ -7,7 +7,7 @@ If you have issues during the build process, you can open your generated project
 
 ![Open the project with Xcode](assets/en/debugging/open-project-Xcode.png)
 
-From here, select **launch your application** in the Simulator by clicking on the **Build** button and get all the logs at the bottom of the Xcode workspace.
+From here, select **launch your application** in the Simulator by clicking on the **Build** button and get all of the logs at the bottom of the Xcode workspace.
 
 ![Xcode logs](assets/en/debugging/Xcode-logs.png)
 
