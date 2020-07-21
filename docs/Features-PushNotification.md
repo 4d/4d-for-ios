@@ -7,7 +7,7 @@ title: Push notifications
 
 **OBJECTIVES**
 
-Integrate push notification in your 4d for iOS apps
+Integrate push notification into your 4d for iOS apps
 
 </div>
 
