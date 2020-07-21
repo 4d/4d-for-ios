@@ -27,7 +27,7 @@ Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’é
 
 ![Detail form template selection](assets/fr/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-As with the List Form definition, select a template and add your fields onto your detail form.
+Tout comme pour le formulaire Liste, sélectionnez un modèle et ajoutez vos champs sur votre formulaire détaillé.
 
 You have several ways to add your fields in Detail forms:
 
@@ -67,7 +67,7 @@ Vous pouvez donc commencer directement à travailler sur le modèle, puisqu'il e
 
 <div markdown="1" class = "tips">
 **ASTUCES**
-The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
+La galerie est également disponible [en ligne](https://4d-for-ios.github.io/gallery/).
 </div>
 
 ## Que faire ensuite ?
