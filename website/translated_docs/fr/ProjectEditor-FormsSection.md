@@ -9,9 +9,9 @@ La section Formulaires vous permet de sélectionner des modèles de formulaire L
 
 Voici la répartition de cet écran, de haut en bas :
 
-* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section.
-* **Available Forms:** Allows switching between template selection and content definition.
+* **Les formulaires Liste et les formulaires détaillés :** permettent de basculer entre les formulaires Liste et les formulaires détaillés pour chaque table.
+* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure.
+* **Les formulaires disponibles :** permettent de basculer entre la sélection du modèle et la définition du contenu.
 
 ![List form template selection](assets/fr/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -34,11 +34,11 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
 <div markdown="1" class = "tips">
-**TIPS** Want to change the template for your list or detail form?
+**ASTUCES** Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
 Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
 </div>
 
-## Gallery
+## Galerie
 
 You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
 
