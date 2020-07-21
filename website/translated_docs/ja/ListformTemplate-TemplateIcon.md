@@ -5,16 +5,16 @@ title: リストフォームのアイコン
 
 リストフォームのアイコンは自作することができます。
 
-画像サイズは160px x 160px，ファイル名は**layoutIconx2.png**と決められています。
+It must be 160px x 160px and must be named **layoutIconx2.png**.
 
 カスタムテンプレートアイコンは下記の場面で使用されます。
 
 * テーブル名の上部に表示される選択テンプレートのアイコン
-* **フォームセクション**のテンプレート選択画面
+* in the template selector window in the **Forms section**
 
 ![リストフォームのカスタムテンプレート](assets/en/custom-listform/custom-listform-template.png)
 
-リストフォームテンプレートのフォルダーにアイコンファイルが含まれていない場合，テンプレート選択画面には**template.svg**ファイル（後述）がそのまま表示され，テーブル名の上部に表示される選択テンプレートのアイコンは未設定（はてなマーク）になります。
+If this icon is missing from your list form template folder, the **template.svg** file (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon.
 
 ![リストフォームのカスタムテンプレートアイコンが設定されていない](assets/en/custom-listform/missing-listform-icon-custom-template.png)
 

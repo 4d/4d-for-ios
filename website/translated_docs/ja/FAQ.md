@@ -3,11 +3,11 @@ id: faq
 title: FAQ
 ---
 
-## システム要件
+## はじめにお読みください
 
 <details>
 <summary>
-    <strong>4D for iOS を使用するには，高度なスキルが求められますか</strong>
+    **Do I need specific expertise to use 4D for iOS?**
 </summary>
 
 4D for iOS を使用すれば，ネイティブ iOS アプリに関する専門的な知識がない方でも，4Dから簡単にモバイルプロジェクトが作成できます！
@@ -18,7 +18,7 @@ title: FAQ
 
 <details>
 <summary>
-<strong>4D for iOSを使用するためのシステム要件がありますか</strong>
+**Are there any prerequisites for 4D for iOS?**
 </summary>
 
 ### バージョン対応表
@@ -38,35 +38,39 @@ title: FAQ
 
 過去バージョンの Xcode は，下記のサイトから入手することができます。 https://developer.apple.com/download/more/
 
-=> 登録デベロッパーは，Apple Developer からプレビュー版のリリースをダウンロードすることができます。
+=> Only registered developers can download preview releases through the Apple Developer website.
 
 [こちら](prerequisites.html)の情報もご覧ください。
 
 </details>
 
+
 <details>
 <summary>
-<strong>Windowsで 4D for iOS アプリを開発できますか。</strong>
+**Can I use Windows to develop with 4D for iOS?**
 </summary>
 
 いいえ。 アプリケーションのコンパイルには Xcode，テストには iOS シミュレーターを使用するため，macOS 開発する必要があります。
 
 </details>
 
+
 ## ライセンス
 
 <details>
 <summary>
-<strong>4D for iOS を使用するためには，4D Web Server のライセンスが必要ですか</strong>
+**Do I need a 4D Web Server to run 4D for iOS?**
 </summary>
 
-いいえ。4D Server v17 R2 以降であれば，4D for iOS のサーバーにすることができます。
+いいえ。4D Server v17 R2 以降であれば，4D for iOS  のサーバーにすることができます。
 
 </details>
 
+
+
 <details>
 <summary>
-<strong>試用版または評価ライセンスは発行していますか</strong>
+**Is there a test or evaluation license available?**
 </summary>
 
 4D v17 R2 以降の 4D Developer Professional または 4D Server ライセンスがあれば，4D for iOS を使用することができます。
@@ -75,18 +79,20 @@ R バージョンが利用できる 4D のパートナープログラムに未�
 
 </details>
 
+
 <details>
 <summary>
-<strong>4D for iOS でアプリを開発するために必要なライセンスはどれですか</strong>
+**What 4D license do I need to develop with 4D for iOS?**
 </summary>
 
 macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 
 </details>
 
+
 <details>
 <summary>
-<strong>4D for iOS で作成したアプリを配付するために必要なライセンスはどれですか</strong>
+**What 4D license do I need to deploy apps created with 4D for iOS?**
 </summary>
 
 4D for iOSアプリと同期するサーバーアプリは 4D Server（macOS または Windows）の v17 R2 以降のライセンスで運用することができます。
@@ -97,20 +103,22 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 
 </details>
 
+
 <details>
 <summary>
-<strong>4D Server にクライアント 2 接続ライセンスがインストールされている場合（合計 4 接続），何台のデバイスから接続できますか</strong>
+**I have a 4D Server plus an expansion for two clients (in total, four clients), how many mobile devices can I use?**
 </summary>
 
 最大で 4 台のデバイスから接続できます。
 
 </details>
 
+
 ## その他
 
 <details>
 <summary>
-<strong>iOS アプリでデータベースを更新することができますか</strong>
+**Can I modify and update data from my iOS app?**
 </summary>
 
 はい。もちろんです！
@@ -119,34 +127,37 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 
 <details>
 <summary>
-<strong>データはどこに保存されているのでしょうか</strong>
+**Where is my data actually stored?**
 </summary>
 
 データは iOS デバイスのローカルデータベースに保存されています。 したがって，オフラインモードでもデータベースにアクセスすることができます。
 
 </details>
 
+
 <details>
 <summary>
-<strong>4D for iOS でリレーショナルデータベースを使用できますか</strong>
+**Can I use related tables in 4D for iOS?**
 </summary>
 
 はい。もちろんです！
 
 </details>
 
+
 <details>
 <summary>
-<strong>4D for iOS で計算フィールドを使用することができますか</strong>
+**Can I use calculated fields in 4D for iOS?**
 </summary>
 
 数式を公開することはできませんが，計算済みの値をフィールドに登録しておき，そのフィールドを 4D for iOS の「[ストラクチャ](structure.html)」セクションで公開することができます。
 
 </details>
 
+
 <details>
 <summary>
-<strong>データベースにピクチャフィールドがなくても使用できますか</strong>
+**Do I need to have images in my database?**
 </summary>
 
 ピクチャフィールドは必須ではありませんが，最高のユーザーエクスペリエンスを実現するためには，画像を積極的に使用することが勧められています。
@@ -157,38 +168,42 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 
 <details>
 <summary>
-<strong>iOS アプリのためにアイコンを作成する必要がありますか</strong>
+**Do I need to create an icon for my iOS app?**
 </summary>
 
-4D for iOS アプリには，オリジナルのアイコンを設定することが勧められています。特に設定しない場合，4D のロゴマークがデフォルトのアイコンとなります。
+It's highly recommended to have an icon for your 4D for iOS app. If you don't have one, the default icon (the 4D logo) will be displayed.
 
 デスクトップ版アプリのアイコンがある場合，プロジェクトエディターの「[一般](general.html)」セクションのアイコンエリアにドラッグ＆ドロップするだけで，モバイル版アプリのアイコンが自動的に作成されます。
 
 </details>
 
+
 <details>
 <summary>
-<strong>作成したアプリはどのようにテストするのですか</strong>
+**How can I test my app?**
 </summary>
 
-4D for iOS で作成したアプリは，[シミュレーター](simulator.html)で手早くテストすることができます。 実機の iOS デバイス（iPhone または iPad）で[テスト](install-device.html)するためには，有料の**Apple Developer アカウント**が必要です。
+4D for iOS で作成したアプリは，[シミュレーター](simulator.html)で手早くテストすることができます。 To test your app on your iOS device you need to have a **paying Apple developer account** (install-device.html) (iPhone and iPad).
 
-**注記**: 出力した iOS プロジェクトを Xcode で開けば，無料の**Apple Developer アカウント**でもアプリをインストールすることができます。
+**Note:** to intall your app with a **free developer account**, you can open your generated iOS project and install your app using Xcode.
 
 </details>
 
+
 <details>
 <summary>
-<strong>iPhone と iPad 用に別々の iOS テンプレートを作成する必要がありますか</strong>
+**Do I need to create special iOS templates to build my apps on an iPhone or iPad?**
 </summary>
 
 4D for iOS に用意されているテンプレートは，すべて iPhone 用に最適化されています。 しかし，iPad でも使用することができます。
 
 </details>
 
+
+
 <details>
 <summary>
-     <strong>Apple Developer のアカウントが必要ですか</strong>
+     **Do I need an Apple Developer Account?**
 </summary>
 
 4D for iOS で作成したアプリをテストするためには，最低限でも無料の [Apple Developer アカウント](free-developer-account.html) が必要です。
@@ -199,9 +214,13 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 
 <details>
 <summary>
-<strong>4D for iOS で作成したアプリをカスタマイズすることができますか</strong>
+**Can I customize my 4D for iOS app?**
 </summary>
 
 4D for iOS は，標準の Xcode プロジェクトを出力しますので，必要であれば，[ Xcode で開いて編集する](open-xcode.html) ことができます。
 
 </details>
+
+
+
+

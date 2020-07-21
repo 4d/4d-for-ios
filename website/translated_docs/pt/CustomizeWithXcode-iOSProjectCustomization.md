@@ -3,7 +3,7 @@ id: customize-your-ios-app
 title: Customize your 4D for iOS App
 ---
 
-Vamos fazer algumas modificações de storyboard... do simples ao complexo.
+Let's do some storyboard modification ... from simple to complex.
 
 ![Final result](assets/en/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
@@ -11,13 +11,13 @@ Vamos fazer algumas modificações de storyboard... do simples ao complexo.
 
 Vamos começar modificando a fonte e cor de uma etiqueta:
 
-* Abra o arquivo *ContactDetailsForm.storyboard* da guia de navegação. 
+* Open the *ContactDetailsForm.storyboard* file from the Navigation tab.
 * Clique na etiqueta do primeiro nome (você pode também selecionar o construtor de interfaces no painel esquerdo).
 * Selecione o painel Inspetor de atributos da área de utilitário.
 
 ![Attributes inspector](assets/en/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* Altere a fonte da Helvetica Neue bold para Futura bold. 
+* Altere a fonte da Helvetica Neue bold para Futura bold.
 
 ![Attributes inspector font](assets/en/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
@@ -29,7 +29,7 @@ Vamos começar modificando a fonte e cor de uma etiqueta:
 
 Todos os modelos 4D for iOS usam restrições para alementos do aplicativo para serem bem exibidos em todos os aparelhos.
 
-No arquivo *ContactDetailsForm.storyboard*, as etiquetas de imagem, nome e sobrenome são todos atualmente alinhados ao centro.
+In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
 
 Vamos mudá-lo para aparecer assim:
 
@@ -53,29 +53,31 @@ A imagem possui atualmente as seguintes restrições:
 * Heigh Equals: Uma altura fixa de 78 pixels.
 * Align Center x: centra a imagem em um eixo horizontal definido anteriormente.
 * Top Space: Uma quantia fixa de espaço da parte superior da imagem até o topo da vista.
-* Bottom space to <first name>: O espaço anteriormente definido entre a etiqueta Nome e a Imagem.
+* Bottom space to <First Name>: O espaço anteriormente definido entre a etiqueta Nome e a Imagem.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
 Apague todas as restrições exceto Width e Height (você vai modificá-las depois na seção Restrições no Size Inspector). O outline de imagem deve estar agora em vermelho, porque as restrições estão faltando.
 
-Clique no botão Alinhar (no fundo da janela Interface) e marque a checkbox **Vertically in Container**.
+Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
 
 ![Profil picture Align](assets/en/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png)
 
-Depois clique no botão **Adicione Novas Restrições** e adicione uma restrição de espaço entre linhas impressas (restrição esquerda).
+Next, click on the **Add New Constraints** button and add a leading space constraint (the left constraint).
 
 ![Profil picture new constraints](assets/en/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png)
 
 Nesse ponto, todas as restrições de imagem de perfil devem estar em azul.
 
-Parabéns! Sua foto do perfil está agora bem posicionada com as restrições corretas.<div class = "tips"> 
+Parabéns! Sua foto do perfil está agora bem posicionada com as restrições corretas.
 
+<div markdown="1" class = "tips">
 **DICAS**
 
 * To create a constraint between two views, press Ctrl and drag one of the views to the other. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
 
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.</div> 
+* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
+</div>
 
 ## PASSO 4. Atualizar posições de etiqueta e restrições
 
@@ -110,7 +112,7 @@ Change the position and width:
 Modify the remaining constraints:
 
 * Delete the leading space constraints from the Size inspector.
-* Add a leading space and top space constraints by clicking on the Add New Constraints button. 
+* Add a leading space and top space constraints by clicking on the Add New Constraints button.
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
@@ -122,7 +124,7 @@ Let's see the results in the Simulator !
 
 Hmmmm. That's not exactly the result we wanted ...
 
-* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
+* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector.
 
 ![Labels Alignment](assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 

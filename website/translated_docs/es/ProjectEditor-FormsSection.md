@@ -9,9 +9,9 @@ La sección Formularios le permite seleccionar las plantillas de formulario List
 
 Aquí está el desglose de esta pantalla, de arriba a abajo:
 
-* **Los formularios Lista y los formularios detallados:**permiten cambiar entre los formulario Lista y los formularios detallados para cada tabla.
-* **Las tablas publicadas:** muestra todas las tablas publicadas en la sección Estructura. 
-* **Formularios disponibles:** permite cambiar entre la selección de plantillas y la definición de contenido.
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Published tables:** Displays all tables published in the Structure section.
+* **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -33,24 +33,8 @@ Al igual que con la definición de formulario Lista, seleccione una plantilla y 
 
 Puede agregar entre 2 o a 10 campos para la mayoría de los formularios Lista.
 
-:::tip RECOMENDACIONES ¿Quiere cambiar la plantilla para su formulario lista o formulario detallado?
-
-Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos). :::
-
-## Galería
-
-You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
-
-Just click on that icon to display the entire list.
-
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
-
-So you can directly start working on the template, as it is ready-to-use.
-
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
-
-## ¿Qué hacer ahora?
-
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
+<div markdown="1" class = "tips">
+**RECOMENDACIONES**
+Want to change the template for your list or detail form?
+Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).
+</div>

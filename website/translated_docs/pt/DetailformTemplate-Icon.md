@@ -5,16 +5,16 @@ title: Ícone de formulário detalhado
 
 Pode criar seu próprio ícone de modelo
 
-Deve ter 160x160 px e deve ser nomeado **layoutIconx2.png**
+It must be 160x160px and must be named **layoutIconx2.png**
 
 O ícone será usado:
 
-* acima do nome da tabela quando o modelo tiver sido selecionado e
-* na janela de seleção de modelos na **seção Formulários**
+* acima do nome da tabela quando o modelo tiver sido selecionado, e
+* in the template selector window in the **Forms section**
 
 ![Custom detailform template](assets/en/custom-detailform/custom-detailform-template.png)
 
-Se este ícone estiver faltando na pasta de seu modelo de formulário detalhado, será exibido **template.svg file** (vamos aprender sobre isso depois) na janela de seletor de modelo e um ícone de ponto de interrogação será exibido acima de cada tabela em que faltar um ícone. ![Missing listform icon custom template](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
+If this icon is missing from your detail form template folder the **template.svg file** (we're going to learn about this later) will be displayed in the template selector window and a question mark icon will be displayed above each table that's missing an icon. ![Missing listform icon custom template](assets/en/custom-detailform/missing-detailform-icon-custom-template.png)
 
 Usamos photoshop para criar um ícone de modelo de formulário detalhado em nosso exemplo, mas você pode usar qualquer software de imagem.
 

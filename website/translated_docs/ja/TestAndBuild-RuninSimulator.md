@@ -3,11 +3,10 @@ id: simulator
 title: シミュレーターを使用する
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
-
-Test your app in the Simulator.</div> 
+Test your app in the Simulator.
+</div>
 
 Finished developing you app and want to test it?
 
@@ -27,4 +26,4 @@ Click on the **Build and Run** button.
 
 Test navigating between the list and detail forms in your app.
 
-![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png)
+![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 

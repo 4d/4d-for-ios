@@ -12,7 +12,7 @@ Here's the result we want to achieve:
 For each cell, we're going to add a:
 
 * Profile image
-* Title 
+* Title
 * Subtitle
 
 ## Open the storyboard file with Xcode
@@ -25,7 +25,7 @@ It's quite empty, so let's add some content!
 
 ## Add an Image View
 
-From the **Object library**, drag and drop an **Image View** into a cell. You can search for "Image View" in the search bar at the bottom of the Object Library.
+From the **Object library**, drag and drop an  **Image View** into a cell. You can search for "Image View" in the search bar at the bottom of the Object Library.
 
 ![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
@@ -87,7 +87,7 @@ Repeat the process for the second label.
 
 ## Label customization
 
-From the attribute inspector (on the right side of the Interface Builder window), you can customize your label's font colors. Let's make the second label **Dark Grey Color** :
+From the attribute inspector (on the right side of the Interface Builder window),  you can customize your label's font colors. Let's make the second label **Dark Grey Color** :
 
 ![Label color dark grey](assets/en/custom-listform/label-color-dark-grey.png)
 
@@ -101,27 +101,26 @@ From the attribute inspector, you can also customize the font. Select both label
 
 To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. This allows the number of lines to be unlimited.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
+<div markdown="1" class = "tips">
 **HINWEIS**
-
 The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
+![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
+</div>
 
 ## How to get data into your cells
 
 ### Image View
-
 Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter ```bindTo.record.___FIELD_1___```
+* **Key Path**: Begin with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
 
-* **Type**: Always ```String```
+* **Type**: Always `String`
 
-* **Value**: The attribute name. Enter ```___FIELD_1_BINDING_TYPE___```
+* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
@@ -129,28 +128,28 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 
 Select the first label and add a row in the Defined Runtime Attributes:
 
-* **Key Path**: ```bindTo.record.___FIELD_2___```
+* **Key Path**: `bindTo.record.___FIELD_2___`
 
-* **Type**: ```String```
+* **Type**: `String`
 
-* **Value**: ```___FIELD_2_BINDING_TYPE___```
+* **Value**: `___FIELD_2_BINDING_TYPE___`
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
 Select the second label and add a row in the Defined Runtime Attributes:
 
-* **Key Path**: ```bindTo.record.___FIELD_3___```
+* **Key Path**: `bindTo.record.___FIELD_3___`
 
-* **Type**: ```String```
+* **Type**: `String`
 
-* **Value**: ```___FIELD_3_BINDING_TYPE___```
+* **Value**: `___FIELD_3_BINDING_TYPE___`
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
 You can change the **storyboard display labels** to have better visibility:
 
-* Double-click the first label to edit it and enter ```___FIELD_2_LABEL___```
-* Double-click the second label to edit it and enter ```___FIELD_3_LABEL___```
+* Double-click the first label to edit it and enter `___FIELD_2_LABEL___`
+* Double-click the second label to edit it and enter `___FIELD_3_LABEL___`
 
 ![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
@@ -166,17 +165,17 @@ The last step is adding a corner radius to the Image View to have a better desig
 
 Select your Image View and add the two following lines in the User Defined Runtime Attributes:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 and
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Boolean```
+* **Type**: `Boolean`
 
 * **Value**: Check the box
 
@@ -190,12 +189,11 @@ You can now build your project from the project editor!
 
 In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. But wait - there’s more! In the next tutorial, you’ll learn how to build detail form templates! Click on **Final Project** below to download the completed template list folder.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
-
-  </p>
 </div>
+
+
+
+

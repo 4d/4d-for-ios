@@ -46,166 +46,89 @@ You are free to change the order of parameters using drag and drop.
 Here are the different **Formats** you can select for a parameter:
 
 <table>
-  
 
 <tr>
 <th colspan="2"  style="text-align:center">TEXT</th>
-</tr>  
-  <tr style="text-align:center">
-    
+</tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Text</td><td>Capitalize the first letter of a string</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Email Address</td><td>Optimized iOS keyboard for email entry</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Phone Number</td><td>iOS keypad for entering telephone numbers.</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Account</td><td>Optimized iOS keyboard for username entry</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Password</td><td>Optimized to handle passwords</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>URL</td><td>Optimized iOS keyboard for URL entry</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Text area</td><td>Includes multiple lines of text in a single field</td>
-  </tr>
+</tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
 <th colspan="2" style="text-align:center">NUMBER</th>
-</tr>  
-  <tr style="text-align:center">
-    
+</tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Number</td><td>Numbers with decimals</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Integer</td><td>Numbers without decimals</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Scientific</td><td>Scientific Notation</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Percentage</td><td>Percent Notation</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Spell Out</td><td>Convert numbers into strings</td>
-  </tr>
+</tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
 <th colspan="2" style="text-align:center">DATE</th>
-</tr>  
-  <tr style="text-align:center">
-    
+</tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Date</td><td>Nov 23, 1937</td>
-  </tr>
-  
-  <tr>
-    
-<td>Short Date</td><td>    11/23/37</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
+<td>Short Date</td><td> 11/23/37</td>
+</tr><tr>
 <td>Long Date</td><td>November 23, 1937</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Full Date</td><td>Tuesday, November 23, 1937</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td colspan="2"></td>
-  </tr>
+</tr>
 
 <tr>
 <th colspan="2" style="text-align:center">TIME</th>
-</tr>  
-  <tr style="text-align:center">
-    
+</tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Time</td><td>3:30 PM</td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Duration</td><td>2 hours 30 minutes</td>
-  </tr>
+</tr>
 <tr>
 <td colspan="2"></td>
 </tr>
 
 <tr>
 <th colspan="2" style="text-align:center">BOOLEAN</th>
-</tr>  
-  <tr style="text-align:center">
-    
+</tr><tr style="text-align:center">
 <th>Format</th><th>Description</th>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
-  </tr>
-  
-  <tr>
-    
+</tr><tr>
 <td>Check mark</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
-  </tr>
+</tr>
 
 <tr>
 <td colspan="2"></td>
@@ -223,9 +146,9 @@ Here are the different **Formats** you can select for a parameter:
 
 4D for iOS includes three preset (predefined) actions to manage your app content:
 
-* Edit 
-* Add 
-* Delete 
+* Edit
+* Add
+* Delete
 
 #### 1. Add action
 
@@ -241,11 +164,13 @@ This will **automatically create** all the parameters for you in the Project Edi
 
 For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
 
+
 #### 2. Edit action
 
 **Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
+
 
 #### 3. Delete action
 
@@ -260,19 +185,21 @@ This type of action should be used with caution.
 For Edit and Add actions you are free to modify the:
 
 * parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
-* properties by defining them as you wish. 
+* properties by defining them as you wish.
 
 ### On Mobile App Action
 
 The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.<div class = "tips"> 
+After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
+<div markdown="1" class = "tips">
 **注記**
 
-* You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
-* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
-* You can also decide to force close the Edition form using ```$out.close:=True```.</div> 
+* You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
+* You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
+* You can also decide to force close the Edition form using `$out.close:=True`.
+</div>
 
 ## iOS app Side
 
@@ -286,11 +213,13 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 * **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
 
-![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)<div class = "tips"> 
+![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
+<div markdown="1" class = "tips">
 **ヒント**
+Actions will be displayed in the same order as defined in the Action section.
+</div>
 
-Actions will be displayed in the same order as defined in the Action section.</div> 
 
 ### Collection List forms
 

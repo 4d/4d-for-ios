@@ -3,29 +3,25 @@ id: open-xcode
 title: Working with Xcode
 ---
 
-<div class = "objectives"> 
-
+<div markdown="1" class = "objectives">
 **OBJECTIVES**
 
 * Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app.</div> 
+* Customize the generated 4D for iOS app.
+</div>
 
-4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!<div class = "tips"> 
+4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!
 
+<div markdown="1" class = "tips">
 **HINWEIS**
-
-If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!</div> 
+If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!
+</div>
 
 We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="../assets/en/customize-with-xcode/ContactStarter.zip">STARTER-PROJEKT</a>
-
-  </p>
 </div>
 
 ## SCHRITT 1. Generate your iOS Project

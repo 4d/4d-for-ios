@@ -217,10 +217,10 @@
         "title": "Utilizar parámetros de acción"
       },
       "version-18.0/version-18.0-contact-app": {
-        "title": "Contact App"
+        "title": "Aplicación Contacts"
       },
       "version-18.0/version-18.0-4d-for-ios-project-organization": {
-        "title": "4D for iOS project organization"
+        "title": "Organizar un proyecto 4D for iOS"
       },
       "version-18.0/version-18.0-customize-your-ios-app": {
         "title": "Personalizar su aplicación 4D for iOS"
@@ -235,7 +235,7 @@
         "title": "Crear y ejecutar su proyecto"
       },
       "version-18.0/version-18.0-creating-data-formatter": {
-        "title": "Crear el formato de datos"
+        "title": "Crear un formato de datos"
       },
       "version-18.0/version-18.0-data-formatter-mobile-project": {
         "title": "Abrir un proyecto móvil"
@@ -268,10 +268,10 @@
         "title": "Seleccionar un Apple Developer Program"
       },
       "version-18.0/version-18.0-creating-detailform-templates": {
-        "title": "Plantillas de formulario detallado"
+        "title": "Plantillas de formularios detallados"
       },
       "version-18.0/version-18.0-icon-detailform-template": {
-        "title": "Icono de formulario detallado"
+        "title": "Iconos de formularios detallados"
       },
       "version-18.0/version-18.0-manifest-detailform-template": {
         "title": "Manifest.json"
@@ -293,7 +293,7 @@
         "title": "Prerrequisitos"
       },
       "version-18.0/version-18.0-create-icons": {
-        "title": "Create icons"
+        "title": "Crear iconos"
       },
       "version-18.0/version-18.0-using-icons": {
         "title": "Utilizar los iconos"
@@ -308,7 +308,7 @@
         "title": "Licencias"
       },
       "version-18.0/version-18.0-creating-listform-templates": {
-        "title": "Plantillas de formulario listado"
+        "title": "Plantillas de formularios Lista"
       },
       "version-18.0/version-18.0-manifest-listform-template": {
         "title": "Manifest.json"
@@ -320,7 +320,7 @@
         "title": "Template.svg"
       },
       "version-18.0/version-18.0-icon-listform-template": {
-        "title": "List form icon"
+        "title": "Iconos de formularios Lista"
       },
       "version-18.0/version-18.0-multi-criteria-search": {
         "title": "Búsqueda multicriterios"
@@ -347,7 +347,7 @@
         "title": "Etiquetas e iconos"
       },
       "version-18.0/version-18.0-main-menu": {
-        "title": "Main Menu"
+        "title": "Menú principal"
       },
       "version-18.0/version-18.0-publishing": {
         "title": "Publicación"
@@ -359,16 +359,16 @@
         "title": "Relaciones Muchos a Uno"
       },
       "version-18.0/version-18.0-one-to-many-relations-actions": {
-        "title": "Relaciones Uno a Muchos - Acciones"
+        "title": "Uno a Muchos - Acciones"
       },
       "version-18.0/version-18.0-one-to-many-relations-custom-button": {
         "title": "Uno a Muchos - Botón personalizado"
       },
       "version-18.0/version-18.0-one-to-many-relations-title-definition": {
-        "title": "One to Many - Title definition"
+        "title": "Uno a Muchos - Título"
       },
       "version-18.0/version-18.0-one-to-many-relations": {
-        "title": "One to Many relations"
+        "title": "Relaciones Uno a Muchos"
       },
       "version-18.0/version-18.0-custom-data-formatters": {
         "title": "Formato de datos"
@@ -386,7 +386,7 @@
         "title": "Búsquedas limitadas"
       },
       "version-18.0/version-18.0-user-information-query": {
-        "title": "Filtro de búsqueda usuario"
+        "title": "Filtro de búsqueda - información usuario"
       },
       "version-18.0/version-18.0-template": {
         "title": "Plantillas y formatos"
@@ -395,7 +395,7 @@
         "title": "Cuenta Apple Developer gratuita"
       },
       "version-18.0/version-18.0-install-device": {
-        "title": "Instalar en su dispositivo iOS"
+        "title": "Instalación en su dispositivo iOS"
       },
       "version-18.0/version-18.0-simulator": {
         "title": "Utilización del simulador"
@@ -438,7 +438,7 @@
     "Test|no description given": "Pruebe",
     "Deploy|no description given": "Despliegue",
     "Define a subset of your physical structure to replicate.|no description given": "Defina un subconjunto de su estructura física a replicar.",
-    "Structure|no description given": "Estructura",
+    "Structure|no description given": "Structure",
     "Choose the layouts and style of your application in just a few, short steps.|no description given": "Elija los diseños y el estilo de su aplicación en solo unos pocos pasos.",
     "Design|no description given": "Diseño",
     "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Cree un proyecto Xcode con un solo clic y ejecute su aplicación en cualquier iPhone.",

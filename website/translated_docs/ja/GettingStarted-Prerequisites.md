@@ -6,12 +6,12 @@ title: はじめにお読みください
 ## ソフトウェアのシステム要件
 
 * 4D Developer Professional v17 R2 64ビット版（開発時）
-* 4D Server v17 R2 64ビット版（運用時） 
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) がMacにインストールされていること（必須ではありません） 
+* 4D Server v17 R2 64ビット版（運用時）
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) がMacにインストールされていること（必須ではありません）
 
-Apple configurator 2 を使用するためには **macOS 10.14** 以降が必要です。 アプリをデバイスにインストールするプロセスを自動化することができます。
+Apple configurator 2 requires **macOS 10.14** or later. アプリをデバイスにインストールするプロセスを自動化することができます。
 
-Xcode 10.2 を使用するためには **macOS 10.14** 以降が必要です。
+Xcode 10.2 requieres **macOS 10.14** or later.
 
 ## バージョン対応表
 
@@ -32,11 +32,11 @@ Xcode 10.2 を使用するためには **macOS 10.14** 以降が必要です。
 
 4D for iOS 17 R6 の動作には Swift 5.0 ランタイムが必要です。 （macOS 10.14.4 はインストール済み）
 
-* `Swift 5 Runtime Support for Command Line Tools` を [More Downloads for Apple Developers](https://developer.apple.com/download/more/) から入手してください。
+ - `Swift 5 Runtime Support for Command Line Tools` を [More Downloads for Apple Developers](https://developer.apple.com/download/more/) から入手してください。
 
 ### 4D for iOS 17 R4 を Xcode 10.2 で使用するには
 
-標準の 4D for iOS 17 R4 と Xcode 10.2 は，Apple Swift 言語の API Stability が合わないため，の組み合わせて使用することはできません。 
+標準の 4D for iOS 17 R4 と Xcode 10.2 は，Apple Swift 言語の API Stability が合わないため，の組み合わせて使用することはできません。
 
 Xcode 10.2 用の互換コンポーネントを単独でダウンロードすることができます。
 
@@ -51,7 +51,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## データベース設定
 
-* 4Dのデータベース設定を開き，互換性ページに移動して，**「オブジェクトプロパティにアクセスするのにオブジェクト記法を使用（Unicode 必須）」**を有効にします。
+* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
 
 ![オブジェクト記法を使用する](assets/en/prerequisites/Use-object-notation.png)
 

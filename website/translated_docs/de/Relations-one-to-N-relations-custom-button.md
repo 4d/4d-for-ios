@@ -9,26 +9,22 @@ As for custom templates or custom formatters, you can create custom Relation But
 
 To that end, nothing more simple! You just have to drop your custom button in your custom template.
 
+
 Let's get started by downloading the Starter Project that includes:
 
 * a database with its mobile project
 * a standard Relation button
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER CUSTOM BUTTON</a>
-
-  </p>
 </div>
 
 ## Include the button
 
 The first step is including the button.xib button into your custom template so that 4D for iOS can use it.
 
-To use the button, you just need to drop it in the ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` folder.
+To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
@@ -74,17 +70,17 @@ To do so, open the Identity Inspector.
 
 Select your Button and add the two following lines in the User Defined Runtime Attributes:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 and
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Boolean```
+* **Type**: `Boolean`
 
 * **Value**: Check the box
 
@@ -130,6 +126,7 @@ You should get this:
 
 In order to indicate in the project editor that all of the elements included in this view will be duplicated, we need to add a TAG to each element and constraint.
 
+
 ### Add TAGS
 
 Each storyboard element has an Object ID. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
@@ -160,12 +157,7 @@ And that's it! Your button is now fully duplicable if you have more that one rel
 
 In this tutorial, we've covered the basics for creating custom relation buttons. Click on Final Project below to download the custom relation button.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">FINAL CUSTOM BUTTON</a>
-
-  </p>
 </div>

@@ -11,13 +11,8 @@ Xcode est un environnement de développement intégré (IDE) et un ensemble d’
 
 Pour télécharger la dernière version de Xcode, rendez-vous dans l’App Store.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">Afficher dans Mac App Store </a>
-
-  </p>
 </div>
 
 Les développeurs enregistrés peuvent télécharger des aperçu des sorties ainsi que les versions antérieures de la suite 4D via le site Web d'Apple Developer.
@@ -36,11 +31,13 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
+
 ### Utilisation de 17R6 avec macOS 10.14.3
 
 4d 17R6 requiert Swift5.0. (déjà installé sur macOS 10.14.4)
 
-- Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ - Installez `Swift 5 Runtime Support for Command Line Tools` à partir de [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+
 
 ### Compatibilité
 

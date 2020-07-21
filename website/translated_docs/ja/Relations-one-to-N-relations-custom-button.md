@@ -9,26 +9,22 @@ title: １対Ｎカスタムボタン
 
 しかも，その手順はとても簡単！ カスタムテンプレートにカスタムボタンをドラッグ＆ドロップするだけです。
 
+
 素材プロジェクトをダウンロードしてください。下記のものは収録されています。
 
 * データベースとモバイルプロジェクト
 * 標準のリレーションボタン
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">素材プロジェクト - カスタムボタン</a>
-
-  </p>
 </div>
 
 ## ボタンを追加する
 
 まず，ボタン「button.xib」を4D for iOSで使用できるように，カスタムテンプレートに追加しましょう。
 
-このボタンが使用できるようにするには： ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` 上記のフォルダーにファイルを置きます。
+To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
 
 ![カスタムボタンのパス](assets/en/relations/Relation-custom-button-path.png)
 
@@ -74,19 +70,19 @@ Xcodeで「.xib」ファイルを開きます。
 
 ボタンを選択して「User Defined Runtime Attributes」に下記の２行を記述します。
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 その他
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Boolean```
+* **Type**: `Boolean`
 
-* **Value**: 有効
+* **Value**: Check the box
 
 ![カスタムリレーションのカラーとフォント](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
@@ -98,7 +94,7 @@ Xcodeで「.xib」ファイルを開きます。
 
 ### サイズと制約
 
-カスタム詳細フォームのテンプレートと同じように，ボタンに**制約を追加**するのであれば，「xib」ファイルにXML**タグを追加**する必要もあることに留意してください。 タグを追加することにより，同一の詳細ビュー内で複数のリレーションを表示するためにこのボタンを使い回したとしても，ボタンが正しく機能するようになります。
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. タグを追加することにより，同一の詳細ビュー内で複数のリレーションを表示するためにこのボタンを使い回したとしても，ボタンが正しく機能するようになります。
 
 そのことを踏まえ，ボタンに制約を設定してみましょう！
 
@@ -110,11 +106,11 @@ Xcodeで「.xib」ファイルを開きます。
 
 ![ボタンビューの高さ](assets/en/relations/Button-view-height.png)
 
-⒉ **Top Space Constraint**をダブルクリックし，値を8から0に変更します。
+⒉ Double click on the **Top Space Constraint** and change it from 8 to 0
 
 ![上部余白の制約](assets/en/relations/Top-Space-constraint.png)
 
-⒊ 同じように**Bottom Space Constraint**の値を8から0に変更します。
+⒊ Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
 下図のようになっていれば成功です。
 
@@ -130,9 +126,10 @@ Xcodeで「.xib」ファイルを開きます。
 
 プロジェクトエディターに対し，このビュー内の全要素が一緒に複製されるべきであることを示すため，それぞれの要素と制約にタグを追加します。
 
+
 ### タグを追加する
 
-ストーリーボードの要素には，オブジェクトIDが存在します。 試しに，Field View 2を選択し，**アイデンティティインスペクター**に目を移してください。オブジェクトIDが表示されているはずです。
+ストーリーボードの要素には，オブジェクトIDが存在します。 For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![オブジェクトID ストーリーボード](assets/en/relations/Custom-button-object-id-storyboard.png)
 
@@ -144,7 +141,7 @@ Xcodeで「.xib」ファイルを開きます。
 
 ![水平制約オブジェクトのID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-⒉ XMLファイル内でこのIDを検索し，**TAG-RL-007**（未使用のタグ）で置換します。
+⒉ Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
 ⒊ XMLファイルを保存します。
 
@@ -160,12 +157,7 @@ Xcodeで「.xib」ファイルを開きます。
 
 このチュートリアルでは，カスタムリレーションボタンを作成する方法を習得しました。 カスタムボタンの完成プロジェクトは下記のリンクからダウンロードすることができます。
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">カスタムボタンの完成プロジェクト</a>
-
-  </p>
 </div>
