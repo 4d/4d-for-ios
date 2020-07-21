@@ -1,53 +1,53 @@
 ---
 id: authentication
-title: Email authentication
+title: Authentification email
 ---
 
 <div markdown="1" class = "tips">
-**OBJECTIFS **
-Integrate email confirmation to authenticate mobile app users
+**OBJECTIFS**
+Intégrez la confirmation par e-mail pour authentifier les utilisateurs de l'application mobile
 </div>
 
 <div markdown="1" class = "prerequisites">
 **CONDITIONS PRÉALABLES**
-The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
+Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) qui permet l'authentification des e-mails est intégré dans 4D mono et 4D Server 18 R4.
 </div>
 
-Let your customers and clients feel comfortable logging into their app using the email authentication!
+Garantissez le confort de vos clients grâce à la connexion à leur application via l'authentification par e-mail !
 
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
+Elle fournit un moyen de vérifier qu'un e-mail provient de qui il prétend provenir et permettra de bloquer les utilisations nuisibles ou frauduleuses des e-mails.
 
-In short, the principle is the following:
+En bref, le principe est le suivant :
 
-### 1. Activate the login form
+### 1. Activez le formulaire de connexion
 
-You integrate a login form into your app, from the project editor in the Publishing section.
+Intégrez un formulaire de connexion dans votre application, depuis l'éditeur de projet dans la section Publication.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
-### 2. Enter your email address
+### 2. Saisissez votre adresse e-mail
 
-An email is required when the app is launched. When a user enters their email and clicks on the Login button, the On Mobile app Authentication is called and the user's session status should be updated to a "pending" status. A validation email is then sent to the user.
+Un e-mail est requis au lancement de l'application. Lorsqu'un utilisateur saisit son e-mail et clique sur le bouton de connexion, On Mobile app Authentication est appelée et le statut de la session de l'utilisateur doit être mis à jour et définie au statut «en attente» (pending). Un email de validation est ensuite envoyé à l'utilisateur.
 
-### 3. Check your mailbox
+### 3. Vérifiez votre boîte de réception
 
-When the validation email is available, the user only needs to click on the validation link. This will call the On Web Connection database method and update the user's session status from "pending" to "accepted".
+Lorsque l'e-mail de validation est disponible, l'utilisateur doit simplement cliquer sur le lien de validation. Cela appellera la méthode de base de données On Web Connection et mettra à jour le statut de la session de l'utilisateur qui passera de «en attente» à «accepté».
 
-### 4. Go back to your app
+### 4. Retournez sur votre application
 
-Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted", so the access is granted!
+Une fois la validation effectuée, l'utilisateur peut rouvrir son application et cliquer sur le bouton Connexion. On Mobile App Authentication est appelée à nouveau mais cette fois, le statut de la session de l'utilisateur est "accepté", donc l'accès est accordé !
 
-That’s quite simple, right?
+C’est plutôt simple, non?
 
-So, to make the validation process easier and secure, 4D for iOS handles:
+Ainsi, pour faciliter et sécuriser le processus de validation, 4D for iOS gère :
 
 ![Authentification](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-But let's figure out how this works, using our special component!
+Mais voyons comment cela fonctionne, en utilisant notre composant spécial !
 
 
-# Using the component
+# Utilisation du composant
 
 ## A component to deal with email authentication
 
