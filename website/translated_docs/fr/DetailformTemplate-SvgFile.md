@@ -28,7 +28,7 @@ Ajoutez ici le titre de votre modèle.
 ## Position, hauteur, largeur et type de la zone
 Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
 
-### Field properties
+### Propriétés des champs
 
 ```
 //1
