@@ -36,13 +36,13 @@ The **available values** are:
 * 0 for verbose
 * 1 for debug
 * 2 for info (default value)
-* 3 warning
-* 4 error
-* 5 severe
+* 3 for warning
+* 4 for error
+* 5 for severe
 
 ![Log level](assets/en/debugging/log-level.png)
 
-For this example, if you set the log.level **Value** to 3, you will get **warning, error and sever** in your Xcode console.
+For this example, if you set the log.level **Value** to 3, you will get **"warning, error and sever"** in your Xcode console.
 
 ## Format
 
