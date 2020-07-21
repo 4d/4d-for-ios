@@ -12,7 +12,7 @@ This is where logs can be really useful. You can access logs by holding down the
 From here, a menu will appear for the curent simulator:
 
 
-* Open the Simulator Logs. 
+* Open Simulator logs. 
 This is where you can find the CrashReporter
 MobileInstallation folder
 
