@@ -3,14 +3,14 @@ id: manifest-detailform-template
 title: Manifest.json
 ---
 
-The manifest file includes information about your detail form template such as the :
+Le fichier manifest contient les informations relatives à votre modèle de formulaire détaillé, telles que :
 
-* **Storyboard type:** list form or detail form
-* **name**
-* **renderer:** version number
-* **hOffset:** the vertical offset of the first field that is going to be duplicated
-* **number of static fields**
-* **Icon properties:** width and height
+* **Type de storyboard :** formulaire liste ou formulaire détaillé
+* **Nom**
+* **Rendu :** numéro de version
+* **Décalage :** le décalage vertical du premier champ qui va être dupliqué
+* **Nombre de champs statiques**
+* **Propriétés de l'icône :** largeur et hauteur
 
 
 ```json
@@ -37,9 +37,9 @@ The manifest file includes information about your detail form template such as t
 
 Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous inclut les informations suivantes :
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
-3. **Version:** 2
-4. **hOffset:** the first field that is going to be duplicated is at 91 pixels from the top
-5. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
-6. **Icon properties:** Icon width and height
+1. **Type de storyboard :** formulaire détaillé
+2. **Nom du modèle :** Custom Detail form
+3. **Version :** 2
+4. **Décalage :** le premier champ qui va être dupliqué est de 91 pixels en partant du haut
+5. **Nombre de champs :** 1 champ statique (et 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
+6. **Propriétés d'icônes :** largeur et hauteur de l'icône
