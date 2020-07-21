@@ -31,7 +31,7 @@ To do so, add a row by right clicking inside the Settings.plist file and enter:
 * Number as **Type**
 * 3 as **Value** (for example)
 
-The **available values** are the following :
+The **available values** are:
 
 * 0 for verbose
 * 1 for debug
