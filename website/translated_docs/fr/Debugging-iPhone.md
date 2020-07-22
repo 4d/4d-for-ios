@@ -3,19 +3,18 @@ id: debugging-from-iphone
 title: Depuis votre iPhone
 ---
 
-Depuis votre application, en cas de panne, vous pouvez afficher, modifier et envoyer des commentaires.
+If your app crashes, you can display, edit, and send feedback:
 
-Pour ce faire :
 * Accédez aux paramètres de votre iPhone
-* Trouvez votre application en déroulant la liste
-* Activez les commentaires (feedback)
+* Find your app
+* Enable feedback
 
 ![Activer les commentaires et les journaux](assets/en/debugging/activate-feedback-logs.png)
 
-À partir de là, il vous suffit de rouvrir votre application. Une feuille d'action apparaîtra pour vous permettre de :
-* Envoyer des messages
-* Suggérer une amélioration
-* Afficher le journal courant
+Next, the only thing you need to do is reopen your app. An action sheet will appear allowing you to:
+* Send messages
+* Suggest improvements
+* View the current log
 * Signaler un problème
 
 ![Afficher envoyer des logs](assets/en/debugging/display-send-logs.png)
