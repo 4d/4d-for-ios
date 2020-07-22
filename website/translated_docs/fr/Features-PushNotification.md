@@ -5,7 +5,7 @@ title: Notifications Push
 
 <div markdown="1" class = "tips">
 **OBJECTIFS**
-Integrate push notification to your 4d for iOS apps
+Intégrez les notifications push dans vos applications 4D for iOS
 </div>
 
 <div markdown="1" class = "prerequisites">
@@ -31,17 +31,17 @@ Pour envoyer des notifications push, un fichier d'authentification AuthKey_XXXYY
 
 * Tout d'abord, accédez à la page du compte de développeur Apple, connectez-vous, puis sélectionnez Certificates, IDs & Profiles.
 
-* You will then be able to generate your push certificate and to download it.
+* Vous pourrez alors générer votre certificat Push et le télécharger.
 
-* Finally, activate the Push notification feature integrate your certificate in your 4D for iOS project from the Publishing section.
+* Enfin, activez la fonctionnalité de notification Push, intégrez votre certificat dans votre projet 4D for iOS depuis la section Publication.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
-You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
+Vous pouvez trouver plus d'informations sur ce processus [ici](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) dans la documentation des composants.
 
-# Basic example to manage your push notifications
+# Exemple de base pour gérer vos notifications push
 
-Here is an example to send a push notification to `test@4d.com`:
+Voici un exemple pour envoyer une notification push à `test@4d.com` :
 
 ```4d
 
