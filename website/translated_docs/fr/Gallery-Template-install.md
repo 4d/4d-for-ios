@@ -1,14 +1,14 @@
 ---
 id: gallery-template-install
-title: Install a template
+title: Installer un template
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
-Dowload a template from the gallery and improve it
+**OBJECTIFS**
+Téléchargez un modèle (template) à partir de la galerie et améliorez-le
 </div>
 
-## Install a template from the Gallery
+## Installer un template depuis la galerie
 
 Go to the form section and select on one of your table to choose a List Form.
 
