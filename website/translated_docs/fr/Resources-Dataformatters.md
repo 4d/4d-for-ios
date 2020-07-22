@@ -6,8 +6,8 @@ title: Format des données
 
 <div markdown="1" class = "tips">
 **AVANT DE COMMENCER**
-!!crwdP_120_Pdwrc!!To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
-!!crwdP_121_Pdwrc!!Then drop the formatter folder into it.
+Pour utiliser un format personnalisé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Mobile/formatters`.
+Glissez ensuite le dossier du format dans le dossier que vous venez de créer.
 </div>
 
 <div markdown="1" style="height: auto;">
@@ -99,7 +99,7 @@ title: Format des données
     <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">TELECHARGER</a>
   </div></td> </tr> 
   
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Download Activity</h1> <ul style="font-size:16px"> <li><strong>Format:</strong> Text ⟶ Download to Files app </li> <li><strong>Type:</strong> Swift formatter</li> 
+  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Téléchargements</h1> <ul style="font-size:16px"> <li><strong>Format :</strong> Texte ⟶ Télécharger vers application Files </li> <li><strong>Type:</strong> Swift formatter</li> 
   
   <div markdown="1" style="text-align: center; margin-top: 40px;">
     <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-DownloadActivity/releases/latest/download/formatter-DownloadActivity.zip">TELECHARGER</a>
