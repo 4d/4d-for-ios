@@ -99,7 +99,7 @@ Glissez ensuite le dossier du format dans le dossier que vous venez de créer.
     <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-HTML/releases/latest/download/formatter-HTML.zip">TELECHARGER</a>
   </div></td> </tr> 
   
-  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Téléchargements</h1> <ul style="font-size:16px"> <li><strong>Format:</strong> Text ⟶ Download to Files app </li> <li><strong>Type :</strong> Format Swift</li> 
+  <td style="height: auto; vertical-align: middle;border-color: #FFFFFF;background-color: #FFFFFF"> <h1 style="margin-top: 10px; font-size:22px">Téléchargements</h1> <ul style="font-size:16px"> <li><strong>Format :</strong> Texte ⟶ Télécharger vers application Files </li> <li><strong>Type :</strong> Format Swift</li> 
   
   <div markdown="1" style="text-align: center; margin-top: 40px;">
     <a class="button" style="width: 50%; font-size: 11px" href="https://github.com/4d-for-ios/formatter-DownloadActivity/releases/latest/download/formatter-DownloadActivity.zip">TELECHARGER</a>
