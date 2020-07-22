@@ -5,54 +5,54 @@ title: Update a template
 
 <div markdown="1" class = "objectives">
 **OBJECTIFS **
-Open and update a template from the gallery and improve it
+Ouvrez et mettez à jour un modèle (template) à partir de la galerie et améliorez-le
 </div>
 
-## Open a template
+## Ouvrir un template
 
-To modify a template that have downloaded from the Gallery :
+Pour modifier un modèle téléchargé depuis la galerie :
 
-* The first thing you'll need to do is going to your *YourDatabase.4dbase/Resources/Mobile/form/list* folder.
+* La première chose à faire est d'aller dans votre dossier *YourDatabase.4dbase/Resources/Mobile/form/list*.
 
 ![Template resources folder](assets/en/gallery/template-resources-folder.png)
 
-* From here, you can see the template you have just downloaded previously is availble.
-* Unzip and opent it
-* Then double click on the package.swift file.
+* Vous pouvez voir que le modèle que vous venez de télécharger précédemment est disponible.
+* Décompressez et ouvrez-le
+* Puis, double-cliquez sur le fichier package.swift.
 
 ![Open package.swift](assets/en/gallery/open-package-swift.png)
 
-* This will automatically open in Xcode with all sources to allow you modifying your template.
+* Cela ouvrira automatiquement Xcode avec toutes les sources pour vous permettre de modifier votre modèle.
 
 ![Open with Xcode](assets/en/gallery/open-with-xcode.png)
 
-## Update your template
+## Mettez à jour votre modèle
 
-From here you will be able to add swift code and optimize your stroybord template.
+De là, vous pourrez ajouter du code Swift et optimiser votre modèle stroybord.
 
-So easy to use !
+C'est si facile à utiliser !
 
-Let's for example update the FIELD_1_LABEL color and font using the Attributes inspector.
+Par exemple, mettons à jour la couleur et la police FIELD_1_LABEL à l'aide de l'inspecteur d'attributs.
 
 ![Update with Xcode](assets/en/gallery/update-template.png)
 
-Then after you've done your template improvements, you can use your template selecting it from the Forms template picker in the project editor.
+Ensuite, une fois que vous avez amélioré vos modèles, vous pouvez utiliser votre modèle en le sélectionnant dans le sélecteur de modèles Formulaires de l'éditeur de projet.
 
 ![Select updated template](assets/en/gallery/selelect-update-template.png)
 
-## Share your template
+## Partagez votre modèle
 
-When your template is ready and you added significat improvements, you probably want to share it.
+Lorsque votre modèle est prêt et que vous avez apporté des améliorations significatives, vous souhaiterez probablement le partager.
 
-A sharing button is directly accessible at the bottom of the template Gallery picker!
+Un bouton de partage est directement accessible en bas du sélecteur de modèles !
 
-![Share your template](assets/en/gallery/share-template.png)
+![Partagez votre modèle](assets/en/gallery/share-template.png)
 
-All the sharing process is detailed on the contribution page for you to help you in the sharing process and where good proctices are described.
+Tout le processus de partage est détaillé sur la page de contribution, où les bonnes procédures sont décrites, pour vous aider dans le processus de partage.
 
 ## Que faire ensuite ?
 
-You could try following the [contribution guide](https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md#how-do-you-add-a-package) to share your templates in github and make them appear in the project editor.
+Vous pouvez essayer de suivre le [guide de contribution](https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md#how-do-you-add-a-package) pour partager vos modèles dans github et les faire apparaître dans l'éditeur de projet.
 
 
 
