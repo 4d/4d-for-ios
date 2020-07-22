@@ -39,7 +39,7 @@ To send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple 
 
 You can find more in-depth information about this process [on the Push notification page](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
 
-# Basic example to manage your push notifications
+# Exemple de base pour gérer vos notifications push
 
 Here is an example of how to send a push notification to `test@4d.com`:
 
