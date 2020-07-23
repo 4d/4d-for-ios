@@ -5,7 +5,7 @@ title: Notifications Push
 
 <div markdown="1" class = "tips">
 **OBJECTIFS**
-Integrate push notification into your 4d for iOS apps
+Intégrez les notifications push dans vos applications 4D for iOS
 </div>
 
 <div markdown="1" class = "prerequisites">
