@@ -5,7 +5,7 @@ title: Recherche multicritères
 
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Activer la recherche multicritères dans vos propres modèles.
 </div>
 
