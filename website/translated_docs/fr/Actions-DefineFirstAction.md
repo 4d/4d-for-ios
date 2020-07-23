@@ -3,9 +3,9 @@ id: define-first-action
 title: Définir une première action
 ---
 
-In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
+Dans ce tutoriel, nous allons travailler sur une **application Tasks iOS** et voir comment gérer des actions dans cette application.
 
-Basically what we want to do in a **Task app** is changing the **status** and the **percentage of completion** of a task individually.
+Nous souhaitons essentiellement changer le **statut** et le **pourcentage d'achèvement** d'une tâche dans **Task app**.
 
 More globally, we want to **change all tasks status** to postponed or in Progress for example.
 
