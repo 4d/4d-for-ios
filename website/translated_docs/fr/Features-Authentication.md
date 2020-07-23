@@ -82,11 +82,11 @@ End case
 C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres html que vous voudrez peut-être définir.
 
 
-# Without the component
+# Sans le composant
 
-We will see here a basic example without using the component.
+Nous allons voir ici un exemple simple, sans utiliser de composant.
 
-To do so, here is the code you can use:
+Pour ce faire, voici le code que vous pouvez utiliser :
 
 ## On Mobile App Authentication
 
@@ -191,4 +191,4 @@ Et voilà !
 
 ## Que faire ensuite ?
 
-La validation de base des e-mails a été détaillée dans ce didacticiel, You should now be able to easily access your 4D for iOS app !
+La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !
