@@ -4,7 +4,7 @@ title: Travailler avec Xcode
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 
 * Ouvrir un projet 4D for iOS depuis l’éditeur de projet.
 * Personnaliser l’application 4D for iOS qui est générée.

@@ -4,7 +4,7 @@ title: Nouveau projet
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Se familiariser avec l’éditeur de projet.
 </div>
 
