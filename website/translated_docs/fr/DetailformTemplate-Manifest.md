@@ -28,7 +28,7 @@ Le fichier manifest contient des informations sur votre modèle de formulaire d�
 
 Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous inclut les informations suivantes :
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
+1. **Type de storyboard :** formulaire détaillé
+2. **Nom du modèle :** Custom Detail form
 3. **Nombre de champs :** 1 champ statique (et 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
 4. **Propriétés d'icônes :** largeur et hauteur de l'icône
