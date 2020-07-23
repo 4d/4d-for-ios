@@ -4,7 +4,7 @@ title: Apple Developer Enterprise Program
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
 </div>
 

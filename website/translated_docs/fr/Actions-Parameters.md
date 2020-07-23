@@ -4,7 +4,7 @@ title: Utiliser des paramètres d'action
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Définir des paramètres d'action pour modifier le contenu de votre application.
 </div>
 

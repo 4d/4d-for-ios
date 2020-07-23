@@ -4,7 +4,7 @@ title: Recherche restreinte
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Définir des filtres de recherche fondés sur des informations utilisateur ou des informations basiques pour afficher un contenu filtré dans l’application iOS générée.
 </div>
 
