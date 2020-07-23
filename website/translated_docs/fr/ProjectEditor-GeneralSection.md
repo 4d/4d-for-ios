@@ -7,9 +7,9 @@ Cette section vous permet de renseigner les principales informations de votre ap
 
 ![General section](assets/fr/project-editor/General-section-4D-for-iOS.png)
 
-**Organization:** Enter either your or your company’s name.
+**Organisation :** Saisissez votre nom ou celui de votre entreprise.
 
-**Identifier:** Enter your organization’s bundle identifier. qui servira à identifier votre application. Le nom de produit que vous entrez est concaténé pour créer la valeur par défaut du « Bundle ID » en utilisant la notation inversée du nom de domaine. Ce « Bundle ID » doit être unique à votre application.
+**Identifiant :** Saisissez le « Bundle ID » de votre entreprise,. qui servira à identifier votre application. Le nom de produit que vous entrez est concaténé pour créer la valeur par défaut du « Bundle ID » en utilisant la notation inversée du nom de domaine. Ce « Bundle ID » doit être unique à votre application.
 
 For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.
 
@@ -18,7 +18,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 Des liens d’aide sont disponibles pour les champs Nom et Identifiant.
 </div>
 
-**Product name:** Your app’s name. Comme indiqué ci-dessus, le nom du produit est utilisé pour créer le « Bundle ID ». Ce « Bundle ID » doit être identique à celui que vous avez créé dans votre compte développeur Apple.
+**Nom du produit :** Le nom de votre application. Comme indiqué ci-dessus, le nom du produit est utilisé pour créer le « Bundle ID ». Ce « Bundle ID » doit être identique à celui que vous avez créé dans votre compte développeur Apple.
 
 **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
 

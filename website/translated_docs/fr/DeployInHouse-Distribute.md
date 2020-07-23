@@ -25,7 +25,7 @@ Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre 
 
 ## ÉTAPE 2. Créez le lien d’installation
 
-Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Créez un **lien de Services ITMS** (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :
 
 ```
 itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
@@ -48,9 +48,9 @@ Voici un exemple simple :
 
 * Lorsque vous ouvrez une application installée manuellement, une notification s’affichera, indiquant que le développeur de l’application n’est pas fiable sur votre appareil.
 
-* Ignore this message and click **Cancel**.
+* Ignorez ce message et cliquez sur **Annuler**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* Dans Réglages > Général > Gestion de l'appareil, dans la rubrique « Application d'Entreprise », le profil du développeur est répertorié.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
@@ -60,4 +60,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Congratulations ... you can now distribute your first app in-house!
+Félicitations ! Vous pouvez désormais distribuer votre première application interne !

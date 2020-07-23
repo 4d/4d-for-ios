@@ -150,7 +150,7 @@ Case of
 
     : ($request.action="deleteTasks")
 
-          // Insert here the code for the action "Remove"
+          // Insérer ici le code pour l'action "Remove"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -160,7 +160,7 @@ Case of
 
     : ($request.action="sendComment")
 
-          // Insert here the code for the action "Send Comment"
+          // Insérer ici le code pour l'action "Send Comment"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -172,7 +172,7 @@ Case of
 
     Else 
 
-          // Unknown action
+          // Action inconnue
 
 End case 
 
@@ -197,7 +197,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds.Tasks.new()  //create a reference
+    $entity:=ds.Tasks.new()  //créer une référence
 
     For each ($key;$in.parameters)
 
@@ -205,11 +205,11 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $entity.save()  //save the entity
+    $entity.save()  //sauvegarder l'entité
 
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notifier l'App que l'action est réussie
+    $out.dataSynchro:=True  // notifier l'App d'actualiser la sélection
     $out.statusText:="Task added"
 
 Else 

@@ -21,7 +21,7 @@ title: Archiver et exporter un projet
 
 ## ÉTAPE 1. Configurez Xcode
 
-Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
+Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences > Accounts.
 
 Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
 
@@ -54,7 +54,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 ## ÉTAPE 5. Archivez votre projet à partir de Xcode
 
-* From Xcode, go to the simulator Menu and select **Generic iOS Device**
+* À partir de Xcode, accédez au Menu du simulateur et sélectionnez **Generic iOS Device**
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
@@ -66,13 +66,13 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer
 
-* Click **Export**.
+* Cliquez sur **Export**.
 
 ![Exportez votre projet](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## ÉTAPE 7. Sélectionnez votre méthode de distribution
 
-* Select **Enterprise** and click **Next**.
+* Sélectionnez **Enterprise** et cliquez sur **Next**.
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
@@ -84,18 +84,18 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 * Vous pouvez laisser Xcode vous générer un fichier manifest.plist ou bien le générer manuellement.
 
-* Click **Next**.
+* Cliquez sur **Next**.
 
 #### Qu'est-ce qu'un manifest ?
 
 Le manifest est une liste de propriétés fondée sur XML et doit contenir :
 
-* **URL** : URL pointing to the .ipa file.
-* **display-image**: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
-* **full-size-image**: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
-* **bundle-identifier**: Your app identifier string. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
-* **bundle-version**: Your app's current bundle version string. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
-* **title**: Your app's name.
+* **URL** : un URL vers le fichier .ipa.
+* **display-image** : un URL vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilisée lors du téléchargement et de l'installation.
+* **full-size-image** : un URL vers une image PNG 512 x 512 px représentant l'application iTunes.
+* **bundle-identifier** : La chaîne d'identification de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **bundle-version** : La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.
+* **title** : Le nom de votre application.
 
 Voici un exemple de fichier manifest.plist :
 
@@ -152,16 +152,16 @@ Voici un exemple de fichier manifest.plist :
 
 ![Informations sur la distribution du manifest](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Click **Next**.
+* Cliquez sur **Next**.
 
 
 ## ÉTAPE 10. Re-signez votre application
 
-* Let Xcode manage the **Automatically manage signing** option.
+* Laissez à Xcode le soin de gérer l'option **Automatically manage signing**.
 
 ![Re-signez votre application](assets/en/deploy-in-house/Re-sign-your-application.png)
 
-* Click **Next**.
+* Cliquez sur **Next**.
 
 ## ÉTAPE 11. Vérifiez le contenu de votre application .ipa
 
@@ -169,4 +169,4 @@ Voici un exemple de fichier manifest.plist :
 
 ![Vérifiez le contenu de votre application .ipa](assets/en/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Cliquez sur **Export** et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.
