@@ -19,7 +19,7 @@ Dans ce tutoriel, nous vous guiderons dans la création d'un modèle de formulai
 
 ## Téléchargez le projet Starter
 
-To begin, download the **Starter Project**, which includes:
+Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
