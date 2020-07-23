@@ -5,8 +5,8 @@ title: Modèles de formulaires Liste
 
 <div markdown="1" class = "tips">
 **AVANT DE COMMENCER**
-!!crwdP_4_Pdwrc!!To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
-!!crwdP_5_Pdwrc!!Then drop the list form folder into it.
+Pour utiliser un modèle de formulaire Liste, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/list`.
+Glissez ensuite le dossier du formulaire Liste dans le dossier que vous venez de créer.
 </div>
 
 <div style="height: auto;">
