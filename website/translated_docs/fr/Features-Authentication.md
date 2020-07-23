@@ -4,7 +4,7 @@ title: Authentification email
 ---
 
 <div markdown="1" class = "tips">
-**OBJECTIFS **
+**OBJECTIFS**
 Intégrez la confirmation par e-mail pour authentifier les utilisateurs de l'application mobile
 </div>
 
@@ -82,11 +82,11 @@ End case
 C'est aussi simple que ça ! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
 
 
-# Without the component
+# Sans le composant
 
 Let's take a look at a basic example without using the component.
 
-To do so, here is the code you can use:
+Pour ce faire, voici le code que vous pouvez utiliser :
 
 ## On Mobile App Authentication
 
@@ -144,7 +144,7 @@ $0:=$response
 
 ## On Web connection
 
-This method will allow you activate the session after clicking on the link in the confirmation email.
+Cette méthode vous permet d'activer la session après avoir cliqué sur le lien contenu dans l'e-mail de confirmation.
 
 ```4d
 C_TEXT($1;$2;$3;$4;$5;$6)
@@ -191,4 +191,4 @@ Et voilà !
 
 ## Que faire ensuite ?
 
-We've covered basic email validation in this tutorial. You should now be able to easily access your 4D for iOS app!
+La validation de base des e-mails a été détaillée dans ce didacticiel, You should now be able to easily access your 4D for iOS app!
