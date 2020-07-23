@@ -84,7 +84,7 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !
 
 <div markdown="1" class = "tips">
 **NOTE**
