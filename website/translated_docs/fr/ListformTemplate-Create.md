@@ -4,7 +4,7 @@ title: Modèles de formulaires Liste
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Créer son tout premier modèle de formulaire Liste.
 </div>
 
