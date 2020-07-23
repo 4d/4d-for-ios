@@ -4,7 +4,7 @@ title: Prise en main
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Utiliser des actions dans l'application iOS.
 </div>
 
