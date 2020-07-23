@@ -1,18 +1,18 @@
 ---
 id: gallery-template-install
-title: Install a template
+title: Installer un template
 ---
 
 <div markdown="1" class = "objectives">
 **OBJECTIFS **
-Dowload a template from the gallery and improve it
+Téléchargez un modèle (template) à partir de la galerie et améliorez-le
 </div>
 
-## Install a template from the Gallery
+## Installer un template depuis la galerie
 
-Go to the form section and select on one of your table to choose a List Form.
+Accédez à la section Formulaires et sélectionnez l'une de vos tables pour choisir un formulaire Liste.
 
-As you can see, a “More” icon is available at the bottom.
+Comme vous pouvez le voir, une icône «Plus» est disponible en bas.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
@@ -22,19 +22,19 @@ Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond 
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Select the Client List template.
+Sélectionnez le modèle Client List.
 
-As you can see the template is included automatically in your project and you can directly start working on it without waiting.
+Comme vous pouvez le voir, le modèle est automatiquement inclus dans votre projet et vous pouvez directement commencer à travailler dessus sans attendre.
 
 ![Add template from gallery](assets/en/gallery/use-template.png)
 
-A github icon is displayed at the top left of your template icon in the Forms template picker to indicate that it comes from Github.
+Une icône github s'affiche en haut à gauche de l'icône de votre modèle dans le sélecteur de modèle Forms pour indiquer qu'elle provient de Github.
 
 ![Add template from gallery](assets/en/gallery/indicator-template-github.png)
 
-As you can see, it is very simple to include new templates in your project and you can directly start working on it without waiting.
+Comme vous pouvez le voir, il est très simple d'inclure de nouveaux modèles dans votre projet et vous pouvez directement commencer à travailler dessus sans attendre.
 
-So now that you have download your template, you may want to make some improvement for the template to fit perfectly your needs.
+Alors, maintenant que vous avez téléchargé votre modèle, vous voudrez peut-être apporter des modifications pour que le modèle corresponde parfaitement à vos besoins.
 
 
 

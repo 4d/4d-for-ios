@@ -49,11 +49,11 @@ But let's use our special component to see how this works!
 
 # Utilisation du composant
 
-## A component to deal with email authentication
+## Un composant pour gérer l'authentification des e-mails
 
-A toolbox component has been developed to help you manage several processes: the 4D Mobile App Server Component.
+Un composant boite à outils a été développé pour vous aider à gérer plusieurs processus : le composant 4D Mobile App Server.
 
-Let's see how to use it!
+Voyons comment l'utiliser !
 
 ## On Mobile App Authentification
 
@@ -74,12 +74,12 @@ Call the **Activate sessions** method in the **On Web Connection** database meth
 C_TEXT($1)
 Case of 
 : (Mobile App Active Session($1).success)
-    //add log if you want
+    //ajoutez un journal si vous le souhaitez
 End case 
 
 ```
 
-Its as simple as that! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
+C'est aussi simple que ça ! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
 
 
 # Without the component
