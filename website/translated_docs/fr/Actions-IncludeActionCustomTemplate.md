@@ -4,7 +4,7 @@ title: Ajouter des actions aux modèles
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.
 </div>
 
