@@ -4,7 +4,7 @@ title: Apple Developer Program pour les particuliers
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.
 </div>
 
