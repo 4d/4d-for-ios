@@ -94,31 +94,31 @@ To do so, here is the code you can use:
 ```4d
 C_OBJECT($0;$1;$response;$request;$email;$status)
 
-  // parameters settings come from the mobile app
+  // les propriétés des paramètres proviennent de l'application mobile
 $request:=$1
 
-  // Create an email with an activation URL
+  // Créer un email avec une URL d'activation
 $mail:=New object
 $mail.from:="myapplication@gmail.com"
-$mail.to:=$request.email  // email entered by the user on their smartphone
+$mail.to:=$request.email  // email saisi par l'utilisateur sur leur smartphone
 $mail.subject:="Login confirmation"
 $mail.htmlBody:="<a href=\"https://myserverapplication/activation/"+$request.session.id \
 +"\">Click Here to confirm your email.</a>\"<br>"
 
-  // Send mail
+  // Envoyer e-mail
 $smtp:=New object("host";"smtp.gmail.com";"user";"myapplication@gmail.com";"password";"xxx")
 $transporter:=SMTP New transporter($smtp)
 $status:=$transporter.send($mail)
 
-  // Configure response for 4D for iOS
+  // Configurer la réponse à for 4D for iOS
 $response:=New object
 
-  // Declare that the current session is being verified
+  // Déclarer que la session courante est en cours de vérification
 $response.verify:=True
 
-  // Check if the email was successsfully sent
+  // Vérifier si l'e-mail a été envoyé avec succès
 If ($status.success)
-      //create a share object to contain our sessions, accessible from all processes
+      //créer un objet partagé pour contenir nos sessions, accessible depuis tous les process
     If (Storage.pendingSessions=Null)
         Use (Storage)
             Storage.pendingSessions:=New shared object
@@ -126,14 +126,14 @@ If ($status.success)
     End if 
 
     Use (Storage.pendingSessions)
-          //Add a session to our session lists
+          //Ajouter une session à nos listes de session
         Storage.pendingSessions[$request.session.id]:=$request.team.id+"."+$request.application.id
     End use 
 
     $response.success:=True
     $response.statusText:="Please check your mail box"
 Else 
-      // Display an error message on the smatphone
+      // Afficher un message d'erreur sur le smartphone
     $response.statusText:="The mail is not sent please try again later"
     $response.success:=False
 End if 
@@ -157,27 +157,26 @@ If ($1="/activation/@")
 End if 
 
 
-  //get session from ID received from URL
+  //lire la session depuis l'ID reçu de l'URL
 If (Storage.pendingSessions#Null)
     $session:=Storage.pendingSessions[$token]
 End if 
 
 If ($session#"")
-      //get session folder
+      //obtenir le dossier de la session
     $sessionFile:=Folder(fk mobileApps folder).folder($session).file($token)
     $sessionObject:=JSON Parse($sessionFile.getText())
-      //update status value
+      //mettre à jour la valeur du statut
     $sessionObject.status:="accepted"
     $sessionFile.setText(JSON Stringify($sessionObject))
     Use (Storage.pendingSessions)
-          //delete pending session
+          //supprimer la session en attente
         OB REMOVE(Storage.pendingSessions;$token)
     End use 
 
     /*
-        The MOBILE APP REFRESH SESSIONS command checks all mobile
-        application session files located in the MobileApps folder of the server, 
-        and updates existing session contents in memory for any edited files.
+        La commande MOBILE APP REFRESH SESSIONS vérifie tous les fichiers de session de l'application mobile situés dans le dossier MobileApps du serveur, 
+        et met à jour les contenus de la session existante dans la mémoire pour les fichiers modifiés.
     */
 
     MOBILE APP REFRESH SESSIONS
@@ -188,7 +187,7 @@ Else
 End if 
 ```
 
-And that's it !
+Et voilà !
 
 ## Que faire ensuite ?
 
