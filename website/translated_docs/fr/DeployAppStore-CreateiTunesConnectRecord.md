@@ -4,7 +4,7 @@ title: Créer une fiche sur App Store
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 
 * Créer un identifiant d’application sur son compte développeur ("Developer")
 * Créer son application dans l’App Store Connect
