@@ -4,7 +4,7 @@ title: Distribuer une application interne
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Télécharger une application sur un serveur sécurisé.
 </div>
 
