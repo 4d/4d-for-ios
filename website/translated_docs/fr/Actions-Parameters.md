@@ -119,7 +119,7 @@ C_OBJECT($1;$request)
 
 C_OBJECT($o;$context;$request;$result;$parameters)
 
-$request:=$1  // Informations provided by mobile application
+$request:=$1  // Informations fournies par l'application mobile
 
 $context:=$request.context
 $parameters:=$request.parameters
@@ -128,7 +128,7 @@ Case of
 
     : ($request.action="addTasks")
 
-          // Insert here the code for the action "Add…"
+          // Insérer ici le code pour l'action "Add…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -138,7 +138,7 @@ Case of
 
     : ($request.action="editTasks")
 
-          // Insert here the code for the action "Edit…"
+          // Insérer ici le code pour l'action "Edit…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
