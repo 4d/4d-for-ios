@@ -4,7 +4,7 @@ title: Update a template
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Ouvrez et mettez à jour un modèle (template) à partir de la galerie et améliorez-le
 </div>
 
