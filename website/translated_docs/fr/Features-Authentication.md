@@ -49,15 +49,15 @@ Mais voyons comment cela fonctionne, en utilisant notre composant spécial !
 
 # Utilisation du composant
 
-## A component to deal with email authentication
+## Un composant pour gérer l'authentification des e-mails
 
-A toolbox component has been developed to help you manage several processes: the 4D Mobile App Server Component.
+Un composant boite à outils a été développé pour vous aider à gérer plusieurs processus : le composant 4D Mobile App Server.
 
-Let's see how to use it!
+Voyons comment l'utiliser !
 
 ## On Mobile App Authentification
 
-Call the Mobile **App Email Checker** method in the **On Mobile App Authentification database** method with the information provided by the mobile application:
+Appelez la méthode **App Email Checker** dans la méthode **On Mobile App Authentification database** avec les informations fournies par l'application mobile :
 
 ```4d
 C_OBJECT($0)
@@ -68,18 +68,18 @@ $0:= Mobile App Email Checker ($1)
 
 ## Mobile App Active Session
 
-Call the **Activate sessions** method in the **On Web Connection** database method with the Session ID parameter retrieved from the URL:
+Appelez la méthode **Activate sessions** dans la méthode base **On Web Connection** avec le paramètre ID de la session extrait de l'URL :
 
 ```4d
 C_TEXT($1)
 Case of 
 : (Mobile App Active Session($1).success)
-    //add log if you want
+    //ajoutez un journal si vous le souhaitez
 End case 
 
 ```
 
-Its as simple as that! You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about resources you may use, like html templates and settings that you may want to define.
+C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres html que vous voudrez peut-être définir.
 
 
 # Without the component
