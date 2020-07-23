@@ -113,29 +113,29 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
 
 ## Aperçu sur l'appareil
 
-### Settings screen
+### Ecran de paramètres
 
 Un écran de paramètres est disponible dans la barre d’onglets. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Les paramètres vous permettent :
 
-* Consult your remote URL and it's state
+* Consultez votre URL distant ainsi que son statut
 * de vous déconnecter (si vous étiez connecté en tant qu'utilisateur autorisé)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
-### Reset remote url
+### Redéfinir l'url distant
 
-You can easily update your remote url from iPhone Settings :
+Vous pouvez mettre à jour facilement votre URL distant à partir des Paramètres de l'iPhone :
 
-* Open your iPhone Settings
-* Select the app you want the remote url to be updated
-* Switch on the "Reset server address" option
+* Accédez aux paramètres de votre iPhone
+* Sélectionnez l'application pour laquelle vous souhaitez que l'URL distante soit mise à jour
+* Activez l'option "Réinitialiser l'adresse du serveur"
 
-![Reset remote url](assets/en/project-editor/Reset-remote-url.png)
+![Redéfinir l'url distant](assets/en/project-editor/Reset-remote-url.png)
 
-* Then restart your app to reset the server address
-* And finally define the new remote url
+* Puis redémarrez votre application pour réinitialiser l'adresse du serveur
+* Enfin, définissez la nouvelle URL distante
 
 ![Update remote url](assets/en/project-editor/Update-remote-url.png)
