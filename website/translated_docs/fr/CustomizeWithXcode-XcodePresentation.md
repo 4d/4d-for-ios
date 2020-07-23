@@ -14,11 +14,11 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 ## Toolbar (Barre d’outils)
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
+* Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné.
 
 ![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
+* Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé.
 
 ![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
@@ -52,17 +52,17 @@ Dans la section des propriétés, Inspector se divise en six onglets, comme illu
 
 De gauche à droite, ces onglets correspondent à :
 
-* **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
+* **File inspector (inspecteur de fichier)** : pour visualiser et gérer les métadonnées d'un fichier, telles que le nom, le type et le chemin du fichier.
 
-* **Quick Help**: For viewing details about what has been selected in an editor.
+* **Quick Help (aide rapide)** : pour afficher les détails liés à ce qui a été sélectionné dans l'éditeur.
 
-* **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
+* **Identity inspector (inspecteur d'identité)** : pour l’affichage des métadonnées de l’objet, telles que la classe d’un objet, la durée d'exécution de ses attributs ainsi que son "label".
 
-* **Attributes inspector**: For configuring the attributes specific to the selected interface object. Par exemple, certains attributs d'un champ texte incluent un alignement et une couleur, un type de bordure et des paramètres de modification.
+* **Attributes inspecteur (inspecteur d'attributs)** : pour configurer les attributs spécifiques à l’objet sélectionné. Par exemple, certains attributs d'un champ texte incluent un alignement et une couleur, un type de bordure et des paramètres de modification.
 
-* **Size inspector**: For specifying characteristics such as the size and position of an interface object.
+* **Size inspector (inspecteur de dimensions)** : pour préciser des caractéristiques telles que la taille et la position d’un objet.
 
-* **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
+* **Connections inspector (inspecteur de connexions)** : pour visualiser les "outlets" d'un objet, établir de nouvelles connexions et supprimer des connexions existantes.
 
 ### Library (Bibliothèque)
 
@@ -72,13 +72,13 @@ De gauche à droite, ces onglets correspondent à :
 
 ![Library (Bibliothèque)](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
-* **File templates**: These templates are for the common types of files listed as choices in the New File menu.
+* **File templates (modèles de fichiers)** : ces modèles s'appliquent aux types de fichiers courants figurant dans la liste du menu "New File".
 
-* **Code snippets**: These are short pieces of source code for use in your application. Pour en utiliser un, faites-le glisser directement dans votre fichier de code source.
+* **Code snippets (extraits de code)** : il s'agit d'extraits de code source destinés à être utilisés dans votre application. Pour en utiliser un, faites-le glisser directement dans votre fichier de code source.
 
-* **Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. Pour ajouter un objet dans une vue, faites-le glisser directement dans votre Storyboard, dans l’éditeur d’Interface Builder.
+* **Objects (objets)** : cette bibliothèque contient les types d’objets d’interface que vous pouvez choisir pour constituer votre interface utilisateur. Pour ajouter un objet dans une vue, faites-le glisser directement dans votre Storyboard, dans l’éditeur d’Interface Builder.
 
-* **Media files**: This library contains all your graphics, icons, and sound files. Pour les utiliser, faites-les glisser directement vers votre Storyboard, dans l’éditeur d’Interface Builder.
+* **Media files (les fichiers multimédia)** : cette bibliothèque contient tous vos graphiques, icônes et fichiers audio. Pour les utiliser, faites-les glisser directement vers votre Storyboard, dans l’éditeur d’Interface Builder.
 
 ## Debug Area (Zone de débogage)
 
@@ -88,15 +88,15 @@ Cette zone affiche le résultat et l’état de différentes variables lors de l
 
 Plusieurs onglets sont inclus ici, notamment :
 
-* **Navigation tab**: Lists and provides access to all files necessary for your application to work properly.
+* **L'onglet "Navigation"** : répertorie et donne accès à tous les fichiers nécessaires au bon fonctionnement de votre application.
 
 ![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **Search navigator tab**: Allows searching all files in the project.
+* **L'onglet "Search navigator" (navigateur de recherche)** : permet de rechercher tous les fichiers du projet.
 
 ![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **Issue navigator tab**: Displays all errors in an iOS project.
+* **L'onglet "Issue navigator" (navigateur d'alertes)** : affiche toutes les erreurs issues d'un projet iOS.
 
     - Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application.
     - Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application.

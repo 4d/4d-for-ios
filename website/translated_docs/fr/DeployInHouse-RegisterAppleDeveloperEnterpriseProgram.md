@@ -45,7 +45,7 @@ Demandez [ici](https://developer.apple.com/enroll/duns-lookup/#/search) un numé
 ![Demandez un numéro D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Click **Continue**.
+* Cliquez sur **Continue**.
 * Vérifiez votre e-mail pour obtenir le numéro D-U-N-S.
 
 ![Numéro D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -65,12 +65,12 @@ Vous pouvez souscrire [ici](https://developer.apple.com/programs/enterprise/enro
 * Vous pouvez souscrire [ici](https://developer.apple.com/enroll/enterprise/) à l'Apple Developer Enterprise Program.
 * Click on the **Start your Enrollment** button.
 * Select **Company / Organization** from the Entity Type dropdown list.
-* Click **Continue**.
+* Cliquez sur **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
 
 * Remplissez le formulaire.
-* Click **Continue**.
+* Cliquez sur **Continue**.
 
 ![Apple Developer Enterprise Program Enrollment](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-Enrollment-4D-for-iOS.png)
 

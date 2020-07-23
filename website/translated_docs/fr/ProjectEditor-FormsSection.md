@@ -46,7 +46,7 @@ Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et 
 <div markdown="1" class = "tips">
 **ASTUCES**
 
-* Want to change the template for your list or detail form?
+* Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
 
 * Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
 </div>

@@ -41,5 +41,5 @@ Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous 
 2. **Template Name:** Custom Detail form
 3. **Version :** 2
 4. **Décalage :** le premier champ qui va être dupliqué est de 91 pixels en partant du haut
-5. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
-6. **Icon properties:** Icon width and height
+5. **Nombre de champs :** 1 champ statique (et 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
+6. **Propriétés d'icônes :** largeur et hauteur de l'icône
