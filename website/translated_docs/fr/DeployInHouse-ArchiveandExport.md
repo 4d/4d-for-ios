@@ -4,7 +4,7 @@ title: Archiver et exporter un projet
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 
 * Archiver et exporter un projet 4D for iOS
 * Générer des fichiers .ipa et des fichiers manifest
