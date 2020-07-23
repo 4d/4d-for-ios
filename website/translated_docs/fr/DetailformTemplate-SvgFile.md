@@ -10,7 +10,7 @@ Voici une version finale :
 
 ![Fichier Template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
+Ce modèle possède un champ de numérotation dynamique, c'est-à-dire qu'il vous permettra d’ajouter une **image** et jusqu'à **8 champs**, selon vos besoins. Ainsi, lors de la création de votre formulaire détaillé dans la section Formulaires et lors du glisser-déposer d'un champ, un nouveau champ vide apparait en dessous du champ précédent pour vous permettre d'ajouter un nouveau champ :
 
 ![Fichier Template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -31,7 +31,7 @@ Ajoutez ici le titre de votre modèle.
 ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 ```
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Cela vous permettra de glisser-déposer autant de champs définis.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs** : en référence aux champs disponibles pouvant être affichés dans votre formulaire détaillé. Cela vous permettra de glisser-déposer autant de champs définis.
 
 ## Position, hauteur, largeur et type de la zone
 Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, comme nous l'avons fait dans le tutoriel [Custom list view](creating-listform.html).
@@ -124,17 +124,17 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les types de champs acceptés (tous les types sont acceptés ici)
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !
 
 <div markdown="1" class = "tips">
 **NOTE**
-All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
+Tous les types sont disponibles [ici](https://developer.4d.com/docs/en/Concepts/data-types.html).
 </div>
 
 <div markdown="1" class = "tips">
 **ASTUCES**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
 
-* To include all types, just type `ios:type="all"`.
+* Pour inclure tous les types de champs, entrez simplement `ios:type="all"`.
 </div>
