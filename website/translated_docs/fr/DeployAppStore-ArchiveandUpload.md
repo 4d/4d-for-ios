@@ -4,7 +4,7 @@ title: Archiver et télécharger un projet
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Archiver et publier un projet sur l'App Store Connect.
 </div>
 
