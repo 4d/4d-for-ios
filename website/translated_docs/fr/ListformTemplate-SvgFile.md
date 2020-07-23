@@ -78,7 +78,7 @@ Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.co
 <
 div markdown="1" class = "tips">
 **ASTUCES**
-To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
 Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
 
 ### Zone SectionField :
