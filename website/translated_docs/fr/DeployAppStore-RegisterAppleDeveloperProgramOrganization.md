@@ -4,7 +4,7 @@ title: Apple Developer Program pour les entreprises
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
 </div>
 

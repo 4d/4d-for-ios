@@ -4,7 +4,7 @@ title: Utilisation du simulateur
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Tester une application avec le simulateur.
 </div>
 
@@ -18,7 +18,7 @@ Vous avez fini de développer votre application et souhaitez la tester ?
 
 ## ÉTAPE 2. Build and Run
 
-Click on the **Build and Run** button.
+Cliquez sur le bouton **Créer & exécuter**.
 
 ![Build and Run](assets/fr/test-build/build-and-run-4D-for-iOS.png)
 

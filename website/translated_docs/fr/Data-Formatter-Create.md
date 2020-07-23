@@ -4,7 +4,7 @@ title: Créer un format de données
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Créer vos premiers formats de données.
 </div>
 

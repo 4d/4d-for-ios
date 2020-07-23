@@ -4,7 +4,7 @@ title: Installation sur votre appareil iOS
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Installer une application 4D for iOS sur un appareil connecté
 </div>
 
@@ -30,9 +30,9 @@ C'est parti !
 
 ## ÉTAPE 1. Créez un compte
 
-* **Apple ID**: Create your Apple ID. Si vous n'en possédez pas un, cliquez [ici](https://appleid.apple.com/account#!&page=create).
+* **Identifiant Apple** : Créez votre identifiant Apple. Si vous n'en possédez pas un, cliquez [ici](https://appleid.apple.com/account#!&page=create).
 
-* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
+* **Developer Account** : Choisissez un Apple Developer Program (pour les entreprises ou les particuliers) si vous souhaitez déployer votre application sur l'App Store ou bien depuis l'Apple Developer Enterprise Program (pour un déploiement interne).
 
 ## ÉTAPE 2. Configurez Xcode
 

@@ -29,19 +29,19 @@ Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’é
 
 Tout comme pour le formulaire Liste, sélectionnez un modèle et ajoutez vos champs sur votre formulaire détaillé.
 
-You have several ways to add your fields in Detail forms:
+Il existe plusieurs façons d'ajouter vos champs dans les formulaires détaillés :
 
-* You can drag and drop fields anywhere into the SVG view to add it and display it just after the last field added or between any other fields that are already displayed.
+* Vous pouvez faire glisser et déposer des champs n'importe où dans la vue SVG pour les ajouter et les afficher juste après le dernier champ ajouté ou entre tout autre champ déjà affiché.
 
-* Double-click on a field. Your field will be added at the end of the list.
+* Double-cliquez sur un champ. Votre champ sera ajouté à la fin de la liste.
 
-* Right-clicking on one the field that is available in the Fields table at the left: this will display a menu that will allow you to add all missing fields to your Detail forms.
+* Faites un clic droit sur l'un des champs disponibles dans le tableau Champs à gauche : cela affichera un menu qui vous permettra d'ajouter tous les champs manquants à vos formulaires détaillés.
 
 ![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as many fields for most of the detail form available.
+Vous pouvez ajouter autant de champs que possible pour la plupart des formulaires détaillés disponibles.
 
-And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
+Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et le déposer à n'importe quel endroit de votre formulaire détaillé.
 
 <div markdown="1" class = "tips">
 **ASTUCES**
@@ -72,4 +72,4 @@ La galerie est également disponible [en ligne](https://4d-for-ios.github.io/gal
 
 ## Que faire ensuite ?
 
-Next step, you chose a template that suits your needs, but in case something is missing, a [tutorial](gallery-template-update.html) will help you making **template update**.
+La prochaine étape consiste à choisir un template qui répond à vos besoins, mais dans le cas où un élément serait manquant, un [tutoriel](gallery-template-update.html) vous aidera à effectuer une **mise à jour de template**.

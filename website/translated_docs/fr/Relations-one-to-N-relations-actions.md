@@ -4,7 +4,7 @@ title: Liens 1 vers N - Actions
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.
 </div>
 

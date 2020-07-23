@@ -4,7 +4,7 @@ title: Choisir un Apple Developer Program
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Choisir le programme "Apple Developer Program" qui vous convient.
 </div>
 

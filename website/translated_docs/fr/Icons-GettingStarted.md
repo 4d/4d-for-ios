@@ -4,7 +4,7 @@ title: Utiliser des icônes
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Utiliser vos propres icônes dans vos projets 4D for iOS.
 </div>
 
