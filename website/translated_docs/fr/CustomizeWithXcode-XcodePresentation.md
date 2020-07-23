@@ -4,7 +4,7 @@ title: Présentation de Xcode
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS **
+**OBJECTIFS**
 Comprendre le fonctionnement de Xcode.
 </div>
 
