@@ -3,35 +3,35 @@ id: debugging-from-xcode
 title: Depuis Xcode
 ---
 
-If you have issues during the build process, you can open your generated project with Xcode by selecting the **Open the product with Xcode** option from the **Project** Menu.
+Si vous rencontrez des problèmes au cours de la phase de création, vous pouvez ouvrir votre projet généré avec Xcode en sélectionnant l'option **Ouvrir le produit avec Xcode** dans le menu **Projet**.
 
 ![Ouvrez votre projet avec Xcode](assets/en/debugging/open-project-Xcode.png)
 
-From here, select **launch your application** in the Simulator by clicking on the **Build** button and get all of the logs at the bottom of the Xcode workspace.
+A partir de là, vous pouvez **lancer votre application** dans le simulateur en cliquant sur le **bouton Générer** et obtenir tous les journaux en bas de l'espace de travail Xcode.
 
 ![Journaux Xcode](assets/en/debugging/Xcode-logs.png)
 
 ## Enregistreur
 
-A logger is an object that allows you to log and trace operations.
+Un enregistreur est un objet qui vous permettra d'enregistrer et de tracer les opérations.
 
-For this, we use the [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) framework.
+Pour ce faire, nous utilisons [XCGLogger](https://github.com/DaveWoodCom/XCGLogger).
 
-You will find the logger settings definition in your Xcode project/Settings/Settings.plist file.
+Vous trouverez la définition des paramètres de l'enregistreur dans votre fichier Xcode project /Settings/Settings.plist.
 
 ![Journaux Xcode](assets/en/debugging/settings-plist-xcode.png)
 
 
 ## Niveaux
 
-You can filter and display different log levels in your console by adding log.level to your Settings.plist file.
+Vous pouvez filtrer et afficher différents niveaux de journalisation dans votre console en ajoutant log.level dans votre fichier Settings.plist.
 
-To do so, add a row by right clicking inside the Settings.plist file and enter:
+Pour cela, ajoutez une ligne en faisant un clic droit dans le fichier Settings.plist et entrez :
 * log.level as **Key**
 * Number as **Type**
 * 3 as **Value** (for example)
 
-The **available values** are:
+Les **valeurs disponibles** sont les suivantes:
 
 * 0 pour verbose
 * 1 pour le débogage
@@ -42,17 +42,17 @@ The **available values** are:
 
 ![Niveau du journal](assets/en/debugging/log-level.png)
 
-For this example, if you set the log.level **Value** to 3, you will get **"warning, error and sever"** in your Xcode console.
+Pour cet exemple, si vous définissez la **valeur** log.level sur 3, vous obtiendrez un **avertissement, une erreur et un sévère** dans votre console Xcode.
 
 ## Le format
 
 Vous pouvez afficher différents indicateurs visuels dans la console Xcode pour **mettre en évidence différents types de journaux**.
 
-To do so, just open your Xcode project/Settings/Settings.plist file.
+Pour ce faire, il vous suffit d'ouvrir votre projet Xcode/Settings/Settings.plist.
 
 ![Format du journal](assets/en/debugging/log-format.png)
 
-### Emoticons
+### Émoticônes
 
  * prefixes[.verbose] = "🗯"
  * prefixes[.debug] = "🔹"
