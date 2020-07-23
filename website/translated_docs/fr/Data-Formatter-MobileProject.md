@@ -13,9 +13,9 @@ Vous pouvez y sélectionner des formats spécifiques en fonction de vos besoins.
 
 Nous ferons de même pour tous les autres champs :
 
-* Set Current Balance as a **Currency $**
-* Set Percent Used as a **Percentage**
-* Set Credit Limit as a **No or Yes**
-* Set Credit Date as a **Short Date**
+* Attribuez le format **Monnaie $** au champ "Current Balance"
+* Attribuez le format **Pourcentage** au champ "Percent Used"
+* Attribuez le format **Oui ou non** au champ "Credit Limit"
+* Attribuez le format **Date courte** au champ "Credit Date"
 
 ![Select field formatters](assets/en/data-formatter/select-field-formatters.png)
