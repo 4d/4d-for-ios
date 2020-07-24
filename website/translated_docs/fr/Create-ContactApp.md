@@ -4,12 +4,12 @@ title: Application Contacts
 ---
 
 <div markdown="1" class = "objectives">
-**OBJECTIFS**
+**OBJECTIFS **
 Créer une toute première application avec 4D for iOS
 </div>
 
 <div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
+**CONDITIONS PRÉALABLES **
 Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 </div>
 

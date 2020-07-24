@@ -3,7 +3,7 @@ id: debugging-from-iphone
 title: Depuis votre iPhone
 ---
 
-Si votre application est en panne, vous pouvez afficher, modifier et envoyer des commentaires :
+Si votre application plante, vous pouvez afficher, modifier et envoyer des commentaires :
 
 * Accédez aux paramètres de votre iPhone
 * Cherchez votre application
