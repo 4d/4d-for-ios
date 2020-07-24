@@ -5,7 +5,7 @@ title: Modèles de formulaires détaillés
 
 
 <div markdown="1" class = "tips">
-**AVANT DE COMMENCER**
+**AVANT DE COMMENCER **
 Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/detail`.
 Glissez ensuite le dossier du formulaire détaillé dans le dossier que vous venez de créer.
 </div>
