@@ -84,7 +84,7 @@ Pode definir posição, altura e largura para todos os seus campos como fizemos 
 5. Defina la posição do campo "soltável", sua altura e largura, assim como os tipos de campos aceitos
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json, e seus arquivos **svg **, vamos ver a parte divertida com Xcode!
 
 <div markdown="1" class = "tips">
 **NOTA **
