@@ -10,7 +10,7 @@ Aqui está a versão terminada:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
+Este modelo tem um campo de numeração dinâmica o que significa que este modelo permite adicionar uma **imagem** e até **8 campos** dependendo de suas necessidades. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -31,10 +31,10 @@ Adicione o título para seu modelo aqui.
 ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 ```
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Isso permite que arraste e solte quantos campos queira definir.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refere-se aos campos disponíveis a serem exibidos no formulário detalhado. Isso permite que arraste e solte quantos campos queira definir.
 
 ## Posição, altura, largura e tipo da área
-You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
+Pode definir posição, altura e largura para todos os seus campos como fizemos  para o tutorial [Custom list view](creating-listform.html).
 
 ### Propriedades de campo duplicadas
 
@@ -124,7 +124,7 @@ You can define position, height, and width for all of your fields like  we did f
 5. Define a posição do campo, altura e largura, assim como os tipos de campos aceitos (neste exemplo são aceitos todos os tipos)
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json, e seus arquivos **svg **, vamos ver a parte divertida com Xcode!
 
 <div markdown="1" class = "tips">
 **NOTA **
