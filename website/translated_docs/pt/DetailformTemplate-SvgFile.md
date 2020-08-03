@@ -26,7 +26,7 @@ Vamos focar nas diferentes partes de seu arquivo SVG e o que vai precisar para e
 Adicione o título para seu modelo aqui.
 
 ## Posição, altura, largura e tipo da área
-You can define position, height, and width for all of your fields like  we did for the [Custom list view tutorial](creating-listform.html).
+Pode definir posição, altura e largura para todos os seus campos como fizemos  para o tutorial [Custom list view](creating-listform.html).
 
 ### Field properties
 
@@ -84,7 +84,7 @@ You can define position, height, and width for all of your fields like  we did f
 5. Defina la posição do campo "soltável", sua altura e largura, assim como os tipos de campos aceitos
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json, e seus arquivos **svg **, vamos ver a parte divertida com Xcode!
 
 <div markdown="1" class = "tips">
 **NOTA **
