@@ -13,16 +13,16 @@ Créer son tout premier modèle de formulaire Liste.
 Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 </div>
 
-In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
+Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste, tels que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
 ![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
 ## Téléchargez le projet Starter
 
-Before we begin, be sure to download the **Starter Project** which includes:
+Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
-* A **List form** folder
-* A **Contact.4dbase** file (a demo database with a ready-to-use mobile app project)
+* Un dossier **List form**
+* Un fichier **Contact.4dbase** (base de démo avec un projet d'application mobile prêt à l'emploi)
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
@@ -33,25 +33,25 @@ Vous êtes maintenant prêts à créer votre premier modèle de formulaire Liste
 
 ## Ajoutez un modèle de formulaire Liste à votre projet mobile
 
-The first thing you'll need to do is create a *Contact.4dbase/Resources/Mobile/form/list* folder. Then drag and drop your **list form** folder into it.
+Créez d'abord un dossier *Contact.4dbase/Resources/Mobile/form/list*. Puis, faites-y glisser-déposer votre dossier **list form**.
 
 ![Mobile folder list form template](assets/custom-listform/mobile-folder-custom-template.png)
 
-Ouvrez ensuite le fichier Contact.4dbase avec 4D. (File > open > Mobile Project > **Contact Demo App**)
+Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>Ouvrir>Projet mobile> **Appli demo Contacts**)
 
-Finally, in the **Forms section** of the project editor, you'll see that your list form template has been successfully added to the list of available list form templates!
+Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
 ![Section Formulaires](assets/en/custom-listform/custom-listform-template.png)
 
-Now let's focus on the contents of the **Custom List form** folder.
+Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List form**.
 
 ## Contenu du modèle de formulaire Liste
 
 Dans ce dossier, vous trouverez :
 
-* **a layoutIconx2.png** icon in 160x160px : it'll be displayed in the project editor when you select your template
-* **a manifest.json file** : includes a basic description of the template
-* **a template.svg file** : the visual representation of your template displayed when you define your list form content.
-* Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+* **Une icône layoutIconx2.png** d'une taille de 160x160px : elle s'affichera dans l'éditeur de projet lorsque vous sélectionnez votre modèle
+* **Un fichier manifest.json** : il contient une brève description du modèle
+* **Un fichier template.svg** : la représentation visuelle de votre modèle qui s'affiche lorsque vous définissez votre liste à partir du contenu du formulaire.
+* Un dossier Source : inclut le **storyboard** (interface graphique) et fichier **Swift** (code pour le formulaire)
 
 À quoi correspondent ces fichiers ? Quelle est leur utilité ? Comment les personnaliser ?
