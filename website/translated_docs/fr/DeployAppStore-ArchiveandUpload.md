@@ -69,7 +69,7 @@ Archiver et publier un projet sur l'App Store Connect.
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
+* Ensuite, vous devez signer à nouveau votre application. Laissez Xcode gérer cela en cochant l'option **Automatically manage signing**.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
