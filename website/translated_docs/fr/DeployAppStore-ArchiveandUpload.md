@@ -69,7 +69,7 @@ Archiver et publier un projet sur l'App Store Connect.
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
+* Ensuite, vous devez signer à nouveau votre application. Laissez Xcode gérer cela en cochant l'option **Automatically manage signing**.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
@@ -103,11 +103,11 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
-* Select the build you want to submit and click **Done**.
+* Sélectionnez la version que vous souhaitez envoyer et cliquez sur **Done**.
 
 ![Build selection](assets/en/deploy-app-store/Select-build-app-store-connect.png)
 
-* Finally, click on the **Submit for Review** button.
+* Enfin, cliquez sur le bouton **Submit for Review**.
 
 ## ÉTAPE 9. Envoyez pour révision
 
@@ -115,6 +115,6 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ![Envoyez pour révision](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* When you've finished with the questions, click **Submit**.
+* Une fois l'étape des réponses aux questions terminée, cliquez sur **Submit**.
 
 * En moyenne, la durée de révision d'App Store est de deux jours !
