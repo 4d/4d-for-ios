@@ -17,7 +17,7 @@ Installer une application 4D for iOS sur un appareil connecté
 
 <div markdown="1" class = "tips">
 **NOTE**
-Apple configurator 2 requires **macOS 10.14** or later.
+Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente.
 </div>
 
 En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l’un des programmes suivants :
