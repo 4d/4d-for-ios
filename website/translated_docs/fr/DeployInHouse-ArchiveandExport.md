@@ -31,7 +31,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 ![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## ÉTAPE 3. 4D for iOS configuration
+## ÉTAPE 3. Configurez 4D for iOS
 
 * Lancez 4D for iOS
 
@@ -48,7 +48,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 ## ÉTAPE 4. Ouvrez votre projet avec Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet > Ouvrir le produit avec Xcode
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
@@ -58,7 +58,7 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Puis, dans le menu, cliquez sur Product et sélectionnez **Archive**
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
