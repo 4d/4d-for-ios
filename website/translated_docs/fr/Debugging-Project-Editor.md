@@ -5,18 +5,18 @@ title: Depuis l'éditeur de projet
 
 Il se peut que vous rencontriez des problèmes lors de l'utilisation de l'éditeur de projet 4D for iOS ou de votre application iOS.
 
-This is where logs can be really useful. You can access logs by holding down the **Alt** key and clicking on **Project** in the project editor.
+C'est là que les journaux peuvent être vraiment utiles. Vous pouvez y accéder en maintenant la touche **Alt** enfoncée et en cliquant sur **Projet** dans l'éditeur de projet.
 
 ![Débogage](assets/en/debugging/debug-from-4D-for-iOS.png)
 
 A partir de là, un menu apparaîtra pour le simulateur actuel:
 
 
-* Open Simulator logs. This is where you can find the CrashReporter MobileInstallation folder
+* Ouvrez les journaux du simulateur. C'est ici que vous trouverez le dossier CrashReporter MobileInstallation
 
 * Ouvrez les rapports Diagnostic du simulateur
 
 
 * Ouvrir le dossier du simulateur courant
 
-* Open Application Simulator Folder. This will open a submenu for each application
+* Ouvrez le dossier Application Simulator. Cela ouvrira un sous-menu pour chaque application
