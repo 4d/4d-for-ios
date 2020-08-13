@@ -15,33 +15,33 @@ Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-
 
 # Qu'est-ce qu'une notification push ?
 
-Sur un appareil mobile, une notification Push est un message d'alerte, reçu via une application, que vous pouvez ouvrir, supprimer, autoriser ou bloquer. It can be very useful, for example, to notify the users of your app that a new version is available.
+Sur un appareil mobile, une notification Push est un message d'alerte, reçu via une application, que vous pouvez ouvrir, supprimer, autoriser ou bloquer. Cela peut être très utile, par exemple, pour informer les utilisateurs de votre application qu'une nouvelle version est disponible.
 
-But what about the architecture to implement in order to integrate this functionality into a mobile application? What is the process for a push notification, from creation to display on the user's device?
+Mais qu'en est-il de l'architecture à mettre en œuvre, pour intégrer cette fonctionnalité dans une application mobile ? Quel est le processus d'une notification push, partant de la création à l'affichage sur l'appareil de l'utilisateur ?
 
 # Architecture technique
 
-Here are the different elements needed to create, send, and receive mobile push notifications:
+Voici les différents éléments nécessaires pour créer, envoyer et recevoir des notifications push mobile :
 
 ![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
 
 # Conditions préalables
 
-To send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
+Pour envoyer des notifications push, un fichier d'authentification AuthKey_XXXYYY.p8 d'Apple est requis.
 
-* First, go to the Apple developer account page, sign in, then select **Certificates, IDs & Profiles**.
+* Tout d'abord, accédez à la page du compte de développeur Apple, connectez-vous, puis sélectionnez **Certificates, IDs & Profiles**.
 
-* You will then be able to generate your push certificate and download it.
+* Vous pourrez alors générer votre certificat Push et le télécharger.
 
-* Activate the Push notification feature and integrate your certificate into your 4D for iOS project from the Publishing section.
+* Activez la fonctionnalité de notification Push et intégrez votre certificat dans votre projet 4D for iOS depuis la section Publication.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
-You can find more in-depth information about this process [on the Push notification page](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
+Vous pouvez trouver plus d'informations sur ce processus [sur la page Push notification](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) dans la documentation des composants.
 
 # Exemple de base pour gérer vos notifications push
 
-Here is an example of how to send a push notification to `test@4d.com`:
+Voici un exemple pour savoir comment envoyer une notification push à `test@4d.com` :
 
 ```4d
 
@@ -58,6 +58,6 @@ C'est aussi simple que ça !
 
 ## Que faire ensuite ?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) so you can adapt push notifications to your own needs. N'hésitez pas à l'utiliser et à choisir les aspects les plus pertinents pour votre application. And of course, all contributors are welcome to this project, through feedback, bug reports, and even better: pull requests.
+Le composant qui gère et facilite le processus est également disponible [ici](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), afin d'adapter les notifications push à vos propres besoins. N'hésitez pas à l'utiliser et à choisir les aspects les plus pertinents pour votre application. Bien évidemment, tous les contributeurs sont les bienvenus dans ce projet, via des retours d'expérience, des rapports de bug, voire même des "pull requests".
 
 
