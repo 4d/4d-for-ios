@@ -28,9 +28,9 @@ Ajoutez ici le titre de votre modèle.
 
 Cette partie inclut les identifiants qui permettent de définir les zones de votre formulaire :
 
-* **search ID**: Refers to the search field area. Cela vous permettra de glisser-déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
-*  **section ID**: Refers to the section field area. Cela vous permettra de glisser-déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
-*  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. Cela vous permettra de glisser-déposer les champs à faire apparaître dans les cellules de votre formulaire Liste.
+* **search ID** : en référence à la zone du champ recherche. Cela vous permettra de glisser-déposer un champ comme étant le critère de recherche dans votre formulaire Liste (facultatif).
+*  **section ID** : en référence à la zone du champ section. Cela vous permettra de glisser-déposer un champ comme étant le critère de tri dans votre formulaire Liste (facultatif).
+*  **f1, f2 et f3** : en référence aux champs à afficher dans chaque cellule de votre formulaire. Cela vous permettra de glisser-déposer les champs à faire apparaître dans les cellules de votre formulaire Liste.
 
 ## Position, hauteur, largeur et type de la zone
 Vous avez la possibilité de définir la position, la hauteur et la largeur de :
@@ -66,7 +66,7 @@ Vous avez la possibilité de définir la position, la hauteur et la largeur de :
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Image affichant l'icône loupe dans le "searchable field" (champ de recherche)
 4. Définir la position de la zone de texte et la largeur
-5. Define the droppable field position, height, and width, as well as accepted **field types**
+5. Définir la position du champ "droppable", la hauteur et la largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Le "searchable field" (champ de recherche) est facultatif.
@@ -75,8 +75,6 @@ Le "searchable field" (champ de recherche) est facultatif.
 **NOTE**
 Tous les types de champs et de variables sont disponibles [ici](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
 </div>
-<
-div markdown="1" class = "tips">
 **ASTUCES**
 Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
 Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
@@ -99,7 +97,7 @@ Pour inclure tous les types de champs, entrez simplement ios:type="all". </div>
 
 1. Position, hauteur et largeur de la zone d'arrière-plan
 2. Définir la position de la zone de texte et la largeur
-3. Define the droppable field position, height and width as well as accepted **field types**
+3. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 4. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 Le "section field" (champ de section) est facultatif.
@@ -131,7 +129,7 @@ Le "section field" (champ de section) est facultatif.
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Icône affichant une image dans imageField (le champ image)
 4. Définir la position de la zone de texte et la largeur
-5. Define the droppable field position, height and width as well as accepted **field types**
+5. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 6. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Zone Title Field :
@@ -157,7 +155,7 @@ Le "section field" (champ de section) est facultatif.
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Définir la position de la zone de texte et la largeur
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
 ### Zone Subtitle Field :
@@ -182,7 +180,7 @@ Le "section field" (champ de section) est facultatif.
 1. Position de toute la zone Y
 2. Position, hauteur et largeur de la zone d'arrière-plan
 3. Définir la position de la zone de texte et la largeur
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Définir la position du champ "droppable", sa hauteur et sa largeur, ainsi que les **types de champs** acceptés
 5. Définir un bouton "Annuler" qui s’affichera pour effacer le contenu courant
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !
