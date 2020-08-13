@@ -13,7 +13,7 @@ Avec 4D for iOS, vous pouvez facilement créer un nouveau projet mobile directem
 
 ## Création d'applications natives
 * 4D gère la complexité d'un projet Xcode et le génère - en toute transparence - en pur Swift avec des UI/UX optimisées.
-* One of the strengths of 4D for iOS is that you have the opportunity to create an unlimited number of apps from different subsets of your database ... according to your needs and goals.
+* Un des points forts de 4D pour iOS est que vous avez la possibilité de créer un nombre illimité d’"apps" à partir de différents sous-ensembles de votre base de données... selon vos besoins et vos objectifs.
 
 ## Mode hors connexion
 * Toutes vos données sont intégrées dans votre application et sont disponibles sans connexion internet.
