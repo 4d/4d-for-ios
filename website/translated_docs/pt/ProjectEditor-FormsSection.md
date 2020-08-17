@@ -27,21 +27,21 @@ Selecione um modelo para sua primeira tabela. Quando tiver feito isso, aparece a
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-As with the List Form definition, select a template and add your fields onto your detail form.
+Assim como com a definição de Formulário Lista, selecione um modelo e adicione seus campos no formulário detalhe:
 
-You have several ways to add your fields in Detail forms:
+Você tem várias maneiras de adicionar seus campos nos formulários Detalhes:
 
-* You can drag and drop fields anywhere into the SVG view to add it and display it just after the last field added or between any other fields that are already displayed.
+* Pode arrastar e soltar os campos em qualquer parte na vista SVG para adicionar e exibir logo depois que o último campo tenha sido adicionado ou entre qualquer outros campos que já são exibidos.
 
-* Double-click on a field. Your field will be added at the end of the list.
+* Dê duplo-clique no campo. Seu campo será adicionado ao final da lista.
 
-* Right-clicking on one the field that is available in the Fields table at the left: this will display a menu that will allow you to add all missing fields to your Detail forms.
+* Dar um clique direito em um dos campos que está disponível na tabela Campos na esquerda: isso vai exibir um menu que vai permitir que adicione todos os campos faltantes em seu formulário Detalhe.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as many fields for most of the detail form available.
+Pode adicionar quantos campos quiser para a maior parte dos formulários detalhados disponíveis.
 
-And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
+E pode reordenar a qualquer momento seu campo selecionando-o e soltando em qualquer lugar no seu formulário detalhado.
 
 <div markdown="1" class = "tips">
 **DICAS**
@@ -67,9 +67,9 @@ So you can directly start working on the template, as it is ready-to-use.
 
 <div markdown="1" class = "tips">
 **DICAS**
-The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
+A galeria também está disponível [online](https://4d-for-ios.github.io/gallery/).
 </div>
 
 ## Que fazer agora?
 
-Next step, you chose a template that suits your needs, but in case something is missing, a [tutorial](gallery-template-update.html) will help you making **template update**.
+No próximo passo, pode escolher um modelo adequado às suas necessidades, mas caso algo esteja faltando um[tutorial](gallery-template-update.html) vai ajudar a criar **uma atualização de modelo**.
