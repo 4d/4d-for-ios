@@ -1,6 +1,6 @@
 ---
 id: contact-app
-title: Contact App
+title: Contatos do App
 ---
 
 <div markdown="1" class = "objectives">
