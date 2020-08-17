@@ -1,6 +1,6 @@
 ---
 id: 4d-for-ios-project-organization
-title: 4D for iOS project organization
+title: Organizar um projeto 4D for iOS
 ---
 
 A partir da guia de Navegação, vá para Fontes (sources).
