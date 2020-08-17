@@ -1,6 +1,6 @@
 ---
 id: open-xcode
-title: Working with Xcode
+title: Traballhar com Xcode
 ---
 
 <div markdown="1" class = "objectives">
