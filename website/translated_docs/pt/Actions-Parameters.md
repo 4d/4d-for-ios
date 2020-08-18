@@ -1,6 +1,6 @@
 ---
 id: action-parameters
-title: Using action parameters
+title: Usar parâmetros de ação
 ---
 
 <div markdown="1" class = "objectives">

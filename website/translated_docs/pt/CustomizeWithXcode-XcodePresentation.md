@@ -1,6 +1,6 @@
 ---
 id: xcode-overview
-title: Xcode Overview
+title: Apresentação do Xcode
 ---
 
 <div markdown="1" class = "objectives">

@@ -1,6 +1,6 @@
 ---
 id: data-formatter
-title: Data formatter
+title: Formatador de dados
 ---
 
 4D v17 R3 inclui um novo conceito: formatação de Dados!
