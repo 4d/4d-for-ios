@@ -3,7 +3,7 @@ id: custom-listform-templates
 title: List Forms Templates
 ---
 
-<div markdown="1" class = "tips">
+<div markdown="1">
 
 
 <iframe
