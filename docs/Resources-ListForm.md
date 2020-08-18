@@ -5,12 +5,7 @@ title: List Forms Templates
 
 <div markdown="1">
 
-
-<iframe
-  src="https://4d-for-ios.github.io/gallery/#/type/form-list/picker/0"
-  style="width:100%; height:100%;"
->
-  
+<iframe src="https://4d-for-ios.github.io/gallery/#/type/form-list/picker/0" height="315" width="560">
 </iframe>
 
 </div>
