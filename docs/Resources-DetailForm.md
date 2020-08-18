@@ -5,7 +5,7 @@ title: Detail Form Templates
 
 <div markdown="1">
 
-<iframe src="https://4d-for-ios.github.io/gallery/#/type/form-detail/picker/0" scrolling="no" height="2700" width="100%">
+<iframe src="https://4d-for-ios.github.io/gallery/#/type/form-detail/picker/0" scrolling="no" height="2000" width="100%">
 </iframe>
 
 </div>
