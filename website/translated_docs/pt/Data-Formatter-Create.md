@@ -1,6 +1,6 @@
 ---
 id: creating-data-formatter
-title: Create data formatter
+title: Criar formato de dados
 ---
 
 <div markdown="1" class = "objectives">

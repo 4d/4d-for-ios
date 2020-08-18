@@ -113,29 +113,29 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESS
 
 ## Como se vê em um dispositivo
 
-### Settings screen
+### Tela de parâmetros
 
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Settings allows you to:
 
-* Consult your remote URL and it's state
+* Consulte sua URL remota e seu estado
 * Fechar a sessão (se estiver conectado como usuário autorizado)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
-### Reset remote url
+### Resetar a URL remota
 
-You can easily update your remote url from iPhone Settings :
+Pode facilmente atualizar sua url remota a partir das configurações do iPhone:
 
-* Open your iPhone Settings
-* Select the app you want the remote url to be updated
-* Switch on the "Reset server address" option
+* Abra as Configurações do iPhone
+* Selecione o app que quiser a url remota a ser atualizada
+* Ative a opção "Reset server adress"
 
-![Reset remote url](assets/en/project-editor/Reset-remote-url.png)
+![Resetar a URL remota](assets/en/project-editor/Reset-remote-url.png)
 
-* Then restart your app to reset the server address
-* And finally define the new remote url
+* Agora reinicie seu app para reiniciar o endereço do servidor
+* E finalmente defina a nova url remota
 
 ![Update remote url](assets/en/project-editor/Update-remote-url.png)
