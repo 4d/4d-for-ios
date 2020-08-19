@@ -103,11 +103,12 @@ Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans 
 
 ![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-<div markdown="1" class = "tips">
-**NOTE**
-Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
-</div>
+> **NOTE**
+> 
+> Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
+> 
+> ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
+
 
 ## Comment entrer des données dans vos cellules
 
