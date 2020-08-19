@@ -9,7 +9,7 @@ If you have issues during the build process, you can open your generated project
 
 From here, select **launch your application** in the Simulator by clicking on the **Build** button and get all of the logs at the bottom of the Xcode workspace.
 
-![Xcode logs](assets/en/debugging/Xcode-logs.png)
+![Historiales Xcode](assets/en/debugging/Xcode-logs.png)
 
 ## Logger (registrador)
 
@@ -19,7 +19,7 @@ For this, we use the [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) frame
 
 You will find the logger settings definition in your Xcode project/Settings/Settings.plist file.
 
-![Xcode logs](assets/en/debugging/settings-plist-xcode.png)
+![Historiales Xcode](assets/en/debugging/settings-plist-xcode.png)
 
 
 ## Niveles
@@ -40,7 +40,7 @@ The **available values** are:
 * 4 for error
 * 5 for severe
 
-![Log level](assets/en/debugging/log-level.png)
+![Nivel del historial](assets/en/debugging/log-level.png)
 
 For this example, if you set the log.level **Value** to 3, you will get **"warning, error and sever"** in your Xcode console.
 
@@ -50,7 +50,7 @@ Puede mostrar diferentes indicadores visuales en la consola Xcode para **resalta
 
 To do so, just open your Xcode project/Settings/Settings.plist file.
 
-![Log Format](assets/en/debugging/log-format.png)
+![Formato del historial](assets/en/debugging/log-format.png)
 
 ### Emoticons
 
