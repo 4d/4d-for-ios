@@ -3,14 +3,14 @@ id: manifest-detailform-template
 title: Manifest.json
 ---
 
-The manifest file includes information about your detail form template such as the :
+O arquivo manifest inclui informação sobre o modelo de formulário detalhado tais como:
 
-* **Storyboard type:** list form or detail form
-* **name**
-* **renderer:** version number
-* **hOffset:** the vertical offset of the first field that is going to be duplicated
-* **number of static fields**
-* **Icon properties:** width and height
+* **tipo Storyboard:** formulário lista ou formulário detalhe
+* **nome**
+* **renderer:** número da versão
+* **hOffset:** o offset (desclocamento) vertical do primeiro campo que vai ser duplicado
+* **número de campos estáticos **
+* **Propriedades do Icone:** largura e altura
 
 
 ```json
