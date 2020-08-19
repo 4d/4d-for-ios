@@ -3,19 +3,17 @@ id: open-xcode
 title: Traballhar com Xcode
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-
-* Open a 4D for iOS project from the Project Editor.
-* Customize the generated 4D for iOS app.
-</div>
+> **OBJETIVOS**
+> 
+> * Open a 4D for iOS project from the Project Editor.
+> * Customize the generated 4D for iOS app.
 
 4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!
 
-<div markdown="1" class = "tips">
-**NOTA **
-If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!
-</div>
+> **NOTA **
+> 
+> If you customize your project on Xcode and rebuild it from the Project Editor All of your modifications will be lost!
+
 
 We'll use the Contact application we created [here](contact-app.html). Download the Starter Project!
 
