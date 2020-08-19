@@ -43,13 +43,12 @@ Vous pouvez ajouter autant de champs que possible pour la plupart des formulaire
 
 Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et le déposer à n'importe quel endroit de votre formulaire détaillé.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
+> **ASTUCES**
+> 
+> * Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ? 
+> 
+> * Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
 
-* Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
-
-* Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
-</div>
 
 ## Galerie
 
@@ -65,10 +64,10 @@ Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond 
 
 Vous pouvez donc commencer directement à travailler sur le modèle, puisqu'il est prêt à l'emploi.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-La galerie est également disponible [en ligne](https://4d-for-ios.github.io/gallery/).
-</div>
+> **ASTUCES**
+> 
+> La galerie est également disponible [en ligne](https://4d-for-ios.github.io/gallery/).
+
 
 ## Que faire ensuite ?
 
