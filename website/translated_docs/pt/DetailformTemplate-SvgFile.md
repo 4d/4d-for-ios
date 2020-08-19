@@ -86,15 +86,13 @@ Pode definir posição, altura e largura para todos os seus campos como fizemos 
 
 Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json, e seus arquivos **svg **, vamos ver a parte divertida com Xcode!
 
-<div markdown="1" class = "tips">
-**NOTA **
-All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
-</div>
+> **NOTA **
+> 
+> All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-<div markdown="1" class = "tips">
-**TIP**
+> **TIP**
+> 
+> * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+> 
+> * To include all types, just type `ios:type="all"`.
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-* To include all types, just type `ios:type="all"`.
-</div>
