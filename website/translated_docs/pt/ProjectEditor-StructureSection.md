@@ -20,10 +20,10 @@ Aqui pode definir um subconjunto de sua estrutura física para replicar os apare
 
 Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.
 
-<div markdown="1" class = "tips">
-**DICAS**
-You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
-</div>
+> **DICAS**
+> 
+> You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
+
 
 ## Relações Um para Muitos
 
@@ -68,10 +68,10 @@ All you need to do is enabling 4D for iOS to make the necessary structure adjust
 
 Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
-<div markdown="1" class = "tips">
-**NOTA **
-These optimizations are required for both local and server databases.
-</div>
+> **NOTA **
+> 
+> These optimizations are required for both local and server databases.
+
 
 ### "Puxar" para refrescar!
 
@@ -79,9 +79,8 @@ iOS app side, your data is updated each time you launch your app and each time y
 
 In normal use, simply swipe down from any listform to reload your data.
 
-From iPhone settings, you can now reset your app data and find information about your app. 
+From iPhone settings, you can now reset your app data and find information about your app.
 
-<div markdown="1" class = "tips">
-**NOTA **
-As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction
-</div>
+> **NOTA **
+> 
+> As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction
