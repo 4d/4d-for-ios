@@ -7,15 +7,15 @@ Lorsque votre application est prête, vous pouvez la lancer dans le Simulateur p
 
 Voici les options de l'onglet Génération :
 
-* **Build and Run:** Launches the app in the Simulator.
+* **Créer & exécuter :** Lance l'application dans le simulateur.
 
-* **iPhone X:** The default Simulator. En cliquant ici, vous afficherez une liste déroulante des simulateurs disponibles.
+* **iPhone X :** Le simulateur par défaut. En cliquant ici, vous afficherez une liste déroulante des simulateurs disponibles.
 
-* **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
+* **Projet :** Affiche une liste déroulante vous permettant d'**ouvrir le dossier du projet** ou le **dossier produit**, ou **d'ouvrir le produit avec Xcode**.
 
-* **Install:** Installs the application on a connected device.
+* **Installer :** Installe l’application sur un appareil connecté.
 
-Select a Simulator on which to build and test your app, and press the **Build and Run** button.
+Sélectionnez un simulateur dans lequel vous générerez et testerez votre application, puis cliquez sur le bouton **Créer et exécuter**.
 
 ![BuildTab](assets/fr/project-editor/Build-Tab-4D-for-iOS.png)
 
