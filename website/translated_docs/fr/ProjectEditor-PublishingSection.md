@@ -13,7 +13,7 @@ C’est ici que vous pourrez définir ou créer votre application :
 
 ## Paramètres du serveur Web
 
-Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. You can do this by clicking on the **Edit** button.
+Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. Pour ce faire, cliquez sur le bouton **Éditer**.
 
 L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
 
@@ -27,16 +27,16 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 
 ## Authentification
 
-* **Authorized User:** Check the **Login required** option to display a login form when the app starts.
+* **Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
 
-* **Guest:** Leave the **Login required** option unchecked. pour qu'aucun écran de connexion ne s’affiche au démarrage de l'application.
+* **Invité :** Laissez l'option **Connexion requise** décochée. pour qu'aucun écran de connexion ne s’affiche au démarrage de l'application.
 
 ## Méthode d’authentification
 
 ### Méthode base Sur authentification app mobile
 
-* **Development**: The authentication method allows you to use the app locally.
-* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
+* **Développement** : la méthode d’authentification vous permet d’utiliser l’application localement.
+* **Déploiement** : vous devez créer/modifier la méthode base de données [*Sur authentification app mobile *](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) pour autoriser des e-mails ou des appareils spécifiques, y compris en mode invité.
 
 Un modèle permet d'obtenir toutes les informations nécessaires sur la session et les informations utilisateur (adresse e-mail, informations sur l'application, l'appareil, le team ID, etc.).
 
@@ -88,17 +88,17 @@ If you want the ability to manually validate the first login for every user sess
 
 ### Composant Mobile Session Management
 
-Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
+Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT** :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
 </div>
 
-* Create a **Components** folder next to the 4D database with the app's data.
-* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
+* Créez un dossier **Composants** qui contiendra les données de l'application, au même emplacement que la base de données 4D.
+* Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D.
-* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button.
+* Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**.
 * La fenêtre d'applications apparaîtra et affichera toutes vos applications :
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
@@ -108,12 +108,12 @@ href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBI
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
-* The **Push** button will update the session in memory.
-* The **Refresh** button updates the session list.
+* Le bouton **Push** met à jour la session dans la mémoire.
+* Le bouton **Refresh** met à jour la liste de sessions.
 
 ## Aperçu sur l'appareil
 
-Un écran de paramètres est disponible dans la barre d’onglets. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
+Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
 Les paramètres vous permettent :
 

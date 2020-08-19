@@ -10,7 +10,7 @@ Aquí hay una versión final:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **up to 8 fields** depending on your needs. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
+Esta plantilla tiene una numeración de campos dinámica, lo que significa que le permitirá agregar una **imagen** y puede colocar ** hasta 8 campos **según sus necesidades. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -31,7 +31,7 @@ Agregue el título de su plantilla aquí.
 ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"
 ```
 
-**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: Refer to avaiblable fields to be displayed in your detail form. Esto le permitirá arrastrar y soltar tantos campos como defina.
+**f1,f2,f3,f4,f5,f6,f7,f8,f9 IDs**: consulte los campos disponibles que se mostrarán en su formulario detallado. Esto le permitirá arrastrar y soltar tantos campos como defina.
 
 ## Posición, alto, ancho y tipo del área
 Puede definir la posición, el alto y el ancho de todos sus campos como hicimos para el tutorial  [Custom list view](creating-listform.html).
@@ -124,7 +124,7 @@ Puede definir la posición, el alto y el ancho de todos sus campos como hicimos 
 5. Definir la posición del campo soltable, su alto y su ancho, así como también los tipos de campos aceptados (se aceptan todos los tipos aquí)
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**, pasemos a la parte divertida con ¡Xcode!
 
 <div markdown="1" class = "tips">
 **NOTA**
