@@ -154,29 +154,29 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 
 4D for iOS simplifie au maximum la création des **actions d'ajout**.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+Vous n'avez qu'à sélectionner l'option **Action d'ajout pour**, accessible à partir du **bouton +**, situé en-dessous de la table Actions.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. Et voilà !
+Puis, **sélectionnez la table** que vous souhaitez associer à l'action d'ajout. Et voilà !
 
-This will **automatically create** all the parameters for you in the Project Editor.
+Cela **créera automatiquement** tous les paramètres dans l'éditeur de projets et vous permettra de modifier chaque valeur d'un champ.
 
-For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
+Pour ce genre d'actions, vous constaterez que toutes les **propriétés** sont déjà saisies à des fins pratiques, à droite de la liste de paramètres.
 
 
 #### 2. Action d'édition
 
-**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+La création des **actions d'édition** suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partir de la section Actions.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
 #### 3. Action de suppression
 
-**Delete action** creation follows the same process as the Edit action. La seule différence est que cette action vous permet de supprimer une entité.
+La création des **actions de suppression** suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.
 
-To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
+Pour créer une action de suppression, sélectionnez l'option **Action de suppression pour**, accessible à partir du **bouton +** en-dessous de la table Actions.
 
 Ce type d'actions doit être utilisé avec précaution.
 
@@ -184,21 +184,21 @@ Ce type d'actions doit être utilisé avec précaution.
 
 Concernant les actions d'édition et d'ajout, vous êtes libres de modifier :
 
-* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* les paramètres, en ajoutant ou en supprimant un paramètre à l'aide des **boutons + et -** situés en-dessous de la liste de paramètres des actions.
 * les propriétés, en les définissant à votre convenance.
 
 ### Sur une action app mobile
 
 La méthode base [Sur une action app mobile](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) vous permet d'appeler vos méthodes 4D.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
+Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, situé sous le tableau des Actions, pour générer automatiquement un bloc de code *Case of* qui inclut tous vos noms d'actions dans la méthode *Sur une action app mobile*.
 
 <div markdown="1" class = "tips">
 **NOTE**
 
-* You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
-* You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
-* You can also decide to force close the Edition form using `$out.close:=True`.
+* Vous pouvez rafraîchir la sélection après avoir exécuté une action en utilisant `$out.dataSynchro:=True`.
+* Vous pouvez notifier l'utilisateur de l'application lorsqu'une action a été exécutée à l'aide de `$out.statusText:="Message you want to display"`.
+* Vous pouvez également forcer la fermeture du formulaire d'Edition à l'aide de `$out.close:=True`.
 </div>
 
 ## Application iOS
@@ -207,11 +207,11 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ### Formulaires Liste en tableau
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
+* **Action d'entité :** Faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
+* **Action de table :** Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
@@ -223,11 +223,11 @@ Les actions s'afficheront dans le même ordre que celui qui a été défini dans
 
 ### Formulaires Liste en collection
 
-* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Action d'entité :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Action de table :** De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -239,16 +239,16 @@ De même que pour les actions de table dans les formulaires détailles, un bouto
 
 ### Formulaires d'édition
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si vous avez créé une action d'ajout ou d'édition, un **formulaire d'édition** apparaît dès que vous sélectionnez l'action à partir de la liste d'actions.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
 Vous pourrez ainsi :
 
 * éditer tous vos champs en les sélectionnant, et
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* valider ou annuler les modifications que vous aurez apportées à l'aide des boutons **Done** ou **Cancel** (dans la barre de navigation).
 
-For your convenience, the Edition form includes a few **special features**:
+A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalités spécifiques** :
 
 * Le type de clavier dépend du type de paramètre sélectionné dans la section Actions.
 * Vous pouvez passer d'un champ à l'autre à l'aide des flèches situées en haut du clavier.
@@ -258,8 +258,8 @@ For your convenience, the Edition form includes a few **special features**:
 
 ## Que faire ensuite ?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutoriel](actions-getting-started.html) est disponible pour vous guider tout au long du **processus de définition d'une action**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des paramètres d'une action**.
