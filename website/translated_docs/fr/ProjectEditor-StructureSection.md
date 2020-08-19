@@ -29,7 +29,7 @@ Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace
 
 ### Les liens 1 vers N dans l'éditeur de projet
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
 
 Il vous suffit de :
 
