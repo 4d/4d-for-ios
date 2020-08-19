@@ -7,13 +7,13 @@ title: Email authentication
 > 
 > Integrate email confirmation to authenticate mobile app users
 
-Let your customers and clients feel comfortable logging into their app using the email authentication!
-
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
-
 > **REQUISITOS PREVIOS**
 > 
 > The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
+
+Let your customers and clients feel comfortable logging into their app using the email authentication!
+
+It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
 
 In short, the principle is the following:
 
