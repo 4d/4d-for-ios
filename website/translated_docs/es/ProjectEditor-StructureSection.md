@@ -20,10 +20,10 @@ Aquí, puede definir un subconjunto de su estructura física para reproducir en 
 
 Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.
 
-<div markdown="1" class = "tips">
-**RECOMENDACIONES**
-Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.
-</div>
+> **RECOMENDACIONES**
+> 
+> Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.
+
 
 ## Relaciones Uno a Muchos
 
@@ -68,10 +68,10 @@ Todo lo que necesita hacer es permitir que 4D for iOS realice los ajustes de est
 
 Una vez autorizado, 4D for iOS hará todo el trabajo por usted, y usted se beneficiará completamente de todas las ventajas de la recarga incremental de datos.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Estas optimizaciones son necesarias tanto para las bases locales como para las bases del servidor.
-</div>
+> **NOTA**
+> 
+> Estas optimizaciones son necesarias tanto para las bases locales como para las bases del servidor.
+
 
 ### ¡Halar para refrescar!
 
@@ -79,9 +79,8 @@ Del lado de la aplicación iOS, sus datos se actualizan cada vez que inicia su a
 
 En uso normal, simplemente deslice hacia abajo desde cualquier formulario Lista para recargar sus datos.
 
-Desde la configuración del iPhone, ahora puede reinicializar los datos de su aplicación y encontrar información sobre su aplicación. 
+Desde la configuración del iPhone, ahora puede reinicializar los datos de su aplicación y encontrar información sobre su aplicación.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación
-</div>
+> **NOTA**
+> 
+> Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación
