@@ -17,13 +17,12 @@ Active y defina sus puertos HTTPS y/o HTTP, si aún no lo ha hecho. You can do t
 
 La activación del puerto HTTPS requiere que la instalación del certificado funcione correctamente. Puede crear los certificados de prueba con 4D.
 
-<div markdown="1" class = "tips">
-**NOTA**
+> **NOTA**
+> 
+> * El simulador funciona localmente (127.0.0.1 o localhost).
+> * Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
+> * Si tanto HTTP como HTTPS están activados, se utiliza HTTP.
 
-* El simulador funciona localmente (127.0.0.1 o localhost).
-* Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
-* Si tanto HTTP como HTTPS están activados, se utiliza HTTP.
-</div>
 
 ## Autenticación
 
