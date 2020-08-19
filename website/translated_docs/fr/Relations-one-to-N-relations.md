@@ -17,7 +17,7 @@ Commençons par télécharger le Projet Starter :
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
 </div>
 
-In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.
+Dans ce tutoriel, nous allons créer une **application Task** à l'aide de 4D for iOS.
 
 ![Task App Final result](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 
@@ -25,13 +25,13 @@ Mais d'abord, jetons un œil à la structure de notre base :
 
 ![Select link from structure section](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
-As you can see, there is a One to Many link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to Many**).
+Vous remarquerez qu'il existe un lien 1 vers N nommé **tasks** qui utilisera une application iOS pour afficher les tâches (**vers N**) des employés (**1**).
 
 Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go to the **Structure section**.
 
 ## Section Structure
 
-You can see the **tasks relation** we have seen earlier... Vous pouvez le publier !
+Vous voyez ici le lien **tasks** que nous avons créé précédemment... Vous pouvez le publier !
 
 Il aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application.
 
@@ -59,14 +59,14 @@ Dans la section Libellés & icônes, vous définirez :
 
 ## Section Formulaires
 
-* Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
+* Cliquez sur la section Formulaires et déposez le lien *tasks* dans le formulaire détaillé Employee Task.
 
 ![Related field in Forms section](assets/en/relations/1-to-n-relations-forms-section.png)
 
 ## Build and Run
 
 1. A partir du formulaire Lise Employee, cliquez sur un employé
-2. This will open the employee's detail form, where you should see a new **Relation button** !
+2. Cela permettra d'ouvrir le formulaire détaillé des employés, où vous devriez voir apparaître un nouveau **bouton Relation** !
 3. Cliquez sur ce bouton Relation pour afficher les tâches de l'employé.
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
