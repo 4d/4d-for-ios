@@ -1,13 +1,13 @@
 ---
 id: debugging-from-the-project-editor
-title: From the project editor
+title: Desde el editor del proyecto
 ---
 
 There may come a time when you encounter issues using the 4D for iOS project editor or your iOS app.
 
 This is where logs can be really useful. You can access logs by holding down the **Alt** key and clicking on **Project** in the project editor.
 
-![Debugging](assets/en/debugging/debug-from-4D-for-iOS.png)
+![Depuración](assets/en/debugging/debug-from-4D-for-iOS.png)
 
 From here, a menu will appear for the curent simulator:
 
