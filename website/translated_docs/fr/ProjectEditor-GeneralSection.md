@@ -22,18 +22,18 @@ Des liens d’aide sont disponibles pour les champs Nom et Identifiant.
 
 **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
 
-**Copyright:** Your app's copyright. 4D for iOS vous propose un format de droit d’auteur, mais vous avez également la possibilité de créer votre propre format.
+**Copyright :** Les droits d’auteur de votre application. 4D for iOS vous propose un format de droit d’auteur, mais vous avez également la possibilité de créer votre propre format.
 
-**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with  Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS vous générera tous les formats requis !
+**Icônes :** Pour vos applications, 4D for iOS vous permet de créer, de diverses manières, des icônes conformes aux directives d’Apple, notamment via un glisser-déposer de vos icônes, depuis votre ordinateur vers la zone consacrée à l’icône. 4D for iOS vous générera tous les formats requis !
 
 <div markdown="1" class = "tips">
 **ASTUCES**
 
 * Si vous avez déjà une icône pour votre application desktop, vous pouvez la glisser-déposer directement dans la zone de l’icône.
-* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
+* **Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !
 </div>
 
 
-**Developer:** This field is automatically filled with your user account name.
+**Développeur :**Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
 
-**Team:** Your Developer Account Team ID.
+**Team :** "Team ID" de votre compte Developer.
