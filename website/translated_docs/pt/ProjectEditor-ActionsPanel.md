@@ -193,13 +193,11 @@ O método banco de dados [On Mobile App Action](https://livedoc.4d.com/4D-Langua
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
-<div markdown="1" class = "tips">
-**NOTA **
-
-* You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
-* You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
-* You can also decide to force close the Edition form using `$out.close:=True`.
-</div>
+> **NOTA **
+> 
+> * You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
+> * You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
+> * You can also decide to force close the Edition form using `$out.close:=True`.
 
 ## Aplicação iOS
 
@@ -215,10 +213,9 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-<div markdown="1" class = "tips">
-**DICAS**
-Actions will be displayed in the same order as defined in the Action section.
-</div>
+> **DICAS**
+> 
+> Actions will be displayed in the same order as defined in the Action section.
 
 
 ### Formulários Lista coleção
