@@ -3,15 +3,15 @@ id: register-apple-developer-program-organization
 title: Apple Developer Program para las empresas
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
-</div>
+> **OBJETIVOS**
+> 
+> Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Para inscribirse en el Programa Apple Developer Program como organización, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.
-</div>
+
+> **NOTA**
+> 
+> Para inscribirse en el Programa Apple Developer Program como organización, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.
+
 
 ## PASO 1. Identificador Apple
 
