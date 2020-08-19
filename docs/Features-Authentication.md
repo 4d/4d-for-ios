@@ -3,25 +3,17 @@ id: authentication
 title: Email authentication
 ---
 
-<div markdown="1" class = "tips">
-
-**OBJECTIVES**
-
-Integrate email confirmation to authenticate mobile app users
-
-</div>
-
-<div markdown="1" class = "prerequisites">
-
-**PREREQUISITES**
-
-The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
-
-</div>
+> **OBJECTIVES**
+>
+>Integrate email confirmation to authenticate mobile app users
 
 Let your customers and clients feel comfortable logging into their app using the email authentication!
 
 It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
+
+> **PREREQUISITES**
+>
+> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
 
 In short, the principle is the following:
 
