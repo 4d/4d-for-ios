@@ -3,21 +3,19 @@ id: deploy-in-house-archive-and-export
 title: Archive and export your Project
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
+> **OBJECTIVES**
+> 
+> * Archive and export your 4D for iOS project
+> * Generate .ipa and manifest files
 
-* Archive and export your 4D for iOS project
-* Generate .ipa and manifest files
-</div>
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
+> **PREREQUISITES**
+> 
+> * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
+> * A secured web server
+> * 57 x 57 px icon
+> * 512 x 512 px icon
 
-* [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
-* A secured web server
-* 57 x 57 px icon
-* 512 x 512 px icon
-</div>
 
 ## ⒈ Xcodeの設定
 
