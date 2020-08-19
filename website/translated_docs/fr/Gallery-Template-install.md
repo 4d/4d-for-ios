@@ -3,7 +3,7 @@ id: gallery-template-install
 title: Installer un template
 ---
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Téléchargez un modèle (template) à partir de la galerie et améliorez-le
 
