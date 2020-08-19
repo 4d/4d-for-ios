@@ -193,14 +193,11 @@ The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Da
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
-<div markdown="1" class = "tips">
-
-**NOTE**
-
-* You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
-* You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
-* You can also decide to force close the Edition form using ```$out.close:=True```.
-</div>
+> **NOTE**
+> 
+> * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
+> * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
+> * You can also decide to force close the Edition form using ```$out.close:=True```.
 
 ## iOS app Side
 
@@ -216,13 +213,9 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-<div markdown="1" class = "tips">
-
-**TIPS**
-
-Actions will be displayed in the same order as defined in the Action section.
-
-</div>
+> **TIPS**
+> 
+> Actions will be displayed in the same order as defined in the Action section.
 
 
 ### Collection List forms
