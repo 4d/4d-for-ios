@@ -3,7 +3,7 @@ id: deploy-app-store-archive-and-upload
 title: Archiver et télécharger un projet
 ---
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Archiver et publier un projet sur l'App Store Connect.
 
