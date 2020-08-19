@@ -35,13 +35,12 @@ Vous pouvez définir les propriétés de champs suivantes :
 
 Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
+> **ASTUCES**
+> 
+> * Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ. 
+> 
+> * Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.
 
-* Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
-
-* Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.
-</div>
 
 ## Propriétés des liens
 
