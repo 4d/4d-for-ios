@@ -3,10 +3,10 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Télécharger une application sur un serveur sécurisé.
-</div>
+> **OBJECTIFS**
+> 
+> Télécharger une application sur un serveur sécurisé.
+
 
 ## ÉTAPE 1. Téléchargez votre application
 
@@ -18,10 +18,9 @@ Téléchargez votre application sur un serveur sécurisé :
 
 Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).
 
-<div markdown="1" class = "tips">
-**NOTE**
-Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.
-</div>
+> **NOTE**
+> 
+> Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.
 
 ## ÉTAPE 2. Créez le lien d’installation
 
