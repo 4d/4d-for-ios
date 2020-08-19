@@ -16,17 +16,17 @@ Vous pouvez créer de nouvelles actions en cliquant sur le bouton +, situé en-d
 
 Vous définirez ensuite les éléments suivants :
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Noms :** Définissez le nom de l'action à utiliser dans la méthode base [Sur une action app mobile](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) pour lancer votre code 4D.
+* **Icônes :** Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce [tutoriel](using-icons.html).
+* **Libellés long et court :** Définissez les libellés correspondant aux actions que vous souhaitez afficher dans votre application.
+* **Table :** Sélectionnez la table à laquelle vous souhaitez appliquer une action.
+* **Portée :** Choisissez d'appliquer l'action à une **entité** ou à une **table**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
 ### Ajoutez des paramètres à votre action
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+Tout comme dans **4D v17R6**, vous pouvez ajouter des **paramètres d'action** et **éditer** des données directement à partir de votre application.
 
 Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
@@ -43,7 +43,7 @@ Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :
 
 Vous êtes libres de choisir l'ordre des paramètres à l'aide du glisser-déposer.
 
-Here are the different **Formats** you can select for a parameter:
+Voici les différents **formats** que vous pouvez sélectionner en tant que paramètre :
 
 <table>
 
@@ -152,7 +152,7 @@ Here are the different **Formats** you can select for a parameter:
 
 #### 1. Action d'ajout
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS simplifie au maximum la création des **actions d'ajout**.
 
 The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
 
