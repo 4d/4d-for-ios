@@ -3,15 +3,13 @@ id: action-custom-template
 title: Adicionar ações em modelos
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Adicionar ações para modelos de formulários de Lista e formulários detalhados.
-</div>
+> **OBJETIVOS**
+> 
+> Adicionar ações para modelos de formulários de Lista e formulários detalhados.
 
-<div markdown="1" class = "prerequisites">
-**PRÉ-REQUISITOS**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-</div>
+> **PRÉ-REQUISITOS**
+> 
+> Clique [aqui](prerequisites.html) para ver o que precisa para começar!
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
