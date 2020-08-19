@@ -3,15 +3,14 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
-</div>
+> **OBJETIVOS**
+> 
+> Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Para inscribirse al Apple Developer Enterprise Program, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.
-</div>
+> **NOTA**
+> 
+> Para inscribirse al Apple Developer Enterprise Program, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.
+
 
 ## PASO 1. Identificador Apple
 
