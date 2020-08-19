@@ -13,10 +13,9 @@ This section allows you to define your app's main information.
 
 For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.
 
-<div markdown="1" class = "tips">
-**注記**
-Help links are available for the Name and Identifier fields.
-</div>
+> **注記**
+> 
+> Help links are available for the Name and Identifier fields.
 
 **Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
 
@@ -26,12 +25,10 @@ Help links are available for the Name and Identifier fields.
 
 **Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with  Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
 
-<div markdown="1" class = "tips">
-**ヒント**
-
-* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
-* **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
-</div>
+> **ヒント**
+> 
+> * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
+> * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
 
 
 **Developer:** This field is automatically filled with your user account name.
