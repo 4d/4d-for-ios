@@ -71,13 +71,11 @@ Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte 
 
 Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-
-* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
-
-* Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.
-</div>
+> **ASTUCES**
+> 
+> * Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
+> 
+> * Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.
 
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
