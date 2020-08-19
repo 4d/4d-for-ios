@@ -19,15 +19,15 @@ href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
 
-Then go right to your Structure section and select the **Task table**.
+Accédez directement à la section Structure, puis sélectionnez la **table Tasks**.
 
 ### Section Structure
 
-* You can notice that the **TaskCategory relation** is underlined
+* Vous pouvez constater que le **lien TaskCategory** est souligné
 
 * En cliquant dessus, vous afficherez les champs disponibles à travers ce lien
 
-* Select the **Name field**
+* Sélectionnez le **champ Name**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
@@ -37,7 +37,7 @@ Then go right to your Structure section and select the **Task table**.
 
  ![Champs liés depuis la section Données](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Vous pouvez ensuite sélectionner une **icône** et des **formats** et définir des **libellés courts et longs** dans la section Libellés et icônes
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
