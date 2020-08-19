@@ -3,22 +3,21 @@ id: install-device
 title: iOSデバイスにインストールする
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Install a 4D for iOS application on a connected device
-</div>
+> **OBJECTIVES**
+> 
+> Install a 4D for iOS application on a connected device
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
 
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).
-</div>
+> **PREREQUISITES**
+> 
+> * Apple Developer Program.
+> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).
 
-<div markdown="1" class = "tips">
-**注記**
-Apple configurator 2 requires **macOS 10.14** or later.
-</div>
+
+> **注記**
+> 
+> Apple configurator 2 requires **macOS 10.14** or later.
+
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
 
