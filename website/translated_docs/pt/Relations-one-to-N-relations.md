@@ -5,10 +5,13 @@ title: Relações Um para Muitos
 
 Este tutorial vai mostrar como é fácil incluir relações Um para Muitos em 4D for iOS.
 
-<div markdown="1" class = "tips">
-**NOTA **
-In this tutorial, we will use the relation names between your tables. Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
-</div>
+
+> **NOTA **
+> 
+> In this tutorial, we will use the relation names between your tables.
+> 
+> Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
+
 
 Vamos começar baixando o Projeto Starter:
 
@@ -37,11 +40,9 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)
 
-<div markdown="1" class = "tips">
-**DICAS**
-
-* On mouse over, a tip displays the table name originating the relation.
-</div>
+> **DICAS**
+> 
+> * On mouse over, a tip displays the table name originating the relation.
 
 ## Labels & Icons section
 
