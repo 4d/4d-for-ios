@@ -19,22 +19,22 @@ It provides a way to verify that an email comes from whom it claims to be from a
 
 How it works:
 
-### 1. Activate the login form
+### 1. Active el formulario de conexión
 
 Integrate a login form into your app from the project editor, in the Publishing section.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
-### 2. Enter your email address
+### 2. Ingrese su dirección de correo electrónico
 
 An email address is required when the app is launched. When a user enters their email and clicks on the **Login** button, the **On Mobile app Authentication** method is called and the user's session status is updated to a "pending" status. A validation email is then sent to the user's email address.
 
-### 3. Check your mailbox
+### 3. Revise su correo
 
 When the validation email is received, the user only needs to click on the validation link. This will call the **On Web Connection database** method and update the user's session status from "pending" to "accepted".
 
-### 4. Go back to your app
+### 4. Vuelva a su aplicación
 
 Once validation is completed, the user can reopen their app and click on the **Login** button. The **On Mobile App Authentication** method is called again, but this time the user's session status is "accepted", so access is granted!
 
@@ -47,13 +47,13 @@ To make the validation process simple and secure, 4D for iOS handles:
 But let's use our special component to see how this works!
 
 
-# Using the component
+# Utilización del componente
 
-## A component to deal with email authentication
+## Un componente para gestionar la autenticación de los correos electrónicos
 
-A toolbox component has been developed to help you manage several processes: the 4D Mobile App Server Component.
+Se ha desarrollado un componente de caja de herramientas para ayudarlo a administrar varios procesos: el componente 4D Mobile App Server.
 
-Let's see how to use it!
+¡Veamos cómo utilizarlo!
 
 ## On Mobile App Authentification
 
@@ -74,19 +74,19 @@ Call the **Activate sessions** method in the **On Web Connection** database meth
 C_TEXT($1)
 Case of 
 : (Mobile App Active Session($1).success)
-    //add log if you want
+    //añada un historial si lo desea
 End case 
 
 ```
 
-Its as simple as that! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
+¡Tan simple como eso! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
 
 
-# Without the component
+# Sin el componente
 
 Let's take a look at a basic example without using the component.
 
-To do so, here is the code you can use:
+Para hacerlo, aquí está el código que puede utilizar:
 
 ## On Mobile App Authentication
 
@@ -94,31 +94,31 @@ To do so, here is the code you can use:
 ```4d
 C_OBJECT($0;$1;$response;$request;$email;$status)
 
-  // parameters settings come from the mobile app
+  // las propiedades de los parámetros provienen de la aplicación móvil
 $request:=$1
 
-  // Create an email with an activation URL
+  // Crear un email con una URL de activación
 $mail:=New object
 $mail.from:="myapplication@gmail.com"
-$mail.to:=$request.email  // email entered by the user on their smartphone
+$mail.to:=$request.email  // email introducido por el usuario en su teléfono inteligente
 $mail.subject:="Login confirmation"
 $mail.htmlBody:="<a href=\"https://myserverapplication/activation/"+$request.session.id \
-+"\">Click Here to confirm your email.</a>\"<br>"
++"\">Clic acá para confirmar su email.</a>\"<br>"
 
-  // Send mail
+  // Enviar correo
 $smtp:=New object("host";"smtp.gmail.com";"user";"myapplication@gmail.com";"password";"xxx")
 $transporter:=SMTP New transporter($smtp)
 $status:=$transporter.send($mail)
 
-  // Configure response for 4D for iOS
+  // Configurar respuesta para 4D for iOS
 $response:=New object
 
-  // Declare that the current session is being verified
+  // Declarar que la sesión actual está siendo verificada
 $response.verify:=True
 
-  // Check if the email was successsfully sent
+  // Verificar si el email fue enviado exitosamente
 If ($status.success)
-      //create a share object to contain our sessions, accessible from all processes
+      //crear un objeto compartido para nuestras sesiones, accesible desde todos los procesos
     If (Storage.pendingSessions=Null)
         Use (Storage)
             Storage.pendingSessions:=New shared object
@@ -126,15 +126,15 @@ If ($status.success)
     End if 
 
     Use (Storage.pendingSessions)
-          //Add a session to our session lists
+          //Añadir una sesión a nuestra lista de sesiones
         Storage.pendingSessions[$request.session.id]:=$request.team.id+"."+$request.application.id
     End use 
 
     $response.success:=True
-    $response.statusText:="Please check your mail box"
+    $response.statusText:="Por favor verifique su buzón"
 Else 
-      // Display an error message on the smatphone
-    $response.statusText:="The mail is not sent please try again later"
+      // Mostrar un mensaje de error en el teléfono inteligente
+    $response.statusText:="El mail no se ha enviado por favor inténtelo más tarde"
     $response.success:=False
 End if 
 
@@ -144,7 +144,7 @@ $0:=$response
 
 ## On Web connection
 
-This method will allow you activate the session after clicking on the link in the confirmation email.
+Este método le permitirá activar la sesión después de hacer clic en el enlace del correo electrónico de confirmación.
 
 ```4d
 C_TEXT($1;$2;$3;$4;$5;$6)
@@ -157,27 +157,27 @@ If ($1="/activation/@")
 End if 
 
 
-  //get session from ID received from URL
+  //leer la sesión desde el ID recibido de la URL
 If (Storage.pendingSessions#Null)
     $session:=Storage.pendingSessions[$token]
 End if 
 
 If ($session#"")
-      //get session folder
+      //obtener carpeta de sesiónr
     $sessionFile:=Folder(fk mobileApps folder).folder($session).file($token)
     $sessionObject:=JSON Parse($sessionFile.getText())
-      //update status value
+      //actualizar valor del estado
     $sessionObject.status:="accepted"
     $sessionFile.setText(JSON Stringify($sessionObject))
     Use (Storage.pendingSessions)
-          //delete pending session
+          //eliminar sesión pendiente
         OB REMOVE(Storage.pendingSessions;$token)
     End use 
 
     /*
-        The MOBILE APP REFRESH SESSIONS command checks all mobile
-        application session files located in the MobileApps folder of the server, 
-        and updates existing session contents in memory for any edited files.
+        El comando MOBILE APP REFRESH SESSIONS verifica todos los
+         archivos de sesión de la aplicación ubicados en la carpeta MobileApps del servidor,
+         y actualiza el contenido de la sesión existente en la memoria para cualquier archivo editado.
     */
 
     MOBILE APP REFRESH SESSIONS
@@ -188,8 +188,8 @@ Else
 End if 
 ```
 
-And that's it !
+¡Y listo!
 
 ## ¿Qué hacemos ahora?
 
-We've covered basic email validation in this tutorial. You should now be able to easily access your 4D for iOS app!
+Hemos cubierto la validación básica de correo electrónico en este tutorial. You should now be able to easily access your 4D for iOS app!
