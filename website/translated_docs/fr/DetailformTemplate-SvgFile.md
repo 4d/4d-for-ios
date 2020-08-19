@@ -86,15 +86,13 @@ Vous pouvez définir la position, la hauteur et la largeur de tous vos champs, c
 
 Maintenant que vous avez une **icône**, la **description basique d'un modèle** dans le fichier manifest.json, ainsi que votre fichier **svg**, passons à la partie amusante avec Xcode !
 
-<div markdown="1" class = "tips">
-**NOTE**
-Tous les types sont disponibles [ici](https://developer.4d.com/docs/en/Concepts/data-types.html).
-</div>
+> **NOTE**
+> 
+> Tous les types sont disponibles [ici](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-<div markdown="1" class = "tips">
-**ASTUCES**
 
-* Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
-
-* Pour inclure tous les types de champs, entrez simplement `ios:type="all"`.
-</div>
+> **ASTUCES**
+> 
+> * Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
+> 
+> * Pour inclure tous les types de champs, entrez simplement `ios:type="all"`.
