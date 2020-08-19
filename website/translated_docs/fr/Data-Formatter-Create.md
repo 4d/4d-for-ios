@@ -3,15 +3,13 @@ id: creating-data-formatter
 title: Créer un format de données
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Créer vos premiers formats de données.
-</div>
+> **OBJECTIFS**
+> 
+> Créer vos premiers formats de données.
 
-<div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-</div>
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
 Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 
