@@ -193,13 +193,11 @@ La méthode base [Sur une action app mobile](https://livedoc.4d.com/4D-Language-
 
 Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, situé sous le tableau des Actions, pour générer automatiquement un bloc de code *Case of* qui inclut tous vos noms d'actions dans la méthode *Sur une action app mobile*.
 
-<div markdown="1" class = "tips">
-**NOTE**
-
-* Vous pouvez rafraîchir la sélection après avoir exécuté une action en utilisant `$out.dataSynchro:=True`.
-* Vous pouvez notifier l'utilisateur de l'application lorsqu'une action a été exécutée à l'aide de `$out.statusText:="Message you want to display"`.
-* Vous pouvez également forcer la fermeture du formulaire d'Edition à l'aide de `$out.close:=True`.
-</div>
+> **NOTE**
+> 
+> * Vous pouvez rafraîchir la sélection après avoir exécuté une action en utilisant `$out.dataSynchro:=True`.
+> * Vous pouvez notifier l'utilisateur de l'application lorsqu'une action a été exécutée à l'aide de `$out.statusText:="Message you want to display"`.
+> * Vous pouvez également forcer la fermeture du formulaire d'Edition à l'aide de `$out.close:=True`.
 
 ## Application iOS
 
@@ -215,10 +213,9 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.
-</div>
+> **ASTUCES**
+> 
+> Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.
 
 
 ### Formulaires Liste en collection
