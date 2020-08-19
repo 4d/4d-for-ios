@@ -3,17 +3,16 @@ id: actions-getting-started
 title: Comencemos
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Utilizar las acciones en la aplicación iOS generada.
-</div>
-
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+> **OBJETIVOS**
+> 
+> Utilizar las acciones en la aplicación iOS generada.
 
 En 4D v17 R5, puede [definir las acciones](actions.html) directamente desde el editor de proyectos y ejecutar el código 4D desde su aplicación iOS generada.
+
+
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
 A partir de aquí, cuando crea su aplicación desde el editor de proyectos utilizando acciones, puede decidir utilizar:
 
