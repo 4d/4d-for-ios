@@ -3,10 +3,9 @@ id: deployment
 title: Choisir un Apple Developer Program
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Choisir le programme "Apple Developer Program" qui vous convient.
-</div>
+> **OBJECTIFS**
+> 
+> Choisir le programme "Apple Developer Program" qui vous convient.
 
 Pour **distribuer une application iOS**, votre compte Apple Developer doit être valide. Apple propose deux programmes de développement :
 
