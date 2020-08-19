@@ -7,15 +7,13 @@ title: Formatador de dados
 
 Agora pode escolher os formatos pré-definidos da seção Etiquetas e Ícones.
 
-<div markdown="1" class = "tips">
-Available formats:
-
-* **Text**: Text
-*  **Date**: Date, Short date, Long date, Full date
-*  **Time**: Time, Short time, Duration, Integer number
-*  **Boolean**: "No" or "Yes", "False" or "True"
-*  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
-</div>
+> **Available formats:**
+> 
+> * **Text**: Text
+> * **Date**: Date, Short date, Long date, Full date
+> * **Time**: Time, Short time, Duration, Integer number
+> * **Boolean**: "No" or "Yes", "False" or "True"
+> * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
 
 Vamos começar baixando o Projeto Starter:
 
