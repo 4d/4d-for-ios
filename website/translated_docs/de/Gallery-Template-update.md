@@ -3,10 +3,9 @@ id: gallery-template-update
 title: Update a template
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Open and update a template from the gallery and improve it
-</div>
+> **OBJECTIVES**
+> 
+> Open and update a template from the gallery and improve it
 
 ## Open a template
 
