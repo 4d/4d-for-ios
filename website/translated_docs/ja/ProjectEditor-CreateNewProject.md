@@ -3,15 +3,15 @@ id: create-new-project
 title: 新規プロジェクト
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Get familiar with the Project Editor.
-</div>
+> **OBJECTIVES**
+> 
+> Get familiar with the Project Editor.
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-</div>
+
+> **PREREQUISITES**
+> 
+> はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
+
 
 Let's take a look at how 4D for iOS works.
 
