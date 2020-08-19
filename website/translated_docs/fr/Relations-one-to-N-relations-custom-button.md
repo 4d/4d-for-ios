@@ -94,7 +94,7 @@ Il devrait ressembler à ceci :
 
 ### Taille et contraintes
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. Cela permet de dupliquer correctement le bouton lorsque plusieurs liens sont disponibles dans la même vue détaillée.
+A noter que si vous **ajoutez des contraintes** à votre bouton, vous devrez également modifier le fichier xib xml pour **ajouter des TAGS** comme pour les templates de formulaires détaillés personnalisés. Cela permet de dupliquer correctement le bouton lorsque plusieurs liens sont disponibles dans la même vue détaillée.
 
 C'est très pratique, puisque nous prévoyons d'ajouter quelques contraintes !
 
@@ -106,11 +106,11 @@ Etape 1. Sélectionnez d’abord la vue et remplacez la hauteur (123) par 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Etape 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+Etape 2. Double-cliquez sur **Top Space Constraint** et remplacez sa valeur (8) par 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Étape 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+Étape 3. Faites la même chose avec **Bottom Space Constraint** et remplacez sa valeur (8) par 0
 
 Vous devriez obtenir ceci :
 
@@ -141,7 +141,7 @@ Etape 1. Sélectionnez-le à partir du Storyboard pour lire l'identifiant de l'o
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Etape 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+Etape 2. Recherchez cet ID dans le fichier xml et remplacez-le par **TAG-RL-007** (un Tag qui n'est pas déjà utilisé).
 
 Étape 3. Enregistrez le fichier xml
 
