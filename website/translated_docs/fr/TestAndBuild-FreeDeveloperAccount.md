@@ -27,7 +27,7 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 
 ## ÉTAPE 3. Ouvrez Xcode
 
-* Launch Xcode > Preferences > Accounts
+* Lancez Xcode > Preferences > Accounts
 * Ajoutez votre identifiant Apple et connectez-vous
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)

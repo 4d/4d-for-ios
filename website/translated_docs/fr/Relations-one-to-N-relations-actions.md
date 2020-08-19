@@ -3,10 +3,9 @@ id: one-to-many-relations-actions
 title: Liens 1 vers N - Actions
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.
-</div>
+> **OBJECTIFS**
+> 
+> Nous allons maintenant aller un peu plus loin et **créer une tâche pour un employé spécifique**.
 
 Il est très facile de créer une entité avec une **Entité parente** !
 

@@ -3,15 +3,13 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.
-</div>
+> **OBJECTIFS**
+> 
+> Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.
 
-<div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-</div>
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
 Dans ce tutoriel, nous verrons qu'il est très simple d'**ajouter des actions aux modèles personnalisés**.
 

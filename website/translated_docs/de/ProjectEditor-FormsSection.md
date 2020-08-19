@@ -43,13 +43,12 @@ You can add as many fields for most of the detail form available.
 
 And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
 
-<div markdown="1" class = "tips">
-**TIPS**
+> **TIPS**
+> 
+> * Want to change the template for your list or detail form? 
+> 
+> * Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
 
-* Want to change the template for your list or detail form?
-
-* Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
-</div>
 
 ## Gallery
 
@@ -65,10 +64,10 @@ Then, the only thing you have to do is selecting the template that suits your ne
 
 So you can directly start working on the template, as it is ready-to-use.
 
-<div markdown="1" class = "tips">
-**TIPS**
-The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
-</div>
+> **TIPS**
+> 
+> The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
+
 
 ## Wie geht es weiter?
 

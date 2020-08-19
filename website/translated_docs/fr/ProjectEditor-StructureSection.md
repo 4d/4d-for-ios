@@ -20,16 +20,16 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.
-</div>
+> **ASTUCES**
+> 
+> Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.
+
 
 ## Liens 1 vers N
 
 ### Les liens 1 vers N dans l'éditeur de projet
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Dans les dernières versions de 4D, il vous est possible de gérer des **liens 1 vers N** et d'afficher une liste de champs liés dans une nouvelle page.
 
 Il vous suffit de :
 
@@ -68,10 +68,10 @@ Il vous suffit de permettre à 4D for iOS d'apporter les modifications nécessai
 
 Une fois que l'accès lui est accordé, 4D for iOS effectuera toutes les tâches requises afin que vous profitiez pleinement des avantages du rechargement incrémental des données.
 
-<div markdown="1" class = "tips">
-**NOTE**
-Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.
-</div>
+> **NOTE**
+> 
+> Ces optimisations sont nécessaires pour les bases locales et les bases du serveur.
+
 
 ### Tirer pour rafraîchir !
 
@@ -79,9 +79,8 @@ Du côté d'iOS, vos données sont actualisées chaque fois que vous lancez votr
 
 En utilisation normale, glissez simplement vers le bas n’importe quel formulaire Liste pour recharger vos données.
 
-À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application. 
+À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application.
 
-<div markdown="1" class = "tips">
-**NOTE**
-Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction
-</div>
+> **NOTE**
+> 
+> Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction

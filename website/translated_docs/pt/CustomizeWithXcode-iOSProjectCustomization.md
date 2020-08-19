@@ -71,13 +71,11 @@ Nesse ponto, todas as restrições de imagem de perfil devem estar em azul.
 
 Parabéns! Sua foto do perfil está agora bem posicionada com as restrições corretas.
 
-<div markdown="1" class = "tips">
-**DICAS**
-
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
-
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
-</div>
+> **DICAS**
+> 
+> * To create a constraint between two views, press Ctrl and drag one of the views to the other. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
+> 
+> * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
 
 ## PASSO 4. Atualizar posições de etiqueta e restrições
 

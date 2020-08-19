@@ -43,13 +43,12 @@ Pode adicionar quantos campos quiser para a maior parte dos formulários detalha
 
 E pode reordenar a qualquer momento seu campo selecionando-o e soltando em qualquer lugar no seu formulário detalhado.
 
-<div markdown="1" class = "tips">
-**DICAS**
+> **DICAS**
+> 
+> * Want to change the template for your list or detail form? 
+> 
+> * Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
 
-* Want to change the template for your list or detail form?
-
-* Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
-</div>
 
 ## Gallery
 
@@ -65,10 +64,10 @@ Then, the only thing you have to do is selecting the template that suits your ne
 
 So you can directly start working on the template, as it is ready-to-use.
 
-<div markdown="1" class = "tips">
-**DICAS**
-A galeria também está disponível [online](https://4d-for-ios.github.io/gallery/).
-</div>
+> **DICAS**
+> 
+> A galeria também está disponível [online](https://4d-for-ios.github.io/gallery/).
+
 
 ## Que fazer agora?
 

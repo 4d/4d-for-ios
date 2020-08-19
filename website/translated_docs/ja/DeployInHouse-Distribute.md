@@ -3,10 +3,10 @@ id: deploy-in-house-distribution
 title: Distribute your app in-House
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Upload your app to a secured server.
-</div>
+> **OBJECTIVES**
+> 
+> Upload your app to a secured server.
+
 
 ## ⒈ Upload your app
 
@@ -18,10 +18,9 @@ Upload your app files to a secured server:
 
 You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
 
-<div markdown="1" class = "tips">
-**注記**
-Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
-</div>
+> **注記**
+> 
+> Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
 
 ## ⒉ Create the installation link
 
