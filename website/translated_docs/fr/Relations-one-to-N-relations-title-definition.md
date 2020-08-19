@@ -20,7 +20,7 @@ Ouvrez ensuite l'onglet Liens pour définir le titre du lien *tasks* et saisisse
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
+Vous l'aurez deviné, il vous permet d'afficher **la valeur du nom de l'Employé** dans la vue de destination en fonction du formulaire détaillé Employee sur lequel vous étiez en train de travailler précédemment.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 
