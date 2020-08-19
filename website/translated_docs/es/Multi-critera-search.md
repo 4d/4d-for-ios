@@ -4,10 +4,10 @@ title: Búsqueda multicriterios
 ---
 
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Active la búsqueda de criterios múltiples en sus propias plantillas.
-</div>
+> **OBJETIVOS**
+> 
+> Active la búsqueda de criterios múltiples en sus propias plantillas.
+
 
 Esta funcionalidad se activa por defecto en todas las plantillas generadas para 4D for iOS.
 
