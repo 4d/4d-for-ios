@@ -3,10 +3,9 @@ id: xcode-overview
 title: Xcode ガイド
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Ensure a basic understanding of working with Xcode.
-</div>
+> **OBJECTIVES**
+> 
+> Ensure a basic understanding of working with Xcode.
 
 Xcode displays various areas that we're going to review:
 
