@@ -17,13 +17,12 @@ Ative e defina seus portos HTTPS ou HTTP, se ainda não o tiver feito. You can d
 
 A ativação de porto HTTPS requer que a instalação de certificado funcione corretamente. Pode criar certificados de teste com 4D.
 
-<div markdown="1" class = "tips">
-**NOTA **
+> **NOTA **
+> 
+> * The Simulator works locally (127.0.0.1 or localhost).
+> * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
+> * If both HTTP and HTTPS are activated, HTTP is used.
 
-* The Simulator works locally (127.0.0.1 or localhost).
-* If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-* If both HTTP and HTTPS are activated, HTTP is used.
-</div>
 
 ## Autenticação
 
