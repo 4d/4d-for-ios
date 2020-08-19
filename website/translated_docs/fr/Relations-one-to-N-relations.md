@@ -5,10 +5,12 @@ title: Liens 1 vers N
 
 Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.
 
-<div markdown="1" class = "tips">
-**NOTE**
-Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
-</div>
+
+> **NOTE**
+> 
+> Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables.
+> 
+> En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
 
 Commençons par télécharger le Projet Starter :
 
@@ -37,11 +39,10 @@ Il aura le même fonctionnement que n’importe quel autre champ pour la suite d
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)
 
-<div markdown="1" class = "tips">
-**ASTUCES**
+> **ASTUCES**
+> 
+> * En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.
 
-* En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.
-</div>
 
 ## Section Libellés & icônes
 
