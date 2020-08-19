@@ -3,15 +3,13 @@ id: action-custom-template
 title: Añadir acciones a las plantillas
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Agregue acciones a plantillas de formularios de Lista y formularios detallados.
-</div>
+> **OBJETIVOS**
+> 
+> Agregue acciones a plantillas de formularios de Lista y formularios detallados.
 
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
 En este tutorial, veremos lo fácil que puede ser **agregar acciones a plantillas personalizadas**.
 
