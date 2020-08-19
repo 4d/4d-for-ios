@@ -3,10 +3,10 @@ id: deploy-in-house-distribution
 title: Distribuir una aplicación interna
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Subir su aplicación a un servidor seguro.
-</div>
+> **OBJETIVOS**
+> 
+> Subir su aplicación a un servidor seguro.
+
 
 ## PASO 1. Suba su aplicación
 
@@ -18,10 +18,9 @@ Suba su aplicación a un servidor seguro:
 
 Puede utilizar cualquier servicio de almacenamiento en la nube para distribuir su aplicación siempre que esté protegida (Dropbox, Google Drive, etc.).
 
-<div markdown="1" class = "tips">
-**NOTA**
-Su recurso y sus URL ipa deben coincidir con las URL definidas en su archivo manifest.plist.
-</div>
+> **NOTA**
+> 
+> Su recurso y sus URL ipa deben coincidir con las URL definidas en su archivo manifest.plist.
 
 ## PASO 2. Cree el enlace de instalación
 
