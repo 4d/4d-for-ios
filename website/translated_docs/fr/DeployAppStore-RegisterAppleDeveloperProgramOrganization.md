@@ -3,15 +3,14 @@ id: register-apple-developer-program-organization
 title: Apple Developer Program pour les entreprises
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Souscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.
-</div>
+> **OBJECTIFS**
+> 
+> Souscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.
 
-<div markdown="1" class = "tips">
-**NOTE**
-Pour vous inscrire au programme "Apple Developer Enterprise Program", votre identifiant Apple doit être associé à une adresse e-mail en utilisant le nom de domaine de votre entreprise.
-</div>
+> **NOTE**
+> 
+> Pour vous inscrire au programme "Apple Developer Enterprise Program", votre identifiant Apple doit être associé à une adresse e-mail en utilisant le nom de domaine de votre entreprise.
+
 
 ## ÉTAPE 1. Identifiant Apple
 
