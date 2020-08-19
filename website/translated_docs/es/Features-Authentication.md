@@ -1,16 +1,16 @@
 ---
-id: authentication
-title: Email authentication
+id: autenticación
+title: Autenticación email
 ---
 
 > **OBJETIVOS**
 > 
-> Integrate email confirmation to authenticate mobile app users
+> Integre la confirmación por correo electrónico para autenticar a los usuarios de la aplicación móvil
 
 
 > **REQUISITOS PREVIOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server v18 R4.
+> El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite la autenticación de correo está integrado en 4D mono usuario y 4D server v18 R4.
 
 
 Ensure that your customers and clients feel comfortable logging into their apps with email authentication!
