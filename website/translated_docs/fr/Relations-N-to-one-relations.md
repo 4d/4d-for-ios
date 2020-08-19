@@ -5,10 +5,11 @@ title: Liens N vers 1
 
 4D v17 R5 lance un nouveau concept : les liens N vers 1
 
-<div markdown="1" class = "tips">
-**NOTE**
-Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
-</div>
+> **NOTE**
+> 
+> Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables.
+> 
+> En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
 
 Commençons par télécharger le Projet Starter :
 
