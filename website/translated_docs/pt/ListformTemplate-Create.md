@@ -3,15 +3,15 @@ id: creating-listform-templates
 title: List form templates
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Create your first list form template.
-</div>
+> **OBJETIVOS**
+> 
+> Create your first list form template.
 
-<div markdown="1" class = "prerequisites">
-**PRÉ-REQUISITOS**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-</div>
+
+> **PRÉ-REQUISITOS**
+> 
+> Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 
