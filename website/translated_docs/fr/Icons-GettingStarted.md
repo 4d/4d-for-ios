@@ -3,12 +3,12 @@ id: using-icons
 title: Utiliser des icônes
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Utiliser vos propres icônes dans vos projets 4D for iOS.
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
