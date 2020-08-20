@@ -5,13 +5,13 @@ title: Criar uma ficha em App Store
 
 > **OBJETIVOS**
 > 
-> * Create an App ID on your Developer Account
-> * Create your app in App Store Connect
+> * Criar um identificador de aplicação em sua conta de desenvolvedor
+> * Criar sua aplicação na App Store Connect
 
 
 > **PRÉ-REQUISITOS**
 > 
-> [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)
+> [Apple Developer Program para empresas](register-apple-developer-program-organization.html) ou [particulares](register-apple-developer-program-individual.html)
 
 
 ## PASSO 1. Criar uma ID de aplicação
@@ -22,8 +22,8 @@ title: Criar uma ficha em App Store
 
 > **NOTA **
 > 
-> * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
-> * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
+> * Se escolher uma Conta Apple Developer como indivíduo, sua conta estará disponível imediatamente e pode criar sua App ID.
+> * Se escolher uma conta Apple Developer como uma empresa, tem que esperar até a validação de Apple para criar sua App ID.
 
 
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
@@ -68,7 +68,7 @@ Add the following information:
 
 > **NOTA **
 > 
-> If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.
+> Se seu Bundle ID não estiver disponível, pode ser que já esteja sendo usada por outro app na App Store. Terá que mudar a sua no projeto Xcode.
 
 ## PASSO 4. Informação sobre a aplicação
 
@@ -86,7 +86,7 @@ This is where you define the price for your app.
 
 > **DICAS**
 > 
-> You can define limited-time discounts by specifying start and end dates.
+> Pode definir descontos por tempo limitado especificando as datas de começo e fim.
 
 
 ## PASSO 6. Prepare para a inscrição
@@ -95,7 +95,7 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 > **DICAS**
 > 
-> You can generate all of your screenshots in Simulator (File > New Screen Shot).
+> Pode gerar todas as suas capturas de tela no Simulator (File>New Screen Shot).
 
 ![Prepare para a inscrição](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
