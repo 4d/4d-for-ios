@@ -3,12 +3,12 @@ id: creating-data-formatter
 title: Créer un format de données
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Créer vos premiers formats de données.
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
