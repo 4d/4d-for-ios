@@ -1,6 +1,6 @@
 ---
 id: gallery-template-update
-title: Update a template
+title: Mettre à jour un template
 ---
 
 > **OBJECTIFS**
