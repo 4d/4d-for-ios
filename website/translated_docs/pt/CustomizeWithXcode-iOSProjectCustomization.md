@@ -73,9 +73,9 @@ Parabéns! Sua foto do perfil está agora bem posicionada com as restrições co
 
 > **DICAS**
 > 
-> * To create a constraint between two views, press Ctrl and drag one of the views to the other. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
+> * Para criar uma restrição entre duas vistas, pressione Ctrl e arraste uma das vistas para a outra. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
 > 
-> * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
+> * Pode apagar restrições selecionando-as do inspector Size ou desde o Interface Builder.
 
 ## PASSO 4. Atualizar posições de etiqueta e restrições
 
