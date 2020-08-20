@@ -3,11 +3,11 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
