@@ -5,7 +5,7 @@ title: Selecionar um Apple Developer Program
 
 > **OBJETIVOS**
 > 
-> Choose the appropriate Apple Developer Program.
+> Escolha o programa Apple Developer apropriado.
 
 You must have a valid Apple Developer account to **distribute an iOS app**. Apple offers two developer programs:
 
