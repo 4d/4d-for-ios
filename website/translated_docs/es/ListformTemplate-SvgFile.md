@@ -71,15 +71,17 @@ Puede definir la posición, el alto y ancho para:
 
 El "searchable field" (campo de búsqueda) es opcional.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
-</div>
-<
-div markdown="1" class = "tips">
-**CONSEJO**
-To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-Para incluir todos los tipos de campos, introduzca simplemente ios:type="all". </div>
+> **NOTA**
+> 
+> Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+
+
+> **CONSEJO**
+> 
+> To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+> 
+> Para incluir todos los tipos de campos, introduzca simplemente ios:type="all".
+
 
 ### Área SectionField:
 

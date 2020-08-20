@@ -7,15 +7,13 @@ title: Format des données
 
 Vous pouvez désormais choisir des formats prédéfinis à partir de la section Libellés et icônes.
 
-<div markdown="1" class = "tips">
-Formats disponibles :
-
-* **Text** : Texte
-*  **Date** : Date, date courte, date longue, date complète
-*  **Heure** : Heure, Heure courte, Durée, Nombre entier
-*  **Booléen** : "Oui" ou "Non", "Faux" ou "Vrai"
-*  **Nombre entier** : Nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres
-</div>
+> **Formats disponibles :**
+> 
+> * **Text** : Texte
+> * **Date** : Date, date courte, date longue, date complète
+> * **Heure** : Heure, Heure courte, Durée, Nombre entier
+> * **Booléen** : "Oui" ou "Non", "Faux" ou "Vrai"
+> * **Nombre entier** : Nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres
 
 Commençons par télécharger le Projet Starter :
 

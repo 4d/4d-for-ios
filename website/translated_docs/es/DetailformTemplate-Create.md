@@ -3,15 +3,15 @@ id: creating-detailform-templates
 title: Plantillas de formularios detallados
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Crear su primera plantilla de formulario listado.
-</div>
+> **OBJETIVOS**
+> 
+> Crear su primera plantilla de formulario listado.
 
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
+
 
 En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 

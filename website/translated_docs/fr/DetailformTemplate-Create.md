@@ -3,15 +3,15 @@ id: creating-detailform-templates
 title: Modèles de formulaires détaillés
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Créer son tout premier modèle de formulaire Liste.
-</div>
+> **OBJECTIFS **
+> 
+> Créer son tout premier modèle de formulaire Liste.
 
-<div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-</div>
+
+> **CONDITIONS PRÉALABLES **
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
+
 
 Dans ce tutoriel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Ce modèle affichera un **en-tête d'image** et **des champs titre et contenu** qui seront dupliqués dans l’application iOS qui sera générée.
 

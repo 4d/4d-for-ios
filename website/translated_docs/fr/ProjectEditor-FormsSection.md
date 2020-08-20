@@ -33,10 +33,11 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-<div markdown="1" class = "tips">
-**ASTUCES** Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
-</div>
+> **ASTUCES**
+> 
+> Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ? 
+> 
+> Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
 
 ## Galerie
 

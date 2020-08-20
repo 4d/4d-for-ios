@@ -3,22 +3,21 @@ id: install-device
 title: Instalar em seu dispositivo iOS
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Instalar uma aplicação 4D for iOS em um aparelho conectado
-</div>
+> **OBJETIVOS**
+> 
+> Instalar uma aplicação 4D for iOS em um aparelho conectado
 
-<div markdown="1" class = "prerequisites">
-**PRÉ-REQUISITOS**
 
-* Programa Apple Developer
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado em seu Mac para automatizar a instalação de app (opcional).
-</div>
+> **PRÉ-REQUISITOS**
+> 
+> * Programa Apple Developer
+> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado em seu Mac para automatizar a instalação de app (opcional).
 
-<div markdown="1" class = "tips">
-**NOTA **
-Apple configurator 2 requires **macOS 10.14** or later.
-</div>
+
+> **NOTA **
+> 
+> Apple configurator 2 requires **macOS 10.14** or later.
+
 
 Dependendo de seus objetivos e preferências, pode escolher se inscrever em um desses programas:
 

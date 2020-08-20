@@ -3,15 +3,15 @@ id: filter-query-introduction
 title: Pesquisas limitadas
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.
-</div>
+> **OBJETIVOS**
+> 
+> Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.
 
-<div markdown="1" class = "prerequisites">
-**PRÉ-REQUISITOS**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-</div>
+
+> **PRÉ-REQUISITOS**
+> 
+> Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+
 
 In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
 
@@ -33,10 +33,9 @@ Este banco de dados inclui:
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
-<div markdown="1" class = "tips">
-**NOTA **
-Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.
-</div>
+> **NOTA **
+> 
+> Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.
 
 Estamos prontos para definir nossa primeira pesquisa limitada!
 

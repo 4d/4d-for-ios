@@ -17,13 +17,12 @@ Activez et définissez vos ports HTTPS et/ou HTTP si ce n'est pas déjà fait. P
 
 L'activation du port HTTPS nécessite une installation certifiée pour fonctionner correctement. Vous pouvez créer des certificats d'essai avec 4D.
 
-<div markdown="1" class = "tips">
-**NOTE**
+> **NOTE**
+> 
+> * Le simulateur fonctionne localement (127.0.0.1 ou localhost).
+> * Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
+> * Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.
 
-* Le simulateur fonctionne localement (127.0.0.1 ou localhost).
-* Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
-* Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.
-</div>
 
 ## Authentification
 

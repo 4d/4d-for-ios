@@ -103,11 +103,12 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 ![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-<div markdown="1" class = "tips">
-**NOTA**
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
-</div>
+> **NOTA**
+> 
+> The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+> 
+> ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
+
 
 ## Cómo obtener datos en sus celdas
 

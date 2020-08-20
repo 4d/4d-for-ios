@@ -3,10 +3,9 @@ id: xcode-overview
 title: Apresentação do Xcode
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Ensure a basic understanding of working with Xcode.
-</div>
+> **OBJETIVOS**
+> 
+> Ensure a basic understanding of working with Xcode.
 
 Xcode displays various areas that we're going to review:
 

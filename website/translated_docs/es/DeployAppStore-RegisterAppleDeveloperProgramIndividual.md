@@ -3,10 +3,10 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program para particulares
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.
-</div>
+> **OBJETIVOS**
+> 
+> Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.
+
 
 ## PASO 1. Identificador Apple
 
