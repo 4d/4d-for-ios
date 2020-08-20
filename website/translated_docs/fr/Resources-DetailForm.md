@@ -3,7 +3,7 @@ id: custom-detailform-templates
 title: Modèles de formulaires détaillés
 ---
 
-> **AVANT DE COMMENCER **
+> **AVANT DE COMMENCER**
 > 
 > Pour utiliser un modèle de formulaire détaillé, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/detail`.
 > 
