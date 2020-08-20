@@ -3,7 +3,7 @@ id: deployment
 title: Choisir un Apple Developer Program
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Choisir le programme "Apple Developer Program" qui vous convient.
 
