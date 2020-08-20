@@ -5,7 +5,7 @@ title: List form templates
 
 > **OBJETIVOS**
 > 
-> Create your first list form template.
+> Criar seu primeiro modelo de formulário listado.
 
 
 > **PRÉ-REQUISITOS**
