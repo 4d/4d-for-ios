@@ -6,7 +6,7 @@ title: Contatos do App
 
 > **OBJETIVOS**
 > 
-> Create your first app with 4D for iOS
+> Criar sua primeira aplicação com 4D for iOS
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
@@ -63,7 +63,7 @@ For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Compan
 
 > **NOTA **
 > 
-> We highly recommend publishing your primary key in order to identify each record of your database
+> Recomendamos publicar sua chave primária para identificar cada registro de seu banco de dados
 
 
 ![Estrutura](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
