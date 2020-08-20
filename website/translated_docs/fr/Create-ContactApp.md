@@ -3,12 +3,12 @@ id: contact-app
 title: Application Contacts
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Créer une toute première application avec 4D for iOS
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
