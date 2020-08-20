@@ -10,7 +10,7 @@ Aqui está a versão terminada:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
+Este modelo tem numeração de campos dinâmicos, o que significa que este modelo vai permitir que adicione uma **imagem** e que possa colocar **quantos campos** precisar. Quando construir seu formulário detalhado na seção Formulários e arrastar e soltar um campo, um novo campo vazio aparece abaixo do campo anterior para adicionar um novo campo:
 
 ![Arquivo template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -28,7 +28,7 @@ Adicione o título para seu modelo aqui.
 ## Posição, altura, largura e tipo da área
 Pode definir posição, altura e largura para todos os seus campos como fizemos  para o tutorial [Custom list view](creating-listform.html).
 
-### Field properties
+### Propriedades de campo
 
 ```
 //1
@@ -86,15 +86,13 @@ Pode definir posição, altura e largura para todos os seus campos como fizemos 
 
 Agora que tem um **ícone**, uma **descrição básica do modelo** no arquivo manifest.json, e seus arquivos **svg **, vamos ver a parte divertida com Xcode!
 
-<div markdown="1" class = "tips">
-**NOTA **
-All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
-</div>
+> **NOTA **
+> 
+> All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-<div markdown="1" class = "tips">
-**TIP**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-* To include all types, just type `ios:type="all"`.
-</div>
+> **TIP**
+> 
+> * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+> 
+> * To include all types, just type `ios:type="all"`.

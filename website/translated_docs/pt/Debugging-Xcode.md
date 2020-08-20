@@ -1,6 +1,6 @@
 ---
 id: debugging-from-xcode
-title: From Xcode
+title: A partir de Xcode
 ---
 
 If you have issues during the build process, you can open your generated project with Xcode by selecting the **Open the product with Xcode** option from the **Project** Menu.
@@ -11,7 +11,7 @@ From here, select **launch your application** in the Simulator by clicking on th
 
 ![Xcode logs](assets/en/debugging/Xcode-logs.png)
 
-## Logger
+## Logger (registrador)
 
 A logger is an object that allows you to log and trace operations.
 
@@ -22,7 +22,7 @@ You will find the logger settings definition in your Xcode project/Settings/Sett
 ![Xcode logs](assets/en/debugging/settings-plist-xcode.png)
 
 
-## Levels
+## Níveis
 
 You can filter and display different log levels in your console by adding log.level to your Settings.plist file.
 
@@ -33,9 +33,9 @@ To do so, add a row by right clicking inside the Settings.plist file and enter:
 
 The **available values** are:
 
-* 0 for verbose
-* 1 for debug
-* 2 for info (default value)
+* 0 para verbose
+* 1 para debug
+* 2 para info (valor normal)
 * 3 for warning
 * 4 for error
 * 5 for severe
@@ -46,7 +46,7 @@ For this example, if you set the log.level **Value** to 3, you will get **"warni
 
 ## Formato
 
-You can display different visual indicators in the Xcode console to **highlight different log types**.
+Pode exibir indicadores visuais diferentes no console Xcode para **ressaltar diferentes tipos de log**.
 
 To do so, just open your Xcode project/Settings/Settings.plist file.
 
@@ -61,7 +61,7 @@ To do so, just open your Xcode project/Settings/Settings.plist file.
  * prefixes[.error] = "‼️"
  * prefixes[.severe] = "💣"
 
-### Circles
+### Círculos
 
 * prefixes[.verbose] = "🔘"
 * prefixes[.debug] = "🔵"

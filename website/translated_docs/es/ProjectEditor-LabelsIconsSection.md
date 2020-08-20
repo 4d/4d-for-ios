@@ -35,13 +35,12 @@ Para los campos, podrá definir las siguientes propiedades:
 
 Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.
 
-<div markdown="1" class = "tips">
-**RECOMENDACIONES**
+> **RECOMENDACIONES**
+> 
+> * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field. 
+> 
+> * También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.
 
-* To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
-
-* También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.
-</div>
 
 ## Propiedades de las relaciones
 

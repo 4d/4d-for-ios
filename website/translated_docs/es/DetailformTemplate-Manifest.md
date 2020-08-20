@@ -41,5 +41,5 @@ Por ejemplo, el archivo manifiest para la plantilla de formulario detallado a co
 2. **Template Name:** Custom Detail form
 3. **Version:** 2
 4. **hOffset:** the first field that is going to be duplicated is at 91 pixels from the top
-5. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
-6. **Icon properties:** Icon width and height
+5. **Número de campos:** 1 campo estático (y 0 para un infinito de campos duplicados (una imagen de encabezado y los campos duplicados))
+6. **Propriedades del icono: **ancho y alto del icono

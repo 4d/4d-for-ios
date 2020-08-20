@@ -23,13 +23,12 @@ Si vous choisissez d’obtenir des données à partir de votre serveur de produc
 
 Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.
 
-<div markdown="1" class = "tips">
-**NOTE**
+> **NOTE**
+> 
+> * Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
+> * Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
+> * Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.
 
-* Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
-* Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
-* Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.
-</div>
 
 Vous pouvez définir si vous souhaitez **inclure des images** et si vous souhaitez ou non **régénérer systématiquement les données** à chaque génération.
 
@@ -54,12 +53,13 @@ Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre indiqué est issu d'un filtre de recherche défini.
 
-<div markdown="1" class = "tips">
-**EXEMPLE**
-Dans le champ **Filtre de recherche**, entrez :
-`FirstName = 'Lisa' & LastName = 'Hart'`
-Cette recherche vous permet d'afficher uniquement les enregistrements où figurent respectivement "Lisa" et "Hart" dans les champs FirstName et LastName.
-</div>
+> **EXEMPLE** 
+> 
+> Dans le champ **Filtre de recherche**, entrez :
+> 
+> `FirstName = 'Lisa' & LastName = 'Hart'`
+> 
+> Cette recherche vous permet d'afficher uniquement les enregistrements où figurent respectivement "Lisa" et "Hart" dans les champs FirstName et LastName.
 
 
 ### Les filtres d'informations utilisateur
@@ -76,18 +76,22 @@ Vous pouvez créer des filtres en fonction des informations utilisateur définie
 
 Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre défini est issu des informations utilisateur.
 
-<div markdown="1" class = "tips">
-**EXEMPLE**
-Dans le champ **Filtre de recherche**, entrez :
-CityName = :city
-Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
-`$response.userInfo:=New object("city";"Paris")`
-Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris ».
-</div>
+> **EXEMPLE**
+> 
+> Dans le champ **Filtre de recherche**, entrez :
+> 
+> CityName = :city
+> 
+> Dans la [méthode base Sur authentification app mobile](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), entrez :
+> 
+> `$response.userInfo:=New object("city";"Paris")`
+> 
+> Cette recherche vous permet d’afficher uniquement les enregistrements de la catégorie recherchée "CityName" dans lesquels figure « Paris ».
 
-<div markdown="1" class = "tips">
-**NOTE**
-Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-</div>
+
+> **NOTE**
+> 
+> Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
+
 
 

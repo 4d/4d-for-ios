@@ -3,17 +3,15 @@ id: deploy-app-store-app-store-connect
 title: Créer une fiche sur App Store
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
+> **OBJECTIFS **
+> 
+> * Créer un identifiant d’application sur son compte développeur ("Developer")
+> * Créer son application dans l’App Store Connect
 
-* Créer un identifiant d’application sur son compte développeur ("Developer")
-* Créer son application dans l’App Store Connect
-</div>
 
-<div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
-[Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)
-</div>
+> **CONDITIONS PRÉALABLES **
+> 
+> [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)
 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
@@ -22,12 +20,11 @@ title: Créer une fiche sur App Store
 
 *Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications à partir d'une seule équipe de développement. La chaîne est constituée d’un Team ID et d'un Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*
 
-<div markdown="1" class = "tips">
-**NOTE**
+> **NOTE**
+> 
+> * Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
+> * Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.
 
-* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
-* Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.
-</div>
 
 Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
@@ -69,10 +66,9 @@ Ajoutez les informations suivantes :
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
-<div markdown="1" class = "tips">
-**NOTE**
-Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.
-</div>
+> **NOTE**
+> 
+> Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.
 
 ## ÉTAPE 4. Informations sur l’application
 
@@ -88,19 +84,18 @@ Dans App Store Connect > App Information :
 
 C’est ici que vous pourrez définir le prix de votre application.
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.
-</div>
+> **ASTUCES**
+> 
+> Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.
+
 
 ## ÉTAPE 6. Préparation à l'inscription
 
 Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :
 
-<div markdown="1" class = "tips">
-**ASTUCES**
-Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).
-</div>
+> **ASTUCES**
+> 
+> Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).
 
 ![Préparation à l'inscription](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 

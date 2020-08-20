@@ -3,21 +3,19 @@ id: deploy-in-house-archive-and-export
 title: Archiver et exporter un projet
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
+> **OBJECTIFS **
+> 
+> * Archiver et exporter un projet 4D for iOS
+> * Générer des fichiers .ipa et des fichiers manifest
 
-* Archiver et exporter un projet 4D for iOS
-* Générer des fichiers .ipa et des fichiers manifest
-</div>
 
-<div markdown="1" class = "prerequisites">
-**CONDITIONS PRÉALABLES**
+> **CONDITIONS PRÉALABLES **
+> 
+> * [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
+> * Un serveur Web sécurisé
+> * Une icône de résolution 57 x 57 px
+> * Une icône de résolution 512 x 512 px
 
-* [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
-* Un serveur Web sécurisé
-* Une icône de résolution 57 x 57 px
-* Une icône de résolution 512 x 512 px
-</div>
 
 ## ÉTAPE 1. Configurez Xcode
 

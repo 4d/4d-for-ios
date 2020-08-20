@@ -84,17 +84,15 @@ Puede definir la posición, el alto y el ancho de todos sus campos como hicimos 
 5. Defina la posición del campo soltable, su alto y su ancho, así como los tipos de campos aceptados
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
+Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**, pasemos a la parte divertida con ¡Xcode!
 
-<div markdown="1" class = "tips">
-**NOTA**
-All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
-</div>
+> **NOTA**
+> 
+> All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-<div markdown="1" class = "tips">
-**CONSEJO**
 
-* To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-
-* To include all types, just type `ios:type="all"`.
-</div>
+> **CONSEJO**
+> 
+> * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+> 
+> * To include all types, just type `ios:type="all"`.

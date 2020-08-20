@@ -20,13 +20,11 @@ Vous devriez avoir ce résultat :
 
 ![CRM database](assets/en/restricted-queries/filterquery.png)
 
-<div markdown="1" class = "tips">
-**NOTE**
-
-* Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
-* Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Intégrer les données dans l'application**.
-* La **taille de vos données** sera calculée lors de la première génération.
-</div>
+> **NOTE**
+> 
+> * Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
+> * Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Intégrer les données dans l'application**.
+> * La **taille de vos données** sera calculée lors de la première génération.
 
 Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 

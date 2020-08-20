@@ -3,10 +3,10 @@ id: gallery-template-install
 title: Installer un template
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Téléchargez un modèle (template) à partir de la galerie et améliorez-le
-</div>
+> **OBJECTIFS **
+> 
+> Téléchargez un modèle (template) à partir de la galerie et améliorez-le
+
 
 ## Installer un template depuis la galerie
 

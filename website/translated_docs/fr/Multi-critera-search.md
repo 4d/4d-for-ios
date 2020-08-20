@@ -4,10 +4,9 @@ title: Recherche multicritères
 ---
 
 
-<div markdown="1" class = "objectives">
-**OBJECTIFS**
-Activer la recherche multicritères dans vos propres modèles.
-</div>
+> **OBJECTIFS **
+> 
+> Activer la recherche multicritères dans vos propres modèles.
 
 Cette fonctionnalité est activée par défaut dans tous les modèles générés par 4D for iOS.
 

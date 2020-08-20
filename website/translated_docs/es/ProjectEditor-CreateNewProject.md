@@ -3,15 +3,15 @@ id: create-new-project
 title: Nuevo proyecto
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Familiarizarse con el editor de proyectos.
-</div>
+> **OBJETIVOS**
+> 
+> Familiarizarse con el editor de proyectos.
 
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
+
 
 Demos un vistazo a cómo funciona 4D for iOS.
 
