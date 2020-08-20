@@ -5,7 +5,7 @@ title: Modelos de formulário detalhado
 
 > **OBJETIVOS**
 > 
-> Create your first list form template.
+> Criar seu primeiro modelo de formulário listado.
 
 
 > **PRÉ-REQUISITOS**
@@ -26,7 +26,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
 </div>
 
 You are now ready to create your first detail form template !
