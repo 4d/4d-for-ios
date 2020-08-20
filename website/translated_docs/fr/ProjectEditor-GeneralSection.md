@@ -11,7 +11,7 @@ Cette section vous permet de renseigner les principales informations de votre ap
 
 **Identifiant :** Saisissez le « Bundle ID » de votre entreprise,. qui servira à identifier votre application. Le nom de produit que vous entrez est concaténé pour créer la valeur par défaut du « Bundle ID » en utilisant la notation inversée du nom de domaine. Ce « Bundle ID » doit être unique à votre application.
 
-For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.
+Par exemple, si le nom de votre entreprise est "MyCompany" et que le nom de votre application est "MyApp", vous pouvez choisir "com.MyCompany" comme identifiant de votre entreprise et votre ID de groupe d'applications serait com.MyCompany.MyApp.
 
 > **NOTE**
 > 
@@ -19,7 +19,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 **Nom du produit :** Le nom de votre application. Comme indiqué ci-dessus, le nom du produit est utilisé pour créer le « Bundle ID ». Ce « Bundle ID » doit être identique à celui que vous avez créé dans votre compte développeur Apple.
 
-**Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
+**Version** : la version de votre application. Add version numbers in ascending, sequential order starting with 1.0.
 
 **Copyright :** Les droits d’auteur de votre application. 4D for iOS vous propose un format de droit d’auteur, mais vous avez également la possibilité de créer votre propre format.
 
