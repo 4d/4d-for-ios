@@ -3,7 +3,7 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Télécharger une application sur un serveur sécurisé.
 
