@@ -86,7 +86,7 @@ This is where you define the price for your app.
 
 > **DICAS**
 > 
-> You can define limited-time discounts by specifying start and end dates.
+> Pode definir descontos por tempo limitado especificando as datas de começo e fim.
 
 
 ## PASSO 6. Prepare para a inscrição
@@ -95,7 +95,7 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 > **DICAS**
 > 
-> You can generate all of your screenshots in Simulator (File > New Screen Shot).
+> Pode gerar todas as suas capturas de tela no Simulator (File>New Screen Shot).
 
 
 ![Prepare para a inscrição](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
