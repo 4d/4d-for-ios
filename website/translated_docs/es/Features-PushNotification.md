@@ -58,6 +58,6 @@ It's as simple as that!
 
 ## ¿Qué hacemos ahora?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) so you can adapt push notifications to your own needs. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports, and even better: pull requests.
+El componente que maneja y facilita el proceso también está disponible [aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) para que pueda adaptar las notificaciones push automáticas a sus propias necesidades. Feel free to use it and to pick the most relevant aspects for your app. Y por supuesto, todas las contribuciones son bienvenidos a este proyecto, a través de comentarios, informes de errores y aún mejor: solicitudes pull.
 
 
