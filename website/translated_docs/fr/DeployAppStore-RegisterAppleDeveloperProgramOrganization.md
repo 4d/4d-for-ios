@@ -3,7 +3,7 @@ id: register-apple-developer-program-organization
 title: Apple Developer Program pour les entreprises
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Souscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.
 

@@ -3,12 +3,12 @@ id: creating-listform-templates
 title: Modèles de formulaires Liste
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Créer son tout premier modèle de formulaire Liste.
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
