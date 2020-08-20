@@ -3,10 +3,10 @@ id: filter-query-introduction
 title: Recherche restreinte
 ---
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Définir des filtres de recherche fondés sur des informations utilisateur ou des informations basiques pour afficher un contenu filtré dans l’application iOS générée.
-> **CONDITIONS PRÉALABLES**
+> **CONDITIONS PRÉALABLES **
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 

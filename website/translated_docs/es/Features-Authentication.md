@@ -1,57 +1,57 @@
 ---
-id: authentication
-title: Email authentication
+id: autenticación
+title: Autenticación email
 ---
 
 > **OBJETIVOS**
 > 
-> Integrate email confirmation to authenticate mobile app users
+> Integre la confirmación por correo electrónico para autenticar a los usuarios de la aplicación móvil
 
 > **REQUISITOS PREVIOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
+> El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite la autenticación de correo está integrado en 4D mono usuario y 4D server 18R4.
 
-Let your customers and clients feel comfortable logging into their app using the email authentication!
+¡Deje que sus clientes y clientes se sientan cómodos iniciando sesión en su aplicación utilizando la autenticación de correo electrónico!
 
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
+Ofrece una forma de verificar que un correo electrónico proviene de quien dice ser y permitirá bloquear usos dañinos o fraudulentos del correo electrónico.
 
-In short, the principle is the following:
+En resumen, el principio es el siguiente:
 
-### 1. Activate the login form
+### 1. Active el formulario de conexión
 
-You integrate a login form into your app, from the project editor in the Publishing section.
+Integre un formulario de conexión en su aplicación, desde el editor del proyecto en la sección Publicación.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
-### 2. Enter your email address
+### 2. Ingrese su dirección de correo electrónico
 
-An email is required when the app is launched. When a user enters their email and clicks on the Login button, the On Mobile app Authentication is called and the user's session status should be updated to a "pending" status. A validation email is then sent to the user.
+Se requiere un correo electrónico cuando se lanza la aplicación. Cuando un usuario ingresa su correo electrónico y hace clic en el botón Iniciar sesión, se llama On Mobile app Authentication y el estado de la sesión del usuario debe actualizarse a un estado "pendiente". Luego, se envía un correo electrónico de validación al usuario.
 
-### 3. Check your mailbox
+### 3. Revise su correo
 
-When the validation email is available, the user only needs to click on the validation link. This will call the On Web Connection database method and update the user's session status from "pending" to "accepted".
+Cuando el correo electrónico de validación está disponible, el usuario solo debe hacer clic en el enlace de validación. Esto llamará al método de base de datos On Web Connection y actualizará el estado de la sesión del usuario de "pendiente" a "aceptado".
 
-### 4. Go back to your app
+### 4. Vuelva a su aplicación
 
-Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted", so the access is granted!
+Una vez se realiza la validación, el usuario puede volver a abrir su aplicación y hacer clic en el botón Iniciar sesión. On Mobile App Authentication se vuelve a llamar, pero esta vez, el estado de la sesión del usuario es "aceptado", por lo que se concede el acceso.
 
-That’s quite simple, right?
+Es bastante simple, ¿verdad?
 
-So, to make the validation process easier and secure, 4D for iOS handles:
+Entonces, para hacer el proceso de validación más fácil y seguro, 4D for iOS maneja:
 
 ![Autenticación](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-But let's figure out how this works, using our special component!
+¡Pero averigüemos cómo funciona esto, utilizando nuestro componente especial!
 
 
-# Using the component
+# Utilización del componente
 
-## A component to deal with email authentication
+## Un componente para gestionar la autenticación de los correos electrónicos
 
-A toolbox component has been developed to help you manage several processes: the 4D Mobile App Server Component.
+Se ha desarrollado un componente de caja de herramientas para ayudarlo a administrar varios procesos: el componente 4D Mobile App Server.
 
-Let's see how to use it!
+¡Veamos cómo utilizarlo!
 
 ## On Mobile App Authentification
 

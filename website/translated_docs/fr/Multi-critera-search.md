@@ -4,7 +4,7 @@ title: Recherche multicritères
 ---
 
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Activer la recherche multicritères dans vos propres modèles.
 

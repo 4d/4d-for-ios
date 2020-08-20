@@ -3,7 +3,7 @@ id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 ---
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
 

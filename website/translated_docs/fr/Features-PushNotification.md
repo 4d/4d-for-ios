@@ -3,11 +3,11 @@ id: push-notification
 title: Notifications Push
 ---
 
-> **OBJECTIFS**
+> **OBJECTIFS **
 > 
 > Integrate push notification to your 4d for iOS apps
 
-> **CONDITIONS PRÉALABLES**
+> **CONDITIONS PRÉALABLES **
 > 
 > The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D mono and 4D server 18R4.
 

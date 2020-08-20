@@ -5,7 +5,7 @@ title: Apple Developer Enterprise Program
 
 > **OBJETIVOS**
 > 
-> Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
+> Registre-se no Programa Apple Developer Enterprise para lançar seu app <b>in-house</b>.
 
 > **NOTA **
 > 
