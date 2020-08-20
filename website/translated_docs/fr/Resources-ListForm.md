@@ -3,7 +3,7 @@ id: custom-listform-templates
 title: Modèles de formulaires Liste
 ---
 
-> **AVANT DE COMMENCER **
+> **AVANT DE COMMENCER**
 > 
 > Pour utiliser un modèle de formulaire Liste, vous devez avant tout créer un dossier `YourDatabase.4dbase/Resources/Mobile/form/list`.
 > 
