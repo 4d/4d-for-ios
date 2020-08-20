@@ -3,13 +3,13 @@ id: deploy-app-store-app-store-connect
 title: Créer une fiche sur App Store
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > * Créer un identifiant d’application sur son compte développeur ("Developer")
 > * Créer son application dans l’App Store Connect
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)
 
