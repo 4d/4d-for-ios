@@ -3,12 +3,12 @@ id: create-new-project
 title: Nouveau projet
 ---
 
-> **OBJECTIFS **
+> **OBJECTIFS**
 > 
 > Se familiariser avec l’éditeur de projet.
 
 
-> **CONDITIONS PRÉALABLES **
+> **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
