@@ -5,7 +5,7 @@ title: Criar formato de dados
 
 > **OBJETIVOS**
 > 
-> Create your first data formatters.
+> Criar seus primeiros formatos de dados.
 
 > **PRÉ-REQUISITOS**
 > 
@@ -22,7 +22,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">CUSTOM FORMATTER STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJETO STARTER - FORMATO PERSONALIZADO</a>
 </div>
 
 You're now ready to create your first formatters!
@@ -185,5 +185,5 @@ Click on **FORMATTER FINAL** below to download the completed formatter template 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATTER FINAL</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATO FINAL</a>
 </div>
