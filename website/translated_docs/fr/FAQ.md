@@ -40,7 +40,7 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 Si vous souhaitez une version antérieure de Xcode, vous pouvez la télécharger ici : https://developer.apple.com/download/more/
 
-=> Only registered developers can download preview releases through the Apple Developer website.
+=> Seuls les développeurs ayant souscrit au Apple Developer Program peuvent télécharger des versions antérieures sur le site web Apple Developer.
 
 Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables.
 
@@ -173,7 +173,7 @@ Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser p
 **Dois-je créer une icône pour mon application iOS ?**
 </summary>
 
-It's highly recommended to have an icon for your 4D for iOS app. If you don't have one, the default icon (the 4D logo) will be displayed.
+Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affichée.
 
 Si vous possédez déjà une icône pour votre application 4D, vous pouvez la glisser-déposer directement dans la zone consacrée à l'icône dans la section [Général](general.html) de l'éditeur de projet.
 
@@ -185,9 +185,9 @@ Si vous possédez déjà une icône pour votre application 4D, vous pouvez la gl
 **Comment puis-je tester mon application ?**
 </summary>
 
-4D for iOS vous permet de tester vos applications dans le [Simulateur](simulator.html). To test your app on your iOS device you need to have a **paying Apple developer account** (install-device.html) (iPhone and iPad).
+4D for iOS vous permet de tester vos applications dans le [Simulateur](simulator.html). Pour tester votre application sur votre appareil iOS, il vous faut un **compte Apple Developer payant** (install-device.html) (iPhone et iPad).
 
-**Note:** to intall your app with a **free developer account**, you can open your generated iOS project and install your app using Xcode.
+**Note :** Pour installer votre application avec un **compte Apple Developer gratuit**, vous pouvez ouvrir votre projet iOS généré et installer votre application via Xcode.
 
 </details>
 
