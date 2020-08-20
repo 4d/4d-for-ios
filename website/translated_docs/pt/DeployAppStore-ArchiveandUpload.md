@@ -5,7 +5,7 @@ title: Arquive e atualize seu Projeto
 
 > **OBJETIVOS**
 > 
-> Archive and upload your project to App Store Connect.
+> Arquivar e publicar seu projeto para o App Store Connect.
 
 
 ## PASSO 1. Configuração Xcode
