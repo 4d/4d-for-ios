@@ -5,7 +5,7 @@ title: Distribua seu app in-House
 
 > **OBJETIVOS**
 > 
-> Upload your app to a secured server.
+> Suba sua aplicação para um servidor seguro.
 
 
 ## PASSO 1. Suba sua aplicação
@@ -20,7 +20,7 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 > **NOTA **
 > 
-> Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
+> Seu recurso e suas URLs ipa devem coincidir com as URLs definidas em seu arquivo manifest.plist.
 
 ## PASSO 2. Crie o link da instalação
 

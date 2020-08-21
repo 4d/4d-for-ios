@@ -5,11 +5,11 @@ title: A partir de Xcode
 
 Se tiver problemas durante o processo de compilação pode abrir seu projeto gerado com Xcode selecionando a opção**Open the product with Xcode** a partir do menu **Project**
 
-![Open the project with Xcode](assets/en/debugging/open-project-Xcode.png)
+![Abrir o projeto com Xcode](assets/en/debugging/open-project-Xcode.png)
 
 A partir daí é possível **lançar sua aplicação** no Simulator clicando no botão **Build** e obter todo o histórico no fundo do espaço de trabalho de Xcode.
 
-![Xcode logs](assets/en/debugging/Xcode-logs.png)
+![Históricos de Xcode](assets/en/debugging/Xcode-logs.png)
 
 ## Logger (registrador)
 
@@ -19,7 +19,7 @@ Para isso usamos [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) .
 
 Vai encontrar a definição dos parâmetros do logger em  Xcode project/Settings/Settings.plist.
 
-![Xcode logs](assets/en/debugging/settings-plist-xcode.png)
+![Históricos de Xcode](assets/en/debugging/settings-plist-xcode.png)
 
 
 ## Níveis
@@ -40,7 +40,7 @@ Os **valores disponíveis** são os abaixo:
 * 4 erro
 * 5 severo
 
-![Log level](assets/en/debugging/log-level.png)
+![Nível do histórico](assets/en/debugging/log-level.png)
 
 Para este exemplo, se estabelecer o valor de log.level para 3, vai obter **um aviso, um erro e severidade** no console  Xcode.
 
@@ -50,7 +50,7 @@ Pode exibir indicadores visuais diferentes no console Xcode para **ressaltar dif
 
 Para fazer isso, precisa abrir  Xcode project/Settings/Settings.plist
 
-![Log Format](assets/en/debugging/log-format.png)
+![Formato do histórico](assets/en/debugging/log-format.png)
 
 ### Emoticons
 

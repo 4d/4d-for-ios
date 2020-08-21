@@ -9,7 +9,7 @@ title: Apple Developer Enterprise Program
 
 > **NOTA **
 > 
-> To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
+> Para se inscrever no programa Apple Developer Enterprise, sua Apple ID deve estar associada com um endereço de email usando o nome de domínio de sua organização.
 
 
 ## PASSO 1. Identificador Apple

@@ -5,7 +5,7 @@ title: Apresentação do Xcode
 
 > **OBJETIVOS**
 > 
-> Ensure a basic understanding of working with Xcode.
+> Garantir uma compreensão básica do funcionamento de Xcode.
 
 Xcode displays various areas that we're going to review:
 
