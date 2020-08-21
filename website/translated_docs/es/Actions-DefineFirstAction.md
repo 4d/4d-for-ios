@@ -11,14 +11,10 @@ Más globalmente, queremos **cambiar el estado de todas las tareas** a pospuesto
 
 Descargue el **proyect Starter** y vaya directamente a la sección **Actions**.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROYECTO STARTER</a>
-
-  </p>
 </div>
 
 Como hemos visto antes en la [documentación de la sección Actions](actions.html#ios-app-side), puede definir la acción para dos niveles:
@@ -27,6 +23,7 @@ Como hemos visto antes en la [documentación de la sección Actions](actions.htm
 * Acciones de tabla
 
 Centrémonos primero en las acciones de entidad
+
 
 ## Acciones de entidad
 
@@ -53,7 +50,7 @@ Para definir esta acción:
 
 ### PASO 2. Crear y editar el método On Mobile App Action
 
-Ahora que su acción está definida en el editor de proyectos, debe crear el método base<a href = "https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App -Action-database-method.301-4286697.en.html "> **On Mobile App Action**</a>.
+Ahora que su acción está definida en el editor de proyectos, debe crear el método base[ **On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App -Action-database-method.301-4286697.en.html).
 
 Para hacerlo, haga clic en el **botón Crear** en la parte inferior derecha de la tabla de acciones e ingrese el siguiente código en el método base **On Mobile App Action**:
 
@@ -200,6 +197,7 @@ $0:=$result  // Informations returned to mobile application
 
 ```
 
+
 ### PASO 3. Crear un método "postponeAll"
 
 A medida que crea el método **modifyStatus**, siga el mismo proceso y cree un nuevo método **postponeAll** que modificará todo el estado del registro:
@@ -242,18 +240,14 @@ $0:=$out
 
 ## ¿Qué hacer ahora?
 
-¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!
+¡Felicitaciones! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
 Puede descargar el **Proyecto final** que incluye varias acciones:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROYECTO FINAL</a>
-
-  </p>
 </div>

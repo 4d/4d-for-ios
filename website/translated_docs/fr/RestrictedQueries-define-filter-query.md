@@ -18,16 +18,19 @@ Comme indiqué précédemment, nous souhaiterions que les chargés de clientèle
 
 Vous devriez avoir ce résultat :
 
-![CRM database](assets/en/restricted-queries/filterquery.png)<div class = "tips"> 
+![CRM database](assets/en/restricted-queries/filterquery.png)
 
-**NOTE**
+> **NOTE**
+> 
+> * Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
+> * Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Intégrer les données dans l'application**.
+> * La **taille de vos données** sera calculée lors de la première génération.
 
-* Une icône de **filtre** s’affiche à droite de chaque table lorsqu’un filtre de base y est appliqué.
-* Pour ces types de filtres de recherche, vous pouvez choisir d’intégrer des données à l’application ou de charger les données après la connexion, en cochant la case **Intégrer les données dans l'application**.
-* la **taille de vos données** sera calculée lors de la première génération.</div> 
 
 Si vous générez votre application et que vous tapez « michelle.simpson@mail.com » comme étant l’e-mail de connexion, vous verrez que tous les contrats *In Progress* s’affichent dans le simulateur !
 
 ![iOS app with basic query](assets/restricted-queries/restrited-queries-basic-query.png)
 
 Cela ne correspond pas tout à fait à ce que nous avions prévu ! Nous ne souhaitons maintenant que seuls les contrats *In Progress* de chaque chargé de clientèle soient visualisés. Finalisons donc notre recherche !
+
+

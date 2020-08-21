@@ -11,13 +11,8 @@ Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod
 
 To download the lastest version of Xcode go to the App Store.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
-
-  </p>
 </div>
 
 Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.
@@ -26,8 +21,12 @@ Registered developers can download preview releases and prior versions of the su
 
 ## Version comparison table
 
-| Xcode  | Swift | iOS      | 4D   | MacOS   |
+| Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11.5   | 5.2.4 | OS 13.5  | 18R3 | 10.15.2 |
+| 11.4   | 5.2   | OS 13.4  | 18.2 | 10.15.2 |
+| 11.3.1 | 5.1.3 | iOS 13.3 | 18.1 | 10.14.4 |
+| 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
 | 11.2   | 5.1   | iOS 13.2 | 18   | 10.14.4 |
 | 10.2.1 | 5.0   | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2   | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |
@@ -36,11 +35,13 @@ Registered developers can download preview releases and prior versions of the su
 | 9.4    | 4.1.2 | iOS 11.4 | 17R2 | 10.13.2 |
 | 9.3.1  | 4.1   | iOS 11.3 | 17R2 | 10.13.2 |
 
+
 ### Use 17R6 with macOS 10.14.3
 
 4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)
 
-- Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+ - Install `Swift 5 Runtime Support for Command Line Tools` from [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
+
 
 ### Compatibility
 

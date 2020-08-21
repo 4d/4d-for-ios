@@ -1,37 +1,32 @@
 ---
 id: creating-listform-templates
-title: Modèles de formulaire Liste
+title: Modèles de formulaires Liste
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Créer son tout premier modèle de formulaire Liste.
 
-**OBJECTIFS**
 
-Créer son tout premier modèle de formulaire Liste.</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
-**CONDITIONS PRÉALABLES**
-
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous couvrirons quasiment tous les aspects de la création d’un modèle de formulaire Liste, tels que : la création d'un formulaire Liste avec une **barre de recherche** et une table affichant une **image**, un **titre** et un **sous-titre** pour chaque cellule.
 
 ![List form template final result](assets/custom-listform/custom-template-final-result.png)
 
-## Télécharger le projet Starter
+## Téléchargez le projet Starter
 
 Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
-* Un dossier **List form** 
+* Un dossier **List form**
 * Un fichier **Contact.4dbase** (base de démo avec un projet d'application mobile prêt à l'emploi)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">PROJET STARTER LISTFORM</a>
-
-  </p>
 </div>
 
 Vous êtes maintenant prêts à créer votre premier modèle de formulaire Liste !
@@ -46,7 +41,7 @@ Ouvrez ensuite le fichier Contact.4dbase avec 4D. (Fichier>Ouvrir>Projet mobile>
 
 Enfin, dans la **Section Formulaire** de l'éditeur de projet, vous constaterez que votre modèle de formulaire Liste a été correctement ajouté à la liste des modèles de formulaire Liste disponibles !
 
-![Section Formulaires](assets/custom-listform/custom-listform-template.png)
+![Section Formulaires](assets/en/custom-listform/custom-listform-template.png)
 
 Nous allons maintenant nous concentrer sur le contenu du dossier **Custom List form**.
 

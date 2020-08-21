@@ -3,11 +3,10 @@ id: register-apple-developer-program-individual
 title: Apple Developer Program pour les particuliers
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.
 
-**OBJECTIFS**
-
-Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.</div> 
 
 ## ÉTAPE 1. Identifiant Apple
 
@@ -34,7 +33,6 @@ Cliquez sur la [page de création de l'identifiant Apple](https://appleid.apple.
 * Vous pouvez souscrire [ici](https://developer.apple.com/account/) en tant que développeur .
 
 * Lisez et acceptez les termes du contrat "Apple Developer Agreement".
-
 * Cliquez sur **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)

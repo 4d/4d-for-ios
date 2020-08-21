@@ -8,11 +8,11 @@ C'est ici que vous définirez les propriétés de vos tables, champs et liens :
 * **Libellés longs et courts :** leur utilisation dépend de l'espace disponible dans le modèle (pour optimiser l'espace et éviter de surcharger la barre d'onglets).
 * **Icônes :** 4D for iOS fournit une vaste bibliothèque d'icônes pour répondre à vos besoins. Elles peuvent faire référence à différents domaines : le commerce, la finance, l'éducation, les pouvoirs publics, la santé, l'industrie, l'immobilier, les services, etc.
 
-* **Formats :** ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
+* **Formats :** Ils permettent de gérer l'affichage des valeurs des champs (monnaies, pourcentages, etc.)
 
 * **Titre :** permet d'afficher un titre dans la vue de destination à l'aide de liens
 
-![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
+![Section Libellés & icônes](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
 ## Propriétés des tables
 
@@ -33,13 +33,13 @@ Vous pouvez définir les propriétés de champs suivantes :
 * **Icônes**
 * **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
-Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.<div class = "tips"> 
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.
 
-**ASTUCES**
-
-* Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ.
-
-* Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.</div> 
+> **ASTUCES**
+> 
+> * Pour maintenir un ensemble cohérent, des **icônes par défaut** sont générées pour les champs vides, si au moins une icône a été définie pour un champ. 
+> 
+> * Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.
 
 ## Propriétés des liens
 
@@ -50,3 +50,8 @@ Vous pouvez définir les propriétés de liens suivantes :
 * **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
 * **Icônes :** s'affiche à gauche du bouton Liens
 * **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre
+
+
+
+
+

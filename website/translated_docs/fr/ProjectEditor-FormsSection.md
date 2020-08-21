@@ -10,7 +10,7 @@ La section Formulaires vous permet de sélectionner des modèles de formulaire L
 Voici la répartition de cet écran, de haut en bas :
 
 * **Les formulaires Liste et les formulaires détaillés :** permettent de basculer entre les formulaires Liste et les formulaires détaillés pour chaque table.
-* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure. 
+* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure.
 * **Les formulaires disponibles :** permettent de basculer entre la sélection du modèle et la définition du contenu.
 
 ![List form template selection](assets/fr/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
@@ -33,24 +33,24 @@ Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-dépose
 
 Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
 
-:::tip ASTUCES Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
-
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs). :::
+> **ASTUCES**
+> 
+> Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ? 
+> 
+> Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
 
 ## Galerie
 
-You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+Vous avez probablement remarqué que, lorsque vous souhaitez sélectionner un modèle dans la section Formulaires, une icône "Plus" est disponible pour les formulaires liste et les formulaires détaillés depuis 4D v18 R3.
 
-Just click on that icon to display the entire list.
+Cliquez simplement sur cette icône pour afficher la liste entière.
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond à vos besoins. 4D for iOS se chargera de tout le processus d'installation pour vous aider à travailler plus rapidement et plus efficacement.
 
-So you can directly start working on the template, as it is ready-to-use.
+Vous pouvez donc commencer directement à travailler sur le modèle, puisqu'il est prêt à l'emploi.
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
+L'étape suivante consiste à choisir un modèle qui répond à vos besoins, mais au cas où un élément serait manquant, il vous suffit de :
+* aller à vos ressources
+* décompressez le modèle
+* effectuez les modifications nécessaires à l'aide de Xcode.
 
-## Que faire ensuite ?
-
-* Un [tutoriel]() est disponible pour vous guider tout au long du **processus de définition d'une action**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.

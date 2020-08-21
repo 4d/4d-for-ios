@@ -3,20 +3,21 @@ id: install-device
 title: Installation sur votre appareil iOS
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Installer une application 4D for iOS sur un appareil connecté
 
-**OBJECTIFS**
 
-Installer une application 4D for iOS sur un appareil connecté</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> * Apple Developer Program.
+> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour installer votre application automatiquement (facultatif).
 
-**CONDITIONS PRÉALABLES**
 
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac pour installer votre application automatiquement (facultatif).</div> <div class = "tips"> 
+> **NOTE**
+> 
+> Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente.
 
-**NOTE**
-
-Apple configurator 2 nécessite **macOS 10.14** ou une version plus récente.</div> 
 
 En fonction de vos objectifs et de vos préférences, vous pouvez choisir de vous inscrire dans l’un des programmes suivants :
 
@@ -34,7 +35,7 @@ C'est parti !
 
 ## ÉTAPE 2. Configurez Xcode
 
-* **Developer Account** : Dans Xcode > Preferences > Accounts, ajoutez votre Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account** : Dans Xcode > Preferences > Accounts, ajoutez votre Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
 ## ÉTAPE 3. Obtenez votre Team ID
 
@@ -63,7 +64,7 @@ C'est parti !
 
 * Cliquez sur le bouton Build and Run dans Xcode !
 
-![Créer & exécuter](assets/en/test-build/Build-Run-Free-Account.png)
+![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## ÉTAPE 5. Team ID pour un compte payant
 
@@ -106,3 +107,8 @@ C'est parti !
 ![Devices and Simulators](assets/en/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
 * L’application est installée sur votre appareil !
+
+
+
+
+

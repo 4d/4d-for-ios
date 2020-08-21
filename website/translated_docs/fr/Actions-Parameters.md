@@ -3,9 +3,9 @@ id: action-parameters
 title: Utiliser des paramètres d'action
 ---
 
-<div class = "objectives">
-**OBJECTIFS**
-Définir des paramètres d'action pour modifier le contenu de votre application.</div>
+> **OBJECTIFS**
+> 
+> Définir des paramètres d'action pour modifier le contenu de votre application.
 
 
 Dans le [tutoriel précédent](define-first-action.html), nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions dans la [section Actions](actions.html).
@@ -19,11 +19,10 @@ Dans ce tutoriel, nous irons encore plus loin et nous créerons :
 
 Pour commencer, téléchargeons d'abord le **Projet Starter**, basé sur notre application iOS Tasks.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJET STARTER</a>
-  </p>
 </div>
 
 ## ÉTAPE 1. Action d'ajout
@@ -128,7 +127,7 @@ Case of
 
     : ($request.action="addTasks")
 
-          // Insérer ici le code de l'action d'ajout
+          // Insérer ici le code pour l'action "Add…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -138,7 +137,7 @@ Case of
 
     : ($request.action="editTasks")
 
-          // Insérer ici le code de l'action d'édition
+          // Insérer ici le code pour l'action "Edit…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -150,7 +149,7 @@ Case of
 
     : ($request.action="deleteTasks")
 
-          // Insérer ici le code de l'action de suppression
+          // Insérer ici le code pour l'action "Remove"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -160,7 +159,7 @@ Case of
 
     : ($request.action="sendComment")
 
-          // Insérer ici le code de l'action d'envoi de commentaire
+          // Insérer ici le code pour l'action "Send Comment"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -197,7 +196,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds.Tasks.new()  //create a reference
+    $entity:=ds.Tasks.new()  //créer une référence
 
     For each ($key;$in.parameters)
 
@@ -208,8 +207,8 @@ If ($in.dataClass#Null)
     $entity.save()  //sauvegarder l'entité
 
 
-    $out.success:=True  // notifier l'application que l'action est réussie
-    $out.dataSynchro:=True  //notifier l'application pour mettre à jour la sélection
+    $out.success:=True  // notifier l'App que l'action est réussie
+    $out.dataSynchro:=True  // notifier l'App d'actualiser la sélection
     $out.statusText:="Task added"
 
 Else 
@@ -404,10 +403,9 @@ Enfin, vous pouvez supprimer une entité à l'aide de l'action de **suppression*
 
 Félicitations ! Votre application iOS Tasks est désormais complète. Vous pouvez dès à présent modifier les données de votre application directement sur votre appareil et les synchroniser avec votre serveur !
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+
+<a class="button"
 href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROJET FINAL</a>
-  </p>
 </div>
 

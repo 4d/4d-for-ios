@@ -1,9 +1,9 @@
 ---
 id: customize-your-ios-app
-title: Personnaliser son application 4D for iOS
+title: Personnaliser une application 4D for iOS
 ---
 
-Nous allons apporter quelques modifications au Storyboard... en partant de la plus simple à la plus complexe.
+Apportons quelques modifications au storyboard... en allant du plus simple au plus complexe.
 
 ![Final result](assets/en/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
@@ -11,13 +11,13 @@ Nous allons apporter quelques modifications au Storyboard... en partant de la pl
 
 Nous allons commencer par modifier la police et la couleur du libellé :
 
-* Ouvrez le fichier *ContactDetailsForm.storyboard* à partir de l’onglet Navigation. 
+* Ouvrez le fichier *ContactDetailsForm.storyboard* à partir de l’onglet Navigation.
 * Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis l'Interface Builder ou le volet de gauche).
 * Sélectionnez le volet Attributes inspector (Inspecteur d'attributs) dans Utility area (la zone de fonctionnalités).
 
 ![Attributes inspector](assets/en/customize-with-xcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* Remplacez la police Helvetica Neue Bold par Futura Bold. 
+* Remplacez la police Helvetica Neue Bold par Futura Bold.
 
 ![Attributes inspector font](assets/en/customize-with-xcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
@@ -53,7 +53,7 @@ L’image présente actuellement les contraintes suivantes :
 * Height Equals : une hauteur de 78 pixels.
 * Align Center X : un centrage de l’image sur un axe horizontal défini précédemment.
 * Top Space : un espace allant de la partie supérieure de l'image à la partie supérieure de la vue.
-* Bottom space <first name>: l’espace défini précédemment entre le libellé First Name et l’image.
+* Bottom space <First Name>: l’espace défini précédemment entre le libellé First Name et l’image.
 
 ![Profil picture constraints](assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
@@ -69,13 +69,14 @@ Cliquez ensuite sur le bouton **Add New Constraints** et ajoutez une contrainte 
 
 À ce stade, toutes les contraintes de photo de profil doivent être en bleu.
 
-Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.<div class = "tips"> 
+Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.
 
-**ASTUCES**
+> **ASTUCES**
+> 
+> * Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
+> 
+> * Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.
 
-* Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.
-
-* Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.</div> 
 
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
@@ -110,7 +111,7 @@ Modifiez l'emplacement et la largeur :
 Modifiez les contraintes restantes :
 
 * Supprimez les contraintes de leading space à partir du Size inspector.
-* Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints. 
+* Ajoutez des contraintes d'espace principal et d'espace supérieur en cliquant sur le bouton Add New Constraints.
 
 ![Last Name Label constraint](assets/en/customize-with-xcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
@@ -122,7 +123,7 @@ Voyons les résultats dans le simulateur !
 
 Hum... Cela ne correspond pas exactement à ce que nous souhaitions.
 
-* Sélectionnez les libellés First Name et Last Name et remplacez l'alignement centré par un alignement à gauche dans l'Attributes inspector. 
+* Sélectionnez les libellés First Name et Last Name et remplacez l'alignement centré par un alignement à gauche dans l'Attributes inspector.
 
 ![Labels Alignment](assets/en/customize-with-xcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 

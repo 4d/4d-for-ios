@@ -9,9 +9,9 @@ A seção Formulários lhe permite selecioanr os modelos de formulário Lista e 
 
 Aqui está o detalhamento da tela, de cima para baixo:
 
-* **Os formulários lista e os formulários detalhados:** permitem mudar entre os formulários Lista e os formulários detalhados para cada tabela.
-* **Tabelas publicadas:** Exibe todas as tabelas publicadas na seção Estrutura. 
-* **Formulários Disponíveis:** Permite trocar entre a seleção de modelos e a definição de conteúdo.
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
+* **Published tables:** Displays all tables published in the Structure section.
+* **Available Forms:** Allows switching between template selection and content definition.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -33,9 +33,11 @@ Da mesma forma que com a definição de formulários Lista, selecione um modelo 
 
 Pode adicionar entre 2 a 10 campos para a maioria dos formulários Lista.
 
-:::tip TIPS Want to change the template for your list or detail form?
-
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates. :::
+> **DICAS**
+> 
+> Want to change the template for your list or detail form? 
+> 
+> Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
 
 ## Gallery
 
@@ -47,10 +49,8 @@ Then, the only thing you have to do is selecting the template that suits your ne
 
 So you can directly start working on the template, as it is ready-to-use.
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
+Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is:
+* go to your resources
+* unzip the template
+* make the changes needed using Xcode.
 
-## O que fazer agora?
-
-* A [tutorial]() is available to guide you through the **action definition process**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.

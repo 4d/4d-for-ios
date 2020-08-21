@@ -3,11 +3,11 @@ id: faq
 title: FAQ
 ---
 
-## Conditions requises
+## Conditions préalables
 
 <details>
 <summary>
-    <strong>Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS ?</strong>
+    **Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS ?**
 </summary>
 
 Avec 4D for iOS, vous pouvez facilement créer de nouveaux projets mobiles directement depuis 4D, sans qu'une connaissance préalable dans la création d’applications iOS natives soit nécessaire !
@@ -18,13 +18,14 @@ L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit u
 
 <details>
 <summary>
-<strong>Y a-t-il des conditions préalables à l'utilisation de 4D for iOS ?</strong>
+**Y a-t-il des conditions préalables à l'utilisation de 4D for iOS ?**
 </summary>
 
 ### Tableau de comparaison de version
 
 | Xcode  | Swift | iOS      | 4D   | macOS   |
 | ------ | ----- | -------- | ---- | ------- |
+| 11.5   | 5.2.4 | OS 13.5  | 18R3 | 10.15.2 |
 | 11.4   | 5.2   | OS 13.4  | 18.2 | 10.15.2 |
 | 11.3.1 | 5.1.3 | iOS 13.3 | 18.1 | 10.14.4 |
 | 11.3.1 | 5.1.3 | iOS 13.3 | 18R2 | 10.14.4 |
@@ -44,29 +45,33 @@ Veuillez consulter [ici](prerequisites.html) la liste des conditions préalables
 
 </details>
 
+
 <details>
 <summary>
-<strong>Puis-je utiliser Windows pour développer avec 4D for iOS ?</strong>
+**Puis-je utiliser Windows pour développer avec 4D for iOS ?**
 </summary>
 
 Non. Vous devez développer sur macOS, puisque la compilation de l’application finale et l'exécution du simulateur se font à l'aide de Xcode.
 
 </details>
 
+
 ## Licence
 
 <details>
 <summary>
-<strong>Ai-je besoin d'un Serveur Web 4D pour exécuter 4D for iOS ?</strong>
+**Ai-je besoin d'un Serveur Web 4D pour exécuter 4D for iOS ?**
 </summary>
 
 Non – 4D for iOS est inclus dans 4D Server v17 R2 et dans les versions plus récentes.
 
 </details>
 
+
+
 <details>
 <summary>
-<strong>Existe-t-il une licence de test ou d’évaluation ?</strong>
+**Existe-t-il une licence de test ou d’évaluation ?**
 </summary>
 
 Si vous avez déjà une licence 4D Developer Pro ou 4D Server de 4D v17 R2 ou de versions plus récentes, 4D for iOS y est inclus.
@@ -75,18 +80,20 @@ Si vous n’êtes pas un partenaire 4D ou si vous ne participez pas au programme
 
 </details>
 
+
 <details>
 <summary>
-<strong>Quelle licence 4D dois-je utiliser pour développer des applications avec 4D for iOS ?</strong>
+**Quelle licence 4D dois-je utiliser avec 4D for iOS ?**
 </summary>
 
 Pour développer des applications 4D for iOS, vous avez besoin d’une licence 4D Developer Pro v17 R2 (macOS) ou une version plus récente.
 
 </details>
 
+
 <details>
 <summary>
-<strong>Quelle licence 4D dois-je utiliser pour déployer les applications créées avec 4D for iOS ?</strong>
+**Quelle licence 4D dois-je utiliser pour déployer des applications créées avec 4D for iOS ?**
 </summary>
 
 Pour déployer des applications 4D for iOS, vous aurez besoin d’une licence 4D Server (macOS ou Windows) v17 R2 ou d'une licence plus récente.
@@ -97,20 +104,22 @@ Les clients peuvent se connecter sur des PC Mac ou Windows, ou sur des mobiles i
 
 </details>
 
+
 <details>
 <summary>
-<strong>J’ai un 4D Server et une extension pour deux clients (quatre clients au total). Combien d'appareils mobiles puis-je utiliser ?</strong>
+**J’ai un 4D Server et une extension pour deux clients (quatre clients au total). Combien d'appareils mobiles puis-je utiliser ?**
 </summary>
 
 Vous pouvez utiliser jusqu'à quatre appareils mobiles.
 
 </details>
 
+
 ## Questions diverses
 
 <details>
 <summary>
-<strong>Puis-je modifier et mettre à jour les données de mon application iOS ?</strong>
+**Puis-je modifier et mettre à jour les données de mon application iOS ?**
 </summary>
 
 Oui, bien entendu.
@@ -119,34 +128,37 @@ Oui, bien entendu.
 
 <details>
 <summary>
-<strong>Où sont stockées mes données ?</strong>
+**Où sont stockées mes données ?**
 </summary>
 
 Vos données sont stockées localement sur vos appareils iOS. Cela vous permettra d'accéder à vos données en mode hors ligne.
 
 </details>
 
+
 <details>
 <summary>
-<strong>Puis-je utiliser des tables liées dans 4D for iOS ?</strong>
+**Puis-je utiliser des tables reliées dans 4D for iOS ?**
 </summary>
 
 Conscients de votre utilisation fréquente des tables liées, nous travaillons actuellement sur leur accessibilité, prévue pour une version ultérieure de 4D for iOS.
 
 </details>
 
+
 <details>
 <summary>
-<strong>Puis-je utiliser des champs calculés dans 4D for iOS ?</strong>
+**Puis-je utiliser des champs calculés dans 4D for iOS ?**
 </summary>
 
 Vous avez la possibilité de créer des champs pré-calculés dans 4D et de les publier depuis la [section Structure](structure.html) dans l'éditeur de projet de 4D for iOS.
 
 </details>
 
+
 <details>
 <summary>
-<strong>Ai-je besoin d'images dans ma base de données ?</strong>
+**Ai-je besoin d'images dans ma base de données ?**
 </summary>
 
 Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser pour garantir la meilleure expérience utilisateur.
@@ -157,7 +169,7 @@ Les images ne sont pas obligatoires, mais nous vous recommandons d'en utiliser p
 
 <details>
 <summary>
-<strong>Dois-je créer une icône pour mon application iOS ?</strong>
+**Dois-je créer une icône pour mon application iOS ?**
 </summary>
 
 Il est fortement recommandé d'avoir une icône pour votre application 4D for iOS. Si vous n'en avez pas, l'icône par défaut (le logo 4D) sera affichée.
@@ -166,9 +178,10 @@ Si vous possédez déjà une icône pour votre application 4D, vous pouvez la gl
 
 </details>
 
+
 <details>
 <summary>
-<strong>Comment puis-je tester mon application ?</strong>
+**Comment puis-je tester mon application ?**
 </summary>
 
 4D for iOS vous permet de tester vos applications dans le [Simulateur](simulator.html). Pour tester votre application sur votre appareil iOS, il vous faut un **compte Apple Developer payant** (install-device.html) (iPhone et iPad).
@@ -177,18 +190,21 @@ Si vous possédez déjà une icône pour votre application 4D, vous pouvez la gl
 
 </details>
 
+
 <details>
 <summary>
-<strong>Dois-je créer des modèles iOS spécifiques pour créer mes applications sur un iPhone ou un iPad ?</strong>
+**Dois-je créer des modèles iOS spécifiques pour créer mes applications sur un iPhone ou un iPad ?**
 </summary>
 
 Tous les modèles disponibles dans 4D for iOS sont optimisés pour iPhone. Ils fonctionnent également parfaitement sur les iPad.
 
 </details>
 
+
+
 <details>
 <summary>
-     <strong>Ai-je besoin d'un compte Apple Developer ?</strong>
+     **Ai-je besoin d'un compte Apple Developer ?**
 </summary>
 
 Pour tester votre application, vous devez créer au moins un [compte Apple Developer gratuit](free-developer-account.html).
@@ -199,9 +215,13 @@ Pour déployer une application 4D for iOS, vous devez adhérer au [Apple Develop
 
 <details>
 <summary>
-<strong>Puis-je personnaliser mon application 4D for iOS ?</strong>
+**Puis-je personnaliser mon application 4D for iOS ?**
 </summary>
 
 4D for iOS génère un véritable projet Xcode que vous pouvez [ouvrir et modifier](open-xcode.html) à votre guise.
 
 </details>
+
+
+
+

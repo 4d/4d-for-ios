@@ -3,27 +3,27 @@ id: deploy-app-store-app-store-connect
 title: Créer une fiche sur App Store
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> * Créer un identifiant d’application sur son compte développeur ("Developer")
+> * Créer son application dans l’App Store Connect
 
-**OBJECTIFS**
 
-* Créer un identifiant d’application sur son compte développeur ("Developer")
-* Créer son application dans l’App Store Connect</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)
 
-**CONDITIONS PRÉALABLES**
-
-[Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)</div> 
 
 ## ÉTAPE 1. Créez votre identifiant d'application
 
 #### Qu'est-ce qu'un identifiant d'application ?
 
-*Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications à partir d'une seule équipe de développement. La chaîne est constituée d’un Team ID et d'un Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*<div class = "tips"> 
+*Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications à partir d'une seule équipe de développement. La chaîne est constituée d’un Team ID et d'un Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).*
 
-**NOTE**
-
-* Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
-* Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</div> 
+> **NOTE**
+> 
+> * Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
+> * Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.
 
 Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
@@ -63,11 +63,12 @@ Ajoutez les informations suivantes :
 * **SKU** : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)
 * **Limit User Access (optionnel)** : limitez aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.
 
-![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)<div class = "tips"> 
+![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
-**NOTE**
+> **NOTE**
+> 
+> Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.
 
-Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</div> 
 
 ## ÉTAPE 4. Informations sur l’application
 
@@ -81,29 +82,30 @@ Dans App Store Connect > App Information :
 
 ## ÉTAPE 5. Prix et disponibilité
 
-C’est ici que vous pourrez définir le prix de votre application.<div class = "tips"> 
+C’est ici que vous pourrez définir le prix de votre application.
 
-**ASTUCES**
+> **ASTUCES**
+> 
+> Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.
 
-Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.</div> 
 
 ## ÉTAPE 6. Préparation à l'inscription
 
-Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :<div class = "tips"> 
+Dans **Version Information**, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :
 
-**ASTUCES**
+> **ASTUCES**
+> 
+> Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).
 
-Vous pouvez générer toutes vos captures d'écran dans le simulateur (File > New Screen Shot).</div> 
 
 ![Préparation à l'inscription](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
 * Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (ce que les utilisateurs visualiseront dans l'App Store).
-
 * Vous pouvez partager des mises à jour de votre application, y compris de nouvelles offres promotionnelles, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements intégrés dans votre application. Vous pouvez également ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
-* Entrez un **Support URL** qui inclut des informations de support pour votre application. Cet URL sera visible sur l’App Store.
-* **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application. 
+* Saisissez un **Support URL** qui comprend des informations d'assistance pour votre application. Cette URL sera visible sur l'App Store.
+* **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application.
 
 Dans la section **iOS App** :
 
@@ -119,6 +121,6 @@ Les sections **App Review Information** et **Version Release** contiennent des i
 
 ![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information** : Coordonnées et informations de sécurité confidentielles. 
+* **App Review Information** : Coordonnées et informations de sécurité confidentielles.
 * **Version Release** : Indique s'il s'agit d'une publication automatique ou manuelle.
 * Enfin, cliquez sur **Save**.
