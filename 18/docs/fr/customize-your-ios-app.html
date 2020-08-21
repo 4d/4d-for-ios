@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Personnaliser une application 4D for iOS · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Let&#x27;s do some storyboard modification ... from simple to complex."/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Personnaliser une application 4D for iOS · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="Let&#x27;s do some storyboard modification ... from simple to complex."/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Personnaliser une application 4D for iOS · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Apportons quelques modifications au storyboard... en allant du plus simple au plus complexe."/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Personnaliser une application 4D for iOS · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="Apportons quelques modifications au storyboard... en allant du plus simple au plus complexe."/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,12 +74,12 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/CustomizeWithXcode-iOSProjectCustomization.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Personnaliser une application 4D for iOS</h1></header><article><div><span><p>Let's do some storyboard modification ... from simple to complex.</p>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/CustomizeWithXcode-iOSProjectCustomization.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Personnaliser une application 4D for iOS</h1></header><article><div><span><p>Apportons quelques modifications au storyboard... en allant du plus simple au plus complexe.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png" alt="Final result"></p>
 <h2><a class="anchor" aria-hidden="true" id="étape-1-modification-simple-du-libellé"></a><a href="#étape-1-modification-simple-du-libellé" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Modification simple du libellé</h2>
 <p>Nous allons commencer par modifier la police et la couleur du libellé :</p>
 <ul>
-<li>Open the <em>ContactDetailsForm.storyboard</em> file from the Navigation tab.</li>
+<li>Ouvrez le fichier <em>ContactDetailsForm.storyboard</em> à partir de l’onglet Navigation.</li>
 <li>Cliquez sur le libellé First Name (vous pouvez également le sélectionner depuis l'Interface Builder ou le volet de gauche).</li>
 <li>Sélectionnez le volet Attributes inspector (Inspecteur d'attributs) dans Utility area (la zone de fonctionnalités).</li>
 </ul>
@@ -94,7 +94,7 @@
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png" alt="Attributes inspector color"></p>
 <h2><a class="anchor" aria-hidden="true" id="étape-2-modification-de-la-position-de-la-photo-de-profil"></a><a href="#étape-2-modification-de-la-position-de-la-photo-de-profil" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Modification de la position de la photo de profil</h2>
 <p>Tous les modèles de 4D for iOS appliquent des contraintes aux éléments de l'application afin qu'ils s'affichent correctement sur tous les appareils.</p>
-<p>In the <em>ContactDetailsForm.storyboard</em> file, the picture, First Name, and Last Name labels are all currently center aligned.</p>
+<p>Dans le fichier <em>ContactDetailsForm.storyboard</em>, les libellés Photo, First Name et Last Name sont actuellement centrés.</p>
 <p>Nous allons apporter quelques modifications de façon à les afficher comme suit :</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Simlator-Final-Xcode-4D-for-iOS.png" alt="Simulator result"></p>
 <p>Tout d’abord, alignez l’image verticalement et faites glisser les libellés First Name et Last Name à droite de l’image.</p>
@@ -113,19 +113,19 @@
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Profil-picture-constraints-Xcode-4D-for-iOS.png" alt="Profil picture constraints"></p>
 <p>Supprimez toutes les contraintes à l'exception de Width et Height (vous devrez les modifier plus tard à partir du Size inspector (l'inspecteur de dimensions) dans la section &quot;Constraints&quot; consacrée aux contraintes). Le contour de l’image devrait maintenant être en rouge car les contraintes ne sont pas renseignées.</p>
-<p>Click on the Align button (at the bottom of the Interface Builder window) and check the <strong>Vertically in Container</strong> checkbox.</p>
+<p>Cliquez sur le bouton Align (dans la partie inférieure de la fenêtre Interface Builder) et cochez la case <strong>Vertically in Container</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png" alt="Profil picture Align"></p>
-<p>Next, click on the <strong>Add New Constraints</strong> button and add a leading space constraint (the left constraint).</p>
+<p>Cliquez ensuite sur le bouton <strong>Add New Constraints</strong> et ajoutez une contrainte de leading space (la contrainte de gauche).</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png" alt="Profil picture new constraints"></p>
 <p>À ce stade, toutes les contraintes de photo de profil doivent être en bleu.</p>
 <p>Félicitations ! Votre photo de profil est maintenant bien placée et respecte les contraintes définies.</p>
-<div markdown="1" class = "tips">
-**ASTUCES**
+<blockquote>
+<p><strong>ASTUCES</strong></p>
 <ul>
 <li><p>Pour créer une contrainte entre deux vues, appuyez sur Ctrl et faites glisser une vue vers l’autre. Lorsque vous relâchez le bouton de la souris, l’Interface Builder affiche un menu avec une liste de contraintes éventuelles.</p></li>
 <li><p>Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.</p></li>
 </ul>
-</div>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="étape-4-mise-à-jour-de-la-position-et-des-contraintes-des-libellés"></a><a href="#étape-4-mise-à-jour-de-la-position-et-des-contraintes-des-libellés" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 4. Mise à jour de la position et des contraintes des libellés</h2>
 <h4><a class="anchor" aria-hidden="true" id="nous-allons-nous-pencher-sur-le-libellé-first-name"></a><a href="#nous-allons-nous-pencher-sur-le-libellé-first-name" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nous allons nous pencher sur le libellé First Name.</h4>
 <p>Nous allons commencer par modifier la position et la largeur :</p>
@@ -138,7 +138,7 @@
 <p>Modifiez les contraintes restantes :</p>
 <ul>
 <li>Supprimez les contraintes de leading space et de bottom space à partir du Size inspector.</li>
-<li>Add a leading space constraint by clicking on the <strong>Add New Constraints</strong> button to position the First Name label to the right of the Profile picture.</li>
+<li>Ajoutez une contrainte de leading space en cliquant sur le bouton <strong>Add New Constraints</strong> pour placer le libellé First Name à droite de la photo de profil.</li>
 <li>Appuyez sur la touche Ctrl et faites glisser le libellé First Name vers la photo de profil. Sélectionnez la contrainte supérieure dans le menu pour aligner les deux éléments vers le haut.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png" alt="First Name Label top constraint"></p>

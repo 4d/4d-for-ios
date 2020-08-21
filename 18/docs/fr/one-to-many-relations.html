@@ -75,31 +75,34 @@
               }
             });
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Relations-one-to-N-relations.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Liens 1 vers N</h1></header><article><div><span><p>Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4D for iOS.</p>
-<div markdown="1" class = "tips">
-**NOTE**
-Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
-</div>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<p>Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables.</p>
+</blockquote>
+<blockquote>
+<p>En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.</p>
+</blockquote>
 <p>Commençons par télécharger le Projet Starter :</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
 </div>
-<p>In this tutorial, we are going to build a colorful <strong>Task app</strong> using 4D for iOS.</p>
+<p>Dans ce tutoriel, nous allons créer une <strong>application Task</strong> à l'aide de 4D for iOS.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif" alt="Task App Final result"></p>
 <p>Mais d'abord, jetons un œil à la structure de notre base :</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png" alt="Select link from structure section"></p>
-<p>As you can see, there is a One to Many link named <strong>tasks</strong> that we will use in our iOS app to display the employees'(<strong>One</strong>) tasks(<strong>to Many</strong>).</p>
+<p>Vous remarquerez qu'il existe un lien 1 vers N nommé <strong>tasks</strong> qui utilisera une application iOS pour afficher les tâches (<strong>vers N</strong>) des employés (<strong>1</strong>).</p>
 <p>Now, go straight to Open menu &gt; Mobile project... to select <em>Time Keeper</em> and go to the <strong>Structure section</strong>.</p>
 <h2><a class="anchor" aria-hidden="true" id="section-structure"></a><a href="#section-structure" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Structure</h2>
-<p>You can see the <strong>tasks relation</strong> we have seen earlier... Vous pouvez le publier !</p>
+<p>Vous voyez ici le lien <strong>tasks</strong> que nous avons créé précédemment... Vous pouvez le publier !</p>
 <p>Il aura le même fonctionnement que n’importe quel autre champ pour la suite de la création de l’application.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Structure-section-relations-4D-for-iOS.png" alt="Structure section Relations properties"></p>
-<div markdown="1" class = "tips">
-**ASTUCES**
+<blockquote>
+<p><strong>ASTUCES</strong></p>
 <ul>
 <li>En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.</li>
 </ul>
-</div>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="section-libellés--icônes"></a><a href="#section-libellés--icônes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Libellés &amp; icônes</h2>
 <p>Le lien 1 vers N est maintenant disponible dans la section <a href="labels-and-icons.html">Libellés et icônes</a>.</p>
 <p>A noter qu'un bouton est créé dans l'application lorsque vous incluez un lien 1 vers N.</p>
@@ -112,13 +115,13 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015a
 <p><img src="/4d-for-ios/18/docs/assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png" alt="Labels &amp; Icons section Relations properties"></p>
 <h2><a class="anchor" aria-hidden="true" id="section-formulaires"></a><a href="#section-formulaires" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section Formulaires</h2>
 <ul>
-<li>Go to the Forms section and drop the <em>tasks</em> relation on the Employee Task Detail form.</li>
+<li>Cliquez sur la section Formulaires et déposez le lien <em>tasks</em> dans le formulaire détaillé Employee Task.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/1-to-n-relations-forms-section.png" alt="Related field in Forms section"></p>
 <h2><a class="anchor" aria-hidden="true" id="build-and-run"></a><a href="#build-and-run" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Build and Run</h2>
 <ol>
 <li>A partir du formulaire Lise Employee, cliquez sur un employé</li>
-<li>This will open the employee's detail form, where you should see a new <strong>Relation button</strong> !</li>
+<li>Cela permettra d'ouvrir le formulaire détaillé des employés, où vous devriez voir apparaître un nouveau <strong>bouton Relation</strong> !</li>
 <li>Cliquez sur ce bouton Relation pour afficher les tâches de l'employé.</li>
 </ol>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/One-to-n-relations-task-ios-app.png" alt="Related field in Forms section"></p>

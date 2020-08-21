@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="es"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Crear una ficha en App Store · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta name="docsearch:language" content="es"/><meta property="og:title" content="Crear una ficha en App Store · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="es"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Crear una ficha en App Store · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJETIVOS**"/><meta name="docsearch:language" content="es"/><meta property="og:title" content="Crear una ficha en App Store · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="&gt; **OBJETIVOS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,27 +74,27 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/DeployAppStore-CreateiTunesConnectRecord.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Crear una ficha en App Store</h1></header><article><div><span><div markdown="1" class = "objectives">
-**OBJETIVOS**
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/DeployAppStore-CreateiTunesConnectRecord.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Crear una ficha en App Store</h1></header><article><div><span><blockquote>
+<p><strong>OBJETIVOS</strong></p>
 <ul>
 <li>Crear un identificador de aplicación en su cuenta de desarrollador</li>
 <li>Crear su aplicación en el App Store Connect</li>
 </ul>
-</div>
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-[Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [particulares](register-apple-developer-program-individual.html)
-</div>
+</blockquote>
+<blockquote>
+<p><strong>REQUISITOS PREVIOS</strong></p>
+<p><a href="register-apple-developer-program-organization.html">Apple Developer Program para las empresas</a> o <a href="register-apple-developer-program-individual.html">particulares</a></p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="paso-1-crear-una-identificación-de-aplicación"></a><a href="#paso-1-crear-una-identificación-de-aplicación" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 1. Crear una identificación de aplicación</h2>
 <h4><a class="anchor" aria-hidden="true" id="¿qué-es-un-identificador-de-aplicación"></a><a href="#¿qué-es-un-identificador-de-aplicación" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>¿Qué es un identificador de aplicación?</h4>
 <p><em>Un identificador de aplicación es una cadena compuesta de dos partes que se utiliza para identificar una o más aplicaciones de un solo equipo de desarrollo. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).</em></p>
-<div markdown="1" class = "tips">
-**NOTA**
+<blockquote>
+<p><strong>NOTA</strong></p>
 <ul>
 <li>Si ha elegido una cuenta de desarrollador Apple individual, su cuenta estará disponible de inmediato y puede crear su identificador de aplicación.</li>
 <li>Si ha elegido una cuenta de desarrollador Apple como organización, debe esperar la validación de Apple para crear su identificador de aplicación.</li>
 </ul>
-</div>
+</blockquote>
 <p>Para crear su identificador de aplicación, seleccione <a href="https://developer.apple.com/account/ios/identifier/bundle">Certificates, IDs &amp; Profile</a> desde su cuenta de desarrollador.</p>
 <ul>
 <li><p>Click the + sign next to <em>Register iOS App IDs</em> to add a new App ID.</p></li>
@@ -128,10 +128,10 @@
 <li><strong>Limit User Access (optional)</strong>: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png" alt="Change BundleID"></p>
-<div markdown="1" class = "tips">
-**NOTA**
-Si su Bundle ID no está disponible, es posible que ya lo esté utilizando otra aplicación en la App Store. Tendrá que cambiar el suyo en su proyecto Xcode.
-</div>
+<blockquote>
+<p><strong>NOTA</strong></p>
+<p>Si su Bundle ID no está disponible, es posible que ya lo esté utilizando otra aplicación en la App Store. Tendrá que cambiar el suyo en su proyecto Xcode.</p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="paso-4-información-sobre-la-aplicación"></a><a href="#paso-4-información-sobre-la-aplicación" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 4. Información sobre la aplicación</h2>
 <p>From App Store Connect &gt; App Information:</p>
 <ul>
@@ -142,16 +142,16 @@ Si su Bundle ID no está disponible, es posible que ya lo esté utilizando otra 
 <p><img src="/4d-for-ios/18/docs/assets/en/deploy-app-store/App-Store-Connect-app-information.png" alt="Información sobre la aplicación"></p>
 <h2><a class="anchor" aria-hidden="true" id="paso-5-precios-y-disponibilidad"></a><a href="#paso-5-precios-y-disponibilidad" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 5. Precios y disponibilidad</h2>
 <p>Aquí es donde se define el precio de su aplicación.</p>
-<div markdown="1" class = "tips">
-**RECOMENDACIONES**
-Puede definir descuentos por tiempo limitado especificando las fechas de inicio y de finalización.
-</div>
+<blockquote>
+<p><strong>RECOMENDACIONES</strong></p>
+<p>Puede definir descuentos por tiempo limitado especificando las fechas de inicio y de finalización.</p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="paso-6-preparación-para-la-inscripción"></a><a href="#paso-6-preparación-para-la-inscripción" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 6. Preparación para la inscripción</h2>
 <p>Add all of the assets for your app to appear in the App Store in <strong>Version Information</strong>:</p>
-<div markdown="1" class = "tips">
-**RECOMENDACIONES**
-You can generate all of your screenshots in Simulator (File > New Screen Shot).
-</div>
+<blockquote>
+<p><strong>RECOMENDACIONES</strong></p>
+<p>You can generate all of your screenshots in Simulator (File &gt; New Screen Shot).</p>
+</blockquote>
 <p><img src="/4d-for-ios/18/docs/assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png" alt="Preparación para la inscripción"></p>
 <ul>
 <li><p>Añada las capturas de pantalla de su aplicación. Las capturas de pantalla para el iPhone 5.5 &quot;Super Retina Display y iPad 12.9&quot; Retina Display son obligatorias. Para más detalles, ver <a href="https://help.apple.com/app-store-connect/#/devd274dd925">Screenshot specifications</a>.</p></li>

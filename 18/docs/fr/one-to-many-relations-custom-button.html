@@ -130,15 +130,15 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 <p>Il devrait ressembler à ceci :</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-round-corners.png" alt="Custom relation color and font"></p>
 <h3><a class="anchor" aria-hidden="true" id="taille-et-contraintes"></a><a href="#taille-et-contraintes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Taille et contraintes</h3>
-<p>Keep in mind that if you <strong>add constraints</strong> into your button, you will also have to modifiy the xib xml file to <strong>add some TAGS</strong> as for custom Detail form templates. Cela permet de dupliquer correctement le bouton lorsque plusieurs liens sont disponibles dans la même vue détaillée.</p>
+<p>A noter que si vous <strong>ajoutez des contraintes</strong> à votre bouton, vous devrez également modifier le fichier xib xml pour <strong>ajouter des TAGS</strong> comme pour les templates de formulaires détaillés personnalisés. Cela permet de dupliquer correctement le bouton lorsque plusieurs liens sont disponibles dans la même vue détaillée.</p>
 <p>C'est très pratique, puisque nous prévoyons d'ajouter quelques contraintes !</p>
 <h4><a class="anchor" aria-hidden="true" id="ajouter-des-contraintes"></a><a href="#ajouter-des-contraintes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ajouter des contraintes</h4>
 <p>Pour ce tutoriel, nous allons simplement ajouter une hauteur de bouton car nous souhaitons qu’il soit plus grand à l’écran.</p>
 <p>Etape 1. Sélectionnez d’abord la vue et remplacez la hauteur (123) par 40</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Button-view-height.png" alt="Button view height"></p>
-<p>Etape 2. Double click on the <strong>Top Space Constraint</strong> and change it from 8 to 0</p>
+<p>Etape 2. Double-cliquez sur <strong>Top Space Constraint</strong> et remplacez sa valeur (8) par 0</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Top-Space-constraint.png" alt="Top Space constraint"></p>
-<p>Étape 3. Do the same thing with <strong>Bottom Space Constraint</strong> and change it from 8 to 0</p>
+<p>Étape 3. Faites la même chose avec <strong>Bottom Space Constraint</strong> et remplacez sa valeur (8) par 0</p>
 <p>Vous devriez obtenir ceci :</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-button-constraints.png" alt="Custom  button constraints"></p>
 <p>Etape 4. Ajoutez une contrainte de hauteur de 40</p>
@@ -153,7 +153,7 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 <h4><a class="anchor" aria-hidden="true" id="ajouter-un-tag-à-la-contrainte-de-hauteur"></a><a href="#ajouter-un-tag-à-la-contrainte-de-hauteur" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ajouter un tag à la contrainte de hauteur</h4>
 <p>Etape 1. Sélectionnez-le à partir du Storyboard pour lire l'identifiant de l'objet</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-object-ID.png" alt="Horizontal constraint object ID"></p>
-<p>Etape 2. Search for this ID in the xml file and put <strong>TAG-RL-007</strong> instead (a Tag that is not already used).</p>
+<p>Etape 2. Recherchez cet ID dans le fichier xml et remplacez-le par <strong>TAG-RL-007</strong> (un Tag qui n'est pas déjà utilisé).</p>
 <p>Étape 3. Enregistrez le fichier xml</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-xml-file.png" alt="Horizontal constraint xml file"></p>
 <p>Etape 4. Concentrez-vous sur le Storyboard pour vérifier si la contrainte a été mise à jour correctement</p>

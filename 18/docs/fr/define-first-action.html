@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Définir une première action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app."/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Définir une première action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app."/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Définir une première action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Dans ce tutoriel, nous allons travailler sur une **application Tasks iOS** et voir comment gérer des actions dans cette application."/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Définir une première action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="Dans ce tutoriel, nous allons travailler sur une **application Tasks iOS** et voir comment gérer des actions dans cette application."/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,10 +74,10 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-DefineFirstAction.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Définir une première action</h1></header><article><div><span><p>In this tutorial, we are going to work on a <strong>Tasks iOS app</strong> and see how to deal with actions in this app.</p>
-<p>Basically what we want to do in a <strong>Task app</strong> is changing the <strong>status</strong> and the <strong>percentage of completion</strong> of a task individually.</p>
-<p>More globally, we want to <strong>change all tasks status</strong> to postponed or in Progress for example.</p>
-<p>Download the <strong>Starter project</strong> and go right to the <strong>Actions section</strong>.</p>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-DefineFirstAction.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Définir une première action</h1></header><article><div><span><p>Dans ce tutoriel, nous allons travailler sur une <strong>application Tasks iOS</strong> et voir comment gérer des actions dans cette application.</p>
+<p>Nous souhaitons essentiellement changer le <strong>statut</strong> et le <strong>pourcentage d'achèvement</strong> d'une tâche dans <strong>Task app</strong>.</p>
+<p>Plus globalement, nous souhaitons <strong>modifier le statut de toutes les tâches</strong> et le définir, par exemple, sur &quot;reporté&quot; et &quot;en cours&quot;.</p>
+<p>Téléchargez le <strong>projet Starter</strong> et reportez-vous directement à la <strong>section Actions</strong>.</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <p><a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJET STARTER</a></p>
@@ -90,23 +90,23 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
 <p>Concentrons-nous d’abord sur les actions d'entité !</p>
 <h2><a class="anchor" aria-hidden="true" id="actions-dentité"></a><a href="#actions-dentité" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Actions d'entité</h2>
 <h3><a class="anchor" aria-hidden="true" id="étape-1-actions-dentité-dans-la-section-actions"></a><a href="#étape-1-actions-dentité-dans-la-section-actions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Actions d'entité dans la section Actions</h3>
-<p>In this Actions section, you will be able to define all your actions <strong>names</strong>, <strong>icons</strong>, <strong>labels</strong>, the <strong>table</strong> you want the action to be available in and the <strong>scope</strong> you want actions to be applied on.</p>
-<p>The action section is quite empty when you open it for the first time, so click on the <strong>Plus button</strong> at the bottom left to add your first action!</p>
+<p>Dans cette section des Actions, vous pourrez définir le <strong>nom</strong>, les <strong>icônes</strong> et les <strong>libellés</strong> de vos actions, mais aussi les <strong>tables</strong> dans lesquelles vous souhaitez rendre l’action disponible ainsi que la <strong>portée</strong> des actions.</p>
+<p>La section Actions est assez vide lorsque vous l’ouvrez pour la première fois. Cliquez sur le <strong>bouton &quot;+&quot;</strong> en bas à gauche pour ajouter votre première action !</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Create-action.png" alt="Create action"></p>
-<p>Let's define first an action that will <strong>change a task status</strong> to &quot;Complete&quot; and put the <strong>percentage of completion</strong> to 100%.</p>
+<p>Définissons tout d’abord une action qui permettra de <strong>changer le statut d'une tâche</strong> sur « Complete » et le <strong>pourcentage d’achèvement</strong> à 100 %.</p>
 <p>Pour définir cette action :</p>
 <ul>
-<li>Enter <strong>taskDone</strong> in <strong>Names field</strong></li>
-<li>Select the <strong>Done icon</strong> from the icon library</li>
-<li>Enter <strong>Done</strong> in <strong>Short Labels</strong></li>
-<li>Enter <strong>Task Done</strong> in <strong>Long Labels</strong></li>
-<li>Select the <strong>Tasks</strong> table from <strong>Tables</strong> list</li>
-<li>Select <strong>Current record</strong> from <strong>Scope</strong> list</li>
+<li>Saisissez <strong>taskDone</strong> dans le champ <strong>Noms</strong></li>
+<li>Sélectionnez l'<strong>icône &quot;Done&quot;</strong> à partir de la bibliothèque d'icônes</li>
+<li>Saisissez <strong>Done</strong> dans le champ <strong>Libellés courts</strong></li>
+<li>Saisissez <strong>Task Done</strong> dans le champ <strong>Libellés longs</strong></li>
+<li>Sélectionnez la table <strong>Tasks</strong> à partir de la liste proposée dans <strong>Tables</strong></li>
+<li>Sélectionnez <strong>Entité courante</strong> à partir de la liste proposée dans <strong>Portée</strong></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Done-action-definition.png" alt="Done action definition"></p>
 <h3><a class="anchor" aria-hidden="true" id="étape-2-créer-et-modifier-la-méthode-base-sur-une-action-app-mobile"></a><a href="#étape-2-créer-et-modifier-la-méthode-base-sur-une-action-app-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Créer et modifier la méthode base &quot;Sur une action app mobile&quot;</h3>
-<p>Now that your action is defined in the Project Editor, you have to create the <a href="https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html"><strong>On Mobile App Action</strong></a> database Method.</p>
-<p>Do to so, click on <strong>Create button</strong> at the bottom right of the action table and enter the following code in the <strong>On Mobile App Action</strong> database method:</p>
+<p>Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc créer la méthode base <a href="https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html"><strong>Sur une action app mobile</strong></a>.</p>
+<p>Pour ce faire, cliquez sur le <strong>bouton Editer...</strong> en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : <strong>Sur une action app mobile</strong> :</p>
 <pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
 
@@ -138,7 +138,7 @@ End case</span>
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="étape-3-créer-une-méthode-modifystatus"></a><a href="#étape-3-créer-une-méthode-modifystatus" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Créer une méthode &quot;modifyStatus&quot;</h3>
-<p>Once your database method has been edited, you have to create a <strong>modifyStatus</strong> Method that will make the job :</p>
+<p>Une fois votre méthode base modifiée, vous devez créer une méthode <strong>modifyStatus</strong> qui permettra de réaliser la tâche demandée :</p>
 <pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
 
@@ -162,41 +162,41 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     If</span> (<span class="hljs-variable">$status</span>.success)
 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action is successful</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh this entity</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App que l'action est réussie</span>
+        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App d'actualiser cette entité</span><span class="hljs-keyword">
 
     Else</span>
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// retourner le statut vers l'App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword">
 
 Else</span>
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notifier l'App que l'action a échoué</span><span class="hljs-keyword">
 
 End if</span>
 
 <span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
 
 </code></pre>
-<p>Générez et exécutez votre application... et voilà ! Your <strong>Done action</strong> is available when you swipe left a cell in Listform, as well as when you click on the <strong>generic action button</strong> in the navigation bar of the Detail form.</p>
+<p>Générez et exécutez votre application... et voilà ! Votre <strong>action Done</strong> est disponible lorsque vous faites coulisser une cellule vers la gauche dans le formulaire Liste, et lorsque vous cliquez sur le <strong>bouton générique Actions</strong> dans la barre de navigation du formulaire détaillé.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Entity-action-Done.png" alt="Done action"></p>
 <h2><a class="anchor" aria-hidden="true" id="actions-de-table"></a><a href="#actions-de-table" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Actions de table</h2>
 <h3><a class="anchor" aria-hidden="true" id="étape-1-actions-de-table-dans-la-section-actions"></a><a href="#étape-1-actions-de-table-dans-la-section-actions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Actions de table dans la section Actions</h3>
-<p>Now, imagine that you are going on holidays and you want to <strong>change all your tasks status</strong> to &quot;Postponed&quot;.</p>
+<p>Imaginez maintenant que vous partez en vacances et que vous souhaitez <strong>modifier le statut de vos tâches</strong> et le définir sur &quot;Reporté&quot;.</p>
 <p>Nous allons définir cette action depuis la section Actions :</p>
 <ul>
-<li>Enter <strong>postponeAll</strong> in <strong>Names field</strong></li>
-<li>Select the <strong>Postponed icon</strong> from the icon library</li>
-<li>Enter <strong>Postpone All</strong> in <strong>Short Labels</strong></li>
-<li>Enter <strong>Postpone All</strong> in <strong>Long Labels</strong></li>
-<li>Select the <strong>Tasks</strong> table from <strong>Tables</strong> list</li>
-<li>Select <strong>Table</strong> from <strong>Scope</strong> list</li>
+<li>Saisissez <strong>postponeAll</strong> dans le champ <strong>Noms</strong></li>
+<li>Sélectionnez l'<strong>icône &quot;Postponed&quot;</strong> à partir de la bibliothèque d'icônes</li>
+<li>Saisissez <strong>Postpone All</strong> dans le champ <strong>Libellés courts</strong></li>
+<li>Saisissez <strong>Postpone All</strong> dans le champ <strong>Libellés longs</strong></li>
+<li>Sélectionnez la table <strong>Tasks</strong> à partir de la liste proposée dans <strong>Tables</strong></li>
+<li>Sélectionnez <strong>Table</strong> à partir de la liste proposée dans <strong>Portée</strong></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/PostponedAll-action-definition.png" alt="Postponed action definition"></p>
 <h3><a class="anchor" aria-hidden="true" id="étape-2-modifier-la-méthode-action"></a><a href="#étape-2-modifier-la-méthode-action" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Modifier la méthode action</h3>
-<p>Click on the <strong>Edit button</strong> at the bottom right of the action table to complete the <strong>On Mobile App Action</strong> database method :</p>
+<p>Cliquez sur le <strong>bouton Créer...</strong> en bas à droite du tableau des actions et saisissez le code suivant dans la méthode base : <strong>Sur une action app mobile</strong>  :</p>
 <pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
 
@@ -235,7 +235,7 @@ End case</span>
 
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="étape-3-créer-une-méthode-postponeall"></a><a href="#étape-3-créer-une-méthode-postponeall" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Créer une méthode &quot;postponeAll&quot;</h3>
-<p>As you create the <strong>modifyStatus</strong> Method, follow the same process and create a new <strong>postponeAll</strong> Method that will modify all record status:</p>
+<p>Tout comme vous avez créé la méthode <strong>modifyStatus</strong>, suivez les mêmes étapes et créez une nouvelle méthode <strong>postponeAll</strong> qui permettra de modifier le statut de tous les enregistrements :</p>
 <pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
 
@@ -254,8 +254,8 @@ If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-li
 
     End for each</span>
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App que l'action est réussie</span>
+    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App d'actualiser la sélection</span><span class="hljs-keyword">
 
 Else</span>
 
@@ -266,12 +266,12 @@ End if</span>
 <span class="hljs-variable">$0</span>:=<span class="hljs-variable">$out</span>
 
 </code></pre>
-<p>Générez et exécutez votre projet ! You will find a new <strong>generic button</strong> in the navigation bar of your Lisform. Click on it to trigger the <strong>Postpone All</strong> action.</p>
+<p>Générez et exécutez votre projet ! Vous trouverez un nouveau <strong>bouton générique</strong> dans la barre de navigation de votre formulaire Liste. Cliquez dessus pour déclencher l'action <strong>Postpone All</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/ListForm-table-action-tableview-tuto.png" alt="Final result Postponed Action"></p>
 <h2><a class="anchor" aria-hidden="true" id="que-faire-ensuite-"></a><a href="#que-faire-ensuite-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que faire ensuite ?</h2>
-<p>Félicitations ! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!</p>
+<p>Félicitations ! Vous venez d'ajouter 2 actions à votre application iOS. Vous pouvez désormais ajouter toutes les actions nécessaires à votre application Tasks !</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/ListForm-entity-action-tableview.png" alt="Final result All Action"></p>
-<p>You can download the <strong>Final project</strong> that includes various actions:</p>
+<p>Vous pouvez télécharger le <strong>Projet Final</strong> qui comprend diverses actions :</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <p><a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJET FINAL</a></p>

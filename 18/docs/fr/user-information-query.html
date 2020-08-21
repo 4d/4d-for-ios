@@ -76,29 +76,29 @@
             });
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/RestrictedQueries-userinformationquery.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Filtre de recherche - informations utilisateur</h1></header><article><div><span><p>Nous allons filtrer maintenant le contenu de notre application en fonction de l'e-mail de connexion du chargé de clientèle (information utilisateur) :</p>
 <ul>
-<li>Go to the <strong>Data section</strong>.</li>
-<li>Right-click in the <strong>Filter query</strong> field to make <strong>Field, Comparators and Operators buttons</strong> appear.</li>
-<li>Click on the <strong>Operators</strong> button and select <strong>AND</strong>.</li>
-<li>Now define the user information you want to get from the database method, <strong>:email</strong>.</li>
-<li>Remember to validate the query by clicking on the <strong>Validate</strong> button. Sinon, vous ne pourrez plus créer votre application.</li>
+<li>Accédez à la <strong>section &quot;Données&quot;</strong>.</li>
+<li>Faites un clic droit dans le champ <strong>Filtre de recherche</strong> pour faire apparaître les <strong>boutons Champs, Comparateurs et Opérateurs</strong>.</li>
+<li>Cliquez sur le bouton <strong>Operators</strong> et sélectionnez <strong>AND</strong>.</li>
+<li>Définissez maintenant les informations utilisateur (<strong>: email</strong>) que vous souhaitez obtenir à partir de la méthode de base de données.</li>
+<li>Souvenez-vous de valider la recherche en cliquant sur le bouton <strong>Valider</strong>. Sinon, vous ne pourrez plus créer votre application.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/restricted-queries/user-information-query.png" alt="Filtre de recherche - informations utilisateur"></p>
 <pre><code class="hljs css language-4d">Status = 'In Progress' &amp; manager.Email = :email 
 </code></pre>
-<p>The query will filter data depending on the <strong>In Progress</strong> status AND the <strong>Account manager's email address</strong> (accessible from the AccountManager table thanks to the <em>Many-to-One</em> relation on the manager's name).</p>
-<div markdown="1" class = "tips">
-**NOTE**
+<p>La recherche permettra de filtrer les données en fonction du statut <strong>In Progress</strong> ET de <strong>l'e-mail du chargé de clientèle</strong> (accessible depuis la table AccountManager grâce au lien <em>N vers 1</em> qui figure dans le nom du chargé de clientèle).</p>
+<blockquote>
+<p><strong>NOTE</strong></p>
 <ul>
-<li>A <strong>user icon</strong> is displayed on the right of each table when a user information filter is applied to it.</li>
-<li>As soon as a query is based on user information and validated, you need to edit the <strong>Mobile app authentication method</strong>. To do so, right-click on the <strong>Edit authentication method</strong> button to open the database method edition window.</li>
+<li>Une <strong>icône utilisateur</strong> s’affiche à droite de chaque table lorsqu’un filtre d'informations utilisateur y est appliqué.</li>
+<li>Dès qu’une recherche est basée sur les informations utilisateur et qu'elle est validée, vous devez modifier la <strong>méthode d'authentification de l'application mobile</strong>. Pour ce faire, faites un clic droit sur le bouton <strong>Edit authentication method</strong> pour ouvrir la fenêtre d’édition de la méthode de base de données.</li>
 </ul>
-</div>
+</blockquote>
 <p>Ajoutez la ligne suivante dans la méthode de base de données :</p>
 <pre><code class="hljs css language-4d"><span class="hljs-variable">$response</span>.userInfo:=<span class="hljs-function">New object</span>(<span class="hljs-string">"email"</span>;<span class="hljs-variable">$request</span>.email)
 </code></pre>
 <p>Cela permettra de récupérer l’adresse mail de connexion du chargé de clientèle et d'afficher les données selon ce critère.</p>
 <p><img src="/4d-for-ios/18/docs/assets/restricted-queries/database-method-user-information-query.png" alt="Filtre de recherche - informations utilisateur"></p>
-<p>Now if you build your app and enter &quot;<a href="mailto:michelle.simpson@mail.com">michelle.simpson@mail.com</a>&quot; as login email, you'll find all of Michelle Simpson's <em>&quot;In progress&quot;</em> contracts.</p>
+<p>Ainsi, si vous générez votre application et que vous entrez « <a href="mailto:michelle.simpson@mail.com">michelle.simpson@mail.com</a> » en tant qu'e-mail de connexion, vous trouverez tous les contrats <em>&quot;In progress&quot;</em> de Michelle Simpson.</p>
 <p><img src="/4d-for-ios/18/docs/assets/restricted-queries/restricted-queries-final-result.png" alt="Final result"></p>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/18/docs/fr/define-filter-query.html"><span class="arrow-prev">← </span><span>Définir un filtre de recherche</span></a><a class="docs-next button" href="/4d-for-ios/18/docs/fr/actions-getting-started.html"><span>Initiation</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/18/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {

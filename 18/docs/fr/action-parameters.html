@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Utiliser des paramètres d&#x27;action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Utiliser des paramètres d&#x27;action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="&lt;div markdown=&quot;1&quot; class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Utiliser des paramètres d&#x27;action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Utiliser des paramètres d&#x27;action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,10 +74,10 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Utiliser des paramètres d&#x27;action</h1></header><article><div><span><div markdown="1" class = "objectives">
-**OBJECTIFS **
-Définir des paramètres d'action pour modifier le contenu de votre application.
-</div>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Utiliser des paramètres d&#x27;action</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<p>Définir des paramètres d'action pour modifier le contenu de votre application.</p>
+</blockquote>
 <p>Dans le <a href="define-first-action.html">tutoriel précédent</a>, nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions dans la <a href="actions.html">section Actions</a>.</p>
 <p>Dans ce tutoriel, nous irons encore plus loin et nous créerons :</p>
 <ul>
@@ -156,7 +156,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>;<span class="hljs-variable">$parameters</span>)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations fournies par l'application mobile</span>
 
 <span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.context
 <span class="hljs-variable">$parameters</span>:=<span class="hljs-variable">$request</span>.parameters<span class="hljs-keyword">
@@ -165,7 +165,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"addTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Add…"</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Add…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -175,7 +175,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"editTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Edit…"</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Edit…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -187,7 +187,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"deleteTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Remove"</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Remove"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -197,7 +197,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"sendComment"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Send Comment"</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Send Comment"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -209,7 +209,7 @@ Case of</span>
 
     Else</span> 
 
-          <span class="hljs-comment">// Unknown action</span><span class="hljs-keyword">
+          <span class="hljs-comment">// Action inconnue</span><span class="hljs-keyword">
 
 End case</span> 
 
@@ -229,7 +229,7 @@ End case</span>
 
 If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-literal">Null</span>)
 
-    <span class="hljs-variable">$entity</span>:=ds.Tasks.<span class="hljs-function">new</span>()  <span class="hljs-comment">//create a reference</span><span class="hljs-keyword">
+    <span class="hljs-variable">$entity</span>:=ds.Tasks.<span class="hljs-function">new</span>()  <span class="hljs-comment">//créer une référence</span><span class="hljs-keyword">
 
     For each</span> (<span class="hljs-variable">$key</span>;<span class="hljs-variable">$in</span>.parameters)
 
@@ -237,11 +237,11 @@ If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-li
 
     End for each</span> 
 
-    <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//save the entity</span>
+    <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//sauvegarder l'entité</span>
 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App que l'action est réussie</span>
+    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App d'actualiser la sélection</span>
     <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task added"</span><span class="hljs-keyword">
 
 Else</span> 
