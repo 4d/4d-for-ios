@@ -101,9 +101,9 @@ Dans **Version Information**, renseignez tous les atouts de votre application qu
 
 * Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 "Super Retina Display et de l'iPad 12.9" Retina Display sont obligatoires. Pour plus d'informations, consultez [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
-* Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
+* Déroulez vers le bas, définissez les **Keywords** (mots-clés) et complétez la **Description** (ce que les utilisateurs visualiseront dans l'App Store).
 * Vous pouvez partager des mises à jour de votre application, y compris de nouvelles offres promotionnelles, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements intégrés dans votre application. Vous pouvez également ajouter un **Promotional Text** (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).
-* Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
+* Saisissez un **Support URL** qui comprend des informations d'assistance pour votre application. Cette URL sera visible sur l'App Store.
 * **Marketing URL** est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application.
 
 Dans la section **iOS App** :
@@ -122,4 +122,4 @@ Les sections **App Review Information** et **Version Release** contiennent des i
 
 * **App Review Information** : Coordonnées et informations de sécurité confidentielles.
 * **Version Release** : Indique s'il s'agit d'une publication automatique ou manuelle.
-* Finally, click **Save**.
+* Enfin, cliquez sur **Save**.
