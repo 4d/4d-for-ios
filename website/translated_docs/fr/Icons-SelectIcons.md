@@ -1,6 +1,6 @@
 ---
 id: select-icons
-title: Sélectionner vos icônes
+title: Choisir des icônes
 ---
 
 Ouvrez votre projet et cliquez sur la section Libellés et icônes.
@@ -18,3 +18,19 @@ Sélectionnez les icônes adaptées à vos champs :
 Voici le résultat final :
 
 ![Contact icon](assets/en/custom-icons/custom-icons-final-result.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,21 +3,19 @@ id: create-new-project
 title: 新規プロジェクト
 ---
 
-<div class = "objectives"> 
+> **OBJECTIVES**
+> 
+> Get familiar with the Project Editor.
 
-**OBJECTIVES**
-
-Get familiar with the Project Editor.</div> <div class = "prerequisites"> 
-
-**PREREQUISITES**
-
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！</div> 
+> **PREREQUISITES**
+> 
+> はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
 
 Let's take a look at how 4D for iOS works.
 
 Start your 4D application, open your current database, and go to **New > Mobile Project**.
 
-適当なプロジェクト名を英数字で入力した後， **作成**をクリックします。
+Give your project a name and click **Create**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
@@ -46,7 +44,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 
 The Build tab has four options:
 
-* ビルドして実行 
+* ビルドして実行
 * シミュレーター
 * プロジェクト
-* インストール
+* インストール 

@@ -9,26 +9,22 @@ En cuanto a las plantillas y formatos personalizados, puede crear botones relaci
 
 Para esto, ¡Nada más simple! Solo tiene que soltar su botón personalizado en su plantilla personalizada.
 
+
 Comencemos descargando el Proyecto Starter que incluye:
 
 * una base de datos con su proyecto móvil
 * un botón Relation estándar
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÓN STARTER PERSONALIZADO</a>
-
-  </p>
 </div>
 
 ## Integrar un botón
 
 El primer paso es incluir el botón button.xib en su plantilla personalizada para que 4D for iOS pueda utilizarlo.
 
-Para utilizar el botón, solo necesita colocarlo en la carpeta ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` 
+To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
@@ -74,19 +70,19 @@ Para hacerlo, abra el Identity Inspector.
 
 Seleccione su Botón y añada las dos líneas siguientes en el área User Defined Runtime Attributes:
 
-* **Key Path**: ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type:**: ```Number```
+* **Type**: `Number`
 
-* **Value**: ```12```
+* **Value**: `12`
 
 y
 
-* **Key Path**: ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type**: ```Booleano```
+* **Type**: `Boolean`
 
-* **Value**: seleccione la casilla
+* **Value**: Check the box
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
@@ -98,7 +94,7 @@ El resultado debe tener un aspecto como este:
 
 ### Tamaño y restricciones
 
-Tenga en cuenta que si **agrega restricciones** a su botón, también tendrá que modificar el archivo xib xml para **agregar algunas TAGS** como para las plantillas de formularios detallados personalizados. Esto permite que el botón se duplique correctamente cuando hay varias relaciones disponibles en la misma vista detallada.
+Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. Esto permite que el botón se duplique correctamente cuando hay varias relaciones disponibles en la misma vista detallada.
 
 ¡Qué conveniente, ya que planeamos agregar algunas restricciones!
 
@@ -110,11 +106,11 @@ Paso 1. Primero seleccione la vista y cambie la altura de 123 a 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Paso 2. Haga doble clic en **Top Space Constraint** y cambie su valor de 8 a 0
+Paso 2. Double click on the **Top Space Constraint** and change it from 8 to 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Paso 3. Haga lo mismo con **Bottom Space Constraint** y cambie su valor de 8 a 0
+Paso 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
 Debe obtener esto:
 
@@ -130,9 +126,10 @@ Debe obtener esto:
 
 Para indicar al editor de proyecto que todos los elementos incluidos en esta vista se duplicarán, debemos agregar un TAG a cada elemento y a cada restricción.
 
+
 ### Añadir TAGS
 
-Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al **Identity inspector**, verá sus identificadores de objetos:
+Cada elemento del storyboard tiene un identificador de objeto. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
@@ -144,7 +141,7 @@ Paso 1. Selecciónelo del Storyboard para obtener la identificación del objeto
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Paso 2. Busque esta ID en el archivo xml y remplácelo por **TAG-RL-007** (una etiqueta que aún no se utiliza).
+Paso 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
 Paso 3. Guarda el archivo xml
 
@@ -160,12 +157,7 @@ Paso 4. Concéntrese en el Storyboard para verificar si la restricción se ha ac
 
 En este tutorial, hemos cubierto los conceptos básicos para crear botones Relación. Haga clic en el botón Final Project abajo para descargar el botón de relaciones personalizado.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">BOTÓN PERSONALIZADO FINAL</a>
-
-  </p>
 </div>

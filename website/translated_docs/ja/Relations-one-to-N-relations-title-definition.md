@@ -9,23 +9,18 @@ title: １対Ｎタイトルの設定
 
 このレッスンでは，下記のプロジェクトを使用します。
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">タイトル素材プロジェクト</a>
-
-  </p>
 </div>
 
-「開く＞モバイルプロジェクト…」を選択してください。 *Time Keeper*プロジェクトを開いて「**ラベル＆アイコン**」にページを切り替えます。
+Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
 
-画面の下部を「リレーション」タブに切り替えて，*tasks*リレーションのタイトルを「**タイトル**」フィールドに入力します。 ```%Name% のタスク```
+From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: `%Name% tasks`
 
 ![「ラベル＆アイコン」リレーションのタイトル](assets/en/relations/labels-icons-title-definition.png)
 
-もうお気づきですね！このように定義すれば，直前の詳細画面に表示されていた**従業員**レコードの氏名フィールドに応じ，表示される値が変化するようになります。
+As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
 
 ![「ラベル＆アイコン」リレーションのタイトル](assets/en/relations/relations-title-definition.png)
 

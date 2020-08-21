@@ -5,20 +5,16 @@ title: Définir une première action
 
 Dans ce tutoriel, nous allons travailler sur une **application Tasks iOS** et voir comment gérer des actions dans cette application.
 
-Nous souhaitons essentiellement changer le **statut** et le **pourcentage d'achèvement** d'une tâche.
+Nous souhaitons essentiellement changer le **statut** et le **pourcentage d'achèvement** d'une tâche dans **Task app**.
 
 Plus globalement, nous souhaitons **modifier le statut de toutes les tâches** et le définir, par exemple, sur "reporté" et "en cours".
 
 Téléchargez le **projet Starter** et reportez-vous directement à la **section Actions**.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJET STARTER</a>
-
-  </p>
 </div>
 
 Comme nous l'avons vu dans la [documentation de la section Actions](actions.html#ios-app-side), vous pouvez définir l’action suir deux niveaux :
@@ -28,7 +24,8 @@ Comme nous l'avons vu dans la [documentation de la section Actions](actions.html
 
 Concentrons-nous d’abord sur les actions d'entité !
 
-## Actions d’entité
+
+## Actions d'entité
 
 ### ÉTAPE 1. Actions d'entité dans la section Actions
 
@@ -117,18 +114,18 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action is successful
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notifier l'App que l'action est réussie
+        $out.dataSynchro:=True  // notifier l'App d'actualiser cette entité
 
     Else
 
-        $out:=$status  // return status to the App
+        $out:=$status  // retourner le statut vers l'App
 
     End if
 
 Else
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notifier l'App que l'action a échoué
 
 End if
 
@@ -200,6 +197,7 @@ $0:=$result  // Informations returned to mobile application
 
 ```
 
+
 ### ÉTAPE 3. Créer une méthode "postponeAll"
 
 Tout comme vous avez créé la méthode **modifyStatus**, suivez les mêmes étapes et créez une nouvelle méthode **postponeAll** qui permettra de modifier le statut de tous les enregistrements :
@@ -223,8 +221,8 @@ If ($in.dataClass#Null)
 
     End for each
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notifier l'App que l'action est réussie
+    $out.dataSynchro:=True  // notifier l'App d'actualiser la sélection
 
 Else
 
@@ -242,18 +240,14 @@ Générez et exécutez votre projet ! Vous trouverez un nouveau **bouton génér
 
 ## Que faire ensuite ?
 
-Félicitations ! Vous venez d'ajouter 2 actions à votre application iOS. Vous pouvez désormais ajouter toutes les actions de votre choix à votre application Tasks !
+Félicitations ! Vous venez d'ajouter 2 actions à votre application iOS. Vous pouvez désormais ajouter toutes les actions nécessaires à votre application Tasks !
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
 Vous pouvez télécharger le **Projet Final** qui comprend diverses actions :
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJET FINAL</a>
-
-  </p>
 </div>

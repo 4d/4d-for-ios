@@ -3,11 +3,10 @@ id: deploy-in-house-distribution
 title: Distribuer une application interne
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Télécharger une application sur un serveur sécurisé.
 
-**OBJECTIFS**
-
-Télécharger une application sur un serveur sécurisé.</div> 
 
 ## ÉTAPE 1. Téléchargez votre application
 
@@ -17,19 +16,20 @@ Téléchargez votre application sur un serveur sécurisé :
 * Fichier manifest.plist
 * Fichier .ipa
 
-Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).<div class = "tips"> 
+Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribuer votre application à partir du moment où il est sécurisé (Dropbox, Google Drive, etc.).
 
-**NOTE**
-
-Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.</div> 
+> **NOTE**
+> 
+> Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.
 
 ## ÉTAPE 2. Créez le lien d’installation
 
 Créez un **lien de Services ITMS** (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :
 
-    itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
-    
-    
+```
+itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
+
+```
 
 Ce lien peut être utilisé pour l’envoi d’e-mails, intégré dans une page html, ou même dans un code QR.
 
@@ -59,4 +59,4 @@ Voici un exemple simple :
 
 * Vous pouvez ensuite accéder à votre application et l'ouvrir.
 
-Félicitations  ! you can now distribute your first app in-house!
+Félicitations ! Vous pouvez désormais distribuer votre première application interne !

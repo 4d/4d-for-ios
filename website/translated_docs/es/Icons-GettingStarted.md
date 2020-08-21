@@ -3,17 +3,14 @@ id: using-icons
 title: Utilizar los iconos
 ---
 
-<div class = "objectives"> 
+> **OBJETIVOS**
+> 
+> Utilizar sus propios iconos en sus proyectos 4D for iOS.
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
-**OBJETIVOS**
-
-Utilizar sus propios iconos en sus proyectos 4D for iOS.</div> <div class = "prerequisites"> 
-
-**REQUISITOS PREVIOS**
-
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.</div> 
-
-4D for iOS ya ofrece una serie de iconos en ** Etiquetas e iconos ** para tus tablas y campos.
+4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 
 ![Icon library](assets/en/custom-icons/icon-library.png)
 

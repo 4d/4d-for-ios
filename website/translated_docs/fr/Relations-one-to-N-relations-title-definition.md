@@ -1,6 +1,6 @@
 ---
 id: one-to-many-relations-title-definition
-title: 1 vers N - Définition du titre
+title: 1 vers N - Titre
 ---
 
 ### Définir un titre pour vos vues de destination
@@ -9,19 +9,14 @@ Pour garder une trace de la vue que vous étiez en train de visualiser dans votr
 
 Dans ce tutoriel nous utiliserons le projet suivant :
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJET STARTER DE DEFINITION DE TITRE</a>
-
-  </p>
 </div>
 
-Cliquez sur Ouvrir menu > Projet mobile... et sélectionnez *Time Keeper* puis cliquez sur **la section Libellés & icônes**.
+Rendez-vous directement dans le menu Ouvrir> Projet mobile ... sélectionnez *Time Keeper* puis dans la **section Étiquettes et icônes**.
 
-Ouvrez ensuite l'onglet Liens pour définir le titre du lien *tasks* et saisissez la ligne suivante dans **la colonnes Titles** : ```%Name% tasks```
+Ouvrez ensuite l'onglet Liens pour définir le titre du lien *tasks* et saisissez la ligne suivante dans **la colonnes Titles** : `%Name% tasks`
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 

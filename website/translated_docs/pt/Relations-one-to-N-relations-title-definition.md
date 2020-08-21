@@ -9,23 +9,18 @@ Para ter controle da vista que terá em seu app, 4D for iOS permite que defina u
 
 Neste tutorial, vamos usar o projeto abaixo:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJETO STARTER de DEFINIÇAO DE TITULO</a>
-
-  </p>
 </div>
 
-Clique em Open menu.Projeto Mobile... selecione *Time Keeper* e vá para a seção **Labels & Icons **.
+Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
 
-Depois disso, abra a aba relação para definir o título de relação em *tasks* e digite a linha abaixo na coluna **Títulos**: ```%Name% tasks```
+From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: `%Name% tasks`
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-Isso vai permitir que exiba **o valor do nome do Empregado** na vista destino dependendo do formulário detalhado Funcionários em que estava previamente.
+As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 

@@ -3,15 +3,13 @@ id: contact-app
 title: Application Contacts
 ---
 
-<div class = "objectives"> 
 
-**OBJECTIFS **
-
-Créer une toute première application avec 4D for iOS</div> <div class = "prerequisites"> 
-
-**CONDITIONS PRÉALABLES **
-
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
+> **OBJECTIFS**
+> 
+> Créer une toute première application avec 4D for iOS
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
 Ce tutoriel vous permettra de vous lancer directement dans le développement de 4D for iOS. Vous pourrez ainsi créer, rapidement et facilement, votre première application.
 
@@ -20,17 +18,12 @@ Ce tutoriel vous permettra de vous lancer directement dans le développement de 
 Nous allons créer une application de répertoire pour iPhone afin de rechercher des contacts dans une liste et d'afficher leurs coordonnées. Nous l’appellerons « Contacts ».
 
 ## ÉTAPE 1. Prise en main
-
 Téléchargez notre projet Starter (de prise en main) qui contient un fichier de base de données et l'icône du projet, mais qui n'inclut pas encore de projet mobile.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJET STARTER</a>
-
-  </p>
 </div>
 
 ## ÉTAPE 2. Création du projet
@@ -53,7 +46,7 @@ Cliquez sur **Continue**.
 
 Vous pourrez configurer ici les principales informations de votre application :
 
-* **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex. « Mon entreprise » et « com.MonEntreprise »).
+* **Organisation :** Entrez le nom de votre entreprise ainsi que l'identifiant de l’application (ex.MyCompany).
 * **Produit :** Entrez le nom de votre application. Appelons-la « Contacts ».
 * **ID :** (Bundle ID) généré automatiquement et composé de l’identifiant de votre entreprise et du nom de votre produit.
 * **Version :** Laissez la version 1.0 inchangée et renseignez les droits d’auteur de votre application. Il est fortement recommandé d’utiliser les formats fournis par 4D for iOS.
@@ -66,11 +59,12 @@ Vous pourrez configurer ici les principales informations de votre application :
 
 C’est dans cette section que vous définirez un sous-ensemble de vos données (tables et champs de la base) à afficher dans l'application.
 
-Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.<div class = "tips"> 
+Dans notre exemple, sélectionnons **ID**, **FirstName**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** et **Photo**.
 
-**NOTE**
+> **NOTE**
+> 
+> Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base
 
-Nous vous recommandons vivement de publier votre clé primaire afin d’identifier chaque enregistrement de votre base</div> 
 
 ![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
@@ -86,10 +80,10 @@ Définissons maintenant certains libellés et icônes pour les tables et champs 
 **Propriétés du champ :**
 
 * Définissez un court et un long libellé pour les champs que vous avez sélectionnés.
-* Cliquez sur le champ "Icônes" et choisissez des icônes pour chaque champ. Plusieurs options sont possibles : 
+* Cliquez sur le champ "Icônes" et choisissez des icônes pour chaque champ. Plusieurs options sont possibles :
     * Vous pouvez sélectionner une icône pour chaque champ.
     * Si au moins une icône a été définie et si les autres champs sont laissés vides, 4D for iOS vous génèrera des icônes par défaut.
-    * Vous pouvez simplement les laisser vides pour n'afficher aucune icône de champ. 
+    * Vous pouvez simplement les laisser vides pour n'afficher aucune icône de champ.
 
 ![Icons & Labels](assets/en/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
@@ -100,7 +94,7 @@ Définissons ensuite l'ordre des tables dans le menu de l'application.
 * **Tables disponibles :** Affiche la ou les tables à utiliser.
 * **Tables sélectionnées :** Affiche les éléments de menu de votre application. Notre exemple ne contient qu'un seul élément, mais il vous est possible de glisser et déposer vos éléments afin de les réordonner.
 
-![Main Menu](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
+![Menu](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## ÉTAPE 8. Sections - Formulaires
 
@@ -118,9 +112,10 @@ Nous avons presque terminé, mais il faut d’abord configurer la mise en page d
 
 Enfin, nous allons définir le formulaire détaillé.
 
-* Sélectionnez le modèle de formulaire qui convient le mieux à votre application. Pour notre application Contacts, nous allons utiliser le modèle **Visual Contact**.
+* Sélectionnez un template qui répond au mieux à vos besoins. Pour notre application Contacts, nous allons utiliser le modèle **Profile**.
 
 ![Detail form template](assets/en/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
+
 
 * Glissez et déposez le contenu dans les sections appropriées du modèle de formulaire détaillé, à savoir, First Name, Last Name et Photo.
 
@@ -132,21 +127,16 @@ Passons maintenant à la phase la plus amusante ! Il est temps de créer votre a
 
 * Cliquez sur l’onglet **Génération**.
 * Sélectionnez un appareil à utiliser en tant que Simulateur en cliquant sur le bouton "appareil".
-* Cliquez sur **Générer et exécuter**.
+* Cliquez sur  **Générer et exécuter**.
 * Patientez quelques secondes et ... le tour est joué ! Votre application iOS est créée !
 
-![Créer & exécuter](assets/en/contact-app/Build-the-app-simulator.png)
+![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
 
 ## ÉTAPE 10. Que faire ensuite ?
 
-Dans ce tutoriel, nous avons fait le tour des étapes de création d’une application basique. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous allez apprendre à créer une application plus complexe. Cliquez sur le bouton **Projet Final** ci-dessous pour télécharger la version finale de l’application Contacts.
+Dans ce tutoriel, nous avons fait le tour des étapes de création d’une application basique. Vous devriez maintenant être en mesure de créer, par vous-mêmes, de simples applications. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer une application encore plus complexe. Cliquez sur le bouton **Projet final** ci-dessous pour télécharger l'application Contact finale.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJET FINAL</a>
-
-  </p>
 </div>

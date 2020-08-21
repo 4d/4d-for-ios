@@ -10,7 +10,7 @@ La section Formulaires vous permet de sélectionner des modèles de formulaire L
 Voici la répartition de cet écran, de haut en bas :
 
 * **Les formulaires Liste et les formulaires détaillés :** permettent de basculer entre les formulaires Liste et les formulaires détaillés pour chaque table.
-* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure. 
+* **Les tables publiées :** affichent toutes les tables publiées dans la section Structure.
 * **Les formulaires disponibles :** permettent de basculer entre la sélection du modèle et la définition du contenu.
 
 ![List form template selection](assets/fr/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
@@ -27,30 +27,48 @@ Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’é
 
 ![Detail form template selection](assets/fr/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-Tout comme pour le formulaire Liste, sélectionnez un modèle et glissez-déposez vos champs sur votre formulaire détaillé.
+Tout comme pour le formulaire Liste, sélectionnez un modèle et ajoutez vos champs sur votre formulaire détaillé.
+
+Il existe plusieurs façons d'ajouter vos champs dans les formulaires détaillés :
+
+* Vous pouvez faire glisser et déposer des champs n'importe où dans la vue SVG pour les ajouter et les afficher juste après le dernier champ ajouté ou entre tout autre champ déjà affiché.
+
+* Double-cliquez sur un champ. Votre champ sera ajouté à la fin de la liste.
+
+* Faites un clic droit sur l'un des champs disponibles dans le tableau Champs à gauche : cela affichera un menu qui vous permettra d'ajouter tous les champs manquants à vos formulaires détaillés.
 
 ![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Vous pouvez ajouter entre 2 et 10 champs dans la plupart des formulaires Liste.
+Vous pouvez ajouter autant de champs que possible pour la plupart des formulaires détaillés disponibles.
 
-:::tip ASTUCES Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ?
+Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et le déposer à n'importe quel endroit de votre formulaire détaillé.
 
-Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs). :::
+> **ASTUCES**
+> 
+> * Vous souhaitez modifier le modèle de votre formulaire Liste ou de votre formulaire détaillé ? 
+> 
+> * Lorsque vous modifiez les modèles, les types de champs sont automatiquement reconnus, sauvegardés et placés dans les zones appropriées (selon les modèles et les types de champs).
+
 
 ## Galerie
 
-You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+Vous avez probablement remarqué que, lorsque vous souhaitez sélectionner un modèle dans la section Formulaires, une icône "Plus" est disponible pour les formulaires liste et les formulaires détaillés depuis 4D v18 R3.
 
-Just click on that icon to display the entire list.
+![Bouton Plus de template](assets/en/project-editor/Forms-more-button.png)
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Cliquez simplement sur cette icône pour afficher la liste entière.
 
-So you can directly start working on the template, as it is ready-to-use.
+![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is: * go to your resources * unzip the template * make the changes needed using Xcode.
+Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond à vos besoins. 4D for iOS se chargera de tout le processus d'installation pour vous aider à travailler plus rapidement et plus efficacement.
+
+Vous pouvez donc commencer directement à travailler sur le modèle, puisqu'il est prêt à l'emploi.
+
+> **ASTUCES**
+> 
+> La galerie est également disponible [en ligne](https://4d-for-ios.github.io/gallery/).
+
 
 ## Que faire ensuite ?
 
-* Un [tutoriel]() est disponible pour vous guider tout au long du **processus de définition d'une action**.
-
-* Another [tutorial]() will help you making **template update** if something is missing.
+La prochaine étape consiste à choisir un template qui répond à vos besoins, mais dans le cas où un élément serait manquant, un [tutoriel](gallery-template-update.html) vous aidera à effectuer une **mise à jour de template**.
