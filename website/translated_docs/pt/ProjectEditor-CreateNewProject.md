@@ -5,7 +5,7 @@ title: New Project
 
 > **OBJETIVOS**
 > 
-> Get familiar with the Project Editor.
+> Conheça o Editor de Projetos.
 
 
 > **PRÉ-REQUISITOS**
