@@ -3,15 +3,13 @@ id: action-custom-template
 title: Adding actions in templates
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Add actions to custom List and Detail forms templates.
-</div>
+> **OBJECTIVES**
+> 
+> Add actions to custom List and Detail forms templates.
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-Click [here](prerequisites.html) to see what you'll need to get started!
-</div>
+> **PREREQUISITES**
+> 
+> Click [here](prerequisites.html) to see what you'll need to get started!
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 

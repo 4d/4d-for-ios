@@ -69,17 +69,19 @@ Pode definir a posição, altura e largura para:
 5. Define the droppable field position, height, and width, as well as accepted **field types**
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-O campo pesquisável é opcional. 
+O campo pesquisável é opcional.
 
-<div markdown="1" class = "tips">
-**NOTA **
-All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
-</div>
-<
-div markdown="1" class = "tips">
-**TIP**
-To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
-To include all types, just type ios:type="all". </div>
+> **NOTA **
+> 
+> All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+
+
+> **DICA**
+> 
+> Para fazer com que a definição de tipo de campo seja mais fácil, 4D for iOS permite que inclua tipos de campo com  **valores positivos** e também excluir tipos de campos com **valores negativos**. Por exemplo, `ios:type="-3,-4"` permite que arraste e solte todos os campos exceto imagens e datas.
+> 
+> To include all types, just type ios:type="all".
+
 
 ### Área SectionField:
 

@@ -33,8 +33,8 @@ As with the List Form definition, select a template and drag and drop your field
 
 You can add as few as 2 or as many as 10 fields for most of the List Forms.
 
-<div markdown="1" class = "tips">
-**TIPS**
-Want to change the template for your list or detail form?
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
-</div>
+> **TIPS**
+> 
+> Want to change the template for your list or detail form? 
+> 
+> Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.

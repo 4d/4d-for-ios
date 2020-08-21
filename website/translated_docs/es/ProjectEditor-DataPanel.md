@@ -23,13 +23,12 @@ The **Production URL** must be entered from the **Publishing section** if you ch
 
 Aquí, también puede comprobar si el servidor está disponible y activarlo si es necesario.
 
-<div markdown="1" class = "tips">
-**NOTA**
+> **NOTA**
+> 
+> * Hay sugerencias disponibles para ayudarlo a garantizar que el servidor funcione correctamente.
+> * Puede acceder directamente al panel de publicación para definir su URL de producción.
+> * Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.
 
-* Hay sugerencias disponibles para ayudarlo a garantizar que el servidor funcione correctamente.
-* Puede acceder directamente al panel de publicación para definir su URL de producción.
-* Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.
-</div>
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
@@ -54,12 +53,13 @@ Puede definir los filtros por tabla, en función de los valores de campo:
 
 Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en un filtro de búsqueda definido.
 
-<div markdown="1" class = "tips">
-**EJEMPLO**
-In the **Filter query** field enter:
-`FirstName = 'Lisa' & LastName = 'Hart'`
-Esta búsqueda le permite mostrar solo los registros que incluyen "Lisa" y "Hart" en los campos FirstName y LastName.
-</div>
+> **EJEMPLO** 
+> 
+> In the **Filter query** field enter:
+> 
+> `FirstName = 'Lisa' & LastName = 'Hart'`
+> 
+> Esta búsqueda le permite mostrar solo los registros que incluyen "Lisa" y "Hart" en los campos FirstName y LastName.
 
 
 ### Filtrado con filtros de información de usuario
@@ -76,18 +76,20 @@ Puede definir filtros según la información del usuario que defina en el métod
 
 Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en información del usuario.
 
-<div markdown="1" class = "tips">
-**EJEMPLO**
-In the **Filter query** field enter:
-CityName = :city
-En el [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduzca:
-`$response.userInfo:=New object("city";"Paris")`
-Esta búsqueda le permite mostrar solo los registros que incluyen "Paris" como CityName.
-</div>
+> **EJEMPLO**
+> 
+> In the **Filter query** field enter:
+> 
+> CityName = :city
+> 
+> En el [método base On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html), introduzca:
+> 
+> `$response.userInfo:=New object("city";"Paris")`
+> 
+> Esta búsqueda le permite mostrar solo los registros que incluyen "Paris" como CityName.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Encontrará todas las reglas de sintaxis asociadas a la búsqueda en la [documentación de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-</div>
 
+> **NOTA**
+> 
+> Encontrará todas las reglas de sintaxis asociadas a la búsqueda en la [documentación de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
 

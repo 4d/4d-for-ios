@@ -3,22 +3,15 @@ id: deploy-app-store-app-store-connect
 title: Create App Store record
 ---
 
-<div markdown="1" class = "objectives">
+> **OBJECTIVES**
+>
+> * Create an App ID on your Developer Account
+> * Create your app in App Store Connect
 
-**OBJECTIVES**
 
-* Create an App ID on your Developer Account
-* Create your app in App Store Connect
-
-</div>
-
-<div markdown="1" class = "prerequisites">
-	
-**PREREQUISITES**
-
-[Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)
-
-</div>
+> **PREREQUISITES**
+> 
+> [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)
 
 
 ## STEP 1. Create an App ID
@@ -27,14 +20,11 @@ title: Create App Store record
 
 *An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*
 
-<div markdown="1" class = "tips">
+> **NOTE**
+> 
+> * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
+> * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
 
-**NOTE**
- 
-* If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
-* If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
-
-</div>
 
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
@@ -76,12 +66,9 @@ Add the following information:
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
-<div markdown="1" class = "tips">
-
-**NOTE**
-
-If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.
-</div>
+> **NOTE**
+> 
+> If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.
 
 ## STEP 4. App information
 
@@ -97,25 +84,17 @@ From App Store Connect > App Information:
 
 This is where you define the price for your app.
 
-<div markdown="1" class = "tips">
-
-**TIPS**
-
-You can define limited-time discounts by specifying start and end dates.
-
-</div>
+> **TIPS**
+>
+> You can define limited-time discounts by specifying start and end dates.
 
 ## STEP 6. Prepare for Submission
 
 Add all of the assets for your app to appear in the App Store in **Version Information**:
 
-<div markdown="1" class = "tips">
-
-**TIPS**
-
-You can generate all of your screenshots in Simulator (File > New Screen Shot).
-
-</div>
+> **TIPS**
+>
+> You can generate all of your screenshots in Simulator (File > New Screen Shot).
 
 ![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 

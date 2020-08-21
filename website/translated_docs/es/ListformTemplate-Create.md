@@ -3,15 +3,15 @@ id: creating-detailform-templates
 title: Plantillas de formularios Lista
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Crear su primera plantilla de formulario listado.
-</div>
+> **OBJETIVOS**
+> 
+> Crear su primera plantilla de formulario listado.
 
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
+
 
 In this tutorial, we'll cover nearly all aspects of creating a list form template such as: creating a list form with a **searchBar** and a table displaying an **image**, a **title**, and a **subtitle** for each cell.
 

@@ -3,15 +3,13 @@ id: action-custom-template
 title: テンプレートにアクションを追加する
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Add actions to custom List and Detail forms templates.
-</div>
+> **OBJECTIVES**
+> 
+> Add actions to custom List and Detail forms templates.
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-</div>
+> **PREREQUISITES**
+> 
+> はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 

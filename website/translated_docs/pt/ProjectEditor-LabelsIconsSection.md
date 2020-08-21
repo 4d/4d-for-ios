@@ -35,13 +35,12 @@ Para os campos, poderá definir as propriedades abaixo:
 
 Esses elementos serão mostrados em formulários detalhados e lista, dependendo no modelo no app gerado.
 
-<div markdown="1" class = "tips">
-**DICAS**
+> **DICAS**
+> 
+> * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field. 
+> 
+> * You can also leave the icon area empty if you don’t want to display icons in your application.
 
-* To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field.
-
-* You can also leave the icon area empty if you don’t want to display icons in your application.
-</div>
 
 ## Propriedades das relações
 

@@ -5,10 +5,11 @@ title: Ｎ対１リレーション
 
 4D v17 R5以降，Ｎ対１リレーションがサポートされるようになりました。
 
-<div markdown="1" class = "tips">
-**注記**
-In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
-</div>
+> **注記**
+> 
+> In this tutorial, we will use the relation names between your tables.
+
+> ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
 
 素材プロジェクトをダウンロードしてください。
 

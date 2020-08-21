@@ -22,8 +22,11 @@ Registered developers can download preview releases and prior versions of the su
 
 ## Version comparison table
 
-| Xcode | Swift | iOS | 4D | MacOS |
+| Xcode | Swift | iOS | 4D | macOS |
 |---|---|---|---|---|
+| 11.4 | 5.2 | OS 13.4|18.2|10.15.2|
+| 11.3.1 | 5.1.3 | iOS 13.3| 18.1 | 10.14.4 |
+| 11.3.1 | 5.1.3 | iOS 13.3| 18R2 | 10.14.4 |
 | 11.2 | 5.1 | iOS 13.2| 18 | 10.14.4 |
 | 10.2.1 | 5.0 | iOS 12.2 | 17R6 | 10.14.4 |
 | 10.2 | 4.2.1 | iOS 12.2 | 17R5 | 10.14.3 |

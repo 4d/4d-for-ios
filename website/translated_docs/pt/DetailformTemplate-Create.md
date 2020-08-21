@@ -3,15 +3,15 @@ id: creating-detailform-templates
 title: Modelos de formulário detalhado
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Create your first list form template.
-</div>
+> **OBJETIVOS**
+> 
+> Criar seu primeiro modelo de formulário listado.
 
-<div markdown="1" class = "prerequisites">
-**PRÉ-REQUISITOS**
-Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-</div>
+
+> **PRÉ-REQUISITOS**
+> 
+> Clique [aqui](prerequisites.html) para ver o que precisa para começar!
+
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 
@@ -26,7 +26,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
 </div>
 
 You are now ready to create your first detail form template !

@@ -33,8 +33,8 @@ Da mesma forma que com a definição de formulários Lista, selecione um modelo 
 
 Pode adicionar entre 2 a 10 campos para a maioria dos formulários Lista.
 
-<div markdown="1" class = "tips">
-**DICAS**
-Want to change the template for your list or detail form?
-Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
-</div>
+> **DICAS**
+> 
+> Want to change the template for your list or detail form? 
+> 
+> Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.

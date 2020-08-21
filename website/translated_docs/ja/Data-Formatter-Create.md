@@ -3,15 +3,13 @@ id: creating-data-formatter
 title: カスタムのデータフォーマッター
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Create your first data formatters.
-</div>
+> **OBJECTIVES**
+> 
+> Create your first data formatters.
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-</div>
+> **PREREQUISITES**
+> 
+> はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 

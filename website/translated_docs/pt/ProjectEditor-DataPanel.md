@@ -23,13 +23,12 @@ The **Production URL** must be entered from the **Publishing section** if you ch
 
 Aqui também pode checar se o servidor está disponível e ativá-lo se necessário.
 
-<div markdown="1" class = "tips">
-**NOTA **
+> **NOTA **
+> 
+> * Dicas estão disponíveis para ajudar a assegurar que o servidor funcione corretamente.
+> * Pode acessar diretamente o painel de Publicação para deifnir a URL da produção.
+> * Para acessar os dados do servidor de produção, é necessário um arquivo key para assegurar as comunicações.
 
-* Dicas estão disponíveis para ajudar a assegurar que o servidor funcione corretamente.
-* Pode acessar diretamente o painel de Publicação para deifnir a URL da produção.
-* Para acessar os dados do servidor de produção, é necessário um arquivo key para assegurar as comunicações.
-</div>
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
@@ -54,12 +53,13 @@ Pode definir os filtros por tabela, em função dos valores de campo:
 
 Quando um filtro de pesquisa for válido, um ícone funil aparece indicando que o filtro definido é baseado em um filtro de pesquisa definido.
 
-<div markdown="1" class = "tips">
-**EXEMPLO**
-In the **Filter query** field enter:
-`FirstName = 'Lisa' & LastName = 'Hart'`
-Esta pesquisa permite exibir apenas os registros que incluem"Lisa" como FirstName (nome) e "Hart" como LastName (sobrenome).
-</div>
+> **EXEMPLO** 
+> 
+> In the **Filter query** field enter:
+> 
+> `FirstName = 'Lisa' & LastName = 'Hart'`
+> 
+> Esta pesquisa permite exibir apenas os registros que incluem"Lisa" como FirstName (nome) e "Hart" como LastName (sobrenome).
 
 
 ### Filtrado com filtros de informação de usuário
@@ -76,18 +76,20 @@ Pode definir filtros dependendo da informação de usuário que definir no méto
 
 Quando um filtro de pesquisa for válido, um ícone de usuário aparecer para indicar que o filtro definido é baseado na informação de usuário.
 
-<div markdown="1" class = "tips">
-**EXEMPLO**
-In the **Filter query** field enter:
-CityName = :city
-No método banco de dados [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) ingresse:
-`$response.userInfo:=New object("city";"Paris")`
-Esta pequisa permite exibir apenas os registros que incluem "Paris" como CityName.
-</div>
+> **EXEMPLO**
+> 
+> In the **Filter query** field enter:
+> 
+> CityName = :city
+> 
+> No método banco de dados [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) ingresse:
+> 
+> `$response.userInfo:=New object("city";"Paris")`
+> 
+> Esta pequisa permite exibir apenas os registros que incluem "Paris" como CityName.
 
-<div markdown="1" class = "tips">
-**NOTA **
-Encontra todas as regras sobre as regras de sintaxe na documentação 4D [](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-</div>
 
+> **NOTA **
+> 
+> Encontra todas as regras sobre as regras de sintaxe na documentação 4D [](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
 

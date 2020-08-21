@@ -3,15 +3,13 @@ id: contact-app
 title: Aplicación Contacts
 ---
 
-<div markdown="1" class = "objectives">
-**OBJETIVOS**
-Cree su primera aplicación con 4D for iOS
-</div>
+> **OBJETIVOS**
+> 
+> Cree su primera aplicación con 4D for iOS
 
-<div markdown="1" class = "prerequisites">
-**REQUISITOS PREVIOS**
-Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-</div>
+> **REQUISITOS PREVIOS**
+> 
+> Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
 Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.
 
@@ -63,10 +61,9 @@ Es en esta sección donde definirá un subconjunto de sus datos (tablas y campos
 
 For our example, select **ID**, **First Name**, **Last Name**, **Job**, **Company**, **Phone**, **Notes** and **Photo**.
 
-<div markdown="1" class = "tips">
-**NOTA**
-Recomendamos publicar su llave primaria para identificar cada registro de su base
-</div>
+> **NOTA**
+> 
+> Recomendamos publicar su llave primaria para identificar cada registro de su base
 
 ![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 

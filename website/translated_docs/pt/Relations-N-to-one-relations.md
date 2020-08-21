@@ -5,10 +5,11 @@ title: Relações Muitos para Um
 
 4D v17 R5 inclui um novo conceito: as relações Muitos para Um (N a 1)
 
-<div markdown="1" class = "tips">
-**NOTA **
-In this tutorial, we will use the relation names between your tables. Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
-</div>
+> **NOTA **
+> 
+> In this tutorial, we will use the relation names between your tables.
+
+> Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
 
 Vamos começar baixando o Projeto Starter:
 

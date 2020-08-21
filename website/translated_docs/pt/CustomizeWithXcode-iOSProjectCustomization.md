@@ -1,6 +1,6 @@
 ---
 id: customize-your-ios-app
-title: Customize your 4D for iOS App
+title: Personalizar seu app 4D for iOS
 ---
 
 Let's do some storyboard modification ... from simple to complex.
@@ -71,13 +71,11 @@ Nesse ponto, todas as restrições de imagem de perfil devem estar em azul.
 
 Parabéns! Sua foto do perfil está agora bem posicionada com as restrições corretas.
 
-<div markdown="1" class = "tips">
-**DICAS**
-
-* To create a constraint between two views, press Ctrl and drag one of the views to the other. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
-
-* You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
-</div>
+> **DICAS**
+> 
+> * Para criar uma restrição entre duas vistas, pressione Ctrl e arraste uma das vistas para a outra. Quando soltar o botão do mouse, a Interface Builder mostra um menu com uma lista de possíveis restrições.
+> 
+> * Pode apagar restrições selecionando-as do inspector Size ou desde o Interface Builder.
 
 ## PASSO 4. Atualizar posições de etiqueta e restrições
 

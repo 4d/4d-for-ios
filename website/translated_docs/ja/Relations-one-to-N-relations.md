@@ -5,10 +5,13 @@ title: １対Ｎリレーション
 
 このレッスンでは，4D for iOSアプリで１対Ｎリレーションを使用する方法を学びます。
 
-<div markdown="1" class = "tips">
-**注記**
-In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
-</div>
+
+> **注記**
+> 
+> In this tutorial, we will use the relation names between your tables.
+
+> ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
+
 
 素材プロジェクトをダウンロードしてください。
 
@@ -37,11 +40,10 @@ This will now operate as any other field for the rest of the app creation proces
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)
 
-<div markdown="1" class = "tips">
-**ヒント**
+> **ヒント**
+> 
+> * On mouse over, a tip displays the table name originating the relation.
 
-* On mouse over, a tip displays the table name originating the relation.
-</div>
 
 ## Labels & Icons section
 

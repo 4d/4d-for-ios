@@ -3,15 +3,13 @@ id: actions-getting-started
 title: データベースを用意する
 ---
 
-<div markdown="1" class = "objectives">
-**OBJECTIVES**
-Use actions in the generated iOS app.
-</div>
+> **OBJECTIVES**
+> 
+> Use actions in the generated iOS app.
 
-<div markdown="1" class = "prerequisites">
-**PREREQUISITES**
-はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-</div>
+> **PREREQUISITES**
+> 
+> はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
 
 In 4D v17 R5, you can [define actions](actions.html) directly from the Project Editor and execute 4D code from your generated iOS app!
 

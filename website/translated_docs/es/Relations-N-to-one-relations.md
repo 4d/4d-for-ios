@@ -5,10 +5,11 @@ title: Relaciones Muchos a Uno
 
 4D v17 R5 incluye un nuevo concepto: las relaciones Muchos a Uno
 
-<div markdown="1" class = "tips">
-**NOTA**
-En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.
-</div>
+> **NOTA**
+> 
+> En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas.
+
+> Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.
 
 Comencemos descargando el Proyecto Starter:
 

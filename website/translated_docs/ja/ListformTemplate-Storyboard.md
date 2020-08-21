@@ -103,11 +103,12 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 ![ラベル行数](assets/en/custom-listform/label-lines-number.png)
 
-<div markdown="1" class = "tips">
-**注記**
-The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
-</div>
+> **注記**
+> 
+> The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+> 
+> ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
+
 
 ## セルにデータが表示されるようにする
 
