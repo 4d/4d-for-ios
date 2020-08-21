@@ -19,4 +19,4 @@ Desde aquí, aparecerá un menú para el simulador actual:
 
 * Abrir la carpeta del simulador actual
 
-* Open Application Simulator Folder. This will open a submenu for each application
+* Abra la carpeta Application Simulator. Esto abrirá un submenú para cada aplicación
