@@ -80,7 +80,7 @@
 <p>Pour chaque cellule, nous allons ajouter :</p>
 <ul>
 <li>Une photo de profil</li>
-<li>Un titre</li>
+<li>Titre</li>
 <li>Un sous-titre</li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="ouvrir-le-fichier-storyboard-avec-xcode"></a><a href="#ouvrir-le-fichier-storyboard-avec-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ouvrir le fichier storyboard avec Xcode</h2>
@@ -126,39 +126,41 @@
 <p>À partir de l’Attribute inspector, vous pouvez également personnaliser la police. Sélectionnez les deux libellés et sélectionnez Font &gt; Custom &gt; <strong>Helvetica Neue</strong> :</p>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/label-font-custom.png" alt="Label font custom"></p>
 <p>Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans la fenêtre Inspector, <strong>entrez la valeur 0 dans Lines</strong>. Ainsi, le nombre de lignes peut être illimité.</p>
-<p><img src="/4d-for-ios/docs/assets/en/custom-listform/label-lines-number.png" alt="Label lines number"><div class = "tips"></p>
+<p><img src="/4d-for-ios/docs/assets/en/custom-listform/label-lines-number.png" alt="Label lines number"></p>
+<blockquote>
 <p><strong>NOTE</strong></p>
 <p>Le Storyboard qui vous a été fourni est optimisé pour que la <strong>hauteur de cellule soit variable</strong> en fonction du contenu de chaque cellule.</p>
-<p><img src="/4d-for-ios/docs/assets/en/custom-listform/row-height-tableview-cell.png" alt="Row height tableview cell"></div></p>
+<p><img src="/4d-for-ios/docs/assets/en/custom-listform/row-height-tableview-cell.png" alt="Row height tableview cell"></p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="comment-entrer-des-données-dans-vos-cellules"></a><a href="#comment-entrer-des-données-dans-vos-cellules" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comment entrer des données dans vos cellules</h2>
 <h3><a class="anchor" aria-hidden="true" id="image-view"></a><a href="#image-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image View</h3>
 <p>Sélectionnez votre Vue Image, cliquez sur <strong>Identity inspector</strong> et allez dans User Defined Runtime Attributes. Cliquez sur le <strong>bouton +</strong> pour ajouter une ligne.</p>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/user-defined-runtime-attributes.png" alt="User defined runtime attributes"></p>
 <ul>
-<li><p><strong>Key Path</strong> : Commencer avec &quot;bindTo&quot; pour l'associer au composant. Entrez <code>bindTo.record.___FIELD_1___</code></p></li>
-<li><p><strong>Type</strong> : Toujours <code>String</code></p></li>
-<li><p><strong>Value</strong> : Le nom de l’attribut. Entrez <code>___FIELD_1_BINDING_TYPE___</code></p></li>
+<li><p>**Key Path **: commencez par bindTo pour activer la liaison sur le composant. Enter <code>bindTo.record.___FIELD_1___</code></p></li>
+<li><p><strong>Type</strong>: Always <code>String</code></p></li>
+<li><p><strong>Value</strong>: The attribute name. Enter <code>___FIELD_1_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/identity-inspector-storyboard.png" alt="Identity inspector storyboard"></p>
 <h3><a class="anchor" aria-hidden="true" id="libellés"></a><a href="#libellés" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Libellés</h3>
 <p>Sélectionnez le premier libellé et ajoutez une ligne dans la zone &quot;Defined Runtime Attributes&quot; :</p>
 <ul>
-<li><p><strong>Key Path</strong> : <code>bindTo.record.___FIELD_2___</code></p></li>
-<li><p><strong>Type</strong> : <code>String</code></p></li>
-<li><p><strong>Value</strong> : <code>___FIELD_2_BINDING_TYPE___</code></p></li>
+<li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_2___</code></p></li>
+<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Value</strong>: <code>___FIELD_2_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/field-2-binding.png" alt="Field 2 Binding"></p>
 <p>Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone &quot;Defined Runtime Attributes&quot; :</p>
 <ul>
-<li><p><strong>Key Path</strong> : <code>bindTo.record.___FIELD_3___</code></p></li>
-<li><p><strong>Type</strong> : <code>String</code></p></li>
-<li><p><strong>Value</strong> : <code>___FIELD_3_BINDING_TYPE___</code></p></li>
+<li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_3___</code></p></li>
+<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Value</strong>: <code>___FIELD_3_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/field-3-binding.png" alt="Field 3 Binding"></p>
 <p>Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les <strong>libellés du storyboard</strong> :</p>
 <ul>
-<li>Double-cliquez sur le premier libellé pour le modifier et entrez <code>___FIELD_2_LABEL___</code></li>
-<li>Double-cliquez sur le deuxième libellé pour le modifier et entrez <code>___FIELD_3_LABEL___</code></li>
+<li>Double-cliquez sur le premier libellé pour le modifier et saisissez <code>___FIELD_2_LABEL___</code></li>
+<li>Double-cliquez sur le deuxième libellé pour le modifier et saisissez <code>___FIELD_3_LABEL___</code></li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/storyboard-label-display-name.png" alt="Storyboard label display names"></p>
 <p>Ouvrez votre éditeur de projet, sélectionnez votre modèle de formulaire Liste depuis la section Formulaires, puis cliquez sur Créer &amp; exécuter.</p>
@@ -168,27 +170,26 @@
 <p>La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour améliorer la conception.</p>
 <p>Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :</p>
 <ul>
-<li><p><strong>Key Path</strong> : <code>cornerRadius</code></p></li>
-<li><p><strong>Type</strong> : <code>Number</code></p></li>
-<li><p><strong>Value</strong> : <code>12</code></p></li>
+<li><p><strong>Key Path</strong>: <code>cornerRadius</code></p></li>
+<li><p><strong>Type</strong>: <code>Number</code></p></li>
+<li><p><strong>Value</strong>: <code>12</code></p></li>
 </ul>
 <p>et</p>
 <ul>
-<li><p><strong>Key Path</strong> : <code>layer.masksToBounds</code></p></li>
-<li><p><strong>Type</strong> : <code>Boolean</code></p></li>
-<li><p><strong>Value</strong> : Cochez la case</p></li>
+<li><p><strong>Key Path</strong>: <code>layer.masksToBounds</code></p></li>
+<li><p><strong>Type</strong>: <code>Boolean</code></p></li>
+<li><p><strong>Value</strong>: Check the box</p></li>
 </ul>
 <p><img src="/4d-for-ios/docs/assets/en/custom-listform/imageview-corner-radius.png" alt="ImageView corner Radius"></p>
 <p>Vous pouvez désormais créer votre projet depuis l'éditeur de projet !</p>
 <p><img src="/4d-for-ios/docs/assets/custom-listform/custom-template-final-result.png" alt="Custom template final result"></p>
 <h2><a class="anchor" aria-hidden="true" id="que-faire-ensuite-"></a><a href="#que-faire-ensuite-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que faire ensuite ?</h2>
 <p>Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le <strong>Projet final</strong> ci-dessous pour télécharger le dossier contenant la liste complète de modèles.</p>
-<div style="text-align: center; margin-top: 20px">
-  <p>
-<p><a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a></p>
-  </p>
-</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/fr/svg-file-listform-template.html"><span class="arrow-prev">← </span><span>Template.svg</span></a><a class="docs-next button" href="/4d-for-ios/docs/fr/creating-detailform-templates.html"><span>Modèles de formulaires détaillés</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#ouvrir-le-fichier-storyboard-avec-xcode">Ouvrir le fichier storyboard avec Xcode</a></li><li><a href="#ajouter-une-image-view">Ajouter une &quot;Image View&quot;</a></li><li><a href="#ajouter-des-libellés-de-titre-et-de-sous-titre">Ajouter des libellés de titre et de sous-titre</a></li><li><a href="#personnaliser-le-libellé">Personnaliser le libellé</a></li><li><a href="#comment-entrer-des-données-dans-vos-cellules">Comment entrer des données dans vos cellules</a><ul class="toc-headings"><li><a href="#image-view">Image View</a></li><li><a href="#libellés">Libellés</a></li></ul></li><li><a href="#personnaliser-lapplication">Personnaliser l'application</a></li><li><a href="#que-faire-ensuite-">Que faire ensuite ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/docs/fr/svg-file-listform-template.html"><span class="arrow-prev">← </span><span>Template.svg</span></a><a class="docs-next button" href="/4d-for-ios/docs/fr/creating-detailform-templates.html"><span>Modèles de formulaires détaillés</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#ouvrir-le-fichier-storyboard-avec-xcode">Ouvrir le fichier storyboard avec Xcode</a></li><li><a href="#ajouter-une-image-view">Ajouter une &quot;Image View&quot;</a></li><li><a href="#ajouter-des-libellés-de-titre-et-de-sous-titre">Ajouter des libellés de titre et de sous-titre</a></li><li><a href="#personnaliser-le-libellé">Personnaliser le libellé</a></li><li><a href="#comment-entrer-des-données-dans-vos-cellules">Comment entrer des données dans vos cellules</a><ul class="toc-headings"><li><a href="#image-view">Image View</a></li><li><a href="#libellés">Libellés</a></li></ul></li><li><a href="#personnaliser-lapplication">Personnaliser l'application</a></li><li><a href="#que-faire-ensuite-">Que faire ensuite ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
