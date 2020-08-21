@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18 R3"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Créer un format de données · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div class = &quot;objectives&quot;&gt; "/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Créer un format de données · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/Rx/index.html"/><meta property="og:description" content="&lt;div class = &quot;objectives&quot;&gt; "/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/Rx/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/Rx/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/Rx/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="18 R3"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Créer un format de données · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Créer un format de données · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/Rx/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/Rx/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/Rx/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/Rx/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,11 +74,14 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Data-Formatter-Create.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Créer un format de données</h1></header><article><div><span><div class = "objectives"> 
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Data-Formatter-Create.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Créer un format de données</h1></header><article><div><span><blockquote>
 <p><strong>OBJECTIFS</strong></p>
-<p>Créer vos premiers formats de données.</div> <div class = "prerequisites"></p>
+<p>Créer vos premiers formats de données.</p>
+</blockquote>
+<blockquote>
 <p><strong>CONDITIONS PRÉALABLES</strong></p>
-<p>Cliquez <a href="prerequisites.html">ici</a> pour pouvoir commencer !</div></p>
+<p>Cliquez <a href="prerequisites.html">ici</a> pour pouvoir commencer !</p>
+</blockquote>
 <p>Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.</p>
 <h2><a class="anchor" aria-hidden="true" id="téléchargez-le-projet-starter"></a><a href="#téléchargez-le-projet-starter" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Téléchargez le projet Starter</h2>
 <p>Pour commencer, téléchargez le <strong>Projet Starter</strong>, qui comprend :</p>
@@ -86,11 +89,9 @@
 <li>Les dossiers <strong>integerToImage_Images</strong> et <strong>textToImage_Images</strong>, qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images)</li>
 <li>Un fichier <strong>Task Management.4dbase</strong> (accompagné d'une application de projet mobile prêt à l'emploi)</li>
 </ul>
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-<p><a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a></p>
-  </p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 </div>
 <p>Vous êtes maintenant prêts à créer vos premiers formats !</p>
 <h2><a class="anchor" aria-hidden="true" id="créez-le-dossier-formatters"></a><a href="#créez-le-dossier-formatters" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Créez le dossier formatters</h2>
@@ -103,7 +104,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 <li>Créez ensuite un fichier <strong>manifest.json</strong> dans le dossier <strong>integerToString</strong>.</li>
 </ul>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatter-folder-integertostring.png" alt="Formatter folder"></p>
-<p>Regardons le contenu du fichier <strong>manifest.json</strong> :</p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
 <pre><code class="hljs css language-json">{
    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToString"</span>,
 
@@ -123,14 +124,14 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 <h3><a class="anchor" aria-hidden="true" id="nombre-entier-vers-image"></a><a href="#nombre-entier-vers-image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nombre entier vers image</h3>
 <ul>
 <li><p>Créez un dossier <strong>integerToImage</strong> dans le dossier <strong>Formats</strong> que vous venez de créer.</p></li>
-<li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>integerToImage</strong>.</p></li>
+<li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>textToImage</strong>.</p></li>
 </ul>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatter-folder-integertoimage.png" alt="Formatter folder"></p>
 <ul>
 <li>Créez ensuite un dossier <strong>Images</strong> dans le dossier <strong>integerToImage</strong>. Vous pouvez ajouter les images de <strong>integerToImage_Images</strong> (dans StarterProject.zip) dans ce nouveau dossier.</li>
 </ul>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatter-images-integertoimage.png" alt="Formatter images"></p>
-<p>Regardons le contenu du fichier <strong>manifest.json</strong> :</p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToImage"</span>,
 
@@ -161,7 +162,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 <li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>textToString</strong>.</p></li>
 </ul>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatter-folder-texttostring.png" alt="Formatter folder"></p>
-<p>Regardons le contenu du fichier <strong>manifest.json</strong> :</p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToString"</span>,
 
@@ -188,7 +189,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 <li>Créez ensuite un dossier <strong>Images</strong> dans le dossier <strong>textToImage</strong>. Vous pouvez ajouter les images de <strong>textToImage_Images</strong> (dans StarterProject.zip) dans ce nouveau dossier.</li>
 </ul>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatter-images-textToImage.png" alt="Formatter images"></p>
-<p>Regardons le contenu du fichier <strong>manifest.json</strong> :</p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToImage"</span>,
 
@@ -206,8 +207,8 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 }
 
 </code></pre>
-<h2><a class="anchor" aria-hidden="true" id="ouvrez-un-projet-mobile"></a><a href="#ouvrez-un-projet-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ouvrez un projet mobile</h2>
-<p>Ouvrez Task Management.4dbase avec 4D et allez dans Fichier &gt; Ouvrir &gt; Projet mobile... pour ouvrir <strong>Tasks</strong></p>
+<h2><a class="anchor" aria-hidden="true" id="ouvrir-un-projet-mobile"></a><a href="#ouvrir-un-projet-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ouvrir un projet mobile</h2>
+<p>Ouvrez Task Management.4dbase et accédez au Fichier &gt; ouvrir &gt; Projet mobile...pour ouvrir <strong>Tasks</strong></p>
 <p>Accédez ensuite à la section <strong>Libellés et icônes</strong> dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :</p>
 <ul>
 <li>Sélectionnez le format <strong>integerToString</strong> pour <strong>Job field</strong></li>
@@ -220,12 +221,11 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 <p>Générez votre application 4D for iOS. Vous constatez que vos formats de données s'appliquent correctement en fonction du &quot;credit limit&quot;.</p>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/custom-formatter/formatters-final-result.png" alt="Text formatter"></p>
 <p>Cliquez sur le bouton <strong>FORMAT FINAL</strong> ci-dessous pour télécharger le dossier final des modèles de formats.</p>
-<div style="text-align: center; margin-top: 20px">
-  <p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <p><a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a></p>
-  </p>
-</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/Rx/docs/fr/data-formatter-build-and-run.html"><span class="arrow-prev">← </span><span>Créer et exécuter un projet</span></a><a class="docs-next button" href="/4d-for-ios/Rx/docs/fr/multi-criteria-search.html"><span>Recherche multicritères</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#téléchargez-le-projet-starter">Téléchargez le projet Starter</a></li><li><a href="#créez-le-dossier-formatters">Créez le dossier formatters</a></li><li><a href="#formats-des-entiers">Formats des entiers</a><ul class="toc-headings"><li><a href="#nombre-entier-vers-chaîne">Nombre entier vers chaîne</a></li><li><a href="#nombre-entier-vers-image">Nombre entier vers image</a></li></ul></li><li><a href="#formats-texte">Formats texte</a><ul class="toc-headings"><li><a href="#texte-vers-chaîne">Texte vers chaîne</a></li><li><a href="#texte-vers-image">Texte vers image</a></li></ul></li><li><a href="#ouvrez-un-projet-mobile">Ouvrez un projet mobile</a></li><li><a href="#générez-votre-application-4d-for-ios">Générez votre application 4D for iOS</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/Rx/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/Rx/docs/fr/data-formatter-build-and-run.html"><span class="arrow-prev">← </span><span>Créer et exécuter un projet</span></a><a class="docs-next button" href="/4d-for-ios/Rx/docs/fr/multi-criteria-search.html"><span>Recherche multicritères</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#téléchargez-le-projet-starter">Téléchargez le projet Starter</a></li><li><a href="#créez-le-dossier-formatters">Créez le dossier formatters</a></li><li><a href="#formats-des-entiers">Formats des entiers</a><ul class="toc-headings"><li><a href="#nombre-entier-vers-chaîne">Nombre entier vers chaîne</a></li><li><a href="#nombre-entier-vers-image">Nombre entier vers image</a></li></ul></li><li><a href="#formats-texte">Formats texte</a><ul class="toc-headings"><li><a href="#texte-vers-chaîne">Texte vers chaîne</a></li><li><a href="#texte-vers-image">Texte vers image</a></li></ul></li><li><a href="#ouvrir-un-projet-mobile">Ouvrir un projet mobile</a></li><li><a href="#générez-votre-application-4d-for-ios">Générez votre application 4D for iOS</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/Rx/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
