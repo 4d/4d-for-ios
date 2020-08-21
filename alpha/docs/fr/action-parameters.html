@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="alpha"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Utiliser des paramètres d&#x27;action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;div class = &quot;objectives&quot;&gt;"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Utiliser des paramètres d&#x27;action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/alpha/index.html"/><meta property="og:description" content="&lt;div class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/alpha/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="alpha"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Utiliser des paramètres d&#x27;action · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Utiliser des paramètres d&#x27;action · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/alpha/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/alpha/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,9 +74,10 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Utiliser des paramètres d&#x27;action</h1></header><article><div><span><div class = "objectives">
-**OBJECTIFS**
-Définir des paramètres d'action pour modifier le contenu de votre application.</div>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Actions-Parameters.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Utiliser des paramètres d&#x27;action</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<p>Définir des paramètres d'action pour modifier le contenu de votre application.</p>
+</blockquote>
 <p>Dans le <a href="define-first-action.html">tutoriel précédent</a>, nous avons appris à exécuter du code 4D à partir d'une application iOS en définissant des actions dans la <a href="actions.html">section Actions</a>.</p>
 <p>Dans ce tutoriel, nous irons encore plus loin et nous créerons :</p>
 <ul>
@@ -86,11 +87,9 @@ Définir des paramètres d'action pour modifier le contenu de votre application.
 <li>une action qui vous permettra d'<strong>envoyer par e-mail un commentaire relatif à une tâche spécifique</strong>.</li>
 </ul>
 <p>Pour commencer, téléchargeons d'abord le <strong>Projet Starter</strong>, basé sur notre application iOS Tasks.</p>
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJET STARTER</a>
-  </p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<p><a class="button"
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJET STARTER</a></p>
 </div>
 <h2><a class="anchor" aria-hidden="true" id="étape-1-action-dajout"></a><a href="#étape-1-action-dajout" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Action d'ajout</h2>
 <p>Commençons par une tâche simple. Ouvrez le projet mobile Tasks et cliquez directement sur la <strong>section Actions</strong>.</p>
@@ -166,7 +165,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"addTasks"</span>)
 
-          <span class="hljs-comment">// Insérer ici le code de l'action d'ajout</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Add…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -176,7 +175,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"editTasks"</span>)
 
-          <span class="hljs-comment">// Insérer ici le code de l'action d'édition</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Edit…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -188,7 +187,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"deleteTasks"</span>)
 
-          <span class="hljs-comment">// Insérer ici le code de l'action de suppression</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Remove"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -198,7 +197,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"sendComment"</span>)
 
-          <span class="hljs-comment">// Insérer ici le code de l'action d'envoi de commentaire</span>
+          <span class="hljs-comment">// Insérer ici le code pour l'action "Send Comment"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -230,7 +229,7 @@ End case</span>
 
 If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-literal">Null</span>)
 
-    <span class="hljs-variable">$entity</span>:=ds.Tasks.<span class="hljs-function">new</span>()  <span class="hljs-comment">//create a reference</span><span class="hljs-keyword">
+    <span class="hljs-variable">$entity</span>:=ds.Tasks.<span class="hljs-function">new</span>()  <span class="hljs-comment">//créer une référence</span><span class="hljs-keyword">
 
     For each</span> (<span class="hljs-variable">$key</span>;<span class="hljs-variable">$in</span>.parameters)
 
@@ -241,8 +240,8 @@ If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-li
     <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//sauvegarder l'entité</span>
 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'application que l'action est réussie</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">//notifier l'application pour mettre à jour la sélection</span>
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App que l'action est réussie</span>
+    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notifier l'App d'actualiser la sélection</span>
     <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task added"</span><span class="hljs-keyword">
 
 Else</span> 
@@ -410,11 +409,9 @@ End if</span>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/actions/Action-parameters-deleteAction.png" alt="Delete task"></p>
 <h2><a class="anchor" aria-hidden="true" id="étape-8-que-faire-ensuite-"></a><a href="#étape-8-que-faire-ensuite-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 8. Que faire ensuite ?</h2>
 <p>Félicitations ! Votre application iOS Tasks est désormais complète. Vous pouvez dès à présent modifier les données de votre application directement sur votre appareil et les synchroniser avec votre serveur !</p>
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p spaces-before="0">
-    <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROJET FINAL</a>
-  </p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<p><a class="button"
+href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROJET FINAL</a></p>
 </div>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/alpha/docs/fr/action-using-parameters.html"><span class="arrow-prev">← </span><span>Précédent</span></a><a class="docs-next button" href="/4d-for-ios/alpha/docs/fr/many-to-one-relations.html"><span>Liens N vers 1</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#étape-1-action-dajout">ÉTAPE 1. Action d'ajout</a></li><li><a href="#étape-2-action-dédition">ÉTAPE 2. Action d'édition</a></li><li><a href="#étape-3-action-de-suppression">ÉTAPE 3. Action de suppression</a></li><li><a href="#étape-4-action-denvoi-de-commentaire">ÉTAPE 4. Action d'envoi de commentaire</a></li><li><a href="#étape-5-création-de-la-méthode-base-sur-une-action-app-mobile">ÉTAPE 5. Création de la méthode base Sur une action app mobile</a></li><li><a href="#étape-6-création-de-toutes-les-méthodes-nécessaires">ÉTAPE 6. Création de toutes les méthodes nécessaires</a><ul class="toc-headings"><li><a href="#addaction">addAction</a></li><li><a href="#editaction">editAction</a></li><li><a href="#deleteaction">deleteAction</a></li><li><a href="#sendemail">sendEmail</a></li></ul></li><li><a href="#étape-7-génération-de-lapplication">ÉTAPE 7. Génération de l’application</a></li><li><a href="#étape-8-que-faire-ensuite-">ÉTAPE 8. Que faire ensuite ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/alpha/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2020 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
