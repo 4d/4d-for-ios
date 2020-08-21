@@ -18,7 +18,7 @@ The manifest file includes information about your list form template, such as th
 
 ```
 
-For example, the manifest file for the above list form template includes the following information:
+For example, the manifest file for the above list form template  includes the following information:
 
 1. **Storyboard type:** listform
 2. **Template Name:** Custom List form

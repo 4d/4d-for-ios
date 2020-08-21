@@ -1,6 +1,6 @@
 ---
 id: icon-listform-template
-title: Icône du formulaire Liste
+title: Icônes des formulaires Liste
 ---
 
 Vous avez la possibilité de créer votre propre icône pour le modèle de formulaire Liste.

@@ -3,22 +3,20 @@ id: deploy-app-store-archive-and-upload
 title: Archiver et télécharger un projet
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Archiver et publier un projet sur l'App Store Connect.
 
-**OBJECTIFS**
-
-Archiver et publier un projet sur l'App Store Connect.</div> 
 
 ## ÉTAPE 1. Configurez Xcode
-
-* Si vous avez choisi un compte Apple Developer, celui-ci est immédiatement disponible. 
+* Si vous avez choisi un compte Apple Developer, celui-ci est immédiatement disponible.
 * Si vous avez choisi un compte de développeur Apple en tant qu’entreprise, vous devez attendre la validation d’Apple.
 * Lorsque votre compte est accessible, ajoutez-le à Xcode dans Preferences > Accounts.
-* Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires. 
+* Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.
 
 ## ÉTAPE 2. Obtenez votre Team ID
 
-* Connectez-vous à votre compte de développeur Apple. Vous trouverez votre Team ID dans Membership.
+* Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.
 
 ![Obtenez votre Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
@@ -71,7 +69,7 @@ Archiver et publier un projet sur l'App Store Connect.</div>
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Vous devez ensuite re-signer votre application. Laisser à Xcode le soin de gérer cette étape en cochant l'option **Automatically manage signing**.
+* Ensuite, vous devez signer à nouveau votre application. Laissez Xcode gérer cela en cochant l'option **Automatically manage signing**.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
@@ -101,7 +99,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 8. Sélectionnez la version destinée à l’App Store
 
-* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **"+"** qui apparaît dans la section Build.
+* Depuis l’App Store Connect > App Store > iOS App, sélectionnez votre application et cliquez sur le bouton **"+"** qui apparaît dans la section Build
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
@@ -113,7 +111,7 @@ Une fois la validation terminée, vous êtes prêt à ajouter votre application 
 
 ## ÉTAPE 9. Envoyez pour révision
 
-* La dernière étape consiste à répondre à quelques questions sur votre application. 
+* La dernière étape consiste à répondre à quelques questions sur votre application.
 
 ![Envoyez pour révision](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 

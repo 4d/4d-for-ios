@@ -1,6 +1,6 @@
 ---
 id: define-first-action
-title: Defining your first action
+title: Definir sua primeira ação
 ---
 
 In this tutorial, we are going to work on a **Tasks iOS app** and see how to deal with actions in this app.
@@ -11,26 +11,23 @@ More globally, we want to **change all tasks status** to postponed or in Progres
 
 Download the **Starter project** and go right to the **Actions section**.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">STARTER PROJECT</a>
-
-  </p>
+href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJETO STARTER</a>
 </div>
 
-As we've seen before in the [Action section documentation](actions.html#ios-app-side), you can define action for two levels:
+Como vimos antes em [documentação de Ações](actions.html#ios-app-side), é possível definir ações em dois níveis:
 
-* Entity actions
-* Table actions
+* Ações de entidade
+* Ações de Tabela
 
-Let's focus first on Entity actions!
+Primeiro vamos ver ações de Entidade!
 
-## Entity actions
 
-### PASSO 1. Entity action in Action section
+## Ações de entidade
+
+### PASSO 1. Ações de entidade na seção Ação
 
 In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
 
@@ -40,7 +37,7 @@ The action section is quite empty when you open it for the first time, so click 
 
 Let's define first an action that will **change a task status** to "Complete" and put the **percentage of completion** to 100%.
 
-To define this action:
+Para definir essa ação:
 
 * Enter **taskDone** in **Names field**
 * Select the **Done icon** from the icon library
@@ -51,7 +48,7 @@ To define this action:
 
 ![Done action definition](assets/en/actions/Done-action-definition.png)
 
-### PASSO 2. Create and edit the Action Database Method
+### PASSO 2. Criar e editar o método Action Database
 
 Now that your action is defined in the Project Editor, you have to create the [**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database Method.
 
@@ -63,7 +60,7 @@ C_OBJECT($1)
 
 C_OBJECT($o;$context;$request;$result)
 
-$request:=$1  // Informations provided by mobile application
+$request:=$1  // Informações fornecidas pela aplicação móvel
 
 $context:=$request.context
 
@@ -80,16 +77,16 @@ Case of
 
     Else
 
-          // Unknown request
+          // Petição desconhecida
         $result:=New object("success";False)
 
 End case
 
-$0:=$result  // Informations returned to mobile application
+$0:=$result  // Informações retornadas para a aplicação móvel
 
 ```
 
-### PASSO 3. Create a "modifyStatus" Method
+### PASSO 3. Criar um método  "modifyStatus"
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
@@ -136,17 +133,17 @@ $0:=$out
 
 ```
 
-Build and Run you app and there you go! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
+Crie e Execute seu app e pronto! Your **Done action** is available when you swipe left a cell in Listform, as well as when you click on the **generic action button** in the navigation bar of the Detail form.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
-## Table actions
+## Ações de Tabela
 
-### PASSO 1. Table action in Action section
+### PASSO 1. Ações de Tabela na seção Ações
 
 Now, imagine that you are going on holidays and you want to **change all your tasks status** to "Postponed".
 
-Let's define this action from the Action section:
+Vamos definir esta ação a partir da seção Ações
 
 * Enter **postponeAll** in **Names field**
 * Select the **Postponed icon** from the icon library
@@ -157,7 +154,7 @@ Let's define this action from the Action section:
 
 ![Postponed action definition](assets/en/actions/PostponedAll-action-definition.png)
 
-### PASSO 2. Edit the Action method
+### PASSO 2. Modificar o método Ação
 
 Click on the **Edit button** at the bottom right of the action table to complete the **On Mobile App Action** database method :
 
@@ -167,7 +164,7 @@ C_OBJECT($1)
 
 C_OBJECT($o;$context;$request;$result)
 
-$request:=$1  // Informations provided by mobile application
+$request:=$1  // Informações fornecida por aplicação móvel
 
 $context:=$request.context
 
@@ -191,16 +188,17 @@ Case of
         $result:= postponeAll ($o)
     Else
 
-          // Unknown request
+          // Petição desconhecida
         $result:=New object("success";False)
 
 End case
 
-$0:=$result  // Informations returned to mobile application
+$0:=$result  // Informações retornadas para aplicação móvel
 
 ```
 
-### PASSO 3. Create a "postponeAll" Method
+
+### PASSO 3. Criar um método "postponeAll"
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
@@ -236,11 +234,11 @@ $0:=$out
 
 ```
 
-Build and Run your app! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
+Criar e Executar seu app! You will find a new **generic button** in the navigation bar of your Lisform. Click on it to trigger the **Postpone All** action.
 
 ![Final result Postponed Action](assets/en/actions/ListForm-table-action-tableview-tuto.png)
 
-## Where to Go From Here?
+## O que fazer agora?
 
 Parabéns! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
 
@@ -248,12 +246,8 @@ Parabéns! You've just added 2 actions to your iOS app. You are now able to add 
 
 You can download the **Final project** that includes various actions:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJETO FINAL</a>
-
-  </p>
 </div>

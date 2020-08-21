@@ -3,11 +3,9 @@ id: xcode-overview
 title: Présentation de Xcode
 ---
 
-<div class = "objectives"> 
-
-**OBJECTIFS**
-
-Comprendre le fonctionnement de Xcode.</div> 
+> **OBJECTIFS**
+> 
+> Comprendre le fonctionnement de Xcode.
 
 Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
@@ -17,7 +15,7 @@ Nous allons passer en revue les différentes zones qui s'affichent dans Xcode :
 
 * Les boutons **Run** et **Stop** sont situés à gauche de la barre d'outils. Le bouton **Run** permet de créer, d'exécuter et de lancer votre application dans le simulateur iOS sélectionné.
 
-![Créer & exécuter](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
+![Build and Run](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
 * Le menu déroulant situé à côté du bouton **Stop** indique les éléments que vous souhaitez exécuter ainsi que le simulateur qui est utilisé.
 
@@ -98,9 +96,9 @@ Plusieurs onglets sont inclus ici, notamment :
 ![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
 * **L'onglet "Issue navigator" (navigateur d'alertes)** : affiche toutes les erreurs issues d'un projet iOS.
-    
-    * Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application. 
-    * Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application. 
+
+    - Les erreurs affichées en rouge correspondent à des problèmes critiques qui doivent être résolus pour pouvoir générer votre application.
+    - Les erreurs affichées en jaune correspondent à des alertes susceptibles de poser problème, mais qui ne bloquent pas la génération de l’application.
 
 Vous pouvez cliquer sur les erreurs et les alertes pour les visualiser dans le projet.
 

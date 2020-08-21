@@ -9,26 +9,22 @@ De même que les templates et formats personnalisés, vous pouvez créer des Bou
 
 Et pour cela, rien de plus simple ! Il vous suffit de déposer votre bouton personnalisé dans votre template personnalisé.
 
+
 Commençons par télécharger le Projet Starter, qui comprend :
 
 * une base de données et son projet mobile
 * un bouton Relation standard
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER BUTTON PERSONNALISE</a>
-
-  </p>
 </div>
 
 ## Intégrer un bouton
 
 La première étape consiste à intégrer un bouton .xib dans votre template personnalisé, afin qu'il soit intégré dans l'application.
 
-Pour utiliser le bouton, vous devez le déposer dans le dossier ```YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact``` .
+To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
@@ -74,19 +70,19 @@ Pour ce faire, ouvrez l'Identity Inspector.
 
 Sélectionnez votre Bouton et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path** : ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type** : ```Number```
+* **Type**: `Number`
 
-* **Value** : ```12```
+* **Value**: `12`
 
 et
 
-* **Key Path** : ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type** : ```Boolean```
+* **Type**: `Boolean`
 
-* **Value** : Cochez la case
+* **Value**: Check the box
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
@@ -130,9 +126,10 @@ Vous devriez obtenir ceci :
 
 Pour informer l'éditeur de projet que tous les éléments compris dans cette vue seront dupliqués, nous devons ajouter un TAG à chaque élément et à chaque contrainte.
 
+
 ### Ajouter des TAGS
 
-Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si vous sélectionnez Field View 2 et que vous accédez au **Identity inspector**, vous visualiserez ses identifiants d'objets :
+Chaque élément du storyboard possède un identifiant d'objet. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
@@ -160,12 +157,7 @@ Et voilà ! Votre bouton est maintenant entièrement duplicable si vous avez plu
 
 Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de boutons Relation. Cliquez sur le Projet final ci-dessous pour télécharger le bouton de liens personnalisé.
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">BOUTON PERSONNALISE FINAL</a>
-
-  </p>
 </div>

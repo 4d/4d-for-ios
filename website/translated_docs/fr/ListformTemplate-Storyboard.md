@@ -12,7 +12,7 @@ Voici le résultat que nous souhaitons obtenir :
 Pour chaque cellule, nous allons ajouter :
 
 * Une photo de profil
-* Un titre 
+* Titre
 * Un sous-titre
 
 ## Ouvrir le fichier storyboard avec Xcode
@@ -101,27 +101,26 @@ Vous pouvez également sélectionner la couleur principale de votre application 
 
 Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans la fenêtre Inspector, **entrez la valeur 0 dans Lines**. Ainsi, le nombre de lignes peut être illimité.
 
-![Label lines number](assets/en/custom-listform/label-lines-number.png)<div class = "tips"> 
+![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
-**NOTE**
-
-Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
-
-![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)</div> 
+> **NOTE**
+> 
+> Le Storyboard qui vous a été fourni est optimisé pour que la **hauteur de cellule soit variable** en fonction du contenu de chaque cellule.
+> 
+> ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
 ## Comment entrer des données dans vos cellules
 
 ### Image View
-
 Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Key Path **: commencez par bindTo pour activer la liaison sur le composant. Enter `bindTo.record.___FIELD_1___`
 
-* **Type** : Toujours ```String```
+* **Type**: Always `String`
 
-* **Value** : Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
@@ -129,28 +128,28 @@ Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans 
 
 Sélectionnez le premier libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path** : ```bindTo.record.___FIELD_2___```
+* **Key Path**: `bindTo.record.___FIELD_2___`
 
-* **Type** : ```String```
+* **Type**: `String`
 
-* **Value** : ```___FIELD_2_BINDING_TYPE___```
+* **Value**: `___FIELD_2_BINDING_TYPE___`
 
 ![Field 2 Binding](assets/en/custom-listform/field-2-binding.png)
 
 Sélectionnez le deuxième libellé et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
 
-* **Key Path** : ```bindTo.record.___FIELD_3___```
+* **Key Path**: `bindTo.record.___FIELD_3___`
 
-* **Type** : ```String```
+* **Type**: `String`
 
-* **Value** : ```___FIELD_3_BINDING_TYPE___```
+* **Value**: `___FIELD_3_BINDING_TYPE___`
 
 ![Field 3 Binding](assets/en/custom-listform/field-3-binding.png)
 
 Pour avoir une meilleure visibilité, vous avez la possibilité de modifier les **libellés du storyboard** :
 
-* Double-cliquez sur le premier libellé pour le modifier et entrez ```___FIELD_2_LABEL___```
-* Double-cliquez sur le deuxième libellé pour le modifier et entrez ```___FIELD_3_LABEL___```
+* Double-cliquez sur le premier libellé pour le modifier et saisissez `___FIELD_2_LABEL___`
+* Double-cliquez sur le deuxième libellé pour le modifier et saisissez `___FIELD_3_LABEL___`
 
 ![Storyboard label display names](assets/en/custom-listform/storyboard-label-display-name.png)
 
@@ -166,19 +165,19 @@ La dernière étape consiste à ajouter un bord arrondi à la vue d'image pour a
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path** : ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type** : ```Number```
+* **Type**: `Number`
 
-* **Value** : ```12```
+* **Value**: `12`
 
 et
 
-* **Key Path** : ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type** : ```Boolean```
+* **Type**: `Boolean`
 
-* **Value** : Cochez la case
+* **Value**: Check the box
 
 ![ImageView corner Radius](assets/en/custom-listform/imageview-corner-radius.png)
 
@@ -190,12 +189,11 @@ Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de modèles de formulaires Liste. Vous êtes maintenant en mesure de créer vous-mêmes de simples modèles à l'aide des ressources du projet Starter. Mais ce n'est fini ! Dans le prochain tutoriel, vous apprendrez à créer des modèles de formulaires détaillés ! Cliquez sur le **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
-
-  </p>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 </div>
+
+
+
+

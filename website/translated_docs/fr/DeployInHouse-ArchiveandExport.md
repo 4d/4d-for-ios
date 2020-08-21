@@ -3,19 +3,19 @@ id: deploy-in-house-archive-and-export
 title: Archiver et exporter un projet
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> * Archiver et exporter un projet 4D for iOS
+> * Générer des fichiers .ipa et des fichiers manifest
 
-**OBJECTIFS**
 
-* Archiver et exporter un projet 4D for iOS
-* Générer des fichiers .ipa et des fichiers manifest</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> * [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
+> * Un serveur Web sécurisé
+> * Une icône de résolution 57 x 57 px
+> * Une icône de résolution 512 x 512 px
 
-**CONDITIONS PRÉALABLES**
-
-* [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
-* Un serveur Web sécurisé
-* Une icône de résolution 57 x 57 px
-* Une icône de résolution 512 x 512 px</div> 
 
 ## ÉTAPE 1. Configurez Xcode
 
@@ -34,15 +34,14 @@ Xcode installera automatiquement les certificats et les éléments de provisioni
 * Lancez 4D for iOS
 
 * Dans l’onglet SECTIONS :
-    
+
     * Général : Saisissez votre Team ID.
-    
+
     ![Enterprise-Team-ID](assets/fr/deploy-in-house/Enterprise-Team-ID.png)
-    
+
     * Publication : Entrez votre URL de production (HTTP est obligatoire pour le déploiement).
 
 * Dans l’onglet GÉNÉRATION :
-    
     * Créer & exécuter : Créez votre projet.
 
 ## ÉTAPE 4. Ouvrez votre projet avec Xcode
@@ -144,6 +143,7 @@ Voici un exemple de fichier manifest.plist :
 </plist>
 ```
 
+
 ## ÉTAPE 9. Informations sur la distribution du manifest
 
 * Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.
@@ -151,6 +151,7 @@ Voici un exemple de fichier manifest.plist :
 ![Informations sur la distribution du manifest](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Cliquez sur **Next**.
+
 
 ## ÉTAPE 10. Re-signez votre application
 

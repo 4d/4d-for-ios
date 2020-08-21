@@ -11,7 +11,7 @@ Voici le résultat que nous souhaitons obtenir :
 
 Pour chaque cellule, nous allons ajouter :
 
-* Une photo de profil dans l'en-tête 
+* Une photo de profil dans l'en-tête
 * Un champ à dupliquer
 
 ## Ouvrir le fichier storyboard avec Xcode
@@ -28,9 +28,11 @@ Pour que notre formulaire détaillé soit déroulant, la première étape consis
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
+
 À partir du **Size inspector** (sur le côté droit de l’Interface Builder), définissez la largeur de la Scroll vue à 359 et la valeur de sa hauteur à 667. Définissez ensuite la valeur de X sur 8 et la valeur de Y sur 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
+
 
 Ajoutez ensuite quatre contraintes en cliquant sur le bouton **Add New Constraints** (Trailing: 8, Leading: 8, Top: 0, et Bottom: Multiple) comme suit :
 
@@ -53,6 +55,7 @@ Glissez et déposez une vue depuis la **bibliothèque d'objets** vers la Stack V
 Faites ensuite glisser directement une autre vue depuis la **bibliothèque d'objets** et déposez-la dans le "Document Outline" au même niveau que Field View 1 (pour l’intégrer à la Stack View) et nommez-la **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
+
 
 Pour ajouter des espaces entre les vues, sélectionnez votre "Stack View" et affectez-lui une valeur d’espacement de 8 (dans l’Attributes Inspector).
 
@@ -84,7 +87,7 @@ Maintenant que vous disposez de deux vues dans votre Stack View et que vous avez
 
 ## Ajoutez une Image View au Field View 1
 
-À partir de l'**Object library** (la bibiliothèque d'objets), glissez-déposez une **Image View** (une vue d'image) dans Field View 1.
+À partir de l'**Object library** (la bibiliothèque d'objets), glissez-déposez une  **Image View** (une vue d'image) dans Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
@@ -108,7 +111,7 @@ Dans la **bibliothèque d'objets**, glissez-déposez un **Libellé** dans Field 
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double-cliquez sur le libellé et nommez-le "```___FIELD_LABEL___```". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 18.0** et la couleur **BackgroundColor** :
+Double click on the label and name it "`___FIELD_LABEL___`". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 18.0** et la couleur **BackgroundColor** :
 
 ![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
 
@@ -118,7 +121,7 @@ Dupliquez le libellé Titre et définissez la largeur du libellé dupliqué sur 
 
 ![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double-cliquez sur le libellé et nommez-le "```<___FIELD_LABEL___>```". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 20.0** et la couleur **Black Color** :
+Double click on the label and name it "`<___FIELD_LABEL___>`". Ensuite, à partir de l'**attribute inspector**, sélectionnez la police **Helvetica Neue Light 20.0** et la couleur **Black Color** :
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
@@ -131,36 +134,35 @@ La partie sur les éléments graphiques est terminée ! Toutes vos contraintes s
 ## Comment entrer des données dans vos cellules
 
 ### Image View
-
 Sélectionnez votre Vue Image, cliquez sur **Identity inspector** et allez dans User Defined Runtime Attributes. Cliquez sur le **bouton +** pour ajouter une ligne.
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path** : Commencer avec "bindTo" pour l'associer au composant. Entrez ```bindTo.record.___FIELD_1___```
+* **Key Path**: Start with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
 
-* **Type**: Toujours ```String```
+* **Type**: Always `String`
 
-* **Value**: Le nom de l’attribut. Entrez ```___FIELD_1_BINDING_TYPE___```
+* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
 ### Libellés
 
-Pour le **premier libellé**, nous allons ajouter plusieurs lignes, principalement pour afficher des icônes : 
+Pour le **premier libellé**, nous allons ajouter plusieurs lignes, principalement pour afficher des icônes :
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-Vous devez également définir la Classe sur ```IconLabel``` et cocher la case **Inherit Module From Target**, tel qu'illustré ci-dessous :
+You also need to set the Class to `IconLabel` and check the **Inherit Module From Target** checkbox as we can see below:
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
-Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defined Runtime Attributes" :
+Select the **second label** and add a row in the Defined Runtime Attributes:
 
-* **Key Path** : ```bindTo.record.___FIELD___```
+* **Key Path**: `bindTo.record.___FIELD___`
 
-* **Type** : ```String```
+* **Type**: `String`
 
-* **Value** : ```___FIELD_BINDING_TYPE___```
+* **Value**: `___FIELD_BINDING_TYPE___`
 
 ![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
@@ -168,7 +170,7 @@ Sélectionnez le **deuxième libellé** et ajoutez une ligne dans la zone "Defin
 
 Field View 2 inclut des éléments qui seront dupliqués, pour vous permettre d'avoir autant de champs que d'éléments définis dans l’éditeur de projet.
 
-Chaque élément du storyboard possède un identifiant d'objet. Par exemple, si vous sélectionnez Field View 2 et que vous accédez au **Identity inspector**, vous visualiserez ses identifiants d'objets :
+Chaque élément du storyboard possède un identifiant d'objet. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
 
 ![Object ID Storyboard](assets/en/custom-detailform/object-id-storyboard.png)
 
@@ -222,35 +224,35 @@ Ce n'est pas si mal pour un premier essai ! :)
 
 Field View 2 a bien été dupliqué ! Voyons comment rendre cette application un peu plus intéressante !
 
-### Personnaliser votre application
+### Personnaliser l'application
 
 Nous allons ajouter un bord arrondi à l'Image View et à Field View 2.
 
 Sélectionnez votre Vue Image et ajoutez les deux lignes suivantes dans la zone User Defined Runtime Attributes :
 
-* **Key Path** : ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type** : ```Number```
+* **Type**: `Number`
 
-* **Value** : ```12```
+* **Value**: `12`
 
 et
 
-* **Key Path** : ```layer.masksToBounds```
+* **Key Path**: `layer.masksToBounds`
 
-* **Type** : ```Boolean```
+* **Type**: `Boolean`
 
-* **Value** : Cochez la case
+* **Value**: Check the box
 
 ![iPhone Demo](assets/en/custom-detailform/imageview-corner-radius.png)
 
-Sélectionnez ensuite Field View 2 et ajoutez ce qui suit : 
+Sélectionnez ensuite Field View 2 et ajoutez ce qui suit :
 
-* **Key Path** : ```cornerRadius```
+* **Key Path**: `cornerRadius`
 
-* **Type** : ```Number```
+* **Type**: `Number`
 
-* **Value** : ```12```
+* **Value**: `12`
 
 ![iPhone Demo](assets/en/custom-detailform/fieldview2-corner-radius.png)
 
@@ -262,12 +264,11 @@ Vous pouvez désormais créer votre projet depuis l'éditeur de projet !
 
 Dans ce tutoriel, nous avons fait le tour des fondamentaux de la création de modèles de formulaires détaillés. Vous êtes maintenant en mesure de créer vous-même de simples modèles à l'aide des ressources du projet Starter. Cliquez sur le bouton **Projet final** ci-dessous pour télécharger le dossier contenant la liste complète de modèles.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">MODÈLE FINAL DE FORMULAIRE DÉTAILLÉ PERSONNALISÉ</a>
-
-  </p>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">MODÈLE FINAL DE FORMULAIRE DÉTAILLÉ PERSONNALISÉ</a>
 </div>
+
+
+
+

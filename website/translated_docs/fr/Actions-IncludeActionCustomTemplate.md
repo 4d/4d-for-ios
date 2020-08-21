@@ -3,19 +3,19 @@ id: action-custom-template
 title: Ajouter des actions aux modèles
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.
 
-**OBJECTIFS**
 
-Ajouter des actions aux modèles de formulaires Liste et formulaires détaillés personnalisés.</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
-**CONDITIONS PRÉALABLES**
-
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous verrons qu'il est très simple d'**ajouter des actions aux modèles personnalisés**.
 
-## ÉTAPE 1. Télécharger le projet Starter
+## ÉTAPE 1. Téléchargez le projet Starter
 
 Pour commencer, téléchargez le Projet Starter, qui comprend :
 
@@ -23,21 +23,17 @@ Pour commencer, téléchargez le Projet Starter, qui comprend :
 * 1 modèle de formulaire détaillé personnalisé (TasksDetail)
 * un fichier Tasks.4dbase
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJET STARTER</a>
-
-  </p>
 </div>
 
 ## ÉTAPE 2. Ajouter des formats personnalisés au projet 4D for iOS
 
 Tout d'abord, déposez :
 
-* les dossiers des modèles **TasksList** et **TasksCollection** dans le dossier *Tasks.4dbase/Resources/Mobile/form/list* 
+* les dossiers des modèles **TasksList** et **TasksCollection** dans le dossier *Tasks.4dbase/Resources/Mobile/form/list*
 
 ![Modèles de formulaire liste](assets/en/actions/Listform-templates.png)
 
@@ -49,7 +45,7 @@ Tout d'abord, déposez :
 
 Comme nous l'avons vu dans la [description de la section Actions](actions.html), deux types d'actions sont disponibles (actions de table et actions d'entité).
 
-Ouvrons, dans un premier temps, le fichier ```list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` 
+D'abord, ouvrons le fichier Storyboard `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`
 
 ### Ajouter des actions au modèle personnalisé TasksList
 
@@ -57,19 +53,20 @@ Ouvrons, dans un premier temps, le fichier ```list/TasksList/Sources/Forms/Table
 
 Sélectionnez le **List form Controller** et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___TABLE_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___TABLE_ACTIONS___`
 
 ![Add table action tag](assets/en/actions/Add-table-tag-taskslist.png)
+
 
 #### B. Ajouter un Tag d'action d'entité
 
 Sélectionnez la vue Animatable Table et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___ENTITY_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___ENTITY_ACTIONS___`
 
 ![Add entity action tag](assets/en/actions/Add-entity-tag-taskslist.png)
 
@@ -83,7 +80,7 @@ Ajoutons maintenant les tags d'actions au modèle personnalisé TasksCollection
 
 ### Ajouter des actions au modèle personnalisé TasksCollection
 
-Pour ce faire, ouvrez le fichier ```list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard``` 
+Pour ce faire, ouvrez le fichier Storyboard `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`
 
 #### A. Ajouter un Tag d'action de table
 
@@ -91,9 +88,9 @@ Le processus est quasiment identique à celui du modèle personnalisé TasksList
 
 Sélectionnez le **List form Controller** et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___TABLE_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___TABLE_ACTIONS___`
 
 ![Add collection table action tag](assets/en/actions/Add-collection-table-tag-taskslist.png)
 
@@ -105,21 +102,22 @@ Ainsi, avec les vues de collection, la meilleure façon d'afficher les actions e
 
 Pour ce faire, sélectionnez la cellule collectionView et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___ENTITY_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___ENTITY_ACTIONS___`
 
 ![Add collection entity action tag](assets/en/actions/Add-collection-entity-tag-taskslist.png)
 
 Pour optimiser l'interaction, vous pouvez ajouter un effet scalaire avec un retour haptique qui ajoutera la ligne suivante dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```touch.zoomScale```
-* Type : ```Number```
-* Value : ```0,96``` (adaptez le rapport d'échelle en fonction du résultat que vous souhaitez obtenir)
+* Key Path: `touch.zoomScale`
+* Type: `Number`
+* Value: `0,96` (adaptez le rapport d'échelle en fonction du résultat que vous souhaitez obtenir)
 
 Vous pouvez sélectionner le modèle personnalisé TasksCollection depuis la **section Formulaires** et ajouter les champs suivants :
 
 ![TasksCollection Forms section](assets/en/actions/listform-taskscollection-forms-section.png)
+
 
 ## ÉTAPE 4. Ajouter des actions dans les formulaires détaillés
 
@@ -127,23 +125,23 @@ Dans les formulaires détaillés, vous pouvez utiliser le **bouton générique**
 
 Pour le bouton générique intégré à la barre de navigation, sélectionnez le Controller et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___ENTITY_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___ENTITY_ACTIONS___`
 
 ![Add detailform entity action tag](assets/en/actions/Detail-form-action-navigationBar.png)
 
-Dans ce tutoriel, nous souhaitons créer notre propre bouton générique. Pour ce faire, ouvrez le fichier ```detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard``` 
+Dans ce tutoriel, nous souhaitons créer notre propre bouton générique. Pour ce faire, ouvrez le fichier Storyboard `detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard`.
 
 Ouvrez-le, sélectionnez le bouton situé en bas à droite et ajoutez cette ligne dans le **User Defined Runtime Attributes** (Identity inspector) :
 
-* Key Path : ```actions```
-* Type : ```String```
-* Value : ```___ENTITY_ACTIONS___```
+* Key Path: `actions`
+* Type: `String`
+* Value: `___ENTITY_ACTIONS___`
 
 ![Add detailform entity action tag custom action button](assets/en/actions/Detail-form-action-custom-action-Button.png)
 
-Comme vous pouvez le constater, certains boutons visuels sont manquants dans le fichier Storyboard. Vous pouvez les retrouver dans le modèle du **dossier Resources **. Ils seront inclus au projet durant la phase de génération.
+Comme vous pouvez le constater, certains boutons visuels sont manquants dans le fichier Storyboard. Vous pouvez les retrouver dans le modèle du **dossier Resources**. Ils seront inclus au projet durant la phase de génération.
 
 Par exemple, pour le **moreButton.imageset** :
 
@@ -157,12 +155,9 @@ Félicitations, votre application iOS Tasks est maintenant terminée et inclut d
 
 ![Template ressources](assets/en/actions/ListForm-entity-action-tableview.png)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROJET FINAL</a>
-
-  </p>
 </div>
+

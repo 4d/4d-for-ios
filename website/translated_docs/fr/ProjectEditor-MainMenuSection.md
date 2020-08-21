@@ -1,6 +1,6 @@
 ---
 id: main-menu
-title: Main Menu
+title: Menu
 ---
 
 * Dans la liste des **Tables disponibles** figurent toutes les tables que vous avez publiées plus tôt dans la section Structure. La liste des **Tables sélectionnées** comprend toutes les tables qui seront accessibles dans le menu de votre application.

@@ -1,22 +1,22 @@
 ---
 id: install-device
-title: Instalar en su dispositivo iOS
+title: Instalación en su dispositivo iOS
 ---
 
-<div class = "objectives"> 
+> **OBJETIVOS**
+> 
+> Install a 4D for iOS application on a connected device
 
-**OBJETIVOS**
 
-Install a 4D for iOS application on a connected device</div> <div class = "prerequisites"> 
-
-**REQUISITOS PREVIOS**
+> **REQUISITOS PREVIOS**
 
 * Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).</div> <div class = "tips"> 
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate app installation (optional).
 
-**NOTA**
 
-Apple configurator 2 necesita **macOS 10.14** o superior.</div> 
+> **NOTA**
+> 
+> Apple configurator 2 requires **macOS 10.14** or later.
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
 
@@ -34,7 +34,7 @@ Let's go through the process...
 
 ## PASO 2. Configuración Xcode
 
-* **Developer Account**: En Xcode > Preferences > Accounts, añada su Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png) 
+* **Developer Account**: En Xcode > Preferences > Accounts, añada su Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
 ## PASO 3. Obtenga su Team ID
 
@@ -63,13 +63,13 @@ Let's go through the process...
 
 * ¡Presione el botón Build and run Button en Xcode!
 
-![Crear y ejecutar](assets/en/test-build/Build-Run-Free-Account.png)
+![Build and Run](assets/en/test-build/Build-Run-Free-Account.png)
 
 ## PASO 5. Team ID para una cuenta paga
 
-* **Team ID**: Vaya a Developer Account > Membership y obtenga su Team ID. ![Developer Account membership](assets/en/test-build/Team-ID-4D-for-iOS.png)
+* **Team ID**: Haga clic en Developer Account > Membership y obtenga su Team ID. ![Developer Account membership](assets/en/test-build/Team-ID-4D-for-iOS.png)
 
-* **4D for iOS**: lance 4D for iOS desde Sections > General e introduzca su Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
+* **4D for iOS**: Lance 4D for iOS en Sections > General e introduzca su Team ID. ![General section](assets/en/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
 * Vaya al PASO 6 para ejecutar su proyecto en su dispositivo.
 
@@ -106,3 +106,8 @@ Let's go through the process...
 ![Devices and Simulators](assets/en/test-build/Devices-and-Simulators-4D-for-iOS.png)
 
 * ¡La aplicación se está instalando en su dispositivo!
+
+
+
+
+

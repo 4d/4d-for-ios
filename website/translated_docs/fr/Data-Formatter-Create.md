@@ -1,17 +1,17 @@
 ---
 id: creating-data-formatter
-title: Créer le format de données
+title: Créer un format de données
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Créer vos premiers formats de données.
 
-**OBJECTIFS**
 
-Créer vos premiers formats de données.</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
-**CONDITIONS PRÉALABLES**
-
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 
@@ -22,14 +22,9 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 * Les dossiers **integerToImage_Images** et **textToImage_Images**, qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images)
 * Un fichier **Task Management.4dbase** (accompagné d'une application de projet mobile prêt à l'emploi)
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-  <p>
-    
-
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
-
-  </p>
 </div>
 
 Vous êtes maintenant prêts à créer vos premiers formats !
@@ -49,7 +44,7 @@ Créez d'abord un dossuer *Task Management.4dbase/Resources/Mobile/formatters*.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
-Regardons le contenu du fichier **manifest.json** :
+Voici le contenu du fichier **manifest.json** :
 
 ```json
 {
@@ -72,7 +67,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 * Créez un dossier **integerToImage** dans le dossier **Formats** que vous venez de créer.
 
-* Créez un fichier **manifest.json** dans le dossier **integerToImage**.
+* Créez un fichier **manifest.json** dans le dossier **textToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
@@ -80,7 +75,8 @@ Regardons le contenu du fichier **manifest.json** :
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
-Regardons le contenu du fichier **manifest.json** :
+Voici le contenu du fichier **manifest.json** :
+
 
 ```json
 {
@@ -99,7 +95,6 @@ Regardons le contenu du fichier **manifest.json** :
     }
 }
 ```
-
 1. **name** : le nom du format
 2. **type** : le type de format 4D que vous souhaitez utiliser
 3. **binding** : soit **localized text** pour les chaînes soit **imageNamed** pour les images
@@ -116,7 +111,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
-Regardons le contenu du fichier **manifest.json** :
+Voici le contenu du fichier **manifest.json** :
 
 ```json
 {
@@ -147,7 +142,7 @@ Regardons le contenu du fichier **manifest.json** :
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
-Regardons le contenu du fichier **manifest.json** :
+Voici le contenu du fichier **manifest.json** :
 
 ```json
 {
@@ -168,9 +163,9 @@ Regardons le contenu du fichier **manifest.json** :
 
 ```
 
-## Ouvrez un projet mobile
+## Ouvrir un projet mobile
 
-Ouvrez Task Management.4dbase avec 4D et allez dans Fichier > Ouvrir > Projet mobile... pour ouvrir **Tasks**
+Ouvrez Task Management.4dbase et accédez au Fichier > ouvrir > Projet mobile...pour ouvrir **Tasks**
 
 Accédez ensuite à la section **Libellés et icônes** dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :
 
@@ -189,12 +184,8 @@ Générez votre application 4D for iOS. Vous constatez que vos formats de donné
 
 Cliquez sur le bouton **FORMAT FINAL** ci-dessous pour télécharger le dossier final des modèles de formats.
 
-<div style="text-align: center; margin-top: 20px">
-  <p>
-    
+<div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
-
-  </p>
 </div>

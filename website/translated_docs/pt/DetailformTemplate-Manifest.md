@@ -3,17 +3,27 @@ id: manifest-detailform-template
 title: Manifest.json
 ---
 
-O arquivo de manifesto inclui informações sobre seu modelo de formulário detalhado, tais como **tipo Storyboard** (formulário lista ou formulário detalhado), **nome**, **número de campos estáticos** e **Icone propriedades**.
+O arquivo manifest inclui informação sobre o modelo de formulário detalhado tais como:
+
+* **tipo Storyboard:** formulário lista ou formulário detalhe
+* **nome**
+* **renderer:** número da versão
+* **hOffset:** o offset (desclocamento) vertical do primeiro campo que vai ser duplicado
+* **número de campos estáticos **
+* **Propriedades do Icone:** largura e altura
+
 
 ```json
 {
   "type": "detailform",
 
   "name": "Custom Detail form",
-
+  "renderer": 2,  
+  "hOffset": 91, 
   "fields": {
-    "count": 1
-  },
+    "count": 1, 
+    "max": 0
+ },
 
   "assets": {
     "size": {
@@ -27,7 +37,9 @@ O arquivo de manifesto inclui informações sobre seu modelo de formulário deta
 
 Por exemplo, o arquivo manifesto para o formulário detalhado abaixo inclui as informações seguintes:
 
-1. **tipo Storyboard:** detailform
-2. **Nome modelo:** formulário detalhado personalizado
-3. **Número campo:** Um campo estático (e 0 para campos infinitamente duplicados (uma imagem cabeçalho e os campos duplicados))
-4. **Propriedades Icone:** Icone largura e altura
+1. **Storyboard type:** detailform
+2. **Template Name:** Custom Detail form
+3. **Versão:** 2
+4. **hOffset:** o primeiro campo que vai ser duplicado está a 91 píxels a partir do topo
+5. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
+6. **Icon properties:** Icon width and height

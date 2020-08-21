@@ -3,15 +3,15 @@ id: create-new-project
 title: Nouveau projet
 ---
 
-<div class = "objectives"> 
+> **OBJECTIFS**
+> 
+> Se familiariser avec l’éditeur de projet.
 
-**OBJECTIFS**
 
-Se familiariser avec l’éditeur de projet.</div> <div class = "prerequisites"> 
+> **CONDITIONS PRÉALABLES**
+> 
+> Cliquez [ici](prerequisites.html) pour pouvoir commencer !
 
-**CONDITIONS PRÉALABLES**
-
-Cliquez [ici](prerequisites.html) pour pouvoir commencer !</div> 
 
 Voyons le fonctionnement de 4D for iOS.
 
@@ -46,7 +46,7 @@ Dans l’onglet Sections, vous trouverez toutes les étapes nécessaires à la c
 
 L’onglet Génération comprend quatre options :
 
-* Créer & exécuter 
+* Build and Run
 * Choix du simulateur
 * Navigateur de projet et de produit
-* Installer
+* Installer 
