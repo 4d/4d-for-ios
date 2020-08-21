@@ -5,7 +5,7 @@ title: Apple Developer Program para particulares
 
 > **OBJETIVOS**
 > 
-> Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.
+> Registre-se para o programa Apple Developer Enterprise como um indivíduo para lançar seu app in-house.
 
 
 ## PASSO 1. Identificador Apple
