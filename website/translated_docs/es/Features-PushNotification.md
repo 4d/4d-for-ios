@@ -1,21 +1,21 @@
 ---
 id: push-notification
-title: Push notifications
+title: Notificaciones Push
 ---
 
 > **OBJETIVOS**
 > 
-> Integre notificaciones push en sus aplicaciones 4d for iOS
+> Integre las notificaciones push en sus aplicaciones 4d for iOS
 
 > **REQUISITOS PREVIOS**
 > 
 > El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite enviar notificaciones push está integrado en 4D mono usuario y 4D server 18R4.
 
-# What is a push notification?
+# ¿Qué es una notificación push?
 
-On a mobile phone, a push notification is an alert message, received via an application, that you can open, delete, allow or block. It can be very useful for example to notify your app users that a new version is available.
+En un teléfono móvil, una notificación Push es un mensaje de alerta, recibido a través de una aplicación, que puede abrir, eliminar, autorizar o bloquear. Puede ser muy útil por ejemplo para notificar a los usuarios de la aplicación que hay una nueva versión disponible.
 
-But what about the architecture to implement, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display on the user's mobile?
+Pero, ¿qué pasa con la arquitectura a implementar, para integrar esta funcionalidad en una aplicación móvil? And what is the process of a push notification, from creation to display on the user's mobile?
 
 # Technical architecture
 
