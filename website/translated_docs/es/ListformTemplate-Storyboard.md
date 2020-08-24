@@ -105,7 +105,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 
 > **NOTA**
 > 
-> The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+> El Storyboard se optimiza para tener una **altura de celda variable** en función del contenido de cada celda.
 > 
 > ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
