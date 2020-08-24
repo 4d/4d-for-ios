@@ -31,7 +31,7 @@ Así como para el formulario Lista, seleccione una plantilla y añada sus campos
 
 Tiene varias formas de añadir sus campos en los formularios detallados:
 
-* You can drag and drop fields anywhere into the SVG view to add it and display it just after the last field added or between any other fields that are already displayed.
+* Puede arrastrar y soltar campos en cualquier lugar de la vista SVG para agregarlos y mostrarlos justo después del último campo añadido o entre cualquier otro campo que ya se muestre.
 
 * Double-click on a field. Your field will be added at the end of the list.
 
