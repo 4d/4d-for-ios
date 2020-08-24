@@ -22,7 +22,7 @@ Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de 
 
 > **DICAS**
 > 
-> You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
+> É possível publicar uma seleção de campos pressionando a barra de espaço ao invés de selecionar um por um.
 
 
 ## Relações Um para Muitos
@@ -70,7 +70,7 @@ Once authorized, 4D for iOS will do all the work for you, and you will fully ben
 
 > **NOTA **
 > 
-> These optimizations are required for both local and server databases.
+> Essas otimizações são exigidas tanto para bancos de dadoos locais quanto servidor.
 
 
 ### "Puxar" para refrescar!
@@ -83,4 +83,4 @@ From iPhone settings, you can now reset your app data and find information about
 
 > **NOTA **
 > 
-> As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction
+> Assim que o administrador realizar uma operação de manutenção importante, ele deve alertar os usuários da aplicação 4D for iOS que uma recarga completa é necessária: Recover by tag/Restoration/Compaction

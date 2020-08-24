@@ -19,9 +19,9 @@ A ativação de porto HTTPS requer que a instalação de certificado funcione co
 
 > **NOTA **
 > 
-> * The Simulator works locally (127.0.0.1 or localhost).
-> * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
-> * If both HTTP and HTTPS are activated, HTTP is used.
+> * O simulador funciona localmente (127,0,0,1 ou localhost).
+> * Se a URL de produção for definida, tanto HTTP quanto HTTPS são aceitas. Senão, o endereço IP é usado.
+> * Se tanto HTTP quanto HTTPS forem ativadas, HTTP é usada.
 
 
 ## Autenticação
@@ -91,7 +91,7 @@ Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">Componente MOBILE SESSION MANAGEMENT</a>
 </div>
 
 * Create a **Components** folder next to the 4D database with the app's data.
