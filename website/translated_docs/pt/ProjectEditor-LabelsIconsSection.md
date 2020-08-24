@@ -37,9 +37,9 @@ Esses elementos serão mostrados em formulários detalhados e lista, dependendo 
 
 > **DICAS**
 > 
-> * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field. 
+> * Para manter tudo consistente, **os ícones por padrão** são gerados para campos em branco se ao menos um ícone tiver sido definido para um campo. 
 > 
-> * You can also leave the icon area empty if you don’t want to display icons in your application.
+> * Também pode deixar vazia a área do ícone se não quiser exibir ícones em sua aplicação.
 
 
 ## Propriedades das relações
