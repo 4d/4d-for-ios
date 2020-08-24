@@ -195,7 +195,7 @@ After creating all of your actions, just click on the Create button from the Act
 
 > **NOTA**
 > 
-> * You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
+> * Puede refrescar la selección después de ejecutar una acción utilizando`$out.dataSynchro:=True`.
 > * You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
 > * You can also decide to force close the Edition form using `$out.close:=True`.
 
