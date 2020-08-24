@@ -27,9 +27,9 @@ Seleccione una plantilla para su primera tabla. Una vez hecho esto, aparece la p
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-As with the List Form definition, select a template and add your fields onto your detail form.
+Así como para el formulario Lista, seleccione una plantilla y añada sus campos en su formulario detallado.
 
-You have several ways to add your fields in Detail forms:
+Tiene varias formas de añadir sus campos en los formularios detallados:
 
 * You can drag and drop fields anywhere into the SVG view to add it and display it just after the last field added or between any other fields that are already displayed.
 
