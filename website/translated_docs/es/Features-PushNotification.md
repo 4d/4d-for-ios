@@ -15,31 +15,31 @@ title: Notificaciones Push
 
 En un teléfono móvil, una notificación Push es un mensaje de alerta, recibido a través de una aplicación, que puede abrir, eliminar, autorizar o bloquear. Puede ser muy útil por ejemplo para notificar a los usuarios de la aplicación que hay una nueva versión disponible.
 
-Pero, ¿qué pasa con la arquitectura a implementar, para integrar esta funcionalidad en una aplicación móvil? And what is the process of a push notification, from creation to display on the user's mobile?
+Pero, ¿qué pasa con la arquitectura a implementar, para integrar esta funcionalidad en una aplicación móvil? Y ¿Cuál es el proceso de una notificación push, desde la creación hasta la visualización en el teléfono del usuario?
 
-# Technical architecture
+# Arquitectura técnica
 
-Here are the different elements needed to create, send and receive a mobile push notification:
+Estos son los diferentes elementos necesarios para crear, enviar y recibir una notificación push móvil:
 
-![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
+![Proceso de notificaciones Push](assets/en/push-notification/4D-for-ios-push-notification.png)
 
 # Prerrequisitos
 
-In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
+Para enviar notificaciones push, se requiere un archivo de autenticación AuthKey_XXXYYY.p8 de Apple.
 
-* First, go to Apple developer account page, sign in, then select Certificates, IDs & Profiles.
+* Primero, vaya a la página de la cuenta de desarrollador Apple, inicie sesión y luego seleccione Certificates, IDs & Profiles.
 
-* You will then be able to generate your push certificate and to download it.
+* A continuación, podrá generar su certificado Push y descargarlo.
 
-* Finally, activate the Push notification feature integrate your certificate in your 4D for iOS project from the Publishing section.
+* Finalmente, active la funcionalidad de notificación Push e integre su certificado en su proyecto 4D for iOS desde la sección Publication.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
-You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
+Puede encontrar más información sobre este proceso [aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) en la documentación del componente.
 
-# Basic example to manage your push notifications
+# Ejemplo básico para gestionar sus notificaciones push
 
-Here is an example to send a push notification to `test@4d.com`:
+Este es un ejemplo para enviar una notificación push a `test@4d.com `:
 
 ```4d
 
@@ -51,11 +51,11 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It's as simple as that!
+¡Tan simple como eso!
 
 
 ## ¿Qué hacemos ahora?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports and even better: pull requests.
+El componente que maneja y facilita el proceso también está disponible [aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) para que pueda adaptar las notificaciones push a sus propias necesidades. Siéntase libre de usarlo y elegir los aspectos más relevantes para su aplicación. Y por supuesto, todas las contribuciones son bienvenidos a este proyecto, a través de comentarios, informes de errores y aún mejor: "pull requests".
 
 
