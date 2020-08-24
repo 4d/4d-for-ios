@@ -1,37 +1,37 @@
 ---
 id: gallery-template-update
-title: Update a template
+title: Actualizar una plantilla
 ---
 
 > **OBJETIVOS**
 > 
-> Open and update a template from the gallery and improve it
+> Abra y actualice una plantilla de la galería y mejórela
 
-## Open a template
+## Abrir una plantilla
 
-To modify a template that have downloaded from the Gallery :
+Para modificar una plantilla descargada de la Galería:
 
-* The first thing you'll need to do is going to your *YourDatabase.4dbase/Resources/Mobile/form/list* folder.
+* Primero deber ir a su carpeta *YourDatabase.4dbase/Resources/Mobile/form/list*.
 
 ![Template resources folder](assets/en/gallery/template-resources-folder.png)
 
-* From here, you can see the template you have just downloaded previously is availble.
-* Unzip and opent it
-* Then double click on the package.swift file.
+* Desde aquí, puede ver que la plantilla que acaba de descargar anteriormente está disponible.
+* Descomprímala y ábrala
+* Luego haga doble clic en el archivo package.swift.
 
 ![Open package.swift](assets/en/gallery/open-package-swift.png)
 
-* This will automatically open in Xcode with all sources to allow you modifying your template.
+* Esto se abrirá automáticamente en Xcode con todas las fuentes para permitirle modificar su plantilla.
 
 ![Open with Xcode](assets/en/gallery/open-with-xcode.png)
 
-## Update your template
+## Actualizar su plantilla
 
-From here you will be able to add swift code and optimize your stroybord template.
+Desde aquí podrá agregar código Swift y optimizar su plantilla stroybord.
 
-So easy to use !
+¡Tan fácil de usar!
 
-Let's for example update the FIELD_1_LABEL color and font using the Attributes inspector.
+Actualicemos, por ejemplo, el color y la fuente FIELD_1_LABEL utilizando el inspector de atributos.
 
 ![Update with Xcode](assets/en/gallery/update-template.png)
 
