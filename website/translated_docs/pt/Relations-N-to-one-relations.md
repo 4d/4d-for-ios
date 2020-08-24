@@ -7,7 +7,7 @@ title: Relações Muitos para Um
 
 > **NOTA **
 > 
-> In this tutorial, we will use the relation names between your tables.
+> Neste tutorial, vamos usar os nomes das relações entre suas tabelas.
 
 > Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
 
@@ -15,7 +15,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJETO STARTER N para UM</a>
 </div>
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**

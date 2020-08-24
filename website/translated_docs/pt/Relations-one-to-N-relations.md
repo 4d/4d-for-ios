@@ -8,7 +8,7 @@ Este tutorial vai mostrar como é fácil incluir relações Um para Muitos em 4D
 
 > **NOTA **
 > 
-> In this tutorial, we will use the relation names between your tables.
+> Neste tutorial, vamos usar os nomes das relações entre suas tabelas.
 
 > Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
 
@@ -17,7 +17,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">ONE TO MANY STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJETO STARTER UM PARA MUITOS</a>
 </div>
 
 In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.

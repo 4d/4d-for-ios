@@ -55,7 +55,7 @@ Quando um filtro de pesquisa for válido, um ícone funil aparece indicando que 
 
 > **EXEMPLO** 
 > 
-> In the **Filter query** field enter:
+> No campo **pesquisa Filtro** digite:
 > 
 > `FirstName = 'Lisa' & LastName = 'Hart'`
 > 
@@ -78,7 +78,7 @@ Quando um filtro de pesquisa for válido, um ícone de usuário aparecer para in
 
 > **EXEMPLO**
 > 
-> In the **Filter query** field enter:
+> No campo **pesquisa Filtro** digite:
 > 
 > CityName = :city
 > 

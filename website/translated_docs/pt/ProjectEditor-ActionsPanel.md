@@ -195,9 +195,9 @@ After creating all of your actions, just click on the Create button from the Act
 
 > **NOTA **
 > 
-> * You can refresh the selection after executing an action using `$out.dataSynchro:=True`.
-> * You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
-> * You can also decide to force close the Edition form using `$out.close:=True`.
+> * Pode renovar a seleção depois de executar uma ação usando `$out.dataSynchro:=True`.
+> * Pode notificar o usuário da aplicação sobre quando uma ação tiver sido executada usando `$out.statusText:="Mensagem que quer exibir"`.
+> * Pode decidir fechar à força o formulário Edition usando `$out.close:=True`.
 
 ## Aplicação iOS
 
@@ -215,7 +215,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 > **DICAS**
 > 
-> Actions will be displayed in the same order as defined in the Action section.
+> As ações serão exibidas na mesma ordem como definida na seção Ação.
 
 
 ### Formulários Lista coleção
