@@ -15,7 +15,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 > **NOTA **
 > 
-> Help links are available for the Name and Identifier fields.
+> Links de ajuda estão disponíveis para os campos Nome e Identificador
 
 **Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
 
@@ -27,8 +27,8 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 > **DICAS**
 > 
-> * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
-> * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
+> * Se já houver um ícone para sua aplicação de escritório, pode arrastar e soltá-lo diretamente na área ícone.
+> * **Aqui está o truque:** 4D for iOS determina automaticamente a cor dominante de seu ícone de aplicação e o usa para gerar um esquema de cores personalizado para sua aplicação!
 
 
 **Developer:** This field is automatically filled with your user account name.
