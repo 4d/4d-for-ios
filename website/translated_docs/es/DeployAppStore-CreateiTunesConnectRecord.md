@@ -5,7 +5,7 @@ title: Crear una ficha en App Store
 
 > **OBJETIVOS**
 > 
-> * Crear un identificador de aplicación en su cuenta de desarrollador
+> * Crear un identificador de aplicación en su cuenta desarrollador
 > * Crear su aplicación en el App Store Connect
 
 
@@ -95,7 +95,7 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 > **RECOMENDACIONES**
 > 
-> You can generate all of your screenshots in Simulator (File > New Screen Shot).
+> Puede generar todas sus capturas de pantalla en el simulador (File > New Screen Shot).
 
 ![Preparación para la inscripción](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
