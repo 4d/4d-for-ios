@@ -114,18 +114,18 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action is successful
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notificar la App que la acción es éxitosa
+        $out.dataSynchro:=True  // notificar la App de actualizar esta entidad
 
     Else
 
-        $out:=$status  // return status to the App
+        $out:=$status  // devolver el estado a la App
 
     End if
 
 Else
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notificar la App que la acción falló
 
 End if
 
