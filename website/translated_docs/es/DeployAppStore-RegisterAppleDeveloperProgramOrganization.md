@@ -5,7 +5,7 @@ title: Apple Developer Program para las empresas
 
 > **OBJETIVOS**
 > 
-> Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
+> Regístrese en el Apple Developer Program como empresa para publicar su aplicación en el **App Store**.
 
 
 > **NOTA**

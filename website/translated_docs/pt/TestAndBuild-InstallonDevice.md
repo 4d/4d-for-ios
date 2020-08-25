@@ -29,13 +29,13 @@ Vamos ao processo....
 
 ## PASSO 1. Criação de uma conta
 
-* **Apple ID**: Create your Apple ID. Se aina não tiver uma, clique em [here](https://appleid.apple.com/account#!&page=create).
+* **Apple ID**: Crie seu identificador Apple. Se ainda não tiver uma, clique em [here](https://appleid.apple.com/account#!&page=create).
 
-* **Developer Account**: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or the Apple Developer Enterprise Program (for in-house deployment).
+* **Developer Account**: Escolha um programa Apple Developer (para empresas ou indivíduos) para lançamento na App Store ou no Programa Apple Developer Enterprise (para lançamentos in-house).
 
 ## PASSO 2. Configuração Xcode
 
-* **Developer Account**: In Xcode > Preferences > Accounts, add your Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
+* **Developer Account**: Em Xcode > Preferences > Accounts, adicione sua Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
 ## PASSO 3. Obtenha uma ID de Time
 
