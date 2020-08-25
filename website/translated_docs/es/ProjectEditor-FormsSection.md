@@ -33,13 +33,13 @@ Tiene varias formas de añadir sus campos en los formularios detallados:
 
 * Puede arrastrar y soltar campos en cualquier lugar de la vista SVG para agregarlos y mostrarlos justo después del último campo añadido o entre cualquier otro campo que ya se muestre.
 
-* Double-click on a field. Your field will be added at the end of the list.
+* Doble clic en un campo. Su campo se agregará al final de la lista.
 
-* Right-clicking on one the field that is available in the Fields table at the left: this will display a menu that will allow you to add all missing fields to your Detail forms.
+* Al hacer clic derecho en uno de los campos que están disponibles en la tabla Campos a la izquierda, se mostrará un menú que le permitirá agregar todos los campos faltantes a sus formularios detallados.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as many fields for most of the detail form available.
+Puede agregar tantos campos para la mayor parte de los formularios detallados disponibles.
 
 And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
 
