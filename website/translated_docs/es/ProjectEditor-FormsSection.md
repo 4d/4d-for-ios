@@ -39,13 +39,13 @@ Tiene varias formas de añadir sus campos en los formularios detallados:
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as many fields for most of the detail form available.
+Puede agregar tantos campos para la mayor parte de los formularios detallados disponibles.
 
-And at any moment, you can reorder your field selecting it and drop it at any place in your detail form.
+Y en cualquier momento, puede reordenar su campo seleccionándolo y soltándolo en cualquier lugar de su formulario detallado.
 
 > **RECOMENDACIONES**
 > 
-> * Want to change the template for your list or detail form? 
+> * ¿Quiere cambiar la plantilla de su formulario listado o de formulario detallado? 
 > 
 > * Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).
 
@@ -66,9 +66,9 @@ So you can directly start working on the template, as it is ready-to-use.
 
 > **RECOMENDACIONES**
 > 
-> The Gallery is also available [online](https://4d-for-ios.github.io/gallery/).
+> La galería también está disponible [en línea](https://4d-for-ios.github.io/gallery/).
 
 
 ## ¿Qué hacemos ahora?
 
-Next step, you chose a template that suits your needs, but in case something is missing, a [tutorial](gallery-template-update.html) will help you making **template update**.
+El siguiente paso consiste en elegir una plantilla que se adapte a sus necesidades, pero en caso de que falte algo, un [tutorial](gallery-template-update.html) lo ayudará a efectuar una **actualización de plantilla**.
