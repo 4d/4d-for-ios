@@ -1,18 +1,18 @@
 ---
 id: gallery-template-install
-title: Install a template
+title: Instalar una plantilla
 ---
 
 > **OBJETIVOS**
 > 
-> Dowload a template from the gallery and improve it
+> Descargue una plantilla de la galería y mejórela
 
 
-## Install a template from the Gallery
+## Instalar una plantilla desde la galería
 
-Go to the form section and select on one of your table to choose a List Form.
+Vaya a la sección Formularios y seleccione una de sus tablas para elegir un formulario Lista.
 
-As you can see, a “More” icon is available at the bottom.
+Como puede ver, hay un icono "Más" disponible en la parte inferior.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
@@ -22,19 +22,19 @@ Then, the only thing you have to do is selecting the template that suits your ne
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Select the Client List template.
+Seleccione la plantilla Client List.
 
-As you can see the template is included automatically in your project and you can directly start working on it without waiting.
+Como puede ver, la plantilla se incluye automáticamente en su proyecto y puede comenzar a trabajar directamente en ella sin esperar.
 
 ![Add template from gallery](assets/en/gallery/use-template.png)
 
-A github icon is displayed at the top left of your template icon in the Forms template picker to indicate that it comes from Github.
+Se muestra un icono github en la parte superior izquierda de su icono de plantilla en el selector de plantillas Forms para indicar que viene de Github.
 
 ![Add template from gallery](assets/en/gallery/indicator-template-github.png)
 
-As you can see, it is very simple to include new templates in your project and you can directly start working on it without waiting.
+Como puede ver, es muy simple incluir nuevas plantillas en su proyecto y puede comenzar a trabajar directamente en ella sin esperar.
 
-So now that you have download your template, you may want to make some improvement for the template to fit perfectly your needs.
+Entonces, ahora que ha descargado su plantilla, es posible que desee realizar algunas mejoras para que la plantilla se ajuste perfectamente a sus necesidades.
 
 
 
