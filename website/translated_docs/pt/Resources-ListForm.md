@@ -5,9 +5,9 @@ title: Modelos Formulário lista
 
 > **ANTES DE COMEÇAR**
 > 
-> To use a custom list form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/list` folder.
+> Para usar um modelo de formulário lista, precisa primeiro criar uma pasta `YourDatabase.4dbase/Resources/Mobile/form/list` .
 > 
-> Then drop the list form folder into it.
+> Depois arraste a pasta formulário lista dentro dela.
 
 <div markdown="1">
 
