@@ -1,6 +1,6 @@
 ---
 id: using-icons
-title: Using icons
+title: Usar ícones
 ---
 
 > **OBJETIVOS**
