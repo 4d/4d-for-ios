@@ -94,7 +94,7 @@ Next up is defining the order of the tables in the app's main menu.
 * **Available Tables:** Displays the table(s) to be used.
 * **Selected Tables:** Displays your app's menu items. Apesar de nosso exemplo tem apenas um item, você pode arrastar e soltar seus itens para reordená-los.
 
-![Main Menu](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
+![Menu principal](assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
 ## PASSO 8. Seções - formulários
 
