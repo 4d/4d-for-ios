@@ -1,6 +1,6 @@
 ---
 id: build-panel
-title: Build Panel
+title: Painel Geração
 ---
 
 Quando sua aplicação estiver pronta, pode lançá-la no Simulador para testá-la
