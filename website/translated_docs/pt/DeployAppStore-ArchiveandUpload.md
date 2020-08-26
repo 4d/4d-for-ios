@@ -32,7 +32,7 @@ title: Arquive e atualize seu Projeto
 
 (HTTPS is mandatory for deployment).
 
-![Publishing](assets/en/deploy-app-store/Publishing.png)
+![Publicação](assets/en/deploy-app-store/Publishing.png)
 
 * Na aba BUILD:
 
