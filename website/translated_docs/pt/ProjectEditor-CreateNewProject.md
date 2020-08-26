@@ -1,6 +1,6 @@
 ---
 id: create-new-project
-title: New Project
+title: Novo Projeto
 ---
 
 > **OBJETIVOS**
@@ -35,12 +35,12 @@ Na aba Seções, vai encontrar todos os passos necessários para criar sua aplic
 
 * Geral
 * Estrutura
-* Data
+* Dados
 * Actions
 * Labels & Icons
-* Main Menu
-* Forms
-* Publishing
+* Menu principal
+* Formulários
+* Publicação
 
 ## Geração
 
