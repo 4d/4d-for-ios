@@ -5,9 +5,9 @@ title: Modelos de formulários detalhados
 
 > **ANTES DE COMEÇAR**
 > 
-> To use a custom detail form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/detail` folder.
+> Para usar um modelo de formulário detalhe personalizado, é preciso primeiro criar uma pasta `YourDatabase.4dbase/Resources/Mobile/form/detail` 
 > 
-> Then drop the detail form folder into it.
+> E depois solte a pasta do formulário detalhado dentro dela.
 
 <div markdown="1">
 

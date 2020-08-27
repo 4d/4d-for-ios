@@ -114,18 +114,18 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action is successful
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notificar la App que la acción es éxitosa
+        $out.dataSynchro:=True  // notificar la App de actualizar esta entidad
 
     Else
 
-        $out:=$status  // return status to the App
+        $out:=$status  // devolver el estado a la App
 
     End if
 
 Else
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notificar la App que la acción falló
 
 End if
 
@@ -221,8 +221,8 @@ If ($in.dataClass#Null)
 
     End for each
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notificar la App que la acción es exitosa
+    $out.dataSynchro:=True  // notificar la App refrescar la selección
 
 Else
 
@@ -240,7 +240,7 @@ $0:=$out
 
 ## ¿Qué hacer ahora?
 
-¡Felicitaciones! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!
+¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
