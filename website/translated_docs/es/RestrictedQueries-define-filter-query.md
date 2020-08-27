@@ -22,9 +22,9 @@ Debería obtener este resultado:
 
 > **NOTA**
 > 
-> * A **filter** icon is displayed at the right of each table when a basic filter is applied to it.
-> * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
-> * Size will be calculated at the first build for you to visualize the **size of your data**.
+> * Se muestra un icono de **filtro** a la derecha de cada tabla cuando se le aplica un filtro básico.
+> * Para este tipo de filtros de búsqueda, puede optar por integrar los datos en la aplicación o cargar los datos después de iniciar sesión marcando la casilla de verificación **Integrar los datos en la aplicación**.
+> * El tamaño se calculará en la primera generación para que pueda visualizar el **tamaño de sus datos**.
 
 If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
