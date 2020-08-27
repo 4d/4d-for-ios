@@ -43,7 +43,7 @@ Primero, suelte:
 
 Como hemos visto anteriormente en la [ descripción de la sección Actions](actions.html), hay dos tipos de acciones disponibles (acciones de tabla y acciones de entidad).
 
-Let's first open the `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard` file.
+Primero abramos el archivo `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`
 
 ### Añadir las acciones a la plantilla personalizada TasksList
 
@@ -60,7 +60,7 @@ Seleccione el **List form Controller** y añada esta línea en el **User Defined
 
 #### B. Añadir un Tag de acción de entidad
 
-Select the Animatable Table View and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Seleccione la vista Animatable Table y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -70,7 +70,7 @@ Select the Animatable Table View and add this line in the **User Defined Runtime
 
 ¡Su plantilla personalizada está lista para mostrar las acciones!
 
-You can select the TaskList custom template from the **Forms section** and add the following fields:
+Puede seleccionar la plantilla personalizada TaskList en la **sección Formularios** y agregar los siguientes campos:
 
 ![Taskslist Forms section](assets/en/actions/listform-taskslist-forms-section.png)
 
@@ -78,7 +78,7 @@ Ahora agreguemos las etiquetas de acción a la plantilla personalizada TasksColl
 
 ### Añadir las acciones a la plantilla personalizada TasksCollection
 
-To do so, open the `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard` file.
+Para hacer eso, abra el archivo Storyboard `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`
 
 #### A. Añadir un Tag de acción de tabla
 
@@ -96,9 +96,9 @@ Seleccione el **List form Controller** y añada esta línea en el **User Defined
 
 Para las entidades, la forma de mostrar las acciones es bastante diferente de TableView: la acción de deslizar no está realmente adaptada a CollectionViews.
 
-So with collection views, the best way to display actions is to use a **long pressure** gesture on the cells you want to interact with.
+Entonces, con las vistas de colección, la mejor manera de mostrar las acciones es utilizar un gesto de **presión largo** en las celdas con las que desea interactuar.
 
-For that, select the collectionView cell and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Para eso, seleccione la celda collectionView y agregue esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -106,22 +106,22 @@ For that, select the collectionView cell and add this line in the **User Defined
 
 ![Add collection entity action tag](assets/en/actions/Add-collection-entity-tag-taskslist.png)
 
-To optimize the interaction rendering, you can add a scale effect with a haptic feedback adding the following line in the **User Defined Runtime Attributes** (Identity inspector):
+Para optimizar la interacción, puede agregar un efecto escalar con una retroalimentación háptica agregando la siguiente línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `touch.zoomScale`
 * Type: `Number`
-* Value: `0,96` (adapt the scale ratio depending on the result you want to get)
+* Value: `0,96` (adapte la relación de escala según el resultado que desee obtener)
 
-You can select the TasksCollection custom template from the **Forms section** and add the following fields:
+Puede seleccionar la plantilla personalizada TasksCollection en la **sección Formularios** y agregar los siguientes campos:
 
 ![TasksCollection Forms section](assets/en/actions/listform-taskscollection-forms-section.png)
 
 
 ## PASO 4. Añadir las acciones en los formularios detallados
 
-In Detail forms, you can use the **generic button** in the navigation bar or **create easily your own custom action button**. En ambos casos, debe agregar etiquetas.
+En los formularios detallados, puede utilizar el **botón genérico** en la barra de navegación o **crear fácilmente su propio botón de acción personalizado**. En ambos casos, debe agregar etiquetas.
 
-For generic button embedded in the navigation bar, select the Controller and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Para el botón genérico integrado en la barra de navegación, seleccione el Controlador y añada esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -129,9 +129,9 @@ For generic button embedded in the navigation bar, select the Controller and add
 
 ![Add detailform entity action tag](assets/en/actions/Detail-form-action-navigationBar.png)
 
-En nuestro tutorial, queremos crear nuestro propio botón genérico. For that, open the `detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard` file.
+En nuestro tutorial, queremos crear nuestro propio botón genérico. Para eso, abra el archivo Storyboard `detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard`.
 
-Open it, select the button at bottom right and add this line in the **User Defined Runtime Attributes** (Identity inspector):
+Ábralo, seleccione el botón en la parte inferior derecha y agregue esta línea en el **User Defined Runtime Attributes** (Identity inspector):
 
 * Key Path: `actions`
 * Type: `String`
@@ -139,13 +139,13 @@ Open it, select the button at bottom right and add this line in the **User Defin
 
 ![Add detailform entity action tag custom action button](assets/en/actions/Detail-form-action-custom-action-Button.png)
 
-Como puede ver, faltan algunos botones visuales en el archivo Storyboard. You can actually find those visuals in the  **Resources folder** template. Se incluirán en el proyecto durante el proceso de generación.
+Como puede ver, faltan algunos botones visuales en el archivo Storyboard. Puede encontrar esas imágenes en la plantilla **carpeta Resources**. Se incluirán en el proyecto durante el proceso de generación.
 
-For example for the **moreButton.imageset**:
+Por ejemplo, para el **moreButton.imageset**:
 
 ![Template ressources](assets/en/actions/Template-Ressources.png)
 
-You can select the TasksDetail custom template from the **Forms section** and add the following fields:
+Puede seleccionar la plantilla personalizada TasksDetail en la **sección Formularios** y agregar los siguientes campos:
 
 ![TasksDetail Forms section](assets/en/actions/detailform-forms-section.png)
 
