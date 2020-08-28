@@ -57,11 +57,11 @@ Haga clic en el signo **"+"** en la esquina superior izquierda para crear una nu
 Agregue la siguiente información:
 
 * **Platforms**: seleccione iOS.
-* **Name**: The name of your app.
-* **Primary language**: The main language for your app.
-* **Bundle ID**: Select your App Bundle ID from the dropdown list.
-* **SKU**: A unique ID for your app (this stays private and is not seen by users)
-* **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
+* **Name**: el nombre de su aplicación.
+* **Primary language**: el idioma principal de su aplicación.
+* **Bundle ID**: seleccione el Bundle ID de su aplicación de la lista desplegable.
+* **SKU**: un identificador único para su aplicación (se mantiene privado y no es visible para los usuarios)
+* **Limit User Access (opcional)**: le permite limitar el acceso a su aplicación a los usuarios con roles de administrador, desarrollador, comercial o ventas.
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
@@ -72,10 +72,10 @@ Agregue la siguiente información:
 
 ## PASO 4. Información sobre la aplicación
 
-From App Store Connect > App Information:
+En App Store Connect > App Information:
 
 * Defina la "Privacy Policy URL" de su aplicación (opcional).
-* Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
+* Introduzca un subtitulo para su aplicación. Aparecerá debajo del nombre de su aplicación en la App Store en iOS 11.
 * Seleccione una categoría primaria y secundaria (opcional) en la cual aparecerá su aplicación.
 
 ![Información sobre la aplicación](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
