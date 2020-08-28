@@ -88,7 +88,7 @@ Aquí es donde se define el precio de su aplicación.
 
 ## PASO 6. Preparación para la inscripción
 
-Add all of the assets for your app to appear in the App Store in **Version Information**:
+En **Version Information**, agregue todos los recursos de su aplicación que desee incluir en la App Store:
 
 > **RECOMENDACIONES**
 > 
@@ -98,9 +98,9 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 * Añada las capturas de pantalla de su aplicación. Las capturas de pantalla para el iPhone 5.5 "Super Retina Display y iPad 12.9" Retina Display son obligatorias. Para más detalles, ver [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
-* Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
-* You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
-* Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
+* Desplácese hacia abajo y defina las **Keywords** (palabras claves) y complete la **Description** (esto es lo que los usuarios verán en la App Store).
+* Puede compartir actualizaciones de su aplicación, incluidas nuevas promociones, próximas funcionalidades o contenido, ofertas por tiempo limitado u otros eventos dentro de su aplicación. También agregue un **Promotional Text** que aparecerá arriba de su descripción en la App Store (para clientes con dispositivos que funcionan con iOS 11 o con versiones posteriores).
+* Ingrese un **Support URL** que incluya información de soporte para su aplicación. Esta URL estará visible en la App Store.
 * **Marketing URL** is optional. Esto puede dirigir a los usuarios a un sitio web de marketing para su aplicación.
 
 In the **iOS App section**:
