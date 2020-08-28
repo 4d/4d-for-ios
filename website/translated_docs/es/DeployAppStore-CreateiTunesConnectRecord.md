@@ -18,7 +18,7 @@ title: Crear una ficha en App Store
 
 #### ¿Qué es un identificador de aplicación?
 
-*Un identificador de aplicación es una cadena compuesta de dos partes que se utiliza para identificar una o más aplicaciones de un solo equipo de desarrollo. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*
+*Un identificador de aplicación es una cadena compuesta de dos partes que se utiliza para identificar una o más aplicaciones de un solo equipo de desarrollo. La cadena consta de un Team ID y de un Bundle ID, con un punto (.) que separa las dos partes (por ejemplo, TeamID.BundleID).*
 
 > **NOTA**
 > 
@@ -28,7 +28,7 @@ title: Crear una ficha en App Store
 
 Para crear su identificador de aplicación, seleccione [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) desde su cuenta de desarrollador.
 
-* Click the + sign next to *Register iOS App IDs* to add a new App ID.
+* Haga clic en el signo "+" junto a *Register iOS App IDs* para agregar un nuevo identificador de aplicación.
 
 * Defina el nombre y el Bundle ID de su aplicación.
 
@@ -38,31 +38,31 @@ Para crear su identificador de aplicación, seleccione [Certificates, IDs & Prof
 
 ![App Services](assets/en/deploy-app-store/App-Services-to-include.png)
 
-* Confirm your App ID by clicking **Register**.
+* Confirme su identificador de aplicación haciendo clic en **Register**.
 
 ![Confirm App ID](assets/en/deploy-app-store/Confirm-App-ID.png)
 
 ## PASO 2. Inicie sesión en la App Store Connect
 
 * Conéctese a su [cuenta App Store Connect](https://appstoreconnect.apple.com)
-* Click on **My Apps**.
+* Haga clic en **My Apps**.
 
 ![App Store Connect](assets/en/deploy-app-store/App-Store-Connect-home-page.png)
 
 ## PASO 3. Cree una nueva aplicación iOS
 
-Click the **+** sign in the top left corner to create a new iOS App.
+Haga clic en el signo **"+"** en la esquina superior izquierda para crear una nueva aplicación iOS.
 
 ![Cree una nueva aplicación iOS](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
 Agregue la siguiente información:
 
-* **Platforms**: Select iOS.
-* **Name**: The name of your app.
-* **Primary language**: The main language for your app.
-* **Bundle ID**: Select your App Bundle ID from the dropdown list.
-* **SKU**: A unique ID for your app (this stays private and is not seen by users)
-* **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
+* **Platforms**: seleccione iOS.
+* **Name**: el nombre de su aplicación.
+* **Primary language**: el idioma principal de su aplicación.
+* **Bundle ID**: seleccione el Bundle ID de su aplicación de la lista desplegable.
+* **SKU**: un identificador único para su aplicación (se mantiene privado y no es visible para los usuarios)
+* **Limit User Access (opcional)**: le permite limitar el acceso a su aplicación a los usuarios con roles de administrador, desarrollador, comercial o ventas.
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
@@ -72,10 +72,10 @@ Agregue la siguiente información:
 
 ## PASO 4. Información sobre la aplicación
 
-From App Store Connect > App Information:
+En App Store Connect > App Information:
 
 * Defina la "Privacy Policy URL" de su aplicación (opcional).
-* Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
+* Introduzca un subtitulo para su aplicación. Aparecerá debajo del nombre de su aplicación en la App Store en iOS 11.
 * Seleccione una categoría primaria y secundaria (opcional) en la cual aparecerá su aplicación.
 
 ![Información sobre la aplicación](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
