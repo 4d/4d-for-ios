@@ -70,10 +70,10 @@ Agregue la siguiente información:
 
 ## PASO 4. Información sobre la aplicación
 
-From App Store Connect > App Information:
+En App Store Connect > App Information:
 
 * Defina la "Privacy Policy URL" de su aplicación (opcional).
-* Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
+* Introduzca un subtitulo para su aplicación. Aparecerá debajo del nombre de su aplicación en la App Store en iOS 11.
 * Seleccione una categoría primaria y secundaria (opcional) en la cual aparecerá su aplicación.
 
 ![Información sobre la aplicación](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
