@@ -53,17 +53,17 @@ Solicite un número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-look
 
 Puede registrarte como desarrollador [aquí](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Click on the **Start your Enrollment** button.
+* Haga clic en el botón **Start your Enrollment**.
 * Lea y acepte los términos del contrato "Apple Developer Agreement".
-* Click **Submit**.
+* Haga clic en **Submit**.
 
 ![Regístrese como desarrollador](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## PASO 6. Suscríbase al Apple Developer Enterprise Program
 
 * Puede suscribirse al Apple Developer Program [aquí](https://developer.apple.com/enroll/enterprise/).
-* Click on the **Start your Enrollment** button.
-* Select **Company / Organization** from the Entity Type dropdown list.
+* Haga clic en el botón **Start your Enrollment**.
+* Seleccione **Company / Organization** en la lista desplegable "Entity Type".
 * Haga clic en **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
