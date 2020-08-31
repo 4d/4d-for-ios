@@ -82,7 +82,7 @@ y
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: seleccione la casilla
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
@@ -129,7 +129,7 @@ Para indicar al editor de proyecto que todos los elementos incluidos en esta vis
 
 ### Añadir TAGS
 
-Cada elemento del storyboard tiene un identificador de objeto. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al **Identity inspector**, verá sus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 
