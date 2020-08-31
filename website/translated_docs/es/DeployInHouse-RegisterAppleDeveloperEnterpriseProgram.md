@@ -86,4 +86,4 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 * Una vez que su solicitud de inscripción haya sido aceptada, puede proceder al pago.
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
-Congratulations ... you're now ready to deploy your application in-house!
+¡Felicitaciones! Ya está listo para desplegar su aplicación interna
