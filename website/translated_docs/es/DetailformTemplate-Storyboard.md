@@ -111,7 +111,7 @@ En la **librería de objetos**, arrastre y suelte una **Etiqueta ** en Field Vie
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "`___FIELD_LABEL___`". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Haga doble clic en la etiqueta y asígnele el nombre "`___FIELD_LABEL___`". Luego, en el **attribute inspector**, seleccione la fuente **Helvetica Neue Light 18.0** y el color **BackgroundColor**:
 
 ![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
 
@@ -121,11 +121,11 @@ Duplique la etiqueta Título y defina el ancho de etiqueta duplicado en 339 y el
 
 ![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "`<___FIELD_LABEL___>`". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Haga doble clic en la etiqueta y asígnele el nombre "`<___FIELD_LABEL___>`". Luego, en el **attribute inspector**, seleccione la fuente **Helvetica Neue Light 20.0** y el color **Back Color**:
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 
@@ -134,7 +134,7 @@ Select the Content and Title labels and add four constraints by clicking on the 
 ## Cómo obtener datos en sus celdas
 
 ### Image View
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtime Attributes. Haga clic en el **botón +** para añadir una línea.
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
@@ -148,7 +148,7 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 
 ### Etiquetas
 
-For the **first label** we are going to add several lines mainly to display icons:
+Para la **primera etiqueta**, vamos a agregar varias líneas principalmente para mostrar iconos:
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
@@ -156,7 +156,7 @@ You also need to set the Class to `IconLabel` and check the **Inherit Module Fro
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
-Select the **second label** and add a row in the Defined Runtime Attributes:
+Seleccione la **segunda etiqueta** y agregue una línea en el área "Defined Runtime Attributes":
 
 * **Key Path**: `bindTo.record.___FIELD___`
 
@@ -170,7 +170,7 @@ Select the **second label** and add a row in the Defined Runtime Attributes:
 
 Field View 2 incluye los elementos que se duplicarán para que pueda tener tantos campos como defina en el editor del proyecto.
 
-Cada elemento del storyboard tiene un identificador de objeto. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al **Identity inspector**, verá sus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/custom-detailform/object-id-storyboard.png)
 
@@ -180,9 +180,9 @@ El proceso es un poco complicado... ¡Comencemos por abrir el archivo storyboard
 
 ### Field View 2
 
-* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
+* Seleccione **Field View 2** y obtenga sus identificadores de objeto del Identity Inspector (en el lado derecho de la ventana del Interface Builder). En nuestro proyecto, Field View 2 ID es: **SiX-3H-lNB**.
 
-* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.
+* Busque este ID en el código xml del storyboard y reemplácelo con **TAG-FD-001** cada vez que aparezca. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.
 
 ![Storyboard xml](assets/en/custom-detailform/storyboard-xml.png)
 
@@ -192,7 +192,7 @@ Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field V
 
 ### Primera etiqueta
 
-* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
+* Ahora, obtenga el ID del objeto **primera etiqueta** del Identity Inspector y sustitúyalo por **TAG-FD-002** cada vez que aparezca en el código xml del storyboard.
 
 ![Label 1 Object ID](assets/en/custom-detailform/label1-object-id.png)
 
@@ -200,7 +200,7 @@ Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field V
 
 ### Segunda etiqueta
 
-* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
+* Ahora, obtenga el ID del objeto de la** segunda etiqueta ** del Identity Inspector y sustitúyalo por ** TAG-FD-003 ** cada vez que aparezca en el código xml del storyboard.
 
 ![Label 2 Object ID](assets/en/custom-detailform/label2-object-id.png)
 
@@ -212,7 +212,7 @@ Ambas etiquetas tienen restricciones que también necesitamos identificar:
 
 ![Tag constraints](assets/en/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Como para View Field 2 y la etiqueta, obtenemos todos los identificadores de objetos de **7 Constraints** desde el Identity Inspector y los reemplazamos con: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** y **TAG-FD-010**.
 
 Vaya al editor de su proyecto y seleccione su plantilla de formulario detallado en la sección Formularios, luego haga clic en Crear.
 
@@ -242,7 +242,7 @@ y
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: seleccione la casilla
 
 ![iPhone Demo](assets/en/custom-detailform/imageview-corner-radius.png)
 
@@ -262,7 +262,7 @@ A continuación, seleccione Field View 2 y agregue lo siguiente:
 
 ## ¿Qué hacemos ahora?
 
-En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Click on **Final Project** below to download the completed template folder.
+En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Haga clic en el botón **Final Project** abajo para descargar la carpeta que contiene la lista completa de modelos.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
