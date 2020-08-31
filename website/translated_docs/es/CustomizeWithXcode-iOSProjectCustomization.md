@@ -3,7 +3,7 @@ id: customize-your-ios-app
 title: Personalizar su aplicación 4D for iOS
 ---
 
-Let's do some storyboard modification ... from simple to complex.
+Hagamos algunas modificaciones al storyboard... de simple a complejo.
 
 ![Resultado final](assets/en/customize-with-xcode/Simlator-Before-After-Xcode-4D-for-iOS.png)
 
@@ -11,7 +11,7 @@ Let's do some storyboard modification ... from simple to complex.
 
 Comenzaremos por modificar la fuente y el color de una etiqueta:
 
-* Open the *ContactDetailsForm.storyboard* file from the Navigation tab.
+* Abra el archivo *ContactDetailsForm.storyboard* desde la pestaña Navigation.
 * Haga clic en la etiqueta de Nombre (también puede seleccionarla en el generador de interfaces o en el panel izquierdo).
 * Seleccione el panel Attributes inspector (Inspector de atributos) en el área Utility (área de funcionalidades).
 
@@ -29,7 +29,7 @@ Comenzaremos por modificar la fuente y el color de una etiqueta:
 
 Todas las plantillas de 4D for iOS tienen restricciones de uso para que los elementos de la aplicación se muestren correctamente en todos los dispositivos.
 
-In the *ContactDetailsForm.storyboard* file, the picture, First Name, and Last Name labels are all currently center aligned.
+En el archivo *ContactDetailsForm.storyboard*, las etiquetas First Name, y Last Name están todas actualmente alineadas al centro.
 
 Vamos a cambiarlo para que se vea así:
 
@@ -59,11 +59,11 @@ La imagen actualmente tiene las restricciones siguientes:
 
 Elimine todas las restricciones excepto Width y Height (se modificarán más tarde desde el inspector Size (de tamaño) en la sección Constraints (restricciones). El contorno de la imagen debe estar ahora en rojo porque faltan las restricciones.
 
-Click on the Align button (at the bottom of the Interface Builder window) and check the **Vertically in Container** checkbox.
+Haga clic en el botón Align (en la parte inferior de la ventana Interface Builder) y marque la casilla **Vertically in Container**.
 
 ![Profil picture Align](assets/en/customize-with-xcode/Profil-picture-Align-Xcode-4D-for-iOS.png)
 
-Next, click on the **Add New Constraints** button and add a leading space constraint (the left constraint).
+A continuación, haga clic en el botón **Add New Constraints** y añada una nueva restricción de espacio principal (la restricción de la izquierda).
 
 ![Profil picture new constraints](assets/en/customize-with-xcode/Profil-picture-new-constraints-4D-for-iOS.png)
 
@@ -92,7 +92,7 @@ Comenzaremos cambiando la posición y el ancho:
 Modifique las restricciones restantes:
 
 * Elimine las restricciones de leading space y de bottom space desde el inspector de tamaño Size.
-* Add a leading space constraint by clicking on the **Add New Constraints** button to position the First Name label to the right of the Profile picture.
+* Añada una restricción de leading space haciendo clic en el botón **Add New Constraints** para colocar la etiqueta de nombre a la derecha de la foto de perfil.
 * Presione la tecla Ctrl y arrastre la etiqueta de nombre a la foto de perfil. Seleccione la restricción superior en el menú para alinear ambos elementos en la parte superior.
 
 ![First Name Label top constraint](assets/en/customize-with-xcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
