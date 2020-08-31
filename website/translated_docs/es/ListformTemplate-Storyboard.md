@@ -113,7 +113,7 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 ## Cómo obtener datos en sus celdas
 
 ### Image View
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtime Attributes. Haga clic en el **botón +** para añadir una línea.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
@@ -178,7 +178,7 @@ y
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: seleccione la casilla
 
 ![ImageView corner Radius](assets/en/custom-listform/imageview-corner-radius.png)
 
