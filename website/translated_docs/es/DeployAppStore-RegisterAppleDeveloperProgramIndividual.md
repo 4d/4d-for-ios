@@ -33,20 +33,20 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 * Puedes registrarte como desarrollador [aquí](https://developer.apple.com/account/).
 
 * Lea y acepte los términos del contrato "Apple Developer Agreement".
-* Click **Submit**.
+* Haga clic en **Submit**.
 
 ![Register Developer Program](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## PASO 4. Únase al Apple Developer Program
 
-* Click on **Join the Apple Developer Program** at the bottom of the page.
+* Haga clic en **Join the Apple Developer Program** en la parte inferior de la página.
 
 ![Únase al Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## PASO 5. Inscríbase como particular
 
-* Click on the **Start your Enrollment** button.
-* Select **Individuals / Sole Proprietor / Single Person Business** from the Entity Type dropdown list.
+* Haga clic en el botón **Start your Enrollment**.
+* Seleccione **Individuals / Sole Proprietor / Single Person Business** en la lista desplegable "Entity Type".
 * Haga clic en **Continue**.
 
 ![Start your Enrollment](assets/en/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
@@ -59,7 +59,7 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 
 ## PASO 6. Complete su suscripción
 
-* Click **Purchase** and make payment to complete your enrollment.
+* Haga clic en **Purchase** y realice el pago para finalizar su inscripción.
 
 ![Complete su suscripción](assets/en/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
