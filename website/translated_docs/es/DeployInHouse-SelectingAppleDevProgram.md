@@ -14,7 +14,7 @@ Debe tener una cuenta de desarrollador Apple válida para **distribuir una aplic
 
 La principal diferencia entre los dos programas es:
 
-* **Apple Developer Program (for organization or individual)**: Allows you to distribute app(s) **on the App Store**.
+* **Apple Developer Program (para las empresas o para los particulares)**: le permite distribuir aplicaciones**en el App Store**.
 
 * **Apple Developer Enterprise Program**: ofrece recursos ÚNICAMENTE para desarrollar y distribuir **aplicaciones internas patentadas** a empleados.
 
