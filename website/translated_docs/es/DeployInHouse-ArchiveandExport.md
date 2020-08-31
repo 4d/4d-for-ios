@@ -29,7 +29,7 @@ Xcode instalará automáticamente los elementos de provisión y certificados nec
 
 ![Obtenga su Team ID](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## PASO 3. 4D for iOS configuration
+## PASO 3. Configure 4D for iOS
 
 * Lance 4D for iOS
 
@@ -46,7 +46,7 @@ Xcode instalará automáticamente los elementos de provisión y certificados nec
 
 ## PASO 4. Abra su proyecto con Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* Desde la pestaña BUILD del editor de proyectos de 4D for iOS, haga clic en Proyecto > Abrir el proyecto con Xcode
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
@@ -56,7 +56,7 @@ Xcode instalará automáticamente los elementos de provisión y certificados nec
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Luego desde el menú, haga clic en Product y seleccione **Archive**
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 

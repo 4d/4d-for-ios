@@ -19,7 +19,7 @@ En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla d
 
 ## Descargue el proyecto Starter
 
-To begin, download the **Starter Project**, which includes:
+Para comenzar, descargue el **Starter Project**, que incluye:
 
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
