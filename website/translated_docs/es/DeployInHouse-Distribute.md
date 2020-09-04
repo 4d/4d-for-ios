@@ -24,7 +24,7 @@ Puede utilizar cualquier servicio de almacenamiento en la nube para distribuir s
 
 ## PASO 2. Cree el enlace de instalación
 
-Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Cree un **enlace de servicios ITMS**(iTUnes Music Store) con la dirección web completa de su archivo manifiesto como parámetro:
 
 ```
 itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
@@ -47,9 +47,9 @@ Aquí un ejemplo simple:
 
 * Cuando abre por primera vez una aplicación empresarial que instaló manualmente, se mostrará una notificación que indica que el desarrollador de la aplicación no es de confianza en su dispositivo.
 
-* Ignore this message and click **Cancel**.
+* Ignore este mensaje y haga clic en **Cancel**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* En Reglas > General > Gestión de perfiles & Gestión de dispositivo, en el encabezado "Enterprise App", se lista el perfil del desarrollador.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
@@ -59,4 +59,4 @@ Aquí un ejemplo simple:
 
 * Luego puede ir a su aplicación y abrirla.
 
-Congratulations ... you can now distribute your first app in-house!
+¡Felicitaciones! Ya puede distribuir su primera aplicación interna
