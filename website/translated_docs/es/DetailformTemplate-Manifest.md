@@ -28,7 +28,7 @@ El archivo de manifiesto incluye información sobre la plantilla de formulario d
 
 Por ejemplo, el archivo manifiest para la plantilla de formulario detallado a continuación incluye la siguiente información:
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
+1. **Tipo de Storyboard:** detailform
+2. **Nombre de la plantilla:** Custom Detail form
 3. **Número de campos:** 1 campo estático (y 0 para un infinito de campos duplicados (una imagen de encabezado y los campos duplicados))
 4. **Propriedades del icono: **ancho y alto del icono

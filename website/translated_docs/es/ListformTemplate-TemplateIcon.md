@@ -10,7 +10,7 @@ It must be 160px x 160px and must be named **layoutIconx2.png**.
 El icono se utilizará:
 
 * sobre el nombre de la tabla cuando la plantilla haya sido seleccionada, y
-* in the template selector window in the **Forms section**
+* en la ventana de selección de plantillas en la **sección Formularios**
 
 ![Custom listform template](assets/en/custom-listform/custom-listform-template.png)
 

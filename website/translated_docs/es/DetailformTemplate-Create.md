@@ -13,7 +13,7 @@ title: Plantillas de formularios detallados
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
 
-En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
+En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. Se mostrará un **encabezado de imagen **, así como también **los campos de título y contenido** que se duplicarán en la aplicación iOS generada.
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
@@ -21,8 +21,8 @@ En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla d
 
 Para comenzar, descargue el **Starter Project**, que incluye:
 
-* A **Custom Detail form** folder (custom Detail form template folder)
-* A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
+* Una carpeta **Custom Detail form** (Carpeta de plantilla personalizada de formulario detallado)
+* Un archivo **Contact.4dbase** (base de demostración Contact con un proyecto de aplicación móvil listo para utilizar)
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
@@ -33,23 +33,23 @@ href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c5476
 
 ## Añada una plantilla de formulario detallado a su proyecto móvil
 
-First, create a *Contact.4dbase/Resources/Mobile/form/detail* folder and drag and drop the **Custom Detail form** folder in it.
+Primero, cree una carpeta *Contact.4dbase/Resources/Mobile/form/detail* y arrastre y suelte la carpeta **Custom Detail form** en ella.
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
-Luego abra Contact.4dbase con 4D. and go to File > open > Mobile Project... to open the **Contact Demo App**
+Luego abra Contact.4dbase con 4D. y vaya a File > open > Mobile Project... para abrir la aplicación **Contact Demo App**
 
-Finally go to the **Forms section** in the project editor. ¡Verá que la plantilla de formulario detallado personalizada se ha agregado correctamente a la lista de plantillas!
+A continuación, vaya a la **sección Formularios** en el editor de proyectos. ¡Verá que la plantilla de formulario detallado personalizada se ha agregado correctamente a la lista de plantillas!
 
 ![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
 
-Now let's focus on the **Custom Detail form** folder content.
+Ahora concentrémonos en el contenido de la carpeta **Custom Detail form**.
 
 ## La carpeta de plantillas de formulario detallado y su contenido
 
-* **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
-* **a manifest.json** file that includes a basic description of the template
-* **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* Un icono **a layoutIconx2.png** de 160x160px que se mostrará en el editor del proyecto cuando seleccione su plantilla personalizada entre otras
+* Un archivo **a manifest.json** que incluye una descripción básica de la plantilla
+* Un archivo **a template.svg** que será la representación de su plantilla que se mostrará cuando defina el contenido de su formulario listado y dónde arrastrará y soltará sus campos
+* Carpeta Source que incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
 
 ¿Qué son esos archivos, para qué sirven y cómo personalizarlos?
