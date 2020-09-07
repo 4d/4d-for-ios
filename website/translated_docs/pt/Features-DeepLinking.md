@@ -45,7 +45,7 @@ This is very simple to include url scheme into your 4D for iOS project :
 1. Select the Share predefine action from the Action section and select the scope : entity to share a detail form content and table to share a list form
 2. Activate the Deep Linking feature in the Publishing section fo the project editor
 3. The Url Scheme is automatically filled in using the app name that you previously defined in the General section but you can still edit it
-4. Build your app
+4. Criação da aplicação
 5. And thats all you need to do !
 
 ![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
@@ -83,7 +83,7 @@ To include the Universal link logic into your app, you will have to follow quite
 1. Select the Share predefine action from the Action section and select the scope : entity to share a detail form content and table to share a list form
 2. Activate the Deep Linking feature in the Publishing section fo the project editor
 3. Fill your website url the universal link field
-4. Build your app
+4. Criação da aplicação
 
 So as you can see, this new feature open a large range of possibilities using 4D for iOS with a minimum effort.
 
