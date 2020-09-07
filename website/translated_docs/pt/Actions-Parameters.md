@@ -8,16 +8,16 @@ title: Usar parâmetros de ação
 > Define parâmetros ação para editar o conteúdo de sua aplicação.
 
 
-In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+No [tutorial anterior](define-first-action.html), mostramos como executar código 4D desde um app iOS ao definir ações na seção [Actions ](actions.html).
 
-In this tutorial, we're going to go further and create:
+Neste tutorial vamos nos aprofundar mais e criar:
 
-* an Add action to **create a new task**,
-* an Edit action that will allow you to **edit existing tasks** from the iOS app,
-* a Delete action to **delete an entity**, and
-* an action that will enable you to **email a comment for a specific task**.
+* uma ação de adição para **criar uma nova tarefa**,
+* uma ação de edição que lhe permitirá **editar as tarefas existentes** desde a aplicação iOS,
+* uma ação de eliminação para **eliminar uma entidade**, e
+* uma ação que lhe permitirá **enviar um comentário por correio eletrônico para uma tarefa específica**.
 
-To begin, let's first download the **Starter Project** based on our existing Tasks iOS app.
+Para começar, primeiro descarregamos  **Projeto Starter** baseado em nossa aplicação iOS Tasks.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
@@ -27,7 +27,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 ## PASSO 1. Ação de Adicionar
 
-Let's begin simple. Open the Tasks mobile project and go directly to the **Actions section**.
+Comecemos por uma tarefa simples. Open the Tasks mobile project and go directly to the **Actions section**.
 
 ![Action section](assets/en/actions/Actions-section.png)
 
