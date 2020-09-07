@@ -109,7 +109,7 @@ Todas suas ações se incluirão automaticamente no método banco.
 
 O único que deve fazer é agregar uma referência a seus métodos para os cenários que quiser manejar.
 
-Here's the final *On Mobile App Action* database method:
+Aqui o método banco de dados *On Mobile App Action* final:
 
 ```4d
 C_OBJECT($0;$response)
@@ -117,7 +117,7 @@ C_OBJECT($1;$request)
 
 C_OBJECT($o;$context;$request;$result;$parameters)
 
-$request:=$1  // Informations provided by mobile application
+$request:=$1  // Informação oferecida pela aplicação móvel
 
 $context:=$request.context
 $parameters:=$request.parameters
@@ -126,7 +126,7 @@ Case of
 
     : ($request.action="addTasks")
 
-          // Insert here the code for the action "Add…"
+          // Inserir aqui o código para a ação "Add…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -136,7 +136,7 @@ Case of
 
     : ($request.action="editTasks")
 
-          // Insert here the code for the action "Edit…"
+          // Inserir aqui o código para a ação "Edit…"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -148,7 +148,7 @@ Case of
 
     : ($request.action="deleteTasks")
 
-          // Insert here the code for the action "Remove"
+          // Inserir aqui o código para a ação "Remove"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -158,7 +158,7 @@ Case of
 
     : ($request.action="sendComment")
 
-          // Insert here the code for the action "Send Comment"
+          // Inserir aqui o código para a ação "Send Comment"
 
         $o:=New object(\
         "dataClass";$context.dataClass;\
@@ -170,15 +170,14 @@ Case of
 
     Else 
 
-          // Unknown action
-
+          // Ação desconhecida
 End case 
 
 $0:=$result
 
 ```
 
-## PASSO 6. Create All the methods you need
+## PASSO 6. Criação de todos os métodos necessários
 
 
 ### addAction
@@ -195,7 +194,7 @@ $out:=New object("success";False)
 
 If ($in.dataClass#Null)
 
-    $entity:=ds.Tasks.new()  //create a reference
+    $entity:=ds.Tasks.new()  //cria uma referência
 
     For each ($key;$in.parameters)
 
@@ -203,11 +202,11 @@ If ($in.dataClass#Null)
 
     End for each 
 
-    $entity.save()  //save the entity
+    $entity.save()  //salva a entidade
 
 
-    $out.success:=True  // notify App that action success
-    $out.dataSynchro:=True  // notify App to refresh the selection
+    $out.success:=True  // notifica o App que a ação teve sucesso
+    $out.dataSynchro:=True  // notificar o App para refrescar a seleção
     $out.statusText:="Task added"
 
 Else 
@@ -249,19 +248,19 @@ If ($selection.length=1)
 
     If ($status.success)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notificar o App que a ação teve sucesso
+        $out.dataSynchro:=True  // notificar o App para refrescar esta entidade
         $out.statusText:="Task edited"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // devolver o estado do App
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notificar o App que a ação falhou
 
 End if 
 
@@ -291,19 +290,19 @@ If ($selection.length=1)
 
     If ($entity.length=0)
 
-        $out.success:=True  // notify App that action success
-        $out.dataSynchro:=True  // notify App to refresh this entity
+        $out.success:=True  // notificar o App que a ação teve sucesso
+        $out.dataSynchro:=True  // notificar o App para refrescar esta entidade
         $out.statusText:="Task deleted"
 
     Else 
 
-        $out:=$status  // return status to the App
+        $out:=$status  // devolver estado do App
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notificar o App que a ação falhou
 
 End if 
 
@@ -354,18 +353,18 @@ If ($selection.length=1)
 
     $status:=$transporter.send($email)
     If ($status.success)
-        $out.success:=True  // notify App that action success
+        $out.success:=True  // notificar o App que a ação teve sucesso
         $out.statusText:="Mail sent"
 
     Else 
-        $out.success:=False  // notify App that action failed
+        $out.success:=False  // notificar o App que a ação falhou
         $out.statusText:="Mail not sent"
 
     End if 
 
 Else 
 
-    $out.success:=False  // notify App that action failed
+    $out.success:=False  // notificar o App que a ção falhou
 
 End if 
 
@@ -374,34 +373,34 @@ $0:=$out
 
 ```
 
-Don't forget to add your own values for the **sendEmail** action.
+Não esqueça de agregar seus próprios valores para a ação **sendEmail**.
 
 
 
-## PASSO 7. Build your app
+## PASSO 7. Criação da aplicação
 
 
-It's time to build your app!
+É hora de gerar sua aplicação!
 
-Now, if you click on the Action button in the navigation bar, you'll be able to **create a new task**.
+Agora, se clicar no botão Ação da barra de navegação, poderá **criar uma nova tarefa**.
 
 ![Create new task](assets/en/actions/Action-parameters-addAction.png)
 
-Holding and maintaining pressure on your new task cell in the List Form, will show that an **Edit...** action is available in the action list.
+Se manter a pressão sobre sua nova célula de tarefas no Formulário Lista, se mostrará uma ação **Editar...** na lista de ações.
 
 ![Edit task](assets/en/actions/Action-parameters-editAction.png)
 
-Send a comment using the **Send comment** action.
+Envie um comentário utilizando a ação **Send comment**.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-And finally you can delete an entity using the **Delete...** action.
+e finalmente pode eliminar uma entidade utilizando a ação **Eliminar... **.
 
 ![Delete task](assets/en/actions/Action-parameters-deleteAction.png)
 
 ## PASSO 8. Que fazer agora?
 
-Parabéns! Your Tasks iOS app is now complete and you can now modify your app data direclty from your device and sychronize it with your server!
+Parabéns! Sua aplicação iOS Tasks agora está completa e agora pode modificar os dados de sua aplicação diretamente desde seu dispositivo e sincronizá-los com seu servidor.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
