@@ -7,11 +7,11 @@ title: Usar parâmetros de ação
 > 
 > Define parâmetros ação para editar o conteúdo de sua aplicação.
 
-In the [previous tutorial](define-first-action.html), we discovered how to execute 4D code from an iOS app by defining actions from the [Actions section](actions.html).
+No [tutorial anterior](define-first-action.html), mostramos como executar código 4D desde um app iOS ao definir ações na seção [Actions ](actions.html).
 
-In this tutorial, we're going to go further and create:
+Neste tutorial vamos nos aprofundar mais e criar:
 
-* an Add action to **create a new task**,
+* uma ação de adição para **criar uma nova tarefa**,
 * an Edit action that will allow you to **edit existing tasks** from the iOS app,
 * a Delete action to **delete an entity**, and
 * an action that will enable you to **email a comment for a specific task**.
