@@ -7,17 +7,17 @@ title: Apresentação do Xcode
 > 
 > Garantir uma compreensão básica do funcionamento de Xcode.
 
-Xcode displays various areas that we're going to review:
+Xcode mostra as diferentes áreas que vamos revisar:
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
 ## Barra de ferramentas
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
+* Os botões **Run** e **Stop** esetão à esquerda da barra de ferramentas. O botão **Run** permite criar, executar e lançar sua aplicação no simulador iOS selecionado.
 
 ![Compile e Execute](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
+* O menu dropdown ao lado do botão **Stop** indica os elementos que quiser executar e qual simulador se está utilizando.
 
 ![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
@@ -29,17 +29,17 @@ Xcode displays various areas that we're going to review:
 
 ![Área do editor](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+Aqui é onde ocorre a codificação quando selecionar um arquivo Swift. Quando selecionar um arquivo Storyboard, a vista muda e aparece a Interface Builder.
 
 ## Área de interface Builder
 
 ![Área de interface Builder](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
+Esta é uma interface gráfica que lhe permite criar um arquivo Storyboard ou XIB. Todas as suas cenas são acessíveis no lado esquerdo.
 
 ## Área Utilidade
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+A área de funcionalidades de Xcode tem dois painéis: o painel Inspector e o painel Library (biblioteca)
 
 ![Área Utilidade](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
