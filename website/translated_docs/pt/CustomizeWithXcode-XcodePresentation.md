@@ -45,29 +45,29 @@ A área de funcionalidades de Xcode tem dois painéis: o painel Inspector e o pa
 
 ### Painel Inspetor
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dentro da seção Propriedades, há seis diferentes abas do Inspector, como mostrado na ilustração a seguir:
 
 ![Painel Inspetor](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+Da esquerda para a direita, estas abas são:
 
-* **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
+* **File inspector (inspetor de arquivo)**: para ver e administrar os metadados de um arquivo, tais como o nome, o tipo e a rota de arquivo.
 
-* **Quick Help**: For viewing details about what has been selected in an editor.
+* **Quick Help (ajuda rápida)**: para ver detalhes sobre o que foi selecionado em um editor.
 
-* **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
+* **Identity inspector (inspetor de identidade)**: para a visualização dos metadados do objeto tais como a classe de um objeto, o tempo de execução de seus atributos, da etiqueta.
 
-* **Attributes inspector**: For configuring the attributes specific to the selected interface object. Por exemplo, alguns atributos de campo de texto incluem o alinhamento de texto e cor, tipo de borda e capacidade de edição.
+* **Attributes inspector (inspetor de atributos)**: para configurar os atributos específicos do objeto da interface selecionado. Por exemplo, alguns atributos de campo de texto incluem o alinhamento de texto e cor, tipo de borda e capacidade de edição.
 
-* **Size inspector**: For specifying characteristics such as the size and position of an interface object.
+* **Size inspector (inspetor de dimensões)**: para especificar as características tais como o tamanho e a posição de um objeto.
 
-* **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
+* **Connection inspector (inspetor de conexões)**: para ver os "outlets" de um objeto, estabelecer novas conexões e apagar as conexões existentes.
 
 ### Painel Biblioteca
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dentro da seção Propriedades, Library tem quatro diferentes abas, como mostrado na ilustração abaixo:
 
-From left-to-right, these tabs are:
+Da esquerda para a direita, estas abas são:
 
 ![Painel Biblioteca](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
