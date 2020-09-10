@@ -145,7 +145,7 @@ Por exemplo, para  **moreButton.imageset**:
 
 ![Template ressources](assets/en/actions/Template-Ressources.png)
 
-You can select the TasksDetail custom template from the **Forms section** and add the following fields:
+Pode selecionar o modelo personalizado TasksDetail na **seção Formulários** e agregar os campos abaixo:
 
 ![TasksDetail Forms section](assets/en/actions/detailform-forms-section.png)
 
