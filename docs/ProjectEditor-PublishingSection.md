@@ -99,7 +99,7 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">MOBILE SE
 * Create a **Components** folder next to the 4D database with the app's data. 
 * Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
 * Restart 4D.  
-* Clic ont the Execute button from the toolbar
+* Click on the Execute button from the toolbar
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
 * The Apps window will appear displaying all of your apps: 
 
