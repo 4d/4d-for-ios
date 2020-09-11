@@ -15,8 +15,8 @@ Em 4D v17 R5, pode [definir ações](actions.html) diretamente do Editor de Proj
 
 A partir daqui, pode construir seu app do Editor de Projeto usando ações, pode decidir usar:
 
-* **4D for iOS templates** from the Form section. Neste caso ações já são incluídas Apenas precisa [definir ações ](define-first-action.html) na seção Ações e cria métodos apropriados em 4D.
+* **Modelos 4D for iOS** da seção Formulários. Neste caso ações já são incluídas Apenas precisa [definir ações ](define-first-action.html) na seção Ações e cria métodos apropriados em 4D.
 
-* **Your own custom templates** you developed. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates.
+* **Seus modelos personalizados** que criou Um passo importante adicional é necessário para que suas ações funcionem na aplicação iOS gerada É necessário incluir manualmente as [etiquetas de ação](action-custom-template.html) em seus modelos de Formulários Lista e Formulários detalhados.
 
-Now it's time to enjoy building a **Tasks app**, using 4D for iOS actions.
+Agora é o momento de desfrutar criando uma aplicação **Tasks**, utilizando ações de 4D for iOS.

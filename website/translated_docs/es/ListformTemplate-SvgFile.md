@@ -187,4 +187,4 @@ El campo de sección es opcional.
 4. Define the droppable field position, height and width as well as accepted **field types**
 5. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
-Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
+Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**... pasemos a la parte divertida con ¡Xcode!

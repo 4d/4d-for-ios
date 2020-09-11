@@ -35,6 +35,6 @@ Puede agregar entre 2 o a 10 campos para la mayoría de los formularios Lista.
 
 > **RECOMENDACIONES**
 > 
-> Want to change the template for your list or detail form? 
+> ¿Quiere cambiar la plantilla de su formulario listado o de formulario detallado? 
 > 
 > Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).

@@ -15,10 +15,10 @@ En este tutorial, lo guiaremos a través de la creación de varios ejemplos de f
 
 ## Descargue el proyecto Starter
 
-To begin, download the **Starter Project**, which includes:
+Para comenzar, descargue el **Starter Project**, que incluye:
 
-* **integerToImage_Images** and **textToImage_Images** folders that contain images (to use later for formatters that include images)
-* A **Task Management.4dbase** file (with a ready to use mobile app project)
+* Las carpetas **integerToImage_Images** y **textToImage_Images**, que contienen las imágenes (a utilizar más adelante para los formatos que contienen imágenes)
+* Un archivo **Task Management.4dbase** (con una aplicación de proyecto móvil lista para utilizar)
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
@@ -29,7 +29,7 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 
 ## Crear la carpeta Formats
 
-First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
+Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em>.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder.png)
 
@@ -37,12 +37,12 @@ First, create a *Task Management.4dbase/Resources/Mobile/formatters* folder.
 
 ### Número entero a cadena
 
-* Create an **integerToString** folder in the formatters folder you've just created.
-* Then create a **manifest.json** file in the **integerToString** folder.
+* Cree una carpeta **integerToString** en la carpeta de Formats que acaba de crear.
+* Cree un archivo </strong>manifest.json** en la carpeta **integerToString**.</li> </ul>
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Veamos el contenido del archivo **manifest.json**:
 
 ```json
 {
@@ -56,24 +56,24 @@ Let's look at the contents of the **manifest.json** file:
 }
 ```
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: el nombre del formato
+2. **type**: tipo de formato 4D que desea utilizar
+3. **binding**: puede ser **localized text** para las cadenas o **imageNamed** para las imágenes
+4. **choiceList**: valores mapeados
 
 ### Entero a imagen
 
-* Create an **integerToImage** folder in the **formatters** folder you've created.
+* Cree una carpeta **integerToImage** en la carpeta **formatters** que acaba de crear.
 
-* Create a **manifest.json** file in the **integerToImage** folder.
+* Cree un archivo **manifest.json** en la carpeta **integerToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertoimage.png)
 
-* Then create an **Images** folder in the **integerToImage** folder. You can add the images from the **integerToImage_Images** in the StarterProject.zip to this new folder.
+* Cree un archivo **Images** en la carpeta **integerToImage**. Puede agregar las imágenes de **integerToImage_Images** (en StarterProject.zip) para esta nueva carpeta.
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-integertoimage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Veamos el contenido del archivo **manifest.json**:
 
 
 ```json
@@ -93,23 +93,23 @@ Let's look at the contents of the **manifest.json** file:
     }
 }
 ```
-1. **name**: the name of the formatter
-2. **type** : the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
-5. **assets**: adjust the display size (width and height)
+1. **name**: el nombre del formato
+2. **type**: el tipo de formato 4D que desea utilizar
+3. **binding**: puede ser **localized text** para las cadenas o **imageNamed** para las imágenes
+4. **choiceList**: valores mapeados
+5. **assets**: ajustar el tamaño de visualización (ancho y alto)
 
 ## Formatos texto
 
 ### Texto a cadena
 
-* Create a **textToString** folder in the formatters folder you've just created.
+* Cree una carpeta **integerToString** en la carpeta Formats que acaba de crear.
 
 * Create a **manifest.json** file in the **textToString** folder.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-texttostring.png)
 
-Let's look at the contents of the **manifest.json** file:
+Veamos el contenido del archivo **manifest.json**:
 
 ```json
 {
@@ -123,24 +123,24 @@ Let's look at the contents of the **manifest.json** file:
 }
 ```
 
-1. **name**: the name of the formatter
-2. **type**: the 4D format type you want to use
-3. **binding**: can be **localized text** for strings or **imageNamed** for images
-4. **choiceList**: mapped values
+1. **name**: el nombre del formato
+2. **type**: tipo de formato 4D que desea utilizar
+3. **binding**: puede ser **localized text** para las cadenas o **imageNamed** para las imágenes
+4. **choiceList**: valores mapeados
 
 ### Texto a imagen
 
-* Create a **textToImage** folder in the formatters folder you've just created.
+* Cree una carpeta **textToImage** en la carpeta Formats que acaba de crear.
 
-* Create a **manifest.json** file in the **textToImage** folder.
+* Cree un archivo **manifest.json** en la carpeta **textToImage**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-textToImage.png)
 
-* Then create an **Images** folder in the **textToImage** folder. You can add the images from the **textToImage_Images** in the StarterProject.zip to this new folder.
+* Luego cree un archivo **Images** en la carpeta **textToImage**. Puede agregar las imágenes de **textToImage_Images** (en StarterProject.zip) a esta nueva carpeta.
 
 ![Formatter images](assets/en/custom-formatter/formatter-images-textToImage.png)
 
-Let's look at the contents of the **manifest.json** file:
+Veamos el contenido del archivo **manifest.json**:
 
 ```json
 {
@@ -163,14 +163,14 @@ Let's look at the contents of the **manifest.json** file:
 
 ## Abrir un proyecto móvil
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Abra Task Management.4dbase con 4D y vaya al Archivo > abrir > Mobile Project... para abrir **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. Todos los formatos están disponibles para los diferentes tipos de campos definidos previamente en los diferentes archivos de formato manifest.json:
+A continuación, vaya a la sección **Etiquetas e iconos** en el editor de proyectos. Todos los formatos están disponibles para los diferentes tipos de campos definidos previamente en los diferentes archivos de formato manifest.json:
 
-* Select the **integerToString** formatter for the **Job field**
-* Select the **textToString** formatter for the **Country field**
-* Select the **integerToImage** formatter for the **Task Status**
-* Select the **textToImage** formatter for the **Manager**
+* Seleccione el formato **integerToString** para **Job field**
+* Seleccione el formato **textToString** para **Country field**
+* Seleccione el formato **integerToImage** para **Task Status**
+* Seleccione el formato **textToImage** para **Manager**
 
 ![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
@@ -180,7 +180,7 @@ Genere su aplicación 4D for iOS y verá que su formateador de datos se aplica c
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+Haga clic en el botón **FORMAT FINAL** a continuación para descargar la carpeta final de modelos de formatos.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 

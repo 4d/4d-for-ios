@@ -5,7 +5,7 @@ title: Búsquedas limitadas
 
 > **OBJETIVOS**
 > 
-> Defining basic and user information-based query filters to display filtered content in the generated iOS app.
+> Definir los filtros de búsqueda basados en información usuario o básica para mostrar contenido filtrado en la aplicación iOS generada.
 
 
 > **REQUISITOS PREVIOS**
@@ -35,7 +35,7 @@ The database includes a:
 
 > **NOTA**
 > 
-> This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
+> Este proyecto utiliza [plantillas personalizadas](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [iconos personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) y [formatos de datos personalizados](https://4d.github.io/4d -for-ios/docs/es/creating-data-formatter.html).
 
 You're now ready to define your first restricted query!
 

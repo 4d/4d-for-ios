@@ -42,7 +42,7 @@ This will now operate as any other field for the rest of the app creation proces
 
 > **DICAS**
 > 
-> * On mouse over, a tip displays the table name originating the relation.
+> * Ao passar com o mouse por cima, uma sugestão mostra o nome da tabela fonte que origina a relação.
 
 
 ## Labels & Icons section
@@ -77,5 +77,5 @@ And voila, this is how One to Many relations work in 4D for iOS !
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">ONE TO MANY FINAL PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJETO FINAL UM PARA MUITOS (1 PARA N)</a>
 </div>

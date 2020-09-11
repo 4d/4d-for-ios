@@ -5,7 +5,7 @@ title: Relações Um para Muitos - Ações
 
 > **OBJETIVOS**
 > 
-> We are now going to go a little bit further and **create a task for a specific employee**.
+> Vamos agora  **criar uma tarefa para um funcionário específico**.
 
 It is very easy to create an entity using **parent Entity** !
 
@@ -13,7 +13,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT -  UM PARA MUITOS & AÇÕES</a>
 </div>
 
 ## Criar ação addProject
@@ -99,5 +99,5 @@ And that's it you can then add some task to your employees easily using the pare
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">FINAL PROJECT - ONE TO MANY & ACTIONS</a>
+href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROJETO FINAL- UM PARA MUITOS & AÇÕES</a>
 </div>

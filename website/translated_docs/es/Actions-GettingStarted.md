@@ -17,6 +17,6 @@ A partir de aquí, cuando crea su aplicación desde el editor de proyectos utili
 
 * **Plantillas 4D for iOS templates** de la sección Formularios. En este caso, las acciones ya están incluidas. Solo necesita [definir las acciones](define-first-action.html) en la sección Acciones y crear los métodos apropiados en 4D.
 
-* **Sus propias plantillas personalizadas** que desarrolló. An important additional step is required for your actions to work in the generated iOS app. Indeed, it is necessary to manually [include action Tags](action-custom-template.html) in your Listform and Detailforms templates.
+* **Sus propias plantillas personalizadas** que desarrolló. Se requiere un paso adicional importante para que sus acciones funcionen en la aplicación iOS generada. De hecho, es necesario incluir manualmente las [etiquetas de acción](action-custom-template.html) en sus plantillas de Formularios Lisa y Formularios detallados.
 
 Ahora es el momento de disfrutar creando una aplicación **Tasks**, utilizando acciones de 4D for iOS.

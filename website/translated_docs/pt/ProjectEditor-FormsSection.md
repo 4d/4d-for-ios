@@ -1,6 +1,6 @@
 ---
 id: forms
-title: Forms
+title: Formulários
 ---
 
 A seção Formulários lhe permite selecioanr os modelos de formulário Lista e de formulários detalhados para cada tabela.

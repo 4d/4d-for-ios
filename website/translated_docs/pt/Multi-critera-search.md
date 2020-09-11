@@ -1,6 +1,6 @@
 ---
 id: multi-criteria-search
-title: Multi-criteria search
+title: Pesquisa multicritério
 ---
 
 

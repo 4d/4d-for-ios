@@ -55,7 +55,7 @@ Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que ind
 
 > **EJEMPLO** 
 > 
-> In the **Filter query** field enter:
+> En el campo **Filtro de búsqueda** ingrese:
 > 
 > `FirstName = 'Lisa' & LastName = 'Hart'`
 > 
@@ -78,7 +78,7 @@ Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que ind
 
 > **EJEMPLO**
 > 
-> In the **Filter query** field enter:
+> En el campo **Filtro de búsqueda** ingrese:
 > 
 > CityName = :city
 > 
