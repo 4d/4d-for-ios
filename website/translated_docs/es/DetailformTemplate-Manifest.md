@@ -37,8 +37,8 @@ The manifest file includes information about your detail form template such as t
 
 Por ejemplo, el archivo manifiest para la plantilla de formulario detallado a continuación incluye la siguiente información:
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
+1. **Tipo de Storyboard:** detailform
+2. **Nombre de la plantilla:** Custom Detail form
 3. **Version:** 2
 4. **hOffset:** the first field that is going to be duplicated is at 91 pixels from the top
 5. **Número de campos:** 1 campo estático (y 0 para un infinito de campos duplicados (una imagen de encabezado y los campos duplicados))

@@ -41,5 +41,5 @@ Por exemplo, o arquivo manifesto para o formulário detalhado abaixo inclui as i
 2. **Template Name:** Custom Detail form
 3. **Versão:** 2
 4. **hOffset:** o primeiro campo que vai ser duplicado está a 91 píxels a partir do topo
-5. **Field number:** One static field (and 0 for infinite duplicated fields (a header image, and duplicated fields))
-6. **Icon properties:** Icon width and height
+5. **Número de Campos:** Um campo estático (e 0 para um número infinito de campos duplicados  (uma imagem de cabeçalho e os campos duplicados))
+6. **Propriedades do ìcone:** Largura e altura do ícone

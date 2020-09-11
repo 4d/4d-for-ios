@@ -37,7 +37,7 @@ Esos elementos se mostrarán en formularios detallados y en formularios listados
 
 > **RECOMENDACIONES**
 > 
-> * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field. 
+> * Para mantener todo consistente, los **iconos predeterminados** se generan para los campos vacíos, si se ha definido al menos un icono para un campo. 
 > 
 > * También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.
 
