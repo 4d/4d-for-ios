@@ -1,6 +1,6 @@
 ---
 id: create-icons
-title: Create icons
+title: Criar ícones
 ---
 
 É possível usar qualquer formato ícone (SVG ou PNG é recomendado para preservar transparências) e tamanho que quiser no seu projeto.

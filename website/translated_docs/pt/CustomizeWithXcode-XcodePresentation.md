@@ -7,17 +7,17 @@ title: Apresentação do Xcode
 > 
 > Garantir uma compreensão básica do funcionamento de Xcode.
 
-Xcode displays various areas that we're going to review:
+Xcode mostra as diferentes áreas que vamos revisar:
 
 ![Xcode](assets/en/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
 ## Barra de ferramentas
 
-* **Run** and **Stop** buttons are located on the left side of the toolbar. Pressing the **Run** button will build, run, and launch your application in the selected iOS Simulator.
+* Os botões **Run** e **Stop** esetão à esquerda da barra de ferramentas. O botão **Run** permite criar, executar e lançar sua aplicação no simulador iOS selecionado.
 
 ![Compile e Execute](assets/en/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next to the **Stop** button indicates which build target you want to run and which Simulator is being used.
+* O menu dropdown ao lado do botão **Stop** indica os elementos que quiser executar e qual simulador se está utilizando.
 
 ![Toolbar Target](assets/en/customize-with-xcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
@@ -29,45 +29,45 @@ Xcode displays various areas that we're going to review:
 
 ![Área do editor](assets/en/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
-This is where the coding happens when a Swift file is selected. When a Storyboard file is selected, the view changes and the Interface Builder appears.
+Aqui é onde ocorre a codificação quando selecionar um arquivo Swift. Quando selecionar um arquivo Storyboard, a vista muda e aparece a Interface Builder.
 
 ## Área de interface Builder
 
 ![Área de interface Builder](assets/en/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-This is a graphical interface which allows you to build a Storyboard or XIB file. All of your scenes are accessible on the left side.
+Esta é uma interface gráfica que lhe permite criar um arquivo Storyboard ou XIB. Todas as suas cenas são acessíveis no lado esquerdo.
 
 ## Área Utilidade
 
-The Utility area of Xcode has two panes: the Inspector pane and the Library pane.
+A área de funcionalidades de Xcode tem dois painéis: o painel Inspector e o painel Library (biblioteca)
 
 ![Área Utilidade](assets/en/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 ### Painel Inspetor
 
-Within the Properties section, there are six different Inspector Tabs, as shown in the following illustration:
+Dentro da seção Propriedades, há seis diferentes abas do Inspector, como mostrado na ilustração a seguir:
 
 ![Painel Inspetor](assets/en/customize-with-xcode/Xcode-Inspector-pane.png)
 
-From left-to-right, these tabs are:
+Da esquerda para a direita, estas abas são:
 
-* **File inspector**: For viewing and managing file metadata, such as a filename, type, and path.
+* **File inspector (inspetor de arquivo)**: para ver e administrar os metadados de um arquivo, tais como o nome, o tipo e a rota de arquivo.
 
-* **Quick Help**: For viewing details about what has been selected in an editor.
+* **Quick Help (ajuda rápida)**: para ver detalhes sobre o que foi selecionado em um editor.
 
-* **Identity inspector**: For viewing object metadata such as an object’s class, runtime attributes, label.
+* **Identity inspector (inspetor de identidade)**: para a visualização dos metadados do objeto tais como a classe de um objeto, o tempo de execução de seus atributos, da etiqueta.
 
-* **Attributes inspector**: For configuring the attributes specific to the selected interface object. Por exemplo, alguns atributos de campo de texto incluem o alinhamento de texto e cor, tipo de borda e capacidade de edição.
+* **Attributes inspector (inspetor de atributos)**: para configurar os atributos específicos do objeto da interface selecionado. Por exemplo, alguns atributos de campo de texto incluem o alinhamento de texto e cor, tipo de borda e capacidade de edição.
 
-* **Size inspector**: For specifying characteristics such as the size and position of an interface object.
+* **Size inspector (inspetor de dimensões)**: para especificar as características tais como o tamanho e a posição de um objeto.
 
-* **Connections inspector**: View the outlets and actions for an interface object, make new connections, and delete existing connections.
+* **Connection inspector (inspetor de conexões)**: para ver os "outlets" de um objeto, estabelecer novas conexões e apagar as conexões existentes.
 
 ### Painel Biblioteca
 
-Within the Properties section, there are four different Library Tabs, as shown in the following illustration:
+Dentro da seção Propriedades, Library tem quatro diferentes abas, como mostrado na ilustração abaixo:
 
-From left-to-right, these tabs are:
+Da esquerda para a direita, estas abas são:
 
 ![Painel Biblioteca](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 

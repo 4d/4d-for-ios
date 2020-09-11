@@ -24,23 +24,23 @@ Está bastante vacío, así que vamos a agregar algo de contenido.
 
 ## Añadir un "Scroll View"
 
-For our detail form to be scrollable, the first step is to drag and drop a "Scroll View" from the **Object library**.
+Para que nuestro formulario detallado sea desplazable, el primer paso es arrastrar y soltar una "Scroll View" (vista de desplazamiento) desde la **Librería de objetos**.
 
 ![Add Scroll View Storyboard](assets/en/custom-detailform/add-scrollview-storyboard.png)
 
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.
+Desde el **Inspector de tamaño** (en el lado derecho de la ventana del Interface Builder), defina el valor del Scroll vista en 359 y el valor de altura en 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.
 
 ![Scroll View position height and width](assets/en/custom-detailform/scrollview-position-height-width.png)
 
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:
+Luego, agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: 8, Top: 0, y Bottom: 0) como se muestra a continuación:
 
 ![Scrollview Constraints](assets/en/custom-detailform/scrollview-constraints.png)
 
 ## Añadir una "Vertical Stack View"
 
-Drag and drop a Vertical Stack View from the **Object library** in Scroll View. Then, from the **Size inspector panel** (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.
+Arrastre y suelte una "Vertical Stack View" desde la **librería de objetos** a la "Scroll view". Desde el **Size inspector** (al lado derecho del Interface Builder), defina el valor de ancho en 359 y el valor de alto en 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.
 
 ![Add stackview Storyboard](assets/en/custom-detailform/add-vertical-stackview-storyboard.png)
 
@@ -48,11 +48,11 @@ Dado que el ancho y el alto del "Stack View" están definidos por los elementos 
 
 ## Añadir las vistas en el Stack Views
 
-Drag and drop a view from the **Object library** to the Stack View you've just added to your storyboard. Let's name it **Field View 1**.
+Arrastre y suelte una vista de la **librería de objetos** en la Stack View que acaba de agregar a su storyboard. Llamémosla **Field View 1**.
 
 ![Add Field View 1](assets/en/custom-detailform/add-view1-storyboard.png)
 
-Then drag and drop another view from the **Object library** directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it **Field View 2**.
+Luego arrastre y suelte otra vista de la **Librería de objetos** directamente en el Document Outline al mismo nivel que Field View 1 (para integrarla en la Stack View) y llámela **Field View 2**.
 
 ![Add Field View 2](assets/en/custom-detailform/add-view2-storyboard.png)
 
@@ -61,11 +61,11 @@ Para agregar espacio entre las vistas, seleccione su Stack View y defina el valo
 
 ![Stackview spacing](assets/en/custom-detailform/stackview-spacing.png)
 
-Select both **Field View 1** and **Field View 2** and in the **Size inspector panel** (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.
+Seleccione **Field View 1** y **Field View 2** y defina, en el **Size inspector** (a la derecha del Interface Builder), el valor de ancho en 359 y de alto en 97.
 
 ![views position height and width](assets/en/custom-detailform/views-position-height-width-storyboard.png)
 
-Select **Field View 1** add three constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, and Top: 0):
+Seleccione **Field View 1** y añada tres restricciones haciendo clic en el botón **Add New Constraints button** (Trailing: 0, Leading: 0 y Top: 0):
 
 ![Field Views constraints](assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png)
 
@@ -75,7 +75,7 @@ Presione Ctrl y arrastre el "Stack View" al "Scroll View". Cuando suelte el bot�
 
 ![Stack View Equal Width](assets/en/custom-detailform/stackview-equal-width-scrollview.png)
 
-Next, with the Stack View selected add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:
+Luego, agregue cuatro restricciones con la Stack View haciendo clic en **Add New Constraints** (Trailing: 0, Leading: 0, Top: 8, y Bottom: 0) como se muestra a continuación:
 
 ![Stackview constraints](assets/en/custom-detailform/stackview-constraints.png)
 
@@ -87,19 +87,19 @@ Ahora que tiene dos vistas en su Stack View y ha definido restricciones, concent
 
 ## Añada una Image View al Field View 1
 
-From the **Object library**, drag and drop an  **Image View** into Field View 1.
+Desde la **Object library** (la librería de objetos), arrastre y suelte una **Image View** (una vista de imagen) en Field View 1.
 
 ![Add Image View storyboard](assets/en/custom-detailform/add-imageview-storyboard.png)
 
-In the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.
+Desde el **Size inspector** (al lado derecho del Interface Builder), defina el valor del ancho del Image View en 359 y su altura en 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.
 
 ![Image View position height and width](assets/en/custom-detailform/imageview-position-height-width.png)
 
-Next, add four constraints by clicking on the **Add New Constraints button** (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:
+Luego, agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 0, Leading: 0, Top: 0, y Bottom: 0) como se muestra a continuación:
 
 ![Image View constraints](assets/en/custom-detailform/imageview-constraints.png)
 
-In the **Size inspector panel** change the Intrinsic Size from **Default** to **Placeholder**.
+En el **Size inspector**cambie el valor **Default** del intrínseco Size por **Placeholder**.
 
 ![Intrinsic size Image View](assets/en/custom-detailform/intrinsic-size-imageview.png)
 
@@ -107,11 +107,11 @@ In the **Size inspector panel** change the Intrinsic Size from **Default** to **
 
 ### Etiqueta de título
 
-In the **Object library**, drag and drop a  **Label** into Field View 2 and set the Width value to 343 and the Height value to 22. Luego, defina el valor de X en 8 y el valor de Y en 8.
+En la **librería de objetos**, arrastre y suelte una **Etiqueta ** en Field View 2  y defina el valor de Ancho en 343 y el valor de Alto 22. Luego, defina el valor de X en 8 y el valor de Y en 8.
 
 ![Add label](assets/en/custom-detailform/add-label1-storyboard.png)
 
-Double click on the label and name it "`___FIELD_LABEL___`". Then in the **attribute inspector** set the font to **Helvetica Neue Light 18.0** and the color to **BackgroundColor**:
+Haga doble clic en la etiqueta y asígnele el nombre "`___FIELD_LABEL___`". Luego, en el **attribute inspector**, seleccione la fuente **Helvetica Neue Light 18.0** y el color **BackgroundColor**:
 
 ![Title label font and color](assets/en/custom-detailform/title-label-font-and-color.png)
 
@@ -121,11 +121,11 @@ Duplique la etiqueta Título y defina el ancho de etiqueta duplicado en 339 y el
 
 ![Add label](assets/en/custom-detailform/add-label2-storyboard.png)
 
-Double click on the label and name it "`<___FIELD_LABEL___>`". Then from the **attribute inspector** set the font to **Helvetica Neue Light 20.0** and the color to **Black Color**:
+Haga doble clic en la etiqueta y asígnele el nombre "`<___FIELD_LABEL___>`". Luego, en el **attribute inspector**, seleccione la fuente **Helvetica Neue Light 20.0** y el color **Back Color**:
 
 ![Content label font and color](assets/en/custom-detailform/content-label-font-and-color.png)
 
-Select the Content and Title labels and add four constraints by clicking on the **Add New Constraints button** (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:
+Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón **Add New Constraints** (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:
 
 ![Title and Content labels constraints](assets/en/custom-detailform/titlelabel-contentlabel-contraints.png)
 
@@ -134,7 +134,7 @@ Select the Content and Title labels and add four constraints by clicking on the 
 ## Cómo obtener datos en sus celdas
 
 ### Image View
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtime Attributes. Haga clic en el **botón +** para añadir una línea.
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
@@ -148,7 +148,7 @@ Select your Image View and go to **Identity inspector** > User Defined Runtime A
 
 ### Etiquetas
 
-For the **first label** we are going to add several lines mainly to display icons:
+Para la **primera etiqueta**, vamos a agregar varias líneas principalmente para mostrar iconos:
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
@@ -156,7 +156,7 @@ You also need to set the Class to `IconLabel` and check the **Inherit Module Fro
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
-Select the **second label** and add a row in the Defined Runtime Attributes:
+Seleccione la **segunda etiqueta** y agregue una línea en el área "Defined Runtime Attributes":
 
 * **Key Path**: `bindTo.record.___FIELD___`
 
@@ -170,7 +170,7 @@ Select the **second label** and add a row in the Defined Runtime Attributes:
 
 Field View 2 incluye los elementos que se duplicarán para que pueda tener tantos campos como defina en el editor del proyecto.
 
-Cada elemento del storyboard tiene un identificador de objeto. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al **Identity inspector**, verá sus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/custom-detailform/object-id-storyboard.png)
 
@@ -180,9 +180,9 @@ El proceso es un poco complicado... ¡Comencemos por abrir el archivo storyboard
 
 ### Field View 2
 
-* Select **Field View 2** and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: **SiX-3H-lNB**.
+* Seleccione **Field View 2** y obtenga sus identificadores de objeto del Identity Inspector (en el lado derecho de la ventana del Interface Builder). En nuestro proyecto, Field View 2 ID es: **SiX-3H-lNB**.
 
-* Search for this ID in the storyboard xml code and replace it with **TAG-FD-001** each time it appears. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.
+* Busque este ID en el código xml del storyboard y reemplácelo con **TAG-FD-001** cada vez que aparezca. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.
 
 ![Storyboard xml](assets/en/custom-detailform/storyboard-xml.png)
 
@@ -192,7 +192,7 @@ Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field V
 
 ### Primera etiqueta
 
-* Now, get the **first label** Object ID from the Identity Inspector and replace it with **TAG-FD-002** each time it appears in the storyboard xml code.
+* Ahora, obtenga el ID del objeto **primera etiqueta** del Identity Inspector y sustitúyalo por **TAG-FD-002** cada vez que aparezca en el código xml del storyboard.
 
 ![Label 1 Object ID](assets/en/custom-detailform/label1-object-id.png)
 
@@ -200,7 +200,7 @@ Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field V
 
 ### Segunda etiqueta
 
-* Next, get the **second label** Oject ID from the Identity Inspector and replace it with **TAG-FD-003** each time it appears in the storyboard xml code.
+* Ahora, obtenga el ID del objeto de la** segunda etiqueta ** del Identity Inspector y sustitúyalo por ** TAG-FD-003 ** cada vez que aparezca en el código xml del storyboard.
 
 ![Label 2 Object ID](assets/en/custom-detailform/label2-object-id.png)
 
@@ -212,7 +212,7 @@ Ambas etiquetas tienen restricciones que también necesitamos identificar:
 
 ![Tag constraints](assets/en/custom-detailform/duplicated-constraints.png)
 
-Just like View Field 2 and label, get all **7 Constraints** Object IDs from the Identity Inspector and replace them with: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** and **TAG-FD-010**.
+Como para View Field 2 y la etiqueta, obtenemos todos los identificadores de objetos de **7 Constraints** desde el Identity Inspector y los reemplazamos con: **TAG-FD-004**, **TAG-FD-005**, **TAG-FD-006**, **TAG-FD-007**, **TAG-FD-008**, **TAG-FD-009** y **TAG-FD-010**.
 
 Vaya al editor de su proyecto y seleccione su plantilla de formulario detallado en la sección Formularios, luego haga clic en Crear.
 
@@ -242,7 +242,7 @@ y
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: seleccione la casilla
 
 ![iPhone Demo](assets/en/custom-detailform/imageview-corner-radius.png)
 
@@ -262,7 +262,7 @@ A continuación, seleccione Field View 2 y agregue lo siguiente:
 
 ## ¿Qué hacemos ahora?
 
-En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Click on **Final Project** below to download the completed template folder.
+En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Haga clic en el botón **Final Project** abajo para descargar la carpeta que contiene la lista completa de modelos.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"

@@ -5,7 +5,7 @@ title: Apple Developer Program para las empresas
 
 > **OBJETIVOS**
 > 
-> Register for the Apple Developer Program as an organization to publish your app to the **App Store**.
+> Regístrese en el Apple Developer Program como empresa para publicar su aplicación en el **App Store**.
 
 
 > **NOTA**
@@ -46,7 +46,7 @@ Solicite un número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-look
 ![Solicite un número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Llene el formulario.
-* Click **Continue**.
+* Haga clic en **Continue**.
 * Verifique su e-mail para obtener el número D-U-N-S.
 
 ![Número D-U-N-S](assets/en/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
@@ -55,9 +55,9 @@ Solicite un número D-U-N-S [aquí](https://developer.apple.com/enroll/duns-look
 
 Puede registrarte como desarrollador [aquí](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Click on the **Start your Enrollment** button.
+* Haga clic en el botón **Start your Enrollment**.
 * Lea y acepte los términos del contrato "Apple Developer Agreement".
-* Click **Submit**.
+* Haga clic en **Submit**.
 
 ![Regístrese como desarrollador](assets/en/deploy-app-store/Register-developer-4D-for-iOS.png)
 
@@ -69,14 +69,14 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 
 ## PASO 7. Suscribirse como empresa
 
-* Click on the **Start your Enrollment** button.
-* Select **Company / Organization** from the Entity Type dropdown list.
-* Click **Continue**.
+* Haga clic en el botón **Start your Enrollment**.
+* Seleccione **Company / Organization** en la lista desplegable "Entity Type".
+* Haga clic en **Continue**.
 
 ![Apple Developer Program](assets/en/deploy-app-store/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Llene el formulario.
-* Click **Continue**.
+* Haga clic en **Continue**.
 
 ![Suscribirse como empresa](assets/en/deploy-app-store/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 

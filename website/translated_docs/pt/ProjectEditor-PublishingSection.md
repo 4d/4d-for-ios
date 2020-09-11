@@ -1,6 +1,6 @@
 ---
 id: publishing
-title: Publishing
+title: Publicação
 ---
 
 Aqui é onde se define ou cria sua aplicação:
