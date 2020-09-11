@@ -84,10 +84,10 @@
 </blockquote>
 <p>En este tutorial, lo guiaremos a través de la creación de varios ejemplos de formatos.</p>
 <h2><a class="anchor" aria-hidden="true" id="descargue-el-proyecto-starter"></a><a href="#descargue-el-proyecto-starter" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Descargue el proyecto Starter</h2>
-<p>To begin, download the <strong>Starter Project</strong>, which includes:</p>
+<p>Para comenzar, descargue el <strong>Starter Project</strong>, que incluye:</p>
 <ul>
-<li><strong>integerToImage_Images</strong> and <strong>textToImage_Images</strong> folders that contain images (to use later for formatters that include images)</li>
-<li>A <strong>Task Management.4dbase</strong> file (with a ready to use mobile app project)</li>
+<li>Las carpetas <strong>integerToImage_Images</strong> y <strong>textToImage_Images</strong>, que contienen las imágenes (a utilizar más adelante para los formatos que contienen imágenes)</li>
+<li>Un archivo <strong>Task Management.4dbase</strong> (con una aplicación de proyecto móvil lista para utilizar)</li>
 </ul>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
@@ -95,16 +95,16 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 </div>
 <p>¡Ahora está listo para crear a sus primeros formatos!</p>
 <h2><a class="anchor" aria-hidden="true" id="crear-la-carpeta-formats"></a><a href="#crear-la-carpeta-formats" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crear la carpeta Formats</h2>
-<p>First, create a <em>Task Management.4dbase/Resources/Mobile/formatters</em> folder.</p>
+<p>Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-folder.png" alt="Formatter folder"></p>
 <h2><a class="anchor" aria-hidden="true" id="formatos-de-enteros"></a><a href="#formatos-de-enteros" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formatos de enteros</h2>
 <h3><a class="anchor" aria-hidden="true" id="número-entero-a-cadena"></a><a href="#número-entero-a-cadena" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Número entero a cadena</h3>
 <ul>
-<li>Create an <strong>integerToString</strong> folder in the formatters folder you've just created.</li>
-<li>Then create a <strong>manifest.json</strong> file in the <strong>integerToString</strong> folder.</li>
+<li>Cree una carpeta <strong>integerToString</strong> en la carpeta de Formats que acaba de crear.</li>
+<li>Cree un archivo </strong>manifest.json** en la carpeta <strong>integerToString</strong>.</li> </ul></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-folder-integertostring.png" alt="Formatter folder"></p>
-<p>Let's look at the contents of the <strong>manifest.json</strong> file:</p>
+<p>Veamos el contenido del archivo <strong>manifest.json</strong>:</p>
 <pre><code class="hljs css language-json">{
    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToString"</span>,
 
@@ -116,22 +116,22 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 }
 </code></pre>
 <ol>
-<li><strong>name</strong>: the name of the formatter</li>
-<li><strong>type</strong>: the 4D format type you want to use</li>
-<li><strong>binding</strong>: can be <strong>localized text</strong> for strings or <strong>imageNamed</strong> for images</li>
-<li><strong>choiceList</strong>: mapped values</li>
+<li><strong>name</strong>: el nombre del formato</li>
+<li><strong>type</strong>: tipo de formato 4D que desea utilizar</li>
+<li><strong>binding</strong>: puede ser <strong>localized text</strong> para las cadenas o <strong>imageNamed</strong> para las imágenes</li>
+<li><strong>choiceList</strong>: valores mapeados</li>
 </ol>
 <h3><a class="anchor" aria-hidden="true" id="entero-a-imagen"></a><a href="#entero-a-imagen" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Entero a imagen</h3>
 <ul>
-<li><p>Create an <strong>integerToImage</strong> folder in the <strong>formatters</strong> folder you've created.</p></li>
-<li><p>Create a <strong>manifest.json</strong> file in the <strong>integerToImage</strong> folder.</p></li>
+<li><p>Cree una carpeta <strong>integerToImage</strong> en la carpeta <strong>formatters</strong> que acaba de crear.</p></li>
+<li><p>Cree un archivo <strong>manifest.json</strong> en la carpeta <strong>integerToImage</strong>.</p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-folder-integertoimage.png" alt="Formatter folder"></p>
 <ul>
-<li>Then create an <strong>Images</strong> folder in the <strong>integerToImage</strong> folder. You can add the images from the <strong>integerToImage_Images</strong> in the StarterProject.zip to this new folder.</li>
+<li>Cree un archivo <strong>Images</strong> en la carpeta <strong>integerToImage</strong>. Puede agregar las imágenes de <strong>integerToImage_Images</strong> (en StarterProject.zip) para esta nueva carpeta.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-images-integertoimage.png" alt="Formatter images"></p>
-<p>Let's look at the contents of the <strong>manifest.json</strong> file:</p>
+<p>Veamos el contenido del archivo <strong>manifest.json</strong>:</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToImage"</span>,
 
@@ -149,20 +149,20 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 }
 </code></pre>
 <ol>
-<li><strong>name</strong>: the name of the formatter</li>
-<li><strong>type</strong> : the 4D format type you want to use</li>
-<li><strong>binding</strong>: can be <strong>localized text</strong> for strings or <strong>imageNamed</strong> for images</li>
-<li><strong>choiceList</strong>: mapped values</li>
-<li><strong>assets</strong>: adjust the display size (width and height)</li>
+<li><strong>name</strong>: el nombre del formato</li>
+<li><strong>type</strong>: el tipo de formato 4D que desea utilizar</li>
+<li><strong>binding</strong>: puede ser <strong>localized text</strong> para las cadenas o <strong>imageNamed</strong> para las imágenes</li>
+<li><strong>choiceList</strong>: valores mapeados</li>
+<li><strong>assets</strong>: ajustar el tamaño de visualización (ancho y alto)</li>
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="formatos-texto"></a><a href="#formatos-texto" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formatos texto</h2>
 <h3><a class="anchor" aria-hidden="true" id="texto-a-cadena"></a><a href="#texto-a-cadena" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Texto a cadena</h3>
 <ul>
-<li><p>Create a <strong>textToString</strong> folder in the formatters folder you've just created.</p></li>
+<li><p>Cree una carpeta <strong>integerToString</strong> en la carpeta Formats que acaba de crear.</p></li>
 <li><p>Create a <strong>manifest.json</strong> file in the <strong>textToString</strong> folder.</p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-folder-texttostring.png" alt="Formatter folder"></p>
-<p>Let's look at the contents of the <strong>manifest.json</strong> file:</p>
+<p>Veamos el contenido del archivo <strong>manifest.json</strong>:</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToString"</span>,
 
@@ -174,22 +174,22 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 }
 </code></pre>
 <ol>
-<li><strong>name</strong>: the name of the formatter</li>
-<li><strong>type</strong>: the 4D format type you want to use</li>
-<li><strong>binding</strong>: can be <strong>localized text</strong> for strings or <strong>imageNamed</strong> for images</li>
-<li><strong>choiceList</strong>: mapped values</li>
+<li><strong>name</strong>: el nombre del formato</li>
+<li><strong>type</strong>: tipo de formato 4D que desea utilizar</li>
+<li><strong>binding</strong>: puede ser <strong>localized text</strong> para las cadenas o <strong>imageNamed</strong> para las imágenes</li>
+<li><strong>choiceList</strong>: valores mapeados</li>
 </ol>
 <h3><a class="anchor" aria-hidden="true" id="texto-a-imagen"></a><a href="#texto-a-imagen" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Texto a imagen</h3>
 <ul>
-<li><p>Create a <strong>textToImage</strong> folder in the formatters folder you've just created.</p></li>
-<li><p>Create a <strong>manifest.json</strong> file in the <strong>textToImage</strong> folder.</p></li>
+<li><p>Cree una carpeta <strong>textToImage</strong> en la carpeta Formats que acaba de crear.</p></li>
+<li><p>Cree un archivo <strong>manifest.json</strong> en la carpeta <strong>textToImage</strong>.</p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-folder-textToImage.png" alt="Formatter folder"></p>
 <ul>
-<li>Then create an <strong>Images</strong> folder in the <strong>textToImage</strong> folder. You can add the images from the <strong>textToImage_Images</strong> in the StarterProject.zip to this new folder.</li>
+<li>Luego cree un archivo <strong>Images</strong> en la carpeta <strong>textToImage</strong>. Puede agregar las imágenes de <strong>textToImage_Images</strong> (en StarterProject.zip) a esta nueva carpeta.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatter-images-textToImage.png" alt="Formatter images"></p>
-<p>Let's look at the contents of the <strong>manifest.json</strong> file:</p>
+<p>Veamos el contenido del archivo <strong>manifest.json</strong>:</p>
 <pre><code class="hljs css language-json">{
     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToImage"</span>,
 
@@ -208,19 +208,19 @@ href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea
 
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="abrir-un-proyecto-móvil"></a><a href="#abrir-un-proyecto-móvil" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Abrir un proyecto móvil</h2>
-<p>Open the Task Management.4dbase with 4D and go to File &gt; open &gt; Mobile Project... to open the <strong>Tasks</strong></p>
-<p>Next, go to the <strong>Labels &amp; Icons section</strong> in the project editor. Todos los formatos están disponibles para los diferentes tipos de campos definidos previamente en los diferentes archivos de formato manifest.json:</p>
+<p>Abra Task Management.4dbase con 4D y vaya al Archivo &gt; abrir &gt; Mobile Project... para abrir <strong>Tasks</strong></p>
+<p>A continuación, vaya a la sección <strong>Etiquetas e iconos</strong> en el editor de proyectos. Todos los formatos están disponibles para los diferentes tipos de campos definidos previamente en los diferentes archivos de formato manifest.json:</p>
 <ul>
-<li>Select the <strong>integerToString</strong> formatter for the <strong>Job field</strong></li>
-<li>Select the <strong>textToString</strong> formatter for the <strong>Country field</strong></li>
-<li>Select the <strong>integerToImage</strong> formatter for the <strong>Task Status</strong></li>
-<li>Select the <strong>textToImage</strong> formatter for the <strong>Manager</strong></li>
+<li>Seleccione el formato <strong>integerToString</strong> para <strong>Job field</strong></li>
+<li>Seleccione el formato <strong>textToString</strong> para <strong>Country field</strong></li>
+<li>Seleccione el formato <strong>integerToImage</strong> para <strong>Task Status</strong></li>
+<li>Seleccione el formato <strong>textToImage</strong> para <strong>Manager</strong></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatters-icons-&amp;-labels.png" alt="Text formatter"></p>
 <h2><a class="anchor" aria-hidden="true" id="genere-su-aplicación-4d-for-ios"></a><a href="#genere-su-aplicación-4d-for-ios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Genere su aplicación 4D for iOS</h2>
 <p>Genere su aplicación 4D for iOS y verá que su formateador de datos se aplica correctamente en función del &quot;crédito límite&quot;.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-formatter/formatters-final-result.png" alt="Text formatter"></p>
-<p>Click on <strong>FORMATTER FINAL</strong> below to download the completed formatter template folder.</p>
+<p>Haga clic en el botón <strong>FORMAT FINAL</strong> a continuación para descargar la carpeta final de modelos de formatos.</p>
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <p><a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a></p>

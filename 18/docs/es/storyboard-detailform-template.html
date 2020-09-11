@@ -87,61 +87,61 @@
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png" alt="Empty storyboard custom template"></p>
 <p>Está bastante vacío, así que vamos a agregar algo de contenido.</p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-un-scroll-view"></a><a href="#añadir-un-scroll-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir un &quot;Scroll View&quot;</h2>
-<p>For our detail form to be scrollable, the first step is to drag and drop a &quot;Scroll View&quot; from the <strong>Object library</strong>.</p>
+<p>Para que nuestro formulario detallado sea desplazable, el primer paso es arrastrar y soltar una &quot;Scroll View&quot; (vista de desplazamiento) desde la <strong>Librería de objetos</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-scrollview-storyboard.png" alt="Add Scroll View Storyboard"></p>
-<p>From the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set the Scroll View Width value to 359 and the Height value to 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.</p>
+<p>Desde el <strong>Inspector de tamaño</strong> (en el lado derecho de la ventana del Interface Builder), defina el valor del Scroll vista en 359 y el valor de altura en 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/scrollview-position-height-width.png" alt="Scroll View position height and width"></p>
-<p>Next, add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 8, Leading: 8, Top: 0, and Bottom: 0) as shown below:</p>
+<p>Luego, agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 8, Leading: 8, Top: 0, y Bottom: 0) como se muestra a continuación:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/scrollview-constraints.png" alt="Scrollview Constraints"></p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-una-vertical-stack-view"></a><a href="#añadir-una-vertical-stack-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir una &quot;Vertical Stack View&quot;</h2>
-<p>Drag and drop a Vertical Stack View from the <strong>Object library</strong> in Scroll View. Then, from the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window) set the Width value to 359 and the Height value to 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.</p>
+<p>Arrastre y suelte una &quot;Vertical Stack View&quot; desde la <strong>librería de objetos</strong> a la &quot;Scroll view&quot;. Desde el <strong>Size inspector</strong> (al lado derecho del Interface Builder), defina el valor de ancho en 359 y el valor de alto en 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-vertical-stackview-storyboard.png" alt="Add stackview Storyboard"></p>
 <p>Dado que el ancho y el alto del &quot;Stack View&quot; están definidos por los elementos que se encuentran dentro de ella, configuraremos el tamaño y las restricciones más adelante.</p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-las-vistas-en-el-stack-views"></a><a href="#añadir-las-vistas-en-el-stack-views" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las vistas en el Stack Views</h2>
-<p>Drag and drop a view from the <strong>Object library</strong> to the Stack View you've just added to your storyboard. Let's name it <strong>Field View 1</strong>.</p>
+<p>Arrastre y suelte una vista de la <strong>librería de objetos</strong> en la Stack View que acaba de agregar a su storyboard. Llamémosla <strong>Field View 1</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-view1-storyboard.png" alt="Add Field View 1"></p>
-<p>Then drag and drop another view from the <strong>Object library</strong> directly into the Document Outline at the same level as Field View 1 (to include it in the Stack View) and name it <strong>Field View 2</strong>.</p>
+<p>Luego arrastre y suelte otra vista de la <strong>Librería de objetos</strong> directamente en el Document Outline al mismo nivel que Field View 1 (para integrarla en la Stack View) y llámela <strong>Field View 2</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-view2-storyboard.png" alt="Add Field View 2"></p>
 <p>Para agregar espacio entre las vistas, seleccione su Stack View y defina el valor de espaciado en 8 (en el Attributes Inspector).</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/stackview-spacing.png" alt="Stackview spacing"></p>
-<p>Select both <strong>Field View 1</strong> and <strong>Field View 2</strong> and in the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set Width value to 359 and the Height value to 97.</p>
+<p>Seleccione <strong>Field View 1</strong> y <strong>Field View 2</strong> y defina, en el <strong>Size inspector</strong> (a la derecha del Interface Builder), el valor de ancho en 359 y de alto en 97.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/views-position-height-width-storyboard.png" alt="views position height and width"></p>
-<p>Select <strong>Field View 1</strong> add three constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 0, Leading: 0, and Top: 0):</p>
+<p>Seleccione <strong>Field View 1</strong> y añada tres restricciones haciendo clic en el botón <strong>Add New Constraints button</strong> (Trailing: 0, Leading: 0 y Top: 0):</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png" alt="Field Views constraints"></p>
 <p>Para que los &quot;Stack View&quot; y &quot;Scroll View&quot; tengan el mismo ancho, debe agregar un restricción:</p>
 <p>Presione Ctrl y arrastre el &quot;Stack View&quot; al &quot;Scroll View&quot;. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione &quot;Equal Width&quot;.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/stackview-equal-width-scrollview.png" alt="Stack View Equal Width"></p>
-<p>Next, with the Stack View selected add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 0, Leading: 0, Top: 8, and Bottom: 0) as shown below:</p>
+<p>Luego, agregue cuatro restricciones con la Stack View haciendo clic en <strong>Add New Constraints</strong> (Trailing: 0, Leading: 0, Top: 8, y Bottom: 0) como se muestra a continuación:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/stackview-constraints.png" alt="Stackview constraints"></p>
 <p>Esto es lo que verá cuando se agreguen restricciones:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/stackview-constraints-final.png" alt="Stackview final constraints"></p>
 <p>Ahora que tiene dos vistas en su Stack View y ha definido restricciones, concentrémonos en Field View 1.</p>
 <h2><a class="anchor" aria-hidden="true" id="añada-una-image-view-al-field-view-1"></a><a href="#añada-una-image-view-al-field-view-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añada una Image View al Field View 1</h2>
-<p>From the <strong>Object library</strong>, drag and drop an  <strong>Image View</strong> into Field View 1.</p>
+<p>Desde la <strong>Object library</strong> (la librería de objetos), arrastre y suelte una <strong>Image View</strong> (una vista de imagen) en Field View 1.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-imageview-storyboard.png" alt="Add Image View storyboard"></p>
-<p>In the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set the Image View Width value to 359 and the Height value to 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.</p>
+<p>Desde el <strong>Size inspector</strong> (al lado derecho del Interface Builder), defina el valor del ancho del Image View en 359 y su altura en 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/imageview-position-height-width.png" alt="Image View position height and width"></p>
-<p>Next, add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing:0, Leading:0, Top:0, and Bottom:0) as shown below:</p>
+<p>Luego, agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 0, Leading: 0, Top: 0, y Bottom: 0) como se muestra a continuación:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/imageview-constraints.png" alt="Image View constraints"></p>
-<p>In the <strong>Size inspector panel</strong> change the Intrinsic Size from <strong>Default</strong> to <strong>Placeholder</strong>.</p>
+<p>En el <strong>Size inspector</strong>cambie el valor <strong>Default</strong> del intrínseco Size por <strong>Placeholder</strong>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/intrinsic-size-imageview.png" alt="Intrinsic size Image View"></p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-las-etiquetas-al-field-view-2"></a><a href="#añadir-las-etiquetas-al-field-view-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las etiquetas al Field View 2</h2>
 <h3><a class="anchor" aria-hidden="true" id="etiqueta-de-título"></a><a href="#etiqueta-de-título" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiqueta de título</h3>
-<p>In the <strong>Object library</strong>, drag and drop a  <strong>Label</strong> into Field View 2 and set the Width value to 343 and the Height value to 22. Luego, defina el valor de X en 8 y el valor de Y en 8.</p>
+<p>En la <strong>librería de objetos</strong>, arrastre y suelte una **Etiqueta ** en Field View 2  y defina el valor de Ancho en 343 y el valor de Alto 22. Luego, defina el valor de X en 8 y el valor de Y en 8.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-label1-storyboard.png" alt="Add label"></p>
-<p>Double click on the label and name it &quot;<code>___FIELD_LABEL___</code>&quot;. Then in the <strong>attribute inspector</strong> set the font to <strong>Helvetica Neue Light 18.0</strong> and the color to <strong>BackgroundColor</strong>:</p>
+<p>Haga doble clic en la etiqueta y asígnele el nombre &quot;<code>___FIELD_LABEL___</code>&quot;. Luego, en el <strong>attribute inspector</strong>, seleccione la fuente <strong>Helvetica Neue Light 18.0</strong> y el color <strong>BackgroundColor</strong>:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/title-label-font-and-color.png" alt="Title label font and color"></p>
 <h3><a class="anchor" aria-hidden="true" id="etiqueta-de-contenido"></a><a href="#etiqueta-de-contenido" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiqueta de contenido</h3>
 <p>Duplique la etiqueta Título y defina el ancho de etiqueta duplicado en 339 y el valor de alto en 44. Luego, defina el valor de X en 12 y el valor de Y en 37.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/add-label2-storyboard.png" alt="Add label"></p>
-<p>Double click on the label and name it &quot;<code>&lt;___FIELD_LABEL___&gt;</code>&quot;. Then from the <strong>attribute inspector</strong> set the font to <strong>Helvetica Neue Light 20.0</strong> and the color to <strong>Black Color</strong>:</p>
+<p>Haga doble clic en la etiqueta y asígnele el nombre &quot;<code>&lt;___FIELD_LABEL___&gt;</code>&quot;. Luego, en el <strong>attribute inspector</strong>, seleccione la fuente <strong>Helvetica Neue Light 20.0</strong> y el color <strong>Back Color</strong>:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/content-label-font-and-color.png" alt="Content label font and color"></p>
-<p>Select the Content and Title labels and add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 8, Leading: Multiple, Top: Multiple, and Bottom: Multiple) as shown below:</p>
+<p>Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/titlelabel-contentlabel-contraints.png" alt="Title and Content labels constraints"></p>
 <p>¡Ya ha terminado la parte de los elementos gráficos! Todas sus restricciones están bien definidas :)</p>
 <h2><a class="anchor" aria-hidden="true" id="cómo-obtener-datos-en-sus-celdas"></a><a href="#cómo-obtener-datos-en-sus-celdas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cómo obtener datos en sus celdas</h2>
 <h3><a class="anchor" aria-hidden="true" id="image-view"></a><a href="#image-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image View</h3>
-<p>Select your Image View and go to <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Click the <strong>+ button</strong> to add a row.</p>
+<p>Seleccione su Vista imagen y vaya a <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Haga clic en el <strong>botón +</strong> para añadir una línea.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/user-defined-runtime-attributes.png" alt="User defined runtime attributes"></p>
 <ul>
 <li><p><strong>Key Path</strong>: Start with bindTo to activate binding on the component. Enter <code>bindTo.record.___FIELD_1___</code></p></li>
@@ -150,11 +150,11 @@
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/identity-inspector-storyboard.png" alt="Identity inspector storyboard"></p>
 <h3><a class="anchor" aria-hidden="true" id="etiquetas"></a><a href="#etiquetas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiquetas</h3>
-<p>For the <strong>first label</strong> we are going to add several lines mainly to display icons:</p>
+<p>Para la <strong>primera etiqueta</strong>, vamos a agregar varias líneas principalmente para mostrar iconos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label1-user-defined-runtime-attributes.png" alt="Label1 User Defined Runtime Attributes"></p>
 <p>You also need to set the Class to <code>IconLabel</code> and check the <strong>Inherit Module From Target</strong> checkbox as we can see below:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label1-custom-class.png" alt="Label1 Custom Class"></p>
-<p>Select the <strong>second label</strong> and add a row in the Defined Runtime Attributes:</p>
+<p>Seleccione la <strong>segunda etiqueta</strong> y agregue una línea en el área &quot;Defined Runtime Attributes&quot;:</p>
 <ul>
 <li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD___</code></p></li>
 <li><p><strong>Type</strong>: <code>String</code></p></li>
@@ -163,34 +163,34 @@
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label2-user-defined-runtime-attributes.png" alt="Label2 User Defined Runtime Attributes"></p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-las-tags-a-las-celdas-a-duplicar"></a><a href="#añadir-las-tags-a-las-celdas-a-duplicar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las TAGS a las celdas a duplicar</h2>
 <p>Field View 2 incluye los elementos que se duplicarán para que pueda tener tantos campos como defina en el editor del proyecto.</p>
-<p>Cada elemento del storyboard tiene un identificador de objeto. For example, if you select Field View 2 and go to the <strong>Identity inspector</strong>, you'll see its Object ID:</p>
+<p>Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al <strong>Identity inspector</strong>, verá sus identificadores de objetos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/object-id-storyboard.png" alt="Object ID Storyboard"></p>
 <p>Para indicar al editor del proyecto que todos los elementos incluidos en esta vista se duplicarán, debemos agregar un TAG a cada elemento y a cada restricción.</p>
 <p>El proceso es un poco complicado... ¡Comencemos por abrir el archivo storyboard con su editor de código favorito!</p>
 <h3><a class="anchor" aria-hidden="true" id="field-view-2"></a><a href="#field-view-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Field View 2</h3>
 <ul>
-<li><p>Select <strong>Field View 2</strong> and get its Object ID from the Identity Inspector (on the right side of the Interface Builder window). In our project, Field View 2 ID is: <strong>SiX-3H-lNB</strong>.</p></li>
-<li><p>Search for this ID in the storyboard xml code and replace it with <strong>TAG-FD-001</strong> each time it appears. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.</p></li>
+<li><p>Seleccione <strong>Field View 2</strong> y obtenga sus identificadores de objeto del Identity Inspector (en el lado derecho de la ventana del Interface Builder). En nuestro proyecto, Field View 2 ID es: <strong>SiX-3H-lNB</strong>.</p></li>
+<li><p>Busque este ID en el código xml del storyboard y reemplácelo con <strong>TAG-FD-001</strong> cada vez que aparezca. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.</p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/storyboard-xml.png" alt="Storyboard xml"></p>
 <p>Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field View 2 ha cambiado en el storyboard en Xcode:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/field-view-2-object-id.png" alt="Field View 2 Object ID"></p>
 <h3><a class="anchor" aria-hidden="true" id="primera-etiqueta"></a><a href="#primera-etiqueta" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Primera etiqueta</h3>
 <ul>
-<li>Now, get the <strong>first label</strong> Object ID from the Identity Inspector and replace it with <strong>TAG-FD-002</strong> each time it appears in the storyboard xml code.</li>
+<li>Ahora, obtenga el ID del objeto <strong>primera etiqueta</strong> del Identity Inspector y sustitúyalo por <strong>TAG-FD-002</strong> cada vez que aparezca en el código xml del storyboard.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label1-object-id.png" alt="Label 1 Object ID"></p>
 <p>¡Lista la primera etiqueta!</p>
 <h3><a class="anchor" aria-hidden="true" id="segunda-etiqueta"></a><a href="#segunda-etiqueta" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Segunda etiqueta</h3>
 <ul>
-<li>Next, get the <strong>second label</strong> Oject ID from the Identity Inspector and replace it with <strong>TAG-FD-003</strong> each time it appears in the storyboard xml code.</li>
+<li>Ahora, obtenga el ID del objeto de la** segunda etiqueta ** del Identity Inspector y sustitúyalo por ** TAG-FD-003 ** cada vez que aparezca en el código xml del storyboard.</li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label2-object-id.png" alt="Label 2 Object ID"></p>
 <p>¡Listo!</p>
 <h3><a class="anchor" aria-hidden="true" id="restricciones"></a><a href="#restricciones" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Restricciones</h3>
 <p>Ambas etiquetas tienen restricciones que también necesitamos identificar:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/duplicated-constraints.png" alt="Tag constraints"></p>
-<p>Just like View Field 2 and label, get all <strong>7 Constraints</strong> Object IDs from the Identity Inspector and replace them with: <strong>TAG-FD-004</strong>, <strong>TAG-FD-005</strong>, <strong>TAG-FD-006</strong>, <strong>TAG-FD-007</strong>, <strong>TAG-FD-008</strong>, <strong>TAG-FD-009</strong> and <strong>TAG-FD-010</strong>.</p>
+<p>Como para View Field 2 y la etiqueta, obtenemos todos los identificadores de objetos de <strong>7 Constraints</strong> desde el Identity Inspector y los reemplazamos con: <strong>TAG-FD-004</strong>, <strong>TAG-FD-005</strong>, <strong>TAG-FD-006</strong>, <strong>TAG-FD-007</strong>, <strong>TAG-FD-008</strong>, <strong>TAG-FD-009</strong> y <strong>TAG-FD-010</strong>.</p>
 <p>Vaya al editor de su proyecto y seleccione su plantilla de formulario detallado en la sección Formularios, luego haga clic en Crear.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/custom-detail-template-forms.png" alt="Custom detail template forms"></p>
 <p>¡No está mal para un primer intento! :)</p>
@@ -208,7 +208,7 @@
 <ul>
 <li><p><strong>Key Path</strong>: <code>layer.masksToBounds</code></p></li>
 <li><p><strong>Type</strong>: <code>Boolean</code></p></li>
-<li><p><strong>Value</strong>: Check the box</p></li>
+<li><p><strong>Value</strong>: seleccione la casilla</p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/imageview-corner-radius.png" alt="iPhone Demo"></p>
 <p>A continuación, seleccione Field View 2 y agregue lo siguiente:</p>
@@ -221,7 +221,7 @@
 <p>¡Ahora puede crear su proyecto desde el editor de proyectos!</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/custom-template-final-result.png" alt="Custom template final result"></p>
 <h2><a class="anchor" aria-hidden="true" id="¿qué-hacemos-ahora"></a><a href="#¿qué-hacemos-ahora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>¿Qué hacemos ahora?</h2>
-<p>En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Click on <strong>Final Project</strong> below to download the completed template folder.</p>
+<p>En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Haga clic en el botón <strong>Final Project</strong> abajo para descargar la carpeta que contiene la lista completa de modelos.</p>
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
 href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>

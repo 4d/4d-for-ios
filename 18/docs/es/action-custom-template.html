@@ -106,7 +106,7 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Detailform-template.png" alt="Detailform template"></p>
 <h2><a class="anchor" aria-hidden="true" id="paso-3-añadir-las-acciones-en-los-formularios-lista"></a><a href="#paso-3-añadir-las-acciones-en-los-formularios-lista" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 3. Añadir las acciones en los formularios Lista</h2>
 <p>Como hemos visto anteriormente en la <a href="actions.html"> descripción de la sección Actions</a>, hay dos tipos de acciones disponibles (acciones de tabla y acciones de entidad).</p>
-<p>Let's first open the <code>list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard</code> file.</p>
+<p>Primero abramos el archivo <code>list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.</code></p>
 <h3><a class="anchor" aria-hidden="true" id="añadir-las-acciones-a-la-plantilla-personalizada-taskslist"></a><a href="#añadir-las-acciones-a-la-plantilla-personalizada-taskslist" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las acciones a la plantilla personalizada TasksList</h3>
 <h4><a class="anchor" aria-hidden="true" id="a-añadir-un-tag-de-acción-de-tabla"></a><a href="#a-añadir-un-tag-de-acción-de-tabla" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A. Añadir un Tag de acción de tabla</h4>
 <p>Seleccione el <strong>List form Controller</strong> y añada esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
@@ -117,7 +117,7 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Add-table-tag-taskslist.png" alt="Add table action tag"></p>
 <h4><a class="anchor" aria-hidden="true" id="b-añadir-un-tag-de-acción-de-entidad"></a><a href="#b-añadir-un-tag-de-acción-de-entidad" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>B. Añadir un Tag de acción de entidad</h4>
-<p>Select the Animatable Table View and add this line in the <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
+<p>Seleccione la vista Animatable Table y añada esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
 <ul>
 <li>Key Path: <code>actions</code></li>
 <li>Type: <code>String</code></li>
@@ -125,11 +125,11 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Add-entity-tag-taskslist.png" alt="Add entity action tag"></p>
 <p>¡Su plantilla personalizada está lista para mostrar las acciones!</p>
-<p>You can select the TaskList custom template from the <strong>Forms section</strong> and add the following fields:</p>
+<p>Puede seleccionar la plantilla personalizada TaskList en la <strong>sección Formularios</strong> y agregar los siguientes campos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/listform-taskslist-forms-section.png" alt="Taskslist Forms section"></p>
 <p>Ahora agreguemos las etiquetas de acción a la plantilla personalizada TasksCollection</p>
 <h3><a class="anchor" aria-hidden="true" id="añadir-las-acciones-a-la-plantilla-personalizada-taskscollection"></a><a href="#añadir-las-acciones-a-la-plantilla-personalizada-taskscollection" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las acciones a la plantilla personalizada TasksCollection</h3>
-<p>To do so, open the <code>list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard</code> file.</p>
+<p>Para hacer eso, abra el archivo Storyboard <code>list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.</code></p>
 <h4><a class="anchor" aria-hidden="true" id="a-añadir-un-tag-de-acción-de-tabla-1"></a><a href="#a-añadir-un-tag-de-acción-de-tabla-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A. Añadir un Tag de acción de tabla</h4>
 <p>El proceso es bastante similar al proceso de la plantilla personalizada TasksList.</p>
 <p>Seleccione el <strong>List form Controller</strong> y añada esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
@@ -141,43 +141,43 @@ href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Add-collection-table-tag-taskslist.png" alt="Add collection table action tag"></p>
 <h4><a class="anchor" aria-hidden="true" id="b-añadir-un-tag-de-acción-de-entidad-1"></a><a href="#b-añadir-un-tag-de-acción-de-entidad-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>B. Añadir un Tag de acción de entidad</h4>
 <p>Para las entidades, la forma de mostrar las acciones es bastante diferente de TableView: la acción de deslizar no está realmente adaptada a CollectionViews.</p>
-<p>So with collection views, the best way to display actions is to use a <strong>long pressure</strong> gesture on the cells you want to interact with.</p>
-<p>For that, select the collectionView cell and add this line in the <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
+<p>Entonces, con las vistas de colección, la mejor manera de mostrar las acciones es utilizar un gesto de <strong>presión largo</strong> en las celdas con las que desea interactuar.</p>
+<p>Para eso, seleccione la celda collectionView y agregue esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
 <ul>
 <li>Key Path: <code>actions</code></li>
 <li>Type: <code>String</code></li>
 <li>Value: <code>___ENTITY_ACTIONS___</code></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Add-collection-entity-tag-taskslist.png" alt="Add collection entity action tag"></p>
-<p>To optimize the interaction rendering, you can add a scale effect with a haptic feedback adding the following line in the <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
+<p>Para optimizar la interacción, puede agregar un efecto escalar con una retroalimentación háptica agregando la siguiente línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
 <ul>
 <li>Key Path: <code>touch.zoomScale</code></li>
 <li>Type: <code>Number</code></li>
-<li>Value: <code>0,96</code> (adapt the scale ratio depending on the result you want to get)</li>
+<li>Value: <code>0,96</code> (adapte la relación de escala según el resultado que desee obtener)</li>
 </ul>
-<p>You can select the TasksCollection custom template from the <strong>Forms section</strong> and add the following fields:</p>
+<p>Puede seleccionar la plantilla personalizada TasksCollection en la <strong>sección Formularios</strong> y agregar los siguientes campos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/listform-taskscollection-forms-section.png" alt="TasksCollection Forms section"></p>
 <h2><a class="anchor" aria-hidden="true" id="paso-4-añadir-las-acciones-en-los-formularios-detallados"></a><a href="#paso-4-añadir-las-acciones-en-los-formularios-detallados" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 4. Añadir las acciones en los formularios detallados</h2>
-<p>In Detail forms, you can use the <strong>generic button</strong> in the navigation bar or <strong>create easily your own custom action button</strong>. En ambos casos, debe agregar etiquetas.</p>
-<p>For generic button embedded in the navigation bar, select the Controller and add this line in the <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
+<p>En los formularios detallados, puede utilizar el <strong>botón genérico</strong> en la barra de navegación o <strong>crear fácilmente su propio botón de acción personalizado</strong>. En ambos casos, debe agregar etiquetas.</p>
+<p>Para el botón genérico integrado en la barra de navegación, seleccione el Controlador y añada esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
 <ul>
 <li>Key Path: <code>actions</code></li>
 <li>Type: <code>String</code></li>
 <li>Value: <code>___ENTITY_ACTIONS___</code></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Detail-form-action-navigationBar.png" alt="Add detailform entity action tag"></p>
-<p>En nuestro tutorial, queremos crear nuestro propio botón genérico. For that, open the <code>detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard</code> file.</p>
-<p>Open it, select the button at bottom right and add this line in the <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
+<p>En nuestro tutorial, queremos crear nuestro propio botón genérico. Para eso, abra el archivo Storyboard <code>detail/TasksDetail/Sources/Forms/Tables/___TABLE___/___TABLE___DetailsForm.storyboard</code>.</p>
+<p>Ábralo, seleccione el botón en la parte inferior derecha y agregue esta línea en el <strong>User Defined Runtime Attributes</strong> (Identity inspector):</p>
 <ul>
 <li>Key Path: <code>actions</code></li>
 <li>Type: <code>String</code></li>
 <li>Value: <code>___ENTITY_ACTIONS___</code></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Detail-form-action-custom-action-Button.png" alt="Add detailform entity action tag custom action button"></p>
-<p>Como puede ver, faltan algunos botones visuales en el archivo Storyboard. You can actually find those visuals in the  <strong>Resources folder</strong> template. Se incluirán en el proyecto durante el proceso de generación.</p>
-<p>For example for the <strong>moreButton.imageset</strong>:</p>
+<p>Como puede ver, faltan algunos botones visuales en el archivo Storyboard. Puede encontrar esas imágenes en la plantilla <strong>carpeta Resources</strong>. Se incluirán en el proyecto durante el proceso de generación.</p>
+<p>Por ejemplo, para el <strong>moreButton.imageset</strong>:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/Template-Ressources.png" alt="Template ressources"></p>
-<p>You can select the TasksDetail custom template from the <strong>Forms section</strong> and add the following fields:</p>
+<p>Puede seleccionar la plantilla personalizada TasksDetail en la <strong>sección Formularios</strong> y agregar los siguientes campos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/detailform-forms-section.png" alt="TasksDetail Forms section"></p>
 <p>¡Felicitaciones!, su aplicación iOS Tasks ahora está completa e incluye acciones en los formularios Lista y detallados.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/actions/ListForm-entity-action-tableview.png" alt="Template ressources"></p>
