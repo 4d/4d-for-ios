@@ -91,12 +91,15 @@ Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="https://github.com/4d/Mobile-Session-Management/releases/latest">Composant MOBILE SESSION MANAGEMENT</a>
 </div>
 
+* Download and unzip the zip file
+* Go to Build / Components file and get the MOBILE SESSION MANAGEMENT.4dbase
 * Créez un dossier **Composants** qui contiendra les données de l'application, au même emplacement que la base de données 4D.
 * Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D.
+* Click on the Execute button from the toolbar
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**.
 * La fenêtre d'applications apparaîtra et affichera toutes vos applications :
 
