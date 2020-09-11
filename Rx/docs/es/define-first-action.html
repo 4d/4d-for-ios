@@ -162,18 +162,18 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     If</span> (<span class="hljs-variable">$status</span>.success)
 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action is successful</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh this entity</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App que la acción es éxitosa</span>
+        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App de actualizar esta entidad</span><span class="hljs-keyword">
 
     Else</span>
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// devolver el estado a la App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword">
 
 Else</span>
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notificar la App que la acción falló</span><span class="hljs-keyword">
 
 End if</span>
 
@@ -254,8 +254,8 @@ If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-li
 
     End for each</span>
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App que la acción es exitosa</span>
+    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App refrescar la selección</span><span class="hljs-keyword">
 
 Else</span>
 
@@ -269,7 +269,7 @@ End if</span>
 <p>¡Cree y ejecute su aplicación! Encontrará un nuevo <strong>botón genérico</strong> en la barra de navegación de su formulario Lista. Haga clic en él para activar la acción <strong>Postpone All</strong>.</p>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/actions/ListForm-table-action-tableview-tuto.png" alt="Final result Postponed Action"></p>
 <h2><a class="anchor" aria-hidden="true" id="¿qué-hacer-ahora"></a><a href="#¿qué-hacer-ahora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>¿Qué hacer ahora?</h2>
-<p>¡Felicitaciones! You've just added 2 actions to your iOS app. You are now able to add all actions you need to your Tasks app!</p>
+<p>¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!</p>
 <p><img src="/4d-for-ios/Rx/docs/assets/en/actions/ListForm-entity-action-tableview.png" alt="Final result All Action"></p>
 <p>Puede descargar el <strong>Proyecto final</strong> que incluye varias acciones:</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">

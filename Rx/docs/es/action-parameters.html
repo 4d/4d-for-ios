@@ -156,7 +156,7 @@ href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd
 
 <span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$o</span>;<span class="hljs-variable">$context</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$result</span>;<span class="hljs-variable">$parameters</span>)
 
-<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Información ofrecida por la aplicación móvil</span>
 
 <span class="hljs-variable">$context</span>:=<span class="hljs-variable">$request</span>.context
 <span class="hljs-variable">$parameters</span>:=<span class="hljs-variable">$request</span>.parameters<span class="hljs-keyword">
@@ -165,7 +165,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"addTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Add…"</span>
+          <span class="hljs-comment">// Insertar aquí el código para la acción "Add…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -175,7 +175,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"editTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Edit…"</span>
+          <span class="hljs-comment">// Insertar aquí el código para la acción "Edit…"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -187,7 +187,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"deleteTasks"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Remove"</span>
+          <span class="hljs-comment">// Insertar aquí el código para la acción "Remove"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -197,7 +197,7 @@ Case of</span>
 
     : (<span class="hljs-variable">$request</span>.action=<span class="hljs-string">"sendComment"</span>)
 
-          <span class="hljs-comment">// Insert here the code for the action "Send Comment"</span>
+          <span class="hljs-comment">// Insertar aquí el código para la acción "Send Comment"</span>
 
         <span class="hljs-variable">$o</span>:=<span class="hljs-function">New object</span>(\
         <span class="hljs-string">"dataClass"</span>;<span class="hljs-variable">$context</span>.dataClass;\
@@ -209,8 +209,7 @@ Case of</span>
 
     Else</span> 
 
-          <span class="hljs-comment">// Unknown action</span><span class="hljs-keyword">
-
+          <span class="hljs-comment">// Acción desconocida</span><span class="hljs-keyword">
 End case</span> 
 
 <span class="hljs-variable">$0</span>:=<span class="hljs-variable">$result</span>
@@ -237,11 +236,11 @@ If</span> (<span class="hljs-variable">$in</span>.dataClass#<span class="hljs-li
 
     End for each</span> 
 
-    <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//save the entity</span>
+    <span class="hljs-variable">$entity</span>.<span class="hljs-function">save</span>()  <span class="hljs-comment">//guardar la entidad</span>
 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh the selection</span>
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App que la acción es exitosa</span>
+    <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App para refrescar la selección</span>
     <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task added"</span><span class="hljs-keyword">
 
 Else</span> 
@@ -280,19 +279,19 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     If</span> (<span class="hljs-variable">$status</span>.success)
 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh this entity</span>
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App que la acción es exitosa</span>
+        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar la App para refrescar esta entidad</span>
         <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task edited"</span><span class="hljs-keyword">
 
     Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// devolver estado a la App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword"> 
 
 Else</span> 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notificar la App que la acción falló</span><span class="hljs-keyword">
 
 End if</span> 
 
@@ -319,19 +318,19 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     If</span> (<span class="hljs-variable">$entity</span>.length=<span class="hljs-number">0</span>)
 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
-        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App to refresh this entity</span>
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar a la App que la acción es exitosa</span>
+        <span class="hljs-variable">$out</span>.dataSynchro:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar a la App refrescar esta entidad</span>
         <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Task deleted"</span><span class="hljs-keyword">
 
     Else</span> 
 
-        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// return status to the App</span><span class="hljs-keyword">
+        <span class="hljs-variable">$out</span>:=<span class="hljs-variable">$status  </span><span class="hljs-comment">// devolver estado a la App</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword"> 
 
 Else</span> 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notificar a la App que la acción falló</span><span class="hljs-keyword">
 
 End if</span> 
 
@@ -378,18 +377,18 @@ If</span> (<span class="hljs-variable">$selection</span>.length=<span class="hlj
 
     <span class="hljs-variable">$status</span>:=<span class="hljs-variable">$transporter</span>.<span class="hljs-function">send</span>(<span class="hljs-variable">$email</span>)<span class="hljs-keyword">
     If</span> (<span class="hljs-variable">$status</span>.success)
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notify App that action success</span>
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">True</span>  <span class="hljs-comment">// notificar a la App que la acción fue exitosa</span>
         <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Mail sent"</span><span class="hljs-keyword">
 
     Else</span> 
-        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span>
+        <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notificar a la App que la acción falló</span>
         <span class="hljs-variable">$out</span>.statusText:=<span class="hljs-string">"Mail not sent"</span><span class="hljs-keyword">
 
     End if</span><span class="hljs-keyword"> 
 
 Else</span> 
 
-    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notify App that action failed</span><span class="hljs-keyword">
+    <span class="hljs-variable">$out</span>.success:=<span class="hljs-literal">False</span>  <span class="hljs-comment">// notificar a la App que la acción falló</span><span class="hljs-keyword">
 
 End if</span> 
 
