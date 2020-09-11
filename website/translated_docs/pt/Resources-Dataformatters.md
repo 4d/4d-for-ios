@@ -5,11 +5,11 @@ title: Formatadores de Dados
 
 > **ANTES DE COMEÇAR**
 > 
-> To use a custom formatter, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/formatters` folder.
+> Para usar um formatador personalizado, a primeira coisa é criar uma pasta `YourDatabase.4dbase/Resources/Mobile/formatters` .
 > 
-> Then drop the formatter folder into it.
+> Depois solte a pasta formatador dentro dela.
 
 <div markdown="1">
 
-<iframe src="https://4d-for-ios.github.io/gallery/#/type/formatter/picker/0" scrolling="no" height="1600" width="100%" x-bt="1"></iframe>
+<iframe src="https://4d-for-ios.github.io/gallery/#/type/formatter/picker/0" scrolling="no" height="1600" width="100%"></iframe>
 </div>

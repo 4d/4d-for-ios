@@ -1,6 +1,6 @@
 ---
 id: data
-title: Data
+title: Dados
 ---
 
 Esta seção permite que:

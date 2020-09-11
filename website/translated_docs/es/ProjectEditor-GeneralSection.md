@@ -28,7 +28,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 > **RECOMENDACIONES**
 > 
 > * Si ya tiene un icono para su aplicación de escritorio, puede arrastrarlo y soltarlo directamente en el área del icono.
-> * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
+> * **Aquí está el truco:** 4D for iOS determina automáticamente el color dominante del icono de su aplicación y lo utiliza para generar un esquema de color personalizado para su aplicación!
 
 
 **Developer:** This field is automatically filled with your user account name.

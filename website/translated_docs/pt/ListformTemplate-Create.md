@@ -1,6 +1,6 @@
 ---
 id: creating-listform-templates
-title: List form templates
+title: Modelos de formulários Lista
 ---
 
 > **OBJETIVOS**

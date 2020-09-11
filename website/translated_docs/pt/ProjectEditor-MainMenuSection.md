@@ -1,6 +1,6 @@
 ---
 id: main-menu
-title: Main Menu
+title: Menu principal
 ---
 
 * In the **Available Table** list, you'll find all of the tables you published earlier in the Structure section. The **Selected Tables** list includes all of the tables that will be accessible from the menu of your app.
