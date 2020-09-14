@@ -82,7 +82,7 @@ Voici un exemple de fichier de session généré par 4D for iOS :
 
 ```
 
-If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+Si vous souhaitez pouvoir valider manuellement la première connexion pour chaque session utilisateur, vous devez changer le statut par défaut "accepté" en "en attente" en ajoutant `$response.verify:=True` à la méthode base [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 
 ### Composant Mobile Session Management
@@ -91,12 +91,15 @@ Les sessions peuvent être gérées par le composant **MOBILE SESSION MANAGEMENT
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="https://github.com/4d/Mobile-Session-Management/releases/latest">Composant MOBILE SESSION MANAGEMENT</a>
 </div>
 
+* Téléchargez et dézippez le fichier zip
+* Cliquez sur Générer puis sur le fichier Components et obtenez le fichier MOBILE SESSION MANAGEMENT.4dbase
 * Créez un dossier **Composants** qui contiendra les données de l'application, au même emplacement que la base de données 4D.
 * Placez le composant **MOBILE SESSION MANAGEMENT** dans le dossier **Composants** nouvellement créé.
 * Redémarrez 4D.
+* Cliquez sur le bouton Exécuter à partir de la barre d'outils
 * Dans l’explorateur de méthodes 4D, sélectionnez la méthode **MOBILE SESSION MANAGEMENT** et cliquez sur le bouton **Execute**.
 * La fenêtre d'applications apparaîtra et affichera toutes vos applications :
 
