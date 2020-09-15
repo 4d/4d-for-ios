@@ -9,6 +9,10 @@ title: Deep Linking
 
 18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this work ??
 
+Here is an illustration that summarizes deep linking:
+
+![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.png)
+
 There are 2 ways of implementing deep linking in IOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known way of having deep linking, Universal links are the new way Apple has implemented to easily connect your webpage and your app under the same link.
 
 Here is a comparision between the two options that are offered in the project editor:
@@ -45,11 +49,12 @@ It is very simple to include url scheme to your 4D for iOS :
 1. Select the Share predefine action from the Action section and select the scope : entity to share a detail form content and table to share a list form
 2. Activate the Deep Linking feature in the Publishing section fo the project editor
 3. The Url Scheme is automatically filled in using the app name that you previously defined in the General section but you can still edit it
+
+![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
+
 4. Fill you On Mobile App Action method 
 5. Build your app
 6. And thats all you need to do !
-
-![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
 There you go ! You are now able to share the content that you are currently looking at with all you collegues. It can be a list form or a detail form.
 
