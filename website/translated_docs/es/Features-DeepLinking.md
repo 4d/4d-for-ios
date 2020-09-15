@@ -5,15 +5,15 @@ title: Deep Linking
 
 > **OBJETIVOS**
 > 
-> Share iOS app content with your collegues using Deep Linking.
+> Comparta el contenido de la aplicación iOS con sus colegas utilizando Deep Linking.
 
-18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this work ??
+18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. Pero se preguntará ¿cómo funciona esto?
 
-Here is an illustration that summarizes deep linking:
+He aquí una ilustración que resume enlaces profundos:
 
-![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
+![Animación Enlaces profundos](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
-There are 2 ways of implementing deep linking in IOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known way of having deep linking, Universal links are the new way Apple has implemented to easily connect your webpage and your app under the same link.
+Hay dos maneras de implementar enlaces profundos en IOS: **Esquema URL** y **Enlaces Universales**. Mientras que los esquemas URL son una forma bien conocida de tener enlaces profundos (deep linking), los enlaces universales son la nueva forma que Apple ha implementado para conectar fácilmente su página web y su aplicación bajo el mismo enlace.
 
 Here is a comparision between the two options that are offered in the project editor:
 
@@ -131,11 +131,11 @@ End case
 
 # PUSH NOTIFICATION
 
-The great thing is that Deep Linking is fully working with [push notifications](push-notification.html). This means that you can send Deep links to your users and bring them directly to the right page.
+Lo genial es que Deep Linking está trabajando plenamente con [notificaciones push](push-notification.html). Esto significa que puede enviar enlaces Deep a sus usuarios y llevarlos directamente a la página correcta.
 
-So as you can see, this new feature open a large range of possibilities using 4D for iOS with a minimum effort.
+Así que como pueden ver, esta nueva funcionalidad abre un gran abanico de posibilidades utilizando 4D for iOS con un mínimo esfuerzo.
 
-Deep linking is a crucial feature in today’s apps as users consume content faster. This feature allow to bring them directly to the desired location. So I can only advise you to use it in your 4D for iOS apps.
+Deep linking es una funcionalidad crucial en las aplicaciones de hoy en día, ya que los usuarios consumen el contenido más rápidamente. Esta funcionalidad permite llevarlos directamente al lugar deseado. Así que sólo puedo aconsejarles que lo utilicen en sus aplicaciones 4D for iOS.
 
 The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notification and Deep linking feature.
 
