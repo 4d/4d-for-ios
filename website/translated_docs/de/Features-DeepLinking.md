@@ -5,11 +5,15 @@ title: Deep Linking
 
 > **OBJECTIVES**
 > 
-> Share your iOS app content with your collegues and bring them directly to the desired Detail form / List form
+> Share the content iOS app contente with your collegues using Deep Linking.
 
-18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this works ?
+18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this work ??
 
-There are 2 ways of implementing deep linking in iOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known way of implementing deep linking, Universal links are the new way Apple has implemented to easily connect your webpage and your app under the same link.
+Here is an illustration that summarizes deep linking:
+
+![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.png)
+
+There are 2 ways of implementing deep linking in IOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known way of having deep linking, Universal links are the new way Apple has implemented to easily connect your webpage and your app under the same link.
 
 Here is a comparision between the two options that are offered in the project editor:
 
@@ -32,25 +36,48 @@ Here is a comparision between the two options that are offered in the project ed
 
 # CUSTOM URL SCHEME
 
-## OLD BUT STILL AN EFFICIENT WAY
+## OLD BUT EFFICIENT WAY
 
 At the simplest level, the URL scheme allows users to open an app from other apps.
 
-But the true power of URL schemes is in the ability to open a specific page into your app.
+But the true power of URL schemes is in the ability to perform specific actions as your app opens.
 
 ## CUSTOM URL SCHEME IN THE PROJECT EDITOR
 
-This is very simple to include url scheme into your 4D for iOS project :
+It is very simple to include url scheme to your 4D for iOS :
 
 1. Select the Share predefine action from the Action section and select the scope : entity to share a detail form content and table to share a list form
 2. Activate the Deep Linking feature in the Publishing section fo the project editor
 3. The Url Scheme is automatically filled in using the app name that you previously defined in the General section but you can still edit it
-4. Build your app
-5. And thats all you need to do !
 
 ![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
-There you go ! You are now ready to share content with all you collegues. It can be a list form or a detail form.
+4. Fill you On Mobile App Action method
+5. Build your app
+6. And thats all you need to do !
+
+There you go ! You are now able to share the content that you are currently looking at with all you collegues. It can be a list form or a detail form.
+
+Here is a example of the On Mobile App Action :
+
+```4d
+
+
+C_OBJECT($0; $response)
+C_OBJECT($1; $request)
+$request:=$1  // Informations provided by mobile application
+$response:=New object  // Informations returned to mobile application
+$action:=New object
+$action:=MobileAppServer.Action.new($1)
+Case of 
+    : ($request.action="shareContact")
+        $response:=$action.shareContext()
+    Else 
+        // Unknown action
+End case 
+$0:=$response
+
+```
 
 ## USING URL SCHEME IN YOUR 4D FOR IOS APP
 
@@ -83,7 +110,34 @@ To include the Universal link logic into your app, you will have to follow quite
 1. Select the Share predefine action from the Action section and select the scope : entity to share a detail form content and table to share a list form
 2. Activate the Deep Linking feature in the Publishing section fo the project editor
 3. Fill your website url the universal link field
-4. Build your app
+4. Fill you On Mobile App Action method
+5. Build your app
+6. Trigger universal links from the the On Web Connection method.
+
+Here is a example of the On Web Connection method :
+
+```4d
+
+$handler:=MobileAppServer.WebHandler.new()
+Case of
+    : ($handler.handle($1; $2; $3; $4; $5; $6))
+        // Managed by default mobile code
+    Else
+        // your web code
+End case
+
+```
 
 So as you can see, this new feature open a large range of possibilities using 4D for iOS with a minimum effort.
+
+//Deep linking is a crucial feature in today’s apps as users consume content faster. This feature allow to bring them directly to the desired location. So I can only advise you to use it in your 4D for iOS apps.
+
+# PUSH NOTIFICATION
+
+The great thing is that Deep Linking is fully working with [push notifications](push-notification.html). This means that you can send Deep links to your users and bring them directly to the right page.
+
+The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notification and Deep linking feature.
+
+
+
 
