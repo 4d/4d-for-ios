@@ -5,7 +5,7 @@ title: Deep Linking
 
 > **OBJECTIVES**
 >
-> Share the content iOS app contente with your collegues using Deep Linking.
+> Share iOS app content with your collegues using Deep Linking.
 
 18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this work ??
 
