@@ -29,7 +29,7 @@ Here's a comparision between the two options which are available in the project 
 
 | PROS  | CONS | 
 |---------------|----------------| 
-|Doesn't require permission|Static backend with SLL needed|
+|Doesn't require permission|Static backend with SSL needed|
 |Doesn't open the browser|More complex to implement|
 |Compatible with Android|   |
 |Fallback URL if app isn't installed|   |
@@ -54,13 +54,13 @@ It's very simple to include an URL scheme to your 4D for iOS app:
 
 ![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
-4. Fill in your **On Mobile App** Action method 
+4. Fill in your **On Mobile App Action** method 
 5. Build your app
 6. And thats it!
 
 You're now able to share the content that you're currently viewing (whether it's a list or detail form) with all of your collegues!
 
-Here's an example of the **On Mobile App** Action:
+Here's an example of the **On Mobile App Action** method:
 
 ```4d
 
