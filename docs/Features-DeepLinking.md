@@ -64,20 +64,23 @@ Here's an example of the **On Mobile App** Action:
 
 ```4d
 
+var $1 : Object  // Informations provided by mobile application
+var $0 : Object  // Informations returned to mobile application
 
-C_OBJECT($0; $response)
-C_OBJECT($1; $request)
-$request:=$1  // Information provided by mobile application
-$response:=New object  // Information returned to mobile application
-$action:=New object
+var $action : Object
 $action:=MobileAppServer.Action.new($1)
+
 Case of 
-    : ($request.action="shareContact")
-        $response:=$action.shareContext()
+
+    : ($1.action="shareContact")
+        
+        $0:=$action.shareContext()
+
     Else 
-        // Unknown action
+        
+        $0:=New object("success"; False;"statusText"; "Unknown action send to server")
+
 End case 
-$0:=$response
 
 ```
 
@@ -122,12 +125,15 @@ Here's an example of the **On Web Connection** method :
 
 ```4d
 
+Var $1; $2; $3; $4; $5; $6 : Text
+Var $handler : Object
+
 $handler:=MobileAppServer.WebHandler.new()
 Case of
     : ($handler.handle($1; $2; $3; $4; $5; $6))
         // Managed by default mobile code
     Else
-        // your web code
+        // Your web code
 End case
 
 ```
