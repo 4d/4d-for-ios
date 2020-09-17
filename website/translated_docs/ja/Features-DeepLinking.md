@@ -5,13 +5,13 @@ title: Deep Linking
 
 > **OBJECTIVES**
 > 
-> Share the content iOS app contente with your collegues using Deep Linking.
+> Share iOS app content with your collegues using Deep Linking.
 
 18R5 comes with a new great feature. You are now able to share the content that you are currently looking at with all your collegues. But you will ask how this work ??
 
 Here is an illustration that summarizes deep linking:
 
-![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.png)
+![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
 There are 2 ways of implementing deep linking in IOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known way of having deep linking, Universal links are the new way Apple has implemented to easily connect your webpage and your app under the same link.
 
@@ -128,13 +128,14 @@ End case
 
 ```
 
-So as you can see, this new feature open a large range of possibilities using 4D for iOS with a minimum effort.
-
-//Deep linking is a crucial feature in today’s apps as users consume content faster. This feature allow to bring them directly to the desired location. So I can only advise you to use it in your 4D for iOS apps.
 
 # PUSH NOTIFICATION
 
 The great thing is that Deep Linking is fully working with [push notifications](push-notification.html). This means that you can send Deep links to your users and bring them directly to the right page.
+
+So as you can see, this new feature open a large range of possibilities using 4D for iOS with a minimum effort.
+
+Deep linking is a crucial feature in today’s apps as users consume content faster. This feature allow to bring them directly to the desired location. So I can only advise you to use it in your 4D for iOS apps.
 
 The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notification and Deep linking feature.
 
