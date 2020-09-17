@@ -117,7 +117,7 @@ To include Universal links into your app, the process is quite similiar to the U
     *   table - to share a list form
 2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
 3. Enter your website URL in the **Universal links** field
-4. Fill in your **On Mobile App** Action method 
+4. Fill in your **On Mobile App Action** method 
 5. Build your app
 6. Trigger universal inks from the the **On Web Connection** method.
 
