@@ -13,13 +13,13 @@ Voici une illustration illustrant le "deep linking" :
 
 ![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
-There are two ways to implement deep linking in iOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known method for deep linking, Universal links are the new way that Apple has implemented to easily connect your webpage and your app under the same link.
+Il existe deux façons de mettre en œuvre le "deep linking" dans iOS : le **"URL scheme"** et les **"universal links" (liens universels)**. Alors que les "URL schemes" sont une méthode bien connue du "deep linking", les "universal links"sont la nouvelle méthode mise en œuvre par Apple pour connecter facilement votre page Web à votre application sous le même lien.
 
-Here's a comparision between the two options which are available in the project editor:
+Voici une comparaison des deux options disponibles dans l'éditeur de projet :
 
 ## URL Scheme
 
-| PROS                      | CONS                                |
+| AVANTAGES                 | INCONVÉNIENTS                       |
 | ------------------------- | ----------------------------------- |
 | Easy to implement         | Always requires permission          |
 | No extra backend required | Doesn't work if app isn't installed |
@@ -27,14 +27,14 @@ Here's a comparision between the two options which are available in the project 
 
 ## Universal links
 
-| PROS                                | CONS                           |
+| AVANTAGES                           | INCONVÉNIENTS                  |
 | ----------------------------------- | ------------------------------ |
 | Doesn't require permission          | Static backend with SSL needed |
 | Doesn't open the browser            | More complex to implement      |
 | Compatible with Android             |                                |
 | Fallback URL if app isn't installed |                                |
 
-# CUSTOM URL SCHEME
+# URL scheme personnalisé
 
 ## AN OLD BUT EFFICIENT APPROACH
 
