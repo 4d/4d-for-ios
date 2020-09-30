@@ -140,17 +140,20 @@
 }
 
 </code></pre>
-<p>If you want the ability to manually validate the first login for every user session, you must change the &quot;accepted&quot; default status to &quot;pending&quot; by adding <code>$response.verify:=True</code> to the <a href="https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html"><em>On Mobile App Authentication</em></a> database method.</p>
+<p>Si vous souhaitez pouvoir valider manuellement la première connexion pour chaque session utilisateur, vous devez changer le statut par défaut &quot;accepté&quot; en &quot;en attente&quot; en ajoutant <code>$response.verify:=True</code> à la méthode base <a href="https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html"><em>On Mobile App Authentication</em></a>.</p>
 <h3><a class="anchor" aria-hidden="true" id="composant-mobile-session-management"></a><a href="#composant-mobile-session-management" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Composant Mobile Session Management</h3>
 <p>Les sessions peuvent être gérées par le composant <strong>MOBILE SESSION MANAGEMENT</strong> :</p>
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/session-management/MOBILE-SESSION-MANAGEMENT.zip">Composant MOBILE SESSION MANAGEMENT</a>
+href="https://github.com/4d/Mobile-Session-Management/releases/latest">Composant MOBILE SESSION MANAGEMENT</a>
 </div>
 <ul>
+<li>Téléchargez et dézippez le fichier zip</li>
+<li>Cliquez sur Générer puis sur le fichier Components et obtenez le fichier MOBILE SESSION MANAGEMENT.4dbase</li>
 <li>Créez un dossier <strong>Composants</strong> qui contiendra les données de l'application, au même emplacement que la base de données 4D.</li>
 <li>Placez le composant <strong>MOBILE SESSION MANAGEMENT</strong> dans le dossier <strong>Composants</strong> nouvellement créé.</li>
 <li>Redémarrez 4D.</li>
+<li>Cliquez sur le bouton Exécuter à partir de la barre d'outils</li>
 <li>Dans l’explorateur de méthodes 4D, sélectionnez la méthode <strong>MOBILE SESSION MANAGEMENT</strong> et cliquez sur le bouton <strong>Execute</strong>.</li>
 <li>La fenêtre d'applications apparaîtra et affichera toutes vos applications :</li>
 </ul>
