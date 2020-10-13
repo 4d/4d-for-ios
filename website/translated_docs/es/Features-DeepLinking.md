@@ -54,13 +54,13 @@ Es muy simple incluir un esquema URL a su aplicación 4D for iOS:
 
 ![Editor del Proyecto Enlace profundo](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
-4. Fill in your **On Mobile App Action** method
+4. Rellene su método **On Mobile App Action**
 5. Creación de la aplicación
-6. And thats it!
+6. ¡Y listo!
 
-You're now able to share the content that you're currently viewing (whether it's a list or detail form) with all of your collegues!
+Ahora puede compartir el contenido que está viendo ¡Con todos sus colegas! (ya sea un formulario listado o detallado)
 
-Here's an example of the **On Mobile App Action** method:
+Acá un ejemplo del método **On Mobile App Action**:
 
 ```4d
 
@@ -117,7 +117,7 @@ To include Universal links into your app, the process is quite similiar to the U
     *   tabla - para compartir un formulario listado
 2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
 3. Enter your website URL in the **Universal links** field
-4. Fill in your **On Mobile App Action** method
+4. Rellene su método **On Mobile App Action**
 5. Creación de la aplicación
 6. Trigger universal inks from the the **On Web Connection** method.
 
