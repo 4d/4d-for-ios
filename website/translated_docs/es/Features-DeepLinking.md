@@ -64,8 +64,8 @@ Acá un ejemplo del método **On Mobile App Action**:
 
 ```4d
 
-var $1 : Object  // Informations provided by mobile application
-var $0 : Object  // Informations returned to mobile application
+var $1 : Object  // Información suministrada por la aplicación móvil
+var $0 : Object  // Información devuelta a la aplicación móvil
 
 var $action : Object
 $action:=MobileAppServer.Action.new($1)
@@ -78,19 +78,19 @@ Case of
 
     Else 
 
-        $0:=New object("success"; False;"statusText"; "Unknown action send to server")
+        $0:=New object("success"; False;"statusText"; "Enviar acción desconocida al servidor")
 
 End case 
 
 ```
 
-## USING URL SCHEMES IN YOUR 4D FOR iOS APP
+## UTILIZANDO ESQUEMAS DE URL EN SU APP 4D FOR iOS
 
-1. Click on the **Action** button to display all of your currently available actions
-2. Select the **Share** action that you previously defined in the project editor
-3. A new view appears to allow you to start sharing content
-4. Select the share method you want to use
-5. Send it!
+1. Haga clic en el botón **Action** para mostrar todas sus acciones disponibles actualmente
+2. Seleccione la acción **Share** que previamente definió en el editor de proyectos
+3. Aparece una nueva vista que le permite comenzar a compartir el contenido
+4. Seleccione el método de intercambio que desea utilizar
+5. ¡Envíelo!
 
 # UNIVERSAL LINKS
 
