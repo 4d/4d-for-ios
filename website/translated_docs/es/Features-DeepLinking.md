@@ -50,7 +50,7 @@ Es muy simple incluir un esquema URL a su aplicación 4D for iOS:
     *   entidad - para compartir el contenido de un formulario detallado
     *   tabla - para compartir un formulario listado
 2. Activar la funcionalidad **Deep Linking** en la sección **Publishing** del editor de proyectos
-3. The URL Scheme information is automatically filled in with the app name that you previously defined in the **General** section. However, you can still edit it:
+3. La información del esquema URL se llena automáticamente con el nombre de la aplicación que ha definido previamente en la sección **General**. Sin embargo, aún puede editarlo:
 
 ![Editor del Proyecto Enlace profundo](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
