@@ -5,36 +5,36 @@ title: Deep Linking
 
 > **OBJETIVOS**
 > 
-> Comparte el contenido de la aplicación iOS utilizando Deep Linking.
+> Compartir el contenido de la aplicación iOS utilizando Deep Linking.
 
-¡4D v18 R5 incluye una nueva y gran funcionalidad! You're now able to share the content that you're currently viewing with all of your collegues. How does it work?
+¡4D v18 R5 incluye una nueva y gran funcionalidad! Ahora puede compartir el contenido que está viendo con todos sus colegas. ¿Cómo funciona?
 
-Here's an illustration demonstrating deep linking:
+He aquí una ilustración que resume "deep linking":
 
 ![Animación Enlaces profundos](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
-There are two ways to implement deep linking in iOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known method for deep linking, Universal links are the new way that Apple has implemented to easily connect your webpage and your app under the same link.
+Hay dos maneras de implementar "deep linking" en IOS: **"URL scheme"** y **"Universal Links"**. Mientras que los "URL schemes" son un método bien conocido del "deep linking", los "Universal links" son el nuevo método que Apple ha implementado para conectar fácilmente su página web y su aplicación bajo el mismo enlace.
 
-Here's a comparision between the two options which are available in the project editor:
+Aquí hay una comparación entre las dos opciones disponibles en el editor de proyectos:
 
 ## URL Scheme
 
-| PROS                      | CONS                                |
-| ------------------------- | ----------------------------------- |
-| Easy to implement         | Always requires permission          |
-| No extra backend required | Doesn't work if app isn't installed |
-|                           | Doesn't work in Android             |
+| VENTAJAS                            | DESVENTAJAS                                    |
+| ----------------------------------- | ---------------------------------------------- |
+| Fácil de implementar                | Siempre requiere permiso                       |
+| No se requiere un backend adicional | No funciona si la aplicación no está instalada |
+|                                     | No funciona en Android                         |
 
 ## Universal links
 
-| PROS                                | CONS                           |
-| ----------------------------------- | ------------------------------ |
-| Doesn't require permission          | Static backend with SSL needed |
-| Doesn't open the browser            | More complex to implement      |
-| Compatible with Android             |                                |
-| Fallback URL if app isn't installed |                                |
+| VENTAJAS                                            | DESVENTAJAS                             |
+| --------------------------------------------------- | --------------------------------------- |
+| No requiere permiso                                 | Se necesita un backend estático con SSL |
+| No abre el navegador                                | Más complejo de implementar             |
+| Compatible con Android                              |                                         |
+| URL de retroceso si la aplicación no está instalada |                                         |
 
-# CUSTOM URL SCHEME
+# URL ESQUEMA PERSONALIZADO
 
 ## AN OLD BUT EFFICIENT APPROACH
 
