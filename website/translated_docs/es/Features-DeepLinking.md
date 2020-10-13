@@ -46,10 +46,10 @@ Pero el verdadero poder de los esquemas URL está en la capacidad de realizar ac
 
 Es muy simple incluir un esquema URL a su aplicación 4D for iOS:
 
-1. Select the **Share** predefined action from the **Action** section and select the scope:
-    *   entity - to share content from a detail form
-    *   table - to share a list form
-2. Activate the **Deep Linking** feature in the **Publishing** section of the project editor
+1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
+    *   entidad - para compartir el contenido de un formulario detallado
+    *   tabla - para compartir un formulario listado
+2. Activar la funcionalidad **Deep Linking** en la sección **Publishing** del editor de proyectos
 3. The URL Scheme information is automatically filled in with the app name that you previously defined in the **General** section. However, you can still edit it:
 
 ![Editor del Proyecto Enlace profundo](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
@@ -112,9 +112,9 @@ Universal links provide several key benefits that aren't available with custom U
 
 To include Universal links into your app, the process is quite similiar to the URL Schemes process:
 
-1. Select the **Share** predefined action from the **Action** section and select the scope:
+1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
     *   entity - to share a content from a detail form
-    *   table - to share a list form
+    *   tabla - para compartir un formulario listado
 2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
 3. Enter your website URL in the **Universal links** field
 4. Fill in your **On Mobile App Action** method
