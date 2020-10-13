@@ -38,13 +38,13 @@ Aquí hay una comparación entre las dos opciones disponibles en el editor de pr
 
 ## AN OLD BUT EFFICIENT APPROACH
 
-At the simplest level, URL schemes allow users to open an app from other apps.
+Al nivel más simple, los esquemas de URL permiten a los usuarios abrir una aplicación desde otras aplicaciones.
 
 Pero el verdadero poder de los esquemas URL está en la capacidad de realizar acciones específicas a medida que se abre la aplicación.
 
-## CUSTOM URL SCHEME IN THE PROJECT EDITOR
+## ESQUEMA DE URL PERSONALIZADO EN EL EDITOR DEL PROYECTO
 
-It's very simple to include an URL scheme to your 4D for iOS app:
+Es muy simple incluir un esquema URL a su aplicación 4D for iOS:
 
 1. Select the **Share** predefined action from the **Action** section and select the scope:
     *   entity - to share content from a detail form
