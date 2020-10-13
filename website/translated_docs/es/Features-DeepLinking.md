@@ -94,9 +94,9 @@ End case
 
 # UNIVERSAL LINKS
 
-## A MORE MODERN APPROACH
+## UN ENFOQUE MÁS MODERNO
 
-Universal links provide several key benefits that aren't available with custom URL schemes. Específicamente, los enlaces universales son:
+Los Universal links ofrecen varios beneficios clave que no están disponibles con los esquemas de URL personalizados. Específicamente, los enlaces universales son:
 
 * **Unique**: Unlike custom URL schemes, universal links can’t be claimed by other apps because they use standard HTTP or HTTPS links to your website.
 
