@@ -117,11 +117,11 @@ Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtim
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
+* **Key Path**: Begin with bindTo to activate binding on the component. Introduzca `bindTo.record.___FIELD_1___`
 
-* **Type**: Always `String`
+* **Type**: siempre `String`
 
-* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
+* **Value**: nombre del atributo. Introduzca `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
@@ -131,7 +131,7 @@ Seleccione la primera etiqueta y agregue una línea en el área "Defined Runtime
 
 * **Key Path**: `bindTo.record.___FIELD_2___`
 
-* **Type**: `String`
+* **Tipo**: `Cadena`
 
 * **Value**: `___FIELD_2_BINDING_TYPE___`
 
@@ -141,7 +141,7 @@ Seleccione la segunda etiqueta y agregue una línea en el área "Defined Runtime
 
 * **Key Path**: `bindTo.record.___FIELD_3___`
 
-* **Type**: `String`
+* **Tipo**: `Cadena`
 
 * **Value**: `___FIELD_3_BINDING_TYPE___`
 
