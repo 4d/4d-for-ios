@@ -115,13 +115,13 @@ Para incluir los enlaces universales en su aplicación, el proceso es bastante s
 1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
     *   entidad - para compartir un contenido de un formulario detallado
     *   tabla - para compartir un formulario listado
-2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
-3. Enter your website URL in the **Universal links** field
+2. Activar la funcionalidad **Deep Linking** en la sección **Publishing** en el editor de proyectos
+3. Introduzca la URL de su sitio web en el campo **Universal links**
 4. Rellene su método **On Mobile App Action**
 5. Creación de la aplicación
-6. Trigger universal inks from the the **On Web Connection** method.
+6. Activar los enlaces universales del método **On Web Connection**.
 
-Here's an example of the **On Web Connection** method :
+Este es un ejemplo del método **On Web Connection** :
 
 ```4d
 
@@ -131,9 +131,9 @@ Var $handler : Object
 $handler:=MobileAppServer.WebHandler.new()
 Case of
     : ($handler.handle($1; $2; $3; $4; $5; $6))
-        // Managed by default mobile code
+        // Gestionado por el código móvil por defecto
     Else
-        // Your web code
+        // Su código web
 End case
 
 ```
@@ -141,13 +141,13 @@ End case
 
 # NOTIFICACIÓN PUSH
 
-A great thing about Deep Linking is that it is completely compatible with [push notifications](push-notification.html). This means that you can send Deep links to your users and lead them directly to the right page.
+Algo genial sobre Deep Linking es que es completamente compatible con [notificaciones push](push-notification.html). Esto significa que puede enviar enlaces Deep a sus usuarios y llevarlos directamente a la página correcta.
 
-As you can see, this feature open a large range of possibilities for using 4D for iOS with minimal effort.
+Como puede ver, esta nueva funcionalidad abre un gran abanico de posibilidades utilizando 4D for iOS con un mínimo esfuerzo.
 
-Deep linking is a crucial feature in today’s apps, especially as users consume content faster and faster. This feature brings them directly to the desired location. So I strongly recommend that you use it in your 4D for iOS apps.
+Deep linking es una funcionalidad crucial en las aplicaciones de hoy en día, especialmente ya que los usuarios consumen el contenido más y más rápidamente. Esta funcionalidad los lleva directamente al lugar deseado. Así que recomiendo que lo utilicen en sus aplicaciones 4D for iOS.
 
-The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notifications and Deep linking.
+La documentación [está aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) para ayudarle a manejar sus notificaciones push y Deep linking.
 
 
 
