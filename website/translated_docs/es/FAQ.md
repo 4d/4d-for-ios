@@ -41,7 +41,7 @@ El editor de proyectos móviles se ha diseñado para que pueda utilizar 4D for i
 
 En caso de que necesite una versión anterior de Xcode, puede descargarla aquí: https://developer.apple.com/download/more/
 
-=> Only registered developers can download preview releases through the Apple Developer website.
+=> Solo los desarrolladores registrados pueden descargar versiones previas a través del sitio web de desarrolladores de Apple.
 
 Vea la lista de requisitos previos [aquí](prerequisites.html).
 
@@ -186,9 +186,9 @@ Si ya tiene un icono para su aplicación 4D, puede arrastrarlo y soltarlo direct
 **¿Cómo puedo probar mi aplicación?**
 </summary>
 
-4D for iOS le permite probar sus aplicaciones en el [ Simulador](simulator.html). To test your app on your iOS device you need to have a **paying Apple developer account** (install-device.html) (iPhone and iPad).
+4D for iOS le permite probar sus aplicaciones en el [ Simulador](simulator.html). Para probar su aplicación en su dispositivo iOS, necesita tener una ** cuenta de desarrollador de Apple de pago ** (install-device.html) (iPhone y iPad).
 
-**Note:** to intall your app with a **free developer account**, you can open your generated iOS project and install your app using Xcode.
+** Nota: ** para instalar su aplicación con una ** cuenta Apple de desarrollador gratuita**, puede abrir su proyecto iOS generado e instalar su aplicación con Xcode.
 
 </details>
 
