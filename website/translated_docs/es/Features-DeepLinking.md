@@ -98,22 +98,22 @@ End case
 
 Los Universal links ofrecen varios beneficios clave que no están disponibles con los esquemas de URL personalizados. Específicamente, los enlaces universales son:
 
-* **Unique**: Unlike custom URL schemes, universal links can’t be claimed by other apps because they use standard HTTP or HTTPS links to your website.
+* **Unique**: a diferencia de los esquemas de URL personalizados, otras aplicaciones no pueden reclamar los enlaces universales porque utilizan enlaces HTTP o HTTPS estándar a su sitio web.
 
-* **Secure**: When users install your app, iOS verifies that your website allows your app to open URLs on its behalf. Only you can create and upload the file granting this permission to your web server, so the association of your website with your app is secure.
+* **Secure**: cuando los usuarios instalan su aplicación, iOS verifica que su sitio web permita que su aplicación abra URLs en su nombre. Sólo usted puede crear y subir el archivo que otorga este permiso a su servidor web, por lo que la asociación de su sitio web con su aplicación es segura.
 
-* **Flexible**: Universal links work even when your app is not installed. In this case, tapping a link to your website opens the content in Safari.
+* **Flexible**: los enlaces universales funcionan incluso cuando su aplicación no está instalada. En este caso, al presionar un enlace a su sitio web se abre el contenido en Safari.
 
-* **Simple**: A single URL works for both your website and your app.
+* **Simple**: una sola URL funciona tanto para su sitio web como para su aplicación.
 
-* **Private**: Other apps can communicate with your app without needing to know if your app is installed.
+* **Private**: otras aplicaciones pueden comunicarse con su aplicación sin necesidad de saber si su aplicación está instalada.
 
-## UNIVERSAL LINKS IN THE PROJECT EDITOR
+## UNIVERSAL LINKS EN EL EDITOR DE PROYECTOS
 
-To include Universal links into your app, the process is quite similiar to the URL Schemes process:
+Para incluir los enlaces universales en su aplicación, el proceso es bastante similar al proceso de los esquemas URL:
 
 1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
-    *   entity - to share a content from a detail form
+    *   entidad - para compartir un contenido de un formulario detallado
     *   tabla - para compartir un formulario listado
 2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
 3. Enter your website URL in the **Universal links** field
