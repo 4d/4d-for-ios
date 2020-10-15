@@ -41,7 +41,6 @@ Those elements will be displayed in detail and list forms, depending on the temp
 > 
 > * You can also leave the icon area empty if you don’t want to display icons in your application.
 
-
 ## Relations properties
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
