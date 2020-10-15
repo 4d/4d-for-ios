@@ -24,7 +24,6 @@ La recherche permettra de filtrer les données en fonction du statut **In Progre
 > * Une **icône utilisateur** s’affiche à droite de chaque table lorsqu’un filtre d'informations utilisateur y est appliqué.
 > * Dès qu’une recherche est basée sur les informations utilisateur et qu'elle est validée, vous devez modifier la **méthode d'authentification de l'application mobile**. Pour ce faire, faites un clic droit sur le bouton **Edit authentication method** pour ouvrir la fenêtre d’édition de la méthode de base de données.
 
-
 Ajoutez la ligne suivante dans la méthode de base de données :
 
 ```4d
