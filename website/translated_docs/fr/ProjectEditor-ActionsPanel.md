@@ -217,6 +217,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 > 
 > Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.
 
+
 ### Formulaires Liste en collection
 
 * **Action d'entité :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.
@@ -258,4 +259,4 @@ A des fins pratiques, le formulaire d'édition inclut quelques **fonctionnalité
 
 * Un autre [tutoriel](action-custom-template.html) vous guidera pour intégrer des **TAG d'action** dans des modèles personnalisés.
 
-* Un [tutoriel](using-parameters.html) final vous guidera tout au long du processus de **définition des paramètres d'une action**.
+* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
