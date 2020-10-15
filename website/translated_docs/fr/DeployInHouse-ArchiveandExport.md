@@ -9,7 +9,7 @@ title: Archiver et exporter un projet
 > * Générer des fichiers .ipa et des fichiers manifest
 
 
-> > **CONDITIONS PRÉALABLES**
+> **CONDITIONS PRÉALABLES**
 > 
 > * [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)
 > * Un serveur Web sécurisé
