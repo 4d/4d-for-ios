@@ -15,6 +15,7 @@ Agora pode escolher os formatos pré-definidos da seção Etiquetas e Ícones.
 > * **Booleano**: "Não" ou "Sim", "False" ou "True"
 > * **Número inteiro**: número inteiro, número decimal, porcentagem, número ordinal, moeda  $, Moeda €, Moeda ¥, número em letras
 
+
 Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
