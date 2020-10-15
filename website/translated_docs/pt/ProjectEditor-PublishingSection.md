@@ -23,6 +23,7 @@ A ativação de porto HTTPS requer que a instalação de certificado funcione co
 > * Se a URL de produção for definida, tanto HTTP quanto HTTPS são aceitas. Senão, o endereço IP é usado.
 > * Se tanto HTTP quanto HTTPS forem ativadas, HTTP é usada.
 
+
 ## Autenticação
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.
