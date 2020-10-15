@@ -23,6 +23,7 @@ Activating the HTTPS port requires certificate installation to work properly. Yo
 > * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
 > * If both HTTP and HTTPS are activated, HTTP is used.
 
+
 ## Authentication
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.
