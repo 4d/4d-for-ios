@@ -23,7 +23,6 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 > * Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
 > * Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.
 
-
 ## Authentification
 
 * **Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
@@ -115,14 +114,29 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Composant
 
 ## Aperçu sur l'appareil
 
+### Ecran de paramètres
+
 Un écran de paramètres est disponible dans la barre d’onglets. Vous pouvez également le trouver sous l’onglet "More" si nécessaire (à savoir, votre application contient plus de quatre tables).
 
 Les paramètres vous permettent :
 
-* de recharger des données
-* de définir votre URL de serveur
+* Consultez votre URL distant ainsi que son statut
 * de vous déconnecter (si vous étiez connecté en tant qu'utilisateur autorisé)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
+### Redéfinir l'url distant
+
+Vous pouvez mettre à jour facilement votre URL distant à partir des Paramètres de l'iPhone :
+
+* Accédez aux paramètres de votre iPhone
+* Sélectionnez l'application pour laquelle vous souhaitez que l'URL distante soit mise à jour
+* Activez l'option "Réinitialiser l'adresse du serveur"
+
+![Redéfinir l'url distant](assets/en/project-editor/Reset-remote-url.png)
+
+* Puis redémarrez votre application pour réinitialiser l'adresse du serveur
+* Enfin, définissez la nouvelle URL distante
+
+![Update remote url](assets/en/project-editor/Update-remote-url.png)
