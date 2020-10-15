@@ -77,7 +77,6 @@ En este punto, todas las restricciones de la foto de perfil deben ser azules.
 > 
 > * Puede eliminar las restricciones o seleccionarlas desde el inspector Size o desde el Interface Builder.
 
-
 ## PASO 4. Actualizar la posición y las restricciones de etiquetas
 
 #### Ahora, vamos a trabajar en la etiqueta de nombre First Name.
