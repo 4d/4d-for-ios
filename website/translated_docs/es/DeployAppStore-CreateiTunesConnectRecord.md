@@ -25,6 +25,7 @@ title: Crear una ficha en App Store
 > * Si ha elegido una cuenta de desarrollador Apple individual, su cuenta estará disponible de inmediato y puede crear su identificador de aplicación.
 > * Si ha elegido una cuenta de desarrollador Apple como organización, debe esperar la validación de Apple para crear su identificador de aplicación.
 
+
 Para crear su identificador de aplicación, seleccione [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) desde su cuenta de desarrollador.
 
 * Haga clic en el signo "+" junto a *Register iOS App IDs* para agregar un nuevo identificador de aplicación.
@@ -69,7 +70,6 @@ Agregue la siguiente información:
 > 
 > Si su Bundle ID no está disponible, es posible que ya lo esté utilizando otra aplicación en la App Store. Tendrá que cambiar el suyo en su proyecto Xcode.
 
-
 ## PASO 4. Información sobre la aplicación
 
 En App Store Connect > App Information:
@@ -96,7 +96,6 @@ En **Version Information**, agregue todos los recursos de su aplicación que des
 > **RECOMENDACIONES**
 > 
 > Puede generar todas sus capturas de pantalla en el simulador (File > New Screen Shot).
-
 
 ![Preparación para la inscripción](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 
