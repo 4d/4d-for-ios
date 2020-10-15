@@ -25,7 +25,7 @@ Está bastante vacío, así que vamos a agregar algo de contenido.
 
 ## Añadir una "Image View"
 
-From the **Object library**, drag and drop an  **Image View** into a cell. Puede buscar una "Image View" en la barra de búsqueda en la parte inferior de la librería de objetos.
+Desde la **Object library** (la librería de objetos), arrastre y suelte una **Image View** (una vista de imagen) en una celda. Puede buscar una "Image View" en la barra de búsqueda en la parte inferior de la librería de objetos.
 
 ![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
