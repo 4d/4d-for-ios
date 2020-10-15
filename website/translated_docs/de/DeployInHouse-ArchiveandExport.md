@@ -9,7 +9,7 @@ title: Archive and export your Project
 > * Generate .ipa and manifest files
 
 
-> > **PREREQUISITES**
+> **PREREQUISITES**
 > 
 > * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 > * A secured web server
