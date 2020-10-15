@@ -7,6 +7,7 @@ title: Distribuer une application interne
 > 
 > Télécharger une application sur un serveur sécurisé.
 
+
 ## ÉTAPE 1. Téléchargez votre application
 
 Téléchargez votre application sur un serveur sécurisé :
