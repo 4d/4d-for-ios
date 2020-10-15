@@ -90,9 +90,9 @@ Maintenant que vous avez une **icône**, la **description basique d'un modèle**
 > 
 > Tous les types sont disponibles [ici](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-
 > **ASTUCES**
 > 
 > * Pour faciliter la définition des types de champs, 4D for iOS vous permet d’inclure des types de champs avec des **valeurs positives** et d'en exclure avec des **valeurs négatives**. Par exemple, `ios: type = "- 3, -4"` vous permettra de glisser-déposer tous les champs sauf les images et les dates.
 > 
 > * Pour inclure tous les types de champs, entrez simplement `ios:type="all"`.
+
