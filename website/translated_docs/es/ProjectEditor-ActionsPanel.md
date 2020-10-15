@@ -217,6 +217,7 @@ En su aplicación iOS, las acciones están disponibles de diferentes formas en s
 > 
 > Las acciones se mostrarán en el mismo orden definido en la sección Acción.
 
+
 ### Formularios Lista en colección
 
 * **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
@@ -258,4 +259,4 @@ For your convenience, the Edition form includes a few **special features**:
 
 * Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
