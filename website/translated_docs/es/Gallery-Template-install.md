@@ -7,7 +7,6 @@ title: Instalar una plantilla
 > 
 > Descargue una plantilla de la galería y mejórela
 
-
 ## Instalar una plantilla desde la galería
 
 Vaya a la sección Formularios y seleccione una de sus tablas para elegir un formulario Lista.
