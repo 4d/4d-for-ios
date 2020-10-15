@@ -7,44 +7,42 @@ title: Autenticación email
 > 
 > Integre la confirmación por correo electrónico para autenticar a los usuarios de la aplicación móvil
 
-
 > **REQUISITOS PREVIOS**
 > 
-> El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite la autenticación de correo está integrado en 4D mono usuario y 4D server v18 R4.
+> El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite la autenticación de correo está integrado en 4D mono usuario y 4D server 18R4.
 
+¡Deje que sus clientes y clientes se sientan cómodos iniciando sesión en su aplicación utilizando la autenticación de correo electrónico!
 
-Asegúrese de que sus clientes se sientan cómodos iniciando sesión en sus aplicaciones con la autenticación de correo electrónico.
+Ofrece una forma de verificar que un correo electrónico proviene de quien dice ser y permitirá bloquear usos dañinos o fraudulentos del correo electrónico.
 
-Ofrece una forma de verificar que un correo electrónico proviene de quien dice ser y le permitirá bloquear usos dañinos o fraudulentos del correo electrónico.
-
-Cómo funciona:
+En resumen, el principio es el siguiente:
 
 ### 1. Active el formulario de conexión
 
-Integre un formulario de conexión en su aplicación desde el editor del proyecto, en la sección Publicación.
+Integre un formulario de conexión en su aplicación, desde el editor del proyecto en la sección Publicación.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
 ### 2. Ingrese su dirección de correo electrónico
 
-Se requiere una dirección de correo electrónico cuando se lanza la aplicación. Cuando un usuario ingresa su correo electrónico y hace clic en el botón **Iniciar sesión**, se llama el método **On Mobile app Authentication** y el estado de la sesión del usuario se actualiza a un estado "pendiente". Luego, se envía un correo electrónico de validación a la dirección de correo del usuario.
+Se requiere un correo electrónico cuando se lanza la aplicación. Cuando un usuario ingresa su correo electrónico y hace clic en el botón Iniciar sesión, se llama On Mobile app Authentication y el estado de la sesión del usuario debe actualizarse a un estado "pendiente". Luego, se envía un correo electrónico de validación al usuario.
 
 ### 3. Revise su correo
 
-Cuando se recibe el correo electrónico de validación, el usuario solo debe hacer clic en el enlace de validación. Esto llamará al método **On Web Connection database** y actualizará el estado de la sesión del usuario de "pendiente" a "aceptado".
+Cuando el correo electrónico de validación está disponible, el usuario solo debe hacer clic en el enlace de validación. Esto llamará al método de base de datos On Web Connection y actualizará el estado de la sesión del usuario de "pendiente" a "aceptado".
 
 ### 4. Vuelva a su aplicación
 
-Una vez que se completa la validación, el usuario puede volver a abrir su aplicación y hacer clic en el botón **Iniciar sesión**. **On Mobile App Authentication** se vuelve a llamar, pero esta vez el estado de la sesión del usuario es "aceptado", por lo que se concede acceso.
+Una vez se realiza la validación, el usuario puede volver a abrir su aplicación y hacer clic en el botón Iniciar sesión. On Mobile App Authentication se vuelve a llamar, pero esta vez, el estado de la sesión del usuario es "aceptado", por lo que se concede el acceso.
 
-Sencillo, ¿Cierto?
+Es bastante simple, ¿verdad?
 
-Para hacer el proceso de validación fácil y seguro, 4D for iOS maneja:
+Entonces, para hacer el proceso de validación más fácil y seguro, 4D for iOS maneja:
 
 ![Autenticación](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-¡Pero usemos nuestro componente especial para ver cómo funciona esto!
+¡Pero averigüemos cómo funciona esto, utilizando nuestro componente especial!
 
 
 # Utilización del componente
@@ -57,7 +55,7 @@ Se ha desarrollado un componente de caja de herramientas para ayudarlo a adminis
 
 ## On Mobile App Authentification
 
-Llame al método **Mobile App Email Checker** en el método base **On Mobile App Authentification** con la información proporcionada por el dispositivo móvil:
+Llame al método **App Email Checker** en el método **On Mobile App Authentification database** con la información proporcionada por el dispositivo móvil:
 
 ```4d
 C_OBJECT($0)
@@ -68,7 +66,7 @@ $0:= Mobile App Email Checker ($1)
 
 ## Mobile App Active Session
 
-Llame al método **Activate sessions** en el método base **On Web Connection** con el parámetro **ID de la sesión** extraído de la URL:
+Llame al método **Activate sessions** en el método base **On Web Connection** con el parámetro ID de la sesión extraída de la URL:
 
 ```4d
 C_TEXT($1)
@@ -79,12 +77,12 @@ End case
 
 ```
 
-¡Tan simple como eso! Encontrará más información sobre este componente en la [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especialmente sobre los recursos que puede utilizar, como las plantillas y los parámetros HTML que desee definir.
+¡Tan simple como eso! Encontrará más información sobre este componente en la [documentación](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especialmente sobre los recursos que puede utilizar, como las plantillas html y la configuración que desee definir.
 
 
 # Sin el componente
 
-Miremos un ejemplo básico sin utilizar el componente.
+Veremos aquí un ejemplo básico sin utilizar el componente.
 
 Para hacerlo, aquí está el código que puede utilizar:
 
