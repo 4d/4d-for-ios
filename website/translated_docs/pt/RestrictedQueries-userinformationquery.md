@@ -24,6 +24,7 @@ The query will filter data depending on the **In Progress** status AND the **Acc
 > * Um  **ícone usuário** é mostrado à direita de cada tabela quando um filtro de informação de usuário é aplicado a ela.
 > * Logo que uma pesquisa baseada em informação de usuário for validada, precisa editar o método **Mobile app authentication**. Para fazer isso, dê um clique direito no botão **Edit authentication method** para abrir a janela de edição do método de banco de dados.
 
+
 Adicione a linha abaixo no método de banco de dados:
 
 ```4d
