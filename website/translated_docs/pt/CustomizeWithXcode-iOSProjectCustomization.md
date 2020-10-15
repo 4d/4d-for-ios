@@ -77,7 +77,6 @@ Parabéns! Sua foto do perfil está agora bem posicionada com as restrições co
 > 
 > * Pode apagar restrições selecionando-as do inspector Size ou desde o Interface Builder.
 
-
 ## PASSO 4. Atualizar posições de etiqueta e restrições
 
 #### Agora, vamos trabalhar na etiqueta Nome.
