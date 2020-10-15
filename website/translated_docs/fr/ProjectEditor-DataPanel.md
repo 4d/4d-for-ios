@@ -29,7 +29,6 @@ Dans la section Données, vous pouvez aussi vérifier la disponibilité du serve
 > * Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
 > * Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.
 
-
 Vous pouvez définir si vous souhaitez **inclure des images** et si vous souhaitez ou non **régénérer systématiquement les données** à chaque génération.
 
 When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
@@ -92,6 +91,5 @@ Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affic
 > **NOTE**
 > 
 > Vous trouverez toutes les règles de syntaxe associées à la recherche dans la [documentation de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-
 
 
