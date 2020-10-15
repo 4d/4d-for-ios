@@ -26,7 +26,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/513e9d4c378ac52a2a4bf84c7a96a132aecfb1c0.zip">PROYECTO STARTER LISTFORM</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROYECTO STARTER LISTFORM</a>
 </div>
 
 ¡Ahora está listo para crear su primera plantilla de formulario listado!
