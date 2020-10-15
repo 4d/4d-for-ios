@@ -7,6 +7,7 @@ title: Distribuir una aplicación interna
 > 
 > Subir su aplicación a un servidor seguro.
 
+
 ## PASO 1. Suba su aplicación
 
 Suba su aplicación a un servidor seguro:
