@@ -5,67 +5,67 @@ title: Deep Linking
 
 > **OBJETIVOS**
 > 
-> Comparte el contenido de la aplicación iOS utilizando Deep Linking.
+> Compartir el contenido de la aplicación iOS utilizando Deep Linking.
 
-¡4D v18 R5 incluye una nueva y gran funcionalidad! You're now able to share the content that you're currently viewing with all of your collegues. How does it work?
+¡4D v18 R5 incluye una nueva y gran funcionalidad! Ahora puede compartir el contenido que está viendo con todos sus colegas. ¿Cómo funciona?
 
-Here's an illustration demonstrating deep linking:
+He aquí una ilustración que resume "deep linking":
 
 ![Animación Enlaces profundos](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
-There are two ways to implement deep linking in iOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known method for deep linking, Universal links are the new way that Apple has implemented to easily connect your webpage and your app under the same link.
+Hay dos maneras de implementar "deep linking" en IOS: **"URL scheme"** y **"Universal Links"**. Mientras que los "URL schemes" son un método bien conocido del "deep linking", los "Universal links" son el nuevo método que Apple ha implementado para conectar fácilmente su página web y su aplicación bajo el mismo enlace.
 
-Here's a comparision between the two options which are available in the project editor:
+Aquí hay una comparación entre las dos opciones disponibles en el editor de proyectos:
 
 ## URL Scheme
 
-| PROS                      | CONS                                |
-| ------------------------- | ----------------------------------- |
-| Easy to implement         | Always requires permission          |
-| No extra backend required | Doesn't work if app isn't installed |
-|                           | Doesn't work in Android             |
+| VENTAJAS                            | DESVENTAJAS                                    |
+| ----------------------------------- | ---------------------------------------------- |
+| Fácil de implementar                | Siempre requiere permiso                       |
+| No se requiere un backend adicional | No funciona si la aplicación no está instalada |
+|                                     | No funciona en Android                         |
 
 ## Universal links
 
-| PROS                                | CONS                           |
-| ----------------------------------- | ------------------------------ |
-| Doesn't require permission          | Static backend with SSL needed |
-| Doesn't open the browser            | More complex to implement      |
-| Compatible with Android             |                                |
-| Fallback URL if app isn't installed |                                |
+| VENTAJAS                                            | DESVENTAJAS                             |
+| --------------------------------------------------- | --------------------------------------- |
+| No requiere permiso                                 | Se necesita un backend estático con SSL |
+| No abre el navegador                                | Más complejo de implementar             |
+| Compatible con Android                              |                                         |
+| URL de retroceso si la aplicación no está instalada |                                         |
 
-# CUSTOM URL SCHEME
+# URL ESQUEMA PERSONALIZADO
 
 ## AN OLD BUT EFFICIENT APPROACH
 
-At the simplest level, URL schemes allow users to open an app from other apps.
+Al nivel más simple, los esquemas de URL permiten a los usuarios abrir una aplicación desde otras aplicaciones.
 
 Pero el verdadero poder de los esquemas URL está en la capacidad de realizar acciones específicas a medida que se abre la aplicación.
 
-## CUSTOM URL SCHEME IN THE PROJECT EDITOR
+## ESQUEMA DE URL PERSONALIZADO EN EL EDITOR DEL PROYECTO
 
-It's very simple to include an URL scheme to your 4D for iOS app:
+Es muy simple incluir un esquema URL a su aplicación 4D for iOS:
 
-1. Select the **Share** predefined action from the **Action** section and select the scope:
-    *   entity - to share content from a detail form
-    *   table - to share a list form
-2. Activate the **Deep Linking** feature in the **Publishing** section of the project editor
-3. The URL Scheme information is automatically filled in with the app name that you previously defined in the **General** section. However, you can still edit it:
+1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
+    *   entidad - para compartir el contenido de un formulario detallado
+    *   tabla - para compartir un formulario listado
+2. Activar la funcionalidad **Deep Linking** en la sección **Publishing** del editor de proyectos
+3. La información del esquema URL se llena automáticamente con el nombre de la aplicación que ha definido previamente en la sección **General**. Sin embargo, aún puede editarlo:
 
 ![Editor del Proyecto Enlace profundo](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
-4. Fill in your **On Mobile App Action** method
+4. Rellene su método **On Mobile App Action**
 5. Creación de la aplicación
-6. And thats it!
+6. ¡Y listo!
 
-You're now able to share the content that you're currently viewing (whether it's a list or detail form) with all of your collegues!
+Ahora puede compartir el contenido que está viendo ¡Con todos sus colegas! (ya sea un formulario listado o detallado)
 
-Here's an example of the **On Mobile App Action** method:
+Acá un ejemplo del método **On Mobile App Action**:
 
 ```4d
 
-var $1 : Object  // Informations provided by mobile application
-var $0 : Object  // Informations returned to mobile application
+var $1 : Object  // Información suministrada por la aplicación móvil
+var $0 : Object  // Información devuelta a la aplicación móvil
 
 var $action : Object
 $action:=MobileAppServer.Action.new($1)
@@ -78,50 +78,50 @@ Case of
 
     Else 
 
-        $0:=New object("success"; False;"statusText"; "Unknown action send to server")
+        $0:=New object("success"; False;"statusText"; "Enviar acción desconocida al servidor")
 
 End case 
 
 ```
 
-## USING URL SCHEMES IN YOUR 4D FOR iOS APP
+## UTILIZANDO ESQUEMAS DE URL EN SU APP 4D FOR iOS
 
-1. Click on the **Action** button to display all of your currently available actions
-2. Select the **Share** action that you previously defined in the project editor
-3. A new view appears to allow you to start sharing content
-4. Select the share method you want to use
-5. Send it!
+1. Haga clic en el botón **Action** para mostrar todas sus acciones disponibles actualmente
+2. Seleccione la acción **Share** que previamente definió en el editor de proyectos
+3. Aparece una nueva vista que le permite comenzar a compartir el contenido
+4. Seleccione el método de intercambio que desea utilizar
+5. ¡Envíelo!
 
 # UNIVERSAL LINKS
 
-## A MORE MODERN APPROACH
+## UN ENFOQUE MÁS MODERNO
 
-Universal links provide several key benefits that aren't available with custom URL schemes. Específicamente, los enlaces universales son:
+Los Universal links ofrecen varios beneficios clave que no están disponibles con los esquemas de URL personalizados. Específicamente, los enlaces universales son:
 
-* **Unique**: Unlike custom URL schemes, universal links can’t be claimed by other apps because they use standard HTTP or HTTPS links to your website.
+* **Unique**: a diferencia de los esquemas de URL personalizados, otras aplicaciones no pueden reclamar los enlaces universales porque utilizan enlaces HTTP o HTTPS estándar a su sitio web.
 
-* **Secure**: When users install your app, iOS verifies that your website allows your app to open URLs on its behalf. Only you can create and upload the file granting this permission to your web server, so the association of your website with your app is secure.
+* **Secure**: cuando los usuarios instalan su aplicación, iOS verifica que su sitio web permita que su aplicación abra URLs en su nombre. Sólo usted puede crear y subir el archivo que otorga este permiso a su servidor web, por lo que la asociación de su sitio web con su aplicación es segura.
 
-* **Flexible**: Universal links work even when your app is not installed. In this case, tapping a link to your website opens the content in Safari.
+* **Flexible**: los enlaces universales funcionan incluso cuando su aplicación no está instalada. En este caso, al presionar un enlace a su sitio web se abre el contenido en Safari.
 
-* **Simple**: A single URL works for both your website and your app.
+* **Simple**: una sola URL funciona tanto para su sitio web como para su aplicación.
 
-* **Private**: Other apps can communicate with your app without needing to know if your app is installed.
+* **Private**: otras aplicaciones pueden comunicarse con su aplicación sin necesidad de saber si su aplicación está instalada.
 
-## UNIVERSAL LINKS IN THE PROJECT EDITOR
+## UNIVERSAL LINKS EN EL EDITOR DE PROYECTOS
 
-To include Universal links into your app, the process is quite similiar to the URL Schemes process:
+Para incluir los enlaces universales en su aplicación, el proceso es bastante similar al proceso de los esquemas URL:
 
-1. Select the **Share** predefined action from the **Action** section and select the scope:
-    *   entity - to share a content from a detail form
-    *   table - to share a list form
-2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
-3. Enter your website URL in the **Universal links** field
-4. Fill in your **On Mobile App Action** method
+1. Seleccione la acción predefinida **Share** de la sección **Action** y seleccione el alcance:
+    *   entidad - para compartir un contenido de un formulario detallado
+    *   tabla - para compartir un formulario listado
+2. Activar la funcionalidad **Deep Linking** en la sección **Publishing** en el editor de proyectos
+3. Introduzca la URL de su sitio web en el campo **Universal links**
+4. Rellene su método **On Mobile App Action**
 5. Creación de la aplicación
-6. Trigger universal inks from the the **On Web Connection** method.
+6. Activar los enlaces universales del método **On Web Connection**.
 
-Here's an example of the **On Web Connection** method :
+Este es un ejemplo del método **On Web Connection** :
 
 ```4d
 
@@ -131,9 +131,9 @@ Var $handler : Object
 $handler:=MobileAppServer.WebHandler.new()
 Case of
     : ($handler.handle($1; $2; $3; $4; $5; $6))
-        // Managed by default mobile code
+        // Gestionado por el código móvil por defecto
     Else
-        // Your web code
+        // Su código web
 End case
 
 ```
@@ -141,13 +141,13 @@ End case
 
 # NOTIFICACIÓN PUSH
 
-A great thing about Deep Linking is that it is completely compatible with [push notifications](push-notification.html). This means that you can send Deep links to your users and lead them directly to the right page.
+Algo genial sobre Deep Linking es que es completamente compatible con [notificaciones push](push-notification.html). Esto significa que puede enviar enlaces Deep a sus usuarios y llevarlos directamente a la página correcta.
 
-As you can see, this feature open a large range of possibilities for using 4D for iOS with minimal effort.
+Como puede ver, esta nueva funcionalidad abre un gran abanico de posibilidades utilizando 4D for iOS con un mínimo esfuerzo.
 
-Deep linking is a crucial feature in today’s apps, especially as users consume content faster and faster. This feature brings them directly to the desired location. So I strongly recommend that you use it in your 4D for iOS apps.
+Deep linking es una funcionalidad crucial en las aplicaciones de hoy en día, especialmente ya que los usuarios consumen el contenido más y más rápidamente. Esta funcionalidad los lleva directamente al lugar deseado. Así que recomiendo que lo utilicen en sus aplicaciones 4D for iOS.
 
-The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notifications and Deep linking.
+La documentación [está aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) para ayudarle a manejar sus notificaciones push y Deep linking.
 
 
 
