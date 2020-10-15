@@ -12,7 +12,6 @@ title: １対Ｎリレーション
 > 
 > ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
 
-
 素材プロジェクトをダウンロードしてください。
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -43,6 +42,7 @@ This will now operate as any other field for the rest of the app creation proces
 > **ヒント**
 > 
 > * On mouse over, a tip displays the table name originating the relation.
+
 
 ## Labels & Icons section
 
