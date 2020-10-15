@@ -8,9 +8,7 @@ Este tutorial vai mostrar como é fácil incluir relações Um para Muitos em 4D
 
 > **NOTA **
 > 
-> Neste tutorial, vamos usar os nomes das relações entre suas tabelas.
-> 
-> Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
+> Neste tutorial, vamos usar os nomes das relações entre suas tabelas. Dar nomes de relação bem descritivos ajuda a facilitar a definição de sua estrutura de projeto.
 
 Vamos começar baixando o Projeto Starter:
 
@@ -42,7 +40,6 @@ This will now operate as any other field for the rest of the app creation proces
 > **DICAS**
 > 
 > * Ao passar com o mouse por cima, uma sugestão mostra o nome da tabela fonte que origina a relação.
-
 
 ## Labels & Icons section
 

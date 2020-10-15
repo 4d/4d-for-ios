@@ -7,7 +7,6 @@ title: Apple Developer Enterprise Program
 > 
 > Register for the Apple Developer Enterprise Program to deploy your app <b>in-house</b>.
 
-
 > **HINWEIS**
 > 
 > To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.

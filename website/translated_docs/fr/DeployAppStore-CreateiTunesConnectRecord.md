@@ -8,7 +8,6 @@ title: Créer une fiche sur App Store
 > * Créer un identifiant d’application sur son compte développeur ("Developer")
 > * Créer son application dans l’App Store Connect
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > [Apple Developer Program pour les entreprises](register-apple-developer-program-organization.html) ou [les particuliers](register-apple-developer-program-individual.html)
@@ -24,7 +23,6 @@ title: Créer une fiche sur App Store
 > 
 > * Si vous avez choisi un compte de développeur Apple en tant que particulier ("Apple Developer Account as an individual"), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.
 > * Si vous avez choisi un compte de développeur Apple en tant qu’entreprise ("Apple Developer Account as an organization"), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.
-
 
 Pour créer votre identifiant d'application, sélectionnez [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle) depuis votre compte développeur
 
@@ -87,7 +85,6 @@ C’est ici que vous pourrez définir le prix de votre application.
 > **ASTUCES**
 > 
 > Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.
-
 
 ## ÉTAPE 6. Préparation à l'inscription
 

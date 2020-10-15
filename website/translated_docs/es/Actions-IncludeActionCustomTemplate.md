@@ -7,11 +7,9 @@ title: Añadir acciones a las plantillas
 > 
 > Agregue acciones a plantillas de formularios de Lista y formularios detallados.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-
 
 En este tutorial, veremos lo fácil que puede ser **agregar acciones a plantillas personalizadas**.
 

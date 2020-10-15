@@ -84,4 +84,3 @@ From iPhone settings, you can now reset your app data and find information about
 > **NOTA **
 > 
 > Assim que o administrador realizar uma operação de manutenção importante, ele deve alertar os usuários da aplicação 4D for iOS que uma recarga completa é necessária: Recover by tag/Restoration/Compaction
-

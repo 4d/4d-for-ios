@@ -7,11 +7,9 @@ title: Modelos de formulário detalhado
 > 
 > Criar seu primeiro modelo de formulário listado.
 
-
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-
 
 In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
 

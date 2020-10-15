@@ -22,7 +22,6 @@ You can use any cloud storage service to distribute your app as soon as it is se
 > 
 > Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
 
-
 ## ⒉ Create the installation link
 
 Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:

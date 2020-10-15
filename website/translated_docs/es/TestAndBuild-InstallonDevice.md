@@ -7,12 +7,10 @@ title: Instalación en su dispositivo iOS
 > 
 > Instale una aplicación 4D for iOS en un dispositivo conectado
 
-
 > **REQUISITOS PREVIOS**
-
-* Apple Developer Program.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).
-
+> 
+> * Apple Developer Program.
+> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).
 
 > **NOTA**
 > 

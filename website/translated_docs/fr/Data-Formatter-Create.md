@@ -7,11 +7,9 @@ title: Créer un format de données
 > 
 > Créer vos premiers formats de données.
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-
 
 Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.
 

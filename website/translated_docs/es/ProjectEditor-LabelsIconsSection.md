@@ -41,7 +41,6 @@ Esos elementos se mostrarán en formularios detallados y en formularios listados
 > 
 > * También puede dejar el área de iconos vacía si no desea mostrar los iconos en su aplicación.
 
-
 ## Propiedades de las relaciones
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)

@@ -8,9 +8,7 @@ Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4
 
 > **NOTE**
 > 
-> Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables.
-> 
-> En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
+> Dans ce tutoriel, nous allons utiliser les noms des liens reliant vos tables. En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
 
 Commençons par télécharger le Projet Starter :
 
@@ -42,7 +40,6 @@ Il aura le même fonctionnement que n’importe quel autre champ pour la suite d
 > **ASTUCES**
 > 
 > * En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.
-
 
 ## Section Libellés & icônes
 
