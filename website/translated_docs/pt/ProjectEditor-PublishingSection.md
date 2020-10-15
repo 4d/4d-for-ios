@@ -23,7 +23,6 @@ A ativação de porto HTTPS requer que a instalação de certificado funcione co
 > * Se a URL de produção for definida, tanto HTTP quanto HTTPS são aceitas. Senão, o endereço IP é usado.
 > * Se tanto HTTP quanto HTTPS forem ativadas, HTTP é usada.
 
-
 ## Autenticação
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.
@@ -115,14 +114,29 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 
 ## Como se vê em um dispositivo
 
+### Tela de parâmetros
+
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Settings allows you to:
 
-* Recarregar dados
-* Definir seu servidor URL
+* Consulte sua URL remota e seu estado
 * Fechar a sessão (se estiver conectado como usuário autorizado)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
+### Resetar a URL remota
+
+Pode facilmente atualizar sua url remota a partir das configurações do iPhone:
+
+* Abra as Configurações do iPhone
+* Selecione o app que quiser a url remota a ser atualizada
+* Ative a opção "Reset server adress"
+
+![Resetar a URL remota](assets/en/project-editor/Reset-remote-url.png)
+
+* Agora reinicie seu app para reiniciar o endereço do servidor
+* E finalmente defina a nova url remota
+
+![Update remote url](assets/en/project-editor/Update-remote-url.png)

@@ -77,7 +77,6 @@ Félicitations ! Votre photo de profil est maintenant bien placée et respecte 
 > 
 > * Vous pouvez supprimer des contraintes en les sélectionnant depuis le Size inspector (l’inspecteur de dimensions) ou bien depuis l’Interface Builder.
 
-
 ## ÉTAPE 4. Mise à jour de la position et des contraintes des libellés
 
 #### Nous allons nous pencher sur le libellé First Name.

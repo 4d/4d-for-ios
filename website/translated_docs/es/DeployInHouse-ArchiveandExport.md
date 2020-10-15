@@ -9,7 +9,7 @@ title: Archivar y exportar un proyecto
 > * Generar archivos .ipa y manifest
 
 
-> > **REQUISITOS PREVIOS**
+> **REQUISITOS PREVIOS**
 > 
 > * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 > * Un servidor Web seguro

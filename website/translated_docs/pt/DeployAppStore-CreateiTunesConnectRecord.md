@@ -25,6 +25,7 @@ title: Criar uma ficha em App Store
 > * Se escolher uma Conta Apple Developer como indivíduo, sua conta estará disponível imediatamente e pode criar sua App ID.
 > * Se escolher uma conta Apple Developer como uma empresa, tem que esperar até a validação de Apple para criar sua App ID.
 
+
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
 * Click the + sign next to *Register iOS App IDs* to add a new App ID.
@@ -69,7 +70,6 @@ Add the following information:
 > 
 > Se seu Bundle ID não estiver disponível, pode ser que já esteja sendo usada por outro app na App Store. Terá que mudar a sua no projeto Xcode.
 
-
 ## PASSO 4. Informação sobre a aplicação
 
 From App Store Connect > App Information:
@@ -96,7 +96,6 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 > **DICAS**
 > 
 > Pode gerar todas as suas capturas de tela no Simulator (File>New Screen Shot).
-
 
 ![Prepare para a inscrição](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 

@@ -15,6 +15,7 @@ title: データフォーマッター
 > * **Boolean**: "No" or "Yes", "False" or "True"
 > * **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
 
+
 素材プロジェクトをダウンロードしてください。
 
 <div markdown="1" style="text-align: center; margin-top: 20px">

@@ -8,7 +8,6 @@ title: Pesquisa multicritério
 > 
 > Ativar a pesquisa multi-critérios em seus próprios modelos.
 
-
 This feature is activated by default in all 4D for iOS-generated templates.
 
 ## Arquivo template svg

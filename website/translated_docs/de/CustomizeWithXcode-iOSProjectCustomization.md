@@ -77,7 +77,6 @@ Congratulations! Your profile picture is now well positioned with the correct co
 > 
 > * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
 
-
 ## SCHRITT 4. Update label positions and constraints
 
 #### Now, let's work on the First Name label.

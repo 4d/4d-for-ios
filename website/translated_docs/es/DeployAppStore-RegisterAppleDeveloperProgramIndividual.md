@@ -7,7 +7,6 @@ title: Apple Developer Program para particulares
 > 
 > Regístrese al Apple Developer Enterprise Program como particular para desplegar su aplicación de forma interna.
 
-
 ## PASO 1. Identificador Apple
 
 Si no tiene identificación Apple, vaya a '[Paso 2](#step-2-create-your-apple-id)

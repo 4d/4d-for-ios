@@ -3,7 +3,14 @@ id: manifest-detailform-template
 title: Manifest.json
 ---
 
-Le fichier manifest contient des informations sur votre modèle de formulaire détaillé, telles que le **type de Storyboard** (formulaire liste ou formulaire détaillé), **le nom**, **le nombre de champs statiques** et **les propriétés de l'icône**.
+Le fichier manifest contient les informations relatives à votre modèle de formulaire détaillé, telles que :
+
+* **Type de storyboard :** formulaire liste ou formulaire détaillé
+* **Nom**
+* **Rendu :** numéro de version
+* **Décalage :** le décalage vertical du premier champ qui va être dupliqué
+* **Nombre de champs statiques**
+* **Propriétés de l'icône :** largeur et hauteur
 
 
 ```json
@@ -11,10 +18,12 @@ Le fichier manifest contient des informations sur votre modèle de formulaire d�
   "type": "detailform",
 
   "name": "Custom Detail form",
-
+  "renderer": 2,  
+  "hOffset": 91, 
   "fields": {
-    "count": 1
-  },
+    "count": 1, 
+    "max": 0
+ },
 
   "assets": {
     "size": {
@@ -30,5 +39,7 @@ Par exemple, le fichier manifest du modèle de formulaire détaillé ci-dessous 
 
 1. **Type de storyboard :** formulaire détaillé
 2. **Nom du modèle :** Custom Detail form
-3. **Nombre de champs :** 1 champ statique (et 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
-4. **Propriétés d'icônes :** largeur et hauteur de l'icône
+3. **Version :** 2
+4. **Décalage :** le premier champ qui va être dupliqué est de 91 pixels en partant du haut
+5. **Nombre de champs :** 1 champ statique (et 0 pour une infinité de champs dupliqués (une image d'en-tête et des champs dupliqués))
+6. **Propriétés d'icônes :** largeur et hauteur de l'icône

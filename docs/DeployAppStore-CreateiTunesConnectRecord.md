@@ -25,6 +25,7 @@ title: Create App Store record
 > * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 > * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
 
+
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
 * Click the + sign next to *Register iOS App IDs* to add a new App ID. 
@@ -69,7 +70,6 @@ Add the following information:
 > 
 > If your Bundle ID is not available, it may already be used by another app in the App Store. You'll need to change yours in your Xcode project.
 
-
 ## STEP 4. App information
 
 From App Store Connect > App Information:
@@ -96,7 +96,6 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 > **TIPS**
 > 
 > You can generate all of your screenshots in Simulator (File > New Screen Shot).
-
 
 ![Prepare for Submission](assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png)
 

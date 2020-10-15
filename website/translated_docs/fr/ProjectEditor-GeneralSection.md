@@ -17,7 +17,6 @@ Par exemple, si le nom de votre entreprise est "MyCompany" et que le nom de votr
 > 
 > Des liens d’aide sont disponibles pour les champs Nom et Identifiant.
 
-
 **Nom du produit :** Le nom de votre application. Comme indiqué ci-dessus, le nom du produit est utilisé pour créer le « Bundle ID ». Ce « Bundle ID » doit être identique à celui que vous avez créé dans votre compte développeur Apple.
 
 **Version** : la version de votre application. Add version numbers in ascending, sequential order starting with 1.0.
@@ -30,6 +29,7 @@ Par exemple, si le nom de votre entreprise est "MyCompany" et que le nom de votr
 > 
 > * Si vous avez déjà une icône pour votre application desktop, vous pouvez la glisser-déposer directement dans la zone de l’icône.
 > * **Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !
+
 
 **Développeur :**Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
 

@@ -109,7 +109,6 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 > 
 > ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
-
 ## Cómo obtener datos en sus celdas
 
 ### Image View
@@ -192,7 +191,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
 </div>
 
 

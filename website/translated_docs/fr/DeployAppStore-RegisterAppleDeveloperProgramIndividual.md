@@ -7,7 +7,6 @@ title: Apple Developer Program pour les particuliers
 > 
 > Souscrire à l'Apple Developer Enterprise Program en tant que particulier pour déployer une application en interne.
 
-
 ## ÉTAPE 1. Identifiant Apple
 
 Si vous n’avez pas d'identifiant Apple, passez à l'[Étape 2](#step-2-create-your-apple-id).

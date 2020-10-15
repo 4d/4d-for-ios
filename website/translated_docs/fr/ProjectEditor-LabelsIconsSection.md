@@ -41,6 +41,7 @@ Ces éléments seront affichés dans les formulaires détaillés et les formulai
 > 
 > * Si vous ne souhaitez pas afficher d'icônes dans votre application, vous pouvez également laisser la zone d'icônes vide.
 
+
 ## Propriétés des liens
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)

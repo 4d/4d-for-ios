@@ -12,7 +12,6 @@ Este tutorial le mostrará lo fácil que puede ser incluir relaciones Uno a Much
 > 
 > Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.
 
-
 Comencemos descargando el Proyecto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -43,6 +42,7 @@ This will now operate as any other field for the rest of the app creation proces
 > **RECOMENDACIONES**
 > 
 > * Al pasar el ratón, una sugerencia muestra el nombre de la tabla fuente que origina la relación.
+
 
 ## Labels & Icons section
 

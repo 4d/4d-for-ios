@@ -12,7 +12,6 @@ This tutorial will show you how easy it can be to include One to Many relations 
 > 
 > Giving descriptive relation names can make your project structure definition easier.
 
-
 Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -43,6 +42,7 @@ This will now operate as any other field for the rest of the app creation proces
 > **TIPS**
 > 
 > * On mouse over, a tip displays the table name originating the relation.
+
 
 ## Labels & Icons section
 
