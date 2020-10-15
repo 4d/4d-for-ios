@@ -7,7 +7,6 @@ title: Búsquedas limitadas
 > 
 > Definir los filtros de búsqueda basados en información usuario o básica para mostrar contenido filtrado en la aplicación iOS generada.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
@@ -36,6 +35,7 @@ The database includes a:
 > **NOTA**
 > 
 > Este proyecto utiliza [plantillas personalizadas](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [iconos personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) y [formatos de datos personalizados](https://4d.github.io/4d -for-ios/docs/es/creating-data-formatter.html).
+
 
 You're now ready to define your first restricted query!
 
