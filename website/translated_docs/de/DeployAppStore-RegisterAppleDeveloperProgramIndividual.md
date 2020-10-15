@@ -7,7 +7,6 @@ title: Apple Developer Program as an Individual
 > 
 > Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.
 
-
 ## SCHRITT 1. Apple ID
 
 If you don’t have any Apple ID go to [Step 2](#step-2-create-your-apple-id)
