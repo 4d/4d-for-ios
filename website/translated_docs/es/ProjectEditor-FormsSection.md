@@ -27,30 +27,48 @@ Seleccione una plantilla para su primera tabla. Una vez hecho esto, aparece la p
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-Al igual que con la definición de formulario Lista, seleccione una plantilla y arrastre y suelte sus campos en su formulario detallado.
+Así como para el formulario Lista, seleccione una plantilla y añada sus campos en su formulario detallado.
+
+Tiene varias formas de añadir sus campos en los formularios detallados:
+
+* Puede arrastrar y soltar campos en cualquier lugar de la vista SVG para agregarlos y mostrarlos justo después del último campo añadido o entre cualquier otro campo que ya se muestre.
+
+* Doble clic en un campo. Su campo se agregará al final de la lista.
+
+* Al hacer clic derecho en uno de los campos que están disponibles en la tabla Campos a la izquierda, se mostrará un menú que le permitirá agregar todos los campos faltantes a sus formularios detallados.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-Puede agregar entre 2 o a 10 campos para la mayoría de los formularios Lista.
+Puede agregar tantos campos para la mayor parte de los formularios detallados disponibles.
+
+Y en cualquier momento, puede reordenar su campo seleccionándolo y soltándolo en cualquier lugar de su formulario detallado.
 
 > **RECOMENDACIONES**
 > 
-> ¿Quiere cambiar la plantilla de su formulario listado o de formulario detallado? 
+> * ¿Quiere cambiar la plantilla de su formulario listado o de formulario detallado? 
 > 
-> Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).
+> * Cuando cambia las plantillas, los tipos de campo automáticamente se reconocen, guardan y colocan en las áreas apropiadas (según las plantillas y los tipos de campos).
+
 
 ## Gallery
 
 You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
 
+![More template button](assets/en/project-editor/Forms-more-button.png)
+
 Just click on that icon to display the entire list.
+
+![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
 Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
 
 So you can directly start working on the template, as it is ready-to-use.
 
-Next step, you chose a template that suits your needs, but in case something is missing, all you have to do is:
-* go to your resources
-* unzip the template
-* make the changes needed using Xcode.
+> **RECOMENDACIONES**
+> 
+> La galería también está disponible [en línea](https://4d-for-ios.github.io/gallery/).
 
+
+## ¿Qué hacemos ahora?
+
+El siguiente paso consiste en elegir una plantilla que se adapte a sus necesidades, pero en caso de que falte algo, un [tutorial](gallery-template-update.html) lo ayudará a efectuar una **actualización de plantilla**.
