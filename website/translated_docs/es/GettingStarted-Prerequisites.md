@@ -9,9 +9,9 @@ title: Prerrequisitos
 * 4D Server v17 R2 64 bits (Despliegue)
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional).
 
-Apple configurator 2 requires **macOS 10.14** or later. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
+Apple configurator 2 necesita **macOS 10.14** o superior. Instale este software si desea automatizar la instalación de la aplicación en su dispositivo físico.
 
-Xcode 10.2 requieres **macOS 10.14** or later.
+Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
 
 ## Tabla de comparación de versión
 
@@ -54,7 +54,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## Configuración
 
-* In the 4D Database Settings, display the Compatibility page and check **Use object notation to access object properties (Unicode required).**
+* En las propiedades de la base 4D, visualice la página de compatibilidad y marque la casilla ** Utilizar la notación objeto para acceder a las propiedades de los objetos (se requiere Unicode).**
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
