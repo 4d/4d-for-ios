@@ -7,7 +7,6 @@ title: Apple Developer Program para particulares
 > 
 > Registre-se para o programa Apple Developer Enterprise como um indivíduo para lançar seu app in-house.
 
-
 ## PASSO 1. Identificador Apple
 
 Se não tiver uma identificação Apple, vá para '[Passo 2](#step-2-create-your-apple-id)
