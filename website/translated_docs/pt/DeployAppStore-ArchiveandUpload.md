@@ -7,7 +7,6 @@ title: Arquive e atualize seu Projeto
 > 
 > Arquivar e publicar seu projeto para o App Store Connect.
 
-
 ## PASSO 1. Configuração Xcode
 * Se escolher uma Conta de Desenvolvedor Apple como um indivíduo, sua conta está disponível imediatamente.
 * Se escolher uma Conta Desenvolvedor Apple como uma organização, tem que esperar pela validação Apple.
