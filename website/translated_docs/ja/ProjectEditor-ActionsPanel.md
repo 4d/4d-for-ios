@@ -217,6 +217,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 > 
 > Actions will be displayed in the same order as defined in the Action section.
 
+
 ### Collection List forms
 
 * **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
@@ -258,4 +259,4 @@ For your convenience, the Edition form includes a few **special features**:
 
 * Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
