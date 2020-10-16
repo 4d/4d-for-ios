@@ -56,11 +56,11 @@ You probably noticed that, when you want to select a template in the form sectio
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
-Just click on that icon to display the entire list.
+Simplemente haga clic en ese icono para mostrar la lista completa.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Luego, lo único que tiene que hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
 
 So you can directly start working on the template, as it is ready-to-use.
 
