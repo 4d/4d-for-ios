@@ -259,4 +259,4 @@ For your convenience, the Edition form includes a few **special features**:
 
 * Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
+* Un [tutorial](action-parameters.html) final lo guiará a lo largo del proceso **definición de los parámetros de una acción**.
