@@ -7,6 +7,7 @@ title: Distribute your app in-House
 > 
 > Upload your app to a secured server.
 
+
 ## STEP 1. Upload your app
 
 Upload your app files to a secured server:

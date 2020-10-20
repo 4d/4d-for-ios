@@ -15,6 +15,7 @@ You can now choose pre-packaged formats from Labels & Icons in Sections.
 > *  **Boolean**: "No" or "Yes", "False" or "True"
 > *  **Integer**: Integer number, Decimal number, Real number, Percentage, Ordinal number, Currency $, Currency €, Currency ¥, Spell Out
 
+
 Let's get started by downloading the Starter Project:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">

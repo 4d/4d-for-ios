@@ -23,7 +23,6 @@ Activating the HTTPS port requires certificate installation to work properly. Yo
 > * If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.
 > * If both HTTP and HTTPS are activated, HTTP is used.
 
-
 ## Authentication
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.
@@ -91,12 +90,15 @@ Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESSION MANAGEMENT component</a>
+href="https://github.com/4d/Mobile-Session-Management/releases/latest">MOBILE SESSION MANAGEMENT component</a>
 </div>
 
+* Download and unzip the zip file
+* Go to Build / Components file and get the MOBILE SESSION MANAGEMENT.4dbase
 * Create a **Components** folder next to the 4D database with the app's data. 
 * Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
 * Restart 4D.  
+* Click on the Execute button from the toolbar
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
 * The Apps window will appear displaying all of your apps: 
 
@@ -112,14 +114,29 @@ href="../assets/en/session-management/MOBILE-SESSION-MANAGEMENT.zip">MOBILE SESS
 
 ## How it looks on a device
 
+### Settings screen
+
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Settings allows you to:
 
-* Reload data
-* Define your server URL
+* Consult your remote URL and it's state
 * Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
+### Reset remote url
+
+You can easily update your remote url from iPhone Settings :
+
+* Open your iPhone Settings
+* Select the app you want the remote url to be updated
+* Switch on the "Reset server address" option
+
+![Reset remote url](assets/en/project-editor/Reset-remote-url.png)
+
+* Then restart your app to reset the server address 
+* And finally define the new remote url
+
+![Update remote url](assets/en/project-editor/Update-remote-url.png)

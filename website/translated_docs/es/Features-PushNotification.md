@@ -49,6 +49,7 @@ $pushNotification:=MobileAppServer.PushNotification.new()
 $notification:=New object 
 $notification.title:="Este es el título" 
 $notification.body:="Este es el contenido de esta notificación" 
+
 $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```

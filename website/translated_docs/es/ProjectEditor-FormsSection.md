@@ -68,7 +68,6 @@ Por lo tanto, puede comenzar a trabajar directamente en la plantilla, ya que est
 > 
 > La galería también está disponible [en línea](https://4d-for-ios.github.io/gallery/).
 
-
 ## ¿Qué hacemos ahora?
 
 El siguiente paso consiste en elegir una plantilla que se adapte a sus necesidades, pero en caso de que falte algo, un [tutorial](gallery-template-update.html) lo ayudará a efectuar una **actualización de plantilla**.
