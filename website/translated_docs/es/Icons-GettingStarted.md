@@ -13,7 +13,7 @@ title: Utilizar los iconos
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
 
 
-4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
+4D for iOS ya ofrece una serie de iconos en la sección ** Etiquetas e iconos ** para sus tablas y campos.
 
 ![Icon library](assets/en/custom-icons/icon-library.png)
 

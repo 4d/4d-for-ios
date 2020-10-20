@@ -138,11 +138,11 @@ Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtim
 
 ![User defined runtime attributes](assets/en/custom-detailform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Start with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
+* **Key Path**: comience con bindTo para activar la unión del componente. Introduzca `bindTo.record.___FIELD_1___`
 
-* **Type**: Always `String`
+* **Type**: siempre `String`
 
-* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
+* **Value**: nombre del atributo. Introduzca `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-detailform/identity-inspector-storyboard.png)
 
@@ -152,7 +152,7 @@ Para la **primera etiqueta**, vamos a agregar varias líneas principalmente para
 
 ![Label1 User Defined Runtime Attributes](assets/en/custom-detailform/label1-user-defined-runtime-attributes.png)
 
-You also need to set the Class to `IconLabel` and check the **Inherit Module From Target** checkbox as we can see below:
+También hay que definir la Clase como `IconLabel` y verificar las casilla de selección **Inherit Module From Target** como podemos ver a continuación:
 
 ![Label1 Custom Class](assets/en/custom-detailform/label1-custom-class.png)
 
@@ -160,9 +160,9 @@ Seleccione la **segunda etiqueta** y agregue una línea en el área "Defined Run
 
 * **Key Path**: `bindTo.record.___FIELD___`
 
-* **Type**: `String`
+* **Tipo**: `Cadena`
 
-* **Value**: `___FIELD_BINDING_TYPE___`
+* **Valor**: `___FIELD_BINDING_TYPE___`
 
 ![Label2 User Defined Runtime Attributes](assets/en/custom-detailform/label2-user-defined-runtime-attributes.png)
 
