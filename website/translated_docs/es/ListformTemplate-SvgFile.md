@@ -28,8 +28,8 @@ Agregue el título de su plantilla aquí.
 
 Incluye las identificaciones que definen sus áreas de formulario:
 
-* **search ID**: Refers to the search field area. Esto le permitirá arrastrar y soltar un campo como criterio de búsqueda en su formulario Lista (opcional).
-*  **section ID**: Refers to the section field area. Esto le permitirá arrastrar y soltar un campo como criterio de ordenación en su formulario Lista (opcional).
+* **search ID**: se refiere al área del campo de búsqueda. Esto le permitirá arrastrar y soltar un campo como criterio de búsqueda en su formulario Lista (opcional).
+*  **section ID**: se refiere al área de campo de la sección. Esto le permitirá arrastrar y soltar un campo como criterio de ordenación en su formulario Lista (opcional).
 *  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. Esto le permitirá arrastrar y soltar campos para que aparezcan en las celdas de su formulario Lista.
 
 ## Posición, alto, ancho y tipo del área
