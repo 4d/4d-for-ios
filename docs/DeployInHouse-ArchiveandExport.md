@@ -4,13 +4,12 @@ title: Archive and export your Project
 ---
 
 > **OBJECTIVES**
-> 
+>
 > * Archive and export your 4D for iOS project
 > * Generate .ipa and manifest files
 
-
 > **PREREQUISITES**
-> 
+>
 > * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)
 > * A secured web server
 > * 57 x 57 px icon

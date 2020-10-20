@@ -8,9 +8,7 @@ title: １対Ｎリレーション
 
 > **注記**
 > 
-> In this tutorial, we will use the relation names between your tables.
-> 
-> ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
+> In this tutorial, we will use the relation names between your tables. ストラクチャの設定を容易にするため，リレーションには意味のある名前を設定することが勧められています。
 
 素材プロジェクトをダウンロードしてください。
 
@@ -42,7 +40,6 @@ This will now operate as any other field for the rest of the app creation proces
 > **ヒント**
 > 
 > * On mouse over, a tip displays the table name originating the relation.
-
 
 ## Labels & Icons section
 

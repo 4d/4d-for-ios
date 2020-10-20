@@ -7,11 +7,9 @@ title: 新規プロジェクト
 > 
 > Get familiar with the Project Editor.
 
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
 
 Let's take a look at how 4D for iOS works.
 

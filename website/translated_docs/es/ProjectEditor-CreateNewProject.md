@@ -7,11 +7,9 @@ title: Nuevo proyecto
 > 
 > Familiarizarse con el editor de proyectos.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-
 
 Demos un vistazo a cómo funciona 4D for iOS.
 

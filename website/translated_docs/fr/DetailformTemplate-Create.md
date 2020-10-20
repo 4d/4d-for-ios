@@ -7,11 +7,9 @@ title: Modèles de formulaires détaillés
 > 
 > Créer son tout premier modèle de formulaire Liste.
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-
 
 Dans ce tutoriel, nous vous guiderons dans la création d'un modèle de formulaire détaillé. Ce modèle affichera un **en-tête d'image** et **des champs titre et contenu** qui seront dupliqués dans l’application iOS qui sera générée.
 

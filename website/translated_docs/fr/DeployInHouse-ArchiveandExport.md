@@ -8,7 +8,6 @@ title: Archiver et exporter un projet
 > * Archiver et exporter un projet 4D for iOS
 > * Générer des fichiers .ipa et des fichiers manifest
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > * [Apple Enterprise Developer Program – $/an](register-apple-developer-enterprise-program.html)

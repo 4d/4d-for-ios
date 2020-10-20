@@ -36,11 +36,10 @@ For fields, you will be able to define the following properties:
 Those elements will be displayed in detail and list forms, depending on the template in the generated app.
 
 > **TIPS**
-> 
+>
 > * To keep everything consistent, **default icons** are generated for blank fields if at least one icon has been defined for a field. 
-> 
+>
 > * You can also leave the icon area empty if you don’t want to display icons in your application.
-
 
 ## Relations properties
 

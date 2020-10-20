@@ -23,6 +23,7 @@ La activación del puerto HTTPS requiere que la instalación del certificado fun
 > * Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
 > * Si tanto HTTP como HTTPS están activados, se utiliza HTTP.
 
+
 ## Autenticación
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.

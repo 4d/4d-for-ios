@@ -8,7 +8,6 @@ title: Create App Store record
 > * Create an App ID on your Developer Account
 > * Create your app in App Store Connect
 
-
 > **PREREQUISITES**
 > 
 > [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html)
@@ -24,7 +23,6 @@ title: Create App Store record
 > 
 > * If you have chosen an Apple Developer Account as an individual, your account is available immediately and you can create your App ID.
 > * If you have chosen an Apple Developer Account as an organization, you must wait for Apple validation to create your App ID.
-
 
 To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
@@ -87,7 +85,6 @@ This is where you define the price for your app.
 > **ヒント**
 > 
 > You can define limited-time discounts by specifying start and end dates.
-
 
 ## ⒍ Prepare for Submission
 

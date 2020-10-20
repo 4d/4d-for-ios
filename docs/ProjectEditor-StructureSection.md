@@ -21,7 +21,7 @@ Here, you can define a subset of your physical structure to replicate for mobile
 To help you define your app's structure, multiple filters and a search engine are available to make it easy to select your tables and field.
 
 > **TIPS**
-> 
+>
 > You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
 
 
@@ -69,7 +69,7 @@ All you need to do is enabling 4D for iOS to make the necessary structure adjust
 Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
 
 > **NOTE**
-> 
+>
 > These optimizations are required for both local and server databases.
 
 
@@ -82,6 +82,5 @@ In normal use, simply swipe down from any listform to reload your data.
 From iPhone settings, you can now reset your app data and find information about your app. 
 
 > **NOTE**
-> 
+>
 > As soon as the admin performs an important maintenance operation, he shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction
-

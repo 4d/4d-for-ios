@@ -15,6 +15,7 @@ Ahora puede elegir los formatos pre definidos de la sección Etiquetas e iconos.
 > * **Booleano**: ""No" o "Sí", "False" o "True"
 > * **Número entero**: número entero, número decimal, número real, porcentaje, número ordinal, moneda $, moneda €, moneda ¥, número en letras
 
+</div>
 
 Comencemos descargando el Proyecto Starter:
 

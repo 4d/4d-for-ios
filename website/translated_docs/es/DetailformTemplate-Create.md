@@ -7,11 +7,9 @@ title: Plantillas de formularios detallados
 > 
 > Crear su primera plantilla de formulario listado.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-
 
 En este tutorial, lo guiaremos en la creación de varios ejemplos de plantilla de formulario detallado. Se mostrará un **encabezado de imagen **, así como también **los campos de título y contenido** que se duplicarán en la aplicación iOS generada.
 

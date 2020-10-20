@@ -8,9 +8,7 @@ This tutorial will show you how easy it can be to include One to Many relations 
 
 > **HINWEIS**
 > 
-> In this tutorial, we will use the relation names between your tables.
-> 
-> Giving descriptive relation names can make your project structure definition easier.
+> In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.
 
 Let's get started by downloading the Starter Project:
 
@@ -42,7 +40,6 @@ This will now operate as any other field for the rest of the app creation proces
 > **TIPS**
 > 
 > * On mouse over, a tip displays the table name originating the relation.
-
 
 ## Labels & Icons section
 

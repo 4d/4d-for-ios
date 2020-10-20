@@ -6,7 +6,6 @@ title: Recherche restreinte
 > **OBJECTIFS**
 > 
 > Définir des filtres de recherche fondés sur des informations utilisateur ou des informations basiques pour afficher un contenu filtré dans l’application iOS générée.
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
@@ -35,7 +34,6 @@ La base de données contient :
 > **NOTE**
 > 
 > Ce projet utilise des [modèles personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), des [icônes personnalisées](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) et des [formats de données personnalisés](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
-
 
 Vous êtes maintenant prêt à définir votre première requête limitée !
 

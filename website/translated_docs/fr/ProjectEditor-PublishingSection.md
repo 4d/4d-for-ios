@@ -23,6 +23,7 @@ L'activation du port HTTPS nécessite une installation certifiée pour fonctionn
 > * Si l’URL de production est défini, HTTP et HTTPS sont acceptés. Dans le cas contraire, c'est l'adresse IP qui est utilisée.
 > * Si HTTP et HTTPS sont tous les deux activés, c'est HTTP qui est utilisé.
 
+
 ## Authentification
 
 * **Utilisateur autorisé :** Cochez l'option **Connexion requise** pour afficher l'écran de connexion au démarrage de l'application.
