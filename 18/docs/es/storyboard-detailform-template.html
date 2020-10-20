@@ -144,21 +144,21 @@
 <p>Seleccione su Vista imagen y vaya a <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Haga clic en el <strong>botón +</strong> para añadir una línea.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/user-defined-runtime-attributes.png" alt="User defined runtime attributes"></p>
 <ul>
-<li><p><strong>Key Path</strong>: Start with bindTo to activate binding on the component. Enter <code>bindTo.record.___FIELD_1___</code></p></li>
-<li><p><strong>Type</strong>: Always <code>String</code></p></li>
-<li><p><strong>Value</strong>: The attribute name. Enter <code>___FIELD_1_BINDING_TYPE___</code></p></li>
+<li><p><strong>Key Path</strong>: comience con bindTo para activar la unión del componente. Introduzca <code>bindTo.record.___FIELD_1___</code></p></li>
+<li><p><strong>Type</strong>: siempre <code>String</code></p></li>
+<li><p><strong>Value</strong>: nombre del atributo. Introduzca <code>___FIELD_1_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/identity-inspector-storyboard.png" alt="Identity inspector storyboard"></p>
 <h3><a class="anchor" aria-hidden="true" id="etiquetas"></a><a href="#etiquetas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiquetas</h3>
 <p>Para la <strong>primera etiqueta</strong>, vamos a agregar varias líneas principalmente para mostrar iconos:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label1-user-defined-runtime-attributes.png" alt="Label1 User Defined Runtime Attributes"></p>
-<p>You also need to set the Class to <code>IconLabel</code> and check the <strong>Inherit Module From Target</strong> checkbox as we can see below:</p>
+<p>También hay que definir la Clase como <code>IconLabel</code> y verificar las casilla de selección <strong>Inherit Module From Target</strong> como podemos ver a continuación:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label1-custom-class.png" alt="Label1 Custom Class"></p>
 <p>Seleccione la <strong>segunda etiqueta</strong> y agregue una línea en el área &quot;Defined Runtime Attributes&quot;:</p>
 <ul>
 <li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD___</code></p></li>
-<li><p><strong>Type</strong>: <code>String</code></p></li>
-<li><p><strong>Value</strong>: <code>___FIELD_BINDING_TYPE___</code></p></li>
+<li><p><strong>Tipo</strong>: <code>Cadena</code></p></li>
+<li><p><strong>Valor</strong>: <code>___FIELD_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/18/docs/assets/en/custom-detailform/label2-user-defined-runtime-attributes.png" alt="Label2 User Defined Runtime Attributes"></p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-las-tags-a-las-celdas-a-duplicar"></a><a href="#añadir-las-tags-a-las-celdas-a-duplicar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las TAGS a las celdas a duplicar</h2>
