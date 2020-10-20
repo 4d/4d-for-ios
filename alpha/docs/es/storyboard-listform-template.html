@@ -88,7 +88,7 @@
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/empty-storyboard-custom-template.png" alt="Empty storyboard custom template"></p>
 <p>Está bastante vacío, así que vamos a agregar algo de contenido.</p>
 <h2><a class="anchor" aria-hidden="true" id="añadir-una-image-view"></a><a href="#añadir-una-image-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir una &quot;Image View&quot;</h2>
-<p>From the <strong>Object library</strong>, drag and drop an  <strong>Image View</strong> into a cell. Puede buscar una &quot;Image View&quot; en la barra de búsqueda en la parte inferior de la librería de objetos.</p>
+<p>Desde la <strong>Object library</strong> (la librería de objetos), arrastre y suelte una <strong>Image View</strong> (una vista de imagen) en una celda. Puede buscar una &quot;Image View&quot; en la barra de búsqueda en la parte inferior de la librería de objetos.</p>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/add-imageview-storyboard.png" alt="Add Image View storyboard"></p>
 <p>From the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set the Image View Width value to 110 and the Height value to 110. Luego, defina el valor de X en 8 y el valor de Y en 3.</p>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/imageview-position-height-width.png" alt="Image View position height and width"></p>
@@ -137,23 +137,23 @@
 <p>Seleccione su Vista imagen y vaya a <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Haga clic en el <strong>botón +</strong> para añadir una línea.</p>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/user-defined-runtime-attributes.png" alt="User defined runtime attributes"></p>
 <ul>
-<li><p><strong>Key Path</strong>: Begin with bindTo to activate binding on the component. Enter <code>bindTo.record.___FIELD_1___</code></p></li>
-<li><p><strong>Type</strong>: Always <code>String</code></p></li>
-<li><p><strong>Value</strong>: The attribute name. Enter <code>___FIELD_1_BINDING_TYPE___</code></p></li>
+<li><p><strong>Key Path</strong>: Begin with bindTo to activate binding on the component. Introduzca <code>bindTo.record.___FIELD_1___</code></p></li>
+<li><p><strong>Type</strong>: siempre <code>String</code></p></li>
+<li><p><strong>Value</strong>: nombre del atributo. Introduzca <code>___FIELD_1_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/identity-inspector-storyboard.png" alt="Identity inspector storyboard"></p>
 <h3><a class="anchor" aria-hidden="true" id="etiquetas"></a><a href="#etiquetas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiquetas</h3>
 <p>Seleccione la primera etiqueta y agregue una línea en el área &quot;Defined Runtime Attributes&quot;:</p>
 <ul>
 <li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_2___</code></p></li>
-<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Tipo</strong>: <code>Cadena</code></p></li>
 <li><p><strong>Value</strong>: <code>___FIELD_2_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/field-2-binding.png" alt="Field 2 Binding"></p>
 <p>Seleccione la segunda etiqueta y agregue una línea en el área &quot;Defined Runtime Attributes&quot;:</p>
 <ul>
 <li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_3___</code></p></li>
-<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Tipo</strong>: <code>Cadena</code></p></li>
 <li><p><strong>Value</strong>: <code>___FIELD_3_BINDING_TYPE___</code></p></li>
 </ul>
 <p><img src="/4d-for-ios/alpha/docs/assets/en/custom-listform/field-3-binding.png" alt="Field 3 Binding"></p>
