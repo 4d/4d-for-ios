@@ -25,7 +25,7 @@ Está bastante vacío, así que vamos a agregar algo de contenido.
 
 ## Añadir una "Image View"
 
-From the **Object library**, drag and drop an  **Image View** into a cell. Puede buscar una "Image View" en la barra de búsqueda en la parte inferior de la librería de objetos.
+Desde la **Object library** (la librería de objetos), arrastre y suelte una **Image View** (una vista de imagen) en una celda. Puede buscar una "Image View" en la barra de búsqueda en la parte inferior de la librería de objetos.
 
 ![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
@@ -109,7 +109,6 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 > 
 > ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
-
 ## Cómo obtener datos en sus celdas
 
 ### Image View
@@ -117,11 +116,11 @@ Seleccione su Vista imagen y vaya a **Identity inspector** > User Defined Runtim
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
+* **Key Path**: Begin with bindTo to activate binding on the component. Introduzca `bindTo.record.___FIELD_1___`
 
-* **Type**: Always `String`
+* **Type**: siempre `String`
 
-* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
+* **Value**: nombre del atributo. Introduzca `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
@@ -131,7 +130,7 @@ Seleccione la primera etiqueta y agregue una línea en el área "Defined Runtime
 
 * **Key Path**: `bindTo.record.___FIELD_2___`
 
-* **Type**: `String`
+* **Tipo**: `Cadena`
 
 * **Value**: `___FIELD_2_BINDING_TYPE___`
 
@@ -141,7 +140,7 @@ Seleccione la segunda etiqueta y agregue una línea en el área "Defined Runtime
 
 * **Key Path**: `bindTo.record.___FIELD_3___`
 
-* **Type**: `String`
+* **Tipo**: `Cadena`
 
 * **Value**: `___FIELD_3_BINDING_TYPE___`
 
@@ -192,7 +191,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">PLANTILLA FINAL DE FORMULARIO LISTADO PERSONALIZADO</a>
 </div>
 
 

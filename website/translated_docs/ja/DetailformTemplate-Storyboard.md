@@ -266,7 +266,7 @@ Field View 2を選択し，下記のように設定します。
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">カスタム詳細画面の完成テンプレート</a>
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">カスタム詳細画面の完成テンプレート</a>
 </div>
 
 

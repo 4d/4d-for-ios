@@ -8,7 +8,6 @@ title: Búsqueda multicriterios
 > 
 > Active la búsqueda de criterios múltiples en sus propias plantillas.
 
-
 Esta funcionalidad se activa por defecto en todas las plantillas generadas para 4D for iOS.
 
 ## Archivo Template svg

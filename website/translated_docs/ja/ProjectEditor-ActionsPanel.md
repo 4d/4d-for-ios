@@ -217,6 +217,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 > 
 > Actions will be displayed in the same order as defined in the Action section.
 
+
 ### Collection List forms
 
 * **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.

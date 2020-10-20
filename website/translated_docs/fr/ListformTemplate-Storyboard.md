@@ -109,7 +109,6 @@ Pour finaliser les personnalisations, sélectionnez les deux libellés et, dans 
 > 
 > ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
-
 ## Comment entrer des données dans vos cellules
 
 ### Image View
@@ -192,7 +191,7 @@ Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 </div>
 
 

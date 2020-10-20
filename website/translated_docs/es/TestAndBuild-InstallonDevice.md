@@ -9,15 +9,14 @@ title: Instalación en su dispositivo iOS
 
 
 > **REQUISITOS PREVIOS**
-> 
-> * Apple Developer Program.
-> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).
+
+* Apple Developer Program.
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac para automatizar la instalación de la aplicación (opcional).
 
 
 > **NOTA**
 > 
-> Apple configurator 2 requires **macOS 10.14** or later.
-
+> Apple configurator 2 necesita **macOS 10.14** o superior.
 
 Depending on your objectives and preferences, you can choose to enroll in one of the following:
 

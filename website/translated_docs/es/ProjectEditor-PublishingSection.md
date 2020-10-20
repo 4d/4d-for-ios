@@ -23,7 +23,6 @@ La activación del puerto HTTPS requiere que la instalación del certificado fun
 > * Si se define la URL de producción, se aceptan HTTP y HTTPS. De lo contrario, se utiliza la dirección IP.
 > * Si tanto HTTP como HTTPS están activados, se utiliza HTTP.
 
-
 ## Autenticación
 
 * **Authorized User:** Check the **Login required** option to display a login form when the app starts.
@@ -115,14 +114,29 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 
 ## Cómo se ve en un dispositivo
 
+### Pantalla de configuración
+
 Una pantalla de configuración está disponible en la barra de pestañas. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Los parámetros le permiten:
 
-* Recargar datos
-* Defini su URL de servidor
+* Consulte su URL remota y su estado
 * Cerrar sesión (si está conectado como usuario autorizado)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
+### Redefinir la URL remota
+
+Puede actualizar fácilmente su url remota desde la configuración del iPhone:
+
+* Abra la configuración de su iPhone
+* Seleccione la aplicación para la cual desea que se actualice la URL remota
+* Active la opción "Reinicializar la dirección del servidor"
+
+![Redefinir la URL remota](assets/en/project-editor/Reset-remote-url.png)
+
+* Luego reinicie su aplicación para restablecer la dirección del servidor
+* Y finalmente defina la nueva URL remota
+
+![Actualizar la URL remota](assets/en/project-editor/Update-remote-url.png)

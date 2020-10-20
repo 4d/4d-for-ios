@@ -7,7 +7,6 @@ title: Apple Developer Program as an Individual
 > 
 > Register for the Apple Developer Enterprise Program as an individual to deploy your app in-house.
 
-
 ## ⒈ Apple ID
 
 まだApple IDを持っていないのであれば，[⒉](#step-2-create-your-apple-id)に進んでください。

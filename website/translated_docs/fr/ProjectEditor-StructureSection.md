@@ -81,7 +81,6 @@ En utilisation normale, glissez simplement vers le bas n’importe quel formulai
 
 À partir des réglages de l’iPhone, vous pouvez désormais réinitialiser les données de votre application et trouver des informations concernant votre application.
 
-
 > **NOTE**
 > 
 > Dès que l'administrateur effectue une importante opération de maintenance, il/elle devra signaler aux utilisateurs de 4D for iOS qu'un rechargement complet est requis : Recover by tag / Restoration / Compaction

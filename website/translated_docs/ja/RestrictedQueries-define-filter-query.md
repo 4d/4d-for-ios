@@ -26,7 +26,6 @@ As we discussed earlier, we want the account managers to access their *In Progre
 > * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
 > * Size will be calculated at the first build for you to visualize the **size of your data**.
 
-
 If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
 
 ![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)

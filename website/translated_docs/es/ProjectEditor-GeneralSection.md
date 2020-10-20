@@ -17,7 +17,6 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 > 
 > Los enlaces de ayuda están disponibles para los campos Nombre e Identificador.
 
-
 **Product name:** Your app’s name. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». Este Bundle ID debe ser el mismo que el ID de paquete que crea en su cuenta de desarrollo de Apple.
 
 **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
@@ -30,6 +29,7 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 > 
 > * Si ya tiene un icono para su aplicación de escritorio, puede arrastrarlo y soltarlo directamente en el área del icono.
 > * **Aquí está el truco:** 4D for iOS determina automáticamente el color dominante del icono de su aplicación y lo utiliza para generar un esquema de color personalizado para su aplicación!
+
 
 **Developer:** This field is automatically filled with your user account name.
 

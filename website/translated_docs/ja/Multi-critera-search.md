@@ -8,7 +8,6 @@ title: 検索エリアに複数のフィールドを設定する
 > 
 > Activate the multi-criteria search in your own templates.
 
-
 This feature is activated by default in all 4D for iOS-generated templates.
 
 ## SVGファイルを編集する

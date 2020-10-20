@@ -77,7 +77,6 @@ At this point, all the profile picture constraints should be blue.
 > 
 > * You can delete constraints by either selecting them from the Size inspector or from the Interface Builder.
 
-
 ## ⒋ Update label positions and constraints
 
 #### Now, let's work on the First Name label.

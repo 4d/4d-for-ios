@@ -8,7 +8,6 @@ title: Multi-criteria search
 > 
 > Activate the multi-criteria search in your own templates.
 
-
 This feature is activated by default in all 4D for iOS-generated templates.
 
 ## Template svg file

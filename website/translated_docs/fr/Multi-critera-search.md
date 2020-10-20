@@ -8,7 +8,6 @@ title: Recherche multicritères
 > 
 > Activer la recherche multicritères dans vos propres modèles.
 
-
 Cette fonctionnalité est activée par défaut dans tous les modèles générés par 4D for iOS.
 
 ## Fichier Template svg

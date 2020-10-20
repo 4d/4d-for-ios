@@ -217,6 +217,7 @@ In your iOS app, actions are available in different ways in your List and Detail
 > 
 > As ações serão exibidas na mesma ordem como definida na seção Ação.
 
+
 ### Formulários Lista coleção
 
 * **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.

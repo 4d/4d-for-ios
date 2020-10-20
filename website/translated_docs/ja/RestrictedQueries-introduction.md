@@ -7,7 +7,6 @@ title: クエリフィルター
 > 
 > Defining basic and user information-based query filters to display filtered content in the generated iOS app.
 
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
@@ -36,6 +35,7 @@ The database includes a:
 > **注記**
 > 
 > This project uses [custom templates](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [custom icons](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) and custom [data formatters](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html).
+
 
 You're now ready to define your first restricted query!
 

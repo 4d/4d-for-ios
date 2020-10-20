@@ -12,7 +12,6 @@ Grâce à ce tutoriel, vous pourrez facilement inclure des liens 1 vers N dans 4
 > 
 > En attribuant des noms de liens descriptifs, vous simplifierez la structure de votre projet.
 
-
 Commençons par télécharger le Projet Starter :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
@@ -43,6 +42,7 @@ Il aura le même fonctionnement que n’importe quel autre champ pour la suite d
 > **ASTUCES**
 > 
 > * En survolant un élément, une astuce affiche le nom de la table source (qui est à l'origine) du lien.
+
 
 ## Section Libellés & icônes
 

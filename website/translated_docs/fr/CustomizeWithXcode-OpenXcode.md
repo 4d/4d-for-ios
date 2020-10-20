@@ -8,7 +8,6 @@ title: Travailler avec Xcode
 > * Ouvrir un projet 4D for iOS depuis l’éditeur de projet.
 > * Personnaliser l’application 4D for iOS qui est générée.
 
-
 4D for iOS vous génère une application iOS native modifiable et personnalisable avec Xcode. Jetons un œil au processus !
 
 > **NOTE**

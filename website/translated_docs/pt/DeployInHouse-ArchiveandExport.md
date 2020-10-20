@@ -9,7 +9,7 @@ title: Arquive e exporte seu Projeto
 > * Gerar .ipa e manifestar arquivos
 
 
-> > **PRÉ-REQUISITOS**
+> **PRÉ-REQUISITOS**
 > 
 > * [Programa Apple Enterprise Developer](register-apple-developer-enterprise-program.html)
 > * Um servidor web seguro

@@ -217,6 +217,7 @@ Dans votre application iOS, des actions sont disponibles sous différentes forme
 > 
 > Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.
 
+
 ### Formulaires Liste en collection
 
 * **Action d'entité :** Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.

@@ -8,7 +8,6 @@ title: Working with Xcode
 > * Open a 4D for iOS project from the Project Editor.
 > * Customize the generated 4D for iOS app.
 
-
 4D for iOS generates a native iOS app for you which you can modify and customize with Xcode. Let's take a look at the process!
 
 > **NOTE**

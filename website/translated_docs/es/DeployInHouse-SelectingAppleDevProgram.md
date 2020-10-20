@@ -7,7 +7,6 @@ title: Seleccionar un Apple Developer Program
 > 
 > Elegir el Apple Developer Program apropiado.
 
-
 Debe tener una cuenta de desarrollador Apple válida para **distribuir una aplicación iOS**. Apple ofrece dos programas para desarrolladores:
 
 * [Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [para los particulares](register-apple-developer-program-individual.html)
