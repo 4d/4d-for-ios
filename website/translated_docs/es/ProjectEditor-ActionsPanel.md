@@ -224,7 +224,7 @@ En su aplicación iOS, las acciones están disponibles de diferentes formas en s
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Acciones de tabla:** como para los formularios Lista en tablas, hay un botón de acciones genérico disponible en la barra de navegación para mostrar una lista de acciones de tabla.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -236,16 +236,16 @@ Como para las acciones de tabla en los formularios detallados, un botón de acci
 
 ### Formularios de edición
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si ha creado una acción de edición o de adición, tan pronto como la seleccione de la lista de acciones, aparecerá un **formulario de edición**.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
 Desde acá, puede:
 
 * editar todos sus campos seleccionándolos y
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* validar o cancelar sus modificaciones con los botones **Listo** o **Cancelar** (disponibles en la barra de navegación).
 
-For your convenience, the Edition form includes a few **special features**:
+Para su comodidad, el formulario de Edición incluye algunas **funcionalidades especiales**:
 
 * El tipo de teclado depende del tipo de parámetro seleccionado en la sección Actions.
 * Puede ir al campo siguiente o anterior utilizando la flecha en la parte superior del teclado.
@@ -255,8 +255,8 @@ For your convenience, the Edition form includes a few **special features**:
 
 ## ¿Qué hacemos ahora?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutorial](actions-getting-started.html) está disponible para guiarlo a través del **proceso de definición de una acción**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Otro [tutorial](action-custom-template.html) lo guiará para integrar los **TAG de acción** en las plantillas personalizadas.
 
 * Un [tutorial](action-parameters.html) final lo guiará a lo largo del proceso **definición de los parámetros de una acción**.
