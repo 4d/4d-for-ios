@@ -18,27 +18,27 @@ Comencemos descargando el Proyecto Starter:
 href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N A UNO</a>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación generada. Para ello, abra el **StarteriOSProject** desde **Open > Mobile Project...**
 
-Then go right to your Structure section and select the **Task table**.
+Luego diríjase a la sección Structure y seleccione la **tabla Task **.
 
 ### Sección Structure
 
-* You can notice that the **TaskCategory relation** is underlined
+* Puede constatar que el **enlace TaskCategory** está subrayado
 
 * Al hacer clic en él, se mostrarán los campos disponibles a través de esta relación
 
-* Select the **Name field**
+* Seleccione el **campo Name**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
 * Este campo funcionará como cualquier otro campo durante el resto del proceso de creación de la aplicación
 
-* También puede filtrar el contenido de su aplicación utilizando campos relacionados, de la sección Datos. To do so enter `TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
+* También puede filtrar el contenido de su aplicación utilizando campos relacionados, de la sección Datos. Para ello, introduzca `TaskCategory.Name != 'Personal'` en el campo de consulta Filtro para excluir las tareas personales.
 
  ![Related field in Forms section](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Luego puede seleccionar un **ícono** y los **formatos** y definir las **etiquetas cortas y largas** en la sección Etiquetas e iconos
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 
