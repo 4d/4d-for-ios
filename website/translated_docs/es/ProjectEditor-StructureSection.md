@@ -29,7 +29,7 @@ Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un
 
 ### Tratar las relaciones de Uno a Muchos desde el editor del proyecto
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Ahora, en versiones recientes de 4D, puede tratar con **Relaciones Uno a Muchos** y mostrar una lista de campos relacionados en una página nueva.
 
 Todo lo que tiene que hacer es:
 
@@ -61,8 +61,8 @@ En 4D 17 R5, la recarga de 4D for iOS se vuelve incremental. Esto significa que 
 
 Para hacerlo, 4D for iOS debe optimizar la estructura y crear:
 
-* A `__DeletedRecords` table to store deleted records
-* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
+* Una tabla `__DeletedRecords` para almacenar los registros borrados
+* y campos `__GlobalStamp` para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
 
 Todo lo que necesita hacer es permitir que 4D for iOS realice los ajustes de estructura necesarios para una actualización optimizada de datos móviles.
 
