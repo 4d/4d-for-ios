@@ -69,7 +69,7 @@ En la sección Etiquetas e iconos definirá:
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
-And voila, this is how One to Many relations work in 4D for iOS !
+Y listo, así es como funcionan las relaciones Uno a Muchos en 4D for iOS.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
