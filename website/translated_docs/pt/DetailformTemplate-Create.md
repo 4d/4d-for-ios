@@ -19,7 +19,7 @@ In this tutorial, we'll guide you through the creation of a detail form template
 
 ## Baixe o Starter Project
 
-To begin, download the **Starter Project**, which includes:
+Para começar, baixe o **Starter Project**, que inclui:
 
 * A **Custom Detail form** folder (custom Detail form template folder)
 * A **Contact.4dbase** file (Contact demo database with a ready to use mobile app project)
