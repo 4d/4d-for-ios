@@ -163,24 +163,24 @@ Vamos olhar o conteúdo do arquivo de**manifest.json **:
 
 ## Abrir projeto móvel
 
-Open the Task Management.4dbase with 4D and go to File > open > Mobile Project... to open the **Tasks**
+Abra Task Management.4dbase com 4D e vá para File > abra > Mobile Project... para abrir **Tasks**
 
-Next, go to the **Labels & Icons section** in the project editor. All of your formatters are available for the different field types you  previously defined in the different formatter manifest.json files:
+Agora, vá para a seção **Labels & Icons** no editor de projetos. Todos os formatadores estão disponíveis para os tipos de campo diferentes que você definiu previamente nos arquivos manifest.json de diferentes  formatadores:
 
-* Select the **integerToString** formatter for the **Job field**
-* Select the **textToString** formatter for the **Country field**
-* Select the **integerToImage** formatter for the **Task Status**
-* Select the **textToImage** formatter for the **Manager**
+* Selecione o formatador de**integerToString ** para o **campo Job**
+* Selecione o formatador de** textToString** para o **campo Country**
+* Selecione o formatador ** integerToImage** para o **Task Status**
+* Selecione o formatador ** textToImage** para o **Manager**
 
 ![Text formatter](assets/en/custom-formatter/formatters-icons-&-labels.png)
 
 ## Construa seu app 4D for iOS
 
-Build your 4D of iOS app and you'll see that your data formatter is well applied depending on the credit limit.
+Construa seu app 4D for iOS e você verá que o formatador de dados é bem aplicado dependendo do limite de crédito.
 
 ![Text formatter](assets/en/custom-formatter/formatters-final-result.png)
 
-Click on **FORMATTER FINAL** below to download the completed formatter template folder.
+Clique em **FORMATADOR FINAL** abaixo para baixar a pasta de modelo formatador concluído.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
