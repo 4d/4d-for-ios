@@ -10,49 +10,49 @@ title: Arquive e atualize seu Projeto
 ## PASSO 1. Configuração Xcode
 * Se escolher uma Conta de Desenvolvedor Apple como um indivíduo, sua conta está disponível imediatamente.
 * Se escolher uma Conta Desenvolvedor Apple como uma organização, tem que esperar pela validação Apple.
-* When your account is accessible, add it to Xcode in Preferences > Accounts.
+* Quando puder acessar sua conta, adicione-a a Xcode em Preferências > Accounts.
 * Xcode vai instalar automaticamente o provisionamento e certificados necessários.
 
-## PASSO 2. Obtenha uma ID de Time
+## PASSO 2. Obtenha uma ID de Equipe
 
-* Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time.
+* Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time ou Equipe.
 
-![Obtenha uma ID de Time](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenha uma ID de Equipe](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## PASSO 3. 4D for iOS configuration
+## PASSO 3. Configure 4D for iOS
 
 * Abra 4D for iOS
 * Na aba SECTIONS:
 
-**General: Enter your Team ID**
+**Geral: Entre sua Team ID**
 
 ![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publishing: Enter your production URL**
+**Publicação: introduça sua URL de produção**
 
-(HTTPS is mandatory for deployment).
+(HTTPS é obrigatório para o lançamento).
 
 ![Publicação](assets/en/deploy-app-store/Publishing.png)
 
 * Na aba BUILD:
 
-**Build and Run: Build your Project**
+**Criar e executar: crie seu projeto**
 
 ![BuildTab](assets/en/deploy-app-store/BuildTab.png)
 
 ## PASSO 4. Abra seu projeto com Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* Desde a aba BUILD do editor de projetos de 4D for iOS, clique no Projeto > Abrir o projeto com Xcode
 
 ![Abra seu projeto com Xcode](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
 ## PASSO 5. Arquive seu projeto com Xcode
 
-* From Xcode go to the simulator Menu and select **Generic iOS Device**.
+* Desde Xcode, vá ao menu do simulador e selecione **Generic iOS Device**.
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Desde o menu, clique em  Product e selecione **Archive**
 
 ![Arquive seu projeto com Xcode](assets/en/deploy-in-house/Archive-your-Project.png)
 
@@ -60,7 +60,7 @@ title: Arquive e atualize seu Projeto
 
 * No final do processo de arquivo, aparece a janela do Organizador com o arquivo que acaba de criar.
 
-* Click on the **Validate** button to start the validation process.
+* clique no botão **Validate** para iniciar o processo de validação.
 
 ![Valide seu projeto](assets/en/deploy-app-store/Organizer-Project-Validation.png)
 
@@ -68,7 +68,7 @@ title: Arquive e atualize seu Projeto
 
 ![App Store distribution options](assets/en/deploy-app-store/App-Store-Distribution-options.png)
 
-* Then you need to re-sign your app. Let Xcode manage this by  checking the **Automatically manage signing** option.
+* Então deve voltar a assinar sua aplicação. Deixe que Xcode administre isso marcando a opção **Automaticamente gerencie assinaturas**.
 
 ![Re-sign your app](assets/en/deploy-app-store/Re-sign-your-App.png)
 
