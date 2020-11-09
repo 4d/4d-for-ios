@@ -23,13 +23,13 @@ Following validation of your account by Apple, open Xcode and add your Apple Ent
 
 Xcode will automatically install required provisioning and certificates.
 
-## PASSO 2. Obtenha uma ID de Time
+## PASSO 2. Obtenha uma ID de Equipe
 
-* Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time.
+* Registre-se na sua Conta de Desenvolvedor Apple. Lá pode achar sua ID de membro de um Time ou Equipe.
 
-![Obtenha uma ID de Time](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![Obtenha uma ID de Equipe](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## PASSO 3. 4D for iOS configuration
+## PASSO 3. Configure 4D for iOS
 
 * Abra 4D for iOS
 
@@ -46,7 +46,7 @@ Xcode will automatically install required provisioning and certificates.
 
 ## PASSO 4. Abra seu projeto com Xcode
 
-* From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
+* Desde a aba BUILD do editor de projetos de 4D for iOS, clique no Projeto > Abrir o projeto com Xcode
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
@@ -56,7 +56,7 @@ Xcode will automatically install required provisioning and certificates.
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
-* Then from the menu, click on Product and select **Archive**
+* Desde o menu, clique em  Product e selecione **Archive**
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
