@@ -1,11 +1,11 @@
 ---
-id: authentication
-title: Email authentication
+id: autenticação
+title: Autenticação com email
 ---
 
 > **OBJETIVOS**
 > 
-> Integrate email confirmation to authenticate mobile app users
+> Integre a confirmação por correio eletrônico para autenticar aos usuários da aplicação móvel
 
 
 > **PRÉ-REQUISITOS**
@@ -19,22 +19,22 @@ It provides a way to verify that an email comes from whom it claims to be from a
 
 How it works:
 
-### 1. Activate the login form
+### 1. Ativar o formulário de login
 
 Integrate a login form into your app from the project editor, in the Publishing section.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
-### 2. Enter your email address
+### 2. Ingresse seu endereço de correio eletrônico
 
 An email address is required when the app is launched. When a user enters their email and clicks on the **Login** button, the **On Mobile app Authentication** method is called and the user's session status is updated to a "pending" status. A validation email is then sent to the user's email address.
 
-### 3. Check your mailbox
+### 3. Revise seu correio
 
 When the validation email is received, the user only needs to click on the validation link. This will call the **On Web Connection database** method and update the user's session status from "pending" to "accepted".
 
-### 4. Go back to your app
+### 4. Volta a sua aplicação
 
 Once validation is completed, the user can reopen their app and click on the **Login** button. The **On Mobile App Authentication** method is called again, but this time the user's session status is "accepted", so access is granted!
 
