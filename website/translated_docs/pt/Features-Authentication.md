@@ -1,44 +1,44 @@
 ---
-id: authentication
-title: Email authentication
+id: autenticação
+title: Autenticação com email
 ---
 
 > **OBJETIVOS**
 > 
-> Integrate email confirmation to authenticate mobile app users
+> Integre a confirmação por correio eletrônico para autenticar aos usuários da aplicação móvel
 
 > **PRÉ-REQUISITOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
+> O componente  [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite a autenticação por correio está integrado em 4D mono usuário e 4D server 18R4.
 
-Let your customers and clients feel comfortable logging into their app using the email authentication!
+Deixe que seus clientes e clientes se sintam cômodos iniciando sessão em sua aplicação utilizando a autenticação de correio eletrônico!
 
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
+Oferece uma forma de verificar que um correio eletrônico provém realmente da pessoa que diz ser e permite bloquear emails fraudulentos ou perigosos.
 
-In short, the principle is the following:
+Em resumo, o princípio é o seguinte:
 
-### 1. Activate the login form
+### 1. Ativar o formulário de login
 
-You integrate a login form into your app, from the project editor in the Publishing section.
+Integre um formulário de conexão (login) em sua aplicação, desde o editor de projeto na seção Publicação.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
-### 2. Enter your email address
+### 2. Ingresse seu endereço de correio eletrônico
 
-An email is required when the app is launched. When a user enters their email and clicks on the Login button, the On Mobile app Authentication is called and the user's session status should be updated to a "pending" status. A validation email is then sent to the user.
+Um email é necessário quando a aplicação for lançada. Quando um usuário ingressar seu correio eletrônico e clicar no botão Iniciar sessão, é chamada On Mobile app Authentication e o estado da sessão do usuário deve ser atualizada a um estado "pendente". Depois, é enviado um correio eletrônico de validação ao usuário.
 
-### 3. Check your mailbox
+### 3. Revise seu correio
 
-When the validation email is available, the user only needs to click on the validation link. This will call the On Web Connection database method and update the user's session status from "pending" to "accepted".
+Quando o correio eletrônico de validação estiver disponível, o usuário só deve clicar no link de validação. Isso chamará ao método de banco de dados On Web Connection e atualizará o estado da sessão de usuário de "pendente" a "aceito".
 
-### 4. Go back to your app
+### 4. Volta a sua aplicação
 
-Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted", so the access is granted!
+Quando a validação estiver pronta, o usuário pode voltar a abrir sua aplicação e clicar no botão Iniciar sessão. On Mobile App Authentication é chamado de novo, mas dessa vez o estado da sessão de usuário é  "aceito", e assim é concedido acesso.
 
-That’s quite simple, right?
+Bem simples, não?
 
-So, to make the validation process easier and secure, 4D for iOS handles:
+Então, para fazer com que o processo de validação seja mais fácil e seguro, 4D for iOS o maneja
 
 ![Autenticação](assets/en/authentication/4D-for-iOS-email-auth.png)
 
