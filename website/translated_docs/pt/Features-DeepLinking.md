@@ -5,11 +5,11 @@ title: Deep Linking
 
 > **OBJETIVOS**
 > 
-> Share iOS app content using Deep Linking.
+> Compartilhar o conteúdo da aplicação iOS utilizando Deep Linking.
 
-4D v18 R5 includes a new great feature! You're now able to share the content that you're currently viewing with all of your collegues. How does it work?
+4D v18 R5 inclui uma nova e importante funcionalidade! Agora é possível compartilhar o conteúdo que está vendo com todos os seus colegas. Como isso funciona?
 
-Here's an illustration demonstrating deep linking:
+Aqui há uma ilustração que resume o "deep linking":
 
 ![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
