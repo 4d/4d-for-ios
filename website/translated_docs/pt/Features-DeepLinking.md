@@ -100,28 +100,28 @@ Os Universal links oferecem vários benefícios chave que não estão disponíve
 
 * **Unique**: Diferente de schemes personalizados de  URL , links universais não podem ser reclamadas por outros apps porque usam links padrão  HTTP ou HTTPS para seu website.
 
-* **Secure**: When users install your app, iOS verifies that your website allows your app to open URLs on its behalf. Only you can create and upload the file granting this permission to your web server, so the association of your website with your app is secure.
+* **Secure**: quando os usuários instalam sua aplicação, iOS verifica que seu site web permita que sua aplicação abra URLs em seu nome. Só você pode criar e subir o arquivo que outorga esta permissão a seu servidor web, pelo que a associação de seu website com sua aplicação seja segura.
 
-* **Flexible**: Universal links work even when your app is not installed. In this case, tapping a link to your website opens the content in Safari.
+* **Flexible**: os links universais funcionam mesmo quando sua aplicação não estiver instalada. Neste caso, ao pressionar um link a seu site web se abre o conteúdo em Safari.
 
-* **Simple**: A single URL works for both your website and your app.
+* **Simple**: uma única URL funciona tanto para seu site web quanto para sua aplicação.
 
-* **Private**: Other apps can communicate with your app without needing to know if your app is installed.
+* **Private**: outras aplicações podem se comunicar com sua aplicação sem necessidade de saber se sua aplicação estiver instalada.
 
-## UNIVERSAL LINKS IN THE PROJECT EDITOR
+## UNIVERSAL LINKS NO EDITOR DE PROJETOS
 
-To include Universal links into your app, the process is quite similiar to the URL Schemes process:
+Para incluir os links universais em sua aplicação, o processo é bastante similar ao processo dos esquemas URL:
 
 1. Selecione  a ação predefinida **Share** da seção **Action** e selecione o alcance:
-    *   entity - to share a content from a detail form
+    *   entidad - para compartilhar um conteúdo de um formulário detalhado
     *   tabela - para compartilhar um formulário lista
-2. Activate the **Deep Linking** feature in the **Publishing** section in the project editor
-3. Enter your website URL in the **Universal links** field
+2. Ativar a funcionalidade **Deep Linking** na seção **Publishing** no editor de projetos
+3. Introduza a URL de seu site web no campo **Universal links**
 4. Preencha seu método **On Mobile App Action**
 5. Criação da aplicação
-6. Trigger universal inks from the the **On Web Connection** method.
+6. Ativar os links universais do método **On Web Connection**.
 
-Here's an example of the **On Web Connection** method :
+Este é um exemplo do método **On Web Connection** :
 
 ```4d
 
@@ -131,17 +131,17 @@ Var $handler : Object
 $handler:=MobileAppServer.WebHandler.new()
 Case of
     : ($handler.handle($1; $2; $3; $4; $5; $6))
-        // Managed by default mobile code
+        // Gerenciado pelo código móvel por padrão
     Else
-        // Your web code
+        // Seu código web
 End case
 
 ```
 
 
-# PUSH NOTIFICATION
+# NOTIFICAÇÃO PUSH
 
-A great thing about Deep Linking is that it is completely compatible with [push notifications](push-notification.html). This means that you can send Deep links to your users and lead them directly to the right page.
+Algo genial sobre Deep Linking é que é completamente compatível com [notificações push](push-notification.html). Isso significa que pode enviar links Deep a seus usuários e levá-los diretamente à página correta.
 
 As you can see, this feature open a large range of possibilities for using 4D for iOS with minimal effort.
 
