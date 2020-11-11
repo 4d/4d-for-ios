@@ -5,23 +5,23 @@ title: Deep Linking
 
 > **OBJETIVOS**
 > 
-> Share iOS app content using Deep Linking.
+> Compartilhar o conteúdo da aplicação iOS utilizando Deep Linking.
 
-4D v18 R5 includes a new great feature! You're now able to share the content that you're currently viewing with all of your collegues. How does it work?
+4D v18 R5 inclui uma nova e importante funcionalidade! Agora é possível compartilhar o conteúdo que está vendo com todos os seus colegas. Como isso funciona?
 
-Here's an illustration demonstrating deep linking:
+Aqui há uma ilustração que resume o "deep linking":
 
 ![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
-There are two ways to implement deep linking in iOS: **URL scheme** and **Universal Links**. While URL schemes are a well-known method for deep linking, Universal links are the new way that Apple has implemented to easily connect your webpage and your app under the same link.
+Há duas maneiras de implementar "deep linking" em IOS: **"URL scheme"** e **"Universal Links"**. Os "URL schemes" são um método bem conhecido de "deep linking"  e os "Universal links" são o novo método que Apple implementou para conectar facilmente sua página web e sua aplicação sob o mesmo link.
 
-Here's a comparision between the two options which are available in the project editor:
+Aqui há uma comparação entre as duas opções que estão disponíveis no editor de projeto:
 
 ## URL Scheme
 
 | PROS                      | CONS                                |
 | ------------------------- | ----------------------------------- |
-| Easy to implement         | Always requires permission          |
+| Fácil de implementar      | Always requires permission          |
 | No extra backend required | Doesn't work if app isn't installed |
 |                           | Doesn't work in Android             |
 
