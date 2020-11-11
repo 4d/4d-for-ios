@@ -11,7 +11,7 @@ title: Deep Linking
 
 Aqui há uma ilustração que resume o "deep linking":
 
-![Deep linking animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
+![Animação Deep Link](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
 Há duas maneiras de implementar "deep linking" em IOS: **"URL scheme"** e **"Universal Links"**. Os "URL schemes" são um método bem conhecido de "deep linking"  e os "Universal links" são o novo método que Apple implementou para conectar facilmente sua página web e sua aplicação sob o mesmo link.
 
@@ -52,7 +52,7 @@ Mas o verdadeiro poder dos esquemas URL está na capacidade de realizar ações 
 2. Active a propriedade **Deep Linking** na seção **Publishing** do editor de projetos.
 3. A informação do esquema URL é preenchido automaticamente com o nome da aplicação definida previamente na seção **General**. Entretanto, ainda pode ser editado:
 
-![Deep linking Project editor](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
+![Editor de projeto deep linking](assets/en/deeplinking/deep-linking-project-editor-publishing-section.png)
 
 4. Preencha seu método **On Mobile App Action**
 5. Criação da aplicação
@@ -143,11 +143,11 @@ End case
 
 Algo genial sobre Deep Linking é que é completamente compatível com [notificações push](push-notification.html). Isso significa que pode enviar links Deep a seus usuários e levá-los diretamente à página correta.
 
-As you can see, this feature open a large range of possibilities for using 4D for iOS with minimal effort.
+Como pode ver, esta nova funcionalidade abre um grande intervalo de possibilidades utilizando 4D for iOS com um mínimo esforço.
 
-Deep linking is a crucial feature in today’s apps, especially as users consume content faster and faster. This feature brings them directly to the desired location. So I strongly recommend that you use it in your 4D for iOS apps.
+Deep linking é uma funcionalidade crucial nas aplicações de hoje em dia, especialmente já que os usuários consumem o conteúdo mais rapidamente. Esta funcionalidade leva diretamente ao lugar desejado. Assim é recomendado que usem isso em seus apps 4D for iOS.
 
-The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notifications and Deep linking.
+A documentação está [aqui](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) para ajudar a gerenciar suas notificações push e  Deep linking.
 
 
 
