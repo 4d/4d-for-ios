@@ -98,15 +98,15 @@ Quando o processo de validação tenha terminado, está pronto para adicionar se
 
 ## PASSO 8. Selecione a versão destinada à App Store
 
-* From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
+* Em App Store Connect > App Store > iOS App, selecione seu app e clique no botão **+** que aparece na seção Build
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
-* Select the build you want to submit and click **Done**.
+* Selecione a versão que queira enviar e clique em **Done**.
 
 ![Build selection](assets/en/deploy-app-store/Select-build-app-store-connect.png)
 
-* Finally, click on the **Submit for Review** button.
+* Finalmente, clique no botão **Submit for Review**.
 
 ## PASSO 9. Envie para Revisão
 
@@ -114,6 +114,6 @@ Quando o processo de validação tenha terminado, está pronto para adicionar se
 
 ![Envie para Revisão](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* When you've finished with the questions, click **Submit**.
+* Quando tiver terminado com as perguntas, clique **Submit**.
 
 * O tempo médio de revisão da App Store é de apenas dois dias!
