@@ -28,7 +28,7 @@ title: Arquive e atualize seu Projeto
 
 ![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publicação: introduça sua URL de produção**
+**Publicação: introduza sua URL de produção**
 
 (HTTPS é obrigatório para o lançamento).
 
@@ -80,15 +80,15 @@ title: Arquive e atualize seu Projeto
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
-If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
+Se um erro acontecer, uma mensagem será exibida. Estes erros devem ser resolvidos antes de tentar o processo de validação novamente.
 
-* Click **Done**. Isso vai lhe devolver para a janela de Organizador.
+* Clique **Done**. Isso vai lhe devolver para a janela de Organizador.
 
 ## PASSO 7. Suba para a App Store
 
-Once the validation process has been completed, you're ready to add your app to the App Store.
+Quando o processo de validação tenha terminado, está pronto para adicionar seu app para a App Store.
 
-* Click the **Upload to App Store** button.
+* Clique o botão **Upload to App Store**.
 
 ![Suba para a App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
@@ -98,15 +98,15 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ## PASSO 8. Selecione a versão destinada à App Store
 
-* From App Store Connect > App Store > iOS App, select your app and click the **+** button that appears in the Build section
+* Em App Store Connect > App Store > iOS App, selecione seu app e clique no botão **+** que aparece na seção Build
 
 ![Add build](assets/en/deploy-app-store/Add-build-app-store-connect.png)
 
-* Select the build you want to submit and click **Done**.
+* Selecione a versão que queira enviar e clique em **Done**.
 
 ![Build selection](assets/en/deploy-app-store/Select-build-app-store-connect.png)
 
-* Finally, click on the **Submit for Review** button.
+* Finalmente, clique no botão **Submit for Review**.
 
 ## PASSO 9. Envie para Revisão
 
@@ -114,6 +114,6 @@ Once the validation process has been completed, you're ready to add your app to 
 
 ![Envie para Revisão](assets/en/deploy-app-store/Export-Compliance-Content-Rights-Advertising-Identifer.png)
 
-* When you've finished with the questions, click **Submit**.
+* Quando tiver terminado com as perguntas, clique **Submit**.
 
 * O tempo médio de revisão da App Store é de apenas dois dias!
