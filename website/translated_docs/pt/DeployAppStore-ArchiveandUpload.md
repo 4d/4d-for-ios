@@ -28,7 +28,7 @@ title: Arquive e atualize seu Projeto
 
 ![Team ID](assets/en/deploy-app-store/Team-ID.png)
 
-**Publicação: introduça sua URL de produção**
+**Publicação: introduza sua URL de produção**
 
 (HTTPS é obrigatório para o lançamento).
 
@@ -80,15 +80,15 @@ title: Arquive e atualize seu Projeto
 
 ![Validation](assets/en/deploy-app-store/Archive-validation-complete.png)
 
-If an error occurs a message will be displayed. These errors must be resolved before attempting the validation process again.
+Se um erro acontecer, uma mensagem será exibida. Estes erros devem ser resolvidos antes de tentar o processo de validação novamente.
 
-* Click **Done**. Isso vai lhe devolver para a janela de Organizador.
+* Clique **Done**. Isso vai lhe devolver para a janela de Organizador.
 
 ## PASSO 7. Suba para a App Store
 
-Once the validation process has been completed, you're ready to add your app to the App Store.
+Quando o processo de validação tenha terminado, está pronto para adicionar seu app para a App Store.
 
-* Click the **Upload to App Store** button.
+* Clique o botão **Upload to App Store**.
 
 ![Suba para a App Store](assets/en/deploy-app-store/Upload-to-AppStore.png)
 
