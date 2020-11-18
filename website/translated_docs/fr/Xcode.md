@@ -23,7 +23,7 @@ Les développeurs enregistrés peuvent télécharger des aperçu des sorties ain
 
 | Xcode  | Swift | iOS  | 4D        | macOS   |
 | ------ | ----- | ---- | --------- | ------- |
-| 12.1   | 5.3   | 14.1 | 18R5 beta | 10.15.4 |
+| 12.2   | 5.3   | 14.2 | 18R5 beta | 10.15.4 |
 | 12.0   | 5.3   | 14.0 | 18R4      | 10.15.4 |
 | 11.5   | 5.2.4 | 13.5 | 18R3      | 10.15.2 |
 | 11.4   | 5.2   | 13.4 | 18.2      | 10.15.2 |
