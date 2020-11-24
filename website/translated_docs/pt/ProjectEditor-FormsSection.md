@@ -52,7 +52,7 @@ E pode reordenar a qualquer momento seu campo selecionando-o e soltando em qualq
 
 ## Gallery
 
-You probably noticed that, when you want to select a template in the form section, a "More" icon is available for both list and detail forms since 4D v18R3.
+Você provavelmente notou que quando quiser selecionar um modela na seção formulário, um ícone "Mais" está disponível para os formulários lista e formulários detalhes desde 4D v18R3.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
@@ -62,7 +62,7 @@ Just click on that icon to display the entire list.
 
 Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
 
-So you can directly start working on the template, as it is ready-to-use.
+Portanto pode começar a trabalhar diretamente no modelo, já que é pronto para usar.
 
 > **DICAS**
 > 
