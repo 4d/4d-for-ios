@@ -45,7 +45,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 * Complete o formulário.
 * Clique em **Continue**.
-* Verifique su e-mail para obter o número D-U-N-S.
+* Verifique seu e-mail para obter o número D-U-N-S.
 
 ![Número D-U-N-S](assets/en/deploy-in-house/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
@@ -53,17 +53,17 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 
 Pode se registrar como desenvolvedor [aqui](https://developer.apple.com/programs/enterprise/enroll/).
 
-* Click on the **Start your Enrollment** button.
+* Clique no botão **Start your Enrollment**.
 * Leia e Aceite o Contrato de Desenvolvedor de Licença "Apple Developer Agreement".
-* Click **Submit**.
+* Clique **Submit**.
 
 ![Registre-se como um desenvolvedor.](assets/en/deploy-in-house/Register-developer-4D-for-iOS.png)
 
 ## PASSO 6. Inscreva-se no Programa Apple Developer Enterprise
 
 * Puede se inscrever no Programa Apple Developer Enterprise [aqui](https://developer.apple.com/enroll/enterprise/).
-* Click on the **Start your Enrollment** button.
-* Select **Company / Organization** from the Entity Type dropdown list.
+* Clique no botão **Start your Enrollment**.
+* Selecione **Company / Organization** na lista suspensa "Entity Type".
 * Clique em **Continue**.
 
 ![Apple Developer Enterprise Program](assets/en/deploy-in-house/Apple-Developer-Enterprise-Program-4D-for-iOS.png)
