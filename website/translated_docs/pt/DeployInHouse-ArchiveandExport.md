@@ -94,7 +94,7 @@ O manifesto é uma lista de propriedades baseada em XML e deve conter:
 * **bundle-version**: a string da versão atual do pacote de sua aplicação. Pode obtê-lo desde o arquivo  .plist de seu app.
 * **title**: o nome de sua aplicação
 
-Here is an example of a manifest.plist file :
+Aqui há um exemplo de arquivo manifest.plist:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -154,7 +154,7 @@ Here is an example of a manifest.plist file :
 
 ## PASSO 10. Volte a assinar sua aplicação
 
-* Let Xcode manage the **Automatically manage signing** option.
+* Deixe que Xcode administre a opção **Automatically manage signing**.
 
 ![Volte a assinar sua aplicação](assets/en/deploy-in-house/Re-sign-your-application.png)
 
@@ -166,4 +166,4 @@ Here is an example of a manifest.plist file :
 
 ![Verifique o conteúdo do .ipa de sua aplicação](assets/en/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Clique em **Export** e selecione aonde salvar a pasta de sua aplicação em seu computador.
