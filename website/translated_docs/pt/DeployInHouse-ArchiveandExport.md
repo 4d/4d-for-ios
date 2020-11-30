@@ -167,4 +167,4 @@ Aqui há um exemplo de arquivo manifest.plist:
 
 ![Verifique o conteúdo do .ipa de sua aplicação](assets/en/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Clique em **Export** e selecione aonde salvar a pasta de sua aplicação em seu computador.
