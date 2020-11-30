@@ -10,7 +10,7 @@ It must be 160px x 160px and must be named **layoutIconx2.png**.
 O ícone será usado:
 
 * acima do nome da tabela quando o modelo tiver sido selecionado, e
-* in the template selector window in the **Forms section**
+* na janela seleção de modelo na seção **Formulário**
 
 ![Custom listform template](assets/en/custom-listform/custom-listform-template.png)
 
