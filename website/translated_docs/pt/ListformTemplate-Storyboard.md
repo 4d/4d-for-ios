@@ -112,15 +112,15 @@ To complete the customizations, select both labels and **enter 0 for Lines** in 
 ## Como obter dados em suas células
 
 ### Image View
-Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
+Selecione sua Image View e vá para **Identity inspector** > User Defined Runtime Attributes. Clique no ** botão+** para adicionar uma linha.
 
 ![User defined runtime attributes](assets/en/custom-listform/user-defined-runtime-attributes.png)
 
-* **Key Path**: Begin with bindTo to activate binding on the component. Enter `bindTo.record.___FIELD_1___`
+* **Key Path**: Begin with bindTo to activate binding on the component. Introduza `bindTo.record.___FIELD_1___`
 
-* **Type**: Always `String`
+* **Type**: siempre `String`
 
-* **Value**: The attribute name. Enter `___FIELD_1_BINDING_TYPE___`
+* **Value**: nome do atributo. Introduza `___FIELD_1_BINDING_TYPE___`
 
 ![Identity inspector storyboard](assets/en/custom-listform/identity-inspector-storyboard.png)
 
@@ -130,7 +130,7 @@ Select the first label and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: `bindTo.record.___FIELD_2___`
 
-* **Type**: `String`
+* **Type**: siempre `String`
 
 * **Value**: `___FIELD_2_BINDING_TYPE___`
 
@@ -140,7 +140,7 @@ Select the second label and add a row in the Defined Runtime Attributes:
 
 * **Key Path**: `bindTo.record.___FIELD_3___`
 
-* **Type**: `String`
+* **Type**: siempre `String`
 
 * **Value**: `___FIELD_3_BINDING_TYPE___`
 
@@ -171,13 +171,13 @@ Selecione seu Image View e adicione as duas linhas abaixo noa área User Defined
 
 * **Value**: `12`
 
-and
+e
 
 * **Key Path**: `layer.masksToBounds`
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: selecione a caixa de opção
 
 ![ImageView corner Radius](assets/en/custom-listform/imageview-corner-radius.png)
 
