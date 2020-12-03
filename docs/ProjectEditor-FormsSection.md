@@ -24,6 +24,10 @@ Once done, the content definition screen appears.
 You can then drag and drop the fields from the Fields list directly onto the Model displayed on the right.
 Most of the list forms include optional Search and Section fields.
 
+About the Search field, R6 version add a really nice feature with the Barcode search feature.
+
+To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
+
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
 ## Detail Form definition
