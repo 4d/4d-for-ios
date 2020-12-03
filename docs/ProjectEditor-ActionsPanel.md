@@ -67,6 +67,8 @@ Here are the different **Formats** you can select for a parameter:
 <td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
 </tr><tr>
 <td>Text area</td><td>Includes multiple lines of text in a single field</td>
+</tr><tr>
+<td>Bar code</td><td>Extract Bar code associated value</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +139,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Image parameters will be available in an upcoming release</td>
+<td>Signature</td><td>Allow to sign with the finger</td>
 </tr>
 
 </table>
@@ -259,4 +261,4 @@ For your convenience, the Edition form includes a few **special features**:
 
 * Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
 
-* A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.
+* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
