@@ -54,7 +54,7 @@ Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et 
 
 Vous avez probablement remarqué que, lorsque vous souhaitez sélectionner un modèle dans la section Formulaires, une icône "Plus" est disponible pour les formulaires liste et les formulaires détaillés depuis 4D v18 R3.
 
-![Bouton Plus de template](assets/en/project-editor/Forms-more-button.png)
+![More template button](assets/en/project-editor/Forms-more-button.png)
 
 Cliquez simplement sur cette icône pour afficher la liste entière.
 
