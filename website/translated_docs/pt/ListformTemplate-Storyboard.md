@@ -25,19 +25,19 @@ Está vazio, então vamos adicionar conteúdo!
 
 ## Adicione uma "Image View"
 
-From the **Object library**, drag and drop an  **Image View** into a cell. Pode pesquisar uma "Image View" na barra de pesquisas na parte inferior da biblioteca de Objetos
+A partir da **Object library**(biblioteca de objetos), arraste e solte uma  **Image View** (vista de imagem) em uma célula. Pode pesquisar uma "Image View" na barra de pesquisas na parte inferior da biblioteca de Objetos
 
 ![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 110 and the Height value to 110. Depois defina o valor X como 8 e o valor Y para 3.
+A partir do **Size inspector panel** (do lado direito da janela Interface Builder), defina a largura da Imagem View para 110 e a Altura para 110. Depois defina o valor X como 8 e o valor Y para 3.
 
 ![Image View position height and width](assets/en/custom-listform/imageview-position-height-width.png)
 
-Next, add a constraint (Leading: 8) by clicking on the **Add New Constraints button** (at the bottom of the Interface Builder window). Adicione as restrições de largura e altura, como mostrado:
+Agora, adicione uma restrição (Leading: 8) clicando no botão **Add New Constraints** (na parte inferior da janela Interface Builder). Adicione as restrições de largura e altura, como mostrado:
 
 ![Image View leading space width height](assets/en/custom-listform/imageview-leading-space-width-height.png)
 
-Finally, click on the **Align button** (at the bottom of the Interface Builder window) and check the "Vertically in Container" checkbox.
+Clique no botão **Align** (na parte inferior do Interface Builder) e marque a opção "Vertically in Container".
 
 ![Image View align vertically](assets/en/custom-listform/imageview-align-vertically.png)
 
@@ -49,15 +49,15 @@ Agora vamos trabalhar nas etiquetas de células.
 
 ## Adicione etiquetas de título e subtítulo
 
-Let's begin by **adding a View**. Search for "View" in the **Object library** and drag it into the cell container.
+Comecemos por **agregar uma vista**. Pesquise por "View" na **Biblioteca de objetos** e arraste a Vista ao cell container.
 
 ![Add View Storyboard](assets/en/custom-listform/add-view-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the View Width value to 277 and the Height value to 94. Estabeleça X para 126 e Y para 10.
+A partir do painel**Size inspector** (no lado direito do Interface Builder), estabeleça o valor da Largura para 277 e altura para 94. Estabeleça X para 126 e Y para 10.
 
 ![View position height and width](assets/en/custom-listform/view-position-height-width.png)
 
-For the Image View, add four constraints by clicking on the **Add New Constraints button** (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) for the view to be well positioned, as shown:
+Na  Image View, adicione quatro restrições clicando no botão **Add New Constraints** (Trailing: 11, Leading: 8, Top: 11 e Bottom: 10.67) para posicioná-la corretamente como mostrado abaixo:
 
 ![View contraints Storyboard](assets/en/custom-listform/view-constraints-storyboard.png)
 
@@ -65,21 +65,21 @@ Arraste e solte uma etiqueta na Vista que acaba de agregar desde a Biblioteca de
 
 ![Add label Storyboard](assets/en/custom-listform/add-label-storyboard.png)
 
-From the **Size inspector panel**, set the Label View Width value to 269 and the Height value to 32. Agora defina o valor X para 8 e Y para 8.
+Desde o painel **Size inspector**, defina o valor de largura de etiqueta para 269 e a Largura em 32. Agora defina o valor X para 8 e Y para 8.
 
-**Duplicate the label** and in the **Size inspector panel**, set the X value to 8 and the Y value to 48.
+**Duplique a etiqueta** e no painel **Size inspector**, defina o valor X para 8 e o valor Y para 48.
 
 ![Duplicate the label](assets/en/custom-listform/duplicated-label-storyboard.png)
 
-Select both labels add four constraints by clicking on the **Add New Constraints button** (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) as shown:
+Selecion ambas as etiquetas e adicione quatro restrições clicando no botão **Add New Constraints** (Trailing: 0, Leading: 8, Top: 8, e Bottom: Multiple) como mostrado:
 
 ![Duplicate the label](assets/en/custom-listform/labels-contraints-storyboard.png)
 
-With a label selected, double-click on the **Height constraint** to edit it.
+Com a etiqueta selecionada, dê um duplo-clique em **Height constraint** para começar a edição.
 
 ![Label height constraint edition](assets/en/custom-listform/label-height-constraint-edition.png)
 
-Change the relation from Equal to **Greater Than or Equal** so it can have a variable height (to handle multiline labels).
+Mude a relação de  Equal para **Greater Than or Equal** para que tenha uma altura variável (para manejar etiquetas multilinhas).
 
 ![Change relation label height constraint](assets/en/custom-listform/change-relation-label-height-constraint.png)
 
@@ -87,7 +87,7 @@ Repita o processo para a segunda etiqueta.
 
 ## Personalizar a etiqueta
 
-Desde o Inspetor de atributos (do lado direito da janela Interface Builder), é possível personalizar as cores de fonte de sua etiqueta. Let's make the second label **Dark Grey Color** :
+Desde o Inspetor de atributos (do lado direito da janela Interface Builder), é possível personalizar as cores de fonte de sua etiqueta. Vamos fazer a segunda etiqueta com a cor **Dark Grey Color** :
 
 ![Label color dark grey](assets/en/custom-listform/label-color-dark-grey.png)
 
@@ -95,11 +95,11 @@ Também pode selecionar a cor dominante para seu app:
 
 ![Label color background color](assets/en/custom-listform/label-color-background-color.png)
 
-Do inspetor de atributos, também pode personalizar a fonte. Select both labels and select Font > Custom > **Helvetica Neue**:
+Do inspetor de atributos, também pode personalizar a fonte. Seleccione as duas etiquetas e selecione Font > Custom > **Helvetica Neue**:
 
 ![Label font custom](assets/en/custom-listform/label-font-custom.png)
 
-To complete the customizations, select both labels and **enter 0 for Lines** in the inspector window. Isso permite que o número de linhas seja ilimitado.
+Para completar a personalização, selecione ambas as etiquetas e **ingresse o valor 0 em Lines** na janela do Inspetor. Isso permite que o número de linhas seja ilimitado.
 
 ![Label lines number](assets/en/custom-listform/label-lines-number.png)
 
