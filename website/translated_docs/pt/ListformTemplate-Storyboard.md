@@ -25,11 +25,11 @@ Está vazio, então vamos adicionar conteúdo!
 
 ## Adicione uma "Image View"
 
-From the **Object library**, drag and drop an  **Image View** into a cell. Pode pesquisar uma "Image View" na barra de pesquisas na parte inferior da biblioteca de Objetos
+A partir da **Object library**(biblioteca de objetos), arraste e solte uma  **Image View** (vista de imagem) em uma célula. Pode pesquisar uma "Image View" na barra de pesquisas na parte inferior da biblioteca de Objetos
 
 ![Add Image View storyboard](assets/en/custom-listform/add-imageview-storyboard.png)
 
-From the **Size inspector panel** (on the right side of the Interface Builder window), set the Image View Width value to 110 and the Height value to 110. Depois defina o valor X como 8 e o valor Y para 3.
+A partir do **Size inspector panel** (do lado direito da janela Interface Builder), defina a largura da Imagem View para 110 e a Altura para 110. Depois defina o valor X como 8 e o valor Y para 3.
 
 ![Image View position height and width](assets/en/custom-listform/imageview-position-height-width.png)
 
