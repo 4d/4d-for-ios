@@ -26,6 +26,20 @@ Most of the list forms include optional Search and Section fields.
 
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
+About the Search field, R6 version add a really nice feature with the Barcode search feature.
+
+To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
+
+![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
+
+This feature will allow two things :
+
+* Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
+* Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
+
+![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
+
+
 ## Detail Form definition
 
 ![Detail form template selection](assets/en/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
