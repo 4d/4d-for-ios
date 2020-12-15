@@ -31,8 +31,8 @@ Para activarla, sólo tiene que hacer clic en la lupa y marcar la opción Escán
 
 Esta funcionalidad permitirá dos cosas:
 
-* Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
-* Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
+* Filtrar un formulario lista escaneando un Código de Barras que contiene un valor texto. Esto llenará la barra de búsqueda y abrirá el formulario detallado si sólo queda un valor después de filtrar.
+* Mostrar formularios específicos listados y detallados con sólo escanear un código de barras cuyos valores sean Esquemas URL o Enlaces Universales después de la activación de la funcionalidad [Deep linking](deep-linking).
 
 ![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
 
