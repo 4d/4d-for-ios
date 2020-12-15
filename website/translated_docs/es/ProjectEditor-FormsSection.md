@@ -23,13 +23,13 @@ Seleccione una plantilla para su primera tabla. Una vez hecho esto, aparece la p
 
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-About the Search field, R6 version add a really nice feature with the Barcode search feature.
+En cuanto al campo de búsqueda, la versión R6 añade una funcionalidad muy agradable con la funcionalidad de búsqueda del código de barras.
 
-To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
+Para activarla, sólo tiene que hacer clic en la lupa y marcar la opción Escáner de código de barras.
 
 ![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
 
-This feature will allow two things :
+Esta funcionalidad permitirá dos cosas:
 
 * Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
 * Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
