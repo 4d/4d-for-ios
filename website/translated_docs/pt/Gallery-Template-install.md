@@ -5,35 +5,35 @@ title: Instalar um modelo
 
 > **OBJETIVOS**
 > 
-> Dowload a template from the gallery and improve it
+> Baixe um modelo da galeria e o melhore
 
-## Install a template from the Gallery
+## Instalar um modelo da Galeria
 
-Go to the form section and select on one of your table to choose a List Form.
+Vá à seção Formulários e selecione uma das suas tabelas para escolher um formulário Lista.
 
-As you can see, a “More” icon is available at the bottom.
+Como pode ver há um ícone "Mais" disponível na parte inferior.
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
-Just click on that icon to display the entire list.
+Simplesmente clique nesse ícone para mostrar a lista completa.
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Depois, a única coisa que tem que fazer é selecionar o modelo adequado às suas necessidades e 4D for iOS vai manejar o processo de instalação para que possa trabalhar mais rápido e com mais eficiência.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Select the Client List template.
+Selecione o modelo Client List.
 
-As you can see the template is included automatically in your project and you can directly start working on it without waiting.
+Como pode ver o modelo é incluído automaticamente em seu projeto e pode começar a trabalhar diretamente nele sem esperar.
 
 ![Add template from gallery](assets/en/gallery/use-template.png)
 
-A github icon is displayed at the top left of your template icon in the Forms template picker to indicate that it comes from Github.
+É mostrado um ícone github na parte superior esquerda de seu ícone de modelo no seletor de modelos Forms para indicar que vem de Github.
 
 ![Add template from gallery](assets/en/gallery/indicator-template-github.png)
 
-As you can see, it is very simple to include new templates in your project and you can directly start working on it without waiting.
+Note como é simples incluir novos modelos em seu projeto e começar a trabalhar diretamente neles sem esperar.
 
-So now that you have download your template, you may want to make some improvement for the template to fit perfectly your needs.
+Agora que baixou seu modelo, pode fazer melhorias nele para que se ajuste às suas necessidades.
 
 
 
