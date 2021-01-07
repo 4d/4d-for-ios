@@ -21,7 +21,7 @@ Mas o que acontece com a arquitetura de implementação, para poder integrar ess
 
 Esses são os elementos diferentes necessários para criar, enviar e receber uma notificação push móvel:
 
-![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
+![Processo de notificações Push](assets/en/push-notification/4D-for-ios-push-notification.png)
 
 # Pré-requisitos
 
@@ -56,6 +56,6 @@ It's as simple as that!
 
 ## Que fazer agora?
 
-O componente que maneja e facilita o processo também está disponível [aqui](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) para que possa adaptar as notificações push a suas próprias necessidades. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports and even better: pull requests.
+O componente que maneja e facilita o processo também está disponível [aqui](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) para que possa adaptar as notificações push a suas próprias necessidades. Pode usar e escolher quais os aspectos mais relevantes para sua aplicação. Todas as contribuições são bem vindas a este projeto, seja através de comentários, relatórios de erros ou ainda melhor: "pull requests".
 
 
