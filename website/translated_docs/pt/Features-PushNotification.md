@@ -23,7 +23,7 @@ But what about the architecture to implement in order to integrate this function
 
 Here are the different elements needed to create, send, and receive mobile push notifications:
 
-![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
+![Processo de notificações Push](assets/en/push-notification/4D-for-ios-push-notification.png)
 
 # Pré-requisitos
 
