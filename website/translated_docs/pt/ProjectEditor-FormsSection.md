@@ -70,11 +70,11 @@ Você provavelmente notou que quando quiser selecionar um modela na seção form
 
 ![More template button](assets/en/project-editor/Forms-more-button.png)
 
-Just click on that icon to display the entire list.
+Simplesmente clique nesse ícone para mostrar a lista completa.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Then, the only thing you have to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Depois, a única coisa que tem que fazer é selecionar o modelo adequado às suas necessidades e 4D for iOS vai manejar o processo de instalação para que possa trabalhar mais rápido e com mais eficiência.
 
 Portanto pode começar a trabalhar diretamente no modelo, já que é pronto para usar.
 
