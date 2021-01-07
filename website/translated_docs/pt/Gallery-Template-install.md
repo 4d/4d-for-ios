@@ -1,6 +1,6 @@
 ---
 id: gallery-template-install
-title: Install a template
+title: Instalar um modelo
 ---
 
 > **OBJETIVOS**
