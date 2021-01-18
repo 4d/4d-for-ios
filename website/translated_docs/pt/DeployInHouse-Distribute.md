@@ -10,13 +10,13 @@ title: Distribua seu app in-House
 
 ## PASSO 1. Suba sua aplicação
 
-Upload your app files to a secured server:
+Suba sua aplicação a um servidor seguro:
 
 * Recursos (exibir imagem e imagem em tamanho real)
 * Arquivo manifest.plist
 * arquivo .ipa
 
-You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
+Pode usar qualquer serviço de armazenamento na nuvem para distribuir seu app logo que estiver protegida (Dropbox, Google Drive, etc).
 
 > **NOTA **
 > 
@@ -24,20 +24,20 @@ You can use any cloud storage service to distribute your app as soon as it is se
 
 ## PASSO 2. Crie o link da instalação
 
-Create an **ITMS Serices link** (iTUnes Music Store) with the full web address of your manifest file as a parameter:
+Crie um link**ITMS Serices** (iTunes Music Store) com a direção web completa de seu arquivo manifest como parâmetro:
 
 ```
 itms-services://?action=download-manifest&url=https://mywebserver.com/manifest.plist
 
 ```
 
-This link can be used when sending emails, embedded in an html page, or even within a QR code.
+Esse link pode ser usado para enviar correios eletrônicos, aninhados em uma página HTML ou mesmo um código QR.
 
-Here is a simple example:
+Aqui um exemplo simples:
 
 ![Contact demo app install](assets/en/deploy-in-house/Contact-demo-app-install.png)
 
-*The QR Code used for this documentation is not active.*
+*O Código QR usado para esta documentação não está ativo.*
 
 ## PASSO 3. Instale a sua aplicação em iOS
 
@@ -47,9 +47,9 @@ Here is a simple example:
 
 * Quando abrir pela primeira vez um app empresarial que instalou manualmente, uma notificação será exibida que indica que o desenvolvedor da aplicação não é de confiança em seu dispositivo.
 
-* Ignore this message and click **Cancel**.
+* Ignore essa mensagem e clique **Cancel**.
 
-* In Settings > General > Profiles or Profiles & Device Management, in the "Enterprise App" heading, the profile for the developer is listed.
+* Em Configurações > Geral > Gestão de perfis & Gestão de dispositivo, no cabeçalho "Enterprise App", se lista o perfil do desenvolvedor.
 
 ![Untrust developer](assets/en/deploy-in-house/Untrust-developer.png)
 
@@ -59,4 +59,4 @@ Here is a simple example:
 
 * Depois pode ir à sua aplicação e abri-la.
 
-Congratulations ... you can now distribute your first app in-house!
+Parabéns, já pode distribuir sua primeira aplicação interna!
