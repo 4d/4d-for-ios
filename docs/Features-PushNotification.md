@@ -118,6 +118,7 @@ $notification.userInfo:=New object("dataSynchro"; True)
 $response:=$pushNotification.send($notification; $recipients)
 
 ```
+![Data synchronization animation](assets/en/push-notification/pushandSynchro.gif)
 
 # Where to go from here?
 
