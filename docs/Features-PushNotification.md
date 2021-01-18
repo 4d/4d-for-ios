@@ -68,7 +68,7 @@ By default, a notification opening a record automatically triggers a data synchr
 
 For example, in a Contact app, if a contact’s specific information (*i.e.* a contact’s record, such as the address or the phone number) has been modified, the user receives a notification that automatically opens the relevant record and synchronizes the data contained in the record. When the user opens the notification, the contact’s information is fully updated.
 
-Here's an example: 
+Here's an example of the default behaviour, a `dataSynchro` request with the `open()` method:
 
 *Note that for `open()` method exclusively, this is the default behaviour. As a result, if you don't specify the `dataSynchro` boolean value, it is `true` by default.*
 
@@ -85,7 +85,7 @@ $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
 
-However, you can also choose not to force a data synchronization:
+However, you can also choose not to force a data synchronization, by preventing `dataSynchro`:
 
 ```4D 
 
@@ -118,7 +118,6 @@ $notification.userInfo:=New object("dataSynchro"; True)
 $response:=$pushNotification.send($notification; $recipients)
 
 ```
-![Simple notification animation](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
 # Where to go from here?
 
