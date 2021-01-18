@@ -67,6 +67,8 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 <td>Code postal</td><td>Clavier iOS optimisé pour la saisie du code postal</td>
 </tr><tr>
 <td>Zone de texte</td><td>Inclut plusieurs lignes de texte dans un même champ</td>
+</tr><tr>
+<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +139,7 @@ Voici les différents **formats** que vous pouvez sélectionner en tant que para
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Les paramètres d'image seront disponibles dans une prochaine version</td>
+<td>Signature</td><td>Allow to sign with the finger</td>
 </tr>
 
 </table>

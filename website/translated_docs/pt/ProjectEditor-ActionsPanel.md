@@ -67,6 +67,8 @@ Here are the different **Formats** you can select for a parameter:
 <td>Código postal CEP</td><td>Teclado iOS otimizado para entrada de código postal</td>
 </tr><tr>
 <td>Área de texto</td><td>Inclui linhas múltiplas de texto em um único campo</td>
+</tr><tr>
+<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +139,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGENS</th>
 </tr>
 <tr>
-<td colspan="2">Os parâmetros de imagem estarão disponíveis em um lançamento posterior</td>
+<td>Signature</td><td>Allow to sign with the finger</td>
 </tr>
 
 </table>
