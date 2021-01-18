@@ -21,7 +21,7 @@ title: Arquive e exporte seu Projeto
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
-Xcode will automatically install required provisioning and certificates.
+Xcode instalará automaticamente os elementos de provisão e certificados necessários.
 
 ## PASSO 2. Obtenha uma ID de Equipe
 
@@ -39,7 +39,7 @@ Xcode will automatically install required provisioning and certificates.
 
     ![Enterprise-Team-ID](assets/en/deploy-in-house/Enterprise-Team-ID.png)
 
-    * Publicación: ingrese sua URL de produção (HTTPS é obrigatório para o lançamento).
+    * Publicação: ingresse sua URL de produção (HTTPS é obrigatório para o lançamento).
 
 * Na aba BUILD:
     * Criar e Executar: Crie seu projeto.
@@ -52,7 +52,7 @@ Xcode will automatically install required provisioning and certificates.
 
 ## PASSO 5. Arquive seu projeto com Xcode
 
-* From Xcode, go to the simulator Menu and select **Generic iOS Device**
+* Desde Xcode, vá ao menu de simulador e selecione **Generic iOS Device**
 
 ![Generic iOS Device](assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png)
 
@@ -64,13 +64,13 @@ Xcode will automatically install required provisioning and certificates.
 
 * No final do processo de arquivo, aparece a janela do Organizador com o arquivo que acaba de criar
 
-* Click **Export**.
+* Clique em **Exportar**.
 
 ![Exporte seu projeto](assets/en/deploy-in-house/Organizer-window-archive.png)
 
 ## PASSO 7. Selecione seu método de distribuição
 
-* Select **Enterprise** and click **Next**.
+* Selecione **Enterprise** e clique em **Next**.
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
@@ -82,20 +82,20 @@ Xcode will automatically install required provisioning and certificates.
 
 * Pode deixar que o Xcode gere um arquivo manifest.plist para você ou gerá-lo manualmente.
 
-* Click **Next**.
+* clique em **Next**.
 
 #### O que é um manifesto?
 
-The manifest is an XML-based property list and should contain:
+O manifesto é uma lista de propriedades baseada em XML e deve conter:
 
-* **URL** : URL pointing to the .ipa file.
-* **display-image**: URL pointing to a 57 x 57 px (72 x 72 px for iPad) PNG icon used during download and installation.
-* **full-size-image**: URL pointing to a 512 x 512 px PNG image representing the iTunes app.
-* **bundle-identifier**: Your app identifier string. Pode obtê-lo desde o arquivo  .plist de seu app.
-* **bundle-version**: Your app's current bundle version string. Pode obtê-lo desde o arquivo  .plist de seu app.
-* **title**: Your app's name.
+* **URL**: URL que aponta ao arquivo .ipa.
+* **display-image**: URL que aponta a um ícone PNG de 57 x 57 px (72 x 72 px para iPad) utilizado durante a descarga e a instalação.
+* **full-size-image**: URL que aponta a uma imagem PNG de 512 x 512 px que representa a aplicação iTunes.
+* **bundle-identifier**: a string de identificação de sua aplicação. Pode obtê-lo desde o arquivo  .plist de seu app.
+* **bundle-version**: a string da versão atual do pacote de sua aplicação. Pode obtê-lo desde o arquivo  .plist de seu app.
+* **title**: o nome de sua aplicação
 
-Here is an example of a manifest.plist file :
+Aqui há um exemplo de arquivo manifest.plist:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -150,16 +150,16 @@ Here is an example of a manifest.plist file :
 
 ![Informação sobre a distribuição do manifesto](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
-* Click **Next**.
+* clique em **Next**.
 
 
 ## PASSO 10. Volte a assinar sua aplicação
 
-* Let Xcode manage the **Automatically manage signing** option.
+* Deixe que Xcode administre a opção **Automatically manage signing**.
 
 ![Volte a assinar sua aplicação](assets/en/deploy-in-house/Re-sign-your-application.png)
 
-* Click **Next**.
+* clique em **Next**.
 
 ## PASSO 11. Verifique o conteúdo do .ipa de sua aplicação
 
@@ -167,4 +167,4 @@ Here is an example of a manifest.plist file :
 
 ![Verifique o conteúdo do .ipa de sua aplicação](assets/en/deploy-in-house/Review-ipa-content.png)
 
-* Click on **Export** and select where to save your app folder on your computer.
+* Clique em **Export** e selecione aonde salvar a pasta de sua aplicação em seu computador.

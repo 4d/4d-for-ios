@@ -20,7 +20,6 @@ Simplemente haga clic en ese icono para mostrar la lista completa.
 
 Luego, lo único que tiene que hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
 
-
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
 Seleccione la plantilla Client List.
