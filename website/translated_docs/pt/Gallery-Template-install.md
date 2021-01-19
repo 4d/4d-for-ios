@@ -7,7 +7,6 @@ title: Instalar um modelo
 > 
 > Baixe um modelo da galeria e o melhore
 
-
 ## Instalar um modelo da Galeria
 
 Vá à seção Formulários e selecione uma das suas tabelas para escolher um formulário Lista.

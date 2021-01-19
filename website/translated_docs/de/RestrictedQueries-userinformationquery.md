@@ -24,7 +24,6 @@ The query will filter data depending on the **In Progress** status AND the **Acc
 > * A **user icon** is displayed on the right of each table when a user information filter is applied to it.
 > * As soon as a query is based on user information and validated, you need to edit the **Mobile app authentication method**. To do so, right-click on the **Edit authentication method** button to open the database method edition window.
 
-
 Add the following line in the database method:
 
 ```4d

@@ -22,7 +22,6 @@ Vous pouvez utiliser n’importe quel service de stockage en nuage pour distribu
 > 
 > Votre ressource et vos URL ipa doivent correspondre aux URL définis dans votre fichier manifest.plist.
 
-
 ## ÉTAPE 2. Créez le lien d’installation
 
 Créez un **lien de Services ITMS** (iTunes Music Store) avec, comme paramètre, l’adresse web complète de votre fichier manifest :

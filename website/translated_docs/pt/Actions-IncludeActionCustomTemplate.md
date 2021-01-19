@@ -7,11 +7,9 @@ title: Adicionar ações em modelos
 > 
 > Adicionar ações para modelos de formulários de Lista e formulários detalhados.
 
-
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-
 
 Neste tutorial, veremos como é fácil **agregar ações a planilhas personalizadas**.
 

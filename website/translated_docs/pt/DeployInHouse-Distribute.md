@@ -22,7 +22,6 @@ Pode usar qualquer serviço de armazenamento na nuvem para distribuir seu app lo
 > 
 > Seu recurso e suas URLs ipa devem coincidir com as URLs definidas em seu arquivo manifest.plist.
 
-
 ## PASSO 2. Crie o link da instalação
 
 Crie um link**ITMS Serices** (iTunes Music Store) com a direção web completa de seu arquivo manifest como parâmetro:

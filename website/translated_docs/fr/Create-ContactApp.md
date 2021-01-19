@@ -3,15 +3,13 @@ id: contact-app
 title: Application Contacts
 ---
 
+
 > **OBJECTIFS**
 > 
 > Créer une toute première application avec 4D for iOS
-
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-
 
 Ce tutoriel vous permettra de vous lancer directement dans le développement de 4D for iOS. Vous pourrez ainsi créer, rapidement et facilement, votre première application.
 

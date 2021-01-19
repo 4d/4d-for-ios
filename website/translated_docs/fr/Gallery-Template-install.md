@@ -7,7 +7,6 @@ title: Installer un template
 > 
 > Téléchargez un modèle (template) à partir de la galerie et améliorez-le
 
-
 ## Installer un template depuis la galerie
 
 Accédez à la section Formulaires et sélectionnez l'une de vos tables pour choisir un formulaire Liste.

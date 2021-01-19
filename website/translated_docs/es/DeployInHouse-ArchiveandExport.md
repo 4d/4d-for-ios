@@ -8,7 +8,6 @@ title: Archivar y exportar un proyecto
 > * Archivar y exportar un proyecto 4D for iOS
 > * Generar archivos .ipa y manifest
 
-
 > **REQUISITOS PREVIOS**
 > 
 > * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html)

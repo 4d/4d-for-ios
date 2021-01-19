@@ -8,9 +8,7 @@ Este tutorial le mostrará lo fácil que puede ser incluir relaciones Uno a Much
 
 > **NOTA**
 > 
-> En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas.
-> 
-> Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.
+> En este tutorial, utilizaremos los nombres de las relaciones entre sus tablas. Dar nombres de enlaces descriptivos, puede facilitar la definición de la estructura de su proyecto.
 
 Comencemos descargando el Proyecto Starter:
 
@@ -42,7 +40,6 @@ Este campo ahora funcionará como cualquier otro campo durante el resto del proc
 > **RECOMENDACIONES**
 > 
 > * Al pasar el ratón, una sugerencia muestra el nombre de la tabla fuente que origina la relación.
-
 
 ## Labels & Icons section
 

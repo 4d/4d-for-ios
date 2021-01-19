@@ -3,20 +3,20 @@ id: debugging-from-the-project-editor
 title: A partir do editor de projeto
 ---
 
-There may come a time when you encounter issues using the 4D for iOS project editor or your iOS app.
+Pode acontecer que tenha problemas usando o editor de projeto 4D for iOS ou quando usar sua aplicação iOS
 
-This is where logs can be really useful. You can access logs by holding down the **Alt** key and clicking on **Project** in the project editor.
+Pode acessar o histórico clicando em "Project" no editor de projeto com a tecla Alt.
 
 ![Depuração](assets/en/debugging/debug-from-4D-for-iOS.png)
 
-From here, a menu will appear for the curent simulator:
+A partir daí, um menu vai aparecer para o simulador atual:
 
 
-* Open Simulator logs. This is where you can find the CrashReporter MobileInstallation folder
+* Abra o histórico de simulações Onde pode encontrar o CrashReporter pasta MobileInstallation
 
-* Open the Simulator Diagnostic Reports
+* Abra o Relatórios de Diagnóstico de Simulador
 
 
-* Open Current Simulator Folder
+* Abra a pasta de simulador atual
 
-* Open Application Simulator Folder. This will open a submenu for each application
+* Abra a pasta Aplication Simulator Isso vai abrir um submenu para cada aplicação

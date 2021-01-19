@@ -75,7 +75,6 @@ El "searchable field" (campo de búsqueda) es opcional.
 > 
 > Todos los tipos de campos y de variables están disponibles en [aquí](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
 
-
 > **CONSEJO**
 > 
 > To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.

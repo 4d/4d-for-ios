@@ -7,7 +7,6 @@ title: Apple Developer Enterprise Program
 > 
 > Souscrire à l'Apple Developer Enterprise Program pour déployer son application en <b>interne</b>.
 
-
 > **NOTE**
 > 
 > Pour souscrire à l'Apple Developer Enterprise Program, votre identifiant Apple doit être composé du nom de domaine de votre entreprise et doit être associé à une adresse e-mail.

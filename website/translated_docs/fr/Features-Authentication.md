@@ -7,17 +7,15 @@ title: Authentification email
 > 
 > Intégrez la confirmation par e-mail pour authentifier les utilisateurs de l'application mobile
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) qui permet l'authentification des e-mails est intégré dans 4D mono et 4D Server 18 R4.
-
 
 Garantissez le confort de vos clients grâce à la connexion à leur application via l'authentification par e-mail !
 
 Elle fournit un moyen de vérifier qu'un e-mail provient de qui il prétend provenir et permettra de bloquer les utilisations nuisibles ou frauduleuses des e-mails.
 
-Principes de fonctionnement:
+En bref, le principe est le suivant :
 
 ### 1. Activez le formulaire de connexion
 
@@ -28,23 +26,23 @@ Intégrez un formulaire de connexion dans votre application, depuis l'éditeur d
 
 ### 2. Saisissez votre adresse e-mail
 
-Une adresse e-mail est requis au lancement de l'application. Lorsqu'un utilisateur saisit son e-mail et clique sur le bouton de connexion, la méthode **On Mobile app Authentication** est appelée et le statut de la session de l'utilisateur doit être mis à jour et définie au statut «en attente» (pending). Un email de validation est ensuite envoyé à l'utilisateur.
+Un e-mail est requis au lancement de l'application. Lorsqu'un utilisateur saisit son e-mail et clique sur le bouton de connexion, On Mobile app Authentication est appelée et le statut de la session de l'utilisateur doit être mis à jour et définie au statut «en attente» (pending). Un email de validation est ensuite envoyé à l'utilisateur.
 
 ### 3. Vérifiez votre boîte de réception
 
-Lorsque l'e-mail de validation est reçu, l'utilisateur doit simplement cliquer sur le lien de validation. Cela appellera la méthode base **On Web Connection** et mettra à jour le statut de la session de l'utilisateur qui passera de «en attente» à «accepté».
+Lorsque l'e-mail de validation est disponible, l'utilisateur doit simplement cliquer sur le lien de validation. Cela appellera la méthode de base de données On Web Connection et mettra à jour le statut de la session de l'utilisateur qui passera de «en attente» à «accepté».
 
 ### 4. Retournez sur votre application
 
-Once validation is completed, the user can reopen their app and click on the **Login** button. La méthode **On Mobile App Authentication** est appelée à nouveau mais cette fois, le statut de la session de l'utilisateur est "accepté", donc l'accès est accordé !
+Une fois la validation effectuée, l'utilisateur peut rouvrir son application et cliquer sur le bouton Connexion. On Mobile App Authentication est appelée à nouveau mais cette fois, le statut de la session de l'utilisateur est "accepté", donc l'accès est accordé !
 
-C'est assez simple, n'est-ce pas ?
+C’est plutôt simple, non?
 
 Ainsi, pour faciliter et sécuriser le processus de validation, 4D for iOS gère :
 
 ![Authentification](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-But let's use our special component to see how this works!
+Mais voyons comment cela fonctionne, en utilisant notre composant spécial !
 
 
 # Utilisation du composant
@@ -68,7 +66,7 @@ $0:= Mobile App Email Checker ($1)
 
 ## Mobile App Active Session
 
-Appelez la méthode **Activate sessions** dans la méthode base **On Web Connection** avec le paramètre **ID de la session** extrait de l'URL :
+Appelez la méthode **Activate sessions** dans la méthode base **On Web Connection** avec le paramètre ID de la session extrait de l'URL :
 
 ```4d
 C_TEXT($1)
@@ -79,7 +77,7 @@ End case
 
 ```
 
-C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la [composant documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres HTML que vous voudrez peut-être définir.
+C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres html que vous voudrez peut-être définir.
 
 
 # Sans le composant
@@ -191,4 +189,4 @@ Et voilà !
 
 ## Que faire ensuite ?
 
-La validation de base des e-mails a été détaillée dans ce didacticiel, Vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !
+La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !

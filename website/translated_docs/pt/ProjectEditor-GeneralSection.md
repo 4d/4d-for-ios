@@ -30,7 +30,6 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 > * Se já houver um ícone para sua aplicação de escritório, pode arrastar e soltá-lo diretamente na área ícone.
 > * **Aqui está o truque:** 4D for iOS determina automaticamente a cor dominante de seu ícone de aplicação e o usa para gerar um esquema de cores personalizado para sua aplicação!
 
-
 **Developer:** This field is automatically filled with your user account name.
 
 **Team:** Your Developer Account Team ID.
