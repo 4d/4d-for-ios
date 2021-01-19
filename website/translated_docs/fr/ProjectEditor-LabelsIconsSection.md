@@ -50,8 +50,3 @@ Vous pouvez définir les propriétés de liens suivantes :
 * **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
 * **Icônes :** s'affiche à gauche du bouton Liens
 * **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre
-
-
-
-
-

@@ -18,11 +18,16 @@ Vous pouvez définir ici un sous-ensemble de votre structure pour le reproduire 
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.
+* 4D 18R6 add the ability to publish Many to One and One to Many relations from your Many to One relations in the Structure section.
+
+This means that you will be able to display Many to Many relations in your app and move directly from a List form to another List form.
+
 
 > **ASTUCES**
 > 
 > Vous pouvez publier une sélection de champs en appuyant sur la barre d’espace, plutôt que de sélectionner les champs un par un.
+> 
+> Pour vous aider à définir la structure de votre application, plusieurs filtres ainsi qu'un moteur de recherche sont disponibles pour sélectionner plus facilement vos tables et vos champs.
 
 
 ## Liens 1 vers N
