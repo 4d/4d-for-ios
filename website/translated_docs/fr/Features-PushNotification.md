@@ -9,21 +9,21 @@ title: Notifications Push
 
 > **CONDITIONS PRÉALABLES**
 > 
-> Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) qui permet d'envoyer des notifications push est intégré dans 4D mono et 4D Server 18 R4.
+> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D single-user and 4D Server.
 
-# Qu'est-ce qu'une notification push ?
+## Qu'est-ce qu'une notification push ?
 
 Sur un téléphone mobile, une notification Push est un message d'alerte, reçu via une application, que vous pouvez ouvrir, supprimer, autoriser ou bloquer. Cela peut être très utile, par exemple, pour informer les utilisateurs de votre application qu'une nouvelle version est disponible.
 
 Mais qu'en est-il de l'architecture à mettre en œuvre, pour intégrer cette fonctionnalité dans une application mobile ? Et quel est le processus d'une notification push, partant de la création à l'affichage sur le mobile de l'utilisateur ?
 
-# Architecture technique
+## Architecture technique
 
 Voici les différents éléments nécessaires pour créer, envoyer et recevoir une notification push mobile :
 
 ![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
 
-# Conditions préalables
+## Conditions préalables
 
 Pour envoyer des notifications push, un fichier d'authentification AuthKey_XXXYYY.p8 d'Apple est requis.
 
@@ -37,7 +37,7 @@ Pour envoyer des notifications push, un fichier d'authentification AuthKey_XXXYY
 
 Vous pouvez trouver plus d'informations sur ce processus [ici](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) dans la documentation des composants.
 
-# Exemple de base pour gérer vos notifications push
+## Exemple de base pour gérer vos notifications push
 
 Voici un exemple pour envoyer une notification push à `test@4d.com` :
 
@@ -53,7 +53,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 C'est aussi simple que ça !
 
-# Push notification with data synchronization
+## Push notification with data synchronization
 
 With a push notification, you can also launch a synchronization to update your data.
 
@@ -61,7 +61,7 @@ For example, if your application has a delivery tracking option, the delivery in
 
 To do so in the 4D Mobile App Server component, you need to specify whether or not you want to force data synchronization in your push notification. Therefore, simply provide the `dataSynchro` boolean value in the `userInfo` object.
 
-## Data synchronization with a notification opening a record
+### Data synchronization with a notification opening a record
 
 By default, a notification opening a record automatically triggers a data synchronization.
 
@@ -99,7 +99,7 @@ $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
-## Data synchronization with a simple notification
+### Data synchronization with a simple notification
 
 You can also request a synchronization for a simple notification without opening a specific record. For example, some new entries have been added. You can then inform your user and update the data with no manipulation on their part.
 
@@ -117,8 +117,9 @@ $notification.userInfo:=New object("dataSynchro"; True)
 $response:=$pushNotification.send($notification; $recipients)
 
 ```
+![Data synchronization animation](assets/en/push-notification/pushandSynchro.gif)
 
-# Que faire ensuite ?
+## Que faire ensuite ?
 
 Le composant qui gère et facilite le processus est également disponible [ici](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), afin d'adapter les notifications push à vos propres besoins. N'hésitez pas à l'utiliser et à choisir les aspects les plus pertinents pour votre application. Bien évidemment, tous les contributeurs sont les bienvenus dans ce projet, via des retours d'expérience, des rapports de bug, voire même des "pull requests".
 

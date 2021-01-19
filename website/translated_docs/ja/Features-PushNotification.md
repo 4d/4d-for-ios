@@ -9,21 +9,21 @@ title: Push notifications
 
 > **PREREQUISITES**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D mono and 4D server 18R4.
+> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D single-user and 4D Server.
 
-# What is a push notification?
+## What is a push notification?
 
 On a mobile phone, a push notification is an alert message, received via an application, that you can open, delete, allow or block. It can be very useful for example to notify your app users that a new version is available.
 
 But what about the architecture to implement, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display on the user's mobile?
 
-# Technical architecture
+## Technical architecture
 
 Here are the different elements needed to create, send and receive a mobile push notification:
 
 ![Push notification process](assets/en/push-notification/4D-for-ios-push-notification.png)
 
-# はじめにお読みください
+## はじめにお読みください
 
 In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
 
@@ -37,7 +37,7 @@ In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file fr
 
 You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
 
-# Basic example to manage your push notifications
+## Basic example to manage your push notifications
 
 Here is an example to send a push notification to `test@4d.com`:
 
@@ -53,7 +53,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 It's as simple as that!
 
-# Push notification with data synchronization
+## Push notification with data synchronization
 
 With a push notification, you can also launch a synchronization to update your data.
 
@@ -61,7 +61,7 @@ For example, if your application has a delivery tracking option, the delivery in
 
 To do so in the 4D Mobile App Server component, you need to specify whether or not you want to force data synchronization in your push notification. Therefore, simply provide the `dataSynchro` boolean value in the `userInfo` object.
 
-## Data synchronization with a notification opening a record
+### Data synchronization with a notification opening a record
 
 By default, a notification opening a record automatically triggers a data synchronization.
 
@@ -99,7 +99,7 @@ $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
-## Data synchronization with a simple notification
+### Data synchronization with a simple notification
 
 You can also request a synchronization for a simple notification without opening a specific record. For example, some new entries have been added. You can then inform your user and update the data with no manipulation on their part.
 
@@ -117,8 +117,9 @@ $notification.userInfo:=New object("dataSynchro"; True)
 $response:=$pushNotification.send($notification; $recipients)
 
 ```
+![Data synchronization animation](assets/en/push-notification/pushandSynchro.gif)
 
-# これからどうする？
+## これからどうする？
 
 The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports and even better: pull requests.
 
