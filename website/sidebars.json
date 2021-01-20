@@ -23,7 +23,7 @@
     "Multi-criteria search" : ["multi-criteria-search"],
     "Restricted queries" : ["filter-query-introduction","define-filter-query","user-information-query"],
     "Actions" : ["actions-getting-started","define-first-action","action-custom-template","action-using-parameters","action-parameters"],
-    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-many-relations-actions"],
+    "Relations" :["many-to-one-relations","one-to-many-relations","one-to-many-relations-title-definition","one-to-many-relations-custom-button","one-to-many-relations-actions","relations-interactions"],
     "Features" : ["authentication", "push-notification", "deep-linking"]
 
   },
