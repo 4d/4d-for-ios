@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="pt"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Um para Muitos - botão personalizado · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Como vimos em tutoriais anteriores, 4D for iOS lhe dá a liberdade de criar várias coisas personalizadas!"/><meta name="docsearch:language" content="pt"/><meta property="og:title" content="Um para Muitos - botão personalizado · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="Como vimos em tutoriais anteriores, 4D for iOS lhe dá a liberdade de criar várias coisas personalizadas!"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/18/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/18/css/main.css"/><script src="/4d-for-ios/18/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/18/pt"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/18/docs/pt/overview.html" target="_self">Documentação</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/18/docs/pt/contact-app.html" target="_self">Tutoriais</a></li><li class=""><a href="/4d-for-ios/18/docs/pt/template.html" target="_self">Modelos e formatos</a></li><li class=""><a href="/4d-for-ios/18/docs/pt/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://4d.github.io/4d-for-ios" target="_self">v18 R6 BETA</a></li><li class=""><a href="https://4d.github.io/4d-for-ios/Rx" target="_self">v18 R5</a></li><li class=""><a style="font-weight:bold" href="https://4d.github.io/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/18/img/language.svg" alt="Languages icon"/>Português</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/18/docs/en/one-to-many-relations-custom-button.html">English</a></li><li><a href="/4d-for-ios/18/docs/ja/one-to-many-relations-custom-button.html">日本語</a></li><li><a href="/4d-for-ios/18/docs/es/one-to-many-relations-custom-button.html">Español</a></li><li><a href="/4d-for-ios/18/docs/fr/one-to-many-relations-custom-button.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Relações</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Criar seu app iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/contact-app.html">Contatos do App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personalizar com Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/open-xcode.html">Traballhar com Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/xcode-overview.html">Apresentação do Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/4d-for-ios-project-organization.html">Organizar um projeto 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/customize-your-ios-app.html">Personalizar seu app 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Criar formulários lista<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/creating-listform-templates.html">Modelos de formulários Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/icon-listform-template.html">Ìcones de formulários Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/manifest-listform-template.html">Manifest.json
+</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Criar formulários detalhados<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/creating-detailform-templates.html">Modelos de formulário detalhado</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/icon-detailform-template.html">Ícone de formulário detalhado</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/manifest-detailform-template.html">Manifest.json
+</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Usar ícones<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/using-icons.html">Usar ícones</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/create-icons.html">Criar ícones</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/include-icons.html">Incluir ícones no projeto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/select-icons.html">Selecionar seus ícones</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Formatador de dados<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/data-formatter.html">Formatador de dados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/data-formatter-mobile-project.html">Abrir projeto móvel</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/data-formatter-build-and-run.html">Criar e Executar seu projeto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/creating-data-formatter.html">Criar formato de dados</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Pesquisa multicritério<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/multi-criteria-search.html">Pesquisa multicritério</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Pesquisas limitadas<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/filter-query-introduction.html">Pesquisas limitadas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/define-filter-query.html">Definir um filtro de pesquisa</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/user-information-query.html">Filtro de pesquisa usuário</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/actions-getting-started.html">Começando</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/define-first-action.html">Definir sua primeira ação
+</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/action-custom-template.html">Adicionar ações em modelos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/action-parameters.html">Usar parâmetros de ação</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relações<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/many-to-one-relations.html">Relações Muitos para Um</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/one-to-many-relations.html">Relações Um para Muitos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/one-to-many-relations-title-definition.html">Um para Muitos - Definição de Título</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/18/docs/pt/one-to-many-relations-custom-button.html">Um para Muitos - botão personalizado</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/one-to-many-relations-actions.html">Relações Um para Muitos - Ações</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Relations-one-to-N-relations-custom-button.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Um para Muitos - botão personalizado</h1></header><article><div><span><p>Como vimos em tutoriais anteriores, 4D for iOS lhe dá a liberdade de criar várias coisas personalizadas!</p>
+<p>Em relação a modelos e formatadores personalizados, pode criar Botões de Relação personalizados.</p>
+<p>Para fazer isso, nada é mais simples! Só precisa soltar seu botão personalizado em seu modelo personalizado.</p>
+<p>Vamos começar baixando o Starter Project que inclui:</p>
+<ul>
+<li>um banco de dados com seu projeto móvel</li>
+<li>um botão Relação padrão</li>
+</ul>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÂO STARTER PERSONALIZADO</a>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="integrar-um-botão"></a><a href="#integrar-um-botão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integrar um botão</h2>
+<p>O primeiro passo é incluir o botão.xib em seu modelo personalizado para que 4D for IOS possa usá-lo.</p>
+<p>To use the button, you just need to drop it in the <code>YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact</code> folder.</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Relation-custom-button-path.png" alt="Custom button path"></p>
+<p>O primeiro passo está pronto!</p>
+<h2><a class="anchor" aria-hidden="true" id="modificar-o-botão"></a><a href="#modificar-o-botão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Modificar o botão</h2>
+<p>Abra o arquivo .xib com Xcode.</p>
+<p>Deve ter um aspecto como este:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS.png" alt="Custom relation button"></p>
+<p>E a partir do inspetor de atributos, pode mudar por exemplo:</p>
+<ul>
+<li>cores e fontes</li>
+<li>o estilo do botão</li>
+<li>o tamanho do botão, etc</li>
+</ul>
+<p>Vamos mudar a cor do botão e a fonte da sua etiqueta!</p>
+<h3><a class="anchor" aria-hidden="true" id="cores-e-fontes-personalizadas"></a><a href="#cores-e-fontes-personalizadas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cores e fontes personalizadas.</h3>
+<p>Selecione o botão e mude a cor e fonte a partir do inspetor de atributos.</p>
+<p>Para o fundo, selecione Label Color para ter o melhor contraste em modos Light e Dark.</p>
+<p>Para a cor de fonte, selecione System background color com uma fonte helvética Neue Medium.</p>
+<p>Finalmente, não se esqueça de selecionar &quot;tint&quot; em System background color para aplicar essa cor no ícone de botão.</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Relations-custom-button-relationButton-4D-for-iOS-font-and-Color.png" alt="Custom relation button"></p>
+<p>Deve obter esse resultado em seu Simulador em modo Dark e Light:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-Light-and-Dark-mode-font-and-color.png" alt="Custom relation color and font"></p>
+<h3><a class="anchor" aria-hidden="true" id="cantos-arredondados-de-botões"></a><a href="#cantos-arredondados-de-botões" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cantos arredondados de botões</h3>
+<p>Vamos adicionar alguns cantos arredondados para relationButton!</p>
+<p>Para fazer isso abra o Identity Inspector.</p>
+<p>Selecione seu Botão e adicione as duas linhas abaixo na área User Defined Runtime Attributes:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>cornerRadius</code></p></li>
+<li><p><strong>Type</strong>: <code>Number</code></p></li>
+<li><p><strong>Value</strong>: <code>12</code></p></li>
+</ul>
+<p>e</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>layer.masksToBounds</code></p></li>
+<li><p><strong>Type</strong>: <code>Boolean</code></p></li>
+<li><p><strong>Value</strong>: selecione a caixa de opção</p></li>
+</ul>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-Xcode-round-corners.png" alt="Custom relation color and font"></p>
+<p>Agora pode construir seu projeto no editor de projetos!</p>
+<p>O resultado deve parecer com isto:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-round-corners.png" alt="Custom relation color and font"></p>
+<h3><a class="anchor" aria-hidden="true" id="tamanho-e-restrições"></a><a href="#tamanho-e-restrições" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tamanho e restrições</h3>
+<p>Keep in mind that if you <strong>add constraints</strong> into your button, you will also have to modifiy the xib xml file to <strong>add some TAGS</strong> as for custom Detail form templates. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.</p>
+<p>O que é conveniente porque vamos adicionar algumas restrições!</p>
+<h4><a class="anchor" aria-hidden="true" id="adicionar-restrições"></a><a href="#adicionar-restrições" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adicionar restrições</h4>
+<p>Para este tutorial vamos adicionar uma altura de botão porque queremos que fique maior na tela.</p>
+<p>Pásso 1. Primeiro selecione a vista e mude a altura de 123 a 40</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Button-view-height.png" alt="Button view height"></p>
+<p>Passo 2. Double click on the <strong>Top Space Constraint</strong> and change it from 8 to 0</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Top-Space-constraint.png" alt="Top Space constraint"></p>
+<p>Passo 3. Do the same thing with <strong>Bottom Space Constraint</strong> and change it from 8 to 0</p>
+<p>Você deveria obter isto:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-button-constraints.png" alt="Custom  button constraints"></p>
+<p>Passo 4. Adicione uma restrição de altura de 40</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Button-height-constraint.png" alt="Button height constraint"></p>
+<p>Você deveria obter isto:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-constraints.png" alt="Horizontal in container"></p>
+<p>Para indicar no editor de projeto que todos os elementos incluídos nesta vista serão duplicados, precisamos adicionar uma TAG para cada elemento e restrição.</p>
+<h3><a class="anchor" aria-hidden="true" id="adicionar-tags"></a><a href="#adicionar-tags" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>adicionar TAGS</h3>
+<p>Cada elemento de storyboard tem um identificador de Objeto. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-button-object-id-storyboard.png" alt="Object ID Storyboard"></p>
+<p>O processo é um pouco complicado.... Começamos abrindo o arquivo storyboard com seu editor de código favorito!</p>
+<h4><a class="anchor" aria-hidden="true" id="adicione-uma-tag-para-a-restrição-de-altura"></a><a href="#adicione-uma-tag-para-a-restrição-de-altura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adicione uma tag para a restrição de altura</h4>
+<p>Pásso 1. Selecione-o a partir do Storyboard para obter o identiicador de Objeto.</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-object-ID.png" alt="Horizontal constraint object ID"></p>
+<p>Passo 2. Search for this ID in the xml file and put <strong>TAG-RL-007</strong> instead (a Tag that is not already used).</p>
+<p>Passo 3. Salve o arquivo xml</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-xml-file.png" alt="Horizontal constraint xml file"></p>
+<p>Passo 4. Foco em Storyboard para verificar se a restrição foi atualizada corretamente</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-object-id-updated.png" alt="Horizontal object ID updated"></p>
+<p>E isso é tudo! Seu botão agora é completamente duplicável se tiver mais de um botão de relação a exibir...</p>
+<h2><a class="anchor" aria-hidden="true" id="que-fazer-agora"></a><a href="#que-fazer-agora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que fazer agora?</h2>
+<p>Nesse tutorial, vimos o básico para criar botões de relação personalizados. Clique no botão abaixo Final Project para baixar o botão de relação personalizado.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">FINAL CUSTOM BUTTON</a>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/18/docs/pt/one-to-many-relations-title-definition.html"><span class="arrow-prev">← </span><span>Um para Muitos - Definição de Título</span></a><a class="docs-next button" href="/4d-for-ios/18/docs/pt/one-to-many-relations-actions.html"><span>Relações Um para Muitos - Ações</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#integrar-um-botão">Integrar um botão</a></li><li><a href="#modificar-o-botão">Modificar o botão</a><ul class="toc-headings"><li><a href="#cores-e-fontes-personalizadas">Cores e fontes personalizadas.</a></li><li><a href="#cantos-arredondados-de-botões">Cantos arredondados de botões</a></li><li><a href="#tamanho-e-restrições">Tamanho e restrições</a></li><li><a href="#adicionar-tags">adicionar TAGS</a></li></ul></li><li><a href="#que-fazer-agora">Que fazer agora?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/18/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

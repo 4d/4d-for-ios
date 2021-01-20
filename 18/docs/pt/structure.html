@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="pt"><head><meta name="docsearch:version" content="18"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Estrutura · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Esta seção mostra todas as tabelas e os campos expostos por 4D Mobile Service."/><meta name="docsearch:language" content="pt"/><meta property="og:title" content="Estrutura · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/18/index.html"/><meta property="og:description" content="Esta seção mostra todas as tabelas e os campos expostos por 4D Mobile Service."/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/18/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/18/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/18/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/18/css/main.css"/><script src="/4d-for-ios/18/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/18/pt"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/4d-for-ios/18/docs/pt/overview.html" target="_self">Documentação</a></li><li class=""><a href="/4d-for-ios/18/docs/pt/contact-app.html" target="_self">Tutoriais</a></li><li class=""><a href="/4d-for-ios/18/docs/pt/template.html" target="_self">Modelos e formatos</a></li><li class=""><a href="/4d-for-ios/18/docs/pt/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://4d.github.io/4d-for-ios" target="_self">v18 R6 BETA</a></li><li class=""><a href="https://4d.github.io/4d-for-ios/Rx" target="_self">v18 R5</a></li><li class=""><a style="font-weight:bold" href="https://4d.github.io/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/18/img/language.svg" alt="Languages icon"/>Português</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/18/docs/en/structure.html">English</a></li><li><a href="/4d-for-ios/18/docs/ja/structure.html">日本語</a></li><li><a href="/4d-for-ios/18/docs/es/structure.html">Español</a></li><li><a href="/4d-for-ios/18/docs/fr/structure.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Editor de Projeto</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Começando<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/overview.html">Visão Geral</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/prerequisites.html">Pré-requisitos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Editor de Projeto<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/create-new-project.html">Novo Projeto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/general.html">Geral</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/18/docs/pt/structure.html">Estrutura</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/data.html">Dados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/actions.html">Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/labels-and-icons.html">Etiquetas e ícones</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/main-menu.html">Menu principal</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/forms.html">Formulários</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/publishing.html">Publicação</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/build-panel.html">Painel Geração</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Selecionar um Programa Apple Developer<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/deployment.html">Selecionar um Apple Developer Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/free-developer-account.html">Conta Desenvolvedor Apple gratuita</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/register-apple-developer-enterprise-program.html">Apple Developer Enterprise Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/register-apple-developer-program-organization.html">Apple Developer Program para as empresas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/register-apple-developer-program-individual.html">Apple Developer Program para particulares</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Teste e Geração<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/simulator.html">Usando o Simulador</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/install-device.html">Instalar em seu dispositivo iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Lançamento interno in-House<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/deploy-in-house-archive-and-export.html">Arquive e exporte seu Projeto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/deploy-in-house-distribution.html">Distribua seu app in-House</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Lançar na App Store<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/deploy-app-store-app-store-connect.html">Criar uma ficha em App Store</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/18/docs/pt/deploy-app-store-archive-and-upload.html">Arquive e atualize seu Projeto</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/ProjectEditor-StructureSection.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Estrutura</h1></header><article><div><span><p>Esta seção mostra todas as tabelas e os campos expostos por 4D Mobile Service.</p>
+<p><img src="/4d-for-ios/18/docs/assets/en/project-editor/Structure-section-4D-for-iOS.png" alt="Seção Estrutura"></p>
+<p>Aqui pode definir um subconjunto de sua estrutura física para replicar os aparelhos móveis ao selecionar tabelas e campos específicas. Veja que:</p>
+<ul>
+<li>tabelas serão adicionadas automaticamente para as abas de seu app.</li>
+<li>campos estarão disponíveis depois quando for o momento de definir seus formulários lista e detalhados.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="relações-muitos-para-um"></a><a href="#relações-muitos-para-um" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Relações Muitos para Um</h2>
+<ul>
+<li>4D 17R5 lhe permite visualizar as relações da tabela na aplicação gerada e publicá-las desde a seção Estrutura. Depois quando forem publicados os campos relacionados, podem ser utilizados como qualquer outro campo no processo de <a href="many-to-one-relations.html">criação de uma aplicação</a>.</li>
+</ul>
+<p><img src="/4d-for-ios/18/docs/assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png" alt="Publish related tables"></p>
+<p>Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.</p>
+<blockquote>
+<p><strong>DICAS</strong></p>
+<p>É possível publicar uma seleção de campos pressionando a barra de espaço ao invés de selecionar um por um.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="relações-um-para-muitos"></a><a href="#relações-um-para-muitos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Relações Um para Muitos</h2>
+<h3><a class="anchor" aria-hidden="true" id="lidar-com-as-relações-um-para-muitos-a-partir-do-editor-de-projeto"></a><a href="#lidar-com-as-relações-um-para-muitos-a-partir-do-editor-de-projeto" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lidar com as relações Um para Muitos a partir do editor de projeto</h3>
+<p>Now, in recent versions of 4D, you can deal with <strong>One to Many relations</strong> and display a list of related fields in a new page.</p>
+<p>All you have to do is:</p>
+<ul>
+<li><p>publicar ao menos um campo para a tabela alvo (Muitos)</p></li>
+<li><p>publicar a relação da tabela fonte (Um)</p></li>
+</ul>
+<p><img src="/4d-for-ios/18/docs/assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png" alt="Drop relation in detail form"></p>
+<p>Then, when your related fields are published, they can be used like any other field. So you will be able to:</p>
+<ul>
+<li><p>Definir propriedades de relações na seção <a href="labels-and-icons.html#relations-properties">Etiquetas e Ìcones</a> .</p></li>
+<li><p>Solte a relação Um para Muitos em um formulário detalhado da Seção Formulários para criar um link entre um formulário detalhado e uma tabela relacionada.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="o-que-será-criado-no-projeto-gerado"></a><a href="#o-que-será-criado-no-projeto-gerado" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>O que será criado no projeto gerado?</h3>
+<p>Basically a Relation button will be created in detail forms to go straight to the related view.</p>
+<p><a href="one-to-many-relations.html">Tutorials</a> are available to help you use One to Many relation in your 4D for iOS project.</p>
+<h2><a class="anchor" aria-hidden="true" id="recarga-incremental"></a><a href="#recarga-incremental" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recarga incremental</h2>
+<h3><a class="anchor" aria-hidden="true" id="autorizar-modificações-de-estrutura"></a><a href="#autorizar-modificações-de-estrutura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Autorizar modificações de estrutura</h3>
+<p>In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!</p>
+<p>To do so, 4D for iOS needs to make structure optimizations and create:</p>
+<ul>
+<li>A <code>__DeletedRecords</code> table to store deleted records</li>
+<li>and <code>__GlobalStamp</code> fields to store modification stamps for each published table in your mobile application</li>
+</ul>
+<p>All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.</p>
+<p>Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.</p>
+<blockquote>
+<p>**NOTA **</p>
+<p>Essas otimizações são exigidas tanto para bancos de dadoos locais quanto servidor.</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="puxar-para-refrescar"></a><a href="#puxar-para-refrescar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>&quot;Puxar&quot; para refrescar!</h3>
+<p>iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.</p>
+<p>In normal use, simply swipe down from any listform to reload your data.</p>
+<p>From iPhone settings, you can now reset your app data and find information about your app.</p>
+<blockquote>
+<p>**NOTA **</p>
+<p>Assim que o administrador realizar uma operação de manutenção importante, ele deve alertar os usuários da aplicação 4D for iOS que uma recarga completa é necessária: Recover by tag/Restoration/Compaction</p>
+</blockquote>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/18/docs/pt/general.html"><span class="arrow-prev">← </span><span>Geral</span></a><a class="docs-next button" href="/4d-for-ios/18/docs/pt/data.html"><span>Dados</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#relações-muitos-para-um">Relações Muitos para Um</a></li><li><a href="#relações-um-para-muitos">Relações Um para Muitos</a><ul class="toc-headings"><li><a href="#lidar-com-as-relações-um-para-muitos-a-partir-do-editor-de-projeto">Lidar com as relações Um para Muitos a partir do editor de projeto</a></li><li><a href="#o-que-será-criado-no-projeto-gerado">O que será criado no projeto gerado?</a></li></ul></li><li><a href="#recarga-incremental">Recarga incremental</a><ul class="toc-headings"><li><a href="#autorizar-modificações-de-estrutura">Autorizar modificações de estrutura</a></li><li><a href="#puxar-para-refrescar">&quot;Puxar&quot; para refrescar!</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/18/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
