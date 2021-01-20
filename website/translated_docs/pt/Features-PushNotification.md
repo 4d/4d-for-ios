@@ -69,49 +69,49 @@ Por exemplo, em um app Contact, se uma informação específica de contato (*ou 
 
 Aqui um exemplo do comportamento normal,  uma petição `dataSynchro` com o método `open()`:
 
-*Note that for `open()` method exclusively, this is the default behaviour. As a result, if you don't specify the `dataSynchro` boolean value, it is `true` by default.*
+*Note que exclusivamente para o método `open()`, esse é o comportamento padrão. Como resultado, se não especificar o valor booleano `dataSynchro` seu valor por padrão será `true`.*
 
 ```4d
 
 $pushNotification:=MobileAppServer.PushNotification.new()
 
 $notification:=New object
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
+$notification.title:="Este é o título" 
+$notification.body:="Aqui está o conteúdo da notificação" 
 
 $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
 
-However, you can also choose not to force a data synchronization, by preventing `dataSynchro`:
+Entretanto pode escolher não forçar uma sincronização de dados, para prevenir `dataSynchro`:
 
 ```4D 
 
 $pushNotification:=MobileAppServer.PushNotification.new()
 
 $notification:=New object
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
+$notification.title:="Este é o título" 
+$notification.body:="Este é o conteúdo desta notificação" 
 $notification.userInfo:=New object("dataSynchro"; False)
 
 $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
-### Data synchronization with a simple notification
+### Sincronização de dados com uma notificação simples
 
-You can also request a synchronization for a simple notification without opening a specific record. For example, some new entries have been added. You can then inform your user and update the data with no manipulation on their part.
+Também pode se pedir uma sincronização para uma notificação simples, sem abrir um registro específico. Por exemplo, algumas novas entradas foram adicionadas. Pode informar então a seu usuário e atualizar os dados sem manipulação do seu lado.
 
-Here is a code example that you can also use with other methods, as long as you fill the `userInfo` object with `dataSynchro` value.
+Aqui está um exemplo de código que pode usar com outros métodos, desde que preencha o objeto `userInfo` com o valor `dataSynchro`.
 
 ```4d
 
 $pushNotification:=MobileAppServer.PushNotification.new()
 
 $notification:=New object
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
+$notification.title:="Este é o título" 
+$notification.body:="Aqui está o conteúdo da notificação" 
 $notification.userInfo:=New object("dataSynchro"; True)
 
 $response:=$pushNotification.send($notification; $recipients)
