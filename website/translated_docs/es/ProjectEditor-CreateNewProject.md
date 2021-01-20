@@ -15,13 +15,13 @@ title: Nuevo proyecto
 
 Demos un vistazo a cómo funciona 4D for iOS.
 
-Start your 4D application, open your current database, and go to **New > Mobile Project**.
+Inicie su aplicación 4D, abra su base y vaya a **Nuevo > Proyecto móvil**.
 
 De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Name](assets/en/project-editor/Project-creation-4D-for-iOS.png)
 
-La pantalla de bienvenida se muestra automáticamente para ayudarlo a comprender los conceptos básicos de 4D for iOS. You can check the **Do not show again** option and this dialog will no longer be displayed. Haga clic en **Continue**.
+La pantalla de bienvenida se muestra automáticamente para ayudarlo a comprender los conceptos básicos de 4D for iOS. Puede marcar la opción **No volver a mostrar** y este diálogo ya no se mostrará. Haga clic en **Continue**.
 
 ![Welcome Screen](assets/en/project-editor/Welcome-Screen-4D-for-iOS.png)
 

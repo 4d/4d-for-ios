@@ -18,7 +18,7 @@ title: Criar uma ficha em App Store
 
 #### O que é uma identificação (ID) de aplicação?
 
-*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*
+*Uma ID de aplicação é uma string de duas partes usada para identificar um ou mais apps para um único time de desenvolvimento. Esta string consiste de uma ID de Time e uma ID Bundle, com um ponto(.) que separa as duas partes (exemplo: TimeID.BundleID).*
 
 > **NOTA **
 > 
@@ -26,9 +26,9 @@ title: Criar uma ficha em App Store
 > * Se escolher uma conta Apple Developer como uma empresa, tem que esperar até a validação de Apple para criar sua App ID.
 
 
-To create your App ID, go to your developer account and select [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
+Para criar sua ID apple, vá para a conta Desenvolvedor e selecione [Certificates, IDs & Profile](https://developer.apple.com/account/ios/identifier/bundle)
 
-* Click the + sign next to *Register iOS App IDs* to add a new App ID.
+* Clique no símbolo + do lado de *Register iOS App IDs* para agregar um novo identificador de aplicação.
 
 * Defina o nome e Bundle ID de sua aplicação.
 
@@ -38,31 +38,31 @@ To create your App ID, go to your developer account and select [Certificates, ID
 
 ![App Services](assets/en/deploy-app-store/App-Services-to-include.png)
 
-* Confirm your App ID by clicking **Register**.
+* Confirme a identificação de aplicação clicando em **Register**.
 
 ![Confirm App ID](assets/en/deploy-app-store/Confirm-App-ID.png)
 
 ## PASSO 2. Inicie a sessão na App Store Connect
 
 * Inicie a sessão na sua [Conta App Store Connect](https://appstoreconnect.apple.com)
-* Click on **My Apps**.
+* Clique em **My Apps**.
 
 ![App Store Connect](assets/en/deploy-app-store/App-Store-Connect-home-page.png)
 
 ## PASSO 3. Crie uma nova aplicação iOS
 
-Click the **+** sign in the top left corner to create a new iOS App.
+Clique no sinal **+** no canto esquerdo superior para criar uma nova aplicação iOS.
 
 ![Crie uma nova aplicação iOS](assets/en/deploy-app-store/Create-new-iOS-App.png)
 
-Add the following information:
+Agregue a informação abaixo:
 
-* **Platforms**: Select iOS.
-* **Name**: The name of your app.
-* **Primary language**: The main language for your app.
-* **Bundle ID**: Select your App Bundle ID from the dropdown list.
-* **SKU**: A unique ID for your app (this stays private and is not seen by users)
-* **Limit User Access (optional)**: Allows you to limit access to your app to users with App Manager, Developer, Marketer, or Sales roles.
+* **Platforms**: Selecione iOS.
+* **Name**: o nome da aplicação.
+* **Primary language**: o idioma principal de sua aplicação.
+* **Bundle ID**: Selecione a Bundle ID de sua apicação a partir da lista suspensa.
+* **SKU**: Uma identidade única para sua aplicação (isso permanece privado e não pode ser visto pelos usuários)
+* **Limit User Access (opcional)**: Permite que limite o acesso à sua aplicação para os usuários com funções de Administração, Desenvolvedor, Comercial ou Vendas.
 
 ![Change BundleID](assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png)
 
@@ -72,17 +72,17 @@ Add the following information:
 
 ## PASSO 4. Informação sobre a aplicação
 
-From App Store Connect > App Information:
+Em App Store Connect > App Information:
 
 * Define a Privacy Policy URL de sua aplicação (opcional).
-* Enter a subtitle for your app. This will appear below your app's name throughout the App Store in iOS 11.
+* Introduza uma legenda para seu app.  Isso vai aparecer abaixo do nome de sua aplicação na App Store em iOS 11.
 * Selecione uma categoria primária e secundária (opcional) na qual sua aplicação vai aparecer.
 
 ![Informação sobre a aplicação](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
 
 ## PASSO 5. Preços e disponibilidade
 
-This is where you define the price for your app.
+Aqui você define o preço de sua aplicação.
 
 > **DICAS**
 > 
@@ -90,7 +90,7 @@ This is where you define the price for your app.
 
 ## PASSO 6. Prepare para a inscrição
 
-Add all of the assets for your app to appear in the App Store in **Version Information**:
+Agregue todos os recursos de sua aplicação que quiser incluir na App Store em **Version Information**:
 
 > **DICAS**
 > 
@@ -100,25 +100,25 @@ Add all of the assets for your app to appear in the App Store in **Version Infor
 
 * Agregue suas capturas de tela. Capturas de tela para iPhone 5,5" Super Retina Display e iPad 12.9" Retina Display são obrigatórias. Para maiores detalhes, veja [Screenshot specifications](https://help.apple.com/app-store-connect/#/devd274dd925).
 
-* Scroll down and define the **Keywords** and complete the **Description** (this is what users will see in the App Store).
-* You can share updates about your app, including new promotions or in-app purchases, upcoming features or content, limited- time sales, or other events within your app in also add a **Promotional Text** that will appear above your description on the App Store (for customers with devices running iOS 11 or later).
-* Enter a **Support URL** that includes support information for your app. This URL will be visible on the App Store.
-* **Marketing URL** is optional. Isso pode dirigir aos usuários a um website de marketing para sua aplicação.
+* Role a tela para baixo e defina as palavras chaves **Keywords** e complete a **Description** (Isso é o que os usuários verão na App Store).
+* Pode compartir atualizações de sua aplicação, incluídas novas promoções ou funcionalidades ou conteúdo, ofertas por tempo limitado, ou outros eventos dentro de sua aplicação adicionando um **Promotional Text** que aparece acima da sua descrição na App Store (para clientes com dispositivos com iOS 11 ou posterior).
+* Ingresse um **Support URL** que inclua informação sobre compatibilidade para sua aplicação. Esta URL estará visível em App Store.
+* **Marketing URL** é opcional. Isso pode dirigir aos usuários a um website de marketing para sua aplicação.
 
-In the **iOS App section**:
+Na seção **iOS App**:
 
 ![iOS App section](assets/en/deploy-app-store/Prepare-for-submission-build-icon.png)
 
-Locate your build versions in **Build**.
+Localize as versões de seu produto em **Build**.
 
-* In **General App Information** area, enter the Copyright, Version, and Trade Representative Contact Information for your app.
+* Na área **General App Information** ingresse os direitos de autor, a versão e informação de contato de sua aplicação.
 * O ícone de sua aplicação é incluído no projeto gerado 4D para iOS.
 * A classificação etária ou rating é uma propriedade usada para os controles parentais de App Store. Clique Edit e selecione a faixa etária apropriada para sua aplicação.
 
-The **App Review Information** and **Version Release** sections include information required by the App Store. The information provided here will not be seen by users.
+As seções **App Review Information** e **Version Release** incluem informações exigidas pela App Store. A informação oferecida aí não será vista pelos usuários.
 
 ![App Review Information](assets/en/deploy-app-store/Prepare-for-submission-review-information.png)
 
-* **App Review Information**: Confidential contact and security information.
-* **Version Release**: Specifies an automatic or manual publication.
-* Finally, click **Save**.
+* **App Review Information**: Informações confidenciais de contato e de segurança.
+* **Version Release**: especifica uma publicação automática ou manual.
+* Finalmente, clique **Save**.

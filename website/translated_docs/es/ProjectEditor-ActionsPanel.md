@@ -16,17 +16,17 @@ Puede crear una nueva acción haciendo clic en el botón + en la parte inferior 
 
 A continuación, deberá definir lo siguiente:
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. También puede agregar su propio icono siguiendo este [tutorial](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Nombres:** define el nombre de la acción a utilizar en el método base [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) para lanzar su código 4D.
+* **Iconos:** seleccione un icono para su acción de su librería de iconos. También puede agregar su propio icono siguiendo este [tutorial](using-icons.html).
+* **Etiquetas cortas y largas: **las etiquetas para las acciones que se mostrarán en su aplicación.
+* **Tabla:** seleccione la tabla en la que desea aplicar la acción.
+* **Alcance:** seleccione si desea aplicar la acción en una **entidad** o en una **tabla**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
 ### Añada parámetros a su acción
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+Como en **4D v17R6**, puede añadir los **parámetros de acción** y **editar** datos directamente desde su aplicación.
 
 Para cada parámetro, puede editar las siguientes propiedades:
 
@@ -43,7 +43,7 @@ Para cada parámetro, puede editar las siguientes propiedades:
 
 Puede cambiar el orden de los parámetros con solo arrastrar y soltar.
 
-Here are the different **Formats** you can select for a parameter:
+Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 
 <table>
 
@@ -152,31 +152,31 @@ Here are the different **Formats** you can select for a parameter:
 
 #### 1. Acción de añadir
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS simplifica al máximo la creación de **acciones de adición**.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+Lo único que debe hacer es seleccionar la opción **Acción de adición para**, accesible desde el **botón + ** en la parte inferior de la tabla Acciones.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. ¡Y listo!
+Luego **seleccione la tabla** que quiere asociar a la acción añadir. ¡Y listo!
 
-This will **automatically create** all the parameters for you in the Project Editor. En la aplicación generada, esto le permitirá editar cada valor de campo.
+Esto **creará automáticamente** todos los parámetros en el Editor de proyectos. En la aplicación generada, esto le permitirá editar cada valor de campo.
 
-For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
+Para ese tipo de acción, verá que todas las **propiedades** ya están completadas para su conveniencia al lado derecho de la lista de parámetros.
 
 
 #### 2. Acción de edición
 
-**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+La creación de **acciones de edición** sigue el mismo proceso que las acciones de adición, con la excepción de que no podrá definir valores predeterminados desde la sección Acciones.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
 #### 3. Acción de eliminación
 
-**Delete action** creation follows the same process as the Edit action. La única diferencia es que esta acción le permite eliminar una entidad.
+La creación de **acciones de eliminación ** sigue el mismo proceso que las acciones de edición. La única diferencia es que esta acción le permite eliminar una entidad.
 
-To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
+Para crear una acción de eliminación, seleccione la opción **Acción de eliminación para**, accesible desde el **botón + ** en la parte inferior de la tabla Acciones.
 
 Este tipo de acción debe utilizarse con precaución.
 
@@ -184,14 +184,14 @@ Este tipo de acción debe utilizarse con precaución.
 
 Para las acciones de edición y adición, puede modificar:
 
-* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* los parámetros, agregando o eliminando un parámetro utilizando los **botones + y -** en la parte inferior de la lista de parámetros de acciones.
 * las propiedades, definiéndolas como desee.
 
 ### On Mobile App Action
 
 El método base [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) está disponible para llamar a todos sus métodos 4D.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
+Después de crear todas sus acciones, simplemente haga clic en el botón Crear de la tabla Acciones para generar automáticamente un bloque de código *Case of* que incluya todos los nombres de sus acciones en el método *On Mobile App Action*.
 
 > **NOTA**
 > 
@@ -205,11 +205,11 @@ En su aplicación iOS, las acciones están disponibles de diferentes formas en s
 
 ### Formularios Lista en tabla
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. Se muestra un botón "+" si define más de 3 acciones por entidad.
+* **Acción de entidad:** deslice hacia la izquierda en una celda para mostrar las acciones disponibles en un formulario Lista. Se muestra un botón "+" si define más de 3 acciones por entidad.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
+* **Acciones de tabla:** un botón de acciones genéricas está disponible en la barra de navegación para mostrar una lista de acciones de tabla.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
@@ -220,11 +220,11 @@ En su aplicación iOS, las acciones están disponibles de diferentes formas en s
 
 ### Formularios Lista en colección
 
-* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Acción de entidad:**dependiendo de la plantilla seleccionada, las acciones se muestran al hacer clic en un botón genérico o al mantener el clic en una celda.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Acciones de tabla:** como para los formularios Lista en tablas, hay un botón de acciones genérico disponible en la barra de navegación para mostrar una lista de acciones de tabla.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -236,16 +236,16 @@ Como para las acciones de tabla en los formularios detallados, un botón de acci
 
 ### Formularios de edición
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Si ha creado una acción de edición o de adición, tan pronto como la seleccione de la lista de acciones, aparecerá un **formulario de edición**.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
 Desde acá, puede:
 
 * editar todos sus campos seleccionándolos y
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* validar o cancelar sus modificaciones con los botones **Listo** o **Cancelar** (disponibles en la barra de navegación).
 
-For your convenience, the Edition form includes a few **special features**:
+Para su comodidad, el formulario de Edición incluye algunas **funcionalidades especiales**:
 
 * El tipo de teclado depende del tipo de parámetro seleccionado en la sección Actions.
 * Puede ir al campo siguiente o anterior utilizando la flecha en la parte superior del teclado.
@@ -255,8 +255,8 @@ For your convenience, the Edition form includes a few **special features**:
 
 ## ¿Qué hacemos ahora?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Un [tutorial](actions-getting-started.html) está disponible para guiarlo a través del **proceso de definición de una acción**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Otro [tutorial](action-custom-template.html) lo guiará para integrar los **TAG de acción** en las plantillas personalizadas.
 
 * A final [tutorial](using-parameters.html) will guide you through the **action parameters definition**.

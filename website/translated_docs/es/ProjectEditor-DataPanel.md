@@ -5,9 +5,9 @@ title: Datos
 
 Esta sección le permite:
 
-* define the data to include in your app (**Current data file** or **Production server data file**),
-* automatically **regenerate data** each time you build your app or generate it manually, and
-* filter data to vizualize in your app depending on **general filter queries** or **user information**.
+* definir los datos que se incluirán en su aplicación (**Archivo de datos actual** o **Archivo de datos del servidor de producción**),
+* efectuar una **regeneración** automática de datos cada vez que genere su aplicación o efectúe una generación manual, y
+* filtrar los datos para visualizarlos en su aplicación en función de los **filtros de búsqueda generales** o la **información del usuario**.
 
 ![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -15,11 +15,11 @@ Esta sección le permite:
 
 ![Data section](assets/en/project-editor/Data-source-panel-4D-for-iOS.png)
 
-This panel allows you to define your **data source**. You can choose to get data from the **Current data file** or from a **Production server**.
+Este panel le permite definir su **fuente de datos**. Puede elegir obtener datos del **Archivo de datos actual** o de un **Archivo de datos del servidor de producción**.
 
-To secure access to the production server, a **key file** must be generated from the production server and physically communicated to the developer. This **key.mobileapp** file is available next to data in the MobileApps folder. Luego, el desarrollador puede seleccionarlo en el editor del proyecto para acceder a los datos del servidor de producción.
+Para asegurar el acceso al servidor de producción, se debe generar un **archivo key. mobileapp** desde el servidor de producción y se debe comunicar físicamente al desarrollador. Este archivo **key.mobileapp** está disponible en la carpeta MobileApps junto a los datos. Luego, el desarrollador puede seleccionarlo en el editor del proyecto para acceder a los datos del servidor de producción.
 
-The **Production URL** must be entered from the **Publishing section** if you choose to get data from your production server.
+Si elige obtener datos de su servidor de producción, el **URL de producción**debe ingresarse desde la **sección Publicación**.
 
 Aquí, también puede comprobar si el servidor está disponible y activarlo si es necesario.
 
@@ -30,16 +30,16 @@ Aquí, también puede comprobar si el servidor está disponible y activarlo si e
 > * Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.
 
 
-You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
+Puede definir si desea **incluir imágenes** y también si desea **Regenerar datos sistemáticamente** en cada generación.
 
-When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Siempre puede generar sus datos manualmente haciendo clic en el botón **Regenerar ahora**.
 
 
 ## Propiedades
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-In this panel, you can define all the filters for each table based on **defined filter queries** or based on **user parameters**.
+En este panel, puede definir todos los filtros para cada tabla según los **filtros de búsquedas definidos** o según los **parámetros usuario**.
 
 ### Los filtros de búsqueda
 
@@ -49,7 +49,7 @@ Puede definir los filtros por tabla, en función de los valores de campo:
 
 * Entonces, debe validar su búsqueda. Esto debe hacerse cada vez que modifique el filtro de búsqueda (una búsqueda editada y no validada aparece en rojo en el editor de proyecto).
 
-* Finally, check the **Embed data into the built application** option to embed the data into the application when it's built. Deje sin marcar si no desea que los datos estén integrados.
+* Finalmente, marque la opción **Integrar los datos en la aplicación** para integrar los datos en la aplicación cuando se genere. Deje sin marcar si no desea que los datos estén integrados.
 
 Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en un filtro de búsqueda definido.
 

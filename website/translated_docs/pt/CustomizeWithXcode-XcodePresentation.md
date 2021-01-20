@@ -71,37 +71,37 @@ Da esquerda para a direita, estas abas são:
 
 ![Painel Biblioteca](assets/en/customize-with-xcode/Xcode-Library-pane.png)
 
-* **File templates**: These templates are for the common types of files listed as choices in the New File menu.
+* **arquivo modelos**: estes modelos são para os tipos comuns de arquivos listados como opções no menu Novo Arquivo.
 
-* **Code snippets**: These are short pieces of source code for use in your application. Para usar um, arraste-o diretamente em seu arquivo de código fonte.
+* **Código snippets**: Estas são peças curtas de código-fonte para usar em seu aplicativo. Para usar um, arraste-o diretamente em seu arquivo de código fonte.
 
-* **Objects**: This library contains the kinds of interface objects you’d use to make up your user interface. Para adicionar um para a vista, arraste-o diretamente no storyboard no editor Interface Builder.
+* **Objetos**: esta biblioteca contém os tipos de objetos de interface que você usaria para fazer sua interface de usuário. Para adicionar um para a vista, arraste-o diretamente no storyboard no editor Interface Builder.
 
-* **Media files**: This library contains all your graphics, icons, and sound files. Para usar um, arraste-o diretamente para seu storyboard no editor Interface Builder.
+* **Arquivos de Mídia**: Esta biblioteca contém todos os seus gráficos, ícones e arquivos de som. Para usar um, arraste-o diretamente para seu storyboard no editor Interface Builder.
 
 ## Área Debug
 
-This area displays the output and the state of various variables when running your app.
+Esta área exibe o output e o estado de várias variáveis quando estiverem rodando seu app.
 
 ## Área navegação
 
-Several tabs are included here, the most important of which are:
+Várias abas são incluídas aqui, as mais importantes são:
 
-* **Navigation tab**: Lists and provides access to all files necessary for your application to work properly.
+* **Aba Navegação**: Enumera e oferece acesso a todos os arquivos necessários para seu aplicativo funcionar propriamente.
 
 ![Navigation tab](assets/en/customize-with-xcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* **Search navigator tab**: Allows searching all files in the project.
+* **Aba de navegação Search**: Permite pesquisar todos os arquivos no projeto.
 
 ![Search navigator tab](assets/en/customize-with-xcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* **Issue navigator tab**: Displays all errors in an iOS project.
+* **Aba de navegação Issue**: Exibe todos os erros em um projeto iOS.
 
     - Erros em vermelho são problemas críticos que precisam ser corrigidos para construir sua aplicação.
     - Erros em amarelo são avisos sobre problemas que têm potencial de causar problemas mas não bloqueiam a compilação da aplicação.
 
-You can click on errors and warnings to visualize them in the project.
+Pode clicar nos erros e avisos para visualizá-los no projeto.
 
 ![Issue Navigator](assets/en/customize-with-xcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
-Next, we're going to focus on the files included in your 4D for iOS app from the Project navigation tab.
+A seguir, vamos nos focalizar nos arquivos incluídos em seu app 4D for iOS da aba de navegação Projeto.

@@ -30,7 +30,7 @@ Incluye las identificaciones que definen sus áreas de formulario:
 
 * **search ID**: se refiere al área del campo de búsqueda. Esto le permitirá arrastrar y soltar un campo como criterio de búsqueda en su formulario Lista (opcional).
 *  **section ID**: se refiere al área de campo de la sección. Esto le permitirá arrastrar y soltar un campo como criterio de ordenación en su formulario Lista (opcional).
-*  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. Esto le permitirá arrastrar y soltar campos para que aparezcan en las celdas de su formulario Lista.
+*  **f1, f2 y f3**: se refiere a los campos a mostrar en cada celda de su formulario listado. Esto le permitirá arrastrar y soltar campos para que aparezcan en las celdas de su formulario Lista.
 
 ## Posición, alto, ancho y tipo del área
 Puede definir la posición, el alto y ancho para:
@@ -66,7 +66,7 @@ Puede definir la posición, el alto y ancho para:
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar un icono de lupa en el campo de búsqueda
 4. Definir la posición del área de texto y el ancho
-5. Define the droppable field position, height, and width, as well as accepted **field types**
+5. Definir la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 El "searchable field" (campo de búsqueda) es opcional.
@@ -101,7 +101,7 @@ El "searchable field" (campo de búsqueda) es opcional.
 
 1. Posición, alto y ancho del área de fondo
 2. Definir la posición del área de texto y el ancho
-3. Define the droppable field position, height and width as well as accepted **field types**
+3. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 4. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 El campo de sección es opcional.
@@ -133,7 +133,7 @@ El campo de sección es opcional.
 2. Posición, alto y ancho del área de fondo
 3. Icono para mostrar una imagen en el imageField
 4. Definir la posición del área de texto y el ancho
-5. Define the droppable field position, height and width as well as accepted **field types**
+5. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 6. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 ### Área Title Field:
@@ -159,7 +159,7 @@ El campo de sección es opcional.
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Definir la posición del área de texto y el ancho
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 5. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 ### Área Subtitle Field:
@@ -184,7 +184,7 @@ El campo de sección es opcional.
 1. Posición de toda el área Y
 2. Posición, alto y ancho del área de fondo
 3. Definir la posición del área de texto y el ancho
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Defina la posición del campo soltable, su alto y su ancho, así como los **tipos de campos** aceptados
 5. Define un botón de cancelación que se mostrará para eliminar el contenido actual
 
 Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el archivo manifest.json y su archivo **svg**... pasemos a la parte divertida con ¡Xcode!

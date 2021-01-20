@@ -28,9 +28,9 @@ Adicione o título para seu modelo aqui.
 
 Inclui IDs que definem suas áreas formulário:
 
-* **search ID**: Refers to the search field area. Isso permite que arraste e solte um campo como um critério de pesquisa em seu formulário lista (opcional).
-*  **section ID**: Refers to the section field area. Isso permite que arraste e solte um campo como o critério de ordenação em seu formulário lista (opcional).
-*  **f1, f2 and f3 IDs**: Refers to the fields to display in each cell of your list form. Isso permite que arraste e solte campos para aparecer em suas células de formulário lista.
+* **search ID**: Refere a área campo pesquisa. Isso permite que arraste e solte um campo como um critério de pesquisa em seu formulário lista (opcional).
+*  **section ID**: Refere a àrea campo da seção. Isso permite que arraste e solte um campo como o critério de ordenação em seu formulário lista (opcional).
+*  **f1, f2 and f3 IDs**: Refere aos campos a exibir em cada célula do formulário lista. Isso permite que arraste e solte campos para aparecer em suas células de formulário lista.
 
 ## Posição, altura, largura e tipo da Área
 Pode definir a posição, altura e largura para:
@@ -66,7 +66,7 @@ Pode definir a posição, altura e largura para:
 2. Posição fundo, altura e largura da Área
 3. Ícone para exibir um ícone lupa no campo de pesquisa
 4. Define a posição e largura área texto.
-5. Define the droppable field position, height, and width, as well as accepted **field types**
+5. Define a posição, altura e largura dos campos soltáveis, assim como **tipos de campos aceitos**
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 O campo pesquisável é opcional.
@@ -101,7 +101,7 @@ O campo pesquisável é opcional.
 
 1. Posição, altura e largura da Área de fundo
 2. Define a posição e largura área texto.
-3. Define the droppable field position, height and width as well as accepted **field types**
+3. Define a posição do campo soltável, sua altura e largura assim como os  **tipos de campos aceitos**
 4. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 The section field is optional.
@@ -133,7 +133,7 @@ The section field is optional.
 2. Posição, altura e largura da Área de fundo
 3. Ícone para exibir uma imagem no ImageField
 4. Define a posição e largura área texto.
-5. Define the droppable field position, height and width as well as accepted **field types**
+5. Define a posição do campo soltável, sua altura e largura assim como os  **tipos de campos aceitos**
 6. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 ### Área Title Field:
@@ -159,7 +159,7 @@ The section field is optional.
 1. Posição Y toda a área
 2. Posição, altura e largura da Área de fundo
 3. Define a posição e largura área texto.
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Define a posição do campo soltável, sua altura e largura assim como os  **tipos de campos aceitos**
 5. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 ### Área Subtitle Field:
@@ -184,7 +184,7 @@ The section field is optional.
 1. Posição Y toda a área
 2. Posição, altura e largura da Área de fundo
 3. Define a posição e largura área texto.
-4. Define the droppable field position, height and width as well as accepted **field types**
+4. Define a posição do campo soltável, sua altura e largura assim como os  **tipos de campos aceitos**
 5. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!
