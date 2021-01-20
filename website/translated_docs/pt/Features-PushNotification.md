@@ -53,7 +53,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It's as simple as that!
+É simples assim!
 
 
 ## Que fazer agora?
