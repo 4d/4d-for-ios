@@ -76,13 +76,13 @@ Selecione seu Botão e adicione as duas linhas abaixo na área User Defined Runt
 
 * **Value**: `12`
 
-and
+e
 
 * **Key Path**: `layer.masksToBounds`
 
 * **Type**: `Boolean`
 
-* **Value**: Check the box
+* **Value**: selecione a caixa de opção
 
 ![Custom relation color and font](assets/en/relations/Custom-relation-button-Xcode-round-corners.png)
 
@@ -129,7 +129,7 @@ Para indicar no editor de projeto que todos os elementos incluídos nesta vista 
 
 ### adicionar TAGS
 
-Cada elemento de storyboard tem um identificador de Objeto. For example, if you select Field View 2 and go to the **Identity inspector**, you'll see its Object ID:
+Cada elemento de storyboard tem um identificador de Objeto. Por exemplo, se selecionar Field View 2 e for a** identity Inspector**, verá seus identificadores de objetos:
 
 ![Object ID Storyboard](assets/en/relations/Custom-button-object-id-storyboard.png)
 

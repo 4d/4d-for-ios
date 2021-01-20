@@ -214,10 +214,10 @@
         "title": "Desde seu iPhone"
       },
       "authentication": {
-        "title": "Email authentication"
+        "title": "Autenticação com email"
       },
       "push-notification": {
-        "title": "Push notifications"
+        "title": "Notificações Push"
       }
     },
     "links": {

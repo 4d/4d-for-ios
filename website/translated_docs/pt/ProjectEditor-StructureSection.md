@@ -18,11 +18,16 @@ Aqui pode definir um subconjunto de sua estrutura física para replicar os apare
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.
+* 4D 18R6 add the ability to publish Many to One and One to Many relations from your Many to One relations in the Structure section.
+
+This means that you will be able to display Many to Many relations in your app and move directly from a List form to another List form.
+
 
 > **DICAS**
 > 
 > É possível publicar uma seleção de campos pressionando a barra de espaço ao invés de selecionar um por um.
+> 
+> Para lhe ajudar a definir sua estrutura de app, múltiplos filtros e motores de pesquisa estão disponíveis para facilitar a seleção de suas tabelas e campos.
 
 
 ## Relações Um para Muitos
