@@ -24,11 +24,10 @@ The **Production URL** must be entered from the **Publishing section** if you ch
 Here, you can also check if the server is available and activate it if necessary.
 
 > **NOTE**
-> 
+>
 > * Tips are available to help you ensure the server works correctly.
 > * You can directly access the Publishing panel to define your production URL.
 > * To access production server data, a key file is required for secure communications.
-
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build. 
 
@@ -54,11 +53,11 @@ You can define filters per table which depend on field values:
 When a query filter is valid, a funnel icon appears indicating that the defined filter is based on a defined filter query.
 
 > **EXAMPLE** 
-> 
+>
 > In the **Filter query** field enter:
-> 
+>
 > ```FirstName = 'Lisa' & LastName = 'Hart'```
-> 
+>
 > This query allows you to display only the records that include "Lisa" as FirstName and "Hart" as LastName.
 
 
@@ -77,21 +76,20 @@ You can define filters depending on user information which you define in the Mob
 When a query filter is valid, a user icon appears to indicate that the defined filter is based on user information.
 
 > **EXAMPLE**
-> 
+>
 > In the **Filter query** field enter:
-> 
+>
 > CityName = :city
-> 
+>
 > In the [On Mobile App Authentication](http://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method, enter:
-> 
+>
 > ```$response.userInfo:=New object("city";"Paris")```
-> 
-> This query allows you to display only the records which include "Paris" as CityName.
+>
+>This query allows you to display only the records which include "Paris" as CityName.
 
 
 > **NOTE**
-> 
-> You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-
+>
+>You'll find all the rules about query syntax in the [4D documentation](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
 
 

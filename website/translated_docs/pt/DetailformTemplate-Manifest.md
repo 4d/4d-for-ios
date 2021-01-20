@@ -37,8 +37,8 @@ O arquivo manifest inclui informação sobre o modelo de formulário detalhado t
 
 Por exemplo, o arquivo manifesto para o formulário detalhado abaixo inclui as informações seguintes:
 
-1. **Storyboard type:** detailform
-2. **Template Name:** Custom Detail form
+1. **Tipo de Storyboard:** detailform
+2. **Nome modelo:** formulário detalhado personalizado
 3. **Versão:** 2
 4. **hOffset:** o primeiro campo que vai ser duplicado está a 91 píxels a partir do topo
 5. **Número de Campos:** Um campo estático (e 0 para um número infinito de campos duplicados  (uma imagem de cabeçalho e os campos duplicados))

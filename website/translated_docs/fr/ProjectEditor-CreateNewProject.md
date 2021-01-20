@@ -7,11 +7,9 @@ title: Nouveau projet
 > 
 > Se familiariser avec l’éditeur de projet.
 
-
 > **CONDITIONS PRÉALABLES**
 > 
 > Cliquez [ici](prerequisites.html) pour pouvoir commencer !
-
 
 Voyons le fonctionnement de 4D for iOS.
 

@@ -3,15 +3,13 @@ id: contact-app
 title: はじめてのアプリ
 ---
 
+
 > **OBJECTIVES**
 > 
 > Create your first app with 4D for iOS
-
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 

@@ -7,11 +7,9 @@ title: Crear un formato de datos
 > 
 > Crear sus primeros formatos de datos.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-
 
 En este tutorial, lo guiaremos a través de la creación de varios ejemplos de formatos.
 

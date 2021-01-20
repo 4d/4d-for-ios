@@ -7,7 +7,6 @@ title: Install a template
 > 
 > Dowload a template from the gallery and improve it
 
-
 ## Install a template from the Gallery
 
 Go to the form section and select on one of your table to choose a List Form.

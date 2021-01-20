@@ -7,7 +7,6 @@ title: Instalar una plantilla
 > 
 > Descargue una plantilla de la galería y mejórela
 
-
 ## Instalar una plantilla desde la galería
 
 Vaya a la sección Formularios y seleccione una de sus tablas para elegir un formulario Lista.
@@ -19,7 +18,6 @@ Como puede ver, hay un icono "Más" disponible en la parte inferior.
 Simplemente haga clic en ese icono para mostrar la lista completa.
 
 Luego, lo único que tiene que hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
-
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 

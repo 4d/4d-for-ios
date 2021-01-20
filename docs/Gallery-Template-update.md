@@ -4,7 +4,7 @@ title: Update a template
 ---
 
 > **OBJECTIVES**
-> 
+>
 > Open and update a template from the gallery and improve it
 
 ## Open a template 

@@ -4,7 +4,7 @@ title: Distribute your app in-House
 ---
 
 > **OBJECTIVES**
-> 
+>
 > Upload your app to a secured server.
 
 
@@ -19,9 +19,8 @@ Upload your app files to a secured server:
 You can use any cloud storage service to distribute your app as soon as it is secured (Dropbox, Google Drive, etc.).
 
 > **NOTE**
-> 
+>
 > Your asset and ipa URLs must match the URLs defined in your manifest.plist file.
-
 
 ## STEP 2. Create the installation link
 

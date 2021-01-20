@@ -4,9 +4,8 @@ title: Archive and upload your Project
 ---
 
 > **OBJECTIVES**
-> 
+>
 > Archive and upload your project to App Store Connect.
-
 
 ## STEP 1. Xcode configuration
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available. 

@@ -6,7 +6,6 @@ title: Pesquisas limitadas
 > **OBJETIVOS**
 > 
 > Definir os filtros de pesquisa baseados em informações do usuário ou informações básicas para exibir conteúdo no app gerado iOS.
-
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
@@ -35,7 +34,6 @@ Este banco de dados inclui:
 > **NOTA **
 > 
 > Este projeto usa [modelos personalizados ](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [ícones personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) e  [formatadores de dados](https://4d.github.io/4d-for-ios/docs/en/creating-data-formatter.html) personalizados.
-
 
 Estamos prontos para definir nossa primeira pesquisa limitada!
 

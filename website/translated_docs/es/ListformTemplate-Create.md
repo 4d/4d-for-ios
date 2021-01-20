@@ -7,11 +7,9 @@ title: Plantillas de formularios Lista
 > 
 > Crear su primera plantilla de formulario listado.
 
-
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
-
 
 En este tutorial, cubriremos casi todos los aspectos de la creación de una plantilla de formulario listado como: la creación de un formulario listado con una **barra de búsqueda** y una tabla que muestra una **imagen**, un **título**, y un **subtítulo** para cada celda.
 

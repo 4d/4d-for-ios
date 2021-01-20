@@ -7,11 +7,9 @@ title: テンプレートにアクションを追加する
 > 
 > Add actions to custom List and Detail forms templates.
 
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 

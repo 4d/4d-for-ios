@@ -6,12 +6,9 @@ title: アイコン
 > **OBJECTIVES**
 > 
 > Use your own icons in 4D for iOS projects.
-
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
 
 4D for iOS already provides a number of icons in the **Labels & Icons** section for your tables and fields.
 

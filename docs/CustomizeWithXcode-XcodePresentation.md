@@ -4,7 +4,7 @@ title: Xcode Overview
 ---
 
 > **OBJECTIVES**
-> 
+>
 > Ensure a basic understanding of working with Xcode.
 
 Xcode displays various areas that we're going to review:

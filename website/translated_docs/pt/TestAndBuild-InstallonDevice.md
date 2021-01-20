@@ -7,12 +7,10 @@ title: Instalar em seu dispositivo iOS
 > 
 > Instalar uma aplicação 4D for iOS em um aparelho conectado
 
-
 > **PRÉ-REQUISITOS**
-
-* Programa Apple Developer
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado em seu Mac para automatizar a instalação de app (opcional).
-
+> 
+> * Programa Apple Developer
+> * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado em seu Mac para automatizar a instalação de app (opcional).
 
 > **NOTA **
 > 
@@ -36,7 +34,7 @@ Vamos ao processo....
 
 * **Developer Account**: Em Xcode > Preferences > Accounts, adicione sua Apple ID. ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-## PASSO 3. Obtenha uma ID de Time
+## PASSO 3. Obtenha uma ID de Equipe
 
 * Se estiver usando [Free Apple Developer Program](free-developer-account.html) vá para [o passo 4](#step-4-team-id-for-free-account).
 * Se estiver usando um [Apple Developer Program para organizações](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) ou um [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) vá para [o passo 5](#step-5-team-id-for-paid-subscription-account).

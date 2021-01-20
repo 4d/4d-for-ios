@@ -4,9 +4,8 @@ title: Install a template
 ---
 
 > **OBJECTIVES**
-> 
-> Dowload a template from the gallery and improve it
-
+>
+>Dowload a template from the gallery and improve it
 
 ## Install a template from the Gallery
 
