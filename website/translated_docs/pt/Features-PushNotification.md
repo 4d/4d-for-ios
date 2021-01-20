@@ -9,7 +9,7 @@ title: Notificações Push
 
 > **PRÉ-REQUISITOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D single-user and 4D Server.
+> O componente[4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server), que permite empurrar notificações (push), está integrado no 4D monousuário e no 4D Server.
 
 ## O que é uma notificação push?
 
@@ -51,17 +51,17 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It's as simple as that!
+É simples assim!
 
-## Push notification with data synchronization
+## Empurrar notificações co sincronização de dados
 
-With a push notification, you can also launch a synchronization to update your data.
+Com uma notificação push, pode lançar uma sincronização para atualizar seus dados.
 
-For example, if your application has a delivery tracking option, the delivery information will be updated in the database thanks to a notification sent to the customer. This notification, containing a request to synchronize the data, will enable the customer to get the modified data on their smartphone.
+Por exemplo se sua aplicação tiver uma opção de acompanhamento de entrega, a informação de entrega será atualizada no banco de dados graças à notificação enviada ao cliente. Esta notificação, contendo uma petição para sincronizar os dados, vai permitir ao cliente modificar os dados no seu smartphone.
 
-To do so in the 4D Mobile App Server component, you need to specify whether or not you want to force data synchronization in your push notification. Therefore, simply provide the `dataSynchro` boolean value in the `userInfo` object.
+Para fazer isso no componente 4D Mobile App Server, precisa especificar se vai ou não forçar a sincronização de dados em suas notificações push/empurrar. Para isso, simplesmente forneça o valor booleano `dataSynchro` no objeto `userInfo`.
 
-### Data synchronization with a notification opening a record
+### A sincronização de dados abre um registro com uma notificação
 
 By default, a notification opening a record automatically triggers a data synchronization.
 
