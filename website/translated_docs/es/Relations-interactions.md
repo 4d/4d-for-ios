@@ -3,7 +3,7 @@ id: relations-interactions
 title: Relation interactions
 ---
 
-R6 allows to add very nice interaction into your apps. For instance you will be able to publish One to Many and Many to One relation from [Many to one relation](many-to-one-relations.html) !
+R6 permite añadir una interacción muy agradable en sus aplicaciones. Por ejemplo, podrá publicar una relación de Uno a Muchos y de Muchos a Uno desde [Many to one relation](many-to-one-relations.html) !
 
 # Editor de proyecto
 
