@@ -25,14 +25,14 @@ Selecione um modelo para sua primeira tabela. Quando tiver feito isso, aparece a
 
 A versão R6 adiciona o campo Pesquisa adiciona uma funcionalidade com a pesquisa de Barra de Código.
 
-To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
+Para ativar a propriedade basta clicar na lupa e marcar a opção **Barcode Scanner**  !
 
 ![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
 
-This feature will allow two things :
+Essa propriedade permite duas coisas:
 
-* Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
-* Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
+* Filtrar um formulário lista escaneando um código de barras que contenha um valor texto. Isso preenche a Barra de Ferramentas e abre o formulário detalhado só sobrar um valor depois de filtrar.
+* Mostrar formulários específicos listados e detalhados com só escanear um código de barras cujos valores sejam Esquemas URL ou Links Universais depois da ativação da funcionalidade [Deep linking](deep-linking).
 
 ![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
 
