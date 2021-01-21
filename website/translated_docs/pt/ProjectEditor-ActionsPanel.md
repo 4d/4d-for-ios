@@ -68,7 +68,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Área de texto</td><td>Inclui linhas múltiplas de texto em um único campo</td>
 </tr><tr>
-<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+<td>Barcode</td><td>Extrair valor associado ao código de barra. Formatos compatíveis:  EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -139,7 +139,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGENS</th>
 </tr>
 <tr>
-<td>Signature</td><td>Allow to sign with the finger</td>
+<td>Assinatura</td><td>Permitir assinatura com o dedo</td>
 </tr>
 
 </table>
