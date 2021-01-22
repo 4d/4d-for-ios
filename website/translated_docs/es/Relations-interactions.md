@@ -52,13 +52,13 @@ En este ejemplo accedemos a la lista de pedidos desde la lista de Pedidos hacien
 
 * Mostrar relación en los formularios listados para acceder a los formularios detallados relacionados.
 
-In this example we access to the Customer detail form the Orders List and Orders Detail form.
+En este ejemplo accedemos al formulario detallado del cliente, a la lista de pedidos y al formulario detallado de los pedidos.
 
 ![Many to One relation](assets/en/relations/many-to-one-relations.gif)
 
-* Make your field clickable adding a N to One relation and display records number thanks to %length%.
+* Haga que su campo sea cliqueable añadiendo una relación N a Uno y muestre el número de registros gracias a %length%.
 
-In this example the number of product for each One to Many relation in the Category List form is displayed.
+En este ejemplo se muestra el número de productos para cada relación Uno a Muchos en el formulario listado de Categorías.
 
 ![length for one to many](assets/en/relations/length-for-one-to-many.png)
 
