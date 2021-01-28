@@ -39,7 +39,7 @@ Para cada parâmetro, pode editar as propriedades abaixo:
 * Definição campo obrigatória
 * Valor padrão
 
-![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
+![Action-parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
 Você é livre para mudar a ordem dos parâmetros usando arrastar e soltar.
 
@@ -250,15 +250,15 @@ A partir desse ponto, você pode
 Para sua comodidade, o formulário de Edição inclui algumas **funcionalidades especiais**:
 
 * O tipo de teclado depende do tipo de parâmetro selecionado na seção Actions.
-* You can go to the next or previous field using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by touching anywhere outside of a field.
-* Indication is given to the user when a value is not valid.
-* The view focuses on empty mandatory fields when the user clicks the Done button.
+* Pode ir ao próximo campo ou ao anterior, utilizando a flecha na parte superior do teclado.
+* O teclado iOS pode ser fechado tocando em qualquer parte fora de um campo.
+* É indicado ao usuário quando um valor não for válido.
+* A vista foca em campos obrigatórios vazios quando o usuário clicar no botão Pronto.
 
 ## Que fazer agora?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Um [tutorial](actions-getting-started.html) está disponível para guiá-lo através do **processo de definição de uma ação**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Outro [tutorial](action-custom-template.html) o guiará para integrar as **TAG de ação** nos modelos personalizados.
 
-* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
+* Um [tutorial](action-parameters.html) final o guiará ao longo do processo **definição dos parâmetros de uma ação**.
