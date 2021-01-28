@@ -1,6 +1,6 @@
 ---
 id: labels-and-icons
-title: Labels & Icons
+title: Etiquetas e ícones
 ---
 
 Aqui é onde define as propriedades para suas tabelas, campos e relações:
