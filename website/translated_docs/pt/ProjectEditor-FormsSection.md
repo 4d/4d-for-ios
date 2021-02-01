@@ -9,9 +9,9 @@ A seção Formulários lhe permite selecioanr os modelos de formulário Lista e 
 
 Aqui está o detalhamento da tela, de cima para baixo:
 
-* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section.
-* **Available Forms:** Allows switching between template selection and content definition.
+* **Os formulários lista e os formulários detalhados:** permitem mudar entre os formulários Lista e os formulários detalhados para cada tabela.
+* **Tabelas publicadas:** Exibe todas as tabelas publicadas na seção Estrutura.
+* **Formulários Disponíveis:** Permite trocar entre a seleção de modelos e a definição de conteúdo.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -64,7 +64,7 @@ E pode reordenar a qualquer momento seu campo selecionando-o e soltando em qualq
 > * Tipos de campos são automaticamente reconhecidos, salvos e colocados nas áreas apropriadas para você (dependendo do modelo e tipo de campo) quando mudar de modelo.
 
 
-## Gallery
+## Galería
 
 Você provavelmente notou que quando quiser selecionar um modela na seção formulário, um ícone "Mais" está disponível para os formulários lista e formulários detalhes desde 4D v18R3.
 
