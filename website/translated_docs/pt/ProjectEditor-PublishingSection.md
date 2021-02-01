@@ -45,9 +45,9 @@ Pode personalizar esse método de acordo com suas necessidades!
 
 Quando um usuário abrir o app pela primeira vez, um arquivo de sessão é criado e armazenado do lado do arquivo de dados atual na pasta MobileApps.
 
-The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
+The session files are organized and grouped by app folder. O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
 
-Here is an example of a 4D for iOS-generated session file:
+Aqui está um exemplo de um arquivo de sessão gerado para 4D for iOS
 
 ```json
 {
