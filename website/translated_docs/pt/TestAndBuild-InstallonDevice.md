@@ -14,7 +14,7 @@ title: Instalar em seu dispositivo iOS
 
 > **NOTA **
 > 
-> Apple configurator 2 requires **macOS 10.14** or later.
+> Apple configurator 2 exige **macOS 10.14** ou superior.
 
 Dependendo de seus objetivos e preferências, pode escolher se inscrever em um desses programas:
 
