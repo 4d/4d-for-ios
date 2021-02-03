@@ -29,7 +29,6 @@ Aquí, también puede comprobar si el servidor está disponible y activarlo si e
 > * Puede acceder directamente al panel de publicación para definir su URL de producción.
 > * Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.
 
-
 Puede definir si desea **incluir imágenes** y también si desea **Regenerar datos sistemáticamente** en cada generación.
 
 Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Siempre puede generar sus datos manualmente haciendo clic en el botón **Regenerar ahora**.
@@ -92,6 +91,5 @@ Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que ind
 > **NOTA**
 > 
 > Encontrará todas las reglas de sintaxis asociadas a la búsqueda en la [documentación de 4D](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-
 
 

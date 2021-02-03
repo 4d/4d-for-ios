@@ -3,52 +3,52 @@ id: debugging-from-xcode
 title: A partir de Xcode
 ---
 
-If you have issues during the build process, you can open your generated project with Xcode by selecting the **Open the product with Xcode** option from the **Project** Menu.
+Se tiver problemas durante o processo de compilação pode abrir seu projeto gerado com Xcode selecionando a opção**Open the product with Xcode** a partir do menu **Project**
 
 ![Abrir o projeto com Xcode](assets/en/debugging/open-project-Xcode.png)
 
-From here, select **launch your application** in the Simulator by clicking on the **Build** button and get all of the logs at the bottom of the Xcode workspace.
+A partir daí é possível **lançar sua aplicação** no Simulator clicando no botão **Build** e obter todo o histórico no fundo do espaço de trabalho de Xcode.
 
 ![Históricos de Xcode](assets/en/debugging/Xcode-logs.png)
 
 ## Logger (registrador)
 
-A logger is an object that allows you to log and trace operations.
+Um logger é um objeto que permite registrar o log e rastrear.
 
-For this, we use the [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) framework.
+Para isso usamos [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) .
 
-You will find the logger settings definition in your Xcode project/Settings/Settings.plist file.
+Vai encontrar a definição dos parâmetros do logger em  Xcode project/Settings/Settings.plist.
 
 ![Históricos de Xcode](assets/en/debugging/settings-plist-xcode.png)
 
 
 ## Níveis
 
-You can filter and display different log levels in your console by adding log.level to your Settings.plist file.
+Pode filtrar e exibir diferentes níveis do log em seu console, adicionando o log.level em seu arquivo Settings.plist.
 
-To do so, add a row by right clicking inside the Settings.plist file and enter:
-* log.level as **Key**
-* Number as **Type**
-* 3 as **Value** (for example)
+Para fazer isso, adicione uma folha dando um clique direito dentro do arquivo Settings.plist e entre:
+* log.level como Key
+* Number como Type
+* 3 como Value (por exemplo)
 
-The **available values** are:
+Os **valores disponíveis** são os abaixo:
 
 * 0 para verbose
 * 1 para debug
 * 2 para info (valor normal)
-* 3 for warning
-* 4 for error
-* 5 for severe
+* 3 aviso
+* 4 erro
+* 5 severo
 
 ![Nível do histórico](assets/en/debugging/log-level.png)
 
-For this example, if you set the log.level **Value** to 3, you will get **"warning, error and sever"** in your Xcode console.
+Para este exemplo, se estabelecer o valor de log.level para 3, vai obter **um aviso, um erro e severidade** no console  Xcode.
 
 ## Formato
 
 Pode exibir indicadores visuais diferentes no console Xcode para **ressaltar diferentes tipos de log**.
 
-To do so, just open your Xcode project/Settings/Settings.plist file.
+Para fazer isso, precisa abrir  Xcode project/Settings/Settings.plist
 
 ![Formato do histórico](assets/en/debugging/log-format.png)
 

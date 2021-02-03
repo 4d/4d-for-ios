@@ -3,8 +3,8 @@ id: simulator
 title: Using the Simulator
 ---
 
-> **OBJECTIVES**
-> 
+>**OBJECTIVES**
+>
 > Test your app in the Simulator.
 
 Finished developing you app and want to test it?

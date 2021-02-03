@@ -7,7 +7,6 @@ title: Archive and upload your Project
 > 
 > Archive and upload your project to App Store Connect.
 
-
 ## SCHRITT 1. Xcode configuration
 * If you have chosen an Apple Developer Account as an individual, your account is immediately available.
 * If your have chosen an Apple Developer Account as an organization, you must wait for Apple validation.

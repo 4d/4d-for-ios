@@ -41,7 +41,6 @@ Esses elementos serão mostrados em formulários detalhados e lista, dependendo 
 > 
 > * Também pode deixar vazia a área do ícone se não quiser exibir ícones em sua aplicação.
 
-
 ## Propriedades das relações
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)

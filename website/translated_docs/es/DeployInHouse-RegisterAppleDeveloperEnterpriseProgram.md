@@ -7,7 +7,6 @@ title: Apple Developer Enterprise Program
 > 
 > Regístrese al Apple Developer Enterprise Program para desplegar su aplicación <b>de forma interna</b>.
 
-
 > **NOTA**
 > 
 > Para inscribirse al Apple Developer Enterprise Program, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.

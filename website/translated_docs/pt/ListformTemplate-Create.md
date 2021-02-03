@@ -7,11 +7,9 @@ title: Modelos de formulários Lista
 > 
 > Criar seu primeiro modelo de formulário listado.
 
-
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-
 
 Neste tutorial, vamos cobrir quase todos os aspectos da criação de um modelo de lista formulário, tais como: criar um formulário lista com uma **barra de pesquisa** e uma tabela exibindo uma **imagem**, um **título**, e um **subtítulo** para cada célula.
 

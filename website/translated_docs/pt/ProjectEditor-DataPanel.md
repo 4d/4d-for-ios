@@ -30,7 +30,9 @@ Aqui também pode checar se o servidor está disponível e ativá-lo se necessá
 > * Para acessar os dados do servidor de produção, é necessário um arquivo key para assegurar as comunicações.
 
 
+
 Pode definir se deseja **incluir imagens** e também se quer **Regenerar dados sistematicamente** de cada construção.
+
 
 Quando as opções **Não regenerar os dados a cada build** e **Não incluir imagens** estiverem marcadas, pode salvar uma quantidade considera de tempo na construção de seu app. Pode sempre gerar seus dados manualmente clicando no botão **Regenerar agora**.
 
@@ -92,6 +94,5 @@ Quando um filtro de pesquisa for válido, um ícone de usuário aparecer para in
 > **NOTA **
 > 
 > Encontra todas as regras sobre as regras de sintaxe na documentação 4D [](http://livedoc.4d.com/4D-Language-Reference-17-R3/ORDA-DataClass/dataClassquery.301-3907505.en.html).
-
 
 

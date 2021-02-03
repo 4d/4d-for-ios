@@ -39,6 +39,7 @@ Registered developers can download preview releases and prior versions of the su
 | 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
 
 
+
 ### Use 17R6 with macOS 10.14.3
 
 4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)

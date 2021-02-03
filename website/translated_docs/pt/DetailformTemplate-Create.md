@@ -7,11 +7,9 @@ title: Modelos de formulário detalhado
 > 
 > Criar seu primeiro modelo de formulário listado.
 
-
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
-
 
 Neste tutorial, vamos guiá-lo através da criação de um modelo de formulário detalhado. Se mostrará um **cabeçalho de imagem **, assim como **os campos de título e conteúdo** que se duplicarão na aplicação iOS gerada.
 

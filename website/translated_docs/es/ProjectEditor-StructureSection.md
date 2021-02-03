@@ -84,4 +84,3 @@ Desde la configuración del iPhone, ahora puede reinicializar los datos de su ap
 > **NOTA**
 > 
 > Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación
-

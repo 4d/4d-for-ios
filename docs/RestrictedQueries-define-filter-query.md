@@ -21,7 +21,7 @@ You should have this result:
 ![CRM database](assets/en/restricted-queries/filterquery.png)
 
 > **NOTE**
-> 
+>
 > * A **filter** icon is displayed at the right of each table when a basic filter is applied to it.
 > * For these kinds of filter queries, you can choose to embed data into the app or to load the data after login by checking the **Embed data into the built application** checkbox.
 > * Size will be calculated at the first build for you to visualize the **size of your data**.

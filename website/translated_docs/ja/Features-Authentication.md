@@ -7,44 +7,42 @@ title: Email authentication
 > 
 > Integrate email confirmation to authenticate mobile app users
 
-
 > **PREREQUISITES**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server v18 R4.
+> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows email authentication is integrated in 4D mono and 4D server 18R4.
 
+Let your customers and clients feel comfortable logging into their app using the email authentication!
 
-Ensure that your customers and clients feel comfortable logging into their apps with email authentication!
+It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of email.
 
-It provides a way to verify that an email comes from whom it claims to be from and will allow you to block harmful or fraudulent uses of email.
-
-How it works:
+In short, the principle is the following:
 
 ### 1. Activate the login form
 
-Integrate a login form into your app from the project editor, in the Publishing section.
+You integrate a login form into your app, from the project editor in the Publishing section.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
 
 ### 2. Enter your email address
 
-An email address is required when the app is launched. When a user enters their email and clicks on the **Login** button, the **On Mobile app Authentication** method is called and the user's session status is updated to a "pending" status. A validation email is then sent to the user's email address.
+An email is required when the app is launched. When a user enters their email and clicks on the Login button, the On Mobile app Authentication is called and the user's session status should be updated to a "pending" status. A validation email is then sent to the user.
 
 ### 3. Check your mailbox
 
-When the validation email is received, the user only needs to click on the validation link. This will call the **On Web Connection database** method and update the user's session status from "pending" to "accepted".
+When the validation email is available, the user only needs to click on the validation link. This will call the On Web Connection database method and update the user's session status from "pending" to "accepted".
 
 ### 4. Go back to your app
 
-Once validation is completed, the user can reopen their app and click on the **Login** button. The **On Mobile App Authentication** method is called again, but this time the user's session status is "accepted", so access is granted!
+Once the validation is done, the user can reopen their app and click on the Login button. The On Mobile App Authentication is called again but this time, the user's session status is "accepted", so the access is granted!
 
-Simple, right?
+That’s quite simple, right?
 
-To make the validation process simple and secure, 4D for iOS handles:
+So, to make the validation process easier and secure, 4D for iOS handles:
 
 ![Authentication](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-But let's use our special component to see how this works!
+But let's figure out how this works, using our special component!
 
 
 # Using the component
@@ -57,7 +55,7 @@ Let's see how to use it!
 
 ## On Mobile App Authentification
 
-Call the **Mobile App Email Checker** method in the **On Mobile App Authentification** database method with the information provided by the mobile application:
+Call the Mobile **App Email Checker** method in the **On Mobile App Authentification database** method with the information provided by the mobile application:
 
 ```4d
 C_OBJECT($0)
@@ -68,7 +66,7 @@ $0:= Mobile App Email Checker ($1)
 
 ## Mobile App Active Session
 
-Call the **Activate sessions** method in the **On Web Connection** database method with the **Session ID** parameter retrieved from the URL:
+Call the **Activate sessions** method in the **On Web Connection** database method with the Session ID parameter retrieved from the URL:
 
 ```4d
 C_TEXT($1)
@@ -79,12 +77,12 @@ End case
 
 ```
 
-Its as simple as that! You will find more in-depth information about this component in the [component documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially for resources you may use, like HTML templates and settings that you may want to define.
+Its as simple as that! You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about resources you may use, like html templates and settings that you may want to define.
 
 
 # Without the component
 
-Let's take a look at a basic example without using the component.
+We will see here a basic example without using the component.
 
 To do so, here is the code you can use:
 
@@ -192,4 +190,4 @@ And that's it !
 
 ## これからどうする？
 
-We've covered basic email validation in this tutorial. You should now be able to easily access your 4D for iOS app!
+We've covered basic email validation in this tutorial. You should now be able to easily access your 4D for iOS app !

@@ -7,7 +7,6 @@ title: Apple Developer Enterprise Program
 > 
 > Registre-se no Programa Apple Developer Enterprise para lançar seu app <b>in-house</b>.
 
-
 > **NOTA **
 > 
 > Para se inscrever no programa Apple Developer Enterprise, sua Apple ID deve estar associada com um endereço de email usando o nome de domínio de sua organização.

@@ -7,7 +7,6 @@ title: Apple Developer Program para las empresas
 > 
 > Regístrese en el Apple Developer Program como empresa para publicar su aplicación en el **App Store**.
 
-
 > **NOTA**
 > 
 > Para inscribirse en el Programa Apple Developer Program como organización, su identificación de Apple debe estar asociada a una dirección de correo electrónico con el nombre de dominio de su empresa.

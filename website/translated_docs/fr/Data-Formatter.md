@@ -15,6 +15,7 @@ Vous pouvez désormais choisir des formats prédéfinis à partir de la section 
 > * **Booléen** : "Oui" ou "Non", "Faux" ou "Vrai"
 > * **Nombre entier** : Nombre entier, Nombre décimal, Nombre réel, Pourcentage, Nombre ordinal, Monnaie $, Monnaie €, Monnaie ¥, Nombre en lettres
 
+</div>
 
 Commençons par télécharger le Projet Starter :
 

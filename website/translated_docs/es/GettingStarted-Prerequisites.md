@@ -32,6 +32,7 @@ Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
 | 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2  |
 | 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2  |
 
+
 ### Utilización de 17R6 con macOS 10.14.3
 
 4D 17R6 requiere Swift5.0 runtime. (ya instalado con macOS 10.14.4)

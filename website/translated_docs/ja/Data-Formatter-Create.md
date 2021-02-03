@@ -7,11 +7,9 @@ title: カスタムのデータフォーマッター
 > 
 > Create your first data formatters.
 
-
 > **PREREQUISITES**
 > 
 > はじめに[ここ](prerequisites.html)をクリックして，すべての条件が揃っていることを確かめましょう！
-
 
 In this tutorial, we'll guide you through the creation of various formatter examples.
 

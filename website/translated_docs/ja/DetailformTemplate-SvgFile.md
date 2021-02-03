@@ -90,9 +90,9 @@ Now that you have an **icon**, a **basic template description** in the manifest.
 > 
 > All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
-
 > **TIP**
 > 
 > * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
 > 
 > * To include all types, just type `ios:type="all"`.
+

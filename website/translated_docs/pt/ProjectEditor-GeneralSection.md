@@ -31,6 +31,8 @@ Por exemplo, se o nome de sua empresa for "MyCompany" e o nome de sua aplicaçã
 > * **Aqui está o truque:** 4D for iOS determina automaticamente a cor dominante de seu ícone de aplicação e o usa para gerar um esquema de cores personalizado para sua aplicação!
 
 
+
 **Developer:** Este campo é preenchido automaticamente com o nome de sua conta de usuário.
+
 
 **Team:** A ID de Time da sua Conta Developer.

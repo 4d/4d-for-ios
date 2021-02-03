@@ -7,7 +7,6 @@ title: Apple Developer Program pour les entreprises
 > 
 > Souscrire à l'Apple Developer Program en tant qu'entreprise pour publier une application dans l'**App Store**.
 
-
 > **NOTE**
 > 
 > Pour vous inscrire au programme "Apple Developer Enterprise Program", votre identifiant Apple doit être associé à une adresse e-mail en utilisant le nom de domaine de votre entreprise.

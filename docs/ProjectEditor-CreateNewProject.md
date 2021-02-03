@@ -4,14 +4,12 @@ title: New Project
 ---
 
 > **OBJECTIVES**
-> 
-> Get familiar with the Project Editor.
-
+>
+>Get familiar with the Project Editor.
 
 > **PREREQUISITES**
-> 
+>
 > Click [here](prerequisites.html) to see what you'll need to get started!
-
 
 Let's take a look at how 4D for iOS works. 
 
