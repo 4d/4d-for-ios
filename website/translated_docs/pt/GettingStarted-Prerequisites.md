@@ -15,7 +15,6 @@ Xcode 10.2 exige **macOS 10.14** ou superior.
 
 ## Tabela de comparação de tabelas
 
-
 | Xcode  | Swift | iOS  | 4D          | macOS   |
 | ------ | ----- | ---- | ----------- | ------- |
 | 12.4   | 5.3.2 | 14.4 | 18R6 beta   | 10.15.4 |
@@ -32,7 +31,6 @@ Xcode 10.2 exige **macOS 10.14** ou superior.
 | 10.0   | 4.2   | 12   | 17R3        | 10.13.6 |
 | 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
 | 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
-
 
 ### Usando 17R6 com macOS 10.14.3
 
