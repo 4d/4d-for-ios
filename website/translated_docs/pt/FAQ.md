@@ -40,7 +40,6 @@ O editor de projetos móveis foi criado para que seja possível usar 4D for iOS 
 | 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
 | 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
 
-
 Caso precise de uma versão antiga de Xcode pode baixá-la aqui: https://developer.apple.com/download/more/
 
 => Só os desenvolvedores registrados podem descarregar versões prévias através do website de desenvolvedores de Apple.
