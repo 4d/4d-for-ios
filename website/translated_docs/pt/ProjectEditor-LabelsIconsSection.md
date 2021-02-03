@@ -1,16 +1,16 @@
 ---
 id: labels-and-icons
-title: Labels & Icons
+title: Etiquetas e ícones
 ---
 
 Aqui é onde define as propriedades para suas tabelas, campos e relações:
 
-* **Short and long labels:** used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
-* **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. Isso inclui ícones para negócios, finanças, educação, governo, saúde, indústria, imóveis, serviços, etc.
+* **Etiquetas curtas e longas:** usadas de acordo com o espaço disponível no modelo (para otimizar espaço e evitar sobrecarregar a barra de abas).
+* **Icones:** 4D for iOS fornece uma grande biblioteca de ícones embebidos para encontrar suas necessidades. Isso inclui ícones para negócios, finanças, educação, governo, saúde, indústria, imóveis, serviços, etc.
 
-* **Formats:** used to control how the values of the fields are displayed (currencies, percents...)
+* **Formatos:** usada para controlar como os valores dos campos estão disponíveis (moedas, porcentagens...)
 
-* **Title:** used to display a title in the destination view using relations
+* **Título:** usada para exibir um título na vista de destino usando relações
 
 ![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
@@ -29,9 +29,9 @@ Para as tabelas, poderá definir as propriedades abaixo:
 
 Para os campos, poderá definir as propriedades abaixo:
 
-* **Short and Long labels:** used depending on space
+* **Etiquetas curtas e longas:** usadas dependendo do espaço
 * **Ícones**
-* **Formats:** for exemple to display currencies or percentage
+* **Formatos:** por exemplo para exibir moedas ou porcentagens
 
 Esses elementos serão mostrados em formulários detalhados e lista, dependendo no modelo no app gerado.
 
@@ -45,8 +45,8 @@ Esses elementos serão mostrados em formulários detalhados e lista, dependendo 
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-For Relation, you will be able to define the following properties:
+Para Relações, poderá definir as propriedades abaixo:
 
-* **Short and Long labels:** displayed in the Relation button that allows to open a related table
-* **Icons:** displayed at the left of the Relation button
-* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Etiquetas curtas e longas:** exibidas no botão Relação que permite abrir uma tabela relacionada
+* **Icones:** exibidos à esquerda do botão Relação
+* **Título:** será exibido no topo da vista destino quando usar a relação. Um [tutorial](one-to-many-relations-title-definition.html) está disponível para guiá-lo pelo processo de definição de Título
