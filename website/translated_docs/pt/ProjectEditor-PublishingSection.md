@@ -13,7 +13,7 @@ Aqui é onde se define ou cria sua aplicação:
 
 ## Parâmetros de servidor Web
 
-Ative e defina seus portos HTTPS ou HTTP, se ainda não o tiver feito. You can do this by clicking on the **Edit** button.
+Ative e defina seus portos HTTPS ou HTTP, se ainda não o tiver feito. Pode fazer isso clicando no botão **Editar**.
 
 A ativação de porto HTTPS requer que a instalação de certificado funcione corretamente. Pode criar certificados de teste com 4D.
 
@@ -26,28 +26,28 @@ A ativação de porto HTTPS requer que a instalação de certificado funcione co
 
 ## Autenticação
 
-* **Authorized User:** Check the **Login required** option to display a login form when the app starts.
+* **Usuário autorizado:** Marque a opção **Se exige iniciar sessão** para mostrar um formulário de início de sessão quando se inicie a aplicação.
 
-* **Guest:** Leave the **Login required** option unchecked. Não aparecerá nenhum formulário de início de sessão quando se iniciar a aplicação.
+* **Invitado:** deixe a opção **Se exige iniciar sessão** sem marcar. Não aparecerá nenhum formulário de início de sessão quando se iniciar a aplicação.
 
 ## Método de autenticação
 
 ### Método base On Mobile App Authentication
 
-* **Development**: The authentication method allows you to use the app locally.
-* **Deployment**: You must create/edit the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method to authorize specific emails or devices, even in Guest mode.
+* **Desenvolvimento**: O método de autenticação lhe permite utilizar la aplicação localmente.
+* **Lançamento**: Deve criar/editar o método de banco de dados [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) para autorizar emails ou aparelhos, mesmo se em modo Guest.
 
-A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)
+Um modelo está disponível para obter todas as informações necessárias sobre a sessão, assim como a informação de usuário (endereço de email, informação de app, aparelho, ID de time, etc)
 
-You can customize this method according to your needs!
+Pode personalizar esse método de acordo com suas necessidades!
 
 ### Gestão da sessão
 
-When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.
+Quando um usuário abrir o app pela primeira vez, um arquivo de sessão é criado e armazenado do lado do arquivo de dados atual na pasta MobileApps.
 
-The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.
+The session files are organized and grouped by app folder. O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
 
-Here is an example of a 4D for iOS-generated session file:
+Aqui está um exemplo de um arquivo de sessão gerado para 4D for iOS
 
 ```json
 {
