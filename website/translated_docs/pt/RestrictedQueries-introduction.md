@@ -11,13 +11,13 @@ title: Pesquisas limitadas
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
 
 
-In this tutorial, we'll cover **restricted queries** with a simple use case: imagine you're an account manager and you want to consult your *In Progress* contracts simply by connecting to your app with your email address.
+Neste tutorial, vamos falar sobre**pesquisas limitadas ** com um exemplo simples: imagine que você é um gerente de conta e quer consultar seus contratos *Em Progresso* simplesmente com a conexão de seu app com seu endereço de mail.
 
-First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
+Primeiro, a partir da seção Dados, vamos definir um **filtro de pesquisa básico** para exibir apenas contratos *Em Progresso*. Depois vamos aplicar um **filtro baseado na informação de usuário** que depende do email do gerente de conta.
 
 ## Baixe o Starter Project
 
-Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
+Antes de começar, tenha certeza de baixar o **Starter Project** que inclui um arquivo **4DforiOSQueries.4dbase** (um banco de dados demo com um projeto de app móvel pronto para usar)
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
@@ -26,8 +26,8 @@ href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/d
 
 Este banco de dados inclui:
 
-* **CRM table** with all the data we want to display in the generated iOS app
-* **AccountManager table** with basic information about the account managers (email and name).
+* **tabela CRM** com todos os dados que quisermos exibir no app gerado  iOS
+* **tabela AccountManager ** com informação básica sobre os administradores de contas (email e nome).
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
@@ -37,4 +37,4 @@ Este banco de dados inclui:
 
 Estamos prontos para definir nossa primeira pesquisa limitada!
 
-Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
+Abra o projeto móvel cliando em Open > Mobile Project... e selecione o app CRM  > **project.4dmobileapp**.
