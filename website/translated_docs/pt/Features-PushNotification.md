@@ -9,7 +9,7 @@ title: Notificações Push
 
 > **PRÉ-REQUISITOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D mono and 4D server 18R4.
+> O componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite enviar notificações push está integrado em 4D mono usuário e 4D server 18R4.
 
 # O que é uma notificação push?
 
@@ -45,8 +45,8 @@ Este é um exemplo para enviar uma notificação push a `test@4d.com`:
 
 $pushNotification:=MobileAppServer.PushNotification.new() 
 $notification:=New object 
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
+$notification.title:="Este é o título" 
+$notification.body:="Aqui é o conteúdo da notificação" 
 $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
