@@ -61,8 +61,8 @@ Em 4D 17R5, o reload (recarga) de 4D for iOS se torna incremental. Isso signific
 
 Para fazer isso, 4D for iOS precisa de otimizações de estrutura e criar:
 
-* A `__DeletedRecords` table to store deleted records
-* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
+* Uma tabela  `__DeletedRecords` para armazenar registros apagados
+* e campos `__GlobalStamp` para armazenar as modificações para cada tabela publicada em sua aplicação móvel
 
 Tudo que precisa fazer é autorizar que 4D for iOS faça as mudanças de estrutura necessárias para uma atualização de dados móveis otimizada.
 
