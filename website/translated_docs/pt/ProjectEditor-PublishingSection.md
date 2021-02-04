@@ -99,8 +99,8 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 * Crie uma pasta **Componentes** junto ao banco de dados 4D com os dados da aplicação.
 * Coloque o componente **MOBILE SESSION MANAGEMENT** na pasta **Componentes** recém criada.
 * Reinicie 4D.
-* Click on the Execute button from the toolbar
-* In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button.
+* Clique no botão Executar da barra de ferramentas
+* No explorador de métodos 4D, selecione o método **MOBILE SESSION MANAGEMENT** e clique no botão **Executar**.
 * A janela de aplicações aparecerá mostrando todas suas aplicações:
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
@@ -110,16 +110,16 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
 
-* The **Push** button will update the session in memory.
-* The **Refresh** button updates the session list.
+* O botão **Push** atualizará a sessão na memória.
+* O botão **Refresh** atualiza a lista de sessões.
 
 ## Como se vê em um dispositivo
 
 ### Tela de parâmetros
 
-A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
+Uma tela Settings está disponível na barra de abas. Também pode encontrá-la na aba More se necessário (*ou seja.*, seu app tem mais de quatro tabelas).
 
-Settings allows you to:
+Settings permite:
 
 * Consulte sua URL remota e seu estado
 * Fechar a sessão (se estiver conectado como usuário autorizado)
