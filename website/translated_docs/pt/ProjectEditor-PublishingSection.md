@@ -45,7 +45,7 @@ Pode personalizar esse método de acordo com suas necessidades!
 
 Quando um usuário abrir o app pela primeira vez, um arquivo de sessão é criado e armazenado do lado do arquivo de dados atual na pasta MobileApps.
 
-The session files are organized and grouped by app folder. O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
+Os arquivos de sessão são organizados e agrupados pela pasta app O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
 
 Aqui está um exemplo de um arquivo de sessão gerado para 4D for iOS
 
@@ -82,22 +82,22 @@ Aqui está um exemplo de um arquivo de sessão gerado para 4D for iOS
 
 ```
 
-If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+Se quiser a habilidar de validar manualmente o primeiro login para toda sessão de usuário, precisa mudar o status padrão "accepted" para "pending" (aguardando) ao adicionar o método de banco de dados `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 
 ### Componente Mobile Session Management
 
-Sessions can be managed by the **MOBILE SESSION MANAGEMENT**:
+Sessões podem ser gerenciadas com **MOBILE SESSION MANAGEMENT**:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
 href="https://github.com/4d/Mobile-Session-Management/releases/latest">Componente MOBILE SESSION MANAGEMENT</a>
 </div>
 
-* Download and unzip the zip file
-* Go to Build / Components file and get the MOBILE SESSION MANAGEMENT.4dbase
-* Create a **Components** folder next to the 4D database with the app's data.
-* Place the **MOBILE SESSION MANAGEMENT** component in the newly created **Components** folder.
+* Descarregue e descomprima o arquivo zip
+* Vá para o arquivo Gerar/Componentes e obtenha o arquivo MOBILE SESSION MANAGEMENT.4dbase
+* Crie uma pasta **Componentes** junto ao banco de dados 4D com os dados da aplicação.
+* Coloque o componente **MOBILE SESSION MANAGEMENT** na pasta **Componentes** recém criada.
 * Reinicie 4D.
 * Click on the Execute button from the toolbar
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button.
