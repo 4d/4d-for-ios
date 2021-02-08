@@ -18,7 +18,7 @@ title: Custom Login Form
 >
 >Real iOS mobile device (simulator do not simulate camera)
 
-This tutorial will allow you to quickly and easily integrate a custom login form.
+This tutorial will allow you to quickly and easily integrate a custom [login form](https://4d-for-ios.github.io/gallery/#/type/form-login).
 
 *Scenario: You already have a website with authenticated users and you want then to login into their app just by scanning a QRCode*
 
@@ -99,12 +99,11 @@ var $request; $response : Object
 $request:=$1  // Informations provided by mobile application
 $response:=New object  // Informations returned to mobile application
 
-
 $entity:=ds.User.query("login = :1"; $request.email)
 If ($entity.length>0)
 	$password:=$entity.first().password  // Get the password from the table
 	
-	If (Generate digest($password; SHA256 digest; *)=$request.parameters.token)
+	If (Verify password hash($password; $request.parameters.token))
 		// Comparison with what you receive in the request
 		
 		$response.success:=True
@@ -179,12 +178,11 @@ Here we generated a vqrCodeData that is a json that include the user email and t
 // Use storage variable
 $currentUserEmail:=Storage.session.login
 $token:=Storage.session.password
-
-// Token encryption (using base 64 url)
-$digest:=Generate digest($token; SHA256 digest; *)
+$options:=New object("algorithm"; "bcrypt"; "cost"; 4)
+$hash:=Generate password hash($token; $options)
 
 // Process variable creation (json value with mail and encrypted pswd)
-vqrCodeData:=JSON Stringify(New object("email"; $currentUserEmail; "token"; $digest))
+vqrCodeData:=JSON Stringify(New object("email"; $currentUserEmail; "token"; $hash))
 
 // Redirection to the QRcode webpage
 WEB SEND HTTP REDIRECT("/generatedQRCode.shtml")
