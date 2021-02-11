@@ -9,7 +9,7 @@
         "title": "Définir une première action"
       },
       "actions-getting-started": {
-        "title": "Initiation"
+        "title": "Prise en main"
       },
       "action-custom-template": {
         "title": "Ajouter des actions aux modèles"
@@ -250,7 +250,7 @@
     }
   },
   "pages-strings": {
-    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez facilement des applications iOS natives",
+    "Easily create and deploy custom native iOS apps|no description given": "Créez et déployez des Apps iOS natives en toute facilité",
     "Overview|no description given": "Aperçu",
     "Create|no description given": "Créez",
     "Test|no description given": "Testez",
