@@ -29,10 +29,7 @@ Aqui também pode checar se o servidor está disponível e ativá-lo se necessá
 > * Pode acessar diretamente o painel de Publicação para deifnir a URL da produção.
 > * Para acessar os dados do servidor de produção, é necessário um arquivo key para assegurar as comunicações.
 
-
-
 Pode definir se deseja **incluir imagens** e também se quer **Regenerar dados sistematicamente** de cada construção.
-
 
 Quando as opções **Não regenerar os dados a cada build** e **Não incluir imagens** estiverem marcadas, pode salvar uma quantidade considera de tempo na construção de seu app. Pode sempre gerar seus dados manualmente clicando no botão **Regenerar agora**.
 

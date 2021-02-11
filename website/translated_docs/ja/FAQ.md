@@ -40,7 +40,6 @@ title: FAQ
 | 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
 | 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
 
-
 過去バージョンの Xcode は，下記のサイトから入手することができます。 https://developer.apple.com/download/more/
 
 => Only registered developers can download preview releases through the Apple Developer website.

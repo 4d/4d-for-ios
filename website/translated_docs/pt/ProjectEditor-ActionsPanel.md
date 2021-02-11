@@ -146,7 +146,7 @@ Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 
 4D for iOS inclui três ações (pré-definidas) para administrar o conteúdo de sua aplicação:
 
-* Edit
+* Editar
 * Ação de Adicionar
 * Ação de eliminar
 

@@ -10,10 +10,7 @@ title: Usar ícones
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
 
-
 4D for iOS oferece ícones na seção **Etiquetas  &  Ícones** para seus campos e tabelas.
-
-
 
 ![Icon library](assets/en/custom-icons/icon-library.png)
 

@@ -17,7 +17,7 @@ Vá para a aba BUILD do Editor de Projeto e selecione um aparelho iOS (ou seja o
 
 ## PASSO 2. Compile e Execute
 
-Click on the **Build and Run** button.
+Clique no botão **Build and Run**.
 
 ![Compile e Execute](assets/en/test-build/build-and-run-4D-for-iOS.png)
 
