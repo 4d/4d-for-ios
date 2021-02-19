@@ -18,9 +18,9 @@ Aqui pode definir um subconjunto de sua estrutura física para replicar os apare
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
-* 4D 18R6 add the ability to publish Many to One and One to Many relations from your Many to One relations in the Structure section.
+* 4D 18R6 adiciona a habilidade de publicar relações Many to One e One to Many de suas relações Many to One na seção Estrutura.
 
-This means that you will be able to display Many to Many relations in your app and move directly from a List form to another List form.
+Isso significa que poderá exibir relações Many to Many em seu app e mover diretamente de um ofrmulário lista para outro formulário lista.
 
 
 > **DICAS**
@@ -34,9 +34,9 @@ This means that you will be able to display Many to Many relations in your app a
 
 ### Lidar com as relações Um para Muitos a partir do editor de projeto
 
-Now, in recent versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
+Agora, em versões recentes de 4D, pode lidar com  **relações Um para Muitos** e exibir uma lista de campos relacionados em uma nova página.
 
-All you have to do is:
+Tudo o que tem que fazer é:
 
 * publicar ao menos um campo para a tabela alvo (Muitos)
 
@@ -44,7 +44,7 @@ All you have to do is:
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Then, when your related fields are published, they can be used like any other field. So you will be able to:
+Depois quando seus campos relacionados forem publicados, podem ser usados como qualquer outro campo. Assim poderá:
 
 * Definir propriedades de relações na seção [Etiquetas e Ìcones](labels-and-icons.html#relations-properties) .
 
@@ -52,9 +52,9 @@ Then, when your related fields are published, they can be used like any other fi
 
 ### O que será criado no projeto gerado?
 
-Basically a Relation button will be created in detail forms to go straight to the related view.
+Basicamente um botão Relação será criado em formulários detalhados para ir direto à vista relacionada.
 
-[Tutorials](one-to-many-relations.html) are available to help you use One to Many relation in your 4D for iOS project.
+[Tutoriais](one-to-many-relations.html) estão disponíveis para ajudar a usar relações Um para Muitos em seu projeto 4D for iOS.
 
 
 
@@ -62,16 +62,16 @@ Basically a Relation button will be created in detail forms to go straight to th
 
 ### Autorizar modificações de estrutura
 
-In 4D 17R5, the 4D for iOS reload becomes incremental. This means that only new, modified or deleted data from the database will be updated. This is a great optimisation in terms of loading time!
+Em 4D 17R5, o reload (recarga) de 4D for iOS se torna incremental. Isso significa que apenas dados novos, modificados ou apagados do banco de dados serão atualizados. Essa é uma grande melhoria em tempos de carregamento!
 
-To do so, 4D for iOS needs to make structure optimizations and create:
+Para fazer isso, 4D for iOS precisa de otimizações de estrutura e criar:
 
-* A `__DeletedRecords` table to store deleted records
-* and `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
+* Uma tabela  `__DeletedRecords` para armazenar registros apagados
+* e campos `__GlobalStamp` para armazenar as modificações para cada tabela publicada em sua aplicação móvel
 
-All you need to do is enabling 4D for iOS to make the necessary structure adjustments for an optimised mobile data update.
+Tudo que precisa fazer é autorizar que 4D for iOS faça as mudanças de estrutura necessárias para uma atualização de dados móveis otimizada.
 
-Once authorized, 4D for iOS will do all the work for you, and you will fully benefit from all the advantages of incrememental data reload.
+Quando autorizado, 4D for iOS vai fazer todo o trabalho para você, e vai se beneficiar de todas as vantagens de recarga de dados incremental.
 
 > **NOTA **
 > 
@@ -80,11 +80,11 @@ Once authorized, 4D for iOS will do all the work for you, and you will fully ben
 
 ### "Puxar" para refrescar!
 
-iOS app side, your data is updated each time you launch your app and each time your app goes foreground, to get constant updated data.
+do lado do app iOS, seus dados são atualizados a cada vez que lançar seu app e cada vez que seu app for para o primeiro plano.
 
-In normal use, simply swipe down from any listform to reload your data.
+Em uso normal, simplesmente deslizar para baixo em qualquer formulário lista vai refrescar seus dados.
 
-From iPhone settings, you can now reset your app data and find information about your app.
+Nas configurações de iPhone, agora pode resetar os dados de seu app e encontrar informações sobre seu app.
 
 > **NOTA **
 > 

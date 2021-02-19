@@ -68,7 +68,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 </tr><tr>
 <td>Área de texto</td><td>Incluye varias líneas de texto en un solo campo</td>
 </tr><tr>
-<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+<td>Código de barras</td><td>Extraer el valor asociado al código de barras. Formatos soportados: EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -139,7 +139,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 <th colspan="2" style="text-align:center">IMÁGENES</th>
 </tr>
 <tr>
-<td>Signature</td><td>Allow to sign with the finger</td>
+<td>Firma</td><td>Permitir firmar con el dedo</td>
 </tr>
 
 </table>
@@ -197,7 +197,7 @@ Después de crear todas sus acciones, simplemente haga clic en el botón Crear d
 
 > **NOTA**
 > 
-> * Puede refrescar la selección después de ejecutar una acción utilizando`$out.dataSynchro:=True`.
+> * Puede refrescar la selección después de ejecutar una acción utilizando `$out.dataSynchro:=True`.
 > * Puede notificar al usuario de la aplicación cuando se ha ejecutado una acción utilizando `$out.statusText:="Message you want to display"`.
 > * También puede decidir forzar el cierre del formulario de edición utilizando `$out.close:=True`.
 
