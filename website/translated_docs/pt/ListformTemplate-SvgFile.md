@@ -73,13 +73,13 @@ O campo pesquisável é opcional.
 
 > **NOTA **
 > 
-> All Field and Variable Types are available [here](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
+> Todos os tipos de Campo e Variável estão disponíveis [aqui](http://doc.4d.com/4Dv17/4D/17/Field-and-Variable-Types.302-3729410.en.html).
 
 > **DICA**
 > 
 > Para fazer com que a definição de tipo de campo seja mais fácil, 4D for iOS permite que inclua tipos de campo com  **valores positivos** e também excluir tipos de campos com **valores negativos**. Por exemplo, `ios:type="-3,-4"` permite que arraste e solte todos os campos exceto imagens e datas.
 > 
-> To include all types, just type ios:type="all".
+> Para incluir todos os tipos, apenas digite ios:type="all".
 
 ### Área SectionField:
 
@@ -102,7 +102,7 @@ O campo pesquisável é opcional.
 3. Define a posição do campo soltável, sua altura e largura assim como os  **tipos de campos aceitos**
 4. Define um botão cancelar que pode ser exibido para apagar o conteúdo atual
 
-The section field is optional.
+O campo de seção é opcional.
 
 ### Área ImageField:
 
