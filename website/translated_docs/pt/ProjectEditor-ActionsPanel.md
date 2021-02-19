@@ -68,7 +68,7 @@ Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 </tr><tr>
 <td>Área de texto</td><td>Inclui linhas múltiplas de texto em um único campo</td>
 </tr><tr>
-<td>Barcode</td><td>Extrair valor associado ao código de barra. Formatos compatíveis:  EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+<td>Código de barras</td><td>Extrair valor associado ao código de barra. Formatos compatíveis:  EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
