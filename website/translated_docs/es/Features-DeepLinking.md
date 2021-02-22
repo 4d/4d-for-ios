@@ -9,7 +9,7 @@ title: Deep Linking
 
 > **REQUISITOS PREVIOS**
 > 
-> Apple Developer account
+> Cuenta Apple Developer
 
 ¡4D v18 R5 incluye una nueva y gran funcionalidad! Ahora puede compartir el contenido que está viendo con todos sus colegas. ¿Cómo funciona?
 
