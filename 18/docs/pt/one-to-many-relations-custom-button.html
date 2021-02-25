@@ -91,7 +91,7 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 </div>
 <h2><a class="anchor" aria-hidden="true" id="integrar-um-botão"></a><a href="#integrar-um-botão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integrar um botão</h2>
 <p>O primeiro passo é incluir o botão.xib em seu modelo personalizado para que 4D for IOS possa usá-lo.</p>
-<p>To use the button, you just need to drop it in the <code>YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact</code> folder.</p>
+<p>Para usar o botão só precisa soltar na pasta <code>YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact</code>.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Relation-custom-button-path.png" alt="Custom button path"></p>
 <p>O primeiro passo está pronto!</p>
 <h2><a class="anchor" aria-hidden="true" id="modificar-o-botão"></a><a href="#modificar-o-botão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Modificar o botão</h2>
@@ -133,15 +133,15 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 <p>O resultado deve parecer com isto:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-relation-button-round-corners.png" alt="Custom relation color and font"></p>
 <h3><a class="anchor" aria-hidden="true" id="tamanho-e-restrições"></a><a href="#tamanho-e-restrições" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tamanho e restrições</h3>
-<p>Keep in mind that if you <strong>add constraints</strong> into your button, you will also have to modifiy the xib xml file to <strong>add some TAGS</strong> as for custom Detail form templates. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.</p>
+<p>lembre que se você <strong>adicionar restrições</strong> no seu botão, também terá que modificar o arquivo xib xml para <strong>agregar algumas TAGS</strong> como para os formulários detalhados personalizados. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.</p>
 <p>O que é conveniente porque vamos adicionar algumas restrições!</p>
 <h4><a class="anchor" aria-hidden="true" id="adicionar-restrições"></a><a href="#adicionar-restrições" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adicionar restrições</h4>
 <p>Para este tutorial vamos adicionar uma altura de botão porque queremos que fique maior na tela.</p>
 <p>Pásso 1. Primeiro selecione a vista e mude a altura de 123 a 40</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Button-view-height.png" alt="Button view height"></p>
-<p>Passo 2. Double click on the <strong>Top Space Constraint</strong> and change it from 8 to 0</p>
+<p>Passo 2. Dê um duplo clique em <strong>Top Space Constraint</strong> e mude o valor de 8 para 0</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Top-Space-constraint.png" alt="Top Space constraint"></p>
-<p>Passo 3. Do the same thing with <strong>Bottom Space Constraint</strong> and change it from 8 to 0</p>
+<p>Passo 3. Faça a mesma coisa com  <strong>Bottom Space Constraint</strong> e mude seu valor de 8 para 0</p>
 <p>Você deveria obter isto:</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Custom-button-constraints.png" alt="Custom  button constraints"></p>
 <p>Passo 4. Adicione uma restrição de altura de 40</p>
@@ -156,7 +156,7 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 <h4><a class="anchor" aria-hidden="true" id="adicione-uma-tag-para-a-restrição-de-altura"></a><a href="#adicione-uma-tag-para-a-restrição-de-altura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adicione uma tag para a restrição de altura</h4>
 <p>Pásso 1. Selecione-o a partir do Storyboard para obter o identiicador de Objeto.</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-object-ID.png" alt="Horizontal constraint object ID"></p>
-<p>Passo 2. Search for this ID in the xml file and put <strong>TAG-RL-007</strong> instead (a Tag that is not already used).</p>
+<p>Passo 2. Pesquise por essa ID no arquivo xml e coloque no seu lugar <strong>TAG-RL-007</strong>  (uma Tag que ainda não esteja em uso).</p>
 <p>Passo 3. Salve o arquivo xml</p>
 <p><img src="/4d-for-ios/18/docs/assets/en/relations/Horizontal-constraint-xml-file.png" alt="Horizontal constraint xml file"></p>
 <p>Passo 4. Foco em Storyboard para verificar se a restrição foi atualizada corretamente</p>
