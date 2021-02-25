@@ -9,7 +9,7 @@ title: Notifications Push
 
 > **CONDITIONS PRÉALABLES**
 > 
-> Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) qui permet d'envoyer des notifications push est intégré dans 4D mono et 4D Server 18 R4.
+> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D mono and 4D server 18R4.
 
 # Qu'est-ce qu'une notification push ?
 

@@ -45,8 +45,8 @@ Este é um exemplo para enviar uma notificação push a `test@4d.com`:
 
 $pushNotification:=MobileAppServer.PushNotification.new() 
 $notification:=New object 
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
+$notification.title:="Este é o título" 
+$notification.body:="Aqui é o conteúdo da notificação" 
 $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```

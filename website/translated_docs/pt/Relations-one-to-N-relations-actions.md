@@ -7,7 +7,7 @@ title: Relações Um para Muitos - Ações
 > 
 > Vamos agora  **criar uma tarefa para um funcionário específico**.
 
-It is very easy to create an entity using **parent Entity** !
+É fácil criar uma entidade usando **parent Entity** !
 
 Vamos começar baixando o Projeto Starter:
 
@@ -27,7 +27,7 @@ href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5
 
 ## Método On Mobile App Action
 
-The only thing you have to do is defining the **addProject** action in the **On Mobile App Action method** as follows :
+A única coisa que precisa fazer é definir a ação **addProject** no método **On Mobile App Action** como abaixo :
 
 ```4d
 : ($request.action="addProjects")
@@ -46,7 +46,7 @@ $result:=addProject ($o)
 ## Método addProject
 
 
-Then enter thoses lines in your **addProject Method**:
+Agora entre estas linhas em seu método **addProject**:
 
 ```4d
 C_OBJECT($0)
@@ -95,7 +95,7 @@ $0:=$out
 
 ```
 
-And that's it you can then add some task to your employees easily using the parent Entity !
+E isso é tudo, agora pode adicionar uma tarefa para seus funcionários facilmente usando a Entity pai!
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"

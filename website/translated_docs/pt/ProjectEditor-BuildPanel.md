@@ -7,15 +7,15 @@ Quando sua aplicação estiver pronta, pode lançá-la no Simulador para testá-
 
 Vamos olhar mais de perto as opções da aba  Build
 
-* **Build and Run:** Launches the app in the Simulator.
+* **Criar e executar:** lança a aplicação no simulador.
 
-* **iPhone X:** The default Simulator. Ao clicar aqui, se mostrará uma lista dropdown com todos os simuladores disponíveis.
+* **iPhone X:** simulador por padrão Ao clicar aqui, se mostrará uma lista dropdown com todos os simuladores disponíveis.
 
-* **Project:** Reveals a dropdown list where you can **open the project folder** or **product folder**, or **open the product with Xcode**.
+* **Projet:** mostra uma lista suspensa onde pode **abrir a pasta do projeto** ou a **pasta de produto**, ou **abrir o produto com Xcode**.
 
-* **Install:** Installs the application on a connected device.
+* **Install:** instala a aplicação em um dispositivo conectado.
 
-Select a Simulator on which to build and test your app, and press the **Build and Run** button.
+Selecione um simulador no qual vai gerar e testar seu app e pressione o botão **Criar e executar**.
 
 ![BuildTab](assets/en/project-editor/Build-Tab-4D-for-iOS.png)
 
