@@ -7,6 +7,10 @@ title: Deep Linking
 > 
 > Partager le contenu de l'application iOS à l'aide de Deep Linking.
 
+> **CONDITIONS PRÉALABLES**
+> 
+> Apple Developer account
+
 4D v18 R5 inclut une extraordinaire nouvelle fonctionnalité ! Vous pouvez désormais partager le contenu que vous visualisez actuellement avec tous vos collègues. Comment ça marche ?
 
 Voici une illustration illustrant le "deep linking" :

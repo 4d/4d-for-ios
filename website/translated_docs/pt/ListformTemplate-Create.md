@@ -24,7 +24,7 @@ Antes de começar, baixe o **Starter Project** que inclui:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROJETO STARTER LISTFORM</a>
 </div>
 
 Já está pronto para criar seu primeiro modelo de formulário lista!
