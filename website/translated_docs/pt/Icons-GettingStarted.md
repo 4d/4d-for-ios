@@ -5,7 +5,7 @@ title: Usar ícones
 
 > **OBJETIVOS**
 > 
-> Use your own icons in 4D for iOS projects.
+> Usar seus próprios ícones em projetos 4D for iOS.
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
