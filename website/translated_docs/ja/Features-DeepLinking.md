@@ -9,7 +9,7 @@ title: Deep Linking
 
 > **PREREQUISITES**
 > 
-> Apple Developer account
+> アップルデベロッパーのアカウント
 
 4D v18 R5 includes a new great feature! You're now able to share the content that you're currently viewing with all of your collegues. How does it work?
 
