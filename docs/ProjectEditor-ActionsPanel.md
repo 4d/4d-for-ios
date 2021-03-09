@@ -205,7 +205,7 @@ After creating all of your actions, just click on the Create button from the Act
 
 ### Offline mode actions
 
-Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline and that will be synchronised once they’re online. 
+Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline, and that will be synchronised once the user is online. 
 
 For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible. 
 
