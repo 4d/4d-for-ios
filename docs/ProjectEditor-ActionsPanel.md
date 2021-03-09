@@ -202,6 +202,7 @@ After creating all of your actions, just click on the Create button from the Act
 > * You can also decide to force close the Edition form using ```$out.close:=True```.
 
 
+
 ### Offline mode actions
 
 Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline and that will be synchronised once they’re online. 
