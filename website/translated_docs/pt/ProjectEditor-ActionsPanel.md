@@ -201,6 +201,33 @@ Depois de criar todas as suas ações, simplesmente clique no botão Criar da ta
 > * Pode notificar o usuário da aplicação sobre quando uma ação tiver sido executada usando `$out.statusText:="Mensagem que quer exibir"`.
 > * Pode decidir fechar à força o formulário Edition usando `$out.close:=True`.
 
+
+
+### Ações modo offline
+
+Ações Offline são petições de Action (Add, Edit, Delete) enviadas pelo usuário quando trabalharem no app iOS offline e que serão sincronizadas quando o usuário estiver online.
+
+Por exemplo, um usuário pode executar várias ações relacionadas a seus dados (adicionar um nome de contato, editar um número de telefone, apagar uma fatura antiga, etc) em seu app iOS mesmo se estiverem offline ou se não puderem contactar o servidor, e terem todas as ações pendentes sincronizarem consistentemente assim que a rede estiver acessível.
+
+Para fazer isso, todas as ações pendentes serão visualizadas e abertas com:
+
+•   *Tela de Configurações*
+
+Exibe um sumário e a história de todas as ações pendentes ou completas na aba "Request log".
+
+![Action section](assets/en/project-editor/settings-screen.png)
+
+•   *Formulários Lista & Detalhado*
+
+Exibe todas as petições pendentes relacionadas à tabela ou à entidade que está vendo no momento.
+
+![Action section](assets/en/project-editor/list-detail-form.png)
+
+> **Nota**
+> 
+> A ação pré-definida "Share" só é executável no modo online.
+
+
 ## Aplicação iOS
 
 Em sua aplicação iOS, as ações estão disponíveis de diferentes formas em seus formulários listados e detalhados, segundo os modelos que selecionar na seção Formulários.
