@@ -214,12 +214,10 @@ If it is executable, then all pending actions will be visualized and opened by t
 ![Action section](assets/en/project-editor/settingsScreen.png)
 ![Action section](assets/en/project-editor/settingsDetails.png)
 
-•	List forms
+•	List & Detail forms
 
 ![Action section](assets/en/project-editor/tablePendingActions.png)
 ![Action section](assets/en/project-editor/tablePendingActionsDetail.png)
-
-•	Detail forms
 
 ![Action section](assets/en/project-editor/entityPendingAction.png)
 ![Action section](assets/en/project-editor/pendingActionDetail.png)
