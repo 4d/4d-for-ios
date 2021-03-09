@@ -218,7 +218,7 @@ It dispalys a summary and a history of all pending and completed actions under t
 
 •	*The List & Detail forms*
 
-You can chose to display the actions by table or by entity.
+They display all the pending requests related to the table or to the entity that you are currently viewing.
 
 ![Action section](assets/en/project-editor/list-detail-form.png)
 
