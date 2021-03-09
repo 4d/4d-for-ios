@@ -201,6 +201,33 @@ After creating all of your actions, just click on the Create button from the Act
 > * You can notify the app user when action has been executed using `$out.statusText:="Message you want to display"`.
 > * You can also decide to force close the Edition form using `$out.close:=True`.
 
+
+
+### Offline mode actions
+
+Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline, and that will be synchronised once the user is online.
+
+For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible.
+
+To do so, all pending actions will be visualized and opened from:
+
+•   *The Settings screen*
+
+It dispalys a summary and a history of all pending and completed actions under the "Request log" tab.
+
+![Action section](assets/en/project-editor/settings-screen.png)
+
+•   *The List & Detail forms*
+
+They display all the pending requests related to the table or to the entity that you are currently viewing.
+
+![Action section](assets/en/project-editor/list-detail-form.png)
+
+> **Note**
+> 
+> The "Share" predefined action is only executable online.
+
+
 ## iOS app Side
 
 In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
