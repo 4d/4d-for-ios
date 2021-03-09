@@ -222,6 +222,10 @@ You can chose to display the actions by table or by entity.
 
 ![Action section](assets/en/project-editor/list-detail-form.png)
 
+> **Note**
+>
+> The "Share" predefined action is only executable online.
+
 
 ## iOS app Side
 
