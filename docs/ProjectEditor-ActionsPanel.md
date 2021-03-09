@@ -208,19 +208,16 @@ Offline actions are Action requests (Add, Edit, Delete) sent by the user when th
 For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible. 
 
 To do so, you just need to indicate, in the project editor, if an action can be executed offline. 
-If it is executable, then all pending actions will be visualized and opened by the user from 3 levels in the app:
+If it is executable, then all pending actions will be visualized and opened by the user from 2 levels in the app:
+
 •	The Settings screen
 
-![Action section](assets/en/project-editor/settingsScreen.png)
-![Action section](assets/en/project-editor/settingsDetails.png)
+![Action section](assets/en/project-editor/settings-screen.png)
 
-•	List & Detail forms
+•	The List & Detail forms
 
-![Action section](assets/en/project-editor/tablePendingActions.png)
-![Action section](assets/en/project-editor/tablePendingActionsDetail.png)
+![Action section](assets/en/project-editor/list-detail-form.png)
 
-![Action section](assets/en/project-editor/entityPendingAction.png)
-![Action section](assets/en/project-editor/pendingActionDetail.png)
 
 ## iOS app Side
 
