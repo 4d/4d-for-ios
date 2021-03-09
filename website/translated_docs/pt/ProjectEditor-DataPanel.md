@@ -7,7 +7,7 @@ Esta seção permite que:
 
 * defina os dados a incluir em sua aplicação (**Arquivo de dados atual** ou **Arquivo de dados de servidor de produção**),
 * efetue uma **regeneração** automática de dados cada vez que gere sua aplicação ou efetue uma geração manual, e
-* filtre os dados para visualizá-los em sua aplicação em função dos **filtros de pesquisa gerais** ou a **informação de usuário**.
+* filter the data to vizualize in your app depending on the **general filter queries** or the **user information**.
 
 ![Data section](assets/en/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -17,28 +17,28 @@ Esta seção permite que:
 
 Este painel permite definir sua **fonte de dados**. Pode escolher obter dados de **Arquivo de dados atual** ou de um **Arquivo de dados de servidor de produção**.
 
-Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo key. mobileapp** desde o servidor de produção e se deve comunicar fisicamente ao desenvolvedor. Este arquivo **key.mobileapp** está disponível do lado da pasta MobileApps. Então o desenvolvedor pode selecionar a partir do editor de projeto para acessar dados do servidor de produção.
+Para assegurar o acesso ao servidor de produção, se deve gerar um **arquivo key. mobileapp** desde o servidor de produção e se deve comunicar fisicamente ao desenvolvedor. This **key.mobileapp** file is available next to the data, in the MobileApps folder. Then, the developer can select it from the project editor to access to the production server data.
 
 Se escolher obter dados de seu servidor de produção a **URL de produção** deve ser ingressada a partir da seção **Publicação**
 
-Aqui também pode checar se o servidor está disponível e ativá-lo se necessário.
+Here, you can also check if the server is available and choose to activate it, if necessary.
 
 > **NOTA **
 > 
-> * Dicas estão disponíveis para ajudar a assegurar que o servidor funcione corretamente.
+> * Tips are available to help you ensure that the server works correctly.
 > * Pode acessar diretamente o painel de Publicação para deifnir a URL da produção.
 > * Para acessar os dados do servidor de produção, é necessário um arquivo key para assegurar as comunicações.
 
-Pode definir se deseja **incluir imagens** e também se quer **Regenerar dados sistematicamente** de cada construção.
+You can define if you want to **include images** and or to **Regenerate data systematically** at each build.
 
-Quando as opções **Não regenerar os dados a cada build** e **Não incluir imagens** estiverem marcadas, pode salvar uma quantidade considera de tempo na construção de seu app. Pode sempre gerar seus dados manualmente clicando no botão **Regenerar agora**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time to build your app. Pode sempre gerar seus dados manualmente clicando no botão **Regenerar agora**.
 
 
 ## Painel Propriedades
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-Neste painel pode definir todos os filtros para cada tabela baseado no **filtros de pesquisa definidos** ou baseados em **parâmetros usuário**.
+In this panel, you can define all the filters for each table, based on **defined filter queries** or on **user parameters**.
 
 ### Filtros de pesquisa
 
@@ -48,9 +48,9 @@ Pode definir os filtros por tabela, em função dos valores de campo:
 
 * Daí precisa validar sua pesquisa. Isso deve ser feito cada vez que modificar o filtro de pesquisa (uma pesquisa editada e não validada aparece em vermelho no editor de projeto).
 
-* Finalmente, marque a opção **Integrar os dados na aplicação** para integrar os dados na aplicação quando for gerado. Deixe sem marcar se não quiser que os dados sejam integrados.
+* Finally, check the **Embed data into the built application** option to embed the data into the application once it's built. Deixe sem marcar se não quiser que os dados sejam integrados.
 
-Quando um filtro de pesquisa for válido, um ícone funil aparece indicando que o filtro definido é baseado em um filtro de pesquisa definido.
+When a query filter is valid, a funnel icon appears, indicating that the defined filter is based on a defined filter query.
 
 > **EXEMPLO** 
 > 
@@ -63,7 +63,7 @@ Quando um filtro de pesquisa for válido, um ícone funil aparece indicando que 
 
 ### Filtrado com filtros de informação de usuário
 
-Pode definir filtros dependendo da informação de usuário que definir no método Mobile App Authentication:
+You can define filters depending on the user information that you define in the Mobile App Authentication method:
 
 * Da mesma forma que com filtros de pesquisa, primeiro deve definir sua pesquisa no campo apropriado.
 
