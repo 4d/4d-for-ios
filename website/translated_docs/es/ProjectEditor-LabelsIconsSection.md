@@ -31,9 +31,9 @@ Para los campos, podrá definir las siguientes propiedades:
 
 * **Etiquetas cortas y largas:** utilizadas según el espacio
 * **Iconos**
-* **Formatos:** por ejemplo para mostrar monedas o porcentajes
+* **Formats:** usedto display currencies or percentage, for instance.
 
-Esos elementos se mostrarán en formularios detallados y en formularios listados, dependiendo de la plantilla en la aplicación generada.
+These elements will be displayed in detail and list forms, depending on the template of the generated app.
 
 > **RECOMENDACIONES**
 > 
@@ -49,4 +49,4 @@ Para las relaciones, podrá definir las siguientes propiedades:
 
 * **Etiquetas cortas y largas:** se muestran en el botón Relación que permite abrir una tabla relacionada
 * **Iconos:** se muestra a la izquierda del botón Relación
-* **Título:** que se mostrará en la parte superior de la vista de destino al usar una relación. Un [tutorial](one-to-many-relations-title-definition.html) está disponible para guiarlo a través del proceso de definición de un título
+* **Title:** displayed on top of the destination view when using a relation. Un [tutorial](one-to-many-relations-title-definition.html) está disponible para guiarlo a través del proceso de definición de un título

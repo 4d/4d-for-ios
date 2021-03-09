@@ -3,18 +3,18 @@ id: structure
 title: Structure
 ---
 
-Esta sección muestra todas las tablas y los campos de su base de datos.
+This section displays all your database tables and fields exposed by 4D Mobile Service.
 
 ![Sección Structure](assets/en/project-editor/Structure-section-4D-for-iOS.png)
 
 Aquí, puede definir un subconjunto de su estructura física para reproducir en dispositivos móviles seleccionando tablas y campos específicos. El seleccionado:
 
 * las tablas seleccionadas se agregarán automáticamente a las pestañas de su aplicación.
-* los campos seleccionados estarán disponibles más adelante, cuando sea el momento de definir sus formularios Lista y sus formularios detallados.
+* fields will be available later when you will need to define your list and detail forms.
 
 ## Relaciones Muchos a Uno
 
-* 4D 17R5 le permite visualizar las relaciones de la tabla en la aplicación generada y publicarlas desde la sección Estructura. Luego, cuando se publican los campos relacionados, se pueden utilizar como cualquier otro campo en la [creación de una aplicación](many-to-one-relations.html).
+* 4D 17R5 allows you to visualize table relations in the generated app by publishing them from the Structure section. Then, when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
 
 ![Publish related tables](assets/en/project-editor/Structure-section-N-to-1-relations-4D-for-iOS.png)
 
@@ -27,32 +27,32 @@ Esto significa que podrá mostrar relaciones de muchos a muchos en su aplicació
 > 
 > Puede publicar una selección de campos presionando la barra espaciadora, en lugar de seleccionarlos uno por uno.
 > 
-> Para ayudarlo a definir la estructura de su aplicación, hay varios filtros y un motor de búsqueda disponibles para facilitar la selección de sus tablas y campos.
+> To help you define your app's structure, multiple filters and a search engine are available to make the selection of your tables and field easier.
 
 
 ## Relaciones Uno a Muchos
 
 ### Tratar las relaciones de Uno a Muchos desde el editor del proyecto
 
-Ahora, en versiones recientes de 4D, puede tratar con **Relaciones Uno a Muchos** y mostrar una lista de campos relacionados en una página nueva.
+In the latest versions of 4D, you can deal with **One to Many relations** and display a list of related fields in a new page.
 
-Todo lo que tiene que hacer es:
+All you need to do is:
 
-* publicar al menos un campo de la tabla de destino (Muchos)
+* Publishing at least one field of the target (Many) table
 
-* publicar la relación de la tabla fuente (Uno)
+* Publishing the relation from the source (One) table
 
 ![Drop relation in detail form](assets/en/project-editor/Structure-1-to-N-relations-4D-for-iOS.png)
 
-Luego, cuando se publican sus campos relacionados, se pueden utilizar como cualquier otro campo. Entonces podrá:
+Luego, cuando se publican sus campos relacionados, se pueden utilizar como cualquier otro campo. You will then be able to:
 
 * Definir las propiedades de las relaciones en la sección [ Etiquetas e iconos](labels-and-icons.html#relations-properties).
 
-* Suelte la relación Uno a Muchos en un formulario detallado de la Sección Formularios para crear un enlace entre un formulario detallado y una tabla relacionada.
+* Drop the One to Many relation in a Detail form from the Forms Section? to create a link between a detail form and a related table.
 
 ### ¿Qué se creará en el proyecto generado?
 
-Básicamente, se creará un botón Relación en los formularios detallados para ir directamente a la vista relacionada.
+Basically, a Relation button will be created in detail forms to go straight to the related view.
 
 [Tutoriales](one-to-many-relations.html) están disponibles para ayudarlo a utilizar la relación Uno a Muchos en su proyecto 4D for iOS.
 
@@ -67,7 +67,7 @@ En 4D 17 R5, la recarga de 4D for iOS se vuelve incremental. Esto significa que 
 Para hacerlo, 4D for iOS debe optimizar la estructura y crear:
 
 * Una tabla `__DeletedRecords` para almacenar los registros borrados
-* y campos `__GlobalStamp` para almacenar las modificaciones para cada tabla publicada en su aplicación móvil
+* `__GlobalStamp` fields to store modification stamps for each published table in your mobile application
 
 Todo lo que necesita hacer es permitir que 4D for iOS realice los ajustes de estructura necesarios para una actualización optimizada de datos móviles.
 
@@ -88,4 +88,4 @@ Desde la configuración del iPhone, ahora puede reinicializar los datos de su ap
 
 > **NOTA**
 > 
-> Tan pronto como el administrador realice una operación de mantenimiento importante, deberá alertar a los usuarios de la aplicación 4D for iOS que se requiere una recarga completa: Recuperación por etiqueta / Restauración / Compactación
+> As soon as the admin performs an important maintenance operation, they shall alert 4D for iOS app users that a Full reload is required: Recover by tag / Restoration / Compaction
