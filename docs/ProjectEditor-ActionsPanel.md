@@ -202,6 +202,27 @@ After creating all of your actions, just click on the Create button from the Act
 > * You can also decide to force close the Edition form using ```$out.close:=True```.
 
 
+### Offline mode actions
+
+Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline and that will be synchronised once they’re online. 
+
+For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible. 
+
+To do so, all pending actions will be visualized and opened by the user from:
+
+•	*The Settings screen*
+
+It dispalys a summary and a history of all pending and completed actions under the "Request log" tab.
+
+![Action section](assets/en/project-editor/settings-screen.png)
+
+•	*The List & Detail forms*
+
+You can chose to display the actions by table or by entity.
+
+![Action section](assets/en/project-editor/list-detail-form.png)
+
+
 ## iOS app Side
 
 In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section. 
@@ -255,26 +276,6 @@ For your convenience, the Edition form includes a few **special features**:
 * The iOS keyboard can be closed by touching anywhere outside of a field.
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
-
-### Offline mode actions
-
-Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline and that will be synchronised once they’re online. 
-
-For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible. 
-
-To do so, all pending actions will be visualized and opened by the user from:
-
-•	*The Settings screen
-
-It dispalys a summary and a history of all pending and completed actions under the "Request log" tab.
-
-![Action section](assets/en/project-editor/settings-screen.png)
-
-•	*The List & Detail forms*
-
-You can chose to display the actions by table or by entity.
-
-![Action section](assets/en/project-editor/list-detail-form.png)
 
 ## Where to go from here?
 
