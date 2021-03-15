@@ -205,7 +205,7 @@ Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, sit
 
 ### Offline mode actions
 
-The offline actions feature enables the user of an iOS app to send action requests to the server even if he’s working offline (adding a customer's phone number, uploading a picture, sending an invoice, deleting an adress, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the completed actions list.
+The offline actions feature enables the user of an iOS app to send action requests to the server even if he’s working offline (adding a customer's phone number, uploading a picture, sending an invoice, deleting an adress, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
 
 Pending actions can be visualized and opened from:
 
