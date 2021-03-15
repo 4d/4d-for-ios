@@ -205,23 +205,21 @@ After creating all of your actions, just click on the Create button from the Act
 
 ### Offline mode actions
 
-Offline actions are Action requests (Add, Edit, Delete) sent by the user when they’re working on their iOS app offline, and that will be synchronised once the user is online. 
+Offline actions enable the user of an iOS app to send action requests to the server even if he’s working offline or if the network is unreachable. When they are sent to the server, these actions are placed in the Pending actions list, until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and visible.
 
-For example, a user can execute several actions related to their data (add a contact name, edit a phone number, delete an old invoice, etc.) on their iOS app even if they are offline or if the server is unreachable, and have all these pending actions consistently synchronised as soon as the network is accessible. 
-
-To do so, all pending actions will be visualized and opened from:
+All pending actions can be visualized and opened from:
 
 •	*The Settings screen*
 
-It dispalys a summary and a history of all pending and completed actions under the "Request log" tab.
+It displays a summary and a history of all pending and completed actions.
 
-![Action section](assets/en/project-editor/settings-screen.png)
+![Action section](assets/en/project-editor/Settings-screen-all.png)
 
 •	*The List & Detail forms*
 
 They display all the pending requests related to the table or to the entity that you are currently viewing.
 
-![Action section](assets/en/project-editor/list-detail-form.png)
+![Action section](assets/en/project-editor/detail.png)
 
 > **Note**
 >
