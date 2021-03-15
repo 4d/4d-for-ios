@@ -31,7 +31,7 @@ Para los campos, podrá definir las siguientes propiedades:
 
 * **Etiquetas cortas y largas:** utilizadas según el espacio
 * **Iconos**
-* **Formats:** usedto display currencies or percentage, for instance.
+* **Formatos:** utilizado para mostrar monedas o porcentajes, por ejemplo.
 
 These elements will be displayed in detail and list forms, depending on the template of the generated app.
 
