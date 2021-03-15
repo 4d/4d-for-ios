@@ -127,7 +127,7 @@ Y por último, definimos el formulario detallado.
 
 * Haga clic en la pestaña **Generar**.
 * Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.
-* Click  **Build and Run**.
+* Haga clic en  **Generar y ejecutar**.
 * Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!
 
 ![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
