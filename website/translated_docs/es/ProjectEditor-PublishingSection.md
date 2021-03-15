@@ -13,9 +13,9 @@ Aquí es donde se define o crea su aplicación:
 
 ## Parámetros del servidor web
 
-If you haven't done it yet, activate and define your HTTPS and/or HTTP ports by clicking on the **Edit** button.
+Si aún no lo ha hecho, active y defina sus puertos HTTPS y/o HTTP haciendo clic en el botón **Editar**.
 
-Activating the HTTPS port requires a certificate installation to work properly. Note that you can create test certificates with 4D.
+La activación del puerto HTTPS requiere que una instalación del certificado para funcionar correctamente. Tenga en cuenta que puede crear los certificados de prueba con 4D.
 
 > **NOTA**
 > 
