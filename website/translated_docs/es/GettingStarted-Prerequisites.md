@@ -9,9 +9,9 @@ title: Prerrequisitos
 * 4D Server v17 R2 64 bits (Despliegue)
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) instalado en su Mac (opcional).
 
-Apple configurator 2 requires **macOS 10.14** or a more recent version. If you want to automate app installation on your physical device, you need to install this software.
+Apple configurator 2 necesita **macOS 10.14** o una versión más reciente. Si desea automatizar la instalación de aplicaciones en su dispositivo físico, debe instalar este software.
 
-Xcode 10.2 requieres **macOS 10.14** or a more recent version.
+Xcode 10.2 requiere **macOS 10.14** o una versión más reciente.
 
 ## Tabla de comparación de versión
 
@@ -34,15 +34,15 @@ Xcode 10.2 requieres **macOS 10.14** or a more recent version.
 
 ### Utilización de 17R6 con macOS 10.14.3
 
-4D 17R6 requires Swift5.0 runtime (already installed with macOS 10.14.4).
+4D 17R6 requiere Swift5.0 runtime (ya instalado con macOS 10.14.4).
 
  - Instale `Swift 5 Runtime Support for Command Line Tools` desde [More Downloads for Apple Developers](https://developer.apple.com/download/more/)
 
 ### Utilización de 17R4 con Xcode 10.2
 
-Due to Apple Swift language abi instability, you cannot use the standard 4D 17R4 with Xcode 10.2.
+Debido a la inestabilidad del lenguaje Apple Swift, no puede utilizar la versión estándar 4D 17R4 con Xcode 10.2.
 
-Fortunately, we provide an alternative component compatible with Xcode 10.2.
+Afortunadamente, ofrecemos un componente alternativo compatible con Xcode 10.2.
 
 Puede reemplazar el componente interno del usuarior `4D App.4dbase Mobile`, que se encuentra en`... /4D.app/contents/Resources/Internal User Components/`, por esto proponemos:
 
@@ -51,7 +51,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## Requisitos de software
 
-* 8GB of RAM (Minimum recommended).
+* 8GB de RAM (mínimo recomendado).
 
 ## Configuración
 
@@ -59,10 +59,10 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ![Use object notation](assets/en/prerequisites/Use-object-notation.png)
 
-* Los puertos HTTP y HTTPS deben estar configurados correctamente. HTTPS is mandatory for 4D for iOS deployment.
+* Los puertos HTTP y HTTPS deben estar configurados correctamente. HTTPS es obligatorio para el despliegue de 4D for iOS.
 
 ![Web Configuration](assets/en/prerequisites/Web-Configuration.png)
 
-* Su servidor Web debe iniciarse. It is available from the Run menu:
+* Su servidor Web debe iniciarse. Está disponible en el menú Ejecutar:
 
 ![Start web server](assets/en/prerequisites/Start-web-server.png)
