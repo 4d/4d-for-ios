@@ -203,7 +203,7 @@ Después de crear todas sus acciones, simplemente haga clic en el botón Crear d
 
 
 
-### Offline mode actions
+### Acciones en modo sin conexión
 
 The offline actions feature enables the user of an iOS app to queue action requests even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an adress, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
 
@@ -221,7 +221,7 @@ They display all the pending requests related to the table or to the entity that
 
 ![Action section](assets/en/project-editor/list-detail-form.png)
 
-> **Note**
+> **Nota**
 > 
 > The "Share" predefined action is only executable online.
 
