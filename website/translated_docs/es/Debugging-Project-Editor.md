@@ -9,7 +9,7 @@ Puede acceder al historial haciendo clic en "Proyecto" en el editor de proyectos
 
 ![Depuración](assets/en/debugging/debug-from-4D-for-iOS.png)
 
-From here, a menu will appear for the current simulator:
+Desde aquí, aparecerá un menú para el simulador actual:
 
 
 * Abra los historiales del simulador Dónde puede encontrar el CrashReporter carpeta MobileInstallation
