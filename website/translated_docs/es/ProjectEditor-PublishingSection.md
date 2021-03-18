@@ -82,7 +82,7 @@ Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
 
 ```
 
-If you want to manually validate the first login for every user session, you need to change the "accepted" default status to "pending", by adding `$response.verify:=True` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+Si desea validar manualmente el primer inicio de sesión para cada sesión usuario, necesita e cambiar el estado por defecto de "aceptado" a "pendiente" añadiendo `$response.verify:=True` al método base [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 
 ### Componente Mobile Session Management
@@ -101,11 +101,11 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 * Reinicie 4D.
 * Haga clic en el botón Ejecutar de la barra de herramientas
 * En el explorador de métodos 4D, seleccione el método **MOBILE SESSION MANAGEMENT** y haga clic en el botón **Ejecutar**.
-* The Apps window will appear, displaying all your apps:
+* La ventana de aplicaciones aparecerá, mostrando todas sus aplicaciones:
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
-* Right click on a session to reveal the session file in the Finder or to delete it.
+* Haga clic derecho en una sesión para mostrar el archivo sesión en el Finder o para borrarlo.
 * Puede cambiar y definir el estado de la sesión para cada dispositivo: aceptado o pendiente
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
@@ -117,11 +117,11 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 
 ### Pantalla de configuración
 
-Una pantalla de configuración está disponible en la barra de pestañas. You can also find it from the "More" tab, if necessary (*i.e.*, your app has more than four tables).
+Una pantalla de configuración está disponible en la barra de pestañas. También puede encontrarlo en la pestaña "More", si es necesario (*es decir*, su aplicación tiene más de cuatro tablas).
 
 Los parámetros le permiten:
 
-* Consult your remote URL and its state
+* Consulte su URL remota y su estado
 * Cerrar sesión (si está conectado como usuario autorizado)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
