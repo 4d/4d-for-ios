@@ -127,17 +127,17 @@ Los parámetros le permiten:
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
-### Reset remote URL
+### Redefinir la URL remota
 
-You can easily update your remote URL from the iPhone Settings:
+Puede actualizar fácilmente su URL remota desde la configuración del iPhone:
 
 * Abra la configuración de su iPhone
-* Select the app's remote URL to be updated
+* Seleccione la URL remota de la aplicación que desea actualizar
 * Active la opción "Reinicializar la dirección del servidor"
 
 ![Redefinir la URL remota](assets/en/project-editor/Reset-remote-url.png)
 
-* Then, restart your app to reset the server address
-* And finally, define the new remote URL
+* Luego, reinicie su aplicación para restablecer la dirección del servidor
+* Y finalmente, defina la nueva URL remota
 
 ![Actualizar la URL remota](assets/en/project-editor/Update-remote-url.png)
