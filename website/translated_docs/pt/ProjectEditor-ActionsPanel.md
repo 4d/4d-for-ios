@@ -213,13 +213,13 @@ Pending actions can be visualized and opened from:
 
 Exibe um sumário e a história de todas as ações pendentes ou completas.
 
-![Action section](assets/en/project-editor/settings-screen.png)
+![Action section](assets/en/project-editor/screen1)
 
 •   *Formulários Lista & Detalhado*
 
 Exibe todas as petições pendentes relacionadas à tabela ou à entidade que está vendo no momento.
 
-![Action section](assets/en/project-editor/list-detail-form.png)
+![Action section](assets/en/project-editor/screen2)
 
 > **Nota**
 > 
