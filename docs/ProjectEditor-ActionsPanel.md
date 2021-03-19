@@ -213,13 +213,13 @@ Pending actions can be visualized and opened from:
 
 It displays a summary and a history of all pending and completed actions.
 
-![Action section](assets/en/project-editor/settings-screen.png)
+![Action section](assets/en/project-editor/screen1.png)
 
 •	*The List & Detail forms*
 
 They display all the pending requests related to the table or to the entity that you are currently viewing.
 
-![Action section](assets/en/project-editor/list-detail-form.png)
+![Action section](assets/en/project-editor/screen2.png)
 
 > **Note**
 >
