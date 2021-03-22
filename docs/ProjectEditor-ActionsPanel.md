@@ -221,9 +221,10 @@ They display all the tasks related to the table or to the entity that you are cu
 
 ![Action section](assets/en/project-editor/screen2)
 
-> **Note**
+> **Notes**
 >
 > The "Share" predefined action is only executable online.
+> Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
 
 
 ## iOS app Side
