@@ -3,11 +3,11 @@ id: debugging-from-xcode
 title: Desde Xcode
 ---
 
-If you encounter any issue during the build process, you can open your project with Xcode by selecting the **Open the product with Xcode** option from the **Project** Menu.
+Si tiene algún problema durante el proceso de creación, puede abrir su proyecto generado con Xcode seleccionando la opción ** Abrir el producto con Xcode ** en el menú **Project**.
 
 ![Abra el proyecto con Xcode](assets/en/debugging/open-project-Xcode.png)
 
-From here, you can **launch your application** in the Simulator by clicking on the **Build button** and get all the logs at the bottom of the Xcode work space.
+Desde aquí puede ** lanzar su aplicación ** en el simulador haciendo clic en el **botón Generar** y obtener todos los historiales en la parte inferior del espacio de trabajo Xcode.
 
 ![Historiales Xcode](assets/en/debugging/Xcode-logs.png)
 
