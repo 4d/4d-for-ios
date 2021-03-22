@@ -205,19 +205,19 @@ Depois de criar todas as suas ações, simplesmente clique no botão Criar da ta
 
 ### Ações modo offline
 
-The offline actions feature enables the user of an iOS app to queue action requests even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an adress, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+The offline actions feature enables the user of an iOS app to draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
 
-Pending actions can be visualized and opened from:
+Pending tasks can be visualized and opened from:
 
 •   *Tela de Configurações*
 
-Exibe um sumário e a história de todas as ações pendentes ou completas.
+It displays a summary and a history of all pending and completed tasks.
 
 ![Action section](assets/en/project-editor/screen1)
 
 •   *Formulários Lista & Detalhado*
 
-Exibe todas as petições pendentes relacionadas à tabela ou à entidade que está vendo no momento.
+They display all the tasks related to the table or to the entity that you are currently viewing.
 
 ![Action section](assets/en/project-editor/screen2)
 
