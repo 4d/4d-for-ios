@@ -24,7 +24,7 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 
 El primer paso es incluir el botón button.xib en su plantilla personalizada para que 4D for iOS pueda utilizarlo.
 
-To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
+Para utilizar el botón, sólo tiene que soltarlo en la carpeta `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact`.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
@@ -94,7 +94,7 @@ El resultado debe tener un aspecto como este:
 
 ### Tamaño y restricciones
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. Esto permite que el botón se duplique correctamente cuando hay varias relaciones disponibles en la misma vista detallada.
+Tenga en cuenta que si **añada restricciones** a su botón, también tendrá que modificar el archivo xib xml para **agregar las TAGS** como para las plantillas de formularios detallados personalizados. Esto permite que el botón se duplique correctamente cuando hay varias relaciones disponibles en la misma vista detallada.
 
 ¡Qué conveniente, ya que planeamos agregar algunas restricciones!
 
@@ -106,11 +106,11 @@ Paso 1. Primero seleccione la vista y cambie la altura de 123 a 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Paso 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+Paso 2. Haga doble clic en **Top Space Constraint** y cambie su valor de 8 a 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Paso 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+Paso 3. Haga lo mismo con **Bottom Space Constraint** y cambie su valor de 8 a 0
 
 Debe obtener esto:
 
@@ -141,7 +141,7 @@ Paso 1. Selecciónelo del Storyboard para obtener la identificación del objeto
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Paso 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+Paso 2. Busque esta ID en el archivo xml y remplácelo por **TAG-RL-007** (un Tag que aún no se utiliza).
 
 Paso 3. Guarda el archivo xml
 
