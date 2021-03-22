@@ -223,8 +223,8 @@ They display all the tasks related to the table or to the entity that you are cu
 
 > **Notes**
 >
-> The "Share" predefined action is only executable online.
-> Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+> * The "Share" predefined action is only executable online.
+> * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
 
 
 ## iOS app Side
