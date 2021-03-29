@@ -26,8 +26,8 @@ href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/d
 
 La base de datos incluye:
 
-* **CRM table** with all the data we want to display in the generated iOS app
-* **AccountManager table** with basic information about the account managers (email and name).
+* **La tabla CRM** con todos los datos que queremos mostrar en la aplicación iOS generada
+* **La tabla AccountManager** con información básica sobre los administradores de cuentas (correo electrónico y nombre).
 
 ![CRM database](assets/en/restricted-queries/CRMDatabase.png)
 
@@ -35,6 +35,6 @@ La base de datos incluye:
 > 
 > Este proyecto utiliza [plantillas personalizadas](https://4d.github.io/4d-for-ios/docs/en/creating-listform-templates.html), [iconos personalizados](https://4d.github.io/4d-for-ios/docs/en/using-icons.html) y [formatos de datos personalizados](https://4d.github.io/4d -for-ios/docs/es/creating-data-formatter.html).
 
-You're now ready to define your first restricted query!
+¡Ahora está listo para definir su primera búsqueda limitada!
 
-Open the mobile project by clicking on Open > Mobile Project... and select CRM app > **project.4dmobileapp**.
+Abra el proyecto móvil haciendo clic en Open > Mobile Project... y seleccione CRM app > **project.4dmobileapp**.

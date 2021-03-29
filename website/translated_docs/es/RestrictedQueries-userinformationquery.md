@@ -5,7 +5,7 @@ title: Filtro de búsqueda - información usuario
 
 Ahora filtremos el contenido de nuestra aplicación según la dirección de correo electrónico de inicio de sesión del administrador de la cuenta (información del usuario):
 
-* Go to the **Data section**.
+* Acceda a la **sección "Datos"**.
 * Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
 * Click on the **Operators** button and select **AND**.
 * Now define the user information you want to get from the database method, **:email**.
