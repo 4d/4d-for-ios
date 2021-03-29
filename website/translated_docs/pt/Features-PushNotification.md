@@ -121,7 +121,7 @@ $response:=$pushNotification.send($notification; $recipients)
 
 ## Windows Configuration
 
-Windows users need to download the [last CURL version](https://curl.se/download.html) to work on the variables of the environment of their machine. Or they can insert curl.exe in the Resources folder of their production database.
+Windows users need to download the [last CURL version](https://curl.se/download.html) to work on the variables of the environment of their machine. Ou podem inserir curl.exe na pasta Resources do banco de dados produção.
 
 ## MobileApps folder
 
