@@ -10,7 +10,7 @@ Aquí hay una versión final:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
+Esta plantilla tiene una numeración de campos dinámica, lo que significa que le permitirá agregar una **imagen** y puede colocar ** tantos campos **como necesite. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -28,7 +28,7 @@ Agregue el título de su plantilla aquí.
 ## Posición, alto, ancho y tipo del área
 Puede definir la posición, el alto y el ancho de todos sus campos como hicimos para el tutorial  [Custom list view](creating-listform.html).
 
-### Field properties
+### Propiedades de los campos
 
 ```
 //1
