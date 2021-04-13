@@ -119,9 +119,9 @@ $response:=$pushNotification.send($notification; $recipients)
 ```
 ![Data synchronization animation](assets/en/push-notification/pushandSynchro.gif)
 
-## Windows Configuration
+## Configuración Windows
 
-Windows users need to download the [last CURL version](https://curl.se/download.html) to work on the variables of the environment of their machine. For more information on the installation, follow the steps here.
+Windows users need to download the [last CURL version](https://curl.se/download.html) to work on the variables of the environment of their machine. Or they can insert curl.exe in the Resources folder of their production database.
 
 ## MobileApps folder
 

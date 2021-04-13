@@ -11,7 +11,7 @@ If you finished developing your app, you're now ready to test it.
 
 ## PASO 1. Seleccione su dispositivo
 
-Go to the BUILD tab from the Project Editor and select an iOS device (aka the Simulator) to run your app.
+Vaya a la pestaña CREAR desde el editor de proyectos y seleccione un dispositivo iOS (también conocido como simulador) para ejecutar su aplicación.
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 

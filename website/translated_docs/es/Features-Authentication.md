@@ -19,7 +19,7 @@ En resumen, el principio es el siguiente:
 
 ### 1. Active el formulario de conexión
 
-You integrate a login form from the project editor, in the Publishing section.
+Integre un formulario de conexión desde el editor del proyecto, en la sección Publicación.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
