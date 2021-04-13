@@ -5,7 +5,7 @@ title: Notificaciones Push
 
 > **OBJETIVOS**
 > 
-> Integrate push notifications to your 4d for iOS apps
+> Integre las notificaciones push en sus aplicaciones 4d for iOS
 
 > **REQUISITOS PREVIOS**
 > 
@@ -13,9 +13,9 @@ title: Notificaciones Push
 
 ## ¿Qué es una notificación push?
 
-On a mobile phone, a push notification is an alert message received via an application, that you can open, delete, allow or block. It can be very useful to notify your app users that a new version is available, for example.
+En un teléfono móvil, una notificación Push es un mensaje de alerta, recibido a través de una aplicación, que puede abrir, eliminar, autorizar o bloquear. Puede ser muy útil por ejemplo para notificar a los usuarios de la aplicación que hay una nueva versión disponible.
 
-But what about the architecture that needs to be implemented, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display, on the user's mobile?
+Pero, ¿qué pasa con la arquitectura a implementar, para integrar esta funcionalidad en una aplicación móvil? Y ¿Cuál es el proceso de una notificación push, desde la creación hasta la visualización en el teléfono del usuario?
 
 ## Arquitectura técnica
 
@@ -25,13 +25,13 @@ Estos son los diferentes elementos necesarios para crear, enviar y recibir una n
 
 ## Prerrequisitos
 
-To send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
+Para enviar notificaciones push, se requiere un archivo de autenticación AuthKey_XXXYYY.p8 de Apple.
 
 * Primero, vaya a la página de la cuenta de desarrollador Apple, inicie sesión y luego seleccione Certificates, IDs & Profiles.
 
 * A continuación, podrá generar su certificado Push y descargarlo.
 
-* Finally, activate the Push notification feature to integrate your certificate in your 4D for iOS project from the Publishing section.
+* Finalmente, active la funcionalidad de notificación Push e integre su certificado en su proyecto 4D for iOS desde la sección Publication.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
@@ -51,7 +51,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It couldn't be any easier!
+¡Tan simple como eso!
 
 ## Notificación push con sincronización de datos
 

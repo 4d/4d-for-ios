@@ -3,11 +3,11 @@ id: debugging-from-xcode
 title: Depuis Xcode
 ---
 
-If you encounter any issue during the build process, you can open your project with Xcode by selecting the **Open the product with Xcode** option from the **Project** Menu.
+Si vous rencontrez des problèmes au cours de la phase de création, vous pouvez ouvrir votre projet généré avec Xcode en sélectionnant l'option **Ouvrir le produit avec Xcode** dans le menu **Projet**.
 
 ![Ouvrez votre projet avec Xcode](assets/en/debugging/open-project-Xcode.png)
 
-From here, you can **launch your application** in the Simulator by clicking on the **Build button** and get all the logs at the bottom of the Xcode work space.
+A partir de là, vous pouvez **lancer votre application** dans le simulateur en cliquant sur le **bouton Générer** et obtenir tous les journaux en bas de l'espace de travail Xcode.
 
 ![Journaux Xcode](assets/en/debugging/Xcode-logs.png)
 
@@ -44,7 +44,7 @@ Les **valeurs disponibles** sont les suivantes :
 
 Donc, pour cet exemple, si vous définissez la valeur log.level sur 3, vous obtiendrez un **avertissement, une erreur et un sévère** dans votre console Xcode.
 
-## Le format
+## Format
 
 Vous pouvez afficher différents indicateurs visuels dans la console Xcode pour **mettre en évidence différents types de journaux**.
 

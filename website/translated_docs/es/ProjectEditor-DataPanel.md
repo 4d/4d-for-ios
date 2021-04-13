@@ -21,7 +21,7 @@ Para asegurar el acceso al servidor de producción, se debe generar un **archivo
 
 Si elige obtener datos de su servidor de producción, el **URL de producción**debe ingresarse desde la **sección Publicación**.
 
-Aquí, también puede comprobar si el servidor está disponible y activarlo, si es necesario.
+Aquí, también puede comprobar si el servidor está disponible y activarlo si es necesario.
 
 > **NOTA**
 > 
@@ -29,7 +29,7 @@ Aquí, también puede comprobar si el servidor está disponible y activarlo, si 
 > * Puede acceder directamente al panel de publicación para definir su URL de producción.
 > * Para acceder a los datos del servidor de producción, se requiere un archivo key para asegurar las comunicaciones.
 
-Puede definir si desea **incluir imágenes** y o **Regenerar datos sistemáticamente** en cada generación.
+Puede definir si desea **incluir imágenes** y también si desea **Regenerar datos sistemáticamente** en cada generación.
 
 Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Siempre puede generar sus datos manualmente haciendo clic en el botón **Regenerar ahora**.
 
@@ -38,7 +38,7 @@ Cuando las opciones **No regenerar los datos en cada build** y **No incluir imá
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-En este panel, puede definir todos los filtros para cada tabla según los **filtros de búsquedas definidos** o los **parámetros usuario**.
+En este panel, puede definir todos los filtros para cada tabla según los **filtros de búsquedas definidos** o según los **parámetros usuario**.
 
 ### Los filtros de búsqueda
 
@@ -48,9 +48,9 @@ Puede definir los filtros por tabla, en función de los valores de campo:
 
 * Entonces, debe validar su búsqueda. Esto debe hacerse cada vez que modifique el filtro de búsqueda (una búsqueda editada y no validada aparece en rojo en el editor de proyecto).
 
-* Finalmente, marque la opción **Integrar los datos en la aplicación** para integrar los datos en la aplicación una vez se genere. Deje sin marcar si no desea que los datos estén integrados.
+* Finalmente, marque la opción **Integrar los datos en la aplicación** para integrar los datos en la aplicación cuando se genere. Deje sin marcar si no desea que los datos estén integrados.
 
-Cuando un filtro de búsqueda es válido, se muestra un icono de filtro, que indica que el filtro definido se basa en un filtro de búsqueda definido.
+Cuando un filtro de búsqueda es válido, se muestra un icono de usuario que indica que el filtro definido se basa en un filtro de búsqueda definido.
 
 > **EJEMPLO** 
 > 

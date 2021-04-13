@@ -31,9 +31,9 @@ Vous pouvez définir les propriétés de champs suivantes :
 
 * **Libellés longs et courts :** utilisés selon l'espace disponible
 * **Icônes**
-* **Formats:** usedto display currencies or percentage, for instance.
+* **Formats :** pour afficher, par exemple, des devises ou des pourcentages
 
-These elements will be displayed in detail and list forms, depending on the template of the generated app.
+Ces éléments seront affichés dans les formulaires détaillés et les formulaires Liste, en fonction du template de l'application.
 
 > **ASTUCES**
 > 
@@ -49,4 +49,4 @@ Vous pouvez définir les propriétés de liens suivantes :
 
 * **Libellés longs et courts :** s'affichent dans le bouton Liens, qui permet d'ouvrir une table liée
 * **Icônes :** s'affiche à gauche du bouton Liens
-* **Title:** displayed on top of the destination view when using a relation. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre
+* **Titre :** s'affiche en haut de la vue de destination lorsque vous utilisez un lien. Un [tutoriel](one-to-many-relations-title-definition.html) est disponible pour vous guider tout au long du processus de définition d'un Titre

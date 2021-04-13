@@ -5,7 +5,7 @@ title: Formulaires
 
 La section Formulaires vous permet de sélectionner des modèles de formulaire Liste et de formulaires détaillés pour chaque table.
 
-4D for iOS provides various templates with custom transition effects to build modern iOS applications.
+4D for iOS fournit différents modèles avec des effets de transitions personnalisés pour générer des applications iOS modernes.
 
 Voici la répartition de cet écran, de haut en bas :
 
@@ -17,22 +17,22 @@ Voici la répartition de cet écran, de haut en bas :
 
 ## Les formulaires Liste
 
-It's very simple, empty templates are used by default for an app's list and detail forms.
+Des modèles simples et vierges sont utilisés par défaut pour les formulaires Liste et les formulaires détaillés d'une application.
 
-Sélectionnez un modèle pour votre première table. The content definition screen appears. Vous pouvez ensuite faire glisser et déposer les champs de la liste directement sur le modèle affiché sur la droite. La plupart des formulaires Liste comprennent des champs facultatifs Recherche et Section.
+Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’écran vous permettant de définir le contenu du formulaire. Vous pouvez ensuite faire glisser et déposer les champs de la liste directement sur le modèle affiché sur la droite. La plupart des formulaires Liste comprennent des champs facultatifs Recherche et Section.
 
 ![List form content definition](assets/fr/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-About the Search field, a really nice Barcode search feature was added in the R6 version.
+About the Search field, R6 version add a really nice feature with the Barcode search feature.
 
-To activate it, just click on the magnifying glass and check the **Barcode Scanner** option!
+To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
 
 ![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
 
-This feature will allow:
+This feature will allow two things :
 
-* Filtering a list form by scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
-* Displaying specific list and detail forms by simply scanning a barcode which values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
+* Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
+* Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
 
 ![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
 
@@ -41,21 +41,21 @@ This feature will allow:
 
 ![Detail form template selection](assets/fr/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 
-As for the List Form definition, select a template and add your fields onto your detail form.
+Tout comme pour le formulaire Liste, sélectionnez un modèle et ajoutez vos champs sur votre formulaire détaillé.
 
-There are several ways to add your fields in Detail forms:
+Il existe plusieurs façons d'ajouter vos champs dans les formulaires détaillés :
 
-* You can drag and drop fields anywhere into the SVG view to add it and display it just after the last added field or between any other field that is already displayed.
+* Vous pouvez faire glisser et déposer des champs n'importe où dans la vue SVG pour les ajouter et les afficher juste après le dernier champ ajouté ou entre tout autre champ déjà affiché.
 
-* Double-cliquez sur un champ. It will be added to the list.
+* Double-cliquez sur un champ. Votre champ sera ajouté à la fin de la liste.
 
-* Right-click on one of the fields that are available in the Fields table at the left: this will display a menu to add all missing fields to your Detail forms.
+* Faites un clic droit sur l'un des champs disponibles dans le tableau Champs à gauche : cela affichera un menu qui vous permettra d'ajouter tous les champs manquants à vos formulaires détaillés.
 
 ![Detail form content definition](assets/fr/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
-You can add as many fields for most of the detail forms available.
+Vous pouvez ajouter autant de champs que possible pour la plupart des formulaires détaillés disponibles.
 
-And at any moment, you can reorder your field by selecting it and dropping it at any place in your detail form.
+Et à tout moment, vous pouvez réorganiser votre champ en le sélectionnant et le déposer à n'importe quel endroit de votre formulaire détaillé.
 
 > **ASTUCES**
 > 
@@ -74,9 +74,9 @@ Cliquez simplement sur cette icône pour afficher la liste entière.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Then, the only thing you need to do is selecting the template that suits your needs and 4D for iOS will handle all the installation process to help you work faster and more efficiently.
+Ensuite, la seule chose à faire est de sélectionner le modèle qui correspond à vos besoins. 4D for iOS se chargera de tout le processus d'installation pour vous aider à travailler plus rapidement et plus efficacement.
 
-You can now start working on the template, as it is ready-to-use!
+Vous pouvez donc commencer directement à travailler sur le modèle, puisqu'il est prêt à l'emploi.
 
 > **ASTUCES**
 > 
@@ -85,4 +85,4 @@ You can now start working on the template, as it is ready-to-use!
 
 ## Que faire ensuite ?
 
-Next step: choose a template that suits your needs, and in case something is missing, a [tutorial](gallery-template-update.html) will help you making a **template update**.
+La prochaine étape consiste à choisir un template qui répond à vos besoins, mais dans le cas où un élément serait manquant, un [tutoriel](gallery-template-update.html) vous aidera à effectuer une **mise à jour de template**.

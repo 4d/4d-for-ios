@@ -31,9 +31,9 @@ For fields, you will be able to define the following properties:
 
 * **Short and Long labels:** used depending on space
 * **Icons**
-* **Formats:** usedto display currencies or percentage, for instance.
+* **Formats:** for exemple to display currencies or percentage
 
-These elements will be displayed in detail and list forms, depending on the template of the generated app.
+Those elements will be displayed in detail and list forms, depending on the template in the generated app.
 
 > **ヒント**
 > 
@@ -49,4 +49,4 @@ For Relation, you will be able to define the following properties:
 
 * **Short and Long labels:** displayed in the Relation button that allows to open a related table
 * **Icons:** displayed at the left of the Relation button
-* **Title:** displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process
+* **Title:** that will be displayed on top of the destination view when using a relation. A [tutorial](one-to-many-relations-title-definition.html) is available to guide you through the Title definition process

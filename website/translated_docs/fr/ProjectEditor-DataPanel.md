@@ -7,7 +7,7 @@ Cette section vous permet :
 
 * de définir les données que vous souhaitez intégrer dans votre application (**Fichier de données courant** ou **Fichier de données du serveur de production**),
 * d'effectuer une **regénération automatique des données** à chaque génération de votre application ou d'effectuer une génération manuelle, et
-* filter the data to vizualize in your app depending on the **general filter queries** or the **user information**.
+* de filtrer les données à faire figurer dans votre application en fonction des **filtres de recherche généraux** ou des **informations utilisateur**.
 
 ![Data section](assets/fr/project-editor/Data-tab-4D-for-iOS.png)
 
@@ -17,28 +17,28 @@ Cette section vous permet :
 
 Cette partie vous permet de définir vos **sources de données**. Vous pouvez lire les données à partir du **Fichier de données courant** ou bien à partir du **Fichier de données du serveur de production**.
 
-Pour sécuriser l'accès au serveur de production, un **fichier key. mobileapp** doit être généré depuis le serveur de production et communiqué au développeur. This **key.mobileapp** file is available next to the data, in the MobileApps folder. Then, the developer can select it from the project editor to access to the production server data.
+Pour sécuriser l'accès au serveur de production, un **fichier key. mobileapp** doit être généré depuis le serveur de production et communiqué au développeur. Ce fichier **key.mobileapp** est disponible dans le dossier MobileApps (où se trouve également le fichier des données). Le développeur peut ensuite sélectionner ce fichier dans l’éditeur de projet pour accéder aux données du serveur de production.
 
 Si vous choisissez d’obtenir des données à partir de votre serveur de production, l'**URL de production** doit être saisi dans la **section Publication**.
 
-Here, you can also check if the server is available and choose to activate it, if necessary.
+Dans la section Données, vous pouvez aussi vérifier la disponibilité du serveur et l’activer si nécessaire.
 
 > **NOTE**
 > 
-> * Tips are available to help you ensure that the server works correctly.
+> * Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
 > * Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
 > * Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.
 
-You can define if you want to **include images** and or to **Regenerate data systematically** at each build.
+Vous pouvez définir si vous souhaitez **inclure des images** et si vous souhaitez ou non **régénérer systématiquement les données** à chaque génération.
 
-When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time to build your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
 
 
 ## Propriétés
 
 ![Data section](assets/en/project-editor/Properties-Panel-4D-for-iOS.png)
 
-In this panel, you can define all the filters for each table, based on **defined filter queries** or on **user parameters**.
+Dans cette sous-section, vous pourrez indiquer tous les filtres de chaque table, en vous basant sur des **filtres de recherche définis** ou sur les **paramètres utilisateur**.
 
 ### Les filtres de recherche
 
@@ -48,9 +48,9 @@ Vous pouvez définir des filtres par table, en fonction des valeurs de champ :
 
 * Vous devez ensuite valider votre recherche. La validation doit être effectuée chaque fois que vous modifiez le filtre de recherche (une recherche modifiée et non validée apparaîtra en rouge dans l’éditeur de projet).
 
-* Finally, check the **Embed data into the built application** option to embed the data into the application once it's built. Laissez cette case non cochée si vous ne souhaitez pas intégrer les données.
+* Enfin, cochez l'option **Intégrer les données dans l'application** pour intégrer les données dans l’application lors de sa génération. Laissez cette case non cochée si vous ne souhaitez pas intégrer les données.
 
-When a query filter is valid, a funnel icon appears, indicating that the defined filter is based on a defined filter query.
+Lorsqu’un filtre de recherche est valide, une icône d’utilisateur s’affiche pour indiquer que le filtre indiqué est issu d'un filtre de recherche défini.
 
 > **EXEMPLE** 
 > 
@@ -63,7 +63,7 @@ When a query filter is valid, a funnel icon appears, indicating that the defined
 
 ### Les filtres d'informations utilisateur
 
-You can define filters depending on the user information that you define in the Mobile App Authentication method:
+Vous pouvez créer des filtres en fonction des informations utilisateur définies dans la méthode base Sur authentification app mobile :
 
 * Comme pour les filtres de recherche, vous devez avant tout définir votre recherche dans le champ approprié.
 

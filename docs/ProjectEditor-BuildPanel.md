@@ -3,7 +3,7 @@ id: build-panel
 title: Build Panel
 ---
 
-Once you're ready, you can launch your app in the Simulator and test it.
+When you're satisfied that your app is ready, you can launch it in the Simulator to test it.
 
 Let’s take a closer look at the Build tab options:
 
@@ -15,9 +15,9 @@ Let’s take a closer look at the Build tab options:
 
 * **Install:** Installs the application on a connected device.
 
-Select a Simulator on which you can build and test your app, then press the **Build and Run** button.
+Select a Simulator on which to build and test your app, and press the **Build and Run** button.
 
 ![BuildTab](assets/en/project-editor/Build-Tab-4D-for-iOS.png)
 
-You're now ready to explore 4D for iOS on your own and build your iOS project!
+You're now ready to explore 4D for iOS on your own and build your own iOS project!
 

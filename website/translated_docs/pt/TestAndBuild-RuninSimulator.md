@@ -5,13 +5,13 @@ title: Usando o Simulador
 
 > **OBJETIVOS**
 > 
-> Testing your app in the Simulator.
+> Teste seu app no Simulador.
 
-If you finished developing your app, you're now ready to test it.
+Terminou de desenvolver seu app e quer testá-lo?
 
 ## PASSO 1. Selecione seu aparelho
 
-Go to the BUILD tab from the Project Editor and select an iOS device (aka the Simulator) to run your app.
+Vá para a aba BUILD do Editor de Projeto e selecione um aparelho iOS (ou seja o Simulador) para uso de rodar seu app.
 
 ![Device selection](assets/en/test-build/device-selection-4D-for-ios.png)
 
@@ -23,6 +23,6 @@ Clique no botão **Build and Run**.
 
 ## PASSO 3. Teste seu app
 
-Try to navigate between the list and detail forms in your app.
+Teste navegar entre os formulários lista e detalhe em seu app.
 
 ![Test in Simulator](assets/en/test-build/simulator-forms-4D-for-iOS.png) 

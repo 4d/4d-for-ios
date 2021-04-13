@@ -201,6 +201,32 @@ Depois de criar todas as suas ações, simplesmente clique no botão Criar da ta
 > * Pode notificar o usuário da aplicação sobre quando uma ação tiver sido executada usando `$out.statusText:="Mensagem que quer exibir"`.
 > * Pode decidir fechar à força o formulário Edition usando `$out.close:=True`.
 
+
+
+### Ações modo offline
+
+The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+
+Pending tasks can be visualized and opened from:
+
+•   *Tela de Configurações*
+
+It displays a summary and a history of all pending and completed tasks.
+
+![Action section](assets/en/project-editor/screen1)
+
+•   *Formulários Lista & Detalhado*
+
+They display all the tasks related to the table or to the entity that you are currently viewing.
+
+![Action section](assets/en/project-editor/screen2)
+
+> **Notes**
+> 
+> * The "Share" predefined action is only executable online.
+> * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+
+
 ## Aplicação iOS
 
 Em sua aplicação iOS, as ações estão disponíveis de diferentes formas em seus formulários listados e detalhados, segundo os modelos que selecionar na seção Formulários.

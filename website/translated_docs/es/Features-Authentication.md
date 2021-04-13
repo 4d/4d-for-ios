@@ -5,21 +5,21 @@ title: Autenticación email
 
 > **OBJETIVOS**
 > 
-> Integre la confirmación por correo electrónico para autenticar a los usuarios de la aplicación móvil.
+> Integre la confirmación por correo electrónico para autenticar a los usuarios de la aplicación móvil
 
 > **REQUISITOS PREVIOS**
 > 
 > El componente [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite la autenticación de correo está integrado en 4D mono usuario y 4D server 18R4.
 
-Deje que sus clientes y clientes se sientan cómodos iniciando sesión en su aplicación, por medio de la autenticación de correo electrónico.
+¡Deje que sus clientes y clientes se sientan cómodos iniciando sesión en su aplicación utilizando la autenticación de correo electrónico!
 
-Ofrece una forma de verificar que un correo electrónico proviene de quien dice ser y permitirá bloquear usos dañinos o fraudulentos de los correos electrónicos.
+Ofrece una forma de verificar que un correo electrónico proviene de quien dice ser y permitirá bloquear usos dañinos o fraudulentos del correo electrónico.
 
 En resumen, el principio es el siguiente:
 
 ### 1. Active el formulario de conexión
 
-Integre un formulario de conexión desde el editor del proyecto, en la sección Publicación.
+Integre un formulario de conexión en su aplicación, desde el editor del proyecto en la sección Publicación.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
@@ -38,20 +38,20 @@ Una vez se realiza la validación, el usuario puede volver a abrir su aplicació
 
 Es bastante simple, ¿verdad?
 
-So, to make the validation process easier and secure, 4D for iOS handles the following process:
+Entonces, para hacer el proceso de validación más fácil y seguro, 4D for iOS maneja:
 
 ![Autenticación](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-Now let's figure out how this works, using our special component!
+¡Pero averigüemos cómo funciona esto, utilizando nuestro componente especial!
 
 
 # Utilización del componente
 
 ## Un componente para gestionar la autenticación de los correos electrónicos
 
-Our 4D Mobile App Server Component has been developed to help you manage several processes.
+Se ha desarrollado un componente de caja de herramientas para ayudarlo a administrar varios procesos: el componente 4D Mobile App Server.
 
-Let's check how you can use it!
+¡Veamos cómo utilizarlo!
 
 ## On Mobile App Authentification
 
@@ -77,14 +77,14 @@ End case
 
 ```
 
-It couldn't be any easier! You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about the resources you may use, such as html templates and settings that you may want to define.
+¡Tan simple como eso! Encontrará más información sobre este componente en la [documentación](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especialmente sobre los recursos que puede utilizar, como las plantillas html y la configuración que desee definir.
 
 
 # Sin el componente
 
-Here is a basic example with no use of the component.
+Veremos aquí un ejemplo básico sin utilizar el componente.
 
-To do so, enter the following code:
+Para hacerlo, aquí está el código que puede utilizar:
 
 ## On Mobile App Authentication
 
@@ -142,7 +142,7 @@ $0:=$response
 
 ## On Web connection
 
-This method will allow you to activate the session after clicking on the link in the confirmation email.
+Este método le permitirá activar la sesión después de hacer clic en el enlace del correo electrónico de confirmación.
 
 ```4d
 C_TEXT($1;$2;$3;$4;$5;$6)
@@ -190,4 +190,4 @@ End if
 
 ## ¿Qué hacemos ahora?
 
-We've covered the basic email validation steps in this tutorial. You should now be able to easily access your 4D for iOS app!
+Hemos cubierto la validación básica de correo electrónico en este tutorial. ¡Ahora debería poder acceder fácilmente a su aplicación 4D for iOS!

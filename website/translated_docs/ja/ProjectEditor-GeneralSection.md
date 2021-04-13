@@ -7,7 +7,7 @@ This section allows you to define your app's main information.
 
 ![General画面](assets/en/project-editor/General-section-4D-for-iOS.png)
 
-**Organization:** Enter either your name or your company’s name.
+**Organization:** Enter either your or your company’s name.
 
 **Identifier:** Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
 
@@ -17,13 +17,13 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 > 
 > Help links are available for the Name and Identifier fields.
 
-**Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID created in your Apple Development account.
+**Product name:** Your app’s name. As described above, the product name is used to create the bundle identifier. This Bundle ID must be the same as the Bundle ID you create in your Apple Development account.
 
 **Version:** The version of your app. Add version numbers in ascending, sequential order starting with 1.0.
 
 **Copyright:** Your app's copyright. 4D for iOS suggests a copyright format but you can create your own.
 
-**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
+**Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with  Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
 
 > **ヒント**
 > 

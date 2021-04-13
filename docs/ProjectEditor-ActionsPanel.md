@@ -14,7 +14,7 @@ This section allows you to:
 
 You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
 
-Then, you'll need to define the following elements:
+Next you'll need to define the following:
 
 * **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
 * **Icons:** The icon to choose from your icon library. You can also add your own icon by following this [tutorial](using-icons.html).
@@ -41,9 +41,9 @@ For each parameter, you can edit the following properties:
 
 ![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
-You are free to change the order of the parameters, using drag-and-drop.
+You are free to change the order of parameters using drag and drop.
 
-Here are the different **Formats** that you can select for a parameter:
+Here are the different **Formats** you can select for a parameter:
 
 <table>
 
@@ -156,27 +156,27 @@ Here are the different **Formats** that you can select for a parameter:
 
 4D for iOS makes the **Add actions** creation process very simple.
 
-All you need to do is selecting the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table. 
+The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table. 
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then, simply **select the table** you want to link to this add action. And this is it! 
+Then just **select the table** you want to link to this add action. And this is it! 
 
-This will **automatically create** all the parameters for you in the Project Editor. In the generated app, it will allow you to edit each field value.
+This will **automatically create** all the parameters for you in the Project Editor. In the generated app, this will allow you to edit each field value.
 
-For this kind of action, you will see that all **properties** are already filled in for your convenience, on the right side of the parameter's list.
+For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
 
 
 #### 2. Edit action
 
-The creation of **Edit actions** follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
 #### 3. Delete action
 
-The creation of **Delete action** follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
+**Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
 
 To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
 
@@ -184,26 +184,52 @@ This type of action should be used with caution.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-For Edit and Add actions, you are free to modify:
+For Edit and Add actions you are free to modify the:
 
-* The parameters, by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
-* The properties, by defining them the way you want. 
+* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* properties by defining them as you wish. 
 
 ### On Mobile App Action
 
-The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all your 4D methods. 
+The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods. 
 
-After creating all your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
+After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
 > **NOTE**
 >
 > * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
-> * You can notify the app user when an action has been executed using ```$out.statusText:="Message you want to display"```.
-> * You can also decide to force the "close the Edition form" using ```$out.close:=True```.
+> * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
+> * You can also decide to force close the Edition form using ```$out.close:=True```.
+
+
+
+### Offline mode actions
+
+The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+
+Pending tasks can be visualized and opened from:
+
+•	*The Settings screen*
+
+It displays a summary and a history of all pending and completed tasks.
+
+![Action section](assets/en/project-editor/screen1)
+
+•	*The List & Detail forms*
+
+They display all the tasks related to the table or to the entity that you are currently viewing.
+
+![Action section](assets/en/project-editor/screen2)
+
+> **Notes**
+>
+> * The "Share" predefined action is only executable online.
+> * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+
 
 ## iOS app Side
 
-In your iOS app, actions are available in your List and Detail forms in different ways, depending on the templates you select in the Forms section. 
+In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section. 
 
 ### Table List forms
 
@@ -226,7 +252,7 @@ In your iOS app, actions are available in your List and Detail forms in differen
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** As for the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
@@ -244,14 +270,14 @@ If you have created an Edit or an Add action, as soon as you select it from the 
 
 From here, you can:
 
-* edit all your fields by selecting them, and
-* validate or cancel your modifications, using the **Done** or **Cancel** buttons (available in the navigation bar).
+* edit all of your fields by selecting them, and
+* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
 
 For your convenience, the Edition form includes a few **special features**:
 
 * The keyboard type depends on the selected parameter type in the Action section.
 * You can go to the next or previous field using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by clicking anywhere outside of a field.
+* The iOS keyboard can be closed by touching anywhere outside of a field.
 * Indication is given to the user when a value is not valid.
 * The view focuses on empty mandatory fields when the user clicks the Done button.
 

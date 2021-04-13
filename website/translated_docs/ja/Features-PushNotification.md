@@ -5,7 +5,7 @@ title: Push notifications
 
 > **OBJECTIVES**
 > 
-> Integrate push notifications to your 4d for iOS apps
+> Integrate push notification to your 4d for iOS apps
 
 > **PREREQUISITES**
 > 
@@ -13,9 +13,9 @@ title: Push notifications
 
 ## What is a push notification?
 
-On a mobile phone, a push notification is an alert message received via an application, that you can open, delete, allow or block. It can be very useful to notify your app users that a new version is available, for example.
+On a mobile phone, a push notification is an alert message, received via an application, that you can open, delete, allow or block. It can be very useful for example to notify your app users that a new version is available.
 
-But what about the architecture that needs to be implemented, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display, on the user's mobile?
+But what about the architecture to implement, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display on the user's mobile?
 
 ## Technical architecture
 
@@ -25,13 +25,13 @@ Here are the different elements needed to create, send and receive a mobile push
 
 ## はじめにお読みください
 
-To send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
+In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
 
 * First, go to Apple developer account page, sign in, then select Certificates, IDs & Profiles.
 
 * You will then be able to generate your push certificate and to download it.
 
-* Finally, activate the Push notification feature to integrate your certificate in your 4D for iOS project from the Publishing section.
+* Finally, activate the Push notification feature integrate your certificate in your 4D for iOS project from the Publishing section.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
@@ -51,7 +51,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It couldn't be any easier!
+It's as simple as that!
 
 ## Push notification with data synchronization
 

@@ -5,21 +5,21 @@ title: Authentification email
 
 > **OBJECTIFS**
 > 
-> Integrate email confirmation to authenticate mobile app users.
+> Intégrez la confirmation par e-mail pour authentifier les utilisateurs de l'application mobile
 
 > **CONDITIONS PRÉALABLES**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component allowing email authentication is integrated in 4D mono and 4D server 18R4.
+> Le composant [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) qui permet l'authentification des e-mails est intégré dans 4D mono et 4D Server 18 R4.
 
-Let your customers and clients feel comfortable logging into their app, through email authentication!
+Garantissez le confort de vos clients grâce à la connexion à leur application via l'authentification par e-mail !
 
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of emails.
+Elle fournit un moyen de vérifier qu'un e-mail provient de qui il prétend provenir et permettra de bloquer les utilisations nuisibles ou frauduleuses des e-mails.
 
 En bref, le principe est le suivant :
 
 ### 1. Activez le formulaire de connexion
 
-You integrate a login form from the project editor, in the Publishing section.
+Intégrez un formulaire de connexion dans votre application, depuis l'éditeur de projet dans la section Publication.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
@@ -38,20 +38,20 @@ Une fois la validation effectuée, l'utilisateur peut rouvrir son application et
 
 C’est plutôt simple, non?
 
-So, to make the validation process easier and secure, 4D for iOS handles the following process:
+Ainsi, pour faciliter et sécuriser le processus de validation, 4D for iOS gère :
 
 ![Authentification](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-Now let's figure out how this works, using our special component!
+Mais voyons comment cela fonctionne, en utilisant notre composant spécial !
 
 
 # Utilisation du composant
 
 ## Un composant pour gérer l'authentification des e-mails
 
-Our 4D Mobile App Server Component has been developed to help you manage several processes.
+Un composant boite à outils a été développé pour vous aider à gérer plusieurs processus : le composant 4D Mobile App Server.
 
-Let's check how you can use it!
+Voyons comment l'utiliser !
 
 ## On Mobile App Authentification
 
@@ -77,14 +77,14 @@ End case
 
 ```
 
-It couldn't be any easier! You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about the resources you may use, such as html templates and settings that you may want to define.
+C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres html que vous voudrez peut-être définir.
 
 
 # Sans le composant
 
-Here is a basic example with no use of the component.
+Nous allons voir ici un exemple simple, sans utiliser de composant.
 
-To do so, enter the following code:
+Pour ce faire, voici le code que vous pouvez utiliser :
 
 ## On Mobile App Authentication
 
@@ -142,7 +142,7 @@ $0:=$response
 
 ## On Web connection
 
-This method will allow you to activate the session after clicking on the link in the confirmation email.
+Cette méthode vous permet d'activer la session après avoir cliqué sur le lien contenu dans l'e-mail de confirmation.
 
 ```4d
 C_TEXT($1;$2;$3;$4;$5;$6)
@@ -189,4 +189,4 @@ Et voilà !
 
 ## Que faire ensuite ?
 
-We've covered the basic email validation steps in this tutorial. You should now be able to easily access your 4D for iOS app!
+La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !

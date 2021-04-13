@@ -9,15 +9,15 @@ title: Visão Geral
 
 ## Totalmente integrado em 4D
 
-With 4D for iOS, you can easily create a new mobile project directly from 4D, without any prior expertise building native iOS apps.
+Com 4D for iOS, pode facilmente criar um novo projeto móvel diretamente de 4D, sem precisar de qualquer experiência anterior de construção de apps nativos iOS.
 
 ## Criando apps nativos
-* 4D generates - in a totally transparent way - an Xcode project in pure Swift with an optimized UI/UX.
-* One of the strengths of 4D for iOS is the ability to create an unlimited number of apps from different subsets of your database, based on your needs and your goals.
+* 4D gerencia a complexidade e gera - de modo transparente - um projeto Xcode em Swift puro com uma interface de usuário UI/UX otimizada.
+* Um dos pontos fortes de 4D é que tem a oportunidade de criar um número ilimitado de aplicações de diferentes subconjuntos de seu banco de dados....de acordo com suas necessidades e objetivos.
 
 ## É compatível com modo sem conexão
-* All the data is embedded in your app and available without an internet connection.
+* Todos os seus dados estão integrados em seu app e disponíveis sem precisar de uma conexão de internet.
 
 ## Solução aberta
-* 4D for iOS gera um verdadeiro projeto Xcode. You can reopen it with Xcode and continue working on it.
+* 4D for iOS gera um verdadeiro projeto Xcode. Pode reabrí-lo com Xcode e continuar seu trabalho nele.
 * Todas as tabelas e formulários estão integrados no app gerado e são editáveis.

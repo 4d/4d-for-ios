@@ -5,7 +5,7 @@ title: Notificações Push
 
 > **OBJETIVOS**
 > 
-> Integrate push notifications to your 4d for iOS apps
+> Integra as notificações push ao seus apps 4D for iOS
 
 > **PRÉ-REQUISITOS**
 > 
@@ -13,9 +13,9 @@ title: Notificações Push
 
 ## O que é uma notificação push?
 
-On a mobile phone, a push notification is an alert message received via an application, that you can open, delete, allow or block. It can be very useful to notify your app users that a new version is available, for example.
+Em um telefone móvel, uma notificação Push é uma mensagem de alerta, recebido através de uma aplicação, que pode abrir, eliminar, autorizar ou bloquear. Pode ser muito útil por exemplo para notificar aos usuários da aplicação que há uma nova versão disponível.
 
-But what about the architecture that needs to be implemented, in order to integrate this functionality into a mobile application? And what is the process of a push notification, from creation to display, on the user's mobile?
+Mas o que acontece com a arquitetura de implementação, para poder integrar essa funcionalidade em uma aplicação móvel? E qual é o processo de uma notificação push, desde a criação até a visualização no telefone do usuário?
 
 ## Arquitetura técnica
 
@@ -25,13 +25,13 @@ Esses são os elementos diferentes necessários para criar, enviar e receber uma
 
 ## Pré-requisitos
 
-To send push notifications, an AuthKey_XXXYYY.p8 authentication file from Apple is required.
+Para enviar notificações push, é necessário um arquivo de autenticação AuthKey_XXXYYY.p8 da Apple.
 
 * Primeiro vá para a página da conta de desenvolvedor Apple, inicie a sessão, e selecione  Certificates, IDs & Profiles.
 
 * Então poderá gerar seus certificados push e baixá-los
 
-* Finally, activate the Push notification feature to integrate your certificate in your 4D for iOS project from the Publishing section.
+* Finalmente ative a funcionalidade da notificação Push e integre seu certificado em seu projeto 4D for iOS desde a seção Publishing.
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
@@ -51,7 +51,7 @@ $response:=$pushNotification.send($notification;"test@4d.com")
 
 ```
 
-It couldn't be any easier!
+É simples assim!
 
 ## Empurrar notificações co sincronização de dados
 

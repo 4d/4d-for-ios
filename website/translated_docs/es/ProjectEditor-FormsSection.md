@@ -5,7 +5,7 @@ title: Formularios
 
 La sección Formularios le permite seleccionar las plantillas de formulario Lista y de formularios detallados para cada tabla.
 
-4D for iOS ofrece varias plantillas con efectos de transición personalizados para generar aplicaciones iOS modernas.
+4D for iOS ofrece varias plantillas con efectos de transición personalizados para generar aplicaciones iOS nuevas y modernas.
 
 Aquí está el desglose de esta pantalla, de arriba a abajo:
 
@@ -17,22 +17,22 @@ Aquí está el desglose de esta pantalla, de arriba a abajo:
 
 ## Formularios Lista
 
-Es muy simple, las plantillas vacías se utilizan de forma predeterminada para los formularios Lista y los formularios de detallados de una aplicación.
+Las plantillas simples y vacías se utilizan de forma predeterminada para los formularios Lista y los formularios de detallados de una aplicación.
 
-Seleccione una plantilla para su primera tabla. Aparece la pantalla de definición de contenido. Luego puede arrastrar y soltar los campos de la lista directamente en la plantilla que se muestra a la derecha. La mayoría de los formularios Lista incluyen campos opcionales Búsqueda y Sección.
+Seleccione una plantilla para su primera tabla. Una vez hecho esto, aparece la pantalla de definición de contenido. Luego puede arrastrar y soltar los campos de la lista directamente en la plantilla que se muestra a la derecha. La mayoría de los formularios Lista incluyen campos opcionales Búsqueda y Sección.
 
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-En cuanto al campo de búsqueda, en la versión R6 se ha añadido una función de búsqueda por código de barras muy interesante.
+En cuanto al campo de búsqueda, la versión R6 añade una funcionalidad muy agradable con la funcionalidad de búsqueda del código de barras.
 
 Para activarla, sólo tiene que hacer clic en la lupa y marcar la opción Escáner de código de barras.
 
 ![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
 
-Esta funcionalidad permitirá:
+Esta funcionalidad permitirá dos cosas:
 
 * Filtrar un formulario lista escaneando un Código de Barras que contiene un valor texto. Esto llenará la barra de búsqueda y abrirá el formulario detallado si sólo queda un valor después de filtrar.
-* Mostrar formularios específicos listados y detallados simplemente escaneando un código de barras cuyos valores sean Esquemas URL o Enlaces Universales después de la activación de la funcionalidad [Deep linking](deep-linking).
+* Mostrar formularios específicos listados y detallados con sólo escanear un código de barras cuyos valores sean Esquemas URL o Enlaces Universales después de la activación de la funcionalidad [Deep linking](deep-linking).
 
 ![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
 
@@ -43,13 +43,13 @@ Esta funcionalidad permitirá:
 
 Así como para el formulario Lista, seleccione una plantilla y añada sus campos en su formulario detallado.
 
-Hay varias formas de añadir sus campos en los formularios detallados:
+Tiene varias formas de añadir sus campos en los formularios detallados:
 
 * Puede arrastrar y soltar campos en cualquier lugar de la vista SVG para agregarlos y mostrarlos justo después del último campo añadido o entre cualquier otro campo que ya se muestre.
 
-* Doble clic en un campo. Se añadirá a la lista.
+* Doble clic en un campo. Su campo se agregará al final de la lista.
 
-* Al hacer clic derecho en uno de los campos que están disponibles en la tabla Campos a la izquierda: se mostrará un menú que le permitirá agregar todos los campos faltantes a sus formularios detallados.
+* Al hacer clic derecho en uno de los campos que están disponibles en la tabla Campos a la izquierda, se mostrará un menú que le permitirá agregar todos los campos faltantes a sus formularios detallados.
 
 ![Detail form content definition](assets/en/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
@@ -74,9 +74,9 @@ Simplemente haga clic en ese icono para mostrar la lista completa.
 
 ![Template picker more button](assets/en/project-editor/Forms-template-gallery.png)
 
-Luego, lo único que necesita hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
+Luego, lo único que tiene que hacer es seleccionar la plantilla que se adapte a sus necesidades y 4D for iOS se encargará de todo el proceso de instalación para ayudarlo a trabajar de manera más rápida y eficiente.
 
-Ahora puede comenzar a trabajar directamente en la plantilla, ¡Ya que está lista para usar!
+Por lo tanto, puede comenzar a trabajar directamente en la plantilla, ya que está lista para usar.
 
 > **RECOMENDACIONES**
 > 
@@ -85,4 +85,4 @@ Ahora puede comenzar a trabajar directamente en la plantilla, ¡Ya que está lis
 
 ## ¿Qué hacemos ahora?
 
-Siguiente paso: elijar una plantilla que se adapte a sus necesidades, y en caso de que falte algo, un [tutorial](gallery-template-update.html) lo ayudará a hacer una **actualización de plantilla**.
+El siguiente paso consiste en elegir una plantilla que se adapte a sus necesidades, pero en caso de que falte algo, un [tutorial](gallery-template-update.html) lo ayudará a efectuar una **actualización de plantilla**.

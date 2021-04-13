@@ -5,21 +5,21 @@ title: Autenticação com email
 
 > **OBJETIVOS**
 > 
-> Integrate email confirmation to authenticate mobile app users.
+> Integre a confirmação por correio eletrônico para autenticar aos usuários da aplicação móvel
 
 > **PRÉ-REQUISITOS**
 > 
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component allowing email authentication is integrated in 4D mono and 4D server 18R4.
+> O componente  [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) que permite a autenticação por correio está integrado em 4D mono usuário e 4D server 18R4.
 
-Let your customers and clients feel comfortable logging into their app, through email authentication!
+Deixe que seus clientes e clientes se sintam cômodos iniciando sessão em sua aplicação utilizando a autenticação de correio eletrônico!
 
-It provides a way to verify that an email comes from whom it claims to be from, and will allow to block harmful or fraudulent uses of emails.
+Oferece uma forma de verificar que um correio eletrônico provém realmente da pessoa que diz ser e permite bloquear emails fraudulentos ou perigosos.
 
 Em resumo, o princípio é o seguinte:
 
 ### 1. Ativar o formulário de login
 
-You integrate a login form from the project editor, in the Publishing section.
+Integre um formulário de conexão (login) em sua aplicação, desde o editor de projeto na seção Publicação.
 
 ![Email authentication activation](assets/en/authentication/email-authentication-publishing-section.png)
 
@@ -38,20 +38,20 @@ Quando a validação estiver pronta, o usuário pode voltar a abrir sua aplicaç
 
 Bem simples, não?
 
-So, to make the validation process easier and secure, 4D for iOS handles the following process:
+Então, para fazer com que o processo de validação seja mais fácil e seguro, 4D for iOS o maneja
 
 ![Autenticação](assets/en/authentication/4D-for-iOS-email-auth.png)
 
-Now let's figure out how this works, using our special component!
+Mas vamos descobrir como isso funciona usando nosso componente especial!
 
 
 # Utilização do componente
 
 ## Um componente para gerar a autenticação dos correios eletrônicos
 
-Our 4D Mobile App Server Component has been developed to help you manage several processes.
+Um componente de caixa de ferramentas foi desenvolvido para ajudar a gerenciar vários processos: o componente 4D Mobile App Server.
 
-Let's check how you can use it!
+Vamos ver como usá-lo!
 
 ## On Mobile App Authentification
 
@@ -77,14 +77,14 @@ End case
 
 ```
 
-It couldn't be any easier! You will find more information about this component in the [documentation](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especially about the resources you may use, such as html templates and settings that you may want to define.
+É simples assim! Encontrará mais informação sobre este componente na [documentação](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md), especialmente sobre os recursos que pode utilizar, como os modelos html e a configuração que quiser definir.
 
 
 # Sem o componente
 
-Here is a basic example with no use of the component.
+Vamos ver aqui um exemplo básico sem usar o componente.
 
-To do so, enter the following code:
+Para fazer isso, aqui está o código que pode usar:
 
 ## On Mobile App Authentication
 
@@ -142,7 +142,7 @@ $0:=$response
 
 ## On Web connection
 
-This method will allow you to activate the session after clicking on the link in the confirmation email.
+Este método lhe permitirá ativar a sessão depois de clicar no link do correio eletrônico de confirmação.
 
 ```4d
 C_TEXT($1;$2;$3;$4;$5;$6)
@@ -186,8 +186,8 @@ Else
 End if 
 ```
 
-E isso é tudo!
+E é isso!
 
 ## Que fazer agora?
 
-We've covered the basic email validation steps in this tutorial. You should now be able to easily access your 4D for iOS app!
+Cobrimos a validação básica de correio eletrônico neste tutorial. Ahora pode acessar facilmente a sua aplicação 4D for iOS!

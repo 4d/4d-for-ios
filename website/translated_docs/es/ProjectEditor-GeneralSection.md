@@ -7,7 +7,7 @@ Esta sección le permite definir la información principal de su aplicación.
 
 ![General section](assets/en/project-editor/General-section-4D-for-iOS.png)
 
-**Organización:** introduzca su nombre o el de su empresa.
+**Organización:** ingrese su nombre o el de su empresa.
 
 **Identificador:** ingrese el « Bundle ID » de su empresa. Esto se utilizará para identificar su aplicación. El nombre del producto que ingresa se concatena para crear el valor por defecto del “Bundle ID” utilizando la notación inversa del nombre de dominio. Este "bundle ID" debe ser único para su aplicación.
 
@@ -17,7 +17,7 @@ Por ejemplo, si el nombre de su empresa es "MyCompany" y el nombre de su aplicac
 > 
 > Los enlaces de ayuda están disponibles para los campos Nombre e Identificador.
 
-**Nombre del producto:** el nombre de su aplicación. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». Este Bundle ID debe ser el mismo que el ID de paquete creado en su cuenta de desarrollo de Apple.
+**Nombre del producto:** el nombre de su aplicación. Como se describió anteriormente, el nombre del producto se utiliza para crear el «Bundle ID». Este Bundle ID debe ser el mismo que el ID de paquete que crea en su cuenta de desarrollo de Apple.
 
 **Versión**: la versión de su aplicación. Añade los números de versión en orden ascendente y secuencial empezando por el 1.0.
 

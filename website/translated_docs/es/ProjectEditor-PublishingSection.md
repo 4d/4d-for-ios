@@ -13,9 +13,9 @@ Aquí es donde se define o crea su aplicación:
 
 ## Parámetros del servidor web
 
-Si aún no lo ha hecho, active y defina sus puertos HTTPS y/o HTTP haciendo clic en el botón **Editar**.
+Active y defina sus puertos HTTPS y/o HTTP, si aún no lo ha hecho. Puede hacerlo haciendo clic en el botón **Editar**.
 
-La activación del puerto HTTPS requiere que una instalación del certificado para funcionar correctamente. Tenga en cuenta que puede crear los certificados de prueba con 4D.
+La activación del puerto HTTPS requiere que la instalación del certificado funcione correctamente. Puede crear los certificados de prueba con 4D.
 
 > **NOTA**
 > 
@@ -82,7 +82,7 @@ Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
 
 ```
 
-Si desea validar manualmente el primer inicio de sesión para cada sesión usuario, necesita e cambiar el estado por defecto de "aceptado" a "pendiente" añadiendo `$response.verify:=True` al método base [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
+Si desea la posibilidad de validar manualmente el primer inicio de sesión para cada sesión usuario, debe cambiar el estado por defecto "aceptado" a "pendiente" añadiendo `$response.verify:=True` al método base [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html).
 
 
 ### Componente Mobile Session Management
@@ -101,11 +101,11 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 * Reinicie 4D.
 * Haga clic en el botón Ejecutar de la barra de herramientas
 * En el explorador de métodos 4D, seleccione el método **MOBILE SESSION MANAGEMENT** y haga clic en el botón **Ejecutar**.
-* La ventana de aplicaciones aparecerá, mostrando todas sus aplicaciones:
+* La ventana de aplicaciones aparecerá mostrando todas sus aplicaciones:
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
-* Haga clic derecho en una sesión para mostrar el archivo sesión en el Finder o para borrarlo.
+* Haga clic derecho en una sesión para mostrar el archivo sesión en el Finder o elimínelo.
 * Puede cambiar y definir el estado de la sesión para cada dispositivo: aceptado o pendiente
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
@@ -117,7 +117,7 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">Component
 
 ### Pantalla de configuración
 
-Una pantalla de configuración está disponible en la barra de pestañas. También puede encontrarlo en la pestaña "More", si es necesario (*es decir*, su aplicación tiene más de cuatro tablas).
+Una pantalla de configuración está disponible en la barra de pestañas. También puede encontrarlo en la pestaña "More" si es necesario (*es decir*, su aplicación tiene más de cuatro tablas).
 
 Los parámetros le permiten:
 
@@ -129,15 +129,15 @@ Los parámetros le permiten:
 
 ### Redefinir la URL remota
 
-Puede actualizar fácilmente su URL remota desde la configuración del iPhone:
+Puede actualizar fácilmente su url remota desde la configuración del iPhone:
 
 * Abra la configuración de su iPhone
-* Seleccione la URL remota de la aplicación que desea actualizar
+* Seleccione la aplicación para la cual desea que se actualice la URL remota
 * Active la opción "Reinicializar la dirección del servidor"
 
 ![Redefinir la URL remota](assets/en/project-editor/Reset-remote-url.png)
 
-* Luego, reinicie su aplicación para restablecer la dirección del servidor
-* Y finalmente, defina la nueva URL remota
+* Luego reinicie su aplicación para restablecer la dirección del servidor
+* Y finalmente defina la nueva URL remota
 
 ![Actualizar la URL remota](assets/en/project-editor/Update-remote-url.png)

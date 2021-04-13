@@ -13,9 +13,9 @@ This is where you define or create your app's:
 
 ## Web Server Settings
 
-If you haven't done it yet, activate and define your HTTPS and/or HTTP ports by clicking on the **Edit** button.
+Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the **Edit** button.
 
-Activating the HTTPS port requires a certificate installation to work properly. Note that you can create test certificates with 4D.
+Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.
 
 > **NOTE**
 >
@@ -82,7 +82,7 @@ Here is an example of a 4D for iOS-generated session file:
 
 ```
 
-If you want to manually validate the first login for every user session, you need to change the "accepted" default status to "pending", by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
+If you want the ability to manually validate the first login for every user session, you must change the "accepted" default status to "pending" by adding ```$response.verify:=True``` to the [*On Mobile App Authentication*](https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html) database method.
 
 
 ### Mobile Session Management Component
@@ -101,11 +101,11 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">MOBILE SE
 * Restart 4D.  
 * Click on the Execute button from the toolbar
 * In the 4D Methods Explorer, select the **MOBILE SESSION MANAGEMENT** method and click on the **Execute** button. 
-* The Apps window will appear, displaying all your apps: 
+* The Apps window will appear displaying all of your apps: 
 
 ![Mobile App Session Management](assets/en/session-management/Mobile-App-Session-Management.png)
 
-* Right click on a session to reveal the session file in the Finder or to delete it.
+* Right click on a session to reveal the session file in the Finder or delete it.
 * You can change and define the session status for each device: accepted or pending
 
 ![Mobile App Session selection](assets/en/session-management/Mobile-App-Session-Management-selected.png)
@@ -117,27 +117,27 @@ href="https://github.com/4d/Mobile-Session-Management/releases/latest">MOBILE SE
 
 ### Settings screen
 
-A Settings screen is available from the tab bar. You can also find it from the "More" tab, if necessary (*i.e.*, your app has more than four tables).
+A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (*i.e.*, your app has more than four tables).
 
 Settings allows you to:
 
-* Consult your remote URL and its state
+* Consult your remote URL and it's state
 * Log out (if connected as an Authorized User)
 
 ![Login & Settings screen](assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png)
 
 
-### Reset remote URL
+### Reset remote url
 
-You can easily update your remote URL from the iPhone Settings:
+You can easily update your remote url from iPhone Settings :
 
 * Open your iPhone Settings
-* Select the app's remote URL to be updated
+* Select the app you want the remote url to be updated
 * Switch on the "Reset server address" option
 
 ![Reset remote url](assets/en/project-editor/Reset-remote-url.png)
 
-* Then, restart your app to reset the server address 
-* And finally, define the new remote URL
+* Then restart your app to reset the server address 
+* And finally define the new remote url
 
 ![Update remote url](assets/en/project-editor/Update-remote-url.png)
