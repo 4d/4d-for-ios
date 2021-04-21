@@ -3,7 +3,7 @@ id: debugging-from-the-project-editor
 title: Desde el editor del proyecto
 ---
 
-Puede suceder que encuentre problemas al utilizar el editor de proyectos 4D for iOS o al usar su aplicación iOS
+You may encounter issues when using the 4D for iOS project editor or your iOS app.
 
 Puede acceder al historial haciendo clic en "Proyecto" en el editor de proyectos con la tecla Alt.
 

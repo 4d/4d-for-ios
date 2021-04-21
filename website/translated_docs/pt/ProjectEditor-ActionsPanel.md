@@ -67,6 +67,8 @@ Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 <td>Código postal CEP</td><td>Teclado iOS otimizado para entrada de código postal</td>
 </tr><tr>
 <td>Área de texto</td><td>Inclui linhas múltiplas de texto em um único campo</td>
+</tr><tr>
+<td>Código de barras</td><td>Extrair valor associado ao código de barra. Formatos compatíveis:  EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +139,7 @@ Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 <th colspan="2" style="text-align:center">IMAGENS</th>
 </tr>
 <tr>
-<td colspan="2">Os parâmetros de imagem estarão disponíveis em um lançamento posterior</td>
+<td>Assinatura</td><td>Permitir assinatura com o dedo</td>
 </tr>
 
 </table>

@@ -14,13 +14,13 @@ En este tutorial, utilizaremos el siguiente proyecto:
 href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROYECTO STARTER DE DEFINICIÓN DE TÍTULO</a>
 </div>
 
-Now go straight to Open menu > Mobile project... select *Time Keeper* and go to the **Labels & Icons section**.
+Ahora, vaya directamente al menú Abrir > Proyecto móvil... seleccione *Time Keeper* y vaya a la sección **Etiquetas e iconos**.
 
-From here, open the relation tab to define the *tasks* relation title and enter the following line in the **Titles column**: `%Name% tasks`
+Desde aquí, abra la pestaña de relación para definir el título de relación *tasks* e ingrese la siguiente línea en la columna **Titles**:`%Name% tasks`
 
 ![Labels & Icons relation title](assets/en/relations/labels-icons-title-definition.png)
 
-As you may have guessed, it will allow you to display **Employee's Name value** on the destination view depending on the Employee detail form you were on previously.
+Como habrá adivinado, esto le permitirá mostrar el **valor del nombre del empleado** en la vista de destino, en función del formulario detallado Employee en el que estaba anteriormente.
 
 ![Labels & Icons relation title](assets/en/relations/relations-title-definition.png)
 

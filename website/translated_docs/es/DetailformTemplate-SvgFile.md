@@ -10,7 +10,7 @@ Aquí hay una versión final:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-template-svg-file.png)
 
-This template has dynamic field numbering, meaning that this template will allow you to add an **image** and you can put **as many fields** depending on your needs. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
+Esta plantilla tiene una numeración de campos dinámica, lo que significa que le permitirá agregar una **imagen** y puede colocar ** tantos campos **como necesite. Entonces, durante la creación de su formulario detallado en la sección Formularios y arrastra y suelta un campo, aparece un nuevo campo vacío debajo del anterior para que agregue un nuevo campo:
 
 ![Archivo Template svg](assets/en/custom-detailform/detailform-dynamic-field-number.png)
 
@@ -28,7 +28,7 @@ Agregue el título de su plantilla aquí.
 ## Posición, alto, ancho y tipo del área
 Puede definir la posición, el alto y el ancho de todos sus campos como hicimos para el tutorial  [Custom list view](creating-listform.html).
 
-### Field properties
+### Propiedades de los campos
 
 ```
 //1
@@ -88,11 +88,11 @@ Ahora que tiene un **icono**, la **descripción básica de la plantilla** en el 
 
 > **NOTA**
 > 
-> All types are available [here](https://developer.4d.com/docs/en/Concepts/data-types.html).
+> Todos los tipos están disponibles [aquí](https://developer.4d.com/docs/en/Concepts/data-types.html).
 
 > **CONSEJO**
 > 
-> * To make field type definition easier, 4D for iOS allows you to include field types with **positive values** and also exclude field types with **negative values**. For example, `ios:type="-3,-4"` will allow you to drag and drop every field exept images and dates.
+> * Para facilitar la definición de los tipos de campos, 4D for iOS le permite incluir tipos de campos con los ** valores positivos ** y también excluir los tipos de campo con ** valores negativos **. Por ejemplo, `ios:type="-3,-4"` le permitirá arrastrar y soltar todos los campos excepto las imágenes y las fechas.
 > 
-> * To include all types, just type `ios:type="all"`.
+> * Para incluir todos los tipos de campos, introduzca simplemente `ios:type="all"`.
 

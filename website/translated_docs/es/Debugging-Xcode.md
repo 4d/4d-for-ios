@@ -3,7 +3,7 @@ id: debugging-from-xcode
 title: Desde Xcode
 ---
 
-Si tiene problemas durante el proceso de creación, puede abrir su proyecto generado con Xcode seleccionando la opción ** Abrir el producto con Xcode ** en el menú **Project**.
+Si tiene algún problema durante el proceso de creación, puede abrir su proyecto generado con Xcode seleccionando la opción ** Abrir el producto con Xcode ** en el menú **Project**.
 
 ![Abra el proyecto con Xcode](assets/en/debugging/open-project-Xcode.png)
 

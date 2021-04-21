@@ -9,9 +9,9 @@ title: はじめにお読みください
 * 4D Server v17 R2 64ビット版（運用時）
 * [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) がMacにインストールされていること（必須ではありません）
 
-Apple configurator 2 requires **macOS 10.14** or later. アプリをデバイスにインストールするプロセスを自動化することができます。
+Apple configurator 2 requires **macOS 10.14** or a more recent version. If you want to automate app installation on your physical device, you need to install this software.
 
-Xcode 10.2 requieres **macOS 10.14** or later.
+Xcode 10.2 requieres **macOS 10.14** or a more recent version.
 
 ## バージョン対応表
 
@@ -34,15 +34,15 @@ Xcode 10.2 requieres **macOS 10.14** or later.
 
 ### 4D for iOS 17 R6 を macOS 10.14.3 で使用するには
 
-4D for iOS 17 R6 の動作には Swift 5.0 ランタイムが必要です。 （macOS 10.14.4 はインストール済み）
+4D 17R6 requires Swift5.0 runtime (already installed with macOS 10.14.4).
 
  - `Swift 5 Runtime Support for Command Line Tools` を [More Downloads for Apple Developers](https://developer.apple.com/download/more/) から入手してください。
 
 ### 4D for iOS 17 R4 を Xcode 10.2 で使用するには
 
-標準の 4D for iOS 17 R4 と Xcode 10.2 は，Apple Swift 言語の API Stability が合わないため，の組み合わせて使用することはできません。
+Due to Apple Swift language abi instability, you cannot use the standard 4D 17R4 with Xcode 10.2.
 
-Xcode 10.2 用の互換コンポーネントを単独でダウンロードすることができます。
+Fortunately, we provide an alternative component compatible with Xcode 10.2.
 
 `../4D.app/Contents/Resources/Internal User Components/`にインストールされている内部ユーザーコンポーネントの`4D Mobile App.4dbase`,を下記のものと入れ替えてください。
 
@@ -51,7 +51,7 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ## ハードウェアのシステム要件
 
-* 8GB のメモリ（最低限）
+* 8GB of RAM (Minimum recommended).
 
 ## データベース設定
 
@@ -59,10 +59,10 @@ href="https://download.4d.com/Products/Current/4D_v17R4/4D%20Mobile%20App%20-%20
 
 ![オブジェクト記法を使用する](assets/en/prerequisites/Use-object-notation.png)
 
-* HTTP および HTTPS ポート番号は，適正に設定されている必要があります。 4D for iOS アプリの運用環境では，HTTPS が必須です。
+* HTTP および HTTPS ポート番号は，適正に設定されている必要があります。 HTTPS is mandatory for 4D for iOS deployment.
 
 ![Web設定](assets/en/prerequisites/Web-Configuration.png)
 
-* Webサーバーを実行してください。 実行メニューから起動することができます。
+* Webサーバーを実行してください。 It is available from the Run menu:
 
 ![Webサーバーを開始](assets/en/prerequisites/Start-web-server.png)

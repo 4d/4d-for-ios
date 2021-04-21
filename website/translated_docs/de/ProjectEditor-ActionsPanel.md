@@ -67,6 +67,8 @@ Here are the different **Formats** you can select for a parameter:
 <td>Zip Code</td><td>Optimized iOS keyboard for zip code entry</td>
 </tr><tr>
 <td>Text area</td><td>Includes multiple lines of text in a single field</td>
+</tr><tr>
+<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -137,7 +139,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGES</th>
 </tr>
 <tr>
-<td colspan="2">Bildparameter werden in einem späteren Release verfügbar sein.</td>
+<td>Signature</td><td>Allow to sign with the finger</td>
 </tr>
 
 </table>
