@@ -44,7 +44,7 @@ Les **valeurs disponibles** sont les suivantes :
 
 Donc, pour cet exemple, si vous définissez la valeur log.level sur 3, vous obtiendrez un **avertissement, une erreur et un sévère** dans votre console Xcode.
 
-## Format
+## Le format
 
 Vous pouvez afficher différents indicateurs visuels dans la console Xcode pour **mettre en évidence différents types de journaux**.
 
