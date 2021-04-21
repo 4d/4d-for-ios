@@ -19,13 +19,13 @@ title: Instalación en su dispositivo iOS
 > Apple configurator 2 necesita **macOS 10.14** o superior.
 
 
-Depending on your objectives and preferences, you can choose to enroll in one of the following:
+Dependiendo de sus objetivos y de sus preferencias, puede optar por inscribirse en uno de los siguientes programas:
 
 * [Free Apple Developer Program](free-developer-account.html): para prueba únicamente
 * [Apple Developer Program para las empresas](register-apple-developer-program-organization.html) o [para los particulares](register-apple-developer-program-individual.html): con el fin de desplegar en el App Store
 * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html): para desplegar su aplicación internamente
 
-Let's go through the process...
+Veamos el proceso...
 
 ## PASO 1. Cree una cuenta
 
