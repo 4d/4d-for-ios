@@ -24,7 +24,7 @@ href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e
 
 O primeiro passo é incluir o botão.xib em seu modelo personalizado para que 4D for IOS possa usá-lo.
 
-To use the button, you just need to drop it in the `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact` folder.
+Para usar o botão só precisa soltar na pasta `YourDatabase.4dbase/Resources/Mobile/form/detail/BlackVisual Contact`.
 
 ![Custom button path](assets/en/relations/Relation-custom-button-path.png)
 
@@ -94,7 +94,7 @@ O resultado deve parecer com isto:
 
 ### Tamanho e restrições
 
-Keep in mind that if you **add constraints** into your button, you will also have to modifiy the xib xml file to **add some TAGS** as for custom Detail form templates. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.
+lembre que se você **adicionar restrições** no seu botão, também terá que modificar o arquivo xib xml para **agregar algumas TAGS** como para os formulários detalhados personalizados. Isso permite que o botão seja duplicado quando várias relações estiverem disponíveis na mesma vista detalhada.
 
 O que é conveniente porque vamos adicionar algumas restrições!
 
@@ -106,11 +106,11 @@ Pásso 1. Primeiro selecione a vista e mude a altura de 123 a 40
 
 ![Button view height](assets/en/relations/Button-view-height.png)
 
-Passo 2. Double click on the **Top Space Constraint** and change it from 8 to 0
+Passo 2. Dê um duplo clique em **Top Space Constraint** e mude o valor de 8 para 0
 
 ![Top Space constraint](assets/en/relations/Top-Space-constraint.png)
 
-Passo 3. Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+Passo 3. Faça a mesma coisa com  **Bottom Space Constraint** e mude seu valor de 8 para 0
 
 Você deveria obter isto:
 
@@ -141,7 +141,7 @@ Pásso 1. Selecione-o a partir do Storyboard para obter o identiicador de Objeto
 
 ![Horizontal constraint object ID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-Passo 2. Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+Passo 2. Pesquise por essa ID no arquivo xml e coloque no seu lugar **TAG-RL-007**  (uma Tag que ainda não esteja em uso).
 
 Passo 3. Salve o arquivo xml
 

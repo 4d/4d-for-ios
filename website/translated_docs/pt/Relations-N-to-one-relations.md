@@ -1,5 +1,5 @@
 ---
-id: many-to-one-relations
+id: n-to-one-relations
 title: Relações Muitos para Um
 ---
 
@@ -18,27 +18,27 @@ Vamos começar baixando o Projeto Starter:
 href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJETO STARTER N para UM</a>
 </div>
 
-Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
+Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación generada. Para fazer isso, abra **StarteriOSProject** from **Open > Mobile Project...**
 
-Then go right to your Structure section and select the **Task table**.
+Depois vá para a seção Estrutura e selecione a **tabela Task**.
 
 ### Seção Estrutura
 
-* You can notice that the **TaskCategory relation** is underlined
+* Pode verificar que a **relação TaskCategory** está sublinhado
 
 * Ao clicar nele, serão mostrados os campos disponíveis através dessa relação.
 
-* Select the **Name field**
+* Selecione o  **campo Name**
 
 ![Select link from structure section](assets/en/relations/select-link-from-structure.png)
 
 * Este campo funcionará como qualquer outro campo durante o resto do processo de criação da aplicação
 
-* Pode também filtrar seu conteúdo de app usando campos relacionados da seção Data. To do so enter `TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
+* Pode também filtrar seu conteúdo de app usando campos relacionados da seção Data. Para fazer isso digite `TaskCategory.Name != 'Personal'` no campo de consulta Filtro para excluir as tareas pessoais.
 
  ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
 
-* You can then select an **icon** as well as **formatters** and define **short and long labels** from the Labels and Icons section
+* Então pode selecionar um **ícone** assim como **formatadores** e definir **etiquetas curtas e longas** na seção Etiquetas e Ícones
 
 ![Related field from Labels and Icons section](assets/en/relations/related-field-from-labels-icons.png)
 

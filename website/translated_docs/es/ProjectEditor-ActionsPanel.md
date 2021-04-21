@@ -68,7 +68,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 </tr><tr>
 <td>Área de texto</td><td>Incluye varias líneas de texto en un solo campo</td>
 </tr><tr>
-<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+<td>Código de barras</td><td>Extraer el valor asociado al código de barras. Formatos soportados: EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -139,7 +139,7 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 <th colspan="2" style="text-align:center">IMÁGENES</th>
 </tr>
 <tr>
-<td>Signature</td><td>Allow to sign with the finger</td>
+<td>Firma</td><td>Permitir firmar con el dedo</td>
 </tr>
 
 </table>
@@ -197,9 +197,35 @@ Después de crear todas sus acciones, simplemente haga clic en el botón Crear d
 
 > **NOTA**
 > 
-> * Puede refrescar la selección después de ejecutar una acción utilizando`$out.dataSynchro:=True`.
+> * Puede refrescar la selección después de ejecutar una acción utilizando `$out.dataSynchro:=True`.
 > * Puede notificar al usuario de la aplicación cuando se ha ejecutado una acción utilizando `$out.statusText:="Message you want to display"`.
 > * También puede decidir forzar el cierre del formulario de edición utilizando `$out.close:=True`.
+
+
+
+### Acciones en modo sin conexión
+
+The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+
+Pending tasks can be visualized and opened from:
+
+•   *The Settings screen*
+
+It displays a summary and a history of all pending and completed tasks.
+
+![Action section](assets/en/project-editor/screen1)
+
+•   *The List & Detail forms*
+
+They display all the tasks related to the table or to the entity that you are currently viewing.
+
+![Action section](assets/en/project-editor/screen2)
+
+> **Notes**
+> 
+> * The "Share" predefined action is only executable online.
+> * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+
 
 ## Aplicación iOS
 

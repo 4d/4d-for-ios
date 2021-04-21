@@ -105,7 +105,7 @@ Para completar a personalização, selecione ambas as etiquetas e **ingresse o v
 
 > **NOTA **
 > 
-> The provided storyboard is optimized to have a **variable cell height** depending on the contents of each cell.
+> O storyboard é otimizado para ter uma **altura de célula variável** dependendo dos conteúdos de cada célula.
 > 
 > ![Row height tableview cell](assets/en/custom-listform/row-height-tableview-cell.png)
 
@@ -191,7 +191,7 @@ Neste tutorial cobrimos o básico da criação de modelos de formulário lista. 
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">MODELO FINAL DE FORMULÁRIO LISTA PERSONALIZADO</a>
 </div>
 
 

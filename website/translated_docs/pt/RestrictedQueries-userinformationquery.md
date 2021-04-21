@@ -5,11 +5,11 @@ title: Filtro de pesquisa usuário
 
 Agora vamos filtrar o conteúdo de nosso app dependendo da direção de correio eletrônico de início de sessão de administrador de conta (informação de usuário):
 
-* Go to the **Data section**.
-* Right-click in the **Filter query** field to make **Field, Comparators and Operators buttons** appear.
-* Click on the **Operators** button and select **AND**.
-* Now define the user information you want to get from the database method, **:email**.
-* Remember to validate the query by clicking on the **Validate** button. Do contrário não poderá criar sua aplicação.
+* Vá para a seção **Dados**.
+* Dê um clique direito no campo  **Filtro de pesquisa** para que apareçam os **botões Campo, Comparadores e Operadores** .
+* Clique no botão **Operadores** e selecione **AND**.
+* Agora defina a informação de usuário que deseja obter do método de banco de dados, **:email**.
+* Lembre de validar a pesquisa clicando no botão **Validate**. Do contrário não poderá criar sua aplicação.
 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/user-information-query.png)
 
@@ -17,7 +17,7 @@ Agora vamos filtrar o conteúdo de nosso app dependendo da direção de correio 
 Status = 'In Progress' & manager.Email = :email 
 ```
 
-The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).
+A pesquisa vai filtrar os dados dependendo do status de **In Progress** E do **endereço de email do gerente de conta** (acessível da tabela AccountManager graças a relação  *Many-to-One* no nome do gerente).
 
 > **NOTA **
 > 
@@ -34,7 +34,7 @@ Isso permite recuperar o endereço de email do login do gerente e exibir dados d
 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/database-method-user-information-query.png)
 
-Now if you build your app and enter "michelle.simpson@mail.com" as login email, you'll find all of Michelle Simpson's *"In progress"* contracts.
+Agora, se construir seu app e entrar "michelle.simpson@mail.com" como email de login, vai achar todos os contratos de Michelle Simpson *"Em progresso"*.
 
 ![Final result](assets/en/restricted-queries/restricted-queries-final-result.png)
 

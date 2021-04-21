@@ -8,7 +8,7 @@ Esta seção permite que:
 * crie ações para executar o código 4D a partir de seu app iOS.
 * defina e adicione parâmetros para suas ações.
 
-## Project Editor Side
+## No Editor de Projetos
 
 ### Crie sua ação
 
@@ -16,17 +16,17 @@ Pode criar uma nova ação clicando no botão +  no fundo da tabela Actions. Uma
 
 Depois precisa definir o abaixo:
 
-* **Names:** The action name to use in the [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) database method to trigger your 4D code.
-* **Icons:** The icon to choose from your icon library. Pode adicionar seu próprio ícone seguinto este [tutorial](using-icons.html).
-* **Short and long Labels:** The labels for the actions to display in your app.
-* **Table:** The table on which you want to apply the action.
-* **Scope:** Where to use the action, an **entity** or a **table**.
+* **Names:** o nome da ação a usar no método de banco de dados [On Mobile App Action](https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action) para ativar seu código 4D.
+* **Icons:** O ícone a escolher de sua biblioteca ícone. Pode adicionar seu próprio ícone seguinto este [tutorial](using-icons.html).
+* **Short and long Labels:** As etiquetas para as ações para exibir em seu app.
+* **Table:** A tabela na qual quer aplicar a ação.
+* **Scope:** Onde usar a ação, uma **entidade** ou uma **tabela**.
 
 ![Action section](assets/en/project-editor/Actions-section-4D-for-iOS.png)
 
 ### Adicione parâmetros para sua ação
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+A partir de **4D v17R6**, pode adicionar **parâmetros ação** e **editar** dados diretamente de seu app.
 
 Para cada parâmetro, pode editar as propriedades abaixo:
 
@@ -39,11 +39,11 @@ Para cada parâmetro, pode editar as propriedades abaixo:
 * Definição campo obrigatória
 * Valor padrão
 
-![Action parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
+![Action-parameters](assets/en/project-editor/Actions-parameters-4D-for-iOS.png)
 
 Você é livre para mudar a ordem dos parâmetros usando arrastar e soltar.
 
-Here are the different **Formats** you can select for a parameter:
+Aqui estão os diferentes **Formatos** que pode selecionar para um parâmetro:
 
 <table>
 
@@ -68,7 +68,7 @@ Here are the different **Formats** you can select for a parameter:
 </tr><tr>
 <td>Área de texto</td><td>Inclui linhas múltiplas de texto em um único campo</td>
 </tr><tr>
-<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+<td>Código de barras</td><td>Extrair valor associado ao código de barra. Formatos compatíveis:  EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
 </tr>
 <tr>
 <td colspan="2"></td>
@@ -139,7 +139,7 @@ Here are the different **Formats** you can select for a parameter:
 <th colspan="2" style="text-align:center">IMAGENS</th>
 </tr>
 <tr>
-<td>Signature</td><td>Allow to sign with the finger</td>
+<td>Assinatura</td><td>Permitir assinatura com o dedo</td>
 </tr>
 
 </table>
@@ -148,37 +148,37 @@ Here are the different **Formats** you can select for a parameter:
 
 4D for iOS inclui três ações (pré-definidas) para administrar o conteúdo de sua aplicação:
 
-* Edit
+* Editar
 * Ação de Adicionar
 * Ação de eliminar
 
 #### 1. Ação de Adicionar
 
-4D for iOS makes the **Add actions** creation process very simple.
+4D for iOS torna o processo de criação **Ação Adicionar** bem simples.
 
-The only thing you need to do is select the **Add action for** option, accessible from the **+ button** at the bottom of the Actions table.
+A única coisa que precisa fazer é selecionar a opção **Ação adicionar** acessível a partir do  **+ botão** no fundo da tabela Ações.
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. E é só isso!
+Depois **selecione a tabela** que quiser linkar à ação adicionar. E é só isso!
 
-This will **automatically create** all the parameters for you in the Project Editor. No app gerado, isso permite que edite cada valor de campo.
+Isso vai **criar automaticamente** todos os parâmetros para você no Editor de Projeto. No app gerado, isso permite que edite cada valor de campo.
 
-For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
+Para este tipo de ação, vai ver que todas as **propriedades** já estão preenchidas para sua conveniência no lado direito da lista de parâmetros.
 
 
 #### 2. Ação Editar
 
-**Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
+A criação de **Ações Editar** segue o mesmo processo que as Ações Adicionar, com exceção que não é possível definir valores predeterminados a partir da seção Ações.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
 #### 3. Ação de eliminação
 
-**Delete action** creation follows the same process as the Edit action. A única diferença é que essa ação permite que remova uma entidade.
+A criação de **ações de eliminação ** segue o mesmo processo que as ações de edição. A única diferença é que essa ação permite que remova uma entidade.
 
-To create a Delete action, select the **Delete action for** option accessible from the **+ button** at the bottom of the Actions table.
+Para criar uma ação de eliminação, selecione a opção **Ação de eliminação para**, acessível desde o **botão + ** na parte inferior da tabela Ações.
 
 Este tipo de ação deve ser utilizado com precaução.
 
@@ -186,14 +186,14 @@ Este tipo de ação deve ser utilizado com precaução.
 
 Para as ações de edição e adição, pode modificar:
 
-* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* os parâmetros agregando ou removendo um parâmetro usando os **botões + e - ** no fundo da lista de parâmetros Ação.
 * as propriedades, definindo-as como quiser.
 
 ### On Mobile App Action
 
 O método banco de dados [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) está disponível para chamar a todos seus métodos 4D.
 
-After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
+Depois de criar todas as suas ações, simplesmente clique no botão Criar da tabela Ações para gerar automaticamente um bloco de código *Case of* que inclua todos os nomes de suas ações no método *On Mobile App Action*.
 
 > **NOTA **
 > 
@@ -201,17 +201,43 @@ After creating all of your actions, just click on the Create button from the Act
 > * Pode notificar o usuário da aplicação sobre quando uma ação tiver sido executada usando `$out.statusText:="Mensagem que quer exibir"`.
 > * Pode decidir fechar à força o formulário Edition usando `$out.close:=True`.
 
+
+
+### Ações modo offline
+
+The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+
+Pending tasks can be visualized and opened from:
+
+•   *Tela de Configurações*
+
+It displays a summary and a history of all pending and completed tasks.
+
+![Action section](assets/en/project-editor/screen1)
+
+•   *Formulários Lista & Detalhado*
+
+They display all the tasks related to the table or to the entity that you are currently viewing.
+
+![Action section](assets/en/project-editor/screen2)
+
+> **Notes**
+> 
+> * The "Share" predefined action is only executable online.
+> * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+
+
 ## Aplicação iOS
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+Em sua aplicação iOS, as ações estão disponíveis de diferentes formas em seus formulários listados e detalhados, segundo os modelos que selecionar na seção Formulários.
 
 ### Formulários Lista em tabela
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
+* **Ação de entidade:** deslize até a esquerda em uma célula para mostrar as ações disponíveis em um formulário Lista. Um botão  "+" é mostrado se definir mais de 3 ações por entidade.
 
 ![Entity Lisform Tableview](assets/en/actions/ListForm-entity-action-tableview.png)
 
-* **Table actions:** A generic actions button is available in the navigation bar to display a list of available table actions.
+* **Ações de tabela:** um botão de ações genéricas está disponível na barra de navegação para mostrar uma lista de ações de tabela.
 
 ![Table Listform Tableview](assets/en/actions/ListForm-table-action-tableview.png)
 
@@ -222,43 +248,43 @@ In your iOS app, actions are available in different ways in your List and Detail
 
 ### Formulários Lista coleção
 
-* **Entity action:** Depending on the template, actions are displayed by clicking on a generic button or by maintaing the pressure on a cell.
+* **Ação Entidade** Dependendo do modelo selecionado, as ações são mostradas ao clicar no botão genérico ou ao manter o clique em uma célula.
 
 ![Entity Listform Collectionview](assets/en/actions/ListForm-entity-action-collectionview.png)
 
-* **Table actions:** Like the Table List forms, a generic Actions button is available in the navigation bar to display a list of availble table actions.
+* **Ações de tabela:** como para os formulários Lista em tabelas, há um botão de ações genérico disponível na barra de navegação para mostrar uma lista de ações de tabela.
 
 ![Table Listform Collectionview](assets/en/actions/ListForm-table-action-collectionview.png)
 
 ### Formulários detalhados
 
-As with Table actions in List forms, a generic Actions button is available in the navigation bar to display all your entity actions in a list.
+Como para as ações de tabela nos formulários detalhados, um botão de ações genéricas está disponível na barra de navegação para mostrar todas suas ações de entidade em uma lista.
 
 ![Entity Detailform](assets/en/actions/Detailform-final.png)
 
 ### Formulários de edição
 
-If you have created an Edit or an Add action, as soon as you select it from the action list, an **Edition form** will appear.
+Se criou uma ação de edição ou de adição, logo que selecioná-la da lista de ações, aparecerá um **formulário de Edição**.
 
 ![Send task comment](assets/en/actions/Action-parameters-sendComment.png)
 
-From here, you can:
+A partir desse ponto, você pode
 
-* edit all of your fields by selecting them, and
-* validate or cancel your modifications using the **Done** or **Cancel** buttons (available in the navigation bar).
+* editar todos seus campos ao selecioná-los, e
+* validar ou cancelar suas modificações com os botões **Pronto** ou **Cancelar** (disponíveis na barra de navegação).
 
-For your convenience, the Edition form includes a few **special features**:
+Para sua comodidade, o formulário de Edição inclui algumas **funcionalidades especiais**:
 
-* The keyboard type depends on the selected parameter type in the Action section.
-* You can go to the next or previous field using the arrow on top of the keyboard.
-* The iOS keyboard can be closed by touching anywhere outside of a field.
-* Indication is given to the user when a value is not valid.
-* The view focuses on empty mandatory fields when the user clicks the Done button.
+* O tipo de teclado depende do tipo de parâmetro selecionado na seção Actions.
+* Pode ir ao próximo campo ou ao anterior, utilizando a flecha na parte superior do teclado.
+* O teclado iOS pode ser fechado tocando em qualquer parte fora de um campo.
+* É indicado ao usuário quando um valor não for válido.
+* A vista foca em campos obrigatórios vazios quando o usuário clicar no botão Pronto.
 
 ## Que fazer agora?
 
-* A [tutorial](actions-getting-started.html) is available to guide you through the **action definition process**.
+* Um [tutorial](actions-getting-started.html) está disponível para guiá-lo através do **processo de definição de uma ação**.
 
-* Another [tutorial](action-custom-template.html) will guide you through the **action TAG integration** for custom templates.
+* Outro [tutorial](action-custom-template.html) o guiará para integrar as **TAG de ação** nos modelos personalizados.
 
-* A final [tutorial](action-parameters.html) will guide you through the **action parameters definition**.
+* Um [tutorial](action-parameters.html) final o guiará ao longo do processo **definição dos parâmetros de uma ação**.

@@ -38,7 +38,7 @@ Vá para a página de criação de Identidade[Apple ID ](https://appleid.apple.c
 
 ## PASSO 4. Una-se ao Apple Developer Program
 
-* Click on **Join the Apple Developer Program** at the bottom of the page.
+* Clique em **Join the Apple Developer Program** na parte inferior da página.
 
 ![Una-se ao Apple Developer Program](assets/en/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 

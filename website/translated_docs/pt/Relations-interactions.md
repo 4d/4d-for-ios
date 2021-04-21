@@ -3,62 +3,62 @@ id: relations-interactions
 title: Relation interactions
 ---
 
-R6 allows to add very nice interaction into your apps. For instance you will be able to publish One to Many and Many to One relation from [Many to one relation](many-to-one-relations.html) !
+R6 permite que adicione interações em seus apps. Por exemplo pode publicar relações One to Many e Many to One a partir de uma relação[Many to one](many-to-one-relations.html) !
 
 # Editor de Projeto
 
 ## Seção Estrutura
 
-From the structure section, you will be able to publish relations from Many to One relation very easily. This will allow to display for example Many to Many relation into your iOS app.
+A partir da seção estrutura, pode publicar relações a partir de uma relação Many to One de forma simples. Isso permite exibir por exemplo relações Many to Many em seu app iOS
 
 ![Publish relations from Structure section](assets/en/relations/structure-section.gif)
 
 ## Labels & Icons section
 
-From the Labels & Icons section, you will be able to customize your relation button label.
+Na seção Labels & Icons, pode personalizar sua etiqueta de botão relacões
 
-### Getting the number of records
+### Obter o número de registros
 
-A new great feature is available to display record numbers that will be displayed clicking on a One to Many relation.
+Uma nova propriedade está disponível para exibir o número de registros que serão exibidos ao clicar em uma relação One to Many.
 
-For that just add %length% into your relation short or long label for a One to Many relation.
+Para fazer isso apenas adicione %length% em sua etiqueta de relação longa ou curta para uma relação One to Many.
 
 ![length parameter](assets/en/relations/icons-labels-length-parameter-relation.png)
 
 ## Seção Formulários
 
-### Add any relation anywhere you want
+### Adicione qualquer relação onde quer que queira
 
-Any kind of relation can be dropped in List and Detail form to add interactions and create more dynamic app as ever before !
+Qualquer tipo de relação pode ser jogada no formulário Lista e Detalhe para adicionar interações e criar apps mais dinâmicos do que nunca!
 
 ![Drop relations list and detail forms](assets/en/relations/drop-relation-list-detail-form.gif)
 
-### Make your field clickable
+### Torne seus campos clicáveis
 
-In the form section, you will be able to make your fields clickable droping relation on a field in List forms and Detail forms.
+Na seção formulários, pode fazer com que seus campos fiquem clicáveis ao soltar relações em um campo em formulários Lista ou em formulários Detalhe.
 
 ![Clickable fields](assets/en/relations/clickable-fields-relation.gif)
 
 
-# Generated app
+# App Gerado
 
-Those improvements will allow you to add interactions into your app :
+Essas melhorias permitem adicionar intereações em seu app:
 
-* Move from a list form to another list form instead of opening a detail form to access to another list form.
+* Mova-se de um formulário lista para outro formulário lista ao invés de abrir um formulário detalhe para poder acessar outro formulário lista.
 
-In this example we access to the orders list from the Orders list clicking on a One to Many relation from the Customers List form.
+Neste exemplo acessamos a lista de ordens a partir da lista Ordens clicando em uma relação ONe to Many a partir do formulário Lista Clientes
 
 ![Many to many relation](assets/en/relations/many-to-many-relations.gif)
 
-* Diplay relation in List Forms to access to related detail forms.
+* Exiba relações em seus formulários Lista para acessar os formulários Detalhe relacionados.
 
-In this example we access to the Customer detail form the Orders List and Orders Detail form.
+Nesse exemplo acessamos ao formulário detalhe Cliente, a lista Ordens e o formulário detalhe Ordens.
 
 ![Many to One relation](assets/en/relations/many-to-one-relations.gif)
 
-* Make your field clickable adding a N to One relation and display records number thanks to %length%.
+* Torne seu campo clicável adicionando uma relação N to One e exibindo número de registros graças a  %length%.
 
-In this example the number of product for each One to Many relation in the Category List form is displayed.
+Nesse exemplo o número de produto para cada relação ONe to Many no formulário lista Categoria é exibido.
 
 ![length for one to many](assets/en/relations/length-for-one-to-many.png)
 

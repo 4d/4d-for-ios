@@ -66,7 +66,7 @@ $0:= Mobile App Email Checker ($1)
 
 ## Mobile App Active Session
 
-Llame ao método **Activate sessions** no método de banco de dados **On Web Connection** com o parâmetro ID da sessão extraída da URL:
+Chame ao método **Activate sessions** no método de banco de dados **On Web Connection** com o parâmetro ID da sessão extraída da URL:
 
 ```4d
 C_TEXT($1)

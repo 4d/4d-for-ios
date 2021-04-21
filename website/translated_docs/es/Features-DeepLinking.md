@@ -7,6 +7,10 @@ title: Deep Linking
 > 
 > Compartir el contenido de la aplicación iOS utilizando Deep Linking.
 
+> **REQUISITOS PREVIOS**
+> 
+> Cuenta Apple Developer
+
 ¡4D v18 R5 incluye una nueva y gran funcionalidad! Ahora puede compartir el contenido que está viendo con todos sus colegas. ¿Cómo funciona?
 
 He aquí una ilustración que resume "deep linking":
@@ -148,6 +152,10 @@ Como puede ver, esta nueva funcionalidad abre un gran abanico de posibilidades u
 Deep linking es una funcionalidad crucial en las aplicaciones de hoy en día, especialmente ya que los usuarios consumen el contenido más y más rápidamente. Esta funcionalidad los lleva directamente al lugar deseado. Así que recomiendo que lo utilicen en sus aplicaciones 4D for iOS.
 
 La documentación [está aquí](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) para ayudarle a manejar sus notificaciones push y Deep linking.
+
+## MobileApps folder
+
+Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID.BundleID/manifest.json file from your Design database to your production database.  
 
 
 

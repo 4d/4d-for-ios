@@ -3,18 +3,18 @@ id: define-filter-query
 title: Definir um filtro de pesquisa
 ---
 
-For the moment, if you build the Starter Project app and enter "michelle.simpson@mail.com" as the login email (one of the account managers), you'll see **all manager contracts and statuses** (*Closed* and *In Progress*).
+Por agora,  se construir o app Starter Project e digitar "michelle.simpson@mail.com" como o email de login (uma das contas de administrador), verá **todos os contratos e estados dos administradores** (*Closed* e *In Progress*).
 
 ![iOS app without queries](assets/en/restricted-queries/ios-app-without-queries.png)
 
-As we discussed earlier, we want the account managers to access their *In Progress* contracts by logging into their mobile app with their email. Para fazer isso:
+Como falamos anteriormente, queremos que os administradores de contas acessem a seus contratos *Em Progresso* iniciando a sessão em seu aplicativo móvel com seu correio eletrônico. Para fazer isso:
 
-* Go to the **Data section**
-* Right-click in the **Filter query** field to make the **Field, Comparators and Operators buttons** appear.
-* Click on the **Fields** button and select **Status**.
-* Click on the **Comparators** button and select **Equal to**.
-* Because you want to display *open* contracts, enter **In progress**
-* Remember to validate your query by clicking on the **Validate** button, otherwise you won't be able to build your app.
+* Vá para a seção **Dados**
+* Dê clique direito no campo **Filtro de pesquisa** para fazer com que apareçam os botões **Campos, Comparadores e Operadores**.
+* Clique no botão **Campos** e selecione **Estado**.
+* Clique no botão **Comparadores** e selecione **Igual a**.
+* Como quer mostrar os contratos*abertos*, ingresse **Em progresso**
+* Lembre de validar sua pesquisa clicando no botão **Validar** do contrário não poderá criar sua aplicação.
 
 Deve obter este resultado:
 
@@ -26,10 +26,10 @@ Deve obter este resultado:
 > * Para esses tipos de filtros de pesquisa, pode escolher incorporar os dados no app ou carregar os dados depois do login, marcando a checkbox **Embed data into the built application** .
 > * O tamanho será calculado na primeira compilação para poder visualizar o **tamanho de seus dados**.
 
-If you build your app and enter "michelle.simpson@mail.com" as the login email, you'll see that all contracts *In Progress* are displayed in the Simulator!
+Se construir seu app e digitar "michelle.simpson@mail.com" como o email de login, verá que todos os contratos *Em Progresso* serão exibidos no Simulator!
 
 ![iOS app with basic query](assets/en/restricted-queries/restrited-queries-basic-query.png)
 
-Not exactly what we expected! What we want now is for each account manager to visualize only their own *In Progress* contracts, so let's complete our query!
+Não é bem o que esperávamos! O que queremos agora é que para cada conta de administrador, possamos visualizar apenas seus próprios contratos *Em Progresso* , então vamos completar nossa pesquisa!
 
 

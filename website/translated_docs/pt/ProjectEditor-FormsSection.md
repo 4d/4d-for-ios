@@ -9,9 +9,9 @@ A seção Formulários lhe permite selecioanr os modelos de formulário Lista e 
 
 Aqui está o detalhamento da tela, de cima para baixo:
 
-* **List and Detail Forms:** Allows switching between list and detail form definitions for each table.
-* **Published tables:** Displays all tables published in the Structure section.
-* **Available Forms:** Allows switching between template selection and content definition.
+* **Os formulários lista e os formulários detalhados:** permitem mudar entre os formulários Lista e os formulários detalhados para cada tabela.
+* **Tabelas publicadas:** Exibe todas as tabelas publicadas na seção Estrutura.
+* **Formulários Disponíveis:** Permite trocar entre a seleção de modelos e a definição de conteúdo.
 
 ![List form template selection](assets/en/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -23,16 +23,16 @@ Selecione um modelo para sua primeira tabela. Quando tiver feito isso, aparece a
 
 ![List form content definition](assets/en/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-About the Search field, R6 version add a really nice feature with the Barcode search feature.
+A versão R6 adiciona o campo Pesquisa adiciona uma funcionalidade com a pesquisa de Barra de Código.
 
-To activate it, just click on the magnifying glass and check the **Barcode Scanner** option !
+Para ativar a propriedade basta clicar na lupa e marcar a opção **Barcode Scanner**  !
 
 ![Barcode Search activation](assets/en/project-editor/project-editor-Qrcode-barcode-search-4D-for-iOS.gif)
 
-This feature will allow two things :
+Essa propriedade permite duas coisas:
 
-* Filtering a list form scanning a Barcode that contains a text value. This will fill the Search Bar and open the detail form if there is only one value left after filtering.
-* Displaying specific list and detail forms just by scanning a barcode whose values are URL Schemes or Universal Links after [Deep linking](deep-linking) feature activation.
+* Filtrar um formulário lista escaneando um código de barras que contenha um valor texto. Isso preenche a Barra de Ferramentas e abre o formulário detalhado só sobrar um valor depois de filtrar.
+* Mostrar formulários específicos listados e detalhados com só escanear um código de barras cujos valores sejam Esquemas URL ou Links Universais depois da ativação da funcionalidade [Deep linking](deep-linking).
 
 ![Barcode Search app](assets/en/project-editor/text-Qrcode-barcode-search-4D-for-iOS..gif)
 
@@ -64,7 +64,7 @@ E pode reordenar a qualquer momento seu campo selecionando-o e soltando em qualq
 > * Tipos de campos são automaticamente reconhecidos, salvos e colocados nas áreas apropriadas para você (dependendo do modelo e tipo de campo) quando mudar de modelo.
 
 
-## Gallery
+## Galería
 
 Você provavelmente notou que quando quiser selecionar um modela na seção formulário, um ícone "Mais" está disponível para os formulários lista e formulários detalhes desde 4D v18R3.
 

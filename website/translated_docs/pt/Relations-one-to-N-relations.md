@@ -17,23 +17,23 @@ Vamos começar baixando o Projeto Starter:
 href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJETO STARTER UM PARA MUITOS</a>
 </div>
 
-In this tutorial, we are going to build a colorful **Task app** using 4D for iOS.
+Neste tutorial, vamos construir um **Task app** colorido usando 4D for iOS.
 
 ![Task App Final result](assets/en/relations/4D-for-iOS-dark-mode-card-relation-ios-13.gif)
 
-But first, let's have a look at the structure of our database:
+Mas primeiro, vamos olhar a estrutura de nosso banco de dados:
 
 ![Select link from structure section](assets/en/relations/Database-1-to-N-relations-4D-for-iOS.png)
 
-As you can see, there is a One to Many link named **tasks** that we will use in our iOS app to display the employees'(**One**) tasks(**to Many**).
+Como pode ver, há um link  One to Many chamado **tasks** que vamos usar em nosso iOS app para exibir as tasks/tarefas(**to Many**).dos funcionários'(**One**)
 
-Now, go straight to Open menu > Mobile project... to select *Time Keeper* and go to the **Structure section**.
+Agora vá direto para o menu Open > Mobile project... selecione *Time Keeper* e vá para a seção  **Structure**.
 
 ## Seção Estrutura
 
-You can see the **tasks relation** we have seen earlier... Publish it !
+Pode ver a **relação de tasks/tarefas** que vimos antes... Publique!
 
-This will now operate as any other field for the rest of the app creation process.
+Agora isso vai operar como qualquer outro campo pelo resto do processo de criação do app.
 
 ![Structure section Relations properties](assets/en/relations/Structure-section-relations-4D-for-iOS.png)
 
@@ -43,11 +43,11 @@ This will now operate as any other field for the rest of the app creation proces
 
 ## Labels & Icons section
 
-The One to Many relation is now available in the [Labels and Icons](labels-and-icons.html) section.
+A relação Um para Muitos está agora disponível na seção [Etiquetas e ìcones](labels-and-icons.html).
 
-It is important to know that including a One to Many relation will create a button into the genrated iOS app.
+É importante saber que incluindo uma relação Um para Muitos vai criar um botão no app iOS gerado.
 
-So, in the Labels & Icons section you will define:
+Então, na seção Etiquetas & Icones você vai definir:
 
 * um botão Etiqueta
 * um botão ícone
@@ -57,19 +57,19 @@ So, in the Labels & Icons section you will define:
 
 ## Seção Formulários
 
-* Go to the Forms section and drop the *tasks* relation on the Employee Task Detail form.
+* Vá para a seção Formulários e solte a relação *tasks* no formulário detalhado Employee Task.
 
 ![Related field in Forms section](assets/en/relations/1-to-n-relations-forms-section.png)
 
 ## Compile e Execute
 
 1. Do formulário Employee List, clique em um empregado.
-2. This will open the employee's detail form, where you should see a new **Relation button** !
+2. Isso vai abrir o formulário detalhado employee/empregados, onde você verá um novo botão **Relation** !
 3. Clique no botão Relation para exibir as tarefas dos funcionários
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
-And voila, this is how One to Many relations work in 4D for iOS !
+E pronto, é assim que funciona as relações Um para Muito em 4D for iOS!
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
