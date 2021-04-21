@@ -119,6 +119,14 @@ $response:=$pushNotification.send($notification; $recipients)
 ```
 ![Data synchronization animation](assets/en/push-notification/pushandSynchro.gif)
 
+## Windows Configuration
+
+Windows users need to download the [last CURL version](https://curl.se/download.html) to work on the variables of the environment of their machine. Ou podem inserir curl.exe na pasta Resources do banco de dados produção.
+
+## MobileApps folder
+
+Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID.BundleID/AuthKey_XXXX.P8 and 4DBASE/MobileApps/ID.BundleID/manifest.json files from your Design database to your production database.
+
 ## Que fazer agora?
 
 O componente que maneja e facilita o processo também está disponível [aqui](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) para que possa adaptar as notificações push a suas próprias necessidades. Pode usar e escolher quais os aspectos mais relevantes para sua aplicação. Todas as contribuições são bem vindas a este projeto, seja através de comentários, relatórios de erros ou ainda melhor: "pull requests".

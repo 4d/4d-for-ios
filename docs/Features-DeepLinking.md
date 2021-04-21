@@ -153,6 +153,10 @@ Deep linking is a crucial feature in today’s apps, especially as users consume
 
 The documentation is [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/18R4/Documentation/Classes/PushNotification.md) to help you manage your push notifications and Deep linking.
 
+## MobileApps folder
+
+Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID.BundleID/manifest.json file from your Design database to your production database.  
+
 
 
 
