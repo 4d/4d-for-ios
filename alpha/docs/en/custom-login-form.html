@@ -1,0 +1,304 @@
+<!DOCTYPE html><html lang="en"><head><meta name="docsearch:version" content="alpha"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Custom Login Form · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIVES**"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Custom Login Form · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/alpha/index.html"/><meta property="og:description" content="&gt; **OBJECTIVES**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/alpha/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/alpha/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/alpha/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/alpha/css/main.css"/><script src="/4d-for-ios/alpha/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/alpha/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/alpha/docs/en/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/alpha/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/alpha/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/alpha/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v18 R4 BETA</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/Rx" target="_self">v18 R3</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/alpha/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/alpha/docs/ja/custom-login-form.html">日本語</a></li><li><a href="/4d-for-ios/alpha/docs/es/custom-login-form.html">Español</a></li><li><a href="/4d-for-ios/alpha/docs/fr/custom-login-form.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Creating your iOS App</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating your iOS App<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/contact-app.html">Contact App</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/alpha/docs/en/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customizing with Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/open-xcode.html">Working with Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/xcode-overview.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/4d-for-ios-project-organization.html">4D for iOS project organization</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating List forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/creating-listform-templates.html">List form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/icon-listform-template.html">List form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating Detail forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/icon-detailform-template.html">Detail form icon</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Using icons<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/using-icons.html">Using icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/create-icons.html">Create icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/include-icons.html">Include icons in the project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/select-icons.html">Select your icons</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Data formatter<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/data-formatter.html">Data formatter</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/data-formatter-mobile-project.html">Open mobile project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/data-formatter-build-and-run.html">Build and Run your project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/creating-data-formatter.html">Create data formatter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Multi-criteria search<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/multi-criteria-search.html">Multi-criteria search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Restricted queries<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/filter-query-introduction.html">Restricted queries</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/define-filter-query.html">Define a filter query</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/user-information-query.html">User information query</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/actions-getting-started.html">Getting started</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/define-first-action.html">Defining your first action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/action-custom-template.html">Adding actions in templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/action-parameters.html">Using action parameters</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/many-to-one-relations.html">Many to One relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/one-to-many-relations.html">One to Many relations</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/one-to-many-relations-title-definition.html">One to Many - Title definition</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/one-to-many-relations-custom-button.html">One to Many - Custom button</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/one-to-many-relations-actions.html">One to Many - Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Features<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/authentication.html">Email authentication</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/push-notification.html">Push notifications</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/alpha/docs/en/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/develop/docs/Custom-Login-form.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Custom Login Form</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIVES</strong></p>
+<p>Use a custom login form</p>
+<p>Allow authenticated users to login by scanning a QRCode</p>
+</blockquote>
+<blockquote>
+<p><strong>PREREQUISITES</strong></p>
+<p>A website with authenticated users</p>
+<p>4D 18R6 minimum</p>
+<p>Real iOS mobile device (simulator do not simulate camera)</p>
+</blockquote>
+<p>This tutorial will allow you to quickly and easily integrate a custom <a href="https://4d-for-ios.github.io/gallery/#/type/form-login">login form</a>.</p>
+<p><em>Scenario: You already have a website with authenticated users and you want then to login into their app just by scanning a QRCode</em></p>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<p>Selecting a custom login form from the Project editor is not implemented yet but let's see how to do that manually</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="step-1-getting-started"></a><a href="#step-1-getting-started" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 1. Getting started</h2>
+<p>In this tutorial, we're going to:</p>
+<ul>
+<li>Include a custom login form</li>
+<li>Add the ability for your app users to login just by scanning a QRCode</li>
+</ul>
+<p>First download our Starter Project, which contains a database file and ready to use webpages in the Webfolder folder.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<p><a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomLoginForm/archive/main.zip">STARTER PROJECT</a></p>
+</div>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<p>This project already includes a Users table with a Login and a Password for each authenticated user.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="step-2-include-and-use-a-custom-login-form"></a><a href="#step-2-include-and-use-a-custom-login-form" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 2. Include and use a custom login form</h2>
+<p>To use a custom login form, the first thing you'll need to do is creating a <em>YourDatabase.4dbase/Resources/Mobile/form/login</em> folder.</p>
+<p>Download the Sign in With <a href="https://github.com/mesopelagique/form-login-SignInWithQRCode/archive/master.zip">QRCode login form</a> and simply drop it in the login folder you've just created.</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/login-folder.png" alt="login folder"></p>
+<p>Then open the <em>YourDatabase.4dbase/Mobile Projects/ContactQRCodeLogin/project.4dmobileapp</em> file</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/4dmobileapp-file.png" alt="project.4dmobileapp"></p>
+<p>With your project closed, and add the following line : <em>&quot;login&quot;: &quot;/SignInWithQRCode&quot;,</em></p>
+<pre><code class="hljs">{
+    <span class="hljs-string">"info"</span>: {
+        <span class="hljs-string">"version"</span>: <span class="hljs-number">5</span>,
+        <span class="hljs-string">"target"</span>: <span class="hljs-string">"iOS"</span>,
+        <span class="hljs-string">"ideVersion"</span>: <span class="hljs-string">"1870"</span>,
+        <span class="hljs-string">"ideBuildVersion"</span>: <span class="hljs-string">"261295"</span>,
+        <span class="hljs-string">"componentBuild"</span>: <span class="hljs-string">""</span>
+    },
+    <span class="hljs-string">"login"</span>: <span class="hljs-string">"/SignInWithQRCode"</span>,
+    ...
+
+</code></pre>
+<p>This will allow to initialize the custom template and use it during the build process.</p>
+<p>You are done for the custom template intégration! So quite an easy process :)</p>
+<h2><a class="anchor" aria-hidden="true" id="step-3-on-mobile-app-authentication-database-method"></a><a href="#step-3-on-mobile-app-authentication-database-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 3. On Mobile app Authentication database method</h2>
+<p>Open the QRCode mobile project and go right to the Publishing section.</p>
+<p>From here check the Authentication feature and Create the database method clicking on the Create button.</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/publishing-section.png" alt="Publishing section"></p>
+<p>This is how it should look to authenticate users :</p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-variable">$0 </span>: Object<span class="hljs-keyword">
+var</span> <span class="hljs-variable">$1 </span>: Object<span class="hljs-keyword">
+
+var</span> <span class="hljs-variable">$request</span>; <span class="hljs-variable">$response </span>: Object
+
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1  </span><span class="hljs-comment">// Informations provided by mobile application</span>
+<span class="hljs-variable">$response</span>:=New object  <span class="hljs-comment">// Informations returned to mobile application</span>
+
+<span class="hljs-variable">$entity</span>:=ds.User.<span class="hljs-function">query</span>(<span class="hljs-string">"login = :1"</span>; <span class="hljs-variable">$request</span>.email)<span class="hljs-keyword">
+If</span> (<span class="hljs-variable">$entity</span>.length&gt;<span class="hljs-number">0</span>)
+    <span class="hljs-variable">$password</span>:=<span class="hljs-variable">$entity</span>.<span class="hljs-function">first</span>().password  <span class="hljs-comment">// Get the password from the table</span><span class="hljs-keyword">
+    
+    If</span> (<span class="hljs-function">Verify password hash</span>(<span class="hljs-variable">$password</span>; <span class="hljs-variable">$request</span>.parameters.token))
+        <span class="hljs-comment">// Comparison with what you receive in the request</span>
+        
+        <span class="hljs-variable">$response</span>.success:=<span class="hljs-literal">True</span><span class="hljs-keyword">
+    Else</span> 
+        <span class="hljs-variable">$response</span>.success:=<span class="hljs-literal">False</span><span class="hljs-keyword">
+    End if</span><span class="hljs-keyword"> 
+Else</span> 
+    <span class="hljs-variable">$response</span>.success:=<span class="hljs-literal">False</span><span class="hljs-keyword">
+End if</span> 
+
+<span class="hljs-comment">// Optional message to display on mobile App.</span><span class="hljs-keyword">
+If</span> (<span class="hljs-variable">$response</span>.success)
+    <span class="hljs-variable">$response</span>.statusText:=<span class="hljs-string">"You are successfully authenticated"</span><span class="hljs-keyword">
+Else</span> 
+    <span class="hljs-variable">$response</span>.statusText:=<span class="hljs-string">"Sorry, you are not authorized to use this application."</span><span class="hljs-keyword">
+End if</span> 
+
+<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$response</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="step-4-project-methods"></a><a href="#step-4-project-methods" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 4. Project Methods</h2>
+<h3><a class="anchor" aria-hidden="true" id="authentication-method"></a><a href="#authentication-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authentication method</h3>
+<p>Here we get the variable from the form and check if those values exist in the User table :</p>
+<pre><code class="hljs"><span class="hljs-comment">//Retrieve all the variables of the form</span>
+<span class="hljs-function">C_TEXT</span>(<span class="hljs-variable">$1</span>)
+<span class="hljs-function">ARRAY TEXT</span>(<span class="hljs-variable">$arrNames</span>; <span class="hljs-number">0</span>)
+<span class="hljs-function">ARRAY TEXT</span>(<span class="hljs-variable">$arrVals</span>; <span class="hljs-number">0</span>)
+
+<span class="hljs-comment">// Get the login and pswd variable from the authentication web page</span>
+<span class="hljs-function">WEB GET VARIABLES</span>(<span class="hljs-variable">$arrNames</span>; <span class="hljs-variable">$arrVals</span>)
+<span class="hljs-variable">$VLOGIN</span>:=<span class="hljs-function">Find in array</span>(<span class="hljs-variable">$arrNames</span>; <span class="hljs-string">"VLOGIN"</span>)
+<span class="hljs-variable">$VPASS</span>:=<span class="hljs-function">Find in array</span>(<span class="hljs-variable">$arrNames</span>; <span class="hljs-string">"VPASS"</span>)
+
+<span class="hljs-comment">// Shared variable creation to access to it in the code</span><span class="hljs-keyword">
+Use</span> (Storage)
+    Storage.session:=<span class="hljs-function">New shared object</span>(<span class="hljs-string">"login"</span>; <span class="hljs-string">""</span>; <span class="hljs-string">"password"</span>; <span class="hljs-string">""</span>)<span class="hljs-keyword">
+End use</span> 
+
+<span class="hljs-comment">// Search if the login / pswd exist and if the user can be authentified</span>
+<span class="hljs-variable">$entity</span>:=ds.User.<span class="hljs-function">query</span>(<span class="hljs-string">"login = :1 and password = :2"</span>; <span class="hljs-variable">$arrVals{</span><span class="hljs-variable">$VLOGIN}</span>; <span class="hljs-variable">$arrVals{</span><span class="hljs-variable">$VPASS}</span>)
+
+<span class="hljs-comment">// If the login / pswd exist the login / pswd are initialised in the share variable</span><span class="hljs-keyword">
+If</span> (<span class="hljs-variable">$entity</span>.length&gt;<span class="hljs-number">0</span>)<span class="hljs-keyword">
+    Use</span> (Storage.session)
+        Storage.session.login:=<span class="hljs-variable">$arrVals{</span><span class="hljs-variable">$VLOGIN}</span>
+        Storage.session.password:=<span class="hljs-variable">$arrVals{</span><span class="hljs-variable">$VPASS}</span>
+        Storage.session.success:=<span class="hljs-literal">True</span><span class="hljs-keyword">
+    End use</span> 
+    
+    <span class="hljs-comment">// Redirection to the web page</span>
+<span class="hljs-function">    WEB SEND HTTP REDIRECT</span>(<span class="hljs-string">"/createQRCode.html"</span>)<span class="hljs-keyword">
+    
+Else</span> 
+    <span class="hljs-comment">// Back to the home page</span><span class="hljs-keyword">
+    Use</span> (Storage.session)
+        Storage.session.success:=<span class="hljs-literal">False</span><span class="hljs-keyword">
+    End use</span> 
+<span class="hljs-function">    WEB SEND HTTP REDIRECT</span>(<span class="hljs-string">"/"</span>)<span class="hljs-keyword">
+End if</span> 
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="generateqrcode-method"></a><a href="#generateqrcode-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GenerateQRCODE method</h3>
+<p>Here we generated a vqrCodeData that is a json that include the user email and the encrtypted password that are the data that are going to be emebeded in the QRCode.</p>
+<pre><code class="hljs"><span class="hljs-comment">// Use storage variable</span>
+$currentUserEmail:=Storage.session.login
+$token:=Storage.session.password
+$options:=<span class="hljs-literal">New</span> object(<span class="hljs-string">"algorithm"</span>; <span class="hljs-string">"bcrypt"</span>; <span class="hljs-string">"cost"</span>; <span class="hljs-number">4</span>)
+$hash:=Generate password hash($token; $options)
+
+<span class="hljs-comment">// Process variable creation (json value with mail and encrypted pswd)</span>
+vqrCodeData:=JSON Stringify(<span class="hljs-literal">New</span> object(<span class="hljs-string">"email"</span>; $currentUserEmail; <span class="hljs-string">"token"</span>; $hash))
+
+<span class="hljs-comment">// Redirection to the QRcode webpage</span>
+WEB SEND HTTP REDIRECT(<span class="hljs-string">"/generatedQRCode.shtml"</span>)
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="step-5-website"></a><a href="#step-5-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 5. Website</h2>
+<p>For this tutorial, three html pages are already available into the WebFolder folder:</p>
+<ul>
+<li>The authentication page (index.html)</li>
+<li>The QRcode generation page (createQRCode.html)</li>
+<li>The final page the user will scan from his mobile device (generatedQRCode.shtml)</li>
+</ul>
+<p>Let's have a focus on those three pages :</p>
+<h3><a class="anchor" aria-hidden="true" id="indexhtml"></a><a href="#indexhtml" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>index.html</h3>
+<p>Here, we just use a 4DACTION to post login and password to be used in the <em>Authentication Project Method</em> that we are going to see in step 4:</p>
+<pre><code class="hljs">  &lt;form <span class="hljs-keyword">class</span>="box" ACTION="/4DACTION/Authentication" <span class="hljs-keyword">METHOD</span>=post&gt;
+  &lt;h1&gt;<span class="hljs-number">1.</span> <span class="hljs-keyword">Login</span>&lt;/h1&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>="text" id="login" placeholder="Username" <span class="hljs-type">name</span>=VLOGIN &gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>="password" id="login" placeholder="Password" <span class="hljs-type">name</span>=VPASS&gt;
+  &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>="submit" <span class="hljs-type">name</span>="" <span class="hljs-keyword">value</span>="Login"&gt;
+  &lt;/form&gt;
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="createqrcodehtml"></a><a href="#createqrcodehtml" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>createQRCode.html</h3>
+<p>Here, we use call the <em>GenerateQRCODE Project Method</em> using a 4DACTION:</p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>2. GENERATE YOUR QRCODE<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Create your QRCode to authenticate clicking <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/4DACTION/GenerateQRCODE"</span>&gt;</span>Here<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="generatedqrcodeshtml"></a><a href="#generatedqrcodeshtml" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>generatedQRCode.shtml</h3>
+<p>In this last page, we use <a href="https://doc.4d.com/4Dv18R6/4D/18-R6/4D-Transformation-Tags.300-5198150.en.html">4D tags</a> to get the <em>data</em> value:</p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>3. SCAN THE QRCODE FROM YOUR PHONE<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"canvas"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/javascript"</span>&gt;</span><span class="handlebars"><span class="xml">
+  
+    const qrCode = new QRCodeStyling({
+      width: 300,
+      height: 300,
+      data: '<span class="hljs-comment">&lt;!--#4DEVAL vqrCodeData--&gt;</span>',
+      dotsOptions: {
+        color: "#000",
+        type: "square"
+      },
+      backgroundOptions: {
+        color: "#FFFFFF",
+      }
+    });
+    qrCode.append(document.getElementById("canvas"));
+  </span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+  
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="step-6-get-the-entire-senario"></a><a href="#step-6-get-the-entire-senario" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 6. Get the entire senario</h2>
+<h3><a class="anchor" aria-hidden="true" id="login-into-your-website-home-page"></a><a href="#login-into-your-website-home-page" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Login into your website home page</h3>
+<p>Enter <strong><a href="mailto:david@4D.com">david@4D.com</a></strong> in the Login field and <strong>TEST</strong> in the Password field in your website home page and click Login (Which is an existing record in the User table).</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/login-form.png" alt="Login form"></p>
+<h3><a class="anchor" aria-hidden="true" id="generate-the-qrcode"></a><a href="#generate-the-qrcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generate the QRCode</h3>
+<p>Click on the <strong>HERE</strong> button to generate the QRCode.</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/create-QRCode.png" alt="Create QRCode"></p>
+<p>You will be redirected to the final QRCode page.</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/generated-QRCode.png" alt="Generated QRCode"></p>
+<h3><a class="anchor" aria-hidden="true" id="build-your-app-on-a-real-device"></a><a href="#build-your-app-on-a-real-device" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Build your app on a real device</h3>
+<p>Install your mobile app from the project editor on a real device.</p>
+<p>Then the custom login form will appear to allow you scanning the generated QRCode and login into your mobile app.</p>
+<p>Here is the final result :</p>
+<p><img src="/4d-for-ios/alpha/docs/assets/en/custom-login-form/sign-in-with-QRCode.gif" alt="Sign in with QRCode"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-7-where-to-go-from-here"></a><a href="#step-7-where-to-go-from-here" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 7. Where to go from here?</h2>
+<p>The step 2 covers how to include easily any custom login form in your mobile app. So you should now be able just followin this step, to create your own custom login form and use it on your own.</p>
+<p>Reading next steps you are now able to include the Sign In With QRCode login and allow your authenticated users to scan a QRCode to login into their app.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/alpha/docs/en/contact-app.html"><span class="arrow-prev">← </span><span>Contact App</span></a><a class="docs-next button" href="/4d-for-ios/alpha/docs/en/open-xcode.html"><span>Working with Xcode</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-getting-started">STEP 1. Getting started</a></li><li><a href="#step-2-include-and-use-a-custom-login-form">STEP 2. Include and use a custom login form</a></li><li><a href="#step-3-on-mobile-app-authentication-database-method">STEP 3. On Mobile app Authentication database method</a></li><li><a href="#step-4-project-methods">STEP 4. Project Methods</a><ul class="toc-headings"><li><a href="#authentication-method">Authentication method</a></li><li><a href="#generateqrcode-method">GenerateQRCODE method</a></li></ul></li><li><a href="#step-5-website">STEP 5. Website</a><ul class="toc-headings"><li><a href="#indexhtml">index.html</a></li><li><a href="#createqrcodehtml">createQRCode.html</a></li><li><a href="#generatedqrcodeshtml">generatedQRCode.shtml</a></li></ul></li><li><a href="#step-6-get-the-entire-senario">STEP 6. Get the entire senario</a><ul class="toc-headings"><li><a href="#login-into-your-website-home-page">Login into your website home page</a></li><li><a href="#generate-the-qrcode">Generate the QRCode</a></li><li><a href="#build-your-app-on-a-real-device">Build your app on a real device</a></li></ul></li><li><a href="#step-7-where-to-go-from-here">STEP 7. Where to go from here?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/alpha/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
