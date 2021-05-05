@@ -6,18 +6,18 @@ title: Contact App
 
 > **OBJECTIVES**
 >
->Create your first app with 4D for iOS
+>Create your first app with 4D for iOS and 4D for Android
 
 
 >**PREREQUISITES**
 >
 >Click [here](prerequisites.html) to see what you'll need to get started!
 
-This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
+This tutorial will let you dive right into 4D for iOS and 4D for Android development. It will allow you to quickly and easily create your first application.
 
 *Scenario: You're a commercial business manager and you want to consult your contact information on the go.*
 
-We're going to create an iPhone directory app to search for contact names from a list and then view the details of each contact. We'll call it "Contact". 
+We're going to create an mobile directory app for Android and/or for iOS to search for contact names from a list and then view the details of each contact. We'll call it "Contact". 
 
 ## STEP 1. Getting started
 Download our Starter Project, which contains a database file and project icon, but no mobile project yet.
@@ -33,26 +33,27 @@ href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd
 
 Let's start with a very simple structure using a single table. From 4D, go to **New > Mobile project**.
 
-Give your project a name and click **Create**.
+The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
+
+Give then your project a name select the desired target iOS and/or Android and click **Continue**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
-## STEP 3. Opening the Project Editor
-
-Welcome to 4D for iOS! The Welcome screen displays the main app-creation stages of this magnificent tool. 🙂
-
-![Welcome Screen](assets/en/contact-app/Welcome-Screen-4D-for-iOS.png)
-
 Click **Continue**.
 
-## STEP 4. Sections - General
+Additionnal components will be downloaded to develop your Android project :
+
+![General](assets/en/contact-app/Contact-app-android-sdk-download.png)
+
+
+## STEP 3. Sections - General
 
 Here, you'll configure your app's primary information:
 
 * **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
 * **Product:** Enter your app's name. Let’s call this one "Contact".
 * **ID:** (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
-* **Version:** Leave the version as 1.0 and define your app's copyright. It's highly recommended to use the formats provided by 4D for iOS.
+* **Version:** Leave the version as 1.0 and define your app's copyright.
 * **Icons:** Drag and drop an icon for your app into the icon area.
 * **Developer:** This is automatically filled from the user name on your computer. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
 
@@ -116,7 +117,7 @@ At this point, the bottom of the configuration window has changed from template 
 
 And finally, we'll define the detail form. 
 
-* Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact**template.
+* Select a template that is best suited for your app. For our Contact app, let’s use the **Visual Contact** template.
 
 ![Detail form template](assets/en/contact-app/DetailformTemplate-form-section-4D-for-iOS.png)
 
@@ -130,9 +131,9 @@ And finally, we'll define the detail form.
 Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
 
 * Click the **Build** tab.
-* Select a device to use as a Simulator by clicking on the device button.
+* Select an iOS or Android device to use as a Simulator by clicking on the device button.
 * Click  **Build and Run**.
-* Wait a few seconds and …. voila! Your iOS app is alive!
+* Wait a few seconds and …. voila! Your iOS or your Android app is alive!
 
 ![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
 
