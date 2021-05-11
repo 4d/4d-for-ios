@@ -1,6 +1,6 @@
 ---
 id: storyboard-listform-template
-title: Storyboard
+title: iOS Storyboard
 ---
 
 Now it's time to create your iOS list form interface with Xcode!

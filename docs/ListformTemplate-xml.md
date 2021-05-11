@@ -1,13 +1,13 @@
 ---
 id: layout-listform-template
-title: Layout
+title: Android Layout
 ---
 
 Now it's time to create your Android list form interface with Android Studio!
 
 Here's the result we want to achieve:
 
-![Storyboard custom listform](assets/en/custom-listform/storyboard-custom-listform.png)
+![Storyboard custom listform](assets/en/custom-listform/xml-custom-listform.png)
 
 For each cell, we're going to add a:
 
@@ -31,9 +31,9 @@ The best way to edit or create a tempalte is to :
 
 * Copy the layout.xml file in app > res > layout dropping it directly on the project layout folder
 
-![Copy layout.xml file](assets/en/custom-listform/Copy-layout.xml-file.png)
+![Copy layout.xml file](assets/en/custom-listform/copy-layout.png)
 
-* You should have that in that point
+* You should have that at that point :
 
 ![Android project](assets/en/custom-listform/android-project.png)
 

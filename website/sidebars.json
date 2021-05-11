@@ -13,7 +13,7 @@
 
 
   "CreateiOSApp": {
-  	"Creating your iOS App" : ["contact-app", "custom-login-form"],
+  	"Creating your mobile App" : ["contact-app", "custom-login-form"],
     "Customizing with Xcode" : ["open-xcode","xcode-overview","4d-for-ios-project-organization","customize-your-ios-app"],
     "Creating List forms" : ["creating-listform-templates","icon-listform-template","manifest-listform-template","svg-file-listform-template","storyboard-listform-template","layout-listform-template"],
     "Creating Detail forms" : ["creating-detailform-templates","icon-detailform-template","manifest-detailform-template","svg-file-detailform-template","storyboard-detailform-template"],
