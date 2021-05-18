@@ -89,7 +89,6 @@ Here is the full layout code at this stage :
     tools:ignore="HardcodedText">
 
     <data>
-
         <!--ENTITY_VARIABLE-->
     </data>
 
@@ -108,25 +107,9 @@ Here is the full layout code at this stage :
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/item_arrow"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
-            android:contentDescription="Arrow Image"
-            app:imageDrawable="@{@drawable/baseline_chevron_right_24}"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:background="@drawable/baseline_chevron_right_24" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -237,7 +220,7 @@ For that you juste have to add quite the same block as the title one :
                 android:scrollbars="none"
                 android:text="__TEXT_3__"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                android:textColor="@color/black"
+            	   android:textColor="?colorPrimary"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cardView"
@@ -305,7 +288,6 @@ Here is the full layout code at this stage :
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/__SPECIFIC_ID_2__">
 
-
         <ImageView
                 android:id="@+id/__SPECIFIC_ID_1__"
                 android:layout_width="100dp"
@@ -328,7 +310,7 @@ Here is the full layout code at this stage :
             android:text="__TEXT_2__"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="@color/black"
-            android:textStyle="l"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cardView"
             app:layout_constraintTop_toTopOf="parent"
@@ -346,36 +328,16 @@ Here is the full layout code at this stage :
             android:scrollbars="none"
             android:text="__TEXT_3__"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            android:textColor="@color/black"
+            android:textColor="?colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cardView"
             app:layout_constraintTop_toBottomOf="@+id/__SPECIFIC_ID_2__"
             tools:text="My field 3" />
 
-
-
-        <ImageView
-            android:id="@+id/item_arrow"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
-            android:contentDescription="Arrow Image"
-            app:imageDrawable="@{@drawable/baseline_chevron_right_24}"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:background="@drawable/baseline_chevron_right_24" />
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
-
 
 </layout>
 
@@ -424,7 +386,7 @@ Click on **Final Project** below to download the completed template list folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 </div>
 
 

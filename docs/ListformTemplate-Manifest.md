@@ -8,11 +8,12 @@ The manifest file includes information about your list form template, such as th
 ```json
 {
   "type": "listform",
-
   "name": "Custom List form",
-
   "fields": {
     "count": 3
+  },
+  "tags": {
+    "___LISTFORMTYPE___": "Table"
   }
 }
 
@@ -20,6 +21,7 @@ The manifest file includes information about your list form template, such as th
 
 For example, the manifest file for the above list form template  includes the following information:
 
-1. **Storyboard type:** listform
+1. **Template type:** listform
 2. **Template Name:** Custom List form
 3. **Field number:** Three fields in each cell (profile image, title, and subtitle)
+4. **Tag:** ```"___LISTFORMTYPE___": "Table"``` table display

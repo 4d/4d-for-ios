@@ -25,7 +25,7 @@ Download our Starter Project, which contains a database file and project icon, b
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">STARTER PROJECT</a>
+href="https://github.com/4d-for-ios/tutorial-StarterContactApp/releases/download/0.0.1/tutorial-StarterContactApp.zip">STARTER PROJECT</a>
 
 </div>
 
