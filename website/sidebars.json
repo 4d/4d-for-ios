@@ -16,7 +16,7 @@
   	"Creating your mobile App" : ["contact-app", "custom-login-form"],
     "Customizing with Xcode" : ["open-xcode","xcode-overview","4d-for-ios-project-organization","customize-your-ios-app"],
     "Creating List forms" : ["creating-listform-templates","icon-listform-template","manifest-listform-template","svg-file-listform-template","storyboard-listform-template","layout-listform-template"],
-    "Creating Detail forms" : ["creating-detailform-templates","icon-detailform-template","manifest-detailform-template","svg-file-detailform-template","storyboard-detailform-template"],
+    "Creating Detail forms" : ["creating-detailform-templates","icon-detailform-template","manifest-detailform-template","svg-file-detailform-template","storyboard-detailform-template","layout-detailform-template"],
     "Gallery" : ["gallery-template-install", "gallery-template-update"],
     "Using icons" : ["using-icons","create-icons","include-icons","select-icons"],
     "Data formatter" : ["data-formatter","data-formatter-mobile-project","data-formatter-build-and-run","creating-data-formatter"],
