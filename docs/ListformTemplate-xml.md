@@ -107,11 +107,11 @@ Here is the full layout code at this stage :
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    	<androidx.constraintlayout.widget.ConstraintLayout
+       	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    	</androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -120,7 +120,7 @@ Here is the full layout code at this stage :
 
 ```
 
-And here is the preview result you supposed to get :
+And here is the preview result you are supposed to get :
 
 ![Add CardView container](assets/en/custom-listform/add-cardView-container.png)
 
@@ -137,7 +137,6 @@ In order to have a nice Image view display we are going to use agin a CardView c
                 android:layout_marginStart="8dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                //app:layout_constraintTop_toTopOf="@id/__SPECIFIC_ID_2__">
 
             <ImageView
                 android:id="@+id/__SPECIFIC_ID_1__"
