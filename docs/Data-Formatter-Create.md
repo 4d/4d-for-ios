@@ -179,7 +179,7 @@ For black & white images, you can set the image format as "template": true as fo
 }
 ```
 
-For images with colors or special format, the formatter remains the same, except for the the dark mode, where the name of the image needs to be suffixed with “$dark”.
+For images with colors or special format, the formatter remains the same, except in dark mode, where the name of the image needs to be suffixed with “$dark”.
 
 ```json
 {
