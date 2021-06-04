@@ -160,6 +160,35 @@ Let's look at the contents of the **manifest.json** file:
 }
 
 ```
+## Dark mode support: imageNamed custom data formatter
+
+Whether your device is in dark or light mode, you can easily use your custom data formatters. The picture's color of your custom data formatters will be adapted depending on the phone color mode.
+
+For black & white images, you can set the image format as "template": true as follows:
+
+{
+  "name": "myFormatter",
+  "type": ["integer"],
+  "binding": "imageNamed",
+  "choiceList": {"0":"Zero.png","1":"One.png","2":"Two.png"},
+  "assets": {
+    "size": 54,
+    "template": true
+  }
+}
+
+For images with colors or special format, the formatter remains the same, except for the the dark mode, where the name of the image needs to be suffixed with “$dark”.
+
+{
+  "name": "myFormatter",
+  "type": ["integer"],
+  "binding": "imageNamed",
+  "choiceList": {"0":"Zero$dark.png","1":"One$dark.png","2":"Two$dark.png"},
+  "assets": {
+    "size": 54
+  }
+}
+
 
 ## Open mobile project
 
