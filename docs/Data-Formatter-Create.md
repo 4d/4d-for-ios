@@ -166,6 +166,7 @@ Whether your device is in dark or light mode, you can easily use your custom dat
 
 For black & white images, you can set the image format as "template": true as follows:
 
+```json
 {
   "name": "myFormatter",
   "type": ["integer"],
@@ -176,9 +177,11 @@ For black & white images, you can set the image format as "template": true as fo
     "template": true
   }
 }
+```
 
 For images with colors or special format, the formatter remains the same, except for the the dark mode, where the name of the image needs to be suffixed with “$dark”.
 
+```json
 {
   "name": "myFormatter",
   "type": ["integer"],
@@ -188,7 +191,7 @@ For images with colors or special format, the formatter remains the same, except
     "size": 54
   }
 }
-
+```
 
 ## Open mobile project
 
