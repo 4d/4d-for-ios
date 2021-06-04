@@ -4,10 +4,6 @@ title: FAQ
 ---
 
 
-> **BREAKING NEWS**
->
->4D v19.x BETA is now available ! So take the chance to build an Android app. Once v19 R2 is shipped, you will be able to keep following the product's evolution with all its new features.
-
 ## Prerequisites
 <details>
 <summary>
