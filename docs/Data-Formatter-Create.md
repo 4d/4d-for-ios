@@ -179,7 +179,7 @@ If you want to display black & white images, depending on the mode, you can set 
 }
 ```
 
-If you want to display different color pictures, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “$dark”.
+If you want to display different color pictures, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “$dark”, as follows in the code and on your machine.
 
 ```json
 {
