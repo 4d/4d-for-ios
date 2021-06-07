@@ -160,11 +160,11 @@ Let's look at the contents of the **manifest.json** file:
 }
 
 ```
-## Dark mode support: imageNamed custom data formatter
+## Dark mode support
 
-Whether your device is in dark or light mode, you can easily use your custom data formatters. The picture's color of your custom data formatters will be adapted depending on the phone color mode.
+Whether your device is in dark or light mode, you can easily use your custom data formatters containing images. The picture's color of your custom data formatters will be adapted depending on the phone color mode.
 
-For black & white images, you can set the image format as "template": true as follows:
+If you want to display black & white images, depending on the mode, you can set the image format as ```"template": true``` as follows:
 
 ```json
 {
@@ -179,14 +179,14 @@ For black & white images, you can set the image format as "template": true as fo
 }
 ```
 
-For images with colors or special format, the formatter remains the same, except in dark mode, where the name of the image needs to be suffixed with “$dark”.
+If you want to display different pictures in a formatter, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “$dark”.
 
 ```json
 {
   "name": "myFormatter",
   "type": ["integer"],
   "binding": "imageNamed",
-  "choiceList": {"0":"Zero$dark.png","1":"One$dark.png","2":"Two$dark.png"},
+  "choiceList": {"0":"Zero.png","1":"One.png","2":"Two.png"},
   "assets": {
     "size": 54
   }
