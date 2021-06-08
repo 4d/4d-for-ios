@@ -192,7 +192,6 @@ If you want to display different color pictures, you need to upload two pictures
    }
 }
 ```
-![Pictures name](assets/en/data-formatter/formatter-picture-4D-for-iOS-1024x436.png)
 
 As a result, you get the following:
 ![Final result name](assets/en/data-formatter/formatter-dark-mode-4D-for-iOS-assets.gif)
