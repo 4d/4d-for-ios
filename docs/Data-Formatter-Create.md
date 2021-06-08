@@ -164,7 +164,7 @@ Let's look at the contents of the **manifest.json** file:
 
 Whether your device is in dark or light mode, you can easily use the custom data formatters containing images. The picture's color of your formatter will be adapted depending on the phone's color mode.
 
-If you want to display black & white images, depending on the mode, you can set the image format to ```"template": true``` as follows:
+If you want to display black & white images, depending on the mode, you can set the image format to ```"tintable": true``` as follows:
 
 ```json
 {
@@ -174,12 +174,12 @@ If you want to display black & white images, depending on the mode, you can set 
   "choiceList": {"0":"Zero.png","1":"One.png","2":"Two.png"},
   "assets": {
     "size": 54,
-    "template": true
+    "tintable": true
   }
 }
 ```
 
-If you want to display different color pictures, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “$dark”, as follows in the code and on your machine.
+If you want to display different color pictures, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “_dark”, as follows in the code and on your machine.
 
 ```json
 {
