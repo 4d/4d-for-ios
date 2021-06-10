@@ -20,14 +20,6 @@ Xcode 10.2 requires **macOS 10.14** or later.
 | 12.4 | 5.3.2| 14.4 | 18R6 beta | 10.15.4 |
 | 12.2 | 5.3 | 14.2 | 18R5 & 18.3 | 10.15.4 |
 
-
-4D for Android:
-
-| Android Studio | 4D | Windows |
-|---|---|---|
-| < 4.2.x | 19R2 beta | Windows 10 64-bit |
-
-
 <details><summary>Version history</summary>
 
 | Xcode | Swift | iOS | 4D | macOS |
@@ -46,7 +38,11 @@ Xcode 10.2 requires **macOS 10.14** or later.
 | 9.3.1| 4.1| 11.3 | 17R2 | 10.13.2 |
 </details>
 
+4D for Android:
 
+| Android Studio | 4D | Windows |
+|---|---|---|
+| < 4.2.x | 19R2 beta | Windows 10 64-bit |
 
 ## Hardware requirements
 
