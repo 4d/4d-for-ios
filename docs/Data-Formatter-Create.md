@@ -162,40 +162,41 @@ Let's look at the contents of the **manifest.json** file:
 ```
 ## Dark mode support
 
-Whether your device is in dark or light mode, you can easily use the custom data formatters containing images. The picture's color of your formatter will be adapted depending on the phone's color mode.
+Whether your device is in dark or light mode, whether you're working on iOS or Android, you can easily use the custom data formatters containing images. The pictures will be adapted depending on the phone's color mode.
 
-If you want to display black & white images, depending on the mode, you can set the image format to ```"tintable": true``` as follows:
+### Tintable color
 
-```json
-{
-  "name": "myFormatter",
-  "type": ["integer"],
-  "binding": "imageNamed",
-  "choiceList": {"0":"Zero.png","1":"One.png","2":"Two.png"},
-  "assets": {
-    "size": 54,
-    "tintable": true
-  }
-}
-```
-
-If you want to display different color pictures, you need to upload two pictures to optimize color contrast: one for the light mode, and one for the dark mode suffixed with “_dark”, as follows in the code and on your machine.
+To optimize the color contrast of your images on your app and display them in black and white, depending on the color mode (light or dark), you can set the image format as follows, :
 
 ```json
 {
    "name": "textToImage",
    "type": ["text"],
    "binding": "imageNamed",
-   "choiceList": {"clear":"clear.png","cloudy":"cloudy.png","rain":"rain.png"},
+   "choiceList": {"car":"car.png","plane":"plane.png","bus":"bus.png"},
    "assets": {
-   "size": 54
-   }
+     "size": 54, 
+     "tintable": true
+     }
 }
 ```
 
-As a result, you get the following:
-![Final result name](assets/en/data-formatter/formatter-dark-mode-4D-for-iOS-assets.gif)
+### Optimized dark mode picture
 
+If you want to display colored pictures adapted to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with ```_dark```, as follows:
+
+```json
+{
+   "name": "textToImage",
+   "type": ["text"],
+   "binding": "imageNamed",
+   "choiceList": {"car":"car.png","plane":"plane.png","bus":"bus.png"},
+   "assets": {
+     "size": 54
+   }
+}
+```
+![Architecture](assets/en/data-formatter/architecture.gif)
 
 ## Open mobile project
 
