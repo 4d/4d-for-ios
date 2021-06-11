@@ -196,7 +196,7 @@ If you want to display colored pictures adapted to your color mode, you need to 
    }
 }
 ```
-![Architecture](assets/en/data-formatter/architecture.gif)
+![Architecture](assets/en/data-formatter/architecture.jpg)
 
 ## Open mobile project
 
