@@ -185,6 +185,8 @@ To optimize the color contrast of your images on your app and display them in bl
 
 If you want to display colored pictures adapted to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with ```_dark```, as follows:
 
+![Architecture](assets/en/data-formatter/Architecture.jpg)
+
 ```json
 {
    "name": "textToImage",
@@ -196,7 +198,6 @@ If you want to display colored pictures adapted to your color mode, you need to 
    }
 }
 ```
-![Architecture](assets/en/data-formatter/Architecture.jpg)
 
 ## Open mobile project
 
