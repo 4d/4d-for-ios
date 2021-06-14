@@ -166,7 +166,7 @@ Whether your device is in dark or light mode, whether you're working on iOS or A
 
 ### Tintable color
 
-To optimize the color contrast of your images on your app and display them in black and white, depending on the color mode (light or dark), you can set the image format as follows:
+To optimize the color contrast of your black and white images on your app depending on the color mode (light or dark), you can set the image as follows. atomatically adapt them, thanks to the ```"tintable": true``` code line:
 
 ```json
 {
@@ -184,7 +184,7 @@ Here is the result in light mode and in dark mode:
 
 <img src="assets/en/data-formatter/light-black-and-white.png" alt="drawing" width="250"> <img src="assets/en/data-formatter/dark-black-and-white.png" alt="drawing" width="250">
 
-### Optimized dark mode picture
+### Optimized color picture
 
 If you want to display colored pictures adapted to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with ```_dark```, as follows:
 
