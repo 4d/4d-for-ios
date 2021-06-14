@@ -187,7 +187,7 @@ Here is the result in light mode and in dark mode:
 ### Optimized dark mode picture
 
 If you want to display colored pictures adapted to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with ```_dark```, as follows:
-<img src="assets/en/data-formatter/Architecture.jpg" alt="drawing" width="700">
+<img src="assets/en/data-formatter/Architecture.jpg" alt="drawing" width="600">
 
 
 ```json
