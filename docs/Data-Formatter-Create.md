@@ -200,6 +200,8 @@ If you want to display colored pictures adapted to your color mode, you need to 
    }
 }
 ```
+Here is the result in light mode and in dark mode: 
+![Light mode](assets/en/data-formatter/light-color.png)] ![Dark mode](assets/en/data-formatter/dark-color.png)
 
 ## Open mobile project
 
