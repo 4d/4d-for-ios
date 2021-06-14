@@ -181,7 +181,7 @@ To optimize the color contrast of your images on your app and display them in bl
 }
 ```
 Here is the result in light mode and in dark mode: 
-![data-formatter](assets/en/data-formatter/light-black-and-white.jpg) ![Dark mode](assets/en/data-formatter/dark-black-and-white.jpg)
+![(assets/en/data-formatter/light-black-and-white.jpg)] ![Dark mode](assets/en/data-formatter/dark-black-and-white.jpg)
 
 ### Optimized dark mode picture
 
