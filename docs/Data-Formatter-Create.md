@@ -182,7 +182,6 @@ To optimize the color contrast of your images on your app and display them in bl
 ```
 Here is the result in light mode and in dark mode: 
 <img src="assets/en/data-formatter/light-black-and-white.png" alt="drawing" width=300">
-
 <img src="assets/en/data-formatter/dark-black-and-white.png" alt="drawing" width="300">
 
 ### Optimized dark mode picture
