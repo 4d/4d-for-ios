@@ -187,8 +187,8 @@ Here is the result in light mode and in dark mode:
 ### Optimized dark mode picture
 
 If you want to display colored pictures adapted to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with ```_dark```, as follows:
+<img src="assets/en/data-formatter/Architecture.png" alt="drawing" width="250">
 
-![Architecture](assets/en/data-formatter/Architecture.jpg)
 
 ```json
 {
@@ -202,7 +202,8 @@ If you want to display colored pictures adapted to your color mode, you need to 
 }
 ```
 Here is the result in light mode and in dark mode: 
-![Light mode](assets/en/data-formatter/light-color.png)] ![Dark mode](assets/en/data-formatter/dark-color.png)
+
+<img src="assets/en/data-formatter/light-color.png" alt="drawing" width="250"> <img src="assets/en/data-formatter/dark-color.png" alt="drawing" width="250">
 
 ## Open mobile project
 
