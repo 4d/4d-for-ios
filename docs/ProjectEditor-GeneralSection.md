@@ -5,7 +5,7 @@ title: General
 
 This section allows you to define your app's main information.
 
-![General section](assets/en/project-editor/General-section-4D-for-iOS.png)
+![General section](assets/en/project-editor/colorPicker1.png)
 
 **Organization:** Enter either your or your company’s name.
 
@@ -25,10 +25,13 @@ For example, if your company’s name is “MyCompany” and your app’s name i
 
 **Icons:** 4D for iOS allows you to create app icons in various ways, in accordance with  Apple's guidelines, including dragging and dropping your icons directly from your computer to the icon area. 4D for iOS will generate all of the required formats for you!
  
-> **TIPS**
+> **TIP**
 >
 > * If you already have an icon for your desktop application, you can drag and drop it directly into the icon area.
-> * **Here's the magic trick:** 4D for iOS automatically determines the dominant color of your app's icon and uses it to generate a custom color scheme for your app!
+
+**App dominant color:** 4D for iOS automatically determines the dominant color of your app according to your icon's color. However, whether you're working on iOS or Android, you are free to modify the dominant color and to select another one, thanks to the color picker. The selected color will then be used in the templates for the navigation bar, the buttons and on every element related to the app's color. 
+![General section](assets/en/project-editor/colorPicker2.png)
+
 
 **Developer:** This field is automatically filled with your user account name.
 
