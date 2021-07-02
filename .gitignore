@@ -1,0 +1,14 @@
+.DS_Store
+
+node_modules
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+
+docsPostProcessed/
+
+website/build/
+website/yarn.lock
+website/node_modules
+!website/node_modules/highlight.js/lib/index.js
+!website/node_modules/highlight.js/lib/languages/code4d.js
