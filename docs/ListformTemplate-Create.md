@@ -24,7 +24,7 @@ Before we begin, be sure to download the **Starter Project** which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">LISTFORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first list form template!

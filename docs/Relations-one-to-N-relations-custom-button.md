@@ -18,7 +18,7 @@ Let's get started by downloading the Starter Project that includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER CUSTOM BUTTON</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">STARTER CUSTOM BUTTON</a>
 </div>
 
 ## Include the button
@@ -160,5 +160,5 @@ In this tutorial, we've covered the basics for creating custom relation buttons.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">FINAL CUSTOM BUTTON</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">FINAL CUSTOM BUTTON</a>
 </div>

@@ -192,7 +192,7 @@ Click on **Final Project** below to download the completed template list folder.
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 </div>
 
 
