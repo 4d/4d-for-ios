@@ -17,7 +17,7 @@ Xcode 10.2 requires **macOS 10.14** or later.
 
 | Xcode | Swift | iOS | 4D | macOS |
 |---|---|---|---|---|
-| [12.5](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.5/Xcode_12.5.xip) | 5.4| 14.5 | 19 beta | 11.0.1 |
+| [12.5](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.5/Xcode_12.5.xip) | 5.4| 14.6 | 19 beta | 11.0.1 |
 | [12.4](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.4/Xcode_12.4.xip) | 5.3.2| 14.4 | 18R6 | 10.15.4 |
 | [12.2](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.2/Xcode_12.2.xip) | 5.3 | 14.2 | 18R5 & 18.3 | 10.15.4 |
 

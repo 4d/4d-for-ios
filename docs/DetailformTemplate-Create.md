@@ -11,7 +11,7 @@ title: Detail form templates
 >
 > Click [here](prerequisites.html) to see what you'll need to get started!
 
-In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS app.
+In this tutorial, we'll guide you through the creation of a detail form template. It will display an **image header**, as well as **title and content fields** that will be duplicated in the generated iOS and Android App.
 
 ![Custom template final result](assets/en/custom-detailform/custom-template-final-result.png)
 
@@ -24,7 +24,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailFormStarter/releases/latest/download/tutorial-CustomDetailFormStarter.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first detail form template !
@@ -48,6 +48,7 @@ Now let's focus on the **Custom Detail form** folder content.
 * **a layoutIconx2.png** icon in 160x160px that will be displayed in the project editor when you select your custom template among others
 * **a manifest.json** file that includes a basic description of the template
 * **a template.svg** file that will be the representation of your template that will be display when you define your listForm content and where you will drag and drop your fields
-* Source folder that includes the **storyboard** (graphical interface) and **swift** file (code for the form)
+* **ios folder** that includes the storyboard (graphical interface) and Swift file (code for the form) in Source > Forms > Tables 'TABLE' folder
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
 
 What are those files, what it is used for and how to customize it ?

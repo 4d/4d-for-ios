@@ -1,6 +1,6 @@
 ---
 id: storyboard-detailform-template
-title: Storyboard 
+title: iOS Storyboard 
 ---
 
 Now it's time to create your iOS detail form interface with Xcode!
@@ -9,7 +9,7 @@ Here's the result we want to achieve:
 
 ![Storyboard custom detailform](assets/en/custom-detailform/storyboard-custom-detailform.png)
 
-For each cell, we're going to add a:
+For this template, we're going to add a:
 
 * Profile header image 
 * A field to be duplicated
@@ -266,7 +266,7 @@ In this tutorial, we've covered the basics for creating detail form templates. Y
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">CUSTOM DETAILFORM FINAL TEMPLATE</a>
 </div>
 
 

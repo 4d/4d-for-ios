@@ -12,7 +12,7 @@ This section allows you to:
 
 ### Create your action
 
-You can create a new action by clicking on the + button at the bottom of the Actions table. A new line will appear in the Actions table.
+You can create a new action by clicking on the **+** button at the bottom of the Actions table. A new line will appear in the Actions table.
 
 Next you'll need to define the following:
 
@@ -26,7 +26,7 @@ Next you'll need to define the following:
 
 ### Add parameters to your action
 
-As of **4D v17R6**, you can add **action parameters** and **edit** data directly from your app.
+You can add **action parameters** and **edit** data directly from your app.
 
 For each parameter, you can edit the following properties:
 
@@ -144,15 +144,23 @@ Here are the different **Formats** you can select for a parameter:
 
 </table>
 
-### Preset actions
+## Preset actions
 
-4D for iOS includes three preset (predefined) actions to manage your app content:
+4D for iOS includes the following preset (predefined) actions to manage your app content:
 
 * Edit 
 * Add 
 * Delete 
+* Share
+* Sort 
 
-#### 1. Add action
+When an action is selected for a table, you can modify its:
+
+* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
+* properties by defining them as you wish. 
+
+
+### Add action
 
 4D for iOS makes the **Add actions** creation process very simple.
 
@@ -160,21 +168,21 @@ The only thing you need to do is select the **Add action for** option, accessibl
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Then just **select the table** you want to link to this add action. And this is it! 
+Then just **select the table** you want to link to this add action.  
 
 This will **automatically create** all the parameters for you in the Project Editor. In the generated app, this will allow you to edit each field value.
 
 For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
 
 
-#### 2. Edit action
+### Edit action
 
 **Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
-#### 3. Delete action
+### Delete action
 
 **Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
 
@@ -184,26 +192,70 @@ This type of action should be used with caution.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-For Edit and Add actions you are free to modify the:
 
-* parameters by adding or removing a parameter using the **+ and - buttons** at the bottom of the Action parameters list.
-* properties by defining them as you wish. 
+
+### Share action
+
+Selecting the **Share action** will allow your mobile users to share a content with other users. You just need to select the scope:
+
+- **entity**: to share content from a detail form
+- **table**: to share a list form
+
+See the [Deep Linking](Features-DeepLinking.md) page for more details.
+
+### Sort action
+
+**Sort actions** are useful to:
+
+- define a default sort order for the table list forms 
+- allow your mobile users to choose a list sort order
+
+When you create a sort action for a table, you need to select the first field on which the sort will be done: 
+
+<img src="../assets/en/actions/sortSelect.png" width="50%">
+
+The field is added to the Sort Criteria list. An ascending sort order is set by default, but you can change it using the **Sort order** menu.
+
+You can sort entities in more than one field. Each field you sort is referred to as a sort level. For example, the results of a two-level ascending sort of the `lastName` and `firstName` fields would produce a list such as this: 
+
+```
+Aardvark, Anthony
+Aardvark, Artemis
+Aardvark, Arthur
+...
+Zygote, Elena
+Zymosian, Elmer
+```
+
+To add one or more sort level(s) in the Sort Criteria list, select the **+** button under the list and configure each level:
+
+![sort](assets/en/actions/step2Ascending.png)
+
+
+#### Sort order menu on the mobile app
+
+When you define more than one sort action for a table, mobile users automatically benefit from a **sort** menu. It contains all the predefined sort actions:
+
+![sort](assets/en/actions/Sort-4D-for-iOS.gif)
+
+
+> When only one sort action is defined for a table, the **sort** menu is not displayed on the mobile app side.
+ 
 
 ### On Mobile App Action
 
-The [On Mobile App Action](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database method is available to call all of your 4D methods. 
+The [On Mobile App Action](https://doc.4d.com/4Dv19/4D/19/On-Mobile-App-Action-database-method.301-5392843.en.html) database method is available to call all of your 4D methods. 
 
 After creating all of your actions, just click on the Create button from the Actions table to automatically generate a *Case of* code block that includes all your action names in the *On Mobile App Action* method.
 
-> **NOTE**
->
+
 > * You can refresh the selection after executing an action using ```$out.dataSynchro:=True```.
 > * You can notify the app user when action has been executed using ```$out.statusText:="Message you want to display"```.
 > * You can also decide to force close the Edition form using ```$out.close:=True```.
 
 
 
-### Offline mode actions
+## Offline mode actions
 
 The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
 
@@ -226,7 +278,19 @@ They display all the tasks related to the table or to the entity that you are cu
 > * The "Share" predefined action is only executable online.
 > * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
 
+### Update pending tasks that failed
 
+Due to your server business logic, some tasks could be rejected. For mobile users, it is then possible to edit and to retry sending the relevant pending tasks. To do so, you can display a status text describing, in the "Complete" actions history, the reason of the failure. For example, you can reject an action sent by a mobile user to the server and inform him that the operation has failed. In that case, you can set the `success` value to `False` and provide a message in `statusText`, as follows:
+
+ ```4d
+ $response:=New object("success"; False; "statusText"; "Operation failed"))
+ ```
+ You can even add some errors by action parameters for the `alphaField` parameter, for example:
+ 
+  ```4d
+$response.errors:=New collection(New object("parameter"; "alphaField"; "message"; "Alpha field must contains a valide value")
+  ```
+ 
 ## iOS app Side
 
 In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section. 
