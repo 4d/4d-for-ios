@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Créer une fiche sur App Store · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Créer une fiche sur App Store · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/fr/overview.html" target="_self">Documentation</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/deploy-app-store-app-store-connect.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/deploy-app-store-app-store-connect.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/deploy-app-store-app-store-connect.html">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Déploiement sur App Store</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Prise en main<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/overview.html">Aperçu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/prerequisites.html">Conditions préalables</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Éditeur de projet<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/create-new-project.html">Nouveau projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/general.html">Général</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/structure.html">Structure</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data.html">Données</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/actions.html">Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/labels-and-icons.html">Libellés et icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/main-menu.html">Menu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/forms.html">Formulaires</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/publishing.html">Publication</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/build-panel.html">Onglet Génération</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Choisir un Apple Developer Program<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deployment.html">Choisir un Apple Developer Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/free-developer-account.html">Compte Apple Developer gratuit</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-enterprise-program.html">Apple Developer Enterprise Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-organization.html">Apple Developer Program pour les entreprises</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-individual.html">Apple Developer Program pour les particuliers</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Test et Génération<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/simulator.html">Utilisation du simulateur</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/install-device.html">Installation sur votre appareil iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement interne<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-archive-and-export.html">Archiver et exporter un projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-distribution.html">Distribuer une application interne</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement sur App Store<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-app-store-connect.html">Créer une fiche sur App Store</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-archive-and-upload.html">Archiver et télécharger un projet</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Débogage<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-the-project-editor.html">Depuis l&#x27;éditeur de projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-xcode.html">Depuis Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-iphone.html">Depuis votre iPhone</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/DeployAppStore-CreateiTunesConnectRecord.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Créer une fiche sur App Store</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<ul>
+<li>Créer un identifiant d’application sur son compte développeur (&quot;Developer&quot;)</li>
+<li>Créer son application dans l’App Store Connect</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>CONDITIONS PRÉALABLES</strong></p>
+<p><a href="register-apple-developer-program-organization.html">Apple Developer Program pour les entreprises</a> ou <a href="register-apple-developer-program-individual.html">les particuliers</a></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="étape-1-créez-votre-identifiant-dapplication"></a><a href="#étape-1-créez-votre-identifiant-dapplication" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Créez votre identifiant d'application</h2>
+<h4><a class="anchor" aria-hidden="true" id="quest-ce-quun-identifiant-dapplication-"></a><a href="#quest-ce-quun-identifiant-dapplication-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Qu'est-ce qu'un identifiant d'application ?</h4>
+<p><em>Un identifiant d'application est une chaîne composée de 2 parties servant à identifier une ou plusieurs applications à partir d'une seule équipe de développement. La chaîne est constituée d’un Team ID et d'un Bundle ID, tous deux séparés par un point (.) (ex : TeamID.BundleID).</em></p>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>Si vous avez choisi un compte de développeur Apple en tant que particulier (&quot;Apple Developer Account as an individual&quot;), votre compte est immédiatement disponible et vous permet de créer votre identifiant d'application.</li>
+<li>Si vous avez choisi un compte de développeur Apple en tant qu’entreprise (&quot;Apple Developer Account as an organization&quot;), vous devez attendre la validation d’Apple pour pouvoir créer votre identifiant d'application.</li>
+</ul>
+</blockquote>
+<p>Pour créer votre identifiant d'application, sélectionnez <a href="https://developer.apple.com/account/ios/identifier/bundle">Certificates, IDs &amp; Profile</a> depuis votre compte développeur</p>
+<ul>
+<li><p>Cliquez sur le signe &quot;+&quot; situé près de <em>Register iOS App IDs</em> pour ajouter un nouvel identifiant d’application.</p></li>
+<li><p>Définissez le nom et le Bundle ID de votre application.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Developer-account-App-ID.png" alt="App ID"></p>
+<ul>
+<li>Définissez les services d’application (&quot;App Services&quot;) à inclure dans votre application</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/App-Services-to-include.png" alt="App Services"></p>
+<ul>
+<li>Confirmez votre identifiant d'application en cliquant sur <strong>Register</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Confirm-App-ID.png" alt="Confirm App ID"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-2-identifiez-vous-sur-lapp-store-connect"></a><a href="#étape-2-identifiez-vous-sur-lapp-store-connect" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Identifiez-vous sur l'App Store Connect</h2>
+<ul>
+<li>Connectez-vous à votre <a href="https://appstoreconnect.apple.com">compte App Store Connect</a></li>
+<li>Cliquez sur <strong>My Apps</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/App-Store-Connect-home-page.png" alt="App Store Connect"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-3-créez-une-nouvelle-application-ios"></a><a href="#étape-3-créez-une-nouvelle-application-ios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Créez une nouvelle application iOS</h2>
+<p>Cliquez sur le signe <strong>&quot;+&quot;</strong> dans la partie supérieure gauche pour créer une nouvelle application iOS.</p>
+<p><img src="/4d-for-ios/19/docs/assets/deploy-app-store/Create-new-iOS-App.png" alt="Créez une nouvelle application iOS"></p>
+<p>Ajoutez les informations suivantes :</p>
+<ul>
+<li><strong>Platforms</strong> : sélectionnez iOS.</li>
+<li><strong>Name</strong> : le nom de votre application.</li>
+<li><strong>Primary language</strong> : la langue principale de votre application.</li>
+<li><strong>Bundle ID</strong> : sélectionnez le Bundle ID de votre application à partir de la liste déroulante.</li>
+<li><strong>SKU</strong> : un identifiant unique pour votre application (un ID privé non visible par les utilisateurs)</li>
+<li><strong>Limit User Access (optionnel)</strong> : limitez aux utilisateurs l'accès à votre application grâce à App Manager, Developer, Marketer, ou Sales.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Change-BundleID-Xcode-Project.png" alt="Change BundleID"></p>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<p>Si votre Bundle ID n’est pas disponible, il se peut qu'il soit déjà utilisé par une autre application de l’App Store. Vous devrez alors changer le vôtre dans votre projet Xcode.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="étape-4-informations-sur-lapplication"></a><a href="#étape-4-informations-sur-lapplication" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 4. Informations sur l’application</h2>
+<p>Dans App Store Connect &gt; App Information :</p>
+<ul>
+<li>Définissez le &quot;Privacy Policy URL&quot; de votre application (facultatif).</li>
+<li>Entrez un sous-titre pour votre application. Celui-ci apparaîtra en-dessous du nom de votre application dans l’App Store d'iOS 11.</li>
+<li>Sélectionnez une catégorie primaire et secondaire (facultatif) dans laquelle/lesquelles apparaitra votre application.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/App-Store-Connect-app-information.png" alt="Informations sur l’application"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-5-prix-et-disponibilité"></a><a href="#étape-5-prix-et-disponibilité" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 5. Prix et disponibilité</h2>
+<p>C’est ici que vous pourrez définir le prix de votre application.</p>
+<blockquote>
+<p><strong>ASTUCES</strong></p>
+<p>Vous pouvez appliquer des remises limitées dans le temps en précisant les dates de début et de fin de l'offre.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="étape-6-préparation-à-linscription"></a><a href="#étape-6-préparation-à-linscription" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 6. Préparation à l'inscription</h2>
+<p>Dans <strong>Version Information</strong>, renseignez tous les atouts de votre application que vous souhaitez faire figurer dans l’App Store :</p>
+<blockquote>
+<p><strong>ASTUCES</strong></p>
+<p>Vous pouvez générer toutes vos captures d'écran dans le simulateur (File &gt; New Screen Shot).</p>
+</blockquote>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Prepare-for-submission-screenshot-description.png" alt="Préparation à l'inscription"></p>
+<ul>
+<li><p>Ajoutez des captures d'écran de votre application. Les captures d'écran de l'iPhone 5.5 &quot;Super Retina Display et de l'iPad 12.9&quot; Retina Display sont obligatoires. Pour plus d'informations, consultez <a href="https://help.apple.com/app-store-connect/#/devd274dd925">Screenshot specifications</a>.</p></li>
+<li><p>Déroulez vers le bas, définissez les <strong>Keywords</strong> (mots-clés) et complétez la <strong>Description</strong> (ce que les utilisateurs visualiseront dans l'App Store).</p></li>
+<li><p>Vous pouvez partager des mises à jour de votre application, y compris de nouvelles offres promotionnelles, de nouveaux contenus ou fonctionnalités, des offres limitées ou d'autres événements intégrés dans votre application. Vous pouvez également ajouter un <strong>Promotional Text</strong> (texte promotionnel) qui s'affichera au-dessus de votre description dans l'App Store (pour les clients dont les appareils fonctionnent avec iOS 11 ou avec des versions plus récentes).</p></li>
+<li><p>Saisissez un <strong>Support URL</strong> qui comprend des informations d'assistance pour votre application. Cette URL sera visible sur l'App Store.</p></li>
+<li><p><strong>Marketing URL</strong> est facultatif. Il peut diriger les utilisateurs vers un site Web de marketing relié à votre application.</p></li>
+</ul>
+<p>Dans la section <strong>iOS App</strong> :</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Prepare-for-submission-build-icon.png" alt="iOS App section"></p>
+<p>Localisez les versions de votre produit dans <strong>Build</strong>.</p>
+<ul>
+<li>Dans la zone <strong>General App Information</strong>, entrez les droits d'auteur, la version et les coordonnées du représentant commercial de votre application.</li>
+<li>L'icône de votre application est incluse dans le projet 4D for iOS généré.</li>
+<li>L'évaluation (&quot;rating&quot;) est une propriété requise pour le contrôle parental de l'App Store. Cliquez sur &quot;Edit&quot; et sélectionnez la catégorie d'âge adaptée à votre application.</li>
+</ul>
+<p>Les sections <strong>App Review Information</strong> et <strong>Version Release</strong> contiennent des informations requises par l'App Store. Les informations fournies ici ne seront pas visibles par les utilisateurs.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-app-store/Prepare-for-submission-review-information.png" alt="App Review Information"></p>
+<ul>
+<li><strong>App Review Information</strong> : Coordonnées et informations de sécurité confidentielles.</li>
+<li><strong>Version Release</strong> : Indique s'il s'agit d'une publication automatique ou manuelle.</li>
+<li>Enfin, cliquez sur <strong>Save</strong>.</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/fr/deploy-in-house-distribution.html"><span class="arrow-prev">← </span><span>Distribuer une application interne</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/fr/deploy-app-store-archive-and-upload.html"><span>Archiver et télécharger un projet</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#étape-1-créez-votre-identifiant-dapplication">ÉTAPE 1. Créez votre identifiant d'application</a></li><li><a href="#étape-2-identifiez-vous-sur-lapp-store-connect">ÉTAPE 2. Identifiez-vous sur l'App Store Connect</a></li><li><a href="#étape-3-créez-une-nouvelle-application-ios">ÉTAPE 3. Créez une nouvelle application iOS</a></li><li><a href="#étape-4-informations-sur-lapplication">ÉTAPE 4. Informations sur l’application</a></li><li><a href="#étape-5-prix-et-disponibilité">ÉTAPE 5. Prix et disponibilité</a></li><li><a href="#étape-6-préparation-à-linscription">ÉTAPE 6. Préparation à l'inscription</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

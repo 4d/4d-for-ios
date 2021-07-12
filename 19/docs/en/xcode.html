@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Xcode · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## What is Xcode?"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Xcode · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="## What is Xcode?"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/en/overview.html" target="_self">Docs</a></li><li class=""><a href="/4d-for-ios/19/docs/en/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/19/docs/en/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/19/docs/en/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/ja/xcode.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/xcode.html">Español</a></li><li><a href="/4d-for-ios/19/docs/fr/xcode.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/Xcode.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Xcode</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="what-is-xcode"></a><a href="#what-is-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is Xcode?</h2>
+<p>Xcode is an IDE and a set of developer tools for macOS used to create iPad, iPod, iPhone, and Mac apps.</p>
+<h2><a class="anchor" aria-hidden="true" id="download"></a><a href="#download" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download</h2>
+<p>To download the lastest version of Xcode go to the App Store.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button" href="macappstore://itunes.apple.com/app/id497799835?mt=12">View in Mac App Store </a>
+</div>
+<p>Registered developers can download preview releases and prior versions of the suite through the Apple Developer website.</p>
+<p>🔗 <a href="https://developer.apple.com/download/more/">https://developer.apple.com/download/more/</a>
+🔗 <a href="https://developer.apple.com/xcode/">https://developer.apple.com/xcode/</a></p>
+<h2><a class="anchor" aria-hidden="true" id="version-comparison-table"></a><a href="#version-comparison-table" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Version comparison table</h2>
+<table>
+<thead>
+<tr><th>Xcode</th><th>Swift</th><th>iOS</th><th>4D</th><th>macOS</th></tr>
+</thead>
+<tbody>
+<tr><td>12.4</td><td>5.3.2</td><td>14.4</td><td>18R6 beta</td><td>10.15.4</td></tr>
+<tr><td>12.2</td><td>5.3</td><td>14.2</td><td>18R5 &amp; 18.3</td><td>10.15.4</td></tr>
+<tr><td>12.0</td><td>5.3</td><td>14.0</td><td>18R4</td><td>10.15.4</td></tr>
+<tr><td>11.5</td><td>5.2.4</td><td>13.5</td><td>18R3</td><td>10.15.2</td></tr>
+<tr><td>11.4</td><td>5.2</td><td>13.4</td><td>18.2</td><td>10.15.2</td></tr>
+<tr><td>11.3.1</td><td>5.1.3</td><td>13.3</td><td>18.1</td><td>10.14.4</td></tr>
+<tr><td>11.3.1</td><td>5.1.3</td><td>13.3</td><td>18R2</td><td>10.14.4</td></tr>
+<tr><td>11.2</td><td>5.1</td><td>13.2</td><td>18</td><td>10.14.4</td></tr>
+<tr><td>10.2.1</td><td>5.0</td><td>12.2</td><td>17R6</td><td>10.14.4</td></tr>
+<tr><td>10.2</td><td>4.2.1</td><td>12.2</td><td>17R5</td><td>10.14.3</td></tr>
+<tr><td>10.1</td><td>4.2.1</td><td>12</td><td>17R4</td><td>10.13.6</td></tr>
+<tr><td>10.0</td><td>4.2</td><td>12</td><td>17R3</td><td>10.13.6</td></tr>
+<tr><td>9.4</td><td>4.1.2</td><td>11.4</td><td>17R2</td><td>10.13.2</td></tr>
+<tr><td>9.3.1</td><td>4.1</td><td>11.3</td><td>17R2</td><td>10.13.2</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="use-17r6-with-macos-10143"></a><a href="#use-17r6-with-macos-10143" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Use 17R6 with macOS 10.14.3</h3>
+<p>4D 17R6 requires Swift5.0 runtime. (already installed with macOS 10.14.4)</p>
+<ul>
+<li>Install <code>Swift 5 Runtime Support for Command Line Tools</code> from <a href="https://developer.apple.com/download/more/">More Downloads for Apple Developers</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="compatibility"></a><a href="#compatibility" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compatibility</h3>
+<p>Frameworks compiled with one version of Xcode could not be used with another version.</p>
+<p>The current release of swift(5) has ABI stability but no Module Stability. This two condition are needed to ship pre-compiled libraries.</p>
+<p>Please see the Swift blog for more details.
+<a href="https://swift.org/blog/abi-stability-and-more/">https://swift.org/blog/abi-stability-and-more/</a></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#what-is-xcode">What is Xcode?</a></li><li><a href="#download">Download</a></li><li><a href="#version-comparison-table">Version comparison table</a><ul class="toc-headings"><li><a href="#use-17r6-with-macos-10143">Use 17R6 with macOS 10.14.3</a></li><li><a href="#compatibility">Compatibility</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

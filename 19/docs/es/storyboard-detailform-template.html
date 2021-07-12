@@ -1,0 +1,248 @@
+<!DOCTYPE html><html lang="es"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Storyboard · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="¡Ahora es el momento de crear su interfaz iOS de formulario detallado con Xcode!"/><meta name="docsearch:language" content="es"/><meta property="og:title" content="Storyboard · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="¡Ahora es el momento de crear su interfaz iOS de formulario detallado con Xcode!"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/es"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/es/overview.html" target="_self">Documentación</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/es/contact-app.html" target="_self">Tutoriales</a></li><li class=""><a href="/4d-for-ios/19/docs/es/template.html" target="_self">Plantillas y formatos</a></li><li class=""><a href="/4d-for-ios/19/docs/es/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Español</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/storyboard-detailform-template.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/storyboard-detailform-template.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/fr/storyboard-detailform-template.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Crear formularios detallados</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear una aplicación iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/contact-app.html">Aplicación Contacts</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personalizar con Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/open-xcode.html">Trabajar con Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/xcode-overview.html">Presentación de Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/4d-for-ios-project-organization.html">Organizar un proyecto 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/customize-your-ios-app.html">Personalizar su aplicación 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear formularios Lista<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-listform-templates.html">Plantillas de formularios Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/icon-listform-template.html">Iconos de formularios Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear formularios detallados<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-detailform-templates.html">Plantillas de formularios detallados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/icon-detailform-template.html">Iconos de formularios detallados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/es/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utilizar los iconos<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/using-icons.html">Utilizar los iconos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/create-icons.html">Crear iconos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/include-icons.html">Incluir iconos en el proyecto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/select-icons.html">Seleccionar sus iconos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Formato de datos<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter.html">Formato de datos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter-mobile-project.html">Abrir un proyecto móvil</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter-build-and-run.html">Crear y ejecutar su proyecto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-data-formatter.html">Crear un formato de datos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Búsqueda multicriterios<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/multi-criteria-search.html">Búsqueda multicriterios</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Búsquedas limitadas<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/filter-query-introduction.html">Búsquedas limitadas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/define-filter-query.html">Definir un filtro de búsqueda</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/user-information-query.html">Filtro de búsqueda - información usuario</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/actions-getting-started.html">Comencemos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/define-first-action.html">Definir una primera acción</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/action-custom-template.html">Añadir acciones a las plantillas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/action-parameters.html">Utilizar parámetros de acción</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/many-to-one-relations.html">Relaciones Muchos a Uno</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations.html">Relaciones Uno a Muchos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-title-definition.html">Uno a Muchos - Título</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-custom-button.html">Uno a Muchos - Botón personalizado</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-actions.html">Uno a Muchos - Acciones</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Funcionalidades<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/authentication.html">Autenticación email</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/push-notification.html">Notificaciones Push</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/DetailformTemplate-Storyboard.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Storyboard</h1></header><article><div><span><p>¡Ahora es el momento de crear su interfaz iOS de formulario detallado con Xcode!</p>
+<p>Este es el resultado que queremos lograr:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/storyboard-custom-detailform.png" alt="Storyboard custom detailform"></p>
+<p>Para cada celda, vamos a añadir:</p>
+<ul>
+<li>Una foto de perfil en el encabezado</li>
+<li>Un campo a duplicar</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="abrir-el-archivo-storyboard-con-xcode"></a><a href="#abrir-el-archivo-storyboard-con-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Abrir el archivo storyboard con Xcode</h2>
+<p>Primero, abra su archivo storyboard en Xcode.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/empty-storyboard-custom-detailform-template.png" alt="Empty storyboard custom template"></p>
+<p>Está bastante vacío, así que vamos a agregar algo de contenido.</p>
+<h2><a class="anchor" aria-hidden="true" id="añadir-un-scroll-view"></a><a href="#añadir-un-scroll-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir un &quot;Scroll View&quot;</h2>
+<p>Para que nuestro formulario detallado sea desplazable, el primer paso es arrastrar y soltar una &quot;Scroll View&quot; (vista de desplazamiento) desde la <strong>Librería de objetos</strong>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-scrollview-storyboard.png" alt="Add Scroll View Storyboard"></p>
+<p>Desde el <strong>Inspector de tamaño</strong> (en el lado derecho de la ventana del Interface Builder), defina el valor del Scroll vista en 359 y el valor de altura en 667. A continuación, defina el valor de X en 8 y el valor de Y en 0.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/scrollview-position-height-width.png" alt="Scroll View position height and width"></p>
+<p>Luego, agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 8, Leading: 8, Top: 0, y Bottom: 0) como se muestra a continuación:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/scrollview-constraints.png" alt="Scrollview Constraints"></p>
+<h2><a class="anchor" aria-hidden="true" id="añadir-una-vertical-stack-view"></a><a href="#añadir-una-vertical-stack-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir una &quot;Vertical Stack View&quot;</h2>
+<p>Arrastre y suelte una &quot;Vertical Stack View&quot; desde la <strong>librería de objetos</strong> a la &quot;Scroll view&quot;. Desde el <strong>Size inspector</strong> (al lado derecho del Interface Builder), defina el valor de ancho en 359 y el valor de alto en 202. A continuación, defina el valor de X en 0 y el valor de Y en 8.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-vertical-stackview-storyboard.png" alt="Add stackview Storyboard"></p>
+<p>Dado que el ancho y el alto del &quot;Stack View&quot; están definidos por los elementos que se encuentran dentro de ella, configuraremos el tamaño y las restricciones más adelante.</p>
+<h2><a class="anchor" aria-hidden="true" id="añadir-las-vistas-en-el-stack-views"></a><a href="#añadir-las-vistas-en-el-stack-views" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las vistas en el Stack Views</h2>
+<p>Arrastre y suelte una vista de la <strong>librería de objetos</strong> en la Stack View que acaba de agregar a su storyboard. Llamémosla <strong>Field View 1</strong>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-view1-storyboard.png" alt="Add Field View 1"></p>
+<p>Luego arrastre y suelte otra vista de la <strong>Librería de objetos</strong> directamente en el Document Outline al mismo nivel que Field View 1 (para integrarla en la Stack View) y llámela <strong>Field View 2</strong>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-view2-storyboard.png" alt="Add Field View 2"></p>
+<p>Para agregar espacio entre las vistas, seleccione su Stack View y defina el valor de espaciado en 8 (en el Attributes Inspector).</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/stackview-spacing.png" alt="Stackview spacing"></p>
+<p>Seleccione <strong>Field View 1</strong> y <strong>Field View 2</strong> y defina, en el <strong>Size inspector</strong> (a la derecha del Interface Builder), el valor de ancho en 359 y de alto en 97.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/views-position-height-width-storyboard.png" alt="views position height and width"></p>
+<p>Seleccione <strong>Field View 1</strong> y añada tres restricciones haciendo clic en el botón <strong>Add New Constraints button</strong> (Trailing: 0, Leading: 0 y Top: 0):</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/fieldView-1-Field-View-2-constraints.png" alt="Field Views constraints"></p>
+<p>Para que los &quot;Stack View&quot; y &quot;Scroll View&quot; tengan el mismo ancho, debe agregar un restricción:</p>
+<p>Presione Ctrl y arrastre el &quot;Stack View&quot; al &quot;Scroll View&quot;. Cuando suelte el botón del ratón, el Interface Builder muestra un menú con una lista de posibles restricciones. Seleccione &quot;Equal Width&quot;.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/stackview-equal-width-scrollview.png" alt="Stack View Equal Width"></p>
+<p>Luego, agregue cuatro restricciones con la Stack View haciendo clic en <strong>Add New Constraints</strong> (Trailing: 0, Leading: 0, Top: 8, y Bottom: 0) como se muestra a continuación:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/stackview-constraints.png" alt="Stackview constraints"></p>
+<p>Esto es lo que verá cuando se agreguen restricciones:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/stackview-constraints-final.png" alt="Stackview final constraints"></p>
+<p>Ahora que tiene dos vistas en su Stack View y ha definido restricciones, concentrémonos en Field View 1.</p>
+<h2><a class="anchor" aria-hidden="true" id="añada-una-image-view-al-field-view-1"></a><a href="#añada-una-image-view-al-field-view-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añada una Image View al Field View 1</h2>
+<p>Desde la <strong>Object library</strong> (la librería de objetos), arrastre y suelte una <strong>Image View</strong> (una vista de imagen) en Field View 1.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-imageview-storyboard.png" alt="Add Image View storyboard"></p>
+<p>Desde el <strong>Size inspector</strong> (al lado derecho del Interface Builder), defina el valor del ancho del Image View en 359 y su altura en 97. A continuación, defina el valor de X en 0 y el valor de Y en 0.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/imageview-position-height-width.png" alt="Image View position height and width"></p>
+<p>Luego, agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 0, Leading: 0, Top: 0, y Bottom: 0) como se muestra a continuación:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/imageview-constraints.png" alt="Image View constraints"></p>
+<p>En el <strong>Size inspector</strong>cambie el valor <strong>Default</strong> del intrínseco Size por <strong>Placeholder</strong>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/intrinsic-size-imageview.png" alt="Intrinsic size Image View"></p>
+<h2><a class="anchor" aria-hidden="true" id="añadir-las-etiquetas-al-field-view-2"></a><a href="#añadir-las-etiquetas-al-field-view-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las etiquetas al Field View 2</h2>
+<h3><a class="anchor" aria-hidden="true" id="etiqueta-de-título"></a><a href="#etiqueta-de-título" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiqueta de título</h3>
+<p>En la <strong>librería de objetos</strong>, arrastre y suelte una **Etiqueta ** en Field View 2  y defina el valor de Ancho en 343 y el valor de Alto 22. Luego, defina el valor de X en 8 y el valor de Y en 8.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-label1-storyboard.png" alt="Add label"></p>
+<p>Haga doble clic en la etiqueta y asígnele el nombre &quot;<code>___FIELD_LABEL___</code>&quot;. Luego, en el <strong>attribute inspector</strong>, seleccione la fuente <strong>Helvetica Neue Light 18.0</strong> y el color <strong>BackgroundColor</strong>:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/title-label-font-and-color.png" alt="Title label font and color"></p>
+<h3><a class="anchor" aria-hidden="true" id="etiqueta-de-contenido"></a><a href="#etiqueta-de-contenido" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiqueta de contenido</h3>
+<p>Duplique la etiqueta Título y defina el ancho de etiqueta duplicado en 339 y el valor de alto en 44. Luego, defina el valor de X en 12 y el valor de Y en 37.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/add-label2-storyboard.png" alt="Add label"></p>
+<p>Haga doble clic en la etiqueta y asígnele el nombre &quot;<code>&lt;___FIELD_LABEL___&gt;</code>&quot;. Luego, en el <strong>attribute inspector</strong>, seleccione la fuente <strong>Helvetica Neue Light 20.0</strong> y el color <strong>Back Color</strong>:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/content-label-font-and-color.png" alt="Content label font and color"></p>
+<p>Seleccione las etiquetas Contenido y Título y agregue cuatro restricciones haciendo clic en el botón <strong>Add New Constraints</strong> (Trailing: 8, Leading: Multiple, Top: Multiple, y Bottom: Multiple) como se muestra a continuación:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/titlelabel-contentlabel-contraints.png" alt="Title and Content labels constraints"></p>
+<p>¡Ya ha terminado la parte de los elementos gráficos! Todas sus restricciones están bien definidas :)</p>
+<h2><a class="anchor" aria-hidden="true" id="cómo-obtener-datos-en-sus-celdas"></a><a href="#cómo-obtener-datos-en-sus-celdas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cómo obtener datos en sus celdas</h2>
+<h3><a class="anchor" aria-hidden="true" id="image-view"></a><a href="#image-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image View</h3>
+<p>Seleccione su Vista imagen y vaya a <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Haga clic en el <strong>botón +</strong> para añadir una línea.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/user-defined-runtime-attributes.png" alt="User defined runtime attributes"></p>
+<ul>
+<li><p><strong>Key Path</strong>: comience con bindTo para activar la unión del componente. Introduzca <code>bindTo.record.___FIELD_1___</code></p></li>
+<li><p><strong>Type</strong>: siempre <code>String</code></p></li>
+<li><p><strong>Value</strong>: nombre del atributo. Introduzca <code>___FIELD_1_BINDING_TYPE___</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/identity-inspector-storyboard.png" alt="Identity inspector storyboard"></p>
+<h3><a class="anchor" aria-hidden="true" id="etiquetas"></a><a href="#etiquetas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Etiquetas</h3>
+<p>Para la <strong>primera etiqueta</strong>, vamos a agregar varias líneas principalmente para mostrar iconos:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/label1-user-defined-runtime-attributes.png" alt="Label1 User Defined Runtime Attributes"></p>
+<p>También hay que definir la Clase como <code>IconLabel</code> y verificar las casilla de selección <strong>Inherit Module From Target</strong> como podemos ver a continuación:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/label1-custom-class.png" alt="Label1 Custom Class"></p>
+<p>Seleccione la <strong>segunda etiqueta</strong> y agregue una línea en el área &quot;Defined Runtime Attributes&quot;:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD___</code></p></li>
+<li><p><strong>Tipo</strong>: <code>Cadena</code></p></li>
+<li><p><strong>Valor</strong>: <code>___FIELD_BINDING_TYPE___</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/label2-user-defined-runtime-attributes.png" alt="Label2 User Defined Runtime Attributes"></p>
+<h2><a class="anchor" aria-hidden="true" id="añadir-las-tags-a-las-celdas-a-duplicar"></a><a href="#añadir-las-tags-a-las-celdas-a-duplicar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Añadir las TAGS a las celdas a duplicar</h2>
+<p>Field View 2 incluye los elementos que se duplicarán para que pueda tener tantos campos como defina en el editor del proyecto.</p>
+<p>Cada elemento del storyboard tiene un identificador de objeto. Por ejemplo, si selecciona Field View 2 y va al <strong>Identity inspector</strong>, verá sus identificadores de objetos:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/object-id-storyboard.png" alt="Object ID Storyboard"></p>
+<p>Para indicar al editor del proyecto que todos los elementos incluidos en esta vista se duplicarán, debemos agregar un TAG a cada elemento y a cada restricción.</p>
+<p>El proceso es un poco complicado... ¡Comencemos por abrir el archivo storyboard con su editor de código favorito!</p>
+<h3><a class="anchor" aria-hidden="true" id="field-view-2"></a><a href="#field-view-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Field View 2</h3>
+<ul>
+<li><p>Seleccione <strong>Field View 2</strong> y obtenga sus identificadores de objeto del Identity Inspector (en el lado derecho de la ventana del Interface Builder). En nuestro proyecto, Field View 2 ID es: <strong>SiX-3H-lNB</strong>.</p></li>
+<li><p>Busque este ID en el código xml del storyboard y reemplácelo con <strong>TAG-FD-001</strong> cada vez que aparezca. Como puede ver, este ID de objeto se menciona varias veces, así que sea cuidadoso.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/storyboard-xml.png" alt="Storyboard xml"></p>
+<p>Guarde el archivo xml del storyboard. Como puede ver, el ID de objeto de Field View 2 ha cambiado en el storyboard en Xcode:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/field-view-2-object-id.png" alt="Field View 2 Object ID"></p>
+<h3><a class="anchor" aria-hidden="true" id="primera-etiqueta"></a><a href="#primera-etiqueta" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Primera etiqueta</h3>
+<ul>
+<li>Ahora, obtenga el ID del objeto <strong>primera etiqueta</strong> del Identity Inspector y sustitúyalo por <strong>TAG-FD-002</strong> cada vez que aparezca en el código xml del storyboard.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/label1-object-id.png" alt="Label 1 Object ID"></p>
+<p>¡Lista la primera etiqueta!</p>
+<h3><a class="anchor" aria-hidden="true" id="segunda-etiqueta"></a><a href="#segunda-etiqueta" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Segunda etiqueta</h3>
+<ul>
+<li>Ahora, obtenga el ID del objeto de la** segunda etiqueta ** del Identity Inspector y sustitúyalo por ** TAG-FD-003 ** cada vez que aparezca en el código xml del storyboard.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/label2-object-id.png" alt="Label 2 Object ID"></p>
+<p>¡Listo!</p>
+<h3><a class="anchor" aria-hidden="true" id="restricciones"></a><a href="#restricciones" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Restricciones</h3>
+<p>Ambas etiquetas tienen restricciones que también necesitamos identificar:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/duplicated-constraints.png" alt="Tag constraints"></p>
+<p>Como para View Field 2 y la etiqueta, obtenemos todos los identificadores de objetos de <strong>7 Constraints</strong> desde el Identity Inspector y los reemplazamos con: <strong>TAG-FD-004</strong>, <strong>TAG-FD-005</strong>, <strong>TAG-FD-006</strong>, <strong>TAG-FD-007</strong>, <strong>TAG-FD-008</strong>, <strong>TAG-FD-009</strong> y <strong>TAG-FD-010</strong>.</p>
+<p>Vaya al editor de su proyecto y seleccione su plantilla de formulario detallado en la sección Formularios, luego haga clic en Crear.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/custom-detail-template-forms.png" alt="Custom detail template forms"></p>
+<p>¡No está mal para un primer intento! :)</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/iphone-demo.png" alt="iPhone Demo"></p>
+<p>¡Field View 2 ha sido duplicado bien! A ver si podemos hacer esta aplicación un poco más interesante.</p>
+<h3><a class="anchor" aria-hidden="true" id="personalice-su-aplicación"></a><a href="#personalice-su-aplicación" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Personalice su aplicación</h3>
+<p>Vamos a agregar un borde redondeado a la Image View, así como a Field View 2.</p>
+<p>Seleccione su Vista imagen y añada las dos líneas siguientes en el área User Defined Runtime Attributes:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>cornerRadius</code></p></li>
+<li><p><strong>Type</strong>: <code>Number</code></p></li>
+<li><p><strong>Value</strong>: <code>12</code></p></li>
+</ul>
+<p>y</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>layer.masksToBounds</code></p></li>
+<li><p><strong>Type</strong>: <code>Boolean</code></p></li>
+<li><p><strong>Value</strong>: seleccione la casilla</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/imageview-corner-radius.png" alt="iPhone Demo"></p>
+<p>A continuación, seleccione Field View 2 y agregue lo siguiente:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>cornerRadius</code></p></li>
+<li><p><strong>Type</strong>: <code>Number</code></p></li>
+<li><p><strong>Value</strong>: <code>12</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/fieldview2-corner-radius.png" alt="iPhone Demo"></p>
+<p>¡Ahora puede crear su proyecto desde el editor de proyectos!</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-detailform/custom-template-final-result.png" alt="Custom template final result"></p>
+<h2><a class="anchor" aria-hidden="true" id="¿qué-hacemos-ahora"></a><a href="#¿qué-hacemos-ahora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>¿Qué hacemos ahora?</h2>
+<p>En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de formularios detallados. Ahora puede crear plantillas simples por su cuenta utilizando los recursos del Proyecto Starter. Haga clic en el botón <strong>Final Project</strong> abajo para descargar la carpeta que contiene la lista completa de modelos.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/es/svg-file-detailform-template.html"><span class="arrow-prev">← </span><span>Template.svg</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/es/gallery-template-install.html"><span>Siguiente</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#abrir-el-archivo-storyboard-con-xcode">Abrir el archivo storyboard con Xcode</a></li><li><a href="#añadir-un-scroll-view">Añadir un &quot;Scroll View&quot;</a></li><li><a href="#añadir-una-vertical-stack-view">Añadir una &quot;Vertical Stack View&quot;</a></li><li><a href="#añadir-las-vistas-en-el-stack-views">Añadir las vistas en el Stack Views</a></li><li><a href="#añada-una-image-view-al-field-view-1">Añada una Image View al Field View 1</a></li><li><a href="#añadir-las-etiquetas-al-field-view-2">Añadir las etiquetas al Field View 2</a><ul class="toc-headings"><li><a href="#etiqueta-de-título">Etiqueta de título</a></li><li><a href="#etiqueta-de-contenido">Etiqueta de contenido</a></li></ul></li><li><a href="#cómo-obtener-datos-en-sus-celdas">Cómo obtener datos en sus celdas</a><ul class="toc-headings"><li><a href="#image-view">Image View</a></li><li><a href="#etiquetas">Etiquetas</a></li></ul></li><li><a href="#añadir-las-tags-a-las-celdas-a-duplicar">Añadir las TAGS a las celdas a duplicar</a><ul class="toc-headings"><li><a href="#field-view-2">Field View 2</a></li><li><a href="#primera-etiqueta">Primera etiqueta</a></li><li><a href="#segunda-etiqueta">Segunda etiqueta</a></li><li><a href="#restricciones">Restricciones</a></li><li><a href="#personalice-su-aplicación">Personalice su aplicación</a></li></ul></li><li><a href="#¿qué-hacemos-ahora">¿Qué hacemos ahora?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

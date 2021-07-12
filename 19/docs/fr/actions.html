@@ -1,0 +1,323 @@
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Actions · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Cette section vous permet :"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Actions · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="Cette section vous permet :"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/fr/overview.html" target="_self">Documentation</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/actions.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/actions.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/actions.html">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Éditeur de projet</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Prise en main<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/overview.html">Aperçu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/prerequisites.html">Conditions préalables</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Éditeur de projet<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/create-new-project.html">Nouveau projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/general.html">Général</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/structure.html">Structure</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data.html">Données</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/fr/actions.html">Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/labels-and-icons.html">Libellés et icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/main-menu.html">Menu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/forms.html">Formulaires</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/publishing.html">Publication</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/build-panel.html">Onglet Génération</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Choisir un Apple Developer Program<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deployment.html">Choisir un Apple Developer Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/free-developer-account.html">Compte Apple Developer gratuit</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-enterprise-program.html">Apple Developer Enterprise Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-organization.html">Apple Developer Program pour les entreprises</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-individual.html">Apple Developer Program pour les particuliers</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Test et Génération<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/simulator.html">Utilisation du simulateur</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/install-device.html">Installation sur votre appareil iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement interne<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-archive-and-export.html">Archiver et exporter un projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-distribution.html">Distribuer une application interne</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement sur App Store<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-app-store-connect.html">Créer une fiche sur App Store</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-archive-and-upload.html">Archiver et télécharger un projet</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Débogage<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-the-project-editor.html">Depuis l&#x27;éditeur de projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-xcode.html">Depuis Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-iphone.html">Depuis votre iPhone</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/ProjectEditor-ActionsPanel.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Actions</h1></header><article><div><span><p>Cette section vous permet :</p>
+<ul>
+<li>de créer des actions permettant d'exécuter du code 4D à partir de votre application iOS.</li>
+<li>de définir et d'ajouter des paramètres à vos actions.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="éditeur-de-projet"></a><a href="#éditeur-de-projet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Éditeur de projet</h2>
+<h3><a class="anchor" aria-hidden="true" id="créez-votre-application"></a><a href="#créez-votre-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Créez votre application</h3>
+<p>Vous pouvez créer de nouvelles actions en cliquant sur le bouton +, situé en-dessous du tableau d'Actions. Une nouvelle ligne apparaîtra alors dans le tableau.</p>
+<p>Vous définirez ensuite les éléments suivants :</p>
+<ul>
+<li><strong>Noms :</strong> Définissez le nom de l'action à utiliser dans la méthode base <a href="https://developer.4d.com/4d-for-ios/docs/en/actions.html#on-mobile-app-action">Sur une action app mobile</a> pour lancer votre code 4D.</li>
+<li><strong>Icônes :</strong> Sélectionnez une icône pour votre action à partir de la librairie d'icônes. Vous pouvez également ajouter votre propre icône à l'aide de ce <a href="using-icons.html">tutoriel</a>.</li>
+<li><strong>Libellés long et court :</strong> Définissez les libellés correspondant aux actions que vous souhaitez afficher dans votre application.</li>
+<li><strong>Table :</strong> Sélectionnez la table à laquelle vous souhaitez appliquer une action.</li>
+<li><strong>Portée :</strong> Choisissez d'appliquer l'action à une <strong>entité</strong> ou à une <strong>table</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Actions-section-4D-for-iOS.png" alt="Action section"></p>
+<h3><a class="anchor" aria-hidden="true" id="ajoutez-des-paramètres-à-votre-action"></a><a href="#ajoutez-des-paramètres-à-votre-action" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ajoutez des paramètres à votre action</h3>
+<p>Tout comme dans <strong>4D v17R6</strong>, vous pouvez ajouter des <strong>paramètres d'action</strong> et <strong>éditer</strong> des données directement à partir de votre application.</p>
+<p>Pour chaque paramètre, vous pouvez éditer les propriétés suivantes :</p>
+<ul>
+<li>Le nom</li>
+<li>Le libellé long</li>
+<li>Le libellé court</li>
+<li>Le format</li>
+<li>Les contraintes (définir des valeurs minimales ou maximales)</li>
+<li>Le placeholder</li>
+<li>La définition d'un champ obligatoire</li>
+<li>La valeur par défaut</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Actions-parameters-4D-for-iOS.png" alt="Action parameters"></p>
+<p>Vous êtes libres de choisir l'ordre des paramètres à l'aide du glisser-déposer.</p>
+<p>Voici les différents <strong>formats</strong> que vous pouvez sélectionner en tant que paramètre :</p>
+<table>
+<tr>
+<th colspan="2"  style="text-align:center">TEXTE</th>
+</tr><tr style="text-align:center">
+<th>Le format</th><th>Description</th>
+</tr><tr>
+<td>Texte</td><td>Première lettre de la chaîne en majuscule</td>
+</tr><tr>
+<td>Adresse mail</td><td>Clavier iOS optimisé pour la saisie de l'e-mail</td>
+</tr><tr>
+<td>Numéro de téléphone</td><td>Clavier iOS pour la saisie des numéros de téléphone.</td>
+</tr><tr>
+<td>Compte</td><td>Clavier iOS optimisé pour la saisie du nom d'utilisateur</td>
+</tr><tr>
+<td>Mot de passe</td><td>Clavier optimisé pour la gestion des mots de passe</td>
+</tr><tr>
+<td>URL</td><td>Clavier iOS optimisé pour la saisie de l'URL</td>
+</tr><tr>
+<td>Code postal</td><td>Clavier iOS optimisé pour la saisie du code postal</td>
+</tr><tr>
+<td>Zone de texte</td><td>Inclut plusieurs lignes de texte dans un même champ</td>
+</tr><tr>
+<td>Barcode</td><td>Extract barcode associated value. Supported formats : EAN8, EAN13, Code 39, Code 93, Code 128, QR Code, UPC, PDF417</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">NOMBRE</th>
+</tr><tr style="text-align:center">
+<th>Le format</th><th>Description</th>
+</tr><tr>
+<td>Number</td><td>Nombres avec décimales</td>
+</tr><tr>
+<td>Entier</td><td>Nombres sans décimales</td>
+</tr><tr>
+<td>Scientifique</td><td>Notation scientifique</td>
+</tr><tr>
+<td>Pourcentage</td><td>Notation en pourcentage</td>
+</tr><tr>
+<td>Nombre en lettres</td><td>Convertit les nombres en chaînes</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">DATE</th>
+</tr><tr style="text-align:center">
+<th>Le format</th><th>Description</th>
+</tr><tr>
+<td>Date</td><td>Nov 23, 1937</td>
+</tr><tr>
+<td>Date courte</td><td> 11/23/37</td>
+</tr><tr>
+<td>Date longue</td><td>November 23, 1937</td>
+</tr><tr>
+<td>Date complète</td><td>Tuesday, November 23, 1937</td>
+</tr><tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">HEURE</th>
+</tr><tr style="text-align:center">
+<th>Le format</th><th>Description</th>
+</tr><tr>
+<td>Heure</td><td>3:30 PM</td>
+</tr><tr>
+<td>Durée</td><td>2 hours 30 minutes</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">BOOLÉEN</th>
+</tr><tr style="text-align:center">
+<th>Le format</th><th>Description</th>
+</tr><tr>
+<td>Boolean</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/switch.png?raw=true"></td>
+</tr><tr>
+<td>Coche</td><td><img src="https://github.com/4d/4d-for-ios/blob/develop/docs/assets/en/project-editor/check.png?raw=true"></td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+<th colspan="2" style="text-align:center">IMAGES</th>
+</tr>
+<tr>
+<td>Signature</td><td>Allow to sign with the finger</td>
+</tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="actions-prédéfinies"></a><a href="#actions-prédéfinies" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Actions prédéfinies</h3>
+<p>4D for iOS comprend trois actions (prédéfinies) pour gérer le contenu de votre application :</p>
+<ul>
+<li>Modifier</li>
+<li>Action d'ajout</li>
+<li>Action de suppression</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="1-action-dajout"></a><a href="#1-action-dajout" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Action d'ajout</h4>
+<p>4D for iOS simplifie au maximum la création des <strong>actions d'ajout</strong>.</p>
+<p>Vous n'avez qu'à sélectionner l'option <strong>Action d'ajout pour</strong>, accessible à partir du <strong>bouton +</strong>, situé en-dessous de la table Actions.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Actions-Add-action-4D-for-iOS.png" alt="Add actions"></p>
+<p>Puis, <strong>sélectionnez la table</strong> que vous souhaitez associer à l'action d'ajout. Et voilà !</p>
+<p>Cela <strong>créera automatiquement</strong> tous les paramètres dans l'éditeur de projets et vous permettra de modifier chaque valeur d'un champ.</p>
+<p>Pour ce genre d'actions, vous constaterez que toutes les <strong>propriétés</strong> sont déjà saisies à des fins pratiques, à droite de la liste de paramètres.</p>
+<h4><a class="anchor" aria-hidden="true" id="2-action-dédition"></a><a href="#2-action-dédition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Action d'édition</h4>
+<p>La création des <strong>actions d'édition</strong> suit le même principe que les actions d'ajout, à l'exception du fait que vous ne serez pas en mesure de définir des valeurs par défaut à partir de la section Actions.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png" alt="Edit actions"></p>
+<h4><a class="anchor" aria-hidden="true" id="3-action-de-suppression"></a><a href="#3-action-de-suppression" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Action de suppression</h4>
+<p>La création des <strong>actions de suppression</strong> suit le même principe que les actions d'édition. La seule différence est que cette action vous permet de supprimer une entité.</p>
+<p>Pour créer une action de suppression, sélectionnez l'option <strong>Action de suppression pour</strong>, accessible à partir du <strong>bouton +</strong> en-dessous de la table Actions.</p>
+<p>Ce type d'actions doit être utilisé avec précaution.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png" alt="Delete actions"></p>
+<p>Concernant les actions d'édition et d'ajout, vous êtes libres de modifier :</p>
+<ul>
+<li>les paramètres, en ajoutant ou en supprimant un paramètre à l'aide des <strong>boutons + et -</strong> situés en-dessous de la liste de paramètres des actions.</li>
+<li>les propriétés, en les définissant à votre convenance.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="sur-une-action-app-mobile"></a><a href="#sur-une-action-app-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sur une action app mobile</h3>
+<p>La méthode base <a href="https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html">Sur une action app mobile</a> vous permet d'appeler vos méthodes 4D.</p>
+<p>Après avoir créé l'ensemble de vos actions, cliquez sur le bouton Créer, situé sous le tableau des Actions, pour générer automatiquement un bloc de code <em>Case of</em> qui inclut tous vos noms d'actions dans la méthode <em>Sur une action app mobile</em>.</p>
+<blockquote>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>Vous pouvez rafraîchir la sélection après avoir exécuté une action en utilisant <code>$out.dataSynchro:=True</code>.</li>
+<li>Vous pouvez notifier l'utilisateur de l'application lorsqu'une action a été exécutée à l'aide de <code>$out.statusText:=&quot;Message you want to display&quot;</code>.</li>
+<li>Vous pouvez également forcer la fermeture du formulaire d'Edition à l'aide de <code>$out.close:=True</code>.</li>
+</ul>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="offline-mode-actions"></a><a href="#offline-mode-actions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline mode actions</h3>
+<p>The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.</p>
+<p>Pending tasks can be visualized and opened from:</p>
+<p>•   <em>The Settings screen</em></p>
+<p>It displays a summary and a history of all pending and completed tasks.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/screen1" alt="Action section"></p>
+<p>•   <em>The List &amp; Detail forms</em></p>
+<p>They display all the tasks related to the table or to the entity that you are currently viewing.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/screen2" alt="Action section"></p>
+<blockquote>
+<p><strong>Notes</strong></p>
+<ul>
+<li>The &quot;Share&quot; predefined action is only executable online.</li>
+<li>Actions are editable while pending, but they can no longer be modified once they switch to the &quot;Completed&quot; mode.</li>
+</ul>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="application-ios"></a><a href="#application-ios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Application iOS</h2>
+<p>Dans votre application iOS, des actions sont disponibles sous différentes formes dans vos formulaires Liste et vos formulaires détaillés, selon le modèle que vous sélectionnez dans la section Formulaires.</p>
+<h3><a class="anchor" aria-hidden="true" id="formulaires-liste-en-tableau"></a><a href="#formulaires-liste-en-tableau" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formulaires Liste en tableau</h3>
+<ul>
+<li><strong>Action d'entité :</strong> Faites glisser une cellule vers la gauche pour afficher les actions disponibles dans un formulaire Liste. Un bouton « + » s’affiche si vous définissez plus de 3 actions par entité.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/ListForm-entity-action-tableview.png" alt="Entity Lisform Tableview"></p>
+<ul>
+<li><strong>Action de table :</strong> Un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/ListForm-table-action-tableview.png" alt="Table Listform Tableview"></p>
+<blockquote>
+<p><strong>ASTUCES</strong></p>
+<p>Les actions s'afficheront dans le même ordre que celui qui a été défini dans la section Action.</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="formulaires-liste-en-collection"></a><a href="#formulaires-liste-en-collection" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formulaires Liste en collection</h3>
+<ul>
+<li><strong>Action d'entité :</strong> Selon le modèle sélectionné, les actions s'affichent en cliquant sur un bouton générique ou en maintenant le clic sur une cellule.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/ListForm-entity-action-collectionview.png" alt="Entity Listform Collectionview"></p>
+<ul>
+<li><strong>Action de table :</strong> De même que pour les formulaires Liste en tableau, un bouton d'actions générique est disponible dans la barre de navigation pour afficher une liste d'actions de table.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/ListForm-table-action-collectionview.png" alt="Table Listform Collectionview"></p>
+<h3><a class="anchor" aria-hidden="true" id="formulaires-détaillés"></a><a href="#formulaires-détaillés" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formulaires détaillés</h3>
+<p>De même que pour les actions de table dans les formulaires détailles, un bouton d'actions générique est disponible dans la barre de navigation pour afficher toutes vos actions d'entité dans une liste.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/Detailform-final.png" alt="Entity Detailform"></p>
+<h3><a class="anchor" aria-hidden="true" id="formulaires-dédition"></a><a href="#formulaires-dédition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formulaires d'édition</h3>
+<p>Si vous avez créé une action d'ajout ou d'édition, un <strong>formulaire d'édition</strong> apparaît dès que vous sélectionnez l'action à partir de la liste d'actions.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/actions/Action-parameters-sendComment.png" alt="Send task comment"></p>
+<p>Vous pourrez ainsi :</p>
+<ul>
+<li>éditer tous vos champs en les sélectionnant, et</li>
+<li>valider ou annuler les modifications que vous aurez apportées à l'aide des boutons <strong>Done</strong> ou <strong>Cancel</strong> (dans la barre de navigation).</li>
+</ul>
+<p>A des fins pratiques, le formulaire d'édition inclut quelques <strong>fonctionnalités spécifiques</strong> :</p>
+<ul>
+<li>Le type de clavier dépend du type de paramètre sélectionné dans la section Actions.</li>
+<li>Vous pouvez passer d'un champ à l'autre à l'aide des flèches situées en haut du clavier.</li>
+<li>Le clavier iOS peut être quitté via un simple clic en dehors du champ.</li>
+<li>L'utilisateur est informé lorsqu'une valeur n'est pas valide.</li>
+<li>La vue est portée sur des champs vides obligatoires lorsque l'utilisateur clique sur le bouton Done.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="que-faire-ensuite-"></a><a href="#que-faire-ensuite-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que faire ensuite ?</h2>
+<ul>
+<li><p>Un <a href="actions-getting-started.html">tutoriel</a> est disponible pour vous guider tout au long du <strong>processus de définition d'une action</strong>.</p></li>
+<li><p>Un autre <a href="action-custom-template.html">tutoriel</a> vous guidera pour intégrer des <strong>TAG d'action</strong> dans des modèles personnalisés.</p></li>
+<li><p>A final <a href="action-parameters.html">tutorial</a> will guide you through the <strong>action parameters definition</strong>.</p></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/fr/data.html"><span class="arrow-prev">← </span><span>Données</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/fr/labels-and-icons.html"><span>Libellés et icônes</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#éditeur-de-projet">Éditeur de projet</a><ul class="toc-headings"><li><a href="#créez-votre-application">Créez votre application</a></li><li><a href="#ajoutez-des-paramètres-à-votre-action">Ajoutez des paramètres à votre action</a></li><li><a href="#actions-prédéfinies">Actions prédéfinies</a></li><li><a href="#sur-une-action-app-mobile">Sur une action app mobile</a></li><li><a href="#offline-mode-actions">Offline mode actions</a></li></ul></li><li><a href="#application-ios">Application iOS</a><ul class="toc-headings"><li><a href="#formulaires-liste-en-tableau">Formulaires Liste en tableau</a></li><li><a href="#formulaires-liste-en-collection">Formulaires Liste en collection</a></li><li><a href="#formulaires-détaillés">Formulaires détaillés</a></li><li><a href="#formulaires-dédition">Formulaires d'édition</a></li></ul></li><li><a href="#que-faire-ensuite-">Que faire ensuite ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

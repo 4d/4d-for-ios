@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Authentification email · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Authentification email · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/fr/overview.html" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/authentication.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/authentication.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/authentication.html">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Fonctionnalités</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer une application iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/contact-app.html">Application Contacts</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personnaliser avec Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/open-xcode.html">Travailler avec Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/xcode-overview.html">Présentation de Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/4d-for-ios-project-organization.html">Organiser un projet 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/customize-your-ios-app.html">Personnaliser une application 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires Liste<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-listform-templates.html">Modèles de formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/icon-listform-template.html">Icônes des formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires détaillés<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-detailform-templates.html">Modèles de formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/icon-detailform-template.html">Icônes des formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utiliser des icônes<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/using-icons.html">Utiliser des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/create-icons.html">Créer des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/include-icons.html">Inclure des icônes dans le projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/select-icons.html">Choisir des icônes</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Format des données<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter.html">Format des données</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter-mobile-project.html">Ouvrir un projet mobile</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter-build-and-run.html">Créer et exécuter un projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-data-formatter.html">Créer un format de données</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche multicritères<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/multi-criteria-search.html">Recherche multicritères</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche restreinte<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/filter-query-introduction.html">Recherche restreinte</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/define-filter-query.html">Définir un filtre de recherche</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/user-information-query.html">Filtre de recherche - informations utilisateur</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/actions-getting-started.html">Initiation</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/define-first-action.html">Définir une première action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/action-custom-template.html">Ajouter des actions aux modèles</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/action-parameters.html">Utiliser des paramètres d&#x27;action</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Liens<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/many-to-one-relations.html">Liens N vers 1</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations.html">Liens 1 vers N</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-title-definition.html">1 vers N - Titre</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-custom-button.html">1 vers N - Bouton personnalisé</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-actions.html">Liens 1 vers N - Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Fonctionnalités<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/fr/authentication.html">Authentification email</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/push-notification.html">Notifications Push</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/Features-Authentication.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Authentification email</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<p>Intégrez la confirmation par e-mail pour authentifier les utilisateurs de l'application mobile</p>
+</blockquote>
+<blockquote>
+<p><strong>CONDITIONS PRÉALABLES</strong></p>
+<p>Le composant <a href="https://github.com/4d-for-ios/4D-Mobile-App-Server">4D Mobile App Server</a> qui permet l'authentification des e-mails est intégré dans 4D mono et 4D Server 18 R4.</p>
+</blockquote>
+<p>Garantissez le confort de vos clients grâce à la connexion à leur application via l'authentification par e-mail !</p>
+<p>Elle fournit un moyen de vérifier qu'un e-mail provient de qui il prétend provenir et permettra de bloquer les utilisations nuisibles ou frauduleuses des e-mails.</p>
+<p>En bref, le principe est le suivant :</p>
+<h3><a class="anchor" aria-hidden="true" id="1-activez-le-formulaire-de-connexion"></a><a href="#1-activez-le-formulaire-de-connexion" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Activez le formulaire de connexion</h3>
+<p>Intégrez un formulaire de connexion dans votre application, depuis l'éditeur de projet dans la section Publication.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/authentication/email-authentication-publishing-section.png" alt="Email authentication activation"></p>
+<h3><a class="anchor" aria-hidden="true" id="2-saisissez-votre-adresse-e-mail"></a><a href="#2-saisissez-votre-adresse-e-mail" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Saisissez votre adresse e-mail</h3>
+<p>Un e-mail est requis au lancement de l'application. Lorsqu'un utilisateur saisit son e-mail et clique sur le bouton de connexion, On Mobile app Authentication est appelée et le statut de la session de l'utilisateur doit être mis à jour et définie au statut «en attente» (pending). Un email de validation est ensuite envoyé à l'utilisateur.</p>
+<h3><a class="anchor" aria-hidden="true" id="3-vérifiez-votre-boîte-de-réception"></a><a href="#3-vérifiez-votre-boîte-de-réception" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Vérifiez votre boîte de réception</h3>
+<p>Lorsque l'e-mail de validation est disponible, l'utilisateur doit simplement cliquer sur le lien de validation. Cela appellera la méthode de base de données On Web Connection et mettra à jour le statut de la session de l'utilisateur qui passera de «en attente» à «accepté».</p>
+<h3><a class="anchor" aria-hidden="true" id="4-retournez-sur-votre-application"></a><a href="#4-retournez-sur-votre-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Retournez sur votre application</h3>
+<p>Une fois la validation effectuée, l'utilisateur peut rouvrir son application et cliquer sur le bouton Connexion. On Mobile App Authentication est appelée à nouveau mais cette fois, le statut de la session de l'utilisateur est &quot;accepté&quot;, donc l'accès est accordé !</p>
+<p>C’est plutôt simple, non?</p>
+<p>Ainsi, pour faciliter et sécuriser le processus de validation, 4D for iOS gère :</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/authentication/4D-for-iOS-email-auth.png" alt="Authentification"></p>
+<p>Mais voyons comment cela fonctionne, en utilisant notre composant spécial !</p>
+<h1><a class="anchor" aria-hidden="true" id="utilisation-du-composant"></a><a href="#utilisation-du-composant" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Utilisation du composant</h1>
+<h2><a class="anchor" aria-hidden="true" id="un-composant-pour-gérer-lauthentification-des-e-mails"></a><a href="#un-composant-pour-gérer-lauthentification-des-e-mails" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Un composant pour gérer l'authentification des e-mails</h2>
+<p>Un composant boite à outils a été développé pour vous aider à gérer plusieurs processus : le composant 4D Mobile App Server.</p>
+<p>Voyons comment l'utiliser !</p>
+<h2><a class="anchor" aria-hidden="true" id="on-mobile-app-authentification"></a><a href="#on-mobile-app-authentification" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On Mobile App Authentification</h2>
+<p>Appelez la méthode <strong>App Email Checker</strong> dans la méthode <strong>On Mobile App Authentification database</strong> avec les informations fournies par l'application mobile :</p>
+<pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>)
+<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$1</span>)
+<span class="hljs-variable">$0</span>:=<span class="hljs-function"> Mobile App Email Checker </span>(<span class="hljs-variable">$1</span>)
+
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="mobile-app-active-session"></a><a href="#mobile-app-active-session" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mobile App Active Session</h2>
+<p>Appelez la méthode <strong>Activate sessions</strong> dans la méthode base <strong>On Web Connection</strong> avec le paramètre ID de la session extrait de l'URL :</p>
+<pre><code class="hljs css language-4d"><span class="hljs-function">C_TEXT</span>(<span class="hljs-variable">$1</span>)<span class="hljs-keyword">
+Case of</span> 
+: (<span class="hljs-function">Mobile App Active Session</span>(<span class="hljs-variable">$1</span>).success)
+    <span class="hljs-comment">//ajoutez un journal si vous le souhaitez</span><span class="hljs-keyword">
+End case</span> 
+
+</code></pre>
+<p>C'est aussi simple que ça ! Vous trouverez plus d'informations sur ce composant dans la <a href="https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Methods/Mobile%20App%20Email%20Checker.md">documentation</a>, en particulier sur les ressources que vous pouvez utiliser, comme les modèles et paramètres html que vous voudrez peut-être définir.</p>
+<h1><a class="anchor" aria-hidden="true" id="sans-le-composant"></a><a href="#sans-le-composant" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sans le composant</h1>
+<p>Nous allons voir ici un exemple simple, sans utiliser de composant.</p>
+<p>Pour ce faire, voici le code que vous pouvez utiliser :</p>
+<h2><a class="anchor" aria-hidden="true" id="on-mobile-app-authentication"></a><a href="#on-mobile-app-authentication" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On Mobile App Authentication</h2>
+<pre><code class="hljs css language-4d"><span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$0</span>;<span class="hljs-variable">$1</span>;<span class="hljs-variable">$response</span>;<span class="hljs-variable">$request</span>;<span class="hljs-variable">$email</span>;<span class="hljs-variable">$status</span>)
+
+  <span class="hljs-comment">// les propriétés des paramètres proviennent de l'application mobile</span>
+<span class="hljs-variable">$request</span>:=<span class="hljs-variable">$1</span>
+
+  <span class="hljs-comment">// Créer un email avec une URL d'activation</span>
+<span class="hljs-variable">$mail</span>:=New object
+<span class="hljs-variable">$mail</span>.from:=<span class="hljs-string">"myapplication@gmail.com"</span>
+<span class="hljs-variable">$mail</span>.to:=<span class="hljs-variable">$request</span>.email  <span class="hljs-comment">// email saisi par l'utilisateur sur leur smartphone</span>
+<span class="hljs-variable">$mail</span>.subject:=<span class="hljs-string">"Login confirmation"</span>
+<span class="hljs-variable">$mail</span>.htmlBody:=<span class="hljs-string">"&lt;a href=\"https://myserverapplication/activation/"</span>+<span class="hljs-variable">$request</span>.session.id \
++<span class="hljs-string">"\"&gt;Click Here to confirm your email.&lt;/a&gt;\"&lt;br&gt;"</span>
+
+  <span class="hljs-comment">// Envoyer e-mail</span>
+<span class="hljs-variable">$smtp</span>:=<span class="hljs-function">New object</span>(<span class="hljs-string">"host"</span>;<span class="hljs-string">"smtp.gmail.com"</span>;<span class="hljs-string">"user"</span>;<span class="hljs-string">"myapplication@gmail.com"</span>;<span class="hljs-string">"password"</span>;<span class="hljs-string">"xxx"</span>)
+<span class="hljs-variable">$transporter</span>:=<span class="hljs-function">SMTP New transporter</span>(<span class="hljs-variable">$smtp</span>)
+<span class="hljs-variable">$status</span>:=<span class="hljs-variable">$transporter</span>.<span class="hljs-function">send</span>(<span class="hljs-variable">$mail</span>)
+
+  <span class="hljs-comment">// Configurer la réponse à for 4D for iOS</span>
+<span class="hljs-variable">$response</span>:=New object
+
+  <span class="hljs-comment">// Déclarer que la session courante est en cours de vérification</span>
+<span class="hljs-variable">$response</span>.verify:=<span class="hljs-literal">True</span>
+
+  <span class="hljs-comment">// Vérifier si l'e-mail a été envoyé avec succès</span><span class="hljs-keyword">
+If</span> (<span class="hljs-variable">$status</span>.success)
+      <span class="hljs-comment">//créer un objet partagé pour contenir nos sessions, accessible depuis tous les process</span><span class="hljs-keyword">
+    If</span> (Storage.pendingSessions=<span class="hljs-literal">Null</span>)<span class="hljs-keyword">
+        Use</span> (Storage)
+            Storage.pendingSessions:=New shared object<span class="hljs-keyword">
+        End use</span><span class="hljs-keyword"> 
+    End if</span><span class="hljs-keyword"> 
+
+    Use</span> (Storage.pendingSessions)
+          <span class="hljs-comment">//Ajouter une session à nos listes de session</span>
+        Storage.pendingSessions[<span class="hljs-variable">$request</span>.session.id]:=<span class="hljs-variable">$request</span>.team.id+<span class="hljs-string">"."</span>+<span class="hljs-variable">$request</span>.application.id<span class="hljs-keyword">
+    End use</span> 
+
+    <span class="hljs-variable">$response</span>.success:=<span class="hljs-literal">True</span>
+    <span class="hljs-variable">$response</span>.statusText:=<span class="hljs-string">"Please check your mail box"</span><span class="hljs-keyword">
+Else</span> 
+      <span class="hljs-comment">// Afficher un message d'erreur sur le smartphone</span>
+    <span class="hljs-variable">$response</span>.statusText:=<span class="hljs-string">"The mail is not sent please try again later"</span>
+    <span class="hljs-variable">$response</span>.success:=<span class="hljs-literal">False</span><span class="hljs-keyword">
+End if</span> 
+
+<span class="hljs-variable">$0</span>:=<span class="hljs-variable">$response</span>
+
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="on-web-connection"></a><a href="#on-web-connection" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On Web connection</h2>
+<p>Cette méthode vous permet d'activer la session après avoir cliqué sur le lien contenu dans l'e-mail de confirmation.</p>
+<pre><code class="hljs css language-4d"><span class="hljs-function">C_TEXT</span>(<span class="hljs-variable">$1</span>;<span class="hljs-variable">$2</span>;<span class="hljs-variable">$3</span>;<span class="hljs-variable">$4</span>;<span class="hljs-variable">$5</span>;<span class="hljs-variable">$6</span>)
+
+<span class="hljs-function">C_TEXT</span>(<span class="hljs-variable">$token</span>;<span class="hljs-variable">$session</span>)
+<span class="hljs-function">C_OBJECT</span>(<span class="hljs-variable">$sessionFile</span>;<span class="hljs-variable">$sessionObject</span>)<span class="hljs-keyword">
+
+If</span> (<span class="hljs-variable">$1</span>=<span class="hljs-string">"/activation/@"</span>)
+    <span class="hljs-variable">$token</span>:=<span class="hljs-function">Substring</span>(<span class="hljs-variable">$1</span>;<span class="hljs-number">13</span>)<span class="hljs-keyword">
+End if</span> 
+
+
+  <span class="hljs-comment">//lire la session depuis l'ID reçu de l'URL</span><span class="hljs-keyword">
+If</span> (Storage.pendingSessions#<span class="hljs-literal">Null</span>)
+    <span class="hljs-variable">$session</span>:=Storage.pendingSessions[<span class="hljs-variable">$token</span>]<span class="hljs-keyword">
+End if</span><span class="hljs-keyword"> 
+
+If</span> (<span class="hljs-variable">$session</span>#<span class="hljs-string">""</span>)
+      <span class="hljs-comment">//obtenir le dossier de la session</span>
+    <span class="hljs-variable">$sessionFile</span>:=<span class="hljs-function">Folder</span>(fk mobileApps folder).<span class="hljs-function">folder</span>(<span class="hljs-variable">$session</span>).<span class="hljs-function">file</span>(<span class="hljs-variable">$token</span>)
+    <span class="hljs-variable">$sessionObject</span>:=<span class="hljs-function">JSON Parse</span>(<span class="hljs-variable">$sessionFile</span>.<span class="hljs-function">getText</span>())
+      <span class="hljs-comment">//mettre à jour la valeur du statut</span>
+    <span class="hljs-variable">$sessionObject</span>.status:=<span class="hljs-string">"accepted"</span>
+    <span class="hljs-variable">$sessionFile</span>.<span class="hljs-function">setText</span>(<span class="hljs-function">JSON Stringify</span>(<span class="hljs-variable">$sessionObject</span>))<span class="hljs-keyword">
+    Use</span> (Storage.pendingSessions)
+          <span class="hljs-comment">//supprimer la session en attente</span>
+<span class="hljs-function">        OB REMOVE</span>(Storage.pendingSessions;<span class="hljs-variable">$token</span>)<span class="hljs-keyword">
+    End use</span> 
+
+    <span class="hljs-comment">/*
+        La commande MOBILE APP REFRESH SESSIONS vérifie tous les fichiers de session de l'application mobile situés dans le dossier MobileApps du serveur, 
+        et met à jour les contenus de la session existante dans la mémoire pour les fichiers modifiés.
+    */</span>
+
+    MOBILE APP REFRESH SESSIONS
+
+<span class="hljs-function">    WEB SEND TEXT</span>(<span class="hljs-string">"You are successfully authenticated"</span>)<span class="hljs-keyword">
+Else</span> 
+<span class="hljs-function">    WEB SEND TEXT</span>(<span class="hljs-string">"Invalid session"</span>)<span class="hljs-keyword">
+End if</span> 
+</code></pre>
+<p>Et voilà !</p>
+<h2><a class="anchor" aria-hidden="true" id="que-faire-ensuite-"></a><a href="#que-faire-ensuite-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que faire ensuite ?</h2>
+<p>La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/fr/relations-interactions.html"><span class="arrow-prev">← </span><span>Précédent</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/fr/push-notification.html"><span>Notifications Push</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#un-composant-pour-gérer-lauthentification-des-e-mails">Un composant pour gérer l'authentification des e-mails</a></li><li><a href="#on-mobile-app-authentification">On Mobile App Authentification</a></li><li><a href="#mobile-app-active-session">Mobile App Active Session</a></li><li><a href="#on-mobile-app-authentication">On Mobile App Authentication</a></li><li><a href="#on-web-connection">On Web connection</a></li><li><a href="#que-faire-ensuite-">Que faire ensuite ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

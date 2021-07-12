@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="es"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Aplicación Contacts · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJETIVOS**"/><meta name="docsearch:language" content="es"/><meta property="og:title" content="Aplicación Contacts · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="&gt; **OBJETIVOS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/es"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/es/overview.html" target="_self">Documentación</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/4d-for-ios/19/docs/es/contact-app.html" target="_self">Tutoriales</a></li><li class=""><a href="/4d-for-ios/19/docs/es/template.html" target="_self">Plantillas y formatos</a></li><li class=""><a href="/4d-for-ios/19/docs/es/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Español</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/contact-app.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/contact-app.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/fr/contact-app.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Crear una aplicación iOS</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear una aplicación iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/es/contact-app.html">Aplicación Contacts</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personalizar con Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/open-xcode.html">Trabajar con Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/xcode-overview.html">Presentación de Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/4d-for-ios-project-organization.html">Organizar un proyecto 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/customize-your-ios-app.html">Personalizar su aplicación 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear formularios Lista<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-listform-templates.html">Plantillas de formularios Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/icon-listform-template.html">Iconos de formularios Lista</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Crear formularios detallados<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-detailform-templates.html">Plantillas de formularios detallados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/icon-detailform-template.html">Iconos de formularios detallados</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utilizar los iconos<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/using-icons.html">Utilizar los iconos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/create-icons.html">Crear iconos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/include-icons.html">Incluir iconos en el proyecto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/select-icons.html">Seleccionar sus iconos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Formato de datos<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter.html">Formato de datos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter-mobile-project.html">Abrir un proyecto móvil</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/data-formatter-build-and-run.html">Crear y ejecutar su proyecto</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/creating-data-formatter.html">Crear un formato de datos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Búsqueda multicriterios<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/multi-criteria-search.html">Búsqueda multicriterios</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Búsquedas limitadas<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/filter-query-introduction.html">Búsquedas limitadas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/define-filter-query.html">Definir un filtro de búsqueda</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/user-information-query.html">Filtro de búsqueda - información usuario</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/actions-getting-started.html">Comencemos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/define-first-action.html">Definir una primera acción</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/action-custom-template.html">Añadir acciones a las plantillas</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/action-parameters.html">Utilizar parámetros de acción</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/many-to-one-relations.html">Relaciones Muchos a Uno</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations.html">Relaciones Uno a Muchos</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-title-definition.html">Uno a Muchos - Título</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-custom-button.html">Uno a Muchos - Botón personalizado</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/one-to-many-relations-actions.html">Uno a Muchos - Acciones</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Funcionalidades<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/authentication.html">Autenticación email</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/push-notification.html">Notificaciones Push</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/es/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/Create-ContactApp.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Aplicación Contacts</h1></header><article><div><span><blockquote>
+<p><strong>OBJETIVOS</strong></p>
+<p>Cree su primera aplicación con 4D for iOS
+<strong>REQUISITOS PREVIOS</strong></p>
+<p>Haga clic <a href="prerequisites.html">aquí</a> para ver lo que necesita para empezar.</p>
+</blockquote>
+<p>Este tutorial le permitirá lanzarse directamente en el desarrollo de 4D for iOS. Le permitirá rápida y fácilmente crear su primera aplicación.</p>
+<p><em>Escenario: usted es un director comercial y desea consultar su lista de contactos cuando no esté en su oficina.</em></p>
+<p>Vamos a crear una aplicación de directorio para iPhone para buscar los nombres de los contactos de una lista y luego ver los detalles de cada contacto. La llamamos &quot;Contacto&quot;.</p>
+<h2><a class="anchor" aria-hidden="true" id="paso-1-comencemos"></a><a href="#paso-1-comencemos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 1. Comencemos</h2>
+<p>Descargue nuestro proyecto Starter, que contiene un archivo de base de datos y el icono de proyecto, pero no todavía el proyecto móvil.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<p><a class="button"
+href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROYECTO STARTER</a></p>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="paso-2-creación-del-proyecto"></a><a href="#paso-2-creación-del-proyecto" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 2. Creación del proyecto</h2>
+<p>Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D, ir a <strong>Nuevo &gt; Proyecto móvil</strong>.</p>
+<p>De un nombre a su proyecto y haga clic en <strong>Crear</strong>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Project-creation-4D-for-iOS.png" alt="Project Creation"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-3-abrir-el-editor-de-proyectos"></a><a href="#paso-3-abrir-el-editor-de-proyectos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 3. Abrir el editor de proyectos</h2>
+<p>¡Bienvenido a 4D for iOS! La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Welcome-Screen-4D-for-iOS.png" alt="Welcome Screen"></p>
+<p>Haga clic en <strong>Continue</strong>.</p>
+<h2><a class="anchor" aria-hidden="true" id="paso-4-secciones---general"></a><a href="#paso-4-secciones---general" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 4. Secciones - General</h2>
+<p>Aquí, podrá configurar la información principal de la aplicación:</p>
+<ul>
+<li><strong>Organización:</strong> escriba el nombre de su empresa y el identificador de aplicación (ej. “My Company” y com.MyCompany).</li>
+<li><strong>Producto:</strong> introduzca el nombre de su aplicación. Llamémosla &quot;Contact&quot;.</li>
+<li><strong>ID:</strong> (Paquete ID) se genera automáticamente y se compone del identificador de su empresa y del nombre de su producto.</li>
+<li><strong>Versión:</strong> deje la versión 1.0 y defina los derechos de autor de su aplicación. Es muy recomendable utilizar los formatos ofrecidos por 4D for iOS.</li>
+<li><strong>Iconos:</strong> arrastre y suelte un icono para su aplicación en el área del icono.</li>
+<li><strong>Desarrollador:</strong> esta sub sección se rellena automáticamente a partir del nombre de usuario en su ordenador. Copie/pegue la referencia de su equipo de desarrolladores (desde su cuenta desarrollador) en el campo Equipo. También puede dejar vacío para generar su aplicación únicamente en el simulador.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Contact-app-general-section-4D-for-iOS.png" alt="General"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-5-secciones---estructura"></a><a href="#paso-5-secciones---estructura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 5. Secciones - Estructura</h2>
+<p>Es en esta sección donde definirá un subconjunto de sus datos (tablas y campos de la base) para mostrar en dispositivos móviles.</p>
+<p>Para nuestro ejemplo, seleccione <strong>ID</strong>, <strong>First Name</strong>, <strong>Last Name</strong>, <strong>Job</strong>, <strong>Company</strong>, <strong>Phone</strong>, <strong>Notes</strong> y <strong>Photo</strong>.</p>
+<blockquote>
+<p><strong>NOTA</strong></p>
+<p>Recomendamos publicar su llave primaria para identificar cada registro de su base</p>
+</blockquote>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png" alt="Structure"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-6-secciones---iconos-y-etiquetas"></a><a href="#paso-6-secciones---iconos-y-etiquetas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 6. Secciones - Iconos y etiquetas</h2>
+<p>Ahora es el momento de definir algunas etiquetas e iconos para los campos y tablas seleccionados.</p>
+<p><strong>Propriedades de tabla:</strong></p>
+<ul>
+<li>Define una etiqueta corta y una larga para su tabla Contact</li>
+<li>Haga clic en el campo icono. La librería icono aparecerá y usted puede seleccionar un icono para ilustrar la tabla de contactos. También puede optar por dejar vacío el campo icon. 4D for iOS generará un icono predeterminado</li>
+</ul>
+<p><strong>Propriedades de campo:</strong></p>
+<ul>
+<li>Define una etiqueta corta y una larga para sus campos seleccionados.</li>
+<li>Haga clic en el campo de icono y seleccione los iconos para cada campo. Hay varias opciones posibles:
+<ul>
+<li>Puede seleccionar un icono para cada campo,</li>
+<li>Si al menos un icono se ha definido y otros campos se dejan vacíos, 4D for iOS generará los iconos predeterminados</li>
+<li>Simplemente puede dejarlos vacíos para no mostrar ningún icono de campo.</li>
+</ul></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png" alt="Icons &amp; Labels"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-7-secciones---menú-principal"></a><a href="#paso-7-secciones---menú-principal" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 7. Secciones - menú principal</h2>
+<p>Lo siguiente es definir el orden de las tablas en el menú principal de la aplicación.</p>
+<ul>
+<li><strong>Tablas disponibles:</strong> muestra las tablas a utilizar.</li>
+<li><strong>Tablas seleccionadas:</strong> muestra los elementos de menú de su aplicación. Aunque nuestro ejemplo solo tiene un elemento, puede arrastrar y soltar los elementos para reordenarlos.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Contact-app-main-menu-section-4D-for-iOS.png" alt="Menú principal"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-8-secciones---formularios"></a><a href="#paso-8-secciones---formularios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 8. Secciones - Formularios</h2>
+<p>Ya casi terminamos, pero primero tenemos que decidir el diseño de la aplicación. Hay formularios listados y formularios detallados para elegir.</p>
+<ul>
+<li>Seleccione un modelo de formulario listado para mostrar su tabla como una lista. Para nuestra aplicación Contact, utilicemos la plantilla <strong>Profile</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/ListformTemplate-form-section-4D-for-iOS.png" alt="List form template"></p>
+<p>En este punto, la parte inferior de la ventana de configuración ha cambiado de selección de plantilla a definición del contenido.</p>
+<ul>
+<li>Arrastre y suelte los campos que desee mostrar en la plantilla, <i>es decir</i>, Last Name en los campos de título y búsqueda. Los campos Búsqueda y Sección son opcionales, por el momento, deje en blanco el campo Section.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/ListformContent-form-section-4D-for-iOS.png" alt="List form content"></p>
+<p>Y por último, definimos el formulario detallado.</p>
+<ul>
+<li>Seleccione una plantilla que se adapte mejor a su aplicación. Para nuestra aplicación Contact, utilicemos la plantilla <strong>Visual Contact</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/DetailformTemplate-form-section-4D-for-iOS.png" alt="Detail form template"></p>
+<ul>
+<li>Arrastre y suelte el contenido en los lugares adecuados en la plantilla de formulario detallado, <i>es decir</i>, Nombre, Apellido y foto.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/DetailformContent-form-section-4D-for-iOS.png" alt="Detail form content"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-9-creación-de-la-aplicación"></a><a href="#paso-9-creación-de-la-aplicación" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 9. Creación de la aplicación</h2>
+<p>¡Ahora la parte divertida! Es hora de crear su aplicación y probarla en el simulador para ver el resultado final.</p>
+<ul>
+<li>Haga clic en la pestaña <strong>Generar</strong>.</li>
+<li>Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.</li>
+<li>Haga clic en  <strong>Generar y ejecutar</strong>.</li>
+<li>Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/contact-app/Build-the-app-simulator.png" alt="Build and Run"></p>
+<h2><a class="anchor" aria-hidden="true" id="paso-10-¿qué-hacemos-ahora"></a><a href="#paso-10-¿qué-hacemos-ahora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PASO 10. ¿Qué hacemos ahora?</h2>
+<p>Hemos cubierto la creación de una aplicación básica en este tutorial, y ahora debe poder crear aplicaciones simples por sí mismo. Espere, ¡Hay más! En el siguiente tutorial, aprenderá cómo crear una aplicación más compleja. Haga clic en el botón <strong>Final Project</strong> abajo para descargar la aplicación Contact final.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROYECTO FINAL</a>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/4d-for-ios/19/docs/es/custom-login-form.html"><span>Siguiente</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#paso-1-comencemos">PASO 1. Comencemos</a></li><li><a href="#paso-2-creación-del-proyecto">PASO 2. Creación del proyecto</a></li><li><a href="#paso-3-abrir-el-editor-de-proyectos">PASO 3. Abrir el editor de proyectos</a></li><li><a href="#paso-4-secciones---general">PASO 4. Secciones - General</a></li><li><a href="#paso-5-secciones---estructura">PASO 5. Secciones - Estructura</a></li><li><a href="#paso-6-secciones---iconos-y-etiquetas">PASO 6. Secciones - Iconos y etiquetas</a></li><li><a href="#paso-7-secciones---menú-principal">PASO 7. Secciones - menú principal</a></li><li><a href="#paso-8-secciones---formularios">PASO 8. Secciones - Formularios</a></li><li><a href="#paso-9-creación-de-la-aplicación">PASO 9. Creación de la aplicación</a></li><li><a href="#paso-10-¿qué-hacemos-ahora">PASO 10. ¿Qué hacemos ahora?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

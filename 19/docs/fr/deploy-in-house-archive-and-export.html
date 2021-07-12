@@ -1,0 +1,249 @@
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Archiver et exporter un projet · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Archiver et exporter un projet · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/fr/overview.html" target="_self">Documentation</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/deploy-in-house-archive-and-export.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/deploy-in-house-archive-and-export.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/deploy-in-house-archive-and-export.html">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Déploiement interne</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Prise en main<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/overview.html">Aperçu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/prerequisites.html">Conditions préalables</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Éditeur de projet<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/create-new-project.html">Nouveau projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/general.html">Général</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/structure.html">Structure</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data.html">Données</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/actions.html">Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/labels-and-icons.html">Libellés et icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/main-menu.html">Menu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/forms.html">Formulaires</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/publishing.html">Publication</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/build-panel.html">Onglet Génération</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Choisir un Apple Developer Program<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deployment.html">Choisir un Apple Developer Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/free-developer-account.html">Compte Apple Developer gratuit</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-enterprise-program.html">Apple Developer Enterprise Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-organization.html">Apple Developer Program pour les entreprises</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/register-apple-developer-program-individual.html">Apple Developer Program pour les particuliers</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Test et Génération<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/simulator.html">Utilisation du simulateur</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/install-device.html">Installation sur votre appareil iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement interne<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-archive-and-export.html">Archiver et exporter un projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-in-house-distribution.html">Distribuer une application interne</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Déploiement sur App Store<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-app-store-connect.html">Créer une fiche sur App Store</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deploy-app-store-archive-and-upload.html">Archiver et télécharger un projet</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Débogage<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-the-project-editor.html">Depuis l&#x27;éditeur de projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-xcode.html">Depuis Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/debugging-from-iphone.html">Depuis votre iPhone</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/DeployInHouse-ArchiveandExport.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Archiver et exporter un projet</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<ul>
+<li>Archiver et exporter un projet 4D for iOS</li>
+<li>Générer des fichiers .ipa et des fichiers manifest</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>CONDITIONS PRÉALABLES</strong></p>
+<ul>
+<li><a href="register-apple-developer-enterprise-program.html">Apple Enterprise Developer Program – $/an</a></li>
+<li>Un serveur Web sécurisé</li>
+<li>Une icône de résolution 57 x 57 px</li>
+<li>Une icône de résolution 512 x 512 px</li>
+</ul>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="étape-1-configurez-xcode"></a><a href="#étape-1-configurez-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 1. Configurez Xcode</h2>
+<p>Une fois votre compte validé par Apple, ouvrez Xcode et ajoutez votre compte Apple Enterprise Developer dans Preferences &gt; Accounts.</p>
+<p>Xcode installera automatiquement les certificats et les éléments de provisioning nécessaires.</p>
+<h2><a class="anchor" aria-hidden="true" id="étape-2-obtenez-votre-team-id"></a><a href="#étape-2-obtenez-votre-team-id" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 2. Obtenez votre Team ID</h2>
+<ul>
+<li>Connectez-vous à votre compte Apple Developer. Vous trouverez votre Team ID dans Membership.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Team-ID-4D-for-iOS.png" alt="Obtenez votre Team ID"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-3-configurez-4d-for-ios"></a><a href="#étape-3-configurez-4d-for-ios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 3. Configurez 4D for iOS</h2>
+<ul>
+<li><p>Lancez 4D for iOS</p></li>
+<li><p>Dans l’onglet SECTIONS :</p>
+<ul>
+<li>Général : Saisissez votre Team ID.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/fr/deploy-in-house/Enterprise-Team-ID.png" alt="Enterprise-Team-ID"></p>
+<ul>
+<li>Publication : Entrez votre URL de production (HTTP est obligatoire pour le déploiement).</li>
+</ul></li>
+<li><p>Dans l’onglet GÉNÉRATION :</p>
+<ul>
+<li>Créer &amp; exécuter : Créez votre projet.</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="étape-4-ouvrez-votre-projet-avec-xcode"></a><a href="#étape-4-ouvrez-votre-projet-avec-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 4. Ouvrez votre projet avec Xcode</h2>
+<ul>
+<li>À partir de l’onglet GÉNÉRATION de l'éditeur de projet, cliquez sur Projet &gt; Ouvrir le produit avec Xcode</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png" alt="pen your project with Xcode "></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-5-archivez-votre-projet-à-partir-de-xcode"></a><a href="#étape-5-archivez-votre-projet-à-partir-de-xcode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 5. Archivez votre projet à partir de Xcode</h2>
+<ul>
+<li>À partir de Xcode, accédez au Menu du simulateur et sélectionnez <strong>Generic iOS Device</strong></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Deployment-Generic-iOS-Device.png" alt="Generic iOS Device"></p>
+<ul>
+<li>Puis, dans le menu, cliquez sur Product et sélectionnez <strong>Archive</strong></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Archive-your-Project.png" alt="Archive your Project"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-6-exportez-votre-projet"></a><a href="#étape-6-exportez-votre-projet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 6. Exportez votre projet</h2>
+<ul>
+<li><p>À la fin de l’archivage, la fenêtre de l’organisateur apparaît avec l’archive que vous venez de créer</p></li>
+<li><p>Cliquez sur <strong>Export</strong>.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Organizer-window-archive.png" alt="Exportez votre projet"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-7-sélectionnez-votre-méthode-de-distribution"></a><a href="#étape-7-sélectionnez-votre-méthode-de-distribution" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 7. Sélectionnez votre méthode de distribution</h2>
+<ul>
+<li>Sélectionnez <strong>Enterprise</strong> et cliquez sur <strong>Next</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Distribution-Method-selection.png" alt="Distribution Method"></p>
+<h2><a class="anchor" aria-hidden="true" id="étape-8-sélectionnez-les-options-de-distribution-de-votre-entreprise"></a><a href="#étape-8-sélectionnez-les-options-de-distribution-de-votre-entreprise" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 8. Sélectionnez les options de distribution de votre entreprise</h2>
+<ul>
+<li>Vous pouvez laisser toutes les options cochées.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Enterprise-distribution-options.png" alt="Enterprise distribution options"></p>
+<ul>
+<li><p>Vous pouvez laisser Xcode vous générer un fichier manifest.plist ou bien le générer manuellement.</p></li>
+<li><p>Cliquez sur <strong>Next</strong>.</p></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="quest-ce-quun-manifest-"></a><a href="#quest-ce-quun-manifest-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Qu'est-ce qu'un manifest ?</h4>
+<p>Le manifest est une liste de propriétés fondée sur XML et doit contenir :</p>
+<ul>
+<li><strong>URL</strong> : un URL vers le fichier .ipa.</li>
+<li><strong>display-image</strong> : un URL vers une icône PNG 57 x 57 px (72 x 72 px pour iPad) qui sera utilisée lors du téléchargement et de l'installation.</li>
+<li><strong>full-size-image</strong> : un URL vers une image PNG 512 x 512 px représentant l'application iTunes.</li>
+<li><strong>bundle-identifier</strong> : La chaîne d'identification de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.</li>
+<li><strong>bundle-version</strong> : La chaine de la version courante du bundle de votre application. Vous pouvez l'obtenir à partir du fichier .plist de votre application.</li>
+<li><strong>title</strong> : Le nom de votre application.</li>
+</ul>
+<p>Voici un exemple de fichier manifest.plist :</p>
+<pre><code class="hljs css language-xml"><span class="hljs-meta">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">plist</span> <span class="hljs-meta-keyword">PUBLIC</span> <span class="hljs-meta-string">"-//Apple//DTD PLIST 1.0//EN"</span> <span class="hljs-meta-string">"http://www.apple.com/DTDs/PropertyList-1.0.dtd"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">plist</span> <span class="hljs-attr">version</span>=<span class="hljs-string">"1.0"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>items<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">array</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>assets<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">array</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>kind<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>software-package<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>url<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>https://...Contact.ipa<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>kind<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>display-image<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>url<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>https://...Contact_icon_57.png<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>kind<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>full-size-image<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>url<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>https://...Contact_icon_512.png<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">array</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>metadata<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>bundle-identifier<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>com.contactApp.ContactDemoapp<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>bundle-version<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>1.0<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>kind<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>software<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>title<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>Contact Demo app<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">array</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">plist</span>&gt;</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="étape-9-informations-sur-la-distribution-du-manifest"></a><a href="#étape-9-informations-sur-la-distribution-du-manifest" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 9. Informations sur la distribution du manifest</h2>
+<ul>
+<li>Nous vous recommandons de laisser à Xcode le soin d'entrer l'URL de votre application et les URL des icônes. Bien entendu, vous aurez la possibilité de changer les URL plus tard.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Distribution-manifest-information.png" alt="Informations sur la distribution du manifest"></p>
+<ul>
+<li>Cliquez sur <strong>Next</strong>.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="étape-10-re-signez-votre-application"></a><a href="#étape-10-re-signez-votre-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 10. Re-signez votre application</h2>
+<ul>
+<li>Laissez à Xcode le soin de gérer l'option <strong>Automatically manage signing</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Re-sign-your-application.png" alt="Re-signez votre application"></p>
+<ul>
+<li>Cliquez sur <strong>Next</strong>.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="étape-11-vérifiez-le-contenu-de-votre-application-ipa"></a><a href="#étape-11-vérifiez-le-contenu-de-votre-application-ipa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ÉTAPE 11. Vérifiez le contenu de votre application .ipa</h2>
+<ul>
+<li>Vous pouvez vérifier ici l'exactitude de l'identifiant de votre application et de votre Team ID.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/deploy-in-house/Review-ipa-content.png" alt="Vérifiez le contenu de votre application .ipa"></p>
+<ul>
+<li>Cliquez sur <strong>Export</strong> et sélectionnez l’emplacement dans lequel vous souhaitez enregistrer le dossier de votre application sur votre ordinateur.</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/fr/install-device.html"><span class="arrow-prev">← </span><span class="function-name-prevnext">Installation sur votre appareil iOS</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/fr/deploy-in-house-distribution.html"><span>Distribuer une application interne</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#étape-1-configurez-xcode">ÉTAPE 1. Configurez Xcode</a></li><li><a href="#étape-2-obtenez-votre-team-id">ÉTAPE 2. Obtenez votre Team ID</a></li><li><a href="#étape-3-configurez-4d-for-ios">ÉTAPE 3. Configurez 4D for iOS</a></li><li><a href="#étape-4-ouvrez-votre-projet-avec-xcode">ÉTAPE 4. Ouvrez votre projet avec Xcode</a></li><li><a href="#étape-5-archivez-votre-projet-à-partir-de-xcode">ÉTAPE 5. Archivez votre projet à partir de Xcode</a></li><li><a href="#étape-6-exportez-votre-projet">ÉTAPE 6. Exportez votre projet</a></li><li><a href="#étape-7-sélectionnez-votre-méthode-de-distribution">ÉTAPE 7. Sélectionnez votre méthode de distribution</a></li><li><a href="#étape-8-sélectionnez-les-options-de-distribution-de-votre-entreprise">ÉTAPE 8. Sélectionnez les options de distribution de votre entreprise</a></li><li><a href="#étape-9-informations-sur-la-distribution-du-manifest">ÉTAPE 9. Informations sur la distribution du manifest</a></li><li><a href="#étape-10-re-signez-votre-application">ÉTAPE 10. Re-signez votre application</a></li><li><a href="#étape-11-vérifiez-le-contenu-de-votre-application-ipa">ÉTAPE 11. Vérifiez le contenu de votre application .ipa</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="fr"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Créer un format de données · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&gt; **OBJECTIFS**"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Créer un format de données · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="&gt; **OBJECTIFS**"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/fr"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/fr/overview.html" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/fr/contact-app.html" target="_self">Tutoriels</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/template.html" target="_self">Modèles &amp; Formats</a></li><li class=""><a href="/4d-for-ios/19/docs/fr/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/creating-data-formatter.html">English</a></li><li><a href="/4d-for-ios/19/docs/ja/creating-data-formatter.html">日本語</a></li><li><a href="/4d-for-ios/19/docs/es/creating-data-formatter.html">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Format des données</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer une application iOS<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/contact-app.html">Application Contacts</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Personnaliser avec Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/open-xcode.html">Travailler avec Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/xcode-overview.html">Présentation de Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/4d-for-ios-project-organization.html">Organiser un projet 4D for iOS</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/customize-your-ios-app.html">Personnaliser une application 4D for iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires Liste<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-listform-templates.html">Modèles de formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/icon-listform-template.html">Icônes des formulaires Liste</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/manifest-listform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/svg-file-listform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/storyboard-listform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Créer des formulaires détaillés<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-detailform-templates.html">Modèles de formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/icon-detailform-template.html">Icônes des formulaires détaillés</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/manifest-detailform-template.html">Manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/svg-file-detailform-template.html">Template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/storyboard-detailform-template.html">Storyboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utiliser des icônes<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/using-icons.html">Utiliser des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/create-icons.html">Créer des icônes</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/include-icons.html">Inclure des icônes dans le projet</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/select-icons.html">Choisir des icônes</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Format des données<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter.html">Format des données</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter-mobile-project.html">Ouvrir un projet mobile</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/data-formatter-build-and-run.html">Créer et exécuter un projet</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/fr/creating-data-formatter.html">Créer un format de données</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche multicritères<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/multi-criteria-search.html">Recherche multicritères</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Recherche restreinte<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/filter-query-introduction.html">Recherche restreinte</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/define-filter-query.html">Définir un filtre de recherche</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/user-information-query.html">Filtre de recherche - informations utilisateur</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/actions-getting-started.html">Initiation</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/define-first-action.html">Définir une première action</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/action-custom-template.html">Ajouter des actions aux modèles</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/action-parameters.html">Utiliser des paramètres d&#x27;action</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Liens<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/many-to-one-relations.html">Liens N vers 1</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations.html">Liens 1 vers N</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-title-definition.html">1 vers N - Titre</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-custom-button.html">1 vers N - Bouton personnalisé</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/one-to-many-relations-actions.html">Liens 1 vers N - Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Fonctionnalités<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/authentication.html">Authentification email</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/push-notification.html">Notifications Push</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/fr/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/Data-Formatter-Create.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Créer un format de données</h1></header><article><div><span><blockquote>
+<p><strong>OBJECTIFS</strong></p>
+<p>Créer vos premiers formats de données.</p>
+</blockquote>
+<blockquote>
+<p><strong>CONDITIONS PRÉALABLES</strong></p>
+<p>Cliquez <a href="prerequisites.html">ici</a> pour pouvoir commencer !</p>
+</blockquote>
+<p>Dans ce tutoriel, nous vous guiderons dans la création de divers exemples de formats.</p>
+<h2><a class="anchor" aria-hidden="true" id="téléchargez-le-projet-starter"></a><a href="#téléchargez-le-projet-starter" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Téléchargez le projet Starter</h2>
+<p>Pour commencer, téléchargez le <strong>Projet Starter</strong>, qui comprend :</p>
+<ul>
+<li>Les dossiers <strong>integerToImage_Images</strong> et <strong>textToImage_Images</strong>, qui contiennent des images (à utiliser ultérieurement pour les formats contenant des images)</li>
+<li>Un fichier <strong>Task Management.4dbase</strong> (accompagné d'une application de projet mobile prêt à l'emploi)</li>
+</ul>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
+</div>
+<p>Vous êtes maintenant prêts à créer vos premiers formats !</p>
+<h2><a class="anchor" aria-hidden="true" id="créez-le-dossier-formatters"></a><a href="#créez-le-dossier-formatters" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Créez le dossier formatters</h2>
+<p>Créez d'abord un dossuer <em>Task Management.4dbase/Resources/Mobile/formatters</em>.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-folder.png" alt="Formatter folder"></p>
+<h2><a class="anchor" aria-hidden="true" id="formats-des-entiers"></a><a href="#formats-des-entiers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formats des entiers</h2>
+<h3><a class="anchor" aria-hidden="true" id="nombre-entier-vers-chaîne"></a><a href="#nombre-entier-vers-chaîne" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nombre entier vers chaîne</h3>
+<ul>
+<li>Créez un dossier <strong>integerToString</strong> dans le dossier Formats que vous venez de créer.</li>
+<li>Créez ensuite un fichier <strong>manifest.json</strong> dans le dossier <strong>integerToString</strong>.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-folder-integertostring.png" alt="Formatter folder"></p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
+<pre><code class="hljs css language-json">{
+   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToString"</span>,
+
+   <span class="hljs-attr">"type"</span>: [<span class="hljs-string">"integer"</span>],
+
+   <span class="hljs-attr">"binding"</span>: <span class="hljs-string">"localizedText"</span>,
+
+   <span class="hljs-attr">"choiceList"</span>: {<span class="hljs-attr">"0"</span>:<span class="hljs-string">"UX designer"</span>,<span class="hljs-attr">"1"</span>:<span class="hljs-string">"Developer"</span>,<span class="hljs-attr">"2"</span>:<span class="hljs-string">"QA"</span>,<span class="hljs-attr">"3"</span>:<span class="hljs-string">"Product Owner"</span>}
+}
+</code></pre>
+<ol>
+<li><strong>name</strong> : le nom du format</li>
+<li><strong>type</strong> : le type de format 4D que vous souhaitez utiliser</li>
+<li><strong>binding</strong> : soit <strong>localized text</strong> pour les chaînes soit <strong>imageNamed</strong> pour les images</li>
+<li><strong>choiceList</strong> : valeurs mappées</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="nombre-entier-vers-image"></a><a href="#nombre-entier-vers-image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nombre entier vers image</h3>
+<ul>
+<li><p>Créez un dossier <strong>integerToImage</strong> dans le dossier <strong>Formats</strong> que vous venez de créer.</p></li>
+<li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>textToImage</strong>.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-folder-integertoimage.png" alt="Formatter folder"></p>
+<ul>
+<li>Créez ensuite un dossier <strong>Images</strong> dans le dossier <strong>integerToImage</strong>. Vous pouvez ajouter les images de <strong>integerToImage_Images</strong> (dans StarterProject.zip) dans ce nouveau dossier.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-images-integertoimage.png" alt="Formatter images"></p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"integerToImage"</span>,
+
+   <span class="hljs-attr">"type"</span>: [<span class="hljs-string">"integer"</span>],
+
+   <span class="hljs-attr">"binding"</span>: <span class="hljs-string">"imageNamed"</span>,
+
+   <span class="hljs-attr">"choiceList"</span>: {<span class="hljs-attr">"0"</span>:<span class="hljs-string">"todo.png"</span>,<span class="hljs-attr">"1"</span>:<span class="hljs-string">"inprogress.png"</span>,<span class="hljs-attr">"2"</span>:<span class="hljs-string">"pending.png"</span>,<span class="hljs-attr">"3"</span>:<span class="hljs-string">"done.png"</span>},
+
+   <span class="hljs-attr">"assets"</span>: {
+      <span class="hljs-attr">"size"</span>: {
+         <span class="hljs-attr">"width"</span>: <span class="hljs-number">40</span>, <span class="hljs-attr">"height"</span>: <span class="hljs-number">40</span>
+      }
+    }
+}
+</code></pre>
+<ol>
+<li><strong>name</strong> : le nom du format</li>
+<li><strong>type</strong> : le type de format 4D que vous souhaitez utiliser</li>
+<li><strong>binding</strong> : soit <strong>localized text</strong> pour les chaînes soit <strong>imageNamed</strong> pour les images</li>
+<li><strong>choiceList</strong> : valeurs mappées</li>
+<li><strong>assets</strong> : ajuster la taille d'affichage (largeur et hauteur)</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="formats-texte"></a><a href="#formats-texte" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formats texte</h2>
+<h3><a class="anchor" aria-hidden="true" id="texte-vers-chaîne"></a><a href="#texte-vers-chaîne" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Texte vers chaîne</h3>
+<ul>
+<li><p>Créez un dossier <strong>textToString</strong> dans le dossier Formats que vous venez de créer.</p></li>
+<li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>textToString</strong>.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-folder-texttostring.png" alt="Formatter folder"></p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToString"</span>,
+
+   <span class="hljs-attr">"type"</span>: [<span class="hljs-string">"text"</span>],
+
+   <span class="hljs-attr">"binding"</span>: <span class="hljs-string">"localizedText"</span>,
+
+   <span class="hljs-attr">"choiceList"</span>: {<span class="hljs-attr">"FRA"</span>:<span class="hljs-string">"France"</span>,<span class="hljs-attr">"MAR"</span>:<span class="hljs-string">"Morocco"</span>,<span class="hljs-attr">"USA"</span>:<span class="hljs-string">"United States"</span>,<span class="hljs-attr">"AUS"</span>:<span class="hljs-string">"Australia"</span>}
+}
+</code></pre>
+<ol>
+<li><strong>name</strong> : le nom du format</li>
+<li><strong>type</strong> : le type de format 4D que vous souhaitez utiliser</li>
+<li><strong>binding</strong> : soit <strong>localized text</strong> pour les chaînes soit <strong>imageNamed</strong> pour les images</li>
+<li><strong>choiceList</strong> : valeurs mappées</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="texte-vers-image"></a><a href="#texte-vers-image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Texte vers image</h3>
+<ul>
+<li><p>Créez un dossier <strong>textToImage</strong> dans le dossier Formats que vous venez de créer.</p></li>
+<li><p>Créez un fichier <strong>manifest.json</strong> dans le dossier <strong>textToImage</strong>.</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-folder-textToImage.png" alt="Formatter folder"></p>
+<ul>
+<li>Créez ensuite un dossier <strong>Images</strong> dans le dossier <strong>textToImage</strong>. Vous pouvez ajouter les images de <strong>textToImage_Images</strong> (dans StarterProject.zip) dans ce nouveau dossier.</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatter-images-textToImage.png" alt="Formatter images"></p>
+<p>Voici le contenu du fichier <strong>manifest.json</strong> :</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"textToImage"</span>,
+
+   <span class="hljs-attr">"type"</span>: [<span class="hljs-string">"integer"</span>],
+
+   <span class="hljs-attr">"binding"</span>: <span class="hljs-string">"imageNamed"</span>,
+
+   <span class="hljs-attr">"choiceList"</span>: [<span class="hljs-string">"image1.png"</span>,<span class="hljs-string">"image2.png"</span>,<span class="hljs-string">"image3.png"</span>],
+
+   <span class="hljs-attr">"assets"</span>: {
+  <span class="hljs-attr">"size"</span>: {
+   <span class="hljs-attr">"width"</span>: <span class="hljs-number">40</span>, <span class="hljs-attr">"height"</span>: <span class="hljs-number">40</span>
+        }
+    }
+}
+
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="ouvrir-un-projet-mobile"></a><a href="#ouvrir-un-projet-mobile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ouvrir un projet mobile</h2>
+<p>Ouvrez Task Management.4dbase et accédez au Fichier &gt; ouvrir &gt; Projet mobile...pour ouvrir <strong>Tasks</strong></p>
+<p>Accédez ensuite à la section <strong>Libellés et icônes</strong> dans l'éditeur de projet. Tous vos formats sont disponibles et sont applicables aux différents types de champs définis précédemment dans les fichiers de format manifest.json :</p>
+<ul>
+<li>Sélectionnez le format <strong>integerToString</strong> pour <strong>Job field</strong></li>
+<li>Sélectionnez le format <strong>textToString</strong> pour <strong>Country field</strong></li>
+<li>Sélectionnez le format <strong>integerToImage</strong> pour <strong>Task Status</strong></li>
+<li>Sélectionnez le format <strong>textToImage</strong> pour <strong>Manager</strong></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatters-icons-&amp;-labels.png" alt="Text formatter"></p>
+<h2><a class="anchor" aria-hidden="true" id="générez-votre-application-4d-for-ios"></a><a href="#générez-votre-application-4d-for-ios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Générez votre application 4D for iOS</h2>
+<p>Générez votre application 4D for iOS. Vous constatez que vos formats de données s'appliquent correctement en fonction du &quot;credit limit&quot;.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-formatter/formatters-final-result.png" alt="Text formatter"></p>
+<p>Cliquez sur le bouton <strong>FORMAT FINAL</strong> ci-dessous pour télécharger le dossier final des modèles de formats.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<p><a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a></p>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/fr/data-formatter-build-and-run.html"><span class="arrow-prev">← </span><span>Créer et exécuter un projet</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/fr/multi-criteria-search.html"><span>Recherche multicritères</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#téléchargez-le-projet-starter">Téléchargez le projet Starter</a></li><li><a href="#créez-le-dossier-formatters">Créez le dossier formatters</a></li><li><a href="#formats-des-entiers">Formats des entiers</a><ul class="toc-headings"><li><a href="#nombre-entier-vers-chaîne">Nombre entier vers chaîne</a></li><li><a href="#nombre-entier-vers-image">Nombre entier vers image</a></li></ul></li><li><a href="#formats-texte">Formats texte</a><ul class="toc-headings"><li><a href="#texte-vers-chaîne">Texte vers chaîne</a></li><li><a href="#texte-vers-image">Texte vers image</a></li></ul></li><li><a href="#ouvrir-un-projet-mobile">Ouvrir un projet mobile</a></li><li><a href="#générez-votre-application-4d-for-ios">Générez votre application 4D for iOS</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

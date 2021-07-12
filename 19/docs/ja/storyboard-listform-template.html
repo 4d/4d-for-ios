@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="ja"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>ストーリーボード · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="iOSアプリのカスタムリスト画面をXcodeで作成しましょう！"/><meta name="docsearch:language" content="ja"/><meta property="og:title" content="ストーリーボード · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="iOSアプリのカスタムリスト画面をXcodeで作成しましょう！"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/ja"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/4d-for-ios/19/docs/ja/overview.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/ja/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/19/docs/ja/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/19/docs/ja/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>日本語</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/storyboard-listform-template.html">English</a></li><li><a href="/4d-for-ios/19/docs/es/storyboard-listform-template.html">Español</a></li><li><a href="/4d-for-ios/19/docs/fr/storyboard-listform-template.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Creating List forms</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating your iOS App<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/contact-app.html">はじめてのアプリ</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/custom-login-form.html">Custom Login Form</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customizing with Xcode<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/open-xcode.html">作業をXcodeに引き継ぐ</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/xcode-overview.html">Xcode ガイド</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/4d-for-ios-project-organization.html">4D for iOS プロジェクトの構成</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/customize-your-ios-app.html">Customize your 4D for iOS App</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating List forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/creating-listform-templates.html">リストフォームのテンプレート</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/icon-listform-template.html">リストフォームのアイコン</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/manifest-listform-template.html">manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/svg-file-listform-template.html">template.svg</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/ja/storyboard-listform-template.html">ストーリーボード</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Creating Detail forms<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/creating-detailform-templates.html">Detail form templates</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/icon-detailform-template.html">詳細画面のアイコン</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/manifest-detailform-template.html">manifest.json</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/svg-file-detailform-template.html">template.svg</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/storyboard-detailform-template.html">ストーリーボード</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Gallery<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/gallery-template-install.html">Install a template</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/gallery-template-update.html">Update a template</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">アイコン<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/using-icons.html">アイコン</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/create-icons.html">アイコンを追加する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/include-icons.html">プロジェクトにアイコンを追加する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/select-icons.html">アイコンを選択する</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">データフォーマッター<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/data-formatter.html">データフォーマッター</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/data-formatter-mobile-project.html">モバイルプロジェクトを開く</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/data-formatter-build-and-run.html">プロジェクトをビルドして実行</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/creating-data-formatter.html">カスタムのデータフォーマッター</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">検索エリアに複数のフィールドを設定する<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/multi-criteria-search.html">検索エリアに複数のフィールドを設定する</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">クエリフィルター<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/filter-query-introduction.html">クエリフィルター</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/define-filter-query.html">クエリフィルターを設定する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/user-information-query.html">ユーザー情報に基づくクエリ</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Actions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/actions-getting-started.html">データベースを用意する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/define-first-action.html">はじめてのアクション</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/action-custom-template.html">テンプレートにアクションを追加する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/action-parameters.html">アクションパラメーターを使用する</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Relations<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/many-to-one-relations.html">Ｎ対１リレーション</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/one-to-many-relations.html">１対Ｎリレーション</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/one-to-many-relations-title-definition.html">１対Ｎタイトルの設定</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/one-to-many-relations-custom-button.html">１対Ｎカスタムボタン</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/one-to-many-relations-actions.html">１対Ｎとアクション</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/relations-interactions.html">Relation interactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Features<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/authentication.html">Email authentication</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/push-notification.html">Push notifications</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deep-linking.html">Deep Linking</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/ListformTemplate-Storyboard.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">ストーリーボード</h1></header><article><div><span><p>iOSアプリのカスタムリスト画面をXcodeで作成しましょう！</p>
+<p>完成イメージ</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/storyboard-custom-listform.png" alt="カスタムリスト画面のストーリーボード"></p>
+<p>セル内に表示されるフィールドのレイアウトをデザインしましょう。</p>
+<ul>
+<li>アイコン</li>
+<li>タイトル要素（title）</li>
+<li>サブタイトル</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="ストーリーボードをxcodeで開く"></a><a href="#ストーリーボードをxcodeで開く" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ストーリーボードをXcodeで開く</h2>
+<p>storyboardファイル（拡張子は非表示かもしれません）をXcodeで開きます。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/empty-storyboard-custom-template.png" alt="ストーリーボード（空の状態）"></p>
+<p>ほとんど白紙の状態です。早速，中身を追加しましょう！</p>
+<h2><a class="anchor" aria-hidden="true" id="image-viewを追加する"></a><a href="#image-viewを追加する" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Viewを追加する</h2>
+<p>From the <strong>Object library</strong>, drag and drop an  <strong>Image View</strong> into a cell. オブジェクトライブラリは，ツールバー上部にある丸の中に四角が収まったアイコンをクリックすると表示されます。ツールバーが表示されていない場合，command+option+Tで表示を切り替えてください。command+shift+Lで直接ライブラリを表示することもできます。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/add-imageview-storyboard.png" alt="Image Viewをストーリーボードに追加"></p>
+<p>From the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set the Image View Width value to 110 and the Height value to 110. また，X座標を8に，Y座標を3に設定します。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/imageview-position-height-width.png" alt="Image Viewの位置とサイズ"></p>
+<p>Next, add a constraint (Leading: 8) by clicking on the <strong>Add New Constraints button</strong> (at the bottom of the Interface Builder window). WidthおよびHeightのチェックボックスをクリックし，幅と高さに固定値の制約を追加します。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/imageview-leading-space-width-height.png" alt="Image View前の余白"></p>
+<p>Finally, click on the <strong>Align button</strong> (at the bottom of the Interface Builder window) and check the &quot;Vertically in Container&quot; checkbox.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/imageview-align-vertically.png" alt="Image View垂直揃え"></p>
+<p>Image Viewのレイアウトがバッチリ決まりました！</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/imageview-final.png" alt="Image View（完成）"></p>
+<p>セル内に表示されるラベルのほうに目を向けましょう。</p>
+<h2><a class="anchor" aria-hidden="true" id="タイトルおよびサブタイトルのラベル"></a><a href="#タイトルおよびサブタイトルのラベル" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>タイトルおよびサブタイトルのラベル</h2>
+<p>Let's begin by <strong>adding a View</strong>. Search for &quot;View&quot; in the <strong>Object library</strong> and drag it into the cell container.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/add-view-storyboard.png" alt="Viewをストーリーボードに追加"></p>
+<p>From the <strong>Size inspector panel</strong> (on the right side of the Interface Builder window), set the View Width value to 277 and the Height value to 94. また，X座標を126に，Y座標を10に設定します。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/view-position-height-width.png" alt="Viewの位置とサイズ"></p>
+<p>For the Image View, add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 11, Leading: 8, Top: 11, and Bottom: 10.67) for the view to be well positioned, as shown:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/view-constraints-storyboard.png" alt="Viewの制約"></p>
+<p>Viewの上にObject LibraryからLabelをドラッグ＆ドロップします。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/add-label-storyboard.png" alt="ラベルをストーリーボードに追加"></p>
+<p>From the <strong>Size inspector panel</strong>, set the Label View Width value to 269 and the Height value to 32. また，X座標を8に，Y座標も8に設定します。</p>
+<p><strong>Duplicate the label</strong> and in the <strong>Size inspector panel</strong>, set the X value to 8 and the Y value to 48.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/duplicated-label-storyboard.png" alt="ラベルのコピー"></p>
+<p>Select both labels add four constraints by clicking on the <strong>Add New Constraints button</strong> (Trailing: 0, Leading: 8, Top: 8, and Bottom: Multiple) as shown:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/labels-contraints-storyboard.png" alt="ラベル位置の制約"></p>
+<p>With a label selected, double-click on the <strong>Height constraint</strong> to edit it.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/label-height-constraint-edition.png" alt="ラベル高さの制約"></p>
+<p>Change the relation from Equal to <strong>Greater Than or Equal</strong> so it can have a variable height (to handle multiline labels).</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/change-relation-label-height-constraint.png" alt="ラベル高さの制約をカスタマイズ"></p>
+<p>他方のラベルに対しても同じことをします。</p>
+<h2><a class="anchor" aria-hidden="true" id="ラベルのカスタマイズ"></a><a href="#ラベルのカスタマイズ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ラベルのカスタマイズ</h2>
+<p>ラベルのフォントカラーは， Attribute inspector（ウィンドウ右側パネルのルーラーアイコンをクリック）でカスタマイズすることができます。 Let's make the second label <strong>Dark Grey Color</strong> :</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/label-color-dark-grey.png" alt="ラベルカラーのカスタマイズ"></p>
+<p>表示される色見本の中からBackground Colorを選択すれば，アプリの支配的なカラーに設定することができます。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/label-color-background-color.png" alt="ラベル背景カラーのカスタマイズ"></p>
+<p>同じ要領で，フォントもカスタマイズすることができます。 Select both labels and select Font &gt; Custom &gt; <strong>Helvetica Neue</strong>:</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/label-font-custom.png" alt="ラベルフォントのカスタマイズ"></p>
+<p>To complete the customizations, select both labels and <strong>enter 0 for Lines</strong> in the inspector window. これでラベルに表示できる行数が無制限となります。</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/label-lines-number.png" alt="ラベル行数"></p>
+<blockquote>
+<p><strong>注記</strong></p>
+<p>The provided storyboard is optimized to have a <strong>variable cell height</strong> depending on the contents of each cell.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/row-height-tableview-cell.png" alt="Row height tableview cell"></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="セルにデータが表示されるようにする"></a><a href="#セルにデータが表示されるようにする" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>セルにデータが表示されるようにする</h2>
+<h3><a class="anchor" aria-hidden="true" id="image-view"></a><a href="#image-view" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image View</h3>
+<p>Select your Image View and go to <strong>Identity inspector</strong> &gt; User Defined Runtime Attributes. Click the <strong>+ button</strong> to add a row.</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/user-defined-runtime-attributes.png" alt="ユーザー定義のランタイム属性"></p>
+<ul>
+<li><p><strong>Key Path</strong>: Begin with bindTo to activate binding on the component. Enter <code>bindTo.record.___FIELD_1___</code></p></li>
+<li><p><strong>Type</strong>: Always <code>String</code></p></li>
+<li><p><strong>Value</strong>: The attribute name. Enter <code>___FIELD_1_BINDING_TYPE___</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/identity-inspector-storyboard.png" alt="Identity inspector"></p>
+<h3><a class="anchor" aria-hidden="true" id="ラベル"></a><a href="#ラベル" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ラベル</h3>
+<p>Select the first label and add a row in the Defined Runtime Attributes:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_2___</code></p></li>
+<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Value</strong>: <code>___FIELD_2_BINDING_TYPE___</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/field-2-binding.png" alt="Field 2 Binding"></p>
+<p>Select the second label and add a row in the Defined Runtime Attributes:</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>bindTo.record.___FIELD_3___</code></p></li>
+<li><p><strong>Type</strong>: <code>String</code></p></li>
+<li><p><strong>Value</strong>: <code>___FIELD_3_BINDING_TYPE___</code></p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/field-3-binding.png" alt="Field 3 Binding"></p>
+<p>You can change the <strong>storyboard display labels</strong> to have better visibility:</p>
+<ul>
+<li>Double-click the first label to edit it and enter <code>___FIELD_2_LABEL___</code></li>
+<li>Double-click the second label to edit it and enter <code>___FIELD_3_LABEL___</code></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/storyboard-label-display-name.png" alt="Storyboard label display names"></p>
+<p>Go to your project editor, select your list form template from the Forms section, then select Build and Run.</p>
+<p>Here is the simulator result :</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/simulator-result.png" alt="Simulator result"></p>
+<h2><a class="anchor" aria-hidden="true" id="さらにカスタマイズする"></a><a href="#さらにカスタマイズする" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>さらにカスタマイズする</h2>
+<p>The last step is adding a corner radius to the Image View to have a better design.</p>
+<p>Image Viewを選択し，User Defined Runtime Attributesにユーザー定義属性を入力します。</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>cornerRadius</code></p></li>
+<li><p><strong>Type</strong>: <code>Number</code></p></li>
+<li><p><strong>Value</strong>: <code>12</code></p></li>
+</ul>
+<p>その他</p>
+<ul>
+<li><p><strong>Key Path</strong>: <code>layer.masksToBounds</code></p></li>
+<li><p><strong>Type</strong>: <code>Boolean</code></p></li>
+<li><p><strong>Value</strong>: Check the box</p></li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/imageview-corner-radius.png" alt="ImageView corner Radius"></p>
+<p>これでカスタムテンプレートがプロジェクトエディターで使用できるようになりました！</p>
+<p><img src="/4d-for-ios/19/docs/assets/en/custom-listform/custom-template-final-result.png" alt="カスタムテンプレート（完成）"></p>
+<h2><a class="anchor" aria-hidden="true" id="これからどうする？"></a><a href="#これからどうする？" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>これからどうする？</h2>
+<p>In this tutorial, we've covered the basics for creating list form templates. You are now able to create simple templates on your own using the Starter Project ressources. しかし，知るべきことは，これだけではありません！ In the next tutorial, you’ll learn how to build detail form templates! Click on <strong>Final Project</strong> below to download the completed template list folder.</p>
+<div markdown="1" style="text-align: center; margin-top: 20px">
+<a class="button"
+href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+</div>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/ja/svg-file-listform-template.html"><span class="arrow-prev">← </span><span>template.svg</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/ja/creating-detailform-templates.html"><span>Detail form templates</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#ストーリーボードをxcodeで開く">ストーリーボードをXcodeで開く</a></li><li><a href="#image-viewを追加する">Image Viewを追加する</a></li><li><a href="#タイトルおよびサブタイトルのラベル">タイトルおよびサブタイトルのラベル</a></li><li><a href="#ラベルのカスタマイズ">ラベルのカスタマイズ</a></li><li><a href="#セルにデータが表示されるようにする">セルにデータが表示されるようにする</a><ul class="toc-headings"><li><a href="#image-view">Image View</a></li><li><a href="#ラベル">ラベル</a></li></ul></li><li><a href="#さらにカスタマイズする">さらにカスタマイズする</a></li><li><a href="#これからどうする？">これからどうする？</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

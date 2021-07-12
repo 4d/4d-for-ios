@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="ja"><head><meta name="docsearch:version" content="19"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Publishing · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="This is where you define or create your app&#x27;s:"/><meta name="docsearch:language" content="ja"/><meta property="og:title" content="Publishing · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://doc4d.github.io/4d-for-ios/19/index.html"/><meta property="og:description" content="This is where you define or create your app&#x27;s:"/><meta property="og:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://doc4d.github.io/4d-for-ios/19/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/4d-for-ios/19/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-129154982-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/4d-for-ios/js/code-block-buttons.js"></script><script src="/4d-for-ios/19/js/scrollSpy.js"></script><link rel="stylesheet" href="/4d-for-ios/19/css/main.css"/><script src="/4d-for-ios/19/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/4d-for-ios/19/ja"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/4d-for-ios/19/docs/ja/overview.html" target="_self">Docs</a></li><li class=""><a href="/4d-for-ios/19/docs/ja/contact-app.html" target="_self">Tutorials</a></li><li class=""><a href="/4d-for-ios/19/docs/ja/template.html" target="_self">Templates &amp; Formatters</a></li><li class=""><a href="/4d-for-ios/19/docs/ja/faq.html" target="_self">FAQ</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios" target="_self">v19 R2 BETA</a></li><li class=""><a style="font-weight:bold" href="https://developer.4d.com/4d-for-ios/19" target="_self">v19</a></li><li class=""><a href="https://developer.4d.com/4d-for-ios/18" target="_self">v18</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/4d-for-ios/19/img/language.svg" alt="Languages icon"/>日本語</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/4d-for-ios/19/docs/en/publishing.html">English</a></li><li><a href="/4d-for-ios/19/docs/es/publishing.html">Español</a></li><li><a href="/4d-for-ios/19/docs/fr/publishing.html">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Project Editor</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">データベースを用意する<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/overview.html">Overview</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/prerequisites.html">はじめにお読みください</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Project Editor<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/create-new-project.html">新規プロジェクト</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/general.html">一般</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/structure.html">ストラクチャ</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/data.html">Data</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/actions.html">Actions</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/labels-and-icons.html">Labels &amp; Icons</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/main-menu.html">Main Menu</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/forms.html">Forms</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/4d-for-ios/19/docs/ja/publishing.html">Publishing</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/build-panel.html">Build Panel</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Selecting your Developer Program<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deployment.html">Selecting your Apple Developer Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/free-developer-account.html">無料のApple Developerアカウント</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/register-apple-developer-enterprise-program.html">Apple Developer Enterprise Program</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/register-apple-developer-program-organization.html">Apple Developer Program as an Organization</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/register-apple-developer-program-individual.html">Apple Developer Program as an Individual</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Testing and Building<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/simulator.html">シミュレーターを使用する</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/install-device.html">iOSデバイスにインストールする</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Deploying In-House<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deploy-in-house-archive-and-export.html">Archive and export your Project</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deploy-in-house-distribution.html">Distribute your app in-House</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Deploying on App Store<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deploy-app-store-app-store-connect.html">Create App Store record</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/deploy-app-store-archive-and-upload.html">Archive and upload your Project</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Debugging<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/debugging-from-the-project-editor.html">From the project editor</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/debugging-from-xcode.html">From Xcode</a></li><li class="navListItem"><a class="navItem" href="/4d-for-ios/19/docs/ja/debugging-from-iphone.html">From your iPhone</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/4D/4D-for-iOS/edit/19/docs/ProjectEditor-PublishingSection.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Publishing</h1></header><article><div><span><p>This is where you define or create your app's:</p>
+<ul>
+<li>Web Server Settings</li>
+<li>Authentication Mode</li>
+<li>Authentication Method</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Publishing-section-4D-for-iOS.png" alt="Publishing section"></p>
+<h2><a class="anchor" aria-hidden="true" id="web-server-settings"></a><a href="#web-server-settings" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Server Settings</h2>
+<p>Activate and define your HTTPS and/or HTTP ports, if you haven't already done so. You can do this by clicking on the <strong>Edit</strong> button.</p>
+<p>Activating the HTTPS port requires certificate installation to work properly. You can create test certificates with 4D.</p>
+<blockquote>
+<p><strong>注記</strong></p>
+<ul>
+<li>The Simulator works locally (127.0.0.1 or localhost).</li>
+<li>If the production URL is defined, both HTTP and HTTPS are accepted. Otherwise, the IP address is used.</li>
+<li>If both HTTP and HTTPS are activated, HTTP is used.</li>
+</ul>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="authentication"></a><a href="#authentication" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authentication</h2>
+<ul>
+<li><p><strong>Authorized User:</strong> Check the <strong>Login required</strong> option to display a login form when the app starts.</p></li>
+<li><p><strong>Guest:</strong> Leave the <strong>Login required</strong> option unchecked. No login form will appear when the app starts.</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="authentication-method"></a><a href="#authentication-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authentication Method</h2>
+<h3><a class="anchor" aria-hidden="true" id="on-mobile-app-authentication-database-method"></a><a href="#on-mobile-app-authentication-database-method" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On Mobile App Authentication Database Method</h3>
+<ul>
+<li><strong>Development</strong>: The authentication method allows you to use the app locally.</li>
+<li><strong>Deployment</strong>: You must create/edit the <a href="https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html"><em>On Mobile App Authentication</em></a> database method to authorize specific emails or devices, even in Guest mode.</li>
+</ul>
+<p>A template is available to obtain all necessary information about the session, as well as user information (email address, app information, device, team ID, etc.)</p>
+<p>You can customize this method according to your needs!</p>
+<h3><a class="anchor" aria-hidden="true" id="session-management"></a><a href="#session-management" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Session Management</h3>
+<p>When a user opens the app for the first time, a session file is created and stored next to the current data file in the MobileApps folder.</p>
+<p>The session files are organized and grouped by app folder. The Team ID and app bundle ID are concatenated to create the app folder names.</p>
+<p>Here is an example of a 4D for iOS-generated session file:</p>
+<pre><code class="hljs css language-json">{
+<span class="hljs-attr">"application"</span>:{
+  <span class="hljs-attr">"id"</span>:<span class="hljs-string">"com.contactApp.Contact"</span>,
+  <span class="hljs-attr">"name"</span>:<span class="hljs-string">"Contact"</span>,
+  <span class="hljs-attr">"version"</span>:<span class="hljs-string">"1.0.0"</span>
+},
+<span class="hljs-attr">"team"</span>:{
+  <span class="hljs-attr">"id"</span>:<span class="hljs-string">"UTT7VDX8W5"</span>
+},
+<span class="hljs-attr">"language"</span>:{
+  <span class="hljs-attr">"id"</span>:<span class="hljs-string">"en_US"</span>,
+  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"en"</span>,
+  <span class="hljs-attr">"region"</span>:<span class="hljs-string">"US"</span>
+},
+<span class="hljs-attr">"email"</span>:<span class="hljs-string">""</span>,
+<span class="hljs-attr">"device"</span>:{
+  <span class="hljs-attr">"description"</span>:<span class="hljs-string">"iPhone X"</span>,
+  <span class="hljs-attr">"version"</span>:<span class="hljs-string">"11.3"</span>,
+  <span class="hljs-attr">"id"</span>:<span class="hljs-string">"0DC5132E-1EF4-407C-A832-5FE33D818AF3"</span>,
+  <span class="hljs-attr">"simulator"</span>:<span class="hljs-literal">true</span>
+},
+<span class="hljs-attr">"send"</span>:<span class="hljs-string">"link"</span>,
+<span class="hljs-attr">"session"</span>:{
+  <span class="hljs-attr">"id"</span>:<span class="hljs-string">"7023d9205074199d1c16fc00d24354e778137675"</span>,
+  <span class="hljs-attr">"ip"</span>:<span class="hljs-string">"::ffff:192.168.5.4"</span>
+},
+<span class="hljs-attr">"status"</span>:<span class="hljs-string">"accepted"</span>,
+<span class="hljs-attr">"token"</span>:<span class="hljs-string">"eyJhcHBOYW1lSUQiOiJjb20uY29udGFjdEFwcC5Db250YWN0IiwiaWQiOiI3MDIzZDkyMDUwNzQxOTlkMWMxNmZjMDBkMjQzNTRlNzc4MTM3Njc1IiwidGVhbUlEIjoiVVRUN1ZEWDhXNSJ9"</span>
+}
+
+</code></pre>
+<p>If you want the ability to manually validate the first login for every user session, you must change the &quot;accepted&quot; default status to &quot;pending&quot; by adding <code>$response.verify:=True</code> to the <a href="https://doc.4d.com/4Dv17R3/4D/17-R3/On-Mobile-App-Authentication-database-method.301-3906587.en.html"><em>On Mobile App Authentication</em></a> database method.</p>
+<h3><a class="anchor" aria-hidden="true" id="mobile-session-management-component"></a><a href="#mobile-session-management-component" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mobile Session Management Component</h3>
+<p>Sessions can be managed by the <strong>MOBILE SESSION MANAGEMENT</strong>:</p>
+<div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+<a class="button"
+href="https://github.com/4d/Mobile-Session-Management/releases/latest">MOBILE SESSION MANAGEMENT component</a>
+</div>
+<ul>
+<li>Download and unzip the zip file</li>
+<li>Go to Build / Components file and get the MOBILE SESSION MANAGEMENT.4dbase</li>
+<li>Create a <strong>Components</strong> folder next to the 4D database with the app's data.</li>
+<li>Place the <strong>MOBILE SESSION MANAGEMENT</strong> component in the newly created <strong>Components</strong> folder.</li>
+<li>Restart 4D.</li>
+<li>Click on the Execute button from the toolbar</li>
+<li>In the 4D Methods Explorer, select the <strong>MOBILE SESSION MANAGEMENT</strong> method and click on the <strong>Execute</strong> button.</li>
+<li>The Apps window will appear displaying all of your apps:</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/session-management/Mobile-App-Session-Management.png" alt="Mobile App Session Management"></p>
+<ul>
+<li>Right click on a session to reveal the session file in the Finder or delete it.</li>
+<li>You can change and define the session status for each device: accepted or pending</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/session-management/Mobile-App-Session-Management-selected.png" alt="Mobile App Session selection"></p>
+<ul>
+<li>The <strong>Push</strong> button will update the session in memory.</li>
+<li>The <strong>Refresh</strong> button updates the session list.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="how-it-looks-on-a-device"></a><a href="#how-it-looks-on-a-device" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How it looks on a device</h2>
+<h3><a class="anchor" aria-hidden="true" id="settings-screen"></a><a href="#settings-screen" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Settings screen</h3>
+<p>A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (<em>i.e.</em>, your app has more than four tables).</p>
+<p>Settings allows you to:</p>
+<ul>
+<li>Consult your remote URL and it's state</li>
+<li>Log out (if connected as an Authorized User)</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Login-Settings-screen-Publishing-section-4D-for-iOS.png" alt="Login &amp; Settings screen"></p>
+<h3><a class="anchor" aria-hidden="true" id="reset-remote-url"></a><a href="#reset-remote-url" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reset remote url</h3>
+<p>You can easily update your remote url from iPhone Settings :</p>
+<ul>
+<li>Open your iPhone Settings</li>
+<li>Select the app you want the remote url to be updated</li>
+<li>Switch on the &quot;Reset server address&quot; option</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Reset-remote-url.png" alt="Reset remote url"></p>
+<ul>
+<li>Then restart your app to reset the server address</li>
+<li>And finally define the new remote url</li>
+</ul>
+<p><img src="/4d-for-ios/19/docs/assets/en/project-editor/Update-remote-url.png" alt="Update remote url"></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/4d-for-ios/19/docs/ja/forms.html"><span class="arrow-prev">← </span><span>Forms</span></a><a class="docs-next button" href="/4d-for-ios/19/docs/ja/build-panel.html"><span>Build Panel</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#web-server-settings">Web Server Settings</a></li><li><a href="#authentication">Authentication</a></li><li><a href="#authentication-method">Authentication Method</a><ul class="toc-headings"><li><a href="#on-mobile-app-authentication-database-method">On Mobile App Authentication Database Method</a></li><li><a href="#session-management">Session Management</a></li><li><a href="#mobile-session-management-component">Mobile Session Management Component</a></li></ul></li><li><a href="#how-it-looks-on-a-device">How it looks on a device</a><ul class="toc-headings"><li><a href="#settings-screen">Settings screen</a></li><li><a href="#reset-remote-url">Reset remote url</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://www.4d.com" class="nav-home"><img src="/4d-for-ios/19/img/logohome.png" alt="4D for iOS"/></a><div><h5>Community</h5><a href="https://developer.4D.com">4D Developer Center</a><a href="https://blog.4d.com/">4D Blog</a><a href="https://discuss.4d.com/">4D Forum</a><a href="https://www.facebook.com/4Dsoftware/">Facebook</a><a href="https://twitter.com/4Dsoftware">Twitter</a><a href="https://www.youtube.com/user/4Dsoftware">Youtube</a><a href="https://github.com/4D/">GitHub</a></div><div><h5>Support</h5><a href="https://doc.4d.com/">4D Doc Center <i>(Where It All Began)</i></a><a href="http://kb.4d.com/">Knowledge Base</a><a href="https://us.4d.com/product-download">Downloads</a><a href="https://us.4d.com/resources">Resources</a><a href="https://us.4d.com/4d-technical-support">Get Support</a></div><div><h5>Company</h5><a href="https://us.4d.com/about-us">About 4D</a><a href="https://us.4d.com/contact-us">Contact us</a><a href="https://us.4d.com/4d-around-the-world">4D around the world</a><a href="https://us.4d.com/careers">Careers</a></div></section><section class="copyright">© 2021 4D SAS - All rights reserved</section><section class="copyright"><a class="cp2" href="https://us.4d.com/terms-and-conditions">Terms &amp; Conditions</a> | <a class="cp2" href="https://us.4d.com/legal-notices">Legal Notices</a> | <a class="cp2" href="https://us.4d.com/data-policy">Data Policy</a> | <a class="cp2" href="https://us.4d.com/cookies-policy">Cookie Policy</a> | <a class="cp2" href="https://us.4d.com/license">Product license</a></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
