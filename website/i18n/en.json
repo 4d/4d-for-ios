@@ -20,6 +20,9 @@
       "contact-app": {
         "title": "Contact App"
       },
+      "custom-login-form": {
+        "title": "Custom Login Form"
+      },
       "4d-for-ios-project-organization": {
         "title": "4D for iOS project organization"
       },
@@ -43,6 +46,15 @@
       },
       "data-formatter": {
         "title": "Data formatter"
+      },
+      "debugging-from-iphone": {
+        "title": "From your iPhone"
+      },
+      "debugging-from-the-project-editor": {
+        "title": "From the project editor"
+      },
+      "debugging-from-xcode": {
+        "title": "From Xcode"
       },
       "deploy-app-store-archive-and-upload": {
         "title": "Archive and upload your Project"
@@ -86,6 +98,21 @@
       },
       "faq": {
         "title": "FAQ"
+      },
+      "authentication": {
+        "title": "Email authentication"
+      },
+      "deep-linking": {
+        "title": "Deep Linking"
+      },
+      "push-notification": {
+        "title": "Push notifications"
+      },
+      "gallery-template-install": {
+        "title": "Install a template"
+      },
+      "gallery-template-update": {
+        "title": "Update a template"
       },
       "overview": {
         "title": "Overview"
@@ -156,6 +183,9 @@
       "structure": {
         "title": "Structure"
       },
+      "relations-interactions": {
+        "title": "Relation interactions"
+      },
       "many-to-one-relations": {
         "title": "Many to One relations"
       },
@@ -203,21 +233,6 @@
       },
       "xcode": {
         "title": "Xcode"
-      },
-      "debugging-from-the-project-editor": {
-        "title": "From the project editor"
-      },
-      "debugging-from-xcode": {
-        "title": "From Xcode"
-      },
-      "debugging-from-iphone": {
-        "title": "From your iPhone"
-      },
-      "authentication": {
-        "title": "Email authentication"
-      },
-      "push-notification": {
-        "title": "Push notifications"
       }
     },
     "links": {
@@ -225,7 +240,9 @@
       "Tutorials": "Tutorials",
       "Templates & Formatters": "Templates & Formatters",
       "FAQ": "FAQ",
-      "4D Doc": "4D Doc"
+      "v19 R2 BETA": "v19 R2 BETA",
+      "v19": "v19",
+      "v18": "v18"
     },
     "categories": {
       "Getting started": "Getting started",
@@ -234,19 +251,20 @@
       "Testing and Building": "Testing and Building",
       "Deploying In-House": "Deploying In-House",
       "Deploying on App Store": "Deploying on App Store",
-      "Debugging":"Debugging",
+      "Debugging": "Debugging",
       "Creating your iOS App": "Creating your iOS App",
       "Customizing with Xcode": "Customizing with Xcode",
       "Creating List forms": "Creating List forms",
       "Creating Detail forms": "Creating Detail forms",
+      "Gallery": "Gallery",
       "Using icons": "Using icons",
       "Data formatter": "Data formatter",
       "Multi-criteria search": "Multi-criteria search",
       "Restricted queries": "Restricted queries",
       "Actions": "Actions",
       "Relations": "Relations",
-      "Templates & Formatters": "Templates & Formatters",
-      "Features":"Features"
+      "Features": "Features",
+      "Templates & Formatters": "Templates & Formatters"
     }
   },
   "pages-strings": {

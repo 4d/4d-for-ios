@@ -24,7 +24,7 @@ const siteConfig = {
   title: '4D for iOS' /* title for your website */,
   tagline: 'Easily create and deploy custom native iOS apps',
   url: 'https://doc4d.github.io' /* your website url */,
-  baseUrl: '/4d-for-ios/' /* base url for your project */,
+  baseUrl: '/4d-for-ios/19/' /* base url for your project */,
 
   // Used for publishing and more
   projectName: '4d-for-ios',
@@ -39,8 +39,9 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://developer.4d.com/4d-for-ios', label:'v19 BETA'},
-    {href: 'https://developer.4d.com/4d-for-ios/Rx', label:'v18 R6'},
+    {href: 'https://developer.4d.com/4d-for-ios', label:'v19 R2 BETA'},
+    //{href: 'https://developer.4d.com/4d-for-ios/Rx', label:'v18 R6'},
+    {href: 'https://developer.4d.com/4d-for-ios/19', label:'v19'},
     {href: 'https://developer.4d.com/4d-for-ios/18', label:'v18'}
   ],
 
@@ -64,7 +65,7 @@ algolia: {
     secondaryColor: '#0f949b',
   },
 
-  editUrl: 'https://github.com/4D/4D-for-iOS/edit/master/docs/',
+  editUrl: 'https://github.com/4D/4D-for-iOS/edit/19/docs/',
 
 
   /* custom fonts for website */

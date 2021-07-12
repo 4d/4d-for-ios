@@ -9,7 +9,7 @@ title: Push notifications
 
 > **PREREQUISITES**
 >
-> The [4D Mobile App Server](https://github.com/4d-for-ios/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D single-user and 4D Server.
+> The [4D Mobile App Server](https://github.com/4d-go-mobile/4D-Mobile-App-Server) component that allows to send push notifications is integrated in 4D single-user and 4D Server.
 
 ## What is a push notification?
 
@@ -35,7 +35,7 @@ In order to send push notifications, an AuthKey_XXXYYY.p8 authentication file fr
 
 ![Publishing section](assets/en/push-notification/push-notification-publishing-section.png)
 
-You can find more information about this process [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
+You can find more information about this process [here](https://github.com/4d-go-mobile/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md) in the component documentation.
 
 ## Basic example to manage your push notifications
 
@@ -131,6 +131,6 @@ Whether you're working on Windows or on macOS, you need to copy the 4DBASE/Mobil
 
 ## Where to go from here?
 
-The component that handles and makes the process easier is also available [here](https://github.com/4d-for-ios/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports and even better: pull requests.
+The component that handles and makes the process easier is also available [here](https://github.com/4d-go-mobile/4D-Mobile-App-Server/blob/master/Documentation/Classes/PushNotification.md), in order to adapt the push notifications to your own needs. Feel free to use it and to pick the most relevant aspects for your app. And of course, all contributors are welcome to this project, through feedback, bug reports and even better: pull requests.
 
 
