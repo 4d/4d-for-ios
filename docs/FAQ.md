@@ -10,7 +10,7 @@ title: FAQ
     **Can I create an Android app?**
 </summary>
 
-4D for Android is currently under development. A beta version is available under 4D v19 beta. 
+4D for Android is currently under development. A preview version is available starting with 4D v19.
 
 </details>
 <details>
