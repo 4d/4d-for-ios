@@ -24,7 +24,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first detail form template !
@@ -35,7 +35,7 @@ First, create a *Contact.4dbase/Resources/Mobile/form/detail* folder and drag an
 
 ![Mobile folder custom template](assets/en/custom-detailform/mobile-folder-custom-template.png)
 
-Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... to open the **Contact Demo App**
+Then open the Contact.4dbase with 4D. Then open the Contact.4dbase with 4D. and go to File > open > Mobile Project... to open the **Contact Demo App**
 
 Finally go to the **Forms section** in the project editor. You will see that the Custom Detail form template has been successfully added to the Detail form template list !
 

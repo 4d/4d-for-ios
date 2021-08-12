@@ -14,7 +14,7 @@ Agora vamos filtrar o conteúdo de nosso app dependendo da direção de correio 
 ![Filtro de pesquisa usuário](assets/en/restricted-queries/user-information-query.png)
 
 ```4d
-Status = 'In Progress' & manager.Email = :email 
+Status = 'In Progress' & manager. Email = :email 
 ```
 
 A pesquisa vai filtrar os dados dependendo do status de **In Progress** E do **endereço de email do gerente de conta** (acessível da tabela AccountManager graças a relação  *Many-to-One* no nome do gerente).

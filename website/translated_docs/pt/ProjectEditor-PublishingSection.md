@@ -45,14 +45,14 @@ Pode personalizar esse método de acordo com suas necessidades!
 
 Quando um usuário abrir o app pela primeira vez, um arquivo de sessão é criado e armazenado do lado do arquivo de dados atual na pasta MobileApps.
 
-Os arquivos de sessão são organizados e agrupados pela pasta app O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
+Os arquivos de sessão são organizados e agrupados pela pasta app Os arquivos de sessão são organizados e agrupados pela pasta app O ID de time e ID bundle do app são concatenadas para criar os nomes de pasta do app
 
 Aqui está um exemplo de um arquivo de sessão gerado para 4D for iOS
 
 ```json
 {
 "application":{
-  "id":"com.contactApp.Contact",
+  "id":"com.contactApp. Contact",
   "name":"Contact",
   "version":"1.0.0"
 },

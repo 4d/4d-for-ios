@@ -22,7 +22,7 @@ Para começar, baixe o **Starter Project**, que inclui:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJETO STARTER - FORMATO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJETO STARTER - FORMATO PERSONALIZADO</a>
 </div>
 
 Agora você já está pronto para criar seus primeiros formatadores!
@@ -185,5 +185,5 @@ Clique em **FORMATADOR FINAL** abaixo para baixar a pasta de modelo formatador c
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMATO FINAL</a>
 </div>

@@ -25,7 +25,7 @@ storyboardファイル（拡張子は非表示かもしれません）をXcode�
 
 ## Image Viewを追加する
 
-From the **Object library**, drag and drop an  **Image View** into a cell. オブジェクトライブラリは，ツールバー上部にある丸の中に四角が収まったアイコンをクリックすると表示されます。ツールバーが表示されていない場合，command+option+Tで表示を切り替えてください。command+shift+Lで直接ライブラリを表示することもできます。
+Let's begin by **adding a View**. Search for "View" in the **Object library** and drag it into the cell container.
 
 ![Image Viewをストーリーボードに追加](assets/en/custom-listform/add-imageview-storyboard.png)
 
@@ -49,7 +49,7 @@ Image Viewのレイアウトがバッチリ決まりました！
 
 ## タイトルおよびサブタイトルのラベル
 
-Let's begin by **adding a View**. Search for "View" in the **Object library** and drag it into the cell container.
+Select your Image View and go to **Identity inspector** > User Defined Runtime Attributes. Click the **+ button** to add a row.
 
 ![Viewをストーリーボードに追加](assets/en/custom-listform/add-view-storyboard.png)
 
@@ -191,7 +191,7 @@ In this tutorial, we've covered the basics for creating list form templates. You
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListForm/archive/53ac1d5f506aa4ca2a8d78760ef799044c5c8bdc.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 </div>
 
 

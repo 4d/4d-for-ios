@@ -14,7 +14,7 @@ Descargue el **proyect Starter** y vaya directamente a la sección **Actions**.
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROYECTO STARTER</a>
 </div>
 
 Como hemos visto antes en la [documentación de la sección Actions](actions.html#ios-app-side), puede definir la acción para dos niveles:
@@ -133,7 +133,7 @@ $0:=$out
 
 ```
 
-Cree y ejecute su aplicación y ¡listo! Su **acción Done ** está disponible cuando desliza hacia la izquierda una celda en el formulario Lista, así como cuando hace clic en el **botón genérico Actions** en la barra de navegación del formulario detallado.
+Cree y ejecute su aplicación y ¡listo! Cree y ejecute su aplicación y ¡listo! Su **acción Done ** está disponible cuando desliza hacia la izquierda una celda en el formulario Lista, así como cuando hace clic en el **botón genérico Actions** en la barra de navegación del formulario detallado.
 
 ![Done action](assets/en/actions/Entity-action-Done.png)
 
@@ -240,7 +240,7 @@ $0:=$out
 
 ## ¿Qué hacer ahora?
 
-¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!
+¡Felicitaciones! ¡Felicitaciones! Acaba de agregar 2 acciones a su aplicación iOS. ¡Ahora puede agregar todas las acciones que necesita a su aplicación Tasks!
 
 ![Final result All Action](assets/en/actions/ListForm-entity-action-tableview.png)
 
@@ -249,5 +249,5 @@ Puede descargar el **Proyecto final** que incluye varias acciones:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROYECTO FINAL</a>
 </div>

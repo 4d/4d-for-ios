@@ -20,6 +20,9 @@
       "contact-app": {
         "title": "Contatos do App"
       },
+      "custom-login-form": {
+        "title": "Custom Login Form"
+      },
       "4d-for-ios-project-organization": {
         "title": "Organizar um projeto 4D for iOS"
       },
@@ -43,6 +46,15 @@
       },
       "data-formatter": {
         "title": "Formatador de dados"
+      },
+      "debugging-from-iphone": {
+        "title": "Desde seu iPhone"
+      },
+      "debugging-from-the-project-editor": {
+        "title": "A partir do editor de projeto"
+      },
+      "debugging-from-xcode": {
+        "title": "A partir de Xcode"
       },
       "deploy-app-store-archive-and-upload": {
         "title": "Arquive e atualize seu Projeto"
@@ -86,6 +98,21 @@
       },
       "faq": {
         "title": "FAQ"
+      },
+      "authentication": {
+        "title": "Autenticação com email"
+      },
+      "deep-linking": {
+        "title": "Deep Linking"
+      },
+      "push-notification": {
+        "title": "Notificações Push"
+      },
+      "gallery-template-install": {
+        "title": "Instalar um modelo"
+      },
+      "gallery-template-update": {
+        "title": "Atualizar um modelo"
       },
       "overview": {
         "title": "Visão Geral"
@@ -156,6 +183,9 @@
       "structure": {
         "title": "Estrutura"
       },
+      "relations-interactions": {
+        "title": "Relation interactions"
+      },
       "many-to-one-relations": {
         "title": "Relações Muitos para Um"
       },
@@ -203,21 +233,6 @@
       },
       "xcode": {
         "title": "Xcode"
-      },
-      "debugging-from-the-project-editor": {
-        "title": "A partir do editor de projeto"
-      },
-      "debugging-from-xcode": {
-        "title": "A partir de Xcode"
-      },
-      "debugging-from-iphone": {
-        "title": "Desde seu iPhone"
-      },
-      "authentication": {
-        "title": "Autenticação com email"
-      },
-      "push-notification": {
-        "title": "Notificações Push"
       }
     },
     "links": {
@@ -225,7 +240,9 @@
       "Tutorials": "Tutoriais",
       "Templates & Formatters": "Modelos e formatos",
       "FAQ": "FAQ",
-      "4D Doc": "Doc 4D"
+      "v19 R2 BETA": "v19 R2 BETA",
+      "v19": "v19",
+      "v18": "v18"
     },
     "categories": {
       "Getting started": "Começando",
@@ -239,14 +256,15 @@
       "Customizing with Xcode": "Personalizar com Xcode",
       "Creating List forms": "Criar formulários lista",
       "Creating Detail forms": "Criar formulários detalhados",
+      "Gallery": "Galería",
       "Using icons": "Usar ícones",
       "Data formatter": "Formatador de dados",
       "Multi-criteria search": "Pesquisa multicritério",
       "Restricted queries": "Pesquisas limitadas",
       "Actions": "Actions",
       "Relations": "Relações",
-      "Templates & Formatters": "Modelos e formatos",
-      "Features": "Funcionalidades"
+      "Features": "Funcionalidades",
+      "Templates & Formatters": "Modelos e formatos"
     }
   },
   "pages-strings": {

@@ -27,7 +27,7 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">素材プロジェ�
 * まだプロジェクトをビルドしていないのであれば，⒉に進んでください。
 * すでにプロジェクトをビルドしたのであれば，⒊に進んでください。
 
-## ⒉ プロジェクトをビルドする
+## ⒉ ⒉ プロジェクトをビルドする
 
 プロジェクトエディターは「ビルド」タブに切り替えておきます。
 
@@ -36,12 +36,12 @@ href="../assets/en/customize-with-xcode/ContactStarter.zip">素材プロジェ�
 
 ![ビルドして実行](assets/en/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
-## ⒊ プロジェクトをXcodeで開く
+## ⒊ ⒊ プロジェクトをXcodeで開く
 
 プロジェクトエディターは「ビルド」タブに切り替えておきます。
 
 * Click on Project > Open the project with Xcode
 
-![プロジェクトをXcodeで開く](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
+![⒊ プロジェクトをXcodeで開く](assets/en/customize-with-xcode/Open-your-project-Xcode-4D-for-iOS.png)
 
 Now you're ready to start working on your 4D for iOS project in Xcode, keep reading to learn how!

@@ -13,7 +13,7 @@ title: テンプレートにアクションを追加する
 
 In this tutorial, we are going to see how easy it can be to **add actions to custom templates**.
 
-## ⒈ プロジェクトをダウンロードする
+## ⒈ ⒈ プロジェクトをダウンロードする
 
 To begin, download the Starter Project, which includes:
 
@@ -24,10 +24,10 @@ To begin, download the Starter Project, which includes:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">素材プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">素材プロジェクト</a>
 </div>
 
-## ⒉ 4D for iOS プロジェクトにカスタムテンプレートを追加する
+## ⒉ ⒉ 4D for iOS プロジェクトにカスタムテンプレートを追加する
 
 First, drop:
 
@@ -39,7 +39,7 @@ First, drop:
 
 ![Detailform template](assets/en/actions/Detailform-template.png)
 
-## ⒊ リスト画面にアクションを追加する
+## ⒊ ⒊ リスト画面にアクションを追加する
 
 As we have seen previously in the [actions section description](actions.html), two types of actions are availble (Table actions and Entity actions).
 
@@ -47,7 +47,7 @@ Let's first open the `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE__
 
 ### TasksList カスタムテンプレートにアクションを追加する
 
-#### Ａ テーブルアクションタグを追加する
+#### Ａ Ａ テーブルアクションタグを追加する
 
 Select the **List form Controller** and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
@@ -58,7 +58,7 @@ Select the **List form Controller** and add this line in the **User Defined Runt
 ![Add table action tag](assets/en/actions/Add-table-tag-taskslist.png)
 
 
-#### Ｂ エンティティアクションタグを追加する
+#### Ｂ Ｂ エンティティアクションタグを追加する
 
 Select the Animatable Table View and add this line in the **User Defined Runtime Attributes** (Identity inspector):
 
@@ -80,7 +80,7 @@ Now let's add action tags to the TasksCollection custom template
 
 To do so, open the `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.Storyboard` file.
 
-#### Ａ テーブルアクションタグを追加する
+#### Ａ Ａ テーブルアクションタグを追加する
 
 The process is quite as similar as TasksList custom template's process.
 
@@ -92,7 +92,7 @@ Select the **List form Controller** and add this line in the **User Defined Runt
 
 ![Add collection table action tag](assets/en/actions/Add-collection-table-tag-taskslist.png)
 
-#### Ｂ エンティティアクションタグを追加する
+#### Ｂ Ｂ エンティティアクションタグを追加する
 
 For entity, the way you display actions is quite different than TableView: swipe action are not really adapted to CollectionViews.
 
@@ -117,7 +117,7 @@ You can select the TasksCollection custom template from the **Forms section** an
 ![TasksCollection Forms section](assets/en/actions/listform-taskscollection-forms-section.png)
 
 
-## ⒋ 詳細画面にアクションを追加する
+## ⒋ ⒋ 詳細画面にアクションを追加する
 
 In Detail forms, you can use the **generic button** in the navigation bar or **create easily your own custom action button**. In both cases, you have to add tags.
 
@@ -156,6 +156,6 @@ Congratulations, your Tasks iOS app is now complete and includes actions in List
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">完成プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">完成プロジェクト</a>
 </div>
 

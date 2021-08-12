@@ -7,4 +7,4 @@ Aquí está el resultado final en su aplicación iOS con un formulario de lista 
 
 ![Result data formatter iphone](assets/en/data-formatter/result-data-formatter-iphone.png)
 
-¡Listo! Sus campos son bien formateados según el tipo definido en Etiquetas e iconos.
+¡Listo! ¡Listo! Sus campos son bien formateados según el tipo definido en Etiquetas e iconos.

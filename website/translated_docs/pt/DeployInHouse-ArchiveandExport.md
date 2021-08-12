@@ -110,25 +110,25 @@ Aqui há um exemplo de arquivo manifest.plist:
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://...Contact.ipa</string>
+                    <string>https://... Contact.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>https://...Contact_icon_57.png</string>
+                    <string>https://... Contact_icon_57.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>https://...Contact_icon_512.png</string>
+                    <string>https://... Contact_icon_512.png</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.contactApp.ContactDemoapp</string>
+                <string>com.contactApp. ContactDemoapp</string>
                 <key>bundle-version</key>
                 <string>1.0</string>
                 <key>kind</key>

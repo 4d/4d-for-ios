@@ -15,7 +15,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJETO STARTER N para UM</a>
+href="https://github.com/4d-go-mobile/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJETO STARTER N para UM</a>
 </div>
 
 Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación generada. Para fazer isso, abra **StarteriOSProject** from **Open > Mobile Project...**
@@ -34,7 +34,7 @@ Depois vá para a seção Estrutura e selecione a **tabela Task**.
 
 * Este campo funcionará como qualquer outro campo durante o resto do processo de criação da aplicação
 
-* Pode também filtrar seu conteúdo de app usando campos relacionados da seção Data. Para fazer isso digite `TaskCategory.Name != 'Personal'` no campo de consulta Filtro para excluir as tareas pessoais.
+* Pode também filtrar seu conteúdo de app usando campos relacionados da seção Data. Para fazer isso digite `TaskCategory. Name != 'Personal'` no campo de consulta Filtro para excluir as tareas pessoais.
 
  ![Related field from Data section](assets/en/relations/Related-field-from-Data-section.png)
 

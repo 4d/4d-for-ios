@@ -23,7 +23,7 @@ Descargue nuestro proyecto Starter, que contiene un archivo de base de datos y e
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROYECTO STARTER</a>
 </div>
 
 ## PASO 2. Creación del proyecto
@@ -66,7 +66,7 @@ Para nuestro ejemplo, seleccione **ID**, **First Name**, **Last Name**, **Job**,
 > Recomendamos publicar su llave primaria para identificar cada registro de su base
 
 
-![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
+![Estructura](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## PASO 6. Secciones - Iconos y etiquetas
 
@@ -128,7 +128,7 @@ Y por último, definimos el formulario detallado.
 * Haga clic en la pestaña **Generar**.
 * Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.
 * Haga clic en  **Generar y ejecutar**.
-* Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!
+* Espere unos segundos y …. ¡Listo! ¡Listo! ¡Su aplicación iOS está creada!
 
 ![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
 
@@ -138,5 +138,5 @@ Hemos cubierto la creación de una aplicación básica en este tutorial, y ahora
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROYECTO FINAL</a>
 </div>

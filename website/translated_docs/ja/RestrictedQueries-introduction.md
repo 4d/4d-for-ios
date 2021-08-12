@@ -15,13 +15,13 @@ In this tutorial, we'll cover **restricted queries** with a simple use case: ima
 
 First, from the Data section we're going define a **basic filter query** to only display *In Progress* contracts. Then we're going to apply a **user information-based filter** which will depend on the account manager's email.
 
-## プロジェクトをダウンロードする
+## ⒈ プロジェクトをダウンロードする
 
 Before we begin, be sure to download the **Starter Project** which includes a **4DforiOSQueries.4dbase** file (a demo database with a ready-to-use mobile app project)
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">素材プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">素材プロジェクト</a>
 </div>
 
 The database includes a:

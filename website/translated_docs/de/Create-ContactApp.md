@@ -23,7 +23,7 @@ Download our Starter Project, which contains a database file and project icon, b
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">STARTER-PROJEKT</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">STARTER-PROJEKT</a>
 </div>
 
 ## SCHRITT 2. Projekt erstellen
@@ -126,7 +126,7 @@ And finally, we'll define the detail form.
 Now the fun part! It's time to build your app and test it on the Simulator to see the final result!
 
 * Click the **Build** tab.
-* Wählen Sie ein Gerät aus, das als Simulator dienen soll. Dazu klicken Sie auf den Button **device**.
+* Wählen Sie ein Gerät aus, das als Simulator dienen soll.
 * Click  **Build and Run**.
 * Warten Sie ein paar Sekunden und …. siehe da! Ihre iOS App ist live!
 
@@ -138,5 +138,5 @@ We've covered basic app creation in this tutorial, and you should now be able to
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">FINAL PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">FINAL PROJECT</a>
 </div>

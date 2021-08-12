@@ -24,7 +24,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROJET STARTER LISTFORM</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROJET STARTER LISTFORM</a>
 </div>
 
 Vous êtes maintenant prêts à créer votre premier modèle de formulaire Liste !

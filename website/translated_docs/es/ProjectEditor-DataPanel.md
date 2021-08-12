@@ -31,7 +31,7 @@ Aquí, también puede comprobar si el servidor está disponible y activarlo si e
 
 Puede definir si desea **incluir imágenes** y también si desea **Regenerar datos sistemáticamente** en cada generación.
 
-Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Siempre puede generar sus datos manualmente haciendo clic en el botón **Regenerar ahora**.
+Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación. Cuando las opciones **No regenerar los datos en cada build** y **No incluir imágenes**están marcadas, puede ahorrar una cantidad considerable de tiempo en la construcción de su aplicación.
 
 
 ## Propiedades

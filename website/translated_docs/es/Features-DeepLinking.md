@@ -15,7 +15,7 @@ title: Deep Linking
 
 He aquí una ilustración que resume "deep linking":
 
-![Animación Enlaces profundos](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
+![Animación Deep link](assets/en/deeplinking/4d-for-ios-deeplinking.gif)
 
 Hay dos maneras de implementar "deep linking" en IOS: **"URL scheme"** y **"Universal Links"**. Mientras que los "URL schemes" son un método bien conocido del "deep linking", los "Universal links" son el nuevo método que Apple ha implementado para conectar fácilmente su página web y su aplicación bajo el mismo enlace.
 

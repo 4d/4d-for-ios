@@ -15,14 +15,14 @@ Comencemos descargando el Proyecto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N A UNO</a>
+href="https://github.com/4d-go-mobile/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">PROJET STARTER N A UNO</a>
 </div>
 
 Aquí queremos mostrar la categoría de cada tarea en el formulario detallado de su aplicación generada. Para ello, abra el **StarteriOSProject** desde **Open > Mobile Project...**
 
 Luego diríjase a la sección Structure y seleccione la **tabla Task **.
 
-### Sección Structure
+### Sección Estructura
 
 * Puede constatar que el **enlace TaskCategory** está subrayado
 

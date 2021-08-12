@@ -31,7 +31,7 @@ Here, you can also check if the server is available and activate it if necessary
 
 You can define if you want to **include images** and also whether or not you want to **Regenerate data systematically** at each build.
 
-When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. You can always generate your data manually by clicking on the **Regenerate Now button**.
+When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app. When the **Do not regenerate data at each build** and the **Do not include imgages** options are checked, you can save a considerable amount of time building your app.
 
 
 ## Properties panel

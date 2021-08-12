@@ -83,7 +83,7 @@ Next, with the Stack View selected add four constraints by clicking on the **Add
 
 ![Stack Viewの最終的な制約](assets/en/custom-detailform/stackview-constraints-final.png)
 
-Stack Viewに２個ビューを追加し，制約もきちんと設定できました。Field View 1の作業に移りましょう。
+Stack Viewに２個ビューを追加し，制約もきちんと設定できました。 Field View 1の作業に移りましょう。
 
 ## Field View 1にImage Viewを追加する
 
@@ -266,7 +266,7 @@ Field View 2を選択し，下記のように設定します。
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">カスタム詳細画面の完成テンプレート</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">カスタム詳細画面の完成テンプレート</a>
 </div>
 
 

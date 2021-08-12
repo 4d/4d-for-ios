@@ -32,7 +32,7 @@ The main window consists of two tabs:
 In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
 * 一般
-* ストラクチャ
+* ストラクチャー
 * Data
 * Actions
 * Labels & Icons

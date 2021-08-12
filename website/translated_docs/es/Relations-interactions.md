@@ -1,21 +1,21 @@
 ---
 id: relations-interactions
-title: Relation interactions
+title: Interacciones entre relaciones
 ---
 
-R6 permite añadir una interacción muy agradable en sus aplicaciones. Por ejemplo, podrá publicar una relación de Uno a Muchos y de Muchos a Uno desde [Many to one relation](many-to-one-relations.html) !
+R6 permite añadir una interacción muy agradable en sus aplicaciones. Por ejemplo, podrá publicar una relación de Uno a Muchos y de Muchos a Uno desde [Relación Muchos a Uno](many-to-one-relations.html) !
 
 # Editor de proyecto
 
-## Sección Structure
+## Sección Estructura
 
 Desde la sección de estructura, podrá publicar relaciones de Muchos a Uno muy fácilmente. Esto permitirá mostrar, por ejemplo, la relación Muchos a Muchos en su aplicación iOS.
 
 ![Publish relations from Structure section](assets/en/relations/structure-section.gif)
 
-## Labels & Icons section
+## Sección Etiquetas e Iconos
 
-Desde la sección Etiquetas & Icons, podrá personalizar la etiqueta de su botón de relación.
+Desde la sección Etiquetas e Iconos, podrá personalizar la etiqueta de su botón de relación.
 
 ### Obtener el número de registros
 
@@ -25,7 +25,7 @@ Para ello, basta con añadir %length% en su etiqueta de relación corta o larga 
 
 ![length parameter](assets/en/relations/icons-labels-length-parameter-relation.png)
 
-## Forms section
+## Sección Formularios
 
 ### Añada cualquier relación donde desee
 

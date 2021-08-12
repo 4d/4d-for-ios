@@ -3,9 +3,16 @@ id: faq
 title: FAQ
 ---
 
-## はじめにお読みください
 
+## はじめにお読みください
 <details>
+<summary>
+    **Can I create an Android app?**
+</summary>
+
+4D for Android is currently under development. A preview version is available starting with 4D v19.
+
+</details> <details>
 <summary>
     **Do I need specific expertise to use 4D for iOS?**
 </summary>
@@ -33,14 +40,7 @@ title: FAQ
 | 11.3.1 | 5.1.3 | 13.3 | 18.1        | 10.14.4 |
 | 11.3.1 | 5.1.3 | 13.3 | 18R2        | 10.14.4 |
 | 11.2   | 5.1   | 13.2 | 18          | 10.14.4 |
-| 10.2.1 | 5.0   | 12.2 | 17R6        | 10.14.4 |
-| 10.2   | 4.2.1 | 12.2 | 17R5        | 10.14.3 |
-| 10.1   | 4.2.1 | 12   | 17R4        | 10.13.6 |
-| 10.0   | 4.2   | 12   | 17R3        | 10.13.6 |
-| 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
-| 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
-
-過去バージョンの Xcode は，下記のサイトから入手することができます。 https://developer.apple.com/download/more/
+ 過去バージョンの Xcode は，下記のサイトから入手することができます。 https://developer.apple.com/download/more/
 
 => Only registered developers can download preview releases through the Apple Developer website.
 
@@ -66,7 +66,7 @@ title: FAQ
 **Do I need a 4D Web Server to run 4D for iOS?**
 </summary>
 
-いいえ。4D Server v17 R2 以降であれば，4D for iOS  のサーバーにすることができます。
+いいえ。 4D Server v17 R2 以降であれば，4D for iOS  のサーバーにすることができます。
 
 </details>
 
@@ -125,7 +125,7 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 **Can I modify and update data from my iOS app?**
 </summary>
 
-はい。もちろんです！
+はい。 もちろんです！
 
 </details>
 

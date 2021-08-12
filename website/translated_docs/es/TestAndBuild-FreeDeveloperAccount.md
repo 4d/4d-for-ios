@@ -32,5 +32,5 @@ Vaya a la [página de creación del identificador Apple](https://appleid.apple.c
 
 ![Developer Account](assets/en/test-build/Developer-Account-4D-for-iOS.png)
 
-¡Felicitaciones! ¡Ahora está listo para utilizar su ID de Apple gratis!
+¡Felicitaciones! ¡Felicitaciones! ¡Ahora está listo para utilizar su ID de Apple gratis!
 

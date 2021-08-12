@@ -17,7 +17,7 @@ title: Create App Store record
 
 #### What is an App ID ?
 
-*An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a Bundle ID, with a period (.) separating the two parts (ex: TeamID.BundleID).*
+*An App ID is a two-part string used to identify one or more apps from a single development team. An App ID is a two-part string used to identify one or more apps from a single development team.*
 
 > **HINWEIS**
 > 

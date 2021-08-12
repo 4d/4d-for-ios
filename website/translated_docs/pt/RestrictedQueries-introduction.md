@@ -21,7 +21,7 @@ Antes de começar, tenha certeza de baixar o **Starter Project** que inclui um a
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">PROJETO STARTER</a>
 </div>
 
 Este banco de dados inclui:

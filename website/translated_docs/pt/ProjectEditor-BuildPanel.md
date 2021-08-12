@@ -9,7 +9,7 @@ Vamos olhar mais de perto as opções da aba  Build
 
 * **Criar e executar:** lança a aplicação no simulador.
 
-* **iPhone X:** simulador por padrão Ao clicar aqui, se mostrará uma lista dropdown com todos os simuladores disponíveis.
+* **iPhone X:** simulador por padrão Ao clicar aqui, se mostrará uma lista dropdown com todos os simuladores disponíveis. Ao clicar aqui, se mostrará uma lista dropdown com todos os simuladores disponíveis.
 
 * **Projet:** mostra uma lista suspensa onde pode **abrir a pasta do projeto** ou a **pasta de produto**, ou **abrir o produto com Xcode**.
 

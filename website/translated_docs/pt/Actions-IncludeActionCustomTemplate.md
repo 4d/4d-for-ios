@@ -24,7 +24,7 @@ Para começar baixe o Projeto Starter, que inclui:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 2. Adicione modelos personalizados para Projeto 4D for iOS
@@ -47,7 +47,7 @@ Primeiro vamos abrir o arquivo `list/TasksList/Sources/Forms/Tables/___TABLE___/
 
 ### Adicione ações para o modelo personalizado TasksList
 
-#### A. Adicionar uma Tag de ação de tabela
+#### A. A. Adicionar uma Tag de ação de tabela
 
 Selecione o **List form Controller** e adicione esta linha em **User Defined Runtime Attributes** (Identity inspector):
 
@@ -58,7 +58,7 @@ Selecione o **List form Controller** e adicione esta linha em **User Defined Run
 ![Add table action tag](assets/en/actions/Add-table-tag-taskslist.png)
 
 
-#### B. Adicionar uma Tag de ação de Entidade
+#### B. B. Adicionar uma Tag de ação de Entidade
 
 Selecione a vista Animatable Table e adicione esta linha em **User Defined Runtime Attributes** (Identity inspector):
 
@@ -80,7 +80,7 @@ Agora vamos agregar as etiquetas de ação ao modelo personalizado TasksCollecti
 
 Para facer isso, abra o arquivo Storyboard `list/TasksCollection/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.arquivo Storyboard`
 
-#### A. Adicionar uma Tag de ação de tabela
+#### A. A. Adicionar uma Tag de ação de tabela
 
 O processo é similar ao processo do modelo personalizado TasksList
 
@@ -92,7 +92,7 @@ Selecione o **List form Controller** e adicione esta linha em **User Defined Run
 
 ![Add collection table action tag](assets/en/actions/Add-collection-table-tag-taskslist.png)
 
-#### B. Adicionar uma Tag de ação de Entidade
+#### B. B. Adicionar uma Tag de ação de Entidade
 
 Para as entidades, a forma de mostrar as ações é bastante diferente de TableView: a ação de deslizar não está adaptada a CollectionViews.
 
@@ -156,6 +156,6 @@ Parabéns, sua aplicação iOS Tasks agora está completa e inclui ações nos f
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROJETO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROJETO FINAL</a>
 </div>
 

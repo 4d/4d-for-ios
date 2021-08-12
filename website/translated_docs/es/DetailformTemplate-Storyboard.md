@@ -218,7 +218,7 @@ Vaya al editor de su proyecto y seleccione su plantilla de formulario detallado 
 
 ![Custom detail template forms](assets/en/custom-detailform/custom-detail-template-forms.png)
 
-¡No está mal para un primer intento! :)
+¡No está mal para un primer intento! :) :)
 
 ![iPhone Demo](assets/en/custom-detailform/iphone-demo.png)
 
@@ -266,7 +266,7 @@ En este tutorial, hemos cubierto los conceptos básicos para crear plantillas de
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/archive/c1be487dcbb83e5812c5fd8dd5e7422a79956c48.zip">PLANTILLA FINAL DE FORMULARIO DETALLADO PERSONALIZADO</a>
 </div>
 
 

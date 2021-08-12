@@ -43,7 +43,7 @@ Este é um exemplo para enviar uma notificação push a `test@4d.com`:
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new() 
+$pushNotification:=MobileAppServer. PushNotification.new() 
 $notification:=New object 
 $notification.title:="This is title" 
 $notification.body:="Here is the content of this notification" 
@@ -73,13 +73,13 @@ Aqui um exemplo do comportamento normal,  uma petição `dataSynchro` com o mét
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new()
+$pushNotification:=MobileAppServer. PushNotification.new()
 
 $notification:=New object
 $notification.title:="Este é o título" 
 $notification.body:="Aqui está o conteúdo da notificação" 
 
-$entity:=ds.Employees.get("456456")
+$entity:=ds. Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
@@ -88,14 +88,14 @@ Entretanto pode escolher não forçar uma sincronização de dados, para preveni
 
 ```4D 
 
-$pushNotification:=MobileAppServer.PushNotification.new()
+$pushNotification:=MobileAppServer. PushNotification.new()
 
 $notification:=New object
 $notification.title:="Este é o título" 
 $notification.body:="Este é o conteúdo desta notificação" 
 $notification.userInfo:=New object("dataSynchro"; False)
 
-$entity:=ds.Employees.get("456456")
+$entity:=ds. Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```
@@ -107,7 +107,7 @@ Aqui está um exemplo de código que pode usar com outros métodos, desde que pr
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new()
+$pushNotification:=MobileAppServer. PushNotification.new()
 
 $notification:=New object
 $notification.title:="Este é o título" 
@@ -125,7 +125,7 @@ Windows users need to download the [last CURL version](https://curl.se/download.
 
 ## MobileApps folder
 
-Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID.BundleID/AuthKey_XXXX.P8 and 4DBASE/MobileApps/ID.BundleID/manifest.json files from your Design database to your production database.
+Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID. BundleID/AuthKey_XXXX. P8 and 4DBASE/MobileApps/ID. BundleID/manifest.json files from your Design database to your production database.
 
 ## Que fazer agora?
 

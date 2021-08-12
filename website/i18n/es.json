@@ -20,6 +20,9 @@
       "contact-app": {
         "title": "Aplicación Contacts"
       },
+      "custom-login-form": {
+        "title": "Custom Login Form"
+      },
       "4d-for-ios-project-organization": {
         "title": "Organizar un proyecto 4D for iOS"
       },
@@ -43,6 +46,15 @@
       },
       "data-formatter": {
         "title": "Formato de datos"
+      },
+      "debugging-from-iphone": {
+        "title": "Desde su iPhone"
+      },
+      "debugging-from-the-project-editor": {
+        "title": "Desde el editor del proyecto"
+      },
+      "debugging-from-xcode": {
+        "title": "Desde Xcode"
       },
       "deploy-app-store-archive-and-upload": {
         "title": "Archivar y descargar un proyecto"
@@ -86,6 +98,21 @@
       },
       "faq": {
         "title": "FAQ"
+      },
+      "authentication": {
+        "title": "Autenticación email"
+      },
+      "deep-linking": {
+        "title": "Deep Linking"
+      },
+      "push-notification": {
+        "title": "Notificaciones Push"
+      },
+      "gallery-template-install": {
+        "title": "Instalar una plantilla"
+      },
+      "gallery-template-update": {
+        "title": "Actualizar una plantilla"
       },
       "overview": {
         "title": "Generalidades"
@@ -154,7 +181,10 @@
         "title": "Publicación"
       },
       "structure": {
-        "title": "Structure"
+        "title": "Estructura"
+      },
+      "relations-interactions": {
+        "title": "Interacciones entre relaciones"
       },
       "many-to-one-relations": {
         "title": "Relaciones Muchos a Uno"
@@ -203,21 +233,6 @@
       },
       "xcode": {
         "title": "Xcode"
-      },
-      "debugging-from-the-project-editor": {
-        "title": "Desde el editor del proyecto"
-      },
-      "debugging-from-xcode": {
-        "title": "Desde Xcode"
-      },
-      "debugging-from-iphone": {
-        "title": "Desde su iPhone"
-      },
-      "authentication": {
-        "title": "Autenticación email"
-      },
-      "push-notification": {
-        "title": "Notificaciones Push"
       }
     },
     "links": {
@@ -225,7 +240,9 @@
       "Tutorials": "Tutoriales",
       "Templates & Formatters": "Plantillas y formatos",
       "FAQ": "FAQ",
-      "4D Doc": "Doc 4D"
+      "v19 R2 BETA": "v19 R2 BETA",
+      "v19": "v19",
+      "v18": "v18"
     },
     "categories": {
       "Getting started": "Comencemos",
@@ -239,14 +256,15 @@
       "Customizing with Xcode": "Personalizar con Xcode",
       "Creating List forms": "Crear formularios Lista",
       "Creating Detail forms": "Crear formularios detallados",
+      "Gallery": "Galería",
       "Using icons": "Utilizar los iconos",
       "Data formatter": "Formato de datos",
       "Multi-criteria search": "Búsqueda multicriterios",
       "Restricted queries": "Búsquedas limitadas",
       "Actions": "Actions",
       "Relations": "Relations",
-      "Templates & Formatters": "Plantillas y formatos",
-      "Features": "Funcionalidades"
+      "Features": "Funcionalidades",
+      "Templates & Formatters": "Plantillas y formatos"
     }
   },
   "pages-strings": {
@@ -256,7 +274,7 @@
     "Test|no description given": "Pruebe",
     "Deploy|no description given": "Despliegue",
     "Define a subset of your physical structure to replicate.|no description given": "Defina un subconjunto de su estructura física a replicar.",
-    "Structure|no description given": "Structure",
+    "Structure|no description given": "Estructura",
     "Choose the layouts and style of your application in just a few, short steps.|no description given": "Elija los diseños y el estilo de su aplicación en solo unos pocos pasos.",
     "Design|no description given": "Diseño",
     "Create an Xcode project in one click and run your application on any iPhone.|no description given": "Cree un proyecto Xcode con un solo clic y ejecute su aplicación en cualquier iPhone.",

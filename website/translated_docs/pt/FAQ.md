@@ -3,9 +3,16 @@ id: faq
 title: FAQ
 ---
 
-## Pré-requisitos
 
+## Pré-requisitos
 <details>
+<summary>
+    **Preciso de experiência específica para usar o 4D for iOS?**
+</summary>
+
+4D for Android is currently under development. A preview version is available starting with 4D v19.
+
+</details> <details>
 <summary>
     **Preciso de experiência específica para usar o 4D for iOS?**
 </summary>
@@ -33,14 +40,7 @@ O editor de projetos móveis foi criado para que seja possível usar 4D for iOS 
 | 11.3.1 | 5.1.3 | 13.3 | 18.1        | 10.14.4 |
 | 11.3.1 | 5.1.3 | 13.3 | 18R2        | 10.14.4 |
 | 11.2   | 5.1   | 13.2 | 18          | 10.14.4 |
-| 10.2.1 | 5.0   | 12.2 | 17R6        | 10.14.4 |
-| 10.2   | 4.2.1 | 12.2 | 17R5        | 10.14.3 |
-| 10.1   | 4.2.1 | 12   | 17R4        | 10.13.6 |
-| 10.0   | 4.2   | 12   | 17R3        | 10.13.6 |
-| 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
-| 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
-
-Caso precise de uma versão antiga de Xcode pode baixá-la aqui: https://developer.apple.com/download/more/
+ Caso precise de uma versão antiga de Xcode pode baixá-la aqui: https://developer.apple.com/download/more/
 
 => Só os desenvolvedores registrados podem descarregar versões prévias através do website de desenvolvedores de Apple.
 

@@ -37,7 +37,7 @@ First download our Starter Project, which contains a database file and ready to 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomLoginForm/archive/main.zip">STARTER-PROJEKT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomLoginForm/archive/main.zip">STARTER-PROJEKT</a>
 </div>
 
 > **HINWEIS**

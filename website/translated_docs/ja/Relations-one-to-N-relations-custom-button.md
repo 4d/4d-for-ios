@@ -15,9 +15,10 @@ title: １対Ｎカスタムボタン
 * データベースとモバイルプロジェクト
 * 標準のリレーションボタン
 
+
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">素材プロジェクト - カスタムボタン</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">素材プロジェクト - カスタムボタン</a>
 </div>
 
 ## ボタンを追加する
@@ -102,21 +103,21 @@ Keep in mind that if you **add constraints** into your button, you will also hav
 
 このチュートリアルでは，画面上でおおきく表示されるように，ボタンの高さに制約を追加する場合を考えます。
 
-⒈ ビューを選択し，高さを123から40に変更します。
+⒈ ⒈ ビューを選択し，高さを123から40に変更します。
 
 ![ボタンビューの高さ](assets/en/relations/Button-view-height.png)
 
-⒉ Double click on the **Top Space Constraint** and change it from 8 to 0
+⒉ ⒉ Double click on the **Top Space Constraint** and change it from 8 to 0
 
 ![上部余白の制約](assets/en/relations/Top-Space-constraint.png)
 
-⒊ Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
+⒊ ⒊ Do the same thing with **Bottom Space Constraint** and change it from 8 to 0
 
 下図のようになっていれば成功です。
 
 ![カスタムボタンの制約](assets/en/relations/Custom-button-constraints.png)
 
-⒋ 高さの制約「40」を追加します。
+⒋ ⒋ 高さの制約「40」を追加します。
 
 ![ボタンの高さ制約](assets/en/relations/Button-height-constraint.png)
 
@@ -137,17 +138,17 @@ Keep in mind that if you **add constraints** into your button, you will also hav
 
 #### 高さの制約にタグを追加する
 
-⒈ ストーリーボード内で要素のオブジェクトIDを選択してコピーします。
+⒈ ⒈ ストーリーボード内で要素のオブジェクトIDを選択してコピーします。
 
 ![水平制約オブジェクトのID](assets/en/relations/Horizontal-constraint-object-ID.png)
 
-⒉ Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
+⒉ ⒉ Search for this ID in the xml file and put **TAG-RL-007** instead (a Tag that is not already used).
 
-⒊ XMLファイルを保存します。
+⒊ ⒊ XMLファイルを保存します。
 
 ![水平制約のXMLファイル](assets/en/relations/Horizontal-constraint-xml-file.png)
 
-⒋ ストーリーボードのウィンドウにフォーカスを移動し，制約が正しく更新されていることを確認します。
+⒋ ⒋ ストーリーボードのウィンドウにフォーカスを移動し，制約が正しく更新されていることを確認します。
 
 ![水平制約オブジェクトのID更新](assets/en/relations/Horizontal-object-id-updated.png)
 
@@ -159,5 +160,5 @@ Keep in mind that if you **add constraints** into your button, you will also hav
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">カスタムボタンの完成プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">カスタムボタンの完成プロジェクト</a>
 </div>

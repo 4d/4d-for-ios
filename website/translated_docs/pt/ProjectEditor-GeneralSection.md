@@ -11,7 +11,7 @@ Esta seção permite que defina a informação principal de sua aplicação.
 
 **Identificador:** ingresse  « Bundle ID » de sua empresa. Isso se utilizará para identificar sua aplicação. O nome de produto que ingressar é concatenado para criar o valor padrão de "Bundle ID" usado a notação inversa do nome de domínio. Este "Bundle ID" deve ser único para sua aplicação.
 
-Por exemplo, se o nome de sua empresa for "MyCompany" e o nome de sua aplicação for "MyApp", poderia escolher  "com.MyCompany" como seu identificador de empresa e sua ID de grupo de aplicações sería com.MyCompany.MyApp.
+Por exemplo, se o nome de sua empresa for "MyCompany" e o nome de sua aplicação for "MyApp", poderia escolher  "com. MyCompany" como seu identificador de empresa e sua ID de grupo de aplicações sería com. MyCompany. MyApp.
 
 > **NOTA **
 > 

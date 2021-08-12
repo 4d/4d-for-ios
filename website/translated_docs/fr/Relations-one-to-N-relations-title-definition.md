@@ -11,7 +11,7 @@ Dans ce tutoriel nous utiliserons le projet suivant :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJET STARTER DE DEFINITION DE TITRE</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyTitleDefinition/archive/4b831959e7efe4777071af0b2904d458918cfbc2.zip">PROJET STARTER DE DEFINITION DE TITRE</a>
 </div>
 
 Rendez-vous directement dans le menu Ouvrir> Projet mobile ... sélectionnez *Time Keeper* puis dans la **section Étiquettes et icônes**.
