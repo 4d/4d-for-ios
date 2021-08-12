@@ -23,7 +23,7 @@ Before we begin, be sure to download the **Starter Project** which includes a **
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">STARTER-PROJEKT</a>
+href="https://github.com/4d-go-mobile/tutorial-RestrictedQueries/releases/latest/download/tutorial-RestrictedQueries.zip">STARTER-PROJEKT</a>
 </div>
 
 The database includes a:

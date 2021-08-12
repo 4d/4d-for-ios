@@ -17,7 +17,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJETO STARTER UM PARA MUITOS</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJETO STARTER UM PARA MUITOS</a>
 </div>
 
 Neste tutorial, vamos construir um **Task app** colorido usando 4D for iOS.
@@ -77,5 +77,5 @@ E pronto, é assim que funciona as relações Um para Muito em 4D for iOS!
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJETO FINAL UM PARA MUITOS (1 PARA N)</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJETO FINAL UM PARA MUITOS (1 PARA N)</a>
 </div>

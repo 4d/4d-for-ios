@@ -57,10 +57,10 @@ You can define position, height, and width for all of your fields like  we did f
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
+2. エリア背景の位置とサイズです。
 3. 入力エリアの位置とサイズです。（textArea要素）
 4. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
-5. 内容をクリアするためのキャンセルボタンです。（use要素）
+5. 内容をクリアするためのキャンセルボタンです。
 
 ### ピクチャフィールド
 
@@ -86,11 +86,11 @@ You can define position, height, and width for all of your fields like  we did f
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
-3. ピクチャエリアに表示されるアイコン画像です。（path要素）
+2. エリア背景の位置とサイズです。
+3. ピクチャエリアに表示されるアイコン画像です。
 4. 入力エリアの位置とサイズです。（textArea要素）
-5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
-6. 内容をクリアするためのキャンセルボタンです。（use要素）
+5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。
+6. 内容をクリアするためのキャンセルボタンです。
 
 
 ### 繰り返されるフィールド
@@ -119,10 +119,10 @@ You can define position, height, and width for all of your fields like  we did f
 
 1. 繰り返されるフィールドの動的ID
 2. エリア全体の垂直位置です。（g要素のtransform属性）
-3. エリア背景の位置とサイズです。（rect要素）
+3. エリア背景の位置とサイズです。
 4. 入力エリアの位置とサイズです。（textArea要素）
-5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。（rect要素）
-6. 内容をクリアするためのキャンセルボタンです。（use要素）
+5. フィールドをドロップできるエリアの位置とサイズ，およびフィールドタイプです。 （rect要素）
+6. 内容をクリアするためのキャンセルボタンです。
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file**, let's move on to the fun part with Xcode!
 

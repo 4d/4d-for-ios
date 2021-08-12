@@ -192,7 +192,7 @@ In this tutorial, we've covered the basics for creating list form templates. You
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">CUSTOM LISTFORM FINAL TEMPLATE</a>
 </div>
 
 

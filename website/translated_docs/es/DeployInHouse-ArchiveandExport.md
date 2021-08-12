@@ -140,6 +140,35 @@ Aquí hay un ejemplo de archivo manifest.plist:
         </dict>
     </array>
 </dict>
+</plist>Contact.ipa</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_57.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_512.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.contactApp.ContactDemoapp</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Contact Demo app</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
 </plist>
 ```
 

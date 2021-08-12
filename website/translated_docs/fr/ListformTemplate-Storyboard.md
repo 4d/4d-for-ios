@@ -192,7 +192,7 @@ Dans ce tutoriel, nous avons couvert les aspects fondamentaux de la création de
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODÈLE FINAL DE FORMULAIRE LISTE PERSONNALISÉ</a>
 </div>
 
 

@@ -17,7 +17,7 @@ Comencemos descargando el Proyecto Starter que incluye:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÓN STARTER PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/archive/c507e764e97e006c6c785dfc468f71f5bd708845.zip">BOTÓN STARTER PERSONALIZADO</a>
 </div>
 
 ## Integrar un botón
@@ -159,5 +159,5 @@ En este tutorial, hemos cubierto los conceptos básicos para crear botones Relac
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">BOTÓN PERSONALIZADO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyCustomButton/releases/latest/download/tutorial-OneToManyCustomButton.zip">BOTÓN PERSONALIZADO FINAL</a>
 </div>

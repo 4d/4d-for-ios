@@ -39,8 +39,9 @@ const siteConfig = {
     {doc: 'contact-app', label: 'Tutorials'},
     {doc: 'template', label: 'Templates & Formatters'}, 
     {doc: 'faq', label: 'FAQ'},
-    {href: 'https://developer.4d.com/4d-for-ios', label:'v19 BETA'},
-    {href: 'https://developer.4d.com/4d-for-ios/Rx', label:'v18 R6'},
+    {href: 'https://developer.4d.com/4d-for-ios', label:'v19 R2 BETA'},
+ //   {href: 'https://developer.4d.com/4d-for-ios/Rx', label:'v18 R6'},
+    {href: 'https://developer.4d.com/4d-for-ios/19', label:'v19'},
     {href: 'https://developer.4d.com/4d-for-ios/18', label:'v18'}
   ],
 
@@ -64,7 +65,7 @@ algolia: {
     secondaryColor: '#0f949b',
   },
 
-  editUrl: 'https://github.com/4D/4D-for-iOS/edit/develop/docs/',
+  editUrl: 'https://github.com/4D/4D-for-iOS/edit/18/docs/',
 
 
   /* custom fonts for website */

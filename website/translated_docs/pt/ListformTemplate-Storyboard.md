@@ -192,7 +192,7 @@ Neste tutorial cobrimos o básico da criação de modelos de formulário lista. 
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODELO FINAL DE FORMULÁRIO LISTA PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListForm/releases/latest/download/tutorial-CustomListForm.zip">MODELO FINAL DE FORMULÁRIO LISTA PERSONALIZADO</a>
 </div>
 
 

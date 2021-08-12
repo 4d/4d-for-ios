@@ -5,7 +5,7 @@ title: Selecionar seus ícones
 
 Abra seu projeto e vá para a seção Etiquetas e Ícones.
 
-Clique no ícone da tabela Contact Todos os ícones disponíveis são exibidos.
+Clique no ícone da tabela Contact Todos os ícones disponíveis são exibidos. Todos os ícones disponíveis são exibidos.
 
 Selecione o ícone contacto:
 

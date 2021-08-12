@@ -18,6 +18,6 @@ If this icon is missing from your list form template folder, the **template.svg*
 
 ![リストフォームのカスタムテンプレートアイコンが設定されていない](assets/en/custom-listform/missing-listform-icon-custom-template.png)
 
-ここではPhotoshopでリストフォームのカスタムテンプレートアイコンを作成しました。もちろん，別の画像ソフトでも構いません。
+ここではPhotoshopでリストフォームのカスタムテンプレートアイコンを作成しました。 もちろん，別の画像ソフトでも構いません。
 
 ![リストフォームのカスタムテンプレートアイコン](assets/en/custom-listform/custom-list-form-icon.png)

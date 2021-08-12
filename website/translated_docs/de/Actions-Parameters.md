@@ -21,7 +21,7 @@ To begin, let's first download the **Starter Project** based on our existing Tas
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER-PROJEKT</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">STARTER-PROJEKT</a>
 </div>
 
 ## SCHRITT 1. Add action
@@ -406,6 +406,6 @@ Congratulations! Your Tasks iOS app is now complete and you can now modify your 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/0.0.1.zip">FINAL PROJECT</a>
 </div>
 

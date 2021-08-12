@@ -23,7 +23,7 @@ Baixe nosso projeto Starter, que contém um arquivo de banco de dados e o ícone
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 2. Criando o projeto
@@ -97,7 +97,7 @@ AGora é definir a ordem das tabelas no menu principal da aplicação.
 
 ## PASSO 8. Seções - formulários
 
-Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Pode escolher entre formulários lista e formulários detalhados.
+Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Pode escolher entre formulários lista e formulários detalhados.
 
 * Selecione um modelo de formulário de lista para exibir sua tabela como uma lista. Para nossa aplilcação Contact, vamos usar o modelo **Profile**.
 
@@ -137,5 +137,5 @@ Cobrimos a criação básica de aplicações neste tutorial, e agora você pode 
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJETO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJETO FINAL</a>
 </div>

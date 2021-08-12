@@ -14,7 +14,7 @@ title: ユーザー情報に基づくクエリ
 ![ユーザー情報に基づくクエリ](assets/en/restricted-queries/user-information-query.png)
 
 ```4d
-Status = 'In Progress' & manager.Email = :email 
+Status = 'In Progress' & manager.Email = :emailEmail = :email 
 ```
 
 The query will filter data depending on the **In Progress** status AND the **Account manager's email address** (accessible from the AccountManager table thanks to the *Many-to-One* relation on the manager's name).

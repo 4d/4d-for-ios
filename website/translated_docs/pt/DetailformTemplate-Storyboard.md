@@ -222,7 +222,7 @@ Não está mal para a primeira tentativa! :)
 
 ![iPhone Demo](assets/en/custom-detailform/iphone-demo.png)
 
-Field View 2 foi duplicado Vamos ver se podemos tornar o app um pouco mais interessante!
+Field View 2 foi duplicado Field View 2 foi duplicado Vamos ver se podemos tornar o app um pouco mais interessante!
 
 ### Personalize seu app
 
@@ -266,7 +266,7 @@ Neste tutorial cobrimos os conceitos básicos para criar seu modelo de formulár
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">MODELO FINAL DE FORMULÁRIO DETALHADO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/releases/latest/download/tutorial-CustomDetailForm.zip">MODELO FINAL DE FORMULÁRIO DETALHADO PERSONALIZADO</a>
 </div>
 
 

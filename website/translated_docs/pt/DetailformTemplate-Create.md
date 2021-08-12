@@ -26,7 +26,7 @@ Para começar, baixe o **Starter Project**, que inclui:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
 </div>
 
 Agora está pronto para criar o seu primeiro modelo de formulário detalhado!

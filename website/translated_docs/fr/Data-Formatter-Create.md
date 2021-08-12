@@ -22,7 +22,7 @@ Pour commencer, téléchargez le **Projet Starter**, qui comprend :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROJET STARTER - FORMAT PERSONNALISÉ</a>
 </div>
 
 Vous êtes maintenant prêts à créer vos premiers formats !
@@ -185,5 +185,5 @@ Cliquez sur le bouton **FORMAT FINAL** ci-dessous pour télécharger le dossier 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
 </div>

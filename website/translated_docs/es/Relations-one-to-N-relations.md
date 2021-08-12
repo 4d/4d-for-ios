@@ -17,7 +17,7 @@ Comencemos descargando el Proyecto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER UNO A MUCHOS</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER UNO A MUCHOS</a>
 </div>
 
 En este tutorial, vamos a construir una **aplicación Task** utilizando 4D for iOS.
@@ -32,7 +32,7 @@ Como puede ver, hay un enlace de Uno a Muchos llamado **tasks** que usaremos en 
 
 Ahora, vaya directamente al menú Abrir > Proyecto móvil... a seleccionar *Time Keeper* y vaya a la sección **Structure**.
 
-## Sección Structure
+## Sección Estructura
 
 Puede ver la **relación de tareas** que hemos visto antes... ¡Puede publicarla!
 
@@ -45,7 +45,7 @@ Este campo ahora funcionará como cualquier otro campo durante el resto del proc
 > * Al pasar el ratón, una sugerencia muestra el nombre de la tabla fuente que origina la relación.
 
 
-## Labels & Icons section
+## Sección Etiquetas e Iconos
 
 La relación Uno a Muchos está ahora disponible en la sección [Etiquetas e Iconos](labels-and-icons.html).
 
@@ -59,7 +59,7 @@ En la sección Etiquetas e iconos definirá:
 
 ![Labels & Icons section Relations properties](assets/en/project-editor/Relations-properties-Labels-icons-section-4D-for-iOS.png)
 
-## Forms section
+## Sección Formularios
 
 * Vaya a la sección Formularios y suelte la relación *tasks* en el formulario detallado Employee Task.
 
@@ -77,5 +77,5 @@ Y listo, así es como funcionan las relaciones Uno a Muchos en 4D for iOS.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 A N</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 A N</a>
 </div>

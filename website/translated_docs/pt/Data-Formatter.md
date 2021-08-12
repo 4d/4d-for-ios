@@ -19,6 +19,6 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">PROJETO STARTER DE FORMATOS PERSONALIZADOS</a>
+href="https://github.com/4d-go-mobile/tutorial-DataFormatter/releases/latest/download/tutorial-DataFormatter.zip">PROJETO STARTER DE FORMATOS PERSONALIZADOS</a>
 </div>
 

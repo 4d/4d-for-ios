@@ -1,11 +1,11 @@
 ---
 id: structure
-title: Structure
+title: Estructura
 ---
 
 Esta sección muestra todas las tablas y los campos de su base de datos.
 
-![Sección Structure](assets/en/project-editor/Structure-section-4D-for-iOS.png)
+![Sección Estructura](assets/en/project-editor/Structure-section-4D-for-iOS.png)
 
 Aquí, puede definir un subconjunto de su estructura física para reproducir en dispositivos móviles seleccionando tablas y campos específicos. El seleccionado:
 

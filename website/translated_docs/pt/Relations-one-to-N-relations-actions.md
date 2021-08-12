@@ -13,7 +13,7 @@ Vamos começar baixando o Projeto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT -  UM PARA MUITOS & AÇÕES</a>
+href="https://github.com/4d-go-mobile/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">STARTER PROJECT -  UM PARA MUITOS & AÇÕES</a>
 </div>
 
 ## Criar ação addProject
@@ -50,14 +50,10 @@ Agora entre estas linhas em seu método **addProject**:
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($entity;$in;$out)
+C_OBJECT($1) C_OBJECT($entity;$in;$out)
 
 $in:=$1
-$out:=New object("success";False)
-
-If ($in.dataClass#Null)
+$out:=New object("success";False) If ($in.dataClass#Null)
 
     $entity:=ds[$in.dataClass].new()  //Cria uma referência
 
@@ -83,13 +79,9 @@ If ($in.dataClass#Null)
 
     $out.statusText:="Task added"
 
-    $out.close:=True
+    $out.close:=True Else 
 
-Else 
-
-    $out.errors:=New collection("No Selection")
-
-End if 
+    $out.errors:=New collection("No Selection") End if 
 
 $0:=$out
 
@@ -99,5 +91,5 @@ E isso é tudo, agora pode adicionar uma tarefa para seus funcionários facilmen
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROJETO FINAL- UM PARA MUITOS & AÇÕES</a>
+href="https://github.com/4d-go-mobile/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROJETO FINAL- UM PARA MUITOS & AÇÕES</a>
 </div>

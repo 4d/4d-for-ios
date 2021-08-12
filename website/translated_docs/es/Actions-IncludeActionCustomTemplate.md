@@ -24,7 +24,7 @@ Para comenzar, descargue el Proyecto Starter, que incluye:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/archive/1dc5aecfbea62a9999d571cb1a956f1ef6983111.zip">PROYECTO STARTER</a>
 </div>
 
 ## PASO 2. Agregar plantillas personalizadas al proyecto 4D for iOS
@@ -43,7 +43,7 @@ Primero, suelte:
 
 Como hemos visto anteriormente en la [ descripción de la sección Actions](actions.html), hay dos tipos de acciones disponibles (acciones de tabla y acciones de entidad).
 
-Primero abramos el archivo `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`
+Primero abramos el archivo `list/TasksList/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.`</code>
 
 ### Añadir las acciones a la plantilla personalizada TasksList
 
@@ -156,6 +156,6 @@ Puede seleccionar la plantilla personalizada TasksDetail en la **sección Formul
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-AddingActionToTemplates/releases/latest/download/tutorial-AddingActionToTemplates.zip">PROYECTO FINAL</a>
 </div>
 

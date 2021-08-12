@@ -94,4 +94,4 @@ Puede registrarte como desarrollador [aquí](https://developer.apple.com/program
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
-¡Felicitaciones! ¡Ya está listo para publicar aplicaciones en la App Store!
+¡Felicitaciones! ¡Felicitaciones! ¡Ya está listo para publicar aplicaciones en la App Store!

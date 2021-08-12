@@ -17,7 +17,7 @@ In this tutorial, we'll guide you through the creation of a detail form template
 
 ![カスタムテンプレート（完成）](assets/en/custom-detailform/custom-template-final-result.png)
 
-## プロジェクトをダウンロードする
+## ⒈ プロジェクトをダウンロードする
 
 To begin, download the **Starter Project**, which includes:
 
@@ -26,7 +26,7 @@ To begin, download the **Starter Project**, which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailForm/archive/d6e32c547604bd32f56528b02310d083a844ffcc.zip">CUSTOM DETAIL FORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first detail form template !

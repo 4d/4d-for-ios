@@ -53,7 +53,7 @@ See the prerequisites list [here](prerequisites.html).
 **Can I use Windows to develop with 4D for iOS?**
 </summary>
 
-No. You must develop on macOS, as we need XCode to compile the final application and to run the Simulator.
+No. No. You must develop on macOS, as we need XCode to compile the final application and to run the Simulator.
 
 </details>
 

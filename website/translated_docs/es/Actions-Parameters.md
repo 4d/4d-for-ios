@@ -21,7 +21,7 @@ Para comenzar, primero descarguemos el **Proyecto Starter** basado en nuestra ap
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROYECTO STARTER</a>
 </div>
 
 ## PASO 1. Acción de añadir
@@ -195,6 +195,27 @@ $out:=New object("success";False)
 If ($in.dataClass#Null)
 
     $entity:=ds.Tasks.new()  //create a reference
+
+    For each ($key;$in.parameters)
+
+        $entity[$key]:=$in.parameters[$key]
+
+    End for each 
+
+    $entity.save()  //guardar la entidad
+
+
+    $out.success:=True  // notificar la App que la acción es exitosa
+    $out.dataSynchro:=True  // notificar la App para refrescar la selección
+    $out.statusText:="Task added"
+
+Else 
+
+    $out.errors:=New collection("No Selection")
+
+End if 
+
+$0:=$outTasks.new()  //create a reference
 
     For each ($key;$in.parameters)
 
@@ -400,11 +421,11 @@ Y finalmente puede eliminar una entidad utilizando la acción **Eliminar... **.
 
 ## PASO 8. ¿Qué hacemos ahora?
 
-¡Felicitaciones! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
+¡Felicitaciones! ¡Felicitaciones! Su aplicación iOS Tasks ahora está completa y ahora puede modificar los datos de su aplicación directamente desde su dispositivo y sincronizarlos con su servidor.
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/0.0.1.zip">PROYECTO FINAL</a>
 </div>
 

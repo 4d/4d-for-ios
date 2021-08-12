@@ -146,11 +146,11 @@ Here are the different **Formats** you can select for a parameter:
 
 4D for iOS includes three preset (predefined) actions to manage your app content:
 
-* Edit
+* 編集
 * Add
 * Delete
 
-#### 1. Add action
+#### 1. ⒈ Add action
 
 4D for iOS makes the **Add actions** creation process very simple.
 
@@ -165,14 +165,14 @@ This will **automatically create** all the parameters for you in the Project Edi
 For those kind of action, you will see that all **properties** are already filled in for your convenience at the right side of the parameter's list.
 
 
-#### 2. Edit action
+#### 2. ⒉ Edit action
 
 **Edit actions** creation follows the same process as the Add actions, with the exception that you will not be able to define default values from the Actions section.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
-#### 3. Delete action
+#### 3. ⒊ Delete action
 
 **Delete action** creation follows the same process as the Edit action. The only difference is that this action allows you to remove an entity.
 

@@ -13,7 +13,7 @@ Comencemos descargando el Proyecto Starter:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-go-mobile/tutorial-RelationsActions/archive/6c649733f5efd3c799e4e04c05a85e17eeadf7f0.zip">PROYECTO STARTER - UNO A MUCHOS & ACTIONS</a>
 </div>
 
 ## Crear una acción addProject
@@ -99,5 +99,5 @@ $0:=$out
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
+href="https://github.com/4d-go-mobile/tutorial-RelationsActions/releases/latest/download/tutorial-RelationsActions.zip">PROYECTO FINAL - UNO A MUCHOS & ACTIONS</a>
 </div>

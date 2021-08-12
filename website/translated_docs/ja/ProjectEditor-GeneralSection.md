@@ -11,7 +11,7 @@ This section allows you to define your app's main information.
 
 **Identifier:** Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your app.
 
-For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.
+For example, if your company’s name is “MyCompany” and your app’s name is “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.MyCompany” as your company identifier and your App bundle ID would be com.MyCompany.MyApp.
 
 > **注記**
 > 

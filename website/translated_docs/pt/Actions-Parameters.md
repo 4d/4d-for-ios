@@ -21,7 +21,7 @@ Para começar, primeiro descarregamos  **Projeto Starter** baseado em nossa apli
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/159a7b73bd3556890a205024af42440faf0b277c.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 1. Ação de Adicionar
@@ -113,16 +113,14 @@ Aqui o método banco de dados *On Mobile App Action* final:
 
 ```4d
 C_OBJECT($0;$response)
-C_OBJECT($1;$request)
-
-C_OBJECT($o;$context;$request;$result;$parameters)
+C_OBJECT($1;$request) C_OBJECT($o;$context;$request;$result;$parameters)
 
 $request:=$1  // Informação oferecida pela aplicação móvel
 
 $context:=$request.context
 $parameters:=$request.parameters
 
-Case of 
+        Case of 
 
     : ($request.action="addTasks")
 
@@ -171,6 +169,40 @@ Case of
     Else 
 
           // Ação desconhecida
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+        $result:=editAction ($o)
+
+
+    : ($request.action="deleteTasks")
+
+          // Inserir aqui o código para a ação "Remove"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey)
+
+        $result:=deleteAction ($o)
+
+    : ($request.action="sendComment")
+
+          // Inserir aqui o código para a ação "Send Comment"
+
+        $o:=New object(\
+        "dataClass";$context.dataClass;\
+        "ID";$context.entity.primaryKey;\
+        "parameters";$parameters)
+
+
+        $result:=sendMail ($o)
+
+    Else 
+
+          // Ação desconhecida
 End case 
 
 $0:=$result
@@ -184,15 +216,11 @@ $0:=$result
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($entity;$in;$out)
+C_OBJECT($1) C_OBJECT($entity;$in;$out)
 
 $in:=$1
 
-$out:=New object("success";False)
-
-If ($in.dataClass#Null)
+$out:=New object("success";False) If ($in.dataClass#Null)
 
     $entity:=ds.Tasks.new()  //cria uma referência
 
@@ -207,13 +235,9 @@ If ($in.dataClass#Null)
 
     $out.success:=True  // notifica o App que a ação teve sucesso
     $out.dataSynchro:=True  // notificar o App para refrescar a seleção
-    $out.statusText:="Task added"
+    $out.statusText:="Task added" Else 
 
-Else 
-
-    $out.errors:=New collection("No Selection")
-
-End if 
+    $out.errors:=New collection("No Selection") End if 
 
 $0:=$out
 
@@ -224,15 +248,11 @@ $0:=$out
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+C_OBJECT($1) C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
 
 $in:=$1
 
-$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-
-If ($selection.length=1)
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID)) If ($selection.length=1)
 
     $entity:=$selection[0]
 
@@ -256,13 +276,9 @@ If ($selection.length=1)
 
         $out:=$status  // devolver o estado do App
 
-    End if 
+    End if Else 
 
-Else 
-
-    $out.success:=False  // notificar o App que a ação falhou
-
-End if 
+    $out.success:=False  // notificar o App que a ação falhou End if 
 
 $0:=$out
 
@@ -274,15 +290,11 @@ $0:=$out
 ```4d
 
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+C_OBJECT($1) C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
 
 $in:=$1
 
-$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-
-If ($selection.length=1)
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID)) If ($selection.length=1)
 
     $entity:=$selection.drop()
 
@@ -298,13 +310,9 @@ If ($selection.length=1)
 
         $out:=$status  // devolver estado do App
 
-    End if 
+    End if Else 
 
-Else 
-
-    $out.success:=False  // notificar o App que a ação falhou
-
-End if 
+    $out.success:=False  // notificar o App que a ação falhou End if 
 
 $0:=$out
 
@@ -316,15 +324,11 @@ $0:=$out
 
 ```4d
 C_OBJECT($0;$out)
-C_OBJECT($1;$in)
-
-C_OBJECT($dataClass;$entity;$selection)
+C_OBJECT($1;$in) C_OBJECT($dataClass;$entity;$selection)
 
 $in:=$1
 
-$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-
-If ($selection.length=1)
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID)) If ($selection.length=1)
 
     $entity:=$selection[0]
 
@@ -360,15 +364,9 @@ If ($selection.length=1)
         $out.success:=False  // notificar o App que a ação falhou
         $out.statusText:="Mail not sent"
 
-    End if 
-
-Else 
+    End if Else 
 
     $out.success:=False  // notificar o App que a ção falhou
-
-End if 
-
-$0:=$out
 
 
 ```
@@ -405,6 +403,6 @@ Parabéns! Sua aplicação iOS Tasks agora está completa e agora pode modificar
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ActionParameters/archive/0.0.1.zip">PROJETO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ActionParameters/archive/0.0.1.zip">PROJETO FINAL</a>
 </div>
 

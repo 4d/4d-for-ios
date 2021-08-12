@@ -75,7 +75,7 @@ Agregue a informação abaixo:
 Em App Store Connect > App Information:
 
 * Define a Privacy Policy URL de sua aplicação (opcional).
-* Introduza uma legenda para seu app.  Isso vai aparecer abaixo do nome de sua aplicação na App Store em iOS 11.
+* Introduza uma legenda para seu app. Isso vai aparecer abaixo do nome de sua aplicação na App Store em iOS 11.
 * Selecione uma categoria primária e secundária (opcional) na qual sua aplicação vai aparecer.
 
 ![Informação sobre a aplicação](assets/en/deploy-app-store/App-Store-Connect-app-information.png)
