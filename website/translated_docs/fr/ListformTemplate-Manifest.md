@@ -23,3 +23,4 @@ Par exemple, le fichier manifest du modèle de formulaire Liste ci-dessous inclu
 1. **type (de Storyboard) :** listform
 2. **Nom du modèle :** Custom List form
 3. **Nombre de champs :** Trois champs par cellule (photo de profil, titre et sous-titre)
+4. **Tag:** `"___LISTFORMTYPE___": "Table"` table display

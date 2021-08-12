@@ -63,11 +63,11 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
-3. 検索エリアに表示されるルーペアイコンです。（path要素）
+2. エリア背景の位置とサイズです。
+3. 検索エリアに表示されるルーペアイコンです。
 4. 入力エリアの位置とサイズです。（textArea要素）
 5. Define the droppable field position, height, and width, as well as accepted **field types**
-6. 内容をクリアするためのキャンセルボタンです。（use要素）
+6. 内容をクリアするためのキャンセルボタンです。
 
 検索フィールドを使用することは必須ではありません。
 
@@ -97,10 +97,10 @@ template.svgは，テンプレートのレイアウトを視覚的に表現す�
 <use id="section.cancel" x="224" y="111" xlink:href="#cancel" visibility="hidden"/>
 ```
 
-1. エリア背景の位置とサイズです。（rect要素）
+1. エリア背景の位置とサイズです。
 2. 入力エリアの位置とサイズです。（textArea要素）
 3. Define the droppable field position, height and width as well as accepted **field types**
-4. 内容をクリアするためのキャンセルボタンです。（use要素）
+4. 内容をクリアするためのキャンセルボタンです。
 
 The section field is optional.
 
@@ -128,11 +128,11 @@ The section field is optional.
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
-3. ピクチャエリアに表示されるアイコン画像です。（path要素）
+2. エリア背景の位置とサイズです。
+3. ピクチャエリアに表示されるアイコン画像です。
 4. 入力エリアの位置とサイズです。（textArea要素）
 5. Define the droppable field position, height and width as well as accepted **field types**
-6. 内容をクリアするためのキャンセルボタンです。（use要素）
+6. 内容をクリアするためのキャンセルボタンです。
 
 ### タイトルフィールド
 
@@ -155,10 +155,10 @@ The section field is optional.
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
+2. エリア背景の位置とサイズです。
 3. 入力エリアの位置とサイズです。（textArea要素）
 4. Define the droppable field position, height and width as well as accepted **field types**
-5. 内容をクリアするためのキャンセルボタンです。（use要素）
+5. 内容をクリアするためのキャンセルボタンです。
 
 ### サブタイトルフィールド
 ```
@@ -180,9 +180,9 @@ The section field is optional.
 ```
 
 1. エリア全体の垂直位置です。（g要素のtransform属性）
-2. エリア背景の位置とサイズです。（rect要素）
+2. エリア背景の位置とサイズです。
 3. 入力エリアの位置とサイズです。（textArea要素）
 4. Define the droppable field position, height and width as well as accepted **field types**
-5. 内容をクリアするためのキャンセルボタンです。（use要素）
+5. 内容をクリアするためのキャンセルボタンです。
 
 Now that you have an **icon**, a **basic template description** in the manifest.json file, and your **svg file** ... let's move on to the fun part with Xcode!

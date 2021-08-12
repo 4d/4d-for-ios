@@ -23,3 +23,4 @@ The manifest file includes information about your list form template, such as th
 1. **Storyboard type:** listform
 2. **Template Name:** Custom List form
 3. **Field number:** Three fields in each cell (profile image, title, and subtitle)
+4. **Tag:** `"___LISTFORMTYPE___": "Table"` table display

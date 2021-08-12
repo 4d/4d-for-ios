@@ -12,7 +12,7 @@ Aquí es donde definirá las propiedades para sus tablas, campos y relaciones:
 
 * **Título:** utilizado para mostrar un título en el la vista de destino utilizando relaciones
 
-![Labels & Icons section](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
+![Sección Etiquetas e Iconos](assets/en/project-editor/Labels-&-icons-section-4D-for-iOS.png)
 
 ## Propiedades de tabla
 

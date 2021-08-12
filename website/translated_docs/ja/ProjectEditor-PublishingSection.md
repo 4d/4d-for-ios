@@ -52,6 +52,8 @@ Here is an example of a 4D for iOS-generated session file:
 ```json
 {
 "application":{
+  "id":"com.contactApp.{
+"application":{
   "id":"com.contactApp.Contact",
   "name":"Contact",
   "version":"1.0.0"

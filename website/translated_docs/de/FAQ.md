@@ -7,6 +7,13 @@ title: FAQ
 
 <details>
 <summary>
+    **Can I create an Android app?**
+</summary>
+
+4D for Android is currently under development. A preview version is available starting with 4D v19.
+
+</details> <details>
+<summary>
     **Do I need specific expertise to use 4D for iOS?**
 </summary>
 

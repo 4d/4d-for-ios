@@ -14,7 +14,7 @@ Téléchargez le **projet Starter** et reportez-vous directement à la **section
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJET STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJET STARTER</a>
 </div>
 
 Comme nous l'avons vu dans la [documentation de la section Actions](actions.html#ios-app-side), vous pouvez définir l’action suir deux niveaux :
@@ -48,7 +48,7 @@ Pour définir cette action :
 
 ![Done action definition](assets/en/actions/Done-action-definition.png)
 
-### ÉTAPE 2. Créer et modifier la méthode base "Sur une action app mobile"
+### ÉTAPE 2. Modifier la méthode action
 
 Votre action est maintenant définie dans l'éditeur de projet. Vous pouvez donc créer la méthode base [**Sur une action app mobile**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html).
 
@@ -249,5 +249,5 @@ Vous pouvez télécharger le **Projet Final** qui comprend diverses actions :
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJET FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJET FINAL</a>
 </div>

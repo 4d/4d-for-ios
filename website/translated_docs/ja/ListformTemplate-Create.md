@@ -15,7 +15,7 @@ In this tutorial, we'll cover nearly all aspects of creating a list form templat
 
 ![List form template final result](assets/en/custom-listform/custom-template-final-result.png)
 
-## プロジェクトをダウンロードする
+## ⒈ プロジェクトをダウンロードする
 
 Before we begin, be sure to download the **Starter Project** which includes:
 
@@ -24,7 +24,7 @@ Before we begin, be sure to download the **Starter Project** which includes:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">LISTFORM STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListFormStarter/releases/latest/download/tutorial-CustomListFormStarter.zip">LISTFORM STARTER PROJECT</a>
 </div>
 
 You are now ready to create your first list form template!
@@ -51,5 +51,7 @@ In this folder, you'll find:
 * **a manifest.json file** : includes a basic description of the template
 * **a template.svg file** : the visual representation of your template displayed when you define your list form content.
 * Source folder : including the **storyboard** (graphical interface) and **Swift** file (code for the form)
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
+
 
 What are these files? What are they used for? How can you customize them?

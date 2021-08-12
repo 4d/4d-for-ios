@@ -24,7 +24,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROYECTO STARTER LISTFORM</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListFormStarter/releases/latest/download/tutorial-CustomListFormStarter.zip">PROYECTO STARTER LISTFORM</a>
 </div>
 
 ¡Ahora está listo para crear su primera plantilla de formulario listado!
@@ -39,7 +39,7 @@ Luego abra el archivo Contact.4dbase con 4D. (Archivo > Abrir > Mobile Project >
 
 Finalmente, en la **Sección Formulario** del editor del proyecto, verá que su plantilla de formulario listado se ha agregado exitosamente a la lista de plantillas de formularios Lista disponibles.
 
-![Forms section](assets/en/custom-listform/custom-listform-template.png)
+![Sección Formularios](assets/en/custom-listform/custom-listform-template.png)
 
 Ahora concentrémonos en el contenido de la carpeta **Custom List form**.
 
@@ -51,5 +51,7 @@ En esta carpeta, encontrará:
 * **Un archivo manifest.json** que incluye una descripción básica de la plantilla
 * **Un archivo template.svg**: la representación visual de su plantilla que se muestra cuando define el contenido de su formulario listado.
 * Carpeta Source: incluye los archivos **storyboard** (interfaz gráfica) y archivo **swift** (código para el formulario)
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
+
 
 ¿Qué son estos archivos? ¿Para qué se utilizan? ¿Cómo personalizarlos?

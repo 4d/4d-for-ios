@@ -14,7 +14,7 @@ Commençons par télécharger le Projet Starter :
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/archive/c006015afeb0e134d872152f53b8cd5e4dcb59bb.zip">PROJET STARTER 1 VERS N</a>
 </div>
 
 Dans ce tutoriel, nous allons créer une **application Task** à l'aide de 4D for iOS.
@@ -69,9 +69,9 @@ Dans la section Libellés & icônes, vous définirez :
 
 ![Related field in Forms section](assets/en/relations/One-to-n-relations-task-ios-app.png)
 
-Et le tour est joué ! Voilà comment fonctionnent vos liens 1 vers N fonctionnent dans 4D for iOS !
+Voilà comment fonctionnent vos liens 1 vers N fonctionnent dans 4D for iOS !
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 VERS N</a>
+href="https://github.com/4d-go-mobile/tutorial-OneToManyRelations/releases/latest/download/tutorial-OneToManyRelations.zip">PROJET FINAL 1 VERS N</a>
 </div>

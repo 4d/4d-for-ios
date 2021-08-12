@@ -1,6 +1,6 @@
 ---
 id: structure
-title: ストラクチャ
+title: ストラクチャー
 ---
 
 This section displays all of your database tables and fields exposed by 4D Mobile Service.

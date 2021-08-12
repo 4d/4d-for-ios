@@ -23,3 +23,4 @@ Por ejemplo, el archivo manifiest para la plantilla de formulario listado a cont
 1. **Tipo de Storyboard:** listform
 2. **Nombre de la plantilla:** Custom List form
 3. **Número de campos: ** tres campos en cada celda (imagen de perfil, título y subtítulo)
+4. **Tag:** `"___LISTFORMTYPE___": "Table"` table display

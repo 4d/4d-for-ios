@@ -52,6 +52,8 @@ Este es un ejemplo de un archivo de sesión generado para 4D for iOS:
 ```json
 {
 "application":{
+  "id":"com.contactApp.{
+"application":{
   "id":"com.contactApp.Contact",
   "name":"Contact",
   "version":"1.0.0"

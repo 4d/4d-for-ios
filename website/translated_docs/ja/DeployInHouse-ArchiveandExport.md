@@ -16,19 +16,19 @@ title: Archive and export your Project
 > * 512 x 512 px icon
 
 
-## ⒈ Xcodeの設定
+## ⒈ ⒈ Xcodeの設定
 
 Following validation of your account by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
 Xcode will automatically install required provisioning and certificates.
 
-## ⒉ Team IDを取得する
+## ⒉ ⒉ Team IDを取得する
 
 * Log into your Apple Developer Account. You can find your Team ID in Membership.
 
-![Team IDを取得する](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
+![⒉ Team IDを取得する](assets/en/deploy-in-house/Team-ID-4D-for-iOS.png)
 
-## ⒊ 4D for iOS configuration
+## ⒊ ⒊ 4D for iOS configuration
 
 * Launch 4D for iOS
 
@@ -43,13 +43,13 @@ Xcode will automatically install required provisioning and certificates.
 * On the BUILD tab:
     * Build and Run: Build your project.
 
-## ⒋ Open your project with Xcode
+## ⒋ ⒋ Open your project with Xcode
 
 * From the 4D for iOS Project Editor's BUILD tab, click on Project > Open the project with Xcode
 
 ![pen your project with Xcode ](assets/en/deploy-in-house/Open-your-project-Xcode-4D-for-iOS.png)
 
-## ⒌ Archive your project from Xcode
+## ⒌ ⒌ Archive your project from Xcode
 
 * From Xcode, go to the simulator Menu and select **Generic iOS Device**
 
@@ -59,21 +59,21 @@ Xcode will automatically install required provisioning and certificates.
 
 ![Archive your Project](assets/en/deploy-in-house/Archive-your-Project.png)
 
-## ⒍ Export your project
+## ⒍ ⒍ Export your project
 
 * At the end of the archive process, the Organizer window appears with the archive you just created
 
 * Click **Export**.
 
-![Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
+![⒍ Export your project](assets/en/deploy-in-house/Organizer-window-archive.png)
 
-## ⒎ Select your distribution method
+## ⒎ ⒎ Select your distribution method
 
 * Select **Enterprise** and click **Next**.
 
 ![Distribution Method](assets/en/deploy-in-house/Distribution-Method-selection.png)
 
-## ⒏ Select your Enterprise distribution options
+## ⒏ ⒏ Select your Enterprise distribution options
 
 * You can leave all option boxes checked.
 
@@ -139,24 +139,53 @@ Here is an example of a manifest.plist file :
         </dict>
     </array>
 </dict>
+</plist>Contact.ipa</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_57.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://...Contact_icon_512.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.contactApp.ContactDemoapp</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Contact Demo app</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
 </plist>
 ```
 
 
-## ⒐ Distribution manifest information
+## ⒐ ⒐ Distribution manifest information
 
 * We recommand letting Xcode do the job of entering your app URL as well as the icons URLs. You will, of course, have the option to change those URLs later.
 
-![Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
+![⒐ Distribution manifest information](assets/en/deploy-in-house/Distribution-manifest-information.png)
 
 * Click **Next**.
 
 
-## ⒑ Re-sign your application
+## STEP 11. Review your app.ipa content
 
 * Let Xcode manage the **Automatically manage signing** option.
 
-![Re-sign your application](assets/en/deploy-in-house/Re-sign-your-application.png)
+![Review your app.ipa content](assets/en/deploy-in-house/Re-sign-your-application.png)
 
 * Click **Next**.
 

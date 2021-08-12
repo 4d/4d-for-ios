@@ -6,7 +6,7 @@ title: Contatos do App
 
 > **OBJETIVOS**
 > 
-> Criar sua primeira aplicação com 4D for iOS
+> Criar sua primeira aplicação com 4D for iOS **PRÉ-REQUISITOS**
 > **PRÉ-REQUISITOS**
 > 
 > Clique [aqui](prerequisites.html) para ver o que precisa para começar!
@@ -23,33 +23,34 @@ Baixe nosso projeto Starter, que contém um arquivo de banco de dados e o ícone
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-StarterContactApp/releases/download/0.0.1/tutorial-StarterContactApp.zip">PROJETO STARTER</a>
 </div>
 
 ## PASSO 2. Criando o projeto
 
 Vamos começar com uma estrutura muito simples, utilizando uma única tabela. De 4D, ir a **Novo > Projeto móvel**.
 
+A tela de Boas vindas exibe as principais etapas de criação de aplicações dessa ferramenta. 🙂
+
 Dê um nome a seu projeto e clique em **Criar**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
-## PASSO 3. Abrir o Editor de projeto
-
-Bem vindo a 4D for iOS! A tela de Boas vindas exibe as principais etapas de criação de aplicações dessa ferramenta. 🙂
-
-![Welcome Screen](assets/en/contact-app/Welcome-Screen-4D-for-iOS.png)
+Clique em **Continue**.
 
 Clique em **Continue**.
 
-## PASSO 4. Seções - geral
+![Geral](assets/en/contact-app/Contact-app-android-sdk-download.png)
+
+
+## PASSO 3. Seções - geral
 
 Aqui, poderá configurar a informação principal da aplicação:
 
 * **Organização:** escreva o nome de sua empresa e o identificador de aplicação (ex. “My Company” e com.MyCompany).
 * **Produto:** introduza o nome de sua aplicação. Vamos chamar este um "contato".
 * **ID:** (Pacote ID) é gerado automaticamente e é composto  do identificador de sua empresa e do nome de seu produto.
-* **Versão:** deixe a versão 1.0 e defina os direitos de autor de sua aplicação. É automaticamente recomendado usar os formatos oferecidos por 4D para iOS.
+* **Versão:** deixe a versão 1.0 e defina os direitos de autor de sua aplicação.
 * **Icones:** arraste e solte um ícone para sua aplicação na área do ícone.
 * **Desenvolvedor:** esta sub seção é preenchida automaticamente a partir do nome de usuário em seu computador. Copie/cole sua referência de time desenvolvedor (da sua conta de desenvolvedor) no campo Time. Também pode deixar o campo vazio para construir sua aplicação apenas no Simulador.
 
@@ -138,5 +139,5 @@ Cobrimos a criação básica de aplicações neste tutorial, e agora você pode 
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJETO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROJETO FINAL</a>
 </div>

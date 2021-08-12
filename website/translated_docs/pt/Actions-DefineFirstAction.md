@@ -14,7 +14,7 @@ Baixe o **Starter project** e vá para a seção **Actions**.
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJETO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">PROJETO STARTER</a>
 </div>
 
 Como vimos antes em [documentação de Ações](actions.html#ios-app-side), é possível definir ações em dois níveis:
@@ -56,15 +56,11 @@ Para fazer isso, clique no **botão Criar** na parte inferior direita da tabela 
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($o;$context;$request;$result)
+C_OBJECT($1) C_OBJECT($o;$context;$request;$result)
 
 $request:=$1  // Informações fornecidas pela aplicação móvel
 
-$context:=$request.context
-
-Case of
+$context:=$request.context Case of
 
     : ($request.action="taskDone")
 
@@ -78,9 +74,7 @@ Case of
     Else
 
           // Petição desconhecida
-        $result:=New object("success";False)
-
-End case
+        $result:=New object("success";False) End case
 
 $0:=$result  // Informações retornadas para a aplicação móvel
 
@@ -92,15 +86,11 @@ Logo que seu método banco de dados tiver sido editado, deve criar um método **
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
+C_OBJECT($1) C_OBJECT($dataClass;$entity;$in;$out;$status;$selection)
 
 $in:=$1
 
-$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID))
-
-If ($selection.length=1)
+$selection:=ds[$in.dataClass].query("ID = :1";String($in.ID)) If ($selection.length=1)
 
     $entity:=$selection[0]
 
@@ -121,12 +111,9 @@ If ($selection.length=1)
 
         $out:=$status  // retorna o estado do App
 
-    End if
+    End if Else
 
-Else
-
-    $out.success:=False  // notifa o App que a ação fracassou
-End if
+    $out.success:=False  // notifa o App que a ação fracassou End if
 
 $0:=$out
 
@@ -159,15 +146,11 @@ Clique no **botão Editar** na parte inferior direita da  tabela ação para com
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($o;$context;$request;$result)
+C_OBJECT($1) C_OBJECT($o;$context;$request;$result)
 
 $request:=$1  // Informações fornecida por aplicação móvel
 
-$context:=$request.context
-
-Case of
+$context:=$request.context Case of
 
     : ($request.action="taskDone")
 
@@ -188,9 +171,7 @@ Case of
     Else
 
           // Petição desconhecida
-        $result:=New object("success";False)
-
-End case
+        $result:=New object("success";False) End case
 
 $0:=$result  // Informações retornadas para aplicação móvel
 
@@ -203,15 +184,11 @@ A medida em cria o método **modifyStatus** siga o mesmo processo e crie um novo
 
 ```4d
 C_OBJECT($0)
-C_OBJECT($1)
-
-C_OBJECT($entity;$in;$out)
+C_OBJECT($1) C_OBJECT($entity;$in;$out)
 
 $in:=$1
 
-$out:=New object("success";False)
-
-If ($in.dataClass#Null)
+$out:=New object("success";False) If ($in.dataClass#Null)
 
     For each ($entity;ds[$in.dataClass].all())
 
@@ -221,13 +198,9 @@ If ($in.dataClass#Null)
     End for each
 
     $out.success:=True  // notifique o App que a ação teve sucesso
-    $out.dataSynchro:=True  // notifique o App para recarregar a seleção
+    $out.dataSynchro:=True  // notifique o App para recarregar a seleção Else
 
-Else
-
-    $out.errors:=New collection("No Selection")
-
-End if
+    $out.errors:=New collection("No Selection") End if
 
 $0:=$out
 
@@ -248,5 +221,5 @@ Pode baixar o **Projeto final** que inclui várias ações:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJETO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">PROJETO FINAL</a>
 </div>

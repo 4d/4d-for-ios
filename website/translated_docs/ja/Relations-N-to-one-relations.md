@@ -15,7 +15,7 @@ title: Ｎ対１リレーション
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-ManyToOneRelations/releases/latest/download/tutorial-ManyToOneRelations.zip">MANY TO ONE STARTER PROJECT</a>
 </div>
 
 Here we want to display the category for each task in the detail form of your generated app. To do so, open the **StarteriOSProject** from **Open > Mobile Project...**
@@ -34,7 +34,7 @@ Then go right to your Structure section and select the **Task table**.
 
 * 以降の画面では，リレートの１フィールドを他のフィールドと同じように扱うことができます。
 
-* リレートの１フィールドは，「データ」セクションのクエリフィルターでも使用することができます。 To do so enter `TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
+* リレートの１フィールドは，「データ」セクションのクエリフィルターでも使用することができます。 To do so enter `TaskCategory.To do so enter <code>TaskCategory.Name != 'Personal'` in the Filter query field to exclude personal tasks.
 
  ![「ラベル＆アイコン」セクションに表示された１フィールド](assets/en/relations/Related-field-from-Data-section.png)
 

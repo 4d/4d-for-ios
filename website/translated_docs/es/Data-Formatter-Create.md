@@ -22,7 +22,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROYECTO STARTER - FORMATO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/archive/66d7eea49bc3353f73dbf784ee06283b3a332d0b.zip">PROYECTO STARTER - FORMATO PERSONALIZADO</a>
 </div>
 
 ¡Ahora está listo para crear a sus primeros formatos!
@@ -38,7 +38,7 @@ Primero, cree una carpeta Task Management.4dbase/Resources/Mobile/formatters</em
 ### Número entero a cadena
 
 * Cree una carpeta **integerToString** en la carpeta de Formats que acaba de crear.
-* Cree un archivo </strong>manifest.json** en la carpeta **integerToString**.</li> </ul>
+* Cree un archivo </strong>manifest.json** en la carpeta **integerToString**.
 
 ![Formatter folder](assets/en/custom-formatter/formatter-folder-integertostring.png)
 
@@ -160,6 +160,50 @@ Veamos el contenido del archivo **manifest.json**:
 }
 
 ```
+## Abrir un proyecto móvil
+
+Whether your device is in dark or light mode, whether you're working on iOS or Android, you can easily use the custom data formatters containing images. The pictures will be adapted depending on the phone's color mode.
+
+### Tintable color
+
+To optimize the color contrast of your black and white images on your app depending on the color mode (light or dark), you can set the images as follows, with the `"tintable": true` code line:
+
+```json
+{
+   "name": "textToImage",
+   "type": ["text"],
+   "binding": "imageNamed",
+   "choiceList": {"car":"car.png","plane":"plane.png","bus":"bus.png"},
+   "assets": {
+     "size": 54, 
+     "tintable": true
+     }
+}
+```
+Here is the result in light mode and in dark mode:
+
+<img src="assets/en/data-formatter/light-black-and-white.png" alt="drawing"  width="250" /> <img src="assets/en/data-formatter/dark-black-and-white.png" alt="drawing" width="250" />
+
+### Optimized color pictures
+
+To optimize the color pictures displayed on your app and adapt them to your color mode, you need to have two pictures: one for the light mode, and one for the dark mode suffixed with `_dark`, as follows:
+
+<img src="assets/en/data-formatter/Architecture.jpg" alt="drawing" width="600" />
+
+```json
+{
+   "name": "textToImage",
+   "type": ["text"],
+   "binding": "imageNamed",
+   "choiceList": {"car":"car.png","plane":"plane.png","bus":"bus.png"},
+   "assets": {
+     "size": 54
+   }
+}
+```
+Here is the result in light mode and in dark mode:
+
+<img src="assets/en/data-formatter/light-color.png" alt="drawing" width="250" /> <img src="assets/en/data-formatter/dark-color.png" alt="drawing" width="250" />
 
 ## Abrir un proyecto móvil
 
@@ -185,5 +229,5 @@ Haga clic en el botón **FORMAT FINAL** a continuación para descargar la carpet
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDataFormatter/releases/latest/download/tutorial-CustomDataFormatter.zip">FORMAT FINAL</a>
 </div>

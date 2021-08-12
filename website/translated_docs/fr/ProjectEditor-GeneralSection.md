@@ -5,7 +5,7 @@ title: Général
 
 Cette section vous permet de renseigner les principales informations de votre application.
 
-![General section](assets/fr/project-editor/General-section-4D-for-iOS.png)
+![General section](assets/en/project-editor/General-section.png)
 
 **Organisation :** Saisissez votre nom ou celui de votre entreprise.
 
@@ -28,7 +28,12 @@ Par exemple, si le nom de votre entreprise est "MyCompany" et que le nom de votr
 > **ASTUCES**
 > 
 > * Si vous avez déjà une icône pour votre application desktop, vous pouvez la glisser-déposer directement dans la zone de l’icône.
-> * **Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application !
+
+**Magique !** 4D for iOS identifie automatiquement la couleur dominante de l’icône de votre application et l’utilise pour effectuer un jeu de couleurs personnalisé pour votre application ! Whether you're on iOS or Android, the main color will be applied on templates for the navigation bar, the buttons, etc. However, you can modify the default main color and select another one thanks to the color picker, by clicking on "Use the system color selector".
+
+![General section](assets/en/project-editor/General-section-main-color-selector.png) ![General section](assets/en/project-editor/General-section-main-color-selector3.png)
+
+At any time, you can reset the main color and get back to the icon's preset main color, by clicking on "Use the main color of the icon".
 
 **Développeur :**Ce champ est renseigné automatiquement avec le nom de votre compte utilisateur.
 

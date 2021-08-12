@@ -69,7 +69,7 @@ A continuación, haga clic en el botón **Add New Constraints** y añada una nue
 
 En este punto, todas las restricciones de la foto de perfil deben ser azules.
 
-¡Felicitaciones! Su foto de perfil está ahora bien ubicada con las restricciones correctas.
+¡Felicitaciones! ¡Felicitaciones! Su foto de perfil está ahora bien ubicada con las restricciones correctas.
 
 > **RECOMENDACIONES**
 > 

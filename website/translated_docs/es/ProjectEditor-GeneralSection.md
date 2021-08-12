@@ -5,13 +5,13 @@ title: General
 
 Esta sección le permite definir la información principal de su aplicación.
 
-![General section](assets/en/project-editor/General-section-4D-for-iOS.png)
+![General section](assets/en/project-editor/General-section.png)
 
 **Organización:** ingrese su nombre o el de su empresa.
 
 **Identificador:** ingrese el « Bundle ID » de su empresa. Esto se utilizará para identificar su aplicación. El nombre del producto que ingresa se concatena para crear el valor por defecto del “Bundle ID” utilizando la notación inversa del nombre de dominio. Este "bundle ID" debe ser único para su aplicación.
 
-Por ejemplo, si el nombre de su empresa es "MyCompany" y el nombre de su aplicación es "MyApp", podría elegir "com.MyCompany" como su identificador de empresa y su ID de grupo de aplicaciones sería com.MyCompany.MyApp.
+Por ejemplo, si el nombre de su empresa es "MyCompany" y el nombre de su aplicación es "MyApp", podría elegir "com.MyCompany" como su identificador de empresa y su ID de grupo de aplicaciones sería com.MyCompany.MyApp.MyCompany" como su identificador de empresa y su ID de grupo de aplicaciones sería com.MyCompany.MyApp.
 
 > **NOTA**
 > 
@@ -25,10 +25,15 @@ Por ejemplo, si el nombre de su empresa es "MyCompany" y el nombre de su aplicac
 
 **Iconos:** 4D for iOS le permite crear iconos de aplicaciones de varias maneras, de acuerdo con las directivas de Apple, que incluyen arrastrar y soltar sus iconos directamente desde su ordenador al área de iconos. ¡4D for iOS genererà todos los formatos requeridos!
 
-> **RECOMENDACIONES**
+> **CONSEJO**
 > 
 > * Si ya tiene un icono para su aplicación de escritorio, puede arrastrarlo y soltarlo directamente en el área del icono.
-> * **Aquí está el truco:** 4D for iOS determina automáticamente el color dominante del icono de su aplicación y lo utiliza para generar un esquema de color personalizado para su aplicación!
+
+**Aquí está el truco:** 4D for iOS determina automáticamente el color dominante del icono de su aplicación y lo utiliza para generar un esquema de color personalizado para su aplicación! Whether you're on iOS or Android, the main color will be applied on templates for the navigation bar, the buttons, etc. However, you can modify the default main color and select another one thanks to the color picker, by clicking on "Use the system color selector".
+
+![General section](assets/en/project-editor/General-section-main-color-selector.png) ![General section](assets/en/project-editor/General-section-main-color-selector3.png)
+
+At any time, you can reset the main color and get back to the icon's preset main color, by clicking on "Use the main color of the icon".
 
 **Desarrollador:**este campo se llena automáticamente con el nombre de su cuenta de usuario.
 

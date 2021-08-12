@@ -10,6 +10,13 @@ title: FAQ
     **Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS ?**
 </summary>
 
+4D for Android is currently under development. A preview version is available starting with 4D v19.
+
+</details> <details>
+<summary>
+    **Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS ?**
+</summary>
+
 Avec 4D for iOS, vous pouvez facilement créer de nouveaux projets mobiles directement depuis 4D, sans qu'une connaissance préalable dans la création d’applications iOS natives soit nécessaire !
 
 L'éditeur de projet mobile a été conçu de façon à ce que 4D for iOS soit utilisé sans aucune connaissance spécifique en développement d’applications mobiles.

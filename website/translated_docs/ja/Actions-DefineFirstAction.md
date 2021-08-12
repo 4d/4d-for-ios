@@ -14,7 +14,7 @@ Download the **Starter project** and go right to the **Actions section**.
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">素材プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">素材プロジェクト</a>
 </div>
 
 [アクションのドキュメント](actions.html#ios-app-side)で述べたように，アクションは下記いずれかのレベルに対して設定することができます。
@@ -27,7 +27,7 @@ href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e40
 
 ## エンティティに対するアクション
 
-### ⒈ 「アクション」セクションで設定すること
+### ⒈ ⒈ 「アクション」セクションで設定すること
 
 In this Actions section, you will be able to define all your actions **names**, **icons**, **labels**, the **table** you want the action to be available in and the **scope** you want actions to be applied on.
 
@@ -48,7 +48,7 @@ Let's define first an action that will **change a task status** to "Complete" an
 
 ![完了アクションの設定](assets/en/actions/Done-action-definition.png)
 
-### ⒉ データベースメソッドの作成と編集
+### ⒉ ⒉ データベースメソッドの作成と編集
 
 Now that your action is defined in the Project Editor, you have to create the [**On Mobile App Action**](https://livedoc.4d.com/4D-Language-Reference-17-R5/Database-Methods/On-Mobile-App-Action-database-method.301-4286697.en.html) database Method.
 
@@ -86,7 +86,7 @@ $0:=$result  // モバイルアプリに返される情報
 
 ```
 
-### ⒊ "modifyStatus" メソッドの作成
+### ⒊ ⒊ "modifyStatus" メソッドの作成
 
 Once your database method has been edited, you have to create a **modifyStatus** Method that will make the job :
 
@@ -105,6 +105,31 @@ If ($selection.length=1)
     $entity:=$selection[0]
 
     $entity.CompletePercentage:=$in.CompletePercentage
+
+    $entity.Status:=3
+
+    $status:=$entity.save()
+
+    $out:=New object
+
+    If ($status.success)
+
+        $out.success:=True  // notify App that action is successful
+        $out.dataSynchro:=True  // notify App to refresh this entity
+
+    Else
+
+        $out:=$status  // return status to the App
+
+    End if
+
+Else
+
+    $out.success:=False  // notify App that action failed
+
+End if
+
+$0:=$outCompletePercentage:=$in.CompletePercentage
 
     $entity.Status:=3
 
@@ -198,7 +223,7 @@ $0:=$result  // モバイルアプリに返される情報
 ```
 
 
-### ⒊ "postponeAll" メソッドの作成
+### ⒊ ⒊ "postponeAll" メソッドの作成
 
 As you create the **modifyStatus** Method, follow the same process and create a new **postponeAll** Method that will modify all record status:
 
@@ -217,6 +242,20 @@ If ($in.dataClass#Null)
     For each ($entity;ds[$in.dataClass].all())
 
         $entity.Status:=$in.Status
+        $entity.save()
+
+    End for each
+
+    $out.success:=True  // notify App that action success
+    $out.dataSynchro:=True  // notify App to refresh the selection
+
+Else
+
+    $out.errors:=New collection("No Selection")
+
+End if
+
+$0:=$outStatus:=$in.Status
         $entity.save()
 
     End for each
@@ -249,5 +288,5 @@ You can download the **Final project** that includes various actions:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">完成プロジェクト</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">完成プロジェクト</a>
 </div>

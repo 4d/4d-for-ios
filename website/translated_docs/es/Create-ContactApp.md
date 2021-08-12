@@ -6,7 +6,7 @@ title: Aplicación Contacts
 
 > **OBJETIVOS**
 > 
-> Cree su primera aplicación con 4D for iOS
+> Cree su primera aplicación con 4D for iOS **REQUISITOS PREVIOS**
 > **REQUISITOS PREVIOS**
 > 
 > Haga clic [aquí](prerequisites.html) para ver lo que necesita para empezar.
@@ -23,33 +23,34 @@ Descargue nuestro proyecto Starter, que contiene un archivo de base de datos y e
 <div markdown="1" style="text-align: center; margin-top: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/archive/acbb699c3c9d9edd3a8bbb715e87c17140b7e15f.zip">PROYECTO STARTER</a>
+href="https://github.com/4d-go-mobile/tutorial-StarterContactApp/releases/download/0.0.1/tutorial-StarterContactApp.zip">PROYECTO STARTER</a>
 </div>
 
 ## PASO 2. Creación del proyecto
 
 Vamos a empezar con una estructura muy simple, utilizando una sola tabla. De 4D, ir a **Nuevo > Proyecto móvil**.
 
+La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂
+
 De un nombre a su proyecto y haga clic en **Crear**.
 
 ![Project Creation](assets/en/contact-app/Project-creation-4D-for-iOS.png)
 
-## PASO 3. Abrir el editor de proyectos
-
-¡Bienvenido a 4D for iOS! La pantalla de bienvenida muestra las principales etapas de creación de aplicaciones de esta magnífica herramienta. 🙂
-
-![Welcome Screen](assets/en/contact-app/Welcome-Screen-4D-for-iOS.png)
+Haga clic en **Continue**.
 
 Haga clic en **Continue**.
 
-## PASO 4. Secciones - General
+![General](assets/en/contact-app/Contact-app-android-sdk-download.png)
+
+
+## PASO 3. Secciones - General
 
 Aquí, podrá configurar la información principal de la aplicación:
 
-* **Organización:** escriba el nombre de su empresa y el identificador de aplicación (ej. “My Company” y com.MyCompany).
+* **Organización:** escriba el nombre de su empresa y el identificador de aplicación (ej.“My Company” y com.MyCompany).
 * **Producto:** introduzca el nombre de su aplicación. Llamémosla "Contact".
 * **ID:** (Paquete ID) se genera automáticamente y se compone del identificador de su empresa y del nombre de su producto.
-* **Versión:** deje la versión 1.0 y defina los derechos de autor de su aplicación. Es muy recomendable utilizar los formatos ofrecidos por 4D for iOS.
+* **Versión:** deje la versión 1.0 y defina los derechos de autor de su aplicación.
 * **Iconos:** arrastre y suelte un icono para su aplicación en el área del icono.
 * **Desarrollador:** esta sub sección se rellena automáticamente a partir del nombre de usuario en su ordenador. Copie/pegue la referencia de su equipo de desarrolladores (desde su cuenta desarrollador) en el campo Equipo. También puede dejar vacío para generar su aplicación únicamente en el simulador.
 
@@ -66,7 +67,7 @@ Para nuestro ejemplo, seleccione **ID**, **First Name**, **Last Name**, **Job**,
 > Recomendamos publicar su llave primaria para identificar cada registro de su base
 
 
-![Structure](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
+![Estructura](assets/en/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
 ## PASO 6. Secciones - Iconos y etiquetas
 
@@ -128,7 +129,7 @@ Y por último, definimos el formulario detallado.
 * Haga clic en la pestaña **Generar**.
 * Seleccione un dispositivo a utilizar como Simulador haciendo clic en el botón dispositivo.
 * Haga clic en  **Generar y ejecutar**.
-* Espere unos segundos y …. ¡Listo! ¡Su aplicación iOS está creada!
+* Espere unos segundos y …. ¡Listo! Your iOS or your Android app is alive!
 
 ![Build and Run](assets/en/contact-app/Build-the-app-simulator.png)
 
@@ -138,5 +139,5 @@ Hemos cubierto la creación de una aplicación básica en este tutorial, y ahora
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROYECTO FINAL</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">PROYECTO FINAL</a>
 </div>

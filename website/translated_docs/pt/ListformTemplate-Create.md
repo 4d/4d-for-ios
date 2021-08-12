@@ -24,7 +24,7 @@ Antes de começar, baixe o **Starter Project** que inclui:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomListFormStarter/archive/4702619ed628a98f7cba5aacc08b6302d4bb8f86.zip">PROJETO STARTER LISTFORM</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomListFormStarter/releases/latest/download/tutorial-CustomListFormStarter.zip">PROJETO STARTER LISTFORM</a>
 </div>
 
 Já está pronto para criar seu primeiro modelo de formulário lista!
@@ -51,5 +51,7 @@ Nesta pasta vai encontrar:
 * Um arquivo**manifest.json** : inclui uma descrição básica do modelo
 * Um arquivo**template.svg** : a representação visual de seu modelo que é mostrada quando definir o conteúdo de seu formulário lista.
 * Pasta Source : inclui os arquivos **storyboard** (interface gráfica) e **Swift** (código para o formulário)
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
+
 
 Que são estes arquivos? Para que são usados? Como personalizá-los?

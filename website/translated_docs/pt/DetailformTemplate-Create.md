@@ -24,7 +24,7 @@ Para começar, baixe o **Starter Project**, que inclui:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailFormStarter/releases/latest/download/tutorial-CustomDetailFormStarter.zip">PROJETO STARTER - FORMATO DETALHADO PERSONALIZADO</a>
 </div>
 
 Agora está pronto para criar o seu primeiro modelo de formulário detalhado!
@@ -49,5 +49,6 @@ Agora vamos focar na pasta de conteúdo **Custom Detail form** folder content.
 * Um arquivo ** manifest.json** que inclui uma descripção básica do modelo
 * Um arquivo **a template.svg** que será a representação de seu modelo que se mostrará quando defina o conteúdo de seu formulário listado e onde arrastará e soltará seus campos
 * Pasta Source que inclui os arquivos **storyboard** (interface gráfica) e **swift** (código para o formulário)
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
 
 O que são estes arquivos, para que servem e como podem ser personalizados?

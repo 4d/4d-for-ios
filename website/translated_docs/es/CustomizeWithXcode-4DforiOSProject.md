@@ -5,7 +5,7 @@ title: Organizar un proyecto 4D for iOS
 
 Desde la pestaña Navegation, ir a Sources.
 
-Aquí encontrará las carpetas Structure y Forms. Contienen todos los archivos necesarios para la estructura y los formularios de su base de datos, incluyendo:
+Aquí encontrará las carpetas Estructura y Formularios. Contienen todos los archivos necesarios para la estructura y los formularios de su base de datos, incluyendo:
 
 * Launch screen - aparece cuando se inicia la aplicación.
 * Login screen - aparece cuando se activa la autenticación.

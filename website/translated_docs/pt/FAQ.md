@@ -10,6 +10,13 @@ title: FAQ
     **Preciso de experiência específica para usar o 4D for iOS?**
 </summary>
 
+4D for Android is currently under development. A preview version is available starting with 4D v19.
+
+</details> <details>
+<summary>
+    **Preciso de experiência específica para usar o 4D for iOS?**
+</summary>
+
 Com 4D for iOS, pode criar facilmente projetos móveis diretamente desde 4D, sem necessidade de experiência prévia na criação de aplicações iOS nativas!
 
 O editor de projetos móveis foi criado para que seja possível usar 4D for iOS sem nenhum conhecimento específico no desenvolvimento de aplicações móveis.

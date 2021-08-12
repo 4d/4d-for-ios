@@ -20,6 +20,9 @@
       "contact-app": {
         "title": "Application Contacts"
       },
+      "custom-login-form": {
+        "title": "Custom Login Form"
+      },
       "4d-for-ios-project-organization": {
         "title": "Organiser un projet 4D for iOS"
       },
@@ -43,6 +46,15 @@
       },
       "data-formatter": {
         "title": "Format des données"
+      },
+      "debugging-from-iphone": {
+        "title": "Depuis votre iPhone"
+      },
+      "debugging-from-the-project-editor": {
+        "title": "Depuis l'éditeur de projet"
+      },
+      "debugging-from-xcode": {
+        "title": "Depuis Xcode"
       },
       "deploy-app-store-archive-and-upload": {
         "title": "Archiver et télécharger un projet"
@@ -84,8 +96,26 @@
         "title": "Template.svg",
         "sidebar_label": "Template.svg"
       },
+      "layout-detailform-template": {
+        "title": "Android Layout"
+      },
       "faq": {
         "title": "FAQ"
+      },
+      "authentication": {
+        "title": "Authentification email"
+      },
+      "deep-linking": {
+        "title": "Deep Linking"
+      },
+      "push-notification": {
+        "title": "Notifications Push"
+      },
+      "gallery-template-install": {
+        "title": "Installer un template"
+      },
+      "gallery-template-update": {
+        "title": "Mettre à jour un template"
       },
       "overview": {
         "title": "Aperçu"
@@ -123,6 +153,9 @@
       "icon-listform-template": {
         "title": "Icônes des formulaires Liste"
       },
+      "layout-listform-template": {
+        "title": "Android Layout"
+      },
       "multi-criteria-search": {
         "title": "Recherche multicritères"
       },
@@ -155,6 +188,9 @@
       },
       "structure": {
         "title": "Structure"
+      },
+      "relations-interactions": {
+        "title": "Relation interactions"
       },
       "many-to-one-relations": {
         "title": "Liens N vers 1"
@@ -203,21 +239,6 @@
       },
       "xcode": {
         "title": "Xcode"
-      },
-      "debugging-from-the-project-editor": {
-        "title": "Depuis l'éditeur de projet"
-      },
-      "debugging-from-xcode": {
-        "title": "Depuis Xcode"
-      },
-      "debugging-from-iphone": {
-        "title": "Depuis votre iPhone"
-      },
-      "authentication": {
-        "title": "Authentification email"
-      },
-      "push-notification": {
-        "title": "Notifications Push"
       }
     },
     "links": {
@@ -225,7 +246,9 @@
       "Tutorials": "Tutoriels",
       "Templates & Formatters": "Modèles & Formats",
       "FAQ": "FAQ",
-      "4D Doc": "Doc 4D"
+      "v19 R2 BETA": "v19 R2 BETA",
+      "v19": "v19",
+      "v18": "v18"
     },
     "categories": {
       "Getting started": "Prise en main",
@@ -235,18 +258,19 @@
       "Deploying In-House": "Déploiement interne",
       "Deploying on App Store": "Déploiement sur App Store",
       "Debugging": "Débogage",
-      "Creating your iOS App": "Créer une application iOS",
+      "Creating your mobile App": "Creating your mobile App",
       "Customizing with Xcode": "Personnaliser avec Xcode",
       "Creating List forms": "Créer des formulaires Liste",
       "Creating Detail forms": "Créer des formulaires détaillés",
+      "Gallery": "Galerie",
       "Using icons": "Utiliser des icônes",
       "Data formatter": "Format des données",
       "Multi-criteria search": "Recherche multicritères",
       "Restricted queries": "Recherche restreinte",
       "Actions": "Actions",
       "Relations": "Liens",
-      "Templates & Formatters": "Modèles & Formats",
-      "Features": "Fonctionnalités"
+      "Features": "Fonctionnalités",
+      "Templates & Formatters": "Modèles & Formats"
     }
   },
   "pages-strings": {

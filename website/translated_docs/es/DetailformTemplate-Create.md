@@ -24,7 +24,7 @@ Para comenzar, descargue el **Starter Project**, que incluye:
 
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-CustomDetailFormStarter/archive/67c9c2f4672083e999a4a592a069d7ca45b3351e.zip">PROYECTO STARTER - FORMATO DETALLADO PERSONALIZADO</a>
+href="https://github.com/4d-go-mobile/tutorial-CustomDetailFormStarter/releases/latest/download/tutorial-CustomDetailFormStarter.zip">PROYECTO STARTER - FORMATO DETALLADO PERSONALIZADO</a>
 </div>
 
 ¡Ahora está listo para crear a su primera plantilla de formulario detallado!
@@ -39,7 +39,7 @@ Luego abra Contact.4dbase con 4D. y vaya a File > open > Mobile Project... para 
 
 A continuación, vaya a la **sección Formularios** en el editor de proyectos. ¡Verá que la plantilla de formulario detallado personalizada se ha agregado correctamente a la lista de plantillas!
 
-![Forms section](assets/en/custom-detailform/custom-detailform-template.png)
+![Sección Formularios](assets/en/custom-detailform/custom-detailform-template.png)
 
 Ahora concentrémonos en el contenido de la carpeta **Custom Detail form**.
 
@@ -49,5 +49,6 @@ Ahora concentrémonos en el contenido de la carpeta **Custom Detail form**.
 * Un archivo **a manifest.json** que incluye una descripción básica de la plantilla
 * Un archivo **a template.svg** que será la representación de su plantilla que se mostrará cuando defina el contenido de su formulario listado y dónde arrastrará y soltará sus campos
 * Carpeta Source que incluye los archivos **storyboard** (interfaz gráfica) y **swift** (código para el formulario)
+* **android folder** that includes the layout.xml file (graphical interface) in app > src > main > res > layout folder
 
 ¿Qué son esos archivos, para qué sirven y cómo personalizarlos?

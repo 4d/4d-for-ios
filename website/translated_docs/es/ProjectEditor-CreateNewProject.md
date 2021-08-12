@@ -32,7 +32,7 @@ La ventana principal consta de dos pestañas:
 En la pestaña Secciones, encontrará todos los pasos necesarios para crear su aplicación 4D for iOS:
 
 * General
-* Structure
+* Estructura
 * Datos
 * Actions
 * Etiquetas e iconos

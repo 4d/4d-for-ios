@@ -64,4 +64,4 @@ Vaya a la [página de creación del identificador Apple ID](https://appleid.appl
 
 * Cuando haya completado su compra, recibirá un correo electrónico confirmando su adhesión al programa.
 
-¡Felicitaciones! ¡Ya está listo para publicar aplicaciones en la App Store!
+¡Felicitaciones! ¡Felicitaciones! ¡Ya está listo para publicar aplicaciones en la App Store!

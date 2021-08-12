@@ -14,7 +14,7 @@ Download the **Starter project** and go right to the **Actions section**.
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">STARTER-PROJEKT</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/archive/cf16581214a8a6e4e4067bcff43ac1265ec43ff7.zip">STARTER-PROJEKT</a>
 </div>
 
 As we've seen before in the [Action section documentation](actions.html#ios-app-side), you can define action for two levels:
@@ -249,5 +249,5 @@ You can download the **Final project** that includes various actions:
 <div markdown="1" style="text-align: center; margin-top: 20px; margin-bottom: 20px">
 
 <a class="button"
-href="https://github.com/4d-for-ios/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">FINAL PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-Actions/releases/latest/download/tutorial-Actions.zip">FINAL PROJECT</a>
 </div>

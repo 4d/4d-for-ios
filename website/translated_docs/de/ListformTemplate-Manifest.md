@@ -23,3 +23,4 @@ For example, the manifest file for the above list form template  includes the fo
 1. **Storyboard type:** listform
 2. **Template Name:** Custom List form
 3. **Field number:** Three fields in each cell (profile image, title, and subtitle)
+4. **Tag:** `"___LISTFORMTYPE___": "Table"` table display

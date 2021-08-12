@@ -144,15 +144,23 @@ Estos son los diferentes **formatos** que puede seleccionar para un parámetro:
 
 </table>
 
-### Acciones predefinidas
+## Acciones predefinidas
 
 4D for iOS incluye tres acciones (predefinidas) para administrar el contenido de su aplicación:
 
 * Editar
 * Acción de añadir
 * Acción de eliminar
+* Share
+* Sort
 
-#### 1. Acción de añadir
+4D for iOS simplifica al máximo la creación de **acciones de adición**.
+
+* los parámetros, agregando o eliminando un parámetro utilizando los **botones + y -** en la parte inferior de la lista de parámetros de acciones.
+* las propiedades, definiéndolas como desee.
+
+
+### Acción de añadir
 
 4D for iOS simplifica al máximo la creación de **acciones de adición**.
 
@@ -160,21 +168,21 @@ Lo único que debe hacer es seleccionar la opción **Acción de adición para**,
 
 ![Add actions](assets/en/project-editor/Actions-Add-action-4D-for-iOS.png)
 
-Luego **seleccione la tabla** que quiere asociar a la acción añadir. ¡Y listo!
+Luego **seleccione la tabla** que quiere asociar a la acción añadir.
 
 Esto **creará automáticamente** todos los parámetros en el Editor de proyectos. En la aplicación generada, esto le permitirá editar cada valor de campo.
 
 Para ese tipo de acción, verá que todas las **propiedades** ya están completadas para su conveniencia al lado derecho de la lista de parámetros.
 
 
-#### 2. Acción de edición
+### Acción de edición
 
 La creación de **acciones de edición** sigue el mismo proceso que las acciones de adición, con la excepción de que no podrá definir valores predeterminados desde la sección Acciones.
 
 ![Edit actions](assets/en/project-editor/Actions-Edit-action-4D-for-iOS.png)
 
 
-#### 3. Acción de eliminación
+### Acción de eliminación
 
 La creación de **acciones de eliminación ** sigue el mismo proceso que las acciones de edición. La única diferencia es que esta acción le permite eliminar una entidad.
 
@@ -184,10 +192,55 @@ Este tipo de acción debe utilizarse con precaución.
 
 ![Delete actions](assets/en/project-editor/Actions-Delete-action-4D-for-iOS.png)
 
-Para las acciones de edición y adición, puede modificar:
 
-* los parámetros, agregando o eliminando un parámetro utilizando los **botones + y -** en la parte inferior de la lista de parámetros de acciones.
-* las propiedades, definiéndolas como desee.
+
+### Formularios Lista en tabla
+
+Selecting the **Share action** will allow your mobile users to share a content with other users. You just need to select the scope:
+
+- Para su comodidad, el formulario de Edición incluye algunas **funcionalidades especiales**:
+- Si ha creado una acción de edición o de adición, tan pronto como la seleccione de la lista de acciones, aparecerá un **formulario de edición**.
+
+Después de crear todas sus acciones, simplemente haga clic en el botón Crear de la tabla Acciones para generar automáticamente un bloque de código *Case of* que incluya todos los nombres de sus acciones en el método *On Mobile App Action*.
+
+### Formularios Lista en colección
+
+Un [tutorial](actions-getting-started.html) está disponible para guiarlo a través del **proceso de definición de una acción**.
+
+- **Acciones de tabla:** un botón de acciones genéricas está disponible en la barra de navegación para mostrar una lista de acciones de tabla.
+- allow your mobile users to choose a list sort order
+
+When you create a sort action for a table, you need to select the first field on which the sort will be done:
+
+<img src="../assets/en/actions/sortSelect.png" width="50%" />
+
+The field is added to the Sort Criteria list. An ascending sort order is set by default, but you can change it using the **Sort order** menu.
+
+You can sort entities in more than one field. Each field you sort is referred to as a sort level. For example, the results of a two-level ascending sort of the `lastName` and `firstName` fields would produce a list such as this:
+
+```
+Aardvark, Anthony
+Aardvark, Artemis
+Aardvark, Arthur
+...
+Zygote, Elena
+Zymosian, Elmer
+```
+
+Para crear una acción de eliminación, seleccione la opción **Acción de eliminación para**, accesible desde el **botón + ** en la parte inferior de la tabla Acciones.
+
+![sort](assets/en/actions/step2Ascending.png)
+
+
+#### Sort order menu on the mobile app
+
+When you define more than one sort action for a table, mobile users automatically benefit from a **sort** menu. It contains all the predefined sort actions:
+
+![sort](assets/en/actions/Sort-4D-for-iOS.gif)
+
+
+> When only one sort action is defined for a table, the **sort** menu is not displayed on the mobile app side.
+
 
 ### On Mobile App Action
 
@@ -195,15 +248,14 @@ El método base [On Mobile App Action](https://livedoc.4d.com/4D-Language-Refere
 
 Después de crear todas sus acciones, simplemente haga clic en el botón Crear de la tabla Acciones para generar automáticamente un bloque de código *Case of* que incluya todos los nombres de sus acciones en el método *On Mobile App Action*.
 
-> **NOTA**
-> 
+
 > * Puede refrescar la selección después de ejecutar una acción utilizando `$out.dataSynchro:=True`.
 > * Puede notificar al usuario de la aplicación cuando se ha ejecutado una acción utilizando `$out.statusText:="Message you want to display"`.
 > * También puede decidir forzar el cierre del formulario de edición utilizando `$out.close:=True`.
 
 
 
-### Acciones en modo sin conexión
+## Acciones en modo sin conexión
 
 The user of an iOS app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
 
@@ -226,6 +278,18 @@ They display all the tasks related to the table or to the entity that you are cu
 > * The "Share" predefined action is only executable online.
 > * Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
 
+### Formularios de edición
+
+Due to your server business logic, some tasks could be rejected. For mobile users, it is then possible to edit and to retry sending the relevant pending tasks. To do so, you can display a status text describing, in the "Complete" actions history, the reason of the failure. For example, you can reject an action sent by a mobile user to the server and inform him that the operation has failed. In that case, you can set the `success` value to `False` and provide a message in `statusText`, as follows:
+
+ ```4d
+ $response:=New object("success"; False; "statusText"; "Operation failed"))
+ ```
+ You can even add some errors by action parameters for the `alphaField` parameter, for example:
+
+  ```4d
+$response.errors:=New collection(New object("parameter"; "alphaField"; "message"; "Alpha field must contains a valide value")
+  ```
 
 ## Aplicación iOS
 
