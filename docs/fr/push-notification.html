@@ -118,13 +118,7 @@
 <p>Here's an example of the default behaviour, a <code>dataSynchro</code> request with the <code>open()</code> method:</p>
 <p><em>Note that for <code>open()</code> method exclusively, this is the default behaviour. As a result, if you don't specify the <code>dataSynchro</code> boolean value, it is <code>true</code> by default.</em></p>
 <pre><code class="hljs css language-4d">
-<span class="hljs-variable">$pushNotification</span>:=MobileAppServer.PushNotification.<span class="hljs-function">new</span>()
-
-<span class="hljs-variable">$notification</span>:=New object
-<span class="hljs-variable">$notification</span>.title:=<span class="hljs-string">"This is title"</span> 
-<span class="hljs-variable">$notification</span>.body:=<span class="hljs-string">"Here is the content of this notification"</span> 
-
-<span class="hljs-variable">$entity</span>:=ds.Employees.<span class="hljs-function">get</span>(<span class="hljs-string">"456456"</span>)
+<span class="hljs-variable">$pushNotification</span>:=MobileAppServer.<span class="hljs-variable">$pushNotification</span>:=MobileAppServer.Employees.<span class="hljs-function">get</span>(<span class="hljs-string">"456456"</span>)
 <span class="hljs-variable">$response</span>:=<span class="hljs-variable">$pushNotification</span>.<span class="hljs-function">open</span>(<span class="hljs-variable">$entity</span>; <span class="hljs-variable">$notification</span>; <span class="hljs-variable">$recipients</span>)
 
 </code></pre>
