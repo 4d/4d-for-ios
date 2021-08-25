@@ -73,13 +73,7 @@ Here's an example of the default behaviour, a `dataSynchro` request with the `op
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new()
-
-$notification:=New object
-$notification.title:="This is title" 
-$notification.body:="Here is the content of this notification" 
-
-$entity:=ds.Employees.get("456456")
+$pushNotification:=MobileAppServer.$pushNotification:=MobileAppServer.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```

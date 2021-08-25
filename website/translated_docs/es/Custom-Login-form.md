@@ -8,7 +8,7 @@ title: Custom Login Form
 > 
 > Use a custom login form
 > 
-> Allow authenticated users to login by scanning a QRCode
+> Allow authenticated users to login by scanning a QRCode **REQUISITOS PREVIOS**
 > **REQUISITOS PREVIOS**
 > 
 > A website with authenticated users

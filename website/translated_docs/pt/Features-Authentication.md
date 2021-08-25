@@ -72,8 +72,7 @@ Chame ao método **Activate sessions** no método de banco de dados **On Web Con
 C_TEXT($1)
 Case of 
 : (Mobile App Active Session($1).success)
-    //adicione um histórico se quiser
-End case 
+    //adicione um histórico se quiser End case 
 
 ```
 
@@ -114,8 +113,7 @@ $response:=New object
   // Declarar que a sessão atual está sendo verificada
 $response.verify:=True
 
-  // Verificar se o email foi enviado exitosamente
-If ($status.success)
+  // Verificar se o email foi enviado exitosamente If ($status.success)
       //criar um objeto compartido para nossas sessões, acessível desde todos os processos
     If (Storage.pendingSessions=Null)
         Use (Storage)
@@ -129,12 +127,10 @@ If ($status.success)
     End use 
 
     $response.success:=True
-    $response.statusText:="Por favor verifique sua caixa de mensagens"
-Else 
+    $response.statusText:="Por favor verifique sua caixa de mensagens" Else 
       // Mostrar uma mensagem de erro no telefone inteligente
     $response.statusText:="O email não foi enviado, por favor tente mais tarde"
-    $response.success:=False
-End if 
+    $response.success:=False End if 
 
 $0:=$response
 
@@ -145,22 +141,15 @@ $0:=$response
 Este método lhe permitirá ativar a sessão depois de clicar no link do correio eletrônico de confirmação.
 
 ```4d
-C_TEXT($1;$2;$3;$4;$5;$6)
-
-C_TEXT($token;$session)
-C_OBJECT($sessionFile;$sessionObject)
-
-If ($1="/activation/@")
+C_TEXT($1;$2;$3;$4;$5;$6) C_TEXT($token;$session)
+C_OBJECT($sessionFile;$sessionObject) If ($1="/activation/@")
     $token:=Substring($1;13)
 End if 
 
 
-  //ler a sessão desde a ID recebida da URL
-If (Storage.pendingSessions#Null)
+  //ler a sessão desde a ID recebida da URL If (Storage.pendingSessions#Null)
     $session:=Storage.pendingSessions[$token]
-End if 
-
-If ($session#"")
+End if If ($session#"")
       //obter pasta de sessão
     $sessionFile:=Folder(fk mobileApps folder).folder($session).file($token)
     $sessionObject:=JSON Parse($sessionFile.getText())
