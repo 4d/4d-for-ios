@@ -43,7 +43,7 @@ Here is an example to send a push notification to `test@4d.com`:
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new() 
+$pushNotification:=MobileAppServer.$pushNotification:=MobileAppServer.PushNotification.new() 
 $notification:=New object 
 $notification.title:="This is title" 
 $notification.body:="Here is the content of this notification" 
@@ -79,6 +79,12 @@ $notification:=New object
 $notification.title:="This is title" 
 $notification.body:="Here is the content of this notification" 
 
+$entity:=ds.$pushNotification:=MobileAppServer.PushNotification.new()
+
+$notification:=New object
+$notification.title:="This is title" 
+$notification.body:="Here is the content of this notification" 
+
 $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
@@ -95,6 +101,12 @@ $notification.title:="This is title"
 $notification.body:="Here is the content of this notification" 
 $notification.userInfo:=New object("dataSynchro"; False)
 
+$entity:=ds.$pushNotification:=MobileAppServer.PushNotification.new()
+
+$notification:=New object
+$notification.title:="This is title" 
+$notification.body:="Here is the content of this notification" 
+
 $entity:=ds.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
@@ -107,7 +119,7 @@ Here is a code example that you can also use with other methods, as long as you 
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new()
+$pushNotification:=MobileAppServer.$pushNotification:=MobileAppServer.PushNotification.new()
 
 $notification:=New object
 $notification.title:="This is title" 

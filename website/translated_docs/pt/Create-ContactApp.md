@@ -99,7 +99,7 @@ AGora é definir a ordem das tabelas no menu principal da aplicação.
 
 ## PASSO 8. Seções - formulários
 
-Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Pode escolher entre formulários lista e formulários detalhados.
+Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Já estamos quase terminando mas primeiro precisamos decidir no layout da aplicação Pode escolher entre formulários lista e formulários detalhados.
 
 * Selecione um modelo de formulário de lista para exibir sua tabela como uma lista. Para nossa aplilcação Contact, vamos usar o modelo **Profile**.
 

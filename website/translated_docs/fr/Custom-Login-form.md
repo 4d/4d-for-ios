@@ -8,7 +8,7 @@ title: Custom Login Form
 > 
 > Use a custom login form
 > 
-> Allow authenticated users to login by scanning a QRCode
+> Allow authenticated users to login by scanning a QRCode **CONDITIONS PRÉALABLES**
 > **CONDITIONS PRÉALABLES**
 > 
 > A website with authenticated users

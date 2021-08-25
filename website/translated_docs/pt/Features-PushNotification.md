@@ -73,13 +73,7 @@ Aqui um exemplo do comportamento normal,  uma petição `dataSynchro` com o mét
 
 ```4d
 
-$pushNotification:=MobileAppServer.PushNotification.new()
-
-$notification:=New object
-$notification.title:="Este é o título" 
-$notification.body:="Aqui está o conteúdo da notificação" 
-
-$entity:=ds.Employees.get("456456")
+$pushNotification:=MobileAppServer.$pushNotification:=MobileAppServer.Employees.get("456456")
 $response:=$pushNotification.open($entity; $notification; $recipients)
 
 ```

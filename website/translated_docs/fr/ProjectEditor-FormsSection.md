@@ -19,7 +19,7 @@ Voici la répartition de cet écran, de haut en bas :
 
 Des modèles simples et vierges sont utilisés par défaut pour les formulaires Liste et les formulaires détaillés d'une application.
 
-Sélectionnez un modèle pour votre première table. Cela fera apparaitre l’écran vous permettant de définir le contenu du formulaire. Vous pouvez ensuite faire glisser et déposer les champs de la liste directement sur le modèle affiché sur la droite. La plupart des formulaires Liste comprennent des champs facultatifs Recherche et Section.
+Sélectionnez un modèle pour votre première table. Sélectionnez un modèle pour votre première table. Vous pouvez ensuite faire glisser et déposer les champs de la liste directement sur le modèle affiché sur la droite. La plupart des formulaires Liste comprennent des champs facultatifs Recherche et Section.
 
 ![List form content definition](assets/fr/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 

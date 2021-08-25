@@ -73,7 +73,7 @@ title: FAQ
 **Do I need a 4D Web Server to run 4D for iOS?**
 </summary>
 
-いいえ。4D Server v17 R2 以降であれば，4D for iOS  のサーバーにすることができます。
+いいえ。 4D Server v17 R2 以降であれば，4D for iOS  のサーバーにすることができます。
 
 </details>
 
@@ -132,7 +132,7 @@ macOS プラットフォームの 4D Developer Pro v17 R2 以降です。
 **Can I modify and update data from my iOS app?**
 </summary>
 
-はい。もちろんです！
+はい。 もちろんです！
 
 </details>
 

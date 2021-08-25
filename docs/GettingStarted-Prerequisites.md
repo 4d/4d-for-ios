@@ -53,7 +53,6 @@ Version table:
 
 4D for Android requires the Android SDK, including Android Studio. If not installed, it will be automatically downloaded at the launch of the 4D mobile editor on Windows:
 
-
 ## Hardware requirements
 
 * 8GB of RAM (Minimum recommended)
