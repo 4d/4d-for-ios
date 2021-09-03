@@ -12,6 +12,14 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your app.
 * fields will be available later when it's time to define your list and detail forms.
 
+
+
+### Why didn't you select the ID field in the screenshot, above?
+
+You only need to choose fields that your users will see. If your app's users are not going to use the **ID** field, then you do not need to include it. **4D For Mobile** will keep track of it, for you, behind the scenes.
+
+
+
 ## Many to One relations
 
 * 4D 17R5 allows you to visualize table relations in the generated app publishing them from the Structure section. Then when your related fields are published, they can be used like any other field in the [app creation process](many-to-one-relations.html).
