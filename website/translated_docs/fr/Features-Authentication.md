@@ -189,4 +189,4 @@ Et voilà !
 
 ## Que faire ensuite ?
 
-La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !
+La validation de base des e-mails a été détaillée dans ce didacticiel, La validation de base des e-mails a été détaillée dans ce didacticiel, vous devriez maintenant pouvoir accéder facilement à votre application 4D for iOS !

@@ -94,13 +94,6 @@ class HomeSplash extends React.Component {
   }
 }
 
-const Archived = props => (
-  <div style={{textAlign: 'center', backgroundColor:'#8B0000', color: 'white', style:'white', padding:'20px'}}> 
-  <b>This is an archived version of the 4D for iOS documentation. We recommend using <a href="https://developer.4d.com/go-mobile/">Go Mobile</a> instead.</b>
-  </div>
-
-);
-
 const Block = props => (
   <Container
     padding={['bottom', 'top']}
@@ -269,10 +262,8 @@ class Index extends React.Component {
     languageFix = language;
     return (
       <div>
-        <div className="redBlock"><Archived />
-		</div>
-		<HomeSplash language={language} />
-		        <div className="mainContainer">
+        <HomeSplash language={language} />
+        <div className="mainContainer">
           <Features />
           <FeatureCallout />
           <BuildYourApp />

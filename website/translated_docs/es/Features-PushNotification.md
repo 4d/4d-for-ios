@@ -39,7 +39,7 @@ Puede encontrar más información sobre este proceso [aquí](https://github.com/
 
 ## Ejemplo básico para gestionar sus notificaciones push
 
-Este es un ejemplo para enviar una notificación push a `test@4d.com `:
+Este es un ejemplo para enviar una notificación push a `test@4d.com`:
 
 ```4d
 

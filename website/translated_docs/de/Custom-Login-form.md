@@ -8,7 +8,7 @@ title: Custom Login Form
 > 
 > Use a custom login form
 > 
-> Allow authenticated users to login by scanning a QRCode
+> Allow authenticated users to login by scanning a QRCode **PREREQUISITES**
 > **PREREQUISITES**
 > 
 > A website with authenticated users
@@ -215,7 +215,7 @@ Here, we just use a 4DACTION to post login and password to be used in the *Authe
 Here, we use call the *GenerateQRCODE Project Method* using a 4DACTION:
 
 ```
-<h1>2. GENERATE YOUR QRCODE</h1>
+<h1>2. <h1>2. GENERATE YOUR QRCODE</h1>
     <div>
         <p>Create your QRCode to authenticate clicking <a href="/4DACTION/GenerateQRCODE">Here</a></p>
     </div>
@@ -226,7 +226,7 @@ Here, we use call the *GenerateQRCODE Project Method* using a 4DACTION:
 In this last page, we use [4D tags](https://doc.4d.com/4Dv18R6/4D/18-R6/4D-Transformation-Tags.300-5198150.en.html) to get the *data* value:
 
 ```
-<h1>3. SCAN THE QRCODE FROM YOUR PHONE</h1>
+<h1>3. <h1>3. SCAN THE QRCODE FROM YOUR PHONE</h1>
   <div id="canvas"></div>
 
   <script type="text/javascript">

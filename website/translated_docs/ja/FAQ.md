@@ -28,23 +28,7 @@ title: FAQ
 **Are there any prerequisites for 4D for iOS?**
 </summary>
 
-### バージョン対応表
-
-| Xcode  | Swift | iOS  | 4D          | macOS   |
-| ------ | ----- | ---- | ----------- | ------- |
-| 12.4   | 5.3.2 | 14.4 | 18R6 beta   | 10.15.4 |
-| 12.2   | 5.3   | 14.2 | 18R5 & 18.3 | 10.15.4 |
-| 12.0   | 5.3   | 14.0 | 18R4        | 10.15.4 |
-| 11.5   | 5.2.4 | 13.5 | 18R3        | 10.15.2 |
-| 11.4   | 5.2   | 13.4 | 18.2        | 10.15.2 |
-| 11.3.1 | 5.1.3 | 13.3 | 18.1        | 10.14.4 |
-| 11.3.1 | 5.1.3 | 13.3 | 18R2        | 10.14.4 |
-| 11.2   | 5.1   | 13.2 | 18          | 10.14.4 |
- 過去バージョンの Xcode は，下記のサイトから入手することができます。 https://developer.apple.com/download/more/
-
-=> Only registered developers can download preview releases through the Apple Developer website.
-
-[こちら](prerequisites.html)の情報もご覧ください。
+See the prerequisites list [here](GettingStarted-Prerequisites.md).
 
 </details>
 

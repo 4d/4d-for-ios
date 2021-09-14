@@ -72,9 +72,7 @@ var $1 : Object  // Informação subministrada pela aplicação móvel
 var $0 : Object  // Informação devolvida à aplicação móvel
 
 var $action : Object
-$action:=MobileAppServer.Action.new($1)
-
-Case of 
+$action:=MobileAppServer. Action.new($1) Case of 
 
     : ($1.action="shareContact")
 
@@ -82,9 +80,7 @@ Case of
 
     Else 
 
-        $0:=New object("success"; False;"statusText"; "Enviar ação desconhecida ao servidor")
-
-End case 
+        $0:=New object("success"; False;"statusText"; "Enviar ação desconhecida ao servidor") End case 
 
 ```
 
@@ -129,16 +125,14 @@ Este é um exemplo do método **On Web Connection** :
 
 ```4d
 
-Var $1; $2; $3; $4; $5; $6 : Text
-Var $handler : Object
+Var $1; $2; $3; $4; $5; $6 : Text Var $handler : Object
 
-$handler:=MobileAppServer.WebHandler.new()
+$handler:=MobileAppServer. WebHandler.new()
 Case of
     : ($handler.handle($1; $2; $3; $4; $5; $6))
         // Gerenciado pelo código móvel por padrão
     Else
-        // Seu código web
-End case
+        // Seu código web End case
 
 ```
 
@@ -155,7 +149,7 @@ A documentação está [aqui](https://github.com/4d-for-ios/4D-Mobile-App-Server
 
 ## MobileApps folder
 
-Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID.BundleID/manifest.json file from your Design database to your production database.  
+Whether you're working on Windows or on macOS, you need to copy the 4DBASE/MobileApps/ID. BundleID/manifest.json file from your Design database to your production database.  
 
 
 

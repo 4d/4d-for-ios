@@ -27,7 +27,7 @@ Dans la section Données, vous pouvez aussi vérifier la disponibilité du serve
 > 
 > * Plusieurs conseils sont fournis pour s'assurer que le serveur fonctionne correctement.
 > * Vous pouvez accéder directement à la section Publication pour définir votre URL de production.
-> * Pour accéder aux données du serveur de production, un fichier key. mobileapp est requis pour sécuriser les échanges.
+> * Pour accéder aux données du serveur de production, un fichier key.
 
 Vous pouvez définir si vous souhaitez **inclure des images** et si vous souhaitez ou non **régénérer systématiquement les données** à chaque génération.
 

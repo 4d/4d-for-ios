@@ -8,7 +8,7 @@ title: Custom Login Form
 > 
 > Use a custom login form
 > 
-> Allow authenticated users to login by scanning a QRCode
+> Allow authenticated users to login by scanning a QRCode **PRÉ-REQUISITOS**
 > **PRÉ-REQUISITOS**
 > 
 > A website with authenticated users
@@ -97,7 +97,7 @@ var $request; $response : Object
 $request:=$1  // Informations provided by mobile application
 $response:=New object  // Informations returned to mobile application
 
-$entity:=ds.User.query("login = :1"; $request.email)
+$entity:=ds. User.query("login = :1"; $request.email)
 If ($entity.length>0)
     $password:=$entity.first().password  // Get the password from the table
 
@@ -107,15 +107,12 @@ If ($entity.length>0)
         $response.success:=True
     Else 
         $response.success:=False
-    End if 
-Else 
-    $response.success:=False
-End if 
+    End if Else 
+    $response.success:=False End if 
 
 // Optional message to display on mobile App.
 If ($response.success)
-    $response.statusText:="You are successfully authenticated"
-Else 
+    $response.statusText:="You are successfully authenticated" Else 
     $response.statusText:="Sorry, you are not authorized to use this application."
 End if 
 
@@ -130,26 +127,22 @@ $0:=$response
 Here we get the variable from the form and check if those values exist in the User table :
 
 ```
-//Retrieve all the variables of the form
-C_TEXT($1)
+//Retrieve all the variables of the form C_TEXT($1)
 ARRAY TEXT($arrNames; 0)
 ARRAY TEXT($arrVals; 0)
 
-// Get the login and pswd variable from the authentication web page
-WEB GET VARIABLES($arrNames; $arrVals)
+// Get the login and pswd variable from the authentication web page WEB GET VARIABLES($arrNames; $arrVals)
 $VLOGIN:=Find in array($arrNames; "VLOGIN")
 $VPASS:=Find in array($arrNames; "VPASS")
 
-// Shared variable creation to access to it in the code
-Use (Storage)
+// Shared variable creation to access to it in the code Use (Storage)
     Storage.session:=New shared object("login"; ""; "password"; "")
 End use 
 
 // Search if the login / pswd exist and if the user can be authentified
-$entity:=ds.User.query("login = :1 and password = :2"; $arrVals{$VLOGIN}; $arrVals{$VPASS})
+$entity:=ds. User.query("login = :1 and password = :2"; $arrVals{$VLOGIN}; $arrVals{$VPASS})
 
-// If the login / pswd exist the login / pswd are initialised in the share variable
-If ($entity.length>0)
+// If the login / pswd exist the login / pswd are initialised in the share variable If ($entity.length>0)
     Use (Storage.session)
         Storage.session.login:=$arrVals{$VLOGIN}
         Storage.session.password:=$arrVals{$VPASS}
@@ -157,9 +150,7 @@ If ($entity.length>0)
     End use 
 
     // Redirection to the web page
-    WEB SEND HTTP REDIRECT("/createQRCode.html")
-
-Else 
+    WEB SEND HTTP REDIRECT("/createQRCode.html") Else 
     // Back to the home page
     Use (Storage.session)
         Storage.session.success:=False
@@ -182,8 +173,7 @@ $hash:=Generate password hash($token; $options)
 // Process variable creation (json value with mail and encrypted pswd)
 vqrCodeData:=JSON Stringify(New object("email"; $currentUserEmail; "token"; $hash))
 
-// Redirection to the QRcode webpage
-WEB SEND HTTP REDIRECT("/generatedQRCode.shtml")
+// Redirection to the QRcode webpage WEB SEND HTTP REDIRECT("/generatedQRCode.shtml")
 ```
 
 
