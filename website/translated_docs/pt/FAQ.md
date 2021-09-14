@@ -28,30 +28,7 @@ O editor de projetos móveis foi criado para que seja possível usar 4D for iOS 
 **Há algum pré-requisito para 4D for iOS?**
 </summary>
 
-### Tabela de comparação de tabelas
-
-| Xcode  | Swift | iOS  | 4D          | macOS   |
-| ------ | ----- | ---- | ----------- | ------- |
-| 12.4   | 5.3.2 | 14.4 | 18R6 beta   | 10.15.4 |
-| 12.2   | 5.3   | 14.2 | 18R5 & 18.3 | 10.15.4 |
-| 12.0   | 5.3   | 14.0 | 18R4        | 10.15.4 |
-| 11.5   | 5.2.4 | 13.5 | 18R3        | 10.15.2 |
-| 11.4   | 5.2   | 13.4 | 18.2        | 10.15.2 |
-| 11.3.1 | 5.1.3 | 13.3 | 18.1        | 10.14.4 |
-| 11.3.1 | 5.1.3 | 13.3 | 18R2        | 10.14.4 |
-| 11.2   | 5.1   | 13.2 | 18          | 10.14.4 |
-| 10.2.1 | 5.0   | 12.2 | 17R6        | 10.14.4 |
-| 10.2   | 4.2.1 | 12.2 | 17R5        | 10.14.3 |
-| 10.1   | 4.2.1 | 12   | 17R4        | 10.13.6 |
-| 10.0   | 4.2   | 12   | 17R3        | 10.13.6 |
-| 9.4    | 4.1.2 | 11.4 | 17R2        | 10.13.2 |
-| 9.3.1  | 4.1   | 11.3 | 17R2        | 10.13.2 |
-
-Caso precise de uma versão antiga de Xcode pode baixá-la aqui: https://developer.apple.com/download/more/
-
-=> Só os desenvolvedores registrados podem descarregar versões prévias através do website de desenvolvedores de Apple.
-
-Veja a lista de pré-requisitos  [aqui](prerequisites.html).
+See the prerequisites list [here](GettingStarted-Prerequisites.md).
 
 </details>
 
